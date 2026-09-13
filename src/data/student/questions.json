@@ -1,0 +1,2517 @@
+[
+  {
+    "id": "mathematics-001",
+    "subject": "mathematics",
+    "type": "single",
+    "topic": "Differentiation",
+    "difficulty": "Foundation",
+    "prompt": "If $f(x)=x^2$, what is $f\\prime(1)$?",
+    "correct": "1",
+    "explanation": "The power rule gives $f\\prime(x)=2x^{1}$. At $x=1$, the derivative is $2$.",
+    "tip": "Revisit differentiation, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["4", "2", "5", "6"]
+  },
+  {
+    "id": "mathematics-002",
+    "subject": "mathematics",
+    "type": "multiple",
+    "topic": "Quadratic equations",
+    "difficulty": "Standard",
+    "prompt": "Select every root of $x^2-5x+6=0$.",
+    "correct": ["0", "2"],
+    "explanation": "Factorisation gives $(x-2)(x-3)=0$, so the roots are $2$ and $3$.",
+    "tip": "Revisit quadratic equations, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["2", "-2", "3", "-3"]
+  },
+  {
+    "id": "mathematics-003",
+    "subject": "mathematics",
+    "type": "numerical",
+    "topic": "Integration",
+    "difficulty": "Foundation",
+    "prompt": "Evaluate $\\int_0^1 2x\\,dx$. Enter a decimal if needed.",
+    "correct": "1.0",
+    "explanation": "The antiderivative is $\\frac{2x^2}{2}$. Evaluating from 0 to 1 gives $1.0$.",
+    "tip": "Revisit integration, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "mathematics-004",
+    "subject": "mathematics",
+    "type": "integer",
+    "topic": "Counting",
+    "difficulty": "Foundation",
+    "prompt": "How many distinct arrangements can be formed using 3 different books in a row?",
+    "correct": "6",
+    "explanation": "There are $3!=6$ permutations.",
+    "tip": "Revisit counting, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "mathematics-005",
+    "subject": "mathematics",
+    "type": "true_false",
+    "topic": "Logarithms",
+    "difficulty": "Foundation",
+    "prompt": "For positive $x$, $\\log_2(x^2)=2\\log_2x$.",
+    "correct": "0",
+    "explanation": "The logarithm power rule states $\\log_b(x^r)=r\\log_bx$ for a valid base and positive $x$.",
+    "tip": "Revisit logarithms, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "mathematics-006",
+    "subject": "mathematics",
+    "type": "assertion_reason",
+    "topic": "Continuity",
+    "difficulty": "Standard",
+    "prompt": "Assertion: $f(x)=x^2$ is differentiable at $x=0$.\nReason: Every function continuous at a point is differentiable there.",
+    "correct": "2",
+    "explanation": "The assertion is true because polynomials are differentiable everywhere. The reason is false: the absolute-value function is continuous at its corner but not differentiable there.",
+    "tip": "Revisit continuity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "mathematics-007",
+    "subject": "mathematics",
+    "type": "passage",
+    "topic": "Probability",
+    "difficulty": "Foundation",
+    "prompt": "What is the probability of drawing a blue ball?",
+    "correct": "1",
+    "explanation": "There are $4$ blue balls out of $6$ in total, so the probability is $\\frac{4}{6}$.",
+    "tip": "Revisit probability, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A bag contains 2 red balls and 4 blue balls. One ball is drawn uniformly at random. All balls have equal chances of selection.",
+    "options": ["$\\frac{2}{6}$", "$\\frac{4}{6}$", "$1$", "$0$"]
+  },
+  {
+    "id": "mathematics-008",
+    "subject": "mathematics",
+    "type": "match",
+    "topic": "Functions",
+    "difficulty": "Standard",
+    "prompt": "Match each function with its value at $x=2$.",
+    "correct": ["1", "2", "0"],
+    "explanation": "Substitute $2$ into each function: $x+1=3$, $x^2=4$ and $x^3+1=9$.",
+    "tip": "Revisit functions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$x+1$", "$x^2$", "$x^3+1$"],
+    "right": ["9", "3", "4"]
+  },
+  {
+    "id": "mathematics-009",
+    "subject": "mathematics",
+    "type": "ordering",
+    "topic": "Sequences",
+    "difficulty": "Standard",
+    "prompt": "Arrange these values in strictly increasing order. Here $a=2$.",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "For $a=2>1$, $a-1<a<a+1<a+2$.",
+    "tip": "Revisit sequences, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["$a$", "$a+2$", "$a-1$", "$a+1$"]
+  },
+  {
+    "id": "mathematics-010",
+    "subject": "mathematics",
+    "type": "graph",
+    "topic": "Coordinate geometry",
+    "difficulty": "Foundation",
+    "prompt": "What is the slope of the plotted line?",
+    "correct": "2",
+    "explanation": "The line rises by $2$ for each unit increase in $x$, so its slope is $2$.",
+    "tip": "Revisit coordinate geometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["1", "3", "2", "-2"],
+    "graph": {
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "physics-001",
+    "subject": "physics",
+    "type": "single",
+    "topic": "Newton’s laws",
+    "difficulty": "Foundation",
+    "prompt": "A net force of $6\\,\\mathrm{N}$ acts on a $2\\,\\mathrm{kg}$ body. Find its acceleration.",
+    "correct": "1",
+    "explanation": "Newton’s second law gives $a=F/m=6/2=3\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit newton’s laws, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "$1\\,\\mathrm{m\\,s^{-2}}$",
+      "$3\\,\\mathrm{m\\,s^{-2}}$",
+      "$6\\,\\mathrm{m\\,s^{-2}}$",
+      "$9\\,\\mathrm{m\\,s^{-2}}$"
+    ]
+  },
+  {
+    "id": "physics-002",
+    "subject": "physics",
+    "type": "multiple",
+    "topic": "Energy",
+    "difficulty": "Standard",
+    "prompt": "A body of mass $2\\,\\mathrm{kg}$ moves at $2\\,\\mathrm{m\\,s^{-1}}$. Select every correct statement.",
+    "correct": ["0", "3"],
+    "explanation": "$K=mv^2/2=4\\,\\mathrm{J}$ and $p=mv=4\\,\\mathrm{kg\\,m\\,s^{-1}}$. Kinetic energy is scalar; doubling speed quadruples it.",
+    "tip": "Revisit energy, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Kinetic energy is 4 J.",
+      "Kinetic energy is a vector.",
+      "Doubling speed doubles kinetic energy.",
+      "Momentum magnitude is 4 kg m/s."
+    ]
+  },
+  {
+    "id": "physics-003",
+    "subject": "physics",
+    "type": "numerical",
+    "topic": "Electricity",
+    "difficulty": "Foundation",
+    "prompt": "A resistor of $2\\,\\Omega$ carries $0.5\\,\\mathrm{A}$. Find the potential difference in volts.",
+    "correct": "1.0",
+    "explanation": "Ohm’s law: $V=IR=0.5\\times 2=1.0\\,\\mathrm{V}$.",
+    "tip": "Revisit electricity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "physics-004",
+    "subject": "physics",
+    "type": "integer",
+    "topic": "Waves",
+    "difficulty": "Foundation",
+    "prompt": "A wave has frequency $20\\,\\mathrm{Hz}$ and wavelength $2\\,\\mathrm{m}$. Find its speed in m/s.",
+    "correct": "40",
+    "explanation": "$v=f\\lambda=20\\times2=40\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit waves, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "physics-005",
+    "subject": "physics",
+    "type": "true_false",
+    "topic": "Kinematics",
+    "difficulty": "Foundation",
+    "prompt": "An object moves with constant velocity $2\\,\\mathrm{m\\,s^{-1}}$ in a straight line. Its acceleration is zero.",
+    "correct": "0",
+    "explanation": "Acceleration is the rate of change of velocity. A constant velocity has zero rate of change.",
+    "tip": "Revisit kinematics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "physics-006",
+    "subject": "physics",
+    "type": "assertion_reason",
+    "topic": "Physical reasoning",
+    "difficulty": "Standard",
+    "prompt": "Assertion: In vacuum, a feather and a stone released together fall with equal acceleration.\nReason: Gravitational acceleration in the same field is independent of the mass of the falling body.",
+    "correct": "0",
+    "explanation": "With air resistance absent, both objects experience the same gravitational acceleration.",
+    "tip": "Revisit physical reasoning, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "physics-007",
+    "subject": "physics",
+    "type": "passage",
+    "topic": "Momentum",
+    "difficulty": "Foundation",
+    "prompt": "What is the speed of the combined bodies immediately after collision?",
+    "correct": "2",
+    "explanation": "Conservation of momentum gives $v=(2\\times4+2\\times0)/(4)=2\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit momentum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A 2 kg trolley moving at 4 m/s collides with a stationary 2 kg trolley. They stick together. External impulse is negligible.",
+    "options": ["0 m/s", "1 m/s", "2 m/s", "4 m/s"]
+  },
+  {
+    "id": "physics-008",
+    "subject": "physics",
+    "type": "match",
+    "topic": "Units",
+    "difficulty": "Standard",
+    "prompt": "Match the quantities with their SI units. Set 1.",
+    "correct": ["2", "0", "1"],
+    "explanation": "Force is measured in newton, Power in watt and Electric charge in coulomb.",
+    "tip": "Revisit units, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["Force", "Power", "Electric charge"],
+    "right": ["Watt", "Coulomb", "Newton"]
+  },
+  {
+    "id": "physics-009",
+    "subject": "physics",
+    "type": "ordering",
+    "topic": "Electromagnetic spectrum",
+    "difficulty": "Standard",
+    "prompt": "Arrange these electromagnetic waves in increasing frequency (set 1).",
+    "correct": ["1", "3", "0", "2"],
+    "explanation": "The frequency order is radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray.",
+    "tip": "Revisit electromagnetic spectrum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Visible light", "Radio waves", "X-rays", "Infrared"]
+  },
+  {
+    "id": "physics-010",
+    "subject": "physics",
+    "type": "graph",
+    "topic": "Motion graphs",
+    "difficulty": "Foundation",
+    "prompt": "The graph shows velocity against time. Find the acceleration.",
+    "correct": "0",
+    "explanation": "Acceleration is the slope of the velocity–time graph: $\\Delta v/\\Delta t=2\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit motion graphs, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["2 m/s²", "3 m/s²", "0 m/s²", "5 m/s²"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Velocity (m/s)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "chemistry-001",
+    "subject": "chemistry",
+    "type": "single",
+    "topic": "Mole concept",
+    "difficulty": "Foundation",
+    "prompt": "How many moles are present in $36\\,\\mathrm{g}$ of water? Use $M(\\ce{H2O})=18\\,\\mathrm{g\\,mol^{-1}}$.",
+    "correct": "2",
+    "explanation": "$n=m/M=36/18=2\\,\\mathrm{mol}$.",
+    "tip": "Revisit mole concept, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["3", "1", "2", "4"]
+  },
+  {
+    "id": "chemistry-002",
+    "subject": "chemistry",
+    "type": "multiple",
+    "topic": "Oxidation states",
+    "difficulty": "Standard",
+    "prompt": "For sulfur in $\\ce{H2SO4}$, select all correct statements.",
+    "correct": ["0", "2"],
+    "explanation": "$2(+1)+x+4(-2)=0$ gives $x=+6$. Oxidation states in a neutral compound sum to zero.",
+    "tip": "Revisit oxidation states, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "The oxidation state of sulfur is +6.",
+      "All atoms have oxidation state zero.",
+      "The sum of all oxidation states in this neutral compound is zero.",
+      "The oxidation state of sulfur is +7."
+    ]
+  },
+  {
+    "id": "chemistry-003",
+    "subject": "chemistry",
+    "type": "numerical",
+    "topic": "Solutions",
+    "difficulty": "Foundation",
+    "prompt": "$2\\,\\mathrm{mol}$ of solute is dissolved to make $4\\,\\mathrm{L}$ of solution. Find molarity in mol/L.",
+    "correct": "0.5",
+    "explanation": "$M=n/V=2/4=0.5\\,\\mathrm{mol\\,L^{-1}}$.",
+    "tip": "Revisit solutions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "chemistry-004",
+    "subject": "chemistry",
+    "type": "integer",
+    "topic": "Acids and bases",
+    "difficulty": "Foundation",
+    "prompt": "A dilute aqueous solution has $[\\ce{H+}]=10^{-2}\\,\\mathrm{mol\\,L^{-1}}$. Using concentration to approximate activity, find its pH.",
+    "correct": "2",
+    "explanation": "$\\mathrm{pH}=-\\log_{10}(10^{-2})=2$.",
+    "tip": "Revisit acids and bases, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "chemistry-005",
+    "subject": "chemistry",
+    "type": "true_false",
+    "topic": "Chemical fundamentals",
+    "difficulty": "Foundation",
+    "prompt": "Isotopes of the same element have the same atomic number.",
+    "correct": "0",
+    "explanation": "Isotopes share proton number but differ in neutron number.",
+    "tip": "Revisit chemical fundamentals, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "chemistry-006",
+    "subject": "chemistry",
+    "type": "assertion_reason",
+    "topic": "Bonding and kinetics",
+    "difficulty": "Standard",
+    "prompt": "Assertion: Increasing temperature usually increases a reaction rate.\nReason: A larger fraction of molecules can exceed the activation-energy barrier.",
+    "correct": "0",
+    "explanation": "The increase in sufficiently energetic collisions explains the usual rate increase.",
+    "tip": "Revisit bonding and kinetics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "chemistry-007",
+    "subject": "chemistry",
+    "type": "passage",
+    "topic": "Stoichiometry",
+    "difficulty": "Foundation",
+    "prompt": "How many moles of water can form if hydrogen reacts completely?",
+    "correct": "1",
+    "explanation": "The balanced equation has a 1:1 mole ratio of hydrogen to water, so $2\\,\\mathrm{mol}$ of water forms.",
+    "tip": "Revisit stoichiometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "Consider $\\ce{2H2 + O2 -> 2H2O}$. A vessel contains 2 mol of hydrogen and excess oxygen. The reaction proceeds to completion.",
+    "options": ["1.0 mol", "2 mol", "4 mol", "3 mol"]
+  },
+  {
+    "id": "chemistry-008",
+    "subject": "chemistry",
+    "type": "match",
+    "topic": "Classification",
+    "difficulty": "Standard",
+    "prompt": "Match each substance with its classification (set 1).",
+    "correct": ["2", "0", "1"],
+    "explanation": "$\\ce{CH4}$: Alkane; $\\ce{C2H4}$: Alkene; $\\ce{C2H2}$: Alkyne.",
+    "tip": "Revisit classification, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$\\ce{CH4}$", "$\\ce{C2H4}$", "$\\ce{C2H2}$"],
+    "right": ["Alkene", "Alkyne", "Alkane"]
+  },
+  {
+    "id": "chemistry-009",
+    "subject": "chemistry",
+    "type": "ordering",
+    "topic": "Atomic structure",
+    "difficulty": "Standard",
+    "prompt": "Arrange these neutral atoms in increasing atomic number (set 1).",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "Increasing atomic number follows the number of protons, which defines the element.",
+    "tip": "Revisit atomic structure, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Carbon (6)", "Oxygen (8)", "Boron (5)", "Nitrogen (7)"]
+  },
+  {
+    "id": "chemistry-010",
+    "subject": "chemistry",
+    "type": "graph",
+    "topic": "Reaction rates",
+    "difficulty": "Foundation",
+    "prompt": "A reactant concentration is plotted against time. Find its average rate of disappearance from 0 to 4 s, in mol L⁻¹ s⁻¹.",
+    "correct": "3",
+    "explanation": "Rate of disappearance is $-\\Delta c/\\Delta t=(10-2)/4=2\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$.",
+    "tip": "Revisit reaction rates, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["3", "-2", "4", "2"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Concentration (mol/L)",
+      "points": [
+        {
+          "x": 0,
+          "y": 10
+        },
+        {
+          "x": 1,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "mathematics-011",
+    "subject": "mathematics",
+    "type": "single",
+    "topic": "Differentiation",
+    "difficulty": "Foundation",
+    "prompt": "If $f(x)=x^3$, what is $f\\prime(1)$?",
+    "correct": "2",
+    "explanation": "The power rule gives $f\\prime(x)=3x^{2}$. At $x=1$, the derivative is $3$.",
+    "tip": "Revisit differentiation, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5", "6", "3", "7"]
+  },
+  {
+    "id": "mathematics-012",
+    "subject": "mathematics",
+    "type": "multiple",
+    "topic": "Quadratic equations",
+    "difficulty": "Standard",
+    "prompt": "Select every root of $x^2-7x+12=0$.",
+    "correct": ["0", "2"],
+    "explanation": "Factorisation gives $(x-3)(x-4)=0$, so the roots are $3$ and $4$.",
+    "tip": "Revisit quadratic equations, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["3", "-3", "4", "-4"]
+  },
+  {
+    "id": "mathematics-013",
+    "subject": "mathematics",
+    "type": "numerical",
+    "topic": "Integration",
+    "difficulty": "Foundation",
+    "prompt": "Evaluate $\\int_0^1 3x\\,dx$. Enter a decimal if needed.",
+    "correct": "1.5",
+    "explanation": "The antiderivative is $\\frac{3x^2}{2}$. Evaluating from 0 to 1 gives $1.5$.",
+    "tip": "Revisit integration, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "mathematics-014",
+    "subject": "mathematics",
+    "type": "integer",
+    "topic": "Counting",
+    "difficulty": "Foundation",
+    "prompt": "How many distinct arrangements can be formed using 4 different books in a row?",
+    "correct": "24",
+    "explanation": "There are $4!=24$ permutations.",
+    "tip": "Revisit counting, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "mathematics-015",
+    "subject": "mathematics",
+    "type": "true_false",
+    "topic": "Logarithms",
+    "difficulty": "Foundation",
+    "prompt": "For positive $x$, $\\log_3(x^3)=3\\log_3x$.",
+    "correct": "0",
+    "explanation": "The logarithm power rule states $\\log_b(x^r)=r\\log_bx$ for a valid base and positive $x$.",
+    "tip": "Revisit logarithms, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "mathematics-016",
+    "subject": "mathematics",
+    "type": "assertion_reason",
+    "topic": "Continuity",
+    "difficulty": "Standard",
+    "prompt": "Assertion: $f(x)=x^3$ is differentiable at $x=0$.\nReason: Every function continuous at a point is differentiable there.",
+    "correct": "2",
+    "explanation": "The assertion is true because polynomials are differentiable everywhere. The reason is false: the absolute-value function is continuous at its corner but not differentiable there.",
+    "tip": "Revisit continuity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "mathematics-017",
+    "subject": "mathematics",
+    "type": "passage",
+    "topic": "Probability",
+    "difficulty": "Foundation",
+    "prompt": "What is the probability of drawing a blue ball?",
+    "correct": "1",
+    "explanation": "There are $5$ blue balls out of $8$ in total, so the probability is $\\frac{5}{8}$.",
+    "tip": "Revisit probability, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A bag contains 3 red balls and 5 blue balls. One ball is drawn uniformly at random. All balls have equal chances of selection.",
+    "options": ["$\\frac{3}{8}$", "$\\frac{5}{8}$", "$1$", "$0$"]
+  },
+  {
+    "id": "mathematics-018",
+    "subject": "mathematics",
+    "type": "match",
+    "topic": "Functions",
+    "difficulty": "Standard",
+    "prompt": "Match each function with its value at $x=3$.",
+    "correct": ["1", "2", "0"],
+    "explanation": "Substitute $3$ into each function: $x+1=4$, $x^2=9$ and $x^3+1=28$.",
+    "tip": "Revisit functions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$x+1$", "$x^2$", "$x^3+1$"],
+    "right": ["28", "4", "9"]
+  },
+  {
+    "id": "mathematics-019",
+    "subject": "mathematics",
+    "type": "ordering",
+    "topic": "Sequences",
+    "difficulty": "Standard",
+    "prompt": "Arrange these values in strictly increasing order. Here $a=3$.",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "For $a=3>1$, $a-1<a<a+1<a+2$.",
+    "tip": "Revisit sequences, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["$a$", "$a+2$", "$a-1$", "$a+1$"]
+  },
+  {
+    "id": "mathematics-020",
+    "subject": "mathematics",
+    "type": "graph",
+    "topic": "Coordinate geometry",
+    "difficulty": "Foundation",
+    "prompt": "What is the slope of the plotted line?",
+    "correct": "2",
+    "explanation": "The line rises by $3$ for each unit increase in $x$, so its slope is $3$.",
+    "tip": "Revisit coordinate geometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["2", "4", "3", "-3"],
+    "graph": {
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "physics-011",
+    "subject": "physics",
+    "type": "single",
+    "topic": "Newton’s laws",
+    "difficulty": "Foundation",
+    "prompt": "A net force of $9\\,\\mathrm{N}$ acts on a $3\\,\\mathrm{kg}$ body. Find its acceleration.",
+    "correct": "1",
+    "explanation": "Newton’s second law gives $a=F/m=9/3=3\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit newton’s laws, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "$1\\,\\mathrm{m\\,s^{-2}}$",
+      "$3\\,\\mathrm{m\\,s^{-2}}$",
+      "$6\\,\\mathrm{m\\,s^{-2}}$",
+      "$9\\,\\mathrm{m\\,s^{-2}}$"
+    ]
+  },
+  {
+    "id": "physics-012",
+    "subject": "physics",
+    "type": "multiple",
+    "topic": "Energy",
+    "difficulty": "Standard",
+    "prompt": "A body of mass $3\\,\\mathrm{kg}$ moves at $2\\,\\mathrm{m\\,s^{-1}}$. Select every correct statement.",
+    "correct": ["0", "3"],
+    "explanation": "$K=mv^2/2=6\\,\\mathrm{J}$ and $p=mv=6\\,\\mathrm{kg\\,m\\,s^{-1}}$. Kinetic energy is scalar; doubling speed quadruples it.",
+    "tip": "Revisit energy, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Kinetic energy is 6 J.",
+      "Kinetic energy is a vector.",
+      "Doubling speed doubles kinetic energy.",
+      "Momentum magnitude is 6 kg m/s."
+    ]
+  },
+  {
+    "id": "physics-013",
+    "subject": "physics",
+    "type": "numerical",
+    "topic": "Electricity",
+    "difficulty": "Foundation",
+    "prompt": "A resistor of $3\\,\\Omega$ carries $0.5\\,\\mathrm{A}$. Find the potential difference in volts.",
+    "correct": "1.5",
+    "explanation": "Ohm’s law: $V=IR=0.5\\times 3=1.5\\,\\mathrm{V}$.",
+    "tip": "Revisit electricity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "physics-014",
+    "subject": "physics",
+    "type": "integer",
+    "topic": "Waves",
+    "difficulty": "Foundation",
+    "prompt": "A wave has frequency $30\\,\\mathrm{Hz}$ and wavelength $2\\,\\mathrm{m}$. Find its speed in m/s.",
+    "correct": "60",
+    "explanation": "$v=f\\lambda=30\\times2=60\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit waves, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "physics-015",
+    "subject": "physics",
+    "type": "true_false",
+    "topic": "Kinematics",
+    "difficulty": "Foundation",
+    "prompt": "An object moves with constant velocity $3\\,\\mathrm{m\\,s^{-1}}$ in a straight line. Its acceleration is zero.",
+    "correct": "0",
+    "explanation": "Acceleration is the rate of change of velocity. A constant velocity has zero rate of change.",
+    "tip": "Revisit kinematics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "physics-016",
+    "subject": "physics",
+    "type": "assertion_reason",
+    "topic": "Physical reasoning",
+    "difficulty": "Standard",
+    "prompt": "Assertion: A body moving in a circle at constant speed has zero acceleration.\nReason: Its velocity direction changes continuously.",
+    "correct": "3",
+    "explanation": "Velocity includes direction. Changing direction gives centripetal acceleration even at constant speed.",
+    "tip": "Revisit physical reasoning, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "physics-017",
+    "subject": "physics",
+    "type": "passage",
+    "topic": "Momentum",
+    "difficulty": "Foundation",
+    "prompt": "What is the speed of the combined bodies immediately after collision?",
+    "correct": "2",
+    "explanation": "Conservation of momentum gives $v=(3\\times4+3\\times0)/(6)=2\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit momentum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A 3 kg trolley moving at 4 m/s collides with a stationary 3 kg trolley. They stick together. External impulse is negligible.",
+    "options": ["0 m/s", "1 m/s", "2 m/s", "4 m/s"]
+  },
+  {
+    "id": "physics-018",
+    "subject": "physics",
+    "type": "match",
+    "topic": "Units",
+    "difficulty": "Standard",
+    "prompt": "Match the quantities with their SI units. Set 2.",
+    "correct": ["2", "0", "1"],
+    "explanation": "Energy is measured in joule, Frequency in hertz and Resistance in ohm.",
+    "tip": "Revisit units, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["Energy", "Frequency", "Resistance"],
+    "right": ["Hertz", "Ohm", "Joule"]
+  },
+  {
+    "id": "physics-019",
+    "subject": "physics",
+    "type": "ordering",
+    "topic": "Electromagnetic spectrum",
+    "difficulty": "Standard",
+    "prompt": "Arrange these electromagnetic waves in increasing frequency (set 2).",
+    "correct": ["1", "3", "0", "2"],
+    "explanation": "The frequency order is radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray.",
+    "tip": "Revisit electromagnetic spectrum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Ultraviolet", "Microwaves", "Gamma rays", "Visible light"]
+  },
+  {
+    "id": "physics-020",
+    "subject": "physics",
+    "type": "graph",
+    "topic": "Motion graphs",
+    "difficulty": "Foundation",
+    "prompt": "The graph shows velocity against time. Find the acceleration.",
+    "correct": "0",
+    "explanation": "Acceleration is the slope of the velocity–time graph: $\\Delta v/\\Delta t=3\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit motion graphs, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["3 m/s²", "4 m/s²", "0 m/s²", "7 m/s²"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Velocity (m/s)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 12
+        }
+      ]
+    }
+  },
+  {
+    "id": "chemistry-011",
+    "subject": "chemistry",
+    "type": "single",
+    "topic": "Mole concept",
+    "difficulty": "Foundation",
+    "prompt": "How many moles are present in $54\\,\\mathrm{g}$ of water? Use $M(\\ce{H2O})=18\\,\\mathrm{g\\,mol^{-1}}$.",
+    "correct": "2",
+    "explanation": "$n=m/M=54/18=3\\,\\mathrm{mol}$.",
+    "tip": "Revisit mole concept, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["4", "2", "3", "6"]
+  },
+  {
+    "id": "chemistry-012",
+    "subject": "chemistry",
+    "type": "multiple",
+    "topic": "Oxidation states",
+    "difficulty": "Standard",
+    "prompt": "For sulfur in $\\ce{SO2}$, select all correct statements.",
+    "correct": ["0", "2"],
+    "explanation": "$x+2(-2)=0$ gives $x=+4$. Oxidation states in a neutral compound sum to zero.",
+    "tip": "Revisit oxidation states, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "The oxidation state of sulfur is +4.",
+      "All atoms have oxidation state zero.",
+      "The sum of all oxidation states in this neutral compound is zero.",
+      "The oxidation state of sulfur is +5."
+    ]
+  },
+  {
+    "id": "chemistry-013",
+    "subject": "chemistry",
+    "type": "numerical",
+    "topic": "Solutions",
+    "difficulty": "Foundation",
+    "prompt": "$3\\,\\mathrm{mol}$ of solute is dissolved to make $4\\,\\mathrm{L}$ of solution. Find molarity in mol/L.",
+    "correct": "0.75",
+    "explanation": "$M=n/V=3/4=0.75\\,\\mathrm{mol\\,L^{-1}}$.",
+    "tip": "Revisit solutions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "chemistry-014",
+    "subject": "chemistry",
+    "type": "integer",
+    "topic": "Acids and bases",
+    "difficulty": "Foundation",
+    "prompt": "A dilute aqueous solution has $[\\ce{H+}]=10^{-3}\\,\\mathrm{mol\\,L^{-1}}$. Using concentration to approximate activity, find its pH.",
+    "correct": "3",
+    "explanation": "$\\mathrm{pH}=-\\log_{10}(10^{-3})=3$.",
+    "tip": "Revisit acids and bases, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "chemistry-015",
+    "subject": "chemistry",
+    "type": "true_false",
+    "topic": "Chemical fundamentals",
+    "difficulty": "Foundation",
+    "prompt": "A catalyst changes the equilibrium constant at fixed temperature.",
+    "correct": "1",
+    "explanation": "A catalyst changes reaction rates, not the equilibrium constant.",
+    "tip": "Revisit chemical fundamentals, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "chemistry-016",
+    "subject": "chemistry",
+    "type": "assertion_reason",
+    "topic": "Bonding and kinetics",
+    "difficulty": "Standard",
+    "prompt": "Assertion: Solid sodium chloride conducts electricity well.\nReason: Its ions are fixed in a crystal lattice.",
+    "correct": "3",
+    "explanation": "Fixed ions cannot carry bulk current through the solid; molten sodium chloride conducts.",
+    "tip": "Revisit bonding and kinetics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "chemistry-017",
+    "subject": "chemistry",
+    "type": "passage",
+    "topic": "Stoichiometry",
+    "difficulty": "Foundation",
+    "prompt": "How many moles of water can form if hydrogen reacts completely?",
+    "correct": "1",
+    "explanation": "The balanced equation has a 1:1 mole ratio of hydrogen to water, so $3\\,\\mathrm{mol}$ of water forms.",
+    "tip": "Revisit stoichiometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "Consider $\\ce{2H2 + O2 -> 2H2O}$. A vessel contains 3 mol of hydrogen and excess oxygen. The reaction proceeds to completion.",
+    "options": ["1.5 mol", "3 mol", "6 mol", "4 mol"]
+  },
+  {
+    "id": "chemistry-018",
+    "subject": "chemistry",
+    "type": "match",
+    "topic": "Classification",
+    "difficulty": "Standard",
+    "prompt": "Match each substance with its classification (set 2).",
+    "correct": ["2", "0", "1"],
+    "explanation": "$\\ce{CH3OH}$: Alcohol; $\\ce{CH3CHO}$: Aldehyde; $\\ce{CH3COOH}$: Carboxylic acid.",
+    "tip": "Revisit classification, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$\\ce{CH3OH}$", "$\\ce{CH3CHO}$", "$\\ce{CH3COOH}$"],
+    "right": ["Aldehyde", "Carboxylic acid", "Alcohol"]
+  },
+  {
+    "id": "chemistry-019",
+    "subject": "chemistry",
+    "type": "ordering",
+    "topic": "Atomic structure",
+    "difficulty": "Standard",
+    "prompt": "Arrange these neutral atoms in increasing atomic number (set 2).",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "Increasing atomic number follows the number of protons, which defines the element.",
+    "tip": "Revisit atomic structure, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": [
+      "Magnesium (12)",
+      "Silicon (14)",
+      "Sodium (11)",
+      "Aluminium (13)"
+    ]
+  },
+  {
+    "id": "chemistry-020",
+    "subject": "chemistry",
+    "type": "graph",
+    "topic": "Reaction rates",
+    "difficulty": "Foundation",
+    "prompt": "A reactant concentration is plotted against time. Find its average rate of disappearance from 0 to 4 s, in mol L⁻¹ s⁻¹.",
+    "correct": "3",
+    "explanation": "Rate of disappearance is $-\\Delta c/\\Delta t=(15-3)/4=3\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$.",
+    "tip": "Revisit reaction rates, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["4", "-3", "6", "3"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Concentration (mol/L)",
+      "points": [
+        {
+          "x": 0,
+          "y": 15
+        },
+        {
+          "x": 1,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "mathematics-021",
+    "subject": "mathematics",
+    "type": "single",
+    "topic": "Differentiation",
+    "difficulty": "Foundation",
+    "prompt": "If $f(x)=x^4$, what is $f\\prime(1)$?",
+    "correct": "3",
+    "explanation": "The power rule gives $f\\prime(x)=4x^{3}$. At $x=1$, the derivative is $4$.",
+    "tip": "Revisit differentiation, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["6", "7", "8", "4"]
+  },
+  {
+    "id": "mathematics-022",
+    "subject": "mathematics",
+    "type": "multiple",
+    "topic": "Quadratic equations",
+    "difficulty": "Standard",
+    "prompt": "Select every root of $x^2-9x+20=0$.",
+    "correct": ["0", "2"],
+    "explanation": "Factorisation gives $(x-4)(x-5)=0$, so the roots are $4$ and $5$.",
+    "tip": "Revisit quadratic equations, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["4", "-4", "5", "-5"]
+  },
+  {
+    "id": "mathematics-023",
+    "subject": "mathematics",
+    "type": "numerical",
+    "topic": "Integration",
+    "difficulty": "Foundation",
+    "prompt": "Evaluate $\\int_0^1 4x\\,dx$. Enter a decimal if needed.",
+    "correct": "2.0",
+    "explanation": "The antiderivative is $\\frac{4x^2}{2}$. Evaluating from 0 to 1 gives $2.0$.",
+    "tip": "Revisit integration, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "mathematics-024",
+    "subject": "mathematics",
+    "type": "integer",
+    "topic": "Counting",
+    "difficulty": "Foundation",
+    "prompt": "How many distinct arrangements can be formed using 5 different books in a row?",
+    "correct": "120",
+    "explanation": "There are $5!=120$ permutations.",
+    "tip": "Revisit counting, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "mathematics-025",
+    "subject": "mathematics",
+    "type": "true_false",
+    "topic": "Logarithms",
+    "difficulty": "Foundation",
+    "prompt": "For positive $x$, $\\log_4(x^4)=4\\log_4x$.",
+    "correct": "0",
+    "explanation": "The logarithm power rule states $\\log_b(x^r)=r\\log_bx$ for a valid base and positive $x$.",
+    "tip": "Revisit logarithms, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "mathematics-026",
+    "subject": "mathematics",
+    "type": "assertion_reason",
+    "topic": "Continuity",
+    "difficulty": "Standard",
+    "prompt": "Assertion: $f(x)=x^4$ is differentiable at $x=0$.\nReason: Every function continuous at a point is differentiable there.",
+    "correct": "2",
+    "explanation": "The assertion is true because polynomials are differentiable everywhere. The reason is false: the absolute-value function is continuous at its corner but not differentiable there.",
+    "tip": "Revisit continuity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "mathematics-027",
+    "subject": "mathematics",
+    "type": "passage",
+    "topic": "Probability",
+    "difficulty": "Foundation",
+    "prompt": "What is the probability of drawing a blue ball?",
+    "correct": "1",
+    "explanation": "There are $6$ blue balls out of $10$ in total, so the probability is $\\frac{6}{10}$.",
+    "tip": "Revisit probability, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A bag contains 4 red balls and 6 blue balls. One ball is drawn uniformly at random. All balls have equal chances of selection.",
+    "options": ["$\\frac{4}{10}$", "$\\frac{6}{10}$", "$1$", "$0$"]
+  },
+  {
+    "id": "mathematics-028",
+    "subject": "mathematics",
+    "type": "match",
+    "topic": "Functions",
+    "difficulty": "Standard",
+    "prompt": "Match each function with its value at $x=4$.",
+    "correct": ["1", "2", "0"],
+    "explanation": "Substitute $4$ into each function: $x+1=5$, $x^2=16$ and $x^3+1=65$.",
+    "tip": "Revisit functions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$x+1$", "$x^2$", "$x^3+1$"],
+    "right": ["65", "5", "16"]
+  },
+  {
+    "id": "mathematics-029",
+    "subject": "mathematics",
+    "type": "ordering",
+    "topic": "Sequences",
+    "difficulty": "Standard",
+    "prompt": "Arrange these values in strictly increasing order. Here $a=4$.",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "For $a=4>1$, $a-1<a<a+1<a+2$.",
+    "tip": "Revisit sequences, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["$a$", "$a+2$", "$a-1$", "$a+1$"]
+  },
+  {
+    "id": "mathematics-030",
+    "subject": "mathematics",
+    "type": "graph",
+    "topic": "Coordinate geometry",
+    "difficulty": "Foundation",
+    "prompt": "What is the slope of the plotted line?",
+    "correct": "2",
+    "explanation": "The line rises by $4$ for each unit increase in $x$, so its slope is $4$.",
+    "tip": "Revisit coordinate geometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["3", "5", "4", "-4"],
+    "graph": {
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 13
+        },
+        {
+          "x": 4,
+          "y": 17
+        }
+      ]
+    }
+  },
+  {
+    "id": "physics-021",
+    "subject": "physics",
+    "type": "single",
+    "topic": "Newton’s laws",
+    "difficulty": "Foundation",
+    "prompt": "A net force of $12\\,\\mathrm{N}$ acts on a $4\\,\\mathrm{kg}$ body. Find its acceleration.",
+    "correct": "1",
+    "explanation": "Newton’s second law gives $a=F/m=12/4=3\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit newton’s laws, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "$1\\,\\mathrm{m\\,s^{-2}}$",
+      "$3\\,\\mathrm{m\\,s^{-2}}$",
+      "$6\\,\\mathrm{m\\,s^{-2}}$",
+      "$9\\,\\mathrm{m\\,s^{-2}}$"
+    ]
+  },
+  {
+    "id": "physics-022",
+    "subject": "physics",
+    "type": "multiple",
+    "topic": "Energy",
+    "difficulty": "Standard",
+    "prompt": "A body of mass $4\\,\\mathrm{kg}$ moves at $2\\,\\mathrm{m\\,s^{-1}}$. Select every correct statement.",
+    "correct": ["0", "3"],
+    "explanation": "$K=mv^2/2=8\\,\\mathrm{J}$ and $p=mv=8\\,\\mathrm{kg\\,m\\,s^{-1}}$. Kinetic energy is scalar; doubling speed quadruples it.",
+    "tip": "Revisit energy, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Kinetic energy is 8 J.",
+      "Kinetic energy is a vector.",
+      "Doubling speed doubles kinetic energy.",
+      "Momentum magnitude is 8 kg m/s."
+    ]
+  },
+  {
+    "id": "physics-023",
+    "subject": "physics",
+    "type": "numerical",
+    "topic": "Electricity",
+    "difficulty": "Foundation",
+    "prompt": "A resistor of $4\\,\\Omega$ carries $0.5\\,\\mathrm{A}$. Find the potential difference in volts.",
+    "correct": "2.0",
+    "explanation": "Ohm’s law: $V=IR=0.5\\times 4=2.0\\,\\mathrm{V}$.",
+    "tip": "Revisit electricity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "physics-024",
+    "subject": "physics",
+    "type": "integer",
+    "topic": "Waves",
+    "difficulty": "Foundation",
+    "prompt": "A wave has frequency $40\\,\\mathrm{Hz}$ and wavelength $2\\,\\mathrm{m}$. Find its speed in m/s.",
+    "correct": "80",
+    "explanation": "$v=f\\lambda=40\\times2=80\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit waves, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "physics-025",
+    "subject": "physics",
+    "type": "true_false",
+    "topic": "Kinematics",
+    "difficulty": "Foundation",
+    "prompt": "An object moves with constant velocity $4\\,\\mathrm{m\\,s^{-1}}$ in a straight line. Its acceleration is zero.",
+    "correct": "0",
+    "explanation": "Acceleration is the rate of change of velocity. A constant velocity has zero rate of change.",
+    "tip": "Revisit kinematics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "physics-026",
+    "subject": "physics",
+    "type": "assertion_reason",
+    "topic": "Physical reasoning",
+    "difficulty": "Standard",
+    "prompt": "Assertion: A convex lens can form a real image.\nReason: Every image formed by a convex lens is virtual.",
+    "correct": "2",
+    "explanation": "Objects beyond the focal point can produce real images; objects within it produce virtual images.",
+    "tip": "Revisit physical reasoning, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "physics-027",
+    "subject": "physics",
+    "type": "passage",
+    "topic": "Momentum",
+    "difficulty": "Foundation",
+    "prompt": "What is the speed of the combined bodies immediately after collision?",
+    "correct": "2",
+    "explanation": "Conservation of momentum gives $v=(4\\times4+4\\times0)/(8)=2\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit momentum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A 4 kg trolley moving at 4 m/s collides with a stationary 4 kg trolley. They stick together. External impulse is negligible.",
+    "options": ["0 m/s", "1 m/s", "2 m/s", "4 m/s"]
+  },
+  {
+    "id": "physics-028",
+    "subject": "physics",
+    "type": "match",
+    "topic": "Units",
+    "difficulty": "Standard",
+    "prompt": "Match the quantities with their SI units. Set 3.",
+    "correct": ["2", "0", "1"],
+    "explanation": "Pressure is measured in pascal, Potential difference in volt and Capacitance in farad.",
+    "tip": "Revisit units, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["Pressure", "Potential difference", "Capacitance"],
+    "right": ["Volt", "Farad", "Pascal"]
+  },
+  {
+    "id": "physics-029",
+    "subject": "physics",
+    "type": "ordering",
+    "topic": "Electromagnetic spectrum",
+    "difficulty": "Standard",
+    "prompt": "Arrange these electromagnetic waves in increasing frequency (set 3).",
+    "correct": ["1", "3", "0", "2"],
+    "explanation": "The frequency order is radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray.",
+    "tip": "Revisit electromagnetic spectrum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Infrared", "Radio waves", "Ultraviolet", "Microwaves"]
+  },
+  {
+    "id": "physics-030",
+    "subject": "physics",
+    "type": "graph",
+    "topic": "Motion graphs",
+    "difficulty": "Foundation",
+    "prompt": "The graph shows velocity against time. Find the acceleration.",
+    "correct": "0",
+    "explanation": "Acceleration is the slope of the velocity–time graph: $\\Delta v/\\Delta t=4\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit motion graphs, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["4 m/s²", "5 m/s²", "0 m/s²", "9 m/s²"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Velocity (m/s)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 12
+        },
+        {
+          "x": 4,
+          "y": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "chemistry-021",
+    "subject": "chemistry",
+    "type": "single",
+    "topic": "Mole concept",
+    "difficulty": "Foundation",
+    "prompt": "How many moles are present in $72\\,\\mathrm{g}$ of water? Use $M(\\ce{H2O})=18\\,\\mathrm{g\\,mol^{-1}}$.",
+    "correct": "2",
+    "explanation": "$n=m/M=72/18=4\\,\\mathrm{mol}$.",
+    "tip": "Revisit mole concept, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5", "3", "4", "8"]
+  },
+  {
+    "id": "chemistry-022",
+    "subject": "chemistry",
+    "type": "multiple",
+    "topic": "Oxidation states",
+    "difficulty": "Standard",
+    "prompt": "For sulfur in $\\ce{H2S}$, select all correct statements.",
+    "correct": ["0", "2"],
+    "explanation": "$2(+1)+x=0$ gives $x=-2$. Oxidation states in a neutral compound sum to zero.",
+    "tip": "Revisit oxidation states, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "The oxidation state of sulfur is -2.",
+      "All atoms have oxidation state zero.",
+      "The sum of all oxidation states in this neutral compound is zero.",
+      "The oxidation state of sulfur is -1."
+    ]
+  },
+  {
+    "id": "chemistry-023",
+    "subject": "chemistry",
+    "type": "numerical",
+    "topic": "Solutions",
+    "difficulty": "Foundation",
+    "prompt": "$4\\,\\mathrm{mol}$ of solute is dissolved to make $4\\,\\mathrm{L}$ of solution. Find molarity in mol/L.",
+    "correct": "1.0",
+    "explanation": "$M=n/V=4/4=1.0\\,\\mathrm{mol\\,L^{-1}}$.",
+    "tip": "Revisit solutions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "chemistry-024",
+    "subject": "chemistry",
+    "type": "integer",
+    "topic": "Acids and bases",
+    "difficulty": "Foundation",
+    "prompt": "A dilute aqueous solution has $[\\ce{H+}]=10^{-4}\\,\\mathrm{mol\\,L^{-1}}$. Using concentration to approximate activity, find its pH.",
+    "correct": "4",
+    "explanation": "$\\mathrm{pH}=-\\log_{10}(10^{-4})=4$.",
+    "tip": "Revisit acids and bases, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "chemistry-025",
+    "subject": "chemistry",
+    "type": "true_false",
+    "topic": "Chemical fundamentals",
+    "difficulty": "Foundation",
+    "prompt": "An electron has a positive electric charge.",
+    "correct": "1",
+    "explanation": "An electron has a negative electric charge.",
+    "tip": "Revisit chemical fundamentals, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "chemistry-026",
+    "subject": "chemistry",
+    "type": "assertion_reason",
+    "topic": "Bonding and kinetics",
+    "difficulty": "Standard",
+    "prompt": "Assertion: Water is a polar molecule.\nReason: Its molecular shape is linear.",
+    "correct": "2",
+    "explanation": "Water is bent, so its bond dipoles do not cancel.",
+    "tip": "Revisit bonding and kinetics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "chemistry-027",
+    "subject": "chemistry",
+    "type": "passage",
+    "topic": "Stoichiometry",
+    "difficulty": "Foundation",
+    "prompt": "How many moles of water can form if hydrogen reacts completely?",
+    "correct": "1",
+    "explanation": "The balanced equation has a 1:1 mole ratio of hydrogen to water, so $4\\,\\mathrm{mol}$ of water forms.",
+    "tip": "Revisit stoichiometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "Consider $\\ce{2H2 + O2 -> 2H2O}$. A vessel contains 4 mol of hydrogen and excess oxygen. The reaction proceeds to completion.",
+    "options": ["2.0 mol", "4 mol", "8 mol", "5 mol"]
+  },
+  {
+    "id": "chemistry-028",
+    "subject": "chemistry",
+    "type": "match",
+    "topic": "Classification",
+    "difficulty": "Standard",
+    "prompt": "Match each substance with its classification (set 3).",
+    "correct": ["2", "0", "1"],
+    "explanation": "$\\ce{NaCl}$: Salt; $\\ce{HCl}$: Acid; $\\ce{NaOH}$: Base.",
+    "tip": "Revisit classification, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$\\ce{NaCl}$", "$\\ce{HCl}$", "$\\ce{NaOH}$"],
+    "right": ["Acid", "Base", "Salt"]
+  },
+  {
+    "id": "chemistry-029",
+    "subject": "chemistry",
+    "type": "ordering",
+    "topic": "Atomic structure",
+    "difficulty": "Standard",
+    "prompt": "Arrange these neutral atoms in increasing atomic number (set 3).",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "Increasing atomic number follows the number of protons, which defines the element.",
+    "tip": "Revisit atomic structure, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Sulfur (16)", "Argon (18)", "Phosphorus (15)", "Chlorine (17)"]
+  },
+  {
+    "id": "chemistry-030",
+    "subject": "chemistry",
+    "type": "graph",
+    "topic": "Reaction rates",
+    "difficulty": "Foundation",
+    "prompt": "A reactant concentration is plotted against time. Find its average rate of disappearance from 0 to 4 s, in mol L⁻¹ s⁻¹.",
+    "correct": "3",
+    "explanation": "Rate of disappearance is $-\\Delta c/\\Delta t=(20-4)/4=4\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$.",
+    "tip": "Revisit reaction rates, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5", "-4", "8", "4"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Concentration (mol/L)",
+      "points": [
+        {
+          "x": 0,
+          "y": 20
+        },
+        {
+          "x": 1,
+          "y": 16
+        },
+        {
+          "x": 2,
+          "y": 12
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "mathematics-031",
+    "subject": "mathematics",
+    "type": "single",
+    "topic": "Differentiation",
+    "difficulty": "Foundation",
+    "prompt": "If $f(x)=x^5$, what is $f\\prime(1)$?",
+    "correct": "0",
+    "explanation": "The power rule gives $f\\prime(x)=5x^{4}$. At $x=1$, the derivative is $5$.",
+    "tip": "Revisit differentiation, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5", "7", "8", "9"]
+  },
+  {
+    "id": "mathematics-032",
+    "subject": "mathematics",
+    "type": "multiple",
+    "topic": "Quadratic equations",
+    "difficulty": "Standard",
+    "prompt": "Select every root of $x^2-11x+30=0$.",
+    "correct": ["0", "2"],
+    "explanation": "Factorisation gives $(x-5)(x-6)=0$, so the roots are $5$ and $6$.",
+    "tip": "Revisit quadratic equations, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5", "-5", "6", "-6"]
+  },
+  {
+    "id": "mathematics-033",
+    "subject": "mathematics",
+    "type": "numerical",
+    "topic": "Integration",
+    "difficulty": "Foundation",
+    "prompt": "Evaluate $\\int_0^1 5x\\,dx$. Enter a decimal if needed.",
+    "correct": "2.5",
+    "explanation": "The antiderivative is $\\frac{5x^2}{2}$. Evaluating from 0 to 1 gives $2.5$.",
+    "tip": "Revisit integration, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "mathematics-034",
+    "subject": "mathematics",
+    "type": "integer",
+    "topic": "Counting",
+    "difficulty": "Foundation",
+    "prompt": "How many distinct arrangements can be formed using 6 different books in a row?",
+    "correct": "720",
+    "explanation": "There are $6!=720$ permutations.",
+    "tip": "Revisit counting, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "mathematics-035",
+    "subject": "mathematics",
+    "type": "true_false",
+    "topic": "Logarithms",
+    "difficulty": "Foundation",
+    "prompt": "For positive $x$, $\\log_5(x^5)=5\\log_5x$.",
+    "correct": "0",
+    "explanation": "The logarithm power rule states $\\log_b(x^r)=r\\log_bx$ for a valid base and positive $x$.",
+    "tip": "Revisit logarithms, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "mathematics-036",
+    "subject": "mathematics",
+    "type": "assertion_reason",
+    "topic": "Continuity",
+    "difficulty": "Standard",
+    "prompt": "Assertion: $f(x)=x^5$ is differentiable at $x=0$.\nReason: Every function continuous at a point is differentiable there.",
+    "correct": "2",
+    "explanation": "The assertion is true because polynomials are differentiable everywhere. The reason is false: the absolute-value function is continuous at its corner but not differentiable there.",
+    "tip": "Revisit continuity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "mathematics-037",
+    "subject": "mathematics",
+    "type": "passage",
+    "topic": "Probability",
+    "difficulty": "Foundation",
+    "prompt": "What is the probability of drawing a blue ball?",
+    "correct": "1",
+    "explanation": "There are $7$ blue balls out of $12$ in total, so the probability is $\\frac{7}{12}$.",
+    "tip": "Revisit probability, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A bag contains 5 red balls and 7 blue balls. One ball is drawn uniformly at random. All balls have equal chances of selection.",
+    "options": ["$\\frac{5}{12}$", "$\\frac{7}{12}$", "$1$", "$0$"]
+  },
+  {
+    "id": "mathematics-038",
+    "subject": "mathematics",
+    "type": "match",
+    "topic": "Functions",
+    "difficulty": "Standard",
+    "prompt": "Match each function with its value at $x=5$.",
+    "correct": ["1", "2", "0"],
+    "explanation": "Substitute $5$ into each function: $x+1=6$, $x^2=25$ and $x^3+1=126$.",
+    "tip": "Revisit functions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$x+1$", "$x^2$", "$x^3+1$"],
+    "right": ["126", "6", "25"]
+  },
+  {
+    "id": "mathematics-039",
+    "subject": "mathematics",
+    "type": "ordering",
+    "topic": "Sequences",
+    "difficulty": "Standard",
+    "prompt": "Arrange these values in strictly increasing order. Here $a=5$.",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "For $a=5>1$, $a-1<a<a+1<a+2$.",
+    "tip": "Revisit sequences, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["$a$", "$a+2$", "$a-1$", "$a+1$"]
+  },
+  {
+    "id": "mathematics-040",
+    "subject": "mathematics",
+    "type": "graph",
+    "topic": "Coordinate geometry",
+    "difficulty": "Foundation",
+    "prompt": "What is the slope of the plotted line?",
+    "correct": "2",
+    "explanation": "The line rises by $5$ for each unit increase in $x$, so its slope is $5$.",
+    "tip": "Revisit coordinate geometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["4", "6", "5", "-5"],
+    "graph": {
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 11
+        },
+        {
+          "x": 3,
+          "y": 16
+        },
+        {
+          "x": 4,
+          "y": 21
+        }
+      ]
+    }
+  },
+  {
+    "id": "physics-031",
+    "subject": "physics",
+    "type": "single",
+    "topic": "Newton’s laws",
+    "difficulty": "Foundation",
+    "prompt": "A net force of $15\\,\\mathrm{N}$ acts on a $5\\,\\mathrm{kg}$ body. Find its acceleration.",
+    "correct": "1",
+    "explanation": "Newton’s second law gives $a=F/m=15/5=3\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit newton’s laws, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "$1\\,\\mathrm{m\\,s^{-2}}$",
+      "$3\\,\\mathrm{m\\,s^{-2}}$",
+      "$6\\,\\mathrm{m\\,s^{-2}}$",
+      "$9\\,\\mathrm{m\\,s^{-2}}$"
+    ]
+  },
+  {
+    "id": "physics-032",
+    "subject": "physics",
+    "type": "multiple",
+    "topic": "Energy",
+    "difficulty": "Standard",
+    "prompt": "A body of mass $5\\,\\mathrm{kg}$ moves at $2\\,\\mathrm{m\\,s^{-1}}$. Select every correct statement.",
+    "correct": ["0", "3"],
+    "explanation": "$K=mv^2/2=10\\,\\mathrm{J}$ and $p=mv=10\\,\\mathrm{kg\\,m\\,s^{-1}}$. Kinetic energy is scalar; doubling speed quadruples it.",
+    "tip": "Revisit energy, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Kinetic energy is 10 J.",
+      "Kinetic energy is a vector.",
+      "Doubling speed doubles kinetic energy.",
+      "Momentum magnitude is 10 kg m/s."
+    ]
+  },
+  {
+    "id": "physics-033",
+    "subject": "physics",
+    "type": "numerical",
+    "topic": "Electricity",
+    "difficulty": "Foundation",
+    "prompt": "A resistor of $5\\,\\Omega$ carries $0.5\\,\\mathrm{A}$. Find the potential difference in volts.",
+    "correct": "2.5",
+    "explanation": "Ohm’s law: $V=IR=0.5\\times 5=2.5\\,\\mathrm{V}$.",
+    "tip": "Revisit electricity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "physics-034",
+    "subject": "physics",
+    "type": "integer",
+    "topic": "Waves",
+    "difficulty": "Foundation",
+    "prompt": "A wave has frequency $50\\,\\mathrm{Hz}$ and wavelength $2\\,\\mathrm{m}$. Find its speed in m/s.",
+    "correct": "100",
+    "explanation": "$v=f\\lambda=50\\times2=100\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit waves, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "physics-035",
+    "subject": "physics",
+    "type": "true_false",
+    "topic": "Kinematics",
+    "difficulty": "Foundation",
+    "prompt": "An object moves with constant velocity $5\\,\\mathrm{m\\,s^{-1}}$ in a straight line. Its acceleration is zero.",
+    "correct": "0",
+    "explanation": "Acceleration is the rate of change of velocity. A constant velocity has zero rate of change.",
+    "tip": "Revisit kinematics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "physics-036",
+    "subject": "physics",
+    "type": "assertion_reason",
+    "topic": "Physical reasoning",
+    "difficulty": "Standard",
+    "prompt": "Assertion: The SI unit of work is the joule.\nReason: Power is work divided by time.",
+    "correct": "1",
+    "explanation": "Both statements are correct, but the definition of power does not explain the SI unit of work.",
+    "tip": "Revisit physical reasoning, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "physics-037",
+    "subject": "physics",
+    "type": "passage",
+    "topic": "Momentum",
+    "difficulty": "Foundation",
+    "prompt": "What is the speed of the combined bodies immediately after collision?",
+    "correct": "2",
+    "explanation": "Conservation of momentum gives $v=(5\\times4+5\\times0)/(10)=2\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit momentum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A 5 kg trolley moving at 4 m/s collides with a stationary 5 kg trolley. They stick together. External impulse is negligible.",
+    "options": ["0 m/s", "1 m/s", "2 m/s", "4 m/s"]
+  },
+  {
+    "id": "physics-038",
+    "subject": "physics",
+    "type": "match",
+    "topic": "Units",
+    "difficulty": "Standard",
+    "prompt": "Match the quantities with their SI units. Set 4.",
+    "correct": ["2", "0", "1"],
+    "explanation": "Magnetic flux is measured in weber, Inductance in henry and Conductance in siemens.",
+    "tip": "Revisit units, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["Magnetic flux", "Inductance", "Conductance"],
+    "right": ["Henry", "Siemens", "Weber"]
+  },
+  {
+    "id": "physics-039",
+    "subject": "physics",
+    "type": "ordering",
+    "topic": "Electromagnetic spectrum",
+    "difficulty": "Standard",
+    "prompt": "Arrange these electromagnetic waves in increasing frequency (set 4).",
+    "correct": ["1", "3", "0", "2"],
+    "explanation": "The frequency order is radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray.",
+    "tip": "Revisit electromagnetic spectrum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["X-rays", "Infrared", "Gamma rays", "Visible light"]
+  },
+  {
+    "id": "physics-040",
+    "subject": "physics",
+    "type": "graph",
+    "topic": "Motion graphs",
+    "difficulty": "Foundation",
+    "prompt": "The graph shows velocity against time. Find the acceleration.",
+    "correct": "0",
+    "explanation": "Acceleration is the slope of the velocity–time graph: $\\Delta v/\\Delta t=5\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit motion graphs, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5 m/s²", "6 m/s²", "0 m/s²", "11 m/s²"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Velocity (m/s)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 15
+        },
+        {
+          "x": 4,
+          "y": 20
+        }
+      ]
+    }
+  },
+  {
+    "id": "chemistry-031",
+    "subject": "chemistry",
+    "type": "single",
+    "topic": "Mole concept",
+    "difficulty": "Foundation",
+    "prompt": "How many moles are present in $90\\,\\mathrm{g}$ of water? Use $M(\\ce{H2O})=18\\,\\mathrm{g\\,mol^{-1}}$.",
+    "correct": "2",
+    "explanation": "$n=m/M=90/18=5\\,\\mathrm{mol}$.",
+    "tip": "Revisit mole concept, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["6", "4", "5", "10"]
+  },
+  {
+    "id": "chemistry-032",
+    "subject": "chemistry",
+    "type": "multiple",
+    "topic": "Oxidation states",
+    "difficulty": "Standard",
+    "prompt": "For sulfur in $\\ce{SO3}$, select all correct statements.",
+    "correct": ["0", "2"],
+    "explanation": "$x+3(-2)=0$ gives $x=+6$. Oxidation states in a neutral compound sum to zero.",
+    "tip": "Revisit oxidation states, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "The oxidation state of sulfur is +6.",
+      "All atoms have oxidation state zero.",
+      "The sum of all oxidation states in this neutral compound is zero.",
+      "The oxidation state of sulfur is +7."
+    ]
+  },
+  {
+    "id": "chemistry-033",
+    "subject": "chemistry",
+    "type": "numerical",
+    "topic": "Solutions",
+    "difficulty": "Foundation",
+    "prompt": "$5\\,\\mathrm{mol}$ of solute is dissolved to make $4\\,\\mathrm{L}$ of solution. Find molarity in mol/L.",
+    "correct": "1.25",
+    "explanation": "$M=n/V=5/4=1.25\\,\\mathrm{mol\\,L^{-1}}$.",
+    "tip": "Revisit solutions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "chemistry-034",
+    "subject": "chemistry",
+    "type": "integer",
+    "topic": "Acids and bases",
+    "difficulty": "Foundation",
+    "prompt": "A dilute aqueous solution has $[\\ce{H+}]=10^{-5}\\,\\mathrm{mol\\,L^{-1}}$. Using concentration to approximate activity, find its pH.",
+    "correct": "5",
+    "explanation": "$\\mathrm{pH}=-\\log_{10}(10^{-5})=5$.",
+    "tip": "Revisit acids and bases, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "chemistry-035",
+    "subject": "chemistry",
+    "type": "true_false",
+    "topic": "Chemical fundamentals",
+    "difficulty": "Foundation",
+    "prompt": "Oxidation involves loss of electrons.",
+    "correct": "0",
+    "explanation": "Oxidation is electron loss; reduction is electron gain.",
+    "tip": "Revisit chemical fundamentals, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "chemistry-036",
+    "subject": "chemistry",
+    "type": "assertion_reason",
+    "topic": "Bonding and kinetics",
+    "difficulty": "Standard",
+    "prompt": "Assertion: The atomic number equals the number of protons.\nReason: Isotopes can have different neutron counts.",
+    "correct": "1",
+    "explanation": "Both facts are true; neutron variation does not explain the definition of atomic number.",
+    "tip": "Revisit bonding and kinetics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "chemistry-037",
+    "subject": "chemistry",
+    "type": "passage",
+    "topic": "Stoichiometry",
+    "difficulty": "Foundation",
+    "prompt": "How many moles of water can form if hydrogen reacts completely?",
+    "correct": "1",
+    "explanation": "The balanced equation has a 1:1 mole ratio of hydrogen to water, so $5\\,\\mathrm{mol}$ of water forms.",
+    "tip": "Revisit stoichiometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "Consider $\\ce{2H2 + O2 -> 2H2O}$. A vessel contains 5 mol of hydrogen and excess oxygen. The reaction proceeds to completion.",
+    "options": ["2.5 mol", "5 mol", "10 mol", "6 mol"]
+  },
+  {
+    "id": "chemistry-038",
+    "subject": "chemistry",
+    "type": "match",
+    "topic": "Classification",
+    "difficulty": "Standard",
+    "prompt": "Match each substance with its classification (set 4).",
+    "correct": ["2", "0", "1"],
+    "explanation": "$\\ce{He}$: Noble gas; $\\ce{Cl2}$: Halogen; $\\ce{Na}$: Alkali metal.",
+    "tip": "Revisit classification, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$\\ce{He}$", "$\\ce{Cl2}$", "$\\ce{Na}$"],
+    "right": ["Halogen", "Alkali metal", "Noble gas"]
+  },
+  {
+    "id": "chemistry-039",
+    "subject": "chemistry",
+    "type": "ordering",
+    "topic": "Atomic structure",
+    "difficulty": "Standard",
+    "prompt": "Arrange these neutral atoms in increasing atomic number (set 4).",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "Increasing atomic number follows the number of protons, which defines the element.",
+    "tip": "Revisit atomic structure, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Helium (2)", "Beryllium (4)", "Hydrogen (1)", "Lithium (3)"]
+  },
+  {
+    "id": "chemistry-040",
+    "subject": "chemistry",
+    "type": "graph",
+    "topic": "Reaction rates",
+    "difficulty": "Foundation",
+    "prompt": "A reactant concentration is plotted against time. Find its average rate of disappearance from 0 to 4 s, in mol L⁻¹ s⁻¹.",
+    "correct": "3",
+    "explanation": "Rate of disappearance is $-\\Delta c/\\Delta t=(25-5)/4=5\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$.",
+    "tip": "Revisit reaction rates, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["6", "-5", "10", "5"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Concentration (mol/L)",
+      "points": [
+        {
+          "x": 0,
+          "y": 25
+        },
+        {
+          "x": 1,
+          "y": 20
+        },
+        {
+          "x": 2,
+          "y": 15
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "mathematics-041",
+    "subject": "mathematics",
+    "type": "single",
+    "topic": "Differentiation",
+    "difficulty": "Foundation",
+    "prompt": "If $f(x)=x^6$, what is $f\\prime(1)$?",
+    "correct": "1",
+    "explanation": "The power rule gives $f\\prime(x)=6x^{5}$. At $x=1$, the derivative is $6$.",
+    "tip": "Revisit differentiation, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["8", "6", "9", "10"]
+  },
+  {
+    "id": "mathematics-042",
+    "subject": "mathematics",
+    "type": "multiple",
+    "topic": "Quadratic equations",
+    "difficulty": "Standard",
+    "prompt": "Select every root of $x^2-13x+42=0$.",
+    "correct": ["0", "2"],
+    "explanation": "Factorisation gives $(x-6)(x-7)=0$, so the roots are $6$ and $7$.",
+    "tip": "Revisit quadratic equations, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["6", "-6", "7", "-7"]
+  },
+  {
+    "id": "mathematics-043",
+    "subject": "mathematics",
+    "type": "numerical",
+    "topic": "Integration",
+    "difficulty": "Foundation",
+    "prompt": "Evaluate $\\int_0^1 6x\\,dx$. Enter a decimal if needed.",
+    "correct": "3.0",
+    "explanation": "The antiderivative is $\\frac{6x^2}{2}$. Evaluating from 0 to 1 gives $3.0$.",
+    "tip": "Revisit integration, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "mathematics-044",
+    "subject": "mathematics",
+    "type": "integer",
+    "topic": "Counting",
+    "difficulty": "Foundation",
+    "prompt": "How many distinct arrangements can be formed using 7 different books in a row?",
+    "correct": "5040",
+    "explanation": "There are $7!=5040$ permutations.",
+    "tip": "Revisit counting, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "mathematics-045",
+    "subject": "mathematics",
+    "type": "true_false",
+    "topic": "Logarithms",
+    "difficulty": "Foundation",
+    "prompt": "For positive $x$, $\\log_6(x^6)=6\\log_6x$.",
+    "correct": "0",
+    "explanation": "The logarithm power rule states $\\log_b(x^r)=r\\log_bx$ for a valid base and positive $x$.",
+    "tip": "Revisit logarithms, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "mathematics-046",
+    "subject": "mathematics",
+    "type": "assertion_reason",
+    "topic": "Continuity",
+    "difficulty": "Standard",
+    "prompt": "Assertion: $f(x)=x^6$ is differentiable at $x=0$.\nReason: Every function continuous at a point is differentiable there.",
+    "correct": "2",
+    "explanation": "The assertion is true because polynomials are differentiable everywhere. The reason is false: the absolute-value function is continuous at its corner but not differentiable there.",
+    "tip": "Revisit continuity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "mathematics-047",
+    "subject": "mathematics",
+    "type": "passage",
+    "topic": "Probability",
+    "difficulty": "Foundation",
+    "prompt": "What is the probability of drawing a blue ball?",
+    "correct": "1",
+    "explanation": "There are $8$ blue balls out of $14$ in total, so the probability is $\\frac{8}{14}$.",
+    "tip": "Revisit probability, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A bag contains 6 red balls and 8 blue balls. One ball is drawn uniformly at random. All balls have equal chances of selection.",
+    "options": ["$\\frac{6}{14}$", "$\\frac{8}{14}$", "$1$", "$0$"]
+  },
+  {
+    "id": "mathematics-048",
+    "subject": "mathematics",
+    "type": "match",
+    "topic": "Functions",
+    "difficulty": "Standard",
+    "prompt": "Match each function with its value at $x=6$.",
+    "correct": ["1", "2", "0"],
+    "explanation": "Substitute $6$ into each function: $x+1=7$, $x^2=36$ and $x^3+1=217$.",
+    "tip": "Revisit functions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$x+1$", "$x^2$", "$x^3+1$"],
+    "right": ["217", "7", "36"]
+  },
+  {
+    "id": "mathematics-049",
+    "subject": "mathematics",
+    "type": "ordering",
+    "topic": "Sequences",
+    "difficulty": "Standard",
+    "prompt": "Arrange these values in strictly increasing order. Here $a=6$.",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "For $a=6>1$, $a-1<a<a+1<a+2$.",
+    "tip": "Revisit sequences, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["$a$", "$a+2$", "$a-1$", "$a+1$"]
+  },
+  {
+    "id": "mathematics-050",
+    "subject": "mathematics",
+    "type": "graph",
+    "topic": "Coordinate geometry",
+    "difficulty": "Foundation",
+    "prompt": "What is the slope of the plotted line?",
+    "correct": "2",
+    "explanation": "The line rises by $6$ for each unit increase in $x$, so its slope is $6$.",
+    "tip": "Revisit coordinate geometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["5", "7", "6", "-6"],
+    "graph": {
+      "xLabel": "x",
+      "yLabel": "y",
+      "points": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 13
+        },
+        {
+          "x": 3,
+          "y": 19
+        },
+        {
+          "x": 4,
+          "y": 25
+        }
+      ]
+    }
+  },
+  {
+    "id": "physics-041",
+    "subject": "physics",
+    "type": "single",
+    "topic": "Newton’s laws",
+    "difficulty": "Foundation",
+    "prompt": "A net force of $18\\,\\mathrm{N}$ acts on a $6\\,\\mathrm{kg}$ body. Find its acceleration.",
+    "correct": "1",
+    "explanation": "Newton’s second law gives $a=F/m=18/6=3\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit newton’s laws, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "$1\\,\\mathrm{m\\,s^{-2}}$",
+      "$3\\,\\mathrm{m\\,s^{-2}}$",
+      "$6\\,\\mathrm{m\\,s^{-2}}$",
+      "$9\\,\\mathrm{m\\,s^{-2}}$"
+    ]
+  },
+  {
+    "id": "physics-042",
+    "subject": "physics",
+    "type": "multiple",
+    "topic": "Energy",
+    "difficulty": "Standard",
+    "prompt": "A body of mass $6\\,\\mathrm{kg}$ moves at $2\\,\\mathrm{m\\,s^{-1}}$. Select every correct statement.",
+    "correct": ["0", "3"],
+    "explanation": "$K=mv^2/2=12\\,\\mathrm{J}$ and $p=mv=12\\,\\mathrm{kg\\,m\\,s^{-1}}$. Kinetic energy is scalar; doubling speed quadruples it.",
+    "tip": "Revisit energy, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Kinetic energy is 12 J.",
+      "Kinetic energy is a vector.",
+      "Doubling speed doubles kinetic energy.",
+      "Momentum magnitude is 12 kg m/s."
+    ]
+  },
+  {
+    "id": "physics-043",
+    "subject": "physics",
+    "type": "numerical",
+    "topic": "Electricity",
+    "difficulty": "Foundation",
+    "prompt": "A resistor of $6\\,\\Omega$ carries $0.5\\,\\mathrm{A}$. Find the potential difference in volts.",
+    "correct": "3.0",
+    "explanation": "Ohm’s law: $V=IR=0.5\\times 6=3.0\\,\\mathrm{V}$.",
+    "tip": "Revisit electricity, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "physics-044",
+    "subject": "physics",
+    "type": "integer",
+    "topic": "Waves",
+    "difficulty": "Foundation",
+    "prompt": "A wave has frequency $60\\,\\mathrm{Hz}$ and wavelength $2\\,\\mathrm{m}$. Find its speed in m/s.",
+    "correct": "120",
+    "explanation": "$v=f\\lambda=60\\times2=120\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit waves, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "physics-045",
+    "subject": "physics",
+    "type": "true_false",
+    "topic": "Kinematics",
+    "difficulty": "Foundation",
+    "prompt": "An object moves with constant velocity $6\\,\\mathrm{m\\,s^{-1}}$ in a straight line. Its acceleration is zero.",
+    "correct": "0",
+    "explanation": "Acceleration is the rate of change of velocity. A constant velocity has zero rate of change.",
+    "tip": "Revisit kinematics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "physics-046",
+    "subject": "physics",
+    "type": "assertion_reason",
+    "topic": "Physical reasoning",
+    "difficulty": "Standard",
+    "prompt": "Assertion: An ideal transformer cannot operate continuously on steady DC.\nReason: Transformer action requires changing magnetic flux.",
+    "correct": "0",
+    "explanation": "Steady DC does not maintain the changing flux required to induce a secondary emf.",
+    "tip": "Revisit physical reasoning, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "physics-047",
+    "subject": "physics",
+    "type": "passage",
+    "topic": "Momentum",
+    "difficulty": "Foundation",
+    "prompt": "What is the speed of the combined bodies immediately after collision?",
+    "correct": "2",
+    "explanation": "Conservation of momentum gives $v=(6\\times4+6\\times0)/(12)=2\\,\\mathrm{m\\,s^{-1}}$.",
+    "tip": "Revisit momentum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "A 6 kg trolley moving at 4 m/s collides with a stationary 6 kg trolley. They stick together. External impulse is negligible.",
+    "options": ["0 m/s", "1 m/s", "2 m/s", "4 m/s"]
+  },
+  {
+    "id": "physics-048",
+    "subject": "physics",
+    "type": "match",
+    "topic": "Units",
+    "difficulty": "Standard",
+    "prompt": "Match the quantities with their SI units. Set 5.",
+    "correct": ["2", "0", "1"],
+    "explanation": "Length is measured in metre, Mass in kilogram and Time in second.",
+    "tip": "Revisit units, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["Length", "Mass", "Time"],
+    "right": ["Kilogram", "Second", "Metre"]
+  },
+  {
+    "id": "physics-049",
+    "subject": "physics",
+    "type": "ordering",
+    "topic": "Electromagnetic spectrum",
+    "difficulty": "Standard",
+    "prompt": "Arrange these electromagnetic waves in increasing frequency (set 5).",
+    "correct": ["1", "3", "0", "2"],
+    "explanation": "The frequency order is radio, microwave, infrared, visible, ultraviolet, X-ray, gamma ray.",
+    "tip": "Revisit electromagnetic spectrum, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": ["Visible light", "Microwaves", "Ultraviolet", "Infrared"]
+  },
+  {
+    "id": "physics-050",
+    "subject": "physics",
+    "type": "graph",
+    "topic": "Motion graphs",
+    "difficulty": "Foundation",
+    "prompt": "The graph shows velocity against time. Find the acceleration.",
+    "correct": "0",
+    "explanation": "Acceleration is the slope of the velocity–time graph: $\\Delta v/\\Delta t=6\\,\\mathrm{m\\,s^{-2}}$.",
+    "tip": "Revisit motion graphs, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["6 m/s²", "7 m/s²", "0 m/s²", "13 m/s²"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Velocity (m/s)",
+      "points": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 12
+        },
+        {
+          "x": 3,
+          "y": 18
+        },
+        {
+          "x": 4,
+          "y": 24
+        }
+      ]
+    }
+  },
+  {
+    "id": "chemistry-041",
+    "subject": "chemistry",
+    "type": "single",
+    "topic": "Mole concept",
+    "difficulty": "Foundation",
+    "prompt": "How many moles are present in $108\\,\\mathrm{g}$ of water? Use $M(\\ce{H2O})=18\\,\\mathrm{g\\,mol^{-1}}$.",
+    "correct": "2",
+    "explanation": "$n=m/M=108/18=6\\,\\mathrm{mol}$.",
+    "tip": "Revisit mole concept, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["7", "5", "6", "12"]
+  },
+  {
+    "id": "chemistry-042",
+    "subject": "chemistry",
+    "type": "multiple",
+    "topic": "Oxidation states",
+    "difficulty": "Standard",
+    "prompt": "For sulfur in $\\ce{Na2SO3}$, select all correct statements.",
+    "correct": ["0", "2"],
+    "explanation": "$2(+1)+x+3(-2)=0$ gives $x=+4$. Oxidation states in a neutral compound sum to zero.",
+    "tip": "Revisit oxidation states, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "The oxidation state of sulfur is +4.",
+      "All atoms have oxidation state zero.",
+      "The sum of all oxidation states in this neutral compound is zero.",
+      "The oxidation state of sulfur is +5."
+    ]
+  },
+  {
+    "id": "chemistry-043",
+    "subject": "chemistry",
+    "type": "numerical",
+    "topic": "Solutions",
+    "difficulty": "Foundation",
+    "prompt": "$6\\,\\mathrm{mol}$ of solute is dissolved to make $4\\,\\mathrm{L}$ of solution. Find molarity in mol/L.",
+    "correct": "1.5",
+    "explanation": "$M=n/V=6/4=1.5\\,\\mathrm{mol\\,L^{-1}}$.",
+    "tip": "Revisit solutions, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "tolerance": 0.001
+  },
+  {
+    "id": "chemistry-044",
+    "subject": "chemistry",
+    "type": "integer",
+    "topic": "Acids and bases",
+    "difficulty": "Foundation",
+    "prompt": "A dilute aqueous solution has $[\\ce{H+}]=10^{-6}\\,\\mathrm{mol\\,L^{-1}}$. Using concentration to approximate activity, find its pH.",
+    "correct": "6",
+    "explanation": "$\\mathrm{pH}=-\\log_{10}(10^{-6})=6$.",
+    "tip": "Revisit acids and bases, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75
+  },
+  {
+    "id": "chemistry-045",
+    "subject": "chemistry",
+    "type": "true_false",
+    "topic": "Chemical fundamentals",
+    "difficulty": "Foundation",
+    "prompt": "One mole of any ideal gas contains the Avogadro number of molecules.",
+    "correct": "0",
+    "explanation": "A mole contains exactly 6.02214076 × 10²³ specified entities.",
+    "tip": "Revisit chemical fundamentals, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["True", "False"]
+  },
+  {
+    "id": "chemistry-046",
+    "subject": "chemistry",
+    "type": "assertion_reason",
+    "topic": "Bonding and kinetics",
+    "difficulty": "Standard",
+    "prompt": "Assertion: A catalyst increases both forward and reverse reaction rates.\nReason: It provides an alternative path with lower activation energy.",
+    "correct": "0",
+    "explanation": "The lower-barrier pathway accelerates approach to equilibrium in both directions.",
+    "tip": "Revisit bonding and kinetics, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": [
+      "Both statements are true, and the reason explains the assertion.",
+      "Both statements are true, but the reason does not explain the assertion.",
+      "The assertion is true, but the reason is false.",
+      "The assertion is false, but the reason is true."
+    ]
+  },
+  {
+    "id": "chemistry-047",
+    "subject": "chemistry",
+    "type": "passage",
+    "topic": "Stoichiometry",
+    "difficulty": "Foundation",
+    "prompt": "How many moles of water can form if hydrogen reacts completely?",
+    "correct": "1",
+    "explanation": "The balanced equation has a 1:1 mole ratio of hydrogen to water, so $6\\,\\mathrm{mol}$ of water forms.",
+    "tip": "Revisit stoichiometry, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "passage": "Consider $\\ce{2H2 + O2 -> 2H2O}$. A vessel contains 6 mol of hydrogen and excess oxygen. The reaction proceeds to completion.",
+    "options": ["3.0 mol", "6 mol", "12 mol", "7 mol"]
+  },
+  {
+    "id": "chemistry-048",
+    "subject": "chemistry",
+    "type": "match",
+    "topic": "Classification",
+    "difficulty": "Standard",
+    "prompt": "Match each substance with its classification (set 5).",
+    "correct": ["2", "0", "1"],
+    "explanation": "$\\ce{CO2}$: Acidic oxide; $\\ce{CaO}$: Basic oxide; $\\ce{Al2O3}$: Amphoteric oxide.",
+    "tip": "Revisit classification, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "left": ["$\\ce{CO2}$", "$\\ce{CaO}$", "$\\ce{Al2O3}$"],
+    "right": ["Basic oxide", "Amphoteric oxide", "Acidic oxide"]
+  },
+  {
+    "id": "chemistry-049",
+    "subject": "chemistry",
+    "type": "ordering",
+    "topic": "Atomic structure",
+    "difficulty": "Standard",
+    "prompt": "Arrange these neutral atoms in increasing atomic number (set 5).",
+    "correct": ["2", "0", "3", "1"],
+    "explanation": "Increasing atomic number follows the number of protons, which defines the element.",
+    "tip": "Revisit atomic structure, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 120,
+    "options": [
+      "Calcium (20)",
+      "Titanium (22)",
+      "Potassium (19)",
+      "Scandium (21)"
+    ]
+  },
+  {
+    "id": "chemistry-050",
+    "subject": "chemistry",
+    "type": "graph",
+    "topic": "Reaction rates",
+    "difficulty": "Foundation",
+    "prompt": "A reactant concentration is plotted against time. Find its average rate of disappearance from 0 to 4 s, in mol L⁻¹ s⁻¹.",
+    "correct": "3",
+    "explanation": "Rate of disappearance is $-\\Delta c/\\Delta t=(30-6)/4=6\\,\\mathrm{mol\\,L^{-1}\\,s^{-1}}$.",
+    "tip": "Revisit reaction rates, work through the explanation, then solve a similar question without looking.",
+    "targetSeconds": 75,
+    "options": ["7", "-6", "12", "6"],
+    "graph": {
+      "xLabel": "Time (s)",
+      "yLabel": "Concentration (mol/L)",
+      "points": [
+        {
+          "x": 0,
+          "y": 30
+        },
+        {
+          "x": 1,
+          "y": 24
+        },
+        {
+          "x": 2,
+          "y": 18
+        },
+        {
+          "x": 3,
+          "y": 12
+        },
+        {
+          "x": 4,
+          "y": 6
+        }
+      ]
+    }
+  }
+]

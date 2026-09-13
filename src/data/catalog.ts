@@ -75,7 +75,7 @@ export const products: Product[] = [
     slug: "comedk",
     shortName: "COMEDK",
     title: "COMEDK UGET Power Pack 2026",
-    subtitle: "Fast PCM practice without careless negatives.",
+    subtitle: "Build speed and accuracy across PCM.",
     description: "Timed COMEDK UGET mocks, high-speed PCM drills, chapter analytics, and percentile estimates for Karnataka engineering admissions.",
     price: 1199,
     compareAtPrice: 1999,
@@ -93,7 +93,7 @@ export const productBySlug = (slug: string) => products.find((product) => produc
 
 export const siteConfig = {
   name: "MockStride",
-  shortDescription: "High-fidelity mock tests for CUET UG, IISER IAT, NISER NEST, and COMEDK UGET.",
+  shortDescription: "Discover more paths after Class 12 and explore mock test series for CUET UG, IISER IAT, NEST and COMEDK UGET.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://mockstride.com",
   email: "hello@mockstride.com",
 };
