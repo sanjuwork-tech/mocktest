@@ -50,13 +50,19 @@ export function TestCard({ product }: { product: Product }) {
         Price, final test count, inclusions and access validity will be
         confirmed before enrolment opens.
       </p>
-      <a
-        href={`mailto:${siteConfig.email}?subject=${subject}`}
+      <Link
+        href={
+          siteConfig.email
+            ? `mailto:${siteConfig.email}?subject=${subject}`
+            : "/student"
+        }
         className="button-primary"
       >
-        Ask about {product.shortName}{" "}
+        {siteConfig.email
+          ? `Ask about ${product.shortName}`
+          : "Try the student demo"}{" "}
         <ArrowRight size={16} aria-hidden="true" />
-      </a>
+      </Link>
       <Link href={`/exams#${product.slug}`} className="mock-guide-link">
         Check eligibility & exam details ↗
       </Link>

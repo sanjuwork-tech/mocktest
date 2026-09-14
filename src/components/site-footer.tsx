@@ -25,17 +25,17 @@ export function SiteFooter() {
             ))}
           </div>
           <div>
-            <h2>MockStride</h2>
+            <h2>TestDisha</h2>
             <Link href="/about">Our purpose</Link>
             <Link href="/about#information-policy">
               How we review information
             </Link>
-            <a href="mailto:hello@mockstride.com">Contact & corrections</a>
+            <Link href="/about#information-policy">Information policy</Link>
             <Link href="/admin">Admin sign in</Link>
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} MockStride</span>
+          <span>© {new Date().getFullYear()} TestDisha</span>
           <span>Independent guide · Not an exam conducting authority</span>
         </div>
       </div>

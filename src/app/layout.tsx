@@ -26,8 +26,8 @@ const dmMono = DM_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "MockStride — Discover More After Class 12",
-    template: "%s | MockStride",
+    default: "TestDisha — Discover More After Class 12",
+    template: "%s | TestDisha",
   },
   description: siteConfig.shortDescription,
   keywords: [
@@ -45,16 +45,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: siteConfig.name,
-    title: "MockStride — Discover More After Class 12",
+    title: "TestDisha — Discover More After Class 12",
     description: siteConfig.shortDescription,
     url: "/",
     images: [
-      { url: "/brand-share.png", width: 1200, height: 630, alt: "MockStride" },
+      { url: "/brand-share.png", width: 1200, height: 630, alt: "TestDisha" },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MockStride",
+    title: "TestDisha",
     description: siteConfig.shortDescription,
     images: ["/brand-share.png"],
   },

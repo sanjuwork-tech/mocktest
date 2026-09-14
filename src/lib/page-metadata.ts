@@ -22,7 +22,7 @@ export function pageMetadata(
           url: "/brand-share.png",
           width: 1200,
           height: 630,
-          alt: "MockStride — discover more after Class 12",
+          alt: "TestDisha — discover more after Class 12",
         },
       ],
     },

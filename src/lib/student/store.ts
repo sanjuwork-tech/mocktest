@@ -8,7 +8,8 @@ import {
   type Response,
   type Subject,
 } from "./model";
-const KEY = "mockstride-student-demo-v1";
+const KEY = "testdisha-student-demo-v1";
+const LEGACY_KEY = "mockstride-student-demo-v1";
 const EMPTY: DemoState = { version: 1, signedIn: false, attempts: [] };
 const EMPTY_JSON = JSON.stringify(EMPTY);
 let memory = EMPTY_JSON;
@@ -17,7 +18,7 @@ let memoryOnly = false;
 function read() {
   if (memoryOnly) return memory;
   try {
-    const raw = localStorage.getItem(KEY);
+    const raw = localStorage.getItem(KEY) ?? localStorage.getItem(LEGACY_KEY);
     memory = raw ?? EMPTY_JSON;
     return memory;
   } catch {

@@ -1,26 +1,70 @@
-import { eq } from "drizzle-orm";
-import { NextResponse } from "next/server";
 import { z } from "zod";
-import { db } from "@/db/client";
-import { productsTable } from "@/db/schema";
-import { isAdmin } from "@/lib/admin-auth";
-
-const updateInput = z.object({ title: z.string().min(4).optional(), description: z.string().min(20).optional(), price: z.number().int().positive().optional(), compareAtPrice: z.number().int().positive().optional(), mockCount: z.number().int().positive().optional(), published: z.boolean().optional(), featured: z.boolean().optional() });
-
-export async function PATCH(request: Request, { params }: { params: Promise<{ id: string }> }) {
-  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  if (!db) return NextResponse.json({ error: "DATABASE_URL is not configured." }, { status: 503 });
-  const parsed = updateInput.safeParse(await request.json().catch(() => null));
-  if (!parsed.success) return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
+import { eq } from "drizzle-orm";
+import { requireDb } from "@/db/client";
+import { productsTable, auditLogTable } from "@/db/schema";
+import { productPatch, saveProduct } from "@/server/products";
+import { requireAdmin } from "@/server/auth";
+import {
+  apiError,
+  ApiError,
+  json,
+  readJson,
+  requireOrigin,
+} from "@/server/http";
+export const runtime = "nodejs";
+async function parseId(params: Promise<{ id: string }>) {
   const { id } = await params;
-  const [updated] = await db.update(productsTable).set({ ...parsed.data, updatedAt: new Date() }).where(eq(productsTable.id, id)).returning();
-  return updated ? NextResponse.json(updated) : NextResponse.json({ error: "Not found" }, { status: 404 });
+  if (!z.uuid().safeParse(id).success)
+    throw new ApiError(400, "Invalid series ID.");
+  return id;
 }
-
-export async function DELETE(_: Request, { params }: { params: Promise<{ id: string }> }) {
-  if (!(await isAdmin())) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  if (!db) return NextResponse.json({ error: "DATABASE_URL is not configured." }, { status: 503 });
-  const { id } = await params;
-  const [deleted] = await db.delete(productsTable).where(eq(productsTable.id, id)).returning({ id: productsTable.id });
-  return deleted ? NextResponse.json(deleted) : NextResponse.json({ error: "Not found" }, { status: 404 });
+export async function PATCH(
+  request: Request,
+  { params }: { params: Promise<{ id: string }> },
+) {
+  try {
+    requireOrigin(request);
+    const actor = await requireAdmin();
+    const id = await parseId(params);
+    const p = productPatch.safeParse(await readJson(request));
+    if (!p.success)
+      throw new ApiError(400, "Check the series fields and try again.");
+    return json(await saveProduct(actor, p.data, id));
+  } catch (e) {
+    return apiError(e);
+  }
+}
+export async function DELETE(
+  request: Request,
+  { params }: { params: Promise<{ id: string }> },
+) {
+  try {
+    requireOrigin(request);
+    const actor = await requireAdmin(["admin"]);
+    const id = await parseId(params);
+    await requireDb().transaction(async (tx) => {
+      const [p] = await tx
+        .update(productsTable)
+        .set({
+          archivedAt: new Date(),
+          published: false,
+          salesEnabled: false,
+          updatedAt: new Date(),
+        })
+        .where(eq(productsTable.id, id))
+        .returning();
+      if (!p) throw new ApiError(404, "Series not found.");
+      await tx
+        .insert(auditLogTable)
+        .values({
+          actorId: actor.userId,
+          action: "product.archived",
+          entityType: "product",
+          entityId: id,
+        });
+    });
+    return json({ archived: true, id });
+  } catch (e) {
+    return apiError(e);
+  }
 }

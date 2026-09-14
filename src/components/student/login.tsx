@@ -53,7 +53,7 @@ export function StudentLogin() {
               const data = new FormData(e.currentTarget);
               if (
                 String(data.get("email")).trim().toLowerCase() !==
-                  "student@mockstride.demo" ||
+                  "student@testdisha.demo" ||
                 data.get("password") !== "Student@123"
               ) {
                 setError("Use the demo email and password shown below.");
@@ -70,7 +70,7 @@ export function StudentLogin() {
                 type="email"
                 autoComplete="username"
                 required
-                defaultValue="student@mockstride.demo"
+                defaultValue="student@testdisha.demo"
               />
             </label>
             <label>
@@ -94,7 +94,7 @@ export function StudentLogin() {
           </form>
           <div className="demo-credentials">
             <strong>Demo credentials</strong>
-            <span>student@mockstride.demo</span>
+            <span>student@testdisha.demo</span>
             <code>Student@123</code>
           </div>
           <p className="student-muted">

@@ -2,14 +2,14 @@ import { pageMetadata } from "@/lib/page-metadata";
 import Link from "next/link";
 export const metadata = pageMetadata(
   "Our purpose",
-  "MockStride helps students discover more opportunities after Class 12 through clear exam information and official sources.",
+  "TestDisha helps students discover more opportunities after Class 12 through clear exam information and official sources.",
   "/about",
 );
 export default function AboutPage() {
   return (
     <main id="main-content" tabIndex={-1}>
       <section className="guide-hero page-shell">
-        <p className="eyebrow">Why MockStride exists</p>
+        <p className="eyebrow">Why TestDisha exists</p>
         <h1>
           Every student deserves
           <br />
@@ -63,7 +63,7 @@ export default function AboutPage() {
             deadlines with the organiser before acting.
           </p>
           <p>
-            MockStride is independent of the exam authorities. We do not promise
+            TestDisha is independent of the exam authorities. We do not promise
             admission, rank, scholarships or career outcomes. Application and
             candidate-login links take you to the organiser’s website or its
             linked service provider.
@@ -72,11 +72,11 @@ export default function AboutPage() {
         <section>
           <h2>Help us make it clearer</h2>
           <p>
-            Found an outdated notice or an exam you want us to cover? Include
-            the exam name and official source when you{" "}
-            <a className="text-link" href="mailto:hello@mockstride.com">
-              send a correction or suggestion
-            </a>
+            Our contact channel will be published before launch. For now,
+            compare exam details with the{" "}
+            <Link className="text-link" href="/exams#notifications">
+              official updates in Explore Exams
+            </Link>
             .
           </p>
         </section>

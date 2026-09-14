@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { LogOut, Plus, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useRef, useState, type FormEvent } from "react";
@@ -20,8 +21,10 @@ export type InventoryProduct = {
 export function DashboardClient({
   products,
   databaseState,
+  role,
 }: {
   products: InventoryProduct[];
+  role: "admin" | "reviewer" | "editor";
   databaseState: "ready" | "unconfigured" | "unavailable";
 }) {
   const router = useRouter();
@@ -121,10 +124,15 @@ export function DashboardClient({
     >
       <div className="section-heading">
         <div>
-          <p className="eyebrow">Operations</p>
+          <p className="eyebrow">Operations · {role}</p>
           <h1 className="text-4xl font-bold">Preparation inventory</h1>
         </div>
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
+          {role === "admin" && (
+            <Link href="/admin/access" className="button-secondary">
+              Team & access
+            </Link>
+          )}
           <button
             type="button"
             disabled={databaseState !== "ready"}
@@ -156,9 +164,16 @@ export function DashboardClient({
             : "Inventory could not be loaded. Check the database connection and migrations."}
         <p>
           These records are for preparation inventory. The public exam guide is
-          maintained separately, and paid enrolment is not available.
+          maintained separately, and paid enrolment is not available. Published
+          records appear on the homepage and Preparation page.
         </p>
       </div>
+      {role === "editor" && (
+        <p className="mb-5 text-sm">
+          You can create and edit drafts. A reviewer or admin must publish them;
+          published records are read-only for your role.
+        </p>
+      )}
       {databaseState === "unavailable" && (
         <button
           type="button"
@@ -216,6 +231,7 @@ export function DashboardClient({
                   <button
                     type="button"
                     className="text-link min-h-11"
+                    disabled={role === "editor" && product.published}
                     onClick={() => openEditor(product)}
                     aria-label={`Edit ${product.title}`}
                   >
@@ -321,6 +337,7 @@ export function DashboardClient({
               <label className="flex gap-3 text-sm py-2">
                 <input
                   name="published"
+                  disabled={role === "editor"}
                   type="checkbox"
                   defaultChecked={existing?.published ?? false}
                 />
@@ -382,9 +399,15 @@ function AdminInput({
         minLength={minLength}
         maxLength={type === "text" ? 200 : undefined}
         pattern={pattern}
-        min={type === "number" ? 1 : undefined}
+        min={type === "number" ? 0 : undefined}
         max={type === "number" ? 2147483647 : undefined}
-        step={type === "number" ? 1 : undefined}
+        step={
+          type === "number"
+            ? name === "price" || name === "compareAtPrice"
+              ? 0.01
+              : 1
+            : undefined
+        }
         className="w-full rounded-xl border border-navy/30 bg-white p-3"
       />
     </label>

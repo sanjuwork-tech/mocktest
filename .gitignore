@@ -41,3 +41,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local database clusters and sensitive data backups
+.local/
+backups/
+*.dump

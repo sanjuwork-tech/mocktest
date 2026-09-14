@@ -19,7 +19,10 @@ export function LoginForm() {
       const response = await fetch("/api/admin/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password: form.get("password") }),
+        body: JSON.stringify({
+          email: form.get("email"),
+          password: form.get("password"),
+        }),
         signal: AbortSignal.timeout(15000),
       });
       if (!response.ok)
@@ -44,6 +47,17 @@ export function LoginForm() {
   }
   return (
     <form onSubmit={submit} className="mt-8 space-y-4" aria-busy={loading}>
+      <label className="block">
+        <span className="mb-2 block text-sm font-bold">Email address</span>
+        <input
+          name="email"
+          type="email"
+          required
+          autoComplete="username"
+          maxLength={254}
+          className="w-full rounded-2xl border border-navy/30 bg-white px-4 py-3.5 text-base"
+        />
+      </label>
       <label className="block">
         <span className="mb-2 block text-sm font-bold">Admin password</span>
         <input

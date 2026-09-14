@@ -1,0 +1,2 @@
+'use client';
+export default function ErrorPage({reset}:{reset:()=>void}){return <main id="main-content" className="page-shell py-20 min-h-[60vh]"><p className="eyebrow">TestDisha</p><h1 className="text-4xl font-bold mt-4">We couldn’t load this page.</h1><p className="my-6">The service may be temporarily unavailable. Your saved data has not been removed.</p><button className="button-primary" onClick={reset}>Try again</button></main>;}

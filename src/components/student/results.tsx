@@ -164,7 +164,7 @@ export function StudentResults({ id }: { id: string }) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `mockstride-${attempt.subject}-${attempt.id}.json`;
+    a.download = `testdisha-${attempt.subject}-${attempt.id}.json`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   };

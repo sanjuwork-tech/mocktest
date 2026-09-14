@@ -242,7 +242,7 @@ export default function ExamsPage() {
               </ol>
               <p className="mt-5 text-sm">
                 Admission, scholarships and career outcomes depend on the
-                programme and its conditions. MockStride helps you discover and
+                programme and its conditions. TestDisha helps you discover and
                 understand these routes; it does not guarantee a seat.
               </p>
               <a href="#main-content" className="text-link mt-5">
