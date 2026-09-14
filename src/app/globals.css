@@ -1307,3 +1307,104 @@
     padding-bottom: 48px;
   }
 }
+
+/* Decorative depth stays separate from the approved content and its hit targets. */
+.pathway-depth {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  right: 8px;
+  top: 32px;
+  pointer-events: none;
+  opacity: 0.28;
+}
+.pathway-depth canvas,
+.pathway-depth-fallback {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.pathway-depth[data-ready="true"] .pathway-depth-fallback {
+  visibility: hidden;
+}
+.pathway-board > :not(.pathway-depth) {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .pathway-depth {
+    width: 100px;
+    height: 100px;
+    top: 36px;
+    right: 8px;
+    opacity: 0.18;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .button-primary,
+  .button-secondary,
+  .pathway-row,
+  .mock-card,
+  .home-mock-card,
+  .directory-card {
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease,
+      background-color 180ms ease;
+  }
+  .text-link svg,
+  .button-primary svg,
+  .card-link svg {
+    transition: transform 180ms ease;
+  }
+  .button-primary:active,
+  .button-secondary:active {
+    transform: translateY(1px);
+  }
+  .mobile-nav[open] > nav {
+    animation: menu-arrive 180ms ease-out;
+  }
+  .modal-dialog[open] {
+    animation: dialog-arrive 180ms ease-out;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .button-primary:hover,
+    .button-secondary:hover {
+      transform: translateY(-2px);
+    }
+    .pathway-row:hover,
+    .directory-card:hover {
+      transform: translateY(-3px);
+    }
+    .mock-card:hover,
+    .home-mock-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px #071a4d12;
+    }
+    .text-link:hover svg,
+    .button-primary:hover svg,
+    .directory-card:hover .card-link svg {
+      transform: translateX(3px);
+    }
+  }
+}
+@keyframes menu-arrive {
+  from {
+    opacity: 0.8;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes dialog-arrive {
+  from {
+    opacity: 0.8;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

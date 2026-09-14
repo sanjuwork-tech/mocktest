@@ -7,6 +7,7 @@ import {
   GraduationCap,
   MoveUpRight,
 } from "lucide-react";
+import { PathwayDepth } from "@/components/motion/pathway-depth";
 import { exams } from "@/data/exams";
 import { products } from "@/data/catalog";
 
@@ -44,6 +45,7 @@ export default function HomePage() {
           className="pathway-board"
           aria-label="Explore university, science and engineering pathways"
         >
+          <PathwayDepth />
           <div className="board-heading">
             <span className="eyebrow">Your future has options</span>
             <Compass size={25} />

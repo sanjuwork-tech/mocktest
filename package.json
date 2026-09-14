@@ -22,29 +22,32 @@
     "test:database": "node --experimental-strip-types tests/database.integration.mjs"
   },
   "dependencies": {
+    "animejs": "^4.5.0",
     "drizzle-orm": "^0.45.2",
+    "katex": "^0.18.7",
     "lucide-react": "^1.45.0",
     "motion": "^13.2.0",
     "next": "16.3.5",
     "postgres": "^3.4.9",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "zod": "^4.6.2",
-    "katex": "^0.18.7",
     "recharts": "^3.10.1",
-    "server-only": "^0.0.1"
+    "server-only": "^0.0.1",
+    "three": "^0.186.0",
+    "zod": "^4.6.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/katex": "^0.16.8",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.186.0",
     "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "@types/katex": "^0.16.8"
+    "typescript": "^5"
   },
   "engines": {
     "node": ">=22.18.0"

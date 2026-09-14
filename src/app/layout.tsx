@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { siteConfig } from "@/data/catalog";
+import { PageMotion } from "@/components/motion/page-motion";
 import "./globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -81,6 +82,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     >
       <body>
         <SiteHeader />
+        <PageMotion />
         {children}
         <SiteFooter />
         <script
