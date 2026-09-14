@@ -2,16 +2,14 @@ import Link from "next/link";
 import { ArrowRight, BookOpenCheck, Focus, Route } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { CatalogGrid } from "@/components/catalog-grid";
-import { publicCatalog } from "@/server/products";
-export const dynamic = "force-dynamic";
+import { products } from "@/data/catalog";
 
 export const metadata = pageMetadata(
   "Mock test series for CUET, IAT, NEST & COMEDK",
   "Explore our planned exam-focused mock series, test counts, inclusions and proposed pricing for CUET UG, IISER IAT, NEST and COMEDK UGET.",
   "/test-series",
 );
-export default async function TestSeriesPage() {
-  const products = await publicCatalog();
+export default function TestSeriesPage() {
   return (
     <main id="main-content" tabIndex={-1}>
       <section className="guide-hero page-shell preparation-hero">

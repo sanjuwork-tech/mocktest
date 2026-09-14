@@ -170,8 +170,10 @@ test("Phase 1 HTTP and database integration", async (t) => {
         );
         const home = await (await fetch(origin)).text();
         const prep = await (await fetch(origin + "/test-series")).text();
-        assert.ok(home.includes("9.99"));
-        assert.ok(prep.includes(body.title));
+        assert.ok(home.includes("Your dream deserves"));
+        assert.ok(prep.includes("Your dream is specific."));
+        assert.ok(!home.includes(body.title));
+        assert.ok(!prep.includes(body.title));
         assert.equal(
           (
             await api("/api/orders", {

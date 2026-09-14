@@ -8,12 +8,11 @@ import {
   MoveUpRight,
 } from "lucide-react";
 import { exams } from "@/data/exams";
-import { publicCatalog } from "@/server/products";
+import { products } from "@/data/catalog";
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-static";
 
-export default async function HomePage() {
-  const products = await publicCatalog();
+export default function HomePage() {
   return (
     <main id="main-content" tabIndex={-1}>
       <section className="home-hero page-shell">
