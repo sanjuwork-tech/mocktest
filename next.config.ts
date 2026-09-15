@@ -5,6 +5,18 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   async headers() {
     return [
+      ...(process.env.VERCEL_ENV === "preview"
+        ? [
+            {
+              source: "/:path*",
+              headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+            },
+          ]
+        : []),
+      ...["/admin/:path*", "/student/:path*", "/api/:path*"].map((source) => ({
+        source,
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      })),
       {
         source: "/:path*",
         headers: [

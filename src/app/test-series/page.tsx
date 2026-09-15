@@ -1,17 +1,41 @@
 import Link from "next/link";
-import { ArrowRight, BookOpenCheck, Focus, Route } from "lucide-react";
+import { ArrowRight, ArrowUpRight, BookOpenCheck, Focus, Route } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { CatalogGrid } from "@/components/catalog-grid";
-import { products } from "@/data/catalog";
+import { products, siteConfig } from "@/data/catalog";
+import { JsonLd } from "@/components/json-ld";
 
 export const metadata = pageMetadata(
   "Mock test series for CUET, IAT, NEST & COMEDK",
   "Explore our planned exam-focused mock series, test counts, inclusions and proposed pricing for CUET UG, IISER IAT, NEST and COMEDK UGET.",
   "/test-series",
+  [
+    "mock test series 2026",
+    "CUET UG mock tests",
+    "IISER IAT test series",
+    "NEST mock tests",
+    "COMEDK practice tests",
+  ],
 );
 export default function TestSeriesPage() {
   return (
     <main id="main-content" tabIndex={-1}>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "TestDisha Mock Test Series",
+          description:
+            "Explore mock test series for CUET UG, IISER IAT, NEST and COMEDK UGET.",
+          numberOfItems: products.length,
+          itemListElement: products.map((product, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            name: product.title,
+            url: `${siteConfig.url}/test-series/${product.slug}`,
+          })),
+        }}
+      />
       <section className="guide-hero page-shell preparation-hero">
         <p className="eyebrow">Mock tests for the path you choose</p>
         <h1>
@@ -21,7 +45,7 @@ export default function TestSeriesPage() {
         </h1>
         <p className="hero-copy">
           A future in science. A university that feels right. An engineering
-          branch you can’t stop thinking about. Explore our mock test series for
+          branch you can&apos;t stop thinking about. Explore our mock test series for
           CUET UG, IISER IAT, NEST and COMEDK UGET.
         </p>
         <div className="hero-actions">
@@ -46,7 +70,7 @@ export default function TestSeriesPage() {
           </h2>
         </div>
         <p>
-          JEE and NEET are important paths. They aren’t the whole map. Our focus
+          JEE and NEET are important paths. They aren&apos;t the whole map. Our focus
           is on helping you discover and prepare for the university, science and
           engineering opportunities these four exams can open.
         </p>
@@ -62,7 +86,7 @@ export default function TestSeriesPage() {
             <h2 id="mock-series-title">
               Choose your exam.
               <br />
-              See what’s in your series.
+              See what&apos;s in your series.
             </h2>
           </div>
         </div>
@@ -75,6 +99,21 @@ export default function TestSeriesPage() {
           </p>
         </div>
         <CatalogGrid products={products} />
+        <nav
+          className="related-exam-links"
+          aria-label="Individual series pages"
+          style={{ marginTop: "2rem" }}
+        >
+          {products.map((product) => (
+            <Link
+              key={product.slug}
+              className="text-link"
+              href={`/test-series/${product.slug}`}
+            >
+              {product.shortName} series details <ArrowUpRight size={16} />
+            </Link>
+          ))}
+        </nav>
       </section>
       <section className="how-section">
         <div className="page-shell">
@@ -90,7 +129,7 @@ export default function TestSeriesPage() {
                 Icon: Focus,
                 number: "01",
                 title: "Practise for your exam",
-                copy: "Our series plans start with the subjects, question style and timing of the exam you’re preparing for.",
+                copy: "Our series plans start with the subjects, question style and timing of the exam you're preparing for.",
               },
               {
                 Icon: BookOpenCheck,

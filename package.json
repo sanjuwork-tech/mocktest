@@ -19,7 +19,8 @@
     "admin:password": "node --experimental-strip-types scripts/admin-password.mjs",
     "test:integration": "node --experimental-strip-types --test tests/backend.integration.mjs",
     "db:local": "node scripts/db-local.mjs",
-    "test:database": "node --experimental-strip-types tests/database.integration.mjs"
+    "test:database": "node --experimental-strip-types tests/database.integration.mjs",
+    "test:seo": "node --test tests/seo.integration.mjs"
   },
   "dependencies": {
     "animejs": "^4.5.0",

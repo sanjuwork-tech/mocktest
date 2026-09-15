@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import {
@@ -8,19 +9,64 @@ import {
   Sigma,
   Play,
   ChartNoAxesCombined,
+  CheckCircle2,
 } from "lucide-react";
 import { StudentShell } from "./shell";
 import { createSample, useDemo } from "@/lib/student/store";
 import { SUBJECTS, analyze } from "@/lib/student/model";
 import { questionsFor } from "@/data/student/bank";
+
+type ServerAttempt = {
+  id: string;
+  subject: "mathematics" | "physics" | "chemistry";
+  startedAt: number;
+  submittedAt?: number;
+  score: number;
+  maxScore: number;
+  accuracy: number | null;
+  status: string;
+};
+
 export function StudentDashboard() {
   const { attempts } = useDemo();
   const router = useRouter();
-  const completed = attempts.filter((a) => a.submittedAt && !a.sample);
-  const answered = completed.reduce((s, a) => {
+  const [studentName, setStudentName] = useState<string>("");
+  const [serverAttempts, setServerAttempts] = useState<ServerAttempt[]>([]);
+
+  useEffect(() => {
+    async function loadData() {
+      try {
+        const [meRes, attRes] = await Promise.all([
+          fetch("/api/student/me"),
+          fetch("/api/student/attempts"),
+        ]);
+        if (meRes.ok) {
+          const meData = await meRes.json();
+          if (meData.student?.name) setStudentName(meData.student.name);
+        }
+        if (attRes.ok) {
+          const attData = await attRes.json();
+          if (Array.isArray(attData.attempts)) {
+            setServerAttempts(attData.attempts);
+          }
+        }
+      } catch {
+        // Fallback to local state
+      }
+    }
+    loadData();
+  }, []);
+
+  const completedLocal = attempts.filter((a) => a.submittedAt && !a.sample);
+  const totalCompleted = Math.max(completedLocal.length, serverAttempts.length);
+
+  const answeredCount = completedLocal.reduce((s, a) => {
     const r = analyze(questionsFor(a.subject), a);
     return s + r.right + r.wrong;
-  }, 0);
+  }, serverAttempts.length * 50);
+
+  const firstName = studentName ? studentName.split(" ")[0] : "future explorer";
+
   return (
     <StudentShell>
       <section className="student-dashboard-hero">
@@ -29,7 +75,7 @@ export function StudentDashboard() {
           <h1>
             Welcome back,
             <br />
-            <em>future explorer.</em>
+            <em>{firstName}.</em>
           </h1>
           <p>
             A score tells you where you are. Understanding your mistakes helps
@@ -51,6 +97,7 @@ export function StudentDashboard() {
           <strong>What you learn from it can change your next one.</strong>
         </div>
       </section>
+
       <div className="student-stat-grid">
         <div>
           <span>Practice library</span>
@@ -60,17 +107,18 @@ export function StudentDashboard() {
         </div>
         <div>
           <span>Your completed tests</span>
-          <strong>{completed.length}</strong>
+          <strong>{totalCompleted}</strong>
         </div>
         <div>
           <span>Questions attempted</span>
-          <strong>{answered}</strong>
+          <strong>{answeredCount}</strong>
         </div>
         <div>
           <span>Your next step</span>
           <strong className="student-stat-text">Start curious.</strong>
         </div>
       </div>
+
       <section className="student-section">
         <div className="section-heading">
           <div>
@@ -81,6 +129,7 @@ export function StudentDashboard() {
             50 questions · 90 minutes per subject
           </span>
         </div>
+
         <div className="student-subject-grid">
           {SUBJECTS.map((s, i) => {
             const active = attempts.find(
@@ -95,7 +144,24 @@ export function StudentDashboard() {
                 <div className="student-subject-icon">
                   <Icon size={26} />
                 </div>
-                <p className="eyebrow">Subject practice · Demo 01</p>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <p className="eyebrow">Subject practice</p>
+                  <span
+                    style={{
+                      fontSize: "11px",
+                      background: "#e8f0fe",
+                      color: "var(--blue)",
+                      padding: "2px 8px",
+                      borderRadius: "12px",
+                      fontWeight: 600,
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    <CheckCircle2 size={12} /> Free Diagnostic Mock
+                  </span>
+                </div>
                 <h3>{s.title}</h3>
                 <p>{s.subtitle}</p>
                 <div className="student-card-facts">
@@ -123,12 +189,12 @@ export function StudentDashboard() {
           })}
         </div>
         <p className="student-muted">
-          Demo scoring: +4 correct, −1 incorrect, 0 unanswered. Multiple
+          Scoring rules: +4 correct, −1 incorrect, 0 unanswered. Multiple
           answers, matching and ordering use exact-match scoring with no partial
-          credit. Sample analysis is simulated and never counts toward your
-          progress.
+          credit. Answers are autosaved with cloud synchronization and local backup.
         </p>
       </section>
+
       <section className="student-section">
         <div className="section-heading">
           <div>
@@ -136,7 +202,32 @@ export function StudentDashboard() {
             <h2>Every attempt has a next step.</h2>
           </div>
         </div>
-        {attempts.some((a) => a.submittedAt) ? (
+
+        {serverAttempts.length > 0 ? (
+          <div className="student-history">
+            {serverAttempts.map((a) => (
+              <Link key={a.id} href={`/student/results/${a.id}`}>
+                <div>
+                  <strong>
+                    {SUBJECTS.find((s) => s.id === a.subject)?.title || a.subject}
+                  </strong>
+                  <span>
+                    Diagnostic Attempt ·{" "}
+                    {a.submittedAt
+                      ? new Date(a.submittedAt).toLocaleString("en-IN")
+                      : "Completed"}
+                  </span>
+                </div>
+                <strong>
+                  {a.score}/{a.maxScore}
+                </strong>
+                <span>
+                  See analysis <ArrowRight size={16} />
+                </span>
+              </Link>
+            ))}
+          </div>
+        ) : attempts.some((a) => a.submittedAt) ? (
           <div className="student-history">
             {attempts
               .filter((a) => a.submittedAt)
@@ -177,9 +268,11 @@ export function StudentDashboard() {
     </StudentShell>
   );
 }
+
 function CompassIcon() {
   return <Sigma size={34} />;
 }
+
 function BookOpenIcon() {
   return <ChartNoAxesCombined size={30} />;
 }

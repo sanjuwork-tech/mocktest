@@ -46,3 +46,8 @@ next-env.d.ts
 .local/
 backups/
 *.dump
+
+# Personal / Documentation Files
+*.md
+/docs/
+/audit-report/

@@ -121,7 +121,10 @@ export const usersTable = pgTable(
     id: uuid("id").defaultRandom().primaryKey(),
     email: text("email").notNull().unique(),
     name: text("name").notNull(),
-    passwordHash: text("password_hash").notNull(),
+    passwordHash: text("password_hash"),
+    provider: text("provider").default("credentials").notNull(),
+    providerId: text("provider_id"),
+    avatarUrl: text("avatar_url"),
     role: text("role")
       .$type<"student" | "editor" | "reviewer" | "admin">()
       .default("student")
@@ -454,6 +457,10 @@ export const attemptResultsTable = pgTable(
     scoringVersion: text("scoring_version").notNull(),
     breakdown: jsonb("breakdown").notNull(),
     answerSnapshot: jsonb("answer_snapshot").notNull(),
+    reflections: jsonb("reflections")
+      .$type<Record<string, string>>()
+      .default({})
+      .notNull(),
     createdAt: created(),
   },
   (t) => [

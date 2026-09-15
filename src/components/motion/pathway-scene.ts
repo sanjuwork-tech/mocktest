@@ -38,24 +38,40 @@ export function mountPathwayScene(host: HTMLDivElement) {
   materials.push(material);
   group.add(new THREE.Mesh(geometry, material));
   let frame = 0;
-  let remaining = 0;
   let visible = true;
   let lost = false;
   let targetX = 0.15;
   let targetY = -0.25;
+  let time = 0;
   group.rotation.set(-0.1, -0.5, 0);
+
   const draw = () => {
     frame = 0;
     if (!visible || document.hidden || lost) return;
-    group.rotation.x += (targetX - group.rotation.x) * 0.1;
-    group.rotation.y += (targetY - group.rotation.y) * 0.1;
+    
+    time += 0.01;
+    // Add organic breathing/floating to the target rotation
+    const floatX = Math.sin(time) * 0.05;
+    const floatY = Math.cos(time * 0.8) * 0.05;
+    
+    group.rotation.x += (targetX + floatX - group.rotation.x) * 0.08;
+    group.rotation.y += (targetY + floatY - group.rotation.y) * 0.08;
+    
+    // Slowly rotate the individual rings for a continuous "alive" feel
+    group.children.forEach((child, index) => {
+      child.rotation.x += 0.002 * (index + 1);
+      child.rotation.y += 0.003 * (index + 1);
+    });
+
     renderer.render(scene, camera);
-    if (--remaining > 0) frame = requestAnimationFrame(draw);
+    
+    // Continuously animate when visible
+    frame = requestAnimationFrame(draw);
   };
   const request = () => {
-    remaining = 36;
-    if (!frame && visible && !document.hidden && !lost)
+    if (!frame && visible && !document.hidden && !lost) {
       frame = requestAnimationFrame(draw);
+    }
   };
   const resize = new ResizeObserver(() => {
     const { width, height } = host.getBoundingClientRect();

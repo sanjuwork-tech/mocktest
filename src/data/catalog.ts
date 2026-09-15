@@ -1,3 +1,5 @@
+import { canonicalSiteUrl } from "../lib/site-url.ts";
+
 export type ExamKey = "cuet-ug" | "iiser-iat" | "niser-nest" | "comedk";
 
 export type Product = {
@@ -140,10 +142,6 @@ export const siteConfig = {
   name: "TestDisha",
   shortDescription:
     "Discover more paths after Class 12 and explore mock test series for CUET UG, IISER IAT, NEST and COMEDK UGET.",
-  url:
-    process.env.NEXT_PUBLIC_SITE_URL ??
-    (process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000"),
+  url: canonicalSiteUrl(process.env.NEXT_PUBLIC_CANONICAL_URL),
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
 };

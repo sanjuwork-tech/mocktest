@@ -18,6 +18,10 @@ export function SiteFooter() {
             {[
               ["All exam details", "/exams"],
               ["Preparation", "/test-series"],
+              ["CUET UG guide", "/exams/cuet-ug"],
+              ["IISER IAT guide", "/exams/iiser-iat"],
+              ["NEST guide", "/exams/niser-nest"],
+              ["COMEDK guide", "/exams/comedk"],
             ].map(([label, href]) => (
               <Link key={href} href={href}>
                 {label}

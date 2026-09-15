@@ -750,12 +750,17 @@ export function StudentResults({ id }: { id: string }) {
                 <Reflection
                   question={r.q}
                   value={attempt.reflections[r.q.id] ?? ""}
-                  onChange={(value) =>
+                  onChange={(value) => {
                     updateAttempt(attempt.id, (a) => ({
                       ...a,
                       reflections: { ...a.reflections, [r.q.id]: value },
-                    }))
-                  }
+                    }));
+                    fetch(`/api/student/attempts/${attempt.id}/results`, {
+                      method: "PATCH",
+                      headers: { "Content-Type": "application/json" },
+                      body: JSON.stringify({ reflections: { [r.q.id]: value } }),
+                    }).catch(() => {});
+                  }}
                 />
               </details>
             ))}

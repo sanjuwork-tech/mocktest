@@ -5,11 +5,14 @@ export function pageMetadata(
   title: string,
   description: string,
   path: string,
+  keywords?: string[],
 ): Metadata {
   return {
     title,
     description,
     alternates: { canonical: path },
+    robots: { index: true, follow: true },
+    ...(keywords?.length ? { keywords } : {}),
     openGraph: {
       type: "website",
       locale: "en_IN",

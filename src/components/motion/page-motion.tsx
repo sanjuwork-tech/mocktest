@@ -7,7 +7,11 @@ import { usePathname } from "next/navigation";
 export function PageMotion() {
   const pathname = usePathname();
   useEffect(() => {
-    if (!["/", "/exams", "/test-series", "/about"].includes(pathname)) return;
+    if (
+      !["/", "/exams", "/test-series", "/about"].includes(pathname) &&
+      !pathname.startsWith("/exams/")
+    )
+      return;
     const preference = matchMedia("(prefers-reduced-motion: reduce)");
     let disposed = false;
     let observer: IntersectionObserver | undefined;

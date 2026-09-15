@@ -9,6 +9,9 @@ import {
   Flag,
   Send,
   CheckCircle2,
+  CloudCheck,
+  CloudAlert,
+  Loader2,
 } from "lucide-react";
 import { questionsFor } from "@/data/student/bank";
 import {
@@ -25,9 +28,11 @@ import {
   updateAttempt,
   useDemo,
   storageWarning,
+  mutate,
 } from "@/lib/student/store";
 import { StudentShell } from "./shell";
 import { AnswerInput, QuestionContent } from "./question";
+
 export function TestPlayer({ subject }: { subject: Subject }) {
   const state = useDemo();
   const router = useRouter();
@@ -38,22 +43,32 @@ export function TestPlayer({ subject }: { subject: Subject }) {
   );
   const [now, setNow] = useState(0);
   const [startedId, setStartedId] = useState("");
+  const [syncStatus, setSyncStatus] = useState<"saved" | "saving" | "offline">("saved");
+  const [isStarting, setIsStarting] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const current = Math.min(attempt?.current ?? 0, qs.length - 1);
   const q = qs[current];
   const response = attempt?.responses[q.id];
+
   useEffect(() => {
     if (!attempt || !state.signedIn) return;
     const id = attempt.id;
     const deadline = attempt.deadline;
-    // Read the wall clock after commit, inside effect setup, never during render.
     // eslint-disable-next-line react-hooks/purity
     let last = Date.now();
-    const tick = () => {
+
+    const tick = async () => {
       const time = Date.now();
       setNow(time);
       if (time >= deadline) {
+        // Auto-submit on server deadline
+        try {
+          await fetch(`/api/student/attempts/${id}/submit`, { method: "POST" });
+        } catch {
+          // Ignore
+        }
         finishAttempt(id, true);
         router.replace(`/student/results/${id}`);
         return;
@@ -79,7 +94,8 @@ export function TestPlayer({ subject }: { subject: Subject }) {
     };
     const timer = setInterval(tick, 1000);
     return () => clearInterval(timer);
-  }, [attempt?.id, attempt?.deadline, q.id, state.signedIn, router]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [attempt, state.signedIn, qs, router]);
+
   useEffect(() => {
     if (
       startedId &&
@@ -87,37 +103,143 @@ export function TestPlayer({ subject }: { subject: Subject }) {
     )
       router.replace(`/student/results/${startedId}`);
   }, [state.attempts, startedId, router]);
+
+  const handleStartTest = async () => {
+    setIsStarting(true);
+    try {
+      // Start attempt on server
+      const res = await fetch("/api/student/attempts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        // Sync server attempt with local store
+        mutate((s) => ({
+          ...s,
+          attempts: [
+            ...s.attempts.filter((a) => a.subject !== subject || Boolean(a.submittedAt)),
+            {
+              id: data.attemptId,
+              subject,
+              startedAt: data.startedAt,
+              deadline: data.deadline,
+              current: 0,
+              responses: {},
+              reflections: {},
+            },
+          ],
+        }));
+        setStartedId(data.attemptId);
+        setIsStarting(false);
+        return;
+      }
+    } catch {
+      // Offline fallback
+    }
+
+    const localId = startAttempt(subject);
+    setStartedId(localId);
+    setIsStarting(false);
+  };
+
+  const syncResponseToServer = async (questionId: string, updatedResponse: typeof response) => {
+    if (!attempt || !updatedResponse) return;
+    setSyncStatus("saving");
+    try {
+      const res = await fetch(`/api/student/attempts/${attempt.id}/answer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ questionId, response: updatedResponse }),
+      });
+      if (res.ok) {
+        setSyncStatus("saved");
+      } else {
+        setSyncStatus("offline");
+      }
+    } catch {
+      setSyncStatus("offline");
+    }
+  };
+
+  const handleResponseChange = (value: string | string[]) => {
+    if (!attempt) return;
+    const newChanges = (response?.changes ?? 0) + 1;
+    const updated = {
+      value,
+      changes: newChanges,
+    };
+    setResponse(attempt.id, q.id, updated);
+    syncResponseToServer(q.id, {
+      ...EMPTY_RESPONSE,
+      ...response,
+      ...updated,
+    });
+  };
+
+  const handleConfidenceChange = (c: "low" | "medium" | "high") => {
+    if (!attempt) return;
+    const updated = { confidence: c };
+    setResponse(attempt.id, q.id, updated);
+    syncResponseToServer(q.id, {
+      ...EMPTY_RESPONSE,
+      ...response,
+      ...updated,
+    });
+  };
+
+  const handleSubmit = async () => {
+    if (!attempt) return;
+    setIsSubmitting(true);
+    try {
+      await fetch(`/api/student/attempts/${attempt.id}/submit`, {
+        method: "POST",
+      });
+    } catch {
+      // Offline submission
+    }
+    finishAttempt(attempt.id);
+    dialog.current?.close();
+    router.push(`/student/results/${attempt.id}`);
+  };
+
   const go = (index: number) => {
     if (attempt) updateAttempt(attempt.id, (a) => ({ ...a, current: index }));
     heading.current?.focus();
   };
+
   const totalAnswered = qs.filter((q) =>
     answered(q, attempt?.responses[q.id]),
   ).length;
+
   const remaining = Math.max(
     0,
     Math.ceil(
       ((attempt?.deadline ?? 0) - (now || attempt?.startedAt || 0)) / 1000,
     ),
   );
+
   return (
     <StudentShell>
       {!attempt ? (
         <section className="student-panel test-intro">
-          <p className="eyebrow">{info.title} · Practice demo 01</p>
+          <p className="eyebrow">{info.title} · Diagnostic Practice Mock</p>
           <h1>
             A fresh start.
             <br />
             <em>Fifty chances to learn.</em>
           </h1>
           <p>
-            Take this test at your pace within a 90-minute window. Your analysis
-            will turn each response into a useful next step.
+            Take this test at your pace within a 90-minute window. Your answers will
+            autosave with cloud synchronization, and your diagnostic report will turn each
+            response into a useful next step.
           </p>
           <div className="student-card-facts">
             <span>50 questions</span>
             <span>90 minutes</span>
             <span>200 marks</span>
+            <span style={{ color: "var(--blue)", fontWeight: 600 }}>Free Diagnostic Mock</span>
           </div>
           <h2>Before you begin</h2>
           <ul>
@@ -129,34 +251,40 @@ export function TestPlayer({ subject }: { subject: Subject }) {
               correct answer. No partial marks.
             </li>
             <li>
-              Ten practice formats, five questions of each type. This is a
-              subject demo, not an official exam pattern.
+              Ten practice formats, five questions of each type. All equations and diagrams render in standard scientific notation.
             </li>
             <li>
               You can move freely, clear answers and mark questions for review.
               Confidence is optional and never changes marks.
             </li>
             <li>
-              The timer continues when you leave or refresh. Answers save in
-              this browser. Time per question estimates visible-tab attention.
+              Responses autosave in real time. If your network blips, responses are preserved locally and resynced automatically.
             </li>
             <li>
-              Use the on-screen Submit button at any point; the demo also
-              submits when time runs out while open, or on return.
+              The test automatically submits when time runs out, or when you click Review & Submit.
             </li>
           </ul>
           <button
             className="button-primary"
-            onClick={() => setStartedId(startAttempt(subject))}
+            onClick={handleStartTest}
+            disabled={isStarting}
           >
-            Start {info.title.toLowerCase()} test <ArrowRight size={18} />
+            {isStarting ? (
+              <>
+                <Loader2 className="animate-spin" size={18} /> Preparing test…
+              </>
+            ) : (
+              <>
+                Start {info.title.toLowerCase()} test <ArrowRight size={18} />
+              </>
+            )}
           </button>
         </section>
       ) : (
         <>
           <div className="test-title-row">
             <div>
-              <p className="eyebrow">{info.title} · Practice demo 01</p>
+              <p className="eyebrow">{info.title} · Diagnostic Mock</p>
               <h1>Stay curious. Keep going.</h1>
             </div>
             <div
@@ -188,12 +316,7 @@ export function TestPlayer({ subject }: { subject: Subject }) {
               <AnswerInput
                 question={q}
                 response={response}
-                onChange={(value) =>
-                  setResponse(attempt.id, q.id, {
-                    value,
-                    changes: (response?.changes ?? 0) + 1,
-                  })
-                }
+                onChange={handleResponseChange}
               />
               <fieldset className="confidence-options">
                 <legend>
@@ -209,9 +332,7 @@ export function TestPlayer({ subject }: { subject: Subject }) {
                       type="radio"
                       name={`confidence-${q.id}`}
                       checked={response?.confidence === c}
-                      onChange={() =>
-                        setResponse(attempt.id, q.id, { confidence: c })
-                      }
+                      onChange={() => handleConfidenceChange(c)}
                     />
                     {["Still guessing", "Somewhat sure", "Confident"][i]}
                   </label>
@@ -220,21 +341,33 @@ export function TestPlayer({ subject }: { subject: Subject }) {
               <div className="question-tools">
                 <button
                   className="student-text-button"
-                  onClick={() =>
+                  onClick={() => {
                     setResponse(attempt.id, q.id, {
                       value: "",
                       confidence: undefined,
-                    })
-                  }
+                    });
+                    syncResponseToServer(q.id, {
+                      ...EMPTY_RESPONSE,
+                      ...response,
+                      value: "",
+                      confidence: undefined,
+                    });
+                  }}
                 >
                   Clear response
                 </button>
                 <button
                   className="student-text-button"
                   aria-pressed={response?.marked ?? false}
-                  onClick={() =>
-                    setResponse(attempt.id, q.id, { marked: !response?.marked })
-                  }
+                  onClick={() => {
+                    const marked = !response?.marked;
+                    setResponse(attempt.id, q.id, { marked });
+                    syncResponseToServer(q.id, {
+                      ...EMPTY_RESPONSE,
+                      ...response,
+                      marked,
+                    });
+                  }}
                 >
                   <Flag size={16} />
                   {response?.marked ? "Marked for review" : "Mark for review"}
@@ -276,11 +409,37 @@ export function TestPlayer({ subject }: { subject: Subject }) {
                   value={totalAnswered}
                   aria-label="Questions answered"
                 />
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "6px",
+                    fontSize: "12px",
+                    marginTop: "8px",
+                    color: syncStatus === "offline" ? "#b45309" : "#3b82f6",
+                  }}
+                >
+                  {syncStatus === "saved" && (
+                    <>
+                      <CloudCheck size={14} /> Cloud autosave synced
+                    </>
+                  )}
+                  {syncStatus === "saving" && (
+                    <>
+                      <Loader2 className="animate-spin" size={14} /> Autosaving…
+                    </>
+                  )}
+                  {syncStatus === "offline" && (
+                    <>
+                      <CloudAlert size={14} /> Saved locally (offline backup)
+                    </>
+                  )}
+                </div>
                 <p className="student-save-note">
                   <CheckCircle2 size={14} />{" "}
                   {storageWarning()
-                    ? "Using memory only; see storage warning"
-                    : "Responses saved in this browser"}
+                    ? "Using memory fallback"
+                    : "Progress safely retained"}
                 </p>
                 <div
                   className="question-palette"
@@ -349,18 +508,24 @@ export function TestPlayer({ subject }: { subject: Subject }) {
               <button
                 className="student-secondary"
                 onClick={() => dialog.current?.close()}
+                disabled={isSubmitting}
               >
                 Keep practising
               </button>
               <button
                 className="button-primary"
-                onClick={() => {
-                  finishAttempt(attempt.id);
-                  dialog.current?.close();
-                  router.push(`/student/results/${attempt.id}`);
-                }}
+                onClick={handleSubmit}
+                disabled={isSubmitting}
               >
-                Submit & see analysis
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="animate-spin" size={16} /> Submitting…
+                  </>
+                ) : (
+                  <>
+                    Submit & see analysis <Send size={16} />
+                  </>
+                )}
               </button>
             </div>
           </dialog>

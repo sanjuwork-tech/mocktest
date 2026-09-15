@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { siteConfig } from "@/data/catalog";
+import { JsonLd } from "@/components/json-ld";
 import { PageMotion } from "@/components/motion/page-motion";
 import "./globals.css";
 
@@ -41,6 +42,13 @@ export const metadata: Metadata = {
     "entrance exam preparation",
   ],
   applicationName: siteConfig.name,
+  robots:
+    process.env.VERCEL_ENV === "preview"
+      ? { index: false, follow: false }
+      : { index: true, follow: true },
+  verification: process.env.GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
+    : undefined,
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -69,11 +77,47 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: siteConfig.name,
-    url: siteConfig.url,
-    logo: `${siteConfig.url}/logo-mark.svg`,
-    description: siteConfig.shortDescription,
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${siteConfig.url}/#organization`,
+        name: siteConfig.name,
+        url: siteConfig.url,
+        logo: `${siteConfig.url}/logo-mark.svg`,
+        description: siteConfig.shortDescription,
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${siteConfig.url}/#website`,
+        name: siteConfig.name,
+        url: siteConfig.url,
+        inLanguage: "en-IN",
+        publisher: { "@id": `${siteConfig.url}/#organization` },
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "@id": `${siteConfig.url}/#navigation`,
+        name: "Main navigation",
+        hasPart: [
+          { "@type": "WebPage", name: "Home", url: siteConfig.url },
+          {
+            "@type": "WebPage",
+            name: "Explore exams",
+            url: `${siteConfig.url}/exams`,
+          },
+          {
+            "@type": "WebPage",
+            name: "Mock test series",
+            url: `${siteConfig.url}/test-series`,
+          },
+          {
+            "@type": "WebPage",
+            name: "About",
+            url: `${siteConfig.url}/about`,
+          },
+        ],
+      },
+    ],
   };
   return (
     <html
@@ -85,10 +129,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <PageMotion />
         {children}
         <SiteFooter />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <JsonLd data={structuredData} />
       </body>
     </html>
   );
