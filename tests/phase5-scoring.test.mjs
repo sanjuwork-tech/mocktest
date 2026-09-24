@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { requireDb } from "../src/db/client.ts";
+import { databaseConfigured, requireDb } from "../src/db/client.ts";
 import {
   usersTable,
   testsTable,
@@ -10,7 +10,6 @@ import {
   answerKeysTable,
   attemptsTable,
   attemptAnswersTable,
-  attemptResultsTable,
 } from "../src/db/schema.ts";
 import { processAttemptScoring } from "../src/server/scoring.ts";
 import { eq } from "drizzle-orm";
@@ -19,7 +18,7 @@ const MOCK_USER_ID = "test-phase5-user-" + Date.now();
 const MOCK_TEST_ID = "test-phase5-test-" + Date.now();
 const MOCK_ATTEMPT_ID = "test-phase5-attempt-" + Date.now();
 
-test("setup phase 5 database data", async () => {
+test("setup phase 5 database data", { skip: !databaseConfigured ? "Database not configured" : false }, async () => {
   const db = requireDb();
 
   await db.insert(usersTable).values({
@@ -116,14 +115,14 @@ test("setup phase 5 database data", async () => {
   });
 });
 
-test("processAttemptScoring throws if attempt is in_progress", async () => {
+test("processAttemptScoring throws if attempt is in_progress", { skip: !databaseConfigured ? "Database not configured" : false }, async () => {
   await assert.rejects(
     () => processAttemptScoring(MOCK_ATTEMPT_ID),
     /Cannot score an in_progress attempt/
   );
 });
 
-test("processAttemptScoring calculates score correctly", async () => {
+test("processAttemptScoring calculates score correctly", { skip: !databaseConfigured ? "Database not configured" : false }, async () => {
   const db = requireDb();
   
   await db.update(attemptsTable)

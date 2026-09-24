@@ -4,7 +4,6 @@ import assert from "node:assert/strict";
 // ── Import server modules (unit-testable without DB) ──
 import {
   normalizeEmail,
-  tokenHash,
   newSessionToken,
   hashPassword,
   verifyPassword,

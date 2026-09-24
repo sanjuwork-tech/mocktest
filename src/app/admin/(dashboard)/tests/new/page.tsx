@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Layers, CheckCircle2, AlertCircle } from "lucide-react";
+import { ArrowLeft, CheckCircle2, AlertCircle } from "lucide-react";
 import { BLUEPRINT_PRESETS } from "@/lib/blueprints/definitions";
 
 type Product = {
@@ -49,6 +49,7 @@ export default function NewTestPage() {
 
   useEffect(() => {
     if (blueprint) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setTitle(`${blueprint.title} — Mock 1`);
     }
   }, [blueprint]);

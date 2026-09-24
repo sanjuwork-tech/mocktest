@@ -5,10 +5,7 @@ import Link from "next/link";
 import {
   ArrowLeft,
   Calendar,
-  CheckCircle2,
-  AlertCircle,
   ExternalLink,
-  Save,
   Check,
 } from "lucide-react";
 import type { ExamGuide } from "@/data/exams";

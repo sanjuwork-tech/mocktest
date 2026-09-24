@@ -1,11 +1,9 @@
-import { z } from "zod";
 import { createHash } from "node:crypto";
 import { requireAdmin } from "@/server/auth";
-import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
+import { apiError, json, readJson, requireOrigin } from "@/server/http";
 import { questionBankSchema } from "@/lib/question-bank-schema";
 import { requireDb } from "@/db/client";
 import { importsTable } from "@/db/schema";
-import { sql } from "drizzle-orm";
 
 export const runtime = "nodejs";
 

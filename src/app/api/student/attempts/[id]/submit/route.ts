@@ -3,7 +3,7 @@ import { currentStudent } from "@/server/student-auth";
 import { submitAttempt } from "@/server/attempts";
 
 export async function POST(
-  _request: Request,
+  request: Request,
   context: { params: Promise<{ id: string }> },
 ) {
   const student = await currentStudent();
@@ -14,7 +14,17 @@ export async function POST(
   const { id: attemptId } = await context.params;
 
   try {
-    const result = await submitAttempt(attemptId);
+    let responses = undefined;
+    try {
+      const body = (await request.json()) as { responses?: Record<string, import("@/lib/student/model").Response> };
+      if (body && typeof body.responses === "object") {
+        responses = body.responses;
+      }
+    } catch {
+      // Body is optional
+    }
+
+    const result = await submitAttempt(attemptId, responses);
     return NextResponse.json(result);
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : "Failed to submit attempt";

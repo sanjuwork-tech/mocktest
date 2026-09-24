@@ -2,18 +2,8 @@
 
 import { useEffect, useState, use } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import {
-  ArrowLeft,
-  CheckCircle2,
-  AlertTriangle,
-  Send,
-  Timer,
-  BookOpen,
-  HelpCircle,
-  Check,
-  RotateCcw,
-} from "lucide-react";
+
+import { CheckCircle2, AlertTriangle, Send, Timer } from "lucide-react";
 import { ScientificRenderer, type Block } from "@/components/ui/scientific-renderer";
 
 type Section = {
@@ -57,10 +47,21 @@ export default function StudentExperiencePreviewPage({
   params: Promise<{ id: string }>;
 }) {
   const { id: testId } = use(params);
-  const router = useRouter();
 
-  const [test, setTest] = useState<any>(null);
-  const [version, setVersion] = useState<any>(null);
+interface TestPreviewData {
+  title: string;
+  exam: string;
+  durationMinutes: number;
+  totalMarks: number;
+}
+
+interface TestVersionData {
+  version?: number;
+  publishedAt?: string | null;
+}
+
+  const [test, setTest] = useState<TestPreviewData | null>(null);
+  const [version, setVersion] = useState<TestVersionData | null>(null);
   const [sections, setSections] = useState<Section[]>([]);
   const [assignments, setAssignments] = useState<Assignment[]>([]);
   const [loading, setLoading] = useState(true);
@@ -151,7 +152,7 @@ export default function StudentExperiencePreviewPage({
         setTest(refreshData.test);
         setVersion(refreshData.version);
       }
-    } catch (err) {
+    } catch {
       setPublishErrors(["An unexpected network error occurred while publishing."]);
     } finally {
       setPublishing(false);

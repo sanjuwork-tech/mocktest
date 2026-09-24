@@ -11,8 +11,6 @@ import {
   Target,
   Trophy,
   ArrowLeft,
-  ChevronDown,
-  ChevronUp,
 } from "lucide-react";
 import {
   BarChart,
@@ -34,6 +32,16 @@ import { RichText } from "@/components/student/rich-text";
 // Types
 // ────────────────────────────────────────────────────────
 
+type QuestionDetail = {
+  assignmentId: string;
+  prompt: string;
+  marks: number;
+  penalty: number;
+  options?: string[];
+  answer?: string | string[];
+  explanation?: string;
+};
+
 type ResultData = {
   attempt: {
     id: string;
@@ -46,11 +54,11 @@ type ResultData = {
     score: number;
     maxScore: number;
     breakdown: Record<string, { total: number; attempted: number; correct: number; wrong: number; unanswered: number }>;
-    answerSnapshot: Record<string, { isAnswered: boolean; isCorrect: boolean; points: number; studentValue: any }>;
+    answerSnapshot: Record<string, { isAnswered: boolean; isCorrect: boolean; points: number; studentValue: unknown }>;
   };
   test: { title: string };
-  sections: any[];
-  questions: any[];
+  sections: unknown[];
+  questions: QuestionDetail[];
 };
 
 // ────────────────────────────────────────────────────────
@@ -225,7 +233,7 @@ export default function StudentResultsPage() {
                         />
                         <Tooltip
                           contentStyle={{ backgroundColor: '#0f172a', borderColor: '#334155', color: '#fff' }}
-                          formatter={(value: any) => [`${Math.round(value)}%`, 'Accuracy']}
+                          formatter={(value: unknown) => [`${Math.round(Number(value))}%`, 'Accuracy']}
                         />
                       </RadarChart>
                     </ResponsiveContainer>
@@ -317,7 +325,7 @@ export default function StudentResultsPage() {
                       <div className="bg-indigo-950/30 border border-indigo-500/20 rounded-lg p-5 mt-8">
                         <h4 className="text-indigo-300 font-bold mb-3 uppercase tracking-wider text-xs">Explanation</h4>
                         <div className="prose prose-invert max-w-none text-slate-300">
-                          <RichText text={q.explanation} />
+                          <RichText text={q.explanation || "No explanation provided."} />
                         </div>
                       </div>
                     </div>

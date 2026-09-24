@@ -69,7 +69,7 @@ export async function GET(
 
     // Aggregate statistics
     let totalScore = 0;
-    let maxPossibleScore = results[0].maxScore || 0;
+    const maxPossibleScore = results[0].maxScore || 0;
     let highScore = -Infinity;
     let lowScore = Infinity;
 

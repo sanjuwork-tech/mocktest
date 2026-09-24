@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, use } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+
 import {
   ArrowLeft,
   Save,
@@ -10,8 +10,6 @@ import {
   Plus,
   Trash2,
   AlertCircle,
-  CheckCircle,
-  Filter,
   Check,
 } from "lucide-react";
 import { ScientificRenderer, type Block } from "@/components/ui/scientific-renderer";
@@ -56,15 +54,22 @@ type QuestionBankItem = {
   status: "draft" | "in_review" | "approved" | "retired";
 };
 
+interface TestHeader {
+  id?: string;
+  title: string;
+  exam: string;
+  durationMinutes: number;
+  totalMarks: number;
+}
+
 export default function TestAssemblyBuilderPage({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
   const { id: testId } = use(params);
-  const router = useRouter();
 
-  const [test, setTest] = useState<any>(null);
+  const [test, setTest] = useState<TestHeader | null>(null);
   const [sections, setSections] = useState<Section[]>([]);
   const [assignments, setAssignments] = useState<Assignment[]>([]);
   const [activeSectionId, setActiveSectionId] = useState<string>("");
@@ -99,6 +104,7 @@ export default function TestAssemblyBuilderPage({
   }, [testId, activeSectionId]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadTest();
   }, [loadTest]);
 
@@ -127,6 +133,7 @@ export default function TestAssemblyBuilderPage({
 
   useEffect(() => {
     if (activeSection) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       loadQuestionsForSection();
     }
   }, [activeSection, loadQuestionsForSection]);

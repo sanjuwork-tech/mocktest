@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { eq, and, desc, sql } from "drizzle-orm";
+import { eq, and, sql } from "drizzle-orm";
 import { requireStudent } from "@/server/auth";
 import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
 import { requireDb } from "@/db/client";
@@ -8,7 +8,6 @@ import {
   attemptsTable,
   testVersionsTable,
   testsTable,
-  productsTable,
   testSectionsTable,
   testAssignmentsTable,
   questionRevisionsTable,

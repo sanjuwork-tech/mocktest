@@ -13,12 +13,28 @@ import {
 } from "recharts";
 import { Users, TrendingUp, ArrowLeft, Trophy, AlertTriangle } from "lucide-react";
 
+interface AnalyticsData {
+  totalParticipants: number;
+  averageScore: number;
+  maxPossibleScore: number;
+  highScore: number | null;
+  lowScore: number | null;
+  distribution: { range: string; count: number }[];
+  recentAttempts: {
+    id: string;
+    studentName: string;
+    score: number;
+    maxScore: number;
+    submittedAt: string;
+  }[];
+}
+
 export default function AdminAnalyticsPage() {
   const params = useParams();
   const router = useRouter();
   const testId = params.id as string;
 
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<AnalyticsData | null>(null);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -115,6 +131,7 @@ export default function AdminAnalyticsPage() {
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-100 text-sm">
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {data.recentAttempts.map((attempt: any) => (
               <tr key={attempt.id} className="hover:bg-slate-50 transition-colors">
                 <td className="p-4 font-mono text-slate-500">{attempt.id.split("-")[0]}...</td>

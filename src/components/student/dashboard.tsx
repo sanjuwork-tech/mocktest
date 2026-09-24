@@ -141,7 +141,7 @@ export function StudentDashboard() {
                 key={s.id}
                 className={`student-subject-card student-${s.id}`}
               >
-                <div className="student-subject-icon">
+                <div className="student-subject-icon" aria-hidden="true">
                   <Icon size={26} />
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -270,9 +270,9 @@ export function StudentDashboard() {
 }
 
 function CompassIcon() {
-  return <Sigma size={34} />;
+  return <Sigma size={34} aria-hidden="true" />;
 }
 
 function BookOpenIcon() {
-  return <ChartNoAxesCombined size={30} />;
+  return <ChartNoAxesCombined size={30} aria-hidden="true" />;
 }

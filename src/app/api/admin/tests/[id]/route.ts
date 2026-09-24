@@ -109,8 +109,8 @@ export async function GET(
 
     // Fetch options and answer keys for assigned questions
     const revisionIds = assignments.map((a) => a.revisionId);
-    let options: any[] = [];
-    let answerKeys: any[] = [];
+    let options: (typeof questionOptionsTable.$inferSelect)[] = [];
+    let answerKeys: (typeof answerKeysTable.$inferSelect)[] = [];
 
     if (revisionIds.length > 0) {
       [options, answerKeys] = await Promise.all([

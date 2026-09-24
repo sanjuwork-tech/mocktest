@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { eq, desc, sql } from "drizzle-orm";
+import { eq, desc } from "drizzle-orm";
 import { requireAdmin } from "@/server/auth";
 import { apiError, json, readJson, requireOrigin } from "@/server/http";
 import { requireDb } from "@/db/client";

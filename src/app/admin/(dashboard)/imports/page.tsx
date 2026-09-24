@@ -44,7 +44,7 @@ export default function ImportsPage() {
       // Save raw data to session storage so the preview page can use it
       sessionStorage.setItem(`import_${data.importId}`, text);
       router.push(`/admin/imports/${data.importId}/preview`);
-    } catch (err) {
+    } catch {
       setError("An unexpected error occurred during upload.");
     } finally {
       setLoading(false);

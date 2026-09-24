@@ -1,4 +1,4 @@
-import data from "./questions.json";
+import data from "./questions.json" with { type: "json" };
 import type { Question, Subject } from "../../lib/student/model.ts";
 export const questionBank = data as Question[];
 export function questionsFor(subject: Subject) {

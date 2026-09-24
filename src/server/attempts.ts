@@ -193,6 +193,7 @@ export async function recordAnswer(
 
 export async function submitAttempt(
   attemptId: string,
+  finalResponses?: Record<string, Response>,
 ): Promise<{
   attemptId: string;
   score: number;
@@ -203,6 +204,12 @@ export async function submitAttempt(
   if (!attempt) {
     attempt = await getAttempt(attemptId);
     if (!attempt) throw new Error("Attempt not found");
+  }
+
+  // Merge any final or offline-buffered responses passed at submission
+  if (finalResponses && typeof finalResponses === "object") {
+    attempt.responses = { ...attempt.responses, ...finalResponses };
+    memoryAttempts.set(attemptId, attempt);
   }
 
   const questions = questionsFor(attempt.subject);

@@ -19,6 +19,7 @@ import {
   SUBJECTS,
   TYPE_LABELS,
   answered,
+  type Response as StudentResponse,
   type Subject,
 } from "@/lib/student/model";
 import {
@@ -65,7 +66,11 @@ export function TestPlayer({ subject }: { subject: Subject }) {
       if (time >= deadline) {
         // Auto-submit on server deadline
         try {
-          await fetch(`/api/student/attempts/${id}/submit`, { method: "POST" });
+          await fetch(`/api/student/attempts/${id}/submit`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ responses: attempt.responses }),
+          });
         } catch {
           // Ignore
         }
@@ -94,7 +99,7 @@ export function TestPlayer({ subject }: { subject: Subject }) {
     };
     const timer = setInterval(tick, 1000);
     return () => clearInterval(timer);
-  }, [attempt, state.signedIn, qs, router]);
+  }, [attempt, state.signedIn, qs, router, q?.id]);
 
   useEffect(() => {
     if (
@@ -144,24 +149,73 @@ export function TestPlayer({ subject }: { subject: Subject }) {
     setIsStarting(false);
   };
 
-  const syncResponseToServer = async (questionId: string, updatedResponse: typeof response) => {
-    if (!attempt || !updatedResponse) return;
+  const attemptRef = useRef(attempt);
+  useEffect(() => {
+    attemptRef.current = attempt;
+  }, [attempt]);
+  const pendingSyncRef = useRef<Map<string, StudentResponse>>(new Map());
+  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const flushPendingSync = async () => {
+    const curAttempt = attemptRef.current;
+    if (!curAttempt || pendingSyncRef.current.size === 0) return;
+    const entries = Array.from(pendingSyncRef.current.entries());
     setSyncStatus("saving");
     try {
-      const res = await fetch(`/api/student/attempts/${attempt.id}/answer`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ questionId, response: updatedResponse }),
-      });
-      if (res.ok) {
-        setSyncStatus("saved");
-      } else {
-        setSyncStatus("offline");
+      for (const [qId, resp] of entries) {
+        const res = await fetch(`/api/student/attempts/${curAttempt.id}/answer`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ questionId: qId, response: resp }),
+        });
+        if (res.ok) {
+          pendingSyncRef.current.delete(qId);
+        } else {
+          setSyncStatus("offline");
+          return;
+        }
       }
+      setSyncStatus("saved");
     } catch {
       setSyncStatus("offline");
     }
   };
+
+  const queueResponseSync = (
+    questionId: string,
+    updatedResponse: StudentResponse,
+    immediate = false,
+  ) => {
+    const curAttempt = attemptRef.current;
+    if (!curAttempt) return;
+    pendingSyncRef.current.set(questionId, updatedResponse);
+    setSyncStatus("saving");
+
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+
+    if (immediate) {
+      void flushPendingSync();
+    } else {
+      debounceTimerRef.current = setTimeout(() => {
+        void flushPendingSync();
+      }, 400);
+    }
+  };
+
+  useEffect(() => {
+    const handleOnline = () => {
+      if (pendingSyncRef.current.size > 0) {
+        void flushPendingSync();
+      }
+    };
+    window.addEventListener("online", handleOnline);
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      if (debounceTimerRef.current) clearTimeout(debounceTimerRef.current);
+    };
+  }, []);
 
   const handleResponseChange = (value: string | string[]) => {
     if (!attempt) return;
@@ -171,7 +225,7 @@ export function TestPlayer({ subject }: { subject: Subject }) {
       changes: newChanges,
     };
     setResponse(attempt.id, q.id, updated);
-    syncResponseToServer(q.id, {
+    queueResponseSync(q.id, {
       ...EMPTY_RESPONSE,
       ...response,
       ...updated,
@@ -182,19 +236,26 @@ export function TestPlayer({ subject }: { subject: Subject }) {
     if (!attempt) return;
     const updated = { confidence: c };
     setResponse(attempt.id, q.id, updated);
-    syncResponseToServer(q.id, {
-      ...EMPTY_RESPONSE,
-      ...response,
-      ...updated,
-    });
+    queueResponseSync(
+      q.id,
+      {
+        ...EMPTY_RESPONSE,
+        ...response,
+        ...updated,
+      },
+      true,
+    );
   };
 
   const handleSubmit = async () => {
     if (!attempt) return;
     setIsSubmitting(true);
+    if (debounceTimerRef.current) clearTimeout(debounceTimerRef.current);
     try {
       await fetch(`/api/student/attempts/${attempt.id}/submit`, {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ responses: attempt.responses }),
       });
     } catch {
       // Offline submission
@@ -205,6 +266,7 @@ export function TestPlayer({ subject }: { subject: Subject }) {
   };
 
   const go = (index: number) => {
+    if (pendingSyncRef.current.size > 0) void flushPendingSync();
     if (attempt) updateAttempt(attempt.id, (a) => ({ ...a, current: index }));
     heading.current?.focus();
   };
@@ -346,12 +408,16 @@ export function TestPlayer({ subject }: { subject: Subject }) {
                       value: "",
                       confidence: undefined,
                     });
-                    syncResponseToServer(q.id, {
-                      ...EMPTY_RESPONSE,
-                      ...response,
-                      value: "",
-                      confidence: undefined,
-                    });
+                    queueResponseSync(
+                      q.id,
+                      {
+                        ...EMPTY_RESPONSE,
+                        ...response,
+                        value: "",
+                        confidence: undefined,
+                      },
+                      true,
+                    );
                   }}
                 >
                   Clear response
@@ -362,11 +428,15 @@ export function TestPlayer({ subject }: { subject: Subject }) {
                   onClick={() => {
                     const marked = !response?.marked;
                     setResponse(attempt.id, q.id, { marked });
-                    syncResponseToServer(q.id, {
-                      ...EMPTY_RESPONSE,
-                      ...response,
-                      marked,
-                    });
+                    queueResponseSync(
+                      q.id,
+                      {
+                        ...EMPTY_RESPONSE,
+                        ...response,
+                        marked,
+                      },
+                      true,
+                    );
                   }}
                 >
                   <Flag size={16} />
@@ -443,6 +513,7 @@ export function TestPlayer({ subject }: { subject: Subject }) {
                 </p>
                 <div
                   className="question-palette"
+                  role="navigation"
                   aria-label="Question navigation"
                 >
                   {qs.map((item, i) => {
@@ -489,21 +560,28 @@ export function TestPlayer({ subject }: { subject: Subject }) {
               </p>
             </aside>
           </div>
-          <dialog ref={dialog} className="student-submit-dialog">
-            <h2>Ready to see what you can learn?</h2>
-            <p>
-              You answered {totalAnswered} of 50 questions. {50 - totalAnswered}{" "}
-              remain unanswered and receive zero marks.
-            </p>
-            <p>
-              {qs.filter((q) => attempt.responses[q.id]?.marked).length}{" "}
-              questions are marked for review. Marked answers are scored
-              normally.
-            </p>
-            <p>
-              Submitting ends this attempt. You can review every explanation and
-              start another test afterwards.
-            </p>
+          <dialog
+            ref={dialog}
+            className="student-submit-dialog"
+            aria-labelledby="submit-dialog-title"
+            aria-describedby="submit-dialog-desc"
+          >
+            <h2 id="submit-dialog-title">Ready to see what you can learn?</h2>
+            <div id="submit-dialog-desc">
+              <p>
+                You answered {totalAnswered} of 50 questions. {50 - totalAnswered}{" "}
+                remain unanswered and receive zero marks.
+              </p>
+              <p>
+                {qs.filter((q) => attempt.responses[q.id]?.marked).length}{" "}
+                questions are marked for review. Marked answers are scored
+                normally.
+              </p>
+              <p>
+                Submitting ends this attempt. You can review every explanation and
+                start another test afterwards.
+              </p>
+            </div>
             <div>
               <button
                 className="student-secondary"

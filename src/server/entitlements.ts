@@ -166,6 +166,7 @@ export async function grantPaidEntitlement(
   userId: string,
   productId: string,
   orderId: string,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   txClient?: any,
 ) {
   const dbClient = txClient ?? requireDb();

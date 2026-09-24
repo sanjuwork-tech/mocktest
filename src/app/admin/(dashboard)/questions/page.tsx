@@ -88,6 +88,7 @@ export default function QuestionsReviewPage() {
   }, [selectedSubject, selectedStatus]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchQuestions();
   }, [fetchQuestions]);
 

@@ -2,7 +2,6 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { examBlueprintSchema } from "../src/lib/blueprints/types.ts";
 import {
-  BLUEPRINT_PRESETS,
   IISER_IAT_2026_BLUEPRINT,
   NEST_2026_BLUEPRINT,
   COMEDK_2026_BLUEPRINT,

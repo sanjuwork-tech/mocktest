@@ -1,4 +1,4 @@
-import { eq, and, sql } from "drizzle-orm";
+import { eq, sql } from "drizzle-orm";
 import { requireStudent } from "@/server/auth";
 import { apiError, ApiError, json } from "@/server/http";
 import { requireDb } from "@/db/client";

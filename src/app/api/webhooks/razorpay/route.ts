@@ -24,7 +24,6 @@ export async function POST(request: Request) {
     // We only care about payment.captured or order.paid
     if (payload.event === "payment.captured") {
       const payment = payload.payload.payment.entity;
-      const rzpOrderId = payment.order_id;
       // We stored our internal order_id in notes when creating the razorpay order
       const orderId = payment.notes?.order_id;
 

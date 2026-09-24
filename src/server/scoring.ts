@@ -1,5 +1,6 @@
-import { eq, inArray } from "drizzle-orm";
-import { requireDb } from "@/db/client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { eq } from "drizzle-orm";
+import { requireDb } from "../db/client.ts";
 import {
   attemptsTable,
   attemptAnswersTable,
@@ -7,8 +8,8 @@ import {
   questionRevisionsTable,
   answerKeysTable,
   attemptResultsTable,
-} from "@/db/schema";
-import { correct, answered } from "@/lib/student/model";
+} from "../db/schema.ts";
+import { correct, answered } from "../lib/student/model.ts";
 
 export async function processAttemptScoring(attemptId: string) {
   const db = requireDb();
@@ -62,8 +63,8 @@ export async function processAttemptScoring(attemptId: string) {
 
     let totalScore = 0;
     let maxScore = 0;
-    const breakdown: Record<string, any> = {};
-    const answerSnapshot: Record<string, any> = {};
+    const breakdown: Record<string, { total: number; attempted: number; correct: number; wrong: number; unanswered: number }> = {};
+    const answerSnapshot: Record<string, unknown> = {};
 
     for (const { assignment, revision, key } of assignments) {
       maxScore += assignment.marks;
@@ -71,7 +72,7 @@ export async function processAttemptScoring(attemptId: string) {
       const studentAnswer = answerMap.get(assignment.id);
       const studentValue = studentAnswer?.value ?? null;
 
-      // Map DB schema to the shape expected by `answered` and `correct`
+
       const mockQuestion = {
         type: revision.type as any,
         correct: key.answer as any,

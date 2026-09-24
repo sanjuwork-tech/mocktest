@@ -106,8 +106,8 @@ export function StudentShell({ children }: { children: ReactNode }) {
               {isGuest ? "Guest Preview" : "Google Account"}
             </span>
           </div>
-          <button onClick={handleLogout} className="student-icon-button" title="Sign out">
-            <LogOut size={16} /> Sign out
+          <button onClick={handleLogout} className="student-icon-button" title="Sign out" aria-label="Sign out">
+            <LogOut size={16} aria-hidden="true" /> Sign out
           </button>
         </div>
       </div>

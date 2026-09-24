@@ -56,7 +56,7 @@ export function CheckoutButton({ productSlug, priceMinor, customerName, phone }:
         name: "TestDisha",
         description: `Enrolment for ${productSlug}`,
         order_id: orderData.razorpayOrderId,
-        handler: function (response: any) {
+        handler: function () {
           // Razorpay returns razorpay_payment_id, razorpay_order_id, razorpay_signature
           // We rely on the webhook for actual fulfillment, but we can optimistically redirect
           router.push("/student/dashboard?purchase=success");
@@ -71,13 +71,14 @@ export function CheckoutButton({ productSlug, priceMinor, customerName, phone }:
         },
       };
 
-      const rzp = new (window as any).Razorpay(options);
-      rzp.on("payment.failed", function (response: any) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const rzp = new (window as unknown as { Razorpay: any }).Razorpay(options);
+      rzp.on("payment.failed", function (response: { error: { description: string } }) {
         alert(`Payment Failed: ${response.error.description}`);
       });
       rzp.open();
 
-    } catch (err) {
+    } catch {
       alert("Something went wrong during checkout.");
     } finally {
       setLoading(false);

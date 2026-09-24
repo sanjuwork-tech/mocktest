@@ -97,6 +97,11 @@ export default function ExamPlayerPage() {
     load();
   }, [attemptId]);
 
+  // ── Time up handler ────────────────────────────
+  const handleTimeUp = useCallback(async () => {
+    setAttempt((prev) => (prev ? { ...prev, status: "timed_out" } : prev));
+  }, []);
+
   // ── Timer ──────────────────────────────────────
   useEffect(() => {
     if (!attempt || attempt.status !== "in_progress") return;
@@ -112,7 +117,7 @@ export default function ExamPlayerPage() {
       }
     }, 1000);
     return () => clearInterval(interval);
-  }, [attempt]);
+  }, [attempt, handleTimeUp]);
 
   // ── Format time ────────────────────────────────
   const formattedTime = useMemo(() => {
@@ -233,7 +238,7 @@ export default function ExamPlayerPage() {
         saveAnswer(assignmentId, null);
       }, 400);
     },
-    [answers, saveAnswer],
+    [saveAnswer],
   );
 
   // ── Mark for review ────────────────────────────
@@ -254,10 +259,6 @@ export default function ExamPlayerPage() {
     [answers, saveAnswer],
   );
 
-  // ── Time up handler ────────────────────────────
-  const handleTimeUp = useCallback(async () => {
-    setAttempt((prev) => prev ? { ...prev, status: "timed_out" } : prev);
-  }, []);
 
   // ── Submit ─────────────────────────────────────
   const handleSubmit = useCallback(async () => {
