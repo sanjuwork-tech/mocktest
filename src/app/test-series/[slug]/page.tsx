@@ -5,6 +5,7 @@ import { products, siteConfig } from "@/data/catalog";
 import { exams } from "@/data/exams";
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
+import { CheckoutButton } from "@/components/CheckoutButton";
 
 export const dynamicParams = false;
 export const revalidate = 86400;
@@ -186,7 +187,7 @@ export default async function TestSeriesDetailPage({ params }: Props) {
               ))}
             </ul>
             <div className="home-mock-price">
-              <span>Proposed price</span>
+              <span>Price</span>
               <strong>₹{product.price.toLocaleString("en-IN")}</strong>
             </div>
             {product.compareAtPrice > product.price && (
@@ -194,6 +195,12 @@ export default async function TestSeriesDetailPage({ params }: Props) {
                 Compared at ₹{product.compareAtPrice.toLocaleString("en-IN")}
               </p>
             )}
+            <div style={{ marginTop: "1.5rem" }}>
+              <CheckoutButton 
+                productSlug={product.slug}
+                priceMinor={product.price * 100}
+              />
+            </div>
           </article>
         </div>
 

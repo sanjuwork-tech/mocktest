@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { LogOut, Plus, X } from "lucide-react";
+import { BookOpen, Compass, Layers, LogOut, Plus, Upload, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useRef, useState, type FormEvent } from "react";
 import { Modal } from "@/components/ui/modal";
@@ -128,6 +128,22 @@ export function DashboardClient({
           <h1 className="text-4xl font-bold">Preparation inventory</h1>
         </div>
         <div className="flex flex-wrap gap-3">
+          <Link href="/admin/questions" className="button-secondary flex items-center gap-2">
+            <BookOpen size={16} />
+            Question bank
+          </Link>
+          <Link href="/admin/tests" className="button-secondary flex items-center gap-2">
+            <Layers size={16} />
+            Test builder
+          </Link>
+          <Link href="/admin/exam-guide" className="button-secondary flex items-center gap-2">
+            <Compass size={16} />
+            Exam guide
+          </Link>
+          <Link href="/admin/imports" className="button-secondary flex items-center gap-2">
+            <Upload size={16} />
+            Import
+          </Link>
           {role === "admin" && (
             <Link href="/admin/access" className="button-secondary">
               Team & access
