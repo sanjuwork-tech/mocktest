@@ -9,7 +9,15 @@ export default function robots(): MetadataRoute.Robots {
   }
   // Let crawlers read noindex on sign-in/demo pages; robots is not access control.
   return {
-    rules: { userAgent: "*", allow: "/", disallow: ["/api/"] },
+    rules: [
+      { userAgent: "*", allow: "/", disallow: ["/api/", "/admin/"] },
+      { userAgent: "GPTBot", allow: "/" },
+      { userAgent: "ChatGPT-User", allow: "/" },
+      { userAgent: "Google-Extended", allow: "/" },
+      { userAgent: "PerplexityBot", allow: "/" },
+      { userAgent: "ClaudeBot", allow: "/" },
+      { userAgent: "Applebot-Extended", allow: "/" },
+    ],
     sitemap: `${siteConfig.url}/sitemap.xml`,
   };
 }

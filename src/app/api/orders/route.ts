@@ -19,7 +19,6 @@ export async function POST(request: Request) {
   try {
     requireOrigin(request);
     
-    // Auth check
     const session = await currentStudent();
     if (!session) {
       throw new ApiError(401, "You must be logged in to purchase.");
@@ -30,7 +29,6 @@ export async function POST(request: Request) {
 
     const db = requireDb();
 
-    // Validate product
     const [product] = await db
       .select()
       .from(productsTable)

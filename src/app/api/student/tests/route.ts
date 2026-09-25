@@ -15,7 +15,6 @@ export async function GET() {
   const now = new Date();
   const db = requireDb();
 
-  // 1. Get all active entitlements
   const entitlements = await db
     .select({
       productId: entitlementsTable.productId,
@@ -35,7 +34,6 @@ export async function GET() {
     return NextResponse.json({ tests: [] });
   }
 
-  // 2. Fetch all published tests for these products
   const tests = await db
     .select({
       testId: testsTable.id,

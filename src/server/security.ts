@@ -67,7 +67,6 @@ export function allowedOrigin(origin: string | null, requestHost?: string | null
     return false;
   }
 
-  // 1. Configured origins in environment variables
   const configuredList = [
     process.env.APP_ORIGIN,
     process.env.NEXT_PUBLIC_SITE_URL,
@@ -93,7 +92,6 @@ export function allowedOrigin(origin: string | null, requestHost?: string | null
     return true;
   }
 
-  // 2. Same-Origin verification via Host or X-Forwarded-Host
   if (requestHost) {
     const cleanHost = requestHost.split(":")[0].toLowerCase();
     if (originUrl.hostname.toLowerCase() === cleanHost) {
@@ -101,7 +99,6 @@ export function allowedOrigin(origin: string | null, requestHost?: string | null
     }
   }
 
-  // 3. Localhost & 127.0.0.1 development matching (any port)
   if (
     (originUrl.hostname === "localhost" ||
       originUrl.hostname === "127.0.0.1" ||
@@ -111,7 +108,6 @@ export function allowedOrigin(origin: string | null, requestHost?: string | null
     return true;
   }
 
-  // 4. Vercel deployment domains (*.vercel.app)
   if (
     originUrl.protocol === "https:" &&
     (originUrl.hostname.endsWith(".vercel.app") || originUrl.hostname === "vercel.app")
