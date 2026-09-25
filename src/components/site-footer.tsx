@@ -35,6 +35,8 @@ export function SiteFooter() {
               How we review information
             </Link>
             <Link href="/about#information-policy">Information policy</Link>
+            <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/terms">Terms of Service</Link>
             <Link href="/admin">Admin sign in</Link>
           </div>
         </div>

@@ -24,6 +24,7 @@ export default async function AdminDashboardPage() {
           mockCount: productsTable.mockCount,
           published: productsTable.published,
           featured: productsTable.featured,
+          salesEnabled: productsTable.salesEnabled,
         })
         .from(productsTable)
         .where(isNull(productsTable.archivedAt))

@@ -17,6 +17,7 @@ export type InventoryProduct = {
   mockCount: number;
   published: boolean;
   featured: boolean;
+  salesEnabled: boolean;
 };
 export function DashboardClient({
   products,
@@ -76,6 +77,7 @@ export function DashboardClient({
       mockCount: Number(form.get("mockCount")),
       published: form.get("published") === "on",
       featured: form.get("featured") === "on",
+      salesEnabled: form.get("salesEnabled") === "on",
       ...(!existing ? { slug: form.get("slug"), exam: form.get("exam") } : {}),
     };
     if (payload.compareAtPrice < payload.price) {
@@ -366,6 +368,14 @@ export function DashboardClient({
                   defaultChecked={existing?.featured ?? false}
                 />
                 Featured
+              </label>
+              <label className="flex gap-3 text-sm py-2">
+                <input
+                  name="salesEnabled"
+                  type="checkbox"
+                  defaultChecked={existing?.salesEnabled ?? false}
+                />
+                Sales enabled
               </label>
               {error && (
                 <p

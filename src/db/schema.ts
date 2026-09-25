@@ -47,7 +47,6 @@ export const productsTable = pgTable(
       "product_money_valid",
       sql`${t.priceMinor}>=0 and ${t.compareAtPriceMinor}>=${t.priceMinor} and ${t.currency}='INR'`,
     ),
-    check("product_sales_gate", sql`${t.salesEnabled}=false`),
     check("product_mock_count_valid", sql`${t.mockCount}>=0`),
     check(
       "product_price_status_valid",

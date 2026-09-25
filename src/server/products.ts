@@ -29,6 +29,7 @@ export const productInput = z
     mockCount: z.number().int().min(0).max(10000),
     published: z.boolean(),
     featured: z.boolean(),
+    salesEnabled: z.boolean(),
   })
   .strict();
 export const productPatch = productInput
