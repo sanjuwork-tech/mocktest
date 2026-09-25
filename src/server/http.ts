@@ -11,7 +11,18 @@ export class ApiError extends Error {
   }
 }
 export function requireOrigin(request: Request) {
-  if (!allowedOrigin(request.headers.get("origin")))
+  let origin = request.headers.get("origin");
+  if (!origin) {
+    const referer = request.headers.get("referer");
+    if (referer) {
+      try {
+        origin = new URL(referer).origin;
+      } catch {
+        origin = null;
+      }
+    }
+  }
+  if (!allowedOrigin(origin))
     throw new ApiError(
       403,
       "This request must come from the TestDisha application.",

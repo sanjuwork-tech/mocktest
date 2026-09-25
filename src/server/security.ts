@@ -64,6 +64,17 @@ export function allowedOrigin(origin: string | null) {
   if (process.env.NODE_ENV !== "production") {
     allowed.add("http://localhost:3000");
     allowed.add("http://127.0.0.1:3000");
+    try {
+      const u = new URL(origin);
+      if (
+        (u.hostname === "localhost" || u.hostname === "127.0.0.1") &&
+        u.protocol === "http:"
+      ) {
+        return true;
+      }
+    } catch {
+      // ignore invalid URL string
+    }
   }
   return allowed.has(origin);
 }
