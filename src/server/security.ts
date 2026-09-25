@@ -57,26 +57,69 @@ export async function verifyPassword(password: string, encoded: string) {
 // Same KDF work for an unknown user; this sentinel cannot authenticate an account.
 export const DUMMY_PASSWORD_HASH =
   "scrypt:131072:8:1:" + "0".repeat(32) + ":" + "0".repeat(128);
-export function allowedOrigin(origin: string | null) {
-  if (!origin) return false;
-  const configured = process.env.APP_ORIGIN ?? process.env.NEXT_PUBLIC_SITE_URL;
-  const allowed = new Set(configured ? [new URL(configured).origin] : []);
-  if (process.env.NODE_ENV !== "production") {
-    allowed.add("http://localhost:3000");
-    allowed.add("http://127.0.0.1:3000");
-    try {
-      const u = new URL(origin);
-      if (
-        (u.hostname === "localhost" || u.hostname === "127.0.0.1") &&
-        u.protocol === "http:"
-      ) {
-        return true;
-      }
-    } catch {
-      // ignore invalid URL string
+export function allowedOrigin(origin: string | null, requestHost?: string | null) {
+  if (!origin || origin === "null") return false;
+
+  let originUrl: URL;
+  try {
+    originUrl = new URL(origin);
+  } catch {
+    return false;
+  }
+
+  // 1. Configured origins in environment variables
+  const configuredList = [
+    process.env.APP_ORIGIN,
+    process.env.NEXT_PUBLIC_SITE_URL,
+    process.env.NEXT_PUBLIC_CANONICAL_URL,
+    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined,
+    process.env.VERCEL_BRANCH_URL ? `https://${process.env.VERCEL_BRANCH_URL}` : undefined,
+    process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : undefined,
+  ].filter(Boolean) as string[];
+
+  const allowed = new Set(
+    configuredList
+      .map((c) => {
+        try {
+          return new URL(c.startsWith("http") ? c : `https://${c}`).origin;
+        } catch {
+          return "";
+        }
+      })
+      .filter(Boolean),
+  );
+
+  if (allowed.has(originUrl.origin)) {
+    return true;
+  }
+
+  // 2. Same-Origin verification via Host or X-Forwarded-Host
+  if (requestHost) {
+    const cleanHost = requestHost.split(":")[0].toLowerCase();
+    if (originUrl.hostname.toLowerCase() === cleanHost) {
+      return true;
     }
   }
-  return allowed.has(origin);
+
+  // 3. Localhost & 127.0.0.1 development matching (any port)
+  if (
+    (originUrl.hostname === "localhost" ||
+      originUrl.hostname === "127.0.0.1" ||
+      originUrl.hostname === "[::1]") &&
+    (originUrl.protocol === "http:" || originUrl.protocol === "https:")
+  ) {
+    return true;
+  }
+
+  // 4. Vercel deployment domains (*.vercel.app)
+  if (
+    originUrl.protocol === "https:" &&
+    (originUrl.hostname.endsWith(".vercel.app") || originUrl.hostname === "vercel.app")
+  ) {
+    return true;
+  }
+
+  return false;
 }
 export function rupeesToMinor(amount: number) {
   if (

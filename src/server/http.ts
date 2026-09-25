@@ -22,7 +22,8 @@ export function requireOrigin(request: Request) {
       }
     }
   }
-  if (!allowedOrigin(origin))
+  const host = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
+  if (!allowedOrigin(origin, host))
     throw new ApiError(
       403,
       "This request must come from the TestDisha application.",
