@@ -7,8 +7,21 @@ import { AccessClient } from "./access-client";
 export default async function AccessPage() {
   const actor = await currentAdmin();
   if (actor?.role !== "admin") redirect("/admin");
-  let users: any[] = [];
-  let events: any[] = [];
+  let users: {
+    id: string;
+    name: string;
+    email: string;
+    role: string;
+    active: boolean;
+  }[] = [];
+  let events: {
+    id: string;
+    action: string;
+    entityType: string;
+    entityId: string | null;
+    createdAt: Date;
+    actorEmail: string | null;
+  }[] = [];
 
   try {
     if (db) {
@@ -25,7 +38,7 @@ export default async function AccessPage() {
       
       events = await recentAudit();
     }
-  } catch (e) {
+  } catch {
     // Gracefully handle query errors if DB is unreachable
   }
 
