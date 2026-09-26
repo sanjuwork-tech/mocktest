@@ -41,7 +41,7 @@ export default function TermsPage() {
           </p>
           <p>
             You must be at least 13 years old to use TestDisha. If you are under
-            18, you confirm that you have your parent or guardian's consent.
+            18, you confirm that you have your parent or guardian&apos;s consent.
           </p>
         </section>
         <section>
@@ -102,7 +102,7 @@ export default function TermsPage() {
         <section>
           <h2>7. Limitation of liability</h2>
           <p>
-            TestDisha is provided "as is" without warranties of any kind. We are
+            TestDisha is provided &quot;as is&quot; without warranties of any kind. We are
             not liable for any indirect, incidental, or consequential damages
             arising from your use of the platform, including but not limited to
             exam results, admission outcomes, or data loss.

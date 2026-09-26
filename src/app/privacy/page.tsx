@@ -54,7 +54,7 @@ export default function PrivacyPolicyPage() {
           <h2>Payment processing</h2>
           <p>
             Payments are processed by Razorpay. We do not store your credit/debit
-            card details. Razorpay's privacy policy and PCI DSS compliance apply
+            card details. Razorpay&apos;s privacy policy and PCI DSS compliance apply
             to payment data.
           </p>
         </section>

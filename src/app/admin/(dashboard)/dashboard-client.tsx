@@ -147,9 +147,17 @@ export function DashboardClient({
             Import
           </Link>
           {role === "admin" && (
-            <Link href="/admin/access" className="button-secondary">
-              Team & access
-            </Link>
+            <>
+              <Link href="/admin/orders" className="button-secondary">
+                Orders
+              </Link>
+              <Link href="/admin/reports" className="button-secondary">
+                Reports
+              </Link>
+              <Link href="/admin/access" className="button-secondary">
+                Team & access
+              </Link>
+            </>
           )}
           <button
             type="button"

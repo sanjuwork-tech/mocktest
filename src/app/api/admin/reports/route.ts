@@ -6,7 +6,6 @@ import {
   testsTable,
   productsTable,
   ordersTable,
-  usersTable,
   testVersionsTable,
 } from "@/db/schema";
 import { requireAdmin } from "@/server/auth";

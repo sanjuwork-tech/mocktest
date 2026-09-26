@@ -1,6 +1,6 @@
 import { desc, eq, sql, and, gte, lte } from "drizzle-orm";
 import { requireDb } from "@/db/client";
-import { ordersTable, productsTable, usersTable } from "@/db/schema";
+import { ordersTable } from "@/db/schema";
 import { requireAdmin } from "@/server/auth";
 import { apiError, json } from "@/server/http";
 
