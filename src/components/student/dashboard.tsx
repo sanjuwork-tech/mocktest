@@ -7,6 +7,7 @@ import {
   FlaskConical,
   Atom,
   Sigma,
+  Dna,
   Play,
   ChartNoAxesCombined,
   CheckCircle2,
@@ -14,7 +15,14 @@ import {
 import { StudentShell } from "./shell";
 import { createSample, useDemo } from "@/lib/student/store";
 import { SUBJECTS, analyze } from "@/lib/student/model";
-import { questionsFor } from "@/data/student/bank";
+import { questionsFor, questionBank } from "@/data/student/bank";
+
+const subjectIcons: Record<string, typeof Sigma> = {
+  mathematics: Sigma,
+  physics: Atom,
+  "biological-science": Dna,
+  chemistry: FlaskConical,
+};
 
 type ServerAttempt = {
   id: string;
@@ -102,7 +110,7 @@ export function StudentDashboard() {
         <div>
           <span>Practice library</span>
           <strong>
-            150 <small>questions</small>
+            {questionBank.length} <small>questions</small>
           </strong>
         </div>
         <div>
@@ -131,11 +139,11 @@ export function StudentDashboard() {
         </div>
 
         <div className="student-subject-grid">
-          {SUBJECTS.map((s, i) => {
+          {SUBJECTS.map((s) => {
             const active = attempts.find(
               (a) => a.subject === s.id && !a.submittedAt,
             );
-            const Icon = [Sigma, Atom, FlaskConical][i];
+            const Icon = subjectIcons[s.id] || FlaskConical;
             return (
               <article
                 key={s.id}

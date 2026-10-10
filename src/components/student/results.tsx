@@ -75,7 +75,12 @@ export function StudentResults({ id }: { id: string }) {
     );
   const qs = questionsFor(attempt.subject);
   const result = analyze(qs, attempt);
-  const subject = SUBJECTS.find((s) => s.id === attempt.subject)!;
+  const subject = SUBJECTS.find((s) => s.id === attempt.subject) || {
+    id: attempt.subject,
+    title: String(attempt.subject).charAt(0).toUpperCase() + String(attempt.subject).slice(1),
+    subtitle: "",
+    color: "#1f5eff",
+  };
   const previous = attempts
     .filter(
       (a) =>

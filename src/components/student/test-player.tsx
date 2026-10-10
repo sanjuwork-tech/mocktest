@@ -38,7 +38,12 @@ export function TestPlayer({ subject }: { subject: Subject }) {
   const state = useDemo();
   const router = useRouter();
   const qs = questionsFor(subject);
-  const info = SUBJECTS.find((s) => s.id === subject)!;
+  const info = SUBJECTS.find((s) => s.id === subject) || {
+    id: subject,
+    title: String(subject),
+    subtitle: "",
+    color: "#1f5eff",
+  };
   const attempt = state.attempts.find(
     (a) => a.subject === subject && !a.submittedAt,
   );
@@ -49,9 +54,9 @@ export function TestPlayer({ subject }: { subject: Subject }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
-  const current = Math.min(attempt?.current ?? 0, qs.length - 1);
+  const current = qs.length > 0 ? Math.max(0, Math.min(attempt?.current ?? 0, qs.length - 1)) : 0;
   const q = qs[current];
-  const response = attempt?.responses[q.id];
+  const response = q && attempt ? attempt.responses[q.id] : undefined;
 
   useEffect(() => {
     if (!attempt || !state.signedIn) return;

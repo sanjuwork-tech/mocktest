@@ -67,7 +67,7 @@ export function StudentLogin() {
           <ul className="student-benefits">
             <li>
               <BookOpenCheck />
-              150 questions. Three subjects. Ten formats.
+              200 questions. Four subjects. Ten formats.
             </li>
             <li>
               <ChartNoAxesCombined />
