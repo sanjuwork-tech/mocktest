@@ -1,0 +1,869 @@
+{
+  "test_id": "CUET_ECO_2026_P8_L8",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 8,
+  "difficulty_level": "8",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": "+5",
+    "incorrect": "-1",
+    "unattempted": "0"
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q01",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumer's Equilibrium: Utility Approach",
+      "difficulty": "easy",
+      "question": "The law of diminishing marginal utility states that as consumption of a commodity increases, the marginal utility:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Increases",
+        "B) Remains constant",
+        "C) Decreases",
+        "D) First increases then decreases"
+      ],
+      "correct_option": "C",
+      "explanation": "According to the law of diminishing marginal utility, as a consumer consumes more and more units of a commodity, the additional satisfaction (marginal utility) derived from each additional unit decreases."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q02",
+      "topic": "Microeconomics",
+      "sub_topic": "What is microeconomics?",
+      "difficulty": "easy",
+      "question": "Which of the following is a normative statement in economics?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Unemployment rate is 5%",
+        "B) GDP grew by 7% last year",
+        "C) The government should reduce inequality",
+        "D) Inflation is rising"
+      ],
+      "correct_option": "C",
+      "explanation": "Normative statements express value judgments and opinions about what 'ought to be'. 'The government should reduce inequality' is a normative statement because it involves a value judgment. The others are positive (factual) statements."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q03",
+      "topic": "Microeconomics",
+      "sub_topic": "Price elasticity of demand",
+      "difficulty": "medium",
+      "question": "If the price elasticity of demand for a good is -2.5, and the firm raises price by 4%, what will be the percentage change in quantity demanded?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) +10%",
+        "B) -10%",
+        "C) -1.6%",
+        "D) -6.25%"
+      ],
+      "correct_option": "B",
+      "explanation": "Elasticity = %ΔQd / %ΔP. -2.5 = %ΔQd / 4%. So %ΔQd = -2.5 × 4 = -10%. Quantity demanded falls by 10%."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q04",
+      "topic": "Microeconomics",
+      "sub_topic": "Cost and Revenue: Concepts of costs",
+      "difficulty": "medium",
+      "question": "In the short run, a firm should shut down production when price falls below the minimum of:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Average Fixed Cost",
+        "B) Average Variable Cost",
+        "C) Average Total Cost",
+        "D) Marginal Cost"
+      ],
+      "correct_option": "B",
+      "explanation": "The shutdown point occurs when price < minimum AVC. Below this point, the firm cannot even cover its variable costs and should shut down to minimize losses (which would then equal only fixed costs)."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q05",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumers Budget and Optimal choice",
+      "difficulty": "medium",
+      "question": "A consumer has a budget of ₹100. Good X costs ₹10 and Good Y costs ₹5. If MUx = 50 and MUy = 15 at the current bundle, the consumer should:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Buy more X and less Y",
+        "B) Buy more Y and less X",
+        "C) Maintain the same bundle",
+        "D) Spend all income on X"
+      ],
+      "correct_option": "A",
+      "explanation": "MUx/Px = 50/10 = 5. MUy/Py = 15/5 = 3. Since MUx/Px > MUy/Py, the consumer gets more utility per rupee from X and should buy more X and less Y to reach equilibrium."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q06",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumers Budget and Optimal choice",
+      "difficulty": "medium",
+      "question": "The substitution effect of a price decrease leads to:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Decrease in demand for the good",
+        "B) Increase in demand for the good",
+        "C) No change in demand",
+        "D) Shift in supply"
+      ],
+      "correct_option": "B",
+      "explanation": "When price falls, the good becomes relatively cheaper compared to substitutes, so consumers substitute toward it. The substitution effect always causes quantity demanded to move in the opposite direction of the price change."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q07",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumers Budget and Optimal choice",
+      "difficulty": "hard",
+      "question": "Consider an income consumption curve (ICC) that is backward-bending. This implies the good is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Normal good at all income levels",
+        "B) Inferior good at all income levels",
+        "C) Normal at low incomes and inferior at high incomes",
+        "D) Always a Giffen good"
+      ],
+      "correct_option": "C",
+      "explanation": "A backward-bending ICC indicates that as income rises, consumption first increases (normal good region) then decreases (inferior good region). A Giffen good requires additionally that the income effect outweighs the substitution effect."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q08",
+      "topic": "Microeconomics",
+      "sub_topic": "Production function: Shapes of TP, MP, AP curves",
+      "difficulty": "hard",
+      "question": "If the production function is Q = 10L^0.5 K^0.5, this production function exhibits:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Increasing returns to scale",
+        "B) Decreasing returns to scale",
+        "C) Constant returns to scale",
+        "D) Negative returns to scale"
+      ],
+      "correct_option": "C",
+      "explanation": "Doubling inputs: Q' = 10(2L)^0.5 (2K)^0.5 = 10 × 2^0.5 × 2^0.5 × L^0.5 K^0.5 = 10 × 2 × L^0.5 K^0.5 = 2Q. Output doubles, so constant returns to scale (Cobb-Douglas with exponents summing to 1)."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q09",
+      "topic": "Microeconomics",
+      "sub_topic": "Cost and Revenue: Producer's equilibrium",
+      "difficulty": "hard",
+      "question": "A monopolist faces demand P = 100 - 2Q and has TC = 50 + 20Q. The deadweight loss compared to perfect competition is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) ₹200",
+        "B) ₹400",
+        "C) ₹300",
+        "D) ₹250"
+      ],
+      "correct_option": "B",
+      "explanation": "Monopoly: MR = 100 - 4Q, MC = 20. MR=MC → 100-4Q=20 → Qm=20, Pm=60. Perfect competition: P=MC=100-2Q=20 → Qc=40. DWL = ½ × (Pm-MC) × (Qc-Qm) = ½ × (60-20) × (40-20) = ½ × 40 × 20 = 400."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q10",
+      "topic": "Microeconomics",
+      "sub_topic": "Theory of the firms: Price determination",
+      "difficulty": "hard",
+      "question": "In a Cournot duopoly with demand P = a - bQ and identical costs c, the Nash equilibrium output of each firm is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) (a-c)/2b",
+        "B) (a-c)/3b",
+        "C) (a-c)/4b",
+        "D) (a-c)/b"
+      ],
+      "correct_option": "B",
+      "explanation": "In Cournot duopoly, each firm maximizes profit given the other's output. Reaction functions are q1 = (a-c-bq2)/2b and q2 = (a-c-bq1)/2b. Solving simultaneously gives q1 = q2 = (a-c)/3b."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q11",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market equilibrium, excess demand, excess supply",
+      "difficulty": "easy",
+      "question": "The equilibrium price in a market is determined by the intersection of:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Supply and cost curves",
+        "B) Demand and supply curves",
+        "C) Income and substitution effects",
+        "D) Marginal utility and price"
+      ],
+      "correct_option": "B",
+      "explanation": "Market equilibrium occurs where the demand curve intersects the supply curve. At this point, quantity demanded equals quantity supplied, establishing the equilibrium price and quantity."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q12",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Effects of shifts in demand and supply",
+      "difficulty": "easy",
+      "question": "If both demand and supply increase simultaneously, the equilibrium quantity will:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Definitely decrease",
+        "B) Definitely increase",
+        "C) Definitely remain unchanged",
+        "D) Change ambiguously"
+      ],
+      "correct_option": "B",
+      "explanation": "An increase in demand raises equilibrium quantity, and an increase in supply also raises equilibrium quantity. When both increase, the equilibrium quantity definitely increases, though the effect on price is ambiguous."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q13",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Applications: Price ceiling and Price flooring",
+      "difficulty": "medium",
+      "question": "A price ceiling set below the equilibrium price will result in:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Surplus",
+        "B) Shortage",
+        "C) No change in market outcome",
+        "D) Shift in demand"
+      ],
+      "correct_option": "B",
+      "explanation": "A price ceiling below equilibrium prevents the market from reaching equilibrium. Quantity demanded exceeds quantity supplied, creating a shortage (excess demand)."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q14",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price elasticity of demand and supply",
+      "difficulty": "medium",
+      "question": "The burden of a specific tax falls entirely on consumers when:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Demand is perfectly elastic",
+        "B) Supply is perfectly elastic",
+        "C) Demand is perfectly inelastic",
+        "D) Supply is perfectly inelastic"
+      ],
+      "correct_option": "C",
+      "explanation": "When demand is perfectly inelastic (vertical demand curve), consumers are willing to pay any price for the same quantity. Therefore, the entire tax burden is passed on to consumers with no reduction in quantity traded."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q15",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market equilibrium: Consumer Surplus",
+      "difficulty": "medium",
+      "question": "Consumer surplus is the area:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Below the demand curve and above the price line",
+        "B) Above the demand curve and below the price line",
+        "C) Below the supply curve and above the price line",
+        "D) Above the supply curve and below the price line"
+      ],
+      "correct_option": "A",
+      "explanation": "Consumer surplus represents the difference between what consumers are willing to pay (demand curve) and what they actually pay (market price). It is the area below the demand curve and above the equilibrium price line."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q16",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market equilibrium price determination",
+      "difficulty": "medium",
+      "question": "If demand function is Qd = 100 - 5P and supply is Qs = 20 + 3P, the equilibrium price is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) ₹8",
+        "B) ₹10",
+        "C) ₹12",
+        "D) ₹15"
+      ],
+      "correct_option": "B",
+      "explanation": "At equilibrium, Qd = Qs: 100 - 5P = 20 + 3P → 80 = 8P → P = 10. Equilibrium quantity: Q = 100 - 5(10) = 50."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q17",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market equilibrium and simple applications",
+      "difficulty": "hard",
+      "question": "A ₹2 per unit tax is imposed on a good with demand P = 50 - Q and supply P = 10 + Q. The tax burden on consumers is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) ₹1",
+        "B) ₹2",
+        "C) ₹1.5",
+        "D) ₹0.5"
+      ],
+      "correct_option": "A",
+      "explanation": "Original equilibrium: 50-Q=10+Q → Q=20, P=30. With tax, supply shifts to P=12+Q. New equilibrium: 50-Q=12+Q → Q=19, P=31. Price rises by ₹1, so consumers bear ₹1 and producers bear ₹1 of the ₹2 tax."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q18",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market equilibrium price and quantity",
+      "difficulty": "hard",
+      "question": "In a competitive market with demand Qd = 80 - 2P and supply Qs = -10 + 3P, the government imposes a price floor of ₹25. The surplus created is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 15 units",
+        "B) 25 units",
+        "C) 35 units",
+        "D) 45 units"
+      ],
+      "correct_option": "C",
+      "explanation": "Equilibrium: 80-2P=-10+3P → 90=5P → P=18. Price floor at 25 (>18) is binding. At P=25: Qd=80-50=30, Qs=-10+75=65. Surplus = Qs-Qd = 65-30 = 35 units."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q19",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price elasticity of demand: Cross elasticity",
+      "difficulty": "hard",
+      "question": "Two goods have cross-price elasticity of +2.5. If a ₹3 per unit tax is imposed on good A (equilibrium price ₹15), the demand for good B will:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Increase by 50%",
+        "B) Decrease by 50%",
+        "C) Increase by 25%",
+        "D) Decrease by 25%"
+      ],
+      "correct_option": "A",
+      "explanation": "Cross-price elasticity of +2.5 indicates substitutes. Price of A rises from 15 to 18 (20% increase). Cross elasticity = %ΔQb/%ΔPa = 2.5. %ΔPa = 3/15 = 20%. So %ΔQb = 2.5 × 20% = 50% increase."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q20",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market equilibrium and social applications",
+      "difficulty": "hard",
+      "question": "In a market with a positive externality, the socially optimal quantity is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Less than market equilibrium quantity",
+        "B) Equal to market equilibrium quantity",
+        "C) Greater than market equilibrium quantity",
+        "D) Cannot be determined"
+      ],
+      "correct_option": "C",
+      "explanation": "A positive externality means marginal social benefit > marginal private benefit. The market underproduces because consumers only consider private benefits. The socially optimal quantity is greater than the market equilibrium quantity."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q21",
+      "topic": "Macroeconomics",
+      "sub_topic": "Aggregates related to National Income",
+      "difficulty": "easy",
+      "question": "In a simple two-sector circular flow model without government, the total value of national output produced strictly equals:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Net external trade surplus",
+        "B) Factor payments generated (Wages + Rent + Interest + Profit)",
+        "C) Gross corporate tax disbursements",
+        "D) Net indirect production subsidies"
+      ],
+      "correct_option": "B",
+      "explanation": "In a simple two-sector closed economy, the total value of output produced equals the total factor payments generated and distributed to households."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q22",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income and Employment",
+      "difficulty": "easy",
+      "question": "The Phillips curve shows the relationship between:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) GDP and unemployment",
+        "B) Inflation and unemployment",
+        "C) Interest rates and investment",
+        "D) Government spending and GDP"
+      ],
+      "correct_option": "B",
+      "explanation": "The Phillips curve illustrates the inverse relationship between the rate of inflation and the rate of unemployment in an economy, suggesting a trade-off between the two."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q23",
+      "topic": "Macroeconomics",
+      "sub_topic": "Multiplier mechanism",
+      "difficulty": "medium",
+      "question": "If MPC = 0.8 and autonomous investment increases by ₹100 crore, the total increase in income will be:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) ₹100 crore",
+        "B) ₹200 crore",
+        "C) ₹500 crore",
+        "D) ₹800 crore"
+      ],
+      "correct_option": "C",
+      "explanation": "The multiplier k = 1/(1-MPC) = 1/(1-0.8) = 5. Total increase in income = multiplier × ΔI = 5 × 100 = ₹500 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q24",
+      "topic": "Macroeconomics",
+      "sub_topic": "Money and Banking: Supply of money",
+      "difficulty": "medium",
+      "question": "According to the quantity theory of money (MV = PY), if M increases by 10% and V and Y remain constant, then P will:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Decrease by 10%",
+        "B) Increase by 10%",
+        "C) Remain unchanged",
+        "D) Increase by 5%"
+      ],
+      "correct_option": "B",
+      "explanation": "If MV = PY and V and Y are constant, then P is proportional to M. A 10% increase in M leads to a 10% increase in P, i.e., 10% inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q25",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income and Employment",
+      "difficulty": "medium",
+      "question": "The natural rate of unemployment consists of:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Frictional unemployment only",
+        "B) Structural unemployment only",
+        "C) Frictional + Structural unemployment",
+        "D) Cyclical unemployment"
+      ],
+      "correct_option": "C",
+      "explanation": "The natural rate of unemployment (NAIRU) consists of frictional unemployment (due to job search/matching) and structural unemployment (due to skills mismatch). It excludes cyclical unemployment."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q26",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income: Policy tools",
+      "difficulty": "medium",
+      "question": "In the IS-LM model, expansionary fiscal policy will shift the IS curve:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Leftward",
+        "B) Rightward",
+        "C) No shift, only LM shifts",
+        "D) Both IS and LM leftward"
+      ],
+      "correct_option": "B",
+      "explanation": "Expansionary fiscal policy (increased government spending or tax cuts) increases aggregate demand at every interest rate, shifting the IS curve to the right."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q27",
+      "topic": "Macroeconomics",
+      "sub_topic": "Aggregates related to National Income: Real GDP",
+      "difficulty": "medium",
+      "question": "National income at current prices is ₹2000 crore and the GDP deflator is 125. National income at constant prices is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) ₹2500 crore",
+        "B) ₹1600 crore",
+        "C) ₹1750 crore",
+        "D) ₹2250 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Real GDP = Nominal GDP / GDP Deflator × 100 = 2000 / 125 × 100 = 2000 × 0.8 = ₹1600 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q28",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income in two sector model",
+      "difficulty": "hard",
+      "question": "In an economy, C = 100 + 0.75Yd, I = 200, G = 150, T = 40, TR = 40. The equilibrium income is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) ₹1600 crore",
+        "B) ₹1800 crore",
+        "C) ₹1900 crore",
+        "D) ₹2000 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Yd = Y - T + TR = Y - 40 + 40 = Y. AE = C + I + G = 100 + 0.75Y + 200 + 150 = 450 + 0.75Y. At equilibrium, Y = 450 + 0.75Y → 0.25Y = 450 → Y = ₹1800 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q29",
+      "topic": "Macroeconomics",
+      "sub_topic": "Multiplier mechanism in an open economy",
+      "difficulty": "hard",
+      "question": "If the marginal propensity to import is 0.2 and MPC = 0.8, the open economy multiplier is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 2.5",
+        "B) 2.0",
+        "C) 1.67",
+        "D) 5.0"
+      ],
+      "correct_option": "A",
+      "explanation": "In an open economy, multiplier = 1/(1 - MPC + MPM) = 1/(1 - 0.8 + 0.2) = 1/0.4 = 2.5."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q30",
+      "topic": "Macroeconomics",
+      "sub_topic": "Introduction and National Income: GDP and Welfare",
+      "difficulty": "hard",
+      "question": "According to the Solow growth model, an increase in the savings rate will:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Increase long-run growth rate of output",
+        "B) Increase the level of output per capita but not its long-run growth rate",
+        "C) Decrease output per capita",
+        "D) Have no effect on steady-state output"
+      ],
+      "correct_option": "B",
+      "explanation": "In the Solow model, a higher savings rate increases investment and capital accumulation, leading to a higher steady-state level of output per capita. However, the long-run growth rate is determined by technological progress and population growth, not the savings rate."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q31",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Measures of government deficit",
+      "difficulty": "easy",
+      "question": "A budget deficit occurs when:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Revenue receipts exceed revenue expenditure",
+        "B) Total expenditure exceeds total receipts",
+        "C) Fiscal deficit is zero",
+        "D) Primary deficit is positive"
+      ],
+      "correct_option": "B",
+      "explanation": "A budget deficit occurs when the government's total expenditure exceeds its total receipts (both revenue and capital). This includes the fiscal deficit which is the total borrowing requirement."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q32",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Measures of government deficit",
+      "difficulty": "medium",
+      "question": "Effective Revenue Deficit is defined as the Revenue Deficit minus:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Market borrowings of public undertakings",
+        "B) Grants for creation of capital assets",
+        "C) Disinvestment receipts from equity sales",
+        "D) Interest disbursements on past loans"
+      ],
+      "correct_option": "B",
+      "explanation": "Effective Revenue Deficit = Revenue Deficit - Grants for creation of capital assets. It deducts grants given to states that result in asset creation."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q33",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Balance of payments account: meaning and components",
+      "difficulty": "medium",
+      "question": "The balance of payments includes:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Current account only",
+        "B) Capital account only",
+        "C) Current account and Capital account",
+        "D) Trade account only"
+      ],
+      "correct_option": "C",
+      "explanation": "The balance of payments consists of the current account (trade in goods/services, income, transfers) and the capital account (investment flows, borrowing/lending). Together they record all economic transactions between residents and the rest of the world."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q34",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Foreign exchange rate: Determination of exchange rate",
+      "difficulty": "medium",
+      "question": "Under a flexible exchange rate system, an increase in interest rates will lead to:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Depreciation of domestic currency",
+        "B) Appreciation of domestic currency",
+        "C) No change in exchange rate",
+        "D) Increased exports"
+      ],
+      "correct_option": "B",
+      "explanation": "Higher interest rates attract foreign capital inflows, increasing demand for the domestic currency. This causes the domestic currency to appreciate under a flexible exchange rate."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q35",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Measures of government deficit: Revenue deficit",
+      "difficulty": "medium",
+      "question": "Revenue deficit is defined as:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Total expenditure - Total receipts",
+        "B) Revenue expenditure - Revenue receipts",
+        "C) Fiscal deficit - Interest payments",
+        "D) Primary deficit + Interest payments"
+      ],
+      "correct_option": "B",
+      "explanation": "Revenue deficit = Revenue expenditure - Revenue receipts. It indicates the government's borrowing for consumption purposes rather than for asset creation."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q36",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Balance of payments: Capital account components",
+      "difficulty": "medium",
+      "question": "Which of the following is included in the capital account of the balance of payments?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Export of goods",
+        "B) Import of services",
+        "C) Foreign direct investment",
+        "D) Remittances from abroad"
+      ],
+      "correct_option": "C",
+      "explanation": "Foreign direct investment (FDI) is recorded in the capital account. Exports/imports of goods and services are in the current account, and remittances are in current transfers."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q37",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Balance of payments - Surplus and Deficit",
+      "difficulty": "hard",
+      "question": "Under the gold standard, a trade deficit in a country would lead to:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Gold inflow and price increase",
+        "B) Gold outflow and price decrease",
+        "C) No change in gold stock",
+        "D) Gold outflow and price increase"
+      ],
+      "correct_option": "B",
+      "explanation": "Under the gold standard, a trade deficit causes gold to flow out of the country. This reduces the money supply, leading to lower prices (deflation), which makes exports cheaper and imports dearer, automatically correcting the deficit."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q38",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Classification of receipts: Tax revenue",
+      "difficulty": "hard",
+      "question": "The Laffer curve shows the relationship between:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Inflation and unemployment",
+        "B) Tax rate and tax revenue",
+        "C) GDP and government spending",
+        "D) Interest rates and investment"
+      ],
+      "correct_option": "B",
+      "explanation": "The Laffer curve illustrates that tax revenue initially rises with the tax rate, but beyond some point, higher tax rates discourage work/production and reduce the tax base, causing tax revenue to fall."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q39",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Foreign exchange rate: Devaluation / Depreciation",
+      "difficulty": "hard",
+      "question": "According to the Marshall-Lerner condition, a devaluation will improve the trade balance only if:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) |Ex| + |Em| > 1",
+        "B) |Ex| + |Em| < 1",
+        "C) Ex > Em",
+        "D) Em > Ex"
+      ],
+      "correct_option": "A",
+      "explanation": "The Marshall-Lerner condition states that currency devaluation improves the trade balance only if the sum of the absolute values of export and import elasticities exceeds 1: |Ex| + |Em| > 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q40",
+      "topic": "Budget/Open Economy",
+      "sub_topic": "Foreign exchange rate regimes: Fixed vs Flexible",
+      "difficulty": "hard",
+      "question": "In a fixed exchange rate system with perfect capital mobility, fiscal policy is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Ineffective due to crowding out",
+        "B) Highly effective",
+        "C) Only affects the exchange rate",
+        "D) Shifts the LM curve leftward"
+      ],
+      "correct_option": "B",
+      "explanation": "Under fixed exchange rates with perfect capital mobility (Mundell-Fleming model), fiscal policy is highly effective. Increased government spending raises income and interest rates, attracting capital inflows. The central bank intervenes to maintain the peg, increasing the money supply and reinforcing the fiscal expansion."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q41",
+      "topic": "Indian Economy",
+      "sub_topic": "Central bank and its functions (Reserve Bank of India)",
+      "difficulty": "easy",
+      "question": "Which index is used by the Reserve Bank of India as the nominal anchor for monetary policy in India?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Wholesale Price Index",
+        "B) Consumer Price Index (Combined)",
+        "C) GDP Deflator",
+        "D) Producer Price Index"
+      ],
+      "correct_option": "B",
+      "explanation": "Since April 2014, the RBI uses the Consumer Price Index (Combined) as the nominal anchor for monetary policy. The Monetary Policy Committee is mandated to maintain CPI inflation at 4% with a tolerance band of +/- 2%."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q42",
+      "topic": "Indian Economy",
+      "sub_topic": "Agriculture: New agricultural strategy",
+      "difficulty": "medium",
+      "question": "The Green Revolution in India was primarily associated with which crop first?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Rice",
+        "B) Wheat",
+        "C) Cotton",
+        "D) Sugarcane"
+      ],
+      "correct_option": "B",
+      "explanation": "The Green Revolution in India, which began in the mid-1960s, was first concentrated in wheat-producing regions of Punjab, Haryana, and western Uttar Pradesh. High-yielding varieties of wheat developed by Norman Borlaug were the initial focus."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q43",
+      "topic": "Indian Economy",
+      "sub_topic": "Economic Reforms since 1991: Tax reforms",
+      "difficulty": "medium",
+      "question": "Goods and Services Tax (GST) in India was introduced in which year?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 2016",
+        "B) 2017",
+        "C) 2018",
+        "D) 2015"
+      ],
+      "correct_option": "B",
+      "explanation": "The Goods and Services Tax (GST) was introduced in India on July 1, 2017, subsuming multiple indirect taxes like excise duty, service tax, VAT, etc. into a single tax system."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q44",
+      "topic": "Indian Economy",
+      "sub_topic": "Institutional Planning: NITI Aayog",
+      "difficulty": "medium",
+      "question": "Who serves as the ex-officio Chairperson of NITI Aayog in India?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) The Governor of the Reserve Bank of India",
+        "B) The Prime Minister of India",
+        "C) The Union Finance Minister",
+        "D) The Vice-Chairman of NITI Aayog"
+      ],
+      "correct_option": "B",
+      "explanation": "The Prime Minister of India is the ex-officio Chairperson of NITI Aayog (National Institution for Transforming India)."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q45",
+      "topic": "Indian Economy",
+      "sub_topic": "Economic Reforms since 1991: Structural reforms",
+      "difficulty": "medium",
+      "question": "The Insolvency and Bankruptcy Code (IBC) was enacted in which year?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 2015",
+        "B) 2016",
+        "C) 2017",
+        "D) 2018"
+      ],
+      "correct_option": "B",
+      "explanation": "The Insolvency and Bankruptcy Code was enacted by Parliament in 2016 and became effective in December 2016. It provides a time-bound process for resolving insolvency for companies and individuals."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q46",
+      "topic": "Indian Economy",
+      "sub_topic": "Government Budget: Fiscal devolution",
+      "difficulty": "hard",
+      "question": "According to the 15th Finance Commission, the share of states in the divisible pool of union taxes recommended for 2021-26 is:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 41%",
+        "B) 42%",
+        "C) 38%",
+        "D) 45%"
+      ],
+      "correct_option": "A",
+      "explanation": "The 15th Finance Commission chaired by N.K. Singh recommended that 41% of the divisible pool of union taxes be devolved to states for the period 2021-26. This is the same as the 14th Commission's recommendation."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q47",
+      "topic": "Indian Economy",
+      "sub_topic": "Agriculture: Institutional aspects and land reforms",
+      "difficulty": "hard",
+      "question": "Operation Barga in West Bengal was associated with:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Land reforms and recording of sharecroppers' names",
+        "B) Industrial policy",
+        "C) Banking nationalization",
+        "D) Green revolution"
+      ],
+      "correct_option": "A",
+      "explanation": "Operation Barga was a land reform program initiated in West Bengal in 1978 to record the names of sharecroppers (bargadars) and ensure them a fair share of the crop. It was a significant success in tenancy reform."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q48",
+      "topic": "Indian Economy",
+      "sub_topic": "Industry: Industrial policy and domestic manufacturing",
+      "difficulty": "hard",
+      "question": "The 'Make in India' initiative was launched in which year with the primary objective of:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 2014; Promoting agricultural exports",
+        "B) 2014; Boosting domestic manufacturing and attracting FDI",
+        "C) 2016; Promoting digital payments",
+        "D) 2015; Developing infrastructure"
+      ],
+      "correct_option": "B",
+      "explanation": "Make in India was launched on September 25, 2014, with the objective of transforming India into a global manufacturing hub by encouraging both domestic and multinational companies to manufacture their products in India."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q49",
+      "topic": "Indian Economy",
+      "sub_topic": "Rural development: Credit and banking inclusion",
+      "difficulty": "hard",
+      "question": "Which of the following is NOT a feature of the Jan Dhan Yojana (PMJDY)?",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) Overdraft facility up to ₹10,000",
+        "B) RuPay debit card",
+        "C) Life insurance cover of ₹2 lakh",
+        "D) Accident insurance cover of ₹2 lakh"
+      ],
+      "correct_option": "C",
+      "explanation": "Pradhan Mantri Jan Dhan Yojana provides: zero-balance bank account, RuPay debit card, overdraft facility up to ₹10,000 (for accounts > 6 months old), and accident insurance cover of ₹2 lakh. Life insurance cover of ₹2 lakh is provided under PMJJBY (Pradhan Mantri Jeevan Jyoti Bima Yojana), a separate scheme."
+    },
+    {
+      "id": "CUET_ECO_2026_P8_L8_Q50",
+      "topic": "Indian Economy",
+      "sub_topic": "Development Policies and Experience: Growth performance",
+      "difficulty": "hard",
+      "question": "According to the Economic Survey 2022-23, India's GDP growth rate estimate for that year was:",
+      "image_reference": null,
+      "image_prompt": null,
+      "options": [
+        "A) 7.2%",
+        "B) 7.0%",
+        "C) 6.8%",
+        "D) 6.5%"
+      ],
+      "correct_option": "A",
+      "explanation": "The Economic Survey 2022-23 estimated India's real GDP growth at 7.2% for FY2022-23, with the first advance estimates from NSO later confirming 7.0%. However, the Economic Survey itself projected 7.2%. Note: actual growth was 7.2% as per later data."
+    }
+  ]
+}

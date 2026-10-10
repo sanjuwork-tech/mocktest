@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = pageMetadata(
   "Privacy Policy",
-  "How TestDisha collects, uses, and protects your personal data.",
+  "How OurMocks collects, uses, and protects your personal data.",
   "/privacy",
 );
 
@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
           <em>Your data, our responsibility.</em>
         </h1>
         <p className="hero-copy">
-          Last updated: September 2026. This policy explains how TestDisha
+          Last updated: September 2026. This policy explains how OurMocks
           collects, uses, and protects your personal data.
         </p>
       </section>

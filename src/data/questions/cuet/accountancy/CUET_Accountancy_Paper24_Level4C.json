@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ACC_2026_P24_L4C",
+  "series_id": "CUET_ACC_2026",
+  "paper_number": 24,
+  "difficulty_level": "4C",
+  "subject": "Accountancy (Code: 301)",
+  "syllabus_source": "cuet accountancy syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q01",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Partnership Act — Silent Deed",
+      "difficulty": "easy",
+      "question": "In the absence of a partnership deed, partners are entitled to:",
+      "options": [
+        "A) 6% interest on capital",
+        "B) Salary as per industry standard",
+        "C) No salary, no interest on capital, profits shared equally",
+        "D) Interest on advances at 12%"
+      ],
+      "correct_option": "C",
+      "explanation": "Per Indian Partnership Act 1932: no salary, no IOC, profits shared equally."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q02",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Fluctuating Capital Method",
+      "difficulty": "easy",
+      "question": "Under fluctuating capital method, the Capital Account shows:",
+      "options": [
+        "A) Only cash introduced",
+        "B) Only opening balance",
+        "C) Only closing balance",
+        "D) All changes including profit share and drawings"
+      ],
+      "correct_option": "D",
+      "explanation": "Under fluctuating method, Capital Account reflects all adjustments."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q03",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Drawings — Half-Yearly Beginning",
+      "difficulty": "easy",
+      "question": "A partner withdraws Rs. 10,000 at the beginning of each half-year. Rate = 8% p.a. Interest on drawings for the year is:",
+      "options": [
+        "A) Rs. 800",
+        "B) Rs. 1,200",
+        "C) Rs. 1,600",
+        "D) Rs. 400"
+      ],
+      "correct_option": "B",
+      "explanation": "Average period = (12+6)/2 = 9 months. Total = 20,000. Interest = 20,000 x 8% x 9/12 = Rs. 1,200."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q04",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Partnership Deed — Interest on Advance",
+      "difficulty": "easy",
+      "question": "A partner advances Rs. 20,000 to the firm. In the absence of a deed, the interest payable on this advance is:",
+      "options": [
+        "A) 6% p.a.",
+        "B) No interest",
+        "C) 8% p.a.",
+        "D) 12% p.a."
+      ],
+      "correct_option": "A",
+      "explanation": "Per Indian Partnership Act 1932, interest on advances by partners is payable at 6% p.a."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q05",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Commission — Before Charging",
+      "difficulty": "medium",
+      "question": "A gets 10% commission on net profit before charging commission. Net profit = Rs. 2,00,000. A commission is:",
+      "options": [
+        "A) Rs. 18,000",
+        "B) Rs. 22,000",
+        "C) Rs. 20,000",
+        "D) Rs. 15,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Commission = 10% x 2,00,000 = Rs. 20,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q06",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Past Adjustment — Salary Omitted",
+      "difficulty": "medium",
+      "question": "Partners X and Y share profits equally. Salary to Y Rs. 36,000 was omitted. The correction entry will:",
+      "options": [
+        "A) Decrease X capital by Rs. 18,000",
+        "B) Decrease Y capital by Rs. 18,000",
+        "C) No change",
+        "D) Increase Y capital by Rs. 36,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Y salary = Rs. 36,000. Reduces profit shared equally (Rs. 18,000 each). Net: X loses 18,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q07",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Guaranteed Profit — Deficit",
+      "difficulty": "medium",
+      "question": "P and Q share profits 3:2. R is admitted for 1/4 share guaranteed minimum Rs. 60,000. Firm profit = Rs. 2,00,000. Deficiency borne by P alone. P deficiency contribution is:",
+      "options": [
+        "A) Rs. 8,000",
+        "B) Rs. 10,000",
+        "C) Rs. 12,000",
+        "D) Rs. 15,000"
+      ],
+      "correct_option": "B",
+      "explanation": "R share = 2,00,000 x 1/4 = Rs. 50,000. Deficiency = 60,000 - 50,000 = Rs. 10,000 borne by P."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q08",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Goodwill — Super Profit Method",
+      "difficulty": "hard",
+      "question": "Normal profit = Rs. 25,000. Actual average profit = Rs. 40,000. Goodwill is valued at 5 years purchase of super profit. Goodwill value is:",
+      "options": [
+        "A) Rs. 1,25,000",
+        "B) Rs. 2,00,000",
+        "C) Rs. 50,000",
+        "D) Rs. 75,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Super profit = 40,000 - 25,000 = Rs. 15,000. Goodwill = 15,000 x 5 = Rs. 75,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q09",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Admission — Sacrifice Ratio",
+      "difficulty": "easy",
+      "question": "M and N share profits 4:3. They admit O for 1/7 share. The sacrifice ratio of M and N is:",
+      "options": [
+        "A) 1:1",
+        "B) 7:1",
+        "C) Equal",
+        "D) 4:3"
+      ],
+      "correct_option": "D",
+      "explanation": "In absence of specific agreement, existing partners sacrifice in their old profit-sharing ratio."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q10",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Revaluation — Asset Loss",
+      "difficulty": "easy",
+      "question": "On reconstitution, machinery (book value Rs. 1,50,000) is revalued at Rs. 1,30,000. This results in:",
+      "options": [
+        "A) Loss of Rs. 20,000 debited to Revaluation",
+        "B) Gain of Rs. 20,000",
+        "C) No change in Revaluation",
+        "D) Profit of Rs. 20,000 credited to Revaluation"
+      ],
+      "correct_option": "A",
+      "explanation": "Depreciation of Rs. 20,000 is debited to Revaluation Account as loss."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q11",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill — Premium Distribution",
+      "difficulty": "easy",
+      "question": "E brings Rs. 25,000 as goodwill premium on admission. Old partners share profits 3:2. Old partner F share of goodwill is:",
+      "options": [
+        "A) Rs. 10,000",
+        "B) Rs. 12,500",
+        "C) Rs. 15,000",
+        "D) Rs. 20,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Goodwill premium is distributed in sacrifice ratio (3:2). F gets 25,000 x 3/5 = Rs. 15,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q12",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Admission — Capital Proportion",
+      "difficulty": "medium",
+      "question": "X and Y share profits 3:2 with capitals Rs. 90,000 and Rs. 60,000. Z is admitted for 1/4 share and brings Rs. 80,000 as capital. Total firm capital (as per Z) is:",
+      "options": [
+        "A) Rs. 2,30,000",
+        "B) Rs. 3,20,000",
+        "C) Rs. 1,60,000",
+        "D) Rs. 4,00,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Z brings Rs. 80,000 for 1/4 share. Total implied capital = 80,000 x 4 = Rs. 3,20,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q13",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Retirement — Gaining Ratio",
+      "difficulty": "medium",
+      "question": "A, B, C share profits 4:3:2. B retires. A and C acquire B share equally. The gaining ratio of A and C is:",
+      "options": [
+        "A) 1:1",
+        "B) 4:3",
+        "C) 3:2",
+        "D) Equal to old ratio"
+      ],
+      "correct_option": "A",
+      "explanation": "When B share is acquired equally by A and C, gaining ratio = 1:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q14",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Revaluation — Provision",
+      "difficulty": "medium",
+      "question": "Debtors are Rs. 60,000. Provision for doubtful debts @ 10% is created for the first time. The revaluation entry is:",
+      "options": [
+        "A) Debtors A/c Dr. 6,000; To Revaluation A/c 6,000",
+        "B) Provision A/c Dr. 6,000; To Revaluation A/c 6,000",
+        "C) No entry needed",
+        "D) Revaluation A/c Dr. 6,000; To Provision A/c 6,000"
+      ],
+      "correct_option": "D",
+      "explanation": "New provision of Rs. 6,000 is debited to Revaluation (loss) and credited to Provision Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q15",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Admission — Hidden Goodwill",
+      "difficulty": "medium",
+      "question": "P and Q have capitals of Rs. 1,20,000 and Rs. 80,000 sharing profits equally. R is admitted for 1/5 share bringing Rs. 50,000 as capital. The hidden goodwill is:",
+      "options": [
+        "A) Rs. 30,000",
+        "B) Rs. 50,000",
+        "C) Rs. 0",
+        "D) Rs. 20,000"
+      ],
+      "correct_option": "C",
+      "explanation": "R brings Rs. 50,000 for 1/5. Implied total = 50,000 x 5 = Rs. 2,50,000. Actual = Rs. 2,50,000. Goodwill = 0."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q16",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Revaluation — Multiple Changes",
+      "difficulty": "hard",
+      "question": "Stock (Rs. 80,000) increased by 15%. Building (Rs. 3,00,000) decreased by 10%. Unrecorded creditors of Rs. 12,000 discovered. Net effect in Revaluation Account is:",
+      "options": [
+        "A) Loss of Rs. 18,000",
+        "B) Loss of Rs. 30,000",
+        "C) Profit of Rs. 30,000",
+        "D) Profit of Rs. 18,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Stock gain = Rs. 12,000. Building loss = Rs. 30,000. Creditors = Rs. 12,000 loss. Net = 30,000 + 12,000 - 12,000 = Rs. 30,000 loss."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q17",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Hidden Goodwill Calculation",
+      "difficulty": "hard",
+      "question": "X and Y have capitals of Rs. 80,000 and Rs. 60,000 sharing profits equally. Z is admitted for 1/4 share bringing Rs. 70,000 as capital. The hidden goodwill is:",
+      "options": [
+        "A) Rs. 40,000",
+        "B) Rs. 80,000",
+        "C) Rs. 70,000",
+        "D) Rs. 50,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Z brings Rs. 70,000 for 1/4. Implied total = Rs. 2,80,000. Actual = Rs. 2,10,000. Goodwill = Rs. 70,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q18",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation — Basic",
+      "difficulty": "easy",
+      "question": "Realisation Account is opened during:",
+      "options": [
+        "A) Admission of a partner",
+        "B) Retirement of a partner",
+        "C) Dissolution of the firm",
+        "D) Formation of the firm"
+      ],
+      "correct_option": "C",
+      "explanation": "Realisation Account is opened at dissolution."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q19",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Assets Transfer Value",
+      "difficulty": "easy",
+      "question": "On dissolution, assets (except cash) are transferred to Realisation Account at:",
+      "options": [
+        "A) Market value",
+        "B) Book value",
+        "C) Realizable value",
+        "D) Replacement value"
+      ],
+      "correct_option": "B",
+      "explanation": "All assets are transferred to Realisation Account at their book value."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q20",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Payment Priority",
+      "difficulty": "easy",
+      "question": "After paying realisation expenses, the first liability to be settled out of cash is:",
+      "options": [
+        "A) Partners capital balances",
+        "B) Partners loans to firm",
+        "C) Advances from partners",
+        "D) External creditors (trade payables)"
+      ],
+      "correct_option": "D",
+      "explanation": "The order after realisation expenses: External debts, then partners loans, then capital."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q21",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Unrecorded Liability",
+      "difficulty": "medium",
+      "question": "On dissolution, an unrecorded liability (audit fee) of Rs. 8,000 is paid. The journal entry is:",
+      "options": [
+        "A) Realisation A/c Dr. 8,000; To Cash A/c 8,000",
+        "B) Cash A/c Dr. 8,000; To Realisation A/c 8,000",
+        "C) Partners Capital A/c Dr. 8,000; To Cash A/c 8,000",
+        "D) Audit Fee A/c Dr. 8,000; To Cash A/c 8,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Unrecorded liability paid is debited to Realisation Account and Cash is credited."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q22",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Partner Takes Asset",
+      "difficulty": "medium",
+      "question": "On dissolution, partner R takes over furniture of book value Rs. 20,000 at agreed value of Rs. 16,000. The entry is:",
+      "options": [
+        "A) Realisation A/c Dr. 20,000; To R Capital A/c 20,000",
+        "B) R Capital A/c Dr. 20,000; To Realisation A/c 20,000",
+        "C) R Capital A/c Dr. 16,000; To Realisation A/c 16,000",
+        "D) No entry required"
+      ],
+      "correct_option": "C",
+      "explanation": "When a partner takes over an asset, Partner Capital is debited with agreed value."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q23",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Creditor Settlement",
+      "difficulty": "medium",
+      "question": "A creditor of Rs. 35,000 is paid Rs. 33,000 in full settlement. The correct entry is:",
+      "options": [
+        "A) Creditor A/c Dr. 35,000; To Cash A/c 33,000; To Partners Capital A/c 2,000",
+        "B) Realisation A/c Dr. 33,000; To Cash A/c 33,000",
+        "C) Realisation A/c Dr. 35,000; To Cash A/c 35,000",
+        "D) Creditor A/c Dr. 35,000; To Cash A/c 33,000; To Realisation A/c 2,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Creditor removed at Rs. 35,000. Discount of 2,000 is gain credited to Realisation."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q24",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Garner vs Murray",
+      "difficulty": "medium",
+      "question": "Partners J and K have capitals of Rs. 50,000 and Rs. 30,000. L is insolvent with debit balance of Rs. 16,000. Per Garner vs Murray, K bears additional loss of:",
+      "options": [
+        "A) Rs. 10,000",
+        "B) Rs. 6,000",
+        "C) Rs. 4,000",
+        "D) Rs. 8,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Capital ratio J:K = 50,000:30,000 = 5:3. K bears 3/8 x 16,000 = Rs. 6,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q25",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Insolvent Partner — Complex",
+      "difficulty": "hard",
+      "question": "A, B, C share profits 3:2:1 with capitals Rs. 90,000, Rs. 60,000, Rs. 30,000. C is insolvent with capital deficiency of Rs. 24,000. Using Garner vs Murray, how much does A bear?",
+      "options": [
+        "A) Rs. 14,400",
+        "B) Rs. 8,000",
+        "C) Rs. 12,000",
+        "D) Rs. 9,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Solvent partners capital ratio A:B = 90,000:60,000 = 3:2. A bears 3/5 x 24,000 = Rs. 14,400."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q26",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital — Basic",
+      "difficulty": "easy",
+      "question": "The maximum amount of share capital a company can issue is called:",
+      "options": [
+        "A) Issued Capital",
+        "B) Paid-up Capital",
+        "C) Subscribed Capital",
+        "D) Authorized (Nominal) Capital"
+      ],
+      "correct_option": "D",
+      "explanation": "Authorized capital is the maximum stated in the Memorandum of Association."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q27",
+      "topic": "Company Accounts",
+      "sub_topic": "Debenture — Definition",
+      "difficulty": "easy",
+      "question": "Debenture holders are:",
+      "options": [
+        "A) Owners of the company",
+        "B) Lenders (creditors) of the company",
+        "C) Partners in the company",
+        "D) Government officials"
+      ],
+      "correct_option": "B",
+      "explanation": "Debenture holders are lenders/creditors who have given loans to the company."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q28",
+      "topic": "Company Accounts",
+      "sub_topic": "Minimum Application Money",
+      "difficulty": "easy",
+      "question": "As per SEBI guidelines, minimum application money per share should not be less than:",
+      "options": [
+        "A) 25% of the issue price",
+        "B) 5% of face value",
+        "C) 50% of face value",
+        "D) 10% of face value"
+      ],
+      "correct_option": "A",
+      "explanation": "SEBI mandates minimum application money of 25% of the issue price."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q29",
+      "topic": "Company Accounts",
+      "sub_topic": "Securities Premium — Basic",
+      "difficulty": "medium",
+      "question": "500 shares of Rs. 10 each are issued at Rs. 14 per share. Securities premium per share is:",
+      "options": [
+        "A) Rs. 14",
+        "B) Rs. 4",
+        "C) Rs. 10",
+        "D) Rs. 2"
+      ],
+      "correct_option": "B",
+      "explanation": "Issue price (Rs. 14) - Face value (Rs. 10) = Rs. 4 per share securities premium."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q30",
+      "topic": "Company Accounts",
+      "sub_topic": "Calls in Arrears",
+      "difficulty": "medium",
+      "question": "A shareholder holding 100 shares of Rs. 10 each fails to pay allotment Rs. 5 and final call Rs. 2. Calls in Arrears is:",
+      "options": [
+        "A) Rs. 500",
+        "B) Rs. 200",
+        "C) Rs. 1,000",
+        "D) Rs. 700"
+      ],
+      "correct_option": "D",
+      "explanation": "Calls in Arrears = 100 x (5 + 2) = Rs. 700."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q31",
+      "topic": "Company Accounts",
+      "sub_topic": "Forfeiture — Amount Received",
+      "difficulty": "medium",
+      "question": "200 shares of Rs. 10 each (fully called) are forfeited. The shareholder had paid only application Rs. 4 per share. Forfeited Shares Account is credited with:",
+      "options": [
+        "A) Rs. 2,000",
+        "B) Rs. 1,200",
+        "C) Rs. 800",
+        "D) Rs. 400"
+      ],
+      "correct_option": "C",
+      "explanation": "Amount received = 200 x 4 = Rs. 800. This is credited to Forfeited Shares Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q32",
+      "topic": "Company Accounts",
+      "sub_topic": "Debenture Issue — Collateral",
+      "difficulty": "medium",
+      "question": "Debentures issued as collateral security are recorded as:",
+      "options": [
+        "A) Memorandum entry only (no journal entry)",
+        "B) Debentures Suspense A/c Dr. To Debentures A/c",
+        "C) Bank A/c Dr. To Debentures A/c",
+        "D) Interest A/c Dr. To Debentures A/c"
+      ],
+      "correct_option": "A",
+      "explanation": "Collateral security debentures are not formally recorded in books."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q33",
+      "topic": "Company Accounts",
+      "sub_topic": "Pro-rata — Allotment",
+      "difficulty": "hard",
+      "question": "A company invited applications for 30,000 shares and received 60,000 applications. How many shares will an applicant who applied for 1,200 shares get?",
+      "options": [
+        "A) 1,200 shares",
+        "B) 900 shares",
+        "C) 400 shares",
+        "D) 600 shares"
+      ],
+      "correct_option": "D",
+      "explanation": "Pro-rata ratio = 30,000:60,000 = 1:2. Allotment = 1,200 x 1/2 = 600 shares."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q34",
+      "topic": "Company Accounts",
+      "sub_topic": "Forfeiture & Reissue",
+      "difficulty": "hard",
+      "question": "150 shares of Rs. 10 each (fully called) were forfeited for non-payment of allotment Rs. 4 and final call Rs. 3. Shareholder paid application Rs. 3. These shares were reissued at Rs. 8 fully paid. Capital Reserve transferred is:",
+      "options": [
+        "A) Rs. 450",
+        "B) Rs. 300",
+        "C) Rs. 150",
+        "D) Rs. 600"
+      ],
+      "correct_option": "C",
+      "explanation": "Received on forfeited shares = 150 x 3 = Rs. 450. Loss on reissue = 150 x 2 = Rs. 300. Capital Reserve = 450 - 300 = Rs. 150."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q35",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Quick Ratio",
+      "difficulty": "easy",
+      "question": "Quick Ratio is calculated as:",
+      "options": [
+        "A) Quick Assets / Current Liabilities",
+        "B) Current Assets / Current Liabilities",
+        "C) Current Assets / Total Liabilities",
+        "D) Total Assets / Total Liabilities"
+      ],
+      "correct_option": "A",
+      "explanation": "Quick Ratio = Quick Assets / Current Liabilities."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q36",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Classification — Non-current Asset",
+      "difficulty": "easy",
+      "question": "Which is a non-current asset?",
+      "options": [
+        "A) Inventory",
+        "B) Goodwill",
+        "C) Trade receivables",
+        "D) Cash"
+      ],
+      "correct_option": "B",
+      "explanation": "Goodwill is an intangible non-current asset."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q37",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Cash Flow Classification",
+      "difficulty": "easy",
+      "question": "Interest received by a non-financial company is classified as:",
+      "options": [
+        "A) Investing activity",
+        "B) Operating activity",
+        "C) Financing activity",
+        "D) Non-cash activity"
+      ],
+      "correct_option": "A",
+      "explanation": "For a non-financial company, interest received is classified as investing activity per AS-3."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q38",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Current Ratio — Transaction Effect",
+      "difficulty": "medium",
+      "question": "Current Ratio = 2:1 (CA = Rs. 80,000; CL = Rs. 40,000). Paid Rs. 20,000 to creditor. New Current Ratio is:",
+      "options": [
+        "A) 2:1",
+        "B) 4:1",
+        "C) 3:1",
+        "D) 1.5:1"
+      ],
+      "correct_option": "C",
+      "explanation": "New CA = 80,000 - 20,000 = 60,000. New CL = 40,000 - 20,000 = 20,000. Ratio = 3:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q39",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Debt-Equity Ratio",
+      "difficulty": "medium",
+      "question": "Shareholders Fund = Rs. 20,00,000. Total Debt = Rs. 30,00,000. Debt-Equity Ratio is:",
+      "options": [
+        "A) 0.67:1",
+        "B) 1:1",
+        "C) 2:1",
+        "D) 1.5:1"
+      ],
+      "correct_option": "D",
+      "explanation": "Debt-Equity Ratio = Total Debt / Shareholders Fund = 30,00,000 / 20,00,000 = 1.5:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q40",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Inventory Turnover",
+      "difficulty": "medium",
+      "question": "Cost of Revenue = Rs. 5,00,000. Opening Stock = Rs. 80,000. Closing Stock = Rs. 1,20,000. Inventory Turnover Ratio is:",
+      "options": [
+        "A) 6 times",
+        "B) 5 times",
+        "C) 7 times",
+        "D) 4 times"
+      ],
+      "correct_option": "B",
+      "explanation": "Average Inventory = (80,000 + 1,20,000) / 2 = Rs. 1,00,000. Turnover = 5,00,000 / 1,00,000 = 5 times."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q41",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Solvency Ratio",
+      "difficulty": "medium",
+      "question": "Total Assets = Rs. 40,00,000. Total Debt = Rs. 16,00,000. Total Assets to Debt Ratio is:",
+      "options": [
+        "A) 0.4:1",
+        "B) 2.5:1",
+        "C) 1:1",
+        "D) 2:1"
+      ],
+      "correct_option": "B",
+      "explanation": "Total Assets to Debt Ratio = 40,00,000 / 16,00,000 = 2.5:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q42",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "ROCE",
+      "difficulty": "hard",
+      "question": "Capital Employed = Rs. 50,00,000. Net Profit before Interest and Tax = Rs. 12,50,000. ROCE is:",
+      "options": [
+        "A) 20%",
+        "B) 30%",
+        "C) 15%",
+        "D) 25%"
+      ],
+      "correct_option": "D",
+      "explanation": "ROCE = (12,50,000/50,00,000) x 100 = 25%."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q43",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Trade Payables Turnover",
+      "difficulty": "hard",
+      "question": "Net Credit Purchases = Rs. 8,00,000. Opening Creditors = Rs. 2,00,000. Closing Creditors = Rs. 2,00,000. Trade Payables Turnover is:",
+      "options": [
+        "A) 4 times",
+        "B) 5 times",
+        "C) 6 times",
+        "D) 3 times"
+      ],
+      "correct_option": "A",
+      "explanation": "Average Creditors = Rs. 2,00,000. Turnover = 8,00,000 / 2,00,000 = 4 times."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q44",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Popular Accounting Software",
+      "difficulty": "easy",
+      "question": "The most widely used accounting software package in India is:",
+      "options": [
+        "A) QuickBooks",
+        "B) Zoho Books",
+        "C) Tally (TallyPrime)",
+        "D) SAP"
+      ],
+      "correct_option": "C",
+      "explanation": "Tally is the most popular accounting software in India."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q45",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "DBMS Definition",
+      "difficulty": "easy",
+      "question": "DBMS stands for:",
+      "options": [
+        "A) Data Business Management System",
+        "B) Digital Bookkeeping System",
+        "C) Double Entry Management System",
+        "D) Database Management System"
+      ],
+      "correct_option": "D",
+      "explanation": "DBMS = Database Management System — software to manage databases."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q46",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Computerised vs Manual",
+      "difficulty": "easy",
+      "question": "Which is a key advantage of computerised accounting over manual accounting?",
+      "options": [
+        "A) Zero setup cost",
+        "B) Speed and accuracy in processing transactions",
+        "C) No need for accounting knowledge",
+        "D) Eliminates all errors"
+      ],
+      "correct_option": "B",
+      "explanation": "Computerised systems offer speed, accuracy, and automatic report generation."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q47",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Data Backup",
+      "difficulty": "easy",
+      "question": "In computerised accounting, regular data backup is needed because:",
+      "options": [
+        "A) Data can be lost due to system failure or corruption",
+        "B) It increases processing speed",
+        "C) It reduces the need for accountants",
+        "D) It is required for every transaction"
+      ],
+      "correct_option": "A",
+      "explanation": "Backups protect against data loss from hardware failure, software crashes, or accidental deletion."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q48",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Codification",
+      "difficulty": "medium",
+      "question": "Codification of accounts in a computerised system helps in:",
+      "options": [
+        "A) Eliminating all errors",
+        "B) Reducing tax liability",
+        "C) Systematic grouping and easy identification",
+        "D) Preparing statutory returns"
+      ],
+      "correct_option": "C",
+      "explanation": "Codification assigns unique codes to accounts for systematic grouping and easy identification."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q49",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Audit Trail Limitation",
+      "difficulty": "hard",
+      "question": "Which statement is TRUE about audit trail in computerised accounting?",
+      "options": [
+        "A) It may be limited and needs special programming to track changes",
+        "B) It is always superior to manual",
+        "C) It eliminates fraud completely",
+        "D) It is not required by law"
+      ],
+      "correct_option": "A",
+      "explanation": "Computerised systems may lack built-in audit trails; special features must be programmed."
+    },
+    {
+      "id": "CUET_ACC_2026_P24_L4C_Q50",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Customised Package Limitation",
+      "difficulty": "hard",
+      "question": "A major limitation of a highly customized accounting package is:",
+      "options": [
+        "A) Cannot generate reports",
+        "B) Less secure than manual",
+        "C) Not suitable for large firms",
+        "D) High cost and longer implementation time"
+      ],
+      "correct_option": "D",
+      "explanation": "Customized packages require significant investment in development and implementation time."
+    }
+  ]
+}

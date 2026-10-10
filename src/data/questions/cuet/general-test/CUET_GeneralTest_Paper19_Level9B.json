@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_GAT_2026_P19_L9B",
+  "series_id": "CUET_GAT_2026",
+  "paper_number": 19,
+  "difficulty_level": "9B",
+  "subject": "General Test (Code: 501)",
+  "syllabus_source": "cuet general aptitude test syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "pastpaper-gat-2024.pdf, pastpaper-gat-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q01",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "easy",
+      "question": "The 'Chilika Lake', a brackish water lagoon and the largest coastal lagoon in India, which serves as a habitat for migratory birds including flamingos, is located in which state?",
+      "options": [
+        "A) West Bengal",
+        "B) Tamil Nadu",
+        "C) Andhra Pradesh",
+        "D) Odisha"
+      ],
+      "correct_option": "D",
+      "explanation": "Chilika Lake, on the Odisha coast, is India's largest brackish-water lagoon and a Ramsar site."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q11",
+      "topic": "General Mental Ability",
+      "sub_topic": "Number Series",
+      "difficulty": "easy",
+      "question": "Find the next term in the series: 5, 10, 17, 26, 37, ___",
+      "options": [
+        "A) 52",
+        "B) 48",
+        "C) 50",
+        "D) 54"
+      ],
+      "correct_option": "C",
+      "explanation": "The differences are 5, 7, 9, 11, so the next difference is 13, giving 37 + 13 = 50."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q17",
+      "topic": "General Mental Ability",
+      "sub_topic": "Classification",
+      "difficulty": "easy",
+      "question": "Three of the following words follow the same pattern, while one does not. Find the odd one out.",
+      "options": [
+        "A) Apple",
+        "B) Grape",
+        "C) Banana",
+        "D) Orange"
+      ],
+      "correct_option": "A",
+      "explanation": "In Banana, Grape and Orange, the letters are all unique. In Apple, the letter 'p' appears twice, breaking the pattern. Apple is the odd word."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q24",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Algebra",
+      "difficulty": "easy",
+      "question": "If x + 1/x = 5, what is the value of x² + 1/x²?",
+      "options": [
+        "A) 23",
+        "B) 21",
+        "C) 27",
+        "D) 25"
+      ],
+      "correct_option": "A",
+      "explanation": "Squaring both sides: (x + 1/x)² = 25 = x² + 2 + 1/x², so x² + 1/x² = 25 − 2 = 23."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q37",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which vitamin is synthesized by the human body when the skin is exposed to ultraviolet radiation from sunlight?",
+      "options": [
+        "A) Vitamin B",
+        "B) Vitamin C",
+        "C) Vitamin A",
+        "D) Vitamin D"
+      ],
+      "correct_option": "D",
+      "explanation": "UV-B radiation converts 7-dehydrocholesterol in the skin to previtamin D₃, which becomes vitamin D₃."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q03",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports",
+      "difficulty": "medium",
+      "question": "At the 2024 ICC Men's T20 World Cup, held across venues in the USA and the West Indies, India defeated which team in the final at Kensington Oval, Barbados, on 29 June 2024?",
+      "options": [
+        "A) New Zealand",
+        "B) South Africa",
+        "C) England",
+        "D) Australia"
+      ],
+      "correct_option": "B",
+      "explanation": "India defeated South Africa by 7 runs in the final at Kensington Oval, Barbados."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q05",
+      "topic": "Current Affairs",
+      "sub_topic": "International Events",
+      "difficulty": "medium",
+      "question": "The 46th session of the UNESCO World Heritage Committee, held in July 2024, was hosted by which country?",
+      "options": [
+        "A) India",
+        "B) Japan",
+        "C) Saudi Arabia",
+        "D) Russia"
+      ],
+      "correct_option": "A",
+      "explanation": "The 46th session of the World Heritage Committee was held in New Delhi, India, from 21–31 July 2024."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q06",
+      "topic": "Current Affairs",
+      "sub_topic": "Awards",
+      "difficulty": "medium",
+      "question": "The 2024 Nobel Prize in Literature was awarded to Han Kang 'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life'. Han Kang belongs to which country?",
+      "options": [
+        "A) China",
+        "B) South Korea",
+        "C) Japan",
+        "D) Thailand"
+      ],
+      "correct_option": "B",
+      "explanation": "Han Kang, author of 'The Vegetarian' and 'Human Acts', is a South Korean writer. She is the first South Korean and the first Asian woman to win the Nobel Prize in Literature."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q08",
+      "topic": "General Knowledge",
+      "sub_topic": "History",
+      "difficulty": "medium",
+      "question": "The 'Chauri Chaura incident' of 4 February 1922, in which protesters set fire to a police station killing 22 policemen, led Mahatma Gandhi to withdraw which movement?",
+      "options": [
+        "A) Civil Disobedience Movement",
+        "B) Quit India Movement",
+        "C) Non-Cooperation Movement",
+        "D) Swadeshi Movement"
+      ],
+      "correct_option": "C",
+      "explanation": "Gandhi called off the Non-Cooperation Movement on 12 February 1922 in response to the Chauri Chaura violence, insisting on non-violence as a core principle."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q10",
+      "topic": "General Knowledge",
+      "sub_topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "The 'Gond' painting, a form of tribal art characterized by intricate dotted and lined patterns depicting nature and mythology, originates primarily from which Indian state?",
+      "options": [
+        "A) Rajasthan",
+        "B) Madhya Pradesh",
+        "C) Bihar",
+        "D) Gujarat"
+      ],
+      "correct_option": "B",
+      "explanation": "Gond art, practised by the Gond tribe of central India, originated in Madhya Pradesh."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q12",
+      "topic": "General Mental Ability",
+      "sub_topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code language, each letter of a word is shifted alternately — the first letter two steps forward, the second letter one step forward, the third two steps forward, and so on. For example, FRIEND is coded as HSKGPE. Following the same rule, how will SCHOOL be coded?",
+      "options": [
+        "A) UHJPRM",
+        "B) UHJPQM",
+        "C) VGJQRM",
+        "D) UGIPQM"
+      ],
+      "correct_option": "B",
+      "explanation": "Apply +2, +1 alternately to S-C-H-O-O-L: S→U, C→H, H→J, O→P, O→Q, L→M, giving UHJPQM."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q13",
+      "topic": "General Mental Ability",
+      "sub_topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the pair that completes the analogy: 16 : 272 :: 18 : ?",
+      "options": [
+        "A) 324",
+        "B) 288",
+        "C) 342",
+        "D) 306"
+      ],
+      "correct_option": "D",
+      "explanation": "In the pair 16 : 272, the second number is the product of the first with its successor: 16 × 17 = 272. Applying the same relation, 18 × 17 = 306."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q15",
+      "topic": "General Mental Ability",
+      "sub_topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "P is the father of Q. Q is the sister of R. R is the husband of S. S is the mother of T. T is the brother of U. How is P related to U?",
+      "options": [
+        "A) Brother",
+        "B) Father",
+        "C) Uncle",
+        "D) Grandfather"
+      ],
+      "correct_option": "D",
+      "explanation": "P is father of Q; Q is sister of R, so P is also father of R. R is husband of S, and S is mother of T and U, making R the father of T and U. Therefore P is the grandfather of U."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q16",
+      "topic": "General Mental Ability",
+      "sub_topic": "Direction Sense",
+      "difficulty": "medium",
+      "question": "A person walks 3 km due east, then turns left and walks 4 km, then turns right and walks 3 km, then turns right again and walks 4 km. How far is the person from the starting point?",
+      "options": [
+        "A) 10 km",
+        "B) 4 km",
+        "C) 6 km",
+        "D) 8 km"
+      ],
+      "correct_option": "C",
+      "explanation": "Take the starting point as origin (0,0). After walking 3 km east → (3,0). Turn left (north) 4 km → (3,4). Turn right (east) 3 km → (6,4). Turn right (south) 4 km → (6,0). Distance from (0,0) to (6,0) is 6 km."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q18",
+      "topic": "Numerical Ability",
+      "sub_topic": "Percentage",
+      "difficulty": "medium",
+      "question": "A number is increased by 20% and then the result is decreased by 20%. What is the net percentage change?",
+      "options": [
+        "A) 4% decrease",
+        "B) No change",
+        "C) 4% increase",
+        "D) 2% decrease"
+      ],
+      "correct_option": "A",
+      "explanation": "Let the number be 100. After a 20% increase: 120. After a 20% decrease: 120 × 0.8 = 96. Net change = 100 − 96 = 4% decrease."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q19",
+      "topic": "Numerical Ability",
+      "sub_topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper marks his goods 40% above the cost price and gives a discount of 20%. During a festival sale, he offers a further discount of 5% on the already discounted price. What is his overall profit percentage?",
+      "options": [
+        "A) 6.8%",
+        "B) 6.2%",
+        "C) 6.4%",
+        "D) 6%"
+      ],
+      "correct_option": "C",
+      "explanation": "Take CP = ₹100, so MP = ₹140. After 20% discount: ₹112. After further 5% discount: ₹112 × 0.95 = ₹106.40. Profit = ₹6.40 on ₹100 = 6.4%."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q22",
+      "topic": "Numerical Ability",
+      "sub_topic": "Average",
+      "difficulty": "medium",
+      "question": "The average age of a family of 4 members is 30 years. A baby is born. After 5 years from now, what will be the average age of the family (in years)?",
+      "options": [
+        "A) 28 years",
+        "B) 29 years",
+        "C) 30 years",
+        "D) 31 years"
+      ],
+      "correct_option": "B",
+      "explanation": "Current total age = 4 × 30 = 120 years. After 5 years, each of the 5 members (including the baby) will be 5 years older: total = 120 + 5×5 = 145. Average = 145/5 = 29 years."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q18",
+      "topic": "Numerical Ability",
+      "sub_topic": "Percentage",
+      "difficulty": "medium",
+      "question": "A number is first decreased by 20% and then increased by 25%. What is the net percentage change?",
+      "options": [
+        "A) No change",
+        "B) 5% increase",
+        "C) 5% decrease",
+        "D) 10% increase"
+      ],
+      "correct_option": "A",
+      "explanation": "Let the number be 100. After 20% decrease: 80. After 25% increase: 80 × 1.25 = 100. Net change = 0%. The successive changes of −20% and +25% cancel out (0.80 × 1.25 = 1.00)."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q26",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table below shows the sales (in lakh rupees) of a company over four consecutive years.\n\nYear | Sales (₹ lakhs)\n2021 | 40\n2022 | 55\n2023 | 60\n2024 | 75\n\nIn which year was the percentage increase in sales over the previous year the highest?",
+      "options": [
+        "A) 2022",
+        "B) The increase was equal in all years",
+        "C) 2024",
+        "D) 2023"
+      ],
+      "correct_option": "A",
+      "explanation": "2022: (55−40)/40 = 37.5%. 2023: (60−55)/55 ≈ 9.1%. 2024: (75−60)/60 = 25%. The highest percentage increase was in 2022 (37.5%)."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q27",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Geometry",
+      "difficulty": "medium",
+      "question": "The four angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. What is the measure of the largest angle (in degrees)?",
+      "options": [
+        "A) 120°",
+        "B) 144°",
+        "C) 135°",
+        "D) 150°"
+      ],
+      "correct_option": "B",
+      "explanation": "Sum of interior angles of a quadrilateral = 360°. Let the angles be x, 2x, 3x, 4x. Then 10x = 360°, so x = 36°. The largest angle = 4x = 144°."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q30",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: All apples are fruits. All fruits are edible. All edible things are organic.\nConclusions: I. All apples are organic. II. All organic things are apples.\nWhich of the conclusion(s) logically follow(s)?",
+      "options": [
+        "A) Both conclusions I and II follow",
+        "B) Only conclusion I follows",
+        "C) Neither conclusion follows",
+        "D) Only conclusion II follows"
+      ],
+      "correct_option": "B",
+      "explanation": "Apples ⊂ Fruits ⊂ Edible ⊂ Organic, so all apples are organic — I follows. The reverse (all organic things are apples) does not follow — II fails."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q32",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Clock",
+      "difficulty": "medium",
+      "question": "How many times do the hour hand and the minute hand of a clock coincide in a day (24 hours)?",
+      "options": [
+        "A) 21 times",
+        "B) 20 times",
+        "C) 24 times",
+        "D) 22 times"
+      ],
+      "correct_option": "D",
+      "explanation": "The hands coincide 11 times in every 12-hour period. In 24 hours, they coincide 11 × 2 = 22 times."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q33",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Ordering & Ranking",
+      "difficulty": "medium",
+      "question": "Six students A, B, C, D, E, F have different marks. A scored more than B but less than C. D scored the highest. E scored less than B but more than F. Who scored the least marks?",
+      "options": [
+        "A) F",
+        "B) E",
+        "C) A",
+        "D) D"
+      ],
+      "correct_option": "A",
+      "explanation": "From the conditions: C > A > B > E > F, and D is the highest. So the order is D > C > A > B > E > F. F scored the least."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q35",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Scheduling Puzzle",
+      "difficulty": "medium",
+      "question": "Four tasks P, Q, R, S are scheduled on four consecutive days (Day 1 to Day 4), one task per day. (i) Q is scheduled immediately before R. (ii) P is not on Day 1. (iii) S is not on Day 4. (iv) R is not on Day 4. On which day is P scheduled?",
+      "options": [
+        "A) Day 2",
+        "B) Day 3",
+        "C) Day 4",
+        "D) Day 1"
+      ],
+      "correct_option": "C",
+      "explanation": "Q-R is an adjacent pair. Since R is not on Day 4, Q-R must be (Day 1,2) or (Day 2,3). If Q-R = (1,2), then S cannot be on Day 4, so S = Day 3 and P = Day 4. If Q-R = (2,3), then Day 1 must be S (since P ≠ Day 1), and P = Day 4. In both cases, P is on Day 4."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q38",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "The 'Bhabha Atomic Research Centre' (BARC), India's premier nuclear research facility, is located in which city?",
+      "options": [
+        "A) Chennai",
+        "B) Bengaluru",
+        "C) Mumbai",
+        "D) Hyderabad"
+      ],
+      "correct_option": "C",
+      "explanation": "BARC is located in Trombay, Mumbai. It was established in 1954 and is India's primary centre for nuclear research and development."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q02",
+      "topic": "General Knowledge",
+      "sub_topic": "Polity",
+      "difficulty": "hard",
+      "question": "Consider the following statements about the Election Commission of India:\n1. The Constitution has fixed the number of Election Commissioners at two.\n2. The Chief Election Commissioner and other Election Commissioners have equal powers in decision-making.\n3. The Chief Election Commissioner can be removed from office in the same manner as a Judge of the Supreme Court.\nHow many of the above statements are correct?",
+      "options": [
+        "A) Only two",
+        "B) All three",
+        "C) None",
+        "D) Only one"
+      ],
+      "correct_option": "A",
+      "explanation": "Statement 1 is incorrect — Article 324 does not fix the number. Statement 2 is correct. Statement 3 is correct. Hence statements 2 and 3 are correct."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q04",
+      "topic": "Current Affairs",
+      "sub_topic": "Science & Technology",
+      "difficulty": "hard",
+      "question": "The Indian Space Research Organisation (ISRO) successfully launched the 'INSAT-3DS' meteorological satellite on 17 February 2024. Which launch vehicle was used for this mission?",
+      "options": [
+        "A) SSLV-D2",
+        "B) PSLV-C58",
+        "C) GSLV-F14",
+        "D) LVM3-M3"
+      ],
+      "correct_option": "C",
+      "explanation": "INSAT-3DS was launched aboard GSLV-F14 from Satish Dhawan Space Centre, Sriharikota."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q07",
+      "topic": "Current Affairs",
+      "sub_topic": "Defence",
+      "difficulty": "hard",
+      "question": "In September 2024, the Cabinet Committee on Security approved the development of the 'Twin Engine Deck-Based Fighter' (TEDBF) for the Indian Navy. What is the planned year of induction of this carrier-based aircraft?",
+      "options": [
+        "A) 2032",
+        "B) 2028",
+        "C) 2030",
+        "D) 2035"
+      ],
+      "correct_option": "A",
+      "explanation": "The TEDBF, being developed by HAL and DRDO, is planned for induction around 2032."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q09",
+      "topic": "General Knowledge",
+      "sub_topic": "Economics",
+      "difficulty": "hard",
+      "question": "The Monetary Policy Committee (MPC) of the Reserve Bank of India consists of how many members, and how many of them must be from the RBI?",
+      "options": [
+        "A) 6 members, 2 from RBI",
+        "B) 6 members, 3 from RBI",
+        "C) 5 members, 2 from RBI",
+        "D) 5 members, 3 from RBI"
+      ],
+      "correct_option": "B",
+      "explanation": "The MPC has 6 members: 3 from the RBI (including the Governor as Chairman) and 3 appointed by the Central Government."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q14",
+      "topic": "General Mental Ability",
+      "sub_topic": "Coding-Decoding",
+      "difficulty": "hard",
+      "question": "In a certain code language, a word is coded by first reversing its letters and then shifting each letter one step forward in the alphabet. For example, TEAM is coded as NBFU (reverse: MAET; shift+1: NBFU). Following the same rule, how will WORLD be coded?",
+      "options": [
+        "A) DRPW",
+        "B) ESPX",
+        "C) FTQY",
+        "D) DROW"
+      ],
+      "correct_option": "B",
+      "explanation": "Reverse WORLD → DROW. Shift each letter one step forward: D→E, R→S, O→P, W→X, giving ESPX."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q20",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time & Work",
+      "difficulty": "hard",
+      "question": "A can complete a piece of work in 30 days. A works alone for 10 days, then B joins and together they finish the remaining work in 8 days. In how many days can B alone complete the entire work?",
+      "options": [
+        "A) 18 days",
+        "B) 20 days",
+        "C) 22 days",
+        "D) 25 days"
+      ],
+      "correct_option": "B",
+      "explanation": "A's 10 days of work = 10/30 = 1/3. Remaining work = 2/3, completed by A+B in 8 days. Combined rate of A+B = (2/3)/8 = 1/12 per day. A's rate = 1/30. B's rate = 1/12 − 1/30 = 1/20. B alone takes 20 days."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q21",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time, Speed & Distance",
+      "difficulty": "hard",
+      "question": "Two trains start simultaneously from stations A and B towards each other. After meeting at a point, one train takes 16 hours to reach B and the other takes 9 hours to reach A. If the speed of the first train (the one taking 16 hours after meeting) is 60 km/h, what is the speed of the other train (in km/h)?",
+      "options": [
+        "A) 90 km/h",
+        "B) 70 km/h",
+        "C) 80 km/h",
+        "D) 75 km/h"
+      ],
+      "correct_option": "C",
+      "explanation": "When two trains meet, the ratio of their speeds is the inverse square root of the ratio of their post-meeting travel times: S₁/S₂ = √(t₂/t₁) = √(9/16) = 3/4. Given S₁ = 60 km/h, we get 60/S₂ = 3/4, so S₂ = 80 km/h."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q25",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "hard",
+      "question": "A cone of height 24 cm and base radius 6 cm is cut by a plane parallel to the base at a distance of 8 cm from the vertex. What is the ratio of the volume of the smaller cone (above the cut) to the volume of the frustum (below the cut)?",
+      "options": [
+        "A) 1 : 25",
+        "B) 26 : 1",
+        "C) 1 : 26",
+        "D) 27 : 1"
+      ],
+      "correct_option": "C",
+      "explanation": "The smaller cone has height 8 cm (1/3 of the original 24 cm). Since volumes scale as the cube of the linear ratio, volume of smaller cone = (1/3)³ = 1/27 of the original cone. The frustum volume = 1 − 1/27 = 26/27 of the original. Hence the ratio of smaller cone to frustum = 1 : 26."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q28",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Number System",
+      "difficulty": "hard",
+      "question": "What is the remainder when 3^41 is divided by 5?",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 4",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "Powers of 3 modulo 5 cycle with period 4: 3¹ ≡ 3, 3² ≡ 4, 3³ ≡ 2, 3⁴ ≡ 1, then repeats. Since 41 = 4×10 + 1, we have 3^41 ≡ 3¹ ≡ 3 (mod 5)."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q29",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Probability",
+      "difficulty": "hard",
+      "question": "A bag contains 5 red balls and 7 blue balls. Two balls are drawn at random without replacement. What is the probability that both balls drawn are of the same colour?",
+      "options": [
+        "A) 25/66",
+        "B) 62/132",
+        "C) 31/132",
+        "D) 31/66"
+      ],
+      "correct_option": "D",
+      "explanation": "P(both red) = 5/12 × 4/11 = 20/132. P(both blue) = 7/12 × 6/11 = 42/132. P(same colour) = 20/132 + 42/132 = 62/132 = 31/66."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q31",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Calendar",
+      "difficulty": "hard",
+      "question": "India's first Republic Day was celebrated on 26 January 1950. On which day of the week did 26 January 1950 fall?",
+      "options": [
+        "A) Friday",
+        "B) Saturday",
+        "C) Wednesday",
+        "D) Thursday"
+      ],
+      "correct_option": "D",
+      "explanation": "Using the standard calendar computation: 1 January 1900 was a Monday. From 1 Jan 1900 to 26 Jan 1950 = 50 years + 25 days. Leap years in this span (1904–1948) = 12. Total days = 50×365 + 12 + 25 = 18,287. 18,287 mod 7 = 3. Monday + 3 = Thursday."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q37",
+      "topic": "General Knowledge",
+      "sub_topic": "Art & Culture",
+      "difficulty": "hard",
+      "question": "The 'Pattachitra' art form, known for its intricate paintings on cloth or dried palm leaf depicting mythological narratives, originates primarily from which Indian state?",
+      "options": [
+        "A) Odisha",
+        "B) Rajasthan",
+        "C) Gujarat",
+        "D) Karnataka"
+      ],
+      "correct_option": "A",
+      "explanation": "Pattachitra, meaning 'cloth picture' in Sanskrit, is a traditional cloth-based scroll painting from Odisha. It is known for its intricate details and mythological narratives, particularly related to Lord Jagannath."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q36",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Statement & Conclusion",
+      "difficulty": "hard",
+      "question": "Statement: 'Due to exceptionally heavy rainfall over the past 48 hours, the city's municipal corporation has ordered the closure of all schools for two days.'\nConclusions: I. Heavy rainfall can cause cause disruption to normal life. II. The municipal corporation has the authority to close schools. III. All schools in the state will be closed.\nWhich of the conclusion(s) logically follow(s)?",
+      "options": [
+        "A) Only conclusions I and II follow",
+        "B) All three follow",
+        "C) Only conclusion II follows",
+        "D) Only conclusion I follows"
+      ],
+      "correct_option": "A",
+      "explanation": "I follows: the closure due to rainfall implies that heavy rainfall disrupts normal life. II follows: the corporation ordered the closure, implying it has the authority to do so. III does not follow: the statement refers only to the city, not the entire state."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q39",
+      "topic": "Current Affairs",
+      "sub_topic": "Awards",
+      "difficulty": "hard",
+      "question": "The 2024 Nobel Prize in Chemistry was awarded to David Baker, Demis Hassabis, and John Jumper for their work on:",
+      "options": [
+        "A) CRISPR gene editing",
+        "B) mRNA vaccine technology",
+        "C) Lithium-ion batteries",
+        "D) Computational protein design and protein structure prediction"
+      ],
+      "correct_option": "D",
+      "explanation": "The 2024 Nobel Prize in Chemistry was awarded to David Baker for computational protein design and to Demis Hassabis and John Jumper for protein structure prediction using AI (AlphaFold)."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q40",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "hard",
+      "question": "The 'Sunderbans', the largest mangrove forest in the world and a UNESCO World Heritage Site, is located in which Indian state?",
+      "options": [
+        "A) Odisha",
+        "B) Andhra Pradesh",
+        "C) Tamil Nadu",
+        "D) West Bengal"
+      ],
+      "correct_option": "D",
+      "explanation": "The Sunderbans, located in the delta of the Ganges, Brahmaputra, and Meghna rivers, is the largest mangrove forest in the world and is primarily located in West Bangladesh and the Indian state of West Bengal."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q41",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Health & Disease",
+      "difficulty": "hard",
+      "question": "Malaria, a life-threatening parasitic disease transmitted through the bite of infected female mosquitoes, is caused by which genus of mosquito?",
+      "options": [
+        "A) Anopheles",
+        "B) Aedes aegypti",
+        "C) Culex",
+        "D) Mansonia"
+      ],
+      "correct_option": "A",
+      "explanation": "Malaria is transmitted by the female Anopheles mosquito. Aedes aegypti transmits dengue, Culex transmits Japanese encephalitis, and Mansonia transmits filariasis."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q42",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Biology",
+      "difficulty": "hard",
+      "question": "The pituitary gland is often called the 'master gland' of the human body. What is the primary reason for this designation?",
+      "options": [
+        "A) It produces the greatest number of different hormones",
+        "B) It secretes hormones that control the functions of other endocrine glands",
+        "C) It is located at the base of the brain",
+        "D) It is the largest endocrine gland in the body"
+      ],
+      "correct_option": "B",
+      "explanation": "The pituitary gland is called the master gland because it secretes tropic hormones (such as TSH, ACTH, FSH, LH, GH) that regulate the activity of other endocrine glands."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q43",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Physics",
+      "difficulty": "hard",
+      "question": "The phenomenon of 'total internal reflection', where light is completely reflected back into a denser medium when it strikes the boundary at an angle greater than the critical angle, is the underlying principle of which of the following?",
+      "options": [
+        "A) Prism",
+        "B) Optical fiber",
+        "C) Convex lens",
+        "D) Plane mirror"
+      ],
+      "correct_option": "B",
+      "explanation": "Optical fibers use total internal reflection to transmit light signals over long distances with minimal loss. Prisms use refraction, mirrors use regular reflection, and lenses use refraction."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q44",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Environmental Science",
+      "difficulty": "hard",
+      "question": "The 'Montreal Protocol' signed in 1987, which has been universally ratified by all 198 UN member states, is aimed at phasing out substances responsible for the depletion of which atmospheric layer?",
+      "options": [
+        "A) Stratospheric ozone",
+        "B) Troposphere",
+        "C) Mesosphere",
+        "D) Thermosphere"
+      ],
+      "correct_option": "A",
+      "explanation": "The Montreal Protocol phases out the production of ozone-depleting substances (such as CFCs) that cause depletion of the stratospheric ozone layer. It is the first universally ratified treaty in UN history."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q45",
+      "topic": "Current Affairs",
+      "sub_topic": "Science & Technology",
+      "difficulty": "hard",
+      "question": "The XPoSat (X-ray Polarimeter Satellite), launched by ISRO on 1 January 2024, is India's first satellite designed to study which of the following?",
+      "options": [
+        "A) Solar wind particle composition",
+        "B) Ocean surface salinity levels",
+        "C) Gravitational waves from black hole mergers",
+        "D) Polarization of X-rays from celestial sources"
+      ],
+      "correct_option": "D",
+      "explanation": "XPoSat carries two payloads — POLIX and XSPECT — to study the polarization of X-rays from bright astronomical sources such as pulsars, black hole binaries and active galactic nuclei."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q46",
+      "topic": "General Knowledge",
+      "sub_topic": "Polity",
+      "difficulty": "hard",
+      "question": "The National Commission for Scheduled Castes, a constitutional body that safeguards the interests of Scheduled Castes, is established under which Article of the Indian Constitution?",
+      "options": [
+        "A) Article 340",
+        "B) Article 339",
+        "C) Article 338",
+        "D) Article 341"
+      ],
+      "correct_option": "C",
+      "explanation": "Article 338 of the Constitution provides for the National Commission for Scheduled Castes."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q47",
+      "topic": "Numerical Ability",
+      "sub_topic": "Simple & Compound Interest",
+      "difficulty": "hard",
+      "question": "A sum of money doubles itself in 8 years at simple interest. In how many years will the same sum triple itself at the same rate of simple interest?",
+      "options": [
+        "A) 12 years",
+        "B) 18 years",
+        "C) 14 years",
+        "D) 16 years"
+      ],
+      "correct_option": "D",
+      "explanation": "If the sum doubles in 8 years at SI, then SI = P in 8 years, so rate = P/(P×8) × 100 = 12.5% per annum. To triple, SI = 2P. Time = 2P/(12.5% of P) = 2/0.125 = 16 years."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q48",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Geometry",
+      "difficulty": "hard",
+      "question": "A regular hexagon is inscribed in a circle of radius 6 cm. What is the area of the hexagon (in cm²)?",
+      "options": [
+        "A) 108√3 cm²",
+        "B) 72√3 cm²",
+        "C) 54√3 cm²",
+        "D) 36√3 cm²"
+      ],
+      "correct_option": "C",
+      "explanation": "A regular hexagon inscribed in a circle has side length equal to the radius (6 cm). It can be divided into 6 equilateral triangles of side 6 cm. Area of one equilateral triangle = (√3/4) × 6² = 9√3 cm². Total area = 6 × 9√3 = 54√3 cm²."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q49",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Environment",
+      "difficulty": "hard",
+      "question": "The 'Ramsar Convention', an international treaty for the conservation and sustainable use of a specific type of ecosystem, was signed in 1971 in Ramsar, Iran. Which type of ecosystem does this treaty primarily concern?",
+      "options": [
+        "A) Forests",
+        "B) Coral reefs",
+        "C) Wetlands",
+        "D) Mangroves"
+      ],
+      "correct_option": "C",
+      "explanation": "The Ramsar Convention (formally the Convention on Wetlands of International Importance) is an intergovernmental treaty focused on the conservation and wise use of wetlands and their resources."
+    },
+    {
+      "id": "CUET_GAT_2026_P19_L9B_Q50",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Environmental Science",
+      "difficulty": "hard",
+      "question": "The 'Western Ghats', a UNESCO World Heritage Site and one of the eight 'hottest hotspots' of biological diversity in the world, runs parallel to which coast of India?",
+      "options": [
+        "A) Eastern coast",
+        "B) Northern coast",
+        "C) Southern coast",
+        "D) Western coast"
+      ],
+      "correct_option": "D",
+      "explanation": "The Western Ghats runs parallel to the western coast of India, extending through the states of Gujarat, Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu."
+    }
+  ]
+}

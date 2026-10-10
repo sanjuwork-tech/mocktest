@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P17_L7B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 17,
+  "difficulty_level": "7B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Hicksian Decomposition",
+      "difficulty": "medium",
+      "question": "In Hicksian price effect decomposition for a normal good, when the price of good X falls, the substitution effect:",
+      "options": [
+        "A) Shifts the consumer permanently to a lower level of satisfaction",
+        "B) Induces the consumer to substitute cheaper good X for relatively expensive good Y along the same original indifference curve",
+        "C) Exactly offsets the positive real income effect",
+        "D) Reduces total quantity demanded of good X to zero"
+      ],
+      "correct_option": "B",
+      "explanation": "Hicksian substitution effect isolates the pure relative price change by adjusting money income (compensating variation) so that the consumer remains on the original indifference curve, increasing consumption of the relatively cheaper good."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Engel Curve for Necessities",
+      "difficulty": "medium",
+      "question": "For a necessary good whose income elasticity of demand lies between zero and one (0 < e_y < 1), what is the shape of the Engel curve relating income to quantity consumed?",
+      "options": [
+        "A) Downward sloping towards the right",
+        "B) Upward sloping and concave towards the income axis (slope increases as income rises)",
+        "C) Perfectly horizontal line parallel to the quantity axis",
+        "D) A vertical straight line intersecting the income axis"
+      ],
+      "correct_option": "B",
+      "explanation": "For necessities, as income increases, expenditure on the good rises but at a slower rate than income, making the Engel curve upward sloping and bending toward the income axis."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Ridge Lines in Production",
+      "difficulty": "medium",
+      "question": "In production theory with two variable inputs, what do the 'Ridge Lines' on an isoquant map demarcate?",
+      "options": [
+        "A) Points where total fixed cost is completely amortized",
+        "B) The boundary of the economically rational production region within which marginal products of both inputs are positive",
+        "C) Output levels where returns to scale become negative",
+        "D) The locus of maximum short-run variable profits"
+      ],
+      "correct_option": "B",
+      "explanation": "Ridge lines delineate the economic region of production where isoquants have negative slopes (MP_L > 0 and MP_K > 0). Beyond the ridge lines, one of the marginal products turns negative."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q04",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Expansion Path",
+      "difficulty": "medium",
+      "question": "The long-run 'Expansion Path' of a manufacturing firm represents:",
+      "options": [
+        "A) The trajectory of market share growth relative to competing oligopolists",
+        "B) The locus of cost-minimizing points of tangency between isocost lines and isoquants as the scale of output expands",
+        "C) The progression of variable costs when fixed factors are held constant",
+        "D) The line connecting all shutdown price points in the short run"
+      ],
+      "correct_option": "B",
+      "explanation": "The expansion path (scale line) is the curve along which output expands when input factor prices remain constant, connecting all points where MRTS equals the input price ratio."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q05",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Modern Cost Theory",
+      "difficulty": "hard",
+      "question": "Empirical studies in modern cost theory suggest that the Long-Run Average Cost (LAC) curve of large manufacturing enterprises often assumes an 'L-shape' rather than a traditional 'U-shape' because:",
+      "options": [
+        "A) Fixed costs increase exponentially with every additional unit produced",
+        "B) Production economies of scale are realized rapidly, after which managerial learning prevents diseconomies of scale from setting in over relevant output ranges",
+        "C) Raw material supply is perfectly inelastic in the global market",
+        "D) Corporate profit taxes decline monotonically with firm size"
+      ],
+      "correct_option": "B",
+      "explanation": "In modern manufacturing, engineering economies of scale cause LAC to fall rapidly to minimum efficient scale, while decentralization and managerial techniques prevent steep cost increases, yielding an L-shaped LAC."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q06",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Natural Monopoly",
+      "difficulty": "medium",
+      "question": "A 'Natural Monopoly' arises in industries such as municipal water distribution and electrical grid transmission primarily because:",
+      "options": [
+        "A) The government grants exclusive trade patents to foreign investors",
+        "B) Substantial economies of scale result in continuously declining average costs, making a single large firm more cost-efficient than multiple competing producers",
+        "C) Marginal cost of production is infinitely high at all output levels",
+        "D) Demand for the service is perfectly price elastic"
+      ],
+      "correct_option": "B",
+      "explanation": "Natural monopolies feature massive fixed network infrastructure costs and declining average total costs across the entire range of market demand (subadditivity of costs), meaning one supplier minimizes industry production costs."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q07",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "First Degree Price Discrimination",
+      "difficulty": "hard",
+      "question": "Under first-degree (perfect) price discrimination, a monopolist charges each consumer the maximum price they are willing to pay for each unit. As a result:",
+      "options": [
+        "A) Total deadweight loss to society is maximized",
+        "B) Entire consumer surplus is converted into monopoly profit, and output produced equals the competitive equilibrium level",
+        "C) The firm produces zero output because marginal revenue becomes negative",
+        "D) Consumer surplus expands to twice its competitive level"
+      ],
+      "correct_option": "B",
+      "explanation": "In first-degree price discrimination, the demand curve becomes the MR curve. The firm produces where P = MC (allocatively efficient quantity, zero deadweight loss), but extracts 100% of consumer surplus."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q08",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Game Theory in Oligopoly",
+      "difficulty": "medium",
+      "question": "In the game-theoretic Prisoner's Dilemma model applied to a duopoly, when both firms independently pursue their self-interested dominant strategies:",
+      "options": [
+        "A) Both firms achieve the maximum joint collusive monopoly profits",
+        "B) Both firms defect (cheat on high price), ending up at a Nash equilibrium where joint profits are lower than under cooperative collusion",
+        "C) The firm with higher fixed cost captures 100 percent market share",
+        "D) Market price rises above the monopoly ceiling"
+      ],
+      "correct_option": "B",
+      "explanation": "In a Prisoner's Dilemma, defection is each player's dominant strategy. Both price low or overproduce, landing at a non-cooperative Nash equilibrium with lower profits than if they had successfully colluded."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q09",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Public Goods Characteristics",
+      "difficulty": "easy",
+      "question": "Public goods such as national defense and street lighting lead to market failure primarily because they possess the twin characteristics of:",
+      "options": [
+        "A) Excludability via market pricing and rivalry among users",
+        "B) High private marginal cost and zero social benefit",
+        "C) Non-rivalry in consumption and non-excludability in access",
+        "D) Monopolistic pricing power and asymmetric information"
+      ],
+      "correct_option": "C",
+      "explanation": "Public goods are non-rival (one person's use does not diminish availability for others) and non-excludable (non-payers cannot be prevented from enjoying them), creating the free-rider problem."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q10",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Coase Theorem",
+      "difficulty": "hard",
+      "question": "The Coase Theorem in environmental economics demonstrates that if property rights are well-defined and transaction costs are negligible:",
+      "options": [
+        "A) Pigovian pollution taxes must be set equal to total fixed production costs",
+        "B) The government must inevitably nationalize the polluting manufacturing plant",
+        "C) Private bargaining between affected parties will resolve externalities and achieve an allocatively efficient outcome regardless of initial property rights assignment",
+        "D) The legal court system must determine commodity market prices"
+      ],
+      "correct_option": "C",
+      "explanation": "Ronald Coase proved that with zero transaction costs and clearly defined property rights, self-interested private negotiations will lead to an optimal allocation of resources irrespective of who initially holds the property rights."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q11",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Minimum Wage Effects",
+      "difficulty": "easy",
+      "question": "When a binding minimum wage (price floor) is legislated for unskilled labour above the competitive equilibrium wage rate, economic theory predicts:",
+      "options": [
+        "A) An immediate fall in the supply of labour",
+        "B) A severe shortage of workers across unskilled job categories",
+        "C) A surplus of labour (unemployment) as quantity of labour supplied exceeds quantity of labour demanded",
+        "D) Zero change in total employment"
+      ],
+      "correct_option": "C",
+      "explanation": "Setting a minimum wage above equilibrium increases the quantity of labour willing to work while reducing firms' labour demand, creating a labour surplus (unemployment) among unskilled workers."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Selling Costs in Monopolistic Competition",
+      "difficulty": "easy",
+      "question": "Under monopolistic competition, expenditures incurred on brand advertising, packaging, and sales promotion are classified as:",
+      "options": [
+        "A) Sunk capital costs",
+        "B) Production costs",
+        "C) Selling costs",
+        "D) Primary factor costs"
+      ],
+      "correct_option": "C",
+      "explanation": "Selling costs are incurred to alter consumer tastes and shift the demand curve for the firm's differentiated product rightward, distinct from production costs which are incurred to physically create the good."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Elasticity along Linear Demand",
+      "difficulty": "medium",
+      "question": "As one moves downward along a linear downward-sloping demand curve from the vertical intercept towards the horizontal intercept, the price elasticity of demand:",
+      "options": [
+        "A) Increases continuously from zero to infinity",
+        "B) Remains constant and equal to 1 at all points",
+        "C) Falls continuously from infinity at the vertical intercept to zero at the horizontal intercept",
+        "D) First decreases to zero and then rises to infinity"
+      ],
+      "correct_option": "C",
+      "explanation": "Using point elasticity (lower segment / upper segment), elasticity is infinity at the vertical intercept, >1 above the midpoint, 1 at the midpoint, <1 below the midpoint, and 0 at the horizontal intercept."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Cournot Duopoly Model",
+      "difficulty": "hard",
+      "question": "In the classical Cournot duopoly model with identical linear costs, each firm determines its profit-maximizing output under the behavioral assumption that:",
+      "options": [
+        "A) The two competing firms will form a formal cartel to charge monopoly prices",
+        "B) Its rival will match any change in product price immediately",
+        "C) Its rival firm will keep its current output volume constant",
+        "D) The market price will remain fixed by government decree"
+      ],
+      "correct_option": "C",
+      "explanation": "Cournot's core assumption is that each duopolist chooses its own output volume assuming that the competitor's output remains unchanged, leading to a stable equilibrium via reaction functions."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopoly Output Choice",
+      "difficulty": "medium",
+      "question": "Why will a profit-maximizing monopolist with positive marginal costs never choose to operate on the inelastic portion (e_p < 1) of its demand curve?",
+      "options": [
+        "A) Because government price caps are strictly enforced on inelastic goods",
+        "B) Because fixed costs become negative on the inelastic segment",
+        "C) Because on the inelastic portion, marginal revenue is negative (MR < 0), meaning cutting output raises total revenue and lowers total cost",
+        "D) Because average revenue is less than zero"
+      ],
+      "correct_option": "C",
+      "explanation": "MR = P * (1 - 1/e_p). When e_p < 1, MR is negative. Since MC is positive, the profit-maximizing condition MR = MC can only be satisfied on the elastic portion (e_p > 1) where MR > 0."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Elasticity and Total Expenditure",
+      "difficulty": "easy",
+      "question": "When a fall in the price of a good leaves the total monetary expenditure of consumers on that good completely unchanged, the price elasticity of demand is:",
+      "options": [
+        "A) Perfectly inelastic (e_p = 0)",
+        "B) Perfectly elastic (e_p = infinity)",
+        "C) Unitary (e_p = 1)",
+        "D) Greater than 1"
+      ],
+      "correct_option": "C",
+      "explanation": "Under the total outlay method, when total expenditure remains constant whether price rises or falls, the percentage change in quantity demanded exactly offsets the percentage change in price (unitary elasticity, e_p = 1)."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Net National Disposable Income",
+      "difficulty": "medium",
+      "question": "Net National Disposable Income (NNDI) represents the maximum goods and services available to a nation for consumption and saving. It is calculated as:",
+      "options": [
+        "A) National Income minus Corporation Tax plus Subsidies",
+        "B) GDP at Factor Cost minus Depreciation",
+        "C) NNP at Market Price + Net Current Transfers from the Rest of the World",
+        "D) Personal Disposable Income plus Corporate Retained Earnings"
+      ],
+      "correct_option": "C",
+      "explanation": "NNDI = NNP_MP + Net current transfers from abroad. It measures the total disposable income available to the entire nation for domestic consumption and net saving."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Windfall Gains Exclusion",
+      "difficulty": "easy",
+      "question": "Why are capital gains arising from rising real estate prices and windfall gains from state lotteries excluded from national income estimation?",
+      "options": [
+        "A) Because real estate transactions occur exclusively in foreign currencies",
+        "B) Because lottery tickets are exempt from municipal taxation",
+        "C) Because they do not represent any current productive flow of goods or factor services in the economy",
+        "D) Because statistical agencies only record manufacturing output"
+      ],
+      "correct_option": "C",
+      "explanation": "Capital gains on existing assets and lottery winnings are pure wealth transfers or asset value revaluations without any corresponding addition to the current flow of goods and services."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Green National Accounting",
+      "difficulty": "hard",
+      "question": "In green national accounting, 'defensive expenditures' incurred by households and governments to clean up toxic oil spills or treat pollution-induced illnesses are:",
+      "options": [
+        "A) Excluded completely from all primary national accounts",
+        "B) Automatically deducted from gross domestic capital formation",
+        "C) Included in conventional GDP as output, despite representing defensive remedies for environmental degradation rather than true additions to social welfare",
+        "D) Recorded as unilateral remittances in the capital account"
+      ],
+      "correct_option": "C",
+      "explanation": "Defensive expenditures are remedial spending to counteract environmental degradation. In conventional GDP, they paradoxically raise GDP as productive spending, which green accounting corrects for."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Terms of Trade Effect",
+      "difficulty": "medium",
+      "question": "An open economy experiences an improvement in its external 'Terms of Trade' when export prices rise relative to import prices. How does this affect Real Gross Domestic Income (RGDI) relative to Real GDP?",
+      "options": [
+        "A) Real GDP increases while Real GDI remains strictly constant",
+        "B) Real GDI collapses below nominal domestic consumption",
+        "C) Real GDI rises faster than Real GDP because a given volume of domestic exports can now purchase a larger volume of foreign imports",
+        "D) Both Real GDP and Real GDI become negative"
+      ],
+      "correct_option": "C",
+      "explanation": "The terms of trade effect reflects the purchasing power of exports. Favourable terms of trade allow an economy to buy more imports for the same export output, raising Real Gross Domestic Income above Real GDP."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Standing Deposit Facility",
+      "difficulty": "hard",
+      "question": "The Standing Deposit Facility (SDF) introduced by the Reserve Bank of India in 2022 strengthens liquidity management primarily because:",
+      "options": [
+        "A) It replaces all physical currency with digital central bank tokens",
+        "B) It fixes commercial lending rates permanently at 4 percent",
+        "C) It allows the RBI to absorb surplus liquidity from commercial banks without providing government collateral securities in return",
+        "D) It mandates compulsory zero cash reserve ratios for private banks"
+      ],
+      "correct_option": "C",
+      "explanation": "Unlike the reverse repo mechanism which requires the RBI to pledge government securities as collateral, the SDF enables the RBI to absorb unlimited overnight liquidity without encumbering sovereign securities."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Multiplier Derivation",
+      "difficulty": "medium",
+      "question": "If the currency-deposit ratio is denoted by 'c' and the reserve-deposit ratio by 'r', the theoretical money multiplier (m) relating broad money (M) to the monetary base (H) is expressed as:",
+      "options": [
+        "A) (r * c) / (1 + c)",
+        "B) (1 - c) / (1 - r)",
+        "C) c / (1 + r)",
+        "D) (1 + c) / (r + c)"
+      ],
+      "correct_option": "D",
+      "explanation": "Money stock M = C + D = c*D + D = (1 + c)*D. High-powered money H = C + R = c*D + r*D = (c + r)*D. Therefore, money multiplier m = M / H = (1 + c) / (r + c)."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Digital Currency",
+      "difficulty": "medium",
+      "question": "The Central Bank Digital Currency (CBDC / e-Rupee) launched by the Reserve Bank of India is legally categorized as:",
+      "options": [
+        "A) A sovereign gold bond yielding annual compound interest",
+        "B) An unregulated decentralised cryptocurrency traded on private foreign exchanges",
+        "C) A commercial bank fixed deposit receipt transferable via cheque",
+        "D) Sovereign digital legal tender representing a direct liability on the central bank's balance sheet"
+      ],
+      "correct_option": "D",
+      "explanation": "The e-Rupee (CBDC) is the digital form of India's fiat currency issued by the RBI. It is legal tender, fungible one-to-one with paper currency, and represents a direct sovereign liability of the central bank."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Liquidity Trap",
+      "difficulty": "hard",
+      "question": "In a Keynesian 'Liquidity Trap' scenario where nominal interest rates have fallen to an absolute rock-bottom floor:",
+      "options": [
+        "A) The velocity of circulation of money reaches historic highs",
+        "B) Commercial banks completely refuse to accept household savings deposits",
+        "C) Investment expenditure rises infinitely in response to open market bond purchases",
+        "D) The speculative demand for money becomes infinitely interest-elastic (horizontal LM curve), rendering expansionary monetary policy completely ineffective in lowering interest rates"
+      ],
+      "correct_option": "D",
+      "explanation": "In a liquidity trap, everyone anticipates bond prices to fall and interest rates to rise. People hoard all incremental money balances as cash, making speculative demand for money horizontal; further monetary expansion cannot lower interest rates."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Permanent Income Hypothesis",
+      "difficulty": "hard",
+      "question": "Milton Friedman's Permanent Income Hypothesis posits that consumer expenditure is determined not by current transitory income, but primarily by:",
+      "options": [
+        "A) Annual dividend disbursements from private equity portfolios",
+        "B) Past peak consumption standards maintained by social peer emulation",
+        "C) Current liquid cash balances held in commercial checking accounts",
+        "D) Permanent income, reflecting the consumer's expected long-term average lifetime wealth and human capital earnings"
+      ],
+      "correct_option": "D",
+      "explanation": "Friedman's theory argues that consumption is a function of permanent income (the present value of expected future earnings and wealth) rather than temporary fluctuations in current measured income."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Automatic Fiscal Stabilizers",
+      "difficulty": "medium",
+      "question": "Progressive personal income taxes and unemployment insurance benefits act as 'automatic fiscal stabilizers' because:",
+      "options": [
+        "A) They mandate an annually balanced government budget",
+        "B) They eliminate the necessity of preparing an annual government budget",
+        "C) They prevent market interest rates from ever changing",
+        "D) They automatically dampen aggregate demand during economic booms and support purchasing power during recessions without requiring deliberate legislative delays"
+      ],
+      "correct_option": "D",
+      "explanation": "During booms, higher incomes push individuals into higher tax brackets and reduce unemployment payouts, cushioning overheating. In recessions, tax collections drop and benefits rise, cushioning aggregate demand automatically."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Dynamic Multiplier Process",
+      "difficulty": "medium",
+      "question": "In the period-by-period dynamic working of the investment multiplier, an autonomous injection of investment of Rs 100 crore in an economy with MPC = 0.5 generates how much additional national income in the first two rounds combined?",
+      "options": [
+        "A) Rs 75 crore",
+        "B) Rs 200 crore",
+        "C) Rs 100 crore",
+        "D) Rs 150 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "Round 1 income increase = Delta I = Rs 100 crore. Round 2 income increase = MPC * Delta Y_1 = 0.5 * 100 = Rs 50 crore. Combined income generated in the first two rounds = 100 + 50 = Rs 150 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deflationary Gap Measurement",
+      "difficulty": "easy",
+      "question": "Graphically, the deflationary gap is measured as the vertical distance between:",
+      "options": [
+        "A) The investment multiplier curve and the horizontal axis",
+        "B) The consumption curve and the saving curve at the origin",
+        "C) Total fixed cost and total variable cost at zero output",
+        "D) The Aggregate Demand curve and the 45-degree Aggregate Supply line at the full employment level of income"
+      ],
+      "correct_option": "D",
+      "explanation": "The deflationary gap is the vertical shortfall of the Aggregate Demand curve below the 45-degree line (Aggregate Supply = Aggregate Output) evaluated precisely at full employment output."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Domar Debt Sustainability Condition",
+      "difficulty": "hard",
+      "question": "According to the Domar condition for sovereign public debt sustainability, a government's debt-to-GDP ratio will remain stable or decline over time without requiring severe fiscal austerity if:",
+      "options": [
+        "A) The government borrows exclusively from domestic commercial banks",
+        "B) Total tax revenue exceeds national defense expenditure by 50 percent",
+        "C) The currency is backed 100 percent by physical gold reserves",
+        "D) The nominal growth rate of GDP (g) exceeds the average nominal interest rate on public debt (r)"
+      ],
+      "correct_option": "D",
+      "explanation": "Evsey Domar established that when the economic growth rate exceeds the interest rate (g > r), the growth of the tax base outpaces interest compounding, allowing the debt-to-GDP ratio to stabilize or decline."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Twin Deficits Hypothesis",
+      "difficulty": "hard",
+      "question": "The 'Twin Deficits Hypothesis' in open-economy macroeconomics demonstrates an accounting relationship whereby a widening fiscal deficit often leads to a widening:",
+      "options": [
+        "A) Surplus in international capital investments",
+        "B) Primary agricultural grain deficit in public buffer stocks",
+        "C) Cash reserve deficit in private commercial banks",
+        "D) Current Account Deficit in the Balance of Payments"
+      ],
+      "correct_option": "D",
+      "explanation": "From national accounts: (S - I) + (T - G) = (X - M). If private saving-investment (S - I) is stable, an increase in the fiscal deficit (T - G < 0) directly widens the current account trade deficit (X - M < 0)."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Seigniorage",
+      "difficulty": "medium",
+      "question": "The economic revenue or purchasing power accrued by the government through its sovereign monopoly right to issue fiat currency at a cost negligible compared to its face value is termed:",
+      "options": [
+        "A) Fiscal dividend",
+        "B) Pigovian bounty",
+        "C) Sovereign transfer annuity",
+        "D) Seigniorage"
+      ],
+      "correct_option": "D",
+      "explanation": "Seigniorage is the profit made by the government by issuing currency, calculated as the difference between the face value of money and the physical cost of producing and printing it."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Marshall-Lerner Condition",
+      "difficulty": "hard",
+      "question": "According to the Marshall-Lerner condition, a currency devaluation or depreciation will successfully improve a country's trade balance if and only if:",
+      "options": [
+        "A) The domestic inflation rate is higher than foreign inflation",
+        "B) Both export and import price elasticities are equal to zero",
+        "C) The terms of trade improve by more than 50 percent",
+        "D) The sum of the price elasticities of demand for exports and imports is strictly greater than 1 (|e_x + e_m| > 1)"
+      ],
+      "correct_option": "D",
+      "explanation": "The Marshall-Lerner condition states that currency depreciation improves the balance of trade only if the sum of export and import price elasticities exceeds unity (|e_x + e_m| > 1), ensuring volume effects dominate price effects."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Currency Board Arrangement",
+      "difficulty": "medium",
+      "question": "A monetary regime where the domestic currency is rigidly pegged to an anchor foreign currency, backed 100 percent by foreign reserves, and where the central bank loses all discretionary monetary policy autonomy is known as a:",
+      "options": [
+        "A) Independent free float",
+        "B) Managed floating corridor",
+        "C) Crawling peg band",
+        "D) Currency Board system"
+      ],
+      "correct_option": "D",
+      "explanation": "Under a Currency Board arrangement, the local currency is fully backed by foreign reserve assets at a legally fixed exchange rate, eliminating central bank discretion to independently print money or adjust interest rates."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Commercialization of Agriculture Famines",
+      "difficulty": "medium",
+      "question": "How did the forced commercialization of agriculture under British colonial rule aggravate recurring rural famines in late 19th-century India?",
+      "options": [
+        "A) Peasants hoarded gold coins instead of sowing crops",
+        "B) British administrators distributed free imported grain that bankrupted local mills",
+        "C) Farm labourers migrated en masse to work in foreign software conglomerates",
+        "D) Cultivators were compelled to substitute commercial export cash crops (like indigo, cotton, and opium) for traditional subsistence foodgrains, depleting local village food security reserves"
+      ],
+      "correct_option": "D",
+      "explanation": "Forced cultivation of non-food cash crops for export undermined rural foodgrain production. When droughts struck, local food reserves were absent and peasants lacked cash to purchase expensive market grain."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "De-Industrialization of Urban Crafts",
+      "difficulty": "easy",
+      "question": "Which historic Indian manufacturing centres, celebrated worldwide for their exquisite muslin and silk textiles, suffered catastrophic decay during colonial de-industrialization?",
+      "options": [
+        "A) Shimla and Dehradun",
+        "B) Chandigarh and Bengaluru",
+        "C) Jamshedpur and Rourkela",
+        "D) Dhaka and Murshidabad"
+      ],
+      "correct_option": "D",
+      "explanation": "Dhaka (famed for Daccai Muslin) and Murshidabad (renowned for silk) witnessed the ruin of their weaving guilds due to cheap machine-made textiles imported duty-free from Manchester."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Kerala Land Reforms Act 1969",
+      "difficulty": "medium",
+      "question": "The landmark Land Reforms (Amendment) Act passed in Kerala in 1969 is historically renowned for successfully achieving:",
+      "options": [
+        "A) The imposition of export taxes on spices",
+        "B) The privatization of all forest lands to tea plantation corporations",
+        "C) The eviction of all agricultural tenants in favor of mechanized corporate farming",
+        "D) The complete abolition of landlordism, granting absolute ownership rights to cultivating tenants and hutment dwellers (Kudikidappukars)"
+      ],
+      "correct_option": "D",
+      "explanation": "The Kerala Land Reforms (Amendment) Act, 1969 legally extinguished the feudal landlord system, conferring permanent ownership rights of agricultural land to the actual tillers."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Karve Committee Capital-Saving Logic",
+      "difficulty": "hard",
+      "question": "What core economic rationale did the Karve Committee (1955) advance for shielding small-scale and cottage industries with protective reservations and subsidies?",
+      "options": [
+        "A) Small-scale production is labour-intensive and capital-saving, generating dispersed employment across rural areas while economizing on scarce national capital",
+        "B) Small industries generate higher export revenue in foreign exchange than heavy steel plants",
+        "C) Cottage crafts do not consume any electrical energy or road transport",
+        "D) Small firms are exempt from paying wages to their workers"
+      ],
+      "correct_option": "A",
+      "explanation": "The Karve Committee emphasized that in a labour-surplus, capital-scarce economy, small enterprises generate substantial employment per unit of capital invested while promoting equitable geographic dispersion of income."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Export Pessimism Critique",
+      "difficulty": "hard",
+      "question": "India's post-independence planning framework adopted an inward-looking import substitution strategy partly due to 'export pessimism', which was grounded in the belief that:",
+      "options": [
+        "A) Developing countries' primary commodity exports faced inelastic world demand and declining terms of trade in Western markets (Prebisch-Singer thesis)",
+        "B) Advanced nations would unilaterally dismantle all their manufacturing industries",
+        "C) Shipping freight costs across the Arabian Sea were infinitely large",
+        "D) India had zero domestic capacity to produce textiles"
+      ],
+      "correct_option": "A",
+      "explanation": "Planners believed (following the Prebisch-Singer thesis) that developing countries faced stagnant demand and adverse terms of trade for primary exports, leading them to prioritize domestic production over trade integration."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "1991 Crisis Debt Service Ratio",
+      "difficulty": "medium",
+      "question": "On the eve of the 1991 economic crisis, India's debt-service ratio (percentage of export earnings consumed by debt repayments) had dangerously surged to approximately:",
+      "options": [
+        "A) 35 percent",
+        "B) 5 percent",
+        "C) 100 percent",
+        "D) Less than 2 percent"
+      ],
+      "correct_option": "A",
+      "explanation": "By 1990-91, India's debt-service obligations had climbed to around 35.3% of current export receipts, creating acute vulnerability to capital flight and sudden external payment default."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Peak Tariff Reductions",
+      "difficulty": "medium",
+      "question": "As part of trade policy reforms initiated in 1991 pursuant to Chelliah Committee recommendations, India's peak customs import tariff was systematically reduced from over 300 percent down to:",
+      "options": [
+        "A) 150 percent in 1991-92, and subsequently to around 10-15 percent for non-agricultural goods",
+        "B) Exactly zero within the first six months",
+        "C) 250 percent with permanent bans on all imports",
+        "D) Subsidized negative tariff rates"
+      ],
+      "correct_option": "A",
+      "explanation": "Pre-reform peak tariffs exceeded 300%. The 1991 budget reduced peak custom duties to 150%, followed by progressive reductions in subsequent budgets to harmonize tariffs with East Asian levels (around 10%)."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "TRIPS Agreement Patent Duration",
+      "difficulty": "easy",
+      "question": "Under the World Trade Organization's Trade-Related Aspects of Intellectual Property Rights (TRIPS) agreement, India amended its Patent Act to provide product patent protection for a uniform duration of:",
+      "options": [
+        "A) 20 years",
+        "B) 5 years",
+        "C) 50 years",
+        "D) 10 years"
+      ],
+      "correct_option": "A",
+      "explanation": "To comply with WTO-TRIPS mandates, India transitioned from process patents to product patents in pharmaceuticals and agrochemicals, granting a standard patent term of 20 years from filing."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Maharatna Eligibility Criteria",
+      "difficulty": "hard",
+      "question": "To be eligible for the grant of prestigious 'Maharatna' status in India, a Central Public Sector Enterprise must already hold Navratna status, be listed on the Indian stock exchange, and have recorded:",
+      "options": [
+        "A) An average annual net profit after tax of over Rs 5,000 crore, average annual turnover of Rs 25,000 crore, and average net worth of Rs 15,000 crore over the last three consecutive years",
+        "B) Zero debt and 100 percent state ownership",
+        "C) At least 80 percent of its revenue from overseas agricultural exports",
+        "D) Compulsory merger with foreign private corporate conglomerates"
+      ],
+      "correct_option": "A",
+      "explanation": "The Maharatna criteria require: Navratna status, listing on domestic exchanges with minimum prescribed public shareholding, and over the previous 3 years: annual net profit > Rs 5,000 cr, annual turnover > Rs 25,000 cr, and net worth > Rs 15,000 cr."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Earmarked Education Cess",
+      "difficulty": "easy",
+      "question": "The Government of India levies an earmarked 'Education Cess' as a surcharge on central income taxes primarily to:",
+      "options": [
+        "A) Guarantee dedicated non-lapsable budgetary funding for universal primary and secondary public schooling (Samagra Shiksha)",
+        "B) Fund private international study tours for commercial bankers",
+        "C) Subsidize foreign airline tickets for management students",
+        "D) Finance military defense infrastructure"
+      ],
+      "correct_option": "A",
+      "explanation": "The education cess is a earmarked tax surcharge dedicated specifically to funding elementary and secondary education programmes (like Sarva Shiksha Abhiyan / Samagra Shiksha) across India."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Kudumbashree Model",
+      "difficulty": "easy",
+      "question": "The renowned 'Kudumbashree' project in Kerala represents a successful institutional model of poverty eradication through:",
+      "options": [
+        "A) Community-based women self-help neighbourhood groups linked to microenterprises and local governance (Panchayats)",
+        "B) Direct cash transfers financed by international sovereign bond sales",
+        "C) Compulsory employment of urban youth in heavy manufacturing plants",
+        "D) Land nationalization and collective state dairy farming"
+      ],
+      "correct_option": "A",
+      "explanation": "Launched in 1998 in Kerala, Kudumbashree organizes poor women into neighbourhood groups (NHGs) federated at ward and panchayat levels to mobilize savings, access bank credit, and manage microenterprises."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "APMC Acts Monopoly",
+      "difficulty": "medium",
+      "question": "A major economic criticism of the state Agricultural Produce Market Committee (APMC) Acts in India has been that they:",
+      "options": [
+        "A) Created monopolistic local cartels of licensed commission agents (arhtiyas) and levied multiple mandi fees, restricting direct farmer-buyer transactions",
+        "B) Compelled farmers to sell produce exclusively to foreign multinational retailers",
+        "C) Banned all private agricultural transport trucks from operating on highways",
+        "D) Completely eliminated the Minimum Support Price system"
+      ],
+      "correct_option": "A",
+      "explanation": "APMC regulations required all primary farm sales to occur inside designated yards through licensed middlemen, leading to cartelization, high intermediation costs, and reduced price realization for farmers."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "National Action Plan on Climate Change",
+      "difficulty": "medium",
+      "question": "India's National Action Plan on Climate Change (NAPCC) launched in 2008 encompasses eight core National Missions. Which of the following is NOT one of these eight missions?",
+      "options": [
+        "A) National Mission on Deep Sea Hydrocarbon Drilling",
+        "B) National Solar Mission",
+        "C) National Mission for Enhanced Energy Efficiency",
+        "D) National Mission for Sustaining the Himalayan Ecosystem"
+      ],
+      "correct_option": "A",
+      "explanation": "The 8 NAPCC missions are: Solar, Enhanced Energy Efficiency, Sustainable Habitat, Water, Sustaining Himalayan Ecosystem, Green India, Sustainable Agriculture, and Strategic Knowledge for Climate Change. Deep-sea drilling is not one of them."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Rural Distress Diversification",
+      "difficulty": "hard",
+      "question": "In rural development economics, 'distress-driven diversification' into non-farm wage labour differs from 'growth-led diversification' because:",
+      "options": [
+        "A) It is forced by agricultural stagnation, land fragmentation, and drought, pushing marginal cultivators into precarious, low-wage informal work as a survival strategy",
+        "B) It is propelled by rapid technological modernization and high dynamic profits in rural agro-processing",
+        "C) It leads to immediate migration to high-paying Silicon Valley software firms",
+        "D) It results from massive expansion of rural bank branches"
+      ],
+      "correct_option": "A",
+      "explanation": "Distress diversification is a push-factor phenomenon where lack of farm income and subsistence crises compel peasants into casual low-productivity non-farm work, unlike growth-led pull diversification."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Township and Village Enterprises",
+      "difficulty": "hard",
+      "question": "In China's economic resurgence during the 1980s, Township and Village Enterprises (TVEs) played a transformative role by:",
+      "options": [
+        "A) Utilizing rural savings and surplus farm labour to manufacture light consumer and export goods under competitive market incentives without state budget subsidies",
+        "B) Monopolizing all heavy steel and chemical production under military control",
+        "C) Banning private entrepreneurship in rural coastal provinces",
+        "D) Restricting trade exclusively to Soviet bloc nations"
+      ],
+      "correct_option": "A",
+      "explanation": "TVEs were market-driven rural enterprises owned by local townships. They absorbed surplus farm labour, operated with hard budget constraints, produced consumer goods, and spearheaded China's early export growth."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Macroeconomic Vulnerabilities",
+      "difficulty": "medium",
+      "question": "A structural vulnerability that has repeatedly triggered balance of payments crises and macroeconomic instability in Pakistan is:",
+      "options": [
+        "A) Persistent fiscal deficits driven by high defense expenditures and debt service, combined with a narrow tax base and volatile remittance flows",
+        "B) Excessive domestic production of capital goods and advanced microchips",
+        "C) Uncontrolled deflation caused by negative money supply growth",
+        "D) 100 percent reliance on domestic solar energy installations"
+      ],
+      "correct_option": "A",
+      "explanation": "Pakistan's macro-economy has suffered from chronic fiscal deficits (driven by high non-development/defense spending and debt obligations), low tax-to-GDP ratios, and heavy reliance on erratic external aid and remittances."
+    },
+    {
+      "id": "CUET_ECO_2026_P17_L7B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "HDI Geometric Mean Formula",
+      "difficulty": "hard",
+      "question": "Since 2010, the United Nations Development Programme (UNDP) calculates the composite Human Development Index (HDI) across health, education, and income dimensions using which mathematical formulation?",
+      "options": [
+        "A) Geometric mean of the three normalized dimensional indices: HDI = (I_Health * I_Education * I_Income)^(1/3)",
+        "B) Simple arithmetic mean: HDI = (I_Health + I_Education + I_Income) / 3",
+        "C) Harmonic mean of health and education divided by per capita GDP",
+        "D) Weighted summation giving 70 percent weight solely to per capita GNI"
+      ],
+      "correct_option": "A",
+      "explanation": "In 2010, UNDP adopted the geometric mean of the three normalized indices to ensure that poor performance in any one dimension (e.g. health or education) cannot be linearly compensated by high income."
+    }
+  ]
+}

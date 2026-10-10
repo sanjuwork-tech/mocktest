@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P15_L5B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 15,
+  "difficulty_level": "5B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Positive vs Normative Economics",
+      "difficulty": "easy",
+      "question": "Which of the following statements represents a normative economic statement rather than a positive one?",
+      "options": [
+        "A) An increase in the repo rate typically leads to higher commercial bank lending rates",
+        "B) The government should provide free healthcare services to all low-income households",
+        "C) India's real GDP grew by over 7 percent during the previous fiscal year",
+        "D) A price ceiling below equilibrium creates excess demand in the market"
+      ],
+      "correct_option": "B",
+      "explanation": "Normative economics involves value judgments and ethical prescriptions about 'what ought to be' rather than objective statements of verifiable economic facts ('what is')."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Law of Diminishing Marginal Utility",
+      "difficulty": "easy",
+      "question": "The Law of Diminishing Marginal Utility is formulated under which essential behavioural assumption?",
+      "options": [
+        "A) The consumer exhibits irrational and impulsive spending behaviour",
+        "B) Commodity units consumed are identical in size, quality, and consumed continuously without time gaps",
+        "C) The marginal utility of money increases steadily with every purchase",
+        "D) Consumer preferences fluctuate randomly between successive consumption units"
+      ],
+      "correct_option": "B",
+      "explanation": "The law assumes standard, homogeneous units consumed in unbroken continuous sequence, constant marginal utility of money, and rational consumer behaviour."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Price Consumption Curve",
+      "difficulty": "medium",
+      "question": "The geometric locus of consumer equilibrium points obtained when the price of good X varies while the price of good Y and money income remain constant is known as the:",
+      "options": [
+        "A) Income Consumption Curve",
+        "B) Engel Curve",
+        "C) Price Consumption Curve",
+        "D) Isoquant Frontier"
+      ],
+      "correct_option": "C",
+      "explanation": "The Price Consumption Curve (PCC) traces the trajectory of optimal consumer bundles as the price of one commodity changes while nominal income and the other good's price remain fixed."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Cross Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "If the cross-price elasticity of demand between two commodities X and Y is negative (e_xy < 0), the two commodities are categorized as:",
+      "options": [
+        "A) Perfect substitutes",
+        "B) Complementary goods",
+        "C) Independent goods",
+        "D) Giffen goods"
+      ],
+      "correct_option": "B",
+      "explanation": "When two goods are complements (e.g., cars and petrol), an increase in the price of one leads to a contraction in demand for the other, making cross-price elasticity negative."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Income Elasticity of Demand",
+      "difficulty": "medium",
+      "question": "When a 10 percent increase in consumer income leads to a 15 percent increase in the quantity demanded of a commodity, the commodity is classified as a:",
+      "options": [
+        "A) Necessity good",
+        "B) Luxury good",
+        "C) Inferior good",
+        "D) Veblen good"
+      ],
+      "correct_option": "B",
+      "explanation": "When income elasticity of demand is greater than one (e_y > 1), quantity demanded expands more than proportionately to the rise in income, designating it a luxury good."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q06",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer Surplus Concept",
+      "difficulty": "hard",
+      "question": "In Marshallian consumer analysis, consumer surplus is graphically measured as the area:",
+      "options": [
+        "A) Below the market supply curve and above the horizontal quantity axis",
+        "B) Below the market demand curve and above the prevailing equilibrium market price",
+        "C) Enclosed between the budget line and the highest indifference curve",
+        "D) To the right of the vertical axis below total expenditure"
+      ],
+      "correct_option": "B",
+      "explanation": "Consumer surplus represents the difference between the total amount consumers are willing to pay (area under the demand curve) and the actual amount paid at market price (price times quantity)."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q07",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Stages of Variable Proportions",
+      "difficulty": "medium",
+      "question": "In which stage of the Law of Variable Proportions will a rational profit-maximizing producer choose to operate in the short run?",
+      "options": [
+        "A) Stage I (Stage of Increasing Returns)",
+        "B) Stage II (Stage of Diminishing Returns)",
+        "C) Stage III (Stage of Negative Returns)",
+        "D) Outside all production stages where fixed costs are zero"
+      ],
+      "correct_option": "B",
+      "explanation": "In Stage I, fixed factors are underutilized and MP is positive; in Stage III, MP is negative. A rational producer operates strictly in Stage II, where both AP and MP are falling but MP is positive."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q08",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Explicit vs Implicit Cost",
+      "difficulty": "easy",
+      "question": "The imputed value of the owner's self-owned building used in business and the interest on the entrepreneur's self-invested capital are examples of:",
+      "options": [
+        "A) Explicit costs",
+        "B) Implicit costs",
+        "C) Variable overhead costs",
+        "D) Sunk costs"
+      ],
+      "correct_option": "B",
+      "explanation": "Implicit costs (opportunity costs) are the imputed values of inputs owned and employed by the firm itself, for which no direct out-of-pocket cash payments are made to third parties."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "AC and MC Relationship",
+      "difficulty": "medium",
+      "question": "When Average Cost (AC) is rising as output increases, what must be the relationship between Marginal Cost (MC) and Average Cost?",
+      "options": [
+        "A) Marginal Cost is strictly equal to Average Cost",
+        "B) Marginal Cost is strictly greater than Average Cost",
+        "C) Marginal Cost is strictly less than Average Cost",
+        "D) Marginal Cost must be declining towards zero"
+      ],
+      "correct_option": "B",
+      "explanation": "When MC lies above AC (MC > AC), the addition to total cost from the last unit pulls the average cost upward, causing AC to rise."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q10",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Revenue Under Imperfect Competition",
+      "difficulty": "hard",
+      "question": "Under a downward-sloping linear market demand curve facing a monopoly firm, what is the geometric relationship between the Marginal Revenue (MR) curve and the Average Revenue (AR) curve?",
+      "options": [
+        "A) The MR curve has half the slope of the AR curve",
+        "B) The MR curve lies above the AR curve at all positive output levels",
+        "C) The MR curve lies strictly halfway between the AR curve and the vertical price axis",
+        "D) The MR curve coincides completely with the horizontal output axis"
+      ],
+      "correct_option": "C",
+      "explanation": "For any downward-sloping linear demand (AR) curve, the MR curve has twice the slope of the AR curve and bisects any horizontal line drawn from the vertical axis to the AR curve."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q11",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Producer Surplus",
+      "difficulty": "medium",
+      "question": "Producer surplus in a competitive market is graphically represented by the area:",
+      "options": [
+        "A) Between the average variable cost curve and average fixed cost curve",
+        "B) Below the market demand curve and above the supply curve",
+        "C) Above the market supply curve and below the equilibrium market price",
+        "D) Above total revenue and below total variable cost"
+      ],
+      "correct_option": "C",
+      "explanation": "Producer surplus measures the difference between total revenue received by producers and the minimum revenue required to induce them to supply that quantity (area above the supply curve up to market price)."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Government Subsidy Impact",
+      "difficulty": "hard",
+      "question": "When the government grants a production subsidy per unit to competitive producers of solar lamps, how does market equilibrium adjust?",
+      "options": [
+        "A) The supply curve shifts leftward, raising equilibrium price",
+        "B) The demand curve shifts leftward, reducing both equilibrium price and quantity",
+        "C) The supply curve shifts rightward, lowering the equilibrium price and increasing equilibrium quantity",
+        "D) Equilibrium quantity remains unchanged while market price rises"
+      ],
+      "correct_option": "C",
+      "explanation": "A per-unit subsidy reduces the net marginal cost of production, shifting the market supply curve downward/rightward. This leads to a lower equilibrium consumer price and a higher equilibrium quantity."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Rent Control Laws",
+      "difficulty": "medium",
+      "question": "Rent control legislations that cap urban residential rental rates below market clearing levels are classical examples of:",
+      "options": [
+        "A) Market-driven dynamic pricing schemes",
+        "B) Price floors designed to protect landlords from falling property valuations",
+        "C) Price ceilings that generate shortages of rental housing in the long run",
+        "D) Pigovian taxes to internalize urban congestion"
+      ],
+      "correct_option": "C",
+      "explanation": "Rent control is a statutory price ceiling set below equilibrium rent. While intended to assist tenants, it reduces landlords' incentives to maintain or build rental housing, resulting in persistent shortages."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Perfect Competition Features",
+      "difficulty": "easy",
+      "question": "Why is an individual firm in a perfectly competitive industry termed a 'price taker'?",
+      "options": [
+        "A) Because the government directly manages the firm's sales department",
+        "B) Because it colludes secretly with rivals to fix industry prices",
+        "C) Because its individual share of total market output is infinitesimally small, giving it zero power to influence market price",
+        "D) Because its marginal cost curve is completely horizontal at all outputs"
+      ],
+      "correct_option": "C",
+      "explanation": "In perfect competition, each firm produces a negligible fraction of total market output, so changes in its supply have no discernible effect on prevailing market price."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Market Equilibrium Dynamics",
+      "difficulty": "hard",
+      "question": "If market demand increases while market supply decreases simultaneously by an equal magnitude, what will happen to the equilibrium price and quantity?",
+      "options": [
+        "A) Both equilibrium price and quantity increase",
+        "B) Equilibrium price falls while equilibrium quantity increases",
+        "C) Equilibrium price rises while equilibrium quantity remains unchanged",
+        "D) Equilibrium price remains constant while quantity decreases"
+      ],
+      "correct_option": "C",
+      "explanation": "Higher demand and lower supply both exert upward pressure on price, causing equilibrium price to rise unambiguously. The opposing quantity shifts cancel each other out, leaving equilibrium quantity unchanged."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Non-Viable Industry",
+      "difficulty": "hard",
+      "question": "In microeconomic theory, what condition defines a 'non-viable industry' where production will not take place under free market conditions?",
+      "options": [
+        "A) Marginal cost is constant and equal to zero",
+        "B) The demand curve is perfectly elastic across all prices",
+        "C) The supply curve lies entirely above the demand curve at all positive output levels",
+        "D) The average revenue curve intersects the marginal revenue curve"
+      ],
+      "correct_option": "C",
+      "explanation": "A non-viable industry is one where the minimum supply price exceeds the maximum demand price at all output levels (supply curve lies strictly above the demand curve), so no market transaction can occur."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Circular Flow of Income",
+      "difficulty": "easy",
+      "question": "In a two-sector circular flow model without government and foreign sectors, which condition represents an injection into the income stream?",
+      "options": [
+        "A) Import payments made for foreign consumer goods",
+        "B) Savings deposited by households in commercial banks",
+        "C) Planned investment expenditure by producing enterprises",
+        "D) Direct income taxes paid to municipal authorities"
+      ],
+      "correct_option": "C",
+      "explanation": "Injections are additions to the circular flow of expenditure that generate output and income (such as investment, government spending, and exports). Savings, taxes, and imports are leakages."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Factor vs Transfer Payments",
+      "difficulty": "medium",
+      "question": "Which of the following is treated as a transfer payment and therefore excluded from national income estimation?",
+      "options": [
+        "A) Retained corporate profits used for factory expansion",
+        "B) Consultancy fee received by an independent chartered accountant",
+        "C) Unemployment allowances paid to job seekers by the government",
+        "D) Royalty received by an author from a textbook publisher"
+      ],
+      "correct_option": "C",
+      "explanation": "Transfer payments (e.g., unemployment allowances, scholarships, old-age pensions) are unilateral receipts that do not involve any corresponding productive factor service rendered during the current accounting year."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Components of NFIA",
+      "difficulty": "hard",
+      "question": "Net Factor Income from Abroad (NFIA) is decomposed into three components: Net compensation of employees, Net retained earnings of resident companies abroad, and:",
+      "options": [
+        "A) Gross external commercial borrowings contracted by domestic banks",
+        "B) Net official bilateral foreign aid grants received from abroad",
+        "C) Net income from property and entrepreneurship (rent, interest, and dividends)",
+        "D) Special Drawing Rights allocated by the International Monetary Fund"
+      ],
+      "correct_option": "C",
+      "explanation": "NFIA consists of: (1) Net compensation of employees, (2) Net income from property and entrepreneurship, and (3) Net retained earnings of resident companies abroad."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "GDP as Welfare Indicator",
+      "difficulty": "medium",
+      "question": "Why does Gross Domestic Product (GDP) fail to accurately reflect economic welfare when substantial negative externalities are generated by industrial production?",
+      "options": [
+        "A) Because negative externalities cause the GDP deflator to turn negative",
+        "B) Because GDP automatically subtracts corporate income tax revenues",
+        "C) Because GDP includes the market value of output produced but excludes the social costs of environmental pollution and health damage",
+        "D) Because central statistical agencies exclude manufacturing from GDP"
+      ],
+      "correct_option": "C",
+      "explanation": "Externalities are benefits or harms resulting from economic activities for which no market payment is made. Negative externalities (like toxic effluents) degrade welfare without being deducted from GDP, overstating true economic well-being."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "High Powered Money",
+      "difficulty": "hard",
+      "question": "What components constitute the monetary base, also known as 'High-Powered Money' (H) or Reserve Money (M0) in India?",
+      "options": [
+        "A) Net demand deposits + Inter-bank term deposits with foreign banks",
+        "B) Total post office savings deposits + National Savings Certificates",
+        "C) Currency held by the public + Cash reserves of commercial banks + Other deposits with the RBI",
+        "D) Commercial paper + Treasury bills held by private mutual funds"
+      ],
+      "correct_option": "C",
+      "explanation": "High-powered money (H or M0) is the total liability of monetary authorities, comprising Currency in circulation with the public + Bankers' deposits (cash reserves) with the RBI + 'Other' deposits with the RBI."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Statutory Liquidity Ratio",
+      "difficulty": "easy",
+      "question": "Under the Statutory Liquidity Ratio (SLR) mandate, commercial banks in India are required to maintain a specified percentage of their Net Demand and Time Liabilities (NDTL) in the form of:",
+      "options": [
+        "A) Term loans extended to agricultural export firms",
+        "B) Equity shares of listed private multinational corporations",
+        "C) Real estate holdings and commercial office complexes",
+        "D) Liquid assets such as cash, gold, and unencumbered approved government securities"
+      ],
+      "correct_option": "D",
+      "explanation": "SLR requires banks to hold a fraction of their NDTL in liquid assets\u2014namely cash, gold, or approved government securities\u2014before creating credit."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Monetary Transmission Mechanism",
+      "difficulty": "medium",
+      "question": "When the Reserve Bank of India decreases the Cash Reserve Ratio (CRR), what is the direct impact on commercial banks?",
+      "options": [
+        "A) The central bank immediately buys gold from private citizens",
+        "B) Commercial banks are forced to curtail consumer loans",
+        "C) The money multiplier automatically decreases",
+        "D) Commercial banks hold fewer non-interest-bearing cash reserves with the RBI, freeing up funds to expand credit and lower lending rates"
+      ],
+      "correct_option": "D",
+      "explanation": "A lower CRR releases locked-up cash reserves from the RBI back into the commercial banking system, expanding banks' lendable resources and stimulating credit expansion."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Primary Functions of Money",
+      "difficulty": "easy",
+      "question": "Which of the following functions of money directly resolves the problem of lack of double coincidence of wants inherent in barter systems?",
+      "options": [
+        "A) Basis of credit creation",
+        "B) Store of value",
+        "C) Standard of deferred payment",
+        "D) Medium of exchange"
+      ],
+      "correct_option": "D",
+      "explanation": "By acting as an accepted medium of exchange, money separates the act of purchase from the act of sale, eliminating the necessity of double coincidence of wants."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Psychological Law of Consumption",
+      "difficulty": "medium",
+      "question": "According to Keynes's Fundamental Psychological Law of Consumption, as national income increases:",
+      "options": [
+        "A) The average propensity to consume rises continuously above 2.0",
+        "B) Consumption expenditure increases by an amount greater than the increase in income",
+        "C) Total savings decline continuously to negative values",
+        "D) Consumption expenditure increases, but by an amount less than the increase in income (0 < MPC < 1)"
+      ],
+      "correct_option": "D",
+      "explanation": "Keynes's psychological law states that individuals tend to increase consumption as income rises, but not by as much as the increase in their income; hence MPC is positive and strictly less than 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Average Propensity to Consume",
+      "difficulty": "medium",
+      "question": "At income levels below the break-even point where consumption expenditure exceeds disposable income, what is the value of the Average Propensity to Consume (APC)?",
+      "options": [
+        "A) APC is exactly equal to 0.5",
+        "B) APC is equal to 0",
+        "C) APC is less than 0",
+        "D) APC is greater than 1"
+      ],
+      "correct_option": "D",
+      "explanation": "Before the break-even point, consumption exceeds income (C > Y) due to dissaving, making APC = C / Y strictly greater than 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Ex-Ante vs Ex-Post Aggregates",
+      "difficulty": "hard",
+      "question": "If planned (ex-ante) aggregate expenditure is less than planned output (AD < AS), what unplanned adjustment occurs in the business sector?",
+      "options": [
+        "A) Unplanned surge in consumer demand",
+        "B) Depletion of warehouse inventories below desired levels",
+        "C) Immediate upward revision of planned investment spending",
+        "D) Unintended accumulation of unsold inventory stocks, prompting producers to cut future output and employment"
+      ],
+      "correct_option": "D",
+      "explanation": "When AD < AS, producers cannot sell all the goods they planned to sell. This leads to an unplanned accumulation of inventories, causing firms to cut back production until equilibrium is restored."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Reverse Working of Multiplier",
+      "difficulty": "medium",
+      "question": "The reverse working of the investment multiplier implies that:",
+      "options": [
+        "A) Tax reductions have zero effect on equilibrium output",
+        "B) An increase in savings raises investment at an accelerated pace",
+        "C) The multiplier operates in forward direction only during hyperinflation",
+        "D) A reduction in autonomous investment leads to a multiple contraction in national income and employment"
+      ],
+      "correct_option": "D",
+      "explanation": "The investment multiplier is a two-edged sword: just as an initial increase in investment generates a multiple expansion in income, an initial decline in investment causes a cumulative multiple drop in income."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Primary Deficit Significance",
+      "difficulty": "medium",
+      "question": "What does a zero primary deficit in the government budget indicate?",
+      "options": [
+        "A) There are no tax collections during the current fiscal year",
+        "B) The government has zero outstanding public debt",
+        "C) Total revenue receipts equal total capital expenditure",
+        "D) The government's current fiscal borrowing is entirely committed to servicing interest obligations on past accumulated debt"
+      ],
+      "correct_option": "D",
+      "explanation": "Since Primary Deficit = Fiscal Deficit - Interest Payments, a primary deficit of zero means Fiscal Deficit = Interest Payments. All current borrowings are consumed by debt service rather than new public programs."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Balanced Budget Multiplier",
+      "difficulty": "hard",
+      "question": "In macroeconomic theory, what is the theoretical value of the balanced budget multiplier when an increase in government expenditure is funded entirely by an equal increase in lump-sum taxes?",
+      "options": [
+        "A) Infinitely large",
+        "B) Equal to zero",
+        "C) Equal to the marginal propensity to consume",
+        "D) Exactly equal to 1"
+      ],
+      "correct_option": "D",
+      "explanation": "Under simple Keynesian models with lump-sum taxes, the government expenditure multiplier is 1/(1-MPC) and tax multiplier is -MPC/(1-MPC). The net balanced budget multiplier is (1 - MPC)/(1 - MPC) = 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Fiscal Policy Stance",
+      "difficulty": "easy",
+      "question": "When an economy is suffering from severe economic stagnation and high unemployment, the government should adopt which fiscal policy stance?",
+      "options": [
+        "A) Complete withdrawal of state welfare pensions",
+        "B) Contractionary fiscal policy through tax hikes and reduced social spending",
+        "C) Strict balanced budget mandate with expenditure cuts",
+        "D) Expansionary fiscal policy through increased public spending and tax cuts"
+      ],
+      "correct_option": "D",
+      "explanation": "An expansionary fiscal policy boosts aggregate demand by injecting purchasing power into the economy through infrastructure spending and lower tax rates, helping overcome recessionary stagnation."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Current Account Deficit Financing",
+      "difficulty": "hard",
+      "question": "A persistent Current Account Deficit (CAD) must be financed in the Balance of Payments by:",
+      "options": [
+        "A) Banning all commercial banks from operating foreign currency desks",
+        "B) Increasing domestic personal income tax rates",
+        "C) Granting unilateral transfer payments to neighbouring countries",
+        "D) A surplus on the Capital Account, such as net foreign capital inflows, or a drawdown of official foreign exchange reserves"
+      ],
+      "correct_option": "D",
+      "explanation": "Because the overall BoP must balance, any shortfall on the Current Account (CAD) must be covered by net capital inflows (FDI, FPI, external commercial loans) or depletion of central bank foreign exchange reserves."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Currency Appreciation Impact",
+      "difficulty": "medium",
+      "question": "When the Indian Rupee appreciates against the US Dollar under flexible exchange rates, what is the expected impact on India's international trade?",
+      "options": [
+        "A) The cost of imported crude oil in rupees increases significantly",
+        "B) Indian exports become cheaper abroad, boosting export volume",
+        "C) Both exports and imports decline to absolute zero",
+        "D) Indian exports become relatively more expensive abroad, while imports become cheaper in domestic currency"
+      ],
+      "correct_option": "D",
+      "explanation": "Appreciation makes the domestic currency stronger: foreign buyers must pay more foreign currency for Indian goods (hurting exports), while imported goods become cheaper in domestic currency terms."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Occupational Structure at Independence",
+      "difficulty": "easy",
+      "question": "On the eve of Indian independence in 1947, approximately what percentage of India's workforce was engaged in the agricultural sector?",
+      "options": [
+        "A) Less than 15 percent",
+        "B) 40 to 45 percent",
+        "C) 20 to 25 percent",
+        "D) 70 to 75 percent"
+      ],
+      "correct_option": "D",
+      "explanation": "The occupational structure under British rule showed overwhelming agricultural dependence, with roughly 70\u201375% of the working population employed in agriculture."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Demographic Indicators at Independence",
+      "difficulty": "medium",
+      "question": "What was the estimated life expectancy at birth in India during the colonial era around the time of independence?",
+      "options": [
+        "A) 44 years",
+        "B) 50 years",
+        "C) 62 years",
+        "D) 32 years"
+      ],
+      "correct_option": "D",
+      "explanation": "Colonial India was plagued by poverty and recurrent epidemics, resulting in an alarming infant mortality rate (218 per thousand) and an average life expectancy of just 32 years."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "First Five Year Plan Priorities",
+      "difficulty": "easy",
+      "question": "The First Five-Year Plan of India (1951\u20131956) accorded top priority to which sector to address severe post-partition food shortages?",
+      "options": [
+        "A) Civil aviation and nuclear energy reactors",
+        "B) Heavy engineering capital goods industries",
+        "C) Commercial software services and telecom exports",
+        "D) Agricultural development and major river valley irrigation projects"
+      ],
+      "correct_option": "D",
+      "explanation": "The First Five-Year Plan prioritized agriculture and multipurpose irrigation projects (such as Bhakra Nangal and Damodar Valley) to resolve acute food shortages caused by partition."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "IPR 1956 Schedule B",
+      "difficulty": "medium",
+      "question": "Under the Industrial Policy Resolution of 1956, how were industries placed in Schedule B defined?",
+      "options": [
+        "A) Industries that would be progressively state-owned, with the state taking the lead in establishing new units while private enterprise supplemented state efforts",
+        "B) Industries exclusively reserved for cottage artisans and handloom cooperatives",
+        "C) Industries open exclusively to foreign multinational corporations without licensing",
+        "D) Core defense industries under military administration"
+      ],
+      "correct_option": "A",
+      "explanation": "Schedule B comprised 12 industries where the state was to take initiative in setting up new enterprises, while existing private firms could continue and supplement the state's efforts."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Protectionism Mechanisms",
+      "difficulty": "easy",
+      "question": "Before the 1991 reforms, India protected its domestic infant industries primarily through two instruments: tariffs and:",
+      "options": [
+        "A) Import quotas (quantitative restrictions)",
+        "B) Export tax refunds",
+        "C) Unrestricted currency convertibility",
+        "D) Direct foreign exchange subsidies to importers"
+      ],
+      "correct_option": "A",
+      "explanation": "The inward-looking trade strategy utilized tariffs (customs duties raising import prices) and quotas (physical caps on the quantity of goods that could be imported) to insulate domestic manufacturers from foreign competition."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Financial Sector Liberalization",
+      "difficulty": "medium",
+      "question": "As part of the financial sector reforms introduced in 1991, private domestic and foreign commercial banks were permitted to enter the Indian banking landscape to:",
+      "options": [
+        "A) Foster competition, enhance operational efficiency, and expand retail customer choice",
+        "B) Replace all public sector banks within three fiscal years",
+        "C) Finance speculative stock trading exclusively",
+        "D) Evade central bank monetary reserve obligations"
+      ],
+      "correct_option": "A",
+      "explanation": "Licensing new private sector banks (like HDFC, ICICI, Axis) and foreign banks was designed to break the public sector monopoly, inject technological modernization, and elevate banking competition."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Disinvestment Commission",
+      "difficulty": "medium",
+      "question": "The Disinvestment Commission was established by the Government of India in 1996 under the chairmanship of:",
+      "options": [
+        "A) G.V. Ramakrishna",
+        "B) M. Narasimham",
+        "C) C. Rangarajan",
+        "D) Raja Chelliah"
+      ],
+      "correct_option": "A",
+      "explanation": "In August 1996, the Government of India set up the Public Sector Disinvestment Commission chaired by G.V. Ramakrishna to advise on modalities and sequencing of public enterprise disinvestment."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Dimensions of Globalization",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of an economic activity outsourced to India by foreign multinational companies due to telecommunications integration?",
+      "options": [
+        "A) Clinical advice, voice transcription, and business process customer support",
+        "B) Physical assembly of heavy commercial cargo ships in inland rivers",
+        "C) Excavation of thermal coal deposits in European valleys",
+        "D) Direct farming of Mediterranean olives on leased forest tracts"
+      ],
+      "correct_option": "A",
+      "explanation": "Outsourcing in India encompasses voice-based call centres, medical transcription, financial bookkeeping, software programming, and clinical trial data management."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Critique of 1991 Reforms",
+      "difficulty": "hard",
+      "question": "Economists have critiqued the post-1991 economic reforms primarily on the ground that the agricultural sector suffered because:",
+      "options": [
+        "A) Public capital investment in rural irrigation and power was curtailed, and input subsidies were scaled back",
+        "B) Farmers were prohibited from exporting foodgrains to world markets",
+        "C) The government banned commercial bank lending to agriculture",
+        "D) High support prices encouraged excessive overproduction of coarse millets"
+      ],
+      "correct_option": "A",
+      "explanation": "A major criticism of 1991 reforms is that agriculture was neglected: public capital formation in irrigation and infrastructure stagnated, fertilizer subsidies were cut, and tariff reductions exposed small farmers to international competition."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Human vs Physical Capital",
+      "difficulty": "medium",
+      "question": "How does human capital fundamentally differ from physical capital in economic analysis?",
+      "options": [
+        "A) Human capital is embodied in its owner and cannot be physically separated or sold in the market independently of the person",
+        "B) Human capital does not depreciate over time with age or illness",
+        "C) Physical capital produces purely private benefits without any social return",
+        "D) Human capital can be built without any prior educational or healthcare investments"
+      ],
+      "correct_option": "A",
+      "explanation": "Physical capital (like machinery) is tangible and completely separable from its owner, whereas human capital (skills, knowledge, health) is inseparably embodied within the individual."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Agricultural Diversification: Operation Flood",
+      "difficulty": "easy",
+      "question": "'Operation Flood' (White Revolution), which transformed India from a milk-deficient nation into the world's largest milk producer, was pioneered by:",
+      "options": [
+        "A) Dr. Verghese Kurien",
+        "B) M.S. Swaminathan",
+        "C) Norman Borlaug",
+        "D) V.K.R.V. Rao"
+      ],
+      "correct_option": "A",
+      "explanation": "Dr. Verghese Kurien led the National Dairy Development Board's Operation Flood, establishing a nationwide network of dairy cooperatives modeled on the Anand (Amul) pattern."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Worker-Population Ratio",
+      "difficulty": "medium",
+      "question": "In employment statistics, the Worker-Population Ratio (WPR) is defined as:",
+      "options": [
+        "A) The proportion of the total population that is actively contributing to the production of goods and services",
+        "B) The ratio of unemployed persons to the total working-age population",
+        "C) The percentage of regular salaried employees in total agricultural labour",
+        "D) The number of male workers divided by female workers in factories"
+      ],
+      "correct_option": "A",
+      "explanation": "Worker-Population Ratio (WPR) is calculated as (Total Number of Employed Workers / Total Population) * 100, measuring the proportion of the population actively engaged in economic production."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Environmental Regulatory Bodies",
+      "difficulty": "easy",
+      "question": "Which premier statutory regulatory body was established in India in 1974 under the Water (Prevention and Control of Pollution) Act to monitor air and water quality?",
+      "options": [
+        "A) Central Pollution Control Board (CPCB)",
+        "B) National Green Tribunal (NGT)",
+        "C) Bureau of Energy Efficiency (BEE)",
+        "D) Indian Renewable Energy Development Agency (IREDA)"
+      ],
+      "correct_option": "A",
+      "explanation": "The Central Pollution Control Board (CPCB) was constituted in September 1974 under the Water Act to investigate and establish standards for water and air pollution abatement across India."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Montreal Protocol",
+      "difficulty": "medium",
+      "question": "The international environmental treaty known as the Montreal Protocol (1987) was signed by nations to mandate the global phase-out of:",
+      "options": [
+        "A) Substances that deplete the stratospheric ozone layer, such as chlorofluorocarbons (CFCs)",
+        "B) Subsidies given to deep-sea fishing trawlers",
+        "C) All chemical fertilizers used in wheat cultivation",
+        "D) Single-use plastic bottles in coastal tourism"
+      ],
+      "correct_option": "A",
+      "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer (1987) committed signatory countries to freezing and phasing out the production and consumption of ozone-depleting chemicals, primarily CFCs and halons."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Cultural Revolution in China",
+      "difficulty": "medium",
+      "question": "The 'Great Proletarian Cultural Revolution' launched by Mao Zedong in China (1966\u20131976) sought to:",
+      "options": [
+        "A) Mobilize youth (Red Guards) and send students and professionals to the countryside to learn from workers and purge bourgeois ideological elements",
+        "B) Integrate China's banking sector into Western international capital markets",
+        "C) Terminate the collective commune agricultural system in favour of private farms",
+        "D) Establish democratic multi-party parliamentary elections in Beijing"
+      ],
+      "correct_option": "A",
+      "explanation": "Mao Zedong initiated the Cultural Revolution in 1966, mobilizing millions of young Red Guards to purge revisionist elements, dismantle academic hierarchies, and enforce peasant-worker egalitarianism."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Economic Trajectory of Pakistan",
+      "difficulty": "medium",
+      "question": "What major shift characterized Pakistan's economic policy during the 1970s under Zulfikar Ali Bhutto?",
+      "options": [
+        "A) Widespread nationalization of major capital goods industries, commercial banks, and life insurance",
+        "B) Complete privatization of all state enterprises and opening to foreign retail FDI",
+        "C) Abolition of all agricultural input subsidies",
+        "D) Adoption of a rigid gold-standard currency pegged to the British Pound"
+      ],
+      "correct_option": "A",
+      "explanation": "In the early 1970s, Pakistan embarked on an extensive nationalization drive covering heavy engineering, chemicals, commercial banking, and insurance, which was later reversed through denationalization policies in the late 1980s."
+    },
+    {
+      "id": "CUET_ECO_2026_P15_L5B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Human Development Comparison",
+      "difficulty": "hard",
+      "question": "In international comparisons of Human Development Indicators among India, China, and Pakistan, which country has consistently ranked highest in life expectancy at birth, adult literacy rate, and low infant mortality?",
+      "options": [
+        "A) China",
+        "B) Pakistan",
+        "C) India",
+        "D) All three nations have identical HDI scores across all parameters"
+      ],
+      "correct_option": "A",
+      "explanation": "China's sustained public investments in universal basic education, primary healthcare infrastructure, and rural sanitation throughout the 20th century placed its social indicators significantly ahead of India and Pakistan."
+    }
+  ]
+}

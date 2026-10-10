@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_PHY_2026_P15_L5B",
+  "series_id": "CUET_PHY_2026",
+  "paper_number": 15,
+  "difficulty_level": "5B",
+  "subject": "Physics (Code: 322)",
+  "syllabus_source": "cuet physics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q01",
+      "topic": "Electrostatics",
+      "sub_topic": "Coulomb's Law",
+      "difficulty": "easy",
+      "question": "Two charges +3μC and -4μC placed 1m apart in vacuum. Force magnitude: (k=9×10⁹)",
+      "options": [
+        "A) 0.108 N",
+        "B) 0.216 N",
+        "C) 0.432 N",
+        "D) 0.864 N"
+      ],
+      "correct_option": "A",
+      "explanation": "F = k|q₁q₂|/r² = 9×10⁹×(3×10⁻⁶)(4×10⁻⁶)/1² = 0.108 N."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q02",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Field",
+      "difficulty": "easy",
+      "question": "A 4 nC charge in 250 N/C field experiences force:",
+      "options": [
+        "A) 40 μN",
+        "B) 1 μN",
+        "C) 10 μN",
+        "D) 100 μN"
+      ],
+      "correct_option": "B",
+      "explanation": "F = qE = 4×10⁻⁹×250 = 1 μN."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q03",
+      "topic": "Electrostatics",
+      "sub_topic": "Gauss's Law",
+      "difficulty": "medium",
+      "question": "Spherical shell radius R, uniform σ. Field inside at r<R:",
+      "options": [
+        "A) σR²/(ε₀r²)",
+        "B) σ/(4πε₀r²)",
+        "C) σ/(ε₀)",
+        "D) Zero"
+      ],
+      "correct_option": "D",
+      "explanation": "By Gauss's law, field inside spherical shell is zero (no enclosed charge)."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q04",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Potential",
+      "difficulty": "medium",
+      "question": "Three charges +q,+q,-q at equilateral triangle vertices (side a). Total PE: (k=1/(4πε₀))",
+      "options": [
+        "A) 2kq²/a",
+        "B) 0",
+        "C) -kq²/a",
+        "D) kq²/a"
+      ],
+      "correct_option": "C",
+      "explanation": "U = k[q(+q)/a + q(-q)/a + q(-q)/a] = -kq²/a."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q05",
+      "topic": "Electrostatics",
+      "sub_topic": "Capacitors",
+      "difficulty": "medium",
+      "question": "Parallel plate capacitor 8μF charged to 20V and disconnected. If plate separation doubled, new voltage:",
+      "options": [
+        "A) 40 V",
+        "B) 10 V",
+        "C) 20 V",
+        "D) 80 V"
+      ],
+      "correct_option": "A",
+      "explanation": "C = ε₀A/d. Doubling d halves C. Q constant, V = Q/C. C'=4μF, Q=160μC, V'=40V."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q06",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Dipole",
+      "difficulty": "hard",
+      "question": "Dipole p = 4×10⁻⁹ C⋅m in 10⁴ N/C at 30°. Torque:",
+      "options": [
+        "A) 4×10⁻⁵ N⋅m",
+        "B) 1×10⁻⁵ N⋅m",
+        "C) 2×10⁻⁵ N⋅m",
+        "D) 3.46×10⁻⁵ N⋅m"
+      ],
+      "correct_option": "C",
+      "explanation": "τ = pE sinθ = 4×10⁻⁹×10⁴×sin30° = 4×10⁻⁵×0.5 = 2×10⁻⁵ N⋅m."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q07",
+      "topic": "Current Electricity",
+      "sub_topic": "Ohm's Law",
+      "difficulty": "easy",
+      "question": "Wire 20Ω stretched to double length (volume constant). New resistance:",
+      "options": [
+        "A) 40 Ω",
+        "B) 20 Ω",
+        "C) 160 Ω",
+        "D) 80 Ω"
+      ],
+      "correct_option": "D",
+      "explanation": "L' = 2L, A' = A/2. R' = 4ρL/A = 4R = 80Ω."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q08",
+      "topic": "Current Electricity",
+      "sub_topic": "Temperature Dependence",
+      "difficulty": "easy",
+      "question": "Resistance 50Ω at 20°C, α = 0.003/°C. Resistance at 70°C:",
+      "options": [
+        "A) 52.5 Ω",
+        "B) 57.5 Ω",
+        "C) 65 Ω",
+        "D) 42.5 Ω"
+      ],
+      "correct_option": "B",
+      "explanation": "R₂ = R₁[1+α(T₂-T₁)] = 50[1+0.003(50)] = 57.5Ω."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q09",
+      "topic": "Current Electricity",
+      "sub_topic": "Wheatstone Bridge",
+      "difficulty": "medium",
+      "question": "Wheatstone bridge: P=10Ω, Q=20Ω, R=30Ω. For balance, S:",
+      "options": [
+        "A) 60 Ω",
+        "B) 15 Ω",
+        "C) 40 Ω",
+        "D) 6.67 Ω"
+      ],
+      "correct_option": "A",
+      "explanation": "P/Q = R/S → 10/20 = 30/S → S = 60Ω."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q10",
+      "topic": "Current Electricity",
+      "sub_topic": "Kirchhoff's Rules",
+      "difficulty": "medium",
+      "question": "R₁=5Ω and R₂=10Ω in parallel to 6V battery. Current through R₂:",
+      "options": [
+        "A) 1.2 A",
+        "B) 0.4 A",
+        "C) 0.6 A",
+        "D) 1.8 A"
+      ],
+      "correct_option": "C",
+      "explanation": "I₂ = V/R₂ = 6/10 = 0.6 A."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q11",
+      "topic": "Current Electricity",
+      "sub_topic": "Potentiometer",
+      "difficulty": "medium",
+      "question": "Potentiometer wire 100cm, gradient 0.02V/cm. Cell balancing at 75cm has emf:",
+      "options": [
+        "A) 2.0 V",
+        "B) 1.5 V",
+        "C) 1.0 V",
+        "D) 0.75 V"
+      ],
+      "correct_option": "B",
+      "explanation": "E = K × l = 0.02 × 75 = 1.5 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q12",
+      "topic": "Current Electricity",
+      "sub_topic": "Internal Resistance",
+      "difficulty": "hard",
+      "question": "Battery: terminal 8V with 4Ω load, 6V with 2Ω load. Emf:",
+      "options": [
+        "A) 10 V",
+        "B) 9 V",
+        "C) 14 V",
+        "D) 12 V"
+      ],
+      "correct_option": "D",
+      "explanation": "E = V(1+r/R). 8(1+r/4) = 6(1+r/2) → r=2Ω, E=12V."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q13",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Field due to Current",
+      "difficulty": "easy",
+      "question": "Straight wire 5A. Field at 0.1m: (μ₀=4π×10⁻⁷)",
+      "options": [
+        "A) 2×10⁻⁵ T",
+        "B) 4×10⁻⁶ T",
+        "C) 1×10⁻⁵ T",
+        "D) 3×10⁻⁵ T"
+      ],
+      "correct_option": "C",
+      "explanation": "B = μ₀I/(2πr) = 4π×10⁻⁷×5/(2π×0.1) = 1×10⁻⁵ T."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q14",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Materials",
+      "difficulty": "easy",
+      "question": "Diamagnetic material magnetic susceptibility:",
+      "options": [
+        "A) Positive large",
+        "B) Positive small",
+        "C) Zero",
+        "D) Negative small"
+      ],
+      "correct_option": "D",
+      "explanation": "Diamagnetic materials have negative, small susceptibility."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q15",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Force on Conductor",
+      "difficulty": "medium",
+      "question": "Wire 0.5m, 2A perpendicular to 0.4T field. Force:",
+      "options": [
+        "A) 0.4 N",
+        "B) 0.2 N",
+        "C) 0.8 N",
+        "D) 1.6 N"
+      ],
+      "correct_option": "A",
+      "explanation": "F = BIL = 0.4×2×0.5 = 0.4 N."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q16",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Ampere's Law",
+      "difficulty": "medium",
+      "question": "Solenoid 200 turns/cm, 0.5A. Field inside: (μ₀=4π×10⁻⁷)",
+      "options": [
+        "A) 2π×10⁻³ T",
+        "B) 4π×10⁻³ T",
+        "C) 8π×10⁻⁴ T",
+        "D) π×10⁻³ T"
+      ],
+      "correct_option": "B",
+      "explanation": "B = μ₀nI = 4π×10⁻⁷×20000×0.5 = 4π×10⁻³ T."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q17",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Cyclotron",
+      "difficulty": "medium",
+      "question": "Proton enters 0.5T at 2×10⁶ m/s perpendicularly. Radius: (mₚ=1.67×10⁻²⁷, q=1.6×10⁻¹⁹)",
+      "options": [
+        "A) 4.2 cm",
+        "B) 2.1 cm",
+        "C) 16.8 cm",
+        "D) 8.4 cm"
+      ],
+      "correct_option": "A",
+      "explanation": "r = mv/(qB) = (1.67×10⁻²⁷×2×10⁶)/(1.6×10⁻¹⁹×0.5) ≈ 4.2 cm."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q18",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Moment",
+      "difficulty": "hard",
+      "question": "Circular coil: 50 turns, radius 0.1m, 3A. Plane at 30° to 0.2T. Torque:",
+      "options": [
+        "A) 1.88 N⋅m",
+        "B) 0.47 N⋅m",
+        "C) 0.94 N⋅m",
+        "D) 0.24 N⋅m"
+      ],
+      "correct_option": "B",
+      "explanation": "m = NIA = 4.71 A⋅m². Normal at 60° to B. τ = mB sin60° = 0.47 N⋅m."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q19",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Faraday's Law",
+      "difficulty": "easy",
+      "question": "100-turn coil: flux 0.02 to 0.08 Wb in 0.1s. Induced emf:",
+      "options": [
+        "A) 6 V",
+        "B) 600 V",
+        "C) 60 V",
+        "D) 0.6 V"
+      ],
+      "correct_option": "C",
+      "explanation": "ε = N(dΦ/dt) = 100×0.06/0.1 = 60 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q20",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Self Induction",
+      "difficulty": "easy",
+      "question": "L=2H, current 3A→7A in 0.01s. Induced emf:",
+      "options": [
+        "A) 200 V",
+        "B) 100 V",
+        "C) 400 V",
+        "D) 800 V"
+      ],
+      "correct_option": "D",
+      "explanation": "ε = L(dI/dt) = 2×4/0.01 = 800 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q21",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "LCR Circuit",
+      "difficulty": "medium",
+      "question": "LCR series: R=30Ω, X_L=50Ω, X_C=30Ω. Impedance:",
+      "options": [
+        "A) 40 Ω",
+        "B) 36 Ω",
+        "C) 50 Ω",
+        "D) 60 Ω"
+      ],
+      "correct_option": "B",
+      "explanation": "Z = √(R²+(X_L-X_C)²) = √(900+400) = √1300 ≈ 36 Ω."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q22",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Transformers",
+      "difficulty": "medium",
+      "question": "Ideal transformer: 200 primary, 50 secondary turns. Primary 400V. Secondary current at 1A primary:",
+      "options": [
+        "A) 4 A",
+        "B) 2 A",
+        "C) 0.25 A",
+        "D) 0.5 A"
+      ],
+      "correct_option": "A",
+      "explanation": "V₂ = 400×(50/200) = 100V. I₂ = 400×1/100 = 4 A."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q23",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "AC Power",
+      "difficulty": "hard",
+      "question": "V = 200 sin(100πt), I = 5 sin(100πt - π/3). Average power:",
+      "options": [
+        "A) 433 W",
+        "B) 500 W",
+        "C) 1000 W",
+        "D) 250 W"
+      ],
+      "correct_option": "D",
+      "explanation": "P_avg = V_rms I_rms cosφ = (200/√2)(5/√2)cos(π/3) = 500×0.5 = 250 W."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q24",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Eddy Currents",
+      "difficulty": "hard",
+      "question": "Metallic pendulum between magnet poles stops quickly. If slots cut, damping:",
+      "options": [
+        "A) Remain same",
+        "B) Increase",
+        "C) Decrease",
+        "D) First increase then decrease"
+      ],
+      "correct_option": "C",
+      "explanation": "Slots interrupt eddy current paths, reducing damping."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q25",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Spectrum",
+      "difficulty": "easy",
+      "question": "EM wave with longest wavelength:",
+      "options": [
+        "A) X-rays",
+        "B) Gamma rays",
+        "C) UV rays",
+        "D) Radio waves"
+      ],
+      "correct_option": "D",
+      "explanation": "Radio waves have longest wavelength in EM spectrum."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q26",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Displacement Current",
+      "difficulty": "medium",
+      "question": "Displacement current introduced by Maxwell to:",
+      "options": [
+        "A) Explain conduction current",
+        "B) Maintain current continuity in capacitor circuits",
+        "C) Account for changing B-field",
+        "D) Explain polarization"
+      ],
+      "correct_option": "B",
+      "explanation": "Maxwell introduced displacement current for current continuity in capacitor circuits."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q27",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Wave Properties",
+      "difficulty": "medium",
+      "question": "EM wave in vacuum, E-field amplitude E₀. Total energy density:",
+      "options": [
+        "A) ½ε₀E₀²",
+        "B) ¼ε₀E₀²",
+        "C) ε₀E₀²",
+        "D) 2ε₀E₀²"
+      ],
+      "correct_option": "C",
+      "explanation": "Electric + magnetic energy densities are equal: total = ε₀E₀²."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q28",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Radiation Pressure",
+      "difficulty": "hard",
+      "question": "EM wave 1.5 kW/m² on perfect reflector area 2m². Force: (c=3×10⁸)",
+      "options": [
+        "A) 4×10⁻⁵ N",
+        "B) 2×10⁻⁵ N",
+        "C) 3×10⁻⁵ N",
+        "D) 1×10⁻⁵ N"
+      ],
+      "correct_option": "B",
+      "explanation": "P = 2I/c = 1×10⁻⁵ Pa. Force = P×Area = 2×10⁻⁵ N."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q29",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Wave Propagation",
+      "difficulty": "hard",
+      "question": "EM wave speed in medium with εᵣ=4, μᵣ=1:",
+      "options": [
+        "A) c/4",
+        "B) c",
+        "C) 2c",
+        "D) c/2"
+      ],
+      "correct_option": "D",
+      "explanation": "v = c/√(εᵣμᵣ) = c/2."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q30",
+      "topic": "Optics",
+      "sub_topic": "Reflection and Mirrors",
+      "difficulty": "easy",
+      "question": "Object at focus of concave mirror. Image at:",
+      "options": [
+        "A) Focus",
+        "B) Center of curvature",
+        "C) Behind mirror",
+        "D) Infinity"
+      ],
+      "correct_option": "D",
+      "explanation": "At focus, reflected rays parallel, image at infinity."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q31",
+      "topic": "Optics",
+      "sub_topic": "Refraction and Lenses",
+      "difficulty": "easy",
+      "question": "Object 30cm from convex lens f=15cm. Image distance:",
+      "options": [
+        "A) 20 cm",
+        "B) 15 cm",
+        "C) 30 cm",
+        "D) 10 cm"
+      ],
+      "correct_option": "C",
+      "explanation": "1/v - 1/(-30) = 1/15 → 1/v = 1/30 → v = 30 cm."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q32",
+      "topic": "Optics",
+      "sub_topic": "Interference",
+      "difficulty": "medium",
+      "question": "Young's: d=0.5mm, D=1.5m, β=1.5mm. Wavelength:",
+      "options": [
+        "A) 400 nm",
+        "B) 500 nm",
+        "C) 600 nm",
+        "D) 750 nm"
+      ],
+      "correct_option": "B",
+      "explanation": "λ = βd/D = 1.5×10⁻³×0.5×10⁻³/1.5 = 500 nm."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q33",
+      "topic": "Optics",
+      "sub_topic": "Diffraction",
+      "difficulty": "medium",
+      "question": "Single slit: first minimum at 0.2°, λ=600nm. Slit width:",
+      "options": [
+        "A) 0.17 mm",
+        "B) 0.085 mm",
+        "C) 0.51 mm",
+        "D) 0.34 mm"
+      ],
+      "correct_option": "A",
+      "explanation": "a = λ/sinθ = 600×10⁻⁹/sin(0.2°) ≈ 0.17 mm."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q34",
+      "topic": "Optics",
+      "sub_topic": "Polarization",
+      "difficulty": "medium",
+      "question": "Two polaroids at 60°. Unpolarized I₀ incident. Intensity after second:",
+      "options": [
+        "A) I₀/8",
+        "B) I₀/4",
+        "C) 3I₀/8",
+        "D) I₀/2"
+      ],
+      "correct_option": "A",
+      "explanation": "After first: I₀/2. After second: (I₀/2)cos²60° = I₀/8."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q35",
+      "topic": "Optics",
+      "sub_topic": "Optical Instruments",
+      "difficulty": "hard",
+      "question": "Microscope: objective image 16cm from lens, object 0.4cm from objective, eyepiece magnification 5. Total magnification:",
+      "options": [
+        "A) 300",
+        "B) 250",
+        "C) 200",
+        "D) 150"
+      ],
+      "correct_option": "C",
+      "explanation": "mₒ = 16/0.4 = 40. Total = 40×5 = 200."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q36",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Effect",
+      "difficulty": "easy",
+      "question": "Work function 3eV. Threshold frequency: (h=6.6×10⁻³⁴, 1eV=1.6×10⁻¹⁹)",
+      "options": [
+        "A) 7.3×10¹⁴ Hz",
+        "B) 3.6×10¹⁴ Hz",
+        "C) 4.8×10¹⁴ Hz",
+        "D) 1.2×10¹⁵ Hz"
+      ],
+      "correct_option": "A",
+      "explanation": "ν₀ = φ/h = (3×1.6×10⁻¹⁹)/(6.6×10⁻³⁴) ≈ 7.3×10¹⁴ Hz."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q37",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Effect",
+      "difficulty": "medium",
+      "question": "Light 8×10¹⁴Hz on metal φ=3.3eV. Max KE: (h=6.63×10⁻³⁴, e=1.6×10⁻¹⁹)",
+      "options": [
+        "A) 3.3 eV",
+        "B) 0 eV",
+        "C) 1 eV",
+        "D) 0.1 eV"
+      ],
+      "correct_option": "B",
+      "explanation": "E = hν = 3.315 eV ≈ φ. KE_max ≈ 0 eV."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q38",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Compton Effect",
+      "difficulty": "medium",
+      "question": "Compton wavelength of electron (h/mₑc):",
+      "options": [
+        "A) 0.024 nm",
+        "B) 0.24 nm",
+        "C) 0.0024 nm",
+        "D) 0.00024 nm"
+      ],
+      "correct_option": "C",
+      "explanation": "λ_c = h/(mₑc) = 2.43×10⁻¹² m = 0.0024 nm."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q39",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Effect",
+      "difficulty": "hard",
+      "question": "Metal threshold λ=400nm. Light λ=300nm. Stopping potential: (h=6.6×10⁻³⁴, c=3×10⁸, e=1.6×10⁻¹⁹)",
+      "options": [
+        "A) 1.0 V",
+        "B) 4.1 V",
+        "C) 2.1 V",
+        "D) 3.1 V"
+      ],
+      "correct_option": "A",
+      "explanation": "φ = 3.09 eV, E = 4.125 eV, KE = 1.035 eV. V₀ ≈ 1.0 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q40",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "de-Broglie Relation",
+      "difficulty": "hard",
+      "question": "Electron through 100V. de-Broglie wavelength: (h=6.63×10⁻³⁴, m=9.1×10⁻³¹, e=1.6×10⁻¹⁹)",
+      "options": [
+        "A) 0.123 Å",
+        "B) 12.3 Å",
+        "C) 0.0123 Å",
+        "D) 1.23 Å"
+      ],
+      "correct_option": "D",
+      "explanation": "λ = h/√(2meV) = 1.23×10⁻¹⁰ m = 1.23 Å."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q41",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Bohr Model",
+      "difficulty": "easy",
+      "question": "Hydrogen: energy of electron in n=2:",
+      "options": [
+        "A) -13.6 eV",
+        "B) -1.5 eV",
+        "C) -6.8 eV",
+        "D) -3.4 eV"
+      ],
+      "correct_option": "D",
+      "explanation": "E₂ = -13.6/4 = -3.4 eV."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q42",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Radioactivity",
+      "difficulty": "medium",
+      "question": "1000 nuclei initially. After 2 half-lives, decayed:",
+      "options": [
+        "A) 875",
+        "B) 750",
+        "C) 250",
+        "D) 500"
+      ],
+      "correct_option": "B",
+      "explanation": "Remaining = 250, decayed = 750."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q43",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Reactions",
+      "difficulty": "medium",
+      "question": "²³⁵U + n → ¹⁴⁰Ba + ⁹⁴Kr + 2n. Sum of mass numbers of products:",
+      "options": [
+        "A) 234",
+        "B) 235",
+        "C) 236",
+        "D) 237"
+      ],
+      "correct_option": "C",
+      "explanation": "140 + 94 + 2 = 236."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q44",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Radioactivity",
+      "difficulty": "hard",
+      "question": "Half-life 30 days. Time for 87.5% decay:",
+      "options": [
+        "A) 90 days",
+        "B) 120 days",
+        "C) 60 days",
+        "D) 30 days"
+      ],
+      "correct_option": "A",
+      "explanation": "12.5% remains → 3 half-lives → 90 days."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q45",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Physics",
+      "difficulty": "hard",
+      "question": "BE per nucleon maximum for:",
+      "options": [
+        "A) Uranium",
+        "B) Hydrogen",
+        "C) Iron",
+        "D) Helium"
+      ],
+      "correct_option": "C",
+      "explanation": "BE/nucleon peaks around Fe-56."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q46",
+      "topic": "Electronic Devices",
+      "sub_topic": "Semiconductor Diodes",
+      "difficulty": "easy",
+      "question": "Forward-biased p-n junction diode resistance:",
+      "options": [
+        "A) Very high",
+        "B) Very small",
+        "C) Infinite",
+        "D) Negative"
+      ],
+      "correct_option": "B",
+      "explanation": "Forward bias narrows depletion region, very small resistance."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q47",
+      "topic": "Electronic Devices",
+      "sub_topic": "Zener Diode",
+      "difficulty": "easy",
+      "question": "Zener diode used as:",
+      "options": [
+        "A) Voltage regulator",
+        "B) Amplifier",
+        "C) Oscillator",
+        "D) Rectifier"
+      ],
+      "correct_option": "A",
+      "explanation": "Zener operates in reverse breakdown for voltage regulation."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q48",
+      "topic": "Electronic Devices",
+      "sub_topic": "Transistor",
+      "difficulty": "medium",
+      "question": "n-p-n CE: base 20μA, β=50. Collector current:",
+      "options": [
+        "A) 2.5 mA",
+        "B) 10 mA",
+        "C) 0.4 mA",
+        "D) 1 mA"
+      ],
+      "correct_option": "D",
+      "explanation": "I_C = β × I_B = 50 × 20μA = 1 mA."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q49",
+      "topic": "Electronic Devices",
+      "sub_topic": "Logic Gates",
+      "difficulty": "medium",
+      "question": "Gate giving HIGH when at least one input HIGH:",
+      "options": [
+        "A) OR",
+        "B) AND",
+        "C) NOT",
+        "D) NAND"
+      ],
+      "correct_option": "A",
+      "explanation": "OR gate gives HIGH when one or more inputs HIGH."
+    },
+    {
+      "id": "CUET_PHY_2026_P15_L5B_Q50",
+      "topic": "Electronic Devices",
+      "sub_topic": "MOSFET",
+      "difficulty": "hard",
+      "question": "p-channel depletion MOSFET: V_th=-2V, V_GS=-1V. Operating region:",
+      "options": [
+        "A) Breakdown",
+        "B) Linear/ohmic",
+        "C) Cut-off",
+        "D) Saturation"
+      ],
+      "correct_option": "B",
+      "explanation": "V_GS > V_th, channel partially depleted, conducts in linear region."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P2_L2",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 2,
+  "difficulty_level": "2",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "In flowering plants, the transfer of pollen grains from anther to stigma of the same flower is called:",
+      "options": [
+        "A) Xenogamy",
+        "B) Geitonogamy",
+        "C) Autogamy",
+        "D) Allogamy"
+      ],
+      "correct_option": "C",
+      "explanation": "Autogamy is self-pollination within the same flower. Geitonogamy is between different flowers on the same plant. Xenogamy is cross-pollination between different plants."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "The outermost layer of the pollen grain that contains sporopollenin is the:",
+      "options": [
+        "A) Generative cell",
+        "B) Cytoplasm",
+        "C) Exine",
+        "D) Intine"
+      ],
+      "correct_option": "C",
+      "explanation": "The exine is the outermost layer composed of sporopollenin, one of the most resistant biological substances, protecting pollen from heat and microbial attack."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Which statement about the embryo sac of angiosperms is correct?",
+      "options": [
+        "A) 6 nuclei and 5 cells",
+        "B) 8 nuclei and 7 cells",
+        "C) 7 nuclei and 7 cells",
+        "D) 8 nuclei and 8 cells"
+      ],
+      "correct_option": "B",
+      "explanation": "The mature embryo sac contains 8 nuclei but only 7 cells: 3 antipodal cells, 2 synergids, 1 egg cell, and 1 central cell with 2 polar nuclei."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "In Arabidopsis, AGAMOUS gene specifies:",
+      "options": [
+        "A) Petal and stamen identity",
+        "B) Stamen and carpel identity",
+        "C) Sepal and petal identity",
+        "D) Sepal and carpel identity"
+      ],
+      "correct_option": "B",
+      "explanation": "In the ABC model, AGAMOUS (C-class) specifies stamen (C alone) and carpel (C+B) identity. APETALA1+APETALA2=sepal, APETALA3+PISTILLATA+APETALA1=petal."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "In human males, the primary site of testosterone production is:",
+      "options": [
+        "A) Sertoli cells",
+        "B) Adrenal cortex",
+        "C) Anterior pituitary",
+        "D) Leydig cells"
+      ],
+      "correct_option": "D",
+      "explanation": "Leydig cells between seminiferous tubules produce testosterone under LH stimulation. Sertoli cells support spermatogenesis but don't produce testosterone."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Which hormone is detected by pregnancy tests?",
+      "options": [
+        "A) Progesterone",
+        "B) Oxytocin",
+        "C) hCG",
+        "D) Estrogen"
+      ],
+      "correct_option": "C",
+      "explanation": "Pregnancy tests detect hCG produced by syncytiotrophoblast after implantation. hCG maintains the corpus luteum during early pregnancy."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "During spermatogenesis, chromosome number reduces from diploid to haploid in which phase?",
+      "options": [
+        "A) Meiosis",
+        "B) Spermiogenesis",
+        "C) Spermatocytogenesis",
+        "D) Spermiation"
+      ],
+      "correct_option": "A",
+      "explanation": "Meiosis reduces chromosome number from 46 to 23. Spermatocytogenesis is mitotic multiplication, spermiogenesis is differentiation of spermatids to spermatozoa."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "The human placental barrier between maternal and fetal blood consists of how many tissue layers?",
+      "options": [
+        "A) 3",
+        "B) 6",
+        "C) 2",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "The hemochorial placental barrier has 3 layers: syncytiotrophoblast, connective tissue, and fetal capillary endothelium."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Which contraceptive method protects against STIs?",
+      "options": [
+        "A) IUD",
+        "B) Oral pills",
+        "C) Tubal ligation",
+        "D) Male condom"
+      ],
+      "correct_option": "D",
+      "explanation": "Condoms provide a physical barrier against STIs including HIV, gonorrhea, and chlamydia. Other methods prevent pregnancy only."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Amniocentesis is typically performed at what gestational age?",
+      "options": [
+        "A) 20-24 weeks",
+        "B) 4-6 weeks",
+        "C) 10-12 weeks",
+        "D) 14-16 weeks"
+      ],
+      "correct_option": "D",
+      "explanation": "Amniocentesis is performed at 14-16 weeks when sufficient amniotic fluid and fetal cells are present for karyotyping."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "In codominance (RR x rr), the F2 phenotypic ratio is:",
+      "options": [
+        "A) 3:1",
+        "B) 1:2:1",
+        "C) 1:1",
+        "D) 9:3:3:1"
+      ],
+      "correct_option": "B",
+      "explanation": "F2 from Rr x Rr yields 1 RR : 2 Rr : 1 rr. In codominance, each genotype has a distinct phenotype, giving 1:2:1."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "Which cross produces a 1:1 genotypic ratio?",
+      "options": [
+        "A) TT x Tt",
+        "B) Tt x Tt",
+        "C) TT x tt",
+        "D) Tt x tt"
+      ],
+      "correct_option": "D",
+      "explanation": "Tt x tt produces 1 Tt : 1 tt (test cross). Tt x Tt gives 1:2:1. TT x Tt gives 1:1 (TT:Tt). TT x tt gives all Tt."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "Two linked genes have 20% recombination frequency. What percentage of gametes are parental type?",
+      "options": [
+        "A) 80%",
+        "B) 90%",
+        "C) 40%",
+        "D) 20%"
+      ],
+      "correct_option": "A",
+      "explanation": "Recombination frequency of 20% means 20% recombinant gametes. Therefore 80% are parental (non-recombinant) types."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "Which enzyme removes RNA primers during DNA replication?",
+      "options": [
+        "A) DNA ligase",
+        "B) Primase",
+        "C) DNA polymerase I",
+        "D) DNA polymerase III"
+      ],
+      "correct_option": "C",
+      "explanation": "DNA polymerase I has 5' to 3' exonuclease activity that removes RNA primers and fills gaps with DNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which is NOT a post-transcriptional modification?",
+      "options": [
+        "A) 5' capping",
+        "B) Amino acid addition",
+        "C) Poly-A tail",
+        "D) Splicing"
+      ],
+      "correct_option": "B",
+      "explanation": "Post-transcriptional modifications include 5' capping, polyadenylation, and splicing. Amino acid addition occurs during translation."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Codon AUG codes for:",
+      "options": [
+        "A) Methionine",
+        "B) Glycine",
+        "C) Alanine",
+        "D) Valine"
+      ],
+      "correct_option": "A",
+      "explanation": "AUG codes for methionine and serves as the start codon in both prokaryotes and eukaryotes."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which histone modification is associated with euchromatin?",
+      "options": [
+        "A) H3K27me3",
+        "B) CpG methylation",
+        "C) H3K9me3",
+        "D) Histone acetylation"
+      ],
+      "correct_option": "D",
+      "explanation": "Histone acetylation neutralizes positive charges, creating open chromatin (euchromatin). H3K9me3, H3K27me3, and DNA methylation mark heterochromatin."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Natural selection as evolution mechanism was proposed by:",
+      "options": [
+        "A) Lamarck",
+        "B) Malthus",
+        "C) Mendel",
+        "D) Darwin and Wallace"
+      ],
+      "correct_option": "D",
+      "explanation": "Darwin and Wallace independently proposed natural selection. Darwin published 'On the Origin of Species' in 1859."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Pelvic bones in whales are examples of:",
+      "options": [
+        "A) Homoplastic organs",
+        "B) Vestigial organs",
+        "C) Analogous organs",
+        "D) Homologous organs"
+      ],
+      "correct_option": "B",
+      "explanation": "Vestigial organs lost their function during evolution. Whale pelvic bones are remnants of terrestrial ancestors' hind limbs."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Which condition does NOT disturb Hardy-Weinberg equilibrium?",
+      "options": [
+        "A) No mutations",
+        "B) Genetic drift",
+        "C) Gene flow",
+        "D) Natural selection"
+      ],
+      "correct_option": "A",
+      "explanation": "Hardy-Weinberg requires no mutations, no gene flow, no drift, random mating, no selection. 'No mutations' is required for equilibrium."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Malaria is caused by Plasmodium and transmitted by:",
+      "options": [
+        "A) Culex",
+        "B) Female Anopheles",
+        "C) Tsetse fly",
+        "D) Aedes"
+      ],
+      "correct_option": "B",
+      "explanation": "Malaria is caused by Plasmodium species transmitted by female Anopheles mosquito. Dengue is viral (Aedes), filariasis is Wuchereria (Culex)."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Receiving pre-formed antibodies provides:",
+      "options": [
+        "A) Innate immunity",
+        "B) Cell-mediated immunity",
+        "C) Active immunity",
+        "D) Passive immunity"
+      ],
+      "correct_option": "D",
+      "explanation": "Passive immunity is acquired by transferring pre-formed antibodies (e.g., maternal IgG, antivenom)."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Anaphylactic shock is which type of hypersensitivity?",
+      "options": [
+        "A) Type II",
+        "B) Type I",
+        "C) Type IV",
+        "D) Type III"
+      ],
+      "correct_option": "B",
+      "explanation": "Type I (immediate) hypersensitivity mediated by IgE on mast cells causes histamine release and anaphylaxis within minutes."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which mechanism converts proto-oncogene to oncogene?",
+      "options": [
+        "A) Translocation",
+        "B) Gene amplification",
+        "C) Point mutation",
+        "D) All of these"
+      ],
+      "correct_option": "D",
+      "explanation": "Proto-oncogenes can be activated by gene amplification, point mutation, chromosomal translocation, or viral insertion."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Most abundant serum antibody that crosses placenta:",
+      "options": [
+        "A) IgG",
+        "B) IgM",
+        "C) IgA",
+        "D) IgE"
+      ],
+      "correct_option": "A",
+      "explanation": "IgG constitutes ~75% of serum antibodies and is the only immunoglobulin that crosses the placenta."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Swiss cheese holes are produced by:",
+      "options": [
+        "A) Lactobacillus",
+        "B) Penicillium",
+        "C) Propionibacterium",
+        "D) Saccharomyces"
+      ],
+      "correct_option": "C",
+      "explanation": "Propionibacterium freudenreichii converts lactic acid to propionic acid and CO2, creating Swiss cheese holes."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Methanogenesis in biogas is carried out by:",
+      "options": [
+        "A) Acetobacter",
+        "B) Methanogenic archaea",
+        "C) Lactobacillus",
+        "D) Clostridium"
+      ],
+      "correct_option": "B",
+      "explanation": "Methanogenic archaea (Methanobacterium, Methanococcus) convert acetate, CO2, and H2 to methane."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which is a cyanobacterial biofertilizer?",
+      "options": [
+        "A) Rhizobium",
+        "B) Azotobacter",
+        "C) Anabaena",
+        "D) Azospirillum"
+      ],
+      "correct_option": "C",
+      "explanation": "Anabaena is a cyanobacterium used as biofertilizer for rice. Rhizobium, Azospirillum, Azotobacter are bacteria."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "BOD reduction in secondary sewage treatment is by:",
+      "options": [
+        "A) Aerobic microbes",
+        "B) Chlorination",
+        "C) Sedimentation",
+        "D) Anaerobic digesters"
+      ],
+      "correct_option": "A",
+      "explanation": "Aerobic microorganisms in aeration tanks oxidize organic matter, reducing BOD by ~90%."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Infectious mononucleosis is caused by:",
+      "options": [
+        "A) CMV",
+        "B) HHV-6",
+        "C) HBV",
+        "D) EBV"
+      ],
+      "correct_option": "D",
+      "explanation": "EBV (Epstein-Barr virus) causes infectious mononucleosis, transmitted via saliva."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q31",
+      "topic": "Biotechnology",
+      "sub_topic": "Principles and Processes",
+      "difficulty": "easy",
+      "question": "Most Type II restriction enzymes produce:",
+      "options": [
+        "A) Loop ends",
+        "B) Sticky ends",
+        "C) Forked ends",
+        "D) Blunt ends"
+      ],
+      "correct_option": "B",
+      "explanation": "Type II enzymes (EcoRI, HindIII) cut palindromic sequences producing sticky ends that facilitate ligation."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q32",
+      "topic": "Biotechnology",
+      "sub_topic": "Principles and Processes",
+      "difficulty": "easy",
+      "question": "First restriction enzyme isolated was:",
+      "options": [
+        "A) HaeIII",
+        "B) BamHI",
+        "C) EcoRI",
+        "D) HindII"
+      ],
+      "correct_option": "D",
+      "explanation": "HindII from Haemophilus influenzae was the first restriction enzyme, isolated by Smith and Nathans (Nobel 1978)."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q33",
+      "topic": "Biotechnology",
+      "sub_topic": "Principles and Processes",
+      "difficulty": "medium",
+      "question": "Gel electrophoresis separates DNA by:",
+      "options": [
+        "A) Size",
+        "B) Sequence",
+        "C) GC content",
+        "D) Charge density"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA fragments are separated by size (length). Smaller fragments move faster through the gel matrix."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q34",
+      "topic": "Biotechnology",
+      "sub_topic": "Principles and Processes",
+      "difficulty": "medium",
+      "question": "Vector for cloning 300 kb fragments:",
+      "options": [
+        "A) pUC19",
+        "B) Phage lambda",
+        "C) BAC",
+        "D) Ti plasmid"
+      ],
+      "correct_option": "C",
+      "explanation": "BACs hold up to 300-350 kb. pUC19 ~10 kb, Ti ~25 kb, phage lambda ~20 kb."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q35",
+      "topic": "Biotechnology",
+      "sub_topic": "Applications",
+      "difficulty": "easy",
+      "question": "Effector molecule in RNAi:",
+      "options": [
+        "A) mRNA",
+        "B) tRNA",
+        "C) siRNA",
+        "D) rRNA"
+      ],
+      "correct_option": "C",
+      "explanation": "siRNA (21-23 nt duplex) guides RISC to complementary mRNA for degradation or translational repression."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q36",
+      "topic": "Biotechnology",
+      "sub_topic": "Applications",
+      "difficulty": "easy",
+      "question": "Early HIV detection (before antibodies):",
+      "options": [
+        "A) ELISA",
+        "B) Western blot",
+        "C) Rapid antigen",
+        "D) PCR viral load"
+      ],
+      "correct_option": "D",
+      "explanation": "PCR detects HIV RNA during the window period before antibodies are produced (3-12 weeks)."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q37",
+      "topic": "Biotechnology",
+      "sub_topic": "Applications",
+      "difficulty": "medium",
+      "question": "Recombinant insulin in E. coli used:",
+      "options": [
+        "A) lac promoter plasmid",
+        "B) Baculovirus",
+        "C) Retrovirus",
+        "D) Ti plasmid"
+      ],
+      "correct_option": "A",
+      "explanation": "Humulin used a lac promoter plasmid in E. coli. IPTG induces expression of insulin chains."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q38",
+      "topic": "Biotechnology",
+      "sub_topic": "Applications",
+      "difficulty": "easy",
+      "question": "Early cancer biomarker detection:",
+      "options": [
+        "A) Biopsy",
+        "B) Tumor markers",
+        "C) X-ray",
+        "D) CBC"
+      ],
+      "correct_option": "B",
+      "explanation": "Tumor markers (PSA, CA-125, AFP, CEA) are blood biomarkers for early cancer screening."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q39",
+      "topic": "Biotechnology",
+      "sub_topic": "Applications",
+      "difficulty": "hard",
+      "question": "CRISPR-Cas9 targeting uses:",
+      "options": [
+        "A) Histone interaction",
+        "B) Hydrophobic interaction",
+        "C) Base pairing",
+        "D) Antibody binding"
+      ],
+      "correct_option": "C",
+      "explanation": "sgRNA base-pairs with target DNA adjacent to PAM (NGG). Cas9 then creates a double-strand break."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q40",
+      "topic": "Biotechnology",
+      "sub_topic": "Applications",
+      "difficulty": "easy",
+      "question": "Bt toxin crop:",
+      "options": [
+        "A) Bt cotton",
+        "B) Roundup Ready",
+        "C) Golden rice",
+        "D) Flavr Savr"
+      ],
+      "correct_option": "A",
+      "explanation": "Bt cotton expresses Cry protein toxin killing bollworm larvae."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Maximum sustainable population is:",
+      "options": [
+        "A) Resistance",
+        "B) Biotic potential",
+        "C) Density",
+        "D) Carrying capacity"
+      ],
+      "correct_option": "D",
+      "explanation": "Carrying capacity (K) is the maximum population an environment can sustain."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "J-shaped growth curve is shown by:",
+      "options": [
+        "A) Whales",
+        "B) Bacteria in rich medium",
+        "C) Elephants",
+        "D) Oak trees"
+      ],
+      "correct_option": "B",
+      "explanation": "Bacteria show exponential (J-shaped) growth with unlimited resources. Large animals show logistic growth."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "In Lotka-Volterra, when prey increases:",
+      "options": [
+        "A) Predators decrease",
+        "B) Predators increase after lag",
+        "C) No change",
+        "D) Both extinct"
+      ],
+      "correct_option": "B",
+      "explanation": "Predator population increases after a time lag because they need time to reproduce."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "10% law of energy transfer was proposed by:",
+      "options": [
+        "A) Lindeman",
+        "B) Warming",
+        "C) Odum",
+        "D) Haeckel"
+      ],
+      "correct_option": "A",
+      "explanation": "Lindeman (1942) proposed that ~10% energy transfers between trophic levels."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "NPP equals:",
+      "options": [
+        "A) GPP",
+        "B) Net community productivity",
+        "C) Secondary productivity",
+        "D) GPP - R"
+      ],
+      "correct_option": "D",
+      "explanation": "NPP = GPP - R (respiration). Energy available to consumers after producer respiration."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Decomposition is fastest under:",
+      "options": [
+        "A) Hot, dry",
+        "B) Warm, moist, aerobic",
+        "C) Cold, wet",
+        "D) Cold, dry"
+      ],
+      "correct_option": "B",
+      "explanation": "Warm, moist, aerobic conditions maximize microbial decomposer activity."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Biodiversity term coined by:",
+      "options": [
+        "A) Carson",
+        "B) Myers",
+        "C) Rosen",
+        "D) Wilson"
+      ],
+      "correct_option": "C",
+      "explanation": "Walter G. Rosen coined 'biodiversity' in 1985. E.O. Wilson popularized it."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Which is NOT a level of biodiversity?",
+      "options": [
+        "A) Species",
+        "B) Ecological",
+        "C) Molecular",
+        "D) Genetic"
+      ],
+      "correct_option": "C",
+      "explanation": "Three levels: genetic, species, and ecological diversity. Molecular diversity is not recognized."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Edge effect results in:",
+      "options": [
+        "A) More species at boundaries",
+        "B) Better connectivity",
+        "C) Less microclimate change",
+        "D) Less invasives"
+      ],
+      "correct_option": "A",
+      "explanation": "Edge effect increases species richness at habitat boundaries due to overlap of adjacent species."
+    },
+    {
+      "id": "CUET_BIO_2026_P2_L2_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "Largest carbon reservoir:",
+      "options": [
+        "A) Atmosphere",
+        "B) Biomass",
+        "C) Ocean sediments/rocks",
+        "D) Fossil fuels"
+      ],
+      "correct_option": "C",
+      "explanation": "Ocean sediments/rocks hold ~65,000-100,000 GtC. Atmosphere ~800, biomass ~500, fossil fuels ~4,000 GtC."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P12_L2B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 12,
+  "difficulty_level": "2B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Central Problems: What to Produce",
+      "difficulty": "easy",
+      "question": "The problem of 'what to produce' in an economy involves deciding:",
+      "options": [
+        "A) Which goods and in what quantities should be produced with available resources",
+        "B) The geographic location for constructing heavy production units",
+        "C) The minimum retirement age for industrial laborers",
+        "D) The foreign exchange currency used for importing inputs"
+      ],
+      "correct_option": "A",
+      "explanation": "'What to produce' concerns selecting which goods to manufacture and determining the precise quantities of each."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Ordinal Utility Approach",
+      "difficulty": "easy",
+      "question": "Who among the following economists developed the Indifference Curve analysis as an ordinal measure of consumer utility?",
+      "options": [
+        "A) Alfred Marshall and A.C. Pigou",
+        "B) Adam Smith and David Ricardo",
+        "C) J.R. Hicks and R.G.D. Allen",
+        "D) Milton Friedman and Paul Samuelson"
+      ],
+      "correct_option": "C",
+      "explanation": "J.R. Hicks and R.G.D. Allen pioneered the ordinal indifference curve framework, moving beyond cardinal utility."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Shifts in Demand Curve",
+      "difficulty": "easy",
+      "question": "Which of the following events will cause a leftward shift in the market demand curve for a normal good?",
+      "options": [
+        "A) A rise in the own price of the good",
+        "B) A fall in the price of a close substitute good",
+        "C) An increase in consumer income",
+        "D) A successful national advertising campaign"
+      ],
+      "correct_option": "B",
+      "explanation": "When the price of a substitute falls, consumers switch away to the cheaper alternative, causing the demand curve for the given good to shift left."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "Goods that have close substitutes available in the market generally exhibit price elasticity of demand that is:",
+      "options": [
+        "A) Perfectly inelastic",
+        "B) Completely zero",
+        "C) Relatively elastic",
+        "D) Constant negative infinity"
+      ],
+      "correct_option": "C",
+      "explanation": "The availability of close substitutes makes consumers sensitive to price changes, resulting in more elastic demand."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q05",
+      "topic": "Production and Costs",
+      "sub_topic": "Short-run Production Concepts",
+      "difficulty": "easy",
+      "question": "Average Product of an input is calculated as:",
+      "options": [
+        "A) Change in Total Product divided by change in input",
+        "B) Total Product multiplied by variable factor units",
+        "C) Total Product divided by units of the variable factor employed",
+        "D) Total Fixed Cost divided by Total Product"
+      ],
+      "correct_option": "C",
+      "explanation": "Average Product (AP) represents output per unit of the variable input: \\( \\text{AP}_L = \\text{TP} / L \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q06",
+      "topic": "Production and Costs",
+      "sub_topic": "Fixed Costs",
+      "difficulty": "easy",
+      "question": "Which of the following costs must be paid even if the firm produces zero output in the short run?",
+      "options": [
+        "A) Expenses on raw materials",
+        "B) Wages paid to casual daily-wage laborers",
+        "C) Electricity fuel charges based on factory meter usage",
+        "D) Rent of factory land and building"
+      ],
+      "correct_option": "D",
+      "explanation": "Factory rent is a fixed cost that is incurred regardless of whether output is zero or positive in the short run."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q07",
+      "topic": "Production and Costs",
+      "sub_topic": "Total Revenue",
+      "difficulty": "easy",
+      "question": "Total Revenue (TR) earned from selling \\( Q \\) units at market price \\( P \\) is formulated as:",
+      "options": [
+        "A) \\( P \\times Q \\)",
+        "B) \\( P / Q \\)",
+        "C) \\( P + Q \\)",
+        "D) \\( \\Delta P / \\Delta Q \\)"
+      ],
+      "correct_option": "A",
+      "explanation": "Total Revenue is the total gross proceeds from sales, computed as price multiplied by quantity (\\( \\text{TR} = P \\times Q \\))."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q08",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Homogeneous Product",
+      "difficulty": "easy",
+      "question": "Under perfect competition, products sold by all competing firms are homogeneous, which means that goods are:",
+      "options": [
+        "A) Differentiated by trade brands and designer packaging",
+        "B) Produced with monopolistic patent restrictions",
+        "C) Sold at drastically varying discretionary prices",
+        "D) Perfect substitutes for one another across all sellers"
+      ],
+      "correct_option": "D",
+      "explanation": "A homogeneous product means identical physical attributes, quality, and appearance, making outputs of different firms perfect substitutes."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q09",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Supply Determinants",
+      "difficulty": "easy",
+      "question": "An improvement in the production technology of a commodity causes its market supply curve to:",
+      "options": [
+        "A) Shift to the right",
+        "B) Shift to the left",
+        "C) Become perfectly vertical",
+        "D) Remain completely static"
+      ],
+      "correct_option": "A",
+      "explanation": "Technological improvements lower per-unit production costs, increasing profitability and shifting the supply curve rightward."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q10",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Excess Supply Dynamics",
+      "difficulty": "easy",
+      "question": "When there is excess supply in a competitive market, competition among sellers causes the price to:",
+      "options": [
+        "A) Rise continuously",
+        "B) Become negative",
+        "C) Double immediately",
+        "D) Fall toward the equilibrium level"
+      ],
+      "correct_option": "D",
+      "explanation": "Surplus inventories create competitive price-cutting among sellers, bringing the market price down toward equilibrium."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q11",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Price Ceiling Mechanism",
+      "difficulty": "easy",
+      "question": "To prevent black marketing and ensure fair access under an official price ceiling, the government often introduces:",
+      "options": [
+        "A) Unrestricted open market bidding",
+        "B) De-licensing of luxury retailers",
+        "C) Corporate export subsidies",
+        "D) Rationing through fair price shops"
+      ],
+      "correct_option": "D",
+      "explanation": "Rationing coupons and fair price (PDS) shops distribute the scarce supply equitably when a price ceiling creates a shortage."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q12",
+      "topic": "National Income Accounting",
+      "sub_topic": "Final Consumer Goods",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of a non-durable consumer good?",
+      "options": [
+        "A) Television set",
+        "B) Family motor car",
+        "C) Refrigerator",
+        "D) Fresh dairy milk"
+      ],
+      "correct_option": "D",
+      "explanation": "Fresh milk is consumed in a single act of consumption and has a short shelf life, making it a non-durable consumer good."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q13",
+      "topic": "National Income Accounting",
+      "sub_topic": "National Income Conversion",
+      "difficulty": "easy",
+      "question": "Gross Domestic Product (GDP) differs from Net Domestic Product (NDP) by the amount of:",
+      "options": [
+        "A) Net Factor Income from Abroad",
+        "B) Net Indirect Taxes",
+        "C) Consumption of Fixed Capital (Depreciation)",
+        "D) Transfer Payments"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\text{GDP} - \\text{Depreciation} = \\text{NDP} \\). Gross aggregates include depreciation while net aggregates exclude it."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q14",
+      "topic": "National Income Accounting",
+      "sub_topic": "Income Method Components",
+      "difficulty": "easy",
+      "question": "Which of the following factor earnings is received by owners of natural land resources?",
+      "options": [
+        "A) Rent",
+        "B) Interest",
+        "C) Wages",
+        "D) Profit"
+      ],
+      "correct_option": "A",
+      "explanation": "Rent is the factor reward earned by owners of land and other natural resources."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q15",
+      "topic": "Money and Banking",
+      "sub_topic": "Fiat Money",
+      "difficulty": "easy",
+      "question": "Money that is backed by legal government decree and must be accepted as payment for all debts within a country is known as:",
+      "options": [
+        "A) Commodity money",
+        "B) Near money",
+        "C) Fiduciary money",
+        "D) Fiat money (legal tender)"
+      ],
+      "correct_option": "D",
+      "explanation": "Fiat money derives its authority from government decree, serving as legal tender without being backed by physical gold."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q16",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Banker to Government",
+      "difficulty": "easy",
+      "question": "In its capacity as 'Banker to the Government', the Reserve Bank of India:",
+      "options": [
+        "A) Maintains government banking accounts and manages public debt",
+        "B) Provides unsecured personal overdrafts to private citizens",
+        "C) Directly votes on legislative budgetary expenditures",
+        "D) Audits corporate income tax returns"
+      ],
+      "correct_option": "A",
+      "explanation": "As banker to the government, the RBI manages public treasury accounts, receipts, payments, and issues public loans."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q17",
+      "topic": "Money and Banking",
+      "sub_topic": "Reverse Repo Rate",
+      "difficulty": "easy",
+      "question": "The rate at which the Reserve Bank of India borrows funds from commercial banks on a short-term basis is called the:",
+      "options": [
+        "A) Bank Rate",
+        "B) Marginal Standing Rate",
+        "C) Statutory Liquidity Ratio",
+        "D) Reverse Repo Rate"
+      ],
+      "correct_option": "D",
+      "explanation": "The Reverse Repo Rate is the interest rate at which commercial banks park their surplus liquidity with the central bank."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q18",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Average Propensity to Consume",
+      "difficulty": "easy",
+      "question": "The Average Propensity to Consume (APC) is defined as:",
+      "options": [
+        "A) The ratio of total consumption to total income (\\( C / Y \\))",
+        "B) The ratio of change in consumption to change in income (\\( \\Delta C / \\Delta Y \\))",
+        "C) Total savings divided by total disposable income",
+        "D) The percentage change in investment relative to GDP"
+      ],
+      "correct_option": "A",
+      "explanation": "APC represents the fraction of total income devoted to consumption spending (\\( \\text{APC} = C / Y \\))."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q19",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Ex-ante and Ex-post Concepts",
+      "difficulty": "easy",
+      "question": "The planned or intended level of investment that firms desire to undertake during an accounting year is called:",
+      "options": [
+        "A) Ex-post investment",
+        "B) Actual realized investment",
+        "C) Ex-ante investment",
+        "D) Induced depreciation"
+      ],
+      "correct_option": "C",
+      "explanation": "Ex-ante investment refers to planned or intended investment spending; ex-post investment is actual realized investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q20",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Revenue Deficit",
+      "difficulty": "easy",
+      "question": "Revenue Deficit in the government budget occurs when:",
+      "options": [
+        "A) Capital expenditure exceeds capital receipts",
+        "B) Revenue expenditure exceeds revenue receipts",
+        "C) Fiscal deficit equals interest payments",
+        "D) Tax receipts exceed administrative expenditure"
+      ],
+      "correct_option": "B",
+      "explanation": "Revenue Deficit = Revenue Expenditure - Revenue Receipts."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q21",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Capital Receipts",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of a debt-creating capital receipt?",
+      "options": [
+        "A) Proceeds from public disinvestment",
+        "B) Recovery of developmental loans",
+        "C) Borrowings raised by the government through market treasury bonds",
+        "D) Dividends from public sector enterprises"
+      ],
+      "correct_option": "C",
+      "explanation": "Market borrowings create a future repayment obligation (debt), making them debt-creating capital receipts."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q22",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Current Account Components",
+      "difficulty": "easy",
+      "question": "Invisible trade in the Current Account of the Balance of Payments refers to trade in:",
+      "options": [
+        "A) Agricultural foodgrains and petroleum",
+        "B) Gold bullion and silver bars",
+        "C) Heavy capital plant and machinery",
+        "D) Non-factor and factor services, income, and transfer payments"
+      ],
+      "correct_option": "D",
+      "explanation": "Invisibles comprise export and import of services (banking, shipping, software), factor income, and unilateral transfers."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q23",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Devaluation vs Depreciation",
+      "difficulty": "easy",
+      "question": "A deliberate, official downward adjustment in the value of the domestic currency made by the government under a fixed exchange rate system is termed:",
+      "options": [
+        "A) Currency depreciation",
+        "B) Currency appreciation",
+        "C) Currency devaluation",
+        "D) Currency revaluation"
+      ],
+      "correct_option": "C",
+      "explanation": "Devaluation is an official reduction in the domestic currency value under fixed exchange rates; depreciation is market-driven under floating rates."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q24",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Colonial Trade Pattern",
+      "difficulty": "easy",
+      "question": "Under British colonial rule, the commodity composition of India's foreign trade was transformed so that India became:",
+      "options": [
+        "A) An exporter of finished manufactured capital machinery",
+        "B) An exporter of primary raw materials and an importer of finished industrial consumer goods",
+        "C) A self-reliant industrial exporter to Europe",
+        "D) An exclusive importer of raw agricultural staples"
+      ],
+      "correct_option": "B",
+      "explanation": "Colonial policies turned India into an exporter of primary goods (cotton, jute, indigo) and an importer of British factory products."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q25",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Planning Commission",
+      "difficulty": "easy",
+      "question": "The Planning Commission of India was established in March 1950 under the chairmanship of:",
+      "options": [
+        "A) Dr. B.R. Ambedkar",
+        "B) Sardar Vallabhbhai Patel",
+        "C) Jawaharlal Nehru",
+        "D) C. Rajagopalachari"
+      ],
+      "correct_option": "C",
+      "explanation": "Prime Minister Jawaharlal Nehru was the first Chairman of the Planning Commission, established in March 1950."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q26",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Land Reforms Objectives",
+      "difficulty": "easy",
+      "question": "The primary objective of tenancy reforms and the abolition of intermediaries (zamindars) after independence was to:",
+      "options": [
+        "A) Transfer ownership of land directly to the actual tiller to enhance equity and incentive",
+        "B) Collect higher land revenue taxes for urban industrial factories",
+        "C) Force peasant households into municipal handloom mills",
+        "D) Convert agricultural lands into commercial golf courses"
+      ],
+      "correct_option": "A",
+      "explanation": "Abolishing intermediaries aimed to give the actual tiller property rights, removing feudal exploitation and incentivizing investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q27",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Crisis of 1991",
+      "difficulty": "easy",
+      "question": "In early 1991, India's foreign exchange reserves plummeted to an alarming level that was barely sufficient to finance imports for:",
+      "options": [
+        "A) About two weeks",
+        "B) About six months",
+        "C) Over one full year",
+        "D) Three full years"
+      ],
+      "correct_option": "A",
+      "explanation": "Foreign exchange reserves fell below $1 billion in mid-1991, enough for roughly two weeks of essential imports, triggering emergency reforms."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q28",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Globalisation",
+      "difficulty": "easy",
+      "question": "Globalisation refers to the integration of the domestic national economy with the global world economy through:",
+      "options": [
+        "A) Complete prohibition of foreign cultural media",
+        "B) Dismantling all private multi-national corporations",
+        "C) Erecting prohibitive customs duties on foreign software",
+        "D) Free cross-border flow of goods, services, capital, and technology"
+      ],
+      "correct_option": "D",
+      "explanation": "Globalisation involves opening national borders to trade, investment, information, and financial capital flows."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q29",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Human Capital Institutions",
+      "difficulty": "easy",
+      "question": "The statutory apex organization that designs school curricula and publishes textbooks at the national level in India is the:",
+      "options": [
+        "A) UGC",
+        "B) AICTE",
+        "C) NCERT",
+        "D) ICMR"
+      ],
+      "correct_option": "C",
+      "explanation": "NCERT (National Council of Educational Research and Training) is the national body responsible for school curriculum and textbooks."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q30",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Human Development Index",
+      "difficulty": "easy",
+      "question": "The Human Development Index (HDI) published annually by the United Nations Development Programme (UNDP) measures achievement in:",
+      "options": [
+        "A) Life expectancy, educational attainment, and per capita gross national income",
+        "B) Total foreign exchange reserves and national gold holdings",
+        "C) Military expenditure and armed forces headcount",
+        "D) Volume of annual merchandise exports exclusively"
+      ],
+      "correct_option": "A",
+      "explanation": "HDI is a composite geometric index combining indicators for health (life expectancy), education (mean & expected schooling), and income (GNI per capita)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q31",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Percentage Method of Elasticity",
+      "difficulty": "medium",
+      "question": "If price elasticity of demand is -2.0 and the price of the commodity rises by 10%, what will be the percentage change in quantity demanded?",
+      "options": [
+        "A) Quantity demanded increases by 20%",
+        "B) Quantity demanded decreases by 5%",
+        "C) Quantity demanded decreases by 20%",
+        "D) Quantity demanded remains completely unchanged"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\% \\Delta Q = E_d \\times \\% \\Delta P = -2.0 \\times (+10\\%) = -20\\% \\). Quantity demanded falls by 20%."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q32",
+      "topic": "Production and Costs",
+      "sub_topic": "Relationship between TC, TFC, and TVC",
+      "difficulty": "medium",
+      "question": "A firm's Total Cost at zero level of output is \u20b9250. When output is 4 units, Total Cost is \u20b9650. What is the Total Variable Cost at 4 units of output?",
+      "options": [
+        "A) \u20b9250",
+        "B) \u20b9900",
+        "C) \u20b9650",
+        "D) \u20b9400"
+      ],
+      "correct_option": "D",
+      "explanation": "At zero output, \\( \\text{TC} = \\text{TFC} = \u20b9250 \\). At 4 units: \\( \\text{TVC} = \\text{TC} - \\text{TFC} = 650 - 250 = \u20b9400 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q33",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Price Elasticity of Supply Calculation",
+      "difficulty": "medium",
+      "question": "When the price of a good increases from \u20b910 to \u20b912, a producer increases supply from 50 units to 65 units. What is the price elasticity of supply (\\( E_s \\))?",
+      "options": [
+        "A) 1.0",
+        "B) 1.5",
+        "C) 2.0",
+        "D) 2.5"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\% \\Delta P = (2 / 10) \\times 100 = 20\\% \\). \\( \\% \\Delta Q_s = (15 / 50) \\times 100 = 30\\% \\). \\( E_s = 30 / 20 = 1.5 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q34",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Shifts in Market Demand",
+      "difficulty": "medium",
+      "question": "If market supply is perfectly inelastic (vertical) and market demand shifts to the left, what will happen to equilibrium price and equilibrium quantity?",
+      "options": [
+        "A) Price will fall, while quantity remains strictly unchanged",
+        "B) Quantity will fall, while price remains strictly unchanged",
+        "C) Both price and quantity will fall",
+        "D) Price will rise, while quantity decreases"
+      ],
+      "correct_option": "A",
+      "explanation": "With a vertical supply curve, shifts in demand affect only the equilibrium price; a leftward demand shift lowers price while quantity is fixed."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q35",
+      "topic": "National Income Accounting",
+      "sub_topic": "Methods of Calculating National Income",
+      "difficulty": "medium",
+      "question": "Which of the following aggregates is estimated by adding private final consumption expenditure, government final consumption expenditure, gross domestic capital formation, and net exports?",
+      "options": [
+        "A) Gross Domestic Product at Market Price (\\( \\text{GDP}_{MP} \\))",
+        "B) Net National Product at Factor Cost (\\( \\text{NNP}_{FC} \\))",
+        "C) Net Domestic Product at Market Price (\\( \\text{NDP}_{MP} \\))",
+        "D) Gross National Product at Factor Cost (\\( \\text{GNP}_{FC} \\))"
+      ],
+      "correct_option": "A",
+      "explanation": "Under the expenditure method: \\( \\text{GDP}_{MP} = C + G + I + (X - M) \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q36",
+      "topic": "National Income Accounting",
+      "sub_topic": "Non-monetary Exchanges",
+      "difficulty": "medium",
+      "question": "Why does the presence of a large non-monetary subsistence sector cause GDP to underestimate the true economic performance of a developing nation?",
+      "options": [
+        "A) Because subsistence transactions are subject to excessive corporate tax penalties",
+        "B) Because non-monetary exchanges are recorded only in the foreign capital account",
+        "C) Because subsistence farmers inflate market consumer prices artificially",
+        "D) Because unpriced barter transactions and kitchen gardening are excluded from national income accounts due to lack of market valuation data"
+      ],
+      "correct_option": "D",
+      "explanation": "Goods produced and consumed within rural households (subsistence farming, household labor) lack monetary market prices and are omitted from official GDP."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q37",
+      "topic": "Money and Banking",
+      "sub_topic": "Credit Creation Formula",
+      "difficulty": "medium",
+      "question": "If the Legal Reserve Requirement is 10% and the banking system receives initial fresh cash deposits of \u20b910,000 crore, the total amount of fresh money created through loans is:",
+      "options": [
+        "A) \u20b990,000 crore",
+        "B) \u20b91,00,000 crore",
+        "C) \u20b910,000 crore",
+        "D) \u20b950,000 crore"
+      ],
+      "correct_option": "A",
+      "explanation": "Total deposits = \\( 10000 \\times (1 / 0.10) = \u20b91,00,000 \\) crore. Loans/credit created = Total deposits - Initial cash reserves = \\( 100000 - 10000 = \u20b990,000 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q38",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Savings Function Intercept",
+      "difficulty": "medium",
+      "question": "If the consumption function of an economy is \\( C = 50 + 0.7Y \\), what is the value of dis-saving when national income (\\( Y \\)) is zero?",
+      "options": [
+        "A) \u20b950 crore",
+        "B) \u20b9-50 crore",
+        "C) \u20b90",
+        "D) \u20b970 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "When \\( Y = 0 \\), \\( C = 50 \\), so \\( S = Y - C = 0 - 50 = \u20b9-50 \\) crore (representing autonomous dissaving)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q39",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand and Output",
+      "difficulty": "medium",
+      "question": "When Aggregate Demand is less than Aggregate Supply at the full employment level of income, the economy experiences:",
+      "options": [
+        "A) An inflationary gap and overfull employment",
+        "B) Complete depletion of inventory reserves",
+        "C) Accelerated demand-pull inflation",
+        "D) A deflationary gap and underemployment equilibrium"
+      ],
+      "correct_option": "D",
+      "explanation": "Deficient demand generates a deflationary gap, causing involuntary unemployment and settling the economy at an underemployment equilibrium."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q40",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Measures of Deficit",
+      "difficulty": "medium",
+      "question": "If the Fiscal Deficit of a government is \u20b960,000 crore and the Primary Deficit is \u20b915,000 crore, how much is the government spending on Interest Payments?",
+      "options": [
+        "A) \u20b915,000 crore",
+        "B) \u20b945,000 crore",
+        "C) \u20b960,000 crore",
+        "D) \u20b975,000 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments \\( \\implies 15000 = 60000 - \\text{Interest} \\implies \\text{Interest} = 60000 - 15000 = \u20b945,000 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q41",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Foreign Exchange Demand",
+      "difficulty": "medium",
+      "question": "Other factors being equal, why does the demand for foreign currency rise when its price (exchange rate) falls?",
+      "options": [
+        "A) Because domestic goods become more attractive to international buyers",
+        "B) Because foreign goods become cheaper in terms of domestic currency, encouraging higher imports",
+        "C) Because the central bank forces commercial exporters to surrender currency",
+        "D) Because domestic citizens stop traveling abroad on tourism"
+      ],
+      "correct_option": "B",
+      "explanation": "A lower exchange rate makes foreign goods and services cheaper for domestic residents, inducing greater imports and higher demand for foreign exchange."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q42",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Industrial Policy 1956 Schedules",
+      "difficulty": "medium",
+      "question": "Under Schedule A of the Industrial Policy Resolution of 1956, how many strategic industries were reserved exclusively for the state?",
+      "options": [
+        "A) 12 industries",
+        "B) 29 industries",
+        "C) 21 industries",
+        "D) 17 industries"
+      ],
+      "correct_option": "D",
+      "explanation": "Schedule A reserved 17 vital and core industries (such as defense, atomic energy, iron and steel, railways) exclusively for the public sector."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q43",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Outsourcing in India",
+      "difficulty": "medium",
+      "question": "India has emerged as one of the world's most favored destinations for business process outsourcing (BPO) primarily due to:",
+      "options": [
+        "A) Prohibitive customs tariffs on domestic software hardware",
+        "B) Availability of skilled, English-speaking manpower at competitive wage costs",
+        "C) Complete statutory nationalization of international call centers",
+        "D) High transportation shipping freight concessions"
+      ],
+      "correct_option": "B",
+      "explanation": "India's large pool of educated, English-literate IT and service professionals available at lower wages makes it a global outsourcing hub."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Informalization of Workforce",
+      "difficulty": "medium",
+      "question": "What is the defining feature of the 'informalization' of the Indian workforce?",
+      "options": [
+        "A) Movement of workers from unorganized informal jobs to formal salaried union employment",
+        "B) Growth of employment opportunities primarily in unorganized enterprises without social security protection",
+        "C) Universal provision of statutory medical coverage across all casual farm workers",
+        "D) Elimination of private self-employment in rural agriculture"
+      ],
+      "correct_option": "B",
+      "explanation": "Informalization describes the structural pattern where job creation is concentrated in unorganized units lacking labor laws and social security."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q45",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Special Economic Zones",
+      "difficulty": "medium",
+      "question": "To foster export-led industrial growth, which neighbouring country established Special Economic Zones (SEZs) in coastal provinces as early as 1980?",
+      "options": [
+        "A) Pakistan",
+        "B) Sri Lanka",
+        "C) China",
+        "D) Bangladesh"
+      ],
+      "correct_option": "C",
+      "explanation": "China established its first Special Economic Zones (such as Shenzhen, Zhuhai, and Shantou) in 1980 to attract foreign direct investment and boost exports."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q46",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer Budget Constraints",
+      "difficulty": "hard",
+      "question": "A consumer has a budget of \u20b980 to purchase goods X and Y, priced at \u20b98 and \u20b910 respectively. Which of the following consumption bundles lies strictly outside the consumer's feasible budget set?",
+      "options": [
+        "A) (5 units of X, 4 units of Y)",
+        "B) (0 units of X, 8 units of Y)",
+        "C) (10 units of X, 0 units of Y)",
+        "D) (6 units of X, 5 units of Y)"
+      ],
+      "correct_option": "D",
+      "explanation": "Bundle D costs: \\( 6(8) + 5(10) = 48 + 50 = \u20b998 \\), which exceeds the consumer's budget of \u20b980, making it non-feasible."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q47",
+      "topic": "National Income Accounting",
+      "sub_topic": "Operating Surplus Calculation",
+      "difficulty": "hard",
+      "question": "From the following factor income data, calculate the Operating Surplus:\n- Rent = \u20b9400 crore\n- Wages and Salaries = \u20b91,200 crore\n- Interest = \u20b9350 crore\n- Undistributed Profits = \u20b9100 crore\n- Corporate Tax = \u20b980 crore\n- Dividends = \u20b9120 crore\n\nOperating Surplus equals:",
+      "options": [
+        "A) \u20b9850 crore",
+        "B) \u20b9950 crore",
+        "C) \u20b91,050 crore",
+        "D) \u20b91,250 crore"
+      ],
+      "correct_option": "C",
+      "explanation": "Total Profit = Corporate Tax + Dividends + Retained Earnings = \\( 80 + 120 + 100 = \u20b9300 \\) crore. Operating Surplus = Rent + Interest + Profit = \\( 400 + 350 + 300 = \u20b91,050 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q48",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Keynesian Income Determination",
+      "difficulty": "hard",
+      "question": "In a two-sector model, the consumption function is \\( C = 300 + 0.6Y \\). If the planned investment is \u20b9500 crore, what is the equilibrium level of income, and what is the saving at equilibrium?",
+      "options": [
+        "A) \\( Y = \u20b92,000 \\text{ crore}; S = \u20b9500 \\text{ crore} \\)",
+        "B) \\( Y = \u20b91,800 \\text{ crore}; S = \u20b9400 \\text{ crore} \\)",
+        "C) \\( Y = \u20b92,000 \\text{ crore}; S = \u20b9600 \\text{ crore} \\)",
+        "D) \\( Y = \u20b92,500 \\text{ crore}; S = \u20b9500 \\text{ crore} \\)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Y = 300 + 0.6Y + 500 \\implies 0.4Y = 800 \\implies Y = \u20b92,000 \\) crore. At equilibrium, planned saving equals planned investment: \\( S = I = \u20b9500 \\) crore (or \\( S = 2000 - (300 + 0.6 \\times 2000) = 2000 - 1500 = \u20b9500 \\) crore)."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q49",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Disinvestment vs Revenue Receipts",
+      "difficulty": "hard",
+      "question": "Statement 1: Disinvestment proceeds obtained from selling shares in Public Sector Undertakings are classified as Capital Receipts because they reduce government financial assets.\nStatement 2: Dividend earnings received from public sector commercial enterprises are classified as Capital Receipts because they represent profit transfers from public assets.\n\nWhich of the following is correct?",
+      "options": [
+        "A) Statement 1 is true, but Statement 2 is false",
+        "B) Statement 2 is true, but Statement 1 is false",
+        "C) Both Statement 1 and Statement 2 are true",
+        "D) Both Statement 1 and Statement 2 are false"
+      ],
+      "correct_option": "A",
+      "explanation": "Statement 1 is true (disinvestment reduces financial assets, hence capital receipt). Statement 2 is false because dividends are regular non-tax revenue receipts that neither reduce assets nor create liabilities."
+    },
+    {
+      "id": "CUET_ECO_2026_P12_L2B_Q50",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Maternal Mortality and Health Comparison",
+      "difficulty": "hard",
+      "question": "When assessing human development metrics across India, China, and Pakistan, which country has achieved the lowest Maternal Mortality Ratio (MMR per 1,00,000 live births)?",
+      "options": [
+        "A) Pakistan",
+        "B) India",
+        "C) China",
+        "D) India and Pakistan have identically lower MMR than China"
+      ],
+      "correct_option": "C",
+      "explanation": "China's maternal mortality ratio is significantly lower (approx. 20-30 per lakh births) compared to India (approx. 100-130) and Pakistan (approx. 140-180), reflecting universal public healthcare investments."
+    }
+  ]
+}

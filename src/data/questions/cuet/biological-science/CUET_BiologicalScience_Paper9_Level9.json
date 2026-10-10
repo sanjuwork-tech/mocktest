@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P9_L9",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 9,
+  "difficulty_level": "9",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The human placenta is classified as hemochorial because:",
+      "options": [
+        "A) It contains six tissue layers separating blood supplies",
+        "B) Maternal blood bathes chorionic villi directly, with fetal capillaries separated by trophoblast layers",
+        "C) Blood flows only through umbilical arteries",
+        "D) Maternal and fetal blood mix freely"
+      ],
+      "correct_option": "B",
+      "explanation": "Hemochorial placentation means maternal blood directly contacts syncytiotrophoblast. Fetal capillaries are separated by syncytiotrophoblast, cytotrophoblast, connective tissue, and endothelium."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Lactogenesis stage II (milk secretion onset) at parturition is triggered by:",
+      "options": [
+        "A) Increased oxytocin from anterior pituitary",
+        "B) Increased prolactin alone",
+        "C) Rapid drop in progesterone after placental expulsion, allowing prolactin to stimulate milk protein synthesis",
+        "D) Decreased estrogen levels only"
+      ],
+      "correct_option": "C",
+      "explanation": "High progesterone during pregnancy inhibits milk production. After delivery, progesterone drops rapidly, allowing prolactin to stimulate lactose and milk protein synthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Incompatibility in distylous plants (primrose) involves:",
+      "options": [
+        "A) Morphological heteromorphism with reciprocal herkogamy and incompatibility between pin and thrum morphs",
+        "B) Wind pollination exclusively",
+        "C) Cleistogamous flower production",
+        "D) Only molecular S-allele recognition"
+      ],
+      "correct_option": "A",
+      "explanation": "Distyly involves two morphs: pin (long style, short stamens) and thrum (short style, long stamens). Mechanical separation and incompatibility prevent self-fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Ovarian hyperstimulation syndrome (OHSS) is a complication of:",
+      "options": [
+        "A) Endometrial biopsy",
+        "B) Controlled ovarian hyperstimulation during IVF, where hCG triggers excessive VEGF from multiple follicles",
+        "C) Tubal ligation",
+        "D) Intrauterine device placement"
+      ],
+      "correct_option": "B",
+      "explanation": "OHSS occurs when hCG stimulates multiple corpora lutea to produce VEGF, causing vascular permeability, ascites, and pleural effusion."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Fetal hemoglobin (HbF, α2γ2) has higher oxygen affinity than adult hemoglobin because:",
+      "options": [
+        "A) It lacks heme groups",
+        "B) It cannot bind oxygen",
+        "C) Gamma chains have lower 2,3-BPG binding, reducing Bohr effect and favoring oxygen uptake from maternal blood",
+        "D) It contains four beta chains"
+      ],
+      "correct_option": "C",
+      "explanation": "HbF has lower affinity for 2,3-BPG compared to adult HbA. Lower BPG binding increases oxygen affinity, facilitating oxygen transfer from maternal HbA across the placenta."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Human chorionic gonadotropin shares structural similarity with LH because both:",
+      "options": [
+        "A) Act only on Sertoli cells",
+        "B) Are steroid hormones",
+        "C) Bind the same receptor (LHCGR) on the corpus luteum, but hCG has longer half-life due to C-terminal peptide",
+        "D) Are produced by anterior pituitary"
+      ],
+      "correct_option": "C",
+      "explanation": "hCG and LH share identical alpha subunits and similar beta subunits. hCG has additional sialic acid residues on its C-terminal peptide, extending its half-life to ~24 hours."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Endosperm development in Arabidopsis proceeds through which cellular phases?",
+      "options": [
+        "A) Syncytial → cellularization → differentiation phases, regulated by FIS-class Polycomb group genes",
+        "B) Only nuclear division",
+        "C) Only cell expansion",
+        "D) Direct cellularization without syncytium"
+      ],
+      "correct_option": "A",
+      "explanation": "Endosperm development involves syncytial phase (nuclear divisions without cytokinesis), cellularization (cell wall formation), and differentiation. FIS genes regulate proper timing."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "HPV oncogenesis involves viral integration causing disruption of E2 which leads to:",
+      "options": [
+        "A) Activation of interferon response",
+        "B) Enhanced viral replication",
+        "C) Stabilization of p53",
+        "D) Loss of E2-mediated repression of E6/E7, causing p53 and Rb degradation"
+      ],
+      "correct_option": "D",
+      "explanation": "HPV E2 normally represses E6/E7. Viral integration disrupts E2, causing overexpression of E6 (degrades p53) and E7 (inactivates Rb), driving cervical carcinogenesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Decidualization of endometrial stromal cells involves:",
+      "options": [
+        "A) Only vascular remodeling",
+        "B) Progesterone-induced transformation of stromal fibroblasts into secretory decidual cells with increased prolactin and IGFBP-1",
+        "C) Estrogen-induced proliferation of epithelial cells",
+        "D) Immune cell infiltration alone"
+      ],
+      "correct_option": "B",
+      "explanation": "Decidualization involves progesterone-induced differentiation of endometrial stromal fibroblasts into enlarged, glycogen-rich decidual cells secreting prolactin, IGFBP-1, and cytokines."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "During pollen tube guidance, which attractant peptides are secreted by synergids?",
+      "options": [
+        "A) Gibberellins",
+        "B) Auxin molecules",
+        "C) S-RNases",
+        "D) LURE peptides (defensin-like cysteine-rich proteins) directing pollen tube growth toward the embryo sac"
+      ],
+      "correct_option": "D",
+      "explanation": "Synergid cells secrete LURE peptides that act as chemoattractants guiding pollen tubes to the embryo sac through the filiform apparatus."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "In eukaryotes, promoter-proximal elements (CAAT box, GC box) are located:",
+      "options": [
+        "A) Within ~200 bp upstream of transcription start site, enhancing promoter activity",
+        "B) Downstream of transcription start site",
+        "C) At the polyadenylation signal",
+        "D) Only in intronic sequences"
+      ],
+      "correct_option": "A",
+      "explanation": "Promoter-proximal elements (CAAT box at ~-80, GC box) are within ~200 bp upstream of transcription start site, binding transcription factors that increase promoter efficiency."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "DNA polymerase proofreading activity is mediated by its:",
+      "options": [
+        "A) 3'→5' exonuclease activity removing mismatched nucleotides during replication",
+        "B) 5'→3' polymerase activity",
+        "C) Primase domain",
+        "D) Helicase domain"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA polymerase has 3'→5' exonuclease proofreading activity. When mismatched base is incorporated, polymerase pauses, excises incorrect nucleotide, then resumes."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Sex-limited inheritance differs from sex-linked because sex-limited traits:",
+      "options": [
+        "A) Always skip generations",
+        "B) Are autosomal traits expressed in only one sex due to anatomical/hormonal differences",
+        "C) Are located on sex chromosomes",
+        "D) Are only expressed in males"
+      ],
+      "correct_option": "B",
+      "explanation": "Sex-limited traits are autosomal but expressed in only one sex due to anatomical/hormonal differences. Male-pattern baldness is autosomal dominant but expressed differently in males vs. females."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "The molecular clock hypothesis assumes that:",
+      "options": [
+        "A) No mutations occur in non-coding regions",
+        "B) Mutation rates vary dramatically",
+        "C) Neutral mutations accumulate at a relatively constant rate over time in a given lineage",
+        "D) All mutations are strongly selected"
+      ],
+      "correct_option": "C",
+      "explanation": "The molecular clock proposes molecular changes accumulate at a relatively constant rate, allowing estimation of divergence times from sequence differences."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Disruptive selection differs from stabilizing selection because disruptive selection:",
+      "options": [
+        "A) Favors extreme phenotypes over intermediates, potentially driving divergence",
+        "B) Favors intermediate phenotypes",
+        "C) Always leads to extinction",
+        "D) Eliminates all variation"
+      ],
+      "correct_option": "A",
+      "explanation": "Disruptive selection favors both extreme phenotypes over intermediates, maintaining variation and potentially driving sympatric speciation."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Transcription-coupled repair preferentially repairs:",
+      "options": [
+        "A) Only mitochondrial DNA",
+        "B) Non-transcribed DNA strands",
+        "C) Template strand of actively transcribed genes, initiated when RNA polymerase encounters lesions",
+        "D) Telomeric regions"
+      ],
+      "correct_option": "C",
+      "explanation": "TC-NER is initiated when RNA polymerase stalls at template strand lesions. CSA and CSB recruit repair machinery, ensuring rapid repair of transcribed sequences."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "Epigenetic changes can be inherited through:",
+      "options": [
+        "A) Maintenance DNA methylation by DNMT1 and histone modifications propagated through cell divisions",
+        "B) Alterations in protein structure",
+        "C) Changes in mRNA only",
+        "D) Only mutations in DNA sequence"
+      ],
+      "correct_option": "A",
+      "explanation": "Epigenetic inheritance involves maintenance methyltransferases copying methylation patterns, and histone modification propagation via Polycomb/Trithorax."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Long non-coding RNAs regulate gene expression by all mechanisms EXCEPT:",
+      "options": [
+        "A) Sponging miRNAs (ceRNA mechanism)",
+        "B) Guiding chromatin modifiers to specific loci",
+        "C) Acting as scaffolds for chromatin-modifying complexes",
+        "D) Directly encoding functional proteins"
+      ],
+      "correct_option": "D",
+      "explanation": "lncRNAs (>200 nt) regulate gene expression through chromatin modification, miRNA sponging, and nuclear organization, but do not encode proteins."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The nearly neutral theory extends the neutral theory by proposing that:",
+      "options": [
+        "A) No mutations are neutral",
+        "B) Many mutations are slightly deleterious, and their fate depends on effective population size",
+        "C) Selection is irrelevant",
+        "D) All mutations are strongly beneficial"
+      ],
+      "correct_option": "B",
+      "explanation": "Ohta's nearly neutral theory recognizes many mutations are slightly deleterious. In large populations, selection purges them; in small populations, drift predominates."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "Paramutation involves:",
+      "options": [
+        "A) Only gene duplication",
+        "B) Epigenetic interaction where one allele heritably converts another allele without DNA sequence change",
+        "C) Chromosome deletion",
+        "D) Standard Mendelian allele interactions"
+      ],
+      "correct_option": "B",
+      "explanation": "Paramutation (discovered in maize) involves heritable epigenetic changes induced by interaction between alleles, producing heritable changes without DNA mutations."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which type of immunity is conferred by vaccination?",
+      "options": [
+        "A) Innate immunity",
+        "B) Active artificial immunity",
+        "C) Passive natural immunity",
+        "D) Passive artificial immunity"
+      ],
+      "correct_option": "B",
+      "explanation": "Vaccination induces active artificial immunity by exposing the immune system to antigens without causing disease, generating immunological memory."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Type IV hypersensitivity differs from Type I because Type IV is:",
+      "options": [
+        "A) IgE-mediated and immediate",
+        "B) Complement-mediated only",
+        "C) Caused by preformed antibodies",
+        "D) T-cell mediated (delayed-type), occurring 24-72 hours, involving Th1/CTL responses"
+      ],
+      "correct_option": "D",
+      "explanation": "Type IV hypersensitivity (DTH) is T-cell mediated, occurring 24-72 hours after exposure. Examples: contact dermatitis, tuberculin test, graft rejection."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Trickling filters in wastewater treatment function by:",
+      "options": [
+        "A) UV radiation to kill pathogens",
+        "B) Chemical precipitation of metals",
+        "C) Reverse osmosis for purification",
+        "D) Biological treatment using microbial biofilms on surfaces to decompose organic matter aerobically"
+      ],
+      "correct_option": "D",
+      "explanation": "Trickling filters pass wastewater over biofilm-coated media. Microorganisms aerobically decompose organic matter, reducing BOD and removing suspended solids."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Vancomycin mechanism involves:",
+      "options": [
+        "A) Binding D-Ala-D-Ala termini of peptidoglycan precursors, blocking transglycosylation and transpeptidation",
+        "B) Disrupting cell membrane integrity",
+        "C) Inhibiting DNA gyrase",
+        "D) Inhibition of folic acid synthesis"
+      ],
+      "correct_option": "A",
+      "explanation": "Vancomycin binds D-Ala-D-Ala terminus through hydrogen bonding, sterically blocking transglycosylation and transpeptidation in Gram-positive cell wall synthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Bioremediation using genetically engineered superbugs (Pseudomonas putida) involves:",
+      "options": [
+        "A) Only metal accumulation",
+        "B) Physical removal of contaminants",
+        "C) Multiple plasmids with genes for degradation of different aromatic hydrocarbons",
+        "D) Chemical degradation only"
+      ],
+      "correct_option": "C",
+      "explanation": "Superbugs like P. putida contain multiple plasmids (CAM, OCT, XYL, NAH) encoding enzymes for degradation of different petroleum-derived aromatic compounds."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Anti-TNFα antibodies treat autoimmune diseases but increase tuberculosis risk because:",
+      "options": [
+        "A) They enhance bacterial growth",
+        "B) TNFα directly kills M. tuberculosis",
+        "C) TNFα is required for granuloma maintenance; blocking it disrupts granuloma integrity, allowing TB reactivation",
+        "D) They suppress antibody production only"
+      ],
+      "correct_option": "C",
+      "explanation": "TNFα is essential for granuloma formation maintaining latent TB. Anti-TNF therapy disrupts granulomas, allowing reactivation. Screening for latent TB is mandatory."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Cytotoxic T lymphocytes recognize target cells by:",
+      "options": [
+        "A) MHC class II presenting exogenous antigens",
+        "B) MHC class I presenting endogenous peptides; TCR recognition triggers perforin/granzyme and Fas-FasL apoptosis",
+        "C) Complement activation",
+        "D) Antibody binding only"
+      ],
+      "correct_option": "B",
+      "explanation": "CTLs (CD8+) recognize endogenous peptides on MHC class I via TCR. They release perforin (pore-forming) and granzymes (pro-apoptotic), and engage Fas-FasL."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Microbial enhanced oil recovery uses bacteria to:",
+      "options": [
+        "A) Only plug porous zones",
+        "B) Extract oil through mining",
+        "C) Only oxidize oil",
+        "D) Produce biosurfactants, CO2, organic acids, and biomass that reduce interfacial tension, dissolve rock, and push oil"
+      ],
+      "correct_option": "D",
+      "explanation": "MEOR uses bacteria to produce biosurfactants (reduce oil-water tension), CO2 (pressure), organic acids (dissolve rock), and biomass (plugging) to mobilize residual oil."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "CAR-T therapy efficacy in solid tumors is limited by:",
+      "options": [
+        "A) Tumor immunosuppressive microenvironment, limited trafficking, and antigen heterogeneity",
+        "B) Too many target antigens",
+        "C) Solid tumors lack all antigens",
+        "D) CAR-T cells cannot be manufactured"
+      ],
+      "correct_option": "A",
+      "explanation": "CAR-T works well in hematologic cancers but struggles with solid tumors due to immunosuppressive microenvironment, poor infiltration, and antigen heterogeneity."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Anaerobic digestion rate-limiting step for complex substrates is typically:",
+      "options": [
+        "A) Sulphate reduction",
+        "B) Hydrolysis by cellulases, proteases, lipases breaking down complex polymers to monomers",
+        "C) Acetogenesis only",
+        "D) Methanogenesis"
+      ],
+      "correct_option": "B",
+      "explanation": "Hydrolysis is rate-limiting for complex substrates. Hydrolytic bacteria produce extracellular enzymes breaking polymers into sugars, amino acids, and fatty acids."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which enzyme creates sticky ends when cutting DNA?",
+      "options": [
+        "A) EcoRI",
+        "B) Alkaline phosphatase",
+        "C) SmaI",
+        "D) DNA ligase"
+      ],
+      "correct_option": "A",
+      "explanation": "EcoRI cuts GAATTC producing staggered cuts with 5' overhangs. These single-stranded overhangs base-pair with complementary sticky ends."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "First step in PCR is:",
+      "options": [
+        "A) Ligation of fragments",
+        "B) Extension by Taq polymerase",
+        "C) Annealing of primers",
+        "D) Denaturation of template DNA at 94-95°C"
+      ],
+      "correct_option": "D",
+      "explanation": "PCR begins with denaturation at 94-95°C to separate double-stranded DNA into single strands for primer binding."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Gene therapy for SCID using retroviral vectors was first successful in:",
+      "options": [
+        "A) 1990 (Ashanthi DeSilva with ADA gene transfer into T-cells)",
+        "B) 2015",
+        "C) 1980",
+        "D) 2005"
+      ],
+      "correct_option": "A",
+      "explanation": "The first successful gene therapy was performed in 1990 on Ashanthi DeSilva with ADA-SCID, using retroviral transfer of ADA gene into peripheral T-lymphocytes."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Alkaline phosphatase treatment prevents:",
+      "options": [
+        "A) Transcription",
+        "B) DNA replication",
+        "C) Self-ligation of linearized vector by removing 5' phosphate groups",
+        "D) Restriction enzyme activity"
+      ],
+      "correct_option": "C",
+      "explanation": "Alkaline phosphatase removes 5' phosphates from vector DNA, preventing self-ligation. Insert DNA retains 5' phosphates, enabling ligation only with inserts."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Bt toxin requires which condition to become active?",
+      "options": [
+        "A) UV light",
+        "B) Dry conditions",
+        "C) Acidic pH of insect midgut",
+        "D) Alkaline pH of insect midgut (pH 8-10) for solubilization and activation by proteases"
+      ],
+      "correct_option": "D",
+      "explanation": "Cry proteins are protoxins activated in alkaline environment of insect midgut, where they are solubilized and cleaved by proteases to form toxic peptides."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "DNA polymerases used in PCR must be thermostable because:",
+      "options": [
+        "A) They require less buffer",
+        "B) They must survive repeated 94-95°C denaturation steps without losing catalytic activity",
+        "C) They are cheaper",
+        "D) They work faster"
+      ],
+      "correct_option": "B",
+      "explanation": "PCR involves repeated denaturation at 94-95°C. Taq polymerase from Thermus aquaticus survives these temperatures, enabling automated thermal cycling."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "RNAi therapeutics face delivery challenges because:",
+      "options": [
+        "A) RNA is too stable",
+        "B) RNA cannot be synthesized",
+        "C) Naked siRNA is rapidly degraded by nucleases and has poor cellular uptake without nanoparticle carriers",
+        "D) They only work in bacteria"
+      ],
+      "correct_option": "C",
+      "explanation": "siRNA delivery is challenging due to nuclease degradation, poor cellular uptake of polyanionic molecules, and immunogenicity. Lipid nanoparticles and GalNAc conjugates solve these problems."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Cre-loxP recombination system is used for:",
+      "options": [
+        "A) Protein purification",
+        "B) Only bacterial transformation",
+        "C) PCR amplification",
+        "D) Site-specific DNA recombination enabling conditional gene knockouts, chromosomal rearrangements, and lineage tracing"
+      ],
+      "correct_option": "D",
+      "explanation": "Cre recombinase recognizes loxP sites mediating recombination between them. This enables tissue-specific conditional knockouts and genetic manipulation in model organisms."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Transposon-based gene therapy (sleeping beauty system) advantages over viral vectors include:",
+      "options": [
+        "A) More immunogenic",
+        "B) Cannot carry large genes",
+        "C) Long-term gene expression without immunogenicity and reduced insertional oncogenesis risks",
+        "D) Less efficient"
+      ],
+      "correct_option": "C",
+      "explanation": "Sleeping Beauty transposon enables stable genomic integration with lower immunogenicity and reduced risk of activating oncogenes compared to retroviral vectors."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Metabolic engineering of microbes for biofuels involves:",
+      "options": [
+        "A) Only mutation",
+        "B) Redesigning metabolic pathways using synthetic biology tools for ethanol, butanol, or isoprenoid production",
+        "C) Natural selection only",
+        "D) Only growth optimization"
+      ],
+      "correct_option": "B",
+      "explanation": "Metabolic engineering uses genetic modifications to optimize biofuel production by introducing heterologous pathways and deleting competing reactions."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Logistic population growth differs from exponential because logistic growth:",
+      "options": [
+        "A) Never stops growing",
+        "B) Has constant growth rate",
+        "C) Only occurs in plants",
+        "D) Incorporates carrying capacity (K), slowing growth as population approaches K"
+      ],
+      "correct_option": "D",
+      "explanation": "Logistic growth (dN/dt = rN(K-N)/K) includes carrying capacity. Growth slows as N approaches K due to resource limitation, producing S-shaped curve."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Clumped dispersion patterns result from:",
+      "options": [
+        "A) Territoriality",
+        "B) Uniform habitat quality",
+        "C) Patchy resource distribution and social behavior attracting individuals to aggregations",
+        "D) Random environmental conditions"
+      ],
+      "correct_option": "C",
+      "explanation": "Clumped dispersion is most common, resulting from uneven resource distribution (food, water) and social behavior (herds, flocks) favoring aggregation."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Phosphorus cycle differs from carbon and nitrogen cycles because:",
+      "options": [
+        "A) It lacks a significant atmospheric phase, with main reservoirs in rocks and soil",
+        "B) Involves nitrogen fixation",
+        "C) It is a gaseous cycle",
+        "D) Only occurs in aquatic systems"
+      ],
+      "correct_option": "A",
+      "explanation": "Phosphorus cycle is a sedimentary cycle with no atmospheric gas phase. Main reservoirs are phosphate rocks and soil, cycling slowly through weathering and runoff."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Endemic species are characterized by:",
+      "options": [
+        "A) Rapid speciation",
+        "B) Global distribution",
+        "C) High genetic diversity",
+        "D) Restricted geographic range, found only in specific locations"
+      ],
+      "correct_option": "D",
+      "explanation": "Endemic species are geographically restricted to specific areas. Islands have high endemism due to isolation. They are particularly vulnerable to extinction."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Ecological pyramids of biomass are inverted in:",
+      "options": [
+        "A) Deserts",
+        "B) Open oceans where phytoplankton have rapid turnover but standing biomass is lower than zooplankton",
+        "C) Forests",
+        "D) Grasslands"
+      ],
+      "correct_option": "B",
+      "explanation": "Ocean biomass pyramids are inverted because phytoplankton have extremely rapid reproduction, maintaining low standing biomass while supporting higher zooplankton biomass."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "Theory of island biogeography predicts species richness depends on:",
+      "options": [
+        "A) Ocean depth",
+        "B) Number of predators only",
+        "C) Island size and distance from mainland, balancing immigration and extinction rates",
+        "D) Island age only"
+      ],
+      "correct_option": "C",
+      "explanation": "MacArthur-Wilson's theory predicts species richness from island area (larger = lower extinction) and isolation (closer = higher immigration). Fundamental to conservation reserve design."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "Methane is a potent greenhouse gas because it:",
+      "options": [
+        "A) Absorbs infrared radiation more effectively than CO2 (25-80x over 20 years), released from wetlands, ruminants, and fossil fuels",
+        "B) Blocks UV radiation",
+        "C) Reflects solar radiation",
+        "D) Cools the atmosphere"
+      ],
+      "correct_option": "A",
+      "explanation": "CH4 has 25-80x the warming potential of CO2 over different timescales. Sources include wetlands, ruminant digestion, rice paddies, fossil fuels, and landfills."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "Competitive release occurs when:",
+      "options": [
+        "A) Intraspecific competition increases",
+        "B) A new competitor is introduced",
+        "C) A species expands its niche in absence of a competitor",
+        "D) Resources become more limited"
+      ],
+      "correct_option": "C",
+      "explanation": "Competitive release is expansion of a species' niche (habitat breadth or resource use) when a competing species is removed."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "Ecosystem engineers differ from keystone species because ecosystem engineers:",
+      "options": [
+        "A) Physically modify habitats, creating new niches for other species (beavers, earthworms, corals)",
+        "B) Are always predators",
+        "C) Have no effect on habitat",
+        "D) Only affect food webs"
+      ],
+      "correct_option": "A",
+      "explanation": "Ecosystem engineers modify physical environments. Beavers create ponds, earthworms aerate soil, corals build reefs. Unlike keystone species, engineers modify habitat structure."
+    },
+    {
+      "id": "CUET_BIO_2026_P9_L9_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "Ecological stoichiometry explains nutrient limitation by:",
+      "options": [
+        "A) Only measuring temperature",
+        "B) Only looking at carbon",
+        "C) Excluding biotic factors",
+        "D) Balancing elemental ratios (C:N:P) in organisms and resources, determining which nutrient limits growth"
+      ],
+      "correct_option": "D",
+      "explanation": "Ecological stoichiometry studies element ratios (Redfield ratio C:N:P = 106:16:1 in phytoplankton). Mismatch between consumer and resource stoichiometry determines nutrient limitation."
+    }
+  ]
+}

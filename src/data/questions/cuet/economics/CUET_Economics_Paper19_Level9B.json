@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P19_L9B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 19,
+  "difficulty_level": "9B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Slutsky Equation",
+      "difficulty": "medium",
+      "question": "In consumer demand theory, how does Eugen Slutsky's method of isolating the substitution effect differ from John Hicks's approach?",
+      "options": [
+        "A) Slutsky assumes zero substitution effect for all luxury goods",
+        "B) Slutsky adjusts income so that the consumer can barely afford the original commodity bundle at new prices, whereas Hicks maintains the original utility level",
+        "C) Slutsky compensates the consumer with shares of public sector enterprises",
+        "D) Slutsky holds nominal money expenditure strictly constant across all goods"
+      ],
+      "correct_option": "B",
+      "explanation": "Hicksian substitution effect holds utility constant (original indifference curve), whereas Slutsky's substitution effect holds purchasing power constant (affording the original bundle at new prices)."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Network Externalities",
+      "difficulty": "medium",
+      "question": "A positive network externality exists in the market for a communications platform (such as messaging applications) when:",
+      "options": [
+        "A) Production costs rise exponentially with every additional software subscriber",
+        "B) The value of the service to an individual consumer increases as the total number of other users on the network expands",
+        "C) The government mandates a legal ceiling price on cellular data",
+        "D) The platform's advertising revenue drops to zero"
+      ],
+      "correct_option": "B",
+      "explanation": "A positive network externality (direct network effect) means the utility a user derives from consumption depends positively on the number of other consumers connected to the same network."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q03",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Sunk Cost Fallacy",
+      "difficulty": "medium",
+      "question": "A rational firm deciding whether to continue an unviable business project should ignore historical 'sunk costs' because sunk costs are:",
+      "options": [
+        "A) Fully refundable by central commercial banks upon written request",
+        "B) Irretrievably spent in the past and cannot be recovered regardless of future decisions",
+        "C) Variable costs that decline as output expands",
+        "D) Imputed implicit rents on shareholder capital"
+      ],
+      "correct_option": "B",
+      "explanation": "Sunk costs are unrecoverable past expenditures. Rational economic decisions are based solely on prospective future marginal revenues and marginal costs."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q04",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "CES Production Function",
+      "difficulty": "hard",
+      "question": "In a Constant Elasticity of Substitution (CES) production function Q = A * [alpha*L^(-rho) + (1-alpha)*K^(-rho)]^(-1/rho), the elasticity of factor substitution (sigma) is given by:",
+      "options": [
+        "A) 1 + rho",
+        "B) 1 / (1 + rho)",
+        "C) rho / (1 - rho)",
+        "D) alpha * (1 - alpha)"
+      ],
+      "correct_option": "B",
+      "explanation": "In CES production functions, the elasticity of factor substitution is a constant determined entirely by the substitution parameter rho, given by the formula sigma = 1 / (1 + rho)."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q05",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Public Utility Two-Part Tariffs",
+      "difficulty": "medium",
+      "question": "To resolve the dilemma of a natural monopoly operating under declining average costs (where marginal cost pricing causes financial losses), regulators often institute a 'two-part tariff' consisting of:",
+      "options": [
+        "A) A progressive profit tax combined with a price ceiling at average cost",
+        "B) A fixed lump-sum access fee to cover total fixed overhead costs plus a per-unit price set equal to marginal cost",
+        "C) An ad-valorem excise duty levied on both consumers and producers equally",
+        "D) An auction of company shares exclusively to domestic municipal bodies"
+      ],
+      "correct_option": "B",
+      "explanation": "A two-part tariff charges a fixed entry/access fee to capture consumer surplus and finance fixed infrastructure costs, while setting the per-unit usage price at marginal cost (P = MC) to achieve allocative efficiency."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q06",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Dominant Firm Price Leadership",
+      "difficulty": "hard",
+      "question": "In the dominant firm price leadership model with a competitive fringe of small price-taking firms, the dominant firm determines its profit-maximizing price by:",
+      "options": [
+        "A) Selling all output at zero marginal cost",
+        "B) Deriving its residual demand curve by subtracting the competitive fringe's aggregate supply from total market demand at each price, and setting MR = MC",
+        "C) Forcing fringe firms into compulsory judicial liquidation",
+        "D) Mandating that fringe producers charge double the market price"
+      ],
+      "correct_option": "B",
+      "explanation": "The dominant firm acts as a monopoly on its residual demand (total demand minus fringe supply), choosing the industry price where its residual marginal revenue equals its marginal cost."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q07",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Discontinuous MR in Sweezy Model",
+      "difficulty": "hard",
+      "question": "In Paul Sweezy's kinked demand curve model of oligopoly, what explains the remarkable stability of the prevailing market price even when production costs fluctuate?",
+      "options": [
+        "A) The government directly subsidizes any increase in marginal costs",
+        "B) The Marginal Revenue curve has a vertical discontinuous gap directly below the kink in the demand curve, allowing the MC curve to shift up or down within this gap without altering equilibrium price or output",
+        "C) Oligopolists operate with completely horizontal total cost curves",
+        "D) Consumer demand becomes perfectly inelastic above the kink"
+      ],
+      "correct_option": "B",
+      "explanation": "The kink in the AR curve produces a sharp vertical break in the MR curve. As long as shifts in the MC curve stay within this vertical gap, the profit-maximizing price and output remain rigidly unchanged."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q08",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Edgeworth Box Pareto Efficiency",
+      "difficulty": "hard",
+      "question": "In an Edgeworth Box diagram for consumption between two individuals A and B, a condition for Pareto efficiency in exchange requires that:",
+      "options": [
+        "A) Individual A consumes 100 percent of both commodities",
+        "B) The marginal rates of substitution between the two goods must be identical across the two consumers (MRS_xy^1 = MRS_xy^2)",
+        "C) Both consumers possess identical nominal money incomes",
+        "D) The contract curve coincides with the perimeter of the box"
+      ],
+      "correct_option": "B",
+      "explanation": "Pareto efficiency in exchange occurs where the indifference curves of the two consumers are tangent to each other on the contract curve, meaning their marginal rates of substitution are equal."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q09",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Job Market Signaling",
+      "difficulty": "hard",
+      "question": "In Michael Spence's Job Market Signaling model, higher educational attainment functions effectively as a credible signal of worker productivity because:",
+      "options": [
+        "A) Employers pay identical wages to all job applicants regardless of qualifications",
+        "B) All universities provide guaranteed employment contracts upon graduation",
+        "C) The psychic and financial cost of acquiring advanced education is negatively correlated with underlying innate productivity, making it unviable for low-ability workers to mimic the signal",
+        "D) Education completely eliminates competitive job market interviews"
+      ],
+      "correct_option": "C",
+      "explanation": "For signaling to separate worker types, the cost of acquiring the signal must be lower for high-ability workers than low-ability workers, ensuring low-ability workers do not find it profitable to acquire the credential."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q10",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Efficiency Wage Theory",
+      "difficulty": "hard",
+      "question": "According to the Efficiency Wage Theory, profit-maximizing firms may voluntarily choose to pay wages strictly above the market-clearing equilibrium rate because:",
+      "options": [
+        "A) Trade unions have been outlawed in all industrial zones",
+        "B) The government mandates criminal penalties for paying market-clearing wages",
+        "C) Higher wages reduce costly worker turnover, minimize employee shirking, improve nutrition/health, and attract a superior pool of job applicants",
+        "D) Higher wages automatically convert variable costs into fixed costs"
+      ],
+      "correct_option": "C",
+      "explanation": "Efficiency wage theory shows that worker productivity is positively dependent on the wage paid. Above-market wages boost effort, loyalty, and applicant quality while cutting turnover costs."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q11",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Tragedy of the Commons",
+      "difficulty": "medium",
+      "question": "Garrett Hardin's 'Tragedy of the Commons' illustrates the over-exploitation and degradation of common-pool natural resources (like ocean fisheries or pasture land) primarily due to:",
+      "options": [
+        "A) Deflationary price collapses in international agricultural commodity markets",
+        "B) Monopolistic output restrictions enforced by global trade cartels",
+        "C) The absence of clearly defined and enforceable private or communal property rights, making resources rivalrous in consumption but non-excludable in access",
+        "D) Excessive government subsidies granted to organic fertilizers"
+      ],
+      "correct_option": "C",
+      "explanation": "Common property resources are rival (one user's extraction diminishes availability) but non-excludable. Without property rights or governance, each user ignores external costs, leading to over-exploitation."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Walras' Law",
+      "difficulty": "hard",
+      "question": "Walras' Law in general equilibrium theory states that across an entire economy with 'n' interrelated markets:",
+      "options": [
+        "A) All markets clear only when the government directly fixes absolute prices",
+        "B) Supply curves must be vertical in every sector",
+        "C) The total money value of excess demand across all markets must identically sum to zero, meaning if n - 1 markets are in equilibrium, the n-th market must also be in equilibrium",
+        "D) Foreign trade must be balanced bilaterally with every partner nation"
+      ],
+      "correct_option": "C",
+      "explanation": "Because every market transaction involves an exchange of equal value (consumer budget constraints hold with equality), the sum of values of excess demands over all markets must be identically zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Carbon Border Adjustment Mechanism",
+      "difficulty": "hard",
+      "question": "A Carbon Border Adjustment Mechanism (CBAM) levied on carbon-intensive industrial imports (such as steel and cement) is designed primarily to:",
+      "options": [
+        "A) Subsidize foreign coal-fired thermal power plants",
+        "B) Ban all cross-border marine cargo transportation",
+        "C) Level the playing field for domestic producers subject to carbon emission taxes and prevent 'carbon leakage' to jurisdictions with lax environmental laws",
+        "D) Eliminate all domestic corporate profits in manufacturing"
+      ],
+      "correct_option": "C",
+      "explanation": "CBAM imposes a carbon price on imports equivalent to what domestic producers pay under emission trading systems, preventing carbon leakage where companies relocate production to countries with no carbon tax."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Pareto Efficiency in Production",
+      "difficulty": "hard",
+      "question": "A production allocation between two industries (X and Y) using two inputs (Labour and Capital) achieves Pareto efficiency when:",
+      "options": [
+        "A) The wage-rental ratio is fixed at zero",
+        "B) Industry X employs 100 percent of the national labour force",
+        "C) The marginal rate of technical substitution of labour for capital is identical across both industries (MRTS_LK^X = MRTS_LK^Y)",
+        "D) Both industries produce identical volumes of output"
+      ],
+      "correct_option": "C",
+      "explanation": "Efficiency in production requires that the isoquants of the two goods be tangent to each other in the production Edgeworth box, equating their marginal rates of technical substitution."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Elasticity Determinants",
+      "difficulty": "easy",
+      "question": "Which of the following commodities typically exhibits the lowest price elasticity of demand?",
+      "options": [
+        "A) Branded designer sunglasses",
+        "B) Luxury sports automobiles",
+        "C) Table salt",
+        "D) Air travel for leisure tourism"
+      ],
+      "correct_option": "C",
+      "explanation": "Table salt is an absolute necessity with no close substitutes, accounting for a negligible fraction of consumer income, making its price elasticity of demand close to zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopolistic Competition Zero Profit",
+      "difficulty": "medium",
+      "question": "In the long-run equilibrium of a monopolistically competitive industry, why do firms earn only normal profits despite having product differentiation?",
+      "options": [
+        "A) All firms are forced to merge into a single public corporation",
+        "B) The government directly confiscates all supernormal profits",
+        "C) Free entry and exit of firms shifts individual firm demand curves until price equals average cost (P = AC)",
+        "D) Production costs increase to infinity"
+      ],
+      "correct_option": "C",
+      "explanation": "If existing firms make supernormal profits, new firms enter with substitute brands, drawing away customers and shifting existing firms' demand curves leftward until P = AC (normal profits)."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Balassa-Samuelson Effect",
+      "difficulty": "hard",
+      "question": "The 'Balassa-Samuelson Effect' explains why the market exchange rate purchasing power of developing economies diverges from Purchasing Power Parity (PPP) because:",
+      "options": [
+        "A) The velocity of circulation of money is zero in service industries",
+        "B) Developing countries ban all imports of advanced capital machinery",
+        "C) Productivity growth differentials are larger in tradable goods than in non-tradables, making services and non-tradable goods systematically cheaper in developing countries",
+        "D) Foreign exchange reserves are held exclusively in physical silver"
+      ],
+      "correct_option": "C",
+      "explanation": "Advanced economies have higher productivity in tradable manufacturing, driving up nationwide wages. This makes labour-intensive services expensive in rich countries and relatively cheap in developing countries."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Domestic Absorption",
+      "difficulty": "hard",
+      "question": "In open economy macroeconomic accounting, 'Domestic Absorption' (A) is defined as C + I + G. The trade balance (Net Exports) can therefore be expressed as:",
+      "options": [
+        "A) Foreign Exchange Reserves minus Fiscal Deficit",
+        "B) National Output multiplied by Money Multiplier (Y * m)",
+        "C) National Output minus Domestic Absorption (Y - A)",
+        "D) Total Imports divided by Personal Disposable Income"
+      ],
+      "correct_option": "C",
+      "explanation": "From the national income identity Y = C + I + G + (X - M), defining Domestic Absorption A = C + I + G yields Net Exports (X - M) = Y - A. A trade surplus occurs when domestic output exceeds domestic absorption."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Fisher's Debt Deflation Theory",
+      "difficulty": "medium",
+      "question": "Irving Fisher's 'Debt Deflation' theory explains how general price deflation can turn a mild recession into a deep depression because:",
+      "options": [
+        "A) Consumers spend their entire wealth in the first month of price drops",
+        "B) Deflation leads to an immediate doubling of corporate tax collections",
+        "C) Falling prices increase the real burden of fixed nominal debt obligations, triggering distress selling of assets, loan defaults, bank runs, and contracting aggregate demand",
+        "D) Central banks are prohibited by law from lowering interest rates"
+      ],
+      "correct_option": "C",
+      "explanation": "Deflation raises real debt values because nominal debts do not fall with prices. Debtors cut spending to service debt or face insolvency, asset fire-sales depress prices further, creating a vicious spiral."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Real vs Nominal GDP Deflator",
+      "difficulty": "easy",
+      "question": "If Nominal GDP of an economy increased by 15 percent over a year while the GDP Deflator rose by 5 percent, approximately what was the growth rate of Real GDP?",
+      "options": [
+        "A) 3 percent",
+        "B) 20 percent",
+        "C) 10 percent",
+        "D) 75 percent"
+      ],
+      "correct_option": "C",
+      "explanation": "Approximating: Growth rate of Real GDP = Growth rate of Nominal GDP - Inflation rate (rate of change in GDP deflator) = 15% - 5% = 10%."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Financial Accelerator Mechanism",
+      "difficulty": "hard",
+      "question": "The 'Financial Accelerator' mechanism developed by Ben Bernanke and Mark Gertler shows that economic downturns are magnified because:",
+      "options": [
+        "A) Foreign exchange reserves automatically appreciate against gold",
+        "B) Commercial banks immediately lower statutory reserve ratios",
+        "C) Declining corporate asset prices and borrower net worth increase the external finance premium (borrowing costs), sharply restricting bank lending and investment spending",
+        "D) The central bank replaces cash reserves with commercial equity"
+      ],
+      "correct_option": "C",
+      "explanation": "Downturns erode firm balance sheets and collateral values. Lenders charge higher credit risk premiums (external finance premium), contracting business credit and worsening the macroeconomic contraction."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Yield Curve Inversion",
+      "difficulty": "hard",
+      "question": "In financial macroeconomics, an 'Inverted Yield Curve' (where yields on long-term government bonds fall below yields on short-term treasury bills) is widely monitored because:",
+      "options": [
+        "A) It signals zero inflation in the agricultural sector",
+        "B) It indicates that commercial bank profits will reach record highs",
+        "C) It signifies that the central bank has abolished all cash reserve ratios",
+        "D) It historically acts as a reliable precursor and predictor of an impending economic recession"
+      ],
+      "correct_option": "D",
+      "explanation": "An inverted yield curve reflects market expectations that economic growth will slow sharply, causing the central bank to cut interest rates in the future, driving down long-term yields below short-term rates."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Tobin's Q Theory",
+      "difficulty": "hard",
+      "question": "James Tobin's 'Q Theory' posits that business fixed investment expenditure depends on the ratio Q, defined as:",
+      "options": [
+        "A) Foreign exchange reserves divided by annual imports",
+        "B) The nominal policy interest rate divided by the monetary base",
+        "C) Gross corporate profits divided by total annual excise taxes",
+        "D) The market valuation of installed capital assets on the stock market divided by the replacement cost of capital"
+      ],
+      "correct_option": "D",
+      "explanation": "Tobin's Q is the ratio of the financial market value of a firm's capital stock to the cost of purchasing new capital equipment. When Q > 1, issuing equity to buy physical capital is profitable, boosting investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Friedman's Monetarist Doctrine",
+      "difficulty": "medium",
+      "question": "Milton Friedman's famous macroeconomic assertion that 'Inflation is always and everywhere a monetary phenomenon' implies that sustained inflation can only be caused by:",
+      "options": [
+        "A) Increases in municipal property tax assessments",
+        "B) Structural monopolies in agricultural retail marketing",
+        "C) Recurrent seasonal failures of monsoon rainfall",
+        "D) Excessive growth in the money supply that consistently outpaces the growth rate of real potential output"
+      ],
+      "correct_option": "D",
+      "explanation": "Monetarism argues that while real shocks cause temporary relative price adjustments, continuous, sustained inflation across the economy requires continuous excessive expansion of the money stock."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Hall's Random Walk Hypothesis",
+      "difficulty": "hard",
+      "question": "Robert Hall's 'Random Walk Hypothesis' of consumption implies that if consumers are rational and forward-looking, changes in consumer expenditure from one period to the next can only be predicted by:",
+      "options": [
+        "A) Routine seasonal adjustments in agricultural harvest calendars",
+        "B) Past predictable increases in real personal disposable income",
+        "C) The historical rate of return on commercial bank savings accounts",
+        "D) Completely unanticipated new information or unexpected shocks to permanent income arriving in that period"
+      ],
+      "correct_option": "D",
+      "explanation": "Hall combined the permanent income hypothesis with rational expectations: all predictable future income changes are already factored into current consumption. Consumption changes only in response to surprises."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Stagflation and Phillips Curve Breakdown",
+      "difficulty": "hard",
+      "question": "The simultaneous occurrence of high inflation and high unemployment ('Stagflation') during the 1970s global oil supply shocks caused the breakdown of the traditional downward-sloping Phillips Curve because:",
+      "options": [
+        "A) Commercial banks ceased lending to industrial manufacturing firms",
+        "B) Governments balanced their national budgets for ten consecutive years",
+        "C) The marginal propensity to save collapsed to negative values",
+        "D) Adverse supply shocks shifted the short-run Phillips curve upward/outward, and workers adjusted their inflation expectations upward"
+      ],
+      "correct_option": "D",
+      "explanation": "Supply shocks (oil price hikes) contracted output and drove up costs, shifting the short-run Phillips Curve outward. Unanchored inflation expectations destroyed the stable trade-off between inflation and unemployment."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Mundell-Fleming Fiscal Policy Floating",
+      "difficulty": "hard",
+      "question": "Under the Mundell-Fleming model for a small open economy with perfect capital mobility and flexible exchange rates, expansionary fiscal policy is completely ineffective in altering equilibrium output because:",
+      "options": [
+        "A) Domestic consumer confidence collapses immediately",
+        "B) Commercial banks refuse to clear government infrastructure contracts",
+        "C) The money multiplier drops to zero under floating exchange regimes",
+        "D) The fiscal expansion attempts to raise interest rates, attracting foreign capital inflows that appreciate the domestic currency, completely crowding out net exports"
+      ],
+      "correct_option": "D",
+      "explanation": "In an open economy with floating rates, higher government spending puts upward pressure on interest rates, attracting massive capital inflows. The resulting currency appreciation reduces net exports until output returns to original equilibrium."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Autonomous Investment Concept",
+      "difficulty": "medium",
+      "question": "Autonomous investment differs fundamentally from induced investment because autonomous investment is:",
+      "options": [
+        "A) Financed entirely through printing counterfeit currency",
+        "B) Undertaken solely by foreign multinational corporations",
+        "C) Driven exclusively by changes in the rate of sales turnover",
+        "D) Independent of the current level of national income and consumer demand"
+      ],
+      "correct_option": "D",
+      "explanation": "Autonomous investment (often public infrastructure spending or major innovations) is fixed and independent of the current level of national income or consumer spending."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Debt-Stabilizing Primary Balance",
+      "difficulty": "hard",
+      "question": "If an economy's real interest rate (r) exceeds its real GDP growth rate (g), the primary budget balance required to keep the debt-to-GDP ratio (b) stable over time must be:",
+      "options": [
+        "A) Funded 100 percent through seigniorage printing",
+        "B) A primary deficit equal to b * (r + g)",
+        "C) Exactly equal to zero regardless of interest rates",
+        "D) A primary surplus equal to b * (r - g)"
+      ],
+      "correct_option": "D",
+      "explanation": "When r > g, interest compounding causes debt to grow faster than GDP. To stabilize the debt ratio (Delta b = 0), the government must generate a primary budget surplus equal to b*(r - g)."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Fiscal Policy Pro-cyclicality",
+      "difficulty": "medium",
+      "question": "A government that increases public expenditure and cuts taxes during an economic boom, while enacting severe spending cuts and tax hikes during a recession, is pursuing which fiscal stance?",
+      "options": [
+        "A) Ricardian debt neutrality",
+        "B) Counter-cyclical stabilizing fiscal policy",
+        "C) Neutral structural budgeting",
+        "D) Pro-cyclical fiscal policy that accentuates economic volatility"
+      ],
+      "correct_option": "D",
+      "explanation": "A pro-cyclical fiscal policy moves in the same direction as the business cycle, adding fuel to inflationary expansions and exacerbating recessions with austerity."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Direct Taxes Progressive Nature",
+      "difficulty": "medium",
+      "question": "Personal income tax in India is structured as a progressive tax because:",
+      "options": [
+        "A) Taxes are levied solely on agricultural crop harvests",
+        "B) High-income earners pay lower percentage tax rates than low-income workers",
+        "C) All citizens pay an identical flat monetary fee",
+        "D) The marginal tax rate increases as the taxpayer's taxable income bracket rises"
+      ],
+      "correct_option": "D",
+      "explanation": "A progressive tax applies higher marginal tax rates to higher income brackets, ensuring that higher-income households contribute a larger proportion of their income in taxes."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Sudden Stop Phenomenon",
+      "difficulty": "hard",
+      "question": "In international macroeconomics, a 'Sudden Stop' refers to:",
+      "options": [
+        "A) A sudden legislative freeze on personal income tax rates",
+        "B) The legal suspension of maritime container shipping during trade disputes",
+        "C) The temporary closure of domestic commodity futures markets",
+        "D) An abrupt drying up of foreign capital inflows to an emerging market, accompanied by large capital flight and acute currency depreciation"
+      ],
+      "correct_option": "D",
+      "explanation": "Guillermo Calvo conceptualized 'Sudden Stops' as sudden halts or reversals of foreign capital flows into emerging markets, forcing sudden domestic spending compression and balance of payments distress."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Capital Account Convertibility Debate",
+      "difficulty": "hard",
+      "question": "In the debate on Full Capital Account Convertibility (FCAC) in India, the Tarapore Committee emphasized that full convertibility should only be introduced after achieving preconditions including:",
+      "options": [
+        "A) Banning all foreign portfolio investors from domestic equity markets",
+        "B) The complete privatization of all nationalized commercial banks within one fiscal year",
+        "C) Fixing the Indian rupee permanently to the Japanese Yen",
+        "D) Fiscal consolidation, low inflation, a sound domestic banking system with low NPAs, and adequate foreign exchange reserves"
+      ],
+      "correct_option": "D",
+      "explanation": "The S.S. Tarapore Committee on Capital Account Convertibility recommended sequencing prerequisites: reducing gross fiscal deficit, inflation within a 3\u20135% band, lowering bank NPAs to under 5%, and ample forex reserves."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Herschell and Fowler Committees",
+      "difficulty": "medium",
+      "question": "The Herschell Committee (1893) and Fowler Committee (1898) in colonial India recommended major currency reforms that resulted in:",
+      "options": [
+        "A) The complete demonetization of all copper and bronze coins",
+        "B) The introduction of an independent decimal fiat currency backed by gold coins",
+        "C) The establishment of the Reserve Bank of India in Calcutta",
+        "D) The closure of Indian mints to the free coinage of silver and the adoption of the Gold Exchange Standard for the rupee pegged to the British Pound"
+      ],
+      "correct_option": "D",
+      "explanation": "Due to falling world silver prices that inflated colonial remittance costs, the British closed mints to free silver coinage in 1893 and pegged the rupee to gold/sterling at 1s 4d following the Fowler Committee."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "TISCO Foundation 1907",
+      "difficulty": "easy",
+      "question": "The Tata Iron and Steel Company (TISCO), established in 1907 at Jamshedpur by Jamsetji Tata, represented free India's first modern indigenous:",
+      "options": [
+        "A) Automated software programming firm",
+        "B) Jute textile export guild",
+        "C) Aircraft assembly corporation",
+        "D) Integrated steel manufacturing enterprise"
+      ],
+      "correct_option": "D",
+      "explanation": "TISCO was incorporated in 1907 (beginning production in 1911) as India's pioneer integrated heavy steel manufacturing plant, surviving despite British colonial tariff apathy."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "The Bombay Plan 1944",
+      "difficulty": "medium",
+      "question": "The 'Bombay Plan' formulated in 1944 by leading Indian industrialists (including J.R.D. Tata and G.D. Birla) was notable because it advocated:",
+      "options": [
+        "A) Complete integration into the British sterling trade zone",
+        "B) A completely unregulated laissez-faire capitalist economy without state interference",
+        "C) The dissolution of all private corporate manufacturing firms",
+        "D) A state-led planned economy where the government would heavily invest in heavy industry, basic infrastructure, and social sectors"
+      ],
+      "correct_option": "D",
+      "explanation": "Remarkably, Indian big business leaders jointly recognized that private capital was inadequate for heavy industry, actively proposing state planning, public infrastructure investment, and protective tariffs."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Feldman-Mahalanobis Allocation Coefficient",
+      "difficulty": "hard",
+      "question": "In the mathematical growth model underlying India's Second Plan, Professor P.C. Mahalanobis demonstrated that long-term consumption growth would be maximized by allocating a high proportion (lambda_k) of investment to:",
+      "options": [
+        "A) The capital goods sector (producing 'machines to make machines')",
+        "B) Imported consumer luxury goods",
+        "C) Non-mechanized traditional handicraft weaving",
+        "D) Commercial real estate development"
+      ],
+      "correct_option": "A",
+      "explanation": "The Feldman-Mahalanobis model showed that while allocating investment to consumer goods yields higher immediate consumption, allocating investment to capital goods (lambda_k) builds productive capacity that maximizes consumption in the long run."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Coal Mines Nationalisation",
+      "difficulty": "medium",
+      "question": "The coal mining industry in India was nationalized in two stages (1971-1973) primarily to:",
+      "options": [
+        "A) Halt predatory unscientific extraction by private mine owners, ensure safety for mineworkers, and coordinate coal supplies for public power and steel plants",
+        "B) Ban the use of thermal coal in all electricity generation plants",
+        "C) Export 100 percent of domestic coal to Western Europe",
+        "D) Hand over coal reserves to agricultural cooperatives"
+      ],
+      "correct_option": "A",
+      "explanation": "Nationalisation under the Coking and Non-Coking Coal Acts eliminated hazardous exploitation of miners by private contractors and ensured centralized investments to meet rising power and industrial coal demands."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Phased Manufacturing Programmes Abolition",
+      "difficulty": "hard",
+      "question": "Under the 1991 New Industrial Policy, the abolition of mandatory 'Phased Manufacturing Programmes' (PMP) eliminated the statutory requirement that:",
+      "options": [
+        "A) Foreign and domestic manufacturing enterprises had to progressively indigenize and source input components domestically over a fixed timeline",
+        "B) Factories must double their employee headcount every three years",
+        "C) All industrial production must be moved to coastal port cities",
+        "D) Enterprises had to produce both light consumer goods and heavy machine tools"
+      ],
+      "correct_option": "A",
+      "explanation": "Pre-1991 PMPs forced firms to meet arbitrary local content requirements. Abolishing PMP freed companies to source high-quality components globally, integrating Indian factories into global value chains."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "National Telecom Policy 1999",
+      "difficulty": "medium",
+      "question": "The National Telecom Policy (NTP) 1999 catalyzed India's mobile telecommunications boom primarily by transitioning private telecom operators from a:",
+      "options": [
+        "A) High fixed upfront license fee regime to a revenue-sharing model with entry fees",
+        "B) Pure state monopoly under the Department of Telecommunications",
+        "C) System of mandatory subsidized landline connections",
+        "D) 100 percent state ownership structure"
+      ],
+      "correct_option": "A",
+      "explanation": "Fixed license fees threatened private telecom operators with bankruptcy in the late 1990s. NTP 1999 introduced a revenue-sharing model, rescuing the sector and driving tariffs to historic lows."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "GST Network Technology Backbone",
+      "difficulty": "medium",
+      "question": "The Goods and Services Tax Network (GSTN) is a specialized digital infrastructure company created to:",
+      "options": [
+        "A) Provide a common, secure technological platform for taxpayer registration, invoice matching, return filing, and interstate tax settlement across Centre and States",
+        "B) Set national policy interest rates for commercial banks",
+        "C) Formulate annual defense expenditure budgets",
+        "D) Conduct synchronous decennial population censuses"
+      ],
+      "correct_option": "A",
+      "explanation": "GSTN provides the nationwide IT backbone for GST implementation, handling registrations, processing monthly invoices, facilitating input tax credit reconciliation, and settling IGST revenues between states."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q42",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "NEP 2020 Pedagogical Structure",
+      "difficulty": "easy",
+      "question": "The National Education Policy (NEP) 2020 restructured the traditional 10+2 school educational system into a new four-stage pedagogical design denoted as:",
+      "options": [
+        "A) 5 + 3 + 3 + 4",
+        "B) 4 + 4 + 2 + 2",
+        "C) 3 + 3 + 3 + 3",
+        "D) 6 + 2 + 2 + 2"
+      ],
+      "correct_option": "A",
+      "explanation": "NEP 2020 replaced the 10+2 system with the 5+3+3+4 structure: Foundational (5 years, ages 3\u20138), Preparatory (3 years, 8\u201311), Middle (3 years, 11\u201314), and Secondary (4 years, 14\u201318)."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Priority Sector Lending ANBC Norm",
+      "difficulty": "medium",
+      "question": "Under the Reserve Bank of India's Priority Sector Lending (PSL) master directions, domestic scheduled commercial banks are mandated to allocate what percentage of Adjusted Net Bank Credit (ANBC) to priority sectors?",
+      "options": [
+        "A) 40 percent",
+        "B) 10 percent",
+        "C) 65 percent",
+        "D) 25 percent"
+      ],
+      "correct_option": "A",
+      "explanation": "Domestic commercial banks must lend 40% of their Adjusted Net Bank Credit (ANBC) or credit equivalent of off-balance sheet exposures (whichever is higher) to priority sectors (agriculture, MSMEs, education, housing)."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "e-Shram Portal for Unorganized Workers",
+      "difficulty": "medium",
+      "question": "The 'e-Shram' portal launched by the Ministry of Labour and Employment aims to create a comprehensive national database of:",
+      "options": [
+        "A) Unorganized workers (including gig, migrant, and construction workers) to facilitate direct delivery of social security benefits",
+        "B) Permanent civil servants employed in central ministries",
+        "C) Registered corporate board directors across listed firms",
+        "D) Commercial airline pilots operating international routes"
+      ],
+      "correct_option": "A",
+      "explanation": "Launched in 2021, the e-Shram portal registers informal/unorganized workers with a 12-digit Universal Account Number (UAN) to extend social security, accident insurance, and portable welfare delivery."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "PM Ujjwala Yojana Health Impact",
+      "difficulty": "easy",
+      "question": "Pradhan Mantri Ujjwala Yojana (PMUY) provides deposit-free LPG gas connections to poor rural households primarily to address the health hazard of:",
+      "options": [
+        "A) Indoor air pollution caused by burning firewood, dung cakes, and agricultural waste in traditional chulhas",
+        "B) Groundwater arsenic contamination",
+        "C) Malnutrition caused by drought-induced grain shortages",
+        "D) Noise pollution generated by industrial diesel generators"
+      ],
+      "correct_option": "A",
+      "explanation": "PMUY provides clean cooking fuel to rural women, mitigating severe respiratory and ocular illnesses caused by inhaling hazardous smoke from biomass combustion in unventilated kitchens."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Daly's Steady State Economy",
+      "difficulty": "hard",
+      "question": "Ecological economist Herman Daly defined a 'Steady-State Economy' as an economic system with:",
+      "options": [
+        "A) Constant stocks of physical capital and population maintained by a minimum rate of throughput of matter and energy that stays within natural planetary boundaries",
+        "B) An economic growth rate permanently fixed at 15 percent per year",
+        "C) Zero government taxes and complete deregulation of environmental standards",
+        "D) Total replacement of human labour with automated robotic factories"
+      ],
+      "correct_option": "A",
+      "explanation": "A steady-state economy maintains constant physical capital and population with minimal resource throughput (matter-energy flows), keeping economic extraction and waste discharge within ecosystem carrying capacities."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Winter Temperature Inversion Smog",
+      "difficulty": "medium",
+      "question": "Why does severe air pollution and smog in the Indo-Gangetic Plains become intensely acute during winter months?",
+      "options": [
+        "A) Thermal temperature inversion traps emissions (from crop residue burning, vehicles, and industry) close to the ground beneath a layer of warm stagnant air",
+        "B) The ozone layer vanishes completely over northern India each November",
+        "C) Industrial output expands by 500 percent during winter festival seasons",
+        "D) Wind speeds across the plains rise to hurricane levels"
+      ],
+      "correct_option": "A",
+      "explanation": "During winter, thermal inversion occurs: cold air near the surface is trapped beneath a warm air lid. Low wind speeds prevent vertical mixing, concentrating particulate matter (PM2.5) into dense smog."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Dual-Track Transition in China vs Shock Therapy",
+      "difficulty": "hard",
+      "question": "China's economic transition model is termed 'Gradualist / Dual-Track' (Shuangguizhi), which sharply contrasted with the Russian post-Soviet transition because:",
+      "options": [
+        "A) China preserved state enterprises and plan quotas while allowing private enterprise to grow at the margin, avoiding the catastrophic output collapse of Russia's sudden 'shock therapy'",
+        "B) China completely abolished the Communist Party and privatized all assets in 24 hours",
+        "C) Russia maintained agricultural communes while China liquidated all rural landholdings",
+        "D) China accepted unconditional bailout conditionalities from the IMF"
+      ],
+      "correct_option": "A",
+      "explanation": "Unlike Russia's overnight price liberalization and voucher privatization ('shock therapy') that caused economic free-fall, China reformed incrementally at the margin without destroying institutional stability."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Textile Export Stagnation",
+      "difficulty": "medium",
+      "question": "Pakistan's export sector has suffered from persistent trade deficits and lack of diversification primarily because of heavy, stagnant concentration in:",
+      "options": [
+        "A) Low value-added cotton textiles and yarn, vulnerable to global demand shifts and power outages",
+        "B) Advanced civil aviation engineering software",
+        "C) Deep-sea hydrocarbon drilling equipment",
+        "D) High-technology artificial intelligence services"
+      ],
+      "correct_option": "A",
+      "explanation": "Textiles and apparel account for nearly 60% of Pakistan's exports. Reliance on basic cotton products without moving up the value chain leaves its trade balance fragile and vulnerable."
+    },
+    {
+      "id": "CUET_ECO_2026_P19_L9B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Multidimensional Poverty Index Dimensions",
+      "difficulty": "hard",
+      "question": "The National Multidimensional Poverty Index (MPI) published by NITI Aayog measures acute deprivations using Alkire-Foster methodology across which three equally weighted dimensions?",
+      "options": [
+        "A) Health, Education, and Standard of Living (encompassing 12 indicators including nutrition, schooling, sanitation, and bank accounts)",
+        "B) Military capability, foreign currency reserves, and GDP per capita",
+        "C) Stock market capitalisation, total highway length, and telecom density",
+        "D) Corporate profit taxes, urban real estate valuations, and gold imports"
+      ],
+      "correct_option": "A",
+      "explanation": "NITI Aayog's National MPI uses the Oxford Alkire-Foster method, retaining the three global dimensions\u2014Health (1/3 weight), Education (1/3), Standard of Living (1/3)\u2014subdivided into 12 household-level indicators."
+    }
+  ]
+}

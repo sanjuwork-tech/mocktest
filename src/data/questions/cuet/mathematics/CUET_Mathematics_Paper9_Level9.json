@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P9_L9",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 9,
+  "difficulty_level": "9",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Algebra of Matrices",
+      "difficulty": "easy",
+      "question": "A matrix A has 4 rows and 5 columns. For the product A·B to be defined, B must have:",
+      "options": [
+        "A) 5 rows",
+        "B) 4 rows",
+        "C) 5 columns",
+        "D) 4 columns"
+      ],
+      "correct_option": "A",
+      "explanation": "For A·B to be defined, the number of columns of A must equal the number of rows of B. A has 5 columns, so B must have 5 rows."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q02",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( If A = [[1, 2, 3], [0, 4, 5], [0, 0, 6]], what is the value of \\left| \\1 \\right|? \\)",
+      "options": [
+        "A) 24",
+        "B) 18",
+        "C) 6",
+        "D) 12"
+      ],
+      "correct_option": "A",
+      "explanation": "A is an upper triangular matrix. The determinant of a triangular matrix equals the product of its diagonal elements: 1 × 4 × 6 = 24."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q03",
+      "topic": "Higher Order Derivatives",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "Find the value of the function/derivative: If f(x) = x³ − 2x, then f′′(x) equals:",
+      "options": [
+        "A) 6x",
+        "B) 3x² − 2",
+        "C) 6x − 2",
+        "D) 3x²"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( We apply the standard rules of differentiation. f′(x) = 3x² − 2 and f′′(x) = 6x. This result follows from the fundamental principles of Higher Order Derivatives. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q04",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "A fair coin is tossed once. The probability of getting a head is:",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 1",
+        "D) 0"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( A fair coin has two equally likely outcomes: Head or Tail. P(Head) = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q05",
+      "topic": "Vector Algebra",
+      "sub_topic": "Magnitude and direction of a vector",
+      "difficulty": "easy",
+      "question": "The magnitude of the vector 2i − 2j + k is:",
+      "options": [
+        "A) 3",
+        "B) √3",
+        "C) 5",
+        "D) √5"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{2² + (−2}² + 1²) = \\sqrt{4 + 4 + 1} = \\sqrt{9} = 3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q06",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[2, 1], [3, 5]], what is the trace of A?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 7",
+        "D) 8"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( The trace of a matrix is the \\sum of its diagonal elements: 2 + 5 = 7. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q07",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "The adjoint of a 2×2 matrix [a b; c d] is:",
+      "options": [
+        "A) [d −b; −c a]",
+        "B) [d b; c a]",
+        "C) [a c; b d]",
+        "D) [−d b; c −a]"
+      ],
+      "correct_option": "A",
+      "explanation": "For a 2×2 matrix [a b; c d], the adjoint is obtained by swapping diagonal elements and changing signs of off-diagonal elements: [d −b; −c a]."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q08",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Derivatives of inverse trigonometric functions",
+      "difficulty": "medium",
+      "question": "\\( The derivative of \\sin⁻¹(x) with respect to x is: \\)",
+      "options": [
+        "A) 1/√(1−x²)",
+        "B) −1/(1+x²)",
+        "C) 1/(1+x²)",
+        "D) −1/√(1−x²)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( d/dx[\\sin⁻¹(x)] = 1/\\sqrt{1−x²} for −1 < x < 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q09",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "\\( If z = \\cos(2π/5) + i \\sin(2π/5), then 1 + z + z² + z³ + z⁴ equals: \\)",
+      "options": [
+        "A) -1",
+        "B) 5",
+        "C) 1",
+        "D) 0"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Since z = e^{(2πi/5)}, we have z^{5} = 1. As z ≠ 1, using the geometric series \\sum formula: 1 + z + z² + z³ + z⁴ = (z^{5} - 1)/(z - 1) = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q10",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "Solve the differential equation: The general solution of dy/dx = 2x is:",
+      "options": [
+        "A) y = x² + C",
+        "B) y = x³ + C",
+        "C) y = x²",
+        "D) y = 2x + C"
+      ],
+      "correct_option": "A",
+      "explanation": "We use standard methods for solving differential equations. Integrating both sides: y = ∫2x dx = x² + C, where C is the constant of integration."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q11",
+      "topic": "Probability",
+      "sub_topic": "Independent events",
+      "difficulty": "medium",
+      "question": "If P(A) = 0.4 and P(B) = 0.5, and A and B are independent, then P(A∩B) equals:",
+      "options": [
+        "A) 0.4",
+        "B) 0.1",
+        "C) 0.2",
+        "D) 0.9"
+      ],
+      "correct_option": "C",
+      "explanation": "For independent events, P(A∩B) = P(A)·P(B) = 0.4 × 0.5 = 0.2."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q12",
+      "topic": "Determinants",
+      "sub_topic": "Applications of determinants in finding area of triangle",
+      "difficulty": "medium",
+      "question": "The area of the triangle with vertices (0,0), (4,0), and (0,3) is:",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 6",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Area = ½\\left| \\1 \\right| = ½\\left| \\1 \\right| = ½\\left| \\1 \\right| = 6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q13",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "medium",
+      "question": "The direction cosines of the x-axis are:",
+      "options": [
+        "A) (1/√3, 1/√3, 1/√3)",
+        "B) (0,1,0)",
+        "C) (0,0,1)",
+        "D) (1,0,0)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( The x-axis makes angles 0^{\\circ}, 90^{\\circ}, 90^{\\circ} with the coordinate axes. Direction cosines are (\\cos 0^{\\circ}, \\cos 90^{\\circ}, \\cos 90^{\\circ}) = (1, 0, 0). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q14",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "In linear programming, the optimal solution is always found at:",
+      "options": [
+        "A) Any point in the feasible region",
+        "B) The origin",
+        "C) Corner points of the feasible region",
+        "D) The interior of the feasible region"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( By the Fundamental Theorem of Linear Programming, if an optimal solution \\exists, it occurs at one of the corner points (vertices) of the feasible region. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q15",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "If A is a 2×2 matrix with A² = I, what is |A|?",
+      "options": [
+        "A) ±1",
+        "B) 1",
+        "C) -1",
+        "D) 0"
+      ],
+      "correct_option": "A",
+      "explanation": "A² = I implies |A²| = |I| = 1. |A|² = 1. |A| = ±1."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q16",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "If f(x) = x³ − 3x² + 2, the critical points are at:",
+      "options": [
+        "A) x = 0 and x = 2",
+        "B) x = 1 and x = 3",
+        "C) x = 1 and x = 2",
+        "D) x = 0 and x = 3"
+      ],
+      "correct_option": "A",
+      "explanation": "f′(x) = 3x² − 6x = 3x(x − 2) = 0 gives critical points at x = 0 and x = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q17",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "\\( If \\left| \\1 \\right| = 3 for a 3×3 matrix A, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 27",
+        "B) 81",
+        "C) 9",
+        "D) 3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For an n×n matrix A, \\left| \\1 \\right| = \\left| \\1 \\right|^(n−1). Here n = 3, so \\left| \\1 \\right| = 3² = 9. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q18",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "medium",
+      "question": "The dot product of a = i + 2j + 3k and b = 4i − 5j + 6k is:",
+      "options": [
+        "A) 12",
+        "B) 16",
+        "C) 14",
+        "D) 18"
+      ],
+      "correct_option": "A",
+      "explanation": "a·b = (1)(4) + (2)(−5) + (3)(6) = 4 − 10 + 18 = 12."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q19",
+      "topic": "Probability",
+      "sub_topic": "Independent events",
+      "difficulty": "medium",
+      "question": "If A and B are independent events with P(A) = 0.6 and P(B) = 0.5, then P(A∩B') equals:",
+      "options": [
+        "A) 0.3",
+        "B) 0.4",
+        "C) 0.5",
+        "D) 0.2"
+      ],
+      "correct_option": "A",
+      "explanation": "For independent events, P(A∩B') = P(A)·P(B') = P(A)·(1-P(B)) = 0.6 × 0.5 = 0.3."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q20",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "medium",
+      "question": "Find the domain of the function: The domain of f(x) = 1/(x − 2) is:",
+      "options": [
+        "A) x ≠ 0",
+        "B) x < 2",
+        "C) x > 2",
+        "D) x ≠ 2"
+      ],
+      "correct_option": "D",
+      "explanation": "The domain is the set of all x-values for which the function is defined. The function is undefined when the denominator is zero: x − 2 = 0 gives x = 2. Domain: all real numbers except x = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q21",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: The value of ∫₀^(π/2) sin²(x) dx is:",
+      "options": [
+        "A) π/4",
+        "B) π/2",
+        "C) π/8",
+        "D) π"
+      ],
+      "correct_option": "A",
+      "explanation": "Using sin²(x) = (1-cos(2x))/2: ∫₀^(π/2) sin²(x)dx = (1/2)[x - sin(2x)/2]₀^(π/2) = π/4."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q22",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "medium",
+      "question": "The order and degree of the differential equation (d²y/dx²)² + 3(dy/dx)³ = y are:",
+      "options": [
+        "A) Order 2, Degree 3",
+        "B) Order 1, Degree 2",
+        "C) Order 2, Degree 1",
+        "D) Order 2, Degree 2"
+      ],
+      "correct_option": "D",
+      "explanation": "The highest derivative is d²y/dx² (order 2), and its power is 2 (degree 2)."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q23",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "medium",
+      "question": "Compute the matrix product: If A = [1 2; 3 4], then A² equals:",
+      "options": [
+        "A) [7 10; 15 22]",
+        "B) [1 4; 9 16]",
+        "C) [5 8; 11 18]",
+        "D) [7 10; 15 24]"
+      ],
+      "correct_option": "A",
+      "explanation": "Matrix multiplication follows the row-by-column rule. A² = [1·1+2·3  1·2+2·4; 3·1+4·3  3·2+4·4] = [7 10; 15 22]."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q24",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "medium",
+      "question": "\\( Two dice are rolled. The probability of getting a \\sum of 7 is: \\)",
+      "options": [
+        "A) 1/12",
+        "B) 1/6",
+        "C) 1/3",
+        "D) 1/9"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Favorable outcomes: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 ways. Total outcomes = 36. P = \\frac{6}{36} = \\frac{1}{6}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q25",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "medium",
+      "question": "\\( The coordinates of the point that divides the line segment joining (2, 3, 4) and (5, 6, 7) internally \\in the ratio 1:2 are: \\)",
+      "options": [
+        "A) (3, 4, 5)",
+        "B) (4, 5, 6)",
+        "C) (1, 2, 3)",
+        "D) (6, 7, 8)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using section formula: ((1×5+2×2)/(1+2), (1×6+2×3)/(1+2), (1×7+2×4)/(1+2)) = (\\frac{9}{3}, \\frac{12}{3}, \\frac{15}{3}) = (3, 4, 5). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q26",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "Find the inverse of the matrix: If A = [2 1; 1 2], find A⁻¹.",
+      "options": [
+        "A) (1/3)[2 −1; −1 2]",
+        "B) (1/3)[−2 1; 1 −2]",
+        "C) (1/3)[2 1; 1 2]",
+        "D) (1/5)[2 −1; −1 2]"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 2·2 − 1·1 = 3. Adjoint of [a b; c d] is [d −b; −c a], so adj(A) = [2 −1; −1 2]. Thus A⁻¹ = (\\frac{1}{3})[2 −1; −1 2]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q27",
+      "topic": "Maxima and Minima",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "hard",
+      "question": "Find the maximum value of f(x) = 2x³ − 3x² − 12x + 5 on the interval [0, 3].",
+      "options": [
+        "A) 5",
+        "B) −12",
+        "C) 2",
+        "D) −15"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( f′(x) = 6x² − 6x − 12 = 6(x−2)(x+1) = 0 gives x = 2 (\\in interval). f(0) = 5, f(2) = 16−12−24+5 = −15, f(3) = 54−27−36+5 = −4. Maximum value is 5 at x = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q28",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^∞ e^{(−2x)} dx.",
+      "options": [
+        "A) ∞",
+        "B) 1",
+        "C) 1/2",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( ∫₀^∞ e^{(−2x)} dx = \\lim[b→∞] [e^{(−2x)}/(−2)]₀^b = \\lim[b→∞] (0 − (−\\frac{1}{2})) = \\frac{1}{2}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q29",
+      "topic": "Probability",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "hard",
+      "question": "\\( A fair coin is tossed 5 \\times. What is the probability of getting exactly 3 heads? \\)",
+      "options": [
+        "A) 5/16",
+        "B) 10/32",
+        "C) 1/4",
+        "D) 5/32"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( This is a binomial distribution with n=5, p=\\frac{1}{2}. P(X=3) = C(5,3) × (\\frac{1}{2})³ × (\\frac{1}{2})² = 10 × \\frac{1}{32} = \\frac{10}{32} = \\frac{5}{16}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q30",
+      "topic": "Matrices",
+      "sub_topic": "Solving system of linear equations",
+      "difficulty": "hard",
+      "question": "Using matrix method, solve: 2x + y = 5, x - y = 1. The value of x is:",
+      "options": [
+        "A) 4",
+        "B) 2",
+        "C) 1",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( In matrix form AX = B: [2 1; 1 -1][x;y] = [5;1]. \\left| \\1 \\right| = -3. A⁻¹ = (1/-3)[-1 -1; -1 2]. Then [x;y] = A⁻¹[5;1] = [2;1]. So x = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q31",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vectors and scalars",
+      "difficulty": "hard",
+      "question": "The angle between vectors a = i + j and b = i − j is:",
+      "options": [
+        "A) 45°",
+        "B) 0°",
+        "C) 180°",
+        "D) 90°"
+      ],
+      "correct_option": "D",
+      "explanation": "a·b = (1)(1) + (1)(−1) = 0. Since the dot product is zero, the vectors are perpendicular. The angle is 90^{\\circ}."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q32",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "hard",
+      "question": "Find the derivative of y equals x to the power x.",
+      "options": [
+        "A) x^(x−1)",
+        "B) xˣ(1 + ln x)",
+        "C) xˣ",
+        "D) xˣ·ln x"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using logarithmic differentiation: dy/dx = x^x * (\\ln(x) + 1). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q33",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Evaluate the following integral: The value of ∫x·sin(x) dx is:",
+      "options": [
+        "A) -x·cos(x) + sin(x) + C",
+        "B) x·cos(x) - sin(x) + C",
+        "C) -x·cos(x) - sin(x) + C",
+        "D) x·cos(x) + sin(x) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Integration by parts: u = x, dv = sin(x)dx. Result = -x·cos(x) + sin(x) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q34",
+      "topic": "Probability",
+      "sub_topic": "Independent events",
+      "difficulty": "hard",
+      "question": "Events A and B have P(A) = 0.5, P(B) = 0.4, and P(A∪B) = 0.7. Are A and B independent?",
+      "options": [
+        "A) Mutually exclusive",
+        "B) Yes",
+        "C) Cannot be determined",
+        "D) No"
+      ],
+      "correct_option": "B",
+      "explanation": "P(A∩B) = P(A) + P(B) − P(A∪B) = 0.5 + 0.4 − 0.7 = 0.2. For independence, check if P(A∩B) = P(A)·P(B): 0.5 × 0.4 = 0.2. Yes, they are independent."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q35",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The equation of the line passing through (1,2,3) and parallel to the vector 2i − j + k is:",
+      "options": [
+        "A) (x−1)/2 = (y−2)/1 = (z−3)/1",
+        "B) x/2 = y/(−1) = z/1",
+        "C) (x+1)/2 = (y+2)/(−1) = (z+3)/1",
+        "D) (x−1)/2 = (y−2)/(−1) = (z−3)/1"
+      ],
+      "correct_option": "D",
+      "explanation": "The equation of a line through (x₁,y₁,z₁) with direction ratios a,b,c is (x−x₁)/a = (y−y₁)/b = (z−z₁)/c. Here: (x−1)/2 = (y−2)/(−1) = (z−3)/1."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q36",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "hard",
+      "question": "\\( The function f(x) = x·\\sin(1/x) for x ≠ 0 and f(0) = 0 at x = 0 is: \\)",
+      "options": [
+        "A) Continuous but not differentiable",
+        "B) Continuous and differentiable",
+        "C) Discontinuous",
+        "D) Neither continuous nor differentiable"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( f(x) is continuous at x = 0 since \\left| \\1 \\right| ≤ \\left| \\1 \\right| → 0 as x → 0. However, the derivative at x = 0: f'(0) = \\lim[h→0] \\sin(1/h), which does not exist. So f is continuous but not differentiable at x = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q37",
+      "topic": "Integrals",
+      "sub_topic": "Area under simple curves",
+      "difficulty": "hard",
+      "question": "Find the area bounded by y = x², y = 2x, and the x-axis.",
+      "options": [
+        "A) 4/3",
+        "B) 2",
+        "C) 4",
+        "D) 8/3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( The curves y = x² and y = 2x intersect at x = 0 and x = 2. Area = ∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − \\frac{8}{3} = \\frac{4}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q38",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "hard",
+      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = −2, what is \\left| \\1 \\right|? \\)",
+      "options": [
+        "A) 2",
+        "B) −2",
+        "C) 8",
+        "D) −8"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\left| \\1 \\right| = (−1)³\\left| \\1 \\right| = (−1)³ × (−2) = (−1) × (−2) = 2. For odd-order matrices, negating the matrix negates the determinant. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q39",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "\\( A die is rolled twice. The probability of getting a \\sum of 8 is: \\)",
+      "options": [
+        "A) 1/9",
+        "B) 5/36",
+        "C) 7/36",
+        "D) 1/6"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Favorable outcomes: (2,6),(3,5),(4,4),(5,3),(6,2) = 5 ways. Total outcomes = 6×6 = 36. P = \\frac{5}{36}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q40",
+      "topic": "Maxima and Minima",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "hard",
+      "question": "The maximum value of xy subject to the constraint x + y = 10 is:",
+      "options": [
+        "A) 50",
+        "B) 20",
+        "C) 100",
+        "D) 25"
+      ],
+      "correct_option": "D",
+      "explanation": "From x + y = 10: y = 10 − x. Then xy = x(10−x) = 10x − x². d/dx(xy) = 10 − 2x = 0 gives x = 5. Then y = 5 and xy = 25."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q41",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "\\( Find the value: Evaluate ∫eˣ(\\sin x + \\cos x) dx. \\)",
+      "options": [
+        "A) eˣ·sin x + C",
+        "B) eˣ(sin x − cos x) + C",
+        "C) eˣ(sin x + cos x) + C",
+        "D) eˣ·cos x + C"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Notice that d/dx[eˣ·\\sin x] = eˣ·\\sin x + eˣ·\\cos x = eˣ(\\sin x + \\cos x). Therefore ∫eˣ(\\sin x + \\cos x) dx = eˣ·\\sin x + C. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q42",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "hard",
+      "question": "The cross product of a = i + 2j − k and b = 3i − j + 2k is:",
+      "options": [
+        "A) −3i + 5j + 7k",
+        "B) 3i − 5j − 7k",
+        "C) 5i − 7j − 3k",
+        "D) 3i + 5j + 7k"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = i(4−1) − j(2+3) + k(−1−6) = 3i − 5j − 7k. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q43",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "If P(A|B) = 0.6 and P(B) = 0.4, then P(A∩B) equals:",
+      "options": [
+        "A) 0.24",
+        "B) 0.6",
+        "C) 0.4",
+        "D) 1.0"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(A\\left| \\1 \\right|B)·P(B) = 0.6 × 0.4 = 0.24. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q44",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Derivatives of inverse trigonometric functions",
+      "difficulty": "hard",
+      "question": "\\( Find the principal value of the inverse trigonometric function: The derivative of \\tan⁻¹(2x) is: \\)",
+      "options": [
+        "A) 1/(1+x²)",
+        "B) 2/(1+4x²)",
+        "C) 1/(1+4x²)",
+        "D) 2/(1+x²)"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. d/dx[\\tan⁻¹(u)] = u′/(1+u²). Here u = 2x, so u′ = 2. Therefore d/dx[\\tan⁻¹(2x)] = 2/(1+4x²). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q45",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "hard",
+      "question": "Maximize Z = 2x + 5y subject to x ≥ 0, y ≥ 0, 2x + 3y ≤ 12, x + y ≤ 5.",
+      "options": [
+        "A) 20",
+        "B) 10",
+        "C) 12",
+        "D) 16"
+      ],
+      "correct_option": "A",
+      "explanation": "Corner points: (0,0)→Z=0; (0,4)→Z=20; intersection of 2x+3y=12 and x+y=5 gives x=3,y=2→Z=16; (5,0)→Z=10. Maximum Z = 20 at (0,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q46",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Solve the following problem: If f(x) = x²eˣ, what is f''(x)?",
+      "options": [
+        "A) eˣ(x² + 4x + 2)",
+        "B) eˣ(x² + 2x + 2)",
+        "C) eˣ(x² + 4x + 4)",
+        "D) eˣ(x² + 2x + 4)"
+      ],
+      "correct_option": "A",
+      "explanation": "f'(x) = 2xeˣ + x²eˣ. f''(x) = 2eˣ + 2xeˣ + 2xeˣ + x²eˣ = eˣ(x² + 4x + 2)."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q47",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "hard",
+      "question": "Solve the given problem related to Determinants.",
+      "options": [
+        "A) 3/2",
+        "B) 1/6",
+        "C) 2/3",
+        "D) 6"
+      ],
+      "correct_option": "C",
+      "explanation": "We apply the standard concepts and formulas of Determinants to arrive at the correct answer."
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q48",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "\\( The probability of getting at least one head \\in 3 tosses of a fair coin is: \\)",
+      "options": [
+        "A) 1/2",
+        "B) 1/8",
+        "C) 3/8",
+        "D) 7/8"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( P(at least one head) = 1 − P(no heads) = 1 − P(all tails) = 1 − (\\frac{1}{2})³ = 1 − \\frac{1}{8} = \\frac{7}{8}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q49",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The minimum distance from the origin to the line 3x + 4y = 10 is:",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 1",
+        "D) 5"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Distance from (x₁,y₁) to ax+by+c=0 is \\left| \\1 \\right|/\\sqrt{a²+b²}. Here: \\left| \\1 \\right|/\\sqrt{9+16} = \\frac{10}{5} = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P9_L9_Q50",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "hard",
+      "question": "Solve the following problem: If A = [[1,1],[0,1]], what is A¹⁰?",
+      "options": [
+        "A) [[1,10],[0,1]]",
+        "B) [[10,10],[0,10]]",
+        "C) [[1,1],[0,1]]",
+        "D) [[1,0],[10,1]]"
+      ],
+      "correct_option": "A",
+      "explanation": "For A = [[1,k],[0,1]], Aⁿ = [[1,nk],[0,1]]. Here k=1, n=10."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 // Update this setting when an owned custom domain becomes the primary domain.
 export function canonicalSiteUrl(configured?: string): string {
   const url = new URL(
-    configured?.trim() || "https://mocktest-sigma.vercel.app",
+    configured?.trim() || "https://ourmocks.com",
   );
   if (
     url.protocol !== "https:" ||

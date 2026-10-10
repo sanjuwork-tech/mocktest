@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P7_L7",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 7,
+  "difficulty_level": "7",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q01",
+      "topic": "Microeconomics",
+      "sub_topic": "Law of Demand",
+      "difficulty": "easy",
+      "question": "The Law of Demand states that, other things remaining constant:",
+      "explanation": "The Law of Demand establishes an inverse relationship between price and quantity demanded, assuming all other factors remain unchanged (ceteris paribus).",
+      "options": [
+        "A) When price of a good rises, quantity demanded falls",
+        "B) When income rises, demand for a good always rises",
+        "C) Supply of a good is always equal to demand",
+        "D) When price of a good rises, quantity demanded rises"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q02",
+      "topic": "Microeconomics",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "If the demand for a good is perfectly inelastic, the demand curve is:",
+      "explanation": "Perfectly inelastic demand (elasticity = 0) means quantity demanded does not change regardless of price changes, represented by a vertical demand curve.",
+      "options": [
+        "A) A downward sloping straight line",
+        "B) A vertical line parallel to the Y-axis",
+        "C) An upward sloping curve",
+        "D) A horizontal line parallel to the X-axis"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q03",
+      "topic": "Microeconomics",
+      "sub_topic": "Cross-Price Elasticity",
+      "difficulty": "medium",
+      "question": "If the cross-price elasticity of demand between tea and coffee is +1.5, it indicates that tea and coffee are:",
+      "explanation": "Positive cross-price elasticity means an increase in the price of one good leads to an increase in demand for the other, indicating they are substitutes.",
+      "options": [
+        "A) Substitute goods",
+        "B) Complementary goods",
+        "C) Inferior goods",
+        "D) Unrelated goods"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q04",
+      "topic": "Microeconomics",
+      "sub_topic": "Indifference Curve Analysis",
+      "difficulty": "medium",
+      "question": "At the point of consumer equilibrium under the indifference curve approach, which tangency condition must be satisfied?",
+      "explanation": "Consumer equilibrium in ordinal utility analysis occurs at the tangency point where the slope of the indifference curve (MRS_xy) equals the price ratio (Px/Py), and the IC is strictly convex.",
+      "options": [
+        "A) Marginal Rate of Substitution equals the price ratio (Px/Py)",
+        "B) Marginal Rate of Substitution is strictly greater than one",
+        "C) Total utility across both commodities becomes zero",
+        "D) Indifference curve is concave to the origin"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q05",
+      "topic": "Microeconomics",
+      "sub_topic": "Total and Marginal Utility",
+      "difficulty": "medium",
+      "question": "When marginal utility of a good becomes zero, total utility is:",
+      "explanation": "When marginal utility equals zero, total utility reaches its peak. Any additional consumption beyond this point would make marginal utility negative, reducing total utility.",
+      "options": [
+        "A) Zero",
+        "B) Minimum",
+        "C) Negative",
+        "D) Maximum"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q06",
+      "topic": "Microeconomics",
+      "sub_topic": "Returns to Scale",
+      "difficulty": "medium",
+      "question": "If a firm increases all inputs by 50% and output increases by 75%, the firm is experiencing:",
+      "explanation": "When output increases by a greater proportion than the increase in all inputs (75% > 50%), the firm experiences increasing returns to scale.",
+      "options": [
+        "A) Decreasing returns to scale",
+        "B) Diminishing marginal returns",
+        "C) Constant returns to scale",
+        "D) Increasing returns to scale"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q07",
+      "topic": "Microeconomics",
+      "sub_topic": "Short-Run Cost Analysis",
+      "difficulty": "medium",
+      "question": "In the short run, which of the following costs is always zero when output is zero?",
+      "explanation": "In the short run, variable costs depend on the level of output. When output is zero, no variable inputs are used, so variable cost is zero.",
+      "options": [
+        "A) Total cost",
+        "B) Fixed cost",
+        "C) Variable cost",
+        "D) Marginal cost"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q08",
+      "topic": "Microeconomics",
+      "sub_topic": "Perfect Competition",
+      "difficulty": "hard",
+      "question": "In a perfectly competitive market, the demand curve facing an individual firm is perfectly elastic because:",
+      "explanation": "In perfect competition, individual firms are price takers. They must accept the market-determined price and can sell any quantity at that price, making their demand curve perfectly elastic (horizontal).",
+      "options": [
+        "A) There are many buyers but few sellers",
+        "B) There are significant barriers to entry",
+        "C) The firm is a price taker and cannot influence the market price",
+        "D) The product is differentiated"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q09",
+      "topic": "Microeconomics",
+      "sub_topic": "Factor Market - Marginal Revenue Product",
+      "difficulty": "hard",
+      "question": "A profit-maximizing firm in a competitive labor market will hire additional workers up to the point where:",
+      "explanation": "A firm maximizes profit by hiring workers until the additional revenue from the last worker (MRP) equals the cost of hiring that worker (wage rate).",
+      "options": [
+        "A) Marginal Revenue Product equals the wage rate",
+        "B) Average Product of labor is maximized",
+        "C) Total Revenue equals Total Cost",
+        "D) Marginal Cost of production is zero"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q10",
+      "topic": "Microeconomics",
+      "sub_topic": "Monopoly Market",
+      "difficulty": "hard",
+      "question": "A monopolist can continue to earn supernormal profits in the long run primarily because:",
+      "explanation": "Barriers to entry (legal, natural, strategic, or technological) prevent competitors from entering the market, allowing the monopoly to maintain supernormal profits in the long run.",
+      "options": [
+        "A) The market demand is perfectly elastic",
+        "B) The government subsidizes monopoly production",
+        "C) There are significant barriers to entry preventing new firms from entering",
+        "D) The monopolist produces at minimum average cost"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q11",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Determination",
+      "difficulty": "easy",
+      "question": "The equilibrium price in a competitive market is determined by:",
+      "explanation": "Equilibrium price is determined at the point where market demand equals market supply, i.e., the intersection of the demand and supply curves.",
+      "options": [
+        "A) The intersection of average revenue and average cost curves",
+        "B) The government through price controls",
+        "C) The producer's cost of production alone",
+        "D) The intersection of market demand and market supply curves"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q12",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Excess Demand and Supply",
+      "difficulty": "easy",
+      "question": "When the market price is set below the equilibrium price, the result is:",
+      "explanation": "At a price below equilibrium, consumers want to buy more than producers want to sell, creating excess demand or a shortage in the market.",
+      "options": [
+        "A) A decrease in quantity supplied",
+        "B) Market equilibrium",
+        "C) Excess supply (surplus)",
+        "D) Excess demand (shortage)"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q13",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Consumer Surplus",
+      "difficulty": "medium",
+      "question": "Consumer surplus is graphically represented by the area:",
+      "explanation": "Consumer surplus represents the difference between what consumers are willing to pay (demand curve) and what they actually pay (market price).",
+      "options": [
+        "A) Above both the demand and supply curves",
+        "B) Above the demand curve and below the price line",
+        "C) Below the demand curve and above the price line",
+        "D) Below the supply curve and above the price line"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q14",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Producer Surplus",
+      "difficulty": "medium",
+      "question": "Producer surplus is equal to:",
+      "explanation": "Producer surplus is the difference between the price producers receive and the minimum price they would accept (supply curve), represented by the area above supply and below price.",
+      "options": [
+        "A) The area below the demand curve and above the price line",
+        "B) The difference between average cost and marginal cost",
+        "C) Total revenue minus total cost",
+        "D) The area above the supply curve and below the price line"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q15",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Controls",
+      "difficulty": "medium",
+      "question": "A price ceiling set below the equilibrium price will lead to:",
+      "explanation": "A binding price ceiling below equilibrium creates a shortage because quantity demanded exceeds quantity supplied at that price. This often leads to rationing or black markets.",
+      "options": [
+        "A) Shortage and possible black market emergence",
+        "B) Surplus and excess supply",
+        "C) A decrease in the equilibrium price",
+        "D) An increase in the equilibrium quantity"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q16",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Tax Incidence",
+      "difficulty": "medium",
+      "question": "The burden of a tax falls more heavily on the party that:",
+      "explanation": "The party with less elastic behavior (less responsive to price changes) bears a larger share of the tax burden because they cannot easily adjust their quantity demanded or supplied.",
+      "options": [
+        "A) Has higher income",
+        "B) Has relatively more inelastic demand or supply",
+        "C) Pays the tax directly to the government",
+        "D) Has relatively more elastic demand or supply"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q17",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Pareto Efficiency",
+      "difficulty": "hard",
+      "question": "An allocation is Pareto efficient when:",
+      "explanation": "Pareto efficiency (optimality) means resources are allocated such that no reallocation can improve one person's welfare without reducing another's welfare.",
+      "options": [
+        "A) Everyone receives an equal share of resources",
+        "B) The market is in equilibrium regardless of distribution",
+        "C) Total surplus is maximized and distributed equally",
+        "D) No individual can be made better off without making someone else worse off"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q18",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Externalities",
+      "difficulty": "hard",
+      "question": "A negative production externality results in:",
+      "explanation": "With negative production externalities, the marginal social cost exceeds the marginal private cost, leading firms to produce more than the socially optimal quantity.",
+      "options": [
+        "A) Underproduction relative to the socially optimal level",
+        "B) A decrease in marginal social cost",
+        "C) Overproduction relative to the socially optimal level",
+        "D) Efficient allocation without deadweight loss"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q19",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Public Goods",
+      "difficulty": "hard",
+      "question": "Which combination of characteristics defines a pure public good?",
+      "explanation": "Pure public goods are both non-excludable (cannot prevent others from using) and non-rivalrous (one person's use does not reduce availability to others). Examples include national defense and street lighting.",
+      "options": [
+        "A) Excludable and non-rivalrous",
+        "B) Non-excludable and rivalrous",
+        "C) Excludable and rivalrous",
+        "D) Non-excludable and non-rivalrous"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q20",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Asymmetric Information",
+      "difficulty": "hard",
+      "question": "Adverse selection in insurance markets occurs because:",
+      "explanation": "Adverse selection occurs before a transaction when one party has more information. In insurance, those with higher risk are more likely to buy insurance, potentially causing market failure.",
+      "options": [
+        "A) High-risk individuals are more likely to purchase insurance",
+        "B) Insurers have perfect information about all customers",
+        "C) Low-risk individuals are more likely to purchase insurance",
+        "D) Insurance premiums are too low"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q21",
+      "topic": "Macroeconomics",
+      "sub_topic": "National Income Accounting",
+      "difficulty": "easy",
+      "question": "GDP is defined as the total market value of:",
+      "explanation": "GDP measures the total market value of all final goods and services produced within a country's domestic territory during a specific time period, avoiding double-counting of intermediate goods.",
+      "options": [
+        "A) All final goods and services produced within a country's borders in a given period",
+        "B) All goods and services traded in the market regardless of legality",
+        "C) All goods produced by citizens of a country regardless of location",
+        "D) All goods and services produced including intermediate goods"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q22",
+      "topic": "Macroeconomics",
+      "sub_topic": "Nominal vs Real GDP",
+      "difficulty": "easy",
+      "question": "Real GDP differs from nominal GDP in that real GDP:",
+      "explanation": "Real GDP uses constant base-year prices to eliminate the effect of inflation, providing a more accurate measure of actual economic output changes over time.",
+      "options": [
+        "A) Is adjusted for changes in the price level",
+        "B) Only includes goods, not services",
+        "C) Excludes government spending",
+        "D) Includes the value of intermediate goods"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q23",
+      "topic": "Macroeconomics",
+      "sub_topic": "Income Method of National Income",
+      "difficulty": "medium",
+      "question": "Which method of calculating national income sums up wages, rent, interest, and profits?",
+      "explanation": "The income method calculates national income by summing all factor incomes: wages (labor), rent (land), interest (capital), and profits (entrepreneurship).",
+      "options": [
+        "A) Expenditure method",
+        "B) Value of production method",
+        "C) Output method",
+        "D) Income method"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q24",
+      "topic": "Macroeconomics",
+      "sub_topic": "Money Supply Measures",
+      "difficulty": "medium",
+      "question": "In the Indian context, M1 measure of money supply includes:",
+      "explanation": "M1 (narrow money) consists of currency notes and coins held by the public plus demand deposits (checking accounts) held with commercial banks.",
+      "options": [
+        "A) Savings deposits + fixed deposits",
+        "B) Government securities + treasury bills",
+        "C) Currency with the public + demand deposits with banks",
+        "D) Currency with the public + time deposits with banks"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q25",
+      "topic": "Macroeconomics",
+      "sub_topic": "Demand-Pull Inflation",
+      "difficulty": "medium",
+      "question": "Demand-pull inflation occurs when:",
+      "explanation": "Demand-pull inflation (also called excess demand inflation) happens when total spending in the economy outpaces the economy's capacity to produce, pulling prices upward.",
+      "options": [
+        "A) Money supply decreases significantly",
+        "B) Aggregate demand in the economy exceeds aggregate supply at full employment",
+        "C) Production costs increase due to rising wages",
+        "D) Aggregate supply grows faster than aggregate demand"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q26",
+      "topic": "Macroeconomics",
+      "sub_topic": "Fiscal Policy",
+      "difficulty": "medium",
+      "question": "An expansionary fiscal policy is best described as:",
+      "explanation": "Expansionary fiscal policy aims to boost economic activity by increasing government expenditure or cutting taxes, thereby raising aggregate demand.",
+      "options": [
+        "A) Increasing interest rates to reduce borrowing",
+        "B) Decreasing government spending to balance the budget",
+        "C) Increasing government spending or reducing taxes to stimulate aggregate demand",
+        "D) Reducing the money supply to control inflation"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q27",
+      "topic": "Macroeconomics",
+      "sub_topic": "Phillips Curve",
+      "difficulty": "hard",
+      "question": "The short-run Phillips curve shows the relationship between:",
+      "explanation": "The Phillips curve illustrates a trade-off: higher inflation is associated with lower unemployment in the short run, and vice versa, due to aggregate demand dynamics.",
+      "options": [
+        "A) Money supply and price level (inverse relationship)",
+        "B) Interest rate and investment (direct relationship)",
+        "C) GDP growth and inflation rate (direct relationship)",
+        "D) Inflation rate and unemployment rate (inverse relationship)"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q28",
+      "topic": "Macroeconomics",
+      "sub_topic": "Crowding Out Effect",
+      "difficulty": "hard",
+      "question": "The crowding out effect refers to the situation where:",
+      "explanation": "When the government borrows heavily to finance deficits, it increases demand for loanable funds, pushing up interest rates, which in turn discourages private investment.",
+      "options": [
+        "A) Government spending directly replaces private consumption",
+        "B) Imports increase and reduce domestic production",
+        "C) Government borrowing raises interest rates, reducing private investment",
+        "D) Tax increases reduce disposable income and saving"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q29",
+      "topic": "Macroeconomics",
+      "sub_topic": "Automatic Stabilizers",
+      "difficulty": "hard",
+      "question": "Which of the following is an example of an automatic stabilizer?",
+      "explanation": "Progressive taxation acts as an automatic stabilizer because during booms, higher incomes push people into higher tax brackets, cooling demand automatically; during recessions, the reverse happens.",
+      "options": [
+        "A) Government launching a new infrastructure spending program",
+        "B) A discretionary cut in corporate tax rates announced in the budget",
+        "C) Progressive income tax system",
+        "D) Central bank changing the repo rate"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q30",
+      "topic": "Macroeconomics",
+      "sub_topic": "Quantity Theory of Money",
+      "difficulty": "hard",
+      "question": "According to the Quantity Theory of Money (MV = PY), if the money supply doubles while velocity and real output remain constant:",
+      "explanation": "In the equation MV = PY, if M doubles and V and Y are constant, P must double to maintain the equality. This is the classical quantity theory's prediction about inflation.",
+      "options": [
+        "A) The price level will double",
+        "B) The price level will halve",
+        "C) Real output will double",
+        "D) Velocity of money will double"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q31",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Fiscal Deficit",
+      "difficulty": "easy",
+      "question": "Fiscal deficit is defined as:",
+      "explanation": "Fiscal deficit = Total expenditure - (Revenue receipts + Non-debt capital receipts). It represents the borrowing requirement of the government.",
+      "options": [
+        "A) Total borrowing of the government",
+        "B) Total expenditure minus total receipts excluding borrowings",
+        "C) Interest payments on government debt",
+        "D) Total revenue receipts minus revenue expenditure"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q32",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Current Account",
+      "difficulty": "easy",
+      "question": "The current account of Balance of Payments includes:",
+      "explanation": "The current account records trade in goods (merchandise), services, primary income (investment income), and secondary income (transfers like remittances).",
+      "options": [
+        "A) Trade in goods and services, income, and current transfers",
+        "B) Government borrowing from international agencies",
+        "C) Changes in foreign exchange reserves",
+        "D) Foreign direct investment and portfolio investment"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q33",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Revenue Deficit",
+      "difficulty": "medium",
+      "question": "Revenue deficit is calculated as:",
+      "explanation": "Revenue deficit indicates the excess of revenue expenditure over revenue receipts, showing that the government's current income is insufficient to meet current expenses.",
+      "options": [
+        "A) Revenue expenditure minus revenue receipts",
+        "B) Total expenditure minus total receipts",
+        "C) Fiscal deficit minus interest payments",
+        "D) Capital expenditure minus capital receipts"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q34",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Exchange Rate Systems",
+      "difficulty": "medium",
+      "question": "Under a flexible (floating) exchange rate system, the exchange rate is determined by:",
+      "explanation": "In a floating exchange rate regime, the value of the currency is determined by the demand for and supply of the currency in the foreign exchange market without government intervention.",
+      "options": [
+        "A) The central bank of the country",
+        "B) A fixed parity with a basket of currencies",
+        "C) Market forces of demand and supply for foreign exchange",
+        "D) The International Monetary Fund"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q35",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Trade Policy - Tariffs",
+      "difficulty": "medium",
+      "question": "The imposition of a tariff on imported goods will:",
+      "explanation": "A tariff raises the price of imported goods, making them less competitive domestically. This reduces imports and protects domestic producers, but consumers face higher prices.",
+      "options": [
+        "A) Decrease domestic price and increase the volume of imports",
+        "B) Have no effect on domestic prices",
+        "C) Increase domestic price and reduce the volume of imports",
+        "D) Increase the volume of imports while lowering domestic prices"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q36",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "medium",
+      "question": "In the Balance of Payments framework, how are unilateral transfers like gift remittances sent by non-resident Indians (NRIs) classified?",
+      "explanation": "Unilateral transfers (such as gifts, grants, and personal remittances) do not create any future asset or liability, hence they are recorded in the current account under invisibles.",
+      "options": [
+        "A) Capital account as foreign direct investment",
+        "B) Current account under invisible trade/transfers",
+        "C) Official reserve transactions of the central bank",
+        "D) Commercial borrowings account"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q37",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Impossible Trinity",
+      "difficulty": "hard",
+      "question": "The impossible trinity (trilemma) in international finance states that a country cannot simultaneously maintain:",
+      "explanation": "The trilemma asserts that a nation can achieve at most two of: a fixed exchange rate, free capital movement, and monetary policy autonomy. It must sacrifice one.",
+      "options": [
+        "A) High GDP growth, low inflation, and low unemployment",
+        "B) A fixed exchange rate, free capital mobility, and an independent monetary policy",
+        "C) Trade surplus, budget surplus, and current account surplus",
+        "D) Full employment, price stability, and balanced budget"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q38",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "J-Curve Effect",
+      "difficulty": "hard",
+      "question": "The J-curve effect describes how, following a currency depreciation:",
+      "explanation": "After depreciation, import contracts and consumer habits adjust slowly, so the trade balance initially worsens (imports cost more). Over time, export volumes rise and import volumes fall, improving the trade balance — forming a J-shaped path.",
+      "options": [
+        "A) The trade balance initially worsens before eventually improving",
+        "B) The trade balance improves immediately and continuously",
+        "C) Exports immediately increase and imports immediately decrease",
+        "D) Inflation rises first and then falls below the original level"
+      ],
+      "correct_option": "A"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q39",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Transfer Problem",
+      "difficulty": "hard",
+      "question": "The transfer problem in international economics refers to:",
+      "explanation": "The transfer problem, analyzed by Keynes and Ohlin, examines how large unilateral transfers (like war reparations) can shift demand patterns and potentially worsen the donor country's terms of trade.",
+      "options": [
+        "A) The difficulty of making international wire transfers",
+        "B) How a unilateral transfer may worsen the donor's terms of trade",
+        "C) Exchange rate fluctuations affecting trade",
+        "D) How tariffs are transferred to consumers"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q40",
+      "topic": "Budget and Open Economy",
+      "sub_topic": "Ricardian Equivalence",
+      "difficulty": "hard",
+      "question": "The Ricardian equivalence theorem implies that:",
+      "explanation": "Ricardian equivalence suggests that tax-financed and debt-financed government spending are equivalent because rational agents save the tax cut, knowing future taxes will rise to repay the debt.",
+      "options": [
+        "A) Government deficits always lead to inflation",
+        "B) Government spending always crowds out private investment",
+        "C) Tax cuts always stimulate consumer spending regardless of context",
+        "D) Government borrowing does not affect aggregate demand because people save more in anticipation of future taxes"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q41",
+      "topic": "Indian Economy",
+      "sub_topic": "Planning and Development Institutions",
+      "difficulty": "easy",
+      "question": "The Planning Commission of India was replaced in 2015 by:",
+      "explanation": "The Planning Commission was dissolved in 2014 and NITI (National Institution for Transforming India) Aayog was established in January 2015 as a policy think tank.",
+      "options": [
+        "A) Ministry of Finance",
+        "B) Finance Commission",
+        "C) NITI Aayog",
+        "D) Reserve Bank of India"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q42",
+      "topic": "Indian Economy",
+      "sub_topic": "Green Revolution",
+      "difficulty": "easy",
+      "question": "The Green Revolution in India was primarily aimed at achieving:",
+      "explanation": "The Green Revolution (mid-1960s onward) introduced high-yielding variety seeds, modern irrigation, and chemical fertilizers to boost agricultural output and achieve food security.",
+      "options": [
+        "A) Export-oriented manufacturing growth",
+        "B) Rapid industrialization of the economy",
+        "C) Self-sufficiency in food grain production",
+        "D) Expansion of the service sector"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q43",
+      "topic": "Indian Economy",
+      "sub_topic": "Economic Reforms 1991",
+      "difficulty": "medium",
+      "question": "The New Economic Policy of 1991 introduced which set of reforms?",
+      "explanation": "The 1991 reforms, led by Dr. Manmohan Singh, dismantled the License Raj through Liberalization (removing restrictions), Privatization (disinvestment), and Globalization (opening to foreign trade and investment).",
+      "options": [
+        "A) Import substitution and trade protection",
+        "B) Land reforms and abolition of zamindari",
+        "C) Nationalization of banks and industries",
+        "D) Liberalization, Privatization, and Globalization (LPG)"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q44",
+      "topic": "Indian Economy",
+      "sub_topic": "Financial Inclusion",
+      "difficulty": "medium",
+      "question": "The primary objective of Pradhan Mantri Jan Dhan Yojana (PMJDY) is:",
+      "explanation": "Launched in 2014, PMJDY aims at financial inclusion by ensuring every household has at least one basic bank account with access to credit, insurance, and pension facilities.",
+      "options": [
+        "A) Offering skill development training to youth",
+        "B) Providing universal access to banking facilities for every household",
+        "C) Distributing subsidized food grains to BPL families",
+        "D) Providing free housing to the urban poor"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q45",
+      "topic": "Indian Economy",
+      "sub_topic": "Informal Sector",
+      "difficulty": "medium",
+      "question": "Which is a key characteristic of India's informal/unorganized sector?",
+      "explanation": "The informal sector is characterized by small enterprises, lack of formal contracts, no social security, irregular employment, and weak regulatory compliance.",
+      "options": [
+        "A) Workers are covered under all labor welfare legislation",
+        "B) Absence of formal employment contracts and social security benefits",
+        "C) Wages are uniformly higher than in the formal sector",
+        "D) Enterprises maintain detailed accounts and pay regular taxes"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q46",
+      "topic": "Indian Economy",
+      "sub_topic": "NITI Aayog",
+      "difficulty": "medium",
+      "question": "The Vice Chairman of NITI Aayog is appointed by:",
+      "explanation": "NITI Aayog's governing council consists of all state Chief Ministers, and its Vice Chairman is appointed by the Prime Minister.",
+      "options": [
+        "A) The Parliament through a majority vote",
+        "B) The Prime Minister of India",
+        "C) The Chief Justice of India",
+        "D) The President of India"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q47",
+      "topic": "Indian Economy",
+      "sub_topic": "FRBM Act",
+      "difficulty": "hard",
+      "question": "The Fiscal Responsibility and Budget Management (FRBM) Act, 2003 aims to:",
+      "explanation": "The FRBM Act was enacted to institutionalize fiscal discipline by eliminating revenue deficit and capping fiscal deficit at 3% of GDP.",
+      "options": [
+        "A) Mandate tax cuts every five years",
+        "B) Increase government borrowing for infrastructure",
+        "C) Remove all restrictions on government spending",
+        "D) Eliminate revenue deficit and reduce fiscal deficit to 3% of GDP"
+      ],
+      "correct_option": "D"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q48",
+      "topic": "Indian Economy",
+      "sub_topic": "Goods and Services Tax",
+      "difficulty": "hard",
+      "question": "Goods and Services Tax (GST) introduced in India in 2017 is classified as a:",
+      "explanation": "GST is a comprehensive indirect tax levied on the supply of goods and services, collected at the point of consumption (destination principle) rather than production.",
+      "options": [
+        "A) Direct tax on personal income",
+        "B) Progressive tax on wealth",
+        "C) Indirect tax based on the destination principle",
+        "D) Proportional tax on corporate profits only"
+      ],
+      "correct_option": "C"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q49",
+      "topic": "Indian Economy",
+      "sub_topic": "Structural Transformation",
+      "difficulty": "hard",
+      "question": "Since the 1991 economic reforms, the Indian economy has experienced a structural shift toward:",
+      "explanation": "India's growth has been services-led, with IT, finance, and business services driving GDP growth, a pattern distinct from the traditional agriculture-to-industrialization path.",
+      "options": [
+        "A) Mining and extraction becoming the growth engine",
+        "B) The services sector contributing the largest share to GDP",
+        "C) Agriculture becoming the dominant sector",
+        "D) Manufacturing replacing services entirely"
+      ],
+      "correct_option": "B"
+    },
+    {
+      "id": "CUET_ECO_2026_P7_L7_Q50",
+      "topic": "Indian Economy",
+      "sub_topic": "Human Development Index",
+      "difficulty": "hard",
+      "question": "The Human Development Index (HDI) is published by:",
+      "explanation": "The UNDP publishes the annual Human Development Report, which includes the HDI ranking countries based on life expectancy, education, and per capita income.",
+      "options": [
+        "A) World Bank",
+        "B) International Monetary Fund (IMF)",
+        "C) World Trade Organization (WTO)",
+        "D) United Nations Development Programme (UNDP)"
+      ],
+      "correct_option": "D"
+    }
+  ]
+}

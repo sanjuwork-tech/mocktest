@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P16_L6B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 16,
+  "difficulty_level": "6B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Basics",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to remove all rows from a table while keeping the table structure intact?",
+      "options": [
+        "A) DELETE FROM table",
+        "B) TRUNCATE TABLE",
+        "C) REMOVE TABLE",
+        "D) DROP TABLE"
+      ],
+      "correct_option": "B",
+      "explanation": "TRUNCATE TABLE removes all rows but preserves the table structure, unlike DROP TABLE which deletes the entire table."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "What does the SQL function COUNT(*) return when applied to a table with 100 rows where 20 rows have NULL in column X?",
+      "options": [
+        "A) NULL",
+        "B) 20",
+        "C) 80",
+        "D) 100"
+      ],
+      "correct_option": "D",
+      "explanation": "COUNT(*) counts all rows regardless of NULL values. COUNT(column) would return 80 as it ignores NULLs in that column."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "Joins",
+      "difficulty": "medium",
+      "question": "Consider tables Emp(id, name, dept_id) and Dept(id, dname). Which join returns all employees including those without a matching department?",
+      "options": [
+        "A) LEFT JOIN Dept ON Emp.dept_id = Dept.id",
+        "B) INNER JOIN Dept ON Emp.dept_id = Dept.id",
+        "C) RIGHT JOIN Dept ON Emp.dept_id = Dept.id",
+        "D) CROSS JOIN Dept"
+      ],
+      "correct_option": "A",
+      "explanation": "LEFT JOIN returns all rows from the left table (Emp) plus matched rows from the right table (Dept). Unmatched rows get NULL for Dept columns."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization",
+      "difficulty": "medium",
+      "question": "A relation R(A,B,C,D) has functional dependencies {A->B, B->C, C->D}. What is the highest normal form this relation satisfies?",
+      "options": [
+        "A) 1NF",
+        "B) 3NF",
+        "C) 2NF",
+        "D) BCNF"
+      ],
+      "correct_option": "C",
+      "explanation": "The candidate key is A. Since A is a single attribute, there are no partial dependencies (2NF satisfied). However, B->C and C->D are transitive dependencies of non-prime attributes, violating 3NF. Thus it satisfies 2NF."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q05",
+      "topic": "Database/SQL",
+      "sub_topic": "Subqueries",
+      "difficulty": "medium",
+      "question": "Given a table Employees(salary), what does the query SELECT * FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees) return?",
+      "options": [
+        "A) Employees with salary greater than the average salary",
+        "B) Employees with salary less than the average salary",
+        "C) All employees sorted by salary",
+        "D) Only the employee with the highest salary"
+      ],
+      "correct_option": "A",
+      "explanation": "The subquery computes the average salary of all employees. The outer query then filters employees whose salary exceeds this average value."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "Constraints",
+      "difficulty": "medium",
+      "question": "Which constraint ensures that a column cannot have duplicate values but can have NULL values?",
+      "options": [
+        "A) NOT NULL",
+        "B) CHECK",
+        "C) PRIMARY KEY",
+        "D) UNIQUE"
+      ],
+      "correct_option": "D",
+      "explanation": "UNIQUE constraint ensures no duplicates but allows NULLs (unlike PRIMARY KEY which disallows both duplicates and NULLs)."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q07",
+      "topic": "Database/SQL",
+      "sub_topic": "Views",
+      "difficulty": "medium",
+      "question": "A SQL view that is created from a single base table and does not contain DISTINCT, GROUP BY, or aggregate functions is called:",
+      "options": [
+        "A) Complex view",
+        "B) Read-only view",
+        "C) Simple (updatable) view",
+        "D) Materialized view"
+      ],
+      "correct_option": "C",
+      "explanation": "Such a view is called a simple or updatable view because it can support INSERT, UPDATE, and DELETE operations that propagate to the base table."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q08",
+      "topic": "Database/SQL",
+      "sub_topic": "Transaction Management",
+      "difficulty": "hard",
+      "question": "In a database system using strict two-phase locking, when are exclusive (write) locks released?",
+      "options": [
+        "A) After the shrinking phase begins",
+        "B) Only after the transaction commits or aborts",
+        "C) After all operations in the transaction complete",
+        "D) Immediately after the write operation completes"
+      ],
+      "correct_option": "B",
+      "explanation": "Strict 2PL holds all exclusive locks until the transaction commits or aborts, preventing cascading aborts and ensuring recoverability."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q09",
+      "topic": "Database/SQL",
+      "sub_topic": "Indexing",
+      "difficulty": "hard",
+      "question": "A B+ tree index of order m has a maximum of m children per node. If the tree has height h (root at level 0), what is the maximum number of key values that can be stored?",
+      "options": [
+        "A) (m-1)^h",
+        "B) m^(h+1) - 1",
+        "C) (m-1) * m^h",
+        "D) m^h"
+      ],
+      "correct_option": "C",
+      "explanation": "Each internal node has at most m children. At level h (leaf level), there are at most m^h nodes, each containing at most (m-1) keys. So maximum keys = (m-1) * m^h."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q10",
+      "topic": "Database/SQL",
+      "sub_topic": "Functional Dependencies",
+      "difficulty": "hard",
+      "question": "Given F = {AB->C, C->D, D->A}, what is the closure of attribute set {B} under F?",
+      "options": [
+        "A) {B,A}",
+        "B) {B,D}",
+        "C) {B,C,D,A}",
+        "D) {B}"
+      ],
+      "correct_option": "D",
+      "explanation": "Starting with B, we apply FDs: AB->C needs A (not available), C->D needs C (not available), D->A needs D (not available). No FD has B alone on the LHS, so B+ = {B}."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q11",
+      "topic": "Networks",
+      "sub_topic": "Network Devices",
+      "difficulty": "easy",
+      "question": "Which networking device forwards data packets only to the specific port where the destination MAC address is located?",
+      "options": [
+        "A) Switch",
+        "B) Bridge",
+        "C) Repeater",
+        "D) Hub"
+      ],
+      "correct_option": "A",
+      "explanation": "A switch maintains a MAC address table and forwards frames only to the port associated with the destination MAC address, unlike a hub which broadcasts to all ports."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q12",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "In the OSI model, which layer is responsible for establishing, managing, and terminating sessions between applications?",
+      "options": [
+        "A) Network Layer",
+        "B) Session Layer",
+        "C) Transport Layer",
+        "D) Presentation Layer"
+      ],
+      "correct_option": "B",
+      "explanation": "The Session Layer (Layer 5) manages communication sessions, including establishment, maintenance, and termination of dialogues between applications."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q13",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "medium",
+      "question": "An IP address 172.16.50.100/20 belongs to which class and what is the maximum number of subnets possible?",
+      "options": [
+        "A) Class B, 4096 subnets",
+        "B) Class B, 14 subnets",
+        "C) Class B, 16 subnets",
+        "D) Class A, 1024 subnets"
+      ],
+      "correct_option": "C",
+      "explanation": "172.16.x.x is Class B (default mask /16). With /20, 4 extra bits are borrowed for subnetting, giving 2^4 = 16 subnets."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q14",
+      "topic": "Networks",
+      "sub_topic": "TCP/UDP",
+      "difficulty": "medium",
+      "question": "A TCP connection has a window size of 64 KB and RTT of 80 ms. What is the approximate maximum throughput? (Assume no packet loss)",
+      "options": [
+        "A) 6.4 Kbps",
+        "B) 6.4 Mbps",
+        "C) 12.8 Mbps",
+        "D) 64 Mbps"
+      ],
+      "correct_option": "B",
+      "explanation": "Throughput = Window Size / RTT = (64 * 1024 * 8 bits) / (0.08 sec) = 524288 / 0.08 ≈ 6,553,600 bps ≈ 6.4 Mbps."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q15",
+      "topic": "Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "Which protocol operates at the application layer and is used to transfer files between a client and a server in a simple, unauthenticated manner on port 21?",
+      "options": [
+        "A) SSH on port 22",
+        "B) HTTP on port 80",
+        "C) SMTP on port 25",
+        "D) FTP on port 21"
+      ],
+      "correct_option": "D",
+      "explanation": "FTP (File Transfer Protocol) operates on port 21 for control connections and is used to transfer files between hosts over a TCP/IP network."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q16",
+      "topic": "Networks",
+      "sub_topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "A 12-bit data word 101100110101 is transmitted using a CRC generator polynomial of x^3 + x + 1 (1011). What is the remainder (CRC bits) after division?",
+      "options": [
+        "A) 001",
+        "B) 100",
+        "C) 111",
+        "D) 010"
+      ],
+      "correct_option": "A",
+      "explanation": "CRC division: append 3 zeros to data: 101100110101000. Divide by 1011 using XOR. The remainder is 001."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q17",
+      "topic": "Networks",
+      "sub_topic": "Routing",
+      "difficulty": "medium",
+      "question": "In distance vector routing, what problem occurs when a link fails and routers incrementally increase their distance metrics to infinity?",
+      "options": [
+        "A) Count to infinity",
+        "B) Deadlock",
+        "C) Poison reverse",
+        "D) Split horizon"
+      ],
+      "correct_option": "A",
+      "explanation": "Count to infinity occurs when routers keep increasing the hop count for a failed destination because each believes the other has a path."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q18",
+      "topic": "Networks",
+      "sub_topic": "Subnetting",
+      "difficulty": "hard",
+      "question": "A company has the network 10.0.0.0/8 and needs to create exactly 512 subnets. What subnet mask should be used and how many hosts per subnet will be available?",
+      "options": [
+        "A) /17, 8190 hosts",
+        "B) /17, 32766 hosts",
+        "C) /18, 16382 hosts",
+        "D) /19, 8190 hosts"
+      ],
+      "correct_option": "B",
+      "explanation": "512 subnets = 2^9, so 9 bits borrowed. /8 + 9 = /17. Host bits = 32-17 = 15. Usable hosts = 2^15 - 2 = 32766."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q19",
+      "topic": "Networks",
+      "sub_topic": "TCP",
+      "difficulty": "hard",
+      "question": "TCP uses a 32-bit sequence number field. If the bandwidth is 1 Gbps and the average packet size is 1500 bytes, what is the minimum time before a sequence number can be reused (wrap-around time)?",
+      "options": [
+        "A) About 17 seconds",
+        "B) About 136 seconds",
+        "C) About 34 seconds",
+        "D) About 68 seconds"
+      ],
+      "correct_option": "C",
+      "explanation": "Sequence number space = 2^32 bytes = 4,294,967,296 bytes. At 1 Gbps = 125,000,000 bytes/sec. Wrap-around = 4,294,967,296 / 125,000,000 ≈ 34.36 seconds."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q20",
+      "topic": "Networks",
+      "sub_topic": "Cryptography in Networks",
+      "difficulty": "hard",
+      "question": "In the RSA algorithm, if p=11, q=13, and e=7, what is the private key d?",
+      "options": [
+        "A) 83",
+        "B) 43",
+        "C) 23",
+        "D) 103"
+      ],
+      "correct_option": "D",
+      "explanation": "n = 11*13 = 143, φ(n) = 10*12 = 120. Need d such that 7d ≡ 1 mod 120. Using extended Euclidean algorithm: 7*103 = 721 = 6*120 + 1, so d = 103."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists",
+      "difficulty": "easy",
+      "question": "What is the output of len([1, 2, 3] + [4, 5])?",
+      "options": [
+        "A) 2",
+        "B) [1, 2, 3, 4, 5]",
+        "C) 5",
+        "D) Error"
+      ],
+      "correct_option": "C",
+      "explanation": "The + operator concatenates two lists. [1,2,3] + [4,5] = [1,2,3,4,5], and len() returns 5."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Which method returns all keys of a dictionary d?",
+      "options": [
+        "A) d.all()",
+        "B) d.keys()",
+        "C) d.values()",
+        "D) d.items()"
+      ],
+      "correct_option": "B",
+      "explanation": "d.keys() returns a view object containing all keys of the dictionary."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Strings",
+      "difficulty": "easy",
+      "question": "What is the result of 'Hello'.replace('l', 'r')?",
+      "options": [
+        "A) 'Herro'",
+        "B) 'Hello'",
+        "C) 'Heero'",
+        "D) 'Hero'"
+      ],
+      "correct_option": "D",
+      "explanation": "str.replace() replaces ALL occurrences. 'l'→'r': H-e-l-l-o → H-e-r-o = 'Hero'."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stack Implementation",
+      "difficulty": "medium",
+      "question": "A stack implemented using a list has elements [10, 20, 30] (top is 30). After operations: push(40), pop(), push(50), what is the stack content from bottom to top?",
+      "options": [
+        "A) [10, 20, 50]",
+        "B) [10, 20, 50, 30]",
+        "C) [10, 20, 40, 50]",
+        "D) [10, 20, 30, 50]"
+      ],
+      "correct_option": "A",
+      "explanation": "push(40) → [10,20,30,40], pop() removes 40 → [10,20,30], push(50) → [10,20,50]."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queue",
+      "difficulty": "medium",
+      "question": "In a circular queue of size 5 with front=2 and rear=4, how many elements are currently in the queue?",
+      "options": [
+        "A) 4",
+        "B) 2",
+        "C) 3",
+        "D) 5"
+      ],
+      "correct_option": "B",
+      "explanation": "Number of elements = (rear - front + capacity) % capacity = (4 - 2 + 5) % 5 = 2 elements."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Linked List",
+      "difficulty": "medium",
+      "question": "A doubly linked list node contains 3 fields. What is the time complexity of deleting a given node (with pointer to it) from the middle of a doubly linked list of n nodes?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "In a doubly linked list, deleting a node given its pointer is O(1) — simply update the prev and next pointers of adjacent nodes without traversal."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion",
+      "difficulty": "medium",
+      "question": "Consider the recursive function: def f(n): return n if n <= 1 else n + f(n-2). What is f(7)?",
+      "options": [
+        "A) 21",
+        "B) 15",
+        "C) 16",
+        "D) 12"
+      ],
+      "correct_option": "C",
+      "explanation": "f(7) = 7 + f(5) = 7 + 5 + f(3) = 7 + 5 + 3 + f(1) = 7 + 5 + 3 + 1 = 16."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Binary Tree",
+      "difficulty": "hard",
+      "question": "A binary search tree contains keys inserted in order: 50, 30, 70, 20, 40, 60, 80. What is the height of the resulting BST?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "BST built: 50 is root, 30 left, 70 right, 20 under 30, 40 under 30, 60 under 70, 80 under 70. Tree is balanced with max depth 2. Height = 2."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Hashing",
+      "difficulty": "hard",
+      "question": "In a hash table of size 7 using linear probing, keys 14, 21, 28 are inserted using h(k) = k mod 7. What is the final position of key 28?",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 2",
+        "D) 0"
+      ],
+      "correct_option": "C",
+      "explanation": "h(14)=0 → slot 0, h(21)=0 → collision, probe to slot 1, h(28)=0 → collision at 0 and 1, probe to slot 2."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Time Complexity",
+      "difficulty": "hard",
+      "question": "What is the tightest upper bound for the recurrence T(n) = 2T(n/2) + n² with T(1) = 1?",
+      "options": [
+        "A) O(n²)",
+        "B) O(n² log n)",
+        "C) O(n³)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "By Master's theorem: a=2, b=2, f(n)=n². n^(log_b(a)) = n^1 = n. f(n)=n² = Ω(n^(1+ε)), so case 3 applies: T(n) = Θ(f(n)) = Θ(n²)."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "What is the prerequisite for applying binary search on an array?",
+      "options": [
+        "A) Array must have even number of elements",
+        "B) Array must contain only integers",
+        "C) Array must be unsorted",
+        "D) Array must be sorted"
+      ],
+      "correct_option": "D",
+      "explanation": "Binary search requires the array to be sorted to correctly halve the search space at each step."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the best-case time complexity of bubble sort when the input array is already sorted?",
+      "options": [
+        "A) O(n²)",
+        "B) O(n)",
+        "C) O(1)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "With an optimization flag to detect no swaps, bubble sort terminates after one pass of n-1 comparisons: O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "How many comparisons does selection sort make for an array of n elements?",
+      "options": [
+        "A) n log n",
+        "B) n",
+        "C) n²/2",
+        "D) n(n-1)/2"
+      ],
+      "correct_option": "D",
+      "explanation": "Selection sort always makes n(n-1)/2 comparisons regardless of input order — n-1 in first pass, n-2 in second, ..., 1."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "medium",
+      "question": "After the first pass of merge sort on [38, 27, 43, 3, 9, 82, 10], what are the sublists?",
+      "options": [
+        "A) [38, 27, 3, 43, 9, 10, 82]",
+        "B) [27, 38, 3, 43, 9, 82, 10]",
+        "C) [27, 38, 43, 3, 9, 10, 82]",
+        "D) [3, 9, 10, 27, 38, 43, 82]"
+      ],
+      "correct_option": "B",
+      "explanation": "First pass merges pairs of single elements: [27,38], [3,43], [9,82], [10] → [27, 38, 3, 43, 9, 82, 10]."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "medium",
+      "question": "In quick sort using the first element as pivot, what happens when the input array is already sorted in ascending order?",
+      "options": [
+        "A) Best case performance",
+        "B) Average case performance",
+        "C) Worst case performance",
+        "D) Algorithm crashes"
+      ],
+      "correct_option": "C",
+      "explanation": "Already sorted input with first-element pivot produces highly unbalanced partitions (one empty, one with n-1 elements), giving worst-case O(n²) time."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Sort",
+      "difficulty": "medium",
+      "question": "A max-heap is built from [5, 3, 8, 1, 2, 7]. What is the array representation after heapify?",
+      "options": [
+        "A) [8, 3, 7, 1, 2, 5]",
+        "B) [8, 5, 7, 3, 2, 1]",
+        "C) [8, 3, 5, 1, 2, 7]",
+        "D) [8, 5, 7, 1, 2, 3]"
+      ],
+      "correct_option": "A",
+      "explanation": "Build max-heap bottom-up: index 2 (8) no swap, index 1 (3) no swap, index 0 (5): children 3,8 — swap 5,8 → [8,3,5,1,2,7], then index 2 (5): child 7 — swap → [8,3,7,1,2,5]."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search",
+      "difficulty": "medium",
+      "question": "In a linear search for element X in an unsorted array of n distinct elements, if X is present, what is the average number of comparisons needed?",
+      "options": [
+        "A) (n+1)/2",
+        "B) log₂n",
+        "C) n/2",
+        "D) n"
+      ],
+      "correct_option": "A",
+      "explanation": "If X can be at any position with equal probability, average position is (1+2+...+n)/n = (n+1)/2 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Radix Sort",
+      "difficulty": "hard",
+      "question": "Radix sort is applied to 500 three-digit decimal numbers using counting sort for each digit. What is the time complexity?",
+      "options": [
+        "A) O(500)",
+        "B) O(1500)",
+        "C) O(3 × (500 + 10))",
+        "D) O(3 × (500 + 100))"
+      ],
+      "correct_option": "C",
+      "explanation": "Radix sort with d digits, n elements, base k: O(d × (n + k)). Here d=3, n=500, k=10 → O(3 × (500+10))."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort Analysis",
+      "difficulty": "hard",
+      "question": "If quick sort always partitions an array into two parts where one part has exactly n/5 elements and the other has 4n/5, what is the recurrence and its solution?",
+      "options": [
+        "A) T(n) = T(n-1) + n, O(n²)",
+        "B) T(n) = T(n/5) + T(4n/5) + n, O(n log n)",
+        "C) T(n) = T(n/5) + T(4n/5) + n, O(n²)",
+        "D) T(n) = 2T(n/2) + n, O(n log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Recurrence: T(n) = T(n/5) + T(4n/5) + O(n) for partition. The recursion tree has depth log_{5/4}(n) ≈ log n, so T(n) = O(n log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Comparison Sort Lower Bound",
+      "difficulty": "hard",
+      "question": "What is the minimum number of comparisons required in the worst case to sort 8 distinct elements using any comparison-based sort?",
+      "options": [
+        "A) 24",
+        "B) 28",
+        "C) 8",
+        "D) 16"
+      ],
+      "correct_option": "D",
+      "explanation": "Lower bound for comparison sort: ⌈log₂(n!)⌉ comparisons. For n=8: 8! = 40320, log₂(40320) ≈ 15.3, ceil = 16."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "Malware",
+      "difficulty": "easy",
+      "question": "Which type of malware disguises itself as legitimate software to trick users into installing it?",
+      "options": [
+        "A) Virus",
+        "B) Trojan",
+        "C) Worm",
+        "D) Ransomware"
+      ],
+      "correct_option": "B",
+      "explanation": "A Trojan horse appears as legitimate software but contains malicious code that executes when the user runs it."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Phishing",
+      "difficulty": "easy",
+      "question": "What is the primary technique used in a phishing attack?",
+      "options": [
+        "A) Exploiting software vulnerabilities",
+        "B) Overloading a server with requests",
+        "C) Deceiving users via fake emails/websites",
+        "D) Encrypting user data for ransom"
+      ],
+      "correct_option": "C",
+      "explanation": "Phishing primarily relies on social engineering — sending deceptive communications that mimic trusted entities to steal credentials."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Firewall",
+      "difficulty": "medium",
+      "question": "A stateless firewall filters packets based on:",
+      "options": [
+        "A) Complete session history",
+        "B) Application-layer content only",
+        "C) User authentication",
+        "D) Individual packet header fields only"
+      ],
+      "correct_option": "D",
+      "explanation": "A stateless firewall examines each packet independently using header fields (IP addresses, ports, protocols) without tracking connection state."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption",
+      "difficulty": "medium",
+      "question": "In symmetric key cryptography, what is the main challenge?",
+      "options": [
+        "A) Key distribution",
+        "B) Algorithm complexity",
+        "C) Encryption speed",
+        "D) Data integrity"
+      ],
+      "correct_option": "A",
+      "explanation": "The primary challenge in symmetric cryptography is securely distributing the shared key to both parties without interception."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection",
+      "difficulty": "medium",
+      "question": "An attacker inputs ' OR '1'='1' -- into a login form's username field. What type of attack is this an example of?",
+      "options": [
+        "A) Cross-Site Request Forgery (CSRF)",
+        "B) SQL Injection (tautology attack)",
+        "C) Directory Traversal",
+        "D) Buffer Overflow"
+      ],
+      "correct_option": "B",
+      "explanation": "The payload ' OR '1'='1' -- is a classic SQL injection tautology that makes the WHERE clause always true, bypassing authentication."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas DataFrame",
+      "difficulty": "medium",
+      "question": "In Pandas, what does df.dropna(axis=1, how='all') do?",
+      "options": [
+        "A) Drops rows where all values are NaN",
+        "B) Fills NaN values with zero",
+        "C) Drops all rows with any NaN value",
+        "D) Drops columns where all values are NaN"
+      ],
+      "correct_option": "D",
+      "explanation": "axis=1 operates on columns, how='all' drops only columns where ALL values are NaN."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Digital Signatures",
+      "difficulty": "medium",
+      "question": "A digital signature provides which of the following security properties?",
+      "options": [
+        "A) Authentication, integrity, and non-repudiation",
+        "B) Only confidentiality",
+        "C) Only authentication",
+        "D) Only integrity"
+      ],
+      "correct_option": "A",
+      "explanation": "Digital signatures verify the sender's identity (authentication), ensure message hasn't changed (integrity), and prevent the sender from denying sending it (non-repudiation)."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "XSS Attack",
+      "difficulty": "hard",
+      "question": "A web application reflects user input without sanitization in an HTML page. Which attack is this vulnerability susceptible to?",
+      "options": [
+        "A) SQL Injection",
+        "B) CSRF",
+        "C) Cross-Site Scripting (XSS)",
+        "D) Buffer Overflow"
+      ],
+      "correct_option": "C",
+      "explanation": "Reflected user input rendered as HTML enables Cross-Site Scripting (XSS), where attackers inject client-side scripts."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Hash Functions",
+      "difficulty": "hard",
+      "question": "SHA-256 produces a hash output of what length in bits?",
+      "options": [
+        "A) 256",
+        "B) 512",
+        "C) 128",
+        "D) 160"
+      ],
+      "correct_option": "A",
+      "explanation": "SHA-256 (Secure Hash Algorithm 256-bit) produces a fixed 256-bit hash digest regardless of input size."
+    },
+    {
+      "id": "CUET_CS_2026_P16_L6B_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Groupby",
+      "difficulty": "hard",
+      "question": "Given a Pandas DataFrame with columns ['dept', 'salary'], what does df.groupby('dept')['salary'].transform('mean') return?",
+      "options": [
+        "A) A DataFrame with departments as rows and mean salary as columns",
+        "B) A Series with mean salary per department, indexed by department",
+        "C) The overall mean of all salaries",
+        "D) A Series of the same length as df with each row showing its department's mean salary"
+      ],
+      "correct_option": "D",
+      "explanation": "transform() returns a Series with the same shape as the original, where each element is replaced by the group's aggregate value (department mean salary for each employee's row)."
+    }
+  ]
+}

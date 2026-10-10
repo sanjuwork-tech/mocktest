@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P13_L3B",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 13,
+  "difficulty_level": "3B",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Algebra of Matrices",
+      "difficulty": "easy",
+      "question": "If A is a 2×3 matrix and B is a 3×2 matrix, what is the order of the product AB?",
+      "options": [
+        "A) 3×3",
+        "B) 2×2",
+        "C) 3×2",
+        "D) 2×3"
+      ],
+      "correct_option": "B",
+      "explanation": "When multiplying a 2×3 matrix by a 3×2 matrix, the resulting matrix has order 2×2 (rows of first × columns of second)."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q02",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "The argument of the complex number -1 + i is:",
+      "options": [
+        "A) π/4",
+        "B) 3π/4",
+        "C) 5π/4",
+        "D) -π/4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( The complex number -1 + i lies \\in the second quadrant. arg(z) = π - \\tan⁻¹(\\left| \\1 \\right|) = π - \\tan⁻¹(1) = π - π/4 = 3π/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q03",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "If A is a 3×3 matrix with |A| = 2, what is |2A⁻¹|?",
+      "options": [
+        "A) 4",
+        "B) 1",
+        "C) 8",
+        "D) 1/4"
+      ],
+      "correct_option": "A",
+      "explanation": "|2A⁻¹| = 2³·|A⁻¹| = 8·(1/|A|) = 8·(1/2) = 4."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q04",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "Find the value of the function/derivative: If f(x) = x³, then f''(x) equals:",
+      "options": [
+        "A) 9x",
+        "B) 6",
+        "C) 6x",
+        "D) 3x²"
+      ],
+      "correct_option": "C",
+      "explanation": "We apply the standard rules of differentiation. The second derivative is found by differentiating the first derivative. f'(x) = 3x², f''(x) = 6x. The second derivative indicates concavity: positive means concave up, negative means concave down."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q05",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the indefinite integral ∫(2x + 3) dx.",
+      "options": [
+        "A) 2x² + 3x + C",
+        "B) x² + 3x + C",
+        "C) 2x + 3 + C",
+        "D) x² + 3 + C"
+      ],
+      "correct_option": "A",
+      "explanation": "∫(2x+3)dx = 2·(x²/2) + 3x + C = x² + 3x + C. We integrate each term using the power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q06",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "A card is drawn from a well-shuffled deck of 52 cards. The probability of getting a spade is:",
+      "options": [
+        "A) 1/4",
+        "B) 1/13",
+        "C) 1/52",
+        "D) 1/2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( There are 13 spades \\in 52 cards. P(spade) = \\frac{13}{52} = \\frac{1}{4}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q07",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "easy",
+      "question": "If a = i + 2j + 3k and b = 4i - 5j + 6k, then a·b equals:",
+      "options": [
+        "A) 8",
+        "B) 10",
+        "C) 14",
+        "D) 12"
+      ],
+      "correct_option": "D",
+      "explanation": "a·b = (1)(4) + (2)(-5) + (3)(6) = 4 - 10 + 18 = 12."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q08",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Distance of a point from a plane",
+      "difficulty": "easy",
+      "question": "The distance between points (0,0,0) and (3,4,0) is:",
+      "options": [
+        "A) 7",
+        "B) 5",
+        "C) √13",
+        "D) √7"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Distance = \\sqrt{(3-0}² + (4-0)² + (0-0)²) = \\sqrt{9 + 16} = \\sqrt{25} = 5. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q09",
+      "topic": "Linear Programming",
+      "sub_topic": "Feasible and infeasible regions",
+      "difficulty": "easy",
+      "question": "In linear programming, the region satisfying all constraints is called the:",
+      "options": [
+        "A) Solution space",
+        "B) Constraint area",
+        "C) Optimal region",
+        "D) Feasible region"
+      ],
+      "correct_option": "D",
+      "explanation": "The feasible region is the set of all points that satisfy all constraints simultaneously."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q10",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "A relation R on a set A is reflexive if:",
+      "options": [
+        "A) (a,b) ∈ R and (b,c) ∈ R implies (a,c) ∈ R",
+        "B) (a,a) ∈ R for all a ∈ A",
+        "C) (a,b) ∈ R implies (b,a) ∈ R",
+        "D) R contains all possible pairs"
+      ],
+      "correct_option": "B",
+      "explanation": "A relation is reflexive if every element is related to itself."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q11",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "\\( Find the domain of the function: The domain of f(x) = \\sqrt{x+1} is: \\)",
+      "options": [
+        "A) All real numbers",
+        "B) x ≥ 0",
+        "C) x > -1",
+        "D) x ≥ -1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( The domain is the set of all x-values for which the function is defined. For \\sqrt{x+1} to be real, x+1 ≥ 0, so x ≥ -1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q12",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The order of the differential equation d²y/dx² + 3(dy/dx)² + y = 0 is:",
+      "options": [
+        "A) 3",
+        "B) 0",
+        "C) 2",
+        "D) 1"
+      ],
+      "correct_option": "C",
+      "explanation": "The order is the highest derivative present, which is d²y/dx² (order 2)."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q13",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "\\( Evaluate the limit: \\lim(x→0) (\\sin x)/x equals: \\)",
+      "options": [
+        "A) Does not exist",
+        "B) 0",
+        "C) ∞",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( We use standard limit formulas and techniques. This is a standard limit: \\lim(x→0) \\sin(x)/x = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q14",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "easy",
+      "question": "The slope of the tangent to the curve y = x² at x = 2 is:",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "A",
+      "explanation": "The derivative dy/dx gives the slope of the tangent line at any point. dy/dx = 2x. At x = 2, slope = 2(2) = 4. This geometric interpretation connects calculus to coordinate geometry."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q15",
+      "topic": "Probability Distributions",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "easy",
+      "question": "For a binomial distribution with n = 5 and p = 0.4, the mean is:",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 2.4",
+        "D) 1.2"
+      ],
+      "correct_option": "B",
+      "explanation": "Mean of binomial distribution = np = 5 × 0.4 = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q16",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "easy",
+      "question": "Find the value: If A = [1 2; 3 4], then A^T equals:",
+      "options": [
+        "A) [1 2; 3 4]",
+        "B) [1 3; 2 4]",
+        "C) [2 1; 4 3]",
+        "D) [4 3; 2 1]"
+      ],
+      "correct_option": "B",
+      "explanation": "The transpose swaps rows and columns: A^T = [1 3; 2 4]. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q17",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( The determinant of the triangular matrix \\left| \\1 \\right| is: \\)",
+      "options": [
+        "A) 6",
+        "B) 0",
+        "C) 1",
+        "D) 5"
+      ],
+      "correct_option": "A",
+      "explanation": "For a triangular matrix, determinant = product of diagonal elements = 1×2×3 = 6."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q18",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the definite integral of x squared from 0 to 1.",
+      "options": [
+        "A) 1",
+        "B) 1/3",
+        "C) 1/2",
+        "D) 2/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Integral of x^{2} dx from 0 to 1 = [x^\\frac{3}{3}] from 0 to 1 = \\frac{1}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q19",
+      "topic": "Vector Algebra",
+      "sub_topic": "Magnitude and direction of a vector",
+      "difficulty": "easy",
+      "question": "The magnitude of the vector 5i + 12j is:",
+      "options": [
+        "A) 13",
+        "B) 17",
+        "C) √119",
+        "D) 7"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Magnitude = \\sqrt{5² + 12²} = \\sqrt{25 + 144} = \\sqrt{169} = 13. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q20",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "\\( Find the value of the identity \\sin inverse x plus \\cos inverse x. \\)",
+      "options": [
+        "A) π",
+        "B) 0",
+        "C) π/2",
+        "D) π/4"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\sin^{-1}(x) + \\cos^{-1}(x) = \\pi/2 for all x \\in [-1, 1]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q21",
+      "topic": "Linear Programming",
+      "sub_topic": "Introduction and related terminology",
+      "difficulty": "easy",
+      "question": "\\( The constraint x ≥ 0 \\in linear programming restricts the solution to the: \\)",
+      "options": [
+        "A) Right half plane",
+        "B) Upper half plane",
+        "C) Left half plane",
+        "D) Lower half plane"
+      ],
+      "correct_option": "A",
+      "explanation": "x ≥ 0 means all points with non-negative x-coordinates, which is the right half plane."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q22",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "easy",
+      "question": "Find the second derivative of the given function: If y = x⁴, then d²y/dx² equals:",
+      "options": [
+        "A) 24x",
+        "B) 4x³",
+        "C) 12x²",
+        "D) 6x²"
+      ],
+      "correct_option": "C",
+      "explanation": "We differentiate twice using standard rules. The second derivative is found by differentiating the first derivative. dy/dx = 4x³, d²y/dx² = 12x². The second derivative indicates concavity: positive means concave up, negative means concave down."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q23",
+      "topic": "Probability",
+      "sub_topic": "Independent events",
+      "difficulty": "easy",
+      "question": "If A and B are independent events with P(A) = 0.3 and P(B) = 0.5, then P(A∩B) equals:",
+      "options": [
+        "A) 0.8",
+        "B) 0.2",
+        "C) 0.35",
+        "D) 0.15"
+      ],
+      "correct_option": "D",
+      "explanation": "For independent events, P(A∩B) = P(A)·P(B) = 0.3 × 0.5 = 0.15."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q24",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "easy",
+      "question": "The direction ratios of the line joining (1,1,1) and (2,3,4) are:",
+      "options": [
+        "A) (2,3,4)",
+        "B) (1,2,3)",
+        "C) (1,1,1)",
+        "D) (3,4,5)"
+      ],
+      "correct_option": "B",
+      "explanation": "Direction ratios = (2-1, 3-1, 4-1) = (1,2,3)."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q25",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The degree of the differential equation (d³y/dx³)² + (d²y/dx²)⁵ + y = 0 is:",
+      "options": [
+        "A) 5",
+        "B) 2",
+        "C) 3",
+        "D) 10"
+      ],
+      "correct_option": "B",
+      "explanation": "The degree is the power of the highest order derivative. The highest order derivative is d³y/dx³ with power 2, so degree = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q26",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "Using matrix method, solve: x + y = 3, 2x + 3y = 8. The value of x is:",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 2",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( AX = B where A = [1 1; 2 3], B = [3; 8]. \\left| \\1 \\right| = 1. A⁻¹ = [3 -1; -2 1]. X = A⁻¹B = [3×3-1×8; -2×3+1×8] = [1; 2]. So x = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q27",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "\\( Find the value: If \\left| \\1 \\right| = 2, then x equals: \\)",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 2",
+        "D) 4"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\left| \\1 \\right| = 2×4 - 3x = 8 - 3x = 2. So 3x = 6, x = 2. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q28",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "medium",
+      "question": "The principal value of tan⁻¹(tan(3π/4)) is:",
+      "options": [
+        "A) 3π/4",
+        "B) π/4",
+        "C) -π/4",
+        "D) π/2"
+      ],
+      "correct_option": "C",
+      "explanation": "tan(3π/4) = -1. tan⁻¹(-1) = -π/4 (principal range is (-π/2, π/2))."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q29",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "The maximum value of f(x) = -x² + 4x + 5 is:",
+      "options": [
+        "A) 5",
+        "B) 7",
+        "C) 13",
+        "D) 9"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = -2x + 4 = 0 → x = 2. f(2) = -4 + 8 + 5 = 9. Since f''(x) = -2 < 0, it's a maximum."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q30",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Find the indefinite integral of x times e to the power of x, using the integration by parts method.",
+      "options": [
+        "A) x·e^x + C",
+        "B) e^x + C",
+        "C) e^x(x+1) + C",
+        "D) e^x(x-1) + C"
+      ],
+      "correct_option": "D",
+      "explanation": "Using integration by parts with u = x and dv = e^x dx, we get du = dx and v = e^x. The integral equals x*e^x - e^x + C = e^x(x-1) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q31",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "medium",
+      "question": "A bag contains 3 red and 5 blue balls. Two balls are drawn without replacement. The probability that both are red is:",
+      "options": [
+        "A) 1/7",
+        "B) 3/28",
+        "C) 3/14",
+        "D) 5/28"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( P(both red) = (\\frac{3}{8}) × (\\frac{2}{7}) = \\frac{6}{56} = \\frac{3}{28}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q32",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "If a = 2i - j + k and b = i + 3j - 2k, then a×b equals:",
+      "options": [
+        "A) -i - 5j + 7k",
+        "B) -i + 5j + 7k",
+        "C) i + 5j - 7k",
+        "D) i - 5j - 7k"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( a×b = \\left| \\1 \\right| = i(2-3) - j(-4-1) + k(6+1) = -i + 5j + 7k. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q33",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a plane in space",
+      "difficulty": "medium",
+      "question": "The equation of the plane passing through (1,0,0), (0,1,0), and (0,0,1) is:",
+      "options": [
+        "A) x + y + z = 0",
+        "B) x - y + z = 1",
+        "C) x + y + z = 1",
+        "D) x + y - z = 1"
+      ],
+      "correct_option": "C",
+      "explanation": "Using intercept form: x/1 + y/1 + z/1 = 1, which gives x + y + z = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q34",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "Maximize Z = 2x + 3y subject to x ≥ 0, y ≥ 0, x + y ≤ 4. The maximum value is:",
+      "options": [
+        "A) 10",
+        "B) 14",
+        "C) 8",
+        "D) 12"
+      ],
+      "correct_option": "D",
+      "explanation": "Corner points: (0,0)→0, (4,0)→8, (0,4)→12. Maximum Z = 12 at (0,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q35",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "Solve the differential equation: The general solution of dy/dx = 2y is:",
+      "options": [
+        "A) y = 2Cx",
+        "B) y = Ce^(2x)",
+        "C) y = Cx²",
+        "D) y = Ce^(-2x)"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( We use standard methods for solving differential equations. Separating variables: dy/y = 2dx. Integrating: \\ln\\left| \\1 \\right| = 2x + C₁, so y = Ce^{(2x)}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q36",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "medium",
+      "question": "A ladder 5 m long slides down a wall. When the bottom is 3 m from the wall and moving at 1 m/s, how fast is the top sliding down?",
+      "options": [
+        "A) 1 m/s",
+        "B) 4/3 m/s",
+        "C) 3/4 m/s",
+        "D) 5/4 m/s"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( x² + y² = 25. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=3, y=4: 2(3)(1) + 2(4)(dy/dt) = 0, so dy/dt = -\\frac{6}{8} = -\\frac{3}{4} m/s. Speed = \\frac{3}{4} m/s. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q37",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Evaluate the integral of x times sin(x) dx by applying integration by parts.",
+      "options": [
+        "A) -x·cos x - sin x + C",
+        "B) x·sin x + cos x + C",
+        "C) x·cos x + sin x + C",
+        "D) -x·cos x + sin x + C"
+      ],
+      "correct_option": "D",
+      "explanation": "Let u = x, dv = sin(x)dx. Then du = dx, v = -cos(x). The integral equals -x*cos(x) + integral of cos(x)dx = -x*cos(x) + sin(x) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q38",
+      "topic": "Probability",
+      "sub_topic": "Random variable and its probability distribution",
+      "difficulty": "medium",
+      "question": "Two bags: Bag 1 has 2 red and 3 blue balls; Bag 2 has 3 red and 2 blue balls. A bag is chosen at random and a ball is drawn. If the ball is red, what is the probability it came from Bag 1?",
+      "options": [
+        "A) 2/5",
+        "B) 2/3",
+        "C) 1/2",
+        "D) 3/5"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using Bayes' theorem: P(Bag1\\left| \\1 \\right|Bag1)·P(Bag1) / [P(Red\\left| \\1 \\right|Bag2)·P(Bag2)] = (\\frac{2}{5})(\\frac{1}{2}) / [(\\frac{2}{5})(\\frac{1}{2}) + (\\frac{3}{5})(\\frac{1}{2})] = (\\frac{1}{5}) / (\\frac{1}{2}) = \\frac{2}{5}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q39",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "\\( The \\sum of the first 10 terms of the arithmetic progression 2, 5, 8, ... is: \\)",
+      "options": [
+        "A) 160",
+        "B) 155",
+        "C) 150",
+        "D) 145"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( First term a = 2, common difference d = 3. Sum of first n terms: S_n = n/2 × (2a + (n-1)d). S₁₀ = \\frac{10}{2} × (2×2 + 9×3) = 5 × (4 + 27) = 5 × 31 = 155. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q40",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "medium",
+      "question": "The equation of the line passing through (1,2,3) and parallel to the vector i - j + k is:",
+      "options": [
+        "A) (x+1)/1 = (y+2)/-1 = (z+3)/1",
+        "B) x-1 = y-2 = z-3",
+        "C) (x-1)/1 = (y-2)/-1 = (z-3)/1",
+        "D) (x-1)/1 = (y-2)/1 = (z-3)/1"
+      ],
+      "correct_option": "C",
+      "explanation": "Line through (x₁,y₁,z₁) with direction ratios (a,b,c) is (x-x₁)/a = (y-y₁)/b = (z-z₁)/c."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q41",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "medium",
+      "question": "Find the inverse of the matrix: If A = [1 2; 3 4], then A⁻¹ equals:",
+      "options": [
+        "A) 1/2[4 2; 3 1]",
+        "B) 1/(-2)[-4 2; 3 -1]",
+        "C) 1/(-2)[4 -2; -3 1]",
+        "D) 1/2[4 -2; -3 1]"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 1×4 - 2×3 = -2. adj(A) = [4 -2; -3 1]. A⁻¹ = adj(A)/\\left| \\1 \\right| = 1/(-2)[4 -2; -3 1]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q42",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "The integrating factor of the differential equation dy/dx + (2/x)y = x² is:",
+      "options": [
+        "A) x",
+        "B) e^(2x)",
+        "C) x²",
+        "D) e^(x²)"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For dy/dx + P(x)y = Q(x), integrating factor = e^{(∫P(x)}dx). Here P(x) = 2/x, so IF = e^{(∫2/x dx)} = e^{(2ln\\left| \\1 \\right|)} = e^{(\\ln x²)} = x². \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q43",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 3x² is increasing on which interval?",
+      "options": [
+        "A) (-∞,0) ∪ (2,∞)",
+        "B) (0,∞)",
+        "C) (-∞,2)",
+        "D) (0,2)"
+      ],
+      "correct_option": "A",
+      "explanation": "f'(x) = 3x² - 6x = 3x(x-2). f'(x) > 0 when x < 0 or x > 2. So f is increasing on (-∞,0) ∪ (2,∞)."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q44",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "hard",
+      "question": "If A is a square matrix satisfying A² = A + I, then A⁵ equals:",
+      "options": [
+        "A) 5A + 8I",
+        "B) 5A + 3I",
+        "C) 3A + 5I",
+        "D) 8A + 5I"
+      ],
+      "correct_option": "B",
+      "explanation": "A² = A + I. A³ = A·A² = A(A+I) = A² + A = 2A + I. A⁴ = A·A³ = A(2A+I) = 2A² + A = 3A + 2I. A⁵ = A·A⁴ = A(3A+2I) = 3A² + 2A = 5A + 3I."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q45",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Evaluate the integral of x times sin(x) dx by applying integration by parts.",
+      "options": [
+        "A) 2π",
+        "B) 0",
+        "C) π/2",
+        "D) π"
+      ],
+      "correct_option": "A",
+      "explanation": "Let u = x, dv = sin(x)dx. Then du = dx, v = -cos(x). The integral equals -x*cos(x) + integral of cos(x)dx = -x*cos(x) + sin(x) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q46",
+      "topic": "Probability Distributions",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "hard",
+      "question": "If X ~ Binomial(n=4, p=0.5), then P(X ≥ 3) equals:",
+      "options": [
+        "A) 3/8",
+        "B) 5/16",
+        "C) 1/4",
+        "D) 11/16"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( P(X ≥ 3) = P(X=3) + P(X=4) = C(4,3)(0.5)³(0.5) + C(4,4)(0.5)⁴ = \\frac{4}{16} + \\frac{1}{16} = \\frac{5}{16}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q47",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The shortest distance between the skew lines L₁: r = i + j + t(2i - j + k) and L₂: r = 2i + k + s(i + j - k) is:",
+      "options": [
+        "A) 1/√2",
+        "B) 0",
+        "C) √2",
+        "D) 1/2"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let a₁ = i+j, b₁ = 2i-j+k, a₂ = 2i+k, b₂ = i+j-k. a₂-a₁ = i-k. b₁×b₂ = \\left| \\1 \\right| = i(1-1) - j(-2-1) + k(2+1) = 3j + 3k. (a₂-a₁)·(b₁×b₂) = (i-k)·(3j+3k) = -3. \\left| \\1 \\right| = \\sqrt{9+9} = 3\\sqrt{2}. Distance = \\left| \\1 \\right|/(3\\sqrt{2}) = 1/\\sqrt{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q48",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "Solve dy/dx + 2y = 0 with y(0) = 3. The value of y(1) is:",
+      "options": [
+        "A) 3e",
+        "B) 3e²",
+        "C) 3e⁻¹",
+        "D) 3e⁻²"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Separating variables: dy/y = -2dx. Integrating: \\ln\\left| \\1 \\right| = -2x + C₁, so y = Ce^{(-2x)}. Using y(0)=3: C=3. So y = 3e^{(-2x)}. At x=1: y(1) = 3e⁻². \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q49",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and minima",
+      "difficulty": "hard",
+      "question": "\\( The maximum volume of a cylinder inscribed \\in a sphere of radius R is: \\)",
+      "options": [
+        "A) 4πR³/9",
+        "B) 4πR³/(3√3)",
+        "C) 2πR³/3",
+        "D) πR³/√3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let cylinder have radius r and height h. From geometry: r² + (h/2)² = R². Volume V = πr²h = π(R² - h²/4)h = π(R²h - h³/4). dV/dh = π(R² - 3h²/4) = 0 → h = 2R/\\sqrt{3}. Then r² = R² - R²/3 = 2R²/3. V = π(2R²/3)(2R/\\sqrt{3}) = 4πR³/(3\\sqrt{3}). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P13_L3B_Q50",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar triple product",
+      "difficulty": "hard",
+      "question": "The scalar triple product [a b c] where a = i + j, b = j + k, c = k + i equals:",
+      "options": [
+        "A) 2",
+        "B) 0",
+        "C) 3",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( [a b c] = a·(b×c). b×c = \\left| \\1 \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(b×c) = (i+j)·(i+j-k) = 1 + 1 + 0 = 2. \\)"
+    }
+  ]
+}

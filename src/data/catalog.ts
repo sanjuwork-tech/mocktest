@@ -139,9 +139,9 @@ export const productBySlug = (slug: string) =>
   products.find((product) => product.slug === slug);
 
 export const siteConfig = {
-  name: "TestDisha",
+  name: "OurMocks",
   shortDescription:
     "Discover more paths after Class 12 and explore mock test series for CUET UG, IISER IAT, NEST and COMEDK UGET.",
   url: canonicalSiteUrl(process.env.NEXT_PUBLIC_CANONICAL_URL),
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "support@ourmocks.com",
 };

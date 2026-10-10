@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P20_L10B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 20,
+  "difficulty_level": "10B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Roy's Identity and Duality",
+      "difficulty": "hard",
+      "question": "In advanced microeconomic duality theory, Roy's Identity derives the Marshallian demand function x_i(p, m) directly from the indirect utility function V(p, m) using which mathematical relationship?",
+      "options": [
+        "A) x_i(p, m) = [dV/dp_i] * [dV/dm]",
+        "B) x_i(p, m) = - [dV/dp_i] / [dV/dm]",
+        "C) x_i(p, m) = dV/dm + dV/dp_i",
+        "D) x_i(p, m) = - dV/dp_i * m"
+      ],
+      "correct_option": "B",
+      "explanation": "Roy's Identity states that Marshallian demand for good i equals the negative ratio of the partial derivative of indirect utility with respect to price p_i to the partial derivative with respect to income m: x_i = -(dV/dp_i) / (dV/dm)."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Compensating vs Equivalent Variation",
+      "difficulty": "medium",
+      "question": "When evaluated for a price increase of a normal good, how do Compensating Variation (CV) and Equivalent Variation (EV) compare to the change in Marshallian Consumer Surplus (Delta CS)?",
+      "options": [
+        "A) EV > Delta CS > CV",
+        "B) CV > Delta CS > EV",
+        "C) CV = Delta CS = EV",
+        "D) Delta CS > CV > EV"
+      ],
+      "correct_option": "B",
+      "explanation": "For a price increase of a normal good, the negative income effect ensures that Compensating Variation (evaluated at the new lower utility) exceeds the change in Marshallian Consumer Surplus, which in turn exceeds Equivalent Variation."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q03",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Shephard's Lemma and Duality",
+      "difficulty": "hard",
+      "question": "According to Shephard's Lemma in production economics, the cost-minimizing input demand for factor i (L_i) can be derived by taking the partial derivative of the total cost function C(w, y) with respect to:",
+      "options": [
+        "A) The output level y: L_i = dC(w, y) / dy",
+        "B) The price of that factor input w_i: L_i = dC(w, y) / dw_i",
+        "C) The total fixed overhead capital cost",
+        "D) The market price of the final output commodity"
+      ],
+      "correct_option": "B",
+      "explanation": "Shephard's Lemma demonstrates that the partial derivative of the expenditure or cost function with respect to any input factor price equals the conditional factor demand for that input: dC/dw_i = x_i(w, y)."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q04",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Limit Pricing Model",
+      "difficulty": "medium",
+      "question": "In the Sylos-Labini and Joe Bain limit pricing models, an established oligopolistic cartel sets a 'limit price' below the pure monopoly price to:",
+      "options": [
+        "A) Maximize short-run accounting profits in the current quarter",
+        "B) Prevent prospective new firms from entering the industry by ensuring that any entrant would face post-entry prices below minimum average cost",
+        "C) Comply with statutory municipal price controls",
+        "D) Bankrupt existing cartel member firms"
+      ],
+      "correct_option": "B",
+      "explanation": "Limit pricing deliberately fixes price just low enough that an entrant operating at sub-optimal scale cannot enter and cover its average total costs, deterring entry and preserving long-run market dominance."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q05",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Hotelling Spatial Differentiation",
+      "difficulty": "hard",
+      "question": "Harold Hotelling's 'Linear City' model of spatial product differentiation demonstrates the 'Principle of Minimum Differentiation', which implies that two competing retail vendors located on a street will tend to:",
+      "options": [
+        "A) Locate at opposite extreme ends of the street to avoid all competition",
+        "B) Cluster together near the geographic center of the market to capture the largest possible market share",
+        "C) Relocate to separate cities every fiscal quarter",
+        "D) Cease commercial trading completely"
+      ],
+      "correct_option": "B",
+      "explanation": "Hotelling proved that competing firms producing identical products along a line have an incentive to move toward the center to maximize consumer reach, resulting in minimum spatial differentiation."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q06",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Vickrey Second-Price Auction",
+      "difficulty": "hard",
+      "question": "In a Vickrey second-price sealed-bid auction, why is bidding one's true private valuation a weakly dominant strategy for every bidder?",
+      "options": [
+        "A) Because the highest bidder receives a cash subsidy from the auctioneer",
+        "B) Because the winning bidder pays the second-highest submitted bid, decoupling the payment from one's own bid and eliminating the incentive to shade bids",
+        "C) Because all bidders are legally forced to submit identical bids",
+        "D) Because the auctioneer guarantees 100 percent profit to all participants"
+      ],
+      "correct_option": "B",
+      "explanation": "In a Vickrey auction, a bidder's bid determines only whether they win, not the price paid (which is the runner-up bid). Bidding above true value risks winning at a loss; bidding below risks losing a profitable purchase."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q07",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Arrow's Impossibility Theorem",
+      "difficulty": "hard",
+      "question": "Kenneth Arrow's Impossibility Theorem mathematically demonstrates that when voters have three or more distinct policy alternatives, it is impossible to design a collective voting mechanism that simultaneously satisfies:",
+      "options": [
+        "A) Zero taxation, universal welfare, and balanced municipal budgets",
+        "B) Unrestricted domain, Pareto efficiency, Independence of irrelevant alternatives, and Non-dictatorship",
+        "C) Monopolistic pricing, free entry, and constant marginal cost",
+        "D) Fixed exchange rates, gold convertibility, and unrestricted immigration"
+      ],
+      "correct_option": "B",
+      "explanation": "Arrow's Theorem proved that no democratic rank-order voting system can convert individual transitive preferences into a rational collective social welfare ordering while satisfying unrestricted domain, Pareto criterion, IIA, and non-dictatorship."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q08",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Scitovsky Double Criterion",
+      "difficulty": "hard",
+      "question": "Tibor Scitovsky formulated the 'Double Criterion' in welfare economics to resolve which fundamental paradox in the Kaldor-Hicks compensation test?",
+      "options": [
+        "A) The Keynesian Paradox of Thrift",
+        "B) The Scitovsky Reversal Paradox, where the gainers can compensate the losers to move from State A to State B, but from State B the losers can also bribe gainers to return to State A",
+        "C) The Leontief factor paradox in foreign trade",
+        "D) The diamond-water paradox of value"
+      ],
+      "correct_option": "B",
+      "explanation": "The Kaldor-Hicks test can produce contradictory reversals due to altered income distributions. Scitovsky required that gainers can compensate losers to move to the new state AND losers cannot bribe gainers to return to the original state."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q09",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Ostrom's CPR Governance",
+      "difficulty": "hard",
+      "question": "Elinor Ostrom's Nobel Prize-winning empirical research challenged the inevitability of the 'Tragedy of the Commons' by proving that local communities successfully govern common-pool resources when they establish:",
+      "options": [
+        "A) Mandatory privatization and auctioning to foreign multinational corporations",
+        "B) Complete state military control over all community pastures",
+        "C) Clearly defined user boundaries, locally adapted appropriation rules, collective monitoring mechanisms, graduated sanctions, and low-cost conflict resolution arenas",
+        "D) Universal unconditional cash grants funded through fiat currency printing"
+      ],
+      "correct_option": "C",
+      "explanation": "Ostrom documented that self-organized user communities develop robust nested institutions with clear boundaries, participatory monitoring, and graduated sanctions, managing common-pool resources sustainably without state privatization."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q10",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopsony Exploitation of Labour",
+      "difficulty": "hard",
+      "question": "A profit-maximizing monopsonist hiring labour in an isolated factory town determines employment where Marginal Wage Cost equals Marginal Revenue Product (MWC = MRP_L), resulting in 'Monopsonistic Exploitation' because:",
+      "options": [
+        "A) The firm employs zero workers in equilibrium",
+        "B) The wage rate is set equal to the average fixed capital cost",
+        "C) The wage rate paid to workers (W) is strictly less than their Marginal Revenue Product (W < MRP_L)",
+        "D) Workers receive 100 percent of total firm revenue as bonuses"
+      ],
+      "correct_option": "C",
+      "explanation": "Because the monopsonist faces an upward-sloping labour supply curve, MWC lies above average wage. The firm hires where MWC = MRP_L, but pays the wage on the supply curve, leaving W < MRP_L (monopsonistic exploitation)."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q11",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Shadow Pricing in Project Appraisal",
+      "difficulty": "hard",
+      "question": "In social cost-benefit analysis (such as the Little-Mirrlees and UNIDO methodologies), project evaluators use 'Shadow Prices' instead of prevailing market prices because:",
+      "options": [
+        "A) Shadow prices eliminate all fixed capital equipment depreciation",
+        "B) Market prices are strictly prohibited in public sector accounting",
+        "C) Market prices are distorted by monopoly power, tariffs, taxes, rationing, and minimum wages, failing to reflect true social opportunity costs",
+        "D) Shadow prices are calculated in imaginary cryptocurrency units"
+      ],
+      "correct_option": "C",
+      "explanation": "In developing economies with imperfect factor and product markets, market prices do not reflect social marginal costs. Shadow (accounting) prices adjust for market distortions, externalities, and foreign exchange scarcity."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Salop's Circular City Model",
+      "difficulty": "hard",
+      "question": "In Steven Salop's Circular City model of monopolistic competition, the equilibrium number of differentiated firms entering the market is determined by the trade-off between:",
+      "options": [
+        "A) Personal income taxes versus corporate dividend tax credits",
+        "B) Export subsidies versus import tariffs across national boundaries",
+        "C) Fixed entry costs of setting up a new firm versus consumer transportation (distance) costs of travelling to the nearest variety",
+        "D) Gold bullion reserves versus sovereign bond yields"
+      ],
+      "correct_option": "C",
+      "explanation": "Salop's model shows that more firms reduce consumer travel/variety search costs but incur duplicate fixed setup costs. Market equilibrium equates operating profits to fixed entry costs, balancing diversity against scale economies."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Third Degree Discrimination Interdependent",
+      "difficulty": "hard",
+      "question": "When a monopolist practices third-degree price discrimination between two independent consumer groups with constant marginal cost (MC), the profit-maximizing prices P1 and P2 satisfy the condition:",
+      "options": [
+        "A) P1 * e1 = P2 * e2 = AC",
+        "B) P1 / e1 = P2 / e2 = MC",
+        "C) P1 * [1 - 1/e1] = P2 * [1 - 1/e2] = MC",
+        "D) P1 - P2 = MC * (e1 + e2)"
+      ],
+      "correct_option": "C",
+      "explanation": "The monopolist equates marginal revenue in each sub-market to marginal cost: MR1 = MR2 = MC. Using MR = P*(1 - 1/e), this yields P1*(1 - 1/e1) = P2*(1 - 1/e2) = MC."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Budget Line Slope KaTeX",
+      "difficulty": "medium",
+      "question": "If the price of good X is P_x and the price of good Y is P_y, what is the absolute mathematical slope of the consumer's budget line?",
+      "options": [
+        "A) P_x * P_y",
+        "B) P_y / P_x",
+        "C) P_x / P_y",
+        "D) Money Income / (P_x + P_y)"
+      ],
+      "correct_option": "C",
+      "explanation": "The budget line equation is P_x*X + P_y*Y = M. Rearranging in slope-intercept form gives Y = (M/P_y) - (P_x/P_y)*X, so the absolute slope is the price ratio P_x / P_y."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Cartel Stability Factors",
+      "difficulty": "medium",
+      "question": "An oligopolistic cartel is most likely to maintain collusive price discipline and prevent member cheating when:",
+      "options": [
+        "A) Each firm produces highly complex, customized, and differentiated products",
+        "B) The number of participating firms exceeds several thousands",
+        "C) Output transactions are highly transparent, cheating can be detected quickly, and retaliation against price-cutters is swift and severe",
+        "D) Market demand is highly erratic and unpredictable"
+      ],
+      "correct_option": "C",
+      "explanation": "Cartels collapse when members secretly undercut agreed quotas. Stability requires a small number of firms, homogeneous goods, high transparency to detect cheating, and credible retaliation."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Law of Demand Exception",
+      "difficulty": "easy",
+      "question": "Conspicuous consumption goods purchased primarily to display wealth and social prestige (such as rare diamond necklaces) are known as:",
+      "options": [
+        "A) Public collective goods",
+        "B) Capital intermediate goods",
+        "C) Veblen goods",
+        "D) Inferior subsistence goods"
+      ],
+      "correct_option": "C",
+      "explanation": "Thorstein Veblen identified conspicuous goods whose demand rises as price rises because a higher price enhances their snob appeal and status-signaling value."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "SNA 2008 R&D Capitalisation",
+      "difficulty": "medium",
+      "question": "Under the international System of National Accounts (SNA 2008) adopted by India's CSO in 2015, expenditures on Research & Development (R&D) and intellectual property products were reclassified from:",
+      "options": [
+        "A) Net factor income into external commercial loans",
+        "B) Final consumer expenditure into current transfer payments",
+        "C) Intermediate consumption into Gross Fixed Capital Formation (capital assets that yield future production streams)",
+        "D) Domestic exports into government revenue subsidies"
+      ],
+      "correct_option": "C",
+      "explanation": "SNA 2008 recognized that R&D and software create durable intellectual assets that generate multi-year economic value, reclassifying them from intermediate consumption into capital investment (GFCF)."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Dynamic Real Business Cycle Model",
+      "difficulty": "hard",
+      "question": "In modern Real Business Cycle (RBC) models of macroeconomic fluctuations, aggregate output and employment fluctuations are driven primarily by:",
+      "options": [
+        "A) Price stickiness caused by legislative wage-setting delays",
+        "B) Unexpected changes in the velocity of circulation of fiat currency",
+        "C) Exogenous technology and total factor productivity shocks operating through the rational intertemporal substitution of labour and leisure by households",
+        "D) Erratic fluctuations in the nominal money multiplier"
+      ],
+      "correct_option": "C",
+      "explanation": "RBC theory models business cycles as equilibrium responses to real productivity shocks (technology improvements or setbacks) where optimizing workers intertemporally reallocate labour across time periods."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Calvo Staggered Pricing",
+      "difficulty": "hard",
+      "question": "In the New Keynesian Dynamic Stochastic General Equilibrium (DSGE) model, nominal price rigidity is formalized using Guillermo Calvo's staggered pricing mechanism, which assumes that:",
+      "options": [
+        "A) The government dictates industrial prices through compulsory weekly decrees",
+        "B) All firms adjust prices continuously every 60 seconds",
+        "C) In each period, only a random exogenous fraction of firms (1 - theta) receive a signal allowing them to re-optimize their prices, while the remaining firms keep prices fixed",
+        "D) Firms change prices solely in response to foreign exchange rate movements"
+      ],
+      "correct_option": "C",
+      "explanation": "Calvo pricing models price stickiness probabilistically: in any given period, a firm has a constant probability (1 - theta) of resetting its price, explaining why aggregate inflation adjusts with inertia."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Overlapping Generations Golden Rule",
+      "difficulty": "hard",
+      "question": "In the Diamond-Samuelson Overlapping Generations (OLG) model, an economy exhibits 'Dynamic Inefficiency' when over-accumulation of capital causes the steady-state marginal product of capital (MP_K) to be:",
+      "options": [
+        "A) Strictly greater than the rate of time preference",
+        "B) Equal to infinity",
+        "C) Less than the population and productivity growth rate (r < n + g), meaning consuming capital would raise welfare for all generations",
+        "D) Negative at all output levels"
+      ],
+      "correct_option": "C",
+      "explanation": "Dynamic inefficiency occurs when an economy saves excessively beyond the Golden Rule capital stock (where MP_K = n + g). When r < n + g, society is over-investing; reducing capital accumulation would boost consumption for all generations."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Endogenous Money Theory",
+      "difficulty": "hard",
+      "question": "In contrast to orthodox textbook monetarism, the 'Endogenous Money' theory in post-Keynesian macroeconomics argues that:",
+      "options": [
+        "A) Money is strictly exogenously controlled by the legal reserve requirement ratio",
+        "B) The central bank directly fixes the exact quantity of currency notes in circulation",
+        "C) Commercial banks create loans first in response to business credit demand, and the central bank subsequently accommodates the necessary cash reserves ('loans make deposits, and deposits make reserves')",
+        "D) Money supply is backed 100 percent by physical commodity gold"
+      ],
+      "correct_option": "C",
+      "explanation": "Endogenous money theory contends that modern private bank credit is driven by the credit demands of creditworthy borrowers. Banks extend loans and seek reserves later, making the money supply endogenous."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "IBC 2016 Resolution Framework",
+      "difficulty": "hard",
+      "question": "The Insolvency and Bankruptcy Code (IBC) enacted in India in 2016 fundamentally transformed corporate debt resolution by shifting the institutional regime from:",
+      "options": [
+        "A) Indefinite judicial stay orders on debt recovery",
+        "B) Complete government nationalisation of all defaulting corporate firms",
+        "C) Compulsory conversion of all corporate debts into sovereign fiat bonds",
+        "D) A 'Debtor-in-Possession' framework to a 'Creditor-in-Control' resolution process overseen by a Committee of Creditors under strict statutory time limits"
+      ],
+      "correct_option": "D",
+      "explanation": "IBC 2016 replaced protracted sick industrial company regimes with a market-driven, time-bound Corporate Insolvency Resolution Process (CIRP) where management control shifts to an Insolvency Resolution Professional directed by the Committee of Creditors."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Fiscal Theory of the Price Level",
+      "difficulty": "medium",
+      "question": "The 'Fiscal Theory of the Price Level' (FTPL) contends that the general price level in an economy is ultimately determined by:",
+      "options": [
+        "A) Daily fluctuations in foreign currency speculative bids",
+        "B) The physical cost of mining gold and silver bullion",
+        "C) Central bank interest rate corridors alone",
+        "D) The intertemporal government budget constraint, where price level adjusts to equate the real value of nominal government debt to the present discounted value of expected future primary fiscal surpluses"
+      ],
+      "correct_option": "D",
+      "explanation": "FTPL shows that if fiscal policy is non-Ricardian (future surpluses do not adjust to service debt), the price level must adjust so that real debt value matches the present value of expected primary surpluses."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Macroprudential Counter-Cyclical Buffers",
+      "difficulty": "hard",
+      "question": "Under Basel III regulatory norms, central banks enforce Counter-Cyclical Capital Buffers (CCCB) on commercial banks primarily to:",
+      "options": [
+        "A) Cap executive salaries at zero during economic booms",
+        "B) Force commercial banks to invest solely in municipal real estate",
+        "C) Replace traditional cash reserve ratios with corporate bond holdings",
+        "D) Mandate banks to accumulate extra common equity capital during rapid credit expansion phases, which can be drawn down to absorb losses during economic downturns"
+      ],
+      "correct_option": "D",
+      "explanation": "CCCB is a macroprudential tool that leans against the credit cycle: banks must build capital buffers during boom periods of excessive credit growth, preventing system-wide solvency crises when the cycle turns."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Autonomous Expenditure Multiplier Derivation",
+      "difficulty": "medium",
+      "question": "In a three-sector Keynesian economy with C = 100 + 0.8Y_d, lump-sum tax T = 50, autonomous investment I = 150, and government spending G = 120, what is the equilibrium level of national income?",
+      "options": [
+        "A) Rs 2,000",
+        "B) Rs 1,850",
+        "C) Rs 1,500",
+        "D) Rs 1,650"
+      ],
+      "correct_option": "D",
+      "explanation": "Disposable income Y_d = Y - 50. Consumption C = 100 + 0.8(Y - 50) = 100 + 0.8Y - 40 = 60 + 0.8Y. Aggregate expenditure = C + I + G = (60 + 0.8Y) + 150 + 120 = 330 + 0.8Y. Setting Y = 330 + 0.8Y => 0.2Y = 330 => Y = 1,650."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Modern Monetary Theory Critique",
+      "difficulty": "hard",
+      "question": "Modern Monetary Theory (MMT) argues that a sovereign government issuing its own unpegged fiat currency faces no financial solvency constraint, but recognizes that the real boundary to public spending is:",
+      "options": [
+        "A) The foreign exchange reserve balance with the International Monetary Fund",
+        "B) The legal debt ceiling enacted by foreign commercial lenders",
+        "C) The total physical volume of gold bullion held in the central bank",
+        "D) The availability of real productive resources (labour, technology, and raw materials) in the economy, beyond which deficit spending triggers inflation"
+      ],
+      "correct_option": "D",
+      "explanation": "MMT contends that a monetarily sovereign state cannot go broke in its own currency, but spending is constrained by real physical resources. Once full employment is reached, extra spending sparks inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Public Debt Dynamics Equation",
+      "difficulty": "hard",
+      "question": "The fundamental mathematical equation governing the evolution of the public debt-to-GDP ratio (b) is given by Delta b = (r - g) / (1 + g) * b_{-1} - pb. This demonstrates that if real GDP growth exceeds the real interest rate (g > r):",
+      "options": [
+        "A) The primary surplus requirement becomes infinitely large",
+        "B) The debt ratio must explode to infinity within two quarters",
+        "C) The central bank must print 100 percent of national tax revenue",
+        "D) The debt ratio will naturally diminish over time even if the government maintains a modest primary deficit"
+      ],
+      "correct_option": "D",
+      "explanation": "When the economic growth rate exceeds the real interest rate (the 'growth-interest differential' is positive, g > r), the term (r - g) is negative, allowing the debt ratio to decline automatically even with small primary deficits."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Equilibrium Condition",
+      "difficulty": "medium",
+      "question": "In a closed two-sector economy, equilibrium national income is achieved where planned saving equals planned investment (S = I), which is algebraically identical to:",
+      "options": [
+        "A) Marginal Propensity to Consume equals 1",
+        "B) Total Consumption equals Total Output",
+        "C) Marginal Cost equals Average Variable Cost",
+        "D) Aggregate Demand equals Aggregate Supply (AD = AS)"
+      ],
+      "correct_option": "D",
+      "explanation": "Since Aggregate Supply Y = C + S and Aggregate Demand AD = C + I, setting AD = AS gives C + I = C + S, which reduces to S = I."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Collective Action Clauses in Sovereign Debt",
+      "difficulty": "hard",
+      "question": "Collective Action Clauses (CACs) are incorporated into international sovereign bond contracts primarily to:",
+      "options": [
+        "A) Authorize automatic military interventions in cases of sovereign default",
+        "B) Ban commercial banks from selling government securities in secondary markets",
+        "C) Ensure that sovereign debt is denominated exclusively in Swiss Francs",
+        "D) Allow a qualified supermajority of bondholders to bind all bondholders to debt restructuring terms, preventing predatory 'holdout' creditors from blocking orderly resolution"
+      ],
+      "correct_option": "D",
+      "explanation": "CACs solve the sovereign debt collective action problem: they allow a supermajority (e.g. 75%) of creditors to agree to a debt restructuring that legally binds all bondholders, neutralizing minority holdout vulture funds."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Fiscal Federalism Devolution Shift",
+      "difficulty": "medium",
+      "question": "The 15th Finance Commission adjusted the vertical tax devolution share to states from 42 percent (recommended by 14th FC) to 41 percent primarily to:",
+      "options": [
+        "A) Reduce central defense spending to zero",
+        "B) Penalize southern states for demographic family planning successes",
+        "C) Fund the construction of international deep-sea freight corridors",
+        "D) Provide budgetary allocations to the newly created Union Territories of Jammu & Kashmir and Ladakh from the central pool"
+      ],
+      "correct_option": "D",
+      "explanation": "The 1% adjustment (from 42% to 41%) reflected the statutory reorganization of the former State of Jammu and Kashmir into two Union Territories, whose financial needs are directly met by the Central Government."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Capital Receipts Criteria",
+      "difficulty": "easy",
+      "question": "Government receipts that either create a liability or cause a reduction in the assets of the government are classified as:",
+      "options": [
+        "A) Unilateral factor transfers",
+        "B) Revenue receipts",
+        "C) Non-tax administrative receipts",
+        "D) Capital receipts"
+      ],
+      "correct_option": "D",
+      "explanation": "By budgetary definition, capital receipts are those receipts that either create a sovereign financial liability (like market borrowings) or reduce government assets (like loan recoveries or disinvestment proceeds)."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Dutch Disease Phenomenon",
+      "difficulty": "hard",
+      "question": "The 'Dutch Disease' macroeconomic paradox occurs in an economy when a massive boom in natural resource exports (such as crude oil or natural gas) leads to:",
+      "options": [
+        "A) Complete nationalisation of private software firms",
+        "B) Severe hyperinflation that wipes out the banking sector",
+        "C) An immediate collapse of foreign currency reserves to zero",
+        "D) Substantial currency appreciation that undermines the international price competitiveness of the domestic non-resource manufacturing and agricultural sectors"
+      ],
+      "correct_option": "D",
+      "explanation": "Resource windfalls cause large foreign currency inflows and domestic currency appreciation, making non-resource tradables (manufacturing and farming) uncompetitive globally and triggering de-industrialization."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Uncovered Interest Parity and Carry Trade",
+      "difficulty": "hard",
+      "question": "The failure of the Uncovered Interest Parity (UIP) condition in real-world foreign exchange markets gives rise to the profitable 'Carry Trade' strategy, wherein international investors:",
+      "options": [
+        "A) Refuse to hold liquid bank deposits",
+        "B) Convert all foreign exchange holdings into physical gold bullion coins",
+        "C) Purchase municipal debt exclusively in landlocked developing countries",
+        "D) Borrow in low-interest currencies (such as the Japanese Yen) and invest the proceeds in high-yielding currencies without exchange rate hedging"
+      ],
+      "correct_option": "D",
+      "explanation": "UIP predicts high-interest currencies should depreciate to offset the rate spread. In practice, high-yield currencies often appreciate or remain stable over medium horizons, generating excess returns on carry trades."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Colonial De-Industrialization Debate",
+      "difficulty": "hard",
+      "question": "In the academic economic debate on colonial de-industrialization in 19th-century India, economic historians Daniel Thorner and Amiya Kumar Bagchi countered imperialist claims by demonstrating using census and trade data that:",
+      "options": [
+        "A) Machine textile production was completely banned inside the British Isles",
+        "B) Colonial India experienced rapid industrialization matching Great Britain",
+        "C) Traditional handicrafts expanded output by 300 percent between 1800 and 1880",
+        "D) There was an unambiguous decline in the absolute proportion of the working population dependent on secondary manufacturing, with workers forced back into overcrowded agriculture"
+      ],
+      "correct_option": "D",
+      "explanation": "Bagchi and Thorner proved that the destruction of handloom weaving by British machine imports was not compensated by modern factory growth, causing genuine de-industrialization and re-peasantization of the Indian workforce."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Industrial Policy Resolution 1948",
+      "difficulty": "medium",
+      "question": "The first official Industrial Policy Resolution announced by independent India in April 1948 laid the foundation for:",
+      "options": [
+        "A) Complete abolition of all customs import tariffs",
+        "B) Pure Soviet-style 100 percent state collectivization of all retail shops",
+        "C) The immediate unilateral dissolution of all public sector enterprises",
+        "D) A Mixed Economy where basic key industries were reserved for state initiative while private enterprise operated in remaining spheres"
+      ],
+      "correct_option": "D",
+      "explanation": "IPR 1948 articulated the concept of a mixed economy, dividing industries into four categories: state monopolies (arms, atomic energy, rail), state-led key industries, state-regulated private units, and the open private sector."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Colonial Famine Commission 1880",
+      "difficulty": "hard",
+      "question": "The Famine Commission of 1880, appointed after devastating mortality in the Great Famine of 1876-78, formulated free India's predecessor Famine Codes based on the colonial principle that:",
+      "options": [
+        "A) All grain exports to Great Britain should be immediately prohibited",
+        "B) The colonial state should nationalize all grain mandis and distribute free rice universally",
+        "C) Land revenue collections should be permanently abolished across all drought districts",
+        "D) Relief should be provided primarily through public relief works offering employment at subsistence wages, while private trade in foodgrains remained strictly unregulated by the state"
+      ],
+      "correct_option": "D",
+      "explanation": "The 1880 Famine Code codified relief: offering hard labour on public works at minimal rations to test destitution, while refusing to intervene in private grain markets or halt grain exports due to laissez-faire dogma."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Feldman-Mahalanobis Dynamic Equation",
+      "difficulty": "hard",
+      "question": "In the Feldman-Mahalanobis growth model, if lambda_k denotes the share of total investment allocated to the capital goods sector, an increase in lambda_k generates:",
+      "options": [
+        "A) Lower consumption in the immediate short run, but an exponential expansion in the growth rate of capital stock and consumption output in the long run",
+        "B) Immediate hyperinflation that permanently destroys national income",
+        "C) An immediate fall in the domestic marginal savings rate to zero",
+        "D) Complete closure of heavy machine tool manufacturing plants"
+      ],
+      "correct_option": "A",
+      "explanation": "The Feldman-Mahalanobis model formalizes the growth trade-off: higher investment in capital-producing goods (lambda_k) sacrifices current consumer output to build productive capacity that accelerates future growth."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Petroleum Industry Takeover 1970s",
+      "difficulty": "medium",
+      "question": "In the 1970s, the Government of India acquired the assets of foreign oil multinational companies (ESSO, Burmah Shell, and Caltex) through parliamentary nationalisation acts to establish which public sector oil marketing companies?",
+      "options": [
+        "A) Bharat Petroleum Corporation Limited (BPCL) and Hindustan Petroleum Corporation Limited (HPCL)",
+        "B) Reliance Industries and Adani Total Gas",
+        "C) Tata Petrochemicals and Essar Oil",
+        "D) British Petroleum and Royal Dutch Shell"
+      ],
+      "correct_option": "A",
+      "explanation": "Nationalisation in the 1970s took over foreign oil refining and distribution: ESSO and Caltex became Hindustan Petroleum (HPCL), and Burmah Shell became Bharat Petroleum (BPCL)."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Repeal of Capital Issues Act and SEBI",
+      "difficulty": "medium",
+      "question": "In 1992, the Government of India repealed the Capital Issues (Control) Act of 1947 and granted statutory authority to the Securities and Exchange Board of India (SEBI) to achieve:",
+      "options": [
+        "A) Free market-driven pricing of capital issues by companies, transparency in disclosures, and investor protection in primary and secondary securities markets",
+        "B) Complete prohibition of retail individual trading on domestic stock exchanges",
+        "C) The nationalisation of all private mutual funds",
+        "D) Fixed statutory equity share prices across all corporate sectors"
+      ],
+      "correct_option": "A",
+      "explanation": "The repeal of the Controller of Capital Issues (CCI) ended government fixing of IPO prices. Companies could freely price their equity, with SEBI given statutory regulatory powers in 1992 to police disclosures."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "National Investment Fund 2005",
+      "difficulty": "medium",
+      "question": "The National Investment Fund (NIF) was constituted by the Government of India in 2005 to channel the proceeds of disinvestment of Central Public Sector Enterprises primarily for:",
+      "options": [
+        "A) Financing capital expenditure in social sector infrastructure (education and healthcare) and meeting capital requirements of profitable CPSEs",
+        "B) Paying interest on foreign commercial borrowings contracted by private real estate firms",
+        "C) Providing election campaign subsidies to national political parties",
+        "D) Speculative trading on foreign currency derivative markets"
+      ],
+      "correct_option": "A",
+      "explanation": "The NIF was set up as a permanent corpus: 75% of annual income was earmarked for health, education, and employment social infrastructure, and 25% for capital investment in viable CPSEs."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "WTO Dispute Settlement Mechanism",
+      "difficulty": "hard",
+      "question": "In the World Trade Organization (WTO) institutional architecture, why is the Dispute Settlement Mechanism (DSM) regarded as having stronger enforcement teeth than its GATT predecessor?",
+      "options": [
+        "A) Adoption of panel reports operates under the 'negative consensus' rule, preventing a losing defending nation from unilaterally vetoing the ruling against itself",
+        "B) The WTO maintains a standing military enforcement brigade",
+        "C) All international trade disputes are decided exclusively by the International Court of Justice",
+        "D) Defending countries are automatically expelled from the United Nations"
+      ],
+      "correct_option": "A",
+      "explanation": "Under GATT, any party could block adoption of a panel report. The WTO reversed this: reports are automatically adopted unless there is a unanimous 'negative consensus' by all members against adoption."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q42",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Arjun Sengupta Committee Findings",
+      "difficulty": "hard",
+      "question": "The National Commission for Enterprises in the Unorganised Sector (NCEUS), chaired by Arjun Sengupta, published a groundbreaking 2007 report revealing that:",
+      "options": [
+        "A) Approximately 77 percent of India's population (836 million people) lived on a consumption expenditure of less than Rs 20 per day, predominantly trapped in informal, vulnerable work",
+        "B) 95 percent of agricultural workers held regular pensionable contracts",
+        "C) The unorganized sector contributed less than 5 percent of national income",
+        "D) Child labour had been completely eradicated across all cottage industries"
+      ],
+      "correct_option": "A",
+      "explanation": "The Sengupta Committee highlighted the deep vulnerability of the informal workforce, demonstrating that 77% of India's population lived on less than Rs 20 a day, lacking social security, credit, and formal protection."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "National Green Tribunal Act 2010",
+      "difficulty": "medium",
+      "question": "The National Green Tribunal (NGT) established under the NGT Act 2010 is statutorily mandated to adjudicate environmental disputes guided by which legal principles?",
+      "options": [
+        "A) Sustainable Development, the Precautionary Principle, and the 'Polluter Pays' Principle",
+        "B) Strict criminal punishment of local forest-dwelling communities",
+        "C) Unconditional exemption of infrastructure projects from environmental impact assessments",
+        "D) Complete immunity for state-owned thermal power plants"
+      ],
+      "correct_option": "A",
+      "explanation": "Section 20 of the NGT Act 2010 mandates that while passing any order or award, the Tribunal must apply the principles of Sustainable Development, the Precautionary Principle, and the Polluter Pays Principle."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Institutes of Eminence Scheme",
+      "difficulty": "medium",
+      "question": "The 'Institutes of Eminence' (IoE) scheme was launched by the Government of India in higher education to:",
+      "options": [
+        "A) Empower selected public and private higher educational institutions with complete academic and administrative autonomy to achieve top 500 world university rankings",
+        "B) Privatize all government medical and engineering colleges",
+        "C) Abolish all tuition fees across private universities",
+        "D) Restrict admissions exclusively to foreign students"
+      ],
+      "correct_option": "A",
+      "explanation": "The IoE initiative provides chosen premier institutions (IITs, IISc, selected private universities) with financial support and regulatory freedom to build world-class teaching and research facilities."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Radhakrishna Committee on Indebtedness",
+      "difficulty": "hard",
+      "question": "The R. Radhakrishna Expert Group on Agricultural Indebtedness (2007) identified the primary institutional root of agrarian distress in India as:",
+      "options": [
+        "A) The credit exclusion of marginal and small farmers from formal institutional banking, forcing reliance on exploitative informal moneylenders charging usurious interest rates",
+        "B) Excessive commercial bank lending to small cultivators",
+        "C) The mandatory export of foodgrains to neighbouring countries",
+        "D) The abolition of all private retail vegetable markets"
+      ],
+      "correct_option": "A",
+      "explanation": "The Radhakrishna Committee underscored that non-institutional debt (moneylenders) accounted for a large share of debt for marginal farmers, who faced multiple exclusions, leading to catastrophic debt traps."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "e-Shram Universal Account Number",
+      "difficulty": "easy",
+      "question": "What is the primary function of the 12-digit Universal Account Number (UAN) generated for unorganized workers upon registering on the e-Shram portal?",
+      "options": [
+        "A) To ensure portability of social security and welfare benefits across all Indian states for migrant and informal workers",
+        "B) To act as a commercial credit card with unlimited overdraft facilities",
+        "C) To mandate compulsory military training for rural youth",
+        "D) To serve as an international passport for overseas employment"
+      ],
+      "correct_option": "A",
+      "explanation": "The e-Shram UAN provides a nationally recognized portable identity that ensures migrant and informal workers can access social welfare schemes, accident insurance, and emergency relief anywhere in India."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "MPI Headcount Reduction Progress",
+      "difficulty": "hard",
+      "question": "According to NITI Aayog's National Multidimensional Poverty Index Report (2023), India achieved a historic reduction in multidimensional poverty headcount ratio between 2015-16 and 2019-21, declining from:",
+      "options": [
+        "A) 24.85 percent down to 14.96 percent, lifting approximately 135 million individuals out of acute poverty",
+        "B) 70 percent down to 5 percent",
+        "C) 45 percent down to 40 percent",
+        "D) Multidimensional poverty remained completely unchanged"
+      ],
+      "correct_option": "A",
+      "explanation": "Based on NFHS-5 data, NITI Aayog's 2023 MPI report documented that multidimensional poverty dropped steeply from 24.85% in 2015-16 to 14.96% in 2019-21, with rural areas experiencing the fastest escape from poverty."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "China's Dual Circulation Strategy",
+      "difficulty": "hard",
+      "question": "In recent five-year plans, China adopted the 'Dual Circulation' economic strategy (Shuang Xunhuan), which strategically reorients its growth model by:",
+      "options": [
+        "A) Making 'Internal Circulation' (domestic consumption, technological innovation, and self-reliance) the main pillar, while keeping 'External Circulation' integrated to leverage global trade and investment",
+        "B) Completely severing all maritime export connections with foreign markets",
+        "C) Mandating that all domestic industrial output be transacted in US dollars",
+        "D) Abolishing the People's Bank of China in favour of regional commercial credit unions"
+      ],
+      "correct_option": "A",
+      "explanation": "To hedge against rising geopolitical tensions and Western tech restrictions, China's Dual Circulation strategy prioritizes strengthening the domestic supply chain and consumer market while continuing international trade."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Circular Debt Crisis",
+      "difficulty": "hard",
+      "question": "In Pakistan's macroeconomic crisis, the chronic problem of 'Circular Debt' in the energy and power sector arises primarily because:",
+      "options": [
+        "A) Power distribution companies fail to collect revenues from consumers and subsidize power below cost, creating a cascade of unpaid arrears across power generators, fuel suppliers, and state refineries",
+        "B) Solar panel installations have produced uncontrollable electricity surpluses",
+        "C) The central government maintains zero domestic or external public debt",
+        "D) Commercial banks are legally prohibited from lending to energy firms"
+      ],
+      "correct_option": "A",
+      "explanation": "Circular debt is a cascading liquidity bottleneck in Pakistan's energy supply chain: distribution losses, theft, and below-cost tariffs prevent power distributors from paying generators, who then default on fuel suppliers."
+    },
+    {
+      "id": "CUET_ECO_2026_P20_L10B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Comprehensive Development Comparison",
+      "difficulty": "hard",
+      "question": "Comparing the historical development indicators of India, China, and Pakistan from 1950 to the present, which synthesized conclusion is supported by empirical evidence?",
+      "options": [
+        "A) China outperformed both South Asian neighbours through early radical land reforms, universal healthcare and literacy investments, and dynamic export manufacturing; while India achieved high service-led growth with persistent informal employment; and Pakistan suffered from low savings, political instability, and recurring debt crises",
+        "B) Pakistan consistently achieved higher human development rankings than China across all decades",
+        "C) India became a dominant global merchandise manufacturing powerhouse while China transitioned entirely to agricultural exports",
+        "D) All three nations have maintained identical GDP growth rates, fertility trajectories, and industrial structures since 1950"
+      ],
+      "correct_option": "A",
+      "explanation": "China built strong human development foundations before 1978 and leveraged them into global manufacturing primacy. India excelled in services but grapples with manufacturing jobs and informal work. Pakistan's growth was hamstrung by weak social investment and debt."
+    }
+  ]
+}

@@ -2,14 +2,14 @@ import { pageMetadata } from "@/lib/page-metadata";
 import Link from "next/link";
 export const metadata = pageMetadata(
   "Our purpose",
-  "TestDisha helps students discover more opportunities after Class 12 through clear exam information and official sources.",
+  "OurMocks helps students discover more opportunities after Class 12 through clear exam information and official sources.",
   "/about",
 );
 export default function AboutPage() {
   return (
     <main id="main-content" tabIndex={-1}>
       <section className="guide-hero page-shell">
-        <p className="eyebrow">Why TestDisha exists</p>
+        <p className="eyebrow">Why OurMocks exists</p>
         <h1>
           Every student deserves
           <br />
@@ -63,7 +63,7 @@ export default function AboutPage() {
             deadlines with the organiser before acting.
           </p>
           <p>
-            TestDisha is independent of the exam authorities. We do not promise
+            OurMocks is independent of the exam authorities. We do not promise
             admission, rank, scholarships or career outcomes. Application and
             candidate-login links take you to the organiser’s website or its
             linked service provider.

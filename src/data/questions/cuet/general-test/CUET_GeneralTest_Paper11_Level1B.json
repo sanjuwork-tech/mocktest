@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_GAT_2026_P11_L1B",
+  "series_id": "CUET_GAT_2026",
+  "paper_number": 11,
+  "difficulty_level": "1B",
+  "subject": "General Test (Code: 501)",
+  "syllabus_source": "cuet general aptitude test syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "pastpaper-gat-2024.pdf, pastpaper-gat-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q01",
+      "topic": "General Knowledge",
+      "sub_topic": "Indian Economy - Industry",
+      "difficulty": "easy",
+      "question": "Which city is popularly known as the 'Manchester of India' because of its historic cotton textile industry?",
+      "options": [
+        "A) Surat",
+        "B) Kanpur",
+        "C) Ahmedabad",
+        "D) Coimbatore"
+      ],
+      "correct_option": "C",
+      "explanation": "Ahmedabad, on the banks of the Sabarmati in Gujarat, grew into India's leading cotton-textile centre in the 19th century and earned the nickname 'Manchester of India'. Coimbatore is called the 'Manchester of South India', while Surat is known for diamonds and Kanpur for leather."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q02",
+      "topic": "General Mental Ability",
+      "sub_topic": "Number Series",
+      "difficulty": "medium",
+      "question": "Find the next term of the series: 2, 5, 14, 41, 122, ?",
+      "options": [
+        "A) 363",
+        "B) 365",
+        "C) 361",
+        "D) 243"
+      ],
+      "correct_option": "B",
+      "explanation": "Each term is (previous term x 3) - 1: 2x3-1=5, 5x3-1=14, 14x3-1=41, 41x3-1=122, so 122x3-1=365."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q03",
+      "topic": "Numerical Ability",
+      "sub_topic": "Profit and Loss",
+      "difficulty": "easy",
+      "question": "A trader buys a bicycle for Rs 2,400 and sells it for Rs 2,760. His profit percentage is:",
+      "options": [
+        "A) 20%",
+        "B) 18%",
+        "C) 15%",
+        "D) 12%"
+      ],
+      "correct_option": "C",
+      "explanation": "Profit = 2760 - 2400 = Rs 360. Profit% = 360/2400 x 100 = 15%."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q04",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Syllogism",
+      "difficulty": "easy",
+      "question": "Statements: All poets are dreamers. Some dreamers are rich.\nConclusions: I. Some poets are rich. II. Some dreamers are poets.\nWhich conclusion follows?",
+      "options": [
+        "A) Both conclusions I and II follow",
+        "B) Only conclusion II follows",
+        "C) Only conclusion I follows",
+        "D) Neither conclusion I nor II follows"
+      ],
+      "correct_option": "B",
+      "explanation": "'All poets are dreamers' can be converted to 'Some dreamers are poets', so II follows. 'Some dreamers are rich' says nothing certain about the poets inside the dreamer circle, so I does not follow."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q05",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Human Health and Nutrition",
+      "difficulty": "easy",
+      "question": "Deficiency of which vitamin causes rickets in children?",
+      "options": [
+        "A) Vitamin C",
+        "B) Vitamin D",
+        "C) Vitamin B12",
+        "D) Vitamin A"
+      ],
+      "correct_option": "B",
+      "explanation": "Vitamin D is essential for calcium absorption; its deficiency weakens bones and causes rickets in children and osteomalacia in adults. Vitamin C deficiency causes scurvy and vitamin A deficiency causes night blindness."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q06",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports - Cricket",
+      "difficulty": "easy",
+      "question": "Which team won the ICC Men's Champions Trophy 2025, defeating New Zealand in the final at Dubai?",
+      "options": [
+        "A) India",
+        "B) Pakistan",
+        "C) Australia",
+        "D) South Africa"
+      ],
+      "correct_option": "A",
+      "explanation": "India beat New Zealand by four wickets in the final at the Dubai International Stadium in March 2025 to lift the ICC Men's Champions Trophy for a record third time."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q07",
+      "topic": "General Knowledge",
+      "sub_topic": "Modern Indian History",
+      "difficulty": "medium",
+      "question": "Who presided over the first session of the Indian National Congress held at Bombay in 1885?",
+      "options": [
+        "A) A.O. Hume",
+        "B) W.C. Bonnerjee",
+        "C) Surendranath Banerjee",
+        "D) Dadabhai Naoroji"
+      ],
+      "correct_option": "B",
+      "explanation": "The first session of the Indian National Congress (Bombay, December 1885) was presided over by Womesh Chandra Bonnerjee. A.O. Hume, the founder, served as the first General Secretary but did not preside."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q08",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Ranking and Ordering",
+      "difficulty": "medium",
+      "question": "In a row of 60 students, Amit is 16th from the left end and Bhavana is 11th from the right end. How many students are sitting between them?",
+      "options": [
+        "A) 32",
+        "B) 33",
+        "C) 34",
+        "D) 35"
+      ],
+      "correct_option": "B",
+      "explanation": "Students between = Total - (Amit's rank) - (Bhavana's rank) = 60 - 16 - 11 = 33. Equivalently, Amit has 15 students to his left and Bhavana has 10 to her right; 60 - 15 - 10 - 2 = 33."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q09",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Basic Geometry",
+      "difficulty": "easy",
+      "question": "An exterior angle of a triangle is 110 degrees, and the two interior opposite angles are equal to each other. Each of these equal angles measures:",
+      "options": [
+        "A) 110 degrees",
+        "B) 70 degrees",
+        "C) 55 degrees",
+        "D) 45 degrees"
+      ],
+      "correct_option": "C",
+      "explanation": "An exterior angle equals the sum of the two interior opposite angles, so each equal angle = 110/2 = 55 degrees."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q10",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Cell Biology",
+      "difficulty": "easy",
+      "question": "Which cell organelle is known as the 'suicidal bag' of the cell?",
+      "options": [
+        "A) Golgi body",
+        "B) Ribosome",
+        "C) Peroxisome",
+        "D) Lysosome"
+      ],
+      "correct_option": "D",
+      "explanation": "Lysosomes contain powerful hydrolytic enzymes that can digest the cell's own worn-out parts, and can rupture to destroy the cell entirely - hence 'suicidal bags of the cell'."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q11",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports - Football",
+      "difficulty": "easy",
+      "question": "Which club won the UEFA Champions League 2024-25, beating Inter Milan 5-0 in the final?",
+      "options": [
+        "A) Manchester City",
+        "B) Paris Saint-Germain",
+        "C) Real Madrid",
+        "D) Barcelona"
+      ],
+      "correct_option": "B",
+      "explanation": "Paris Saint-Germain won their first UEFA Champions League title by defeating Inter Milan 5-0 in the final at Munich in May 2025 - the biggest winning margin in a Champions League final."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q12",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Calendar",
+      "difficulty": "easy",
+      "question": "If 5 March 2026 is a Thursday, on which day of the week does 25 March 2026 fall?",
+      "options": [
+        "A) Wednesday",
+        "B) Friday",
+        "C) Tuesday",
+        "D) Thursday"
+      ],
+      "correct_option": "A",
+      "explanation": "From 5 to 25 March is 20 days, and 20 divided by 7 leaves remainder 6. Thursday + 6 days = Wednesday. (5, 12 and 19 March are Thursdays; 25 March is six days later.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q13",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Earth and Atmosphere",
+      "difficulty": "easy",
+      "question": "Which gas is the most abundant gas in the Earth's atmosphere?",
+      "options": [
+        "A) Nitrogen",
+        "B) Carbon dioxide",
+        "C) Argon",
+        "D) Oxygen"
+      ],
+      "correct_option": "A",
+      "explanation": "Nitrogen makes up about 78% of the atmosphere by volume, followed by oxygen at about 21%; carbon dioxide and argon are present only in traces."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q14",
+      "topic": "General Mental Ability",
+      "sub_topic": "Letter Series",
+      "difficulty": "easy",
+      "question": "Find the next term of the letter series: Z, X, V, T, ?",
+      "options": [
+        "A) S",
+        "B) Q",
+        "C) R",
+        "D) P"
+      ],
+      "correct_option": "C",
+      "explanation": "The letters move backwards by two places each step: Z(26), X(24), V(22), T(20), so the next is R(18)."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q15",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Percentage Applications",
+      "difficulty": "easy",
+      "question": "A shopkeeper gives two successive discounts of 15% and 10% on an article. These are equivalent to a single discount of:",
+      "options": [
+        "A) 23.5%",
+        "B) 25%",
+        "C) 22.5%",
+        "D) 24.5%"
+      ],
+      "correct_option": "A",
+      "explanation": "Net price factor = 0.85 x 0.90 = 0.765, so the single equivalent discount is 100 - 76.5 = 23.5%. Simply adding 15 and 10 to get 25% is the common trap."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q16",
+      "topic": "Current Affairs",
+      "sub_topic": "Defence and Security",
+      "difficulty": "medium",
+      "question": "Operation Sindoor, conducted by the Indian armed forces in May 2025, was launched in response to which of the following?",
+      "options": [
+        "A) The Pahalgam terror attack",
+        "B) The Pathankot airbase attack",
+        "C) The Pulwama attack",
+        "D) The Uri attack"
+      ],
+      "correct_option": "A",
+      "explanation": "Operation Sindoor was launched by India on 7 May 2025, striking terrorist infrastructure in Pakistan and PoK in response to the 22 April 2025 terror attack on tourists at Pahalgam in Jammu and Kashmir."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q17",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "easy",
+      "question": "The perimeter of a rectangle is 46 cm and its length is 15 cm. Its area is:",
+      "options": [
+        "A) 112 sq cm",
+        "B) 120 sq cm",
+        "C) 105 sq cm",
+        "D) 128 sq cm"
+      ],
+      "correct_option": "B",
+      "explanation": "Half-perimeter = length + breadth = 23, so breadth = 23 - 15 = 8 cm. Area = 15 x 8 = 120 sq cm."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q18",
+      "topic": "General Mental Ability",
+      "sub_topic": "Coding-Decoding",
+      "difficulty": "easy",
+      "question": "In a certain code language, a word is coded by interchanging its first and last letters. If HONEST is coded as SONETH, how is FLOWER coded in that language?",
+      "options": [
+        "A) REWOLF",
+        "B) RELWOF",
+        "C) WOLFRE",
+        "D) REFLOW"
+      ],
+      "correct_option": "A",
+      "explanation": "Swapping the first letter (F) with the last letter (R) of FLOWER gives REWOLF. In HONEST, H and T swap to give SONETH, confirming the rule."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q19",
+      "topic": "Numerical Ability",
+      "sub_topic": "Averages",
+      "difficulty": "easy",
+      "question": "The average age of 5 friends is 20 years. When a sixth friend joins them, the average age becomes 21 years. What is the age of the sixth friend?",
+      "options": [
+        "A) 27 years",
+        "B) 26 years",
+        "C) 25 years",
+        "D) 24 years"
+      ],
+      "correct_option": "B",
+      "explanation": "Total age after the sixth friend joins = 6 x 21 = 126 years; the earlier total = 5 x 20 = 100 years. The sixth friend's age = 126 - 100 = 26 years."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q20",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Clock",
+      "difficulty": "hard",
+      "question": "How many times in 24 hours do the hands of a clock point in opposite directions, forming a straight line?",
+      "options": [
+        "A) 12",
+        "B) 11",
+        "C) 22",
+        "D) 24"
+      ],
+      "correct_option": "C",
+      "explanation": "The hands are opposite once every 12/11 hours, giving 11 times in 12 hours and hence 22 times in 24 hours. (They coincide, by comparison, 22 times in 24 hours as well.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q21",
+      "topic": "General Knowledge",
+      "sub_topic": "Indian Economy - Agriculture",
+      "difficulty": "medium",
+      "question": "Which Indian state is the largest producer of sugarcane?",
+      "options": [
+        "A) Maharashtra",
+        "B) Tamil Nadu",
+        "C) Karnataka",
+        "D) Uttar Pradesh"
+      ],
+      "correct_option": "D",
+      "explanation": "Uttar Pradesh has been India's largest sugarcane-producing state for most years, accounting for over 40% of national production, followed by Maharashtra."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q22",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Everyday Physics",
+      "difficulty": "easy",
+      "question": "The SI unit of electric current is:",
+      "options": [
+        "A) Watt",
+        "B) Volt",
+        "C) Ampere",
+        "D) Ohm"
+      ],
+      "correct_option": "C",
+      "explanation": "The ampere (A) is the SI base unit of electric current, defined using the elementary charge. Volt is the unit of potential difference, ohm of resistance and watt of power."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q23",
+      "topic": "General Mental Ability",
+      "sub_topic": "Blood Relations",
+      "difficulty": "easy",
+      "question": "A is B's sister. C is B's mother. D is C's father. How is A related to D?",
+      "options": [
+        "A) Daughter",
+        "B) Niece",
+        "C) Grandmother",
+        "D) Granddaughter"
+      ],
+      "correct_option": "D",
+      "explanation": "C is the mother of both B and A (siblings share a mother), and D is C's father. D is therefore A's grandfather, so A is D's granddaughter. ('Daughter' is the trap - A is C's daughter, not D's.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q24",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time, Speed and Distance",
+      "difficulty": "medium",
+      "question": "A 180 m long train crosses a 220 m long platform in 25 seconds. The speed of the train is:",
+      "options": [
+        "A) 64.8 km/h",
+        "B) 54 km/h",
+        "C) 60 km/h",
+        "D) 57.6 km/h"
+      ],
+      "correct_option": "D",
+      "explanation": "Distance covered = train + platform = 180 + 220 = 400 m. Speed = 400/25 = 16 m/s = 16 x 18/5 = 57.6 km/h."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q25",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Basic Algebra",
+      "difficulty": "medium",
+      "question": "If 2x + 3y = 12 and xy = 6, then the value of 4x^2 + 9y^2 is:",
+      "options": [
+        "A) 60",
+        "B) 84",
+        "C) 108",
+        "D) 72"
+      ],
+      "correct_option": "D",
+      "explanation": "(2x + 3y)^2 = 4x^2 + 12xy + 9y^2, so 4x^2 + 9y^2 = 12^2 - 12 x 6 = 144 - 72 = 72."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q26",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports - Athletics",
+      "difficulty": "medium",
+      "question": "Which city hosted the World Athletics Championships in September 2025?",
+      "options": [
+        "A) Budapest",
+        "B) Doha",
+        "C) Eugene",
+        "D) Tokyo"
+      ],
+      "correct_option": "D",
+      "explanation": "The 20th World Athletics Championships were held at the Japan National Stadium in Tokyo in September 2025, returning to the city that hosted the 2021 (originally 2020) Olympic Games. Eugene hosted in 2022 and Budapest in 2023."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q27",
+      "topic": "Numerical Ability",
+      "sub_topic": "Ratio and Proportion",
+      "difficulty": "easy",
+      "question": "Rs 1,200 is divided among X, Y and Z in the ratio 2 : 3 : 5. The largest share is:",
+      "options": [
+        "A) Rs 600",
+        "B) Rs 360",
+        "C) Rs 240",
+        "D) Rs 480"
+      ],
+      "correct_option": "A",
+      "explanation": "Total parts = 2 + 3 + 5 = 10, so one part = 1200/10 = 120. The largest share (5 parts) = 5 x 120 = Rs 600."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q28",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Seating Arrangement",
+      "difficulty": "easy",
+      "question": "Five friends M, N, O, P and Q sit in a row facing north. M is at the extreme left end, Q is at the extreme right end, P sits between N and Q, and O sits immediately to the left of N. Who sits exactly in the middle of the row?",
+      "options": [
+        "A) M",
+        "B) O",
+        "C) P",
+        "D) N"
+      ],
+      "correct_option": "D",
+      "explanation": "Seats 1 to 5: M is 1st and Q is 5th. P between N and Q forces N at 3 and P at 4. O immediately left of N takes seat 2. The middle (3rd) seat is N."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q29",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time and Work",
+      "difficulty": "easy",
+      "question": "A can complete a piece of work in 15 days and B can complete the same work in 30 days. Working together, they will finish it in:",
+      "options": [
+        "A) 12 days",
+        "B) 9 days",
+        "C) 8 days",
+        "D) 10 days"
+      ],
+      "correct_option": "D",
+      "explanation": "One-day work: 1/15 + 1/30 = 2/30 + 1/30 = 3/30 = 1/10, so together they need 10 days."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q30",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The diagonal of a cube is 6 x root(3) cm. The volume of the cube is:",
+      "options": [
+        "A) 216 cubic cm",
+        "B) 64 cubic cm",
+        "C) 512 cubic cm",
+        "D) 216 x root(3) cubic cm"
+      ],
+      "correct_option": "A",
+      "explanation": "Body diagonal = a x root(3) = 6 x root(3), so edge a = 6 cm. Volume = a^3 = 216 cubic cm."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q31",
+      "topic": "Numerical Ability",
+      "sub_topic": "Number System",
+      "difficulty": "hard",
+      "question": "A number N, when divided by 4, gives a quotient Q and remainder 2, and Q when divided by 5 gives remainder 3. What is the smallest such N?",
+      "options": [
+        "A) 14",
+        "B) 18",
+        "C) 22",
+        "D) 26"
+      ],
+      "correct_option": "A",
+      "explanation": "Work backwards: Q = 5k + 3, smallest Q = 3. Then N = 4 x 3 + 2 = 14. Check: 14 = 4 x 3 + 2 and quotient 3 = 5 x 0 + 3. (22, 18 and 26 fail the second condition: quotients 5, 4 and 6 leave remainders 0, 4 and 1.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q32",
+      "topic": "Current Affairs",
+      "sub_topic": "Awards and Honours",
+      "difficulty": "medium",
+      "question": "The Nobel Prize in Chemistry 2025 was awarded for the development of which of the following?",
+      "options": [
+        "A) Click chemistry",
+        "B) Metal-organic frameworks",
+        "C) Cryo-electron microscopy",
+        "D) Quantum dots"
+      ],
+      "correct_option": "B",
+      "explanation": "The 2025 Nobel Prize in Chemistry went to Susumu Kitagawa, Richard Robson and Omar M. Yaghi for developing metal-organic frameworks (MOFs), porous crystalline materials with wide applications in gas storage and water harvesting."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q33",
+      "topic": "Current Affairs",
+      "sub_topic": "International Events",
+      "difficulty": "easy",
+      "question": "The World Expo 2025 was hosted by which city?",
+      "options": [
+        "A) Busan, South Korea",
+        "B) Riyadh, Saudi Arabia",
+        "C) Osaka, Japan",
+        "D) Dubai, UAE"
+      ],
+      "correct_option": "C",
+      "explanation": "Expo 2025 ran from April to October 2025 on Yumeshima island in Osaka, Japan, under the theme 'Designing Future Society for Our Lives'. Dubai hosted the previous World Expo in 2020-21 and Riyadh will host in 2030."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q34",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "easy",
+      "question": "The perimeter of a square field is 64 m. The length of its diagonal is:",
+      "options": [
+        "A) 16 m",
+        "B) 8 x root(2) m",
+        "C) 16 x root(2) m",
+        "D) 32 m"
+      ],
+      "correct_option": "C",
+      "explanation": "Side = 64/4 = 16 m. Diagonal = side x root(2) = 16 x root(2) m."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q35",
+      "topic": "General Mental Ability",
+      "sub_topic": "Classification",
+      "difficulty": "easy",
+      "question": "Find the odd one out: 121, 144, 169, 180.",
+      "options": [
+        "A) 169",
+        "B) 121",
+        "C) 144",
+        "D) 180"
+      ],
+      "correct_option": "D",
+      "explanation": "121 = 11^2, 144 = 12^2 and 169 = 13^2 are perfect squares, but 180 is not a perfect square, so it is the odd one out."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q36",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports - Cricket",
+      "difficulty": "easy",
+      "question": "Which team won its maiden Indian Premier League (IPL) title in 2025?",
+      "options": [
+        "A) Delhi Capitals",
+        "B) Punjab Kings",
+        "C) Lucknow Super Giants",
+        "D) Royal Challengers Bengaluru"
+      ],
+      "correct_option": "D",
+      "explanation": "Royal Challengers Bengaluru defeated Punjab Kings in the final at Ahmedabad in June 2025 to win their first-ever IPL title, ending an 18-year wait."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q37",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Human Biology",
+      "difficulty": "easy",
+      "question": "Which part of the human brain controls balance, posture and muscular coordination?",
+      "options": [
+        "A) Cerebrum",
+        "B) Cerebellum",
+        "C) Medulla oblongata",
+        "D) Hypothalamus"
+      ],
+      "correct_option": "B",
+      "explanation": "The cerebellum, located at the back of the brain below the cerebrum, coordinates voluntary movement and maintains balance and posture. The medulla controls involuntary functions like heartbeat and breathing."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q38",
+      "topic": "General Mental Ability",
+      "sub_topic": "Analogy",
+      "difficulty": "easy",
+      "question": "Syringe : Doctor : : Chalk : ?",
+      "options": [
+        "A) Teacher",
+        "B) Student",
+        "C) Blackboard",
+        "D) Classroom"
+      ],
+      "correct_option": "A",
+      "explanation": "A syringe is the characteristic working tool of a doctor; in the same way, chalk is the characteristic working tool of a teacher. The other options name the surface, the place or the recipient, not the user."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q39",
+      "topic": "General Mental Ability",
+      "sub_topic": "Direction Sense",
+      "difficulty": "easy",
+      "question": "A man walks 12 km towards the east, then turns to his left and walks 5 km towards the north. How far is he now from his starting point?",
+      "options": [
+        "A) 17 km",
+        "B) 15 km",
+        "C) 13 km",
+        "D) 7 km"
+      ],
+      "correct_option": "C",
+      "explanation": "The eastward and northward legs are perpendicular, so the straight-line distance = root(12^2 + 5^2) = root(169) = 13 km."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q40",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Human Biology",
+      "difficulty": "medium",
+      "question": "The normal pH range of human blood is approximately:",
+      "options": [
+        "A) 7.35 to 7.45",
+        "B) 5.5 to 6.0",
+        "C) 8.0 to 8.5",
+        "D) 6.5 to 6.8"
+      ],
+      "correct_option": "A",
+      "explanation": "Human blood is slightly alkaline, maintained in a narrow range of about 7.35-7.45 by bicarbonate and other buffer systems; a deviation beyond this range is life-threatening."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q41",
+      "topic": "General Knowledge",
+      "sub_topic": "Indian Culture and Heritage",
+      "difficulty": "easy",
+      "question": "The famous 13th-century Konark Sun Temple, a UNESCO World Heritage Site, is located in which state?",
+      "options": [
+        "A) Odisha",
+        "B) Bihar",
+        "C) Jharkhand",
+        "D) West Bengal"
+      ],
+      "correct_option": "A",
+      "explanation": "The Konark Sun Temple, built around 1250 CE by King Narasimhadeva I of the Eastern Ganga dynasty as a chariot of the Sun God, stands at Konark in Puri district, Odisha."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q42",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Calendar",
+      "difficulty": "easy",
+      "question": "In a 30-day month that begins on a Monday, what is the date of the fourth Monday of the month?",
+      "options": [
+        "A) 23",
+        "B) 28",
+        "C) 22",
+        "D) 21"
+      ],
+      "correct_option": "C",
+      "explanation": "Mondays fall on the 1st, 8th, 15th, 22nd and 29th, so the fourth Monday is the 22nd."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q43",
+      "topic": "Numerical Ability",
+      "sub_topic": "Simple and Compound Interest",
+      "difficulty": "easy",
+      "question": "A sum of Rs 5,000 amounts to Rs 6,200 in 4 years at simple interest. The rate of interest per annum is:",
+      "options": [
+        "A) 8%",
+        "B) 6%",
+        "C) 7%",
+        "D) 5%"
+      ],
+      "correct_option": "B",
+      "explanation": "SI = 6200 - 5000 = Rs 1,200 over 4 years, so SI per year = 300. Rate = 300/5000 x 100 = 6% per annum."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q44",
+      "topic": "General Knowledge",
+      "sub_topic": "Indian Polity",
+      "difficulty": "easy",
+      "question": "Which Article of the Indian Constitution abolishes untouchability?",
+      "options": [
+        "A) Article 15",
+        "B) Article 23",
+        "C) Article 17",
+        "D) Article 19"
+      ],
+      "correct_option": "C",
+      "explanation": "Article 17 abolishes untouchability and forbids its practice in any form; its enforcement is backed by the Protection of Civil Rights Act, 1955. Article 23 prohibits human trafficking and forced labour."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q45",
+      "topic": "Numerical Ability",
+      "sub_topic": "Profit and Loss",
+      "difficulty": "hard",
+      "question": "A shopkeeper marks an article 40% above its cost price and then allows a discount of 25% on the marked price. His profit percentage is:",
+      "options": [
+        "A) 10%",
+        "B) 12.5%",
+        "C) 5%",
+        "D) 15%"
+      ],
+      "correct_option": "C",
+      "explanation": "Taking cost price as Rs 100: marked price = Rs 140, and a 25% discount gives selling price = 140 x 0.75 = Rs 105. Profit = 5% (the naive 40 - 25 = 15% is the common trap)."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q46",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Basic Algebra",
+      "difficulty": "medium",
+      "question": "If x + 1/x = 4, then the value of x^3 + 1/x^3 is:",
+      "options": [
+        "A) 64",
+        "B) 52",
+        "C) 44",
+        "D) 48"
+      ],
+      "correct_option": "B",
+      "explanation": "x^3 + 1/x^3 = (x + 1/x)^3 - 3(x + 1/x) = 64 - 12 = 52."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q47",
+      "topic": "General Knowledge",
+      "sub_topic": "World and Indian Geography",
+      "difficulty": "easy",
+      "question": "Which strait separates India from Sri Lanka?",
+      "options": [
+        "A) Sunda Strait",
+        "B) Palk Strait",
+        "C) Malacca Strait",
+        "D) Bass Strait"
+      ],
+      "correct_option": "B",
+      "explanation": "The Palk Strait, along with the Gulf of Mannar to its south, separates the Indian state of Tamil Nadu from the island of Sri Lanka. The Malacca Strait lies between Malaysia and Indonesia."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q48",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Logic Puzzle",
+      "difficulty": "easy",
+      "question": "In a certain group, Anu, Ben and Cara each study exactly one of Physics, Chemistry and Biology. Anu does not study Physics, and Ben studies Chemistry. Which subject does Cara study?",
+      "options": [
+        "A) Chemistry",
+        "B) Cannot be determined",
+        "C) Biology",
+        "D) Physics"
+      ],
+      "correct_option": "D",
+      "explanation": "Ben has Chemistry, and Anu cannot take Physics, so Anu must take Biology - leaving Physics for Cara."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q49",
+      "topic": "General Knowledge",
+      "sub_topic": "Medieval Indian History",
+      "difficulty": "easy",
+      "question": "The Red Fort (Lal Qila) in Delhi, from whose ramparts the Prime Minister addresses the nation every Independence Day, was built by which Mughal emperor?",
+      "options": [
+        "A) Shah Jahan",
+        "B) Humayun",
+        "C) Aurangzeb",
+        "D) Akbar"
+      ],
+      "correct_option": "A",
+      "explanation": "Emperor Shah Jahan built the Red Fort (completed 1648) when he shifted his capital from Agra to Shahjahanabad (Delhi). Agra Fort, by contrast, was largely built by Akbar."
+    },
+    {
+      "id": "CUET_GAT_2026_P11_L1B_Q50",
+      "topic": "General Knowledge",
+      "sub_topic": "Books and Authors",
+      "difficulty": "easy",
+      "question": "Who wrote the book 'The Discovery of India'?",
+      "options": [
+        "A) S. Radhakrishnan",
+        "B) Mahatma Gandhi",
+        "C) Rabindranath Tagore",
+        "D) Jawaharlal Nehru"
+      ],
+      "correct_option": "D",
+      "explanation": "'The Discovery of India' was written by Jawaharlal Nehru during his imprisonment at Ahmednagar Fort in 1944. Gandhi wrote 'The Story of My Experiments with Truth', his autobiography."
+    }
+  ]
+}

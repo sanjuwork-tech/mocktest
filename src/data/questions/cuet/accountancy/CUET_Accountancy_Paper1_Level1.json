@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ACC_2026_P1_L1",
+  "series_id": "CUET_ACC_2026",
+  "paper_number": 1,
+  "difficulty_level": "1",
+  "subject": "Accountancy (Code: 301)",
+  "syllabus_source": "cuet accountancy syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q01",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Partnership Deed",
+      "difficulty": "easy",
+      "question": "A partnership deed does NOT necessarily include which of the following?",
+      "options": [
+        "A) Date of formation of the firm",
+        "B) Method of calculating profit share",
+        "C) Interest on capital rate, if any",
+        "D) Name and address of the firm"
+      ],
+      "correct_option": "A",
+      "explanation": "A partnership deed may contain many clauses, but the exact date of formation is not a mandatory clause. Other clauses like the firm's name, profit-sharing ratio, and interest on capital are commonly included."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q02",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Fixed vs Fluctuating Capital",
+      "difficulty": "easy",
+      "question": "Under the fluctuating capital method, which of the following items is recorded in the partner's capital account?",
+      "options": [
+        "A) Only profit share",
+        "B) All adjustments like salary, interest on capital, and drawings",
+        "C) Only drawings",
+        "D) Only partner's capital contribution"
+      ],
+      "correct_option": "B",
+      "explanation": "Under fluctuating capital method, all appropriations (salary, interest on capital, share of profit, drawings) are recorded in the capital account, causing the capital balance to fluctuate."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q03",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "P&L Appropriation",
+      "difficulty": "easy",
+      "question": "Interest on partner's drawings is recorded on the ____ side of the Profit and Loss Appropriation Account.",
+      "options": [
+        "A) Credit",
+        "B) Debit",
+        "C) Neither debit nor credit",
+        "D) Both debit and credit"
+      ],
+      "correct_option": "A",
+      "explanation": "Interest on drawings is an income for the firm (charged from partners), so it appears on the credit side of the P&L Appropriation Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q04",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Past Adjustments",
+      "difficulty": "easy",
+      "question": "If a partner's share was under-distributed in the past, the rectifying entry would involve:",
+      "options": [
+        "A) Only crediting the partner who received less",
+        "B) Debiting both partners",
+        "C) Debiting the partner who received excess and crediting the partner who received less",
+        "D) Crediting both partners"
+      ],
+      "correct_option": "C",
+      "explanation": "The partner who received more than their correct share is debited, and the partner who received less is credited to rectify the error."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q05",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "P&L Appropriation",
+      "difficulty": "easy",
+      "question": "The Profit and Loss Appropriation Account is prepared after which account?",
+      "options": [
+        "A) Balance Sheet",
+        "B) Cash Book",
+        "C) Trading Account",
+        "D) Profit and Loss Account"
+      ],
+      "correct_option": "D",
+      "explanation": "P&L Appropriation Account is an extension of the P&L Account. First, the P&L Account determines net profit/loss, then appropriations are shown in the P&L Appropriation Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q06",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Fixed vs Fluctuating Capital",
+      "difficulty": "easy",
+      "question": "Under the fixed capital method, partner's drawings are recorded in a separate account called:",
+      "options": [
+        "A) Current Account",
+        "B) Capital Account",
+        "C) P&L Appropriation Account",
+        "D) Drawings Account"
+      ],
+      "correct_option": "D",
+      "explanation": "Under fixed capital method, drawings are debited to a separate Drawings Account (or Current Account), not the Capital Account, so that capital remains fixed."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q07",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "P&L Appropriation",
+      "difficulty": "easy",
+      "question": "A, B, and C are partners sharing profits in the ratio 3:2:1. If the total profit is ₹60,000, how much will C receive?",
+      "options": [
+        "A) ₹15,000",
+        "B) ₹10,000",
+        "C) ₹30,000",
+        "D) ₹20,000"
+      ],
+      "correct_option": "B",
+      "explanation": "C's share = ₹60,000 × 1/6 = ₹10,000. The ratio 3:2:1 means total parts = 6, so C gets 1/6 of the profit."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q08",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Guarantee of Profit",
+      "difficulty": "medium",
+      "question": "X and Y are partners. X guarantees that Z's share of profit will not be less than ₹40,000 per annum. If the firm incurs a loss of ₹20,000, what is the amount of deficiency to be borne by X?",
+      "options": [
+        "A) ₹10,000",
+        "B) ₹40,000",
+        "C) ₹60,000",
+        "D) ₹20,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Z's guaranteed minimum is ₹40,000. Since there's a loss of ₹20,000, Z's actual share is negative ₹20,000. Deficiency = ₹40,000 + ₹20,000 = ₹60,000, which X must bear."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q09",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Sacrificing Ratio",
+      "difficulty": "easy",
+      "question": "When a new partner is admitted, the sacrificing ratio is calculated as:",
+      "options": [
+        "A) Old share − New share",
+        "B) New share − Old share",
+        "C) Old share + New share",
+        "D) Old share × New share"
+      ],
+      "correct_option": "A",
+      "explanation": "Sacrificing ratio = Old profit share − New profit share. It represents the portion of profit each old partner gives up in favor of the new partner."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q10",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill",
+      "difficulty": "easy",
+      "question": "The goodwill of a firm is valued at ₹90,000. A new partner brings ₹15,000 as goodwill premium. The remaining goodwill amount will be:",
+      "options": [
+        "A) Shown as an asset in the balance sheet",
+        "B) Debited to new partner's capital account",
+        "C) Credited to all partners equally",
+        "D) Credited to old partners' capital accounts in sacrificing ratio"
+      ],
+      "correct_option": "D",
+      "explanation": "The remaining goodwill (₹90,000 − ₹15,000 = ₹75,000) is credited to old partners' capital accounts in their sacrificing ratio to compensate them for their sacrifice."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q11",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Revaluation Account",
+      "difficulty": "easy",
+      "question": "An increase in the value of assets at the time of admission of a partner is recorded in the Revaluation Account as:",
+      "options": [
+        "A) Shown in Balance Sheet directly",
+        "B) Debit entry",
+        "C) Credit entry",
+        "D) Not recorded in Revaluation Account"
+      ],
+      "correct_option": "C",
+      "explanation": "Increase in asset value is a gain, so it is credited to the Revaluation Account. Decrease in asset value or increase in liability is debited."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q12",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Admission of Partner",
+      "difficulty": "easy",
+      "question": "When a new partner is admitted, the existing partners' capital accounts are adjusted for goodwill through:",
+      "options": [
+        "A) Ignoring goodwill",
+        "B) Raising and writing off goodwill or premium method",
+        "C) Journal entry only in cash book",
+        "D) Adjusting only the new partner's account"
+      ],
+      "correct_option": "B",
+      "explanation": "There are two common methods: (1) Premium method — goodwill brought in by new partner is distributed to old partners; (2) Memorandum revaluation/raising method."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q13",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill",
+      "difficulty": "easy",
+      "question": "Capitalisation of average profit method of goodwill valuation uses which formula?",
+      "options": [
+        "A) Goodwill = Capitalised Value − Net Assets",
+        "B) Goodwill = Net Assets × Rate",
+        "C) Goodwill = Average Profit × Years",
+        "D) Goodwill = Super Profit × Years"
+      ],
+      "correct_option": "A",
+      "explanation": "Capitalisation of average profit: Goodwill = (Average Profit / Normal Rate of Return) − Net Assets. The first term is the capitalised value of the business."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q14",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Retirement of Partner",
+      "difficulty": "medium",
+      "question": "A, B, and C share profits equally (1:1:1). A retires. B and C acquire A's share in the ratio 2:1. What is the gaining ratio of B and C?",
+      "options": [
+        "A) 3:1",
+        "B) 2:1",
+        "C) 1:2",
+        "D) 1:1"
+      ],
+      "correct_option": "B",
+      "explanation": "Since A retires, B and C acquire A's share (1/3) in the ratio 2:1 as given. Gaining ratio = 2:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q15",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill",
+      "difficulty": "medium",
+      "question": "A firm's average profit is ₹50,000. Normal rate of return is 10%. Capital employed is ₹4,00,000. What is goodwill under the super profit method if years of purchase is 3?",
+      "options": [
+        "A) ₹50,000",
+        "B) ₹10,000",
+        "C) ₹30,000",
+        "D) ₹20,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Normal Profit = ₹4,00,000 × 10% = ₹40,000. Super Profit = ₹50,000 − ₹40,000 = ₹10,000. Goodwill = ₹10,000 × 3 = ₹30,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q16",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Gaining Ratio",
+      "difficulty": "easy",
+      "question": "At the time of retirement of a partner, the gaining ratio is calculated as:",
+      "options": [
+        "A) Old share − New share",
+        "B) Old share + New share",
+        "C) New share / Old share",
+        "D) New share − Old share"
+      ],
+      "correct_option": "D",
+      "explanation": "Gaining ratio = New profit share − Old profit share. It represents how much the remaining partners gain from the retiring partner's share."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q17",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account",
+      "difficulty": "easy",
+      "question": "On dissolution of a firm, which account is prepared to record the sale of assets and payment of liabilities?",
+      "options": [
+        "A) Realisation Account",
+        "B) Revaluation Account",
+        "C) Capital Account",
+        "D) Profit and Loss Account"
+      ],
+      "correct_option": "A",
+      "explanation": "Realisation Account is prepared at dissolution to record the realization (sale) of assets and settlement of liabilities."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q18",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account",
+      "difficulty": "easy",
+      "question": "When assets are transferred to Realisation Account, the entry is:",
+      "options": [
+        "A) Debit Realisation Account, Credit Asset Account",
+        "B) Debit Asset Account, Credit Realisation Account",
+        "C) Debit Realisation Account, Credit Capital Account",
+        "D) Debit Cash Account, Credit Realisation Account"
+      ],
+      "correct_option": "A",
+      "explanation": "Assets are transferred by debiting Realisation Account (to record disposal) and crediting the individual Asset Account (to remove it from books)."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q19",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Settlement of Accounts",
+      "difficulty": "easy",
+      "question": "The correct order of payment on dissolution of a firm is:",
+      "options": [
+        "A) All simultaneously",
+        "B) Partners' loans → Outside debts → Partners' capital",
+        "C) Outside debts → Partners' loans → Partners' capital",
+        "D) Partners' capital → Partners' loans → Outside debts"
+      ],
+      "correct_option": "C",
+      "explanation": "The order is: (1) Outside creditors, (2) Partners' loans, (3) Partners' capital (surplus, if any)."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q20",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account",
+      "difficulty": "medium",
+      "question": "A firm has assets of ₹5,00,000 and liabilities of ₹2,00,000. Assets are sold for ₹4,20,000 and liabilities paid at book value. What is the profit/loss on realisation?",
+      "options": [
+        "A) Loss of ₹20,000",
+        "B) Loss of ₹80,000",
+        "C) Profit of ₹80,000",
+        "D) Profit of ₹20,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Book value of assets = ₹5,00,000. Sale proceeds = ₹4,20,000. Loss = ₹5,00,000 − ₹4,20,000 = ₹80,000. Liabilities paid at book value = no effect."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q21",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Settlement of Accounts",
+      "difficulty": "easy",
+      "question": "If the Realisation Account shows a debit balance, it indicates:",
+      "options": [
+        "A) Profit on realisation",
+        "B) Assets sold at book value",
+        "C) No effect",
+        "D) Loss on realisation"
+      ],
+      "correct_option": "D",
+      "explanation": "Debit balance in Realisation Account = total debits (assets transferred, realisation expenses) > total credits (liabilities transferred, sale proceeds) → loss."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q22",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account",
+      "difficulty": "medium",
+      "question": "Partners X and Y share profits 3:2. On dissolution, realisation loss is ₹25,000. How much loss does Y bear?",
+      "options": [
+        "A) ₹15,000",
+        "B) ₹12,500",
+        "C) ₹5,000",
+        "D) ₹10,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Realisation loss is shared in the profit-sharing ratio. Y's share = ₹25,000 × 2/5 = ₹10,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q23",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Settlement of Accounts",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT recorded in the Realisation Account?",
+      "options": [
+        "A) Sale of machinery",
+        "B) Legal expenses of dissolution",
+        "C) Partner's salary for the past year",
+        "D) Payment to creditors"
+      ],
+      "correct_option": "C",
+      "explanation": "Past year's partner salary relates to earlier periods and is not part of the dissolution process. Only transactions related to asset disposal, liability settlement, and dissolution expenses go through Realisation Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q24",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Issue",
+      "difficulty": "easy",
+      "question": "When shares are issued at a price higher than face value, the excess amount is called:",
+      "options": [
+        "A) Discount",
+        "B) Securities Premium",
+        "C) Reserve",
+        "D) Dividend"
+      ],
+      "correct_option": "B",
+      "explanation": "When shares are issued at a premium, the amount over face value is credited to Securities Premium Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q25",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Allotment",
+      "difficulty": "easy",
+      "question": "Which account is debited when shares are forfeited?",
+      "options": [
+        "A) Share Capital Account",
+        "B) Share Allotment Account",
+        "C) Share Forfeiture Account",
+        "D) Bank Account"
+      ],
+      "correct_option": "A",
+      "explanation": "When shares are forfeited, Share Capital Account is debited with the called-up value to cancel the shares, and allotment/call accounts are credited."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q26",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Re-issue",
+      "difficulty": "easy",
+      "question": "Shares originally issued at a premium can be re-issued at:",
+      "options": [
+        "A) Only at a price higher than face value",
+        "B) Only at par value",
+        "C) Any price not less than the unpaid amount",
+        "D) Only at the original issue price"
+      ],
+      "correct_option": "C",
+      "explanation": "Forfeited shares can be re-issued at par, premium, or even at a discount (limited to the amount forfeited on those shares). The discount on re-issue cannot exceed the amount credited to Share Forfeiture Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q27",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Forfeiture",
+      "difficulty": "medium",
+      "question": "A shareholder holding 200 shares of ₹10 each (issued at par) fails to pay ₹3 on allotment and ₹2 on first call. If the shares are forfeited, what amount is debited to Share Capital Account?",
+      "options": [
+        "A) ₹1,000",
+        "B) ₹600",
+        "C) ₹400",
+        "D) ₹2,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Called-up value per share = ₹10 (full). Share Capital Account is debited with the called-up value = 200 × ₹10 = ₹2,000. The unpaid amount (allotment ₹3 + call ₹2 = ₹5 per share) is credited to respective call accounts."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q28",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures",
+      "difficulty": "easy",
+      "question": "Debentures issued at a discount are recorded in the books as:",
+      "options": [
+        "A) Debit Discount on Issue of Debentures Account",
+        "B) Debit Premium on Issue of Debentures Account",
+        "C) Credit Discount on Issue of Debentures Account",
+        "D) No entry is passed"
+      ],
+      "correct_option": "A",
+      "explanation": "Discount on issue of debentures is a capital loss. It is debited to Discount on Issue of Debentures Account and is written off over the life of debentures."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q29",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Allotment",
+      "difficulty": "easy",
+      "question": "Application money received on share issue is initially credited to:",
+      "options": [
+        "A) Share Capital Account",
+        "B) Share Application Account",
+        "C) Bank Account",
+        "D) Share Allotment Account"
+      ],
+      "correct_option": "B",
+      "explanation": "Application money is credited to Share Application Account. On allotment, it is transferred from Share Application to Share Capital Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q30",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures",
+      "difficulty": "easy",
+      "question": "Interest on debentures is charged against:",
+      "options": [
+        "A) Capital Reserve",
+        "B) Securities Premium",
+        "C) General Reserve",
+        "D) Profit and Loss Account"
+      ],
+      "correct_option": "D",
+      "explanation": "Interest on debentures is a charge against profits and is debited to Profit and Loss Account, not an appropriation of profit."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q31",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Re-issue",
+      "difficulty": "medium",
+      "question": "100 shares of ₹10 each (issued at ₹12 premium) were forfeited after the shareholder failed to pay ₹5 (final call including ₹2 premium). These shares were re-issued at ₹8 per share fully paid. What is the balance in Share Forfeiture Account after re-issue?",
+      "options": [
+        "A) ₹500",
+        "B) ₹1,700",
+        "C) ₹1,500",
+        "D) ₹200"
+      ],
+      "correct_option": "C",
+      "explanation": "Total amount paid per share = ₹10 (face) + ₹12 (premium) − ₹5 (unpaid) = ₹17. Total forfeited = ₹17 × 100 = ₹1,700. Re-issue at ₹8, discount from face value ₹10 = ₹2 × 100 = ₹200. Share Forfeiture balance after re-issue = ₹1,700 − ₹200 = ₹1,500 (transferred to Capital Reserve)."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q32",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital - Forfeiture",
+      "difficulty": "hard",
+      "question": "X Ltd. forfeited 50 shares of ₹100 each (issued at 10% premium) on which ₹40 (including premium of ₹10) on allotment and ₹30 on first call were not paid. The shares were re-issued as ₹80 paid-up for ₹70 per share. What is the amount transferred to Capital Reserve?",
+      "options": [
+        "A) ₹500",
+        "B) ₹1,000",
+        "C) ₹1,500",
+        "D) ₹2,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Share of ₹100, issued at ₹110 (10% premium). Application = ₹30 (unpaid: allotment ₹40 + first call ₹30 + final call ₹40 = ₹110 total). Amount paid = Application ₹30 × 50 = ₹1,500. Re-issue as ₹80 paid-up at ₹70/share: discount = ₹80 − ₹70 = ₹10 × 50 = ₹500. Capital Reserve = ₹1,500 − ₹500 = ₹1,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q33",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Financial Statements Structure",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a part of the financial statements as per Schedule III of the Companies Act, 2013?",
+      "options": [
+        "A) Trial Balance",
+        "B) Cash Flow Statement",
+        "C) Statement of Profit and Loss",
+        "D) Balance Sheet"
+      ],
+      "correct_option": "A",
+      "explanation": "Trial Balance is an internal document, not a published financial statement. The main financial statements are Balance Sheet, P&L, Cash Flow Statement, and Notes to Accounts."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q34",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Comparative Statements",
+      "difficulty": "easy",
+      "question": "In a comparative income statement, each item is expressed as a percentage of:",
+      "options": [
+        "A) Share capital",
+        "B) Total assets",
+        "C) Net sales/revenue of the respective year",
+        "D) Previous year's figures"
+      ],
+      "correct_option": "C",
+      "explanation": "In a comparative (common size) income statement, each item is shown as a percentage of net sales/revenue from operations of that year."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q35",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Accounting Ratios - Liquidity",
+      "difficulty": "easy",
+      "question": "Current ratio is calculated as:",
+      "options": [
+        "A) Current Liabilities / Current Assets",
+        "B) Current Assets × Current Liabilities",
+        "C) Quick Assets / Current Liabilities",
+        "D) Current Assets / Current Liabilities"
+      ],
+      "correct_option": "D",
+      "explanation": "Current Ratio = Current Assets ÷ Current Liabilities. It measures the firm's ability to meet short-term obligations."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q36",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Accounting Ratios - Profitability",
+      "difficulty": "easy",
+      "question": "Gross profit ratio is calculated on the basis of:",
+      "options": [
+        "A) Net Profit",
+        "B) Cost of Goods Sold",
+        "C) Net Sales",
+        "D) Operating Cost"
+      ],
+      "correct_option": "C",
+      "explanation": "Gross Profit Ratio = (Gross Profit / Net Sales) × 100. Gross Profit = Net Sales − Cost of Goods Sold."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q37",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Accounting Ratios - Solvency",
+      "difficulty": "medium",
+      "question": "Debt-Equity ratio is classified as a:",
+      "options": [
+        "A) Solvency ratio",
+        "B) Profitability ratio",
+        "C) Activity ratio",
+        "D) Liquidity ratio"
+      ],
+      "correct_option": "A",
+      "explanation": "Debt-Equity Ratio measures the firm's long-term solvency by comparing long-term debt to shareholders' funds."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q38",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Cash Flow Statement",
+      "difficulty": "easy",
+      "question": "Purchase of machinery for cash is classified under which activity in the Cash Flow Statement?",
+      "options": [
+        "A) Financing activity",
+        "B) Non-cash activity",
+        "C) Operating activity",
+        "D) Investing activity"
+      ],
+      "correct_option": "D",
+      "explanation": "Purchase of fixed assets (machinery) is an investing activity in the cash flow statement."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q39",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Accounting Ratios - Activity",
+      "difficulty": "medium",
+      "question": "A company's current assets are ₹4,00,000, inventory is ₹1,00,000, and current liabilities are ₹2,00,000. What is the quick ratio?",
+      "options": [
+        "A) 1:1",
+        "B) 1.5:1",
+        "C) 2:1",
+        "D) 0.5:1"
+      ],
+      "correct_option": "B",
+      "explanation": "Quick Assets = Current Assets − Inventory = ₹4,00,000 − ₹1,00,000 = ₹3,00,000. Quick Ratio = ₹3,00,000 / ₹2,00,000 = 1.5:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q40",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Cash Flow Statement",
+      "difficulty": "hard",
+      "question": "A fixed asset originally costing ₹5,00,000 with accumulated depreciation of ₹2,00,000 is sold for ₹3,50,000. How is this transaction reflected in the Cash Flow Statement under the indirect method?",
+      "options": [
+        "A) Investing inflow ₹3,50,000; profit of ₹50,000 deducted from operating activities",
+        "B) Investing inflow ₹3,50,000 only",
+        "C) Investing inflow ₹3,50,000; profit of ₹50,000 added to operating activities",
+        "D) Operating inflow ₹3,50,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Book value = ₹5,00,000 − ₹2,00,000 = ₹3,00,000. Sold for ₹3,50,000 → profit ₹50,000. Under indirect method: full ₹3,50,000 is investing inflow; the ₹50,000 profit (non-operating income) is deducted from net profit in operating activities section."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q41",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Accounting Ratios",
+      "difficulty": "hard",
+      "question": "A company has current assets of Rs.8,00,000 and current liabilities of Rs.3,20,000. What is the current ratio?",
+      "options": [
+        "A) 2.5:1",
+        "B) 3.0:1",
+        "C) 3.5:1",
+        "D) 2.0:1"
+      ],
+      "correct_option": "D",
+      "explanation": "Current Ratio = Rs.8,00,000 / Rs.3,20,000 = 2.5:1"
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q42",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "CAS Overview",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a feature of a Computerised Accounting System?",
+      "options": [
+        "A) Real-time processing",
+        "B) Manual journal entries only",
+        "C) Data security",
+        "D) Automated report generation"
+      ],
+      "correct_option": "B",
+      "explanation": "CAS processes transactions electronically. While entries are input by users, the processing, posting, and report generation are automated. 'Manual journal entries only' is not a feature."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q43",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheets",
+      "difficulty": "easy",
+      "question": "In MS Excel, which function is used to calculate the sum of a range of cells?",
+      "options": [
+        "A) COUNT()",
+        "B) MAX()",
+        "C) SUM()",
+        "D) AVERAGE()"
+      ],
+      "correct_option": "C",
+      "explanation": "SUM() function adds all numbers in a specified range of cells. AVERAGE() calculates mean, COUNT() counts cells with numbers, MAX() finds the largest value."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q44",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Depreciation Schedule",
+      "difficulty": "easy",
+      "question": "Which Excel function is used to calculate depreciation using the Straight Line Method?",
+      "options": [
+        "A) SLN()",
+        "B) DB()",
+        "C) DDB()",
+        "D) VDB()"
+      ],
+      "correct_option": "A",
+      "explanation": "SLN(cost, salvage, life) calculates straight-line depreciation. DB = declining balance, DDB = double-declining balance, VDB = variable declining balance."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q45",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Loan Schedule",
+      "difficulty": "easy",
+      "question": "In Excel, the PMT() function is used to:",
+      "options": [
+        "A) Calculate present value",
+        "B) Calculate periodic payment for a loan",
+        "C) Calculate interest rate",
+        "D) Calculate future value"
+      ],
+      "correct_option": "B",
+      "explanation": "PMT(rate, nper, pv) calculates the periodic payment for a loan based on constant payments and constant interest rate."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q46",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Payroll Schedule",
+      "difficulty": "medium",
+      "question": "Which of the following is a key component of a payroll schedule?",
+      "options": [
+        "A) Only overtime pay",
+        "B) Only gross pay",
+        "C) Gross pay, deductions, and net pay",
+        "D) Only tax amount"
+      ],
+      "correct_option": "C",
+      "explanation": "A payroll schedule includes all components: gross pay (basic + allowances), deductions (tax, PF, etc.), and net pay (take-home amount)."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q47",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Graphs and Charts",
+      "difficulty": "easy",
+      "question": "In Excel, which chart type is most suitable for showing the composition (parts) of a whole?",
+      "options": [
+        "A) Bar chart",
+        "B) Scatter chart",
+        "C) Line chart",
+        "D) Pie chart"
+      ],
+      "correct_option": "D",
+      "explanation": "A pie chart is best suited for showing how parts make up a whole (composition). Line charts show trends, bar charts compare values, scatter charts show relationships."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q48",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheets",
+      "difficulty": "easy",
+      "question": "In Excel, if you want to keep a cell reference constant when copying a formula, you use:",
+      "options": [
+        "A) Mixed reference only",
+        "B) Relative reference",
+        "C) Absolute reference ($ sign)",
+        "D) Text reference"
+      ],
+      "correct_option": "C",
+      "explanation": "Absolute reference (e.g., $A$1) keeps the cell reference fixed when the formula is copied to other cells. Relative reference (A1) changes automatically."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q49",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "CAS Overview",
+      "difficulty": "medium",
+      "question": "Which of the following software is commonly used as a Computerised Accounting System?",
+      "options": [
+        "A) Adobe Photoshop",
+        "B) Tally",
+        "C) Google Chrome",
+        "D) Microsoft Word"
+      ],
+      "correct_option": "B",
+      "explanation": "Tally is a widely used accounting software. The others are word processor, image editor, and web browser respectively."
+    },
+    {
+      "id": "CUET_ACC_2026_P1_L1_Q50",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Depreciation Schedule",
+      "difficulty": "medium",
+      "question": "The formula for straight-line depreciation per year is:",
+      "options": [
+        "A) (Cost − Salvage Value) × Rate",
+        "B) Cost / Useful Life",
+        "C) Cost × Rate",
+        "D) (Cost − Salvage Value) / Useful Life"
+      ],
+      "correct_option": "D",
+      "explanation": "Straight-line depreciation = (Original Cost − Estimated Salvage Value) ÷ Estimated Useful Life. It allocates equal depreciation each year."
+    }
+  ]
+}

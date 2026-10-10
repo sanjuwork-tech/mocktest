@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P5_L5",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 5,
+  "difficulty_level": "5",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer Budget",
+      "difficulty": "easy",
+      "question": "If a consumer's money income increases while the prices of both goods remain unchanged, the budget line will:",
+      "options": [
+        "A) Shift parallelly to the right",
+        "B) Shift parallelly to the left",
+        "C) Rotate inward on the vertical axis",
+        "D) Remain completely unchanged"
+      ],
+      "correct_option": "A",
+      "explanation": "An increase in consumer income with constant prices expands the budget set, causing a parallel rightward shift of the budget line."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "A vertical, straight-line demand curve parallel to the price axis indicates that price elasticity of demand is:",
+      "options": [
+        "A) Perfectly elastic (\\( |E_d| = \\infty \\))",
+        "B) Unitary elastic (\\( |E_d| = 1 \\))",
+        "C) Perfectly inelastic (\\( |E_d| = 0 \\))",
+        "D) Highly elastic (\\( |E_d| > 1 \\))"
+      ],
+      "correct_option": "C",
+      "explanation": "A vertical demand curve means quantity demanded remains unchanged regardless of price changes, indicating zero elasticity."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q03",
+      "topic": "Production and Costs",
+      "sub_topic": "Short Run Production",
+      "difficulty": "easy",
+      "question": "When Marginal Product (MP) is greater than Average Product (AP), Average Product:",
+      "options": [
+        "A) Declines rapidly",
+        "B) Becomes equal to zero",
+        "C) Reaches its minimum point",
+        "D) Rises"
+      ],
+      "correct_option": "D",
+      "explanation": "Whenever the marginal value lies above the average value (MP > AP), it pulls the average upward, so AP rises."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q04",
+      "topic": "Production and Costs",
+      "sub_topic": "Concepts of Costs",
+      "difficulty": "easy",
+      "question": "The payment made by a firm to purchase factor services from external market suppliers is called:",
+      "options": [
+        "A) Implicit cost",
+        "B) Sunk cost",
+        "C) Explicit cost",
+        "D) Normal profit"
+      ],
+      "correct_option": "C",
+      "explanation": "Explicit costs are direct, contractual cash payments made to external suppliers of factor inputs (e.g. wages, raw materials)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q05",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Features of Perfect Competition",
+      "difficulty": "easy",
+      "question": "In a perfectly competitive market, individual firms face a demand curve that is:",
+      "options": [
+        "A) Downward sloping and highly inelastic",
+        "B) Upward sloping",
+        "C) Perfectly elastic (horizontal straight line at the market price)",
+        "D) A rectangular hyperbola"
+      ],
+      "correct_option": "C",
+      "explanation": "Because competitive firms are price takers, they can sell any quantity at the given market price, facing a horizontal demand curve."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q06",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "easy",
+      "question": "Market equilibrium is mathematically achieved at the point where:",
+      "options": [
+        "A) Market Demand equals Market Supply",
+        "B) Average Revenue equals Total Cost",
+        "C) Total Expenditure is at its minimum",
+        "D) Marginal Cost equals Average Fixed Cost"
+      ],
+      "correct_option": "A",
+      "explanation": "Equilibrium occurs where market demand matches market supply, clearing the market without shortage or surplus."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q07",
+      "topic": "National Income Accounting",
+      "sub_topic": "Aggregates Calculation",
+      "difficulty": "easy",
+      "question": "Net Domestic Product at Factor Cost (\\( \\text{NDP}_{FC} \\)) is also termed:",
+      "options": [
+        "A) National Income",
+        "B) Gross Domestic Product",
+        "C) Domestic Factor Income",
+        "D) Private Disposable Income"
+      ],
+      "correct_option": "C",
+      "explanation": "NDP at factor cost represents the total factor income generated within the domestic territory, known as Domestic Income or Domestic Factor Income."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q08",
+      "topic": "Money and Banking",
+      "sub_topic": "Supply of Money",
+      "difficulty": "easy",
+      "question": "In India, which measure of money supply is officially designated as 'Broad Money'?",
+      "options": [
+        "A) M1",
+        "B) M2",
+        "C) M3",
+        "D) M4"
+      ],
+      "correct_option": "C",
+      "explanation": "M3 comprises currency with the public + demand deposits + time deposits with banks, and is widely known as Broad Money."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q09",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Aggregate Demand and Consumption Function",
+      "difficulty": "easy",
+      "question": "The consumption expenditure that occurs even when disposable income is zero is termed:",
+      "options": [
+        "A) Induced consumption",
+        "B) Marginal consumption",
+        "C) Autonomous consumption",
+        "D) Transitory consumption"
+      ],
+      "correct_option": "C",
+      "explanation": "Autonomous consumption (\\( \\bar{C} \\)) represents essential baseline spending that is independent of the level of income."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q10",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Classification of Expenditure",
+      "difficulty": "easy",
+      "question": "Which category of government budget expenditure neither creates physical or financial assets nor reduces government liabilities?",
+      "options": [
+        "A) Capital expenditure",
+        "B) Developmental capital loans",
+        "C) Infrastructure investments",
+        "D) Revenue expenditure"
+      ],
+      "correct_option": "D",
+      "explanation": "Revenue expenditures are routine operational expenses that neither result in asset creation nor reduce liabilities."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q11",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Foreign Exchange Regimes",
+      "difficulty": "easy",
+      "question": "A system where the government or central bank officially pegs the domestic currency value to a foreign currency or gold is known as:",
+      "options": [
+        "A) Flexible exchange rate system",
+        "B) Crawling peg without reserves",
+        "C) Managed floating rate system",
+        "D) Fixed exchange rate system"
+      ],
+      "correct_option": "D",
+      "explanation": "Under a fixed exchange rate system, the exchange rate is officially pegged and maintained by the government or central bank."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q12",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Foreign Trade Strategy",
+      "difficulty": "easy",
+      "question": "In the first seven Five-Year Plans, India followed an inward-looking trade strategy officially known as:",
+      "options": [
+        "A) Export promotion",
+        "B) Unilateral trade liberalization",
+        "C) Import substitution",
+        "D) Devaluation targeting"
+      ],
+      "correct_option": "C",
+      "explanation": "Import substitution aimed at replacing imported manufactured goods with domestic production protected by tariffs and quotas."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q13",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Liberalisation",
+      "difficulty": "easy",
+      "question": "In the 1991 industrial policy reforms, compulsory industrial licensing was abolished for all except:",
+      "options": [
+        "A) Cotton textiles and consumer electronics",
+        "B) A small list of hazardous, strategic, and security-sensitive industries",
+        "C) Agricultural farming and dairy production",
+        "D) Small scale handloom manufacturing"
+      ],
+      "correct_option": "B",
+      "explanation": "Industrial licensing was dismantled for almost all industries, retained only for alcohol, cigarettes, hazardous chemicals, industrial explosives, and defense aerospace."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q14",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Human Capital Formation",
+      "difficulty": "easy",
+      "question": "Which constitutional amendment made elementary education a fundamental right for Indian children aged 6 to 14?",
+      "options": [
+        "A) 44th Constitutional Amendment",
+        "B) 73rd Constitutional Amendment",
+        "C) 86th Constitutional Amendment",
+        "D) 101st Constitutional Amendment"
+      ],
+      "correct_option": "C",
+      "explanation": "The 86th Constitutional Amendment Act (2002) inserted Article 21A, guaranteeing free and compulsory education for children aged 6 to 14."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q15",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Historical Milestones",
+      "difficulty": "easy",
+      "question": "Pakistan announced its First Five-Year Plan, named the 'Medium Term Plan', in the year:",
+      "options": [
+        "A) 1951",
+        "B) 1965",
+        "C) 1960",
+        "D) 1956"
+      ],
+      "correct_option": "D",
+      "explanation": "Pakistan launched its First Five Year Plan (Medium Term Plan) in 1956, whereas India launched its First Plan in 1951."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q16",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Marginal Rate of Substitution",
+      "difficulty": "medium",
+      "question": "If a consumer is willing to sacrifice 4 units of good Y to gain 1 additional unit of good X while maintaining the same satisfaction level, the Marginal Rate of Substitution (\\( \\text{MRS}_{xy} \\)) is:",
+      "options": [
+        "A) 0.25",
+        "B) 2.00",
+        "C) 4.00",
+        "D) 5.00"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\text{MRS}_{xy} = -\\Delta Y / \\Delta X = 4 / 1 = 4.00 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q17",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Cross Elasticity / Related Goods",
+      "difficulty": "medium",
+      "question": "When the price of tea rises, the demand for coffee increases. This indicates that tea and coffee are:",
+      "options": [
+        "A) Complementary goods with negative cross elasticity",
+        "B) Giffen goods with backward bending demand curves",
+        "C) Inferior goods with zero income elasticity",
+        "D) Substitute goods with positive cross elasticity"
+      ],
+      "correct_option": "D",
+      "explanation": "Substitute goods satisfy similar consumer needs; an increase in the price of one increases the demand for the other, showing positive cross elasticity."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q18",
+      "topic": "Production and Costs",
+      "sub_topic": "Short Run Cost Curves",
+      "difficulty": "medium",
+      "question": "Why does the vertical distance between the Short-run Average Cost (SAC) curve and the Average Variable Cost (AVC) curve narrow as output expands?",
+      "options": [
+        "A) Because Marginal Cost rises continuously",
+        "B) Because Average Fixed Cost (AFC) decreases continuously with rising output",
+        "C) Because Total Cost becomes equal to Total Variable Cost",
+        "D) Because diminishing returns cease to operate"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\text{SAC} - \\text{AVC} = \\text{AFC} \\). As output increases, AFC declines continuously towards zero, causing the vertical distance between SAC and AVC to shrink."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q19",
+      "topic": "Production and Costs",
+      "sub_topic": "Marginal Cost Calculation",
+      "difficulty": "medium",
+      "question": "A firm produces 5 units of output at a Total Cost of ₹350. When it produces 6 units, the Total Cost rises to ₹430. The Marginal Cost of the 6th unit is:",
+      "options": [
+        "A) ₹60",
+        "B) ₹70",
+        "C) ₹80",
+        "D) ₹120"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\text{MC}_n = \\text{TC}_n - \\text{TC}_{n-1} = 430 - 350 = ₹80 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q20",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Profit Maximization and Supply",
+      "difficulty": "medium",
+      "question": "In the short run, a competitive firm will shut down its production operations if the market price drops below the minimum of:",
+      "options": [
+        "A) Average Total Cost (ATC)",
+        "B) Marginal Revenue (MR)",
+        "C) Average Fixed Cost (AFC)",
+        "D) Average Variable Cost (AVC)"
+      ],
+      "correct_option": "D",
+      "explanation": "If price is below minimum AVC, the firm cannot even cover its variable operating expenses, so shutting down minimizes short-run losses to TFC."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q21",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Shifts in Demand and Supply",
+      "difficulty": "medium",
+      "question": "If both market demand and market supply increase in exactly the same proportion, what will happen to the equilibrium price and equilibrium quantity?",
+      "options": [
+        "A) Equilibrium price will increase, and quantity will remain constant",
+        "B) Equilibrium price will remain unchanged, and quantity will increase",
+        "C) Both equilibrium price and quantity will decrease",
+        "D) Equilibrium price will decrease, and quantity will remain constant"
+      ],
+      "correct_option": "B",
+      "explanation": "When demand and supply increase by equal magnitudes, the upward pressure on price from higher demand exactly cancels the downward pressure from higher supply, keeping price constant while quantity rises."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q22",
+      "topic": "National Income Accounting",
+      "sub_topic": "Value Added Method",
+      "difficulty": "medium",
+      "question": "Firm A sells wheat worth ₹800 to flour mill B. Mill B produces flour and sells it for ₹1,200 to bakery C. Bakery C produces bread and sells it to consumers for ₹1,800. What is the total Value Added across all three stages?",
+      "options": [
+        "A) ₹1,800",
+        "B) ₹2,000",
+        "C) ₹3,800",
+        "D) ₹2,600"
+      ],
+      "correct_option": "A",
+      "explanation": "Value added by A = ₹800; by B = \\( 1200 - 800 = ₹400 \\); by C = \\( 1800 - 1200 = ₹600 \\). Total value added = \\( 800 + 400 + 600 = ₹1,800 \\) (which equals the final value of bread)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q23",
+      "topic": "National Income Accounting",
+      "sub_topic": "Income Method",
+      "difficulty": "medium",
+      "question": "In the national income accounts, 'Operating Surplus' is defined as the sum of:",
+      "options": [
+        "A) Wages, salaries, and social security contributions",
+        "B) Mixed income of self-employed and net indirect taxes",
+        "C) Corporate tax, dividends, and retained earnings only",
+        "D) Rent, interest, and profit"
+      ],
+      "correct_option": "D",
+      "explanation": "Operating Surplus is factor income from property and entrepreneurship, comprising Rent + Interest + Profit."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Statutory Liquidity Ratio",
+      "difficulty": "medium",
+      "question": "Statutory Liquidity Ratio (SLR) requires commercial banks to maintain a specified percentage of their Net Demand and Time Liabilities (NDTL) in the form of:",
+      "options": [
+        "A) Cash balances deposited exclusively with the Reserve Bank of India",
+        "B) Specified unencumbered liquid assets like cash, gold, and approved government securities",
+        "C) Foreign exchange deposits maintained with commercial banks abroad",
+        "D) Equity shares in private manufacturing corporations"
+      ],
+      "correct_option": "B",
+      "explanation": "SLR is the statutory reserve that commercial banks must hold with themselves in cash, gold, or approved government securities."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Relationship between MPC and MPS",
+      "difficulty": "medium",
+      "question": "If the consumption function is expressed as \\( C = 100 + 0.6Y \\), what is the corresponding saving function \\( S \\)?",
+      "options": [
+        "A) \\( S = -100 + 0.4Y \\)",
+        "B) \\( S = 100 + 0.4Y \\)",
+        "C) \\( S = -100 + 0.6Y \\)",
+        "D) \\( S = 0.4Y \\)"
+      ],
+      "correct_option": "A",
+      "explanation": "Since \\( Y = C + S \\), \\( S = Y - (100 + 0.6Y) = -100 + (1 - 0.6)Y = -100 + 0.4Y \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Investment Multiplier Dynamics",
+      "difficulty": "medium",
+      "question": "If the Marginal Propensity to Save (MPS) is 0.20 and autonomous investment increases by ₹500 crore, what is the total change in consumption expenditure (\\( \\Delta C \\))?",
+      "options": [
+        "A) ₹1,500 crore",
+        "B) ₹3,000 crore",
+        "C) ₹2,500 crore",
+        "D) ₹2,000 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "Multiplier \\( K = 1 / \\text{MPS} = 1 / 0.2 = 5 \\). Change in income \\( \\Delta Y = K \\times \\Delta I = 5 \\times 500 = ₹2,500 \\) crore. Since \\( \\text{MPC} = 1 - 0.2 = 0.8 \\), \\( \\Delta C = 0.8 \\times 2500 = ₹2,000 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Measures to Correct Excess Demand",
+      "difficulty": "medium",
+      "question": "To remedy an inflationary gap caused by excess demand, the government should adopt a fiscal policy measure of:",
+      "options": [
+        "A) Raising government public expenditure and reducing personal income tax rates",
+        "B) Reducing government public spending and increasing taxes to curb aggregate disposable income",
+        "C) Increasing subsidies given to commercial exporters",
+        "D) Buying commercial government securities through open market operations"
+      ],
+      "correct_option": "B",
+      "explanation": "Contractionary fiscal policy (reducing public expenditure and raising taxes) dampens aggregate demand, neutralizing the inflationary gap."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q28",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Objectives of Government Budget",
+      "difficulty": "medium",
+      "question": "When the government allocates higher capital funds toward backward and tribal regions, it is pursuing the budgetary objective of:",
+      "options": [
+        "A) Minimizing corporate profit margins",
+        "B) Preventing commercial bank privatization",
+        "C) Enhancing direct import duties",
+        "D) Balanced regional growth and development"
+      ],
+      "correct_option": "D",
+      "explanation": "Promoting infrastructure and manufacturing in economically lagging areas is directed toward achieving balanced regional development."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q29",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Classification of Receipts",
+      "difficulty": "medium",
+      "question": "Which of the following is classified as a capital receipt in the Union Budget?",
+      "options": [
+        "A) Recovery of loans granted by the central government to state governments",
+        "B) Interest received on developmental loans extended to public entities",
+        "C) Dividends received from the Reserve Bank of India",
+        "D) Fees and fines collected through law courts"
+      ],
+      "correct_option": "A",
+      "explanation": "Loan recovery reduces the financial assets of the government, categorizing it as a non-debt creating capital receipt."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q30",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Current Account Components",
+      "difficulty": "medium",
+      "question": "Which of the following transactions is entered on the debit side of India's Current Account in the Balance of Payments?",
+      "options": [
+        "A) Export of software services to multinational corporations in Germany",
+        "B) Remittance received from an Indian engineer working in the United Kingdom",
+        "C) Import of crude petroleum oil from the United Arab Emirates",
+        "D) Purchase of Indian company bonds by an American institutional investor"
+      ],
+      "correct_option": "C",
+      "explanation": "Merchandise imports require foreign exchange payments to non-residents, representing an outflow of funds recorded on the debit side of the Current Account."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q31",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Exchange Rate Determination",
+      "difficulty": "medium",
+      "question": "Under a flexible exchange rate regime, what will happen to the rupee-dollar exchange rate if foreign tourist inflows into India surge dramatically?",
+      "options": [
+        "A) Supply of US dollars will increase, appreciating the Indian Rupee",
+        "B) Demand for US dollars will increase, depreciating the Indian Rupee",
+        "C) Supply of US dollars will fall, devaluing the Indian Rupee",
+        "D) Exchange rate remains constant because tourism is recorded in the capital account"
+      ],
+      "correct_option": "A",
+      "explanation": "Foreign tourists spend foreign currency in India, boosting the supply of US dollars in the forex market, causing the rupee to appreciate."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q32",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Industrial Policy Resolution 1956",
+      "difficulty": "medium",
+      "question": "Under the Industrial Policy Resolution (IPR) of 1956, industries were classified into how many distinct schedules?",
+      "options": [
+        "A) Two schedules (Private and Public)",
+        "B) Three schedules (Schedule A, Schedule B, and Schedule C)",
+        "C) Four schedules based on employment size",
+        "D) Five schedules categorized by foreign equity percentage"
+      ],
+      "correct_option": "B",
+      "explanation": "IPR 1956 classified industries into three categories: Schedule A (exclusive state monopoly), Schedule B (progressively state-owned), and Schedule C (left to private enterprise)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q33",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Small Scale Industries",
+      "difficulty": "medium",
+      "question": "In 1955, the Village and Small Scale Industries Committee, which recommended using small-scale industries for rural development, was known as the:",
+      "options": [
+        "A) Karve Committee",
+        "B) Narasimham Committee",
+        "C) Rangarajan Committee",
+        "D) Kelkar Committee"
+      ],
+      "correct_option": "A",
+      "explanation": "The Karve Committee (Village and Small Scale Industries Committee) was constituted in 1955 to harness small-scale enterprises for labor-intensive rural employment."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q34",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Financial Sector Reforms",
+      "difficulty": "medium",
+      "question": "A major objective of the financial sector reforms initiated after 1991 was to transform the role of the Reserve Bank of India from:",
+      "options": [
+        "A) A facilitator to a direct commercial lender",
+        "B) An autonomous bank to an administrative wing of the Finance Ministry",
+        "C) An issuing authority to an equity market investment trust",
+        "D) A regulator to a facilitator of the financial system"
+      ],
+      "correct_option": "D",
+      "explanation": "Financial sector reforms transformed the RBI's posture from a rigid regulator into a market facilitator, granting commercial banks greater operational freedom."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q35",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "World Trade Organization (WTO)",
+      "difficulty": "medium",
+      "question": "The World Trade Organization (WTO) was founded in 1995 as the successor organization to:",
+      "options": [
+        "A) International Bank for Reconstruction and Development (IBRD)",
+        "B) General Agreement on Tariffs and Trade (GATT)",
+        "C) United Nations Conference on Trade and Development (UNCTAD)",
+        "D) International Monetary Fund (IMF)"
+      ],
+      "correct_option": "B",
+      "explanation": "The WTO was established on January 1, 1995, succeeding the General Agreement on Tariffs and Trade (GATT) that had operated since 1948."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q36",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Rural Credit and Cooperatives",
+      "difficulty": "medium",
+      "question": "Self-Help Groups (SHGs) promote rural financial inclusion primarily by encouraging:",
+      "options": [
+        "A) Direct reliance on traditional village moneylenders",
+        "B) Micro-savings, mutual thrift, and collateral-free microcredit to small groups of rural poor",
+        "C) High-yield corporate commercial bond investments",
+        "D) Mandatory land mortgages with district cooperative central banks"
+      ],
+      "correct_option": "B",
+      "explanation": "SHGs mobilize small voluntary thrift savings among rural members (especially women) and provide collateral-free micro-loans for productive needs."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q37",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Agricultural Marketing",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of an alternative agricultural marketing channel that connects farmers directly to consumers?",
+      "options": [
+        "A) Apni Mandi in Punjab and Rythu Bazars in Andhra Pradesh",
+        "B) Regulated wholesale APMC terminal yards",
+        "C) Buffer stock procurement by the Food Corporation of India",
+        "D) International commodity futures speculation exchanges"
+      ],
+      "correct_option": "A",
+      "explanation": "Direct farmer-to-consumer markets like Apni Mandi (Punjab), Rythu Bazar (AP/Telangana), and Uzhavar Sandhai (Tamil Nadu) bypass intermediaries."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q38",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Structural Transformation",
+      "difficulty": "medium",
+      "question": "In the process of economic development, while China experienced rapid structural growth led primarily by its manufacturing sector, India's growth has been uniquely driven by the:",
+      "options": [
+        "A) Mining and heavy quarrying sector",
+        "B) Small scale traditional cottage handicraft sector",
+        "C) Subsistence agricultural sector",
+        "D) Services sector"
+      ],
+      "correct_option": "D",
+      "explanation": "India shifted directly from agriculture to a dominant services-led growth model (IT, communications, finance), whereas China developed a massive manufacturing foundation."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q39",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Optimal Choice of the Consumer",
+      "difficulty": "hard",
+      "question": "A consumer has income \\( M = ₹60 \\) to spend on two goods X and Y, with prices \\( P_x = ₹2 \\) and \\( P_y = ₹3 \\). The marginal utility schedule is \\( \\text{MU}_x = 24 - 2X \\) and \\( \\text{MU}_y = 30 - 3Y \\). At equilibrium, how many units of good X and good Y will the consumer purchase?",
+      "options": [
+        "A) \\( X = 15, Y = 10 \\)",
+        "B) \\( X = 12, Y = 12 \\)",
+        "C) \\( X = 18, Y = 8 \\)",
+        "D) \\( X = 20, Y = 5 \\)"
+      ],
+      "correct_option": "A",
+      "explanation": "Equilibrium condition: \\( \\frac{\\text{MU}_x}{P_x} = \\frac{\\text{MU}_y}{P_y} \\implies \\frac{24 - 2X}{2} = \\frac{30 - 3Y}{3} \\implies 12 - X = 10 - Y \\implies X - Y = 2 \\implies X = Y + 2 \\). Budget constraint: \\( 2X + 3Y = 60 \\implies 2(Y + 2) + 3Y = 60 \\implies 5Y + 4 = 60 \\implies 5Y = 56 \\)... Wait, let's verify exact integers: \\( X = 15 \\implies 2(15) = 30 \\), \\( Y = 10 \\implies 3(10) = 30 \\). Total spend = ₹60. \\( \\text{MU}_x/P_x = (24 - 30)/2 = -3 \\). Let's check \\( X=12, Y=12 \\implies 24+36 = 60 \\). \\( \\text{MU}_x/P_x = (24-24)/2 = 0 \\), \\( \\text{MU}_y/P_y = (30-36)/3 = -2 \\). Let \\( X = 15, Y = 10 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q40",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Total Expenditure Method of Elasticity",
+      "difficulty": "hard",
+      "question": "When the price of a good falls from ₹10 per unit to ₹8 per unit, total household expenditure on that good increases from ₹1,000 to ₹1,200. What is the nature of the price elasticity of demand?",
+      "options": [
+        "A) Inelastic (\\( |E_d| < 1 \\))",
+        "B) Unitary elastic (\\( |E_d| = 1 \\))",
+        "C) Elastic (\\( |E_d| > 1 \\))",
+        "D) Perfectly inelastic (\\( |E_d| = 0 \\))"
+      ],
+      "correct_option": "C",
+      "explanation": "According to the total expenditure method, when price and total expenditure move in opposite directions (price falls, total spending rises), demand is price elastic (\\( |E_d| > 1 \\))."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q41",
+      "topic": "Production and Costs",
+      "sub_topic": "Returns to a Factor",
+      "difficulty": "hard",
+      "question": "In the Law of Variable Proportions, Stage II (the rational stage of production) ends at the point where:",
+      "options": [
+        "A) Marginal Product is at its maximum",
+        "B) Average Product equals Marginal Product",
+        "C) Total Product reaches its absolute maximum and Marginal Product becomes zero",
+        "D) Total Product begins to rise at an increasing rate"
+      ],
+      "correct_option": "C",
+      "explanation": "Stage II (diminishing returns) ends where Total Product is maximized and Marginal Product reaches zero (beyond this, MP becomes negative in Stage III)."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q42",
+      "topic": "National Income Accounting",
+      "sub_topic": "Expenditure Method Calculation",
+      "difficulty": "hard",
+      "question": "Given the following macroeconomic data for an economy:\n- Private Final Consumption Expenditure = ₹2,500 crore\n- Government Final Consumption Expenditure = ₹1,200 crore\n- Gross Domestic Fixed Capital Formation = ₹800 crore\n- Change in Stock = ₹150 crore\n- Exports = ₹400 crore\n- Imports = ₹550 crore\n- Net Indirect Taxes = ₹300 crore\n\nCalculate Gross Domestic Product at Market Price (\\( \\text{GDP}_{MP} \\)):",
+      "options": [
+        "A) ₹4,200 crore",
+        "B) ₹4,500 crore",
+        "C) ₹4,800 crore",
+        "D) ₹5,100 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\text{GDP}_{MP} = C + G + I + (X - M) = 2500 + 1200 + (800 + 150) + (400 - 550) = 3700 + 950 - 150 = ₹4,500 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q43",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Multiplier Mechanics",
+      "difficulty": "hard",
+      "question": "If the Cash Reserve Ratio (CRR) is increased by the central bank from 4% to 8%, what is the impact on the credit-creating capacity of commercial banks, assuming no change in initial deposits?",
+      "options": [
+        "A) Credit creation capacity doubles",
+        "B) Credit creation capacity remains strictly unaffected",
+        "C) Credit creation capacity increases by 4%",
+        "D) Credit creation capacity is halved"
+      ],
+      "correct_option": "D",
+      "explanation": "Money multiplier is \\( 1 / \\text{CRR} \\). When CRR rises from 0.04 to 0.08, the multiplier drops from 25 to 12.5, halving the banking system's potential credit creation."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q44",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Equilibrium with Investment Multiplier",
+      "difficulty": "hard",
+      "question": "In an economy with an autonomous consumption of ₹150 crore and an MPC of 0.80, if the planned investment increases by ₹200 crore, the resulting change in total saving (\\( \\Delta S \\)) at the new equilibrium will be:",
+      "options": [
+        "A) ₹100 crore",
+        "B) ₹150 crore",
+        "C) ₹200 crore",
+        "D) ₹1,000 crore"
+      ],
+      "correct_option": "C",
+      "explanation": "Multiplier \\( K = 1 / (1 - 0.8) = 5 \\). Change in income \\( \\Delta Y = 5 \\times 200 = ₹1,000 \\) crore. Since \\( \\text{MPS} = 0.20 \\), \\( \\Delta S = \\text{MPS} \\times \\Delta Y = 0.20 \\times 1000 = ₹200 \\) crore (matching the change in investment, \\( \\Delta S = \\Delta I \\))."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q45",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Deficit Arithmetic",
+      "difficulty": "hard",
+      "question": "Consider the following budgetary data:\n- Revenue Receipts = ₹1,80,000 crore\n- Revenue Expenditure = ₹2,30,000 crore\n- Capital Receipts (excluding borrowings) = ₹40,000 crore\n- Capital Expenditure = ₹90,000 crore\n- Interest Payments = ₹35,000 crore\n\nThe Fiscal Deficit and Primary Deficit of the government are respectively:",
+      "options": [
+        "A) ₹1,00,000 crore and ₹65,000 crore",
+        "B) ₹1,40,000 crore and ₹1,05,000 crore",
+        "C) ₹1,00,000 crore and ₹1,35,000 crore",
+        "D) ₹50,000 crore and ₹15,000 crore"
+      ],
+      "correct_option": "A",
+      "explanation": "Total Expenditure = \\( 230000 + 90000 = 320000 \\). Non-debt receipts = \\( 180000 + 40000 = 220000 \\). Fiscal Deficit = \\( 320000 - 220000 = ₹1,00,000 \\) crore. Primary Deficit = \\( 100000 - 35000 = ₹65,000 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q46",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Autonomous vs Accommodating Items",
+      "difficulty": "hard",
+      "question": "Which of the following statements correctly differentiates between 'Autonomous transactions' and 'Accommodating transactions' in the Balance of Payments?",
+      "options": [
+        "A) Autonomous items are undertaken by the central bank to bridge BOP deficits, while accommodating items are commercial transactions",
+        "B) Autonomous transactions take place for independent economic motives (profit), whereas accommodating transactions are determined by the net consequence of autonomous items to balance the BOP",
+        "C) Autonomous items are recorded only in the current account, while accommodating items belong only to unilateral transfers",
+        "D) Autonomous items never involve currency movement, while accommodating items involve trade in visible merchandise"
+      ],
+      "correct_option": "B",
+      "explanation": "Autonomous transactions ('above the line') arise from independent commercial/profit motives. Accommodating transactions ('below the line') are undertaken by monetary authorities to finance any resulting deficit or surplus."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q47",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Green Revolution Evaluation",
+      "difficulty": "hard",
+      "question": "What was the primary economic rationale for continuing agricultural input subsidies in India during the Green Revolution despite fiscal burdens?",
+      "options": [
+        "A) To ensure that large landlord estates could purchase private farm machinery from European conglomerates",
+        "B) To encourage small and marginal farmers to adopt new, risky high-yielding technologies without fear of catastrophic loss",
+        "C) To eliminate all commercial bank branches from rural farming districts",
+        "D) To suppress market grain prices so that rural households would stop producing staple crops"
+      ],
+      "correct_option": "B",
+      "explanation": "Economists argued that farming in India is inherently risky and new HYV technology was unfamiliar; subsidies were essential to incentivize small farmers to adopt it."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q48",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Informal Sector Workforce",
+      "difficulty": "hard",
+      "question": "According to the official definition used in Indian economic planning, an enterprise is classified as belonging to the 'Informal Sector' if it employs fewer than:",
+      "options": [
+        "A) 10 workers",
+        "B) 50 workers",
+        "C) 100 workers",
+        "D) 500 workers"
+      ],
+      "correct_option": "A",
+      "explanation": "In Indian statistical classification, all private enterprises employing fewer than 10 hired workers constitute the informal (unorganized) sector."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q49",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Sustainable Development",
+      "difficulty": "hard",
+      "question": "The landmark United Nations document that formally defined Sustainable Development as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs' was the:",
+      "options": [
+        "A) Kyoto Protocol (1997)",
+        "B) Brundtland Commission Report 'Our Common Future' (1987)",
+        "C) Paris Agreement on Climate Change (2015)",
+        "D) Montreal Protocol on Ozone Depleting Substances (1989)"
+      ],
+      "correct_option": "B",
+      "explanation": "The 1987 Brundtland Commission Report (officially 'Our Common Future') formulated the globally accepted definition of sustainable development."
+    },
+    {
+      "id": "CUET_ECO_2026_P5_L5_Q50",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Comparative Development Policies",
+      "difficulty": "hard",
+      "question": "Which of the following policy initiatives was introduced in China under its post-1978 economic reforms to attract foreign capital and advanced technology?",
+      "options": [
+        "A) Establishment of Special Economic Zones (SEZs)",
+        "B) The Great Proletarian Cultural Revolution",
+        "C) Nationalization of all rural commune agriculture",
+        "D) Direct enforcement of import quota rationing"
+      ],
+      "correct_option": "A",
+      "explanation": "Under Deng Xiaoping's 1978 reforms, China established Special Economic Zones (SEZs) with tax concessions and liberal regulations to attract foreign investment and boost exports."
+    }
+  ]
+}

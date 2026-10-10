@@ -1,0 +1,566 @@
+{
+  "series_id": "CUET_ENGLISH_2026",
+  "subject": "English (Code: 101)",
+  "syllabus_source": "cuet english syllabus.pdf 2026",
+  "notification_source": "Information Bulletin.pdf 2026",
+  "past_paper_reference": "pastpaper-english-2024.pdf, pastpaper-english-2025.pdf",
+  "total_papers": 25,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "total_questions_series": 1250,
+  "papers": [
+    {
+      "paper_number": 1,
+      "level": 1,
+      "filename": "CUET_English_Paper1_Level1.json",
+      "difficulty_distribution": {
+        "easy": "35 (70%)",
+        "medium": "12 (24%)",
+        "hard": "3 (6%)"
+      },
+      "key_distribution": {
+        "A": 16,
+        "B": 12,
+        "D": 13,
+        "C": 9
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 2,
+      "level": 2,
+      "filename": "CUET_English_Paper2_Level2.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "B": 15,
+        "C": 13,
+        "D": 10,
+        "A": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 3,
+      "level": 3,
+      "filename": "CUET_English_Paper3_Level3.json",
+      "difficulty_distribution": {
+        "easy": "25 (50%)",
+        "medium": "18 (36%)",
+        "hard": "7 (14%)"
+      },
+      "key_distribution": {
+        "B": 9,
+        "D": 7,
+        "A": 16,
+        "C": 18
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 4,
+      "level": 4,
+      "filename": "CUET_English_Paper4_Level4.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "D": 12,
+        "B": 10,
+        "A": 15,
+        "C": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 5,
+      "level": 5,
+      "filename": "CUET_English_Paper5_Level5.json",
+      "difficulty_distribution": {
+        "easy": "15 (30%)",
+        "medium": "23 (46%)",
+        "hard": "12 (24%)"
+      },
+      "key_distribution": {
+        "B": 15,
+        "A": 13,
+        "C": 11,
+        "D": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 6,
+      "level": 6,
+      "filename": "CUET_English_Paper6_Level6.json",
+      "difficulty_distribution": {
+        "easy": "13 (26%)",
+        "medium": "23 (46%)",
+        "hard": "14 (28%)"
+      },
+      "key_distribution": {
+        "D": 16,
+        "C": 11,
+        "A": 16,
+        "B": 7
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 7,
+      "level": 7,
+      "filename": "CUET_English_Paper7_Level7.json",
+      "difficulty_distribution": {
+        "easy": "11 (22%)",
+        "medium": "21 (42%)",
+        "hard": "18 (36%)"
+      },
+      "key_distribution": {
+        "D": 15,
+        "B": 11,
+        "A": 13,
+        "C": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 8,
+      "level": 8,
+      "filename": "CUET_English_Paper8_Level8.json",
+      "difficulty_distribution": {
+        "easy": "9 (18%)",
+        "medium": "22 (44%)",
+        "hard": "19 (38%)"
+      },
+      "key_distribution": {
+        "D": 9,
+        "B": 12,
+        "C": 13,
+        "A": 16
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 9,
+      "level": 9,
+      "filename": "CUET_English_Paper9_Level9.json",
+      "difficulty_distribution": {
+        "easy": "5 (10%)",
+        "medium": "20 (40%)",
+        "hard": "25 (50%)"
+      },
+      "key_distribution": {
+        "C": 8,
+        "B": 13,
+        "A": 18,
+        "D": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 10,
+      "level": 10,
+      "filename": "CUET_English_Paper10_Level10.json",
+      "difficulty_distribution": {
+        "easy": "2 (4%)",
+        "medium": "16 (32%)",
+        "hard": "32 (64%)"
+      },
+      "key_distribution": {
+        "D": 7,
+        "C": 15,
+        "B": 16,
+        "A": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 11,
+      "level": "1B",
+      "filename": "CUET_English_Paper11_Level1B.json",
+      "difficulty_distribution": {
+        "easy": "35 (70%)",
+        "medium": "12 (24%)",
+        "hard": "3 (6%)"
+      },
+      "key_distribution": {
+        "B": 10,
+        "A": 15,
+        "C": 14,
+        "D": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 12,
+      "level": "2B",
+      "filename": "CUET_English_Paper12_Level2B.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "B": 12,
+        "A": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 13,
+      "level": "3B",
+      "filename": "CUET_English_Paper13_Level3B.json",
+      "difficulty_distribution": {
+        "easy": "25 (50%)",
+        "medium": "18 (36%)",
+        "hard": "7 (14%)"
+      },
+      "key_distribution": {
+        "D": 12,
+        "C": 12,
+        "B": 15,
+        "A": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 14,
+      "level": "4B",
+      "filename": "CUET_English_Paper14_Level4B.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 8,
+        "B": 12,
+        "D": 17,
+        "C": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 15,
+      "level": "5B",
+      "filename": "CUET_English_Paper15_Level5B.json",
+      "difficulty_distribution": {
+        "easy": "16 (32%)",
+        "medium": "21 (42%)",
+        "hard": "13 (26%)"
+      },
+      "key_distribution": {
+        "D": 17,
+        "C": 11,
+        "B": 9,
+        "A": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 16,
+      "level": "6B",
+      "filename": "CUET_English_Paper16_Level6B.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "C": 13,
+        "D": 13,
+        "A": 12,
+        "B": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 17,
+      "level": "7B",
+      "filename": "CUET_English_Paper17_Level7B.json",
+      "difficulty_distribution": {
+        "easy": "10 (20%)",
+        "medium": "22 (44%)",
+        "hard": "18 (36%)"
+      },
+      "key_distribution": {
+        "B": 12,
+        "C": 15,
+        "D": 8,
+        "A": 15
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 18,
+      "level": "8B",
+      "filename": "CUET_English_Paper18_Level8B.json",
+      "difficulty_distribution": {
+        "easy": "10 (20%)",
+        "medium": "21 (42%)",
+        "hard": "19 (38%)"
+      },
+      "key_distribution": {
+        "C": 11,
+        "A": 14,
+        "B": 15,
+        "D": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 19,
+      "level": "9B",
+      "filename": "CUET_English_Paper19_Level9B.json",
+      "difficulty_distribution": {
+        "easy": "5 (10%)",
+        "medium": "20 (40%)",
+        "hard": "25 (50%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 13,
+        "C": 9,
+        "D": 15
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 20,
+      "level": "10B",
+      "filename": "CUET_English_Paper20_Level10B.json",
+      "difficulty_distribution": {
+        "easy": "2 (4%)",
+        "medium": "15 (30%)",
+        "hard": "33 (66%)"
+      },
+      "key_distribution": {
+        "D": 14,
+        "A": 10,
+        "B": 11,
+        "C": 15
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 21,
+      "level": "2C",
+      "filename": "CUET_English_Paper21_Level2C.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "B": 14,
+        "A": 14,
+        "D": 12,
+        "C": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 22,
+      "level": "4C",
+      "filename": "CUET_English_Paper22_Level4C.json",
+      "difficulty_distribution": {
+        "easy": "18 (36%)",
+        "medium": "20 (40%)",
+        "hard": "12 (24%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "C": 14,
+        "B": 11,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 23,
+      "level": "6C",
+      "filename": "CUET_English_Paper23_Level6C.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "D": 15,
+        "B": 12,
+        "A": 11,
+        "C": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 24,
+      "level": "8C",
+      "filename": "CUET_English_Paper24_Level8C.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "C": 13,
+        "D": 13,
+        "A": 12,
+        "B": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 25,
+      "level": "10C",
+      "filename": "CUET_English_Paper25_Level10C.json",
+      "difficulty_distribution": {
+        "easy": "2 (4%)",
+        "medium": "15 (30%)",
+        "hard": "33 (66%)"
+      },
+      "key_distribution": {
+        "A": 11,
+        "C": 16,
+        "B": 10,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Reading Comprehension",
+        "Verbal Ability"
+      ],
+      "status": "complete"
+    }
+  ]
+}

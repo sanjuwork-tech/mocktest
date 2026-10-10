@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P9_L9",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 9,
+  "difficulty_level": "9",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P9_L9_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to add a new column to an existing table?",
+      "options": [
+        "A) UPDATE TABLE",
+        "B) ALTER TABLE",
+        "C) CHANGE TABLE",
+        "D) MODIFY TABLE"
+      ],
+      "correct_option": "B",
+      "explanation": "ALTER TABLE is the DDL command used to modify table structure, including adding new columns with ADD clause."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "Consider: SELECT emp_id FROM employees WHERE dept_id IN (SELECT dept_id FROM departments WHERE loc = 'Mumbai'). What is the inner query called?",
+      "options": [
+        "A) Correlated subquery",
+        "B) Co-related subquery with reference",
+        "C) Lateral join",
+        "D) Nested subquery (non-correlated)"
+      ],
+      "correct_option": "D",
+      "explanation": "The inner query executes once independently and returns a set of dept_ids. It does not reference outer query columns, making it a non-correlated nested subquery."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "Which statement about materialized views is correct?",
+      "options": [
+        "A) Materialized views store precomputed query results physically",
+        "B) Materialized views are always updated in real-time with no delay",
+        "C) Materialized views do not support aggregate functions",
+        "D) Materialized views cannot be indexed unlike standard views"
+      ],
+      "correct_option": "A",
+      "explanation": "Materialized views physically store the result set of a query, unlike standard virtual views. They can be indexed and require explicit or scheduled refresh."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "A B-tree index is most efficient for which type of query?",
+      "options": [
+        "A) Queries using IS NULL condition only",
+        "B) Queries with LIKE '%keyword%' pattern",
+        "C) Queries with NOT IN on unindexed columns",
+        "D) Range queries (WHERE salary BETWEEN 40000 AND 80000)"
+      ],
+      "correct_option": "D",
+      "explanation": "B-tree indexes maintain sorted order, making them ideal for range queries and equality lookups. '%keyword%' patterns cannot use standard B-tree indexes efficiently."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "A relation R(A, B, C) has FD: {A → B, B → C, C → A}. What is the highest normal form satisfied?",
+      "options": [
+        "A) 3NF",
+        "B) BCNF",
+        "C) 1NF only",
+        "D) 2NF"
+      ],
+      "correct_option": "B",
+      "explanation": "All determinants (A, B, C) are candidate keys (each can determine all attributes). Every FD has a superkey on the left side, so R satisfies BCNF."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "hard",
+      "question": "In a system with 4 transactions, the wait-for graph has edges T1→T2, T2→T3, T3→T4, T4→T1. Which statement is correct?",
+      "options": [
+        "A) A deadlock exists; at least one transaction must be rolled back",
+        "B) No deadlock; resources will be released in FIFO order",
+        "C) No deadlock; the cycle resolves via timeout mechanism",
+        "D) Only T1 is in deadlock; others can proceed normally"
+      ],
+      "correct_option": "A",
+      "explanation": "The wait-for graph has a cycle (T1→T2→T3→T4→T1), which is the necessary and sufficient condition for deadlock. The system must abort at least one transaction to break the cycle."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "hard",
+      "question": "For query: SELECT * FROM emp JOIN dept ON emp.dno = dept.dno WHERE emp.sal > 50000 AND dept.loc = 'Delhi'. Which join order minimizes intermediate result size when statistics show: emp has 100K rows (20% match sal>50K), dept has 50 rows (10% match loc='Delhi')?",
+      "options": [
+        "A) Both orders produce identical intermediate sizes",
+        "B) Full join first then apply both filters",
+        "C) Filter dept first on loc='Delhi', then join with emp filtered on sal>50000",
+        "D) Filter emp first on sal>50000, then join with dept filtered on loc='Delhi'"
+      ],
+      "correct_option": "C",
+      "explanation": "Pushing down predicates prior to joining drastically reduces intermediate relation sizes. Filtering dept first on loc='Delhi' reduces 50 rows to just 5 rows (10%), whereas filtering emp yields 20,000 rows (20%). Using the tiny 5-row filtered dept relation to build the hash table or drive the join keeps intermediate memory and comparison overhead to a minimum."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "Transaction T1: R(A), W(A), R(B), W(B). Transaction T2: R(A), W(A). Under strict 2PL with S/X locks, which schedule is serializable?",
+      "options": [
+        "A) T1-S(A), T1-R(A), T2-S(A), T2-R(A), T1-X(A), T1-W(A), T2-X(A), T2-W(A)",
+        "B) T1-S(A), T1-R(A), T1-X(A), T1-W(A), T1-S(B), T1-R(B), T1-X(B), T1-W(B), T1-Commit, T2-S(A), T2-R(A), T2-X(A), T2-W(A), T2-Commit",
+        "C) T1-S(A), T2-S(A), T1-R(A), T2-R(A), T1-X(A), T1-W(A), T2-X(A), T2-W(A), T1-S(B), T1-R(B), T1-X(B), T1-W(B)",
+        "D) T1-S(A), T1-R(A), T1-X(A), T2-S(A), T2-R(A), T1-W(A), T1-S(B), T1-R(B), T1-X(B), T1-W(B), T1-Commit, T2-X(A), T2-W(A), T2-Commit"
+      ],
+      "correct_option": "B",
+      "explanation": "In strict Two-Phase Locking (strict 2PL), all exclusive locks acquired by a transaction must be held until that transaction terminates (commits or aborts). In the schedule where T1 acquires all locks, finishes its reads/writes, and commits before T2 begins acquiring locks, strict 2PL is strictly satisfied without lock conflicts, yielding a serial schedule equivalent to T1 followed by T2."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "At checkpoint: active transactions T3, T4. Log: START T1, W T1(A), COMMIT T1, CKPT(T3,T4), START T2, W T2(B), W T3(C), COMMIT T2, W T4(D), CRASH. Which transactions require undo?",
+      "options": [
+        "A) T3 only",
+        "B) T3 and T4",
+        "C) T4 only",
+        "D) T2 and T4"
+      ],
+      "correct_option": "C",
+      "explanation": "T1 committed before checkpoint - no action. T2 committed after checkpoint - redo. T3 was active at checkpoint but no operations logged after checkpoint - no undo needed. T4 was active at checkpoint and has W T4(D) after checkpoint but no COMMIT - must undo T4."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Relation R(A,B,C,D) with FDs: {AB→C, C→D, D→A}. Decomposed into R1(A,B,C) and R2(C,D). Is this decomposition lossless?",
+      "options": [
+        "A) No, because D→A is lost",
+        "B) No, because AB→C is lost",
+        "C) Yes, because both FDs are preserved",
+        "D) Yes, because C is a common attribute and C→D holds"
+      ],
+      "correct_option": "D",
+      "explanation": "For lossless decomposition, the common attribute set must be a superkey of at least one decomposed relation. C is common, and C→D means C is a superkey of R2(C,D). Thus the join is lossless."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which layer of the OSI model is responsible for end-to-end communication and error recovery?",
+      "options": [
+        "A) Transport Layer",
+        "B) Data Link Layer",
+        "C) Session Layer",
+        "D) Network Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "The Transport Layer (Layer 4) provides end-to-end communication, flow control, and error recovery. TCP operates at this layer."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "In TCP Reno, when a timeout occurs, the congestion window (cwnd) is set to:",
+      "options": [
+        "A) Same as ssthresh",
+        "B) 2 MSS",
+        "C) Half of current cwnd",
+        "D) 1 MSS and slow start begins"
+      ],
+      "correct_option": "D",
+      "explanation": "On timeout, TCP Reno sets cwnd to 1 MSS and ssthresh to half of current cwnd, then restarts slow start. This is more aggressive reduction than fast recovery (which triggers on 3 duplicate ACKs)."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "Which of the following correctly describes the role of Address Resolution Protocol (ARP) in a network?",
+      "options": [
+        "A) It resolves domain names to IP addresses",
+        "B) It assigns dynamic IP addresses to hosts on a network",
+        "C) It maps IP addresses to physical (MAC) addresses",
+        "D) It translates private IP addresses to public IP addresses"
+      ],
+      "correct_option": "C",
+      "explanation": "ARP resolves an IPv4 address to a physical (MAC) address for communication on the local network segment. DNS resolves domain names, DHCP assigns IPs, and NAT translates private/public IPs."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "Given IP 172.16.50.100/20, what is the network address?",
+      "options": [
+        "A) 172.16.0.0",
+        "B) 172.16.32.0",
+        "C) 172.16.50.0",
+        "D) 172.16.48.0"
+      ],
+      "correct_option": "D",
+      "explanation": "/20 means first 20 bits are network. Third octet: 50 = 00110010. First 4 bits of third octet are network. 50 & 240 = 48. So network = 172.16.48.0."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "medium",
+      "question": "A CRC generator polynomial is x³ + x + 1. What is the divisor in binary?",
+      "options": [
+        "A) 1001",
+        "B) 1011",
+        "C) 1110",
+        "D) 1101"
+      ],
+      "correct_option": "B",
+      "explanation": "x³ + x + 1 = 1·x³ + 0·x² + 1·x¹ + 1·x⁰ = 1011 in binary."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "hard",
+      "question": "In a sliding window protocol with 3-bit sequence numbers and sender window size 5, receiver window size 4, what is the maximum number of unacknowledged frames that can be in transit?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 4",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "The effective window is min(sender_window, receiver_window) = min(5,4) = 4."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "hard",
+      "question": "A TCP connection has RTT = 100ms, MSS = 1460 bytes, and receiver window = 65535 bytes. What is the approximate maximum throughput (Mbps) ignoring slow start and congestion?",
+      "options": [
+        "A) 5.24 Mbps",
+        "B) 2.62 Mbps",
+        "C) 10.48 Mbps",
+        "D) 1.31 Mbps"
+      ],
+      "correct_option": "A",
+      "explanation": "Throughput = (receiver_window × 8) / RTT = (65535 × 8) / 0.1 = 5,242,800 bps ≈ 5.24 Mbps."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "hard",
+      "question": "In CSMA/CD with 1 Gbps Ethernet and minimum frame size 512 bytes, what is the maximum network diameter (approx) if signal speed is 2×10⁸ m/s?",
+      "options": [
+        "A) 102.4 meters",
+        "B) 409.6 meters",
+        "C) 204.8 meters",
+        "D) 819.2 meters"
+      ],
+      "correct_option": "B",
+      "explanation": "Transmission time = (512×8 bits) / 10⁹ bps = 4.096 μs. This must be ≥ 2×propagation time. Max one-way delay = 2.048 μs. Distance = 2×10⁸ × 2.048×10⁻⁶ = 409.6 meters."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "hard",
+      "question": "In BGP path selection, which attribute is evaluated first?",
+      "options": [
+        "A) Local Preference",
+        "B) MED",
+        "C) Weight (Cisco proprietary)",
+        "D) AS-Path length"
+      ],
+      "correct_option": "A",
+      "explanation": "Cisco's BGP decision process evaluates Weight first (Cisco-specific, local to router), then Local Preference, then AS-Path length, then MED."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "A DNS resolver queries for 'mail.cs.university.edu'. The resolver's cache has the NS record for 'edu' but nothing else. How many iterative queries are needed to resolve the full name (assuming no additional cached data)?",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 3",
+        "D) 1"
+      ],
+      "correct_option": "C",
+      "explanation": "Query 1: Ask edu NS for university.edu NS. Query 2: Ask university.edu NS for cs.university.edu NS. Query 3: Ask cs.university.edu NS for mail.cs.university.edu A record. So 3 queries."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "What is the output of print(3 * 'ab' + 'c') in Python?",
+      "options": [
+        "A) abababc",
+        "B) ababc",
+        "C) abcabcabc",
+        "D) 3ab3ab3abc"
+      ],
+      "correct_option": "A",
+      "explanation": "3 * 'ab' repeats the string 'ab' three times giving 'ababab', then + 'c' concatenates to give 'abababc'."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "medium",
+      "question": "What is the output of [x**2 for x in range(10) if x % 3 == 0]?",
+      "options": [
+        "A) [0, 9, 36, 81, 144]",
+        "B) [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]",
+        "C) [0, 3, 6, 9]",
+        "D) [0, 9, 36, 81]"
+      ],
+      "correct_option": "D",
+      "explanation": "range(10) gives 0-9. x%3==0 selects 0,3,6,9. Squaring: 0²=0, 3²=9, 6²=36, 9²=81. Result: [0, 9, 36, 81]."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "A stack is used to check balanced parentheses in the expression: ((a+b)*(c-d))/(e+f). What is the maximum stack size during processing?",
+      "options": [
+        "A) 4",
+        "B) 1",
+        "C) 2",
+        "D) 3"
+      ],
+      "correct_option": "C",
+      "explanation": "Processing: '(' push(1), '(' push(2), 'a', '+', 'b', ')' pop(1), '*' push(1), '(' push(2), 'c', '-', 'd', ')' pop(1), ')' pop(0), '/' push(1), '(' push(2), 'e', '+', 'f', ')' pop(1), ')' pop(0). Max size = 2."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "Inserting keys 50, 30, 70, 20, 40, 60, 80 into an initially empty BST. What is the height of the resulting tree?",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 3",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "The tree is balanced: 50 at root, 30 and 70 at level 1, 20/40/60/80 at level 2. Height = 2 (edges from root to deepest leaf)."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "What does the @staticmethod decorator do in Python?",
+      "options": [
+        "A) Converts the method to a class method",
+        "B) Caches the return value of the method",
+        "C) Defines a method that does not receive implicit first argument (self/cls)",
+        "D) Makes the method private to the class"
+      ],
+      "correct_option": "C",
+      "explanation": "@staticmethod defines a static method that doesn't receive 'self' or 'cls' as first argument."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "hard",
+      "question": "Inserting 3, 2, 1 into an empty AVL tree requires which rotation(s)?",
+      "options": [
+        "A) Left rotation on node 3",
+        "B) Right rotation on node 3",
+        "C) Left-Right double rotation",
+        "D) Right-Left double rotation"
+      ],
+      "correct_option": "B",
+      "explanation": "After inserting 3,2,1: node 3 has balance factor -2 (left-heavy), and node 2 has balance factor -1 (left-heavy). This is Left-Left case requiring a single Right rotation on node 3."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "hard",
+      "question": "In Dijkstra's algorithm, which data structure gives the best time complexity for sparse graphs?",
+      "options": [
+        "A) Unsorted array",
+        "B) Sorted linked list",
+        "C) Min-heap (priority queue)",
+        "D) Adjacency matrix with linear search"
+      ],
+      "correct_option": "C",
+      "explanation": "Min-heap gives O((V+E) log V) which is optimal for sparse graphs. Unsorted array gives O(V²), sorted list gives O(V² + E), matrix gives O(V²)."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "hard",
+      "question": "What is the output of:\nfuncs = [lambda x: x+i for i in range(3)]\nprint(funcs[0](5))",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) Error",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "The lambda captures variable 'i' by reference, not value. After the loop, i=2. So funcs[0](5) = 5 + 2 = 7."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "hard",
+      "question": "A hash table of size 7 uses h(k) = k % 7 and linear probing. Keys inserted: 5, 12, 19, 26, 33. What is the average number of probes for a successful search?",
+      "options": [
+        "A) 2.2",
+        "B) 3.0",
+        "C) 3.4",
+        "D) 2.6"
+      ],
+      "correct_option": "B",
+      "explanation": "Insertions: 5→5(1), 12→5,collision→6(2), 19→5,6,collision→0(3), 26→5,6,0,collision→1(4), 33→5,6,0,1,collision→2(5). Average = (1+2+3+4+5)/5 = 3.0."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "hard",
+      "question": "A trie stores words: 'cat', 'car', 'cart', 'dog', 'done'. How many nodes are in the trie (root + all character nodes)?",
+      "options": [
+        "A) 13",
+        "B) 12",
+        "C) 10",
+        "D) 11"
+      ],
+      "correct_option": "B",
+      "explanation": "root→c→a→t (cat), a→r→t (car, cart: r already exists, add t), root→d→o→g (dog), o→n→e (done). Nodes: root, c, a, t(cat), r, t(cart), d, o, g, n, e = 11 nodes."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the best-case time complexity of binary search?",
+      "options": [
+        "A) O(1)",
+        "B) O(n)",
+        "C) O(n log n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Best case: the middle element is the target, found in 1 comparison. O(1)."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "How many total comparisons does merge sort make in the worst case for an array of 16 elements?",
+      "options": [
+        "A) Exactly 120",
+        "B) Exactly 256",
+        "C) Approximately 49-64",
+        "D) Approximately 32"
+      ],
+      "correct_option": "C",
+      "explanation": "Merge sort worst case comparisons ≈ n⌈log₂n⌉ - 2^⌈log₂n⌉ + 1. For n=16: 16×4 - 16 + 1 = 49. Upper bound is n log₂n = 64."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "Using median-of-three pivot selection on array [9, 1, 8, 2, 7, 3, 6, 4, 5], what is the chosen pivot?",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 9",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "Median-of-three picks first(9), middle(7), last(5). Sorted: 5, 7, 9. Median = 7."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "In a max-heap of 100 elements, what is the index of the last non-leaf node?",
+      "options": [
+        "A) 49",
+        "B) 50",
+        "C) 99",
+        "D) 51"
+      ],
+      "correct_option": "A",
+      "explanation": "For 0-indexed array of n=100, last non-leaf node is at index ⌊n/2⌋ - 1 = 50 - 1 = 49."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "medium",
+      "question": "Counting sort is stable and runs in O(n+k) time. What is k?",
+      "options": [
+        "A) The number of buckets",
+        "B) The range of input values (max - min + 1)",
+        "C) The number of distinct elements",
+        "D) The maximum frequency of any element"
+      ],
+      "correct_option": "B",
+      "explanation": "k represents the range of input values. Counting sort creates a count array of size k = max_value - min_value + 1."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "hard",
+      "question": "Using merge sort to count inversions in [3, 1, 4, 2, 5], how many inversions are found?",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 5",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "Inversions: (3,1), (3,2), (4,2). Total = 3."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "hard",
+      "question": "Radix sort processes 5-digit decimal numbers using LSD approach with counting sort as subroutine. For 1000 numbers, what is the time complexity?",
+      "options": [
+        "A) O(d(n+k)) = O(5(1000+10)) = O(5050)",
+        "B) O(n²) = O(1,000,000)",
+        "C) O(n log n) = O(1000 log 1000)",
+        "D) O(nk) = O(1000×10)"
+      ],
+      "correct_option": "A",
+      "explanation": "Radix sort: O(d(n+k)) where d=5 digits, n=1000 elements, k=10 (decimal digits 0-9). Total = 5(1000+10) = 5050 operations."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "hard",
+      "question": "Quickselect finds the 4th smallest element in [7, 10, 4, 3, 20, 15] using first element as pivot. After the first partition, which subarray is recursed into?",
+      "options": [
+        "A) [7, 10, 4, 3, 20, 15] (full array)",
+        "B) [10, 20, 15] (right subarray)",
+        "C) [4, 3] (left subarray)",
+        "D) [10, 20, 15, 7] (pivot included)"
+      ],
+      "correct_option": "B",
+      "explanation": "Pivot=7. Partition: [4,3,7,10,20,15]. Pivot index=2. We want 4th smallest (index 3). Since 3 > 2, recurse into right subarray [10,20,15]."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "hard",
+      "question": "What is the minimum number of comparisons needed to sort 5 elements in the worst case (information-theoretic lower bound)?",
+      "options": [
+        "A) 10",
+        "B) 5",
+        "C) 8",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "Lower bound = ⌈log₂(5!)⌉ = ⌈log₂(120)⌉ = ⌈6.906⌉ = 7. Merge-insertion sort achieves this bound for n=5."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "External merge sort processes 100 GB data with 1 GB RAM. If each run is 1 GB and k-way merge is used, how many merge passes are needed?",
+      "options": [
+        "A) 3 passes",
+        "B) 1 pass (100 runs merged in one pass)",
+        "C) 2 passes (100 runs → 10-way merge → 10 runs → 10-way merge)",
+        "D) 100 passes"
+      ],
+      "correct_option": "C",
+      "explanation": "Pass 1: merge 100 runs into 10 runs (10-way merge). Pass 2: merge 10 runs into 1. Total 2 passes."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "What does 'HTTPS' stand for?",
+      "options": [
+        "A) HyperText Transfer Private System",
+        "B) HyperText Transmission Protocol Standard",
+        "C) High Transfer Technology Protocol Secure",
+        "D) HyperText Transfer Protocol Secure"
+      ],
+      "correct_option": "D",
+      "explanation": "HTTPS = HyperText Transfer Protocol Secure. It uses SSL/TLS to encrypt HTTP traffic."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "In RSA, if p=3, q=11, e=7, what is the private key d?",
+      "options": [
+        "A) 7",
+        "B) 3",
+        "C) 11",
+        "D) 19"
+      ],
+      "correct_option": "B",
+      "explanation": "n=33, φ(n)=(3-1)(11-1)=20. d = e⁻¹ mod φ(n) = 7⁻¹ mod 20. 7×3=21≡1 mod 20. So d=3."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "pd.merge(df1, df2, on='id', how='left') returns:",
+      "options": [
+        "A) All rows from both DataFrames",
+        "B) All rows from df2, matching rows from df1",
+        "C) All rows from df1, matching rows from df2, NaN where no match",
+        "D) Only matching rows from both DataFrames"
+      ],
+      "correct_option": "C",
+      "explanation": "Left join keeps all rows from the left DataFrame (df1) and adds matching data from df2. Non-matching rows get NaN values for df2 columns."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "Which is the most effective defense against SQL injection?",
+      "options": [
+        "A) Using stored procedures alone",
+        "B) Input length validation",
+        "C) Removing spaces from user input",
+        "D) Parameterized queries (prepared statements)"
+      ],
+      "correct_option": "D",
+      "explanation": "Parameterized queries separate SQL code from data, preventing injection. Input validation and stored procedures alone are insufficient defenses."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "medium",
+      "question": "df.groupby('dept')['salary'].transform('mean') returns:",
+      "options": [
+        "A) A Series with department names as index",
+        "B) A DataFrame with one row per department",
+        "C) A scalar value (overall mean)",
+        "D) A Series with the same length as df, containing department mean for each row"
+      ],
+      "correct_option": "D",
+      "explanation": "transform() returns a Series aligned with the original DataFrame's index, broadcasting the group aggregate to each row."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "hard",
+      "question": "In a digital signature scheme, which key is used to SIGN a message?",
+      "options": [
+        "A) Receiver's private key",
+        "B) Receiver's public key",
+        "C) Sender's private key",
+        "D) Sender's public key"
+      ],
+      "correct_option": "C",
+      "explanation": "Digital signatures use the sender's private key to sign (encrypt hash). Anyone with the sender's public key can verify."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "hard",
+      "question": "A stored XSS vulnerability exists when:",
+      "options": [
+        "A) Malicious input is permanently stored on the server and served to users",
+        "B) Malicious script is reflected from the server in the same request",
+        "C) JavaScript manipulates the DOM without server interaction",
+        "D) The browser's same-origin policy is bypassed"
+      ],
+      "correct_option": "A",
+      "explanation": "Stored XSS (persistent) saves malicious input (e.g., in a database) and serves it to all users viewing the affected page."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "hard",
+      "question": "pd.pivot_table(df, values='sales', index='region', columns='quarter', aggfunc='sum', fill_value=0) does NOT:",
+      "options": [
+        "A) Aggregate multiple values per cell",
+        "B) Allow duplicate index-column combinations",
+        "C) Fill missing combinations with 0",
+        "D) Reshape data from long to wide format"
+      ],
+      "correct_option": "B",
+      "explanation": "pivot_table requires unique index-column combinations. If duplicates exist, aggfunc aggregates them. It does NOT allow raw duplicates."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "hard",
+      "question": "In Diffie-Hellman, p=23, g=5, Alice's secret a=6, Bob's secret b=15. What is the shared secret key?",
+      "options": [
+        "A) 2",
+        "B) 12",
+        "C) 19",
+        "D) 8"
+      ],
+      "correct_option": "A",
+      "explanation": "Alice sends A = 5^6 mod 23 = 8. Bob sends B = 5^15 mod 23 = 19. Shared secret = 19^6 mod 23 = 2."
+    },
+    {
+      "id": "CUET_CS_2026_P9_L9_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Diffie-Hellman key exchange is vulnerable to man-in-the-middle attack because:",
+      "options": [
+        "A) It does not authenticate the communicating parties",
+        "B) It transmits the shared secret over the network",
+        "C) The discrete logarithm problem is easy",
+        "D) It uses too small prime numbers"
+      ],
+      "correct_option": "A",
+      "explanation": "DH provides secure key agreement over a public channel but does not authenticate parties. Without certificates or signatures, an attacker can impersonate both sides."
+    }
+  ]
+}

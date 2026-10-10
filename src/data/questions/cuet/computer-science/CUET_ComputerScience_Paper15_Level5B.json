@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P15_L5B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 15,
+  "difficulty_level": "5B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet_computer_science_syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which relational algebra operation is used to select specific columns from a relation?",
+      "options": [
+        "A) Union",
+        "B) Projection",
+        "C) Selection",
+        "D) Join"
+      ],
+      "correct_option": "B",
+      "explanation": "Projection (π) selects specific columns from a relation. Selection (σ) filters rows."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "In SQL, which DDL command permanently removes a table's structure and all its data from the database?",
+      "options": [
+        "A) DELETE",
+        "B) TRUNCATE",
+        "C) REMOVE",
+        "D) DROP"
+      ],
+      "correct_option": "D",
+      "explanation": "DROP removes the entire table structure and data permanently."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "Which constraint ensures that a column cannot have NULL values in a database table?",
+      "options": [
+        "A) UNIQUE",
+        "B) NOT NULL",
+        "C) CHECK",
+        "D) DEFAULT"
+      ],
+      "correct_option": "B",
+      "explanation": "NOT NULL ensures every row has a value for that column."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "What does SELECT COUNT(*) FROM Students WHERE Marks > 80 return?",
+      "options": [
+        "A) Number of students with marks above 80",
+        "B) Average marks",
+        "C) Total marks",
+        "D) Sum of marks greater than 80"
+      ],
+      "correct_option": "A",
+      "explanation": "COUNT(*) counts rows matching the WHERE condition."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "Which SQL JOIN keyword preserves unmatched rows from both tables and fills missing values with NULL?",
+      "options": [
+        "A) CROSS JOIN",
+        "B) FULL OUTER JOIN",
+        "C) NATURAL JOIN",
+        "D) INNER JOIN"
+      ],
+      "correct_option": "B",
+      "explanation": "FULL OUTER JOIN returns all rows from both tables with NULLs for unmatched sides."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "medium",
+      "question": "A subquery that references columns from the outer query is called:",
+      "options": [
+        "A) Scalar subquery",
+        "B) Nested subquery",
+        "C) Correlated subquery",
+        "D) Inline view"
+      ],
+      "correct_option": "C",
+      "explanation": "Correlated subquery references outer query columns and executes once per outer row."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "A relation is in 2NF if it is in 1NF and has no:",
+      "options": [
+        "A) Partial dependencies",
+        "B) Transitive dependencies",
+        "C) Multivalued dependencies",
+        "D) Join dependencies"
+      ],
+      "correct_option": "A",
+      "explanation": "2NF eliminates partial dependencies — non-prime attributes depend on entire candidate key."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "Consider R(A,B,C,D) with FDs: AB→C, C→D, D→B. Which is a candidate key?",
+      "options": [
+        "A) AD only",
+        "B) AC only",
+        "C) AB only",
+        "D) Both AB and AC"
+      ],
+      "correct_option": "D",
+      "explanation": "AB+ = ABCD and AC+ = ABCD. Both AB and AC are candidate keys."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "Which ACID property ensures committed transactions survive system failures?",
+      "options": [
+        "A) Consistency",
+        "B) Atomicity",
+        "C) Durability",
+        "D) Isolation"
+      ],
+      "correct_option": "C",
+      "explanation": "Durability guarantees committed changes persist after failures."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Given R(A,B,C,D,E) with FDs: A→BC, B→D, E→A. What is the highest normal form?",
+      "options": [
+        "A) 2NF",
+        "B) BCNF",
+        "C) 1NF",
+        "D) 3NF"
+      ],
+      "correct_option": "A",
+      "explanation": "CK is E (E→A→BC→D). B→D is transitive dependency. No partial deps on E. So 2NF but not 3NF."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q11",
+      "topic": "Networks",
+      "sub_topic": "OSI Model Layers",
+      "difficulty": "easy",
+      "question": "Which OSI layer handles routing packets across multiple networks?",
+      "options": [
+        "A) Transport Layer",
+        "B) Data Link Layer",
+        "C) Network Layer",
+        "D) Session Layer"
+      ],
+      "correct_option": "C",
+      "explanation": "Network Layer (Layer 3) handles logical addressing and routing."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q12",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "easy",
+      "question": "IP address 192.168.1.0 with mask 255.255.255.0 belongs to which class?",
+      "options": [
+        "A) Class B",
+        "B) Class A",
+        "C) Class D",
+        "D) Class C"
+      ],
+      "correct_option": "D",
+      "explanation": "192.x.x.x falls in Class C range (192.0.0.0–223.255.255.255)."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q13",
+      "topic": "Networks",
+      "sub_topic": "Network Devices",
+      "difficulty": "easy",
+      "question": "Which device operates at the Data Link Layer (Layer 2)?",
+      "options": [
+        "A) Router",
+        "B) Switch",
+        "C) Gateway",
+        "D) Hub"
+      ],
+      "correct_option": "B",
+      "explanation": "Switch operates at Layer 2 using MAC addresses for frame forwarding."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q14",
+      "topic": "Networks",
+      "sub_topic": "Transport Layer",
+      "difficulty": "medium",
+      "question": "Which transport protocol provides reliable, connection-oriented delivery with flow control?",
+      "options": [
+        "A) UDP",
+        "B) ICMP",
+        "C) TCP",
+        "D) ARP"
+      ],
+      "correct_option": "C",
+      "explanation": "TCP provides reliable connection-oriented delivery with flow and error control."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q15",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing & Subnetting",
+      "difficulty": "medium",
+      "question": "How many usable hosts can a /26 subnet accommodate?",
+      "options": [
+        "A) 30",
+        "B) 64",
+        "C) 32",
+        "D) 62"
+      ],
+      "correct_option": "D",
+      "explanation": "/26 leaves 6 host bits. 2^6 - 2 = 62 usable hosts."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q16",
+      "topic": "Networks",
+      "sub_topic": "Application Layer",
+      "difficulty": "medium",
+      "question": "At which port number does DNS typically operate for queries?",
+      "options": [
+        "A) 53",
+        "B) 80",
+        "C) 443",
+        "D) 21"
+      ],
+      "correct_option": "A",
+      "explanation": "DNS operates on port 53 for both TCP and UDP queries."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q17",
+      "topic": "Networks",
+      "sub_topic": "Routing",
+      "difficulty": "medium",
+      "question": "Which routing protocol uses Dijkstra's algorithm for shortest path?",
+      "options": [
+        "A) OSPF",
+        "B) RIP",
+        "C) EIGRP",
+        "D) BGP"
+      ],
+      "correct_option": "A",
+      "explanation": "OSPF is a link-state protocol using Dijkstra's shortest path first algorithm."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q18",
+      "topic": "Networks",
+      "sub_topic": "Error Detection - CRC",
+      "difficulty": "medium",
+      "question": "In CRC error detection, the remainder after polynomial division is called:",
+      "options": [
+        "A) Hamming code",
+        "B) Parity bit",
+        "C) Frame check sequence",
+        "D) Checksum"
+      ],
+      "correct_option": "C",
+      "explanation": "The remainder is the Frame Check Sequence (FCS), appended for error detection."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q19",
+      "topic": "Networks",
+      "sub_topic": "TCP Congestion Control",
+      "difficulty": "hard",
+      "question": "During TCP 'slow start' phase, the congestion window:",
+      "options": [
+        "A) Decreases by half",
+        "B) Resets",
+        "C) Is fixed at 1 MSS",
+        "D) Increases exponentially"
+      ],
+      "correct_option": "D",
+      "explanation": "During slow start, window doubles every RTT (exponential growth) until threshold or loss."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q20",
+      "topic": "Networks",
+      "sub_topic": "CSMA/CD Minimum Frame",
+      "difficulty": "hard",
+      "question": "For Fast Ethernet (100 Mbps), the minimum frame size for CSMA/CD collision detection is:",
+      "options": [
+        "A) 128 bytes",
+        "B) 640 bytes",
+        "C) 512 bytes",
+        "D) 64 bytes"
+      ],
+      "correct_option": "B",
+      "explanation": "100 Mbps × 51.2 μs slot time = 5120 bits = 640 bytes minimum frame."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists",
+      "difficulty": "easy",
+      "question": "What is len([1, 2, 3, [4, 5]]) in Python?",
+      "options": [
+        "A) 4",
+        "B) TypeError",
+        "C) 5",
+        "D) 6"
+      ],
+      "correct_option": "A",
+      "explanation": "Nested list counts as one element. Outer list has 4 items."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Which method returns all key-value pairs from a dictionary?",
+      "options": [
+        "A) pairs()",
+        "B) values()",
+        "C) items()",
+        "D) keys()"
+      ],
+      "correct_option": "C",
+      "explanation": "items() returns a view of key-value tuple pairs."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stacks",
+      "difficulty": "easy",
+      "question": "Time complexity of pushing onto a stack via Python list?",
+      "options": [
+        "A) O(log n)",
+        "B) O(1) amortized",
+        "C) O(n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "append() is O(1) amortized despite occasional resizing."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Linked Lists",
+      "difficulty": "medium",
+      "question": "Time complexity of searching for element at position k in a singly linked list of n nodes?",
+      "options": [
+        "A) O(log k)",
+        "B) O(1)",
+        "C) O(n log n)",
+        "D) O(k)"
+      ],
+      "correct_option": "D",
+      "explanation": "Must traverse k nodes sequentially, giving O(k) time."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Trees",
+      "difficulty": "medium",
+      "question": "Maximum nodes at level 3 of a binary tree (root at level 0)?",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 6",
+        "D) 16"
+      ],
+      "correct_option": "B",
+      "explanation": "Level n has at most 2^n nodes. Level 3 = 2^3 = 8."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Hash Table Linear Probing",
+      "difficulty": "medium",
+      "question": "In linear probing, when collision occurs, the element is placed in:",
+      "options": [
+        "A) Discarded",
+        "B) A linked list",
+        "C) A different table",
+        "D) The next available slot"
+      ],
+      "correct_option": "D",
+      "explanation": "Linear probing finds the next empty slot sequentially after a collision."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queue and Deque",
+      "difficulty": "medium",
+      "question": "A deque allows insertion and deletion from:",
+      "options": [
+        "A) Middle only",
+        "B) Rear only",
+        "C) Both front and rear",
+        "D) Front only"
+      ],
+      "correct_option": "C",
+      "explanation": "Deque (double-ended queue) supports operations at both ends."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Infix-to-Postfix Conversion",
+      "difficulty": "hard",
+      "question": "Postfix for a + b * c - d?",
+      "options": [
+        "A) abc*+d-",
+        "B) ab*cd+-",
+        "C) ab+c*d-",
+        "D) abc+*d-"
+      ],
+      "correct_option": "A",
+      "explanation": "b*c first → abc*, then + → abc*+, then -d → abc*+d-."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "AVL Tree Rotation",
+      "difficulty": "hard",
+      "question": "In AVL tree, which rotation fixes LL imbalance?",
+      "options": [
+        "A) Left Rotation",
+        "B) Left-Right Rotation",
+        "C) Right Rotation",
+        "D) Right-Left Rotation"
+      ],
+      "correct_option": "C",
+      "explanation": "LL imbalance is fixed by a single Right Rotation."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Heap Build Complexity",
+      "difficulty": "hard",
+      "question": "In a max-heap with n nodes (0-indexed), index of the last non-leaf node?",
+      "options": [
+        "A) n/2",
+        "B) floor(n/2) - 1",
+        "C) n - 1",
+        "D) n/2 + 1"
+      ],
+      "correct_option": "B",
+      "explanation": "Last non-leaf node is at floor(n/2) - 1. Heapify starts here."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "Maximum comparisons in binary search for array of 1000 elements?",
+      "options": [
+        "A) 500",
+        "B) 100",
+        "C) 11",
+        "D) 10"
+      ],
+      "correct_option": "D",
+      "explanation": "log2(1000) ≈ 9.97, so maximum 10 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "Best-case time of optimized bubble sort on already sorted array?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(n²)",
+        "D) O(1)"
+      ],
+      "correct_option": "A",
+      "explanation": "With swap detection, sorted array needs one pass with no swaps — O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "In selection sort, which element is swapped with first unsorted position each pass?",
+      "options": [
+        "A) Random element",
+        "B) Median element",
+        "C) Minimum in unsorted portion",
+        "D) Largest element"
+      ],
+      "correct_option": "C",
+      "explanation": "Selection sort finds minimum in unsorted part and swaps it to the front."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "medium",
+      "question": "Space complexity of merge sort?",
+      "options": [
+        "A) O(1)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Merge sort needs O(n) auxiliary space for temporary arrays during merging."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "medium",
+      "question": "Which pivot strategy avoids worst-case O(n²) on sorted arrays?",
+      "options": [
+        "A) Last element",
+        "B) Smallest element",
+        "C) First element",
+        "D) Median-of-three"
+      ],
+      "correct_option": "D",
+      "explanation": "Median-of-three avoids worst-case on sorted inputs."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "Insertion sort is most efficient for which input?",
+      "options": [
+        "A) Nearly sorted arrays",
+        "B) Large random arrays",
+        "C) Reverse sorted",
+        "D) Many duplicates"
+      ],
+      "correct_option": "A",
+      "explanation": "Nearly sorted arrays require minimal shifting per insertion."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search",
+      "difficulty": "medium",
+      "question": "Average-case time complexity of linear search?",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n²)",
+        "D) O(1)"
+      ],
+      "correct_option": "A",
+      "explanation": "On average, n/2 comparisons are made — O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Interpolation Search",
+      "difficulty": "hard",
+      "question": "Worst-case time complexity of interpolation search?",
+      "options": [
+        "A) O(log log n)",
+        "B) O(1)",
+        "C) O(n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Worst case is O(n) when elements are unevenly distributed."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Radix Sort",
+      "difficulty": "hard",
+      "question": "Time complexity of radix sort for n numbers with d digits each?",
+      "options": [
+        "A) O(nk)",
+        "B) O(n log n)",
+        "C) O(n²)",
+        "D) O(d(n+k))"
+      ],
+      "correct_option": "D",
+      "explanation": "d passes of counting sort (O(n+k) each) gives O(d(n+k))."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Stable Sorting",
+      "difficulty": "hard",
+      "question": "Which sorting algorithm is NOT stable?",
+      "options": [
+        "A) Insertion Sort",
+        "B) Quick Sort",
+        "C) Bubble Sort",
+        "D) Merge Sort"
+      ],
+      "correct_option": "B",
+      "explanation": "Standard quicksort is not stable; equal elements may be reordered."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "Malware",
+      "difficulty": "easy",
+      "question": "Malware disguising as legitimate software to trick installation is called:",
+      "options": [
+        "A) Virus",
+        "B) Ransomware",
+        "C) Trojan Horse",
+        "D) Worm"
+      ],
+      "correct_option": "C",
+      "explanation": "Trojan Horse masquerades as legitimate software but performs malicious actions."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Series Creation",
+      "difficulty": "easy",
+      "question": "Which function creates a one-dimensional labeled array from a Python list?",
+      "options": [
+        "A) pd.DataFrame()",
+        "B) pd.List()",
+        "C) pd.Array()",
+        "D) pd.Series()"
+      ],
+      "correct_option": "D",
+      "explanation": "pd.Series() creates a one-dimensional labeled array."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Firewalls",
+      "difficulty": "easy",
+      "question": "A packet-filtering firewall without connection state tracking is called:",
+      "options": [
+        "A) Proxy firewall",
+        "B) Stateless firewall",
+        "C) Stateful firewall",
+        "D) Application firewall"
+      ],
+      "correct_option": "B",
+      "explanation": "Stateless firewall examines each packet independently without tracking connections."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection",
+      "difficulty": "medium",
+      "question": "Most effective defense against SQL injection?",
+      "options": [
+        "A) Parameterized queries",
+        "B) Stored procedures",
+        "C) Disable JavaScript",
+        "D) Input validation"
+      ],
+      "correct_option": "A",
+      "explanation": "Parameterized queries separate SQL code from data, preventing injection."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas DataFrame Basics",
+      "difficulty": "medium",
+      "question": "What does df.shape return for a DataFrame?",
+      "options": [
+        "A) Number of columns",
+        "B) Column names",
+        "C) Tuple (rows, columns)",
+        "D) Number of rows"
+      ],
+      "correct_option": "C",
+      "explanation": "df.shape returns a tuple (rows, columns)."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption",
+      "difficulty": "medium",
+      "question": "In symmetric encryption, same key is used for:",
+      "options": [
+        "A) Both encryption and decryption",
+        "B) Encryption only",
+        "C) Key generation",
+        "D) Decryption only"
+      ],
+      "correct_option": "A",
+      "explanation": "Symmetric encryption uses one shared key for both encrypting and decrypting."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas GroupBy",
+      "difficulty": "medium",
+      "question": "What does df.groupby('Category')['Sales'].sum() compute?",
+      "options": [
+        "A) Average sales per category",
+        "B) Count per category",
+        "C) Max per category",
+        "D) Total sales per category"
+      ],
+      "correct_option": "D",
+      "explanation": "It computes the sum of Sales for each Category group."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "Digital Signatures",
+      "difficulty": "medium",
+      "question": "Digital signatures provide which security properties?",
+      "options": [
+        "A) Availability",
+        "B) Authentication and non-repudiation",
+        "C) Access control",
+        "D) Confidentiality"
+      ],
+      "correct_option": "B",
+      "explanation": "Digital signatures verify identity (authentication) and prevent denial (non-repudiation)."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "XSS",
+      "difficulty": "hard",
+      "question": "Cross-Site Scripting (XSS) can be mitigated by:",
+      "options": [
+        "A) Escaping user input before HTML rendering",
+        "B) Blocking IPs",
+        "C) Disabling cookies",
+        "D) Using HTTPS"
+      ],
+      "correct_option": "A",
+      "explanation": "Escaping/sanitizing input prevents malicious script execution in browsers."
+    },
+    {
+      "id": "CUET_CS_2026_P15_L5B_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Merge Inner Join",
+      "difficulty": "hard",
+      "question": "pd.merge(df1, df2, on='ID', how='inner') returns rows that:",
+      "options": [
+        "A) Exist in df2 only",
+        "B) Match in both DataFrames",
+        "C) Exist in df1 only",
+        "D) All rows from both"
+      ],
+      "correct_option": "B",
+      "explanation": "Inner join returns only rows with matching key in both DataFrames."
+    }
+  ]
+}

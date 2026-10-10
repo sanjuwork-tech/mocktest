@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P18_L8B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 18,
+  "difficulty_level": "8B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "NCERT Class 12 Biology",
+  "notification_source": "CUET UG 2026 Biological Science",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Which of the following organisms reproduces through fragmentation?",
+      "options": [
+        "A) Paramecium",
+        "B) Plasmodium",
+        "C) Amoeba",
+        "D) Planaria"
+      ],
+      "correct_option": "D",
+      "explanation": "Planaria (a flatworm) reproduces asexually through fragmentation, where the body breaks into pieces that regenerate into complete organisms."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "What is the ploidy of the cells in the nucellus of an ovule before fertilization?",
+      "options": [
+        "A) Haploid (n)",
+        "B) Tetraploid (4n)",
+        "C) Diploid (2n)",
+        "D) Triploid (3n)"
+      ],
+      "correct_option": "C",
+      "explanation": "The nucellus is somatic tissue of the mother sporophyte and is diploid (2n). It nourishes the developing embryo sac."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "During parturition, the release of oxytocin stimulates uterine contractions, which trigger more oxytocin release. This regulatory mechanism is an example of:",
+      "options": [
+        "A) Positive feedback",
+        "B) Negative feedback",
+        "C) Hormonal cascade",
+        "D) Neural regulation"
+      ],
+      "correct_option": "A",
+      "explanation": "This is a positive feedback loop: contractions stimulate oxytocin, which increases contractions further, until the stimulus (delivery) terminates the cycle."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Cleistogamy ensures self-polligation in some plants because:",
+      "options": [
+        "A) Stamens and carpels are separated",
+        "B) Self-incompatibility prevents cross-pollination",
+        "C) Flowers never open and anthers dehisce inside closed buds",
+        "D) Flowers open only at night"
+      ],
+      "correct_option": "C",
+      "explanation": "Cleistogamous flowers remain closed (cleistogamy), ensuring autogamy (self-pollination within the same flower). Examples include Viola and Commelina."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which of the following best describes the role of epididymis in the male reproductive system?",
+      "options": [
+        "A) Secretion of seminal fluid",
+        "B) Production of testosterone",
+        "C) Transport of urine and semen",
+        "D) Maturation and storage of spermatozoa"
+      ],
+      "correct_option": "D",
+      "explanation": "Epididymis provides the site where spermatozoa undergo maturation, gaining motility and fertilizing capacity, and are stored until ejaculation."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which of the following contraceptive methods works primarily by preventing implantation of the blastocyst?",
+      "options": [
+        "A) Barrier methods (condoms)",
+        "B) Oral contraceptive pills",
+        "C) Copper-T (IUD)",
+        "D) Vasectomy"
+      ],
+      "correct_option": "C",
+      "explanation": "Copper-releasing IUDs (CuT) produce a sterile inflammatory response in the uterus that is toxic to sperm and prevents implantation of the blastocyst."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "During spermatogenesis, which phase is characterized by the formation of secondary spermatocytes from primary spermatocytes?",
+      "options": [
+        "A) First meiotic division",
+        "B) Multiplication phase",
+        "C) Second meiotic division",
+        "D) Growth phase"
+      ],
+      "correct_option": "A",
+      "explanation": "Primary spermatocytes (2n, 4c) undergo the first meiotic division to produce two haploid (n, 2c) secondary spermatocytes, each of which quickly undergoes the second meiotic division."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "The phenomenon where the endosperm develops before the embryo is seen in:",
+      "options": [
+        "A) Mosses",
+        "B) Coconut water (free nuclear endosperm)",
+        "C) Gymnosperms only",
+        "D) All angiosperms"
+      ],
+      "correct_option": "B",
+      "explanation": "In coconut, the liquid endosperm (coconut water) develops initially with free nuclear divisions before cellularization, and the embryo develops later within the solid endosperm."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "Which of the following correctly matches the embryonic layer with its derivatives in the adult human?",
+      "options": [
+        "A) Mesoderm — epidermis of skin",
+        "B) Endoderm — lining of the digestive tract",
+        "C) Mesoderm — central nervous system",
+        "D) Ectoderm — skeletal muscles"
+      ],
+      "correct_option": "B",
+      "explanation": "Endoderm gives rise to the epithelial lining of the digestive tract, respiratory tract, and associated organs. Skeletal muscle is mesodermal; CNS is ectodermal; epidermis is ectodermal."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "In in-vitro fertilization (IVF), which specific stage of embryo development is typically selected for transfer into the uterus?",
+      "options": [
+        "A) Gastrula",
+        "B) Blastocyst",
+        "C) Morula (8-16 cell)",
+        "D) 2-cell zygote"
+      ],
+      "correct_option": "B",
+      "explanation": "In standard IVF-ET, the blastocyst stage (around day 5-6) is typically transferred into the uterine cavity, as it has the highest implantation potential compared to earlier stages."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Mendel's law of independent assortment is based on the behavior of chromosomes during:",
+      "options": [
+        "A) DNA replication",
+        "B) Meiosis II",
+        "C) Mitosis",
+        "D) Meiosis I"
+      ],
+      "correct_option": "D",
+      "explanation": "Independent assortment occurs during metaphase I of meiosis, where homologous chromosome pairs align independently at the metaphase plate, allowing genes on different chromosomes to assort independently."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "Which enzyme unwinds the DNA double helix at the replication fork?",
+      "options": [
+        "A) Helicase",
+        "B) Topoisomerase",
+        "C) DNA polymerase III",
+        "D) Primase"
+      ],
+      "correct_option": "A",
+      "explanation": "Helicase unwinds the double-stranded DNA at the replication fork by breaking the hydrogen bonds between base pairs, creating two single-stranded templates."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In snapdragons, red (RR) and white (WW) flowers produce pink (RW) offspring when crossed. This is an example of:",
+      "options": [
+        "A) Dominance",
+        "B) Codominance",
+        "C) Multiple allelism",
+        "D) Incomplete dominance"
+      ],
+      "correct_option": "D",
+      "explanation": "Incomplete dominance occurs when neither allele is dominant, resulting in a blending of phenotypes (red + white → pink) in the heterozygous condition."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "The evolutionary process by which unrelated species develop similar traits due to similar environmental pressures is called:",
+      "options": [
+        "A) Convergent evolution",
+        "B) Divergent evolution",
+        "C) Coevolution",
+        "D) Parallel evolution"
+      ],
+      "correct_option": "A",
+      "explanation": "Convergent evolution is the independent evolution of similar features in unrelated lineages, often due to adaptation to similar environments (e.g., streamlined bodies in sharks and dolphins)."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT a stop codon in the genetic code?",
+      "options": [
+        "A) AUG",
+        "B) UAA",
+        "C) UGA",
+        "D) UAG"
+      ],
+      "correct_option": "A",
+      "explanation": "AUG is the start codon (coding for methionine). The three stop codons are UAA, UAG, and UGA."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "The evolution of homologous structures in related species that adapt to different environments is an example of:",
+      "options": [
+        "A) Parallel evolution",
+        "B) Coevolution",
+        "C) Convergent evolution",
+        "D) Divergent evolution"
+      ],
+      "correct_option": "D",
+      "explanation": "Divergent evolution occurs when a common ancestor gives rise to species that become increasingly different over time, often adapting to different environments (e.g., Darwin's finches)."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "In a cross between AaBbCc × AaBbCc, what proportion of offspring will be heterozygous for exactly two genes?",
+      "options": [
+        "A) 1/8",
+        "B) 3/8",
+        "C) 1/4",
+        "D) 3/16"
+      ],
+      "correct_option": "B",
+      "explanation": "For exactly 2 heterozygous genes: Choose 2 genes out of 3 to be heterozygous (C(3,2)=3 ways), with probability 1/2 each for heterozygous, and the remaining gene must be homozygous (probability 1/2). So 3 × (1/2)² × (1/2) = 3/8."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "During DNA replication, DNA polymerase adds nucleotides only in the 5'→3' direction. This implies that:",
+      "options": [
+        "A) The leading strand is synthesized discontinuously",
+        "B) Replication is conservative",
+        "C) Both strands are synthesized continuously",
+        "D) The lagging strand is synthesized discontinuously"
+      ],
+      "correct_option": "D",
+      "explanation": "Because DNA polymerase synthesizes only 5'→3', the leading strand (oriented 3'→5') is continuous, while the lagging strand (oriented 5'→3') is made in short Okazaki fragments that are later ligated."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Which evolutionary phenomenon explains the evolution of antibiotic resistance in bacteria when a population is exposed to antibiotics?",
+      "options": [
+        "A) Disruptive selection",
+        "B) Balancing selection",
+        "C) Directional selection",
+        "D) Stabilizing selection"
+      ],
+      "correct_option": "C",
+      "explanation": "Directional selection favors one extreme phenotype — in this case, resistant bacteria survive and reproduce while susceptible ones die, shifting the population toward resistance."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "The lac operon in E. coli demonstrates a negative control system because:",
+      "options": [
+        "A) The CAP protein activates transcription in presence of lactose",
+        "B) The operator is always active",
+        "C) The repressor protein blocks transcription in the absence of lactose",
+        "D) Lactose directly binds to the promoter"
+      ],
+      "correct_option": "C",
+      "explanation": "In negative control, a repressor protein binds to the operator to block transcription. In the lac operon, the Lac repressor binds the operator in the absence of lactose; when lactose is present, it inactivates the repressor, allowing transcription."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which type of pathogen causes amoebic dysentery (amoebiasis)?",
+      "options": [
+        "A) Protozoan",
+        "B) Bacterium",
+        "C) Fungus",
+        "D) Virus"
+      ],
+      "correct_option": "A",
+      "explanation": "Amoebiasis is caused by the protozoan Entamoeba histolytica, which is transmitted through contaminated food and water and affects the large intestine."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "The bacterium Lactobacillus is commonly used in the production of:",
+      "options": [
+        "A) Bread",
+        "B) Cheese",
+        "C) Vinegar",
+        "D) Curd (yogurt)"
+      ],
+      "correct_option": "D",
+      "explanation": "Lactobacillus converts milk sugar (lactose) to lactic acid, which coagulates and partially digests milk proteins to produce curd (yogurt)."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which of the following is the most abundant immunoglobulin in human serum and can cross the placenta?",
+      "options": [
+        "A) IgM",
+        "B) IgG",
+        "C) IgE",
+        "D) IgA"
+      ],
+      "correct_option": "B",
+      "explanation": "IgG is the most abundant immunoglobulin in serum (about 75-80%) and is the only antibody class that can cross the placenta, providing passive immunity to the fetus."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Citric acid is commercially produced on a large scale using which microorganism?",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Pseudomonas putida",
+        "C) Aspergillus niger",
+        "D) Acetobacter aceti"
+      ],
+      "correct_option": "C",
+      "explanation": "Aspergillus niger, a filamentous fungus, is used in the industrial production of citric acid through submerged fermentation."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which of the following pathogens is transmitted through body fluids and attacks the helper T-lymphocytes (CD4+ cells)?",
+      "options": [
+        "A) Mycobacterium tuberculosis",
+        "B) Salmonella typhi",
+        "C) Human Immunodeficiency Virus (HIV)",
+        "D) Plasmodium vivax"
+      ],
+      "correct_option": "C",
+      "explanation": "HIV is a retrovirus transmitted through blood, semen, vaginal fluids, and breast milk. It specifically targets CD4+ helper T-lymphocytes, progressively destroying the immune system."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which form of immunity is acquired when pre-formed antibodies are directly introduced into an individual?",
+      "options": [
+        "A) Passive natural immunity",
+        "B) Passive artificial immunity",
+        "C) Active artificial immunity",
+        "D) Active natural immunity"
+      ],
+      "correct_option": "B",
+      "explanation": "Passive artificial immunity is acquired by injecting pre-formed antibodies (antiserum), such as anti-tetanus serum (ATS) or anti-rabies serum (ARS), providing immediate but temporary protection."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which microorganism is primarily responsible for the production of acetic acid (vinegar)?",
+      "options": [
+        "A) Lactobacillus",
+        "B) Clostridium butylicum",
+        "C) Aspergillus niger",
+        "D) Acetobacter aceti"
+      ],
+      "correct_option": "D",
+      "explanation": "Acetobacter aceti (a bacterium) oxidizes ethanol to acetic acid in the production of vinegar through aerobic fermentation."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Which of the following best explains why Mycobacterium leprae (leprosy) is difficult to study in the laboratory?",
+      "options": [
+        "A) It cannot be cultured in artificial media",
+        "B) It is a eukaryote",
+        "C) It is a virus",
+        "D) It causes only acute infections"
+      ],
+      "correct_option": "A",
+      "explanation": "Mycobacterium leprae is an obligate intracellular parasite that cannot be cultured on artificial laboratory media; it must be grown in animal models (armadillos, mouse footpad)."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "In the context of cancer, which type of gene, when mutated, promotes uncontrolled cell division?",
+      "options": [
+        "A) DNA repair genes",
+        "B) Proto-oncogenes",
+        "C) Apoptosis genes",
+        "D) Tumor suppressor genes"
+      ],
+      "correct_option": "B",
+      "explanation": "Proto-oncogenes are normal genes that, when mutated into oncogenes, promote uncontrolled cell proliferation. Tumor suppressor genes normally inhibit division; their LOSS of function leads to cancer."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Which of the following secondary metabolites is produced by the yeast Monascus purpureus?",
+      "options": [
+        "A) Streptokinase",
+        "B) Cyclosporin A",
+        "C) Statins (lovastatin)",
+        "D) Penicillin"
+      ],
+      "correct_option": "C",
+      "explanation": "Monascus purpureus produces statins (lovastatin/compactin), which are HMG-CoA reductase inhibitors used to lower blood cholesterol levels."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "PCR (Polymerase Chain Reaction) is used to:",
+      "options": [
+        "A) Amplify small amounts of DNA",
+        "B) Insert genes into a vector",
+        "C) Cut DNA at specific sites",
+        "D) Separate DNA fragments by size"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR (Polymerase Chain Reaction) uses repeated cycles of denaturation, annealing, and extension to exponentially amplify a specific DNA sequence from minute starting material."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which technique is used to introduce recombinant DNA into plant cells by shooting DNA-coated microparticles?",
+      "options": [
+        "A) Electroporation",
+        "B) Lipofection",
+        "C) Biolistics (gene gun)",
+        "D) Microinjection"
+      ],
+      "correct_option": "C",
+      "explanation": "Biolistics (gene gun) uses gold or tungsten particles coated with DNA that are bombarded into plant cells at high velocity, allowing the DNA to enter and integrate."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Bt cotton is genetically engineered to produce insecticidal proteins from which bacterium?",
+      "options": [
+        "A) Agrobacterium tumefaciens",
+        "B) Rhizobium",
+        "C) Escherichia coli",
+        "D) Bacillus thuringiensis"
+      ],
+      "correct_option": "D",
+      "explanation": "Bt cotton contains the cry gene from Bacillus thuringiensis, which produces a protein toxin lethal to lepidopteran larvae (bollworms) upon ingestion."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which enzyme synthesizes the RNA primer required for DNA replication to begin?",
+      "options": [
+        "A) DNA polymerase I",
+        "B) Helicase",
+        "C) Ligase",
+        "D) Primase"
+      ],
+      "correct_option": "D",
+      "explanation": "Primase (a type of RNA polymerase) synthesizes a short RNA primer (about 5-10 nucleotides) complementary to the template strand, providing the 3'-OH group needed by DNA polymerase III to begin DNA synthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which of the following is a product of recombinant DNA technology used to dissolve blood clots?",
+      "options": [
+        "A) Streptokinase",
+        "B) Hepatitis B vaccine",
+        "C) Insulin",
+        "D) Human growth hormone"
+      ],
+      "correct_option": "A",
+      "explanation": "Streptokinase (produced by genetically modified E. coli) is a thrombolytic agent that activates plasminogen to dissolve blood clots in myocardial infarction patients."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which process is used to produce monoclonal antibodies on a large scale?",
+      "options": [
+        "A) Southern blotting",
+        "B) Hybridoma technology",
+        "C) PCR",
+        "D) Gel electrophoresis"
+      ],
+      "correct_option": "B",
+      "explanation": "Hybridoma technology fuses a specific antibody-producing B-lymphocyte with a myeloma cell to produce immortal hybrid cells (hybridomas) that secrete unlimited amounts of identical monoclonal antibodies."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which restriction enzyme produces sticky (cohesive) ends that are most commonly used in recombinant DNA technology?",
+      "options": [
+        "A) SmaI",
+        "B) HaeIII",
+        "C) EcoRI",
+        "D) AluI"
+      ],
+      "correct_option": "C",
+      "explanation": "EcoRI (from E. coli) produces sticky 5' overhangs (5'-AATT-3') at the recognition sequence 5'-GAATTC-3', facilitating efficient ligation and cloning of DNA fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "RNA interference (RNAi) used in transgenic tobacco plants to resist nematode infection involves the production of:",
+      "options": [
+        "A) Complementary RNA to nematode DNA",
+        "B) Sense and antisense RNA forming dsRNA",
+        "C) Ribozymes that destroy nematode RNA",
+        "D) Proteinase inhibitors"
+      ],
+      "correct_option": "B",
+      "explanation": "RNAi involves the production of both sense and antisense RNA that form double-stranded RNA (dsRNA) corresponding to a nematode gene. This triggers gene silencing in the nematode after ingestion, preventing infection."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "In transgenic animals, which technique is commonly used to introduce the target gene into the pronucleus of a fertilized egg?",
+      "options": [
+        "A) Electroporation",
+        "B) Microinjection",
+        "C) Lipofection",
+        "D) Calcium phosphate transfection"
+      ],
+      "correct_option": "B",
+      "explanation": "For transgenic animals (especially mammals), the gene of interest is microinjected directly into the larger male pronucleus of the fertilized egg, which is then implanted into a surrogate mother."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Which type of bioreactor provides better oxygen transfer and mixing efficiency for large-scale microbial cultures?",
+      "options": [
+        "A) Airlift bioreactor",
+        "B) Sparged stirred tank bioreactor",
+        "C) Tower bioreactor",
+        "D) Stirred tank bioreactor"
+      ],
+      "correct_option": "A",
+      "explanation": "Airlift bioreactors use air/gas circulation through a draft tube for mixing and aeration, providing superior oxygen transfer efficiency and lower shear stress, making them ideal for aerobic microbial and cell cultures."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Which of the following best describes the term 'ecosystem'?",
+      "options": [
+        "A) The process of one species replacing another in a habitat",
+        "B) A group of individuals of the same species",
+        "C) The maximum number of individuals an environment can support",
+        "D) A community of organisms interacting with their abiotic environment"
+      ],
+      "correct_option": "D",
+      "explanation": "An ecosystem is defined as a community of organisms (biotic) interacting with their physical (abiotic) environment. It includes both living and non-living components."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Which ecological pyramid is always upright (never inverted) in any ecosystem?",
+      "options": [
+        "A) Pyramid of energy",
+        "B) Pyramid of biomass",
+        "C) All pyramids are always upright",
+        "D) Pyramid of numbers"
+      ],
+      "correct_option": "A",
+      "explanation": "The pyramid of energy (or energy flow) is always upright because energy decreases at each successive trophic level (approximately 10% is transferred). Numbers and biomass pyramids can be inverted."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Which biome is characterized by the highest species richness and complex vertical stratification?",
+      "options": [
+        "A) Tundra",
+        "B) Temperate grassland",
+        "C) Tropical rainforest",
+        "D) Desert"
+      ],
+      "correct_option": "C",
+      "explanation": "Tropical rainforests have the highest biodiversity on Earth, with multiple canopy layers, high rainfall, warm temperatures, and year-round growing seasons that support diverse communities."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Which type of population growth curve is obtained when resources are unlimited?",
+      "options": [
+        "A) J-shaped (exponential)",
+        "B) S-shaped (sigmoid)",
+        "C) Bell-shaped",
+        "D) Linear"
+      ],
+      "correct_option": "A",
+      "explanation": "Under unlimited resources (no carrying capacity limitation), populations grow exponentially, producing a J-shaped curve described by dN/dt = rN."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Which organism is the primary producer in a deep-sea hydrothermal vent ecosystem?",
+      "options": [
+        "A) Algae",
+        "B) Chemoautotrophic bacteria",
+        "C) Coral",
+        "D) Phytoplankton"
+      ],
+      "correct_option": "B",
+      "explanation": "In deep-sea hydrothermal vent ecosystems where sunlight cannot penetrate, chemoautotrophic bacteria (sulfur-oxidizing bacteria) serve as primary producers by using chemical energy from H2S."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "Which of the following correctly represents the hierarchy of taxonomic categories from most inclusive to least inclusive?",
+      "options": [
+        "A) Phylum → Kingdom → Class → Order → Family → Genus → Species",
+        "B) Kingdom → Class → Phylum → Order → Family → Genus → Species",
+        "C) Kingdom → Phylum → Order → Class → Family → Genus → Species",
+        "D) Kingdom → Phylum → Class → Order → Family → Genus → Species"
+      ],
+      "correct_option": "D",
+      "explanation": "The correct taxonomic hierarchy from most to least inclusive is: Kingdom, Phylum, Class, Order, Family, Genus, Species (mnemonic: 'Keep Pots Clean Or Family Gets Sick')."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "In a forest ecosystem, the gross primary productivity (GPP) is 2000 kJ m⁻² year⁻¹ and the respiration by producers is 800 kJ m⁻² year⁻¹. What is the net primary productivity (NPP)?",
+      "options": [
+        "A) 2800 kJ m⁻² year⁻¹",
+        "B) 1200 kJ m⁻² year⁻¹",
+        "C) 2000 kJ m⁻² year⁻¹",
+        "D) 800 kJ m⁻² year⁻¹"
+      ],
+      "correct_option": "B",
+      "explanation": "NPP = GPP - R = 2000 - 800 = 1200 kJ m⁻² year⁻¹. NPP represents the energy available to primary consumers."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "According to the logistic growth model, the maximum growth rate of a population occurs when the population size is:",
+      "options": [
+        "A) At K/2 (half of carrying capacity)",
+        "B) At carrying capacity (K)",
+        "C) Much greater than K",
+        "D) Much less than K"
+      ],
+      "correct_option": "A",
+      "explanation": "In the logistic growth equation dN/dt = rN(1 - N/K), the maximum growth rate occurs at N = K/2, where the product N(1-N/K) is maximized (by calculus or symmetry)."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "The Convention on Biological Diversity (CBD) was signed at which international summit?",
+      "options": [
+        "A) Stockholm Conference (1972)",
+        "B) Kyoto Summit (1997)",
+        "C) Rio Earth Summit (1992)",
+        "D) Paris Agreement (2015)"
+      ],
+      "correct_option": "C",
+      "explanation": "The Convention on Biological Diversity (CBD) was opened for signature at the Earth Summit in Rio de Janeiro in 1992, establishing commitments for biodiversity conservation and sustainable use."
+    },
+    {
+      "id": "CUET_BIO_2026_P18_L8B_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "Which of the following is the primary mechanism by which CFCs (chlorofluorocarbons) cause ozone depletion?",
+      "options": [
+        "A) CFCs directly react with O3 to form O2",
+        "B) UV photolysis of CFCs releases Cl· radicals that catalytically destroy O3",
+        "C) CFCs absorb UV radiation, preventing O3 formation",
+        "D) CFCs form a barrier layer blocking ozone formation"
+      ],
+      "correct_option": "B",
+      "explanation": "CFCs are photolyzed by UV radiation in the stratosphere, releasing chlorine radicals (Cl·). These catalytically destroy ozone: Cl· + O3 → ClO· + O2, and ClO· + O → Cl· + O2, allowing one Cl· to destroy thousands of O3 molecules."
+    }
+  ]
+}

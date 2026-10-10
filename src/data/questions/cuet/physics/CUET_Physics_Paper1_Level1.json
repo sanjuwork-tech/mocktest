@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_PHY_2026_P1_L1",
+  "series_id": "CUET_PHY_2026",
+  "paper_number": 1,
+  "difficulty_level": "1",
+  "subject": "Physics (Code: 322)",
+  "syllabus_source": "cuet physics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q01",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Potential",
+      "difficulty": "easy",
+      "question": "The electric potential at a point 0.2 m from a point charge of +5 μC is approximately: (k = 9×10⁹ N·m²/C²)",
+      "options": [
+        "A) 1.125×10⁶ V",
+        "B) 2.25×10⁵ V",
+        "C) 2.25×10⁴ V",
+        "D) 4.5×10⁵ V"
+      ],
+      "correct_option": "B",
+      "explanation": "V = kq/r = (9×10⁹)(5×10⁻⁶)/0.2 = 45×10³/0.2 = 225×10³ = 2.25×10⁵ V"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q02",
+      "topic": "Current Electricity",
+      "sub_topic": "Kirchhoff's Rules",
+      "difficulty": "easy",
+      "question": "Kirchhoff's junction rule is based on conservation of:",
+      "options": [
+        "A) Charge",
+        "B) Momentum",
+        "C) Mass",
+        "D) Energy"
+      ],
+      "correct_option": "A",
+      "explanation": "Kirchhoff's junction rule (current law) states that the sum of currents entering a junction equals the sum leaving. This is based on conservation of charge."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q03",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Biot-Savart Law",
+      "difficulty": "easy",
+      "question": "The direction of magnetic field due to a current-carrying straight conductor is determined by:",
+      "options": [
+        "A) Right-hand thumb rule",
+        "B) Fleming's left-hand rule",
+        "C) Snell's law",
+        "D) Lenz's law"
+      ],
+      "correct_option": "A",
+      "explanation": "The right-hand thumb rule (grasp rule) gives the direction of magnetic field lines around a current-carrying conductor: thumb in current direction, fingers curl in B direction."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q04",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Faraday's Law",
+      "difficulty": "easy",
+      "question": "Faraday's law of electromagnetic induction states that the induced emf is proportional to:",
+      "options": [
+        "A) The rate of change of magnetic flux",
+        "B) The square of magnetic flux",
+        "C) The magnetic flux",
+        "D) The resistance of the coil"
+      ],
+      "correct_option": "A",
+      "explanation": "Faraday's law: ε = -dΦ/dt. The induced emf is proportional to the rate of change of magnetic flux through the circuit."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q05",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Displacement Current",
+      "difficulty": "easy",
+      "question": "The concept of displacement current was introduced by:",
+      "options": [
+        "A) Ampere",
+        "B) Maxwell",
+        "C) Faraday",
+        "D) Hertz"
+      ],
+      "correct_option": "B",
+      "explanation": "James Clerk Maxwell introduced the concept of displacement current to generalize Ampere's law for time-varying electric fields."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q06",
+      "topic": "Optics",
+      "sub_topic": "Refraction",
+      "difficulty": "easy",
+      "question": "Snell's law relates the angle of incidence to the angle of refraction through:",
+      "options": [
+        "A) Both refractive indices and speeds",
+        "B) Ratio of speeds",
+        "C) Refractive indices of the two media",
+        "D) Wavelength ratio"
+      ],
+      "correct_option": "A",
+      "explanation": "Snell's law: n₁ sin i = n₂ sin r, or sin i / sin r = v₁/v₂ = n₂/n₁. It relates both refractive indices and speeds of light in the two media."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q07",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photon Energy",
+      "difficulty": "easy",
+      "question": "The energy of a photon of wavelength 600 nm is approximately: (h = 6.63×10⁻³⁴ J·s, c = 3×10⁸ m/s)",
+      "options": [
+        "A) 3.3×10⁻¹⁹ J",
+        "B) 1.1×10⁻¹⁹ J",
+        "C) 4.4×10⁻¹⁹ J",
+        "D) 6.6×10⁻¹⁹ J"
+      ],
+      "correct_option": "A",
+      "explanation": "E = hc/λ = (6.63×10⁻³⁴)(3×10⁸)/(600×10⁻⁹) = 19.89×10⁻²⁶/600×10⁻⁹ = 3.315×10⁻¹⁹ J ≈ 3.3×10⁻¹⁹ J"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q08",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Bohr Model",
+      "difficulty": "easy",
+      "question": "The radius of the first Bohr orbit (n=1) in hydrogen atom is approximately:",
+      "options": [
+        "A) 0.53 Å",
+        "B) 1.06 Å",
+        "C) 0.26 Å",
+        "D) 2.12 Å"
+      ],
+      "correct_option": "A",
+      "explanation": "Bohr radius rₙ = n²a₀ where a₀ = 0.53 Å. For n=1: r₁ = 0.53 Å."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q09",
+      "topic": "Electronic Devices",
+      "sub_topic": "Diodes",
+      "difficulty": "easy",
+      "question": "A p-n junction diode is forward biased when:",
+      "options": [
+        "A) P-side is at higher potential than N-side",
+        "B) Voltage is zero",
+        "C) N-side is at higher potential than P-side",
+        "D) Both sides are at same potential"
+      ],
+      "correct_option": "A",
+      "explanation": "Forward bias: P-side connected to positive terminal, N-side to negative. This reduces the depletion layer width and allows current flow."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q10",
+      "topic": "Electrostatics",
+      "sub_topic": "Capacitors in Series/Parallel",
+      "difficulty": "hard",
+      "question": "Three capacitors of 2 μF, 3 μF, and 6 μF are connected in series across a 12 V battery. The charge on the 3 μF capacitor is:",
+      "options": [
+        "A) 36 μC",
+        "B) 6 μC",
+        "C) 24 μC",
+        "D) 12 μC"
+      ],
+      "correct_option": "D",
+      "explanation": "1/C_s = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. C_s = 1 μF. Q = C_s×V = 1×12 = 12 μC. In series, charge is same on all capacitors."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q11",
+      "topic": "Current Electricity",
+      "sub_topic": "Resistance and Resistivity",
+      "difficulty": "easy",
+      "question": "The resistivity of a material depends on:",
+      "options": [
+        "A) Length of the conductor",
+        "B) Nature of the material",
+        "C) Current flowing through the conductor",
+        "D) Cross-sectional area of the conductor"
+      ],
+      "correct_option": "B",
+      "explanation": "Resistivity (ρ) is an intrinsic property of a material and depends on the nature of the material, not on dimensions."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q12",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Force on Moving Charge",
+      "difficulty": "easy",
+      "question": "A charged particle moves perpendicular to a uniform magnetic field. The path of the particle will be:",
+      "options": [
+        "A) Ellipse",
+        "B) Straight line",
+        "C) Circle",
+        "D) Parabola"
+      ],
+      "correct_option": "C",
+      "explanation": "When a charged particle moves perpendicular to a magnetic field, the magnetic force acts as centripetal force, causing circular motion."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q13",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "AC Circuits",
+      "difficulty": "easy",
+      "question": "In a pure inductive AC circuit, the current:",
+      "options": [
+        "A) Leads the voltage by 90°",
+        "B) Is in phase with the voltage",
+        "C) Lags the voltage by 180°",
+        "D) Lags the voltage by 90°"
+      ],
+      "correct_option": "D",
+      "explanation": "In a pure inductive circuit, current lags behind voltage by 90° (π/2) because the induced emf opposes the change in current."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q14",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Spectrum Applications",
+      "difficulty": "medium",
+      "question": "Radar uses which part of the electromagnetic spectrum for detection and ranging?",
+      "options": [
+        "A) Infrared waves",
+        "B) Microwaves",
+        "C) Radio waves",
+        "D) Ultraviolet waves"
+      ],
+      "correct_option": "B",
+      "explanation": "Radar (Radio Detection and Ranging) uses microwaves (wavelengths of cm to m) because they reflect off objects well and travel in straight lines."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q15",
+      "topic": "Optics",
+      "sub_topic": "Optical Instruments",
+      "difficulty": "easy",
+      "question": "The magnifying power of a simple microscope (convex lens) is maximum when the object is placed at:",
+      "options": [
+        "A) Infinity",
+        "B) Between F and the lens",
+        "C) 2F",
+        "D) Focal point"
+      ],
+      "correct_option": "B",
+      "explanation": "For a simple magnifier, maximum angular magnification occurs when the image is at the near point (D), meaning the object is placed just inside the focal length (between F and lens)."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q16",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Einstein's Photoelectric Equation",
+      "difficulty": "medium",
+      "question": "A metal has work function 2.5 eV. What is the threshold wavelength for this metal? (h = 4.14×10⁻¹⁵ eV·s, c = 3×10⁸ m/s)",
+      "options": [
+        "A) 300 nm",
+        "B) 400 nm",
+        "C) 500 nm",
+        "D) 620 nm"
+      ],
+      "correct_option": "C",
+      "explanation": "λ₀ = hc/φ = (4.14×10⁻¹⁵ eV·s)(3×10⁸ m/s)/(2.5 eV) = 12.42×10⁻⁷/2.5 = 4.968×10⁻⁷ m ≈ 497 nm ≈ 500 nm"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q17",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Physics",
+      "difficulty": "easy",
+      "question": "The mass defect in a nucleus is due to:",
+      "options": [
+        "A) Neutron emission",
+        "B) Conversion of mass into binding energy",
+        "C) Proton decay",
+        "D) Loss of electrons"
+      ],
+      "correct_option": "B",
+      "explanation": "Mass defect = (sum of nucleon masses) - (actual nuclear mass). This mass difference is converted into binding energy via E=mc², holding the nucleus together."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q18",
+      "topic": "Electronic Devices",
+      "sub_topic": "Transistors",
+      "difficulty": "medium",
+      "question": "In an n-p-n transistor, the base is:",
+      "options": [
+        "A) Heavily doped and narrow",
+        "B) Lightly doped and wide",
+        "C) Heavily doped and wide",
+        "D) Lightly doped and narrow"
+      ],
+      "correct_option": "D",
+      "explanation": "In a transistor, the base is lightly doped and made very narrow to allow most charge carriers from emitter to reach the collector, enabling current amplification."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q19",
+      "topic": "Electrostatics",
+      "sub_topic": "Gauss's Law",
+      "difficulty": "easy",
+      "question": "Gauss's law states that the total electric flux through a closed surface is equal to:",
+      "options": [
+        "A) The sum of all charges outside the surface",
+        "B) ε₀ times the net charge enclosed",
+        "C) 1/ε₀ times the net charge enclosed",
+        "D) The product of area and field"
+      ],
+      "correct_option": "C",
+      "explanation": "Gauss's law: ∮E·dA = Q_enclosed/ε₀. The flux equals the enclosed charge divided by ε₀."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q20",
+      "topic": "Current Electricity",
+      "sub_topic": "Electrical Power",
+      "difficulty": "medium",
+      "question": "An electric heater rated 1000 W, 220 V is connected to a 110 V supply. What power does it consume? (Assume resistance remains constant)",
+      "options": [
+        "A) 2000 W",
+        "B) 1000 W",
+        "C) 500 W",
+        "D) 250 W"
+      ],
+      "correct_option": "D",
+      "explanation": "R = V²/P = 220²/1000 = 48.4 Ω. At 110 V: P = V²/R = 110²/48.4 = 12100/48.4 = 250 W"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q21",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Materials",
+      "difficulty": "easy",
+      "question": "The magnetic susceptibility of a diamagnetic material is:",
+      "options": [
+        "A) Positive and large",
+        "B) Positive and small",
+        "C) Zero",
+        "D) Negative and small"
+      ],
+      "correct_option": "D",
+      "explanation": "Diamagnetic materials have small negative magnetic susceptibility (χ < 0, |χ| << 1). They are weakly repelled by a magnetic field."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q22",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Self-Induction",
+      "difficulty": "easy",
+      "question": "The self-inductance of a coil depends on:",
+      "options": [
+        "A) Current through the coil",
+        "B) Resistance of the coil",
+        "C) Number of turns and geometry of the coil",
+        "D) Voltage across the coil"
+      ],
+      "correct_option": "C",
+      "explanation": "Self-inductance L = NΦ/I depends on the number of turns N, geometry (area, length), and core material. It is independent of current."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q23",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Spectrum",
+      "difficulty": "easy",
+      "question": "Which of the following has the longest wavelength?",
+      "options": [
+        "A) Microwaves",
+        "B) Gamma rays",
+        "C) Visible light",
+        "D) X-rays"
+      ],
+      "correct_option": "A",
+      "explanation": "EM spectrum order by wavelength (decreasing): Radio > Microwave > Infrared > Visible > UV > X-ray > Gamma. Microwaves have the longest wavelength among the options."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q24",
+      "topic": "Optics",
+      "sub_topic": "Diffraction",
+      "difficulty": "hard",
+      "question": "In a single-slit diffraction experiment, light of wavelength 600 nm passes through a slit of width 0.12 mm. The angular position of the first minimum is approximately:",
+      "options": [
+        "A) 0.5°",
+        "B) 1°",
+        "C) 0.05°",
+        "D) 0.29°"
+      ],
+      "correct_option": "D",
+      "explanation": "For first minimum: a sinθ = λ → sinθ = λ/a = 600×10⁻⁹/(0.12×10⁻³) = 5×10⁻³. θ ≈ sinθ = 0.005 rad = 0.005 × (180/π) ≈ 0.286° ≈ 0.29°"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q25",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "de-Broglie Relation",
+      "difficulty": "easy",
+      "question": "The de-Broglie wavelength of a particle is inversely proportional to its:",
+      "options": [
+        "A) Velocity",
+        "B) Mass",
+        "C) Energy",
+        "D) Momentum"
+      ],
+      "correct_option": "D",
+      "explanation": "de-Broglie wavelength λ = h/p, where p is momentum. λ is inversely proportional to momentum."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q26",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Radioactivity",
+      "difficulty": "easy",
+      "question": "The half-life of a radioactive substance is 10 days. What fraction of the original sample remains after 30 days?",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 1/16",
+        "D) 1/8"
+      ],
+      "correct_option": "D",
+      "explanation": "Number of half-lives n = 30/10 = 3. Fraction remaining = (1/2)ⁿ = (1/2)³ = 1/8."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q27",
+      "topic": "Electronic Devices",
+      "sub_topic": "Zener Diode",
+      "difficulty": "hard",
+      "question": "A Zener diode with breakdown voltage 6.8 V is used in a voltage regulator circuit. If the input voltage varies between 10 V and 15 V and the series resistance is 200 Ω, the maximum Zener current occurs at input voltage of:",
+      "options": [
+        "A) 0 V",
+        "B) 10 V",
+        "C) 15 V",
+        "D) 6.8 V"
+      ],
+      "correct_option": "C",
+      "explanation": "Zener current Iz = (Vin - Vz)/Rs. Maximum Iz occurs at maximum Vin. At Vin = 15 V: Iz = (15-6.8)/200 = 8.2/200 = 41 mA. This is the maximum current through the Zener diode."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q28",
+      "topic": "Electrostatics",
+      "sub_topic": "Coulomb's Law",
+      "difficulty": "easy",
+      "question": "Two point charges of +3 μC and -3 μC are placed 0.1 m apart in vacuum. What is the magnitude of the electrostatic force between them? (k = 9×10⁹ N·m²/C²)",
+      "options": [
+        "A) 8.1 N",
+        "B) 0.81 N",
+        "C) 81 N",
+        "D) 810 N"
+      ],
+      "correct_option": "A",
+      "explanation": "F = k|q₁q₂|/r² = (9×10⁹)(3×10⁻⁶)(3×10⁻⁶)/(0.1)² = (9×10⁹)(9×10⁻¹²)/0.01 = 81×10⁻³/0.01 = 8.1 N"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q29",
+      "topic": "Current Electricity",
+      "sub_topic": "Ohm's Law",
+      "difficulty": "easy",
+      "question": "The resistance of a conductor depends on:",
+      "options": [
+        "A) Length, cross-sectional area and material",
+        "B) Current flowing through it",
+        "C) Length only",
+        "D) Material only"
+      ],
+      "correct_option": "A",
+      "explanation": "Resistance R = ρL/A depends on resistivity ρ (material), length L, and cross-sectional area A."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q30",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Ampere's Circuital Law",
+      "difficulty": "easy",
+      "question": "A long straight wire carries a current of 5 A. The magnetic field at a distance of 0.1 m from the wire is: (μ₀ = 4π×10⁻⁷ T·m/A)",
+      "options": [
+        "A) 1×10⁻⁵ T",
+        "B) 4π×10⁻⁶ T",
+        "C) 5×10⁻⁶ T",
+        "D) 2×10⁻⁵ T"
+      ],
+      "correct_option": "A",
+      "explanation": "B = μ₀I/(2πr) = (4π×10⁻⁷)(5)/(2π×0.1) = 20π×10⁻⁷/(0.2π) = 100×10⁻⁷ = 1×10⁻⁵ T"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q31",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Transformers",
+      "difficulty": "medium",
+      "question": "A step-up transformer has a turns ratio (N₂/N₁) of 10. If the primary voltage is 220 V, the secondary voltage is:",
+      "options": [
+        "A) 22 V",
+        "B) 2200 V",
+        "C) 440 V",
+        "D) 110 V"
+      ],
+      "correct_option": "B",
+      "explanation": "V₂/V₁ = N₂/N₁ → V₂ = 220 × 10 = 2200 V. A step-up transformer increases voltage proportionally to turns ratio."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q32",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Spectrum",
+      "difficulty": "easy",
+      "question": "The speed of electromagnetic waves in vacuum is approximately:",
+      "options": [
+        "A) 3×10⁵ m/s",
+        "B) 3×10⁶ m/s",
+        "C) 3×10¹⁰ m/s",
+        "D) 3×10⁸ m/s"
+      ],
+      "correct_option": "D",
+      "explanation": "All EM waves travel at speed c = 3×10⁸ m/s in vacuum, regardless of frequency or wavelength."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q33",
+      "topic": "Optics",
+      "sub_topic": "Interference",
+      "difficulty": "medium",
+      "question": "In Young's double-slit experiment, if the slit separation is halved while keeping other parameters constant, the fringe width becomes:",
+      "options": [
+        "A) Double",
+        "B) Half",
+        "C) Four times",
+        "D) Unchanged"
+      ],
+      "correct_option": "A",
+      "explanation": "Fringe width β = λD/d. If d is halved, β doubles. Fringe width is inversely proportional to slit separation."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q34",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Effect",
+      "difficulty": "easy",
+      "question": "The threshold frequency in photoelectric effect depends on:",
+      "options": [
+        "A) Frequency of incident light",
+        "B) Work function of the metal",
+        "C) Angle of incidence",
+        "D) Intensity of incident light"
+      ],
+      "correct_option": "B",
+      "explanation": "Threshold frequency ν₀ = φ/h, where φ is the work function. It depends on the material (work function), not on light intensity."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q35",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Fission",
+      "difficulty": "easy",
+      "question": "In nuclear fission, the energy released comes from:",
+      "options": [
+        "A) Kinetic energy of neutrons",
+        "B) Chemical bonds breaking",
+        "C) Difference in binding energy per nucleon between parent and daughter nuclei",
+        "D) Electromagnetic radiation"
+      ],
+      "correct_option": "C",
+      "explanation": "Nuclear fission releases energy because the binding energy per nucleon of the fission products is higher than that of the heavy parent nucleus. The difference in total binding energy is released."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q36",
+      "topic": "Electronic Devices",
+      "sub_topic": "Rectifiers",
+      "difficulty": "medium",
+      "question": "A full-wave rectifier uses how many diodes?",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "A full-wave rectifier typically uses 2 diodes (center-tapped transformer) or 4 diodes (bridge rectifier). The standard answer for 'how many' in basic CUET context is 2 (center-tapped configuration is most commonly taught as the basic full-wave rectifier)."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q37",
+      "topic": "Electrostatics",
+      "sub_topic": "Capacitors",
+      "difficulty": "medium",
+      "question": "A parallel plate capacitor has capacitance 10 pF. If the plate area is doubled and the separation is halved, the new capacitance will be:",
+      "options": [
+        "A) 20 pF",
+        "B) 10 pF",
+        "C) 5 pF",
+        "D) 40 pF"
+      ],
+      "correct_option": "D",
+      "explanation": "C = ε₀A/d. New C' = ε₀(2A)/(d/2) = 4(ε₀A/d) = 4C = 4×10 = 40 pF"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q38",
+      "topic": "Current Electricity",
+      "sub_topic": "Wheatstone Bridge",
+      "difficulty": "medium",
+      "question": "In a Wheatstone bridge, if P = 10 Ω, Q = 20 Ω, and R = 30 Ω, what should be the value of S for the bridge to be balanced?",
+      "options": [
+        "A) 7.5 Ω",
+        "B) 60 Ω",
+        "C) 6 Ω",
+        "D) 15 Ω"
+      ],
+      "correct_option": "B",
+      "explanation": "Balance condition: P/Q = R/S → 10/20 = 30/S → S = 30×20/10 = 60 Ω"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q39",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Force on Current-Carrying Conductor",
+      "difficulty": "medium",
+      "question": "A conductor of length 0.5 m carrying a current of 2 A is placed in a magnetic field of 0.4 T at an angle of 30° to the field. The magnetic force on the conductor is:",
+      "options": [
+        "A) 0.6 N",
+        "B) 0.4 N",
+        "C) 0.2 N",
+        "D) 0.8 N"
+      ],
+      "correct_option": "C",
+      "explanation": "F = BIL sinθ = 0.4 × 2 × 0.5 × sin30° = 0.4 × 2 × 0.5 × 0.5 = 0.2 N"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q40",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "LCR Circuit",
+      "difficulty": "medium",
+      "question": "In a series LCR circuit at resonance, the impedance is:",
+      "options": [
+        "A) Equal to XL",
+        "B) Zero",
+        "C) Equal to R",
+        "D) Equal to XC"
+      ],
+      "correct_option": "C",
+      "explanation": "At resonance in a series LCR circuit, XL = XC, so Z = √(R² + (XL-XC)²) = R. The impedance is purely resistive and minimum."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q41",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Properties of EM Waves",
+      "difficulty": "easy",
+      "question": "Electromagnetic waves are:",
+      "options": [
+        "A) Both longitudinal and transverse",
+        "B) Neither longitudinal nor transverse",
+        "C) Transverse waves",
+        "D) Longitudinal waves"
+      ],
+      "correct_option": "C",
+      "explanation": "EM waves are transverse waves where E and B oscillate perpendicular to each other and to the direction of propagation."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q42",
+      "topic": "Optics",
+      "sub_topic": "Lens Formula",
+      "difficulty": "easy",
+      "question": "A convex lens of focal length 10 cm forms an image of an object placed 20 cm away. The magnification is:",
+      "options": [
+        "A) -2",
+        "B) +1",
+        "C) -1",
+        "D) +2"
+      ],
+      "correct_option": "C",
+      "explanation": "1/v = 1/f + 1/u = 1/10 + 1/(-20) = 2/20 - 1/20 = 1/20. v = 20 cm. m = -v/u = -20/(-20) = -1. The negative sign indicates inverted image."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q43",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Effect",
+      "difficulty": "easy",
+      "question": "The photoelectric effect demonstrates that light has:",
+      "options": [
+        "A) Both wave and particle nature equally",
+        "B) Particle nature",
+        "C) Neither wave nor particle nature",
+        "D) Wave nature only"
+      ],
+      "correct_option": "B",
+      "explanation": "The photoelectric effect (instantaneous emission, threshold frequency, kinetic energy independent of intensity) demonstrates the particle nature of light (photons)."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q44",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Binding Energy",
+      "difficulty": "medium",
+      "question": "A nucleus has mass defect of 0.2 u. Its binding energy is approximately: (1 u = 931.5 MeV/c²)",
+      "options": [
+        "A) 93.15 MeV",
+        "B) 186.3 MeV",
+        "C) 465.75 MeV",
+        "D) 0.2 MeV"
+      ],
+      "correct_option": "B",
+      "explanation": "Binding energy = mass defect × 931.5 MeV/u = 0.2 × 931.5 = 186.3 MeV"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q45",
+      "topic": "Electronic Devices",
+      "sub_topic": "Semiconductors",
+      "difficulty": "easy",
+      "question": "The number of free electrons in an intrinsic semiconductor at absolute zero temperature is:",
+      "options": [
+        "A) Equal to number of holes",
+        "B) Zero",
+        "C) Very large",
+        "D) Same as in conductor"
+      ],
+      "correct_option": "B",
+      "explanation": "At absolute zero, an intrinsic semiconductor behaves as a perfect insulator. No electrons have enough energy to cross the band gap, so free electrons = 0."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q46",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Field",
+      "difficulty": "easy",
+      "question": "A charge of 2 μC is placed in an electric field of strength 500 N/C. What is the force experienced by the charge?",
+      "options": [
+        "A) 2.5×10⁻³ N",
+        "B) 1×10⁻⁶ N",
+        "C) 1×10⁻³ N",
+        "D) 250 N"
+      ],
+      "correct_option": "C",
+      "explanation": "F = qE = (2×10⁻⁶ C)(500 N/C) = 1×10⁻³ N"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q47",
+      "topic": "Current Electricity",
+      "sub_topic": "Ohm's Law",
+      "difficulty": "easy",
+      "question": "A wire of resistance 10 Ω is stretched to double its length. What is its new resistance? (Assume volume remains constant)",
+      "options": [
+        "A) 10 Ω",
+        "B) 20 Ω",
+        "C) 40 Ω",
+        "D) 5 Ω"
+      ],
+      "correct_option": "C",
+      "explanation": "R = ρL/A. When length doubles and volume (AL) is constant, area halves. R' = ρ(2L)/(A/2) = 4ρL/A = 4R = 40 Ω"
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q48",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Lenz's Law",
+      "difficulty": "easy",
+      "question": "Lenz's law is based on the conservation of:",
+      "options": [
+        "A) Momentum",
+        "B) Angular momentum",
+        "C) Charge",
+        "D) Energy"
+      ],
+      "correct_option": "D",
+      "explanation": "Lenz's law states that the induced current opposes the change producing it. This opposition requires external work, conserving energy."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q49",
+      "topic": "Optics",
+      "sub_topic": "Mirror Formula",
+      "difficulty": "easy",
+      "question": "An object is placed 30 cm in front of a concave mirror of focal length 15 cm. The image distance is:",
+      "options": [
+        "A) 45 cm",
+        "B) 30 cm",
+        "C) 60 cm",
+        "D) 15 cm"
+      ],
+      "correct_option": "B",
+      "explanation": "Mirror formula: 1/v + 1/u = 1/f. 1/v = 1/f - 1/u = 1/(-15) - 1/(-30) = -1/15 + 1/30 = -2/30 + 1/30 = -1/30. v = -30 cm. Magnitude is 30 cm."
+    },
+    {
+      "id": "CUET_PHY_2026_P1_L1_Q50",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Bohr Model",
+      "difficulty": "easy",
+      "question": "In the Bohr model of hydrogen atom, the energy of the electron in the ground state (n=1) is:",
+      "options": [
+        "A) -3.4 eV",
+        "B) 0 eV",
+        "C) -1.5 eV",
+        "D) -13.6 eV"
+      ],
+      "correct_option": "D",
+      "explanation": "Energy in nth orbit: Eₙ = -13.6/n² eV. For n=1: E₁ = -13.6 eV. This is the ground state energy of hydrogen."
+    }
+  ]
+}

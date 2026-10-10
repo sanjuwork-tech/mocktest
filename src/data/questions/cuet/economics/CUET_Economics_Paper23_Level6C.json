@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P23_L6C",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 23,
+  "difficulty_level": "6C",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Marginal Rate of Transformation",
+      "difficulty": "hard",
+      "question": "The slope of the Production Possibility Frontier at any given point is measured by the:",
+      "options": [
+        "A) Marginal Rate of Technical Substitution",
+        "B) Marginal Rate of Transformation (MRT)",
+        "C) Marginal Propensity to Consume",
+        "D) Price elasticity of substitution"
+      ],
+      "correct_option": "B",
+      "explanation": "The slope of the PPF is the Marginal Rate of Transformation (MRT = Delta Y / Delta X), which reflects the marginal opportunity cost of producing an extra unit of good X."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Convexity of Indifference Curve",
+      "difficulty": "hard",
+      "question": "An indifference curve slopes downward and is convex to the origin because the Marginal Rate of Substitution (MRS_xy) is:",
+      "options": [
+        "A) Strictly increasing at an exponential rate",
+        "B) Continuously diminishing as more of good X is substituted for good Y",
+        "C) Constant and equal to unity across all bundles",
+        "D) Equal to zero at all points"
+      ],
+      "correct_option": "B",
+      "explanation": "Convexity of an indifference curve to the origin is caused by the diminishing Marginal Rate of Substitution as the consumer acquires more of one good relative to the other."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer Equilibrium Condition",
+      "difficulty": "hard",
+      "question": "At the point of consumer equilibrium under indifference curve analysis, the budget line is:",
+      "options": [
+        "A) Perpendicular to the horizontal axis",
+        "B) Tangent to the highest attainable indifference curve, where MRS_xy = P_x / P_y",
+        "C) Intersecting two separate indifference curves simultaneously",
+        "D) Parallel to the consumption contract curve"
+      ],
+      "correct_option": "B",
+      "explanation": "Consumer equilibrium is achieved where the budget line is tangent to the highest possible indifference curve, equating the slope of the indifference curve (MRS_xy) to the price ratio (P_x / P_y)."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Normal vs Inferior Income Effect",
+      "difficulty": "medium",
+      "question": "For a normal good, what is the direction of the income effect when consumer money income increases?",
+      "options": [
+        "A) Negative, causing quantity demanded to contract",
+        "B) Positive, causing quantity demanded to expand",
+        "C) Zero, leaving demand completely unchanged",
+        "D) Highly negative, leading to upward-sloping demand"
+      ],
+      "correct_option": "B",
+      "explanation": "Normal goods have a positive income elasticity of demand: a rise in consumer purchasing power leads directly to an increase in quantity demanded."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Total Outlay Unitary Elasticity",
+      "difficulty": "hard",
+      "question": "According to the total outlay method, if total expenditure on a good remains constant when its market price changes, the price elasticity of demand is:",
+      "options": [
+        "A) Perfectly inelastic (e_p = 0)",
+        "B) Unitary (e_p = 1)",
+        "C) Highly elastic (e_p > 1)",
+        "D) Perfectly elastic (e_p = infinity)"
+      ],
+      "correct_option": "B",
+      "explanation": "When a change in price leaves total consumer expenditure completely unchanged, price elasticity of demand is unitary (e_p = 1)."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q06",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Law of Variable Proportions Stage II",
+      "difficulty": "hard",
+      "question": "Stage II (Stage of Diminishing Returns) in the Law of Variable Proportions begins and ends at which respective points?",
+      "options": [
+        "A) Begins at zero output and ends where MP is at its maximum",
+        "B) Begins where AP is at its maximum (AP = MP) and ends where TP is at its maximum (MP = 0)",
+        "C) Begins where MP = 0 and ends where MP becomes positive",
+        "D) Begins where AP = 0 and ends where TP becomes negative"
+      ],
+      "correct_option": "B",
+      "explanation": "Stage II starts where Average Product reaches its maximum (where AP = MP) and terminates where Total Product reaches its peak (where MP = 0)."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q07",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "MC and AVC Relationship",
+      "difficulty": "medium",
+      "question": "At the minimum point of the Average Variable Cost (AVC) curve, what is the exact mathematical relationship between MC and AVC?",
+      "options": [
+        "A) Marginal Cost is strictly greater than AVC",
+        "B) Marginal Cost is equal to Average Variable Cost (MC = AVC)",
+        "C) Marginal Cost is strictly less than AVC",
+        "D) Marginal Cost is at its absolute peak"
+      ],
+      "correct_option": "B",
+      "explanation": "The Marginal Cost curve intersects the Average Variable Cost curve from below at the minimum point of AVC; hence, MC = AVC at this minimum."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q08",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Break-Even Point Competitive Firm",
+      "difficulty": "hard",
+      "question": "A competitive firm achieves its 'Break-Even Point' in the short run when the market price is equal to:",
+      "options": [
+        "A) Minimum Average Variable Cost (P = minimum AVC)",
+        "B) Minimum Average Total Cost (P = minimum ATC)",
+        "C) Average Fixed Cost (P = AFC)",
+        "D) Zero marginal cost"
+      ],
+      "correct_option": "B",
+      "explanation": "At P = minimum ATC, total revenue equals total cost (TR = TC), meaning the firm earns exactly normal profits and breaks even."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Shut-Down Condition",
+      "difficulty": "hard",
+      "question": "A perfectly competitive firm will temporarily shut down production in the short run if the market price drops below:",
+      "options": [
+        "A) Minimum Average Total Cost (P < minimum ATC)",
+        "B) Minimum Average Variable Cost (P < minimum AVC)",
+        "C) Average Fixed Cost (P < AFC)",
+        "D) Total Fixed Cost divided by price"
+      ],
+      "correct_option": "B",
+      "explanation": "In the short run, fixed costs are sunk. If price falls below minimum AVC, the firm cannot even cover its variable operating expenses, making immediate shutdown optimal."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q10",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Long Run Competitive Equilibrium",
+      "difficulty": "hard",
+      "question": "In the long run, free entry and exit of firms in a perfectly competitive industry ensures that every firm produces at the point where:",
+      "options": [
+        "A) Price exceeds marginal cost by 50 percent",
+        "B) Price = Marginal Revenue = Long-run Marginal Cost = Minimum Long-run Average Cost",
+        "C) Supernormal economic profits are permanently maximized",
+        "D) Long-run average cost is rising exponentially"
+      ],
+      "correct_option": "B",
+      "explanation": "In long-run competitive equilibrium, firms earn only normal profits, producing at the minimum of the LAC curve where P = MR = LMC = minimum LAC."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q11",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Monopoly AR and MR Formula",
+      "difficulty": "hard",
+      "question": "For a monopoly firm facing a downward-sloping demand curve with price elasticity of demand 'e', the relationship between Marginal Revenue (MR) and Average Revenue (AR) is given by:",
+      "options": [
+        "A) MR = AR / e",
+        "B) MR = AR * [1 + 1/e]",
+        "C) MR = AR * [1 - 1/e]",
+        "D) MR = AR * e"
+      ],
+      "correct_option": "C",
+      "explanation": "The mathematical relationship between MR, AR, and elasticity is MR = AR * (1 - 1/e). When demand is elastic (e > 1), MR is positive; when e = 1, MR is zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Discrimination Preconditions",
+      "difficulty": "medium",
+      "question": "A monopolist can successfully practice third-degree price discrimination between two different markets only if:",
+      "options": [
+        "A) Marginal cost of production is zero in both markets",
+        "B) Both sub-markets exhibit identical unitary price elasticity",
+        "C) The sub-markets have different price elasticities of demand and can be effectively segregated to prevent resale",
+        "D) Products are sold exclusively through government ration shops"
+      ],
+      "correct_option": "C",
+      "explanation": "Price discrimination requires market segregation to prevent arbitrage (resale) and differing demand elasticities so higher prices can be charged in the less elastic market."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Oligopoly Price Rigidity",
+      "difficulty": "hard",
+      "question": "In the kinked demand curve model of oligopoly, prices tend to be rigid (sticky) because:",
+      "options": [
+        "A) All competing firms produce identical perishable agricultural crops",
+        "B) Firms are legally prevented from altering prices by anti-trust regulators",
+        "C) The marginal revenue curve has a vertical discontinuity directly below the kink, absorbing shifts in marginal cost without altering price",
+        "D) Demand curves are perfectly horizontal at all outputs"
+      ],
+      "correct_option": "C",
+      "explanation": "The kink in the demand curve produces a discontinuous vertical gap in the marginal revenue curve. Shifts in MC within this gap leave equilibrium price and quantity unchanged."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Shift in Demand Constant Supply",
+      "difficulty": "medium",
+      "question": "If market demand increases while market supply remains perfectly fixed (upward sloping), how will equilibrium price and quantity adjust?",
+      "options": [
+        "A) Equilibrium price will rise while quantity falls",
+        "B) Equilibrium price will fall while quantity increases",
+        "C) Both equilibrium price and equilibrium quantity will increase",
+        "D) Both equilibrium price and quantity will decrease"
+      ],
+      "correct_option": "C",
+      "explanation": "A rightward shift in demand along an upward-sloping supply curve causes both equilibrium price and equilibrium quantity to rise."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Ceiling Black Market",
+      "difficulty": "easy",
+      "question": "An unintended market distortion that frequently emerges when a price ceiling is imposed below the equilibrium market price is:",
+      "options": [
+        "A) An immediate collapse of consumer demand",
+        "B) Massive unsold surplus accumulating in warehouses",
+        "C) Black marketing and rationing queues",
+        "D) Excessive corporate dividend payouts"
+      ],
+      "correct_option": "C",
+      "explanation": "A price ceiling creates excess demand (shortages), which frequently spawns illegal black marketing where scarce goods are sold above the statutory price."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopolistic Competition Selling Costs",
+      "difficulty": "easy",
+      "question": "Under monopolistic competition, brand advertising and packaging designed to differentiate a product in consumer perception are termed:",
+      "options": [
+        "A) Fixed capital amortization",
+        "B) Production costs",
+        "C) Selling costs",
+        "D) Primary factor rents"
+      ],
+      "correct_option": "C",
+      "explanation": "Selling costs are expenditures incurred by firms to promote sales and influence the shape or position of the demand curve for their differentiated product."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Two Sector Circular Flow",
+      "difficulty": "easy",
+      "question": "In a simple two-sector circular flow economy without government and foreign trade, total factor payments by enterprises must identically equal:",
+      "options": [
+        "A) Corporate retained earnings minus depreciation",
+        "B) Total foreign exchange reserves of the central bank",
+        "C) Total value of final goods and services produced",
+        "D) Municipal property tax collections"
+      ],
+      "correct_option": "C",
+      "explanation": "In a two-sector closed economy, all output produced is sold to households, and all revenues received by firms are disbursed to households as factor payments (Wages + Rent + Interest + Profit)."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Stock vs Flow Capital",
+      "difficulty": "medium",
+      "question": "Which of the following pairs correctly identifies a stock variable and its corresponding flow variable in macroeconomics?",
+      "options": [
+        "A) Gross domestic product (stock) and Foreign exchange reserves (flow)",
+        "B) Monthly salary (stock) and Annual bonus (flow)",
+        "C) Capital stock (stock) and Capital formation / Investment (flow)",
+        "D) Depreciation (stock) and National debt (flow)"
+      ],
+      "correct_option": "C",
+      "explanation": "Capital stock is measured at a specific point in time (stock), whereas investment (capital formation) is the addition to capital stock measured over an annual period (flow)."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Intermediate Consumption Criterion",
+      "difficulty": "medium",
+      "question": "Which of the following is treated as intermediate consumption in national income accounting?",
+      "options": [
+        "A) Heavy robotic assembly machine installed in a car factory",
+        "B) Purchase of a newly constructed residential flat by a family",
+        "C) Diesel fuel purchased by a freight transport company to operate delivery trucks",
+        "D) Desktop computer purchased by a student for school studies"
+      ],
+      "correct_option": "C",
+      "explanation": "Diesel fuel is completely used up during the transportation service production process, making it an intermediate consumption expenditure."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "NFIA Component Breakdown",
+      "difficulty": "hard",
+      "question": "Net Factor Income from Abroad (NFIA) is comprised of Net compensation of employees, Net retained earnings of resident companies abroad, and:",
+      "options": [
+        "A) Bilateral foreign aid loans granted to neighbouring countries",
+        "B) Unilateral personal remittances sent by migrant workers",
+        "C) Net income from property and entrepreneurship (rent, interest, and dividends)",
+        "D) Customs import tariffs collected at maritime ports"
+      ],
+      "correct_option": "C",
+      "explanation": "NFIA consists of three factor income flows: (1) Net compensation of employees, (2) Net property and entrepreneurial income, and (3) Net retained earnings of resident entities abroad."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q21",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "GVA at Market Price Formula",
+      "difficulty": "easy",
+      "question": "Gross Value Added at Market Price (GVA_MP) by an enterprise is derived as:",
+      "options": [
+        "A) Value of Output minus Net Factor Income from Abroad",
+        "B) Total Revenue plus Depreciation",
+        "C) Value of Output minus Intermediate Consumption",
+        "D) National Income plus Subsidies"
+      ],
+      "correct_option": "C",
+      "explanation": "GVA_MP = Value of Output - Value of Intermediate Consumption."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Broad Money M3 Definition",
+      "difficulty": "easy",
+      "question": "In Indian monetary statistics, Broad Money (M3) is formulated as:",
+      "options": [
+        "A) Total post office national savings certificates",
+        "B) Currency with public + Gold reserves with RBI",
+        "C) M2 + Treasury bills held by private individuals",
+        "D) M1 + Time deposits with commercial banks"
+      ],
+      "correct_option": "D",
+      "explanation": "Broad money M3 is defined as M1 (Currency with public + Demand deposits + Other deposits with RBI) plus Net Time deposits with commercial banks."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "High Powered Money Components",
+      "difficulty": "medium",
+      "question": "Reserve Money, also termed High-Powered Money (H), consists of Currency in circulation with the public + Bankers' deposits with the RBI and:",
+      "options": [
+        "A) Shares listed on the National Stock Exchange",
+        "B) Fixed time deposits of corporate enterprises",
+        "C) Commercial paper issued by private manufacturing firms",
+        "D) Other deposits with the Reserve Bank of India"
+      ],
+      "correct_option": "D",
+      "explanation": "High-powered money H = Currency with public + Cash reserves of commercial banks + Other deposits with the Reserve Bank of India."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Repo Rate vs Bank Rate",
+      "difficulty": "hard",
+      "question": "What is the key operational distinction between the Repo Rate and the Bank Rate in central bank monetary policy?",
+      "options": [
+        "A) Repo Rate is determined by private commercial banks while Bank Rate is set by Parliament",
+        "B) Repo Rate applies solely to agricultural loans while Bank Rate applies to industry",
+        "C) Bank Rate is always set lower than the Reverse Repo Rate",
+        "D) Repo Rate is a short-term rate for borrowing against collateralized government securities, whereas Bank Rate is a long-term discount rate without collateral backing"
+      ],
+      "correct_option": "D",
+      "explanation": "Repo Rate involves short-term liquidity repurchase agreements against pledged government securities. Bank Rate is the penal interest rate at which RBI lends long-term funds without collateral."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q25",
+      "topic": "Money and Banking",
+      "sub_topic": "Open Market Operations Sale",
+      "difficulty": "hard",
+      "question": "When the Reserve Bank of India conducts an Open Market Operation (OMO) by selling government bonds to the public and banks, the primary macroeconomic objective is to:",
+      "options": [
+        "A) Eliminate all central government taxes",
+        "B) Expand commercial bank lending capacity during a recession",
+        "C) Subsidize foreign multinational corporations",
+        "D) Contract the cash reserves of the banking system and curb inflationary pressure"
+      ],
+      "correct_option": "D",
+      "explanation": "Sale of government securities by the RBI soaks up liquidity from commercial banks and the public, contracting lendable reserves and curbing inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Two Sector AD Components",
+      "difficulty": "easy",
+      "question": "In a two-sector Keynesian model of income determination without government and external sectors, Aggregate Demand (AD) is equal to:",
+      "options": [
+        "A) Exports minus Imports",
+        "B) Consumption expenditure plus Government purchases",
+        "C) Savings plus Taxes",
+        "D) Consumption expenditure plus Investment expenditure (C + I)"
+      ],
+      "correct_option": "D",
+      "explanation": "In a two-sector model, Aggregate Demand consists of planned household consumption expenditure and planned business investment: AD = C + I."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "MPC Range Constraint",
+      "difficulty": "medium",
+      "question": "In macroeconomic theory, the Marginal Propensity to Consume (MPC) typically lies within which numerical boundary?",
+      "options": [
+        "A) Exactly equal to 2.0",
+        "B) MPC > 1",
+        "C) MPC < 0",
+        "D) 0 < MPC < 1"
+      ],
+      "correct_option": "D",
+      "explanation": "Because individuals consume a positive fraction but not the entirety of incremental income, MPC is positive and strictly less than one: 0 < MPC < 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier Calculation High MPC",
+      "difficulty": "medium",
+      "question": "If the Marginal Propensity to Consume (MPC) in an economy is 0.8, what is the value of the investment multiplier?",
+      "options": [
+        "A) 10",
+        "B) 2",
+        "C) 4",
+        "D) 5"
+      ],
+      "correct_option": "D",
+      "explanation": "Multiplier k = 1 / (1 - MPC) = 1 / (1 - 0.8) = 1 / 0.2 = 5."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q29",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand Fiscal Stimulus",
+      "difficulty": "medium",
+      "question": "When an economy is confronted with deficient demand (deflationary gap), which fiscal policy response will help restore full-employment equilibrium?",
+      "options": [
+        "A) Completely halting government construction contracts",
+        "B) Slashing welfare pensions and raising personal income taxes",
+        "C) Enforcing an annually balanced budget through spending cuts",
+        "D) Increasing public expenditure on infrastructure and reducing direct taxes"
+      ],
+      "correct_option": "D",
+      "explanation": "Deficient demand requires expansionary fiscal policy: boosting government expenditure injections and lowering taxes to expand aggregate purchasing power."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q30",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Excess Demand Monetary Remedy",
+      "difficulty": "medium",
+      "question": "To curb excess demand (inflationary gap), the central bank should adopt which monetary measure?",
+      "options": [
+        "A) Abolish the Cash Reserve Ratio",
+        "B) Lower the repo rate to encourage retail borrowing",
+        "C) Buy government securities in the open market",
+        "D) Increase the policy repo rate and raise the Legal Reserve Ratio (LRR)"
+      ],
+      "correct_option": "D",
+      "explanation": "Excess demand is controlled by contractionary monetary policy: hiking repo rates and reserve ratios to make borrowing expensive and contract bank credit."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Capital vs Revenue Receipts Criteria",
+      "difficulty": "medium",
+      "question": "Which of the following government receipts is classified as a capital receipt because it creates a sovereign financial liability?",
+      "options": [
+        "A) Administrative fee collected for driver license renewal",
+        "B) Corporation tax collected from listed private firms",
+        "C) Dividend received from state-owned oil enterprises",
+        "D) Market borrowings raised through issuing treasury bonds"
+      ],
+      "correct_option": "D",
+      "explanation": "Market borrowings create a formal repayment liability on the government, classifying them as debt-creating capital receipts."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q32",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Fiscal Deficit Borrowing Measure",
+      "difficulty": "easy",
+      "question": "The total gross borrowing requirements of the government from all sources during a fiscal year are measured precisely by the:",
+      "options": [
+        "A) Balance of Trade Deficit",
+        "B) Revenue Deficit",
+        "C) Primary Deficit",
+        "D) Fiscal Deficit"
+      ],
+      "correct_option": "D",
+      "explanation": "Fiscal Deficit is the definitive measure of the total net borrowing requirement of the government from domestic and external sources."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Current vs Capital Account Items",
+      "difficulty": "medium",
+      "question": "Which of the following transactions is recorded in the Current Account of India's Balance of Payments?",
+      "options": [
+        "A) Portfolio purchases of equity shares on the Bombay Stock Exchange",
+        "B) Foreign Direct Investment in Indian manufacturing factories",
+        "C) External Commercial Borrowings contracted by private companies",
+        "D) Export of software services to overseas commercial banks"
+      ],
+      "correct_option": "D",
+      "explanation": "Software services export is an invisible export of services recorded in the Current Account. FDI, commercial borrowings, and portfolio investments belong to the Capital Account."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Drain of Wealth Naoroji",
+      "difficulty": "easy",
+      "question": "Dadabhai Naoroji's pioneering 'Drain of Wealth' thesis demonstrated that British colonial rule in India was characterized by:",
+      "options": [
+        "A) 100 percent reinvestment of colonial revenues into rural canal irrigation",
+        "B) Massive industrial technology transfers from London to Indian villages",
+        "C) Substantial British subsidies paid to Indian handloom weavers",
+        "D) A continuous unilateral unrequited transfer of economic resources and export surplus to Britain without proportionate commercial returns"
+      ],
+      "correct_option": "D",
+      "explanation": "The Drain of Wealth theory proved that India's large export surplus was expropriated by the British to fund Home Charges, sterling pensions, and imperial wars without economic return."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Agrarian Stagnation Colonial Rule",
+      "difficulty": "medium",
+      "question": "Agricultural stagnation in colonial India was perpetuated primarily by which institutional arrangement?",
+      "options": [
+        "A) Subsidized distribution of high-yielding chemical fertilizers",
+        "B) The establishment of widespread agricultural credit cooperatives",
+        "C) Massive public expenditure on agricultural research universities",
+        "D) The feudal Zamindari revenue settlement, which extracted exorbitant rents without investing in land improvement"
+      ],
+      "correct_option": "D",
+      "explanation": "The Zamindari system incentivized absentee landlords to extract extortionate rents while having zero interest in investing in irrigation, soil fertility, or technology."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Discriminatory Tariff Policy Colonial",
+      "difficulty": "medium",
+      "question": "The British discriminatory tariff policy crippled Indian manufacturing by allowing:",
+      "options": [
+        "A) Duty-free export of raw materials from India and duty-free import of British finished goods, while imposing heavy export duties on Indian handicrafts",
+        "B) Protective tariffs on all Indian handloom exports to European ports",
+        "C) Subsidies to Indian iron and steel mills",
+        "D) Universal free trade with all Asian nations"
+      ],
+      "correct_option": "A",
+      "explanation": "Discriminatory tariffs ensured cheap Indian raw materials fed British mills, while British machine goods flooded Indian markets duty-free, destroying traditional Indian artisans."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Demographic Profile Colonial Era",
+      "difficulty": "medium",
+      "question": "The demographic profile of India prior to 1921 was characterized by:",
+      "options": [
+        "A) Both high birth rates and high death rates, resulting in stagnant population growth",
+        "B) Low birth rates and low death rates matching industrialized Europe",
+        "C) Rapid continuous population explosion exceeding 3 percent per year",
+        "D) Universal health insurance coverage across rural districts"
+      ],
+      "correct_option": "A",
+      "explanation": "Before 1921, India was in the first stage of demographic transition, marked by high birth rates (~48/1000) and high, volatile death rates (~40/1000), keeping population growth stagnant."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "IPR 1956 Three Schedules",
+      "difficulty": "medium",
+      "question": "In the Industrial Policy Resolution of 1956, Schedule A comprised industries that were:",
+      "options": [
+        "A) Reserved exclusively for state ownership and future development",
+        "B) Left entirely to the unregulated private sector without licensing",
+        "C) Reserved exclusively for foreign direct investment",
+        "D) Allocated exclusively to rural cottage handloom cooperatives"
+      ],
+      "correct_option": "A",
+      "explanation": "Schedule A of IPR 1956 contained 17 strategic heavy and core industries whose future development was the exclusive preserve of the State."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q39",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Karve Committee SSI Rationale",
+      "difficulty": "medium",
+      "question": "The Karve Committee (1955) advocated protective support for small-scale industries primarily because they are:",
+      "options": [
+        "A) Labour-intensive and capital-saving, maximizing employment across dispersed rural regions",
+        "B) Dominated by foreign multinational corporate conglomerates",
+        "C) Dedicated exclusively to manufacturing nuclear power components",
+        "D) Exempt from paying wages to factory artisans"
+      ],
+      "correct_option": "A",
+      "explanation": "The Karve Committee emphasized that small industries require less capital per worker, create widespread employment, and promote balanced regional industrial dispersion."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q40",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Green Revolution HYV Package",
+      "difficulty": "medium",
+      "question": "The High Yielding Varieties (HYV) seed technology of the Green Revolution was termed a 'package programme' because its success required:",
+      "options": [
+        "A) Simultaneous application of assured canal/tubewell irrigation, chemical fertilizers, and pesticides",
+        "B) Complete collectivization of agricultural land into state communes",
+        "C) Replacement of all food crops with commercial export tobacco",
+        "D) Total prohibition of motorized tractors"
+      ],
+      "correct_option": "A",
+      "explanation": "HYV seeds were chemically responsive dwarf varieties that could not yield results in isolation; they required an interrelated package of controlled irrigation, chemical fertilizers, and pesticides."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q41",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Import Substitution Trade Strategy",
+      "difficulty": "easy",
+      "question": "India's pre-1991 trade strategy of 'Import Substitution' protected domestic manufacturing industries primarily through two policy tools: tariffs and:",
+      "options": [
+        "A) Quantitative import quotas",
+        "B) Export subsidies",
+        "C) Free trade agreements",
+        "D) Currency convertibility"
+      ],
+      "correct_option": "A",
+      "explanation": "Inward-looking import substitution used tariffs (duties raising import prices) and quotas (physical caps on import quantities) to protect infant domestic industries."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Narasimham Committee Recommendations",
+      "difficulty": "hard",
+      "question": "The Narasimham Committee on the Financial System (1991) recommended comprehensive banking reforms including:",
+      "options": [
+        "A) Phased reduction in Cash Reserve Ratio (CRR) and Statutory Liquidity Ratio (SLR), deregulation of interest rates, and entry of private banks",
+        "B) Complete nationalisation of all cooperative credit societies",
+        "C) Fixing commercial lending rates permanently at zero percent",
+        "D) Replacing commercial banks with municipal post offices"
+      ],
+      "correct_option": "A",
+      "explanation": "The 1991 Narasimham Committee recommended lowering high statutory pre-emptions (CRR/SLR), liberalizing interest rates, introducing prudential norms (capital adequacy/NPAs), and licensing new private banks."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q43",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Disinvestment Methods",
+      "difficulty": "medium",
+      "question": "The policy of disinvestment in India aims to improve public sector efficiency by:",
+      "options": [
+        "A) Selling government equity in public enterprises to private investors, introducing market discipline and professional corporate governance",
+        "B) Shutting down all profitable manufacturing factories",
+        "C) Handing over all public utilities to international humanitarian bodies",
+        "D) Mandating that all public sector shares be destroyed"
+      ],
+      "correct_option": "A",
+      "explanation": "Disinvestment infuses private capital, commercial accountability, and market discipline into public sector enterprises while generating non-debt fiscal resources for the government."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Human Capital Formation Health Spending",
+      "difficulty": "easy",
+      "question": "Public expenditure on preventive healthcare (such as mass immunization) is a vital source of human capital formation because it directly:",
+      "options": [
+        "A) Builds physical stamina, reduces absenteeism, and elevates labour productivity",
+        "B) Guarantees 100 percent foreign exchange remittances",
+        "C) Eliminates all corporate profit taxes",
+        "D) Replaces human workers with automated robotics"
+      ],
+      "correct_option": "A",
+      "explanation": "Health investments enhance the physical and mental capacity of the workforce, lowering work loss from sickness and directly boosting labour productivity."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "NABARD Apex Role",
+      "difficulty": "easy",
+      "question": "Which apex institution was established in India in 1982 to coordinate and refinance all credit operations for agriculture and rural development?",
+      "options": [
+        "A) National Bank for Agriculture and Rural Development (NABARD)",
+        "B) Small Industries Development Bank of India (SIDBI)",
+        "C) Industrial Finance Corporation of India (IFCI)",
+        "D) Export-Import Bank of India (EXIM Bank)"
+      ],
+      "correct_option": "A",
+      "explanation": "NABARD is the premier developmental financial institution set up in 1982 to oversee, coordinate, and refinance the rural credit institutional delivery system."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Agricultural Diversification Horticulture",
+      "difficulty": "medium",
+      "question": "The 'Golden Revolution' in Indian agriculture during the 1990s was associated with a massive surge in the production of:",
+      "options": [
+        "A) Horticulture crops, fruits, vegetables, and honey",
+        "B) Coarse cereals and fodder crops",
+        "C) Marine fisheries and prawn culture",
+        "D) Synthetic chemical fertilizers"
+      ],
+      "correct_option": "A",
+      "explanation": "The Golden Revolution (1991\u20132003) refers to the dramatic expansion in the production of fruits, vegetables, flowers, medicinal plants, and honey in India."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Formal Sector Social Security",
+      "difficulty": "medium",
+      "question": "A key characteristic that distinguishes workers in the formal (organized) sector from informal workers is that formal sector workers enjoy:",
+      "options": [
+        "A) Statutory social security benefits (pensions, provident funds, gratuity) and legal protection of labour laws",
+        "B) Complete exemption from paying personal income taxes",
+        "C) Freedom to dictate market commodity prices",
+        "D) Compulsory daily overtime wages exceeding 100 percent of salary"
+      ],
+      "correct_option": "A",
+      "explanation": "Formal sector workers have regular employment contracts protected by labour legislation, ensuring statutory social security provisions (PF, gratuity, health cover)."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q48",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Brundtland Commission Definition",
+      "difficulty": "easy",
+      "question": "The Brundtland Commission Report 'Our Common Future' (1987) defined Sustainable Development as development that meets the needs of the present without:",
+      "options": [
+        "A) Compromising the ability of future generations to meet their own needs",
+        "B) Constructing any thermal power stations",
+        "C) Permitting international maritime trade",
+        "D) Paying wages to industrial factory workers"
+      ],
+      "correct_option": "A",
+      "explanation": "The Brundtland Commission formulated the iconic inter-generational definition of sustainable development: meeting present needs while preserving natural capital for future generations."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Chinese Special Economic Zones 1978",
+      "difficulty": "medium",
+      "question": "As part of its economic opening up after 1978, China established Special Economic Zones (SEZs) primarily to:",
+      "options": [
+        "A) Attract foreign direct investment, import modern technology, and promote export-oriented manufacturing through tax incentives and infrastructure",
+        "B) Confiscate all foreign capital investments without compensation",
+        "C) Mandate that all industrial output be sold exclusively to rural communes",
+        "D) Close down coastal seaports to international cargo vessels"
+      ],
+      "correct_option": "A",
+      "explanation": "China created coastal SEZs (like Shenzhen) with low taxes, modern infrastructure, and flexible labor regulations to attract foreign capital and drive export manufacturing."
+    },
+    {
+      "id": "CUET_ECO_2026_P23_L6C_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Demographic Growth Comparison",
+      "difficulty": "hard",
+      "question": "In demographic comparisons among India, China, and Pakistan, why did China's annual population growth rate drop significantly below 1 percent ahead of its South Asian neighbours?",
+      "options": [
+        "A) Due to the nationwide enforcement of the strict One-Child Policy introduced in the late 1970s",
+        "B) Due to mass emigration of rural peasants to North America",
+        "C) Due to the complete prohibition of early marriages in urban areas",
+        "D) Due to recurrent severe foodgrain famine mortality"
+      ],
+      "correct_option": "A",
+      "explanation": "China's One-Child Policy enacted in 1979 drastically curtailed the total fertility rate and slowed population growth well below that of India and Pakistan."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ export default defineConfig({
     url:
       process.env.DATABASE_MIGRATION_URL ??
       process.env.DATABASE_URL ??
-      "postgres://localhost:5432/testdisha",
+      "postgres://localhost:5432/ourmocks",
   },
   strict: true,
   verbose: true,

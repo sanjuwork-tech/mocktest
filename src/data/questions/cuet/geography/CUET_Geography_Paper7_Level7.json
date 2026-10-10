@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_GEO_2026_P07_L7",
+  "series_id": "CUET_GEO_2026",
+  "paper_number": 7,
+  "difficulty_level": "7",
+  "subject": "Geography / Geology (Code: 313)",
+  "syllabus_source": "cuet geography syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "CUET UG Geography Past Papers (2022-2024)",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q01",
+      "topic": "Fundamentals of Human Geography: Nature and Scope",
+      "sub_topic": "Evolution of Geographic Thought",
+      "difficulty": "medium",
+      "question": "Which ancient Greek geographer laid the foundations of mathematical geography and coined the term 'Geography'?",
+      "options": [
+        "A) Eratosthenes",
+        "B) Strabo",
+        "C) Ptolemy",
+        "D) Herodotus"
+      ],
+      "correct_option": "A",
+      "explanation": "Eratosthenes (276–194 BCE) of Alexandria coined the term 'Geography' and was the first to calculate the circumference of the Earth using sun angles."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q02",
+      "topic": "Fundamentals of Human Geography: Nature and Scope",
+      "sub_topic": "Determinism in Geographic Philosophy",
+      "difficulty": "medium",
+      "question": "The concept of 'Environmental Determinism' was criticized in the early 20th century primarily because:",
+      "options": [
+        "A) It denied the existence of physical mountains, rivers, and oceans on Earth",
+        "B) It portrayed human beings as purely passive agents entirely subjugated by physical climate without acknowledging human agency and technology",
+        "C) It demanded that all human settlements be constructed underwater",
+        "D) It was mathematically proven wrong by early satellite photography"
+      ],
+      "correct_option": "B",
+      "explanation": "Environmental determinism was critiqued for its mechanistic view that nature dictates human culture and destiny, ignoring technological innovation and cultural adaptation."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q03",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Fertility Variations Across Continents",
+      "difficulty": "medium",
+      "question": "Which continent currently exhibits the highest regional total fertility rate (exceeding 4.0 children per woman) and the highest annual population growth rate?",
+      "options": [
+        "A) South America",
+        "B) Europe",
+        "C) Africa",
+        "D) North America"
+      ],
+      "correct_option": "C",
+      "explanation": "Sub-Saharan Africa has the world's highest fertility rates and fastest demographic growth, contrasted with sub-replacement fertility across Europe and East Asia."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q04",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Net Migration Rate Calculation",
+      "difficulty": "hard",
+      "question": "How is the 'Net Migration Rate' (NMR) of a region per 1,000 population mathematically expressed?",
+      "options": [
+        "A) [(Total Immigrants multiplied by Total Emigrants) divided by Crude Birth Rate] multiplied by 100",
+        "B) [(Crude Births minus Crude Deaths) divided by Infant Mortality] multiplied by 1,000",
+        "C) [(Total Working Population divided by Total Emigrants) multiplied by 100]",
+        "D) [(Number of Immigrants minus Number of Emigrants) divided by Total Mid-Year Population] multiplied by 1,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Net Migration Rate measures the net gain or loss of population through migration per 1,000 inhabitants: [(Immigrants - Emigrants) / Mid-year Population] × 1,000."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q05",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Population Change Determinants",
+      "difficulty": "easy",
+      "question": "Which of the following demographic equations accurately defines the 'Actual Growth of Population' between two census years?",
+      "options": [
+        "A) Actual Growth = (Births - Deaths) + (In-migration - Out-migration)",
+        "B) Actual Growth = (Births + Deaths) - (In-migration + Out-migration)",
+        "C) Actual Growth = (Births × Deaths) + (In-migration / Out-migration)",
+        "D) Actual Growth = (Total Population / Total Area) × 100"
+      ],
+      "correct_option": "A",
+      "explanation": "Actual population growth incorporates both natural increase (Births - Deaths) and net migration (In-migration - Out-migration)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q06",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Gender Inequality Index (GII)",
+      "difficulty": "hard",
+      "question": "The Gender Inequality Index (GII) introduced by the UNDP assesses gender disparities across which three critical dimensions?",
+      "options": [
+        "A) Private luxury spending, agricultural land inheritance, and military draft eligibility",
+        "B) Reproductive health, empowerment (parliamentary representation and secondary education), and labour market participation",
+        "C) Total household savings, vehicle ownership, and domestic kitchen chores",
+        "D) Gold jewelry reserves, foreign holiday frequency, and religious attendance"
+      ],
+      "correct_option": "B",
+      "explanation": "The GII measures gender inequalities in three vital dimensions: reproductive health (maternal mortality and adolescent fertility), empowerment, and economic labor participation."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q07",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "HDI Mathematical Computation",
+      "difficulty": "hard",
+      "question": "Since the 2010 Human Development Report, how is the composite Human Development Index (HDI) calculated from its three normalized dimension indices?",
+      "options": [
+        "A) Simple arithmetic average of the three dimension scores",
+        "B) Sum total of the three scores divided by gross national area",
+        "C) Geometric mean of the Health, Education, and Income dimension indices",
+        "D) Median score of the bottom 20% quintile"
+      ],
+      "correct_option": "C",
+      "explanation": "In 2010, the UNDP shifted from the arithmetic mean to the geometric mean of the three dimension indices: HDI = (I_Health × I_Education × I_Income)^(1/3)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q08",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Pastoral Nomadism Tribes",
+      "difficulty": "medium",
+      "question": "The Tuaregs in the Sahara desert and the Bedouins of the Arabian peninsula are classic examples of communities practicing:",
+      "options": [
+        "A) Intensive commercial dairy farming in temperate valleys",
+        "B) High-technology glasshouse truck farming",
+        "C) Modern mechanized combine grain farming",
+        "D) Nomadic pastoralism in arid and semi-arid environments"
+      ],
+      "correct_option": "D",
+      "explanation": "Tuaregs and Bedouins represent traditional pastoral nomads moving across hyper-arid deserts with camels, goats, and sheep in search of water and pasture."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q09",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Intensive Subsistence Farming",
+      "difficulty": "hard",
+      "question": "In the monsoon regions of northern China and the Manchurian plain, intensive subsistence agriculture is dominated by crops other than paddy, primarily:",
+      "options": [
+        "A) Wheat, soybean, barley, and sorghum (kaoliang)",
+        "B) Sugarcane, rubber, tea, and cocoa",
+        "C) Coffee, oil palm, vanilla, and cloves",
+        "D) Jute, coconut, and floating water chestnuts"
+      ],
+      "correct_option": "A",
+      "explanation": "Due to low rainfall and colder winters in northern China and Manchuria, wet paddy cannot grow, so intensive farming focuses on wheat, soybeans, barley, and kaoliang."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q10",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Commercial Grain Farming Grasslands",
+      "difficulty": "easy",
+      "question": "The temperate grasslands of South Africa where commercial grain farming and livestock rearing are practiced are known as:",
+      "options": [
+        "A) Pampas",
+        "B) Velds",
+        "C) Downs",
+        "D) Steppes"
+      ],
+      "correct_option": "B",
+      "explanation": "The temperate grasslands of South Africa are known as the Velds, divided into the High Veld and Low Veld."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q11",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Commercial Grain Farming Grasslands",
+      "difficulty": "easy",
+      "question": "In Australia, extensive commercial grain farming is concentrated in which temperate grassland basin?",
+      "options": [
+        "A) The Llanos",
+        "B) The Campos",
+        "C) The Downs (Murray-Darling basin)",
+        "D) The Selvas"
+      ],
+      "correct_option": "C",
+      "explanation": "The Downs of south-eastern Australia (Murray-Darling river basin) form the primary wheat-sheep belt of the continent."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q12",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Mediterranean Dried Fruits",
+      "difficulty": "medium",
+      "question": "In Mediterranean agriculture, inferior varieties of grapes that are not pressed for wine are dried to produce:",
+      "options": [
+        "A) Cocoa powder and chocolate",
+        "B) Edible gelatin and corn starch",
+        "C) Refined white cane sugar",
+        "D) Raisins, sultanas, and currants"
+      ],
+      "correct_option": "D",
+      "explanation": "Grape varieties with lower sugar or flavor profiles are dried under the bright Mediterranean sun to produce commercial dried fruits (raisins, sultanas, currants)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q13",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "De-industrialisation and Rust Belts",
+      "difficulty": "medium",
+      "question": "The Pittsburgh-Lake Erie industrial district in the United States, formerly celebrated as the world's iron and steel capital, is now frequently described as a 'Rust Belt' because:",
+      "options": [
+        "A) Depletion of local coal, obsolete factories, and overseas competition caused massive loss of heavy manufacturing jobs and industrial decay",
+        "B) A catastrophic volcanic ash eruption coated all steel mills in iron oxide rust",
+        "C) All factories were converted legally into nature wildlife sanctuaries",
+        "D) The local population abandoned the region entirely due to severe polar glaciers"
+      ],
+      "correct_option": "A",
+      "explanation": "The Rust Belt phenomenon occurred as traditional heavy steel and foundry industries closed down due to foreign competition, aging plants, and automation, leaving derelict factories."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q14",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Ruhr Valley Transformation",
+      "difficulty": "hard",
+      "question": "How has the Ruhr industrial region in Germany successfully overcome its traditional reputation as an environmentally degraded 'smoke-stack' district?",
+      "options": [
+        "A) By permanently shutting down all roads and demolishing all German universities",
+        "B) By diversifying away from coal and steel into high-tech manufacturing, environmental engineering, and service parks",
+        "C) By replacing all human labor with imported Amazonian subsistence tribes",
+        "D) By converting the entire Rhine basin into an unpopulated atomic testing desert"
+      ],
+      "correct_option": "B",
+      "explanation": "The Ruhr basin underwent industrial restructuring, establishing modern service hubs, universities, technology parks, and tertiary cultural institutions in former blast furnace complexes."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q15",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Japanese Industrial Clusters",
+      "difficulty": "medium",
+      "question": "Which of the following is Japan's foremost industrial agglomeration, centered on the capital metropolis and the port of Yokohama?",
+      "options": [
+        "A) Hanshin Industrial Region",
+        "B) Chukyo Industrial Region",
+        "C) Keihin Industrial Region",
+        "D) Kitakyushu Industrial Region"
+      ],
+      "correct_option": "C",
+      "explanation": "The Keihin region (Tokyo-Yokohama) on Tokyo Bay is Japan's most dominant industrial and commercial concentration."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q16",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Global Financial Centres",
+      "difficulty": "medium",
+      "question": "Which trio of global cities forms the apex of international commercial banking, financial transactions, and corporate command control in the 24-hour global economy?",
+      "options": [
+        "A) Cairo, Lagos, and Nairobi",
+        "B) Lima, Santiago, and Bogota",
+        "C) Reykjavik, Nuuk, and Torshavn",
+        "D) London, New York, and Tokyo"
+      ],
+      "correct_option": "D",
+      "explanation": "London, New York, and Tokyo form the triad of global command cities, coordinating international financial markets across time zones."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q17",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Tourism Multiplier Effect",
+      "difficulty": "medium",
+      "question": "In regional economic geography, the 'Tourism Multiplier Effect' denotes:",
+      "options": [
+        "A) How tourist spending generates secondary rounds of income and employment across local agriculture, handicrafts, transport, and construction",
+        "B) The mathematical rate at which hotel room prices double during monsoon off-seasons",
+        "C) The statutory municipal tax levied exclusively on foreign passport holders",
+        "D) The physical erosion of sandy beaches by incoming oceanic tidal waves"
+      ],
+      "correct_option": "A",
+      "explanation": "Tourist expenditures cycle through local economies, benefiting farmers supplying hotels, taxi drivers, local artisans, and builders."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q18",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Satellite Constellations",
+      "difficulty": "medium",
+      "question": "NavIC (Navigation with Indian Constellation), developed by ISRO, is an autonomous regional satellite positioning system designed to provide accurate positioning across India and up to:",
+      "options": [
+        "A) 50 km from state capitals",
+        "B) 1,500 km beyond its borders",
+        "C) 15,000 km across the Antarctic ice shelf",
+        "D) 100 metres from designated naval lighthouses"
+      ],
+      "correct_option": "B",
+      "explanation": "NavIC (IRNSS) is designed to provide accurate real-time positioning services over India and an extended primary service area of 1,500 km around the mainland."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q19",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Trans-Continental Railways",
+      "difficulty": "hard",
+      "question": "The Trans-Andean Railway historically connected Valparaiso on the Pacific coast of Chile with Buenos Aires on the Atlantic coast of Argentina across which high mountain pass?",
+      "options": [
+        "A) Bolan Pass",
+        "B) Khyber Pass",
+        "C) Uspallata Pass (La Cumbre)",
+        "D) Brenner Pass"
+      ],
+      "correct_option": "C",
+      "explanation": "The Trans-Andean Railway pierced the high Andes at Uspallata Pass (elevated at over 3,100 m) to connect Valparaiso with Buenos Aires."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q20",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Inland Waterways of North America",
+      "difficulty": "medium",
+      "question": "The Mississippi-Missouri river waterway enables heavy barge transportation from the industrial Midwest of the United States to discharge into:",
+      "options": [
+        "A) The Hudson Bay at Churchill",
+        "B) The Pacific Ocean at San Diego",
+        "C) The Beaufort Sea at Prudhoe Bay",
+        "D) The Gulf of Mexico at New Orleans"
+      ],
+      "correct_option": "D",
+      "explanation": "The Mississippi waterway links the Midwestern grain belt directly to the Gulf of Mexico, with New Orleans serving as the ocean transshipment port."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q21",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Danube Waterway Details",
+      "difficulty": "hard",
+      "question": "The Danube waterway rises in the Black Forest of Germany and flows eastward through ten European countries before entering the Black Sea through the port of:",
+      "options": [
+        "A) Sulina",
+        "B) Constanta",
+        "C) Odessa",
+        "D) Varna"
+      ],
+      "correct_option": "A",
+      "explanation": "The Danube flows through Central and Eastern Europe to its delta on the Black Sea at the Romanian port of Sulina."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q22",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "WTO Dispute Settlement",
+      "difficulty": "hard",
+      "question": "What is the primary function of the Dispute Settlement Body (DSB) within the World Trade Organisation (WTO)?",
+      "options": [
+        "A) To command sovereign multinational peace-keeping armies in war zones",
+        "B) To adjudicate international trade conflicts, interpret multilateral trade agreements, and authorize trade retaliations if rulings are violated",
+        "C) To dictate universal income tax rates across all member nations",
+        "D) To physically purchase all surplus global wheat harvests and store them in Geneva"
+      ],
+      "correct_option": "B",
+      "explanation": "The DSB resolves disputes between member states over violations of WTO agreements, ensuring trade rules are legally enforced."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q23",
+      "topic": "India: People and Economy - People",
+      "sub_topic": "Eighth Schedule Languages",
+      "difficulty": "easy",
+      "question": "According to the Eighth Schedule of the Constitution of India, how many languages are formally recognized as Scheduled Languages?",
+      "options": [
+        "A) 14 languages",
+        "B) 18 languages",
+        "C) 22 languages",
+        "D) 28 languages"
+      ],
+      "correct_option": "C",
+      "explanation": "The Eighth Schedule of the Indian Constitution lists 22 officially recognized languages."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q24",
+      "topic": "India: People and Economy - People",
+      "sub_topic": "Second Largest Language in India",
+      "difficulty": "medium",
+      "question": "According to the 2011 Census of India, which is the second most widely spoken native language in the country after Hindi?",
+      "options": [
+        "A) Marathi",
+        "B) Telugu",
+        "C) Tamil",
+        "D) Bengali"
+      ],
+      "correct_option": "D",
+      "explanation": "As per Census 2011, Bengali is spoken by 8.03% of India's population, making it the second most spoken language after Hindi (43.63%)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q25",
+      "topic": "India: People and Economy - People",
+      "sub_topic": "Spatial Distribution of Religious Minorities",
+      "difficulty": "medium",
+      "question": "In India, Christian populations are heavily concentrated in which two distinct geographical zones?",
+      "options": [
+        "A) Western coastal states (Goa and Kerala) and the North-Eastern hill states (Nagaland, Mizoram, Meghalaya)",
+        "B) The Thar desert of Rajasthan and the Rann of Kachchh",
+        "C) The Malwa plateau and the Bundelkhand uplands",
+        "D) The fertile canal-irrigated plains of Punjab and Haryana"
+      ],
+      "correct_option": "A",
+      "explanation": "Christians are concentrated in coastal southwestern India (Kerala and Goa) and in the northeastern hill states (Nagaland, Mizoram, Meghalaya)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q26",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Concept of Conurbation",
+      "difficulty": "medium",
+      "question": "Who coined the geographical term 'Conurbation' in 1915 to describe a large continuous urban area formed by the merging of previously separate towns?",
+      "options": [
+        "A) Jean Gottmann",
+        "B) Patrick Geddes",
+        "C) Lewis Mumford",
+        "D) Ebenezer Howard"
+      ],
+      "correct_option": "B",
+      "explanation": "Patrick Geddes coined the term 'Conurbation' in his 1915 book 'Cities in Evolution', referring to contiguous urban sprawl."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q27",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Megalopolis Terminology",
+      "difficulty": "medium",
+      "question": "The term 'Megalopolis', signifying a 'super-metropolitan' coalescence of multiple metropolises (exemplified by the Boston-to-Washington corridor), was popularized by:",
+      "options": [
+        "A) Paul Vidal de la Blache",
+        "B) Griffith Taylor",
+        "C) Jean Gottmann",
+        "D) Amartya Sen"
+      ],
+      "correct_option": "C",
+      "explanation": "Jean Gottmann popularized 'Megalopolis' in 1957 to designate the vast urbanized northeastern seaboard of the United States extending from Boston to Washington (BosWash)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q28",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Rural Settlement Patterns",
+      "difficulty": "easy",
+      "question": "Which geometric pattern of rural settlement typically develops along roads, railways, river banks, and canal levees?",
+      "options": [
+        "A) Circular pattern",
+        "B) Star-shaped pattern",
+        "C) Cross-shaped pattern",
+        "D) Linear pattern"
+      ],
+      "correct_option": "D",
+      "explanation": "Linear settlements develop in a straight line along transport corridors, river banks, or canal dykes, where dwellings front the route."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q29",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Rural Settlement Patterns",
+      "difficulty": "medium",
+      "question": "A 'Circular Pattern' of rural settlement in India typically evolves around:",
+      "options": [
+        "A) A central village pond, tank, or sacred water body",
+        "B) A long straight national expressway",
+        "C) A steep vertical cliff edge in the high Himalayas",
+        "D) A designated offshore marine lighthouse"
+      ],
+      "correct_option": "A",
+      "explanation": "Circular settlements develop when houses are constructed around a village pond, lake, or open community pasture."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q30",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Dryland vs Wetland Farming",
+      "difficulty": "medium",
+      "question": "In Indian agricultural geography, 'Dryland Farming' is largely confined to regions receiving an annual rainfall of less than:",
+      "options": [
+        "A) 150 cm",
+        "B) 75 cm",
+        "C) 200 cm",
+        "D) 250 cm"
+      ],
+      "correct_option": "B",
+      "explanation": "Dryland farming is practiced in semi-arid and arid regions with annual rainfall below 75 cm, focusing on drought-resistant coarse cereals and pulses."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q31",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Coffee Varieties and History",
+      "difficulty": "medium",
+      "question": "The premium 'Arabica' coffee variety was initially brought to India from which country and planted on the Baba Budan Hills?",
+      "options": [
+        "A) Brazil",
+        "B) Ethiopia",
+        "C) Yemen",
+        "D) Colombia"
+      ],
+      "correct_option": "C",
+      "explanation": "Arabica coffee seeds were brought to India from Yemen by the Sufi saint Baba Budan in the 17th century and planted in the hills of Chikkamagaluru, Karnataka."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q32",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Tea Cultivation Pruning",
+      "difficulty": "easy",
+      "question": "Commercial tea harvesting involves picking the tender youngest foliage, traditionally described as:",
+      "options": [
+        "A) Mature woody branches",
+        "B) Underground tuber roots",
+        "C) Dry fallen autumn leaves",
+        "D) Two leaves and a bud"
+      ],
+      "correct_option": "D",
+      "explanation": "High-quality tea is produced by selectively plucking 'two leaves and a bud' from the growing shoots of the tea bush."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q33",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Groundwater Basin Assessment",
+      "difficulty": "medium",
+      "question": "According to Central Ground Water Board (CGWB) norms, an assessment unit where groundwater stage of extraction exceeds 100% of annual replenishable recharge is categorized as:",
+      "options": [
+        "A) Over-exploited",
+        "B) Safe",
+        "C) Semi-critical",
+        "D) Critical"
+      ],
+      "correct_option": "A",
+      "explanation": "When groundwater extraction exceeds 100% of annual replenishable recharge, the block is classified as 'Over-exploited' by the CGWB."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q34",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "River Pollution Hotspots",
+      "difficulty": "hard",
+      "question": "The Sabarmati river experiences its most severe stretch of chemical pollution and biochemical degradation immediately downstream of which industrial city?",
+      "options": [
+        "A) Udaipur",
+        "B) Ahmedabad",
+        "C) Gandhinagar",
+        "D) Vadodara"
+      ],
+      "correct_option": "B",
+      "explanation": "Discharges of industrial effluents from textile processing, dyes, and domestic sewage make the stretch downstream of Ahmedabad heavily polluted."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q35",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Manganese Ore Belts",
+      "difficulty": "hard",
+      "question": "The Balaghat-Chhindwara belt in Madhya Pradesh and the adjoining Nagpur-Bhandara belt in Maharashtra form an essential mining corridor for which metallic mineral?",
+      "options": [
+        "A) Lead and Zinc",
+        "B) Gold",
+        "C) Manganese",
+        "D) Bauxite"
+      ],
+      "correct_option": "C",
+      "explanation": "The Balaghat-Bhandara-Nagpur belt hosts India's premier deposits of metallurgical-grade manganese ore operated by MOIL."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q36",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Copper Belts",
+      "difficulty": "hard",
+      "question": "Mosabani, Rakha, and Ghatsila are historic copper mining and smelting centers situated in which mineral-rich district?",
+      "options": [
+        "A) Koraput district in Odisha",
+        "B) Bastar district in Chhattisgarh",
+        "C) Dharwad district in Karnataka",
+        "D) Singhbhum district in Jharkhand"
+      ],
+      "correct_option": "D",
+      "explanation": "The Singhbhum copper belt in Jharkhand (Mosabani, Rakha, Surda) is one of India's oldest copper mining districts."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q37",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Nuclear Fuel Minerals",
+      "difficulty": "hard",
+      "question": "The Jaduguda mine in Jharkhand is globally recognized as India's first commercial mine for extracting which strategic nuclear mineral?",
+      "options": [
+        "A) Uranium",
+        "B) Thorium",
+        "C) Plutonium",
+        "D) Lithium"
+      ],
+      "correct_option": "A",
+      "explanation": "Jaduguda in the East Singhbhum district of Jharkhand was the first uranium mine in India, operated by the Uranium Corporation of India Limited (UCIL)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q38",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Monazite Beach Sands",
+      "difficulty": "easy",
+      "question": "The coastal beach placer sands of Kerala are world-famous for containing rich deposits of Monazite, which yields:",
+      "options": [
+        "A) Crude petroleum",
+        "B) Thorium",
+        "C) Anthracite coal",
+        "D) Bauxite"
+      ],
+      "correct_option": "B",
+      "explanation": "Monazite beach sands of Kollam and Palakkad in Kerala contain the world's largest reserves of thorium, a vital fuel for India's nuclear power programme."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q39",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Target Group Planning",
+      "difficulty": "hard",
+      "question": "Which of the following programmes initiated during the Fourth Five Year Plan is an example of 'Target Group Planning' rather than 'Target Area Planning'?",
+      "options": [
+        "A) Drought Prone Area Programme (DPAP)",
+        "B) Hill Area Development Programme (HADP)",
+        "C) Small Farmers Development Agency (SFDA)",
+        "D) Command Area Development Programme (CADP)"
+      ],
+      "correct_option": "C",
+      "explanation": "SFDA (Small Farmers Development Agency) and MFAL (Marginal Farmers and Agricultural Labourers) targeted specific disadvantaged socioeconomic groups rather than geographic areas."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q40",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Indira Gandhi Canal Cropping Shifts",
+      "difficulty": "hard",
+      "question": "How did the introduction of canal irrigation in the Indira Gandhi Canal command area transform the traditional cropping pattern of western Rajasthan?",
+      "options": [
+        "A) All foodgrain cultivation was replaced exclusively by rubber and cocoa plantations",
+        "B) Farming was abandoned entirely in favor of deep-sea offshore pearl fishing",
+        "C) The region switched exclusively to cold-temperate apple and saffron orchards",
+        "D) Traditional drought-hardy coarse cereals (bajra, jowar) and gram were widely replaced by water-intensive cash crops like wheat, cotton, and mustard"
+      ],
+      "correct_option": "D",
+      "explanation": "Canal waters encouraged farmers to switch from dryland crops (bajra, moth, gram) to high-value commercial crops (cotton, wheat, mustard, groundnut), increasing water demand."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q41",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Dedicated Freight Corridors",
+      "difficulty": "hard",
+      "question": "The Eastern Dedicated Freight Corridor (Eastern DFC) of Indian Railways extends over 1,875 km connecting which two terminals?",
+      "options": [
+        "A) Ludhiana (Sahnewal) in Punjab to Dankuni in West Bengal",
+        "B) Dadri in Uttar Pradesh to JNPT in Maharashtra",
+        "C) Delhi to Chennai Central via Nagpur",
+        "D) Kolkata to Mumbai CST via Nagpur"
+      ],
+      "correct_option": "A",
+      "explanation": "The Eastern DFC runs from Sahnewal near Ludhiana in Punjab through Haryana, UP, and Bihar to Dankuni in West Bengal, serving heavy coal and steel traffic."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q42",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Container Transshipment Ports",
+      "difficulty": "hard",
+      "question": "The International Container Transshipment Terminal (ICTT) at Vallarpadam, designed to handle large mother vessels and reduce Indian dependency on Colombo port, is part of:",
+      "options": [
+        "A) Marmagao Port in Goa",
+        "B) Kochi Port in Kerala",
+        "C) New Mangalore Port in Karnataka",
+        "D) Visakhapatnam Port in Andhra Pradesh"
+      ],
+      "correct_option": "B",
+      "explanation": "Vallarpadam ICTT is part of Kochi Port, strategically located adjacent to the international east-west sea route."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q43",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Regional Air Connectivity",
+      "difficulty": "easy",
+      "question": "Which flagship scheme was launched by the Ministry of Civil Aviation in India under the motto 'Ude Desh ka Aam Naagrik' to stimulate regional airport connectivity and affordable flights?",
+      "options": [
+        "A) SAGARMALA Scheme",
+        "B) BHARATMALA Scheme",
+        "C) UDAN Scheme",
+        "D) SETU BHARATAM Scheme"
+      ],
+      "correct_option": "C",
+      "explanation": "UDAN (Ude Desh ka Aam Naagrik) is a regional connectivity scheme launched in 2016 to revive unserved and underserved regional airports with capped airfares."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q44",
+      "topic": "India: People and Economy - Geographical Perspective on Selected Issues",
+      "sub_topic": "Landfill Hazards",
+      "difficulty": "hard",
+      "question": "The decomposition of organic waste under anaerobic conditions in large open municipal dumps produces which hazardous greenhouse gas that contributes to spontaneous landfill fires?",
+      "options": [
+        "A) Nitrous oxide (N2O)",
+        "B) Sulfur hexafluoride (SF6)",
+        "C) Carbon tetrachloride (CCl4)",
+        "D) Methane (CH4)"
+      ],
+      "correct_option": "D",
+      "explanation": "Anaerobic bacterial breakdown of organic garbage produces landfill gas containing roughly 50% methane, which is highly flammable and traps atmospheric heat."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q45",
+      "topic": "India: People and Economy - Geographical Perspective on Selected Issues",
+      "sub_topic": "Noise Pollution Standards",
+      "difficulty": "hard",
+      "question": "According to the Noise Pollution (Regulation and Control) Rules in India, the permissible daytime ambient noise level in designated 'Silence Zones' (around hospitals, courts, educational institutions) is:",
+      "options": [
+        "A) 50 decibels (dB)",
+        "B) 75 decibels (dB)",
+        "C) 90 decibels (dB)",
+        "D) 120 decibels (dB)"
+      ],
+      "correct_option": "A",
+      "explanation": "In designated Silence Zones (areas within 100 metres of hospitals, schools, courts), daytime noise limits are capped strictly at 50 dB(A) Leq, and nighttime at 40 dB(A)."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q46",
+      "topic": "India: People and Economy - Geographical Perspective on Selected Issues",
+      "sub_topic": "Soil Conservation in Sloping Lands",
+      "difficulty": "medium",
+      "question": "In the hilly and mountainous tracts of the Western Ghats and Himalayas, which agricultural technique is primarily employed to impede run-off velocity and prevent sheet soil erosion?",
+      "options": [
+        "A) Deep continuous longitudinal tractor furrowing down the slope",
+        "B) Terrace farming and contour bunding",
+        "C) Complete removal of all hillside vegetative canopy",
+        "D) High-pressure hydraulic flood blasting of topsoil"
+      ],
+      "correct_option": "B",
+      "explanation": "Terrace farming carves flat stepped benches along hillside contours, reducing water runoff speed and allowing water to soak in without eroding topsoil."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q47",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Cape of Good Hope Sea Route",
+      "difficulty": "medium",
+      "question": "Although longer than the Suez Canal route, why do modern giant supertankers and bulk ore carriers traveling from the Persian Gulf to Western Europe still frequently utilize the Cape of Good Hope Sea Route?",
+      "options": [
+        "A) Because the Suez Canal is completely frozen under thick icebergs throughout the year",
+        "B) Because international maritime law bans petroleum from passing through the Red Sea",
+        "C) Because their immense draft and beam exceed the depth limits of the Suez Canal, and to avoid high canal transit tolls",
+        "D) Because the Cape route is geographically shorter by 5,000 kilometres"
+      ],
+      "correct_option": "C",
+      "explanation": "Ultra Large Crude Carriers (ULCCs) with drafts exceeding canal limits and supertankers avoiding expensive Suez transit fees sail around the Cape of Good Hope."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q48",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Green Revolution Innovations",
+      "difficulty": "easy",
+      "question": "The Green Revolution in India in the late 1960s succeeded primarily due to the integrated package technology of:",
+      "options": [
+        "A) Exclusive organic composting and reliance on rainfed shifting jhuming",
+        "B) Complete elimination of all synthetic fertilisers and abandonment of tubewells",
+        "C) Import of handloom wooden spinning wheels for village weavers",
+        "D) High Yielding Variety (HYV) seeds, chemical fertilisers, and assured canal/tube-well irrigation"
+      ],
+      "correct_option": "D",
+      "explanation": "The Green Revolution package strategy combined semi-dwarf HYV seeds (wheat and rice) with chemical fertilizers, pesticides, and controlled irrigation."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q49",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Tea Producing States",
+      "difficulty": "easy",
+      "question": "Which state in India is the largest producer of black tea, accounting for over half of the country's total output from gardens in the Brahmaputra valley?",
+      "options": [
+        "A) Assam",
+        "B) Kerala",
+        "C) Himachal Pradesh",
+        "D) Karnataka"
+      ],
+      "correct_option": "A",
+      "explanation": "Assam produces over 50% of India's tea, concentrated along the undulating slopes of the Brahmaputra valley with heavy monsoon rainfall."
+    },
+    {
+      "id": "CUET_GEO_2026_P07_L7_Q50",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Natural Gas Authority",
+      "difficulty": "medium",
+      "question": "Gas Authority of India Limited (GAIL) was incorporated in 1984 under the Ministry of Petroleum and Natural Gas primarily to:",
+      "options": [
+        "A) Construct civil passenger airports across the Himalayan borders",
+        "B) Transport, process, and distribute natural gas through cross-country pipeline networks",
+        "C) Manufacture railway steel locomotives and passenger coaches",
+        "D) Conduct commercial space rocket launches from Sriharikota"
+      ],
+      "correct_option": "B",
+      "explanation": "GAIL was set up in 1984 as a central public sector undertaking to develop natural gas infrastructure, including the pioneering HVJ pipeline."
+    }
+  ]
+}

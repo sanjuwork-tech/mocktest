@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ENGLISH_PAPER_16_LEVEL_6B",
+  "series_id": "CUET_ENGLISH_2026",
+  "paper_number": 16,
+  "difficulty_level": "6B",
+  "subject": "English (Code: 101)",
+  "syllabus_source": "cuet english syllabus.pdf 2026",
+  "notification_source": "Information Bulletin.pdf 2026",
+  "past_paper_reference": "pastpaper-english-2024.pdf, pastpaper-english-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": "+5",
+    "incorrect": "-1",
+    "unattempted": "0"
+  },
+  "questions": [
+    {
+      "id": "ENG_16_1",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the passage:\n\n\"The Great Wall of China, one of the most remarkable architectural feats in human history, was built over several centuries. Its construction began as early as the 7th century BCE, with most of the existing wall dating from the Ming Dynasty (1368\u20131644 CE). The wall stretches over 21,000 kilometers from east to west, traversing mountains, deserts, and grasslands. Originally built to protect Chinese states from nomadic invasions, it also served as a means of border control and trade regulation. Despite its name, the Great Wall is not a single continuous structure but a series of walls and fortifications built by various dynasties.\"\n\nWhen did most of the existing Great Wall get built?",
+      "options": [
+        "A) During the Qing Dynasty (1644\u20131912 CE)",
+        "B) During the Han Dynasty (206 BCE\u2013220 CE)",
+        "C) During the Ming Dynasty (1368\u20131644 CE)",
+        "D) During the 7th century BCE"
+      ],
+      "correct_option": "C",
+      "explanation": "The passage states most of the existing wall dates from the Ming Dynasty (1368\u20131644 CE)."
+    },
+    {
+      "id": "ENG_16_2",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the passage:\n\n\"The human heart is a muscular organ roughly the size of a fist. It beats approximately 100,000 times per day, pumping about 7,500 liters of blood through a network of blood vessels. The heart has four chambers: two upper chambers called atria and two lower chambers called ventricles. The right side of the heart receives deoxygenated blood and pumps it to the lungs, while the left side receives oxygenated blood from the lungs and pumps it to the rest of the body. Regular exercise strengthens the heart muscle and improves cardiovascular efficiency.\"\n\nHow many chambers does the human heart have?",
+      "options": [
+        "A) Three",
+        "B) Two",
+        "C) Five",
+        "D) Four"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage explicitly states the heart has four chambers: two atria and two ventricles."
+    },
+    {
+      "id": "ENG_16_3",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The Industrial Revolution, which began in Britain in the late 18th century, transformed manufacturing processes and fundamentally changed society. The invention of the steam engine by James Watt in 1769 was a pivotal moment, enabling factories to operate independently of water power. The textile industry was among the first to mechanize, with inventions like the spinning jenny and power loom dramatically increasing production. However, industrialization also brought harsh working conditions, child labor, and urban overcrowding. The revolution spread to Europe and North America by the early 19th century, reshaping economies and social structures worldwide.\"\n\nWhat was the significance of James Watt's steam engine according to the passage?",
+      "options": [
+        "A) It enabled factories to operate independently of water power",
+        "B) It replaced child labor in factories",
+        "C) It was used primarily for transportation",
+        "D) It was invented in the United States"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states the steam engine enabled factories to operate independently of water power."
+    },
+    {
+      "id": "ENG_16_4",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The Amazon Rainforest, spanning nine countries in South America, produces approximately 20% of the world's oxygen and stores vast amounts of carbon dioxide, making it crucial for regulating global climate. It is home to an estimated 10% of all species on Earth, including 40,000 plant species, 1,300 bird species, and 3,000 fish species. Indigenous communities have inhabited the Amazon for thousands of years, developing sophisticated knowledge of its plants and ecosystems. Deforestation, driven by cattle ranching, soy farming, and illegal logging, threatens both biodiversity and the forest's ability to absorb carbon.\"\n\nWhat percentage of the world's oxygen does the Amazon Rainforest produce?",
+      "options": [
+        "A) Approximately 20%",
+        "B) Approximately 10%",
+        "C) Approximately 5%",
+        "D) Approximately 50%"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states the Amazon produces approximately 20% of the world's oxygen."
+    },
+    {
+      "id": "ENG_16_5",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"Quantum computing harnesses the principles of quantum mechanics to process information in fundamentally different ways from classical computers. While classical computers use bits (0 or 1), quantum computers use qubits, which can exist in multiple states simultaneously through superposition. This allows quantum computers to perform certain calculations exponentially faster than classical computers. However, quantum computers are highly sensitive to environmental interference, requiring temperatures near absolute zero to operate. Current applications include cryptography, drug discovery, and optimization problems, though practical, large-scale quantum computers remain years away.\"\n\nWhat can be inferred about quantum computers from the passage?",
+      "options": [
+        "A) They have already replaced classical computers",
+        "B) They face significant technical challenges before widespread use",
+        "C) They are only useful for basic arithmetic",
+        "D) They operate at room temperature efficiently"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage mentions quantum computers require extreme cooling and that practical large-scale versions remain years away, implying technical challenges."
+    },
+    {
+      "id": "ENG_16_6",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the passage:\n\n\"When Priya received the letter, her hands trembled. She had been waiting for this moment for three years. The envelope bore the crest of the National Science Foundation, and she knew before opening it that her life was about to change. She carefully slit the envelope and read the first line: 'We are pleased to inform you...' Tears streamed down her face. Her grandmother, who had encouraged her love of science since childhood, had passed away just months ago. Priya wished she could share this moment with her.\n\nShe called her mother first. 'Amma, I got it,' she whispered. Her mother cried with joy. That evening, Priya lit a candle and placed it beside her grandmother's photograph. 'This is for you, Ammamma,' she said softly.\"\n\nWhat was in the letter Priya received?",
+      "options": [
+        "A) A rejection of her research proposal",
+        "B) A scholarship for undergraduate studies",
+        "C) A job offer from a university",
+        "D) Acceptance of her application to the National Science Foundation"
+      ],
+      "correct_option": "D",
+      "explanation": "The letter from the National Science Foundation began with 'We are pleased to inform you,' indicating acceptance."
+    },
+    {
+      "id": "ENG_16_7",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the passage:\n\n\"The old fisherman had not caught a single fish in eighty-four days. The other villagers had begun to call him 'salao' \u2014 the worst form of unlucky. But the old man's eyes were still cheerful and undefeated. Every morning before dawn, he rowed his small skiff far out into the Gulf Stream, where the great currents met. On the eighty-fifth day, he felt a tremendous pull on his line. What followed was a battle of endurance that lasted three days between the old man and a giant marlin.\"\n\nHow many days had the old fisherman gone without catching a fish?",
+      "options": [
+        "A) One hundred days",
+        "B) Forty days",
+        "C) Eighty-four days",
+        "D) Sixty days"
+      ],
+      "correct_option": "C",
+      "explanation": "The passage explicitly states the old man had not caught a fish in eighty-four days."
+    },
+    {
+      "id": "ENG_16_8",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The letter arrived on a Tuesday, the day Meera had been dreading for months. Her father's handwriting on the envelope was shaky \u2014 a reminder of his declining health. She sat on the steps of her apartment building for a long time before opening it. Inside were just two lines: 'I am proud of you. Live your life fully.'\n\nMeera had left home five years ago after a bitter argument about her decision to pursue art instead of medicine. She had not spoken to her father since. Now, standing at his grave six months later, she read those two lines again, folded carefully in her wallet. The regret was a physical weight on her chest.\"\n\nWhy did Meera feel regret?",
+      "options": [
+        "A) She had not reconciled with her father before his death",
+        "B) She had not become a doctor",
+        "C) She had not read the letter sooner",
+        "D) She had not attended his funeral"
+      ],
+      "correct_option": "A",
+      "explanation": "Meera had not spoken to her father for five years after their argument, and now that he's gone, she regrets not reconciling."
+    },
+    {
+      "id": "ENG_16_9",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The train pulled into the station at midnight, its brakes screeching against the cold air. Arun stepped onto the platform, his bag over his shoulder, and looked around. The station was nearly empty \u2014 just a few travelers huddled against the chill and a tea vendor pouring steaming cups. He had not been back to this small town in twelve years. The banyan tree where he used to read was still there, though larger now. The old bookstore had been replaced by a mobile phone shop. Arun walked slowly through the familiar streets, feeling like a ghost in his own past.\"\n\nHow long had Arun been away from his hometown?",
+      "options": [
+        "A) Five years",
+        "B) Twenty years",
+        "C) Eight years",
+        "D) Twelve years"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage states Arun had not been back to the town in twelve years."
+    },
+    {
+      "id": "ENG_16_10",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"The old house at the end of the lane had been abandoned for as long as anyone could remember. Children dared each other to touch its rusted gate, but none ever ventured inside. Then one summer, a young woman arrived with paintbrushes and determination. She spent weeks scrubbing floors, repairing windows, and peeling away layers of wallpaper. The neighbors watched with curiosity and suspicion. Who was this stranger, and why had she chosen the most feared house in the neighborhood?\n\nWhen the work was done, the house was transformed \u2014 its walls painted yellow, its garden blooming with marigolds. The young woman opened it as a library for the village children. On the opening day, the same neighbors who had watched with suspicion now brought sweets and flowers. The house that had once inspired fear now inspired wonder.\"\n\nWhat is the main theme of this passage?",
+      "options": [
+        "A) The dangers of old houses",
+        "B) The loneliness of strangers",
+        "C) Transformation and the power of community",
+        "D) The importance of fear in childhood"
+      ],
+      "correct_option": "C",
+      "explanation": "The passage shows how a feared abandoned house was transformed into a beloved community space, emphasizing transformation and community."
+    },
+    {
+      "id": "ENG_16_11",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The moon was a ghostly galleon tossed upon cloudy seas,\nThe road was a ribbon of moonlight over the purple moor,\nAnd the highwayman came riding \u2014 riding \u2014 riding \u2014\nThe highwayman came riding, up to the old inn-door.\"\n\nWhat figure of speech is used in 'The moon was a ghostly galleon'?",
+      "options": [
+        "A) Onomatopoeia",
+        "B) Metaphor",
+        "C) Simile",
+        "D) Alliteration"
+      ],
+      "correct_option": "B",
+      "explanation": "The moon is directly compared to a 'ghostly galleon' without using 'like' or 'as,' making it a metaphor."
+    },
+    {
+      "id": "ENG_16_12",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following poem carefully and answer the question that follows:\n\n\"I have eaten\nthe plums\nthat were in\nthe icebox\n\nand which\nyou were probably\nsaving\nfor breakfast\n\nForgive me\nthey were delicious\nso sweet\nand so cold\"\n\n— William Carlos Williams, 'This Is Just to Say' (1934)\n\nWhat is the tone of this poem?",
+      "options": [
+        "A) Formally polite",
+        "B) Playfully apologetic",
+        "C) Angry and defiant",
+        "D) Deeply remorseful"
+      ],
+      "correct_option": "B",
+      "explanation": "The speaker admits wrongdoing but emphasizes how good the plums were, creating a playful, lightly apologetic tone."
+    },
+    {
+      "id": "ENG_16_13",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following poetic excerpt carefully and answer the question that follows:\n\n\"Two roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth.\"\n\n— Robert Frost, 'The Road Not Taken' (1916)\n\nWhat do the two roads symbolize in this poem?",
+      "options": [
+        "A) Different countries",
+        "B) Seasons of the year",
+        "C) Choices in life",
+        "D) Actual hiking trails"
+      ],
+      "correct_option": "C",
+      "explanation": "The two roads are a metaphor for life choices, a central theme in Robert Frost's 'The Road Not Taken.'"
+    },
+    {
+      "id": "ENG_16_14",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following poem carefully and answer the question that follows:\n\n\"The fog comes\non little cat feet.\n\nIt sits looking\nover harbor and city\non silent haunches\nand then moves on.\"\n\n— Carl Sandburg, 'Fog' (1916)\n\nWhat literary device is predominantly used in this poem?",
+      "options": [
+        "A) Paradox",
+        "B) Synecdoche",
+        "C) Personification",
+        "D) Hyperbole"
+      ],
+      "correct_option": "C",
+      "explanation": "The fog is given cat-like qualities (feet, sitting, looking, haunches), which is personification \u2014 giving human or animal characteristics to non-living things."
+    },
+    {
+      "id": "ENG_16_15",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following poetic excerpt carefully and answer the question that follows:\n\n\"Because I could not stop for Death –\nHe kindly stopped for me –\nThe Carriage held but just Ourselves –\nAnd Immortality.\"\n\n— Emily Dickinson, Poem 479 (c. 1863)\n\nWhat is the poet's attitude toward Death in these lines?",
+      "options": [
+        "A) Anger and resentment",
+        "B) Complete indifference",
+        "C) Calm acceptance, as if Death were a polite companion",
+        "D) Terror and resistance"
+      ],
+      "correct_option": "C",
+      "explanation": "Death is personified as a kind caller who 'kindly stopped,' suggesting calm acceptance rather than fear."
+    },
+    {
+      "id": "ENG_16_16",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: the teacher\nQ: explained\nR: the concept\nS: clearly",
+      "options": [
+        "A) PRQS",
+        "B) PQRS",
+        "C) QPRS",
+        "D) QRPS"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct order is PQRS: 'The teacher explained the concept clearly.'"
+    },
+    {
+      "id": "ENG_16_17",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: she\nQ: bought\nR: a new dress\nS: for the party",
+      "options": [
+        "A) PQRS",
+        "B) PRQS",
+        "C) QRSP",
+        "D) PSRQ"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct order is PQRS: 'She bought a new dress for the party.'"
+    },
+    {
+      "id": "ENG_16_18",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: the book\nQ: which was written by Tagore\nR: has been translated\nS: into many languages",
+      "options": [
+        "A) PQRS",
+        "B) PRQS",
+        "C) PSRQ",
+        "D) QRSP"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct order is PQRS: 'The book, which was written by Tagore, has been translated into many languages.'"
+    },
+    {
+      "id": "ENG_16_19",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: although he was tired\nQ: he continued\nR: working on\nS: his project",
+      "options": [
+        "A) PQRS",
+        "B) QRSP",
+        "C) PSRQ",
+        "D) PRQS"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct order is PQRS: 'Although he was tired, he continued working on his project.'"
+    },
+    {
+      "id": "ENG_16_20",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: the discovery\nQ: that was made accidentally\nR: revolutionized\nS: modern medicine",
+      "options": [
+        "A) QRSP",
+        "B) PQRS",
+        "C) PSRQ",
+        "D) PRQS"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct order is PQRS: 'The discovery, that was made accidentally, revolutionized modern medicine.'"
+    },
+    {
+      "id": "ENG_16_21",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: the students\nQ: who had submitted their assignments late\nR: were asked\nS: to meet the principal",
+      "options": [
+        "A) QRSP",
+        "B) PQRS",
+        "C) PSRQ",
+        "D) PRQS"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct order is PQRS: 'The students who had submitted their assignments late were asked to meet the principal.'"
+    },
+    {
+      "id": "ENG_16_22",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "easy",
+      "question": "Match the words with their correct meanings:\n\n1. Ample   a) Insufficient\n2. Scarce  b) Abundant\n3. Rapid   c) Limited in supply\n4. Slow    d) Fast\n                e) Not fast",
+      "options": [
+        "A) 1-c, 2-d, 3-a, 4-b",
+        "B) 1-d, 2-a, 3-b, 4-c",
+        "C) 1-b, 2-c, 3-d, 4-e",
+        "D) 1-a, 2-b, 3-c, 4-d"
+      ],
+      "correct_option": "C",
+      "explanation": "Ample = Abundant, Scarce = Limited in supply, Rapid = Fast, Slow = Not fast."
+    },
+    {
+      "id": "ENG_16_23",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "easy",
+      "question": "Match the words with their correct meanings:\n\n1. Courageous   a) Fearful\n2. Timid        b) Brave\n3. Generous     c) Shy\n4. Selfish      d) Giving\n                e) Unwilling to share",
+      "options": [
+        "A) 1-b, 2-c, 3-d, 4-e",
+        "B) 1-d, 2-a, 3-b, 4-c",
+        "C) 1-a, 2-b, 3-c, 4-d",
+        "D) 1-c, 2-d, 3-a, 4-b"
+      ],
+      "correct_option": "A",
+      "explanation": "Courageous = Brave, Timid = Shy, Generous = Giving, Selfish = Unwilling to share."
+    },
+    {
+      "id": "ENG_16_24",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the words with their correct meanings:\n\n1. Ambiguous   a) Clear\n2. Vague       b) Having multiple meanings\n3. Obvious     c) Unclear\n4. Explicit    d) Evident\n                e) Stated clearly",
+      "options": [
+        "A) 1-b, 2-c, 3-d, 4-e",
+        "B) 1-c, 2-d, 3-a, 4-b",
+        "C) 1-a, 2-b, 3-c, 4-d",
+        "D) 1-d, 2-a, 3-b, 4-c"
+      ],
+      "correct_option": "A",
+      "explanation": "Ambiguous = Having multiple meanings, Vague = Unclear, Obvious = Evident, Explicit = Stated clearly."
+    },
+    {
+      "id": "ENG_16_25",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the literary terms with their definitions:\n\n1. Foreshadowing   a) A contrast between expectation and reality\n2. Irony          b) Hints about future events\n3. Symbolism      c) Use of objects to represent ideas\n4. Alliteration   d) Repetition of initial sounds",
+      "options": [
+        "A) 1-d, 2-a, 3-b, 4-c",
+        "B) 1-b, 2-a, 3-c, 4-d",
+        "C) 1-c, 2-d, 3-a, 4-b",
+        "D) 1-a, 2-b, 3-c, 4-d"
+      ],
+      "correct_option": "B",
+      "explanation": "Foreshadowing = hints about future, Irony = contrast between expectation and reality, Symbolism = objects representing ideas, Alliteration = repetition of initial sounds."
+    },
+    {
+      "id": "ENG_16_26",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the authors with their works:\n\n1. Mahatma Gandhi       a) My Experiments with Truth\n2. Jawaharlal Nehru     b) The Discovery of India\n3. B.R. Ambedkar        c) Glimpses of World History\n4. Sarojini Naidu       d) The Untouchables",
+      "options": [
+        "A) 1-d, 2-c, 3-b, 4-a",
+        "B) 1-c, 2-d, 3-a, 4-b",
+        "C) 1-a, 2-b, 3-d, 4-c",
+        "D) 1-b, 2-a, 3-c, 4-d"
+      ],
+      "correct_option": "C",
+      "explanation": "Gandhi wrote My Experiments with Truth, Nehru wrote The Discovery of India, Ambedkar wrote The Untouchables, Naidu wrote Glimpses of World History."
+    },
+    {
+      "id": "ENG_16_27",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the idioms with their meanings:\n\n1. 'Spill the beans'     a) To waste resources\n2. 'Hit the sack'        b) To reveal a secret\n3. 'Burn the midnight oil' c) To go to bed\n4. 'Money down the drain' d) To work late into the night",
+      "options": [
+        "A) 1-c, 2-d, 3-a, 4-b",
+        "B) 1-d, 2-a, 3-b, 4-c",
+        "C) 1-a, 2-b, 3-c, 4-d",
+        "D) 1-b, 2-c, 3-d, 4-a"
+      ],
+      "correct_option": "D",
+      "explanation": "Spill the beans = reveal a secret, Hit the sack = go to bed, Burn the midnight oil = work late, Money down the drain = waste resources."
+    },
+    {
+      "id": "ENG_16_28",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe team _____ working hard to meet the deadline.",
+      "options": [
+        "A) are",
+        "B) were",
+        "C) has",
+        "D) is"
+      ],
+      "correct_option": "D",
+      "explanation": "'Team' is a collective noun treated as singular here, so 'is' is correct."
+    },
+    {
+      "id": "ENG_16_29",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nNeither Rahul nor his friends _____ going to the concert.",
+      "options": [
+        "A) was",
+        "B) is",
+        "C) has been",
+        "D) are"
+      ],
+      "correct_option": "D",
+      "explanation": "With 'neither...nor,' the verb agrees with the nearest subject ('friends'), so 'are' is correct."
+    },
+    {
+      "id": "ENG_16_30",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe news _____ everyone in the room.",
+      "options": [
+        "A) has been shocking",
+        "B) shocks",
+        "C) shocking",
+        "D) shocked"
+      ],
+      "correct_option": "D",
+      "explanation": "The sentence requires a past tense verb to describe a completed action, so 'shocked' is correct."
+    },
+    {
+      "id": "ENG_16_31",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nShe has been living in Delhi _____ she was a child.",
+      "options": [
+        "A) since",
+        "B) for",
+        "C) from",
+        "D) during"
+      ],
+      "correct_option": "A",
+      "explanation": "'Since' is used with a specific point in time ('she was a child') when referring to duration up to the present."
+    },
+    {
+      "id": "ENG_16_32",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe committee _____ reached a decision after hours of discussion.",
+      "options": [
+        "A) have",
+        "B) has",
+        "C) were",
+        "D) had been"
+      ],
+      "correct_option": "B",
+      "explanation": "'Committee' as a collective noun takes 'has' when acting as a single unit."
+    },
+    {
+      "id": "ENG_16_33",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nIf I _____ known about the delay, I would have taken an earlier flight.",
+      "options": [
+        "A) have",
+        "B) did",
+        "C) had",
+        "D) would have"
+      ],
+      "correct_option": "C",
+      "explanation": "This is a third conditional (past unreal), requiring 'had' in the if-clause."
+    },
+    {
+      "id": "ENG_16_34",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe proposal recommends that the company _____ its investment in renewable energy.",
+      "options": [
+        "A) will increase",
+        "B) increased",
+        "C) increase",
+        "D) increases"
+      ],
+      "correct_option": "C",
+      "explanation": "After 'recommends that,' the subjunctive mood is used, requiring the base form 'increase.'"
+    },
+    {
+      "id": "ENG_16_35",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe report, together with its appendices, _____ been submitted to the board.",
+      "options": [
+        "A) are",
+        "B) has",
+        "C) have",
+        "D) were"
+      ],
+      "correct_option": "B",
+      "explanation": "The subject 'report' is singular, so 'has' is correct despite the intervening phrase."
+    },
+    {
+      "id": "ENG_16_36",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the synonym of 'Dissolution':",
+      "options": [
+        "A) Sad",
+        "B) Angry",
+        "C) Happy",
+        "D) Tired"
+      ],
+      "correct_option": "C",
+      "explanation": "'Happy' is a synonym of 'Joyful' (feeling great happiness)."
+    },
+    {
+      "id": "ENG_16_37",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the antonym of 'Deprecate':",
+      "options": [
+        "A) Enlarge",
+        "B) Increase",
+        "C) Contract",
+        "D) Grow"
+      ],
+      "correct_option": "C",
+      "explanation": "'Contract' means to become smaller, the opposite of 'Expand' (to become larger)."
+    },
+    {
+      "id": "ENG_16_38",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the synonym of 'Callous':",
+      "options": [
+        "A) Confused",
+        "B) Frank",
+        "C) Dishonest",
+        "D) Secretive"
+      ],
+      "correct_option": "B",
+      "explanation": "'Frank' means open and honest, same as 'Candid'."
+    },
+    {
+      "id": "ENG_16_39",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the antonym of 'Admonish':",
+      "options": [
+        "A) Scarce",
+        "B) Ample",
+        "C) Plentiful",
+        "D) Copious"
+      ],
+      "correct_option": "A",
+      "explanation": "'Scarce' means existing in small quantities, the opposite of 'Abundant' (existing in large quantities)."
+    },
+    {
+      "id": "ENG_16_40",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the synonym of 'Condone':",
+      "options": [
+        "A) Careless",
+        "B) Lazy",
+        "C) Industrious",
+        "D) Slow"
+      ],
+      "correct_option": "C",
+      "explanation": "'Industrious' means hard-working, same as 'Diligent'."
+    },
+    {
+      "id": "ENG_16_41",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the antonym of 'Compliment':",
+      "options": [
+        "A) Admire",
+        "B) Praise",
+        "C) Flatter",
+        "D) Insult"
+      ],
+      "correct_option": "D",
+      "explanation": "'Insult' means to speak disrespectfully, the opposite of 'Compliment' (to praise)."
+    },
+    {
+      "id": "ENG_16_42",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the synonym of 'Distension':",
+      "options": [
+        "A) Clear",
+        "B) Vague",
+        "C) Confusing",
+        "D) Complex"
+      ],
+      "correct_option": "A",
+      "explanation": "'Clear' is a synonym of 'Lucid' (expressed clearly, easy to understand)."
+    },
+    {
+      "id": "ENG_16_43",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the antonym of 'Ambivalent':",
+      "options": [
+        "A) Enhance",
+        "B) Better",
+        "C) Improve",
+        "D) Worsen"
+      ],
+      "correct_option": "D",
+      "explanation": "'Worsen' means to make worse, the opposite of 'Ameliorate' (to improve)."
+    },
+    {
+      "id": "ENG_16_44",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the synonym of 'Emaciated':",
+      "options": [
+        "A) Harmless",
+        "B) Destructive",
+        "C) Helpful",
+        "D) Beneficial"
+      ],
+      "correct_option": "B",
+      "explanation": "'Destructive' is a synonym of 'Pernicious' (having a harmful effect)."
+    },
+    {
+      "id": "ENG_16_45",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the antonym of 'Burgeon':",
+      "options": [
+        "A) Noise",
+        "B) Discord",
+        "C) Chaos",
+        "D) Harmony"
+      ],
+      "correct_option": "D",
+      "explanation": "'Harmony' means pleasing sound, the opposite of 'Cacophony' (harsh, jarring noise)."
+    },
+    {
+      "id": "ENG_16_46",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"The human brain contains approximately 86 billion neurons, each connected to thousands of others through synapses. This complex network enables everything from basic reflexes to abstract thought. Neuroplasticity \u2014 the brain's ability to reorganize itself by forming new neural connections \u2014 allows humans to recover from injuries, learn new skills, and adapt to changing environments throughout life. This discovery overturned the long-held belief that the adult brain was fixed and unchangeable. Research has shown that activities like learning a musical instrument, practicing meditation, or even navigating unfamiliar cities can physically alter brain structure.\"\n\nWhat is the significance of neuroplasticity according to the passage?",
+      "options": [
+        "A) It proves that brain damage is always permanent",
+        "B) It demonstrates that only children can learn new skills",
+        "C) It confirms that the adult brain is fixed and unchangeable",
+        "D) It shows the brain can reorganize and adapt throughout life"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage states neuroplasticity allows the brain to reorganize itself, enabling recovery, learning, and adaptation throughout life."
+    },
+    {
+      "id": "ENG_16_47",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P, Q, R, S) to form a coherent sentence:\n\nP: the documentary\nQ: which aired last night\nR: highlighted the plight\nS: of endangered species",
+      "options": [
+        "A) PRQS",
+        "B) PQRS",
+        "C) QRSP",
+        "D) PRSQ"
+      ],
+      "correct_option": "D",
+      "explanation": "The correct order is PRSQ: 'The documentary, which aired last night, highlighted the plight of endangered species.'"
+    },
+    {
+      "id": "ENG_16_48",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the prefixes with their meanings:\n\n1. Anti-     a) Beyond, excessive\n2. Hyper-    b) Against, opposite\n3. Sub-      c) Below, under\n4. Pre-      d) Before, earlier",
+      "options": [
+        "A) 1-b, 2-a, 3-c, 4-d",
+        "B) 1-c, 2-d, 3-a, 4-b",
+        "C) 1-d, 2-a, 3-b, 4-c",
+        "D) 1-a, 2-b, 3-c, 4-d"
+      ],
+      "correct_option": "A",
+      "explanation": "Anti- = against, Hyper- = beyond/excessive, Sub- = below/under, Pre- = before."
+    },
+    {
+      "id": "ENG_16_49",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe new regulations require that all employees _____ safety training annually.",
+      "options": [
+        "A) completed",
+        "B) completing",
+        "C) completes",
+        "D) complete"
+      ],
+      "correct_option": "D",
+      "explanation": "After 'require that,' the subjunctive mood is used, requiring the base form 'complete.'"
+    },
+    {
+      "id": "ENG_16_50",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the synonym of 'Esoteric':",
+      "options": [
+        "A) Naive",
+        "B) Wise",
+        "C) Ignorant",
+        "D) Foolish"
+      ],
+      "correct_option": "B",
+      "explanation": "'Wise' is a synonym of 'Sagacious' (having or showing keen discernment and wisdom)."
+    }
+  ]
+}

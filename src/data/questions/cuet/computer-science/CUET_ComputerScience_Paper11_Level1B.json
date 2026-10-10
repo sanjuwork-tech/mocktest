@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P11_L1B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 11,
+  "difficulty_level": "1B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL statement modifies existing data in a table?",
+      "options": [
+        "A) CREATE",
+        "B) DROP",
+        "C) UPDATE",
+        "D) INSERT"
+      ],
+      "correct_option": "C",
+      "explanation": "UPDATE modifies existing rows."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "What does the ALTER TABLE command do?",
+      "options": [
+        "A) Adds rows to a table",
+        "B) Creates a backup",
+        "C) Modifies the structure of a table",
+        "D) Deletes a table"
+      ],
+      "correct_option": "C",
+      "explanation": "ALTER TABLE changes table structure."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "Which clause groups rows with the same values in specified columns?",
+      "options": [
+        "A) WHERE",
+        "B) ORDER BY",
+        "C) HAVING",
+        "D) GROUP BY"
+      ],
+      "correct_option": "D",
+      "explanation": "GROUP BY groups rows with identical values."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "easy",
+      "question": "What is the result of SELECT 5 + 3 in SQL?",
+      "options": [
+        "A) NULL",
+        "B) 53",
+        "C) 8",
+        "D) Error"
+      ],
+      "correct_option": "C",
+      "explanation": "SELECT 5 + 3 = 8."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "easy",
+      "question": "Which key establishes a relationship between two tables?",
+      "options": [
+        "A) Unique Key",
+        "B) Primary Key",
+        "C) Candidate Key",
+        "D) Foreign Key"
+      ],
+      "correct_option": "D",
+      "explanation": "Foreign Key references another table's Primary Key."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL function returns the largest value in a column?",
+      "options": [
+        "A) MAX()",
+        "B) HIGH()",
+        "C) TOP()",
+        "D) PEAK()"
+      ],
+      "correct_option": "A",
+      "explanation": "MAX() returns the maximum value."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which operator is used for pattern matching in SQL?",
+      "options": [
+        "A) SIMILAR",
+        "B) LIKE",
+        "C) MATCH",
+        "D) FIND"
+      ],
+      "correct_option": "B",
+      "explanation": "LIKE uses wildcards for pattern matching."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "What does a NATURAL JOIN do?",
+      "options": [
+        "A) Joins on all columns with same name",
+        "B) Returns non-matching rows",
+        "C) Joins on primary key only",
+        "D) Returns Cartesian product"
+      ],
+      "correct_option": "A",
+      "explanation": "NATURAL JOIN matches all columns with identical names."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "Which constraint prevents NULL values in a column?",
+      "options": [
+        "A) NOT NULL",
+        "B) CHECK",
+        "C) PRIMARY",
+        "D) DEFAULT"
+      ],
+      "correct_option": "A",
+      "explanation": "NOT NULL prevents NULL values."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Which ACID property ensures all-or-nothing execution?",
+      "options": [
+        "A) Isolation",
+        "B) Atomicity",
+        "C) Consistency",
+        "D) Durability"
+      ],
+      "correct_option": "B",
+      "explanation": "Atomicity = all-or-nothing."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which device regenerates and retransmits received signals?",
+      "options": [
+        "A) Repeater",
+        "B) Bridge",
+        "C) Router",
+        "D) Switch"
+      ],
+      "correct_option": "A",
+      "explanation": "Repeaters amplify/regenerate signals."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "What is the loopback IP address?",
+      "options": [
+        "A) 192.168.0.1",
+        "B) 127.0.0.1",
+        "C) 255.255.255.255",
+        "D) 10.0.0.1"
+      ],
+      "correct_option": "B",
+      "explanation": "127.0.0.1 is the loopback address."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "easy",
+      "question": "Which protocol is used for sending emails?",
+      "options": [
+        "A) IMAP",
+        "B) FTP",
+        "C) POP3",
+        "D) SMTP"
+      ],
+      "correct_option": "D",
+      "explanation": "SMTP sends emails."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "easy",
+      "question": "Which network covers a university campus?",
+      "options": [
+        "A) LAN",
+        "B) PAN",
+        "C) MAN",
+        "D) WAN"
+      ],
+      "correct_option": "C",
+      "explanation": "MAN covers a city/campus-sized area."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "easy",
+      "question": "How many layers are in the OSI model?",
+      "options": [
+        "A) 5",
+        "B) 8",
+        "C) 6",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "OSI has 7 layers."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "In which topology does failure of one node affect the entire network?",
+      "options": [
+        "A) Bus",
+        "B) Mesh",
+        "C) Ring",
+        "D) Star"
+      ],
+      "correct_option": "C",
+      "explanation": "Ring: one node failure breaks the loop."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol breaks data into packets and reassembles them at the destination?",
+      "options": [
+        "A) FTP",
+        "B) UDP",
+        "C) HTTP",
+        "D) TCP"
+      ],
+      "correct_option": "D",
+      "explanation": "TCP ensures reliable packet delivery and reassembly."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "How many subnets by borrowing 3 bits from a Class C network?",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 3",
+        "D) 6"
+      ],
+      "correct_option": "B",
+      "explanation": "2^3 = 8 subnets."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "Which protocol provides reliable connection-oriented communication?",
+      "options": [
+        "A) TCP",
+        "B) UDP",
+        "C) ARP",
+        "D) IP"
+      ],
+      "correct_option": "A",
+      "explanation": "TCP is connection-oriented with acknowledgments."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "Maximum data rate for 4 kHz bandwidth and SNR of 30 dB per Shannon's theorem?",
+      "options": [
+        "A) 60 kbps",
+        "B) 40 kbps",
+        "C) 120 kbps",
+        "D) 20 kbps"
+      ],
+      "correct_option": "B",
+      "explanation": "C = B*log2(1+SNR). SNR=30dB->1000. log2(1001)~10. C=40kbps."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "Which exception is raised when dividing by zero?",
+      "options": [
+        "A) ArithmeticError",
+        "B) ZeroDivisionError",
+        "C) ValueError",
+        "D) TypeError"
+      ],
+      "correct_option": "B",
+      "explanation": "ZeroDivisionError for division by zero."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "Which block always executes regardless of exception occurrence?",
+      "options": [
+        "A) finally",
+        "B) try",
+        "C) else",
+        "D) except"
+      ],
+      "correct_option": "A",
+      "explanation": "finally always executes."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "File Handling",
+      "difficulty": "easy",
+      "question": "Which method writes a string to a file?",
+      "options": [
+        "A) f.put()",
+        "B) f.append()",
+        "C) f.write()",
+        "D) f.save()"
+      ],
+      "correct_option": "C",
+      "explanation": "f.write() writes a string to a file."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "File Handling",
+      "difficulty": "easy",
+      "question": "What mode opens a file for writing (creates new or truncates)?",
+      "options": [
+        "A) a",
+        "B) w",
+        "C) x",
+        "D) r"
+      ],
+      "correct_option": "B",
+      "explanation": "w mode opens for writing (truncates)."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Data Structures",
+      "difficulty": "easy",
+      "question": "What is the time complexity of accessing an element by index in a Python list?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(log n)",
+        "C) O(n)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "List index access is O(1)."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Data Structures",
+      "difficulty": "easy",
+      "question": "What is the time complexity of inserting an element at the end of a Python list with append()?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n)",
+        "C) O(1)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "append() adds an element to the end of the list in O(1) amortized time."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Data Structures",
+      "difficulty": "easy",
+      "question": "Which Python built-in function converts a binary string '1010' to its integer equivalent?",
+      "options": [
+        "A) int('1010', 10)",
+        "B) int('1010', 2)",
+        "C) convert('1010')",
+        "D) bin('1010')"
+      ],
+      "correct_option": "B",
+      "explanation": "int('1010', 2) converts a binary string to its decimal equivalent (10)."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "What is output of: print('Hello' + 3)?",
+      "options": [
+        "A) Hello3",
+        "B) SyntaxError",
+        "C) Hello",
+        "D) TypeError"
+      ],
+      "correct_option": "D",
+      "explanation": "Cannot concatenate str and int -> TypeError."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "File Handling",
+      "difficulty": "medium",
+      "question": "What does f.readline() return when EOF is reached?",
+      "options": [
+        "A) None",
+        "B) '\\n'",
+        "C) EOFError",
+        "D) '' (empty string)"
+      ],
+      "correct_option": "D",
+      "explanation": "f.readline() returns empty string at EOF."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Data Structures",
+      "difficulty": "hard",
+      "question": "What is the amortized time complexity of append() in Python list?",
+      "options": [
+        "A) O(1)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "A",
+      "explanation": "Dynamic array amortized O(1) for append."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Algorithms",
+      "difficulty": "easy",
+      "question": "Which sorting has best-case O(n) when array is already sorted?",
+      "options": [
+        "A) Quick Sort",
+        "B) Bubble Sort",
+        "C) Heap Sort",
+        "D) Selection Sort"
+      ],
+      "correct_option": "B",
+      "explanation": "Optimized Bubble Sort: O(n) best case."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Searching Algorithms",
+      "difficulty": "easy",
+      "question": "What is the time complexity of binary search?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Binary search: O(log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Algorithms",
+      "difficulty": "easy",
+      "question": "Which sorting repeatedly finds minimum and places it at beginning?",
+      "options": [
+        "A) Merge Sort",
+        "B) Insertion Sort",
+        "C) Selection Sort",
+        "D) Bubble Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Selection Sort finds minimum each pass."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Searching Algorithms",
+      "difficulty": "easy",
+      "question": "Binary search requires data to be:",
+      "options": [
+        "A) Circular",
+        "B) Sorted",
+        "C) In linked list",
+        "D) Unsorted"
+      ],
+      "correct_option": "B",
+      "explanation": "Binary search requires sorted data."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Algorithms",
+      "difficulty": "easy",
+      "question": "Worst-case time complexity of Quick Sort is:",
+      "options": [
+        "A) O(n^2)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Quick Sort worst case: O(n^2)."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Algorithms",
+      "difficulty": "easy",
+      "question": "Which sorting uses divide-and-conquer?",
+      "options": [
+        "A) Insertion Sort",
+        "B) Bubble Sort",
+        "C) Selection Sort",
+        "D) Merge Sort"
+      ],
+      "correct_option": "D",
+      "explanation": "Merge Sort uses divide-and-conquer."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Searching Algorithms",
+      "difficulty": "easy",
+      "question": "Linear search is also called:",
+      "options": [
+        "A) Hash search",
+        "B) Binary search",
+        "C) Tree search",
+        "D) Sequential search"
+      ],
+      "correct_option": "D",
+      "explanation": "Linear = sequential search."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Algorithms",
+      "difficulty": "medium",
+      "question": "Average time complexity of Merge Sort is:",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n^2)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Merge Sort: O(n log n) average."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Searching Algorithms",
+      "difficulty": "medium",
+      "question": "In binary search, if middle element is smaller than target, search continues in:",
+      "options": [
+        "A) Right half",
+        "B) Left half",
+        "C) Random half",
+        "D) Entire array"
+      ],
+      "correct_option": "A",
+      "explanation": "If middle < target, search right half."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Algorithms",
+      "difficulty": "medium",
+      "question": "Which sorting is stable?",
+      "options": [
+        "A) Merge Sort",
+        "B) Quick Sort",
+        "C) Heap Sort",
+        "D) Selection Sort"
+      ],
+      "correct_option": "A",
+      "explanation": "Merge Sort is stable."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "easy",
+      "question": "What does VPN stand for?",
+      "options": [
+        "A) Virtual Public Network",
+        "B) Visual Personal Network",
+        "C) Virtual Private Network",
+        "D) Verified Private Node"
+      ],
+      "correct_option": "C",
+      "explanation": "VPN = Virtual Private Network."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "easy",
+      "question": "Which function displays last n rows of DataFrame?",
+      "options": [
+        "A) df.end()",
+        "B) df.last()",
+        "C) df.head()",
+        "D) df.tail()"
+      ],
+      "correct_option": "D",
+      "explanation": "df.tail() returns last n rows."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "easy",
+      "question": "What library is used for data manipulation and analysis?",
+      "options": [
+        "A) Scikit-learn",
+        "B) NumPy",
+        "C) Matplotlib",
+        "D) Pandas"
+      ],
+      "correct_option": "D",
+      "explanation": "Pandas for data manipulation."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "easy",
+      "question": "What is malware?",
+      "options": [
+        "A) Network protocol",
+        "B) Malicious software",
+        "C) Database system",
+        "D) Hardware component"
+      ],
+      "correct_option": "B",
+      "explanation": "Malware = malicious software."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "easy",
+      "question": "What does HTTPS stand for?",
+      "options": [
+        "A) HyperText Transfer Private System",
+        "B) HyperText Transfer Protocol Secure",
+        "C) HyperText Transmission Protocol Standard",
+        "D) High Transfer Text Protocol Secure"
+      ],
+      "correct_option": "B",
+      "explanation": "HTTPS = HyperText Transfer Protocol Secure."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "easy",
+      "question": "Which Pandas structure is 2-dimensional?",
+      "options": [
+        "A) DataFrame",
+        "B) Array",
+        "C) Panel",
+        "D) Series"
+      ],
+      "correct_option": "A",
+      "explanation": "DataFrame is 2-dimensional."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "easy",
+      "question": "What is a computer worm?",
+      "options": [
+        "A) Malware that replicates independently",
+        "B) Network cable",
+        "C) Database table",
+        "D) Hardware device"
+      ],
+      "correct_option": "A",
+      "explanation": "Worm replicates without attaching to files."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "medium",
+      "question": "In Pandas, which function provides summary statistics (count, mean, std, min, max) for numeric columns?",
+      "options": [
+        "A) df.info()",
+        "B) df.stats()",
+        "C) df.describe()",
+        "D) df.summarize()"
+      ],
+      "correct_option": "C",
+      "explanation": "df.describe() generates descriptive statistics."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "medium",
+      "question": "What type of cyber attack uses fake emails to trick users into revealing passwords?",
+      "options": [
+        "A) DDoS",
+        "B) SQL Injection",
+        "C) Phishing",
+        "D) Spoofing"
+      ],
+      "correct_option": "C",
+      "explanation": "Phishing uses fake emails to trick users."
+    },
+    {
+      "id": "CUET_CS_2026_P11_L1B_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "medium",
+      "question": "Which Pandas method removes rows containing NaN or missing values?",
+      "options": [
+        "A) df.clean()",
+        "B) df.dropna()",
+        "C) df.remove()",
+        "D) df.fillna()"
+      ],
+      "correct_option": "B",
+      "explanation": "df.dropna() removes rows with missing values."
+    }
+  ]
+}

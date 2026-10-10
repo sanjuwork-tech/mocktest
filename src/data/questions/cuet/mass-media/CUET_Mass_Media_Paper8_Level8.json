@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MM_2026_P08_L8",
+  "series_id": "CUET_MM_2026",
+  "paper_number": 8,
+  "difficulty_level": "8",
+  "subject": "Mass Media / Mass Communication (Code: 318)",
+  "syllabus_source": "cuet mass media syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "CUET UG Mass Media Past Papers (2022-2024)",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MM_2026_P08_L8_Q01",
+      "topic": "Communication: Evolution of Media",
+      "sub_topic": "Press Freedom during the Emergency (1975-1977)",
+      "difficulty": "easy",
+      "question": "During the Emergency in India (1975–1977), when pre-censorship silenced the national press, which newspaper famously printed a blank editorial page in protest on 28 June 1975?",
+      "options": [
+        "A) The Indian Express (and The Statesman)",
+        "B) The Times of India",
+        "C) National Herald",
+        "D) The Hindu"
+      ],
+      "correct_option": "A",
+      "explanation": "In an iconic act of defiance against censorship, Ramnath Goenka's 'The Indian Express' and 'The Statesman' published blank lead editorial columns."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q02",
+      "topic": "Communication: Evolution of Media",
+      "sub_topic": "Prasar Bharati Act 1990 Governance Structure",
+      "difficulty": "medium",
+      "question": "The Prasar Bharati (Broadcasting Corporation of India) Act, 1990 established a statutory autonomous public service broadcaster comprising which two constituent wings?",
+      "options": [
+        "A) Press Information Bureau and Directorate of Advertising",
+        "B) All India Radio (Akashvani) and Doordarshan",
+        "C) Press Trust of India and United News of India",
+        "D) Film Division and National Film Development Corporation"
+      ],
+      "correct_option": "B",
+      "explanation": "Prasar Bharati functions as India's autonomous public service broadcaster, overseeing both All India Radio and Doordarshan under an independent Board."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q03",
+      "topic": "Communication: Evolution of Media",
+      "sub_topic": "Mahatma Gandhi's Advertising-Free Journalism Philosophy",
+      "difficulty": "medium",
+      "question": "Mahatma Gandhi ran his publications ('Indian Opinion', 'Young India', 'Harijan') with a strict policy of accepting zero commercial advertisements because he believed:",
+      "options": [
+        "A) Printing presses did not possess the technical ability to print commercial logos",
+        "B) The British colonial government paid all printing and distribution bills in full",
+        "C) Commercial advertisements corrupt editorial independence, create commercial servitude, and compromise the truth",
+        "D) Paper ink made from tree bark was too expensive for advertisements"
+      ],
+      "correct_option": "C",
+      "explanation": "Gandhi insisted that newspapers must be self-supporting through reader subscriptions alone, warning that advertiser dependence compromises editorial integrity."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q04",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Ogden and Richards' Triangle of Meaning (1923)",
+      "difficulty": "hard",
+      "question": "In C.K. Ogden and I.A. Richards' 'Triangle of Meaning' (1923), why is the base line connecting the 'Symbol' (word) directly to the 'Referent' (physical object) drawn as a dotted/broken line?",
+      "options": [
+        "A) Because the printing ink used in their original textbook was defective and faded",
+        "B) Because words can only refer to objects during daylight hours",
+        "C) Because physical objects cease to exist whenever human beings speak words",
+        "D) Because there is no direct, inherent relationship between a word and the physical object it represents; the connection exists only through human thought/reference"
+      ],
+      "correct_option": "D",
+      "explanation": "Language is arbitrary; the broken line signifies that the symbol ('cat') has no natural link to the actual animal—meaning is mediated entirely through mental thought/reference."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q05",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Stuart Hall's Encoding / Decoding Cultural Model (1973)",
+      "difficulty": "medium",
+      "question": "In Stuart Hall's Encoding/Decoding model, when an audience member fully understands the media text's preferred meaning but interprets it within an alternative, critical framework that rejects the dominant ideology, they adopt:",
+      "options": [
+        "A) An Oppositional (or Counter-Hegemonic) code reading",
+        "B) A Dominant-Hegemonic code reading",
+        "C) A Negotiated code reading",
+        "D) A Passive hypodermic code reading"
+      ],
+      "correct_option": "A",
+      "explanation": "Hall outlined three decoding positions: Dominant-Hegemonic (accepts intended message), Negotiated (accepts broadly but adapts locally), and Oppositional (decodes the preferred message but rejects it ideologically)."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q06",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Marshall McLuhan: 'The Medium is the Message'",
+      "difficulty": "medium",
+      "question": "Marshall McLuhan's famous aphorism 'The Medium is the Message' (1964) fundamentally argues that:",
+      "options": [
+        "A) The written words of a news story are identical in meaning to physical electrical currents",
+        "B) The technological form and structure of a medium influences human perception and social organization far more profoundly than the specific content transmitted through it",
+        "C) Only printed books contain meaningful information while all electronic media are meaningless",
+        "D) The physical weight of a television set determines the truthfulness of the evening news"
+      ],
+      "correct_option": "B",
+      "explanation": "McLuhan argued that media technologies act as extensions of human senses; the medium itself (print, TV, internet) restructures how human minds perceive reality regardless of content."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q07",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Shannon-Weaver Model: Redundancy vs Entropy",
+      "difficulty": "hard",
+      "question": "In Claude Shannon and Warren Weaver's Mathematical Theory of Communication (1949), 'Redundancy' is intentionally built into a transmitted message primarily to:",
+      "options": [
+        "A) Double the financial cost of sending telegraph telegrams across national borders",
+        "B) Confuse unauthorized third-party eavesdroppers by repeating random false words",
+        "C) Combat noise and signal degradation in the channel, ensuring the receiver decodes the message correctly despite transmission errors",
+        "D) Completely eliminate all electrical currents from the copper telephone wires"
+      ],
+      "correct_option": "C",
+      "explanation": "Redundancy provides predictability and error-checking in a message, allowing receivers to reconstruct information even if parts are obliterated by channel noise."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q08",
+      "topic": "Journalism: Reporting and Editing Techniques",
+      "sub_topic": "Stylebook Purpose in News Organizations",
+      "difficulty": "easy",
+      "question": "In professional newsrooms, what is the purpose of an institutional 'Stylebook' (such as the AP Stylebook or Reuters Handbook)?",
+      "options": [
+        "A) To dictate what personal fashion clothing reporters must wear while interviewing politicians",
+        "B) To calculate the retail prices of newspapers sold in street kiosks",
+        "C) To serve as a legal catalog of government classified state secrets",
+        "D) To maintain uniform consistency in spelling, grammar, capitalization, punctuation, abbreviation, and numeral usage across all published stories"
+      ],
+      "correct_option": "D",
+      "explanation": "A stylebook enforces stylistic and grammatical uniformity across all reporters and desks, maintaining editorial polish and professional credibility."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q09",
+      "topic": "Journalism: Understanding News",
+      "sub_topic": "Galtung and Ruge News Values: Composition and Meaningfulness",
+      "difficulty": "medium",
+      "question": "In Galtung and Ruge's news selection framework, the news value of 'Composition' explains why an editor balancing a news broadcast will intentionally include a light, heartwarming human story alongside grim political catastrophes:",
+      "options": [
+        "A) To provide emotional balance, varied pacing, and thematic diversity in the overall bulletin",
+        "B) Because the law mandates that all television channels must broadcast twenty minutes of comedy daily",
+        "C) Because serious news stories consume too much electrical power during transmission",
+        "D) To allow camera operators to eat a snack while the light story plays"
+      ],
+      "correct_option": "A",
+      "explanation": "Composition concerns the total balance of a news package: editors balance heavy hard news with light human features or cultural stories to present a well-rounded bulletin."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q10",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Embargo Breaches in Financial Journalism",
+      "difficulty": "medium",
+      "question": "Why is an unauthorized breach of an editorial 'Embargo' on a corporate financial earnings report or central bank interest rate decision treated as a catastrophic ethical and legal breach?",
+      "options": [
+        "A) Because printing numbers before 10 AM physically jams rotary printing presses",
+        "B) Because prematurely releasing confidential financial data creates massive unfair trading advantages and securities market manipulation (insider trading)",
+        "C) Because central banks immediately cancel all circulating physical paper currency",
+        "D) Because journalists are legally mandated to write only in rhyming poetry before noon"
+      ],
+      "correct_option": "B",
+      "explanation": "Premature leakage of market-sensitive data disrupts stock markets and creates insider advantages, destroying reporter trust and prompting severe regulatory sanctions."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q11",
+      "topic": "Journalism: Reporting and Editing Techniques",
+      "sub_topic": "Fact-Checking Workflows: Corroboration Standards",
+      "difficulty": "medium",
+      "question": "In rigorous investigative reporting, what is the 'Two-Source Rule' regarding controversial factual assertions made by confidential sources?",
+      "options": [
+        "A) An article must be written by two different journalists sitting at the same computer desk",
+        "B) A newspaper must print two completely contradictory versions of the story on facing pages",
+        "C) A controversial factual claim must be independently confirmed and corroborated by at least two separate, unrelated credible sources before publication",
+        "D) The reporter must read the story aloud two times before mailing it to the printing press"
+      ],
+      "correct_option": "C",
+      "explanation": "The two-source rule (popularized by The Washington Post during Watergate) mandates that unverified allegations must be independently substantiated by at least two distinct sources."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q12",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Absolute vs Qualified Privilege in Defamation Law",
+      "difficulty": "medium",
+      "question": "In defamation jurisprudence, what provides Members of Parliament and judges with 'Absolute Privilege' for statements made on the floor of the House or in court?",
+      "options": [
+        "A) The right to personally arrest any citizen who disagrees with their speeches",
+        "B) Immunity from paying taxes on physical paper publications",
+        "C) The authority to rewrite the Indian Penal Code without legislative voting",
+        "D) Immunity from any defamation lawsuit, even if the statements are completely false or made with malicious intent, to guarantee fearless constitutional debate"
+      ],
+      "correct_option": "D",
+      "explanation": "Absolute privilege guarantees unfettered speech in Parliament (Article 105) and courtrooms: no action for defamation lies, even if words are false or malicious, ensuring fearless public duty."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q13",
+      "topic": "Journalism: Photo Journalism",
+      "sub_topic": "Kevin Carter's Pulitzer Photo (1993) Ethical Controversy",
+      "difficulty": "hard",
+      "question": "Kevin Carter's 1993 Pulitzer Prize-winning photograph depicting an emaciated Sudanese toddler collapsed near a stalking vulture triggered fierce global ethical debates about:",
+      "options": [
+        "A) The moral duty of a photojournalist to intervene and provide humanitarian assistance versus maintaining detached professional observation to document history",
+        "B) The commercial copyright royalty fees paid to wildlife photographers for animal pictures",
+        "C) Whether digital color balance filters should be applied to outdoor desert photography",
+        "D) The legality of transporting camera equipment on international commercial airplanes"
+      ],
+      "correct_option": "A",
+      "explanation": "Carter's haunting photo ignited global debate on photojournalistic ethics: whether the photographer's paramount moral duty was to rescue the starving child or document the famine for the world."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q14",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Right to Privacy: K.S. Puttaswamy v. Union of India (2017)",
+      "difficulty": "hard",
+      "question": "In the landmark nine-judge Constitution Bench ruling 'Justice K.S. Puttaswamy v. Union of India' (2017), what constitutional status was accorded to the Right to Privacy, impacting media intrusion?",
+      "options": [
+        "A) Privacy was declared a minor commercial copyright privilege owned by corporate employers",
+        "B) Privacy was declared a fundamental right intrinsically guaranteed under Article 21 (Life and Personal Liberty) of the Constitution of India",
+        "C) Privacy was abolished completely to facilitate twenty-four hour state surveillance",
+        "D) Privacy was restricted exclusively to foreign diplomats holding diplomatic passports"
+      ],
+      "correct_option": "B",
+      "explanation": "Puttaswamy established privacy as an inalienable fundamental right under Article 21, creating a constitutional barrier against non-consensual media surveillance, wiretapping, and voyeurism."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q15",
+      "topic": "Journalism: Reporting and Editing Techniques",
+      "sub_topic": "Automated Web Scraping Ethics in Investigative Reporting",
+      "difficulty": "hard",
+      "question": "When investigative data journalists use automated web scrapers to gather public records from corporate or government databases, what ethical and technical line must they respect?",
+      "options": [
+        "A) Never extracting more than ten letters of text per calendar month",
+        "B) Paying a bribe to the database server hosting company before writing any code",
+        "C) Respecting server request rates (not crashing public servers) and scraping only data of legitimate public interest without harvesting private citizen personal identifiers",
+        "D) Scraping only databases that are written entirely in ancient Latin"
+      ],
+      "correct_option": "C",
+      "explanation": "Ethical scraping throttles requests to avoid overwhelming public infrastructure (DDoS), abides by robots.txt where feasible, and redacts non-public personal data in published investigations."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q16",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Sub Judice Contempt and Prejudicing Juries/Judges",
+      "difficulty": "hard",
+      "question": "Under the Contempt of Courts Act, 1971, when does media coverage of a criminal case legally become 'Sub Judice' and vulnerable to contempt proceedings?",
+      "options": [
+        "A) Only after the convicted prisoner has completed their ten-year prison sentence",
+        "B) Only if the newspaper editor is an immediate blood relative of the courtroom judge",
+        "C) Sub judice applies exclusively to traffic parking ticket disputes in municipal courts",
+        "D) From the moment a chargesheet or arrest is made and legal proceedings are pending, if the publication tends to interfere with the due course of judicial proceedings"
+      ],
+      "correct_option": "D",
+      "explanation": "Once a matter is sub judice (pending before a court), media publications declaring guilt or publishing inadmissible confessions risk contempt for prejudicing the administration of justice."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q17",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Cause-Related Marketing vs Greenwashing Verification",
+      "difficulty": "easy",
+      "question": "When evaluating whether a brand's ecological campaign is genuine Corporate Social Responsibility (CSR) or deceptive 'Greenwashing', what is the key benchmark?",
+      "options": [
+        "A) Third-party audited data proving measurable environmental impact and sustainable operational practices across the supply chain",
+        "B) The number of green leaves drawn on the product packaging label",
+        "C) Whether the commercial features famous celebrity actors smiling",
+        "D) The volume of background acoustic sound effects in the television commercial"
+      ],
+      "correct_option": "A",
+      "explanation": "Authentic CSR is substantiated by independent, transparent third-party auditing and real supply chain changes; cosmetic greenwashing relies on slogans and unsubstantiated imagery."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q18",
+      "topic": "Advertising and Public Relations: Public Relations",
+      "sub_topic": "Astroturfing Deceptive Public Relations",
+      "difficulty": "medium",
+      "question": "In political public relations and corporate advocacy, the unethical practice of 'Astroturfing' refers to:",
+      "options": [
+        "A) Planting artificial green turf grass on corporate office athletic fields",
+        "B) Creating fake, synthetic 'grassroots' citizen campaigns and front groups to fabricate the illusion of widespread organic public support",
+        "C) Purchasing physical outdoor billboards along national railway tracks",
+        "D) Printing corporate balance sheets on recycled botanical paper pulp"
+      ],
+      "correct_option": "B",
+      "explanation": "Astroturfing (named after artificial turf) masks the corporate sponsors of a message to make it appear as an authentic, spontaneous grassroots citizen movement."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q19",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "ASCI Consumer Complaints Council (CCC) Mechanism",
+      "difficulty": "medium",
+      "question": "In India, the Advertising Standards Council of India (ASCI) regulates commercial advertising through its Consumer Complaints Council (CCC), which adjudicates on:",
+      "options": [
+        "A) The retail price of vegetables sold in municipal agricultural mandis",
+        "B) The speed limit of commercial advertising delivery vans on city highways",
+        "C) Truthfulness, decency, safety, and fairness in competition across all print, broadcast, and digital advertisements",
+        "D) The personal income tax returns filed by advertising copywriters"
+      ],
+      "correct_option": "C",
+      "explanation": "ASCI is a self-regulatory voluntary body whose CCC examines consumer and industry complaints against false, indecent, misleading, or unfair competitive advertising."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q20",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Brand Repositioning Failures: The Tropicana Redesign Case",
+      "difficulty": "medium",
+      "question": "In branding history, why did PepsiCo's 2009 packaging redesign of Tropicana pure premium orange juice suffer a catastrophic 20% sales collapse within two months?",
+      "options": [
+        "A) The company accidentally replaced the orange juice with salty sea water inside cartons",
+        "B) The company increased the retail price of juice by five thousand percent overnight",
+        "C) The company stopped selling juice and started manufacturing industrial steel tubes",
+        "D) Removing the iconic orange-with-a-straw visual equity and adopting generic minimalist typography alienated loyal shoppers who could no longer recognize the brand"
+      ],
+      "correct_option": "D",
+      "explanation": "Tropicana discarded its beloved visual icon (orange with straw) for generic packaging, destroying visual brand equity and confusing grocery shoppers, forcing an embarrassing revert."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q21",
+      "topic": "Advertising and Public Relations: Public Relations",
+      "sub_topic": "Grunig and Hunt's Four Models of Public Relations (1984)",
+      "difficulty": "hard",
+      "question": "In James Grunig and Todd Hunt's celebrated Four Models of Public Relations (1984), which model is recognized as the most ethical and socially responsible?",
+      "options": [
+        "A) Two-Way Symmetrical Model—using research and dialogue to achieve mutual understanding, collaboration, and balance between the organization and its publics",
+        "B) Press Agentry / Publicity Model—using sensational hype and half-truths to gain media attention",
+        "C) Public Information Model—one-way dissemination of factual organizational press releases",
+        "D) Two-Way Asymmetrical Model—using scientific persuasion to manipulate publics without changing corporate behavior"
+      ],
+      "correct_option": "A",
+      "explanation": "Grunig & Hunt identified the Two-Way Symmetrical model as the normative ideal: communication flows both ways to negotiate mutual adjustment rather than one-sided persuasion."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q22",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Roland Barthes: Rhetoric of the Image (1964)",
+      "difficulty": "hard",
+      "question": "In his seminal semiotic essay 'Rhetoric of the Image' (1964) analyzing a Panzani pasta advertisement, Roland Barthes demonstrated that visual ads communicate through which three layered messages?",
+      "options": [
+        "A) The Font size, the Ink color, and the Printing paper thickness",
+        "B) The Linguistic message (captions/labels), the Coded Iconic message (connoted cultural meanings like 'Italianicity'), and the Non-Coded Iconic message (literal denotation)",
+        "C) The Television volume, the Radio frequency, and the Satellite bandwidth",
+        "D) The Author signature, the Legal copyright notice, and the Retail barcode"
+      ],
+      "correct_option": "B",
+      "explanation": "Barthes unpicked the rhetoric of visual advertising: linguistic text anchors meaning, literal non-coded imagery denotes vegetables/pasta, and coded iconography connotes freshness and 'Italianicity'."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q23",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Herbert Krugman's Three-Hit Theory in Advertising Frequency",
+      "difficulty": "medium",
+      "question": "Herbert Krugman's influential 'Three-Hit Theory' of advertising frequency posits that optimal cognitive exposure occurs across three exposures, which represent:",
+      "options": [
+        "A) First hit: Ignore; Second hit: Delete; Third hit: Complain to the police",
+        "B) First hit: Purchase; Second hit: Return; Third hit: Sue for damages",
+        "C) First exposure: 'What is it?' (Curiosity); Second exposure: 'What of it?' (Evaluation/Relevance); Third exposure: Reminder / Reinforcement",
+        "D) First hit: Daytime; Second hit: Nighttime; Third hit: Midnight"
+      ],
+      "correct_option": "C",
+      "explanation": "Krugman argued that three psychological exposures suffice: 1st sparks cognitive curiosity ('What is this?'), 2nd evaluates personal relevance ('Is this for me?'), and 3rd acts as a purchase reminder."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q24",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Interbrand Brand Valuation Methodology",
+      "difficulty": "hard",
+      "question": "In corporate finance and marketing, how does the Interbrand Global Best Brands valuation methodology calculate the monetary dollar value of a brand?",
+      "options": [
+        "A) By multiplying the total number of factory employees by their annual bonus payments",
+        "B) By weighing all physical retail inventory boxes stored in company shipping warehouses",
+        "C) By counting how many likes and retweets the company's official social profile receives",
+        "D) By combining Financial Analysis of economic profit, Role of Brand (percentage of purchase decision driven by brand), and Brand Strength (ability to secure future earnings)"
+      ],
+      "correct_option": "D",
+      "explanation": "Interbrand's ISO-certified model evaluates: (1) financial forecast of economic value add, (2) Role of Brand index (% of demand driven by brand vs price), and (3) Brand Strength score."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q25",
+      "topic": "TV Production Process: Transmission Technologies",
+      "sub_topic": "Direct-To-Home (DTH) Television Broadcasting",
+      "difficulty": "easy",
+      "question": "In Indian television distribution, Direct-To-Home (DTH) satellite technology transmits compressed digital television signals directly from geostationary satellites to:",
+      "options": [
+        "A) Small personal dish antennas mounted on individual viewer homes",
+        "B) Underground water pipes running beneath municipal city roads",
+        "C) High-voltage electrical transmission lines powering street lamps",
+        "D) Physical copper telephone wire poles connected to local post offices"
+      ],
+      "correct_option": "A",
+      "explanation": "DTH bypasses local cable operators by uplinking broadcast signals to geostationary Ku-band satellites, beaming directly to small rooftop satellite dish receivers."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q26",
+      "topic": "TV Production Process: Production Stages",
+      "sub_topic": "Virtual Production using LED Video Volumes",
+      "difficulty": "medium",
+      "question": "In cutting-edge film and television production (like The Mandalorian), how does 'Virtual Production' using massive LED video walls surpass traditional green screen chromakey?",
+      "options": [
+        "A) It completely eliminates the need for human actors and uses exclusively radio voiceovers",
+        "B) It displays real-time 3D environments that match camera movement via parallax tracking, providing natural in-camera lighting and reflections on actors",
+        "C) It shoots films in total darkness without using any electricity or lighting",
+        "D) It forces all cameras to remain completely frozen on stationary tripods"
+      ],
+      "correct_option": "B",
+      "explanation": "LED volumes (StageCraft) render photorealistic 3D virtual worlds in real time with camera tracking, providing natural ambient lighting and eliminating green screen spill."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q27",
+      "topic": "TV Production Process: Programmes & Formats",
+      "sub_topic": "Television Format Bibles and Licensing",
+      "difficulty": "medium",
+      "question": "When an Indian television production company adapts an international franchise (like Kaun Banega Crorepati adapted from Who Wants to Be a Millionaire?), they purchase a 'Format Bible' containing:",
+      "options": [
+        "A) A sacred religious manuscript translated into classical Latin",
+        "B) An unedited copy of the host's personal family medical history",
+        "C) Meticulous proprietary instructions governing set design, lighting cues, music stings, graphics, host rules, and gameplay mechanics",
+        "D) A directory containing the telephone numbers of all television viewers in the nation"
+      ],
+      "correct_option": "C",
+      "explanation": "A TV Format Bible is the comprehensive intellectual property manual that specifies every aesthetic and procedural detail to ensure standardized global franchise execution."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q28",
+      "topic": "TV Production Process: Camera Work & Lighting",
+      "sub_topic": "Key-to-Fill Lighting Ratios in Drama vs News",
+      "difficulty": "hard",
+      "question": "In dramatic television lighting design, how does the 'Key-to-Fill Ratio' determine the contrast and mood of a scene?",
+      "options": [
+        "A) A low ratio turns the entire picture into bright purple neon light",
+        "B) A high ratio doubles the physical weight of the television camera body",
+        "C) Ratios apply only to audio microphone volume levels and have no impact on lighting",
+        "D) A low ratio (e.g., 2:1) produces bright, shadowless high-key lighting for news and comedy, while a high ratio (e.g., 8:1 or 16:1) produces dramatic, shadowy low-key chiaroscuro for thrillers"
+      ],
+      "correct_option": "D",
+      "explanation": "Key-to-fill ratio measures the proportion of key light to shadow-fill light; high ratios leave deep dramatic shadows (film noir, horror), while low ratios create bright, even lighting (sitcoms, news)."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q29",
+      "topic": "TV Production Process: Camera Work & Lighting",
+      "sub_topic": "Camera Sensors: CMOS Rolling Shutter vs Global Shutter",
+      "difficulty": "hard",
+      "question": "In digital cinematography, why can CMOS camera sensors suffer from the 'Rolling Shutter' artifact (the 'jello effect') during rapid panning or propeller blade movement?",
+      "options": [
+        "A) Because CMOS sensors scan and expose the image line-by-line from top to bottom rather than capturing the entire frame instantaneously (global shutter)",
+        "B) Because CMOS sensors are manufactured using transparent glass marble lenses",
+        "C) Because CMOS sensors run out of digital electricity every twenty-four frames",
+        "D) Because digital cameras can only record images when stationary on tripods"
+      ],
+      "correct_option": "A",
+      "explanation": "Rolling shutters capture pixels line-by-line sequentially; rapid movement causes objects to shift position before the scan completes, warping vertical lines into tilted diagonal 'jello'."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q30",
+      "topic": "TV Production Process: Audio in Production",
+      "sub_topic": "Broadcast Loudness Normalization: EBU R128 and ITU-R BS.1770",
+      "difficulty": "hard",
+      "question": "To prevent sudden jarring volume spikes when television programs cut to commercial advertisements, modern broadcast engineering enforces loudness standards (such as EBU R128) based on:",
+      "options": [
+        "A) The physical weight of the studio speakers measured in kilograms",
+        "B) LUFS (Loudness Units Full Scale) measuring integrated perceived human loudness across time rather than simple electrical peak voltage",
+        "C) The total number of musical instruments heard on the soundtrack",
+        "D) The geographical distance between the television station and the viewer's house"
+      ],
+      "correct_option": "B",
+      "explanation": "Loudness standards (EBU R128 / ITU BS.1770) mandate integrated loudness targets (typically -23 or -24 LUFS), ending the 'loudness wars' where advertisers artificially compressed audio to blast louder than shows."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q31",
+      "topic": "Radio: Radio Recording",
+      "sub_topic": "The 7-Second Delay and Profanity Dump Button",
+      "difficulty": "easy",
+      "question": "During live radio call-in talk shows, what technical mechanism allows the sound engineer to censor accidental obscenities or defamatory caller remarks before they hit the airwaves?",
+      "options": [
+        "A) Disconnecting the municipal power grid to the entire radio station",
+        "B) Physically grabbing the caller's telephone wire with wire cutters",
+        "C) A 7-second broadcast delay buffer paired with an instant 'Dump Button'",
+        "D) Shouting loudly into the studio microphone to drown out the caller"
+      ],
+      "correct_option": "C",
+      "explanation": "Live talk radio operates on a digital delay (typically 7 to 10 seconds); hitting the 'dump' button discards the buffered audio and drops back to safe real-time programming before profanity airs."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q32",
+      "topic": "Radio: Evolution of Radio",
+      "sub_topic": "Digital Audio Broadcasting (DAB) and DRM in India",
+      "difficulty": "medium",
+      "question": "Digital Radio Mondiale (DRM) technology adopted by All India Radio for digitizing its medium-wave and short-wave networks offers which breakthrough benefit?",
+      "options": [
+        "A) Eliminating the need for listeners to possess radio receiver sets",
+        "B) Converting spoken audio into high-definition holographic video projections",
+        "C) Broadcasting exclusively during solar eclipses once every ten years",
+        "D) Delivering FM-like stereo audio clarity and digital text data services over traditional AM medium-wave frequency bands"
+      ],
+      "correct_option": "D",
+      "explanation": "DRM digitizes AM bands, transmitting crisp digital stereo audio, news text scrolls, and emergency warnings across vast regional distances without static."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q33",
+      "topic": "Radio: Radio Recording",
+      "sub_topic": "Parametric Equalization (EQ) in Audio Post-Production",
+      "difficulty": "medium",
+      "question": "In radio audio mixing, a sound engineer uses a 'Parametric Equalizer' (EQ) to sculpt a voiceover track by adjusting which three core parameters?",
+      "options": [
+        "A) Frequency (center frequency in Hz), Gain (boost or cut in dB), and Q (Bandwidth / resonance width)",
+        "B) Volume, Pitch, and Speed of tape rotation",
+        "C) Length of copper cable, microphone weight, and room temperature",
+        "D) Number of words spoken, alphabet vowels, and punctuation marks"
+      ],
+      "correct_option": "A",
+      "explanation": "Parametric EQ gives surgical control over audio: center Frequency selects the tone, Q controls the bandwidth sharpness, and Gain boosts or attenuates that specific frequency band."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q34",
+      "topic": "Radio: Radio Recording",
+      "sub_topic": "Binaural Audio Recording and Dummy Head Microphones",
+      "difficulty": "hard",
+      "question": "In immersive radio drama production, 'Binaural Audio' recording uses a specialized 'Dummy Head' (Neumann KU 100) equipped with calibrated ear canal microphones to capture:",
+      "options": [
+        "A) Sound waves that can only be perceived by trained military naval submarines",
+        "B) Three-dimensional spatial sound that mimics natural human Head-Related Transfer Functions (HRTF), recreating 360-degree spatial localization for headphone listeners",
+        "C) Monophonic audio signals that eliminate all differences between left and right ears",
+        "D) Ultrasonic acoustic pulses that destroy physical microphone cables"
+      ],
+      "correct_option": "B",
+      "explanation": "Binaural recording simulates human ear physiology: pinnae, head shadow, and ear canal distance shape sound arrival times (ITD/ILD), placing listeners directly inside a 3D acoustic room."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q35",
+      "topic": "Radio: Radio Recording",
+      "sub_topic": "Psychoacoustics: The Cocktail Party Effect in Audio Mixing",
+      "difficulty": "hard",
+      "question": "In psychoacoustics and sound engineering, the 'Cocktail Party Effect' describes the remarkable human auditory capability that audio mixers emulate using stereo panning and frequency carving:",
+      "options": [
+        "A) The physical effect of alcoholic beverages on the electrical resistance of microphone diaphragms",
+        "B) A sudden loud popping sound that occurs when a sound mixer table loses electrical grounding",
+        "C) The human brain's ability to focus attention on a single voice within a noisy environment by leveraging binaural hearing and spatial directional cues",
+        "D) The complete inability of human beings to hear any sound when standing inside a crowded room"
+      ],
+      "correct_option": "C",
+      "explanation": "The cocktail party effect relies on binaural cues and frequency differentiation; mixing engineers use stereo panning and EQ carving to prevent competing audio tracks from masking the lead voice."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q36",
+      "topic": "Cinema: Production Process and Cinema Genres",
+      "sub_topic": "Principal Photography Daily Dailies / Rushes Review",
+      "difficulty": "easy",
+      "question": "In professional filmmaking, the raw, unedited footage captured each day by the camera department and reviewed every evening by the director and cinematographer is called the:",
+      "options": [
+        "A) Final cut master",
+        "B) Theatrical trailer",
+        "C) Commercial teaser",
+        "D) Dailies (or Rushes)"
+      ],
+      "correct_option": "D",
+      "explanation": "Dailies (rushes) are screened at the end of each shooting day to verify focus, lighting, audio quality, and acting continuity before sets are struck."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q37",
+      "topic": "Cinema: Production Process and Cinema Genres",
+      "sub_topic": "Classical Hollywood Continuity: The 30-Degree Rule",
+      "difficulty": "medium",
+      "question": "In cinematic continuity editing, the '30-Degree Rule' dictates that when cutting between two consecutive shots of the same subject, the camera angle must shift by at least 30 degrees to:",
+      "options": [
+        "A) Prevent jarring 'jump cuts' that disorient the viewer's visual continuity",
+        "B) Ensure that the camera lens does not crack from overheating",
+        "C) Comply with municipal safety ordinances governing studio floors",
+        "D) Ensure that the actors' shadows always face due North"
+      ],
+      "correct_option": "A",
+      "explanation": "Shifting angle by at least 30 degrees between successive takes of the same character ensures the two shots appear purposefully distinct, avoiding jarring optical jump cuts."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q38",
+      "topic": "Cinema: Production Process and Cinema Genres",
+      "sub_topic": "Cyberpunk Sci-Fi Subgenre Aesthetics",
+      "difficulty": "medium",
+      "question": "The 'Cyberpunk' science fiction subgenre (exemplified by Blade Runner, The Matrix, and Neuromancer) is philosophically defined by the thematic contrast of:",
+      "options": [
+        "A) Peaceful agricultural pastoral farming on sunny rural islands",
+        "B) 'High Tech, Low Life'—hyper-advanced digital technologies, artificial intelligence, and megacorporations contrasted against dystopian urban decay and social alienation",
+        "C) Historical medieval castles with zero electrical technology",
+        "D) Wholesome children's comedy musicals featuring talking animal puppets"
+      ],
+      "correct_option": "B",
+      "explanation": "Cyberpunk juxtaposes cutting-edge technology (cybernetics, VR, bio-engineering) with dystopian social collapse, corporate feudalism, and marginalized street antiheroes ('High Tech, Low Life')."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q39",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "Yasujiro Ozu's Tatami Shot and Pillow Shots in 'Tokyo Story' (1953)",
+      "difficulty": "hard",
+      "question": "Japanese cinema master Yasujiro Ozu developed an iconic formal cinematic style in masterpieces like 'Tokyo Story' (1953) characterized by:",
+      "options": [
+        "A) Rapid kinetic camera movements on fifty-foot cranes and explosive martial arts duels",
+        "B) Filming exclusively through warped fisheye optical lenses with neon green lighting",
+        "C) Positioning the camera at a low 'tatami level' (eye level of someone kneeling on a mat), avoiding camera movement, and inserting meditative cutaways ('pillow shots')",
+        "D) Refusing to permit any human actors to appear on camera"
+      ],
+      "correct_option": "C",
+      "explanation": "Ozu placed his 50mm lens at tatami level (3 feet off the floor), eliminating pans/tracking, and used contemplative 'pillow shots' of empty rooms, trains, or clotheslines to evoke the beauty of transient life (mono no aware)."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q40",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "Auteur Theory Formulation: Truffaut and Sarris",
+      "difficulty": "medium",
+      "question": "In cinema aesthetics, the 'Auteur Theory' popularized by François Truffaut (1954) and Andrew Sarris (1962) asserts that the ultimate artistic author of a film is:",
+      "options": [
+        "A) The Screenplay writer who types the original manuscript words on a typewriter",
+        "B) The Corporate financial banker who loans money to the movie studio",
+        "C) The Lead movie star actor who earns the highest box-office salary",
+        "D) The Director, whose distinct personal artistic vision, thematic obsessions, and visual style transcend industrial studio constraints"
+      ],
+      "correct_option": "D",
+      "explanation": "Auteur theory champions the director as the creative visionary whose distinctive visual signature, recurrent motifs, and worldview define the film as personal art."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q41",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "Third Cinema Manifesto: Solanas and Getino (1969)",
+      "difficulty": "hard",
+      "question": "In Latin American film theory, Fernando Solanas and Octavio Getino's revolutionary manifesto 'Towards a Third Cinema' (1969) rejected 'First Cinema' (Hollywood commercialism) and 'Second Cinema' (European auteurist art cinema) to define 'Third Cinema' as:",
+      "options": [
+        "A) Militant, anti-colonial liberation cinema that actively challenges imperialism and mobilization for revolutionary social change",
+        "B) Commercial animated children's cartoons produced for television syndication",
+        "C) Silent black-and-white comedy films featuring slapstick physical gags",
+        "D) Purely technical training films demonstrating how to operate farm tractors"
+      ],
+      "correct_option": "A",
+      "explanation": "Solanas and Getino defined Third Cinema as a collective revolutionary weapon against neocolonialism and capitalist consumerism, transforming cinema into political praxis."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q42",
+      "topic": "Cinema: Cinema and Social Change",
+      "sub_topic": "Kumar Shahani's 'Maya Darpan' (1972) Formalism",
+      "difficulty": "hard",
+      "question": "Kumar Shahani's landmark 1972 parallel cinema debut 'Maya Darpan', adapted from Nirmal Verma's story, is celebrated in Indian cinema history for its pioneering use of:",
+      "options": [
+        "A) Hollywood-style computer-generated animated spaceships and laser blasters",
+        "B) Expressive color theory, architectural space, and epic visual formalism exploring a young woman's interiority within a decaying feudal haveli",
+        "C) A twenty-minute musical comedy tap dance performed inside a crowded train station",
+        "D) Sensational crime melodrama featuring undercover police shootouts"
+      ],
+      "correct_option": "B",
+      "explanation": "Trained under Ritwik Ghatak and Robert Bresson, Shahani used Brechtian distance, meticulous color palettes, and architectural choreography in 'Maya Darpan' to critique feudal patriarchy."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q43",
+      "topic": "Social Media: Netiquettes",
+      "sub_topic": "Verification before Social Media Amplification",
+      "difficulty": "easy",
+      "question": "According to ethical digital citizenship, what critical action should every social media user take before retweeting, reposting, or sharing breaking sensational news online?",
+      "options": [
+        "A) Immediately tag one hundred strangers to spread panic as quickly as possible",
+        "B) Delete their own user account permanently from the digital platform",
+        "C) Pause and verify the authenticity and source of the information using credible, established news outlets",
+        "D) Pay fifty dollars to the social platform owner before clicking share"
+      ],
+      "correct_option": "C",
+      "explanation": "Viral misinformation thrives on impulsive sharing; pausing to verify claims, check sources, and cross-reference credible reporting breaks viral fake news cascades."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q44",
+      "topic": "Social Media: Cyber Crime",
+      "sub_topic": "Online Harassment: Sockpuppets and Coordinated Dogpiling",
+      "difficulty": "easy",
+      "question": "In social media manipulation, what is a 'Sockpuppet' account?",
+      "options": [
+        "A) A knitted woolen toy puppet shown on television children's broadcasts",
+        "B) A specialized computer virus that erases all video files on a smartphone",
+        "C) An official verified corporate account operated by a multinational bank",
+        "D) A deceptive online identity or fake account operated by someone pretending to be an independent third party to manipulate discussions or harass targets"
+      ],
+      "correct_option": "D",
+      "explanation": "Sockpuppets are deceptive fake accounts created to praise the operator, attack opponents, create manufactured consensus, or coordinated dogpiling mobs."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q45",
+      "topic": "Social Media: Role in Democracy",
+      "sub_topic": "Digital Activism Tactics: Hashtag Takeovers",
+      "difficulty": "medium",
+      "question": "In cyber activism, how do social movements use 'Hashtag Hijacking' (or hashtag takeovers) as a tactical protest strategy?",
+      "options": [
+        "A) By flooding a corporate or political opponent's promotional hashtag with counter-narratives, facts, and satire to subvert their public relations message",
+        "B) By physically severing undersea internet fiber cables with laser beams",
+        "C) By forcing the corporate executives to delete their personal email inboxes",
+        "D) By shutting down municipal electric grid power plants across an entire state"
+      ],
+      "correct_option": "A",
+      "explanation": "Hashtag hijacking subverts corporate or political astroturf campaigns by overwhelming their official hashtags with critical evidence, memes, and counter-protest messages."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q46",
+      "topic": "Social Media: Role in Democracy",
+      "sub_topic": "Shoshana Zuboff: The Age of Surveillance Capitalism (2019)",
+      "difficulty": "hard",
+      "question": "In her monumental critique 'The Age of Surveillance Capitalism' (2019), Harvard scholar Shoshana Zuboff identifies 'Behavioral Surplus' as:",
+      "options": [
+        "A) The physical electrical power leftover in computer batteries after thirty minutes of use",
+        "B) Excess behavioral data harvested from users' online lives beyond what is needed for service improvement, repurposed to build predictive models sold to advertisers in behavioral futures markets",
+        "C) The excess paper printed by digital printing presses during midnight publishing runs",
+        "D) The number of hours employees sleep during corporate board meetings"
+      ],
+      "correct_option": "B",
+      "explanation": "Zuboff showed that tech giants (Google, Meta) harvest behavioral surplus—our clicks, pauses, emotions, locations—to manufacture behavioral prediction products sold to advertisers."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q47",
+      "topic": "New Media: Emerging Trends",
+      "sub_topic": "Deprecation of Third-Party Cookies and First-Party Publisher Data",
+      "difficulty": "medium",
+      "question": "Why is the global digital advertising industry phasing out 'Third-Party Cookies', prompting digital news publishers to pivot toward 'First-Party Data'?",
+      "options": [
+        "A) Because computers have physically run out of storage space to hold text cookies",
+        "B) Because internet users complained that digital cookies taste too sweet",
+        "C) Due to growing user privacy concerns, browser tracking crackdowns (Apple Safari, Google Chrome), and strict data privacy regulations like GDPR",
+        "D) Because third-party cookies require expensive postal stamps to transmit"
+      ],
+      "correct_option": "C",
+      "explanation": "Privacy laws and browser blocks on third-party tracking cookies force publishers to collect consensual first-party data (subscriber logins, newsletters) to target ads ethically."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q48",
+      "topic": "New Media: Emerging Trends",
+      "sub_topic": "Music Streaming Economics: Pro-Rata vs User-Centric",
+      "difficulty": "medium",
+      "question": "In digital audio streaming economics (Spotify, Apple Music), what is the core critique of the prevailing 'Pro-Rata' royalty distribution model?",
+      "options": [
+        "A) Musicians are paid in physical sacks of grain rather than sovereign currency",
+        "B) Only musicians who perform classical symphony music are allowed on the platform",
+        "C) Streaming platforms deduct money directly from musicians' personal bank accounts",
+        "D) All subscription fees are pooled together and paid out based on total platform market share, meaning a niche subscriber's money goes primarily to top pop superstars rather than the artists they actually listen to"
+      ],
+      "correct_option": "D",
+      "explanation": "Under pro-rata, royalties pool globally and distribute by sheer stream share, subsidizing mainstream pop stars at the expense of indie artists supported by dedicated niche listeners."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q49",
+      "topic": "New Media: Concepts",
+      "sub_topic": "Tim Berners-Lee's Vision of the Semantic Web (Web 3.0)",
+      "difficulty": "hard",
+      "question": "Sir Tim Berners-Lee's concept of the 'Semantic Web' envisions evolving the World Wide Web from a web of human-readable text documents into a web of:",
+      "options": [
+        "A) Purely audio sound files broadcast through commercial analog radio transmitter towers",
+        "B) Paper books photographed and printed onto plastic microfiche cards in public libraries",
+        "C) Machine-readable data ontologies where software agents can logically understand, interlink, and infer meaning directly across heterogeneous databases",
+        "D) A closed military network operating entirely without electricity or internet protocols"
+      ],
+      "correct_option": "C",
+      "explanation": "The Semantic Web (Resource Description Framework - RDF, OWL ontologies) structures web data semantically so autonomous software agents can process, synthesize, and reason with information."
+    },
+    {
+      "id": "CUET_MM_2026_P08_L8_Q50",
+      "topic": "New Media: Emerging Trends",
+      "sub_topic": "Generative AI and Copyright Training Data Disputes",
+      "difficulty": "hard",
+      "question": "What is the core intellectual property and legal conflict currently confronting major news organizations (like The New York Times) and Generative AI companies (like OpenAI)?",
+      "options": [
+        "A) AI software programs refuse to run on computers manufactured in North America",
+        "B) Newsrooms claim that artificial intelligence is physically melting their computer monitors",
+        "C) AI companies are forcing all human journalists to legally change their names",
+        "D) AI companies scraped copyrighted investigative journalism archives without permission, credit, or compensation to train commercial Large Language Models that directly compete with news publishers"
+      ],
+      "correct_option": "D",
+      "explanation": "Publishers argue that training LLMs on copyrighted news archives without licenses constitutes commercial copyright infringement and fair-use violation, while AI firms argue web scraping is transformative fair use."
+    }
+  ]
+}

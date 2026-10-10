@@ -4,7 +4,7 @@ import postgres from "postgres";
 import * as schema from "./schema.ts";
 const connectionString = process.env.DATABASE_URL;
 const globalDb = globalThis as unknown as {
-  testdishaSql?: ReturnType<typeof postgres>;
+  ourmocksSql?: ReturnType<typeof postgres>;
 };
 function client() {
   if (!connectionString) return null;
@@ -16,7 +16,7 @@ function client() {
   if (!Number.isInteger(max) || max < 1 || max > 50)
     throw new Error("Invalid database pool size");
   return (
-    globalDb.testdishaSql ??
+    globalDb.ourmocksSql ??
     postgres(connectionString, {
       prepare: false,
       max,
@@ -24,7 +24,7 @@ function client() {
       idle_timeout: 20,
       max_lifetime: 60 * 30, // 30 minutes to recycle long-lived connections
       connection: {
-        application_name: "testdisha-app",
+        application_name: "ourmocks-app",
         statement_timeout: 10000,
       },
     })
@@ -32,7 +32,7 @@ function client() {
 }
 const sqlClient = client();
 if (sqlClient && process.env.NODE_ENV !== "production")
-  globalDb.testdishaSql = sqlClient;
+  globalDb.ourmocksSql = sqlClient;
 export const db = sqlClient ? drizzle(sqlClient, { schema }) : null;
 export const databaseConfigured = Boolean(connectionString);
 export function requireDb() {

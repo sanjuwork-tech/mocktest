@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P19_L9B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 19,
+  "difficulty_level": "9B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which of the following is a primary sex organ (gonad) in humans?",
+      "options": [
+        "A) Testis",
+        "B) Fallopian tube",
+        "C) Vas deferens",
+        "D) Uterus"
+      ],
+      "correct_option": "A",
+      "explanation": "The testis (in males) and ovary (in females) are the primary sex organs (gonads) that produce gametes and hormones. Fallopian tube, vas deferens, and uterus are secondary/accessory sex organs."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q02",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "Who is known as the 'Father of Genetics'?",
+      "options": [
+        "A) Mendel",
+        "B) Darwin",
+        "C) Lamarck",
+        "D) De Vries"
+      ],
+      "correct_option": "A",
+      "explanation": "Gregor Johann Mendel is known as the Father of Genetics for his work on pea plants establishing the laws of inheritance."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q03",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which microorganism is commonly used in the making of bread and beer?",
+      "options": [
+        "A) Lactobacillus",
+        "B) Rhizobium",
+        "C) Saccharomyces cerevisiae (yeast)",
+        "D) Penicillium"
+      ],
+      "correct_option": "C",
+      "explanation": "Saccharomyces cerevisiae (baker's/brewer's yeast) is used in bread-making (produces CO2) and beer-making (ferments sugars to alcohol)."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q04",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles and Processes",
+      "difficulty": "easy",
+      "question": "Restriction enzymes are enzymes that:",
+      "options": [
+        "A) Join DNA fragments",
+        "B) Replicate DNA",
+        "C) Cut DNA at specific recognition sequences",
+        "D) Transcribe RNA from DNA"
+      ],
+      "correct_option": "C",
+      "explanation": "Restriction endonucleases cut DNA at specific palindromic recognition sequences, producing sticky or blunt ends."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q05",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "The variety of life forms on Earth is collectively called:",
+      "options": [
+        "A) Biodiversity",
+        "B) Biome",
+        "C) Biogeography",
+        "D) Biomagnification"
+      ],
+      "correct_option": "A",
+      "explanation": "Biodiversity encompasses genetic diversity, species diversity, and ecosystem diversity — the variety of all life on Earth."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "A surge in which hormone triggers ovulation in the middle of the menstrual cycle?",
+      "options": [
+        "A) Progesterone",
+        "B) FSH",
+        "C) LH",
+        "D) Oxytocin"
+      ],
+      "correct_option": "C",
+      "explanation": "The LH (Luteinizing Hormone) surge around day 14 causes the mature Graafian follicle to rupture and release the ovum."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Combined oral contraceptive pills primarily prevent pregnancy by:",
+      "options": [
+        "A) Preventing ovulation through suppression of FSH and LH",
+        "B) Killing sperm",
+        "C) Thickening cervical mucus only",
+        "D) Blocking the fallopian tubes"
+      ],
+      "correct_option": "A",
+      "explanation": "Combined oral pills contain estrogen and progesterone, which exert negative feedback on the hypothalamus/pituitary, suppressing FSH and LH, thereby preventing ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q08",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In a monohybrid cross between two heterozygous parents (Aa × Aa), what is the expected phenotypic ratio in the F2 generation?",
+      "options": [
+        "A) 1:1",
+        "B) 1:2:1",
+        "C) 3:1",
+        "D) 9:3:3:1"
+      ],
+      "correct_option": "C",
+      "explanation": "A monohybrid cross between heterozygotes yields a 3:1 phenotypic ratio (dominant:recessive) in F2."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q09",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Mutation",
+      "difficulty": "medium",
+      "question": "Down syndrome is caused by trisomy of which chromosome?",
+      "options": [
+        "A) Chromosome 13",
+        "B) Chromosome 21",
+        "C) Chromosome 18",
+        "D) Chromosome X"
+      ],
+      "correct_option": "B",
+      "explanation": "Down syndrome is caused by the presence of an extra copy of chromosome 21 (47,XX/XY,+21)."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q10",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which of the following is a communicable (infectious) disease?",
+      "options": [
+        "A) Diabetes mellitus",
+        "B) Tuberculosis",
+        "C) Cancer",
+        "D) Hypertension"
+      ],
+      "correct_option": "B",
+      "explanation": "Tuberculosis is caused by Mycobacterium tuberculosis and is a communicable disease. Diabetes, cancer, and hypertension are non-communicable."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q11",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Immunity",
+      "difficulty": "medium",
+      "question": "Antibodies (immunoglobulins) are produced by which type of cells?",
+      "options": [
+        "A) Plasma cells (derived from B-lymphocytes)",
+        "B) T-lymphocytes",
+        "C) Macrophages",
+        "D) Natural Killer cells"
+      ],
+      "correct_option": "A",
+      "explanation": "B-lymphocytes differentiate into plasma cells, which secrete large amounts of antibodies. T-cells mediate cell-mediated immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q12",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Gene Technology",
+      "difficulty": "medium",
+      "question": "In Sanger's method of DNA sequencing, chain termination occurs because of:",
+      "options": [
+        "A) Lack of primers",
+        "B) Excessive DNA polymerase activity",
+        "C) High temperature denaturation",
+        "D) Incorporation of dideoxynucleotides (ddNTPs) lacking a 3'-OH group"
+      ],
+      "correct_option": "D",
+      "explanation": "Sanger sequencing uses dideoxynucleotides (ddNTPs) which lack the 3'-OH group required for phosphodiester bond formation. When a ddNTP is incorporated, DNA synthesis terminates, producing fragments of varying lengths."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q13",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which enzyme is used to join two DNA fragments by forming phosphodiester bonds between adjacent nucleotides?",
+      "options": [
+        "A) Restriction endonuclease",
+        "B) DNA ligase",
+        "C) DNA polymerase",
+        "D) Helicase"
+      ],
+      "correct_option": "B",
+      "explanation": "DNA ligase catalyzes the formation of phosphodiester bonds, joining DNA fragments (e.g., in recombinant DNA construction)."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q14",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Herbivores in a food chain occupy which trophic level?",
+      "options": [
+        "A) First (Producer)",
+        "B) Third (Secondary Consumer)",
+        "C) Second (Primary Consumer)",
+        "D) Fourth (Tertiary Consumer)"
+      ],
+      "correct_option": "C",
+      "explanation": "Herbivores feed on plants (producers at the 1st trophic level) and thus occupy the 2nd trophic level — primary consumers."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q15",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Environmental Issues",
+      "difficulty": "medium",
+      "question": "The ozone layer in the stratosphere protects life on Earth by absorbing:",
+      "options": [
+        "A) Infrared radiation",
+        "B) Ultraviolet (UV) radiation",
+        "C) Visible light",
+        "D) Cosmic rays"
+      ],
+      "correct_option": "B",
+      "explanation": "Ozone (O₃) in the stratosphere absorbs harmful ultraviolet (UV-B and UV-C) radiation from the sun."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q16",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "The corpus luteum secretes which hormone to maintain the endometrium for potential implantation?",
+      "options": [
+        "A) Progesterone",
+        "B) FSH",
+        "C) LH",
+        "D) hCG"
+      ],
+      "correct_option": "A",
+      "explanation": "After ovulation, the corpus luteum forms and secretes progesterone (along with estrogen), which maintains the endometrium in a secretory phase suitable for implantation."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q17",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Mutation",
+      "difficulty": "medium",
+      "question": "Klinefelter's syndrome is characterized by which chromosomal complement?",
+      "options": [
+        "A) 45,XO",
+        "B) 47,XYY",
+        "C) 47,XXY",
+        "D) 47,XXX"
+      ],
+      "correct_option": "C",
+      "explanation": "Klinefelter's syndrome results from the presence of an extra X chromosome in males: 47,XXY."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q18",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In which mode of inheritance does the heterozygote show an intermediate phenotype between the two homozygous phenotypes?",
+      "options": [
+        "A) Incomplete dominance",
+        "B) Complete dominance",
+        "C) Codominance",
+        "D) Epistasis"
+      ],
+      "correct_option": "A",
+      "explanation": "Incomplete dominance produces an intermediate phenotype in heterozygotes (e.g., red × white snapdragons produce pink offspring)."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q19",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Immunity",
+      "difficulty": "medium",
+      "question": "Which type of immunity is acquired when antibodies are transferred from mother to baby through breast milk?",
+      "options": [
+        "A) Active natural immunity",
+        "B) Passive natural immunity",
+        "C) Active artificial immunity",
+        "D) Passive artificial immunity"
+      ],
+      "correct_option": "B",
+      "explanation": "Transfer of pre-formed antibodies (IgA) through breast milk provides passive natural immunity — the baby receives antibodies rather than producing them."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q20",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Malaria is caused by a protozoan parasite transmitted through the bite of which vector?",
+      "options": [
+        "A) Aedes mosquito",
+        "B) Male Anopheles mosquito",
+        "C) Culex mosquito",
+        "D) Female Anopheles mosquito"
+      ],
+      "correct_option": "D",
+      "explanation": "Malaria is caused by Plasmodium species and transmitted by the bite of the female Anopheles mosquito."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q21",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Genetically Modified Organisms",
+      "difficulty": "medium",
+      "question": "Golden rice is genetically modified to produce high levels of which nutrient?",
+      "options": [
+        "A) Vitamin C",
+        "B) Vitamin A (beta-carotene)",
+        "C) Calcium",
+        "D) Iron"
+      ],
+      "correct_option": "B",
+      "explanation": "Golden rice is engineered to produce beta-carotene (provitamin A) in the endosperm, combating vitamin A deficiency."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q22",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "medium",
+      "question": "Bt toxin produced by Bacillus thuringiensis protects crops by:",
+      "options": [
+        "A) Killing viruses that infect plants",
+        "B) Preventing fungal infections",
+        "C) Creating pores in the gut of insect larvae",
+        "D) Acting as a herbicide"
+      ],
+      "correct_option": "C",
+      "explanation": "Bt toxin protein, when ingested by insect larvae, is activated in the alkaline gut and creates pores, causing gut paralysis and death."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q23",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecological Succession",
+      "difficulty": "medium",
+      "question": "Which organisms are typically the pioneer species in primary succession on bare rock?",
+      "options": [
+        "A) Grasses",
+        "B) Mosses",
+        "C) Lichens",
+        "D) Shrubs"
+      ],
+      "correct_option": "C",
+      "explanation": "Lichens are pioneer species on bare rock. They secrete acids that weather the rock, initiating soil formation for later colonizers."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q24",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Lindeman's 10% law states that:",
+      "options": [
+        "A) Only about 10% of energy is transferred from one trophic level to the next",
+        "B) 10% of individuals become extinct in each generation",
+        "C) 10% of species are endemic to a region",
+        "D) 10% of biomass is lost during decomposition"
+      ],
+      "correct_option": "A",
+      "explanation": "Lindeman's 10% law states that only about 10% of energy is transferred from one trophic level to the next; the rest is lost as heat."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q25",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "The ABO blood group system in humans demonstrates which genetic phenomenon?",
+      "options": [
+        "A) Complete dominance only",
+        "B) Multiple alleles and codominance",
+        "C) Incomplete dominance only",
+        "D) Polygenic inheritance"
+      ],
+      "correct_option": "B",
+      "explanation": "ABO blood groups involve three alleles (IA, IB, i). IA and IB are codominant with each other (both expressed in AB blood type) and dominant over i."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q26",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "A woman with normal vision whose father was colourblind marries a man with normal vision whose mother was a carrier for colourblindness. What is the probability that their first child will be a colourblind daughter?",
+      "options": [
+        "A) 12.5%",
+        "B) 25%",
+        "C) 50%",
+        "D) 0%"
+      ],
+      "correct_option": "D",
+      "explanation": "Colourblindness is X-linked recessive. The woman is a carrier (XcX) because her father was XcY. The man is XY (normal). Daughters get X from father (normal) so will be XcX (carrier) or XX (normal) — never colourblind. Probability of a colourblind daughter = 0%."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q27",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Which hormone is responsible for the formation of the corpus luteum after ovulation?",
+      "options": [
+        "A) Progesterone",
+        "B) FSH (Follicle Stimulating Hormone)",
+        "C) Oxytocin",
+        "D) LH (Luteinizing Hormone)"
+      ],
+      "correct_option": "D",
+      "explanation": "LH surge triggers ovulation and then transforms the remaining follicular cells into the corpus luteum, which secretes progesterone and estrogen."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q28",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "In humans, after meiosis I the secondary oocyte arrests at metaphase II. What is its chromosome number and chromatid count at this stage?",
+      "options": [
+        "A) 46 chromosomes, 46 chromatids",
+        "B) 23 chromosomes, 46 chromatids",
+        "C) 23 chromosomes, 23 chromatids",
+        "D) 46 chromosomes, 92 chromatids"
+      ],
+      "correct_option": "B",
+      "explanation": "After meiosis I, the chromosome number is halved to n=23. But each chromosome still has two sister chromatids, so there are 46 chromatids at metaphase II."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q29",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "The correct sequence of events during spermatogenesis is:",
+      "options": [
+        "A) Spermatid → Spermatogonium → Primary spermatocyte → Secondary spermatocyte → Spermatozoa",
+        "B) Primary spermatocyte → Spermatogonium → Secondary spermatocyte → Spermatid → Spermatozoa",
+        "C) Spermatogonium → Spermatid → Secondary spermatocyte → Primary spermatocyte → Spermatozoa",
+        "D) Spermatogonium → Primary spermatocyte → Secondary spermatocyte → Spermatid → Spermiogenesis → Spermatozoa"
+      ],
+      "correct_option": "D",
+      "explanation": "Spermatogonium (2n) undergoes mitosis; primary spermatocyte undergoes meiosis I; secondary spermatocyte undergoes meiosis II to form spermatids which differentiate (spermiogenesis) into spermatozoa."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q30",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "Both parents are carriers (Aa) for an autosomal recessive disorder. What is the probability that exactly two out of their three children will be phenotypically normal?",
+      "options": [
+        "A) 9/64",
+        "B) 3/16",
+        "C) 27/64",
+        "D) 27/32"
+      ],
+      "correct_option": "C",
+      "explanation": "Probability of normal (AA or Aa) = 3/4 per child. Probability of exactly 2 normal out of 3 = C(3,2) × (3/4)² × (1/4)¹ = 3 × 9/16 × 1/4 = 27/64."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q31",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "The cortical reaction during fertilization serves to:",
+      "options": [
+        "A) Attract sperm to the egg via chemotaxis",
+        "B) Initiate the first mitotic cleavage",
+        "C) Degrade excess sperm mitochondria",
+        "D) Prevent polyspermy by hardening the zona pellucida"
+      ],
+      "correct_option": "D",
+      "explanation": "When a sperm fuses with the oocyte, cortical granules are released, modifying the zona pellucida to block entry of additional sperm — preventing polyspermy."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q32",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "Copper-T IUDs primarily prevent pregnancy by:",
+      "options": [
+        "A) Suppressing ovulation",
+        "B) Creating a cytotoxic environment that impairs sperm and prevents implantation",
+        "C) Releasing progesterone to thicken cervical mucus",
+        "D) Thickening the zona pellucida"
+      ],
+      "correct_option": "B",
+      "explanation": "Copper ions released by Copper-T create a cytotoxic environment impairing sperm viability and cause a local inflammatory response that prevents implantation."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q33",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Population Genetics",
+      "difficulty": "hard",
+      "question": "In a population in Hardy-Weinberg equilibrium, the frequency of the recessive phenotype is 9%. What is the frequency of heterozygous carriers?",
+      "options": [
+        "A) 0.09",
+        "B) 0.49",
+        "C) 0.21",
+        "D) 0.42"
+      ],
+      "correct_option": "D",
+      "explanation": "q² = 0.09, so q = 0.3. p = 0.7. Heterozygous frequency = 2pq = 2 × 0.7 × 0.3 = 0.42."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q34",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "In recessive epistasis where the homozygous recessive genotype at one locus masks the other locus, what is the expected phenotypic ratio from a dihybrid cross (AaBb × AaBb)?",
+      "options": [
+        "A) 9:3:3:1",
+        "B) 9:7",
+        "C) 12:3:1",
+        "D) 9:3:4"
+      ],
+      "correct_option": "D",
+      "explanation": "In recessive epistasis, the homozygous recessive genotype (aa) at the epistatic locus masks the expression of the other locus, modifying the ratio to 9:3:4."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q35",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "In the lac operon, the repressor protein binds to the operator to prevent transcription. Which molecule acts as the inducer to inactivate the repressor?",
+      "options": [
+        "A) Glucose",
+        "B) cAMP",
+        "C) Galactose",
+        "D) Allolactose (an isomer of lactose)"
+      ],
+      "correct_option": "D",
+      "explanation": "Allolactose, formed from lactose by β-galactosidase, binds to the repressor and causes it to detach from the operator, allowing transcription of lac genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q36",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The Miller-Urey experiment provided evidence that:",
+      "options": [
+        "A) Spontaneous generation produces living organisms",
+        "B) RNA can act as both information carrier and enzyme",
+        "C) DNA replication is semiconservative",
+        "D) Amino acids can be synthesized from inorganic compounds under reducing atmospheric conditions"
+      ],
+      "correct_option": "D",
+      "explanation": "Miller and Urey simulated early Earth conditions (reducing atmosphere with CH₄, NH₃, H₂, H₂O) and electric sparks, successfully synthesizing amino acids and other organic compounds."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q37",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Immunity",
+      "difficulty": "hard",
+      "question": "Vaccination with tetanus toxoid confers which type of immunity?",
+      "options": [
+        "A) Passive natural immunity",
+        "B) Passive artificial immunity",
+        "C) Active artificial immunity",
+        "D) Innate immunity"
+      ],
+      "correct_option": "C",
+      "explanation": "Toxoid vaccines contain inactivated toxins that stimulate active antibody production by the recipient's immune system — this is active artificial immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q38",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "AIDS and Drug Abuse",
+      "difficulty": "hard",
+      "question": "HIV primarily targets and destroys which cell type, leading to progressive immunodeficiency?",
+      "options": [
+        "A) Helper T-lymphocytes (CD4+ cells)",
+        "B) B-lymphocytes",
+        "C) Neutrophils",
+        "D) Erythrocytes"
+      ],
+      "correct_option": "A",
+      "explanation": "HIV binds to the CD4 receptor on helper T-lymphocytes, replicates within them, and destroys them, severely compromising both humoral and cell-mediated immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q39",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Immunity",
+      "difficulty": "hard",
+      "question": "Which of the following is a component of innate immunity?",
+      "options": [
+        "A) Memory B-cells",
+        "B) Plasma cells",
+        "C) Cytotoxic T-cells",
+        "D) Phagocytic cells (macrophages, neutrophils)"
+      ],
+      "correct_option": "D",
+      "explanation": "Phagocytic cells (macrophages, neutrophils) are part of innate immunity — non-specific, immediate defense. The other options are components of adaptive immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q40",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Molecular Tools",
+      "difficulty": "hard",
+      "question": "In agarose gel electrophoresis, DNA fragments separate based on their size because:",
+      "options": [
+        "A) Larger fragments migrate faster through the gel",
+        "B) Smaller fragments encounter less resistance and travel farther toward the positive electrode",
+        "C) DNA fragments are positively charged and repel the positive electrode",
+        "D) Separation depends on base composition, not size"
+      ],
+      "correct_option": "B",
+      "explanation": "DNA is negatively charged and migrates toward the positive electrode. Smaller fragments move more easily through the gel matrix and travel farther."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q41",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Recombinant DNA Technology",
+      "difficulty": "hard",
+      "question": "In recombinant DNA technology, which essential feature of an ideal cloning vector permits the selective growth and identification of transformed host cells from non-transformed cells?",
+      "options": [
+        "A) Palindromic restriction site",
+        "B) Polyadenylation signal sequence",
+        "C) High GC-content promoter",
+        "D) Selectable marker gene"
+      ],
+      "correct_option": "D",
+      "explanation": "A selectable marker gene (such as an antibiotic resistance gene like ampR or tetR, or the beta-galactosidase gene) allows the identification and selective elimination of non-transformants while permitting the preferential growth of transformants containing recombinant or non-recombinant plasmid vectors. An origin of replication initiates DNA copying, and restriction sites provide cleavage points for inserting genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q42",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Molecular Diagnostics",
+      "difficulty": "hard",
+      "question": "ELISA (Enzyme-Linked Immunosorbent Assay) is primarily used for:",
+      "options": [
+        "A) Sequencing DNA",
+        "B) Amplifying DNA sequences",
+        "C) Detecting and quantifying specific proteins or antibodies",
+        "D) Cutting DNA at specific sites"
+      ],
+      "correct_option": "C",
+      "explanation": "ELISA uses antibodies linked to enzymes for detection; widely used in diagnostics (e.g., HIV detection, pregnancy tests)."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q43",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Gene Expression",
+      "difficulty": "hard",
+      "question": "RNA interference (RNAi) is a technique that:",
+      "options": [
+        "A) Amplifies gene expression",
+        "B) Degrades specific mRNA to silence gene expression",
+        "C) Mutates DNA permanently",
+        "D) Transcribes RNA more efficiently"
+      ],
+      "correct_option": "B",
+      "explanation": "RNAi uses small interfering RNA (siRNA) to bind complementary mRNA and trigger its degradation, silencing specific gene expression."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q44",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecological Succession",
+      "difficulty": "hard",
+      "question": "Hydrarch succession refers to succession that occurs in:",
+      "options": [
+        "A) Water bodies (lakes, ponds)",
+        "B) Dry, xeric environments",
+        "C) Desert ecosystems",
+        "D) Secondary forests after fire"
+      ],
+      "correct_option": "A",
+      "explanation": "Hydrarch succession occurs in water bodies and gradually transforms them into mesic (moderately moist) terrestrial ecosystems."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q45",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biogeochemical Cycles",
+      "difficulty": "hard",
+      "question": "The largest reservoir of carbon on Earth is located in the:",
+      "options": [
+        "A) Oceans and ocean sediments",
+        "B) Atmosphere",
+        "C) Living organisms",
+        "D) Fossil fuels"
+      ],
+      "correct_option": "A",
+      "explanation": "The oceans and ocean sediments (dissolved inorganic carbon, marine organisms, limestone) hold the largest reservoir of carbon on Earth."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q46",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Environmental Issues",
+      "difficulty": "hard",
+      "question": "When a non-native species proliferates unchecked in a new environment and disrupts biodiversity, it is called:",
+      "options": [
+        "A) Bioinvasion",
+        "B) Biological magnification",
+        "C) Biodegradation",
+        "D) Bioremediation"
+      ],
+      "correct_option": "A",
+      "explanation": "Bioinvasion (invasive species) occurs when introduced species spread rapidly, outcompeting native species and disrupting ecosystem balance."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q47",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Environmental Issues",
+      "difficulty": "hard",
+      "question": "Which gases are primarily responsible for the greenhouse effect?",
+      "options": [
+        "A) Oxygen and nitrogen",
+        "B) Hydrogen and helium",
+        "C) Carbon dioxide, methane, and water vapor",
+        "D) Sulfur dioxide and ammonia"
+      ],
+      "correct_option": "C",
+      "explanation": "Greenhouse gases (CO₂, CH₄, H₂O vapor, N₂O, CFCs) absorb outgoing infrared radiation, trapping heat and warming Earth's surface."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q48",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Cancer",
+      "difficulty": "hard",
+      "question": "Which of the following is NOT a characteristic of cancer cells?",
+      "options": [
+        "A) Loss of contact inhibition",
+        "B) Ability to metastasize",
+        "C) Increased cell-cell adhesion",
+        "D) Increased nuclear-to-cytoplasmic ratio"
+      ],
+      "correct_option": "C",
+      "explanation": "Cancer cells show decreased cell-cell adhesion (not increased), allowing them to detach and metastasize. Other options are hallmark features of cancer."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q49",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Population Genetics",
+      "difficulty": "hard",
+      "question": "In a population, the frequency of allele A is 0.6 and allele a is 0.4. Assuming Hardy-Weinberg equilibrium, what is the expected frequency of the heterozygous genotype (Aa)?",
+      "options": [
+        "A) 0.36",
+        "B) 0.48",
+        "C) 0.16",
+        "D) 0.24"
+      ],
+      "correct_option": "B",
+      "explanation": "In Hardy-Weinberg equilibrium, heterozygote frequency = 2pq. Here p = 0.6, q = 0.4. So 2pq = 2 × 0.6 × 0.4 = 0.48. The heterozygous genotype frequency is 48%."
+    },
+    {
+      "id": "CUET_BIO_2026_P19_L9B_Q50",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "CRISPR-Cas9",
+      "difficulty": "hard",
+      "question": "In CRISPR-Cas9 genome editing, the Cas9 enzyme functions as:",
+      "options": [
+        "A) A guide RNA to locate the target",
+        "B) A DNA polymerase to synthesize new DNA",
+        "C) A ligase to repair DNA",
+        "D) An endonuclease that creates double-strand breaks"
+      ],
+      "correct_option": "D",
+      "explanation": "Cas9 is a nuclease guided by gRNA to create double-strand breaks at specific genomic locations; the cell's repair machinery is then harnessed for editing."
+    }
+  ]
+}

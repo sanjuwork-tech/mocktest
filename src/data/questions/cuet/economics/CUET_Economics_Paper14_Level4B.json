@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P14_L4B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 14,
+  "difficulty_level": "4B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Production Possibility Curve",
+      "difficulty": "easy",
+      "question": "What is the primary reason why the Production Possibility Frontier (PPF) is concave to the origin?",
+      "options": [
+        "A) Constant marginal rate of transformation across all output combinations",
+        "B) Increasing marginal opportunity cost as more of one good is produced",
+        "C) Decreasing marginal rate of technical substitution",
+        "D) Absolute abundance of economic resources in the short run"
+      ],
+      "correct_option": "B",
+      "explanation": "The PPF is concave to the origin because resources are specialized and not equally efficient in producing all goods. Transferring resources increases the Marginal Opportunity Cost (Marginal Rate of Transformation)."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Equi-Marginal Utility",
+      "difficulty": "easy",
+      "question": "In the case of two commodities X and Y, a consumer achieves equilibrium under cardinal utility when:",
+      "options": [
+        "A) MU_x / P_x > MU_y / P_y",
+        "B) MU_x * P_x = MU_y * P_y",
+        "C) MU_x / P_x = MU_y / P_y = MU_m and MU falls as consumption increases",
+        "D) Total utility of X equals total utility of Y"
+      ],
+      "correct_option": "C",
+      "explanation": "Consumer's equilibrium in a two-commodity world requires per-rupee marginal utility to be equal across both goods (MU_x / P_x = MU_y / P_y = MU_m) and that marginal utility diminishes with increased consumption."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Indifference Curve Properties",
+      "difficulty": "easy",
+      "question": "Why can two indifference curves never intersect each other?",
+      "options": [
+        "A) Because marginal utility of money is variable",
+        "B) Because consumer preferences are assumed to be monotonic and transitive",
+        "C) Because price ratios change along the budget line",
+        "D) Because commodities are perfect substitutes"
+      ],
+      "correct_option": "B",
+      "explanation": "If two indifference curves intersected, a single bundle would yield two different levels of utility, contradicting the fundamental axioms of transitivity and monotonic preferences."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Total Outlay Method",
+      "difficulty": "easy",
+      "question": "When the price of a good falls from Rs 10 to Rs 8, the total expenditure incurred by a household on that good rises from Rs 500 to Rs 640. According to the total outlay method, the price elasticity of demand is:",
+      "options": [
+        "A) Exactly unitary (e_p = 1)",
+        "B) Greater than unitary (e_p > 1)",
+        "C) Less than unitary (e_p < 1)",
+        "D) Perfectly inelastic (e_p = 0)"
+      ],
+      "correct_option": "B",
+      "explanation": "Under the total outlay method, when price and total expenditure move in opposite directions (price falls and expenditure rises), demand is price elastic (e_p > 1)."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Shifts in Budget Line",
+      "difficulty": "easy",
+      "question": "If the price of good X falls while the price of good Y and consumer money income remain unchanged, how does the budget line alter?",
+      "options": [
+        "A) Shifts outward parallel to itself",
+        "B) Shifts inward parallel to itself",
+        "C) Rotates outward around the vertical intercept on the Y-axis",
+        "D) Rotates inward around the horizontal intercept on the X-axis"
+      ],
+      "correct_option": "C",
+      "explanation": "The maximum affordable quantity of Y (Money Income / P_y) remains unchanged, while the maximum quantity of X (Money Income / P_x) increases, causing the budget line to rotate outward on the X-axis around the fixed Y-intercept."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q06",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Giffen Goods",
+      "difficulty": "hard",
+      "question": "A Giffen good is a special type of inferior good for which:",
+      "options": [
+        "A) The negative income effect is weaker than the substitution effect",
+        "B) The negative income effect completely outweighs the substitution effect, resulting in an upward-sloping demand curve",
+        "C) Both substitution and income effects work in identical directions",
+        "D) The price consumption curve is perfectly horizontal"
+      ],
+      "correct_option": "B",
+      "explanation": "For a Giffen good, the negative income effect of a price fall is so powerful that it overwhelms the positive substitution effect, leading to an anomalous decrease in quantity demanded when price falls (upward-sloping demand curve)."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q07",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Point of Inflexion",
+      "difficulty": "medium",
+      "question": "On the Total Product (TP) curve, what economic phenomenon occurs at the point of inflexion?",
+      "options": [
+        "A) Total product reaches its absolute peak",
+        "B) Average product is equal to zero",
+        "C) Marginal product reaches its maximum value and begins to decline",
+        "D) Law of diminishing returns ceases to operate"
+      ],
+      "correct_option": "C",
+      "explanation": "The point of inflexion is the point where the TP curve changes its curvature from convex to concave, corresponding to the point where Marginal Product reaches its maximum."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q08",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Cost Curves Geometry",
+      "difficulty": "easy",
+      "question": "What is the vertical distance between the Short-run Total Cost (TC) curve and Total Variable Cost (TVC) curve at any level of output?",
+      "options": [
+        "A) Marginal Cost",
+        "B) Average Fixed Cost",
+        "C) Total Fixed Cost",
+        "D) Average Variable Cost"
+      ],
+      "correct_option": "C",
+      "explanation": "Because TC = TFC + TVC, the difference TC - TVC = TFC, which remains constant across all output levels as a uniform vertical distance."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Shut-Down Point",
+      "difficulty": "hard",
+      "question": "In the short run, a perfectly competitive firm will continue production rather than shut down as long as the market price is at least equal to:",
+      "options": [
+        "A) Average Fixed Cost (AFC)",
+        "B) Minimum Average Total Cost (ATC)",
+        "C) Minimum Average Variable Cost (AVC)",
+        "D) Total Fixed Cost divided by price"
+      ],
+      "correct_option": "C",
+      "explanation": "In the short run, fixed costs must be paid even if output is zero. A firm continues production as long as price covers minimum AVC (operating costs); if price falls below minimum AVC, the firm shuts down."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q10",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Elasticity of Supply",
+      "difficulty": "medium",
+      "question": "If a straight-line supply curve originates from the positive vertical axis (price axis) and slopes upward to the right, what is its price elasticity of supply at any point?",
+      "options": [
+        "A) Equal to zero",
+        "B) Exactly unitary (e_s = 1)",
+        "C) Less than unitary (e_s < 1)",
+        "D) Greater than unitary (e_s > 1)"
+      ],
+      "correct_option": "D",
+      "explanation": "Any linear supply curve intersecting the vertical (price) axis has a price elasticity of supply greater than one (e_s > 1) at all points along the curve."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q11",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Producer Equilibrium",
+      "difficulty": "medium",
+      "question": "Under the MR-MC approach, what are the two necessary conditions for a competitive firm to achieve profit-maximizing equilibrium?",
+      "options": [
+        "A) AR = AC, and MR must equal zero",
+        "B) MR = MC, and MC must be downward sloping",
+        "C) MR = MC, and MC must be cutting MR from below",
+        "D) TR = TC, and MC must equal AC"
+      ],
+      "correct_option": "C",
+      "explanation": "The first-order condition is MR = MC, and the second-order condition requires that MC must be rising at the point of intersection (i.e., MC cuts MR from below)."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopolistic Competition",
+      "difficulty": "easy",
+      "question": "Which of the following characteristics distinguishes monopolistic competition from perfect competition?",
+      "options": [
+        "A) Free entry and exit of firms",
+        "B) Large number of buyers and sellers",
+        "C) Product differentiation",
+        "D) Profit maximization objective"
+      ],
+      "correct_option": "C",
+      "explanation": "Product differentiation (via branding, design, packaging) gives monopolistically competitive firms some degree of monopoly power over price, unlike the homogeneous product of perfect competition."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Effects of Taxes on Market Equilibrium",
+      "difficulty": "hard",
+      "question": "When the government imposes a specific per-unit sales tax on suppliers in a competitive market with downward-sloping demand and upward-sloping supply:",
+      "options": [
+        "A) The equilibrium price falls while quantity traded expands",
+        "B) The demand curve shifts downward, leaving equilibrium price unchanged",
+        "C) The supply curve shifts vertically upward by the tax amount, raising the equilibrium price and reducing equilibrium quantity",
+        "D) Suppliers absorb the entire tax without any change in market price"
+      ],
+      "correct_option": "C",
+      "explanation": "A per-unit tax raises the marginal cost of production, shifting the market supply curve upward/leftward by the amount of the tax. This causes equilibrium market price to rise and equilibrium quantity to contract."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Ceiling Consequences",
+      "difficulty": "easy",
+      "question": "When the government mandates a price ceiling on essential medicines below market equilibrium, what mechanism is commonly instituted to allocate the resulting shortage?",
+      "options": [
+        "A) Indefinite suspension of patent protections",
+        "B) Complete auctioning to the highest bidder",
+        "C) Public rationing system or price coupons",
+        "D) Deregulation of import tariffs"
+      ],
+      "correct_option": "C",
+      "explanation": "Because a price ceiling creates excess demand, governments typically introduce quota allocations, ration cards, or fair-price distribution networks to allocate the scarce supply equitably."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Shift in Demand with Inelastic Supply",
+      "difficulty": "hard",
+      "question": "If the market supply of agricultural land is perfectly inelastic, an increase in the demand for land will result in:",
+      "options": [
+        "A) A fall in equilibrium price with higher quantity supplied",
+        "B) An increase in both equilibrium price and equilibrium quantity",
+        "C) A rise in equilibrium price with no change in equilibrium quantity",
+        "D) An outward shift in the vertical supply curve"
+      ],
+      "correct_option": "C",
+      "explanation": "With a vertical (perfectly inelastic) supply curve, any rightward shift in the demand curve results entirely in an increase in the equilibrium price, leaving equilibrium quantity fixed."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Oligopoly Characteristics",
+      "difficulty": "medium",
+      "question": "Which defining feature of oligopoly creates an indeterminate demand curve for an individual firm?",
+      "options": [
+        "A) Horizontal demand schedule at the industry price",
+        "B) Complete absence of barriers to entry",
+        "C) Perfect mobility of factors of production",
+        "D) Mutual interdependence among a small number of large firms"
+      ],
+      "correct_option": "D",
+      "explanation": "Because each oligopolistic firm anticipates retaliation from rival firms whenever it alters its price or output, the firm cannot reliably predict its sales, making its individual demand curve indeterminate."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Value Added Method",
+      "difficulty": "medium",
+      "question": "A farmer sells wheat to a flour mill for Rs 800. The mill grinds the wheat into flour and sells it to a bakery for Rs 1,200. The bakery bakes bread and sells it to retail consumers for Rs 1,700. What is the total value added contributed by the flour mill and bakery combined?",
+      "options": [
+        "A) Rs 500",
+        "B) Rs 1,700",
+        "C) Rs 1,200",
+        "D) Rs 900"
+      ],
+      "correct_option": "D",
+      "explanation": "Value added by mill = 1,200 - 800 = Rs 400. Value added by bakery = 1,700 - 1,200 = Rs 500. Combined value added = 400 + 500 = Rs 900."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Income Method Components",
+      "difficulty": "easy",
+      "question": "Under the income method of estimating national income, which of the following is an element of 'Operating Surplus'?",
+      "options": [
+        "A) Wages and salaries paid in cash",
+        "B) Rent, interest, and corporate profits",
+        "C) Employers' contribution to social security schemes",
+        "D) Old age pensions paid by the government"
+      ],
+      "correct_option": "B",
+      "explanation": "Operating surplus consists of income earned from property and entrepreneurship: Rent + Royalty + Interest + Profit."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Domestic Territory",
+      "difficulty": "medium",
+      "question": "Which of the following is included in the economic (domestic) territory of India for national income accounting?",
+      "options": [
+        "A) Embassy of the United States situated in New Delhi",
+        "B) Branch office of a foreign bank operating in Tokyo",
+        "C) Indian Embassy located in Washington, D.C.",
+        "D) World Health Organization office in Geneva"
+      ],
+      "correct_option": "C",
+      "explanation": "The domestic territory of a country includes its embassies, consulates, and military establishments located abroad, while foreign embassies located inside India belong to the domestic territory of their respective home countries."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Green GDP",
+      "difficulty": "medium",
+      "question": "How is Green GDP conceptually derived from traditional Gross Domestic Product (GDP)?",
+      "options": [
+        "A) By excluding non-monetary household activities from GDP",
+        "B) By adding subsidies given to solar panel manufacturers to GDP",
+        "C) By deflating nominal GDP using agricultural wholesale price index",
+        "D) By subtracting environmental degradation costs and natural resource depletion from GDP"
+      ],
+      "correct_option": "D",
+      "explanation": "Green GDP adjusts traditional GDP by deducting the economic value of environmental degradation and the depletion of natural capital caused by production activities."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Credit Creation Mechanics",
+      "difficulty": "medium",
+      "question": "If initial primary cash deposits with commercial banks are Rs 1,000 crore and the Legal Reserve Ratio (LRR) is 20%, what is the total amount of secondary (derivative) credit created by the banking system?",
+      "options": [
+        "A) Rs 800 crore",
+        "B) Rs 5,000 crore",
+        "C) Rs 2,000 crore",
+        "D) Rs 4,000 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "Total money created = Initial Deposit * (1 / LRR) = 1,000 * 5 = Rs 5,000 crore. Secondary credit created = Total deposits - Initial cash deposit = 5,000 - 1,000 = Rs 4,000 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Qualitative Credit Controls",
+      "difficulty": "easy",
+      "question": "Which of the following is a qualitative (selective) monetary instrument utilized by the central bank?",
+      "options": [
+        "A) Cash Reserve Ratio (CRR)",
+        "B) Statutory Liquidity Ratio (SLR)",
+        "C) Margin requirement on loans",
+        "D) Open Market Operations (OMO)"
+      ],
+      "correct_option": "C",
+      "explanation": "Margin requirements, moral suasion, and selective credit controls are qualitative tools that regulate the direction and allocation of credit, rather than the overall volume."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Repo Rate Dynamics",
+      "difficulty": "medium",
+      "question": "When the Reserve Bank of India increases the Repo Rate, what is the expected sequence of events in the money market?",
+      "options": [
+        "A) Foreign exchange reserves automatically deplete",
+        "B) Commercial banks immediately lower their fixed deposit rates",
+        "C) Total liquidity in the banking system expands rapidly",
+        "D) Cost of funds for commercial banks rises, leading to higher retail lending rates and contracting credit demand"
+      ],
+      "correct_option": "D",
+      "explanation": "An increase in Repo Rate raises the cost at which commercial banks borrow short-term funds from RBI. Banks pass this higher cost to borrowers by raising lending rates, dampening consumer and investment borrowing."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Reverse Repo Rate",
+      "difficulty": "easy",
+      "question": "The interest rate at which the Reserve Bank of India borrows short-term surplus funds from commercial banks against collateral is known as the:",
+      "options": [
+        "A) Bank Rate",
+        "B) Reverse Repo Rate",
+        "C) Prime Lending Rate",
+        "D) Marginal Standing Facility Rate"
+      ],
+      "correct_option": "B",
+      "explanation": "Reverse Repo Rate is the rate at which RBI absorbs surplus liquidity by borrowing from commercial banks against government securities."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Saving Function Derivation",
+      "difficulty": "medium",
+      "question": "If the consumption function of an economy is given as C = 150 + 0.6Y, what is the corresponding saving function?",
+      "options": [
+        "A) S = -0.6 + 150Y",
+        "B) S = 150 + 0.4Y",
+        "C) S = -150 + 0.6Y",
+        "D) S = -150 + 0.4Y"
+      ],
+      "correct_option": "D",
+      "explanation": "Since Y = C + S, S = Y - C = Y - (150 + 0.6Y) = -150 + (1 - 0.6)Y = -150 + 0.4Y."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Paradox of Thrift",
+      "difficulty": "hard",
+      "question": "What is the core economic proposition of the Keynesian 'Paradox of Thrift'?",
+      "options": [
+        "A) The marginal propensity to save increases automatically whenever interest rates drop",
+        "B) Increased savings invariably accelerate capital formation and boost equilibrium GDP in the short run",
+        "C) Saving money in commercial banks generates higher inflation than hoarding physical gold",
+        "D) When all individuals in an economy attempt to save a larger proportion of their income, total actual savings may remain constant or decline due to falling national income"
+      ],
+      "correct_option": "D",
+      "explanation": "The Paradox of Thrift shows that if everyone increases their propensity to save (reducing consumption expenditure), aggregate demand falls, causing equilibrium output and national income to decline so that aggregate actual savings remain unchanged or even shrink."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Inflationary Gap Fiscal Remedy",
+      "difficulty": "easy",
+      "question": "To remedy an inflationary gap (excess demand) in the economy, which fiscal policy measure should the government implement?",
+      "options": [
+        "A) Increase public expenditure on infrastructure projects",
+        "B) Reduce tax rates across personal and corporate incomes",
+        "C) Increase direct taxes and reduce public expenditure",
+        "D) Grant higher subsidies to consumer goods producers"
+      ],
+      "correct_option": "C",
+      "explanation": "Combating an inflationary gap requires contractionary fiscal policy: raising taxes to reduce disposable income and curtailing government spending to depress aggregate demand."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Equilibrium Income Calculation",
+      "difficulty": "medium",
+      "question": "In an economy, autonomous consumption is Rs 100 crore, marginal propensity to save (MPS) is 0.2, and planned autonomous investment is Rs 200 crore. What is the equilibrium level of national income?",
+      "options": [
+        "A) Rs 800 crore",
+        "B) Rs 1,200 crore",
+        "C) Rs 3,000 crore",
+        "D) Rs 1,500 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "At equilibrium: Y = C + I => Y = (100 + 0.8Y) + 200 => Y - 0.8Y = 300 => 0.2Y = 300 => Y = 300 / 0.2 = Rs 1,500 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Revenue Deficit Implications",
+      "difficulty": "medium",
+      "question": "A persistent revenue deficit in the government budget signifies that the government is:",
+      "options": [
+        "A) Generating a large surplus in its capital receipts",
+        "B) Earning excess dividends from public sector undertakings",
+        "C) Investing heavily in long-term infrastructure and industrial corridors",
+        "D) Using borrowings to finance routine administrative consumption expenditure rather than creating productive capital assets"
+      ],
+      "correct_option": "D",
+      "explanation": "A revenue deficit implies that current revenue receipts are insufficient to meet routine government consumption expenditure. To finance this gap, the government must borrow or disinvest, leading to dissaving."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Classification of Expenditure",
+      "difficulty": "easy",
+      "question": "Which of the following is classified as capital expenditure in the government budget?",
+      "options": [
+        "A) Payment of salaries to civil administration personnel",
+        "B) Construction of national expressways and flyovers",
+        "C) Payment of interest on accumulated public debt",
+        "D) Grants given to state governments for flood relief"
+      ],
+      "correct_option": "B",
+      "explanation": "Capital expenditure creates tangible assets for the government or causes a reduction in financial liabilities. Construction of highways builds public assets and is capital expenditure."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Direct vs Indirect Taxes",
+      "difficulty": "easy",
+      "question": "A tax whose final monetary burden (incidence) cannot be shifted to another person is called a/an:",
+      "options": [
+        "A) Value-added tax",
+        "B) Indirect tax",
+        "C) Ad-valorem tax",
+        "D) Direct tax"
+      ],
+      "correct_option": "D",
+      "explanation": "A direct tax (e.g., personal income tax) is imposed directly on the person who pays it, and its impact and incidence lie on the same legal entity without possibility of shifting."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Autonomous vs Accommodating Items",
+      "difficulty": "hard",
+      "question": "In the Balance of Payments, transactions undertaken primarily by monetary authorities to bridge the gap caused by autonomous international payments are termed:",
+      "options": [
+        "A) Unilateral factor transfers",
+        "B) Speculative short-term capital inflows",
+        "C) Commercial autonomous trade flows",
+        "D) Accommodating transactions (below the line items)"
+      ],
+      "correct_option": "D",
+      "explanation": "Accommodating transactions ('below the line') are compensatory transactions carried out by the central bank (e.g., drawing on official foreign reserves or IMF loans) to restore balance after all autonomous transactions take place."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Managed Floating System",
+      "difficulty": "medium",
+      "question": "The 'Managed Floating' exchange rate system is characterized by:",
+      "options": [
+        "A) Complete prohibition of commercial banks trading in foreign currencies",
+        "B) Complete parity pegged irrevocably to the US Dollar or Gold standard",
+        "C) Daily legislative fixing of exchange values by Parliament",
+        "D) A system where exchange rates are determined by market forces of demand and supply, with occasional central bank interventions to stabilize excessive volatility"
+      ],
+      "correct_option": "D",
+      "explanation": "Under managed floating (dirty floating), exchange rates fluctuate according to market forces of demand and supply, but the central bank buys or sells foreign currency to smooth out excessive fluctuations."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Decline of Handicrafts",
+      "difficulty": "medium",
+      "question": "The British colonial tariff policy that crippled traditional Indian handicraft manufacturing while encouraging primary commodity exports was known as the:",
+      "options": [
+        "A) Bilateral quota protocol",
+        "B) Imperial preferential free-trade accord",
+        "C) Open door navigation policy",
+        "D) Discriminatory tariff policy"
+      ],
+      "correct_option": "D",
+      "explanation": "The British colonial government pursued a discriminatory tariff policy allowing duty-free export of raw materials from India and duty-free import of British factory products, while imposing heavy duties on Indian handicraft exports."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Infrastructure during Colonial Rule",
+      "difficulty": "easy",
+      "question": "The introduction of passenger railways in colonial India by the British took place in the year:",
+      "options": [
+        "A) 1921",
+        "B) 1881",
+        "C) 1905",
+        "D) 1853"
+      ],
+      "correct_option": "D",
+      "explanation": "The British introduced the railway system in India in 1853, with the first commercial train running between Bombay and Thane."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Land Reforms",
+      "difficulty": "medium",
+      "question": "Which two Indian states achieved the most comprehensive and successful implementation of land reform legislations aimed at abolishing intermediary tenure and ensuring land to the tiller?",
+      "options": [
+        "A) Kerala and West Bengal",
+        "B) Punjab and Haryana",
+        "C) Rajasthan and Gujarat",
+        "D) Bihar and Uttar Pradesh"
+      ],
+      "correct_option": "A",
+      "explanation": "Due to strong political commitment and peasant mobilization, land reform measures (including Operation Barga in West Bengal) were successfully implemented in West Bengal and Kerala."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Import Substitution Strategy",
+      "difficulty": "easy",
+      "question": "India's post-independence industrial trade strategy of 'Import Substitution' was primarily aimed at:",
+      "options": [
+        "A) Replacing imported manufactured goods with domestic production to economize on foreign exchange",
+        "B) Increasing the export of agricultural raw materials to European markets",
+        "C) Promoting unilateral free trade with Commonwealth nations",
+        "D) Allowing foreign corporations unrestricted ownership of domestic factories"
+      ],
+      "correct_option": "A",
+      "explanation": "Import substitution (inward-looking trade strategy) aimed to protect infant domestic industries from foreign competition and save foreign exchange by producing substitutes for imported goods domestically."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Green Revolution Spread",
+      "difficulty": "hard",
+      "question": "Why was the adoption of High Yielding Variety (HYV) seeds during the first phase of the Green Revolution (mid-1960s to mid-1970s) geographically restricted to states like Punjab, Haryana, and Western Uttar Pradesh?",
+      "options": [
+        "A) Because these states possessed reliable and extensive canal and tubewell irrigation infrastructure necessary for water-intensive HYV crops",
+        "B) Because HYV seeds could only be sown in extreme desert soils",
+        "C) Because central agricultural research institutes were solely located in Chandigarh",
+        "D) Because international financial institutions banned seed distribution in southern states"
+      ],
+      "correct_option": "A",
+      "explanation": "HYV technology required assured, controlled irrigation along with chemical fertilizers and pesticides. Punjab, Haryana, and western UP had well-developed irrigation infrastructure, enabling immediate adoption."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Origin of 1991 Crisis",
+      "difficulty": "medium",
+      "question": "Which immediate geopolitical event precipitated India's acute Balance of Payments crisis in 1990\u20131991 by causing a surge in crude oil import prices and drying up remittances from West Asia?",
+      "options": [
+        "A) The Gulf War",
+        "B) The dissolution of NAFTA",
+        "C) The Asian Financial Crisis",
+        "D) The Suez Canal blockage"
+      ],
+      "correct_option": "A",
+      "explanation": "The outbreak of the Gulf War in 1990 led to a sharp spike in global oil prices and halted worker remittances from the Middle East, depleting India's foreign exchange reserves to barely two weeks of imports."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Tax Reforms",
+      "difficulty": "easy",
+      "question": "The tax reform initiatives spearheaded in India since 1991 under Raja Chelliah Committee recommendations focused on:",
+      "options": [
+        "A) Moderate tax rates, broad tax base, and simplified compliance procedures",
+        "B) Levying prohibitive wealth tax rates above 90% on high earners",
+        "C) Abolishing all personal income taxes completely",
+        "D) Introducing cascading multiple octroi taxes across state borders"
+      ],
+      "correct_option": "A",
+      "explanation": "Post-1991 tax reforms focused on reducing high marginal tax rates, widening the tax base, rationalizing tax brackets, and simplifying compliance to curb tax evasion and enhance revenues."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Outsourcing",
+      "difficulty": "easy",
+      "question": "Why has India emerged as a leading global destination for business process outsourcing (BPO) and software services in the post-reform era?",
+      "options": [
+        "A) Availability of a large pool of skilled, English-speaking professionals at competitive wage costs",
+        "B) Imposition of high tariff barriers on foreign software companies",
+        "C) Complete state monopoly over commercial telecommunications",
+        "D) Prohibition of foreign investments in data management"
+      ],
+      "correct_option": "A",
+      "explanation": "India's massive educated, English-speaking technical manpower, combined with low labour costs and advanced IT infrastructure, made it a preferred global hub for outsourcing."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Bilateral Trade and MFN",
+      "difficulty": "hard",
+      "question": "Under the World Trade Organization (WTO) framework, the 'Most Favoured Nation' (MFN) principle mandates that:",
+      "options": [
+        "A) A member country must extend any trade concession granted to one trading partner unconditionally to all other WTO member nations",
+        "B) Industrialized nations must receive guaranteed tariff-free entry into developing markets",
+        "C) Landlocked countries are exempt from submitting trade dispute claims",
+        "D) Member states must maintain identical currency exchange valuations"
+      ],
+      "correct_option": "A",
+      "explanation": "The MFN principle (Article I of GATT) prohibits discrimination between trading partners. Any special tariff favour granted to one WTO member must be granted to all WTO members."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Education and Constitutional Amendments",
+      "difficulty": "easy",
+      "question": "Which Constitutional Amendment Act made free and compulsory elementary education for children aged 6 to 14 years a Fundamental Right under Article 21A in India?",
+      "options": [
+        "A) 86th Constitutional Amendment Act, 2002",
+        "B) 42nd Constitutional Amendment Act, 1976",
+        "C) 73rd Constitutional Amendment Act, 1992",
+        "D) 91st Constitutional Amendment Act, 2003"
+      ],
+      "correct_option": "A",
+      "explanation": "The 86th Amendment Act of 2002 inserted Article 21A into the Constitution, establishing education for children aged 6\u201314 as a Fundamental Right, which led to the enactment of the RTE Act in 2009."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Microcredit and SHGs",
+      "difficulty": "medium",
+      "question": "In Self-Help Groups (SHGs) linked with microcredit programmes, loans are sanctioned primarily on the basis of:",
+      "options": [
+        "A) Tangible landed property pledged as formal mortgage",
+        "B) Mutual peer trust, collective savings, and group solidarity without physical collateral",
+        "C) Endorsement by public sector insurance companies",
+        "D) Central government budget allocations"
+      ],
+      "correct_option": "B",
+      "explanation": "SHG-bank linkage programmes provide collateral-free microcredit to poor households based on peer guarantee, collective savings habits, and social monitoring within the self-help group."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Alternative Agricultural Marketing",
+      "difficulty": "medium",
+      "question": "Farmers' markets such as 'Apni Mandi' in Punjab and Haryana, 'Rythu Bazars' in Andhra Pradesh and Telangana, and 'Uzhavar Sandies' in Tamil Nadu were initiated primarily to:",
+      "options": [
+        "A) Enable direct marketing between farmers and consumers, thereby eliminating exploitative commission agents",
+        "B) Auction export-quality basmati rice exclusively to multinational supermarket chains",
+        "C) Restrict urban consumers from buying vegetables during harvest seasons",
+        "D) Enforce compulsory foodgrain procurement quotas for public distribution"
+      ],
+      "correct_option": "A",
+      "explanation": "Direct farmers' markets allow cultivators to sell farm produce directly to consumers, cutting out middleman margins and securing higher remuneration for growers."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Formal vs Informal Employment",
+      "difficulty": "medium",
+      "question": "In the Indian statistical system, what enterprise-size criterion formally demarcates organized (formal) sector establishments from informal sector units?",
+      "options": [
+        "A) Employing 10 or more hired workers with power, or 20 or more without power",
+        "B) Annual turnover exceeding Rs 100 crore",
+        "C) Listed on a recognized stock exchange",
+        "D) Having foreign equity participation of at least 51%"
+      ],
+      "correct_option": "A",
+      "explanation": "The formal (organized) sector comprises public enterprises and private enterprises employing 10 or more workers with power, or 20 or more workers without power, providing statutory social security benefits."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Principles of Sustainable Development",
+      "difficulty": "hard",
+      "question": "According to the ecological sustainability principles articulated by economist Herman Daly, what condition must be satisfied for the sustainable exploitation of renewable resources?",
+      "options": [
+        "A) The rate of harvest should not exceed the natural regenerative capacity of the resource",
+        "B) The market price of the resource must be fixed below marginal production cost",
+        "C) The resource must be completely substituted by fossil fuels within five years",
+        "D) All harvest proceeds must be channeled into sovereign wealth funds"
+      ],
+      "correct_option": "A",
+      "explanation": "Herman Daly stipulated that for sustainability, the harvest rate of renewable resources must not exceed their regeneration rate, and waste emission rates must not exceed the absorptive capacity of the ecosystem."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Commune System in China",
+      "difficulty": "medium",
+      "question": "In China's post-reform agricultural strategy, what was the 'Household Responsibility System' that replaced collective commune farming?",
+      "options": [
+        "A) Farmers were allocated land plots and allowed to retain agricultural surpluses after meeting state procurement quotas and taxes",
+        "B) Village councils were mandated to auction all farm land to private real estate developers",
+        "C) All farming operations were centralized under a single state agricultural ministry",
+        "D) Agricultural households were forbidden from selling crops in local open markets"
+      ],
+      "correct_option": "A",
+      "explanation": "Under the Household Responsibility System introduced in China in 1978, land remained collectively owned, but individual households were contracted plots and permitted to sell above-quota output in free markets."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Special Economic Zones",
+      "difficulty": "easy",
+      "question": "To attract foreign investments and stimulate export manufacturing, China established dedicated duty-free geographical enclaves known as:",
+      "options": [
+        "A) Special Economic Zones (SEZs)",
+        "B) Agricultural Export Communes (AECs)",
+        "C) State Trading Enclaves (STEs)",
+        "D) Cooperative Industrial Townships (CITs)"
+      ],
+      "correct_option": "A",
+      "explanation": "China set up Special Economic Zones (SEZs) in coastal areas (such as Shenzhen) offering tax concessions, duty-free imports, and flexible labor regulations to attract foreign capital."
+    },
+    {
+      "id": "CUET_ECO_2026_P14_L4B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Sectoral Contribution Comparison",
+      "difficulty": "hard",
+      "question": "Comparing the structural transformation paths of India and China, what major structural distinction stands out regarding sectoral GDP contribution?",
+      "options": [
+        "A) China experienced rapid growth driven primarily by manufacturing industry, whereas India transitioned directly from agriculture to the services sector",
+        "B) India's industrial sector contributes over 70% of its GDP, while China depends entirely on agriculture",
+        "C) Pakistan surpassed both India and China in industrial manufacturing value added per capita",
+        "D) China has consistently recorded a lower urban population share than India throughout the 21st century"
+      ],
+      "correct_option": "A",
+      "explanation": "China's economic boom was propelled by massive expansion in the secondary (manufacturing) sector, whereas India bypassed a dominant manufacturing phase, seeing its service sector leap ahead in GDP contribution."
+    }
+  ]
+}

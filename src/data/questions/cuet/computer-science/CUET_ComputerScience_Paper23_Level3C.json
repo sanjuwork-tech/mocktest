@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P23_L3C",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 23,
+  "difficulty_level": "3C",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "In SQL, which operator is used to search for a specified pattern in a column?",
+      "options": [
+        "A) LIKE",
+        "B) FIND",
+        "C) MATCH",
+        "D) SEARCH"
+      ],
+      "correct_option": "A",
+      "explanation": "The LIKE operator in SQL is used in a WHERE clause to search for a specified pattern in a column, utilizing wildcards such as '%' (zero or more characters) and '_' (a single character). FIND, MATCH, and SEARCH are not standard SQL pattern-matching operators."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which constraint ensures that a column cannot have NULL values in a table?",
+      "options": [
+        "A) DEFAULT",
+        "B) CHECK",
+        "C) UNIQUE",
+        "D) NOT NULL"
+      ],
+      "correct_option": "D",
+      "explanation": "The NOT NULL constraint enforces that a column cannot store NULL (missing or undefined) values, requiring every inserted or updated record to supply a valid value. DEFAULT assigns a fallback value, CHECK validates a condition, and UNIQUE prevents duplicate entries."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "Which aggregate function returns the total number of rows in a result set?",
+      "options": [
+        "A) SUM()",
+        "B) AVG()",
+        "C) COUNT()",
+        "D) TOTAL()"
+      ],
+      "correct_option": "C",
+      "explanation": "The COUNT() aggregate function returns the total number of rows matching the query criteria (or non-NULL values if a specific column is passed). SUM() calculates a total sum, AVG() computes an arithmetic mean, and TOTAL() is not a standard ANSI SQL function."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "easy",
+      "question": "Which SQL statement is used to add a new row of data into a table?",
+      "options": [
+        "A) ADD ROW",
+        "B) INSERT INTO",
+        "C) CREATE ROW",
+        "D) UPDATE ROW"
+      ],
+      "correct_option": "B",
+      "explanation": "The INSERT INTO statement is used in SQL to add one or more new rows of data into a database table. ADD ROW, CREATE ROW, and UPDATE ROW are not valid SQL statements."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "easy",
+      "question": "Which clause is used to filter rows based on a condition in a SQL query?",
+      "options": [
+        "A) WHERE",
+        "B) CONDITION",
+        "C) FILTER",
+        "D) HAVING"
+      ],
+      "correct_option": "A",
+      "explanation": "The WHERE clause filters individual rows from a table before any grouping or aggregation takes place based on a specified boolean condition. HAVING filters grouped rows after aggregation, while CONDITION and FILTER are not SQL clauses."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "medium",
+      "question": "Which aggregate function calculates the average value of a numeric column?",
+      "options": [
+        "A) MEAN()",
+        "B) AVG()",
+        "C) MID()",
+        "D) MEDIAN()"
+      ],
+      "correct_option": "B",
+      "explanation": "The AVG() aggregate function computes the numerical average (arithmetic mean) of non-NULL values in a numeric column. MEAN, MID, and MEDIAN are not built-in aggregate functions in standard SQL."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "What does the SQL keyword DISTINCT do?",
+      "options": [
+        "A) Removes duplicate rows from results",
+        "B) Groups rows by a column",
+        "C) Sorts data in ascending order",
+        "D) Joins two tables"
+      ],
+      "correct_option": "A",
+      "explanation": "The DISTINCT keyword is used in a SELECT statement to filter out duplicate rows from the result set, returning only unique tuples. GROUP BY groups rows for aggregation, and ORDER BY sorts results."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "Which type of JOIN returns only rows that have matching values in both tables?",
+      "options": [
+        "A) LEFT JOIN",
+        "B) CROSS JOIN",
+        "C) FULL OUTER JOIN",
+        "D) INNER JOIN"
+      ],
+      "correct_option": "D",
+      "explanation": "An INNER JOIN selects only records that satisfy the join condition and have matching values in both tables. LEFT JOIN retains all rows from the left table, FULL OUTER JOIN retains all rows from both tables, and CROSS JOIN produces a Cartesian product."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "Consider: SELECT dept, AVG(salary) FROM employees GROUP BY dept HAVING AVG(salary) > 50000; What does HAVING do?",
+      "options": [
+        "A) Sorts the result set",
+        "B) Filters rows before grouping",
+        "C) Filters groups after aggregation",
+        "D) Limits number of rows returned"
+      ],
+      "correct_option": "C",
+      "explanation": "In SQL, the HAVING clause filters summary groups created by GROUP BY based on aggregate conditions (such as AVG(salary) > 50000). The WHERE clause filters individual rows before grouping, and ORDER BY sorts the output."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Which SQL statement modifies the structure of an existing table?",
+      "options": [
+        "A) UPDATE TABLE",
+        "B) ALTER TABLE",
+        "C) CHANGE TABLE",
+        "D) MODIFY TABLE"
+      ],
+      "correct_option": "B",
+      "explanation": "The ALTER TABLE DDL statement is used to add, delete, or modify columns and constraints in an existing database table structure without dropping the table. UPDATE modifies row data, not schema structure."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q11",
+      "topic": "Networks",
+      "sub_topic": "Network Fundamentals",
+      "difficulty": "easy",
+      "question": "Which device connects multiple networks and routes packets between them using IP addresses?",
+      "options": [
+        "A) Switch",
+        "B) Hub",
+        "C) Repeater",
+        "D) Router"
+      ],
+      "correct_option": "D",
+      "explanation": "A router operates at Layer 3 (Network Layer) and is responsible for forwarding data packets between distinct computer networks by inspecting destination IP addresses and consulting routing tables. Switches and hubs operate within a single local network segment."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q12",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "Which OSI layer handles physical transmission of raw bits over a medium?",
+      "options": [
+        "A) Transport Layer",
+        "B) Network Layer",
+        "C) Physical Layer",
+        "D) Data Link Layer"
+      ],
+      "correct_option": "C",
+      "explanation": "The Physical Layer (Layer 1 of the OSI model) is responsible for transmitting unstructured raw bit streams over a physical communication medium (cables, radio waves, or optical fibers). The Data Link Layer organizes bits into frames, and the Network Layer handles packet routing."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q13",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "easy",
+      "question": "What is the loopback IP address used to test network software on the local machine?",
+      "options": [
+        "A) 255.255.255.255",
+        "B) 192.168.1.1",
+        "C) 0.0.0.0",
+        "D) 127.0.0.1"
+      ],
+      "correct_option": "D",
+      "explanation": "127.0.0.1 is the standard IPv4 loopback address (assigned to the localhost interface), used by a host to send network traffic to itself for local testing and diagnostics. 255.255.255.255 is the broadcast address, and 0.0.0.0 represents an unspecified address."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q14",
+      "topic": "Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol translates domain names into IP addresses?",
+      "options": [
+        "A) FTP",
+        "B) DNS",
+        "C) ARP",
+        "D) DHCP"
+      ],
+      "correct_option": "B",
+      "explanation": "The Domain Name System (DNS) translates human-readable domain names (such as www.example.com) into numerical IP addresses required by networking protocols to route data. FTP transfers files, ARP resolves IP to MAC addresses, and DHCP automatically assigns IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q15",
+      "topic": "Networks",
+      "sub_topic": "Network Fundamentals",
+      "difficulty": "easy",
+      "question": "What device operates at Layer 2 and forwards frames based on MAC addresses?",
+      "options": [
+        "A) Switch",
+        "B) Router",
+        "C) Modem",
+        "D) Gateway"
+      ],
+      "correct_option": "A",
+      "explanation": "A network switch operates at Layer 2 (Data Link Layer) and forwards data frames between devices on a local network by learning and inspecting physical MAC addresses in its MAC address table. Routers operate at Layer 3 using IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q16",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "medium",
+      "question": "At which OSI layer does logical addressing (IP) and routing occur?",
+      "options": [
+        "A) Network Layer",
+        "B) Session Layer",
+        "C) Transport Layer",
+        "D) Data Link Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "The Network Layer (Layer 3 of the OSI model) handles logical addressing (IPv4/IPv6 addresses), packet forwarding, and path determination (routing) across interconnected networks. The Transport Layer manages end-to-end connections, and Data Link handles physical link framing."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q17",
+      "topic": "Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "Which Transport Layer protocol provides connection-oriented, reliable data delivery?",
+      "options": [
+        "A) UDP",
+        "B) ICMP",
+        "C) IP",
+        "D) TCP"
+      ],
+      "correct_option": "D",
+      "explanation": "Transmission Control Protocol (TCP) is a connection-oriented Transport Layer protocol that guarantees reliable, ordered, and error-checked delivery of a stream of octets using a three-way handshake and acknowledgments. UDP is connectionless and does not guarantee delivery."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q18",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "medium",
+      "question": "An IP address 172.16.50.1 belongs to which class?",
+      "options": [
+        "A) Class A",
+        "B) Class B",
+        "C) Class D",
+        "D) Class C"
+      ],
+      "correct_option": "B",
+      "explanation": "In classful IPv4 addressing, Class B addresses have a first octet ranging from 128 to 191 (in binary, starting with '10'). Since 172 falls within the 128-191 range, 172.16.50.1 is a Class B address. Class A spans 1-126, and Class C spans 192-223."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q19",
+      "topic": "Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "hard",
+      "question": "Which email retrieval protocol downloads messages then typically deletes them from the server?",
+      "options": [
+        "A) SSH",
+        "B) IMAP",
+        "C) POP3",
+        "D) SMTP"
+      ],
+      "correct_option": "C",
+      "explanation": "Post Office Protocol version 3 (POP3) is designed to download emails from a remote mail server to a local client and typically deletes the downloaded messages from the server. IMAP synchronizes emails across multiple clients while keeping messages stored on the server, and SMTP is used for sending mail."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q20",
+      "topic": "Networks",
+      "sub_topic": "Network Topologies",
+      "difficulty": "hard",
+      "question": "In a full mesh topology with n nodes, how many links are required?",
+      "options": [
+        "A) n(n-1)",
+        "B) n/2",
+        "C) 2n",
+        "D) n(n-1)/2"
+      ],
+      "correct_option": "D",
+      "explanation": "In a fully connected mesh network with n nodes, every node must have an independent physical channel to every other node. The total number of bidirectional links is given by the combination formula C(n, 2) = n(n - 1) / 2."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "What is the output of: print(type(42))?",
+      "options": [
+        "A) <class 'str'>",
+        "B) <class 'number'>",
+        "C) <class 'int'>",
+        "D) <class 'float'>"
+      ],
+      "correct_option": "C",
+      "explanation": "In Python, 42 is an integer literal, so the type() function returns <class 'int'>. Strings return <class 'str'>, and decimal numbers return <class 'float'>."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "easy",
+      "question": "Which method adds an element to the end of a list in Python?",
+      "options": [
+        "A) extend()",
+        "B) add()",
+        "C) append()",
+        "D) insert()"
+      ],
+      "correct_option": "C",
+      "explanation": "The append() method adds a single item to the end of an existing list in-place. extend() iterates over an argument appending each element, insert() adds an element at a specified index, and add() is a set method."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "easy",
+      "question": "What keyword defines a function in Python?",
+      "options": [
+        "A) function",
+        "B) def",
+        "C) define",
+        "D) func"
+      ],
+      "correct_option": "B",
+      "explanation": "In Python, user-defined functions are created using the def keyword followed by the function name and parameter list. Keywords like function, define, or func are used in other languages such as JavaScript, C, or Swift."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "easy",
+      "question": "Which data structure uses FIFO (First In, First Out) principle?",
+      "options": [
+        "A) Tree",
+        "B) Graph",
+        "C) Queue",
+        "D) Stack"
+      ],
+      "correct_option": "C",
+      "explanation": "A queue operates on the First-In, First-Out (FIFO) principle, where elements are inserted at the rear and removed from the front in the order they arrived. Stacks use LIFO (Last-In, First-Out)."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "What is the output of: print('Hello'[1])?",
+      "options": [
+        "A) e",
+        "B) l",
+        "C) H",
+        "D) Error"
+      ],
+      "correct_option": "A",
+      "explanation": "Python uses 0-based indexing for strings and sequences. For string 'Hello', index 0 is 'H', index 1 is 'e', index 2 is 'l', index 3 is 'l', and index 4 is 'o'. Thus 'Hello'[1] outputs 'e'."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "medium",
+      "question": "Which block executes regardless of whether an exception occurs?",
+      "options": [
+        "A) finally",
+        "B) except",
+        "C) catch",
+        "D) else"
+      ],
+      "correct_option": "A",
+      "explanation": "In Python exception handling, the finally block always executes whether an exception was raised, caught, or not raised at all, commonly used for clean-up tasks like closing file descriptors. The except block only runs if an exception occurs."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "medium",
+      "question": "What does my_list[-3:] return if my_list = [10, 20, 30, 40, 50]?",
+      "options": [
+        "A) [20, 30, 40]",
+        "B) [40, 50]",
+        "C) [10, 20, 30]",
+        "D) [30, 40, 50]"
+      ],
+      "correct_option": "D",
+      "explanation": "Negative indexing counts from the end of the list, where -1 is 50, -2 is 40, and -3 is 30. The slice [-3:] extracts all elements from index -3 to the end of the list, yielding [30, 40, 50]."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "Which method reads all lines from a file and returns them as a list?",
+      "options": [
+        "A) read()",
+        "B) getlines()",
+        "C) readall()",
+        "D) readlines()"
+      ],
+      "correct_option": "D",
+      "explanation": "The file method readlines() reads all remaining lines from an open text file and returns them as a list of strings, with each string containing a line and its trailing newline character. read() returns the entire file content as a single string."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "hard",
+      "question": "In Python, the built-in sorted() function and list.sort() method use Timsort. What are the best-case and worst-case time complexities of Timsort on a list of n elements?",
+      "options": [
+        "A) Best case O(n log n), worst case O(n²)",
+        "B) Best case O(n), worst case O(n log n)",
+        "C) Best case O(1), worst case O(n log n)",
+        "D) Best case O(n), worst case O(n²)"
+      ],
+      "correct_option": "B",
+      "explanation": "Timsort is an adaptive hybrid sorting algorithm that takes advantage of existing ordered runs in real-world data, achieving a linear best-case time complexity of O(n) for sorted inputs and an optimal worst-case time complexity of O(n log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "Which exception is raised when trying to open a file that does not exist?",
+      "options": [
+        "A) IOError",
+        "B) OSError",
+        "C) FileNotFoundError",
+        "D) FileError"
+      ],
+      "correct_option": "C",
+      "explanation": "In Python 3, attempting to open a non-existent file in read mode ('r') raises FileNotFoundError (a subclass of OSError). In older Python 2 code this was IOError, but FileNotFoundError is the specific modern built-in exception."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "Which condition must be met for binary search to work correctly?",
+      "options": [
+        "A) Array must contain only integers",
+        "B) Array must be sorted",
+        "C) Array must be in a linked list",
+        "D) Array must have even elements"
+      ],
+      "correct_option": "B",
+      "explanation": "Binary search works by comparing the target key with the middle element to discard half of the search interval. This elimination logic relies strictly on the prerequisite that the elements are arranged in sorted order."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "In Big-O notation, what represents the worst-case running time of bubble sort?",
+      "options": [
+        "A) Quadratic time",
+        "B) Linearithmic time",
+        "C) Logarithmic time",
+        "D) Linear time"
+      ],
+      "correct_option": "A",
+      "explanation": "In the worst case (such as a reverse-sorted array), bubble sort makes (n-1) + (n-2) + ... + 1 = n(n-1)/2 comparisons and swaps, resulting in quadratic time complexity O(n²)."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "How many comparisons does linear search need in the worst case for n elements?",
+      "options": [
+        "A) n",
+        "B) log n",
+        "C) n^2",
+        "D) n log n"
+      ],
+      "correct_option": "A",
+      "explanation": "In the worst-case scenario (when the searched item is at the last position or entirely absent from an array of n items), linear search must inspect every single item one by one, requiring exactly n comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm is most efficient for small or nearly sorted datasets?",
+      "options": [
+        "A) Selection Sort",
+        "B) Insertion Sort",
+        "C) Heap Sort",
+        "D) Quick Sort"
+      ],
+      "correct_option": "B",
+      "explanation": "Insertion sort has minimal constant overhead and runs in O(n) linear time on nearly sorted datasets because elements require very few shifts to reach their correct positions, making it exceptionally efficient for small or pre-sorted collections."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "In which scenario does binary search achieve its best-case time complexity of O(1)?",
+      "options": [
+        "A) When the target key is located at the first index (index 0)",
+        "B) When the target key is located at the last index (index n - 1)",
+        "C) When the target key is not present in the array",
+        "D) When the target key is located at the middle index of the array"
+      ],
+      "correct_option": "D",
+      "explanation": "Binary search begins by evaluating the element located at the exact middle index of the array. If the target key matches this middle element on the first check, the search completes immediately in O(1) best-case time."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "medium",
+      "question": "Which sorting algorithm divides the array by selecting a pivot and recursively sorting partitions?",
+      "options": [
+        "A) Merge Sort",
+        "B) Bubble Sort",
+        "C) Selection Sort",
+        "D) Quick Sort"
+      ],
+      "correct_option": "D",
+      "explanation": "Quicksort is a divide-and-conquer algorithm that selects an element as a pivot, partitions the array so that elements smaller than the pivot are on the left and larger on the right, and then recursively sorts the sub-arrays."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "If an array has 1000 elements, what is the maximum number of comparisons in binary search?",
+      "options": [
+        "A) 11",
+        "B) 500",
+        "C) 1000",
+        "D) 10"
+      ],
+      "correct_option": "D",
+      "explanation": "The maximum number of comparisons in binary search for an array of size n is given by floor(log2(n)) + 1. Since 2^9 = 512 and 2^10 = 1024, floor(log2(1000)) + 1 = 9 + 1 = 10 comparisons in the worst case."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "Which sorting algorithm has best-case O(n) when the input is already sorted?",
+      "options": [
+        "A) Quick Sort",
+        "B) Selection Sort",
+        "C) Bubble Sort",
+        "D) Heap Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "When implemented with a swapped flag that monitors whether any swaps occurred during a pass, Bubble Sort detects an already sorted array after a single pass of n-1 comparisons, completing in O(n) best-case time. Selection sort and heap sort always require O(n²) or O(n log n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "Which sorting algorithm is stable and has O(n log n) worst-case time complexity?",
+      "options": [
+        "A) Quick Sort",
+        "B) Selection Sort",
+        "C) Merge Sort",
+        "D) Heap Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Merge Sort consistently guarantees O(n log n) time complexity across best, average, and worst cases, and preserves the relative order of duplicate elements (stability). Quicksort and Heapsort are not stable in their standard implementations, and selection sort is quadratic."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "In binary search on a sorted array of n elements, the middle index is computed as:",
+      "options": [
+        "A) (low * high) // 2",
+        "B) (low + high) // 2",
+        "C) (low + high) / 2",
+        "D) n // 2"
+      ],
+      "correct_option": "B",
+      "explanation": "In Python, integer division // discards the fractional part, so (low + high) // 2 correctly calculates the integer middle index between low and high boundaries. Float division / would return a float which is invalid as an array index."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "What is a common social engineering attack where attackers send fraudulent emails to steal sensitive information?",
+      "options": [
+        "A) Phishing",
+        "B) Phreaking",
+        "C) Spamming",
+        "D) Baiting"
+      ],
+      "correct_option": "A",
+      "explanation": "Phishing is a deceptive social engineering attack where an adversary poses as a legitimate institution via fraudulent emails or messages to trick victims into revealing sensitive credentials, credit card details, or personal data."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "Which technique hides secret data within ordinary files like images or audio?",
+      "options": [
+        "A) Hashing",
+        "B) Encryption",
+        "C) Compression",
+        "D) Steganography"
+      ],
+      "correct_option": "D",
+      "explanation": "Steganography is the practice of concealing a secret message, file, or image within another ordinary file or carrier medium (such as least significant bits of image pixels or audio tracks) without altering the appearance of the carrier. Encryption scrambles data into ciphertext, whereas steganography hides the existence of the communication."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "easy",
+      "question": "Which Pandas function reads a CSV file into a DataFrame?",
+      "options": [
+        "A) read_csv()",
+        "B) import_csv()",
+        "C) read_excel()",
+        "D) load_csv()"
+      ],
+      "correct_option": "A",
+      "explanation": "In Pandas, pd.read_csv() is the standard and widely used function to parse comma-separated values (CSV) files into a two-dimensional DataFrame. read_excel() is used for Excel files, while import_csv and load_csv are not Pandas functions."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "easy",
+      "question": "A network security system that monitors and controls traffic based on rules is called a:",
+      "options": [
+        "A) Firewall",
+        "B) Router",
+        "C) Switch",
+        "D) Gateway"
+      ],
+      "correct_option": "A",
+      "explanation": "A firewall is a network security device or software that inspects incoming and outgoing network traffic and determines whether to allow or block specific packets based on defined security rules. Routers, switches, and gateways are standard networking devices rather than dedicated packet-filtering security systems."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "easy",
+      "question": "Which function displays the first 5 rows of a DataFrame?",
+      "options": [
+        "A) tail()",
+        "B) head()",
+        "C) describe()",
+        "D) info()"
+      ],
+      "correct_option": "B",
+      "explanation": "In Pandas, the head() method returns the first 5 rows of a DataFrame by default (or the specified number n if passed as an argument). tail() displays the last 5 rows, describe() computes summary statistics, and info() prints concise DataFrame metadata."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "medium",
+      "question": "Which encryption method uses a pair of public and private keys?",
+      "options": [
+        "A) Hashing",
+        "B) Asymmetric encryption",
+        "C) Steganography",
+        "D) Symmetric encryption"
+      ],
+      "correct_option": "B",
+      "explanation": "Asymmetric encryption (also known as public-key cryptography, such as RSA or ECC) uses a mathematically linked key pair: a public key for encryption or signature verification and a private key kept secret for decryption or digital signing. Symmetric encryption uses a single shared secret key."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "Which Pandas method removes rows with missing (NaN) values?",
+      "options": [
+        "A) delete_na()",
+        "B) fillna()",
+        "C) dropna()",
+        "D) remove_na()"
+      ],
+      "correct_option": "C",
+      "explanation": "In Pandas, the dropna() method detects and drops rows (or columns, when axis=1) that contain missing or null (NaN) values. fillna() replaces missing values with specified fill values, while delete_na and remove_na are non-existent methods."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "What type of malware encrypts victims files and demands payment for decryption?",
+      "options": [
+        "A) Spyware",
+        "B) Trojan",
+        "C) Worm",
+        "D) Ransomware"
+      ],
+      "correct_option": "D",
+      "explanation": "Ransomware is malicious software that denies access to a user's system or files by encrypting them and demanding a ransom payment (often in cryptocurrency) in exchange for the decryption key. Spyware covertly monitors user data, worms replicate across networks, and Trojans disguise themselves as legitimate programs."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "What does df.shape return?",
+      "options": [
+        "A) Summary statistics",
+        "B) Column names",
+        "C) A tuple with (rows, columns)",
+        "D) Data types"
+      ],
+      "correct_option": "C",
+      "explanation": "In Pandas, the shape attribute of a DataFrame returns a two-element tuple in the format (number_of_rows, number_of_columns) representing the dimensional layout of the DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P23_L3C_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Which cryptographic hash algorithm produces a 256-bit fixed-length output?",
+      "options": [
+        "A) MD5",
+        "B) SHA-1",
+        "C) SHA-256",
+        "D) AES"
+      ],
+      "correct_option": "C",
+      "explanation": "SHA-256 (part of the SHA-2 family designed by the NSA) generates a 256-bit (32-byte) message digest regardless of input size. MD5 produces 128-bit digests, SHA-1 produces 160-bit digests, and AES is a symmetric block cipher, not a hash algorithm."
+    }
+  ]
+}

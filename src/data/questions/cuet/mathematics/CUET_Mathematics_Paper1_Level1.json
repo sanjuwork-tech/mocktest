@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P1_L1",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 1,
+  "difficulty_level": "1",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Transpose of a matrix",
+      "difficulty": "easy",
+      "question": "\\( If A is a 3×2 matrix, what is the order of A'A (A transpose \\times A)? \\)",
+      "options": [
+        "A) 2×2",
+        "B) 3×3",
+        "C) 2×3",
+        "D) 3×2"
+      ],
+      "correct_option": "A",
+      "explanation": "A' is 2×3. A'A = (2×3)(3×2) → 2×2. The product A'A is always a square matrix of order equal to the number of columns of A."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q02",
+      "topic": "Matrices",
+      "sub_topic": "Symmetric and skew symmetric matrices",
+      "difficulty": "easy",
+      "question": "Analyze the matrix property: A square matrix A is symmetric if:",
+      "options": [
+        "A) A = 2A'",
+        "B) A = A'",
+        "C) A = -A'",
+        "D) A = A⁻¹"
+      ],
+      "correct_option": "B",
+      "explanation": "A matrix A is symmetric if A = Aᵀ. A symmetric matrix satisfies A = A' (A equals its transpose)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q03",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( Find the value of the determinant \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 22",
+        "B) 14",
+        "C) -2",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For a 2×2 matrix \\left| \\1 \\right|, determinant = ad - bc = 3×4 - 5×2 = 12 - 10 = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q04",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "If two rows of a determinant are identical, then its value is:",
+      "options": [
+        "A) -1",
+        "B) 0",
+        "C) 1",
+        "D) Undefined"
+      ],
+      "correct_option": "B",
+      "explanation": "A property of determinants states that if any two rows (or columns) are identical, the determinant equals zero."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q05",
+      "topic": "Inverse of Matrix",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "A matrix A is invertible if and only if:",
+      "options": [
+        "A) |A| ≠ 0",
+        "B) A is symmetric",
+        "C) A is diagonal",
+        "D) |A| = 0"
+      ],
+      "correct_option": "A",
+      "explanation": "A square matrix has an inverse if and only if its determinant is non-zero (i.e., it is non-singular)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q06",
+      "topic": "Matrices",
+      "sub_topic": "Solving system of linear equations",
+      "difficulty": "easy",
+      "question": "The matrix method for solving linear equations AX = B uses which formula?",
+      "options": [
+        "A) X = BA⁻¹",
+        "B) X = A + B",
+        "C) X = A⁻¹B",
+        "D) X = AB⁻¹"
+      ],
+      "correct_option": "C",
+      "explanation": "For AX = B, multiplying both sides by A⁻¹ gives X = A⁻¹B."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q07",
+      "topic": "Higher Order Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "easy",
+      "question": "Find the value: If y = x⁴, find d²y/dx².",
+      "options": [
+        "A) 24x",
+        "B) 12x",
+        "C) 4x³",
+        "D) 12x²"
+      ],
+      "correct_option": "D",
+      "explanation": "The second derivative is found by differentiating the first derivative. dy/dx = 4x³, d²y/dx² = 12x². The second derivative indicates concavity: positive means concave up, negative means concave down. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q08",
+      "topic": "Increasing and Decreasing Functions",
+      "sub_topic": "Increasing and Decreasing Functions",
+      "difficulty": "easy",
+      "question": "A function f(x) is increasing on an interval if:",
+      "options": [
+        "A) f'(x) is undefined",
+        "B) f'(x) > 0",
+        "C) f'(x) < 0",
+        "D) f'(x) = 0"
+      ],
+      "correct_option": "B",
+      "explanation": "A function is increasing where its derivative is positive (f'(x) > 0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q09",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the following integral: ∫dx/(x² + 4x + 8) equals:",
+      "options": [
+        "A) (1/2)tan⁻¹((x+2)/2) + C",
+        "B) tan⁻¹((x+2)/2) + C",
+        "C) (1/2)tan⁻¹(x+2) + C",
+        "D) tan⁻¹(x+2) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Complete square: x²+4x+8 = (x+2)²+4. ∫dx/((x+2)²+4) = (1/2)tan⁻¹((x+2)/2) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q10",
+      "topic": "Definite Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the definite integral of x from 0 to 2.",
+      "options": [
+        "A) 4",
+        "B) 0",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Integral of x dx from 0 to 2 = [x^\\frac{2}{2}] from 0 to 2 = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q11",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The order of the differential equation d³y/dx³ + x(dy/dx)² = 0 is:",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 4",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "The order is the highest derivative present, which is d³y/dx³ (third order)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q12",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The degree of the differential equation (d²y/dx²)³ + dy/dx = 0 is:",
+      "options": [
+        "A) 6",
+        "B) 3",
+        "C) 2",
+        "D) 1"
+      ],
+      "correct_option": "B",
+      "explanation": "The degree is the power of the highest order derivative. Here (d²y/dx²)³ has degree 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q13",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "easy",
+      "question": "Solve: dy/dx = xy. The general solution is:",
+      "options": [
+        "A) y = Ce^(x²/2)",
+        "B) y = Cx²",
+        "C) y = Cx",
+        "D) y = Ce^x"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Separating: dy/y = x dx. Integrating: \\ln\\left| \\1 \\right| = x²/2 + C₁, so y = Ce^{(x²/2)}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q14",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "A die is rolled. What is the probability of getting an even number?",
+      "options": [
+        "A) 1/2",
+        "B) 2/3",
+        "C) 1/3",
+        "D) 1/6"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Even numbers on a die: {2, 4, 6} = 3 outcomes. Total outcomes = 6. P = \\frac{3}{6} = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q15",
+      "topic": "Linear Programming",
+      "sub_topic": "Feasible and infeasible regions",
+      "difficulty": "easy",
+      "question": "In linear programming, the feasible region is:",
+      "options": [
+        "A) Always unbounded",
+        "B) The set of all points satisfying the constraints",
+        "C) Always a triangle",
+        "D) The solution to the objective function"
+      ],
+      "correct_option": "B",
+      "explanation": "The feasible region is the set of all points that satisfy all constraints simultaneously."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q16",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "A relation R on set A is called reflexive if:",
+      "options": [
+        "A) R = A × A",
+        "B) (a,b) ∈ R implies (b,a) ∈ R",
+        "C) (a,b) ∈ R and (b,c) ∈ R implies (a,c) ∈ R",
+        "D) (a,a) ∈ R for all a ∈ A"
+      ],
+      "correct_option": "D",
+      "explanation": "A relation is reflexive if every element is related to itself: (a,a) ∈ R for all a ∈ A."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q17",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "Solve the following problem: If f(x) = x⁴ - 2x², what is f''(1)?",
+      "options": [
+        "A) 8",
+        "B) 12",
+        "C) 4",
+        "D) 0"
+      ],
+      "correct_option": "A",
+      "explanation": "f'(x) = 4x³ - 4x. f''(x) = 12x² - 4. f''(1) = 12 - 4 = 8."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q18",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "A function f(x) is continuous at x = a if:",
+      "options": [
+        "A) f'(a) exists",
+        "B) f(x) is differentiable at a",
+        "C) f(a) exists",
+        "D) lim(x→a) f(x) = f(a)"
+      ],
+      "correct_option": "D",
+      "explanation": "Continuity at x=a requires that the limit of f(x) as x approaches a equals f(a)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q19",
+      "topic": "Vector Algebra",
+      "sub_topic": "Magnitude and direction of a vector",
+      "difficulty": "easy",
+      "question": "Find the magnitude of the vector: The magnitude of vector 3i + 4j is:",
+      "options": [
+        "A) 25",
+        "B) 12",
+        "C) 7",
+        "D) 5"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{a² + b² + c²} for vector a = ai + bj + ck. \\left| \\1 \\right| = \\sqrt{3² + 4²} = \\sqrt{9 + 16} = \\sqrt{25} = 5. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q20",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "easy",
+      "question": "The distance between the points (3, −1, 2) and (7, 2, −3) is:",
+      "options": [
+        "A) √61",
+        "B) √50",
+        "C) √41",
+        "D) √74"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( d = \\sqrt{(7−3}² + (2−(−1))² + (−3−2)²) = \\sqrt{16 + 9 + 25} = \\sqrt{50} = 5\\sqrt{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q21",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "Two coins are tossed. What is the probability of getting exactly one head?",
+      "options": [
+        "A) 1/4",
+        "B) 1/2",
+        "C) 1/3",
+        "D) 3/4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Sample space: {HH, HT, TH, TT}. Exactly one head: {HT, TH} = 2 outcomes. P = \\frac{2}{4} = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q22",
+      "topic": "Matrices",
+      "sub_topic": "Symmetric and skew symmetric matrices",
+      "difficulty": "easy",
+      "question": "Analyze the matrix property: A square matrix A is skew-symmetric if:",
+      "options": [
+        "A) A = A'",
+        "B) A = 2A'",
+        "C) A = A²",
+        "D) A = -A'"
+      ],
+      "correct_option": "D",
+      "explanation": "A matrix A is symmetric if A = Aᵀ. A skew-symmetric matrix satisfies A = -A' (A equals negative of its transpose)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q23",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( Find the determinant of \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 6",
+        "D) -1"
+      ],
+      "correct_option": "B",
+      "explanation": "This is an upper triangular matrix. Determinant = product of diagonal elements = 1×1×1 = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q24",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Find the derivative of the given function: If y = ln(x² + 1), what is dy/dx?",
+      "options": [
+        "A) 2x/(x²+1)",
+        "B) 1/(x²+1)",
+        "C) 2x/(x²+1)²",
+        "D) x/(x²+1)"
+      ],
+      "correct_option": "A",
+      "explanation": "Chain rule: dy/dx = (1/(x²+1))·2x = 2x/(x²+1)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q25",
+      "topic": "Maxima and Minima",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "easy",
+      "question": "For f(x) = x² - 4x + 5, the minimum value occurs at x = ?",
+      "options": [
+        "A) 4",
+        "B) 0",
+        "C) 2",
+        "D) -2"
+      ],
+      "correct_option": "C",
+      "explanation": "f'(x) = 2x - 4 = 0 gives x = 2. f''(x) = 2 > 0, so x=2 is a minimum."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q26",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "\\( Find the domain of the function: The domain of f(x) = \\sqrt{x - 2} is: \\)",
+      "options": [
+        "A) x ≥ 2",
+        "B) All real numbers",
+        "C) x ≥ 0",
+        "D) x > 2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( The domain is the set of all x-values for which the function is defined. For \\sqrt{x-2} to be real, x - 2 ≥ 0, so x ≥ 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q27",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "The general solution of dy/dx + y = 0 is:",
+      "options": [
+        "A) y = Ce^(-x)",
+        "B) y = Ceˣ",
+        "C) y = Cx",
+        "D) y = C/x"
+      ],
+      "correct_option": "A",
+      "explanation": "Separable: dy/y = -dx. ln|y| = -x + C. y = Ce^(-x)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q28",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "easy",
+      "question": "If a = 2i + 3j and b = i - j, then a·b equals:",
+      "options": [
+        "A) 1",
+        "B) 6",
+        "C) -1",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "Vectors have both magnitude and direction. a·b = (2)(1) + (3)(-1) = 2 - 3 = -1. Vector operations include addition, scalar multiplication, and products (dot and cross)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q29",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "A card is drawn from a deck of 52 cards. What is the probability of getting a heart?",
+      "options": [
+        "A) 1/52",
+        "B) 1/2",
+        "C) 1/4",
+        "D) 1/13"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( There are 13 hearts \\in 52 cards. P = \\frac{13}{52} = \\frac{1}{4}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q30",
+      "topic": "Linear Programming",
+      "sub_topic": "Introduction and related terminology",
+      "difficulty": "easy",
+      "question": "\\( The objective function \\in linear programming is: \\)",
+      "options": [
+        "A) Always quadratic",
+        "B) A constraint",
+        "C) A linear function to be optimized",
+        "D) Always constant"
+      ],
+      "correct_option": "C",
+      "explanation": "The objective function is a linear function that we aim to maximize or minimize."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q31",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "medium",
+      "question": "A ladder 10 m long slides down a wall. When the bottom is 6 m from the wall and moving at 0.5 m/s, how fast is the top sliding down?",
+      "options": [
+        "A) -0.25 m/s",
+        "B) -0.375 m/s",
+        "C) -0.75 m/s",
+        "D) -0.5 m/s"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let x be distance from wall, y be height on wall. x² + y² = 100. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=6, y=\\sqrt{100-36}=8. dy/dt = -x/y · (dx/dt) = -(\\frac{6}{8})(0.5) = -0.375 m/s. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q32",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the indefinite integral ∫ ẽx dx.",
+      "options": [
+        "A) x·e^x + C",
+        "B) ln x + C",
+        "C) e^x + C",
+        "D) e^(x+1)/(x+1) + C"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( The integral of ẽx is ẽx + C, since d/dx(ẽx) = ẽx. The exponential function is unique \\in being its own derivative and integral. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q33",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "\\( If A = \\left| \\1 \\right| and B = \\left| \\1 \\right|, what is the (1,1) entry of AB? \\)",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 3",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( AB = \\left| \\1 \\right| = \\left| \\1 \\right|. The (1,1) entry is 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q34",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "Find the probability: If P(A) = 0.3, then P(A') equals:",
+      "options": [
+        "A) 0.7",
+        "B) 1.3",
+        "C) 0.3",
+        "D) 0.5"
+      ],
+      "correct_option": "A",
+      "explanation": "We use the complement rule or other probability formulas. Probability theory quantifies uncertainty. P(A') = 1 - P(A) = 1 - 0.3 = 0.7. Key concepts include sample spaces, events, and probability distributions."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q35",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "easy",
+      "question": "\\( The \\sum of squares of direction cosines of a line is: \\)",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 0",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "If l, m, n are direction cosines, then l² + m² + n² = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q36",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: The value of ∫dx/√(x² + 4) is:",
+      "options": [
+        "A) ln|x + √(x²+4)| + C",
+        "B) (1/2)ln|x + √(x²+4)| + C",
+        "C) 2ln|x + √(x²+4)| + C",
+        "D) ln|√(x²+4)| + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Standard: ∫dx/√(x²+a²) = ln|x + √(x²+a²)| + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q37",
+      "topic": "Inverse of Matrix",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "\\( Find the inverse of the matrix: If A = \\left| \\1 \\right|, find A⁻¹. \\)",
+      "options": [
+        "A) |1 1; 1 2|",
+        "B) |2 -1; -1 1|",
+        "C) |-1 1; 1 -2|",
+        "D) |1 -1; -1 2|"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 2×1 - 1×1 = 1. Adjoint = \\left| \\1 \\right|. A⁻¹ = adj(A)/\\left| \\1 \\right| = \\left| \\1 \\right|. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q38",
+      "topic": "Maxima and Minima",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "medium",
+      "question": "Find the maximum value of f(x) = -x² + 6x - 5.",
+      "options": [
+        "A) 9",
+        "B) 6",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = -2x + 6 = 0 gives x = 3. f''(x) = -2 < 0 (maximum). f(3) = -9 + 18 - 5 = 4."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q39",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Evaluate the definite integral ∫₀¹ (x² + 1) dx.",
+      "options": [
+        "A) 7/2",
+        "B) 15/2",
+        "C) 15/4",
+        "D) 16/3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( ∫₀¹(x²+1)dx = [x³/3 + x]₀¹ = (\\frac{1}{3}+1) − (0+0) = \\frac{4}{3}. We find the antiderivative and apply the Fundamental Theorem of Calculus. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q40",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "Solve: dy/dx = y/x, y(1) = 2. Find y(2).",
+      "options": [
+        "A) 4",
+        "B) 2",
+        "C) 1",
+        "D) 8"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( dy/y = dx/x → \\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C → y = Cx. Using y(1)=2: 2 = C·1 → C=2. So y=2x, y(2)=4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q41",
+      "topic": "Probability",
+      "sub_topic": "Multiplication theorem on probability",
+      "difficulty": "medium",
+      "question": "A box contains 7 green and 3 yellow marbles. If two marbles are drawn at random with replacement, what is the probability that both are green?",
+      "options": [
+        "A) 49/100",
+        "B) 21/50",
+        "C) 9/25",
+        "D) 7/15"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( With replacement, P(both green) = (\\frac{7}{10}) × (\\frac{7}{10}) = \\frac{49}{100}. The draws are independent because the first marble is returned before the second draw. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q42",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "A factory produces two products A and B. Product A gives a profit of ₹30 per unit and B gives ₹40 per unit. A requires 2 hours of machining and B requires 3 hours. Total available machining time is 120 hours. What is the maximum profit?",
+      "options": [
+        "A) ₹1,600",
+        "B) ₹1,800",
+        "C) ₹2,000",
+        "D) ₹2,400"
+      ],
+      "correct_option": "B",
+      "explanation": "Maximize Z = 30x + 40y subject to 2x + 3y ≤ 120, x ≥ 0, y ≥ 0. Corner points: (0,0)→0, (60,0)→1800, (0,40)→1600. Maximum is ₹1,800 at (60,0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q43",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "Find the value: If a = i + j and b = i - k, find a × b.",
+      "options": [
+        "A) -i + j - k",
+        "B) i - j + k",
+        "C) -i - j + k",
+        "D) i + j - k"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = i(-1-0) - j(-1-0) + k(0-1) = -i + j - k. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q44",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "For what value of k is f(x) = {x² + k, x ≤ 1; 2x + 3, x > 1} continuous at x = 1?",
+      "options": [
+        "A) 5",
+        "B) 1",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( LHL = \\lim(x→1⁻) (x²+k) = 1+k. RHL = \\lim(x→1⁺) (2x+3) = 5. For continuity: 1+k = 5 → k = 4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q45",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Rate of change of quantities",
+      "difficulty": "medium",
+      "question": "The rate of change of area of a circle with respect to its radius when r = 3 cm is:",
+      "options": [
+        "A) 9π cm²/cm",
+        "B) 6π cm²/cm",
+        "C) 12π cm²/cm",
+        "D) 3π cm²/cm"
+      ],
+      "correct_option": "B",
+      "explanation": "A = πr², dA/dr = 2πr. At r=3: dA/dr = 6π cm²/cm."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q46",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "\\( Evaluate the definite integral of \\sin squared x from 0 to \\pi. \\)",
+      "options": [
+        "A) 2π",
+        "B) π/2",
+        "C) π/4",
+        "D) π"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using identity \\sin^{2}(x) = (1-\\cos(2x))/2: result = \\pi/2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q47",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "medium",
+      "question": "Find the direction ratios of the line joining (1, 2, 3) and (4, 6, 8).",
+      "options": [
+        "A) (4, 6, 8)",
+        "B) (5, 4, 3)",
+        "C) (1, 2, 3)",
+        "D) (3, 4, 5)"
+      ],
+      "correct_option": "D",
+      "explanation": "Direction ratios = (4-1, 6-2, 8-3) = (3, 4, 5)."
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q48",
+      "topic": "Matrices",
+      "sub_topic": "Solving system of linear equations",
+      "difficulty": "hard",
+      "question": "Using matrix method, solve: 2x + y = 5, x - y = 1. What is the value of x + y?",
+      "options": [
+        "A) 3",
+        "B) 4",
+        "C) 2",
+        "D) 5"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( In matrix form: \\left| \\1 \\right| \\left| \\1 \\right| = \\left| \\1 \\right|. \\left| \\1 \\right| = -2-1 = -3. A⁻¹ = (1/-3)\\left| \\1 \\right| = \\left| \\1 \\right|. \\left| \\1 \\right| = A⁻¹\\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right|. So x=2, y=1, x+y=3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q49",
+      "topic": "Integrals",
+      "sub_topic": "Area under simple curves",
+      "difficulty": "hard",
+      "question": "Find the area bounded by y = x², the x-axis, and the lines x = 1 and x = 2.",
+      "options": [
+        "A) 10/3",
+        "B) 7/3",
+        "C) 8/3",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Area = ∫₁² x² dx = [x³/3]₁² = (\\frac{8}{3} - \\frac{1}{3}) = \\frac{7}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P1_L1_Q50",
+      "topic": "Probability",
+      "sub_topic": "Random variable and its probability distribution",
+      "difficulty": "hard",
+      "question": "Two bags: Bag 1 has 3 white and 2 black balls; Bag 2 has 4 white and 3 black balls. A bag is chosen at random and a ball is drawn. If the ball is white, what is the probability it came from Bag 1?",
+      "options": [
+        "A) 3/7",
+        "B) 4/7",
+        "C) 21/41",
+        "D) 20/41"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(Bag1\\left| \\1 \\right|Bag1)·P(Bag1) / [P(White\\left| \\1 \\right|Bag2)·P(Bag2)] = (\\frac{3}{5} × \\frac{1}{2}) / [(\\frac{3}{5} × \\frac{1}{2}) + (\\frac{4}{7} × \\frac{1}{2})] = (\\frac{3}{10}) / (\\frac{3}{10} + \\frac{4}{14}) = (\\frac{3}{10}) / (\\frac{21}{70} + \\frac{20}{70}) = (\\frac{3}{10})/(\\frac{41}{70}) = \\frac{21}{41}. \\)"
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P8_L8",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 8,
+  "difficulty_level": "8",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Determinant of a square matrix",
+      "difficulty": "easy",
+      "question": "If A is a skew-symmetric matrix of odd order, then the determinant of A is:",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) Cannot be determined",
+        "D) -1"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( For a skew-symmetric matrix of odd order, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = (-1)^n\\left| \\1 \\right|. Since n is odd, \\left| \\1 \\right| = -\\left| \\1 \\right|, which implies \\left| \\1 \\right| = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q02",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "easy",
+      "question": "Compute the matrix product: If A = [2 1; 1 2], then A² equals:",
+      "options": [
+        "A) [5 4; 4 5]",
+        "B) [3 3; 3 3]",
+        "C) [4 1; 1 4]",
+        "D) [2 2; 2 2]"
+      ],
+      "correct_option": "A",
+      "explanation": "Matrix multiplication follows the row-by-column rule. A² = [2 1; 1 2] × [2 1; 1 2] = [2×2+1×1  2×1+1×2; 1×2+2×1  1×1+2×2] = [5 4; 4 5]."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q03",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "The value of lim(x→0) (eˣ - 1 - x)/x² is:",
+      "options": [
+        "A) 1/2",
+        "B) 1",
+        "C) 0",
+        "D) ∞"
+      ],
+      "correct_option": "A",
+      "explanation": "Using L'Hôpital's rule twice: lim = lim(eˣ/2) = 1/2."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q04",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "easy",
+      "question": "If a = 2i - j + 3k and b = i + 2j - k, then a·b equals:",
+      "options": [
+        "A) -1",
+        "B) 0",
+        "C) 3",
+        "D) -3"
+      ],
+      "correct_option": "D",
+      "explanation": "a·b = (2)(1) + (-1)(2) + (3)(-1) = 2 - 2 - 3 = -3."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q05",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "If P(A) = 0.4 and P(B) = 0.5, and A and B are mutually exclusive, then P(A∪B) is:",
+      "options": [
+        "A) 0.9",
+        "B) 0.7",
+        "C) 0.1",
+        "D) 0.2"
+      ],
+      "correct_option": "A",
+      "explanation": "For mutually exclusive events, P(A∪B) = P(A) + P(B) = 0.4 + 0.5 = 0.9."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q06",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "The number of relations from set A = {1, 2} to set B = {a, b, c} is:",
+      "options": [
+        "A) 64",
+        "B) 6",
+        "C) 8",
+        "D) 9"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( The number of relations from A to B is 2^(\\left| \\1 \\right|×\\left| \\1 \\right|) = 2^(2×3) = 2^6 = 64. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q07",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "easy",
+      "question": "If f(x) = x³ - 3x² + 2x, then f'(1) equals:",
+      "options": [
+        "A) -1",
+        "B) 2",
+        "C) 0",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "f'(x) = 3x² - 6x + 2. So f'(1) = 3 - 6 + 2 = -1."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q08",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "If A = {1, 2, 3} and B = {2, 3, 4}, then A ∩ B equals:",
+      "options": [
+        "A) φ",
+        "B) {2, 3}",
+        "C) {1, 2, 3, 4}",
+        "D) {1, 4}"
+      ],
+      "correct_option": "B",
+      "explanation": "The intersection of sets A and B consists of elements common to both sets. A = {1, 2, 3} and B = {2, 3, 4}, so A ∩ B = {2, 3}."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q09",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [1 2; 3 4] and B = [2 0; 1 3], then the (2,1) entry of AB is:",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 7",
+        "D) 6"
+      ],
+      "correct_option": "A",
+      "explanation": "AB = [1×2+2×1  1×0+2×3; 3×2+4×1  3×0+4×3] = [4 6; 10 12]. The (2,1) entry is 10."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q10",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "\\( Find the value: If \\left| \\1 \\right| = 5, then x equals: \\)",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 3",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\left| \\1 \\right| = 2×4 - 3×x = 8 - 3x = 5. So 3x = 3, giving x = 1. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q11",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: ∫dx/(x² - 4) equals:",
+      "options": [
+        "A) (1/4)ln|(x-2)/(x+2)| + C",
+        "B) (1/2)ln|(x-2)/(x+2)| + C",
+        "C) ln|(x-2)/(x+2)| + C",
+        "D) (1/4)ln|x²-4| + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Partial fractions: 1/(x²-4) = (1/4)[1/(x-2) - 1/(x+2)]. Integral = (1/4)ln|(x-2)/(x+2)| + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q12",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "For what value of a is the function f(x) = {ax + 1, x ≤ 2; x² + 3, x > 2} continuous at x = 2?",
+      "options": [
+        "A) 1",
+        "B) 4",
+        "C) 2",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( LHL = \\lim(x→2⁻) (ax+1) = 2a+1. RHL = \\lim(x→2⁺) (x²+3) = 7. For continuity: 2a+1 = 7, so a = 3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q13",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "Find the value: If y = e^{(x²)}, then dy/dx is:",
+      "options": [
+        "A) e^(x²)",
+        "B) 2x·e^(x²)",
+        "C) 2e^(x²)",
+        "D) x²·e^(x²)"
+      ],
+      "correct_option": "B",
+      "explanation": "Using the chain rule: dy/dx = e^{(x²)} · d/dx(x²) = e^{(x²)} · 2x = 2x·e^{(x²)}. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q14",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Evaluate the indefinite integral ∫ x/(x² + 1) dx.",
+      "options": [
+        "A) x²/(2(x²+1)) + C",
+        "B) (1/2)ln(x²+1) + C",
+        "C) ln(x²+1) + C",
+        "D) (1/2)x² + C"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let u = x²+1, then du = 2x dx, so x dx = du/2. Thus ∫x/(x²+1)dx = (\\frac{1}{2})∫du/u = (\\frac{1}{2})\\ln(x²+1) + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q15",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "The general solution of the differential equation dy/dx = e^x is:",
+      "options": [
+        "A) y = e^x + C",
+        "B) y = ln(e^x) + C",
+        "C) y = e^x + Cx",
+        "D) y = e^(x+1) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Integrating both sides: ∫dy = ∫e^x dx, which gives y = e^x + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q16",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "\\( If a = i + 2j - k and b = 2i - j + 3k, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 7",
+        "B) 5√2",
+        "C) √75",
+        "D) 5√3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = i(6-1) - j(3+2) + k(-1-4) = 5i - 5j - 5k. \\left| \\1 \\right| = \\sqrt{25+25+25} = \\sqrt{75} = 5\\sqrt{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q17",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "medium",
+      "question": "The angle between two lines with direction ratios (1, 0, 0) and (0, 1, 0) is:",
+      "options": [
+        "A) 45°",
+        "B) 0°",
+        "C) 60°",
+        "D) 90°"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\cos θ = (1)(0) + (0)(1) + (0)(0) / (\\sqrt{1} × \\sqrt{1}) = 0. So θ = 90^{\\circ}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q18",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "The minimum value of Z = 2x + 3y subject to x ≥ 0, y ≥ 0, x + y ≥ 2 is:",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 6",
+        "D) 2"
+      ],
+      "correct_option": "A",
+      "explanation": "Corner points of the feasible region: (2,0) gives Z = 4, (0,2) gives Z = 6. The minimum value is 4 at (2,0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q19",
+      "topic": "Probability",
+      "sub_topic": "Independent events",
+      "difficulty": "medium",
+      "question": "If A and B are independent events with P(A) = 0.3 and P(B) = 0.4, then P(A∩B) equals:",
+      "options": [
+        "A) 0.7",
+        "B) 0.58",
+        "C) 0.1",
+        "D) 0.12"
+      ],
+      "correct_option": "D",
+      "explanation": "For independent events, P(A∩B) = P(A) × P(B) = 0.3 × 0.4 = 0.12."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q20",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A is a square matrix such that A² = I, where I is the identity matrix, then which of the following must be true?",
+      "options": [
+        "A) A is invertible",
+        "B) A = -I",
+        "C) A = I",
+        "D) A is diagonal"
+      ],
+      "correct_option": "A",
+      "explanation": "From A² = I, we have A·A = I, which means A is its own inverse. Therefore, A is invertible. Note that A need not be I, -I, or diagonal (e.g., A = [0 1; 1 0] satisfies A² = I)."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q21",
+      "topic": "Determinants",
+      "sub_topic": "Applications of determinants in finding area of triangle",
+      "difficulty": "medium",
+      "question": "The area of the triangle with vertices (0, 0), (2, 3), and (4, 1) is:",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 7",
+        "D) 4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Area = (\\frac{1}{2})\\left| \\1 \\right| = (\\frac{1}{2})\\left| \\1 \\right| = (\\frac{1}{2})\\left| \\1 \\right| = (\\frac{1}{2})(10) = 5. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q22",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "medium",
+      "question": "\\( The value of \\cos⁻¹(-\\frac{1}{2}) + \\sin⁻¹(\\frac{1}{2}) is: \\)",
+      "options": [
+        "A) π/2",
+        "B) π/3",
+        "C) 5π/6",
+        "D) 2π/3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\cos⁻¹(-\\frac{1}{2}) = 2π/3 (since \\cos(2π/3) = -\\frac{1}{2}) and \\sin⁻¹(\\frac{1}{2}) = π/6. Sum = 2π/3 + π/6 = 4π/6 + π/6 = 5π/6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q23",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 3x² + 2 has critical points at:",
+      "options": [
+        "A) x = 0 only",
+        "B) x = 2 only",
+        "C) x = 0 and x = 3",
+        "D) x = 0 and x = 2"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 3x² - 6x = 3x(x - 2). Setting f'(x) = 0 gives x = 0 and x = 2 as critical points."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q24",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "medium",
+      "question": "The equation of the line passing through the points (1, 2) and (3, 4) is:",
+      "options": [
+        "A) y = 2x + 1",
+        "B) y = 2x",
+        "C) y = x + 1",
+        "D) y = x - 1"
+      ],
+      "correct_option": "C",
+      "explanation": "Slope m = (4-2)/(3-1) = 1. Using point-slope form: y - 2 = 1(x - 1), which simplifies to y = x + 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q25",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: The value of ∫dx/(x² - 1) is:",
+      "options": [
+        "A) (1/2)ln|(x-1)/(x+1)| + C",
+        "B) ln|(x-1)/(x+1)| + C",
+        "C) (1/2)ln|x²-1| + C",
+        "D) ln|x²-1| + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Partial fractions: 1/(x²-1) = (1/2)[1/(x-1) - 1/(x+1)]. Integral = (1/2)ln|(x-1)/(x+1)| + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q26",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "The solution of the differential equation dy/dx = 2x with y(0) = 1 is:",
+      "options": [
+        "A) y = 2x + 1",
+        "B) y = x²",
+        "C) y = x² + C",
+        "D) y = x² + 1"
+      ],
+      "correct_option": "D",
+      "explanation": "Integrating dy/dx = 2x gives y = x² + C. Using y(0) = 1: 1 = 0 + C, so C = 1. Thus y = x² + 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q27",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "If a = 2i + 3j and b = i - j, then a × b equals:",
+      "options": [
+        "A) 5k",
+        "B) -5i",
+        "C) 5i",
+        "D) -5k"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = i(3×0 - 0×(-1)) - j(2×0 - 0×1) + k(2×(-1) - 3×1) = i(0) - j(0) + k(-2 - 3) = -5k. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q28",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "medium",
+      "question": "The direction ratios of the line passing through (1, 2, 3) and (4, 6, 9) are:",
+      "options": [
+        "A) (3, 4, 6)",
+        "B) (1, 2, 3)",
+        "C) (4, 6, 9)",
+        "D) (5, 8, 12)"
+      ],
+      "correct_option": "A",
+      "explanation": "Direction ratios = (x₂−x₁, y₂−y₁, z₂−z₁) = (4−1, 6−2, 9−3) = (3, 4, 6)."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q29",
+      "topic": "Probability",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "medium",
+      "question": "In a binomial distribution with n = 5 and p = 0.4, P(X = 2) is:",
+      "options": [
+        "A) 0.2304",
+        "B) 0.4320",
+        "C) 0.3456",
+        "D) 0.2592"
+      ],
+      "correct_option": "C",
+      "explanation": "P(X=2) = C(5,2) × (0.4)² × (0.6)³ = 10 × 0.16 × 0.216 = 0.3456."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q30",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "Maximize Z = 5x + 3y subject to x ≥ 0, y ≥ 0, x + y ≤ 6, 2x + y ≤ 8. The maximum value is:",
+      "options": [
+        "A) 18",
+        "B) 22",
+        "C) 25",
+        "D) 20"
+      ],
+      "correct_option": "B",
+      "explanation": "Corner points: (0,0)→0, (4,0)→20, (0,6)→18. Intersection of x+y=6 and 2x+y=8 gives x=2, y=4. Z = 5(2)+3(4) = 22. Maximum = 22."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q31",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "hard",
+      "question": "Solve the given problem related to Matrices.",
+      "options": [
+        "A) 16/3",
+        "B) 24",
+        "C) 6",
+        "D) 8/3"
+      ],
+      "correct_option": "A",
+      "explanation": "We apply the standard concepts and formulas of Matrices to arrive at the correct answer."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q32",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "hard",
+      "question": "Evaluate the following integral: The value of ∫dx/(x² + 1) is:",
+      "options": [
+        "A) tan⁻¹(x) + C",
+        "B) (1/2)tan⁻¹(x) + C",
+        "C) 2tan⁻¹(x) + C",
+        "D) tan⁻¹(2x) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Standard: ∫dx/(x²+1) = tan⁻¹(x) + C. This result follows from the fundamental principles of Determinants. Understanding the underlying concept helps in applying it to similar problems."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q33",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "hard",
+      "question": "Find the value of the following trigonometric expression: If y = tan⁻¹(x), what is d²y/dx²?",
+      "options": [
+        "A) -2x/(1+x²)²",
+        "B) 2x/(1+x²)²",
+        "C) -1/(1+x²)²",
+        "D) 1/(1+x²)²"
+      ],
+      "correct_option": "A",
+      "explanation": "dy/dx = 1/(1+x²). d²y/dx² = -2x/(1+x²)²."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q34",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "hard",
+      "question": "\\( For the function f(x) = {\\sin(ax)/x, x ≠ 0; 2, x = 0} to be continuous at x = 0, the value of a must be: \\)",
+      "options": [
+        "A) 1/2",
+        "B) 2",
+        "C) 0",
+        "D) 1"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( For continuity at x=0: \\lim(x→0) \\sin(ax)/x = f(0) = 2. Since \\lim(x→0) \\sin(ax)/x = a, we get a = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q35",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "hard",
+      "question": "If x² + y² = 25, then dy/dx at the point (3, 4) is:",
+      "options": [
+        "A) 4/3",
+        "B) 3/4",
+        "C) -4/3",
+        "D) -3/4"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Differentiating implicitly: 2x + 2y(dy/dx) = 0, so dy/dx = -x/y. At (3,4): dy/dx = -\\frac{3}{4}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q36",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Find the value of the following trigonometric expression: If y = sin⁻¹(x), what is d²y/dx²?",
+      "options": [
+        "A) x/(1-x²)^(3/2)",
+        "B) 1/(1-x²)^(3/2)",
+        "C) -x/(1-x²)^(3/2)",
+        "D) -1/(1-x²)^(3/2)"
+      ],
+      "correct_option": "A",
+      "explanation": "dy/dx = 1/√(1-x²). d²y/dx² = x/(1-x²)^(3/2)."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q37",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "Solve dy/dx + y = e^x with y(0) = 1. The value of y(1) is:",
+      "options": [
+        "A) (e+1)/2",
+        "B) (e²-1)/(2e)",
+        "C) e/2 + 1",
+        "D) (e²+1)/(2e)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Integrating factor = e^x. Multiplying: d/dx(y·e^x) = e^{(2x)}. Integrating: y·e^x = e^{(2x)}/2 + C. Using y(0)=1: 1 = \\frac{1}{2} + C, so C = \\frac{1}{2}. Thus y = (e^x + e^{(-x)})/2 = \\cosh(x). y(1) = (e + 1/e)/2 = (e²+1)/(2e). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q38",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "hard",
+      "question": "If a, b, c are unit vectors such that a + b + c = 0, then the value of a·b + b·c + c·a is:",
+      "options": [
+        "A) -1/2",
+        "B) 0",
+        "C) -3/2",
+        "D) 1"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\left| \\1 \\right|² = 0 ⇒ \\left| \\1 \\right|²+\\left| \\1 \\right|²+\\left| \\1 \\right|² + 2(a·b+b·c+c·a) = 0 ⇒ 1+1+1 + 2(\\sum) = 0 ⇒ \\sum = -\\frac{3}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q39",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The shortest distance between the lines r = (1,0,0) + t(1,1,0) and r = (0,1,0) + s(1,0,1) is:",
+      "options": [
+        "A) 2",
+        "B) 1/√3",
+        "C) √3",
+        "D) 2/√3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( a₁=(1,0,0), b₁=(1,1,0), a₂=(0,1,0), b₂=(1,0,1). a₂-a₁=(-1,1,0). b₁×b₂ = \\left| \\1 \\right| = (1,-1,-1). \\left| \\1 \\right| = \\sqrt{3}. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(1)(-1)+(0)(-1) = -2. SD = \\left| \\1 \\right|/\\sqrt{3} = 2/\\sqrt{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q40",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "\\( A fair die is rolled 4 \\times. The probability of getting at least one 6 is: \\)",
+      "options": [
+        "A) 625/1296",
+        "B) 671/1296",
+        "C) 1/1296",
+        "D) 1/6"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( P(at least one 6) = 1 - P(no 6) = 1 - (\\frac{5}{6})⁴ = 1 - \\frac{625}{1296} = \\frac{671}{1296}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q41",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "hard",
+      "question": "Find the general formula for the matrix power: If A = [1 1; 0 1], then Aⁿ equals:",
+      "options": [
+        "A) [1 n²; 0 1]",
+        "B) [1 n; 0 1]",
+        "C) [1 1; 0 1] for all n",
+        "D) [n n; 0 n]"
+      ],
+      "correct_option": "B",
+      "explanation": "We find a pattern by computing A², A³, etc. and generalize. By computing powers: A² = [1 2; 0 1], A³ = [1 3; 0 1]. By induction, Aⁿ = [1 n; 0 1]."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q42",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "hard",
+      "question": "Find the derivative of the given function: If y = sec⁻¹(x), what is dy/dx?",
+      "options": [
+        "A) 1/(x√(x²-1))",
+        "B) 1/√(x²-1)",
+        "C) 1/(x√(x²+1))",
+        "D) 1/√(x²+1)"
+      ],
+      "correct_option": "A",
+      "explanation": "d/dx[sec⁻¹(x)] = 1/(x√(x²-1)). This result follows from the fundamental principles of Determinants. Understanding the underlying concept helps in applying it to similar problems."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q43",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "hard",
+      "question": "\\( If \\sin⁻¹(x) + \\sin⁻¹(y) = π/2, then x² + y² equals: \\)",
+      "options": [
+        "A) 0",
+        "B) 2",
+        "C) xy",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Let \\sin⁻¹(x) = A and \\sin⁻¹(y) = B. Then A + B = π/2, so B = π/2 - A. Thus y = \\sin(π/2 - A) = \\cos A = \\sqrt{1-x²}. Squaring: y² = 1 - x², so x² + y² = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q44",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "hard",
+      "question": "\\( The derivative of \\tan⁻¹(2x/(1-x²)) with respect to x is: \\)",
+      "options": [
+        "A) 1/(1-x²)",
+        "B) 2x/(1+x²)",
+        "C) 1/(1+x²)",
+        "D) 2/(1+x²)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Note that \\tan⁻¹(2x/(1-x²)) = 2tan⁻¹(x) for \\left| \\1 \\right| < 1. So d/dx[\\tan⁻¹(2x/(1-x²))] = 2/(1+x²). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q45",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and minima",
+      "difficulty": "hard",
+      "question": "\\( A wire of length 28 m is cut into two pieces. One piece is bent into a square and the other into a circle. The \\sum of the areas is minimum when the length used for the circle is: \\)",
+      "options": [
+        "A) 28/(4+π) m",
+        "B) 28/π m",
+        "C) 14 m",
+        "D) 28π/(4+π) m"
+      ],
+      "correct_option": "D",
+      "explanation": "Let length for circle = 2πr, so r = l/(2π). Length for square = 28-l, side = (28-l)/4. Area = πr² + [(28-l)/4]² = l²/(4π) + (28-l)²/16. dA/dl = l/(2π) - (28-l)/8 = 0. Solving: l = 28π/(4+π)."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q46",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Evaluate the following integral: The value of ∫₀^(π/2) sin⁴(x) dx is:",
+      "options": [
+        "A) 3π/16",
+        "B) π/4",
+        "C) π/8",
+        "D) 3π/8"
+      ],
+      "correct_option": "A",
+      "explanation": "Using reduction formula: ∫₀^(π/2) sin⁴(x)dx = (3/4)(1/2)(π/2) = 3π/16."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q47",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "The solution of the differential equation dy/dx = (x+y)/(x-y) is:",
+      "options": [
+        "A) y = x tan(ln|x| + C)",
+        "B) x² + y² = C",
+        "C) tan⁻¹(y/x) = ln√(x²+y²) + C",
+        "D) tan⁻¹(y/x) = ln|x| + C"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( This is homogeneous. Let y = vx, then dy/dx = v + x(dv/dx) = (1+v)/(1-v). Separating: (1-v)/(1+v²) dv = dx/x. Integrating: \\tan⁻¹(v) - (\\frac{1}{2})\\ln(1+v²) = \\ln\\left| \\1 \\right| + C. Substituting v = y/x: \\tan⁻¹(y/x) = \\ln\\sqrt{x²+y²} + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q48",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "hard",
+      "question": "If a·b = 0 and a·c = 0 for non-zero vectors a, b, c, then a is parallel to:",
+      "options": [
+        "A) b·c",
+        "B) b × c",
+        "C) b - c",
+        "D) b + c"
+      ],
+      "correct_option": "B",
+      "explanation": "Since a·b = 0 and a·c = 0, vector a is perpendicular to both b and c. Therefore, a is parallel to b × c (which is perpendicular to both b and c)."
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q49",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Distance of a point from a plane",
+      "difficulty": "hard",
+      "question": "The distance from the point (2, 3, 4) to the plane x + y + z = 1 is:",
+      "options": [
+        "A) 8/√3",
+        "B) 8√3",
+        "C) 8/3",
+        "D) √3/8"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Distance = \\left| \\1 \\right|/\\sqrt{a²+b²+c²} = \\left| \\1 \\right|/\\sqrt{3} = 8/\\sqrt{3} = 8√\\frac{3}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P8_L8_Q50",
+      "topic": "Probability",
+      "sub_topic": "Poisson distribution",
+      "difficulty": "hard",
+      "question": "In a Poisson distribution, if P(X = 1) = P(X = 2), then P(X = 4) is:",
+      "options": [
+        "A) e⁻²/3",
+        "B) 2e⁻²/3",
+        "C) 8e⁻²/3",
+        "D) 4e⁻²/3"
+      ],
+      "correct_option": "B",
+      "explanation": "P(X=1) = λe⁻λ, P(X=2) = λ²e⁻λ/2. Setting equal: λe⁻λ = λ²e⁻λ/2 ⇒ λ = 2. Then P(X=4) = e⁻² × 2⁴/4! = 16e⁻²/24 = 2e⁻²/3."
+    }
+  ]
+}

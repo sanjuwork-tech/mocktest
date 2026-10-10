@@ -29,7 +29,7 @@ export function SiteFooter() {
             ))}
           </div>
           <div>
-            <h2>TestDisha</h2>
+            <h2>OurMocks</h2>
             <Link href="/about">Our purpose</Link>
             <Link href="/about#information-policy">
               How we review information
@@ -41,7 +41,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} TestDisha</span>
+          <span>© {new Date().getFullYear()} OurMocks</span>
           <span>Independent guide · Not an exam conducting authority</span>
         </div>
       </div>

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P8",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 8,
+  "difficulty_level": "8",
+  "subject": "Biological Science",
+  "syllabus_source": "NCERT Class 12 Biology",
+  "notification_source": "CUET UG 2026 Biological Science",
+  "past_paper_reference": "CUET UG Biological Science 2023-2025",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Which hormonal surge directly triggers ovulation in the human menstrual cycle?",
+      "options": [
+        "A) Follicle-stimulating hormone (FSH)",
+        "B) Progesterone",
+        "C) Luteinizing hormone (LH)",
+        "D) Estrogen"
+      ],
+      "correct_option": "C",
+      "explanation": "The LH surge, stimulated by sustained high estrogen levels, triggers ovulation 24-36 hours later."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "The acrosome of a mature sperm cell contains which enzymes essential for fertilization?",
+      "options": [
+        "A) Hyaluronidase and acrosin",
+        "B) ATP synthase and cytochrome",
+        "C) Amylase and lipase",
+        "D) DNA polymerase and ligase"
+      ],
+      "correct_option": "A",
+      "explanation": "The acrosomal vesicle contains hyaluronidase (to disperse cumulus cells) and acrosin (to digest the zona pellucida)."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q03",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "During transcription, the template strand of DNA is read in which direction?",
+      "options": [
+        "A) Both directions simultaneously",
+        "B) 3' to 5'",
+        "C) Random direction",
+        "D) 5' to 3'"
+      ],
+      "correct_option": "B",
+      "explanation": "RNA polymerase reads the template strand 3'→5' to synthesize mRNA in the 5'→3' direction."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q04",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which type of immunity is present at birth and provides immediate, non-specific defense?",
+      "options": [
+        "A) Innate immunity",
+        "B) Adaptive immunity",
+        "C) Humoral immunity",
+        "D) Cell-mediated immunity"
+      ],
+      "correct_option": "A",
+      "explanation": "Innate immunity (physical barriers, phagocytes, complement) is present from birth and acts non-specifically against pathogens."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q05",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which enzyme cuts DNA at specific recognition sequences to produce sticky or blunt ends?",
+      "options": [
+        "A) DNA ligase",
+        "B) DNA polymerase",
+        "C) Restriction endonuclease",
+        "D) Reverse transcriptase"
+      ],
+      "correct_option": "C",
+      "explanation": "Restriction endonucleases recognize specific palindromic sequences and cut DNA at those sites."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q06",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "The interaction between clownfish and sea anemone, where the clownfish gains protection and the anemone is unaffected, is an example of:",
+      "options": [
+        "A) Commensalism",
+        "B) Mutualism",
+        "C) Competition",
+        "D) Parasitism"
+      ],
+      "correct_option": "A",
+      "explanation": "Commensalism benefits one species while neither benefiting nor harming the other. Clownfish gain protection; anemones are unaffected."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The pollen tube enters the ovule through which structure to deliver male gametes?",
+      "options": [
+        "A) Integuments",
+        "B) Chalaza",
+        "C) Micropyle",
+        "D) Funicle"
+      ],
+      "correct_option": "C",
+      "explanation": "The pollen tube grows through the micropyle (a small opening in the integuments) to reach the embryo sac for fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q08",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "A test cross is performed to determine the genotype of an organism showing a dominant phenotype by crossing it with:",
+      "options": [
+        "A) A homozygous recessive individual",
+        "B) A heterozygous individual",
+        "C) Any individual",
+        "D) A homozygous dominant individual"
+      ],
+      "correct_option": "A",
+      "explanation": "A test cross uses a homozygous recessive partner. If any offspring show the recessive trait, the dominant parent was heterozygous."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Leydig cells, which secrete testosterone, are located in which region of the testis?",
+      "options": [
+        "A) Rete testis",
+        "B) Seminiferous tubules",
+        "C) Interstitial tissue between tubules",
+        "D) Epididymis"
+      ],
+      "correct_option": "C",
+      "explanation": "Leydig (interstitial) cells lie in the connective tissue between seminiferous tubules and produce testosterone under LH stimulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Which sexually transmitted infection is caused by the protozoan Trichomonas vaginalis?",
+      "options": [
+        "A) Gonorrhea",
+        "B) Trichomoniasis",
+        "C) Chlamydia",
+        "D) Syphilis"
+      ],
+      "correct_option": "B",
+      "explanation": "Trichomoniasis is caused by the flagellated protozoan Trichomonas vaginalis, producing a frothy yellow vaginal discharge."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q11",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "Polyembryony in citrus (orange) typically arises from which cells?",
+      "options": [
+        "A) Nucellar cells",
+        "B) Antipodals",
+        "C) Synergids",
+        "D) Egg cell"
+      ],
+      "correct_option": "A",
+      "explanation": "In nucellar polyembryony, nucellar cells divide to produce multiple embryos alongside the zygotic embryo in citrus."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q12",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "The primitive streak, which establishes bilateral symmetry in the embryo, appears during which week?",
+      "options": [
+        "A) 4th week",
+        "B) 1st week",
+        "C) 2nd week",
+        "D) 3rd week"
+      ],
+      "correct_option": "D",
+      "explanation": "During the 3rd week (gastrulation), the primitive streak forms at the caudal end, establishing the body axes and initiating germ layer formation."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "In a dihybrid cross between two heterozygous parents (AaBb × AaBb), what fraction of offspring will show both recessive phenotypes?",
+      "options": [
+        "A) 1/4",
+        "B) 3/16",
+        "C) 9/16",
+        "D) 1/16"
+      ],
+      "correct_option": "D",
+      "explanation": "Both recessive phenotypes require the aabb genotype. Probability = 1/4 (aa) × 1/4 (bb) = 1/16."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "The lac operon in E. coli is induced when lactose binds to:",
+      "options": [
+        "A) The repressor protein",
+        "B) The operator region",
+        "C) RNA polymerase",
+        "D) CAP (catabolite activator protein)"
+      ],
+      "correct_option": "A",
+      "explanation": "Allolactose (an isomer of lactose) binds to the lac repressor, causing it to release from the operator, allowing transcription."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "A frameshift mutation results from which type of DNA alteration?",
+      "options": [
+        "A) Insertion or deletion of one or two nucleotides",
+        "B) Duplication of an entire gene",
+        "C) Inversion of a chromosome segment",
+        "D) Substitution of one nucleotide"
+      ],
+      "correct_option": "A",
+      "explanation": "Insertion/deletion of nucleotides not in multiples of three shifts the reading frame, altering all downstream codons."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "In eukaryotes, the process of removing introns and joining exons to form mature mRNA is called:",
+      "options": [
+        "A) Polyadenylation",
+        "B) Splicing",
+        "C) Capping",
+        "D) Editing"
+      ],
+      "correct_option": "B",
+      "explanation": "RNA splicing by the spliceosome removes introns and ligates exons to produce translatable mRNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Genetic drift has the most pronounced effect in which populations?",
+      "options": [
+        "A) Populations under strong selection",
+        "B) Large, randomly mating populations",
+        "C) Small, isolated populations",
+        "D) Populations with high gene flow"
+      ],
+      "correct_option": "C",
+      "explanation": "Genetic drift causes random fluctuations in allele frequencies, which are most significant in small populations where chance events have greater proportional impact."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "The Hardy-Weinberg equilibrium is disrupted by all of the following EXCEPT:",
+      "options": [
+        "A) Mutation",
+        "B) Natural selection",
+        "C) Random mating",
+        "D) Gene flow"
+      ],
+      "correct_option": "C",
+      "explanation": "Hardy-Weinberg equilibrium requires no mutation, random mating, no selection, no gene flow, and large population size. Random mating is a condition for equilibrium, not a disruptor."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Allopatric speciation is primarily driven by:",
+      "options": [
+        "A) Behavioral differences",
+        "B) Hybridization",
+        "C) Polyploidy",
+        "D) Geographic isolation"
+      ],
+      "correct_option": "D",
+      "explanation": "Allopatric speciation occurs when populations are physically separated by a geographic barrier, preventing gene flow and allowing divergence."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q20",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which immunoglobulin class is primarily involved in allergic (Type I hypersensitivity) reactions?",
+      "options": [
+        "A) IgA",
+        "B) IgM",
+        "C) IgE",
+        "D) IgG"
+      ],
+      "correct_option": "C",
+      "explanation": "IgE binds to mast cells and basophils. Upon antigen cross-linking, these cells degranulate, releasing histamine and causing allergic symptoms."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Oncogenes are derived from normal cellular genes called proto-oncogenes through:",
+      "options": [
+        "A) Deamination only",
+        "B) Telomere shortening",
+        "C) Mutation, amplification, or chromosomal translocation",
+        "D) Methylation alone"
+      ],
+      "correct_option": "C",
+      "explanation": "Proto-oncogenes become oncogenes through point mutations, gene amplification, or chromosomal translocations that increase their activity."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "The complement system, which enhances phagocytosis and lyses pathogens, is classified as part of:",
+      "options": [
+        "A) Innate immunity",
+        "B) Cell-mediated immunity",
+        "C) Humoral immunity",
+        "D) Adaptive immunity"
+      ],
+      "correct_option": "A",
+      "explanation": "The complement system is a group of plasma proteins that are part of innate immunity, providing non-specific defense through opsonization and lysis."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Which opportunistic infection is most commonly associated with advanced AIDS?",
+      "options": [
+        "A) Candidiasis of skin only",
+        "B) Pneumocystis jirovecii pneumonia",
+        "C) Tuberculosis (Mycobacterium tuberculosis only)",
+        "D) Streptococcal pneumonia"
+      ],
+      "correct_option": "B",
+      "explanation": "Pneumocystis jirovecii pneumonia (PCP) is a hallmark opportunistic infection in AIDS patients with CD4+ counts below 200 cells/μL."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Statins, which lower blood cholesterol levels, are commercially produced by which microorganism?",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Monascus purpureus",
+        "C) Pseudomonas putida",
+        "D) Aspergillus niger"
+      ],
+      "correct_option": "B",
+      "explanation": "Monascus purpureus produces compactin (lovastatin), an HMG-CoA reductase inhibitor used to reduce serum cholesterol."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "In embryo transfer technology, the embryo is typically transferred to the recipient's fallopian tube at which developmental stage?",
+      "options": [
+        "A) Zygote (1-cell)",
+        "B) Blastocyst",
+        "C) Gastrula",
+        "D) 8-16 cell morula"
+      ],
+      "correct_option": "D",
+      "explanation": "Embryo transfer (ZIFT) typically uses 8-16 cell stage embryos transferred to the fallopian tube, or blastocysts transferred to the uterus (ET)."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "The dwarfing trait in modern wheat varieties is associated with which genes that reduce sensitivity to gibberellin?",
+      "options": [
+        "A) CRY genes",
+        "B) Bt genes",
+        "C) HVA1 genes",
+        "D) Rht (Reduced height) genes"
+      ],
+      "correct_option": "D",
+      "explanation": "Rht (Reduced height) genes in wheat encode DELLA proteins that confer gibberellin insensitivity, producing shorter stems and higher yield."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q27",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Which cloning vector is capable of carrying DNA inserts up to 300 kb?",
+      "options": [
+        "A) Plasmid",
+        "B) Cosmid",
+        "C) Bacterial Artificial Chromosome (BAC)",
+        "D) Lambda phage"
+      ],
+      "correct_option": "C",
+      "explanation": "BACs (based on F-factor plasmids) can carry inserts up to 300 kb, making them valuable for genome sequencing projects."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q28",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "The first transgenic plant (1983) was developed in which crop species?",
+      "options": [
+        "A) Tobacco",
+        "B) Rice",
+        "C) Tomato",
+        "D) Cotton"
+      ],
+      "correct_option": "A",
+      "explanation": "The first transgenic plant was a antibiotic-resistant tobacco plant, created in 1983 using Agrobacterium-mediated transformation."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q29",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which type of virus is most commonly used as a gene delivery vector in current gene therapy protocols?",
+      "options": [
+        "A) Adeno-associated virus (AAV)",
+        "B) Retrovirus",
+        "C) Herpes simplex virus",
+        "D) Adenovirus"
+      ],
+      "correct_option": "A",
+      "explanation": "AAV vectors are widely used because they are non-pathogenic, have low immunogenicity, and can infect both dividing and non-dividing cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q30",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Which enzyme is used to join DNA fragments during recombinant DNA technology?",
+      "options": [
+        "A) Restriction enzyme",
+        "B) DNA polymerase",
+        "C) Reverse transcriptase",
+        "D) DNA ligase"
+      ],
+      "correct_option": "D",
+      "explanation": "DNA ligase joins DNA fragments by forming phosphodiester bonds between sticky or blunt ends."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q31",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "The intrinsic rate of natural increase (r) for a population is highest when:",
+      "options": [
+        "A) Carrying capacity is reached",
+        "B) Generation time is long and fecundity is low",
+        "C) Generation time is short and fecundity is high",
+        "D) Death rate exceeds birth rate"
+      ],
+      "correct_option": "C",
+      "explanation": "A short generation time and high fecundity allow rapid population growth, maximizing the intrinsic rate of increase (r)."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q32",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Lindeman's 10% law states that energy transfer between trophic levels is approximately:",
+      "options": [
+        "A) 50%",
+        "B) 1%",
+        "C) 90%",
+        "D) 10%"
+      ],
+      "correct_option": "D",
+      "explanation": "On average, only about 10% of energy is transferred to the next trophic level; the rest is lost as heat through metabolic activities."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q33",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "The IUCN Red List Categories and Criteria are used to assess:",
+      "options": [
+        "A) Genetic diversity within populations",
+        "B) Conservation status of species",
+        "C) Climate change impacts",
+        "D) Ecosystem productivity"
+      ],
+      "correct_option": "B",
+      "explanation": "The IUCN Red List assesses extinction risk of species using categories from Least Concern to Extinct, guiding conservation priorities."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q34",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Eutrophication in aquatic ecosystems is primarily caused by excess input of:",
+      "options": [
+        "A) Nitrogen and phosphorus",
+        "B) Heavy metals",
+        "C) Carbon dioxide",
+        "D) Sulfur dioxide"
+      ],
+      "correct_option": "A",
+      "explanation": "Excess nitrogen and phosphorus from agricultural runoff and sewage trigger algal blooms, leading to oxygen depletion upon decomposition."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q35",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "The enzyme nitrogenase, which catalyzes biological nitrogen fixation, is irreversibly inactivated by:",
+      "options": [
+        "A) Water",
+        "B) Nitrogen",
+        "C) Carbon dioxide",
+        "D) Oxygen"
+      ],
+      "correct_option": "D",
+      "explanation": "Nitrogenase is oxygen-sensitive. Diazotrophs protect it through heterocysts, high respiration rates, or binding proteins like leghemoglobin."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q36",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Biochemical Oxygen Demand (BOD) in a water sample measures:",
+      "options": [
+        "A) Oxygen produced by photosynthesis",
+        "B) Oxygen required by aerobic microbes to decompose organic matter",
+        "C) Chemical oxygen demand",
+        "D) Dissolved oxygen concentration"
+      ],
+      "correct_option": "B",
+      "explanation": "BOD measures the dissolved oxygen consumed by aerobic microorganisms while decomposing organic matter in water over 5 days at 20°C."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q37",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "The first pioneer species to colonize a bare rock surface during primary succession are typically:",
+      "options": [
+        "A) Grasses",
+        "B) Lichens",
+        "C) Mosses",
+        "D) Shrubs"
+      ],
+      "correct_option": "B",
+      "explanation": "Lichens are pioneer species on bare rock. They secrete acids to weather the rock, forming soil for subsequent colonization."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q38",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Which of the following best explains why global climate models predict greater warming at high latitudes than at the equator?",
+      "options": [
+        "A) Ice-albedo feedback amplifies warming in polar areas",
+        "B) Higher CO2 emissions in Arctic regions",
+        "C) Tropical forests absorb all greenhouse gases",
+        "D) Ocean currents only transport heat to the tropics"
+      ],
+      "correct_option": "A",
+      "explanation": "As ice and snow melt in polar regions, the exposed darker surfaces (land/water) absorb more solar radiation, creating a positive feedback loop that accelerates warming."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "In a continuous (chemostat) culture system, the dilution rate is defined as:",
+      "options": [
+        "A) Rate of product formation",
+        "B) Flow rate of medium divided by culture volume",
+        "C) Oxygen transfer rate",
+        "D) Rate of cell division"
+      ],
+      "correct_option": "B",
+      "explanation": "The dilution rate (D) = F/V, where F is the medium flow rate and V is the culture volume. It controls growth rate in a chemostat."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Golden Rice is genetically engineered to produce beta-carotene in the endosperm. Which gene is introduced?",
+      "options": [
+        "A) Bt toxin gene",
+        "B) Psy (Phytoene synthase) and CrtI (Phytoene desaturase)",
+        "C) Chitinase gene",
+        "D) EPSPS gene"
+      ],
+      "correct_option": "B",
+      "explanation": "Golden Rice introduces daffodil psy and bacterial crtI genes to enable beta-carotene biosynthesis in rice endosperm, addressing Vitamin A deficiency."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q41",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "During the menstrual cycle, the corpus luteum is rescued from luteolysis in pregnancy primarily by:",
+      "options": [
+        "A) Maternal LH surge",
+        "B) Human chorionic gonadotropin (hCG)",
+        "C) Progesterone negative feedback",
+        "D) Follicle-stimulating hormone"
+      ],
+      "correct_option": "B",
+      "explanation": "hCG from the developing blastocyst binds LH receptors on the corpus luteum, maintaining progesterone production until the placenta takes over."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q42",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "Endometriosis, a cause of infertility, is characterized by the growth of endometrial tissue:",
+      "options": [
+        "A) In the fallopian tube lumen",
+        "B) Within the myometrium",
+        "C) On the ovary surface only",
+        "D) Outside the uterine cavity"
+      ],
+      "correct_option": "D",
+      "explanation": "Endometriosis involves endometrial glands and stroma growing outside the uterus (commonly on ovaries, peritoneum), causing pain and infertility."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q43",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Polyembryony can arise from multiple embryonic sources. Which of the following is NOT a source of polyembryony in angiosperms?",
+      "options": [
+        "A) Tapetal cells",
+        "B) Nucellar cells",
+        "C) Synergids",
+        "D) Antipodals"
+      ],
+      "correct_option": "A",
+      "explanation": "Tapetal cells nourish pollen and do not produce embryos. Nucellar cells, synergids, and antipodals can all form additional embryos."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q44",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Spermiogenesis, the final phase of spermatogenesis, involves:",
+      "options": [
+        "A) Formation of spermatogonia from gonocytes",
+        "B) Release of sperm into the epididymis",
+        "C) Meiotic division of spermatocytes",
+        "D) Transformation of spermatids into mature spermatozoa"
+      ],
+      "correct_option": "D",
+      "explanation": "Spermiogenesis transforms round spermatids into elongated spermatozoa through acrosome formation, nuclear condensation, and flagellum development."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q45",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "In Drosophila, a cross between a carrier female (X^WX^w) and a white-eyed male (X^wY) produces what proportion of white-eyed female offspring?",
+      "options": [
+        "A) 0",
+        "B) 1/2",
+        "C) 1/4",
+        "D) 1/8"
+      ],
+      "correct_option": "C",
+      "explanation": "Cross: X^WX^w × X^wY yields females: 1/2 X^WX^w (red) + 1/2 X^wX^w (white). So 1/4 of total offspring are white-eyed females."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q46",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "A map distance of 1 centimorgan (cM) corresponds to what recombination frequency between two linked genes?",
+      "options": [
+        "A) 0.1%",
+        "B) 50%",
+        "C) 10%",
+        "D) 1%"
+      ],
+      "correct_option": "D",
+      "explanation": "One centimorgan equals 1% recombination frequency, the standard unit of genetic map distance reflecting crossover probability."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q47",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "In eukaryotes, the TATA box (Goldberg-Hogness box) is typically located at which position relative to the transcription start site?",
+      "options": [
+        "A) -70",
+        "B) +1",
+        "C) -10",
+        "D) -25 to -30"
+      ],
+      "correct_option": "D",
+      "explanation": "The TATA box is located at -25 to -30 in eukaryotic promoters, serving as the binding site for TBP (TATA-binding protein) and RNA polymerase II assembly."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q48",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "The wobble hypothesis explains how a single tRNA can recognize multiple codons. Where does wobble base pairing occur?",
+      "options": [
+        "A) Only at the start codon",
+        "B) Between codon third base and anticodon first base",
+        "C) Between codon first base and anticodon third base",
+        "D) Between codon second base and anticodon second base"
+      ],
+      "correct_option": "B",
+      "explanation": "Wobble pairing occurs at the third codon position and first anticodon position, allowing one tRNAs to recognize multiple codons differing at the third base."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q49",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Inbreeding in a population leads to which genetic consequence?",
+      "options": [
+        "A) Increase in mutation rate",
+        "B) Increase in homozygosity across the genome",
+        "C) Decrease in heterozygosity only",
+        "D) Decrease in allele frequencies"
+      ],
+      "correct_option": "B",
+      "explanation": "Inbreeding increases genome-wide homozygosity by promoting mating between related individuals, potentially exposing deleterious recessive alleles."
+    },
+    {
+      "id": "CUET_BIO_2026_P8_L8_Q50",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The molecular clock hypothesis is based on the principle that:",
+      "options": [
+        "A) All genes evolve at the same rate",
+        "B) Fossil records are always accurate",
+        "C) DNA mutation rates are constant over time and across lineages",
+        "D) Protein structure evolves randomly"
+      ],
+      "correct_option": "C",
+      "explanation": "The molecular clock assumes a relatively constant rate of nucleotide substitution over time, allowing estimation of divergence times between species."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P13_L3B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 13,
+  "difficulty_level": "3B",
+  "subject": "Biological Science (Code 304)",
+  "syllabus_source": "NCERT Class 12 Biology (Units VI-X)",
+  "notification_source": "CUET UG 2026 Information Bulletin",
+  "past_paper_reference": "CUET UG Biological Science 2023-2025",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "In a typical angiosperm embryo sac, how many antipodal cells are present at maturity?",
+      "options": [
+        "A) 2 diploid antipodal cells",
+        "B) 3 haploid antipodal cells",
+        "C) 1 large antipodal cell",
+        "D) 7 antipodal cells"
+      ],
+      "correct_option": "B",
+      "explanation": "The mature embryo sac has 3 antipodal cells at the chalazal end. They are haploid and nourish the embryo sac, though their exact role is debated."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The acrosome of mammalian sperm is derived from which organelle?",
+      "options": [
+        "A) Lysosome",
+        "B) Golgi apparatus",
+        "C) Endoplasmic reticulum",
+        "D) Mitochondria"
+      ],
+      "correct_option": "B",
+      "explanation": "The acrosome is a cap-like vesicle derived from the Golgi apparatus. It contains hydrolytic enzymes (hyaluronidase, acrosin) that penetrate the ovum during fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Fertilization in humans typically occurs in which region of the female reproductive tract?",
+      "options": [
+        "A) Uterine cavity",
+        "B) Cervix",
+        "C) Ampulla of the fallopian tube",
+        "D) Infundibulum"
+      ],
+      "correct_option": "C",
+      "explanation": "The ampulla-isthmus junction is the most common site of fertilization. The ovum is viable for ~24 hours and sperm reach the site within hours of coitus."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which contraceptive device releases copper ions to impair sperm motility and prevent implantation?",
+      "options": [
+        "A) Copper-T (IUCD)",
+        "B) Oral pills",
+        "C) Diaphragm",
+        "D) Condom"
+      ],
+      "correct_option": "A",
+      "explanation": "Copper-T releases Cu2+ ions that are toxic to sperm and also induce a sterile inflammatory response in the endometrium, preventing implantation. It is effective for 3-5 years."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "The pollen grain is shed at the two-celled stage in most angiosperms. Which two cells does it contain?",
+      "options": [
+        "A) Tube cell and sperm cell",
+        "B) Two male gametes",
+        "C) Egg cell and synergid",
+        "D) Vegetative cell and generative cell"
+      ],
+      "correct_option": "D",
+      "explanation": "The mature pollen grain consists of a large vegetative cell and a smaller generative cell. The generative cell divides (either before or after pollen tube formation) to form two male gametes."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "During parturition (childbirth), the release of oxytocin stimulates uterine contractions which cause more oxytocin release. This is an example of:",
+      "options": [
+        "A) Negative feedback mechanism",
+        "B) Neuroendocrine reflex only (no feedback)",
+        "C) Positive feedback mechanism",
+        "D) Homeostatic regulation"
+      ],
+      "correct_option": "C",
+      "explanation": "Oxytocin stimulates contractions, which push the baby against the cervix, sending more signals for oxytocin release. This positive feedback loop continues until delivery. It is a classic example of hormonal positive feedback."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Which technique involves fertilization outside the body and subsequent transfer of the zygote (up to 8-cell stage) into the fallopian tube?",
+      "options": [
+        "A) Intrauterine Insemination (IUI)",
+        "B) Zygote Intrafallopian Transfer (ZIFT)",
+        "C) Artificial insemination with donor sperm",
+        "D) Gamete Intrafallopian Transfer (GIFT)"
+      ],
+      "correct_option": "B",
+      "explanation": "ZIFT involves IVF followed by transfer of the zygote into the fallopian tube. GIFT transfers unfertilized gametes into the tube. IUI places sperm directly in the uterus. ZIFT differs from GIFT in that fertilization occurs in vitro."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "A secondary oocyte arrested at metaphase II will only complete meiosis II if:",
+      "options": [
+        "A) The sperm penetrates the oocyte during fertilization",
+        "B) The corpus luteum degenerates",
+        "C) Progesterone levels rise",
+        "D) The oocyte is exposed to FSH"
+      ],
+      "correct_option": "A",
+      "explanation": "The secondary oocyte is arrested at metaphase II until fertilization occurs. The Ca2+ oscillations triggered by sperm entry activate MPF inactivation, completing meiosis II and forming the second polar body. If unfertilized, it degenerates within 24 hours."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "In angiosperms, the endosperm is triploid because:",
+      "options": [
+        "A) The nucellar cells fuse to form triploid tissue",
+        "B) Two male gametes fuse with one polar nucleus",
+        "C) The zygote undergoes endomitosis to become triploid",
+        "D) One male gamete fuses with two polar nuclei (diploid secondary nucleus)"
+      ],
+      "correct_option": "D",
+      "explanation": "Double fertilization: one male gamete (n) + egg (n) = diploid zygote (2n); second male gamete (n) + two polar nuclei (n+n) = triploid endosperm (3n). The endosperm nourishes the developing embryo."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "In the testis, Sertoli cells play all of the following roles EXCEPT:",
+      "options": [
+        "A) Secretion of androgen-binding protein (ABP)",
+        "B) Direct secretion of testosterone",
+        "C) Nourishment of developing sperm cells",
+        "D) Formation of the blood-testis barrier"
+      ],
+      "correct_option": "B",
+      "explanation": "Sertoli cells secrete ABP, form the blood-testis barrier, provide nutrients, and secrete fluid for sperm transport. Testosterone is secreted by interstitial (Leydig) cells, not Sertoli cells. Sertoli cells contain androgen receptors but do not produce testosterone."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "In Mendel's dihybrid cross (RrYy x RrYy), what fraction of F2 progeny shows both recessive traits (rryy)?",
+      "options": [
+        "A) 9/16",
+        "B) 1/4",
+        "C) 1/16",
+        "D) 3/16"
+      ],
+      "correct_option": "C",
+      "explanation": "In a dihybrid cross, each recessive phenotype appears in 1/4 of progeny. Both recessives together: 1/4 x 1/4 = 1/16. The phenotypic ratio is 9:3:3:1."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Okazaki fragments are formed during DNA replication on which strand?",
+      "options": [
+        "A) Lagging strand",
+        "B) Leading strand",
+        "C) Parental template strand",
+        "D) Both strands equally"
+      ],
+      "correct_option": "A",
+      "explanation": "Okazaki fragments are short DNA segments synthesized discontinuously on the lagging strand because DNA polymerase can only synthesize 5' to 3'. The leading strand is continuous. DNA ligase joins Okazaki fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "The mRNA sequence transcribed from the DNA template strand 3'-TAC-5' would be:",
+      "options": [
+        "A) 5'-ATG-3'",
+        "B) 5'-TAC-3'",
+        "C) 3'-AUG-5'",
+        "D) 5'-AUG-3'"
+      ],
+      "correct_option": "D",
+      "explanation": "mRNA is complementary to the template strand and antiparallel. Template 3'-TAC-5' yields mRNA 5'-AUG-3'. AUG is the start codon coding for methionine."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Inheritance of ABO blood groups in humans is an example of:",
+      "options": [
+        "A) Sex-linked inheritance",
+        "B) Incomplete dominance only",
+        "C) Codominance and multiple alleles",
+        "D) Complete dominance of one allele"
+      ],
+      "correct_option": "C",
+      "explanation": "ABO blood groups involve three alleles (IA, IB, i). IA and IB are codominant with each other but dominant over i. This is a classic example of multiple alleles and codominance (type AB expresses both antigens)."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "The book 'On the Origin of Species' proposing natural selection was published by Charles Darwin in which year?",
+      "options": [
+        "A) 1859",
+        "B) 1809",
+        "C) 1871",
+        "D) 1866"
+      ],
+      "correct_option": "A",
+      "explanation": "Darwin published 'On the Origin of Species by Means of Natural Selection' in 1859. The first edition sold out on the day of publication."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "A man with blood group O (ii) and a woman with blood group AB (IAIB) have children. What blood groups are possible in their offspring?",
+      "options": [
+        "A) A and B only",
+        "B) A, B, and O",
+        "C) AB and O only",
+        "D) A, B, AB, and O"
+      ],
+      "correct_option": "A",
+      "explanation": "Man: ii (O) x Woman: IAIB (AB). Cross: i x IA gives IAi (A); i x IB gives IBi (B). Possible: A and B only. AB requires IA from both parents; O requires i from both — father gives i but mother cannot give i."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "In eukaryotes, the promoter sequence 'TATA box' (Goldberg-Hogness box) is recognized by which transcription factor?",
+      "options": [
+        "A) RNA polymerase I",
+        "B) Transcription factor IIH (TFIIH)",
+        "C) Sigma factor",
+        "D) TFIID (TATA-binding protein, TBP)"
+      ],
+      "correct_option": "D",
+      "explanation": "The TATA box is located ~25-30 bp upstream of the transcription start site. TBP (TATA-binding protein), a subunit of TFIID, binds the TATA box to initiate assembly of the transcription pre-initiation complex. Sigma factors are prokaryotic."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Darwin's finches on the Galapagos Islands evolved distinct beak shapes based on food availability. This phenomenon is best described as:",
+      "options": [
+        "A) Convergent evolution",
+        "B) Adaptive radiation",
+        "C) Sympatric speciation without ecological divergence",
+        "D) Genetic drift"
+      ],
+      "correct_option": "B",
+      "explanation": "Adaptive radiation occurs when a single ancestral species diversifies into multiple species adapted to different ecological niches. Darwin's finches exemplify this — one mainland species gave rise to ~14 species with specialized beak morphologies."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "A man is heterozygous for an autosomal dominant disorder with 80% penetrance. He marries an unaffected woman. What is the probability their first child will be affected?",
+      "options": [
+        "A) 50%",
+        "B) 40%",
+        "C) 25%",
+        "D) 80%"
+      ],
+      "correct_option": "B",
+      "explanation": "Man is Dd (affected, dominant) x dd (normal). Probability of inheriting D = 50%. But penetrance is 80%, so only 80% of Dd individuals express the phenotype. Final probability = 0.5 x 0.8 = 40%. Penetrance reduces the expected expression rate."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "A frameshift mutation (single nucleotide deletion) in a gene will most likely result in:",
+      "options": [
+        "A) A protein with one missing amino acid but otherwise normal",
+        "B) No change in protein due to wobble pairing",
+        "C) A protein with one amino acid substitution but normal length",
+        "D) A completely altered amino acid sequence downstream of the mutation, likely producing a truncated nonfunctional protein"
+      ],
+      "correct_option": "D",
+      "explanation": "Frameshift mutations shift the reading frame, changing every codon downstream. This produces a completely different amino acid sequence. It usually introduces a premature stop codon, producing a truncated, nonfunctional protein. Unlike point mutations (one amino acid substitution), frameshifts are far more disruptive."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which immunoglobulin class is the most abundant in serum and provides the majority of antibody-based immunity?",
+      "options": [
+        "A) IgM",
+        "B) IgA",
+        "C) IgG",
+        "D) IgE"
+      ],
+      "correct_option": "C",
+      "explanation": "IgG constitutes ~75-80% of total serum antibodies. It crosses the placenta (passive immunity to fetus), neutralizes toxins, and mediates opsonization. IgM is produced first in response to infection, IgA is in secretions, and IgE mediates allergic responses."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "DPT vaccine provides immunity against which three diseases?",
+      "options": [
+        "A) Diphtheria, Polio, and Tetanus",
+        "B) Diphtheria, Pertussis (whooping cough), and Tetanus",
+        "C) Diphtheria, Pneumonia, and Typhoid",
+        "D) Dengue, Pertussis, and Tetanus"
+      ],
+      "correct_option": "B",
+      "explanation": "DPT is a combined vaccine: D = Diphtheria toxoid, P = Pertussis (whole cell or acellular), T = Tetanus toxoid. It is part of the WHO's Expanded Programme on Immunization (EPI)."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Citric acid, widely used as a food preservative, is produced industrially by which fungus?",
+      "options": [
+        "A) Acetobacter aceti",
+        "B) Saccharomyces cerevisiae",
+        "C) Aspergillus niger",
+        "D) Penicillium notatum"
+      ],
+      "correct_option": "C",
+      "explanation": "Aspergillus niger is used for large-scale citric acid production via submerged fermentation. Penicillin is from Penicillium, ethanol from Saccharomyces, and acetic acid from Acetobacter."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which type of T cells are essential for activating B cells to produce antibodies and for activating cytotoxic T cells?",
+      "options": [
+        "A) Helper T cells (CD4+)",
+        "B) Regulatory T cells (Tregs)",
+        "C) Cytotoxic T cells (CD8+)",
+        "D) Memory T cells"
+      ],
+      "correct_option": "A",
+      "explanation": "Helper T cells (Th, CD4+) recognize antigens presented by MHC class II and secrete cytokines (IL-2, IL-4, IL-5) that activate B cells, cytotoxic T cells, and macrophages. They are central coordinators of adaptive immunity. HIV destroys CD4+ cells, crippling this response."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Statins used as blood-cholesterol-lowering drugs are metabolic products of which fungus?",
+      "options": [
+        "A) Saccharomyces boulardii",
+        "B) Penicillium chrysogenum",
+        "C) Aspergillus terreus",
+        "D) Monascus purpureus"
+      ],
+      "correct_option": "D",
+      "explanation": "Monascus purpureus (red yeast rice) produces lovastatin and related statins that inhibit HMG-CoA reductase. Statins are among the most prescribed cholesterol-lowering drugs worldwide."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which immunoglobulin can cross the placenta and provide passive immunity to the newborn?",
+      "options": [
+        "A) IgM",
+        "B) IgE",
+        "C) IgA",
+        "D) IgG"
+      ],
+      "correct_option": "D",
+      "explanation": "IgG is the only immunoglobulin class that crosses the placenta via FcRn receptors. Maternal IgG provides passive immunity to the infant for the first 6 months of life until the infant's own immune system matures."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Bacillus thuringiensis israelensis (Bti) is used as a biocontrol agent specifically targeting which pest?",
+      "options": [
+        "A) Lepidopteran caterpillars",
+        "B) Nematodes in soil",
+        "C) Mosquito larvae",
+        "D) Fungal pathogens of crops"
+      ],
+      "correct_option": "C",
+      "explanation": "Bti produces Cry and Cyt toxins (delta-endotoxins) that are highly toxic to mosquito and blackfly larvae. It is applied as biolarvicides in vector control programs. B.t. kurstaki targets lepidopteran caterpillars instead."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Antigen-antibody complex formation triggers complement activation through which pathway?",
+      "options": [
+        "A) Lectin pathway",
+        "B) Classical pathway",
+        "C) Membrane attack complex pathway only",
+        "D) Alternative pathway"
+      ],
+      "correct_option": "B",
+      "explanation": "The classical complement pathway is triggered by antigen-antibody complexes (IgG or IgM bound to antigen). C1q binds the Fc region of the bound antibody, initiating the cascade. The alternative pathway is antibody-independent."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "The bacterium Acetobacter aceti is industrially important for producing:",
+      "options": [
+        "A) Lactic acid",
+        "B) Propionic acid",
+        "C) Butyric acid",
+        "D) Vinegar (acetic acid)"
+      ],
+      "correct_option": "D",
+      "explanation": "Acetobacter aceti oxidizes ethanol to acetic acid. The trickling filter/generator method uses wood shavings inoculated with Acetobacter. Modern methods use submerged fermentation for large-scale vinegar production."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "The cancer immunotherapy drug ipilimumab (Yervoy) targets which immune checkpoint molecule?",
+      "options": [
+        "A) CTLA-4 (Cytotoxic T-Lymphocyte Associated Protein 4)",
+        "B) HER2 receptor",
+        "C) PD-1 (Programmed Death 1)",
+        "D) VEGF (Vascular Endothelial Growth Factor)"
+      ],
+      "correct_option": "A",
+      "explanation": "Ipilimumab is a monoclonal antibody that blocks CTLA-4, an inhibitory receptor on T cells. By blocking this checkpoint, it enhances T-cell activation against tumor cells. Anti-PD-1 drugs include pembrolizumab and nivolumab. Ipilimumab was the first checkpoint inhibitor approved (2011, for melanoma)."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Which enzyme joins DNA fragments with complementary sticky ends in recombinant DNA technology?",
+      "options": [
+        "A) DNA ligase",
+        "B) Reverse transcriptase",
+        "C) DNA polymerase",
+        "D) Restriction endonuclease"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA ligase catalyzes phosphodiester bond formation between adjacent 3'-OH and 5'-phosphate groups. It joins Okazaki fragments in replication and seals recombinant DNA molecules. T4 DNA ligase can join both sticky and blunt ends."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "The technique used to separate DNA fragments based on their size is:",
+      "options": [
+        "A) Western blotting",
+        "B) Agarose gel electrophoresis",
+        "C) Polyacrylamide gel electrophoresis for proteins only",
+        "D) ELISA"
+      ],
+      "correct_option": "B",
+      "explanation": "Agarose gel electrophoresis separates DNA fragments by size. DNA migrates toward the anode due to its negative charge. Ethidium bromide or SYBR Green staining visualizes the bands. Smaller fragments travel farther."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Transgenic animals are those that have:",
+      "options": [
+        "A) Only genes from the same species",
+        "B) Chloroplasts in their cells",
+        "C) Foreign DNA deliberately inserted into their genome",
+        "D) Mutations occurring naturally"
+      ],
+      "correct_option": "C",
+      "explanation": "Transgenic animals contain foreign/exogenous DNA stably integrated into their genome using recombinant DNA technology. Examples include mice with human genes (knock-in mice), goats producing human proteins in milk, and fluorescent fish."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "A restriction enzyme that cuts DNA at 5'-GAATTC-3' producing sticky ends is named:",
+      "options": [
+        "A) SalI",
+        "B) EcoRI",
+        "C) BamHI",
+        "D) HindIII"
+      ],
+      "correct_option": "B",
+      "explanation": "EcoRI (from Escherichia coli RY13) recognizes 5'-GAATTC-3' and cuts between G and A, producing 4-nucleotide sticky ends (5'-AATT overhangs). HindIII: AAGCTT; BamHI: GGATCC; SalI: GTCGAC."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which human protein produced by genetically engineered bacteria is used to dissolve blood clots in heart attack patients?",
+      "options": [
+        "A) Interferon",
+        "B) Insulin",
+        "C) Tissue Plasminogen Activator (tPA)",
+        "D) Growth hormone"
+      ],
+      "correct_option": "C",
+      "explanation": "Alteplase (recombinant tPA) is produced in E. coli using genetic engineering. It activates plasminogen to plasmin, dissolving fibrin clots. It is used in acute myocardial infarction and stroke. Insulin (humulin) was the first recombinant protein approved."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "During PCR, which step involves heating to ~94-95C to separate DNA strands?",
+      "options": [
+        "A) Denaturation",
+        "B) Annealing",
+        "C) Extension",
+        "D) Initialization"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR cycling: (1) Denaturation at 94-95C separates dsDNA into single strands; (2) Annealing at 50-65C allows primers to bind; (3) Extension at 72C (Taq polymerase optimum) synthesizes new strands. The cycle repeats 25-35 times."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Blue-white screening in cloning using pUC vectors relies on which phenomenon?",
+      "options": [
+        "A) Insertional inactivation of the lacZ (beta-galactosidase) gene",
+        "B) Phage plaque formation",
+        "C) GFP expression in recombinant colonies",
+        "D) Antibiotic resistance gene activation"
+      ],
+      "correct_option": "A",
+      "explanation": "pUC vectors carry the lacZ gene with a multiple cloning site within it. Insertion of foreign DNA disrupts lacZ. On X-gal medium, non-recombinant colonies are blue (intact lacZ produces beta-galactosidase), while recombinants remain white."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which genetically modified crop was developed to tolerate glyphosate (Roundup) herbicide?",
+      "options": [
+        "A) Bt cotton",
+        "B) Flavr Savr tomato",
+        "C) Roundup Ready soybeans (Glyphosate-tolerant)",
+        "D) Golden Rice"
+      ],
+      "correct_option": "C",
+      "explanation": "Roundup Ready crops contain the CP4 EPSPS gene from Agrobacterium that produces a glyphosate-insensitive enzyme. This allows farmers to spray glyphosate to kill weeds without harming the crop. Bt crops are insect-resistant."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "In transgenic animal production using microinjection, foreign DNA is injected into the male pronucleus rather than the female pronucleus because:",
+      "options": [
+        "A) Only the male pronucleus can integrate transgenes",
+        "B) The female pronucleus is not formed until after fertilization",
+        "C) The female pronucleus contains nucleases that degrade foreign DNA",
+        "D) The male pronucleus is larger and more accessible for microinjection"
+      ],
+      "correct_option": "D",
+      "explanation": "After fertilization, the sperm-derived nucleus forms the male pronucleus, which is larger and less granular than the female pronucleus. This size difference makes it easier to target with a microinjection needle. The transgene integrates during subsequent replication."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "The first restriction enzyme (HindII) was isolated from Haemophilus influenzae by which Nobel laureate?",
+      "options": [
+        "A) Daniel Nathans",
+        "B) Paul Berg",
+        "C) Werner Arber",
+        "D) Hamilton O. Smith"
+      ],
+      "correct_option": "D",
+      "explanation": "Hamilton O. Smith isolated the first type II restriction enzyme (HindII) in 1970. He shared the 1978 Nobel Prize with Werner Arber and Daniel Nathans for the discovery of restriction enzymes. Arber discovered restriction-modification; Smith isolated the first site-specific enzyme."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "Species exclusively found in a particular geographic region and nowhere else are called:",
+      "options": [
+        "A) Endemic species",
+        "B) Exotic species",
+        "C) Keystone species",
+        "D) Flagship species"
+      ],
+      "correct_option": "A",
+      "explanation": "Endemic species are restricted to a defined geographic region (e.g., islands, mountain ranges, lakes). Examples: Lemurs of Madagascar, kiwi birds of New Zealand. They are highly vulnerable to extinction because of their limited distribution."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Approximately what percentage of energy captured by producers is transferred to the next trophic level?",
+      "options": [
+        "A) 10%",
+        "B) 25%",
+        "C) 1%",
+        "D) 50%"
+      ],
+      "correct_option": "A",
+      "explanation": "Lindeman's 10% law states that only ~10% of energy transfers between trophic levels. The rest is lost as heat, used in respiration, or remains unconsumed. This limits food chain length to typically 4-5 levels."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "Which is an example of ex situ conservation?",
+      "options": [
+        "A) Biosphere reserve",
+        "B) National park",
+        "C) Wildlife sanctuary",
+        "D) Seed bank (gene bank)"
+      ],
+      "correct_option": "D",
+      "explanation": "Ex situ conservation protects species outside their natural habitat: zoos, botanical gardens, seed banks, cryopreservation, tissue culture. National parks, sanctuaries, and biosphere reserves are in situ (on-site) conservation."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Competition between individuals of the same species for limited resources is termed:",
+      "options": [
+        "A) Exploitative competition only",
+        "B) Intraspecific competition",
+        "C) Interspecific competition",
+        "D) Interference competition"
+      ],
+      "correct_option": "B",
+      "explanation": "Intraspecific competition occurs among members of the same species (e.g., tomato plants competing for light). Interspecific competition is between different species. Exploitative and interference are modes of competition, not levels."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Which biogeochemical cycle does NOT have an atmospheric (gaseous) phase?",
+      "options": [
+        "A) Water (hydrologic) cycle",
+        "B) Nitrogen cycle",
+        "C) Phosphorus cycle",
+        "D) Carbon cycle"
+      ],
+      "correct_option": "C",
+      "explanation": "Phosphorus cycles through rock weathering to soil to water to organisms, without an atmospheric gaseous phase. Carbon has CO2 and CH4, nitrogen has N2 and NOx, water has water vapour. This makes phosphorus cycling slower and more localized."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Gross primary productivity (GPP) minus autotroph respiration (R) yields:",
+      "options": [
+        "A) Net Ecosystem Productivity (NEP)",
+        "B) Net Primary Productivity (NPP)",
+        "C) Standing crop biomass",
+        "D) Secondary productivity"
+      ],
+      "correct_option": "B",
+      "explanation": "NPP = GPP - R. It represents energy available to consumers. GPP is total photosynthesis; autotrophs use some for their own respiration. NPP is what remains as new biomass and energy for the next trophic level. NEP further subtracts heterotrophic respiration."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "The Lotka-Volterra equations are mathematical models used to describe:",
+      "options": [
+        "A) Island biogeography",
+        "B) Competitive exclusion between species",
+        "C) Successional changes in communities",
+        "D) Predator-prey population dynamics"
+      ],
+      "correct_option": "D",
+      "explanation": "Lotka-Volterra predator-prey models describe oscillatory population dynamics where predator and prey populations cycle over time. When prey increase, predators follow; predators then reduce prey, and predator numbers decline."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "The 'Red List' classifying species into conservation categories (Critically Endangered, Endangered, Vulnerable) is published by:",
+      "options": [
+        "A) CITES (Convention on International Trade in Endangered Species)",
+        "B) WWF (World Wildlife Fund)",
+        "C) UNEP (United Nations Environment Programme)",
+        "D) IUCN (International Union for Conservation of Nature)"
+      ],
+      "correct_option": "D",
+      "explanation": "The IUCN Red List of Threatened Species is the most comprehensive global inventory of species conservation status. Categories range from Least Concern through Near Threatened, Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, to Extinct."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "In a food web, carnivores that feed on herbivores occupy which trophic level?",
+      "options": [
+        "A) Secondary consumers (third trophic level)",
+        "B) Primary consumers (second trophic level)",
+        "C) Producers (first trophic level)",
+        "D) Tertiary consumers (fourth trophic level)"
+      ],
+      "correct_option": "A",
+      "explanation": "Producers (T1) -> Herbivores/Primary Consumers (T2) -> Carnivores eating herbivores/Secondary Consumers (T3) -> Top carnivores/Tertiary Consumers (T4). Carnivores feeding on herbivores are secondary consumers at the third trophic level."
+    },
+    {
+      "id": "CUET_BIO_2026_P13_L3B_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "According to the competitive exclusion principle (Gause's law), two species with identical ecological niches:",
+      "options": [
+        "A) Will both go extinct due to overcompetition",
+        "B) Will spontaneously form a new species through hybridization",
+        "C) Cannot coexist indefinitely — one will be eliminated or forced to differentiate their niche",
+        "D) Will always coexist through mutualism"
+      ],
+      "correct_option": "C",
+      "explanation": "Gause's competitive exclusion principle states that two species with identical resource requirements cannot coexist permanently. One will outcompete the other, or natural selection will drive niche differentiation (character displacement) allowing coexistence through resource partitioning."
+    }
+  ]
+}

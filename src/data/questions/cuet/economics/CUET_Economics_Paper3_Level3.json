@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P3_L3",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 3,
+  "difficulty_level": "3",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Central Problems of an Economy",
+      "difficulty": "easy",
+      "question": "The central problem of 'how to produce' primarily deals with:",
+      "options": [
+        "A) The distribution of national product among households",
+        "B) The timing and schedule of factory production",
+        "C) The allocation of resources between consumer and capital goods",
+        "D) The choice between labor-intensive and capital-intensive techniques"
+      ],
+      "correct_option": "D",
+      "explanation": "'How to produce' concerns the selection of production technique (labor-intensive vs. capital-intensive) to combine inputs efficiently."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Utility Approach",
+      "difficulty": "easy",
+      "question": "According to the Law of Diminishing Marginal Utility, as consumption of a commodity increases continuously, marginal utility:",
+      "options": [
+        "A) Increases at a diminishing rate",
+        "B) Remains perfectly constant",
+        "C) Tends to decline",
+        "D) Initially falls and then rises sharply"
+      ],
+      "correct_option": "C",
+      "explanation": "The Law of Diminishing Marginal Utility states that successive units of a good yield progressively less additional satisfaction."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer Budget",
+      "difficulty": "easy",
+      "question": "The slope of the budget line measures:",
+      "options": [
+        "A) The ratio of the prices of the two goods (\\( -P_x / P_y \\))",
+        "B) The marginal rate of technical substitution",
+        "C) The total monetary expenditure of the household",
+        "D) The marginal utility of money"
+      ],
+      "correct_option": "A",
+      "explanation": "The slope of the budget line is given by the relative price ratio of the two commodities, \\( -P_x / P_y \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Demand Schedule and Curve",
+      "difficulty": "easy",
+      "question": "A rightward shift of the market demand curve can be caused by:",
+      "options": [
+        "A) An increase in the price of the commodity itself",
+        "B) An increase in the price of the commodity's inputs",
+        "C) A decrease in the number of consumers in the market",
+        "D) A decrease in the price of a complementary good"
+      ],
+      "correct_option": "D",
+      "explanation": "When the price of a complement falls, the demand for the given commodity increases, shifting its demand curve to the right."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "When the percentage change in quantity demanded is exactly equal to the percentage change in price, elasticity of demand is:",
+      "options": [
+        "A) Zero",
+        "B) Greater than one",
+        "C) Equal to one",
+        "D) Infinite"
+      ],
+      "correct_option": "C",
+      "explanation": "Unitary elastic demand occurs when \\( |E_d| = 1 \\), meaning percentage changes in price and quantity demanded are identical."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q06",
+      "topic": "Production and Costs",
+      "sub_topic": "Production Function",
+      "difficulty": "easy",
+      "question": "The Law of Variable Proportions operates in which time period?",
+      "options": [
+        "A) Short run, where at least one factor is fixed",
+        "B) Long run, where all factors are variable",
+        "C) Very long run, involving technological revolutions",
+        "D) Market period, where supply is perfectly inelastic"
+      ],
+      "correct_option": "A",
+      "explanation": "The Law of Variable Proportions analyzes output changes in the short run when variable inputs are added to fixed inputs."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q07",
+      "topic": "Production and Costs",
+      "sub_topic": "Cost Concepts",
+      "difficulty": "easy",
+      "question": "Total Fixed Cost (TFC) is represented graphically as:",
+      "options": [
+        "A) A U-shaped curve",
+        "B) A rectangular hyperbola",
+        "C) A horizontal straight line parallel to the output axis",
+        "D) An upward sloping straight line starting from the origin"
+      ],
+      "correct_option": "C",
+      "explanation": "TFC does not vary with output level in the short run, so it appears as a horizontal straight line parallel to the x-axis."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q08",
+      "topic": "Production and Costs",
+      "sub_topic": "Revenue Concepts",
+      "difficulty": "easy",
+      "question": "For a competitive firm that takes market price as given, Average Revenue (AR) is always:",
+      "options": [
+        "A) Greater than Marginal Revenue",
+        "B) Equal to Marginal Revenue and Price",
+        "C) Less than Marginal Revenue",
+        "D) Equal to Total Cost divided by Price"
+      ],
+      "correct_option": "B",
+      "explanation": "Under perfect competition, price is constant, so \\( \\text{AR} = \\text{MR} = P \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q09",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Features of Perfect Competition",
+      "difficulty": "easy",
+      "question": "Which of the following is a defining characteristic of a perfectly competitive industry?",
+      "options": [
+        "A) Heavy selling costs and persuasive advertising",
+        "B) Substantial product differentiation among producers",
+        "C) Large number of buyers and sellers trading a homogeneous product",
+        "D) Significant legal and technological barriers to entry"
+      ],
+      "correct_option": "C",
+      "explanation": "Perfect competition is characterized by numerous buyers and sellers, homogeneous products, free entry and exit, and perfect information."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q10",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "easy",
+      "question": "A situation where market supply exceeds market demand at a prevailing price is known as:",
+      "options": [
+        "A) Excess demand",
+        "B) Market equilibrium",
+        "C) Excess supply",
+        "D) Inelastic shortage"
+      ],
+      "correct_option": "C",
+      "explanation": "When quantity supplied is greater than quantity demanded at the existing market price, an excess supply (surplus) exists."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q11",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Price Ceiling",
+      "difficulty": "easy",
+      "question": "A price ceiling set below the equilibrium price is generally introduced to:",
+      "options": [
+        "A) Benefit producers by assuring higher farm profits",
+        "B) Encourage luxury imports from foreign markets",
+        "C) Eliminate black marketing and rationing queues",
+        "D) Protect consumers of essential commodities from high market prices"
+      ],
+      "correct_option": "D",
+      "explanation": "Governments impose price ceilings on essential commodities (e.g. foodgrains, medicines) to keep them affordable for low-income consumers."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q12",
+      "topic": "National Income Accounting",
+      "sub_topic": "Basic Concepts",
+      "difficulty": "easy",
+      "question": "Goods purchased for further processing or for resale in the same year are classified as:",
+      "options": [
+        "A) Final consumer goods",
+        "B) Capital goods",
+        "C) Intermediate goods",
+        "D) Durable consumer goods"
+      ],
+      "correct_option": "C",
+      "explanation": "Intermediate goods are those used up in production or purchased for resale within the accounting year."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q13",
+      "topic": "National Income Accounting",
+      "sub_topic": "Circular Flow of Income",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of an injection into the circular flow of income?",
+      "options": [
+        "A) Household savings",
+        "B) Import expenditure",
+        "C) Direct income taxes paid by citizens",
+        "D) Investment expenditure by business firms"
+      ],
+      "correct_option": "D",
+      "explanation": "Injections introduce additional spending into the circular flow; they comprise investment (I), government spending (G), and exports (X)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q14",
+      "topic": "National Income Accounting",
+      "sub_topic": "Methods of Calculating National Income",
+      "difficulty": "easy",
+      "question": "In the Income Method of calculating national income, 'Compensation of Employees' includes:",
+      "options": [
+        "A) Wages and salaries in cash and employers' contribution to social security",
+        "B) Old age pensions paid by government",
+        "C) Dividends received from foreign equity investments",
+        "D) Capital gains from stock market trading"
+      ],
+      "correct_option": "A",
+      "explanation": "Compensation of employees includes wages and salaries (in cash and kind) plus employers' contributions to social security schemes."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q15",
+      "topic": "Money and Banking",
+      "sub_topic": "Functions of Money",
+      "difficulty": "easy",
+      "question": "Money overcomes the primary drawback of the barter system, which was:",
+      "options": [
+        "A) High printing costs",
+        "B) Over-accumulation of paper claims",
+        "C) Presence of excessive commodity liquidity",
+        "D) Lack of double coincidence of wants"
+      ],
+      "correct_option": "D",
+      "explanation": "The barter system required a double coincidence of wants, which money eliminates by serving as a common medium of exchange."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q16",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Functions",
+      "difficulty": "easy",
+      "question": "The rate at which the Reserve Bank of India lends short-term funds to commercial banks against eligible collateral is called the:",
+      "options": [
+        "A) Reverse Repo Rate",
+        "B) Statutory Liquidity Ratio",
+        "C) Repo Rate",
+        "D) Cash Reserve Ratio"
+      ],
+      "correct_option": "C",
+      "explanation": "Repo rate is the policy rate at which the central bank lends funds to commercial banks against government securities."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q17",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Aggregate Demand and Components",
+      "difficulty": "easy",
+      "question": "The Marginal Propensity to Save (MPS) is defined as the:",
+      "options": [
+        "A) Ratio of total savings to total income (\\( S / Y \\))",
+        "B) Ratio of investment to total national saving",
+        "C) Sum of autonomous consumption and induced savings",
+        "D) Ratio of change in savings to change in income (\\( \\Delta S / \\Delta Y \\))"
+      ],
+      "correct_option": "D",
+      "explanation": "MPS measures the proportion of additional income that is saved, formulated as \\( \\text{MPS} = \\Delta S / \\Delta Y \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q18",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Classification of Receipts",
+      "difficulty": "easy",
+      "question": "Which of the following is a non-tax revenue receipt of the Central Government?",
+      "options": [
+        "A) Goods and Services Tax",
+        "B) Corporation Tax",
+        "C) Custom duties",
+        "D) Dividends and profits from public sector undertakings"
+      ],
+      "correct_option": "D",
+      "explanation": "Dividends and profits from public sector undertakings are non-tax revenue receipts; the others are direct or indirect taxes."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q19",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Measures of Deficit",
+      "difficulty": "easy",
+      "question": "Primary Deficit equals Fiscal Deficit minus:",
+      "options": [
+        "A) Subsidies",
+        "B) Interest payments",
+        "C) Revenue deficit",
+        "D) Disinvestment proceeds"
+      ],
+      "correct_option": "B",
+      "explanation": "Primary Deficit is computed as Fiscal Deficit minus Interest Payments on past government borrowings."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q20",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "easy",
+      "question": "The Balance of Trade (Trade Balance) measures the difference between:",
+      "options": [
+        "A) Export of goods and import of goods",
+        "B) Total foreign exchange inflows and outflows",
+        "C) Current account receipts and capital account payments",
+        "D) Export of services and import of services"
+      ],
+      "correct_option": "A",
+      "explanation": "Balance of Trade (merchandise trade balance) is strictly the export of visible goods minus the import of visible goods."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q21",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "State of Economy on Eve of Independence",
+      "difficulty": "easy",
+      "question": "Under British colonial rule, the stagnation in the Indian agricultural sector was caused predominantly by:",
+      "options": [
+        "A) Excessive introduction of modern drip irrigation",
+        "B) Ban on commercial crops like cotton and indigo",
+        "C) High public investment in fertilizer manufacturing plants",
+        "D) The exploitative zamindari revenue settlement system"
+      ],
+      "correct_option": "D",
+      "explanation": "The zamindari system extracted exorbitant rents from tillers without any agricultural reinvestment, leading to widespread agrarian stagnation."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q22",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Five Year Plans",
+      "difficulty": "easy",
+      "question": "The architect of India's Second Five-Year Plan, which emphasized rapid industrialization and heavy industries, was:",
+      "options": [
+        "A) P.C. Mahalanobis",
+        "B) V.K.R.V. Rao",
+        "C) Dadabhai Naoroji",
+        "D) Amartya Sen"
+      ],
+      "correct_option": "A",
+      "explanation": "Professor Prasanta Chandra Mahalanobis formulated the heavy-industry-focused development strategy for India's Second Five Year Plan (1956-61)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q23",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "LPG Policy",
+      "difficulty": "easy",
+      "question": "In the New Economic Policy of 1991, 'Disinvestment' refers to:",
+      "options": [
+        "A) Closing down non-banking financial corporations",
+        "B) Selling a portion of government equity in Public Sector Undertakings to private hands",
+        "C) Increasing subsidies provided to public heavy industries",
+        "D) Restricting private sector entry into infrastructure sectors"
+      ],
+      "correct_option": "B",
+      "explanation": "Disinvestment involves the privatization or offloading of government shareholding in Public Sector Undertakings (PSUs)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q24",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Rural Development",
+      "difficulty": "easy",
+      "question": "The apex institutional bank established in 1982 to coordinate the rural credit delivery system in India is:",
+      "options": [
+        "A) SIDBI",
+        "B) EXIM Bank",
+        "C) NABARD",
+        "D) State Bank of India"
+      ],
+      "correct_option": "C",
+      "explanation": "NABARD (National Bank for Agriculture and Rural Development) was established in July 1982 as the apex developmental finance institution for rural credit."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q25",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Comparative Development",
+      "difficulty": "easy",
+      "question": "China introduced the 'Great Leap Forward' (GLF) campaign in 1958 with the primary aim of:",
+      "options": [
+        "A) Privatizing rural agricultural banking completely",
+        "B) Initiating large-scale rapid industrialization across the country",
+        "C) Dismantling commune collectives in urban towns",
+        "D) Joining the World Trade Organization as an open market"
+      ],
+      "correct_option": "B",
+      "explanation": "Initiated in 1958, China's Great Leap Forward campaign aimed at industrializing the country on a massive scale, encouraging backyard furnaces."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q26",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer's Equilibrium",
+      "difficulty": "medium",
+      "question": "A consumer consumes two commodities, X and Y. If \\( \\frac{\\text{MU}_x}{P_x} > \\frac{\\text{MU}_y}{P_y} \\), to restore equilibrium the consumer should:",
+      "options": [
+        "A) Increase the consumption of good Y and decrease good X",
+        "B) Increase the consumption of good X and decrease good Y",
+        "C) Stop consuming both commodities immediately",
+        "D) Increase the price of good X"
+      ],
+      "correct_option": "B",
+      "explanation": "When marginal utility per rupee is higher for good X, consuming more X lowers \\( \\text{MU}_x \\) until \\( \\text{MU}_x / P_x = \\text{MU}_y / P_y \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q27",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "medium",
+      "question": "When the price of a good falls by 20%, the quantity demanded increases from 100 units to 130 units. The price elasticity of demand is:",
+      "options": [
+        "A) -0.65",
+        "B) -1.00",
+        "C) -1.50",
+        "D) -2.00"
+      ],
+      "correct_option": "C",
+      "explanation": "Percentage change in quantity demanded = \\( \\frac{130 - 100}{100} \\times 100 = 30\\% \\). Elasticity = \\( \\frac{30\\%}{-20\\%} = -1.50 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q28",
+      "topic": "Production and Costs",
+      "sub_topic": "Short-run Costs",
+      "difficulty": "medium",
+      "question": "As output increases, Average Fixed Cost (AFC):",
+      "options": [
+        "A) Falls continuously but never touches the horizontal axis",
+        "B) Initially falls, reaches a minimum, and then rises",
+        "C) Remains strictly unchanged at all output levels",
+        "D) Rises continuously because fixed costs become heavier"
+      ],
+      "correct_option": "A",
+      "explanation": "AFC = TFC / Q. Since TFC is a positive constant, AFC declines asymptotically towards both axes (a rectangular hyperbola) without touching zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q29",
+      "topic": "Production and Costs",
+      "sub_topic": "Producer's Equilibrium",
+      "difficulty": "medium",
+      "question": "Under the MR-MC approach, a producer reaches equilibrium when:",
+      "options": [
+        "A) MR = MC and MC is falling at that output level",
+        "B) Average Revenue is at its minimum point",
+        "C) Total Revenue equals Total Cost",
+        "D) MR = MC and MC cuts MR from below"
+      ],
+      "correct_option": "D",
+      "explanation": "Producer equilibrium requires \\( \\text{MR} = \\text{MC} \\), and MC must be rising (cutting MR from below) beyond that output."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q30",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Price Determination",
+      "difficulty": "medium",
+      "question": "In a perfectly competitive market, if market demand shifts to the right while market supply remains unchanged, the equilibrium price and quantity will:",
+      "options": [
+        "A) Price will rise, and quantity will rise",
+        "B) Price will fall, and quantity will rise",
+        "C) Price will rise, and quantity will fall",
+        "D) Both price and quantity will fall"
+      ],
+      "correct_option": "A",
+      "explanation": "A rightward shift in demand creates excess demand at the original price, bidding the equilibrium price up and expanding equilibrium quantity along the supply curve."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q31",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Price Floor",
+      "difficulty": "medium",
+      "question": "When the government establishes a Minimum Support Price (price floor) above the equilibrium price in an agricultural market:",
+      "options": [
+        "A) An acute shortage of crops develops in the market",
+        "B) A market surplus occurs, which the government typically purchases as buffer stock",
+        "C) Farmers reduce production because price is excessive",
+        "D) Consumers buy significantly more grain than before"
+      ],
+      "correct_option": "B",
+      "explanation": "A price floor above equilibrium causes quantity supplied to exceed quantity demanded, creating a surplus that the government purchases to protect farmer revenues."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q32",
+      "topic": "National Income Accounting",
+      "sub_topic": "Aggregates Calculation",
+      "difficulty": "medium",
+      "question": "If Gross Domestic Product at Market Price (\\( \\text{GDP}_{MP} \\)) is ₹10,000 crore, Net Factor Income from Abroad (NFIA) is ₹-200 crore, and Depreciation is ₹800 crore, what is Net National Product at Market Price (\\( \\text{NNP}_{MP} \\))?",
+      "options": [
+        "A) ₹9,000 crore",
+        "B) ₹9,400 crore",
+        "C) ₹10,600 crore",
+        "D) ₹11,000 crore"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\text{NNP}_{MP} = \\text{GDP}_{MP} - \\text{Depreciation} + \\text{NFIA} = 10000 - 800 + (-200) = 9000 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q33",
+      "topic": "National Income Accounting",
+      "sub_topic": "GDP and Welfare",
+      "difficulty": "medium",
+      "question": "Which of the following scenarios illustrates a negative externality that causes GDP to overestimate economic welfare?",
+      "options": [
+        "A) Household members cooking meals at home for family care",
+        "B) Chemical factories polluting nearby river water during industrial manufacturing",
+        "C) Voluntary tutoring given by college students to underprivileged children",
+        "D) An expansion of national park green cover funded by public grants"
+      ],
+      "correct_option": "B",
+      "explanation": "Industrial pollution harms public health and ecology without being accounted for as a deduction in GDP, making GDP an overstatement of actual social welfare."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q34",
+      "topic": "Money and Banking",
+      "sub_topic": "Credit Creation",
+      "difficulty": "medium",
+      "question": "If commercial banks receive primary deposits of ₹5,000 crore and the Legal Reserve Requirement (LRR) is 20%, the total volume of credit created by the banking system is:",
+      "options": [
+        "A) ₹15,000 crore",
+        "B) ₹20,000 crore",
+        "C) ₹25,000 crore",
+        "D) ₹30,000 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Total deposits = \\( \\text{Primary Deposit} \\times \\frac{1}{\\text{LRR}} = 5000 \\times 5 = ₹25,000 \\) crore. Total credit created = \\( 25000 - 5000 = ₹20,000 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q35",
+      "topic": "Money and Banking",
+      "sub_topic": "Monetary Policy Tools",
+      "difficulty": "medium",
+      "question": "To curb inflationary pressure in the economy, the Reserve Bank of India is likely to:",
+      "options": [
+        "A) Lower the Cash Reserve Ratio (CRR)",
+        "B) Purchase government bonds in the Open Market",
+        "C) Increase the Repo Rate",
+        "D) Decrease the Statutory Liquidity Ratio (SLR)"
+      ],
+      "correct_option": "C",
+      "explanation": "Raising the Repo Rate increases borrowing costs for commercial banks, discouraging credit expansion and helping to cool inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q36",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier Mechanism",
+      "difficulty": "medium",
+      "question": "If an increase in investment of ₹1,000 crore results in an increase in national income by ₹5,000 crore, the Marginal Propensity to Consume (MPC) is:",
+      "options": [
+        "A) 0.50",
+        "B) 0.75",
+        "C) 0.80",
+        "D) 0.90"
+      ],
+      "correct_option": "C",
+      "explanation": "Multiplier \\( K = \\Delta Y / \\Delta I = 5000 / 1000 = 5 \\). Since \\( K = \\frac{1}{1 - \\text{MPC}} \\), \\( 5 = \\frac{1}{1 - \\text{MPC}} \\implies 1 - \\text{MPC} = 0.20 \\implies \\text{MPC} = 0.80 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q37",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Excess and Deficient Demand",
+      "difficulty": "medium",
+      "question": "A situation of Deficient Demand leads to which of the following macroeconomic consequences?",
+      "options": [
+        "A) Wage-price inflationary spiral",
+        "B) Sharp depletion of commercial banking liquidity",
+        "C) Full employment output exceeding aggregate supply capacity",
+        "D) Involuntary unemployment and accumulation of unsold inventory"
+      ],
+      "correct_option": "D",
+      "explanation": "Deficient demand means aggregate demand is insufficient to absorb full-employment output, leading to involuntary unemployment and involuntary inventory buildup."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q38",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Capital Expenditure",
+      "difficulty": "medium",
+      "question": "Which of the following budget items is classified as a Capital Expenditure?",
+      "options": [
+        "A) Payment of monthly administrative salaries to government employees",
+        "B) Annual interest disbursements on domestic public debt",
+        "C) Financial grants given to states for drought relief",
+        "D) Repayment of loans borrowed from the World Bank"
+      ],
+      "correct_option": "D",
+      "explanation": "Loan repayments reduce government liabilities, fulfilling the definition of Capital Expenditure. The other items are Revenue Expenditures."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q39",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Foreign Exchange Rate Determination",
+      "difficulty": "medium",
+      "question": "Under a flexible exchange rate system, an increase in Indian imports from the United States will lead to:",
+      "options": [
+        "A) An increase in the demand for US dollars, depreciating the Indian Rupee",
+        "B) An increase in the supply of US dollars, appreciating the Indian Rupee",
+        "C) A decrease in the demand for US dollars, leaving the exchange rate unchanged",
+        "D) Direct administrative revaluation by the Reserve Bank of India"
+      ],
+      "correct_option": "A",
+      "explanation": "Importing more goods requires buying more foreign currency (US dollars), increasing dollar demand and causing the Rupee to depreciate."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q40",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Land Reforms",
+      "difficulty": "medium",
+      "question": "In post-independence Indian agriculture, 'Land Ceiling' legislation was designed to:",
+      "options": [
+        "A) Fix the minimum rental payment tenants owed landlords",
+        "B) Set the maximum limit on the size of agricultural landholding an individual/family could own",
+        "C) Mandate commercial crop production across certified acreage",
+        "D) Prevent the subdivision of inherited agricultural plots"
+      ],
+      "correct_option": "B",
+      "explanation": "Land ceiling laws specified the maximum amount of agricultural land that could be owned by an individual/family to reduce land concentration."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Trade Policy Reforms",
+      "difficulty": "medium",
+      "question": "Which of the following was a key element of the external sector reforms undertaken under the 1991 LPG policy?",
+      "options": [
+        "A) Imposition of quantitative quotas on consumer goods imports",
+        "B) Removal of licensing procedures on exports and abolition of quantitative import restrictions",
+        "C) Pegging the Indian Rupee permanently to the British Pound",
+        "D) Complete prohibition of foreign portfolio investment in Indian equities"
+      ],
+      "correct_option": "B",
+      "explanation": "The 1991 reforms removed export licensing, dismantled quantitative quotas, and drastically cut custom duties to integrate India with global trade."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q42",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Employment Trends",
+      "difficulty": "medium",
+      "question": "The trend whereby the percentage of casual wage laborers increases over time relative to regular salaried workers is known as:",
+      "options": [
+        "A) Formalization of workforce",
+        "B) Occupational diversification",
+        "C) Structural modernization",
+        "D) Casualization of workforce"
+      ],
+      "correct_option": "D",
+      "explanation": "Casualization of workforce describes the process in which the proportion of casually hired wage laborers expands across the economy."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q43",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Ordinal Utility Analysis",
+      "difficulty": "hard",
+      "question": "Consider the following statements regarding Indifference Curves:\n1. Two indifference curves can never intersect each other.\n2. A higher indifference curve represents a higher level of satisfaction due to monotonic preferences.\n3. The slope of an indifference curve represents the Marginal Rate of Technical Substitution.\n\nWhich of the statements given above are correct?",
+      "options": [
+        "A) 1 and 2 only",
+        "B) 2 and 3 only",
+        "C) 1 and 3 only",
+        "D) 1, 2, and 3"
+      ],
+      "correct_option": "A",
+      "explanation": "Statements 1 and 2 are true. Statement 3 is incorrect because the slope of an indifference curve is the Marginal Rate of Substitution (MRS), while MRTS applies to isoquants."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q44",
+      "topic": "Production and Costs",
+      "sub_topic": "Cost Relationships",
+      "difficulty": "hard",
+      "question": "Which of the following correctly describes the mathematical and geometric relationship between Marginal Cost (MC) and Average Variable Cost (AVC)?",
+      "options": [
+        "A) When AVC is rising, MC is strictly below AVC",
+        "B) MC cuts the AVC curve from above at its maximum point",
+        "C) When AVC is falling, MC lies below AVC; when AVC is rising, MC lies above AVC, intersecting AVC at its minimum point",
+        "D) MC and AVC curves are rectangular hyperbolas that never intersect"
+      ],
+      "correct_option": "C",
+      "explanation": "When AVC falls, MC < AVC; when AVC rises, MC > AVC. Consequently, the rising MC curve intersects AVC at its lowest point."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q45",
+      "topic": "National Income Accounting",
+      "sub_topic": "Real vs Nominal GDP",
+      "difficulty": "hard",
+      "question": "If Nominal GDP of a country in a given year is ₹6,600 crore and the GDP Deflator (price index) is 120, what is the Real GDP?",
+      "options": [
+        "A) ₹5,000 crore",
+        "B) ₹5,500 crore",
+        "C) ₹6,000 crore",
+        "D) ₹7,920 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\text{Real GDP} = \\frac{\\text{Nominal GDP}}{\\text{GDP Deflator}} \\times 100 = \\frac{6600}{120} \\times 100 = 5500 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q46",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Equilibrium in Two-Sector Model",
+      "difficulty": "hard",
+      "question": "In a two-sector economy, the consumption function is given as \\( C = 200 + 0.75Y \\) and autonomous investment is \\( I = ₹400 \\) crore. The equilibrium level of national income (\\( Y \\)) is:",
+      "options": [
+        "A) ₹1,800 crore",
+        "B) ₹2,000 crore",
+        "C) ₹2,400 crore",
+        "D) ₹2,800 crore"
+      ],
+      "correct_option": "C",
+      "explanation": "At equilibrium: \\( Y = C + I = 200 + 0.75Y + 400 \\implies Y - 0.75Y = 600 \\implies 0.25Y = 600 \\implies Y = ₹2,400 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q47",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Deficit Impact Analysis",
+      "difficulty": "hard",
+      "question": "A persistent and large Fiscal Deficit that is financed predominantly through central bank credit expansion (monetization of deficit) typically causes:",
+      "options": [
+        "A) Rapid deflation across durable consumer markets",
+        "B) Demand-pull inflation due to an excessive increase in the money supply",
+        "C) Appreciation of the domestic currency in foreign exchange markets",
+        "D) Elimination of foreign debt repayment obligations"
+      ],
+      "correct_option": "B",
+      "explanation": "Financing fiscal deficits by printing money increases reserve money and high-powered liquidity, fueling demand-pull inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q48",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Balance of Payments Accounting",
+      "difficulty": "hard",
+      "question": "Consider the following Balance of Payments items:\n1. Foreign Direct Investment (FDI) inflows\n2. Merchandise export proceeds\n3. External commercial borrowings\n4. Foreign aid and grants received\n\nWhich of these are recorded in the Capital Account of the Balance of Payments?",
+      "options": [
+        "A) 1 and 3 only",
+        "B) 2 and 4 only",
+        "C) 1, 2, and 3 only",
+        "D) 1, 3, and 4 only"
+      ],
+      "correct_option": "A",
+      "explanation": "FDI and external commercial borrowings involve cross-border asset/liability transactions, placing them in the Capital Account. Merchandise exports and unilateral grants belong to the Current Account."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q49",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Sustainable Development",
+      "difficulty": "hard",
+      "question": "The concept of 'Carrying Capacity' in environmental economics implies that:",
+      "options": [
+        "A) Resource extraction rate must not exceed the rate of resource regeneration, and waste generation must remain within the absorption capacity of the environment",
+        "B) Industrial production must always grow faster than agricultural yield",
+        "C) The human population should double every generation through planned demographic shifts",
+        "D) Exhaustible fossil fuels can be consumed at unrestricted rates if alternative imports exist"
+      ],
+      "correct_option": "A",
+      "explanation": "Carrying capacity requires that resource extraction stays within regeneration rates and waste generated remains within the assimilative capacity of the environment."
+    },
+    {
+      "id": "CUET_ECO_2026_P3_L3_Q50",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Comparative Development Indicators",
+      "difficulty": "hard",
+      "question": "When comparing human development and demographic indicators between India, China, and Pakistan, which of the following statements is historically accurate?",
+      "options": [
+        "A) Pakistan launched its structural economic reform program much later than India in 1998",
+        "B) China introduced economic reforms in 1978 and implemented the 'One Child Policy' in 1979, which sharply reduced its population growth rate",
+        "C) India has achieved a substantially higher Human Development Index (HDI) rank than China due to higher female labor force participation",
+        "D) Agriculture contributes more than 50% to China's Gross Domestic Product today"
+      ],
+      "correct_option": "B",
+      "explanation": "China launched economic reforms in 1978 and adopted the One-Child Policy in 1979, resulting in a dramatic deceleration in its fertility and population growth rate."
+    }
+  ]
+}

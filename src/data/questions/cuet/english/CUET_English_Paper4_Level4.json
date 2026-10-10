@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ENGLISH_PAPER_4_LEVEL_4",
+  "series_id": "CUET_ENGLISH_2026",
+  "paper_number": 4,
+  "difficulty_level": 4,
+  "subject": "English (Code: 101)",
+  "syllabus_source": "cuet english syllabus.pdf 2026",
+  "notification_source": "Information Bulletin.pdf 2026",
+  "past_paper_reference": "pastpaper-english-2024.pdf, pastpaper-english-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": "+5",
+    "incorrect": "-1",
+    "unattempted": "0"
+  },
+  "questions": [
+    {
+      "id": "ENG_4_1",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nThe Western Ghats, a UNESCO World Heritage Site, stretch along India's western coast for about 1,600 kilometres. They are older than the Himalayas and influence the Indian monsoon pattern by intercepting rain-bearing winds. The region is one of the world's eight 'hottest hotspots' of biological diversity, containing nearly 30% of India's species. Over 5,000 flowering plants, 139 mammals, 508 birds, and 179 amphibian species are found here. However, mining, deforestation, and unsustainable agriculture threaten this fragile ecosystem.\n\nWhat role do the Western Ghats play in India's climate?",
+      "options": [
+        "A) They generate cyclones in the Arabian Sea",
+        "B) They create a rain-shadow effect across the entire Deccan plateau",
+        "C) They block cold winds from the Himalayas",
+        "D) They intercept rain-bearing winds and influence the monsoon"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage states the Western Ghats 'influence the Indian monsoon pattern by intercepting rain-bearing winds.'"
+    },
+    {
+      "id": "ENG_4_2",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nThe Green Revolution in India, which began in the mid-1960s, transformed the country from a food-deficient nation into one of the world's leading agricultural producers. Spearheaded by M.S. Swaminathan and supported by the Indian government, it introduced high-yielding varieties of wheat and rice, expanded irrigation, and promoted chemical fertilisers. Punjab, Haryana, and western Uttar Pradesh were the primary beneficiaries. While food grain production soared, critics point to soil degradation, water-table depletion, and growing inequality between large and small farmers as lasting consequences.\n\nWhich crops were primarily associated with India's Green Revolution?",
+      "options": [
+        "A) Tea and coffee",
+        "B) Cotton and jute",
+        "C) Pulses and oilseeds",
+        "D) Wheat and rice"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage explicitly mentions 'high-yielding varieties of wheat and rice' as central to the Green Revolution."
+    },
+    {
+      "id": "ENG_4_3",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nThe Reserve Bank of India (RBI) was established in 1935 under the Reserve Bank of India Act, 1934. It was nationalised in 1949 and serves as India's central bank. The RBI manages the country's currency and credit system, formulates monetary policy, regulates banks, and acts as the government's banker. Its primary objective is to maintain price stability while keeping in mind the goal of growth. The Monetary Policy Committee (MPC), constituted in 2016, decides the benchmark repo rate.\n\nWhen was the Reserve Bank of India nationalised?",
+      "options": [
+        "A) 1935",
+        "B) 1947",
+        "C) 1951",
+        "D) 1949"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage clearly states that the RBI 'was nationalised in 1949.'"
+    },
+    {
+      "id": "ENG_4_4",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nIndia's Chandrayaan-3 mission, launched in July 2023, achieved a historic soft landing near the lunar south pole, making India the fourth country to land on the Moon and the first to reach the south polar region. The lander Vikram and rover Pragyan conducted in-situ experiments for one lunar day (approximately 14 Earth days), analysing soil composition and searching for water ice. The mission cost approximately Rs. 615 crore, significantly less than comparable missions by other space agencies. ISRO's frugal engineering approach drew global admiration, though critics questioned whether cost-cutting compromised scientific ambition.\n\nWhat can be inferred about ISRO's approach from the passage?",
+      "options": [
+        "A) ISRO's missions are less scientifically valuable than those of other agencies",
+        "B) ISRO achieves significant milestones with relatively modest budgets",
+        "C) ISRO deliberately avoids ambitious targets to keep costs low",
+        "D) ISRO prioritises cost-efficiency over all scientific objectives"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage highlights that Chandrayaan-3 cost 'significantly less than comparable missions' and that 'frugal engineering drew global admiration,' implying ISRO achieves much with modest budgets."
+    },
+    {
+      "id": "ENG_4_5",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nThe Goods and Services Tax (GST), implemented on 1 July 2017, replaced multiple indirect taxes levied by the central and state governments. It unified India into a single market, eliminating the cascading effect of 'tax on tax.' GST operates under a dual model - CGST and SGST for intra-state supplies, and IGST for inter-state supplies. Despite its promise of simplification, the initial rollout faced criticism for technical glitches in the GSTN portal, frequent rate revisions, and compliance burdens on small businesses. Over time, the Council has rationalised rates and eased compliance for smaller taxpayers.\n\nWhich of the following best describes the 'cascading effect' that GST eliminated?",
+      "options": [
+        "A) Multiple states competing to offer lower tax rates to attract investment",
+        "B) The progressive increase in tax rates for higher income groups",
+        "C) Tax evasion by businesses across state borders",
+        "D) The compounding of taxes where tax was levied on already-taxed inputs"
+      ],
+      "correct_option": "D",
+      "explanation": "The cascading effect refers to 'tax on tax' - where tax is levied on inputs that already include tax, compounding the burden. GST eliminated this by allowing input tax credit."
+    },
+    {
+      "id": "ENG_4_6",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nThe Indian Space Research Organisation (ISRO) operates multiple launch vehicles, each designed for specific payload capacities. The Polar Satellite Launch Vehicle (PSLV) has been the workhorse of ISRO, launching numerous Indian and foreign satellites. The Geosynchronous Satellite Launch Vehicle (GSLV) carries heavier payloads to geostationary orbits using a cryogenic upper stage. Most recently, the Launch Vehicle Mark-3 (LVM3), formerly GSLV Mk-III, successfully launched Chandrayaan-2 and Chandrayaan-3. ISRO is also developing a reusable launch vehicle (RLV) to reduce access-to-space costs.\n\nBased on the passage, which statement is correct?",
+      "options": [
+        "A) GSLV uses a cryogenic upper stage for heavier payloads",
+        "B) LVM3 was the first launch vehicle developed by ISRO",
+        "C) The reusable launch vehicle is already operational",
+        "D) PSLV is used exclusively for lunar missions"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states GSLV 'carries heavier payloads to geostationary orbits using a cryogenic upper stage.'"
+    },
+    {
+      "id": "ENG_4_7",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question:\n\nThe National Education Policy (NEP) 2020 proposes a paradigm shift from a 10+2 to a 5+3+3+4 curricular structure, aligning with the cognitive developmental stages of children. It emphasises foundational literacy and numeracy by Grade 3, introduces vocational education from Class 6 with internships, and advocates multilingualism with the three-language formula. The policy envisions a 4-year multidisciplinary undergraduate degree with multiple exit options and a credit bank system. Critics argue that implementation challenges - inadequate teacher training, digital divide, and federal tensions over language policy - may undermine its transformative ambitions.\n\nWhich of the following captures the central tension in the NEP 2020 as presented in the passage?",
+      "options": [
+        "A) The gap between the policy's transformative vision and ground-level implementation challenges",
+        "B) The conflict between vocational training and academic education",
+        "C) The disagreement between the central government and private schools over fee regulation",
+        "D) The tension between English-medium instruction and mother-tongue education"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage contrasts the policy's 'paradigm shift' and 'transformative ambitions' with 'implementation challenges' that 'may undermine' it, capturing this central tension."
+    },
+    {
+      "id": "ENG_4_8",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question:\n\nIndia's Aadhaar project, the world's largest biometric identity system, enrolled over 1.3 billion residents using fingerprints, iris scans, and photographs. Proponents argue it has reduced leakages in welfare delivery, enabled financial inclusion through Jan Dhan-Aadhaar-Mobile (JAM) trinity, and streamlined KYC processes. However, privacy advocates and the Supreme Court have grappled with concerns about surveillance, data breaches, and exclusion errors - where genuine beneficiaries are denied rations or pensions due to authentication failures. The Court upheld Aadhaar's constitutional validity in 2018 but struck down provisions linking it to bank accounts and mobile phones, balancing welfare efficiency against privacy rights.\n\nWhat does the Aadhaar judgment of 2018 reveal about the Supreme Court's approach?",
+      "options": [
+        "A) The Court adopted a balanced approach, upholding Aadhaar while limiting its scope",
+        "B) The Court rejected Aadhaar entirely as unconstitutional",
+        "C) The Court prioritised welfare delivery over all privacy concerns",
+        "D) The Court deferred entirely to the executive on matters of technology policy"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states the Court 'upheld Aadhaar's constitutional validity' but 'struck down provisions linking it to bank accounts and mobile phones,' demonstrating a balanced approach."
+    },
+    {
+      "id": "ENG_4_9",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nMeera had always been afraid of heights. When her college friends planned a trek to a hill station, she almost backed out. But something pushed her to go. Halfway up the trail, she froze at a narrow ridge with a steep drop on one side. Her friends cheered her on, but their voices seemed distant. She closed her eyes, took a deep breath, and focused on the sound of her own heartbeat. One step. Then another. When she finally crossed the ridge, tears streamed down her face - not of fear, but of a strange, overwhelming joy she had never known before.\n\nWhat did Meera experience after crossing the ridge?",
+      "options": [
+        "A) She felt embarrassed in front of her friends",
+        "B) She decided never to trek again",
+        "C) She felt a deep sense of joy and accomplishment",
+        "D) She collapsed from exhaustion"
+      ],
+      "correct_option": "C",
+      "explanation": "The passage describes her tears as 'not of fear, but of a strange, overwhelming joy,' indicating a sense of accomplishment."
+    },
+    {
+      "id": "ENG_4_10",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nOld Man Kavi had lived alone in the village since his wife passed away ten years ago. Every morning he walked to the tea stall, ordered one cup, and sat on the same bench watching children walk to school. The stall owner, Raju, noticed that Kavi never paid - but also never asked for credit. One winter morning, Kavi didn't come. Raju asked around and learned Kavi had been hospitalised. That evening, Raju visited the hospital with a thermos of tea. Kavi smiled and said, 'You didn't have to come.' Raju replied, 'You didn't have to drink my tea for ten years, but you did.'\n\nWhat does Raju's response suggest about their relationship?",
+      "options": [
+        "A) Kavi had secretly paid Raju's family in the past",
+        "B) Raju felt obligated because Kavi was a regular customer",
+        "C) Raju was keeping a mental ledger of Kavi's unpaid bills",
+        "D) Their bond went beyond transactional exchange"
+      ],
+      "correct_option": "D",
+      "explanation": "Raju's reply implies that their relationship was built on mutual, unspoken care rather than money - Kavi chose Raju's stall daily, and Raju cared for Kavi without expecting payment."
+    },
+    {
+      "id": "ENG_4_11",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nThe letter arrived on a Tuesday, its envelope yellowed and the postmark smudged. Ananya turned it over twice before opening it. Inside was a single sheet in handwriting she hadn't seen in twenty years - her grandmother's. 'My dear child,' it began, 'I wrote this the week you were born, hoping you would read it when you were old enough to understand.' Ananya's hands trembled. Her grandmother had passed away when she was fifteen. Someone had kept this letter safe for two decades and now, somehow, it had found its way to her.\n\nWhy were Ananya's hands trembling?",
+      "options": [
+        "A) She was frightened by the unfamiliar handwriting",
+        "B) She was cold because it was winter",
+        "C) She was overwhelmed by the emotional weight of receiving her grandmother's letter",
+        "D) She was angry at the delayed delivery"
+      ],
+      "correct_option": "C",
+      "explanation": "The emotional impact of receiving a letter written by her deceased grandmother, preserved for 20 years, caused her trembling."
+    },
+    {
+      "id": "ENG_4_12",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nProfessor Iyer was known for his eccentric grading system. While other professors awarded marks for correct answers, he gave the highest scores to students who asked the best questions. 'A good question,' he would say, 'is worth more than a hundred correct answers, because it means you are thinking beyond what you have been told.' His students were baffled at first, but over the semester, they began to see the world differently. They stopped memorising and started interrogating. Years later, at a reunion, one student admitted, 'I never topped your class, Professor, but you taught me the only thing that matters - how to think.'\n\nWhat philosophy of education did Professor Iyer follow?",
+      "options": [
+        "A) Rote memorisation is the foundation of learning",
+        "B) Only naturally gifted students deserve high scores",
+        "C) Grades should be abolished entirely",
+        "D) Critical thinking and inquiry matter more than reproducing answers"
+      ],
+      "correct_option": "D",
+      "explanation": "Iyer valued 'the best questions' over 'correct answers' and believed a good question means 'you are thinking beyond what you have been told,' reflecting a philosophy prioritising critical thinking."
+    },
+    {
+      "id": "ENG_4_13",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nRavi had spent fifteen years building his textile business from a single loom to a factory employing fifty workers. When the pandemic struck, orders vanished overnight. His accountant advised him to cut losses and shut down. Instead, Ravi converted part of his factory to produce masks and PPE kits. His workers, fearing for their livelihoods, stayed on at reduced wages. Two years later, when the textile market recovered, Ravi's factory was one of the few that survived. At the reopening ceremony, a worker said, 'You saved us,' but Ravi shook his head. 'You stayed when you could have left. That saved us both.'\n\nWhat does the ending of the passage suggest?",
+      "options": [
+        "A) The survival of the business was a result of mutual loyalty between Ravi and his workers",
+        "B) Ravi planned to sell the factory after recovery",
+        "C) The workers regretted staying for reduced wages",
+        "D) Ravi was being modest and the credit was entirely his"
+      ],
+      "correct_option": "A",
+      "explanation": "Ravi's response 'That saved us both' acknowledges that the workers' loyalty and his own decisions were interdependent in saving the business."
+    },
+    {
+      "id": "ENG_4_14",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nLata had been a librarian for thirty years, and she knew every book in her library the way a mother knows her children. When the district administration announced that her library would be digitised and her services no longer required, she smiled politely and went home. The next morning, she returned - not to protest, but to begin cataloguing her personal collection of 2,000 books for the neighbourhood children who had no access to the new digital library. 'Screens can give you information,' she told them, 'but a book gives you a world. Come, let me show you how to enter it.'\n\nHow did Lata respond to losing her job?",
+      "options": [
+        "A) She retired and stopped working with books entirely",
+        "B) She learned digital skills and applied for a new position",
+        "C) She accepted the decision but continued serving readers through her personal collection",
+        "D) She filed a legal case against the administration"
+      ],
+      "correct_option": "C",
+      "explanation": "Lata 'smiled politely' at the decision and began cataloguing her personal collection for neighbourhood children, showing she continued her mission independently."
+    },
+    {
+      "id": "ENG_4_15",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question:\n\nThe old clock tower had stopped working in 1987, the year the town's only factory closed. For thirty years it stood frozen at 3:17, a silent monument to better times. When the municipality announced plans to demolish it for a shopping complex, the town divided. The younger generation saw progress; the elders saw erasure. Amid the debate, a retired engineer named Murthy quietly began repairing the tower in secret, working at night with salvaged parts. When the clock chimed again on the first morning of the new year, the town gathered in silence. No one had asked Murthy to do it, and no one could quite explain why it mattered so much. But as the chimes echoed, something shifted - not in the tower, but in the town itself.\n\nWhat does the clock tower symbolise in the passage?",
+      "options": [
+        "A) Technological obsolescence in small towns",
+        "B) The town's collective memory and identity",
+        "C) The failure of municipal governance",
+        "D) Generational conflict over urbanisation"
+      ],
+      "correct_option": "B",
+      "explanation": "The tower is described as 'a silent monument to better times,' and its restoration causes 'something shifted' in the town, symbolising shared memory and identity rather than mere infrastructure."
+    },
+    {
+      "id": "ENG_4_16",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the passage and answer the question:\n\nWhen Kavita's novel was rejected for the eighth time, she did what she always did - she went back to the page. Her mother called it stubbornness; her friends called it delusion. But Kavita understood something they didn't: each rejection had taught her something the acceptance letters never could. The first taught her about pacing. The third about voice. The fifth about the courage to cut what you love. By the eighth, she had stopped writing for publishers and started writing for the girl she had been at sixteen, the one who had needed a story like this to exist. When the ninth publisher accepted it, Kavita barely reacted. The book had already done its real work - on her.\n\nWhat transformation does Kavita undergo in the passage?",
+      "options": [
+        "A) She becomes commercially successful but artistically compromised",
+        "B) She shifts from seeking external validation to writing for intrinsic fulfilment",
+        "C) She abandons writing after repeated failures",
+        "D) She learns to write according to market trends"
+      ],
+      "correct_option": "B",
+      "explanation": "Kavita 'stopped writing for publishers and started writing for the girl she had been at sixteen,' showing a shift from external validation to intrinsic purpose."
+    },
+    {
+      "id": "ENG_4_17",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "easy",
+      "question": "Read the poem and answer the question:\n\nThe river knows something we have forgotten -\nHow to move without hurry,\nHow to carve mountains with patience,\nHow to reach the sea without losing itself.\nIt does not ask the stone to move;\nIt simply goes around.\nIt does not fight the darkness of the deep;\nIt carries the light of the stars on its surface.\n\nWhat quality of the river is the poet highlighting?",
+      "options": [
+        "A) Its tendency to flood",
+        "B) Its patient persistence",
+        "C) Its destructive power",
+        "D) Its dependence on the moon"
+      ],
+      "correct_option": "B",
+      "explanation": "The poet praises the river's patience ('carve mountains with patience') and gentle persistence ('simply goes around')."
+    },
+    {
+      "id": "ENG_4_18",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nThe banyan tree stood at the edge of the village like a wise old guardian, its aerial roots descending to the earth like the threads of time itself. Children played in its shade, lovers carved promises into its bark, and travellers rested beneath its canopy. It had witnessed a century of monsoons and droughts, of births and deaths, of empires rising and falling beyond the horizon. Yet it remained - silent, steadfast, offering shelter without asking anything in return.\n\nWhich literary device is predominantly used in this passage?",
+      "options": [
+        "A) Hyperbole",
+        "B) Irony",
+        "C) Personification",
+        "D) Satire"
+      ],
+      "correct_option": "C",
+      "explanation": "The banyan tree is described with human qualities - 'wise old guardian,' 'witnessed,' 'silent, steadfast, offering shelter' - which is personification."
+    },
+    {
+      "id": "ENG_4_19",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the passage and answer the question:\n\nThere is a garden in her face,\nWhere roses and white lilies grow;\nA heavenly paradise is that place,\nWherein all pleasant fruits do flow.\nThere cherries grow which none may buy,\nTill 'Cherry ripe' themselves do cry.\n\n- Robert Herrick (adapted)\n\nWhat does the metaphor 'a garden in her face' convey about the subject?",
+      "options": [
+        "A) She is a skilled gardener",
+        "B) Her face is marked by blemishes",
+        "C) She lives in the countryside",
+        "D) Her beauty is natural, pure, and abundant"
+      ],
+      "correct_option": "D",
+      "explanation": "The garden metaphor - with roses, lilies, paradise, and cherries - conveys natural, abundant, and pure beauty, comparing her face to a heavenly, flourishing garden."
+    },
+    {
+      "id": "ENG_4_20",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following poem carefully and answer the question that follows:\n\nThe fog comes\non little cat feet.\nIt sits looking\nover harbour and city\non silent haunches\nand then moves on.\n\n— Carl Sandburg, 'Fog' (1916)\n\nHow does Sandburg's personification of fog affect the reader's perception?",
+      "options": [
+        "A) It makes the fog seem threatening and dangerous",
+        "B) It suggests the fog is a sign of pollution",
+        "C) It implies the fog has a predatory nature",
+        "D) It transforms a weather phenomenon into something gentle, quiet, and transient"
+      ],
+      "correct_option": "D",
+      "explanation": "By comparing fog to a cat - 'little cat feet,' 'silent haunches,' 'moves on' - Sandburg makes it seem gentle, quiet, and fleeting rather than ominous."
+    },
+    {
+      "id": "ENG_4_21",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "easy",
+      "question": "Read the poem and answer the question:\n\nI have eaten the plums\nthat were in the icebox\n\nand which you were probably\nsaving for breakfast\n\nForgive me\nthey were delicious\nso sweet\nand so cold\n\n- William Carlos Williams, 'This Is Just to Say'\n\nWhat is the speaker's attitude in this poem?",
+      "options": [
+        "A) Sadness and regret",
+        "B) Mild apology with clear enjoyment of the plums",
+        "C) Anger and defiance",
+        "D) Deep remorse and guilt"
+      ],
+      "correct_option": "B",
+      "explanation": "The speaker says 'Forgive me' but immediately follows with 'they were delicious / so sweet / and so cold,' showing mild apology mixed with genuine enjoyment."
+    },
+    {
+      "id": "ENG_4_22",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "easy",
+      "question": "Read the passage and answer the question:\n\nThe house was quiet and the world was calm.\nThe reader became the book; and the night\nWas luminous to his sense of sight.\nHis mind was almost imperceptibly drawn\nInto a dream, and he seemed to drown\nIn the warm comfort of the printed word.\n\n- Wallace Stevens (adapted)\n\nWhat does the phrase 'the reader became the book' suggest about the reading experience?",
+      "options": [
+        "A) The reader was physically holding the book",
+        "B) The reader fell asleep while reading",
+        "C) The reader was writing in the book",
+        "D) The reader was completely absorbed in the text"
+      ],
+      "correct_option": "D",
+      "explanation": "The phrase suggests complete absorption - the reader is so immersed in the text that the distinction between reader and book dissolves."
+    },
+    {
+      "id": "ENG_4_23",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the poem and answer the question:\n\nTwo roads diverged in a yellow wood,\nAnd sorry I could not travel both\nAnd be one traveler, long I stood\nAnd looked down one as far as I could\nTo where it bent in the undergrowth;\n\nThen took the other, as just as fair,\nAnd having perhaps the better claim,\nBecause it was grassy and wanted wear;\n\n- Robert Frost, 'The Road Not Taken' (opening)\n\nWhat is the deeper significance of the 'road' in this poem?",
+      "options": [
+        "A) A metaphor for life choices and their consequences",
+        "B) A literal hiking trail in a forest",
+        "C) A symbol of the poet's love for nature",
+        "D) A criticism of poor road infrastructure"
+      ],
+      "correct_option": "A",
+      "explanation": "The diverging roads serve as an extended metaphor for life decisions - the poet cannot take both paths, just as one cannot pursue all life choices simultaneously."
+    },
+    {
+      "id": "ENG_4_24",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the poem and answer the question:\n\nBecause I could not stop for Death -\nHe kindly stopped for me -\nThe Carriage held but just Ourselves -\nAnd Immortality.\n\nWe slowly drove - He knew no haste,\nAnd I had put away\nMy labour and my leisure too,\nFor His Civility -\n\n- Emily Dickinson\n\nWhat is the effect of Death being portrayed as a gentleman caller?",
+      "options": [
+        "A) It trivialises the concept of mortality",
+        "B) It suggests the speaker is in love with death",
+        "C) It makes death seem romantic and desirable",
+        "D) It creates an unsettling contrast between the horror of death and the civility of the suitor"
+      ],
+      "correct_option": "D",
+      "explanation": "Dickinson's personification of Death as a 'kindly' gentleman with 'Civility' creates a disturbing contrast - the horror of mortality is clothed in the polite language of a suitor, making it more unsettling."
+    },
+    {
+      "id": "ENG_4_25",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the students decided\nQ: to organise\nR: a cleanliness drive\nS: in their neighbourhood",
+      "options": [
+        "A) Q P R S",
+        "B) P Q R S",
+        "C) P R Q S",
+        "D) S R Q P"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct sequence is P-Q-R-S: 'The students decided to organise a cleanliness drive in their neighbourhood.'"
+    },
+    {
+      "id": "ENG_4_26",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the ancient temple\nQ: attracts thousands\nR: of devotees every year\nS: located on the hilltop",
+      "options": [
+        "A) Q R P S",
+        "B) P Q S R",
+        "C) P S Q R",
+        "D) S P Q R"
+      ],
+      "correct_option": "C",
+      "explanation": "The correct sequence is P-S-Q-R: 'The ancient temple located on the hilltop attracts thousands of devotees every year.'"
+    },
+    {
+      "id": "ENG_4_27",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: despite the heavy rainfall\nQ: the cricket match\nR: continued without\nS: any interruption",
+      "options": [
+        "A) P Q R S",
+        "B) P R Q S",
+        "C) Q P R S",
+        "D) Q R P S"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct sequence is P-Q-R-S: 'Despite the heavy rainfall, the cricket match continued without any interruption.'"
+    },
+    {
+      "id": "ENG_4_28",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the scientist who had spent\nQ: three decades researching\nR: tropical diseases finally\nS: discovered a breakthrough vaccine",
+      "options": [
+        "A) Q P R S",
+        "B) R S P Q",
+        "C) P Q R S",
+        "D) P R Q S"
+      ],
+      "correct_option": "C",
+      "explanation": "The correct sequence is P-Q-R-S: 'The scientist who had spent three decades researching tropical diseases finally discovered a breakthrough vaccine.'"
+    },
+    {
+      "id": "ENG_4_29",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the committee recommended that\nQ: all government schools\nR: be equipped with\nS: digital classrooms by 2025",
+      "options": [
+        "A) P R Q S",
+        "B) P Q R S",
+        "C) Q P R S",
+        "D) Q R P S"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct sequence is P-Q-R-S: 'The committee recommended that all government schools be equipped with digital classrooms by 2025.'"
+    },
+    {
+      "id": "ENG_4_30",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: although the evidence was\nQ: circumstantial at best\nR: the jury returned\nS: a unanimous verdict of guilty",
+      "options": [
+        "A) R S P Q",
+        "B) P Q R S",
+        "C) Q P R S",
+        "D) P R Q S"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct sequence is P-Q-R-S: 'Although the evidence was circumstantial at best, the jury returned a unanimous verdict of guilty.'"
+    },
+    {
+      "id": "ENG_4_31",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "easy",
+      "question": "Match the words in Column A with their correct meanings in Column B:\n\nColumn A:\n(P) Benevolent\n(Q) Fragile\n(R) Vigilant\n(S) Obsolete\n\nColumn B:\n(1) No longer in use\n(2) Kind and generous\n(3) Easily broken\n(4) Watchful and alert",
+      "options": [
+        "A) P-2, Q-3, R-4, S-1",
+        "B) P-4, Q-1, R-2, S-3",
+        "C) P-3, Q-2, R-1, S-4",
+        "D) P-1, Q-4, R-3, S-2"
+      ],
+      "correct_option": "A",
+      "explanation": "Benevolent = kind and generous (2); Fragile = easily broken (3); Vigilant = watchful and alert (4); Obsolete = no longer in use (1)."
+    },
+    {
+      "id": "ENG_4_32",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "easy",
+      "question": "Match the idioms in Column A with their meanings in Column B:\n\nColumn A:\n(P) Break the ice\n(Q) Hit the nail on the head\n(R) Burn the midnight oil\n(S) Let the cat out of the bag\n\nColumn B:\n(1) Reveal a secret\n(2) Work late into the night\n(3) Start a conversation in a social setting\n(4) Describe exactly what is true",
+      "options": [
+        "A) P-3, Q-4, R-2, S-1",
+        "B) P-1, Q-2, R-3, S-4",
+        "C) P-2, Q-1, R-4, S-3",
+        "D) P-4, Q-3, R-1, S-2"
+      ],
+      "correct_option": "A",
+      "explanation": "Break the ice = start a conversation (3); Hit the nail on the head = describe exactly what is true (4); Burn the midnight oil = work late (2); Let the cat out of the bag = reveal a secret (1)."
+    },
+    {
+      "id": "ENG_4_33",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the literary devices in Column A with their definitions in Column B:\n\nColumn A:\n(P) Metaphor\n(Q) Alliteration\n(R) Irony\n(S) Hyperbole\n\nColumn B:\n(1) Exaggeration for effect\n(2) Saying the opposite of what is meant\n(3) Direct comparison without 'like' or 'as'\n(4) Repetition of initial consonant sounds",
+      "options": [
+        "A) P-3, Q-4, R-2, S-1",
+        "B) P-1, Q-2, R-3, S-4",
+        "C) P-2, Q-1, R-4, S-3",
+        "D) P-4, Q-3, R-1, S-2"
+      ],
+      "correct_option": "A",
+      "explanation": "Metaphor = direct comparison (3); Alliteration = repetition of initial consonants (4); Irony = saying opposite of what is meant (2); Hyperbole = exaggeration (1)."
+    },
+    {
+      "id": "ENG_4_34",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the prefixes in Column A with their meanings in Column B:\n\nColumn A:\n(P) Hyper-\n(Q) Sub-\n(R) Anti-\n(S) Pre-\n\nColumn B:\n(1) Before\n(2) Against\n(3) Below/under\n(4) Above/excessive",
+      "options": [
+        "A) P-3, Q-4, R-1, S-2",
+        "B) P-2, Q-1, R-4, S-3",
+        "C) P-4, Q-3, R-2, S-1",
+        "D) P-1, Q-2, R-3, S-4"
+      ],
+      "correct_option": "C",
+      "explanation": "Hyper- = above/excessive (4); Sub- = below/under (3); Anti- = against (2); Pre- = before (1)."
+    },
+    {
+      "id": "ENG_4_35",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the rhetorical devices in Column A with their descriptions in Column B:\n\nColumn A:\n(P) Anaphora\n(Q) Chiasmus\n(R) Litotes\n(S) Synecdoche\n\nColumn B:\n(1) Understatement using negation\n(2) Repetition of a word at the start of successive clauses\n(3) Part representing the whole\n(4) Reversal of grammatical structure in successive phrases",
+      "options": [
+        "A) P-3, Q-1, R-4, S-2",
+        "B) P-1, Q-2, R-3, S-4",
+        "C) P-2, Q-4, R-1, S-3",
+        "D) P-4, Q-3, R-2, S-1"
+      ],
+      "correct_option": "C",
+      "explanation": "Anaphora = repetition at start of clauses (2); Chiasmus = reversal of structure (4); Litotes = understatement via negation (1); Synecdoche = part for whole (3)."
+    },
+    {
+      "id": "ENG_4_36",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the figures of speech in Column A with their descriptions in Column B:\n\nColumn A:\n(P) Oxymoron\n(Q) Paradox\n(R) Euphemism\n(S) Apostrophe\n\nColumn B:\n(1) Addressing an absent person or abstract concept\n(2) A statement that seems contradictory but reveals truth\n(3) A mild expression replacing a harsh one\n(4) Two contradictory terms placed together",
+      "options": [
+        "A) P-2, Q-4, R-1, S-3",
+        "B) P-1, Q-3, R-4, S-2",
+        "C) P-4, Q-2, R-3, S-1",
+        "D) P-3, Q-1, R-2, S-4"
+      ],
+      "correct_option": "C",
+      "explanation": "Oxymoron = contradictory terms together (4); Paradox = seemingly contradictory truth (2); Euphemism = mild for harsh (3); Apostrophe = addressing absent entity (1)."
+    },
+    {
+      "id": "ENG_4_37",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe principal _____ the students for their excellent performance in the board exams.",
+      "options": [
+        "A) supplemented",
+        "B) implemented",
+        "C) complimented",
+        "D) complemented"
+      ],
+      "correct_option": "C",
+      "explanation": "'Complimented' means praised; 'complemented' means completed or enhanced. The context requires 'praised.'"
+    },
+    {
+      "id": "ENG_4_38",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe new policy will _____ the lives of millions of farmers in the region.",
+      "options": [
+        "A) defect",
+        "B) affect",
+        "C) infect",
+        "D) effect"
+      ],
+      "correct_option": "B",
+      "explanation": "'Affect' (verb) means to influence; 'effect' (noun) means result. The sentence needs a verb meaning 'influence.'"
+    },
+    {
+      "id": "ENG_4_39",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nShe was so _____ in her research that she didn't hear the doorbell ring.",
+      "options": [
+        "A) absorbed by",
+        "B) absorbed",
+        "C) absorbed with",
+        "D) absorbed in"
+      ],
+      "correct_option": "D",
+      "explanation": "The correct preposition with 'absorbed' in this context is 'in' - 'absorbed in' means deeply engaged."
+    },
+    {
+      "id": "ENG_4_40",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe chairman adjourned the session so that members could _____ the complex proposal overnight before voting.",
+      "options": [
+        "A) deliberate on",
+        "B) demolish",
+        "C) deter from",
+        "D) devolve into"
+      ],
+      "correct_option": "A",
+      "explanation": "'Deliberate on' means to think over or discuss carefully, which fits reviewing a complex proposal before voting. 'Demolish' means destroy, 'deter from' means discourage from, and 'devolve into' means deteriorate into - none fit."
+    },
+    {
+      "id": "ENG_4_41",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe scientist's findings were _____ by several independent studies conducted across the country.",
+      "options": [
+        "A) mitigated",
+        "B) corroborated",
+        "C) refuted",
+        "D) relinquished"
+      ],
+      "correct_option": "B",
+      "explanation": "'Corroborated' means confirmed or supported by evidence; 'refuted' means disproved; 'relinquished' means given up; 'mitigated' means reduced."
+    },
+    {
+      "id": "ENG_4_42",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe manager's _____ response to the crisis earned her the respect of the entire team.",
+      "options": [
+        "A) ambiguous",
+        "B) arbitrary",
+        "C) apathetic",
+        "D) astute"
+      ],
+      "correct_option": "D",
+      "explanation": "'Astute' means shrewd and perceptive; 'ambiguous' means unclear; 'apathetic' means indifferent; 'arbitrary' means random. A crisis response earning respect would be astute."
+    },
+    {
+      "id": "ENG_4_43",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe ancient manuscript was so _____ that only a handful of scholars could decipher it.",
+      "options": [
+        "A) legible",
+        "B) intelligible",
+        "C) illegible",
+        "D) eligible"
+      ],
+      "correct_option": "C",
+      "explanation": "'Illegible' means impossible to read; 'legible' means readable; 'eligible' means qualified; 'intelligible' means understandable. The context (only a handful could decipher) suggests it was hard to read."
+    },
+    {
+      "id": "ENG_4_44",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe diplomat's _____ remarks nearly caused an international incident.",
+      "options": [
+        "A) incendiary",
+        "B) conciliatory",
+        "C) tactful",
+        "D) diplomatic"
+      ],
+      "correct_option": "A",
+      "explanation": "'Incendiary' means inflammatory or provocative; 'diplomatic' and 'tactful' mean careful; 'conciliatory' means peace-making. Remarks causing an incident would be incendiary."
+    },
+    {
+      "id": "ENG_4_45",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is most similar in meaning to 'Iconoclastic':",
+      "options": [
+        "A) attacking cherished beliefs",
+        "B) unclear",
+        "C) rare",
+        "D) fearful"
+      ],
+      "correct_option": "A",
+      "explanation": "'Iconoclastic' means attacking cherished beliefs."
+    },
+    {
+      "id": "ENG_4_46",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is opposite in meaning to 'Parsimonious':",
+      "options": [
+        "A) generous",
+        "B) unwilling to spend",
+        "C) common",
+        "D) praiseworthy"
+      ],
+      "correct_option": "A",
+      "explanation": "'Parsimonious' means generous."
+    },
+    {
+      "id": "ENG_4_47",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is most similar in meaning to 'Dilatory':",
+      "options": [
+        "A) slow to act",
+        "B) unclear",
+        "C) rare",
+        "D) fearful"
+      ],
+      "correct_option": "A",
+      "explanation": "'Dilatory' means slow to act."
+    },
+    {
+      "id": "ENG_4_48",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the antonym of the word: 'Meticulous'",
+      "options": [
+        "A) Diligent",
+        "B) Thorough",
+        "C) Careless",
+        "D) Precise"
+      ],
+      "correct_option": "C",
+      "explanation": "'Meticulous' means very careful and precise; 'careless' is its antonym. The others are synonyms."
+    },
+    {
+      "id": "ENG_4_49",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the synonym of the word: 'Pragmatic'",
+      "options": [
+        "A) Impractical",
+        "B) Theoretical",
+        "C) Realistic",
+        "D) Idealistic"
+      ],
+      "correct_option": "C",
+      "explanation": "'Pragmatic' means dealing with things sensibly and realistically; 'realistic' is its closest synonym."
+    },
+    {
+      "id": "ENG_4_50",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is opposite in meaning to 'Enervate':",
+      "options": [
+        "A) strengthen",
+        "B) to weaken",
+        "C) common",
+        "D) praiseworthy"
+      ],
+      "correct_option": "A",
+      "explanation": "'Enervate' means strengthen."
+    }
+  ]
+}

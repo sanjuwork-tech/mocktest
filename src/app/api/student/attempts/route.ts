@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = (await request.json()) as { subject?: Subject };
     const subject = body.subject;
-    if (!subject || !["mathematics", "physics", "chemistry"].includes(subject)) {
+    if (!subject || !["mathematics", "physics", "chemistry", "biological-science"].includes(subject)) {
       return NextResponse.json({ error: "Invalid subject" }, { status: 400 });
     }
 

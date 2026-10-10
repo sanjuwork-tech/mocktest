@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = pageMetadata(
   "Terms of Service",
-  "The terms and conditions that govern your use of TestDisha.",
+  "The terms and conditions that govern your use of OurMocks.",
   "/terms",
 );
 
@@ -19,16 +19,16 @@ export default function TermsPage() {
         </h1>
         <p className="hero-copy">
           Last updated: September 2026. These terms govern your use of
-          TestDisha. By using our platform, you agree to these terms.
+          OurMocks. By using our platform, you agree to these terms.
         </p>
       </section>
       <div className="page-shell reading-copy">
         <section>
-          <h2>1. About TestDisha</h2>
+          <h2>1. About OurMocks</h2>
           <p>
-            TestDisha is an educational platform that provides exam information
+            OurMocks is an educational platform that provides exam information
             and mock test series for entrance examinations including CUET UG,
-            IISER IAT, NISER NEST, and COMEDK UGET. TestDisha is independent of
+            IISER IAT, NISER NEST, and COMEDK UGET. OurMocks is independent of
             the examination authorities.
           </p>
         </section>
@@ -40,7 +40,7 @@ export default function TermsPage() {
             credentials and for all activity under your account.
           </p>
           <p>
-            You must be at least 13 years old to use TestDisha. If you are under
+            You must be at least 13 years old to use OurMocks. If you are under
             18, you confirm that you have your parent or guardian&apos;s consent.
           </p>
         </section>
@@ -75,7 +75,7 @@ export default function TermsPage() {
         <section>
           <h2>5. Exam information</h2>
           <p>
-            Exam guides on TestDisha are summaries of publicly available official
+            Exam guides on OurMocks are summaries of publicly available official
             information. We review and date-stamp our information but do not
             guarantee real-time accuracy. Official exam authority websites take
             precedence. See our{" "}
@@ -85,7 +85,7 @@ export default function TermsPage() {
             .
           </p>
           <p>
-            TestDisha does not promise admission, rank, scholarship, or career
+            OurMocks does not promise admission, rank, scholarship, or career
             outcomes. Mock test scores are for practice purposes only and do not
             predict actual exam performance.
           </p>
@@ -93,8 +93,8 @@ export default function TermsPage() {
         <section>
           <h2>6. Intellectual property</h2>
           <p>
-            All content on TestDisha — including test questions, solutions,
-            analytics, design, and branding — is owned by TestDisha or licensed
+            All content on OurMocks — including test questions, solutions,
+            analytics, design, and branding — is owned by OurMocks or licensed
             to us. You may not reproduce, distribute, or create derivative works
             without written permission.
           </p>
@@ -102,7 +102,7 @@ export default function TermsPage() {
         <section>
           <h2>7. Limitation of liability</h2>
           <p>
-            TestDisha is provided &quot;as is&quot; without warranties of any kind. We are
+            OurMocks is provided &quot;as is&quot; without warranties of any kind. We are
             not liable for any indirect, incidental, or consequential damages
             arising from your use of the platform, including but not limited to
             exam results, admission outcomes, or data loss.
@@ -111,7 +111,7 @@ export default function TermsPage() {
         <section>
           <h2>8. Privacy</h2>
           <p>
-            Your use of TestDisha is also governed by our{" "}
+            Your use of OurMocks is also governed by our{" "}
             <Link href="/privacy" className="text-link">
               Privacy Policy
             </Link>

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P22_L2C",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 22,
+  "difficulty_level": "2C",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "CUET_UG_Computer_Science_Syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "In database normalization, which of the following describes a situation where a non-key column depends on another non-key column?",
+      "options": [
+        "A) Transitive dependency",
+        "B) Multivalued dependency",
+        "C) Partial dependency",
+        "D) Functional dependency"
+      ],
+      "correct_option": "A",
+      "explanation": "Transitive dependency occurs when a non-key attribute depends on another non-key attribute. 3NF eliminates transitive dependencies by ensuring all non-key attributes depend only on the primary key."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which SQL keyword is used to filter rows based on a condition after grouping?",
+      "options": [
+        "A) FILTER",
+        "B) CHECK",
+        "C) HAVING",
+        "D) WHERE"
+      ],
+      "correct_option": "C",
+      "explanation": "HAVING is used to filter groups after the GROUP BY clause. WHERE filters individual rows before grouping."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "What does a NULL value represent in a relational database?",
+      "options": [
+        "A) Negative value",
+        "B) Zero",
+        "C) Empty string",
+        "D) Unknown or missing value"
+      ],
+      "correct_option": "D",
+      "explanation": "NULL represents an unknown or missing value. It is not equal to zero, empty string, or any other value."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "easy",
+      "question": "Which SQL constraint ensures that all values in a column are distinct from each other?",
+      "options": [
+        "A) UNIQUE",
+        "B) CHECK",
+        "C) DEFAULT",
+        "D) FOREIGN KEY"
+      ],
+      "correct_option": "A",
+      "explanation": "The UNIQUE constraint ensures that all values stored in a specified column are distinct and non-duplicate. The CHECK constraint validates that values meet a given boolean condition, DEFAULT provides a preset fallback value when omitted, and FOREIGN KEY establishes referential integrity."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "easy",
+      "question": "Which key uniquely identifies a row in a table but can contain NULL values?",
+      "options": [
+        "A) Unique Key",
+        "B) Foreign Key",
+        "C) Primary Key",
+        "D) Candidate Key"
+      ],
+      "correct_option": "A",
+      "explanation": "A Unique Key uniquely identifies each row but can accept one NULL value (in most DBMS). Primary Key does not allow NULLs."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "What type of join returns all rows from both tables, filling NULL for non-matching columns?",
+      "options": [
+        "A) INNER JOIN",
+        "B) LEFT JOIN",
+        "C) RIGHT JOIN",
+        "D) FULL OUTER JOIN"
+      ],
+      "correct_option": "D",
+      "explanation": "FULL OUTER JOIN returns all rows from both tables, matching where possible and filling NULL for non-matching columns."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "A database transaction updates two accounts: debits Account A by Rs. 200 and credits Account B by Rs. 200. If the system crashes after the debit but before the credit, which ACID property is violated?",
+      "options": [
+        "A) Isolation",
+        "B) Atomicity",
+        "C) Consistency",
+        "D) Durability"
+      ],
+      "correct_option": "B",
+      "explanation": "Atomicity ensures a transaction is treated as a single unit — either all operations complete or none do."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "A table 'Books' has columns: book_id, title, author, price. Which query correctly finds the second most expensive book?",
+      "options": [
+        "A) SELECT * FROM Books WHERE price = MAX(price)",
+        "B) SELECT * FROM Books ORDER BY price DESC LIMIT 1 OFFSET 1",
+        "C) SELECT * FROM Books ORDER BY price ASC LIMIT 1",
+        "D) SELECT * FROM Books WHERE price > (SELECT AVG(price) FROM Books)"
+      ],
+      "correct_option": "B",
+      "explanation": "SELECT * FROM Books ORDER BY price DESC LIMIT 1 OFFSET 1 sorts books in descending order of price, skips the highest-priced book via OFFSET 1, and retrieves the next row via LIMIT 1, which represents the second most expensive book. Aggregate functions like MAX() cannot be used directly in a WHERE clause, ordering ascending selects the cheapest book, and filtering above average price retrieves multiple records."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "A relation R(A, B, C, D) has functional dependencies: A→B, B→C, and C→D. What is the candidate key of R?",
+      "options": [
+        "A) B",
+        "B) AB",
+        "C) A",
+        "D) C"
+      ],
+      "correct_option": "C",
+      "explanation": "Using the transitive closure: A→B, A→C (via B→C), A→D (via C→D). Since A alone determines all attributes, A is the candidate key."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Consider a schedule: T1 reads X, T2 writes X, T1 writes X, T2 reads Y, T1 reads Y. How many conflicting operations exist, and is this schedule conflict-serializable?",
+      "options": [
+        "A) 3 conflicts; No",
+        "B) 2 conflicts; No",
+        "C) 2 conflicts; Yes",
+        "D) 3 conflicts; Yes"
+      ],
+      "correct_option": "B",
+      "explanation": "R-R doesn't conflict. R-W and W-W on X create 2 conflicts. The precedence graph has a cycle (T1→T2 and T2→T1), so not conflict-serializable."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which layer of the OSI model is responsible for routing and forwarding data packets between networks?",
+      "options": [
+        "A) Transport Layer",
+        "B) Physical Layer",
+        "C) Data Link Layer",
+        "D) Network Layer"
+      ],
+      "correct_option": "D",
+      "explanation": "The Network Layer (Layer 3) handles routing, forwarding, and addressing of data packets across different networks."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "What is the valid host range for the subnet 172.16.32.0/20?",
+      "options": [
+        "A) 172.16.32.1 to 172.16.63.254",
+        "B) 172.16.32.1 to 172.16.47.254",
+        "C) 172.16.0.1 to 172.16.31.254",
+        "D) 172.16.16.1 to 172.16.31.254"
+      ],
+      "correct_option": "B",
+      "explanation": "/20 mask = 255.255.240.0. Block size in 3rd octet = 16. Subnets: 0, 16, 32, 48... Network 172.16.32.0 covers 172.16.32.0-172.16.47.255. Valid hosts: .1 to .254."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "easy",
+      "question": "Which protocol is used to dynamically map a known 32-bit IPv4 address to its corresponding 48-bit physical MAC address on a local network segment?",
+      "options": [
+        "A) DNS",
+        "B) DHCP",
+        "C) ICMP",
+        "D) ARP"
+      ],
+      "correct_option": "D",
+      "explanation": "Address Resolution Protocol (ARP) dynamically resolves a known logical IPv4 address to a physical MAC address within a local area network. DNS maps domain names to IP addresses, DHCP leases IP configurations automatically, and ICMP handles network diagnostics and error reporting."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "easy",
+      "question": "Which device operates at the Data Link Layer (Layer 2) and forwards frames based on MAC addresses?",
+      "options": [
+        "A) Gateway",
+        "B) Router",
+        "C) Switch",
+        "D) Hub"
+      ],
+      "correct_option": "C",
+      "explanation": "A switch operates at Layer 2 and forwards frames based on MAC addresses. Routers operate at Layer 3, hubs at Layer 1."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "easy",
+      "question": "At which OSI layer does a hub operate?",
+      "options": [
+        "A) Physical Layer",
+        "B) Network Layer",
+        "C) Transport Layer",
+        "D) Data Link Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "A hub operates at the Physical Layer (Layer 1). It simply repeats incoming signals to all ports."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "In which network topology is every node connected to a central device such as a hub or switch via a dedicated point-to-point link?",
+      "options": [
+        "A) Bus topology",
+        "B) Ring topology",
+        "C) Star topology",
+        "D) Mesh topology"
+      ],
+      "correct_option": "C",
+      "explanation": "In a star topology, each network host is connected to a central multiport device (such as a switch or hub) through an individual dedicated cable. A bus topology uses a shared single backbone cable, a ring topology connects devices in a closed circular loop, and a mesh topology connects devices to multiple other nodes via redundant point-to-point links."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "What is the network address for IP 192.168.50.100 with subnet mask 255.255.255.224?",
+      "options": [
+        "A) 192.168.50.96",
+        "B) 192.168.50.0",
+        "C) 192.168.50.64",
+        "D) 192.168.50.128"
+      ],
+      "correct_option": "A",
+      "explanation": "Subnet mask 255.255.255.224 = /27. Block size = 32. Subnets: 0, 32, 64, 96, 128... IP 100 falls in the 96-127 range."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "A TCP connection has a round trip time of 50 ms and a bandwidth of 100 Mbps. What is the bandwidth-delay product in bits?",
+      "options": [
+        "A) 5,000 bits",
+        "B) 50,000,000 bits",
+        "C) 5,000,000 bits",
+        "D) 50,000 bits"
+      ],
+      "correct_option": "C",
+      "explanation": "Bandwidth-delay product = 100,000,000 bps × 0.05 s = 5,000,000 bits."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "A 7-bit Hamming code receives the data 1011001. Which bit position is in error if the syndrome is 101?",
+      "options": [
+        "A) Bit 7",
+        "B) Bit 5",
+        "C) Bit 6",
+        "D) Bit 3"
+      ],
+      "correct_option": "B",
+      "explanation": "In Hamming code, the syndrome directly indicates the position of the error. Syndrome 101 in binary = 5."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "A network uses distance vector routing. Router A receives vectors from neighbors B and C: B says path to D costs 4, C says path to D costs 2. A's link to B costs 3, to C costs 5. What is A's updated cost to D?",
+      "options": [
+        "A) 7 via C",
+        "B) 5 via C",
+        "C) 4 via B",
+        "D) 7 via B"
+      ],
+      "correct_option": "D",
+      "explanation": "Cost via B = 3 + 4 = 7. Cost via C = 5 + 2 = 7. Both give 7. Typically the first neighbor is chosen, so 7 via B."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "What is the output of the following Python code?\nprint(type(3.14))",
+      "options": [
+        "A) <class 'double'>",
+        "B) <class 'float'>",
+        "C) <class 'number'>",
+        "D) <class 'int'>"
+      ],
+      "correct_option": "B",
+      "explanation": "3.14 is a floating-point number in Python. The type() function returns <class 'float'>."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "easy",
+      "question": "Which method is used to add an element to the end of a Python list?",
+      "options": [
+        "A) extend()",
+        "B) insert()",
+        "C) add()",
+        "D) append()"
+      ],
+      "correct_option": "D",
+      "explanation": "append() adds a single element to the end of a list. insert() adds at a specific index, extend() adds multiple elements."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "easy",
+      "question": "In linear search on an unsorted list of n items, what is the worst-case number of element comparisons required to verify that an element is not present?",
+      "options": [
+        "A) n",
+        "B) log2(n)",
+        "C) n / 2",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "When an element is absent from an unsorted list of n items, linear search must examine every single element from start to finish before concluding that the key is missing, resulting in exactly n comparisons in the worst case."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "easy",
+      "question": "In a queue, insertion takes place at which end?",
+      "options": [
+        "A) Front",
+        "B) Anywhere",
+        "C) Rear",
+        "D) Middle"
+      ],
+      "correct_option": "C",
+      "explanation": "In a queue, insertion (enqueue) occurs at the rear end, and deletion (dequeue) occurs at the front end."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "What is the output of: len('Hello World')?",
+      "options": [
+        "A) 9",
+        "B) 11",
+        "C) 10",
+        "D) 12"
+      ],
+      "correct_option": "B",
+      "explanation": "len() counts all characters including spaces. 'Hello World' has 11 characters."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "Which of the following is a valid Python dictionary?",
+      "options": [
+        "A) [1, 2, 3]",
+        "B) {1, 2, 3}",
+        "C) {'a': 1, 'b': 2}",
+        "D) (1, 2, 3)"
+      ],
+      "correct_option": "C",
+      "explanation": "In Python, a dictionary is a collection of key-value pairs enclosed in curly braces, such as {'a': 1, 'b': 2}. Square brackets define a list, curly braces enclosing single values define a set, and parentheses define a tuple."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "medium",
+      "question": "Which data structure is most naturally and directly used to evaluate postfix (Reverse Polish Notation) expressions?",
+      "options": [
+        "A) Stack",
+        "B) Queue",
+        "C) Circular Queue",
+        "D) Priority Queue"
+      ],
+      "correct_option": "A",
+      "explanation": "A stack is the standard data structure used for evaluating postfix expressions: operands are pushed onto the stack, and when an operator is encountered, the required operands are popped, evaluated with the operator, and the result is pushed back onto the stack."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "A binary tree has 31 nodes. What is its minimum possible height?",
+      "options": [
+        "A) 3",
+        "B) 4",
+        "C) 5",
+        "D) 6"
+      ],
+      "correct_option": "B",
+      "explanation": "A perfect binary tree of height h has 2^(h+1) - 1 nodes. For height 4: 2^5 - 1 = 31 nodes."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "What is the output of the following code?\nx = [i**2 for i in range(5) if i % 2 == 0]\nprint(x)",
+      "options": [
+        "A) [0, 4, 16, 36]",
+        "B) [0, 1, 4, 9, 16]",
+        "C) [0, 2, 4]",
+        "D) [0, 4, 16]"
+      ],
+      "correct_option": "D",
+      "explanation": "range(5) gives 0,1,2,3,4. Filter i%2==0 gives 0,2,4. Square each: 0²=0, 2²=4, 4²=16. Result: [0, 4, 16]."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "hard",
+      "question": "What is the worst-case time complexity of quicksort when the pivot is always chosen as the first element and the array is already sorted?",
+      "options": [
+        "A) O(n²)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "When the pivot is always the first element and the array is sorted, each partition creates one subarray of size n-1 and one empty. This leads to O(n²) worst-case time."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the best-case time complexity of linear search?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n²)",
+        "C) O(1)",
+        "D) O(n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Best case: the target element is found at the first position, requiring only 1 comparison. Hence O(1)."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "Binary search can be applied on which type of data structure?",
+      "options": [
+        "A) Any linked list",
+        "B) Unsorted array",
+        "C) Any binary tree",
+        "D) Sorted array"
+      ],
+      "correct_option": "D",
+      "explanation": "Binary search requires random access and sorted data. A sorted array provides both."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "In bubble sort, after the first pass of an unsorted array, where is the largest element positioned?",
+      "options": [
+        "A) At a random position",
+        "B) At the beginning",
+        "C) At the end",
+        "D) In the middle"
+      ],
+      "correct_option": "C",
+      "explanation": "In bubble sort, each pass compares adjacent elements and swaps them if out of order. After the first pass, the largest element 'bubbles up' to the last position."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "easy",
+      "question": "In hashing, what is the term for a situation where two distinct search keys produce the exact same hash value from a hash function?",
+      "options": [
+        "A) Collision",
+        "B) Overflow",
+        "C) Clustering",
+        "D) Probing"
+      ],
+      "correct_option": "A",
+      "explanation": "A collision occurs in a hash table when a hash function maps two distinct keys to the exact same hash bucket or slot index. Collision resolution techniques include separate chaining and open addressing (linear/quadratic probing)."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm is most efficient for a nearly sorted array?",
+      "options": [
+        "A) Selection Sort",
+        "B) Bubble Sort",
+        "C) Merge Sort",
+        "D) Insertion Sort"
+      ],
+      "correct_option": "D",
+      "explanation": "Insertion sort performs best on nearly sorted arrays because it only shifts elements that are out of order. In the best case (already sorted), it runs in O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the best-case time complexity of an optimized Bubble Sort algorithm when the input array is already completely sorted?",
+      "options": [
+        "A) O(n²)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "D",
+      "explanation": "An optimized Bubble Sort uses a boolean flag to track whether any swaps occurred during a pass. If the array is already sorted, no swaps are performed in the first pass of n-1 comparisons, allowing the algorithm to terminate early with O(n) best-case time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "A sorted array contains 1024 elements. What is the maximum number of comparisons needed in binary search to find an element?",
+      "options": [
+        "A) 11",
+        "B) 10",
+        "C) 1024",
+        "D) 512"
+      ],
+      "correct_option": "B",
+      "explanation": "Maximum comparisons = ⌈log₂(1024)⌉ = 10. Since 2^10 = 1024, at most 10 comparisons are needed."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "What is the average-case time complexity of quicksort?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(n)",
+        "C) O(n²)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Quicksort's average-case time complexity is O(n log n). On average, the pivot divides the array into two roughly equal halves."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "A max-heap has 10 elements. What is the index of the last non-leaf node? (0-indexed array)",
+      "options": [
+        "A) 3",
+        "B) 4",
+        "C) 5",
+        "D) 6"
+      ],
+      "correct_option": "B",
+      "explanation": "For a 0-indexed array of n elements, the last non-leaf node is at index ⌊n/2⌋ - 1. For n=10: ⌊10/2⌋ - 1 = 5 - 1 = 4."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "An array of 15 elements is searched using binary search. What is the maximum number of elements examined if the search fails (element not found)?",
+      "options": [
+        "A) 5",
+        "B) 15",
+        "C) 4",
+        "D) 3"
+      ],
+      "correct_option": "C",
+      "explanation": "Maximum comparisons for failed search = ⌈log₂(n+1)⌉ = ⌈log₂(16)⌉ = 4. The search interval halves each time until empty."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "What type of attack involves sending deceptive emails to steal sensitive information?",
+      "options": [
+        "A) Malware",
+        "B) Spam",
+        "C) Adware",
+        "D) Phishing"
+      ],
+      "correct_option": "D",
+      "explanation": "Phishing involves sending fraudulent emails that appear to be from trusted sources to trick users into revealing sensitive data."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "Which Pandas function is used to read a CSV file?",
+      "options": [
+        "A) import_csv()",
+        "B) load_csv()",
+        "C) read_csv()",
+        "D) read_excel()"
+      ],
+      "correct_option": "C",
+      "explanation": "pd.read_csv() is the standard function to read CSV files into a DataFrame. read_excel() is for Excel files."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "easy",
+      "question": "In Matplotlib's pyplot module, which function is used to display a bar chart with vertical bars?",
+      "options": [
+        "A) plt.pie()",
+        "B) plt.scatter()",
+        "C) plt.hist()",
+        "D) plt.bar()"
+      ],
+      "correct_option": "D",
+      "explanation": "In Matplotlib (matplotlib.pyplot), plt.bar() creates a vertical bar chart comparing categorical variables with numerical values. plt.pie() generates a pie chart, plt.scatter() creates a scatter plot of coordinate points, and plt.hist() plots a frequency distribution histogram."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "easy",
+      "question": "What does the head() function return in Pandas?",
+      "options": [
+        "A) Column names",
+        "B) Last 5 rows",
+        "C) First 5 rows",
+        "D) Data types"
+      ],
+      "correct_option": "C",
+      "explanation": "df.head() returns the first 5 rows of a DataFrame by default. df.tail() returns the last 5 rows."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "easy",
+      "question": "Which type of cyber threat involves an attacker secretly redirecting a user from a legitimate website to a fraudulent fake website by corrupting DNS cache entries or local host files?",
+      "options": [
+        "A) Pharming",
+        "B) Eavesdropping",
+        "C) Denial of Service (DoS)",
+        "D) Shoulder surfing"
+      ],
+      "correct_option": "A",
+      "explanation": "Pharming is a cyber attack that redirects website traffic to a bogus site by poisoning the DNS server cache or altering local host files, compromising users even if they type the correct URL. Eavesdropping intercepts communications, Denial of Service floods servers to make them unavailable, and shoulder surfing involves direct physical observation of keystrokes or screens."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "Which attribute of a DataFrame returns the number of rows and columns?",
+      "options": [
+        "A) size",
+        "B) shape",
+        "C) columns",
+        "D) info"
+      ],
+      "correct_option": "B",
+      "explanation": "df.shape returns a tuple (rows, columns). df.size returns total elements (rows × columns)."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "A company's web server is overwhelmed by thousands of fake requests from multiple sources. What type of attack is this?",
+      "options": [
+        "A) DDoS",
+        "B) SQL Injection",
+        "C) Phishing",
+        "D) Man-in-the-Middle"
+      ],
+      "correct_option": "A",
+      "explanation": "DDoS (Distributed Denial of Service) involves overwhelming a server with traffic from multiple sources."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "A DataFrame has a column 'Marks' with values [75, 82, None, 90, 68]. What does df['Marks'].mean() return?",
+      "options": [
+        "A) 78.75",
+        "B) 78.0",
+        "C) Error",
+        "D) NaN"
+      ],
+      "correct_option": "A",
+      "explanation": "Pandas skips NaN values by default in mean(). (75+82+90+68)/4 = 315/4 = 78.75. The None is treated as NaN and excluded."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a symmetric key encryption algorithm?",
+      "options": [
+        "A) RSA",
+        "B) AES",
+        "C) Diffie-Hellman",
+        "D) ECC"
+      ],
+      "correct_option": "B",
+      "explanation": "AES (Advanced Encryption Standard) is a symmetric key algorithm. RSA, ECC, and Diffie-Hellman are asymmetric (public-key) algorithms."
+    },
+    {
+      "id": "CUET_CS_2026_P22_L2C_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Given a DataFrame df with columns 'A': [1,2,3] and 'B': [4,5,6], what is the result of df.apply(lambda x: x['A'] + x['B'], axis=1)?",
+      "options": [
+        "A) Error",
+        "B) [3, 7, 11]",
+        "C) [1, 2, 3, 4, 5, 6]",
+        "D) [5, 7, 9]"
+      ],
+      "correct_option": "D",
+      "explanation": "apply() with axis=1 applies the function row-wise. Row 0: 1+4=5, Row 1: 2+5=7, Row 2: 3+6=9. Result: [5, 7, 9]."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P24_L8C",
+  "series_id": "CUET_MATH_2026",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "paper_number": 24,
+  "difficulty_level": "8C",
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Algebra of Matrices",
+      "difficulty": "easy",
+      "question": "If A is a 2×3 matrix and B is a 3×2 matrix, what is the order of AB and BA respectively?",
+      "options": [
+        "A) 2×2 and 3×3",
+        "B) 3×3 and 2×2",
+        "C) 2×3 and 3×2",
+        "D) 3×2 and 2×3"
+      ],
+      "correct_option": "A",
+      "explanation": "AB: (2×3)(3×2) → 2×2. BA: (3×2)(2×3) → 3×3. Both products are defined but have different orders."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q02",
+      "topic": "Relations and Functions",
+      "sub_topic": "Domain and Range",
+      "difficulty": "easy",
+      "question": "\\( The domain of the function f(x) = \\sqrt{x² - 16} is: \\)",
+      "options": [
+        "A) [-4, 4]",
+        "B) [0, ∞)",
+        "C) (-∞, 4]",
+        "D) (-∞, -4] ∪ [4, ∞)"
+      ],
+      "correct_option": "D",
+      "explanation": "x² - 16 ≥ 0 → x² ≥ 16 → x ≤ -4 or x ≥ 4. Domain: (-∞, -4] ∪ [4, ∞)."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q03",
+      "topic": "Matrices",
+      "sub_topic": "Probability",
+      "difficulty": "easy",
+      "question": "A bag contains 5 red balls and 7 blue balls. If one ball is drawn at random, what is the probability that it is red?",
+      "options": [
+        "A) 5/7",
+        "B) 5/12",
+        "C) 1/2",
+        "D) 7/12"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Total balls = 5 + 7 = 12. Favorable outcomes (red) = 5. Probability = \\frac{5}{12}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q04",
+      "topic": "Matrices",
+      "sub_topic": "Integration",
+      "difficulty": "easy",
+      "question": "Solve the following problem: Solve the following Matrices problem.",
+      "options": [
+        "A) x³ + x² + C",
+        "B) x³ + x² + x + C",
+        "C) 6x + 2 + C",
+        "D) 3x³ + 2x² + x + C"
+      ],
+      "correct_option": "B",
+      "explanation": "Apply Integration concepts to find the answer."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q05",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse Trigonometric Functions",
+      "difficulty": "easy",
+      "question": "\\( The value of \\sin⁻¹(\\frac{1}{2}) + \\sin⁻¹(\\frac{1}{2}) is: \\)",
+      "options": [
+        "A) π/3",
+        "B) π/4",
+        "C) π/2",
+        "D) π/6"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\sin⁻¹(\\frac{1}{2}) = π/6. So \\sin⁻¹(\\frac{1}{2}) + \\sin⁻¹(\\frac{1}{2}) = π/6 + π/6 = π/3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q06",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "easy",
+      "question": "\\( If A = [[2, 3], [1, 4]], then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 8",
+        "B) 2",
+        "C) 11",
+        "D) 5"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = (2)(4) - (3)(1) = 8 - 3 = 5. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q07",
+      "topic": "Matrices",
+      "sub_topic": "Linear Programming",
+      "difficulty": "easy",
+      "question": "In a linear programming problem, the optimal solution is found:",
+      "options": [
+        "A) At a vertex of the feasible region",
+        "B) At the origin",
+        "C) Outside the feasible region",
+        "D) On the boundary only"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( The optimal solution \\in linear programming is always found at a vertex (corner point) of the feasible region. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q08",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Financial Mathematics",
+      "difficulty": "easy",
+      "question": "\\( A \\sum of ₹5000 amounts to ₹6500 \\in 3 years at simple interest. The rate of interest per annum is: \\)",
+      "options": [
+        "A) 10%",
+        "B) 15%",
+        "C) 8%",
+        "D) 12%"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( SI = 6500 - 5000 = 1500. Using SI = P×R×T/100: 1500 = 5000×R×\\frac{3}{100}, so R = (1500×100)/(5000×3) = 10%. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q09",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "medium",
+      "question": "Find the inverse of the matrix: If A = [[1, 2], [3, 4]], then A⁻¹ is:",
+      "options": [
+        "A) (-1/2)[[4, 2], [3, 1]]",
+        "B) (1/2)[[4, -2], [-3, 1]]",
+        "C) (-1/2)[[1, -2], [-3, 4]]",
+        "D) (-1/2)[[4, -2], [-3, 1]]"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 1×4 - 2×3 = -2. Adjoint of A = [[4, -2], [-3, 1]]. So A⁻¹ = adj(A)/\\left| \\1 \\right| = (-\\frac{1}{2})[[4, -2], [-3, 1]]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q10",
+      "topic": "Matrices",
+      "sub_topic": "Calculus",
+      "difficulty": "medium",
+      "question": "\\( If y = x³ \\sin(x), then dy/dx at x = π is: \\)",
+      "options": [
+        "A) 3π²",
+        "B) -3π²",
+        "C) -π³",
+        "D) π³"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( dy/dx = 3x² \\sin(x) + x³ \\cos(x). At x = π: 3π² \\sin(π) + π³ \\cos(π) = 3π²(0) + π³(-1) = -π³. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q11",
+      "topic": "Matrices",
+      "sub_topic": "Probability",
+      "difficulty": "medium",
+      "question": "\\( A die is thrown twice. Let A be the event that the first throw is 6, and B be the event that the \\sum is 8. What is P(A∩B)? \\)",
+      "options": [
+        "A) 1/6",
+        "B) 5/36",
+        "C) 1/12",
+        "D) 1/36"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( A∩B occurs when first throw is 6 AND \\sum is 8, so second throw must be 2. Only outcome: (6,2). P(A∩B) = \\frac{1}{36}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q12",
+      "topic": "Matrices",
+      "sub_topic": "Integration",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: The value of ∫₀^(π/2) sin³(x) dx is:",
+      "options": [
+        "A) 2/3",
+        "B) 1/3",
+        "C) 4/3",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "∫₀^(π/2) sin³(x)dx = ∫₀^(π/2) sin(x)(1-cos²(x))dx = [cos(x) - cos³(x)/3]₀^(π/2) wait, = [-cos(x) + cos³(x)/3]₀^(π/2) = (0+0) - (-1+1/3) = 2/3."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q13",
+      "topic": "Matrices",
+      "sub_topic": "Differential Equations",
+      "difficulty": "medium",
+      "question": "The order and degree of the differential equation d³y/dx³ + (d²y/dx²)⁴ + y = 0 are respectively:",
+      "options": [
+        "A) 2 and 4",
+        "B) 3 and 1",
+        "C) 3 and 4",
+        "D) 1 and 3"
+      ],
+      "correct_option": "B",
+      "explanation": "The highest derivative is d³y/dx³, so order = 3. The degree is the power of the highest derivative, which is 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q14",
+      "topic": "Relations and Functions",
+      "sub_topic": "Composition of Functions",
+      "difficulty": "medium",
+      "question": "If f(x) = 2x + 3 and g(x) = x² - 1, then (f∘g)(2) equals:",
+      "options": [
+        "A) 11",
+        "B) 5",
+        "C) 9",
+        "D) 7"
+      ],
+      "correct_option": "C",
+      "explanation": "g(2) = 2² - 1 = 3. Then f(g(2)) = f(3) = 2(3) + 3 = 9."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q15",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "question": "\\( If \\tan⁻¹(x) + \\tan⁻¹(2x) = π/4, then x equals: \\)",
+      "options": [
+        "A) (3 + √17)/4",
+        "B) (-3 + √17)/4",
+        "C) 1/2",
+        "D) (-3 - √17)/4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using \\tan⁻¹(a) + \\tan⁻¹(b) = \\tan⁻¹((a+b)/(1-ab)): \\tan⁻¹(3x/(1-2x²)) = π/4. So 3x/(1-2x²) = 1, giving 2x² + 3x - 1 = 0. By quadratic formula: x = (-3 ± \\sqrt{17})/4. Since ab = 2x² < 1, we need x = (-3 + \\sqrt{17})/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q16",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "medium",
+      "question": "\\( If A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 2",
+        "B) 0",
+        "C) 1",
+        "D) -1"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Expanding along first row: \\left| \\1 \\right| = 1(1·0 - 4·6) - 2(0·0 - 4·5) + 3(0·6 - 1·5) = 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q17",
+      "topic": "Matrices",
+      "sub_topic": "Calculus",
+      "difficulty": "medium",
+      "question": "The maximum value of the function f(x) = x·e⁻ˣ for x > 0 is:",
+      "options": [
+        "A) 2/e",
+        "B) e",
+        "C) 1",
+        "D) 1/e"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = e⁻ˣ - x·e⁻ˣ = e⁻ˣ(1-x). Setting f'(x) = 0 gives x = 1. f''(x) = e⁻ˣ(x-2). At x=1, f''(1) = -1/e < 0, so maximum. f(1) = 1·e⁻¹ = 1/e."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q18",
+      "topic": "Matrices",
+      "sub_topic": "Probability",
+      "difficulty": "medium",
+      "question": "A box contains 4 red and 6 blue balls. Two balls are drawn without replacement. What is the probability that the second ball is red given that the first was blue?",
+      "options": [
+        "A) 4/9",
+        "B) 4/10",
+        "C) 2/5",
+        "D) 6/10"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( After drawing a blue ball first, 4 red and 5 blue remain (9 total). P(second is red | first was blue) = \\frac{4}{9}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q19",
+      "topic": "Matrices",
+      "sub_topic": "Integration",
+      "difficulty": "medium",
+      "question": "If A is a 2×2 matrix with |A| = 3, what is |2A|?",
+      "options": [
+        "A) 12",
+        "B) 6",
+        "C) 3",
+        "D) 9"
+      ],
+      "correct_option": "A",
+      "explanation": "|2A| = 2²·|A| = 4×3 = 12. This result follows from the fundamental principles of Matrices. Understanding the underlying concept helps in applying it to similar problems."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q20",
+      "topic": "Matrices",
+      "sub_topic": "Linear Programming",
+      "difficulty": "medium",
+      "question": "Maximize Z = 3x + 4y subject to x + y ≤ 4, x ≥ 0, y ≥ 0. The maximum value is:",
+      "options": [
+        "A) 15",
+        "B) 16",
+        "C) 14",
+        "D) 12"
+      ],
+      "correct_option": "B",
+      "explanation": "Corner points: (0,0)→Z=0, (4,0)→Z=12, (0,4)→Z=16. Maximum Z = 16 at (0,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q21",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Numbers and Quantification",
+      "difficulty": "medium",
+      "question": "The remainder when 7¹⁰⁰ is divided by 5 is:",
+      "options": [
+        "A) 4",
+        "B) 1",
+        "C) 2",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "7 ≡ 2 (mod 5). So 7¹⁰⁰ ≡ 2¹⁰⁰ (mod 5). Since 2⁴ = 16 ≡ 1 (mod 5), we have 2¹⁰⁰ = (2⁴)²⁵ ≡ 1²⁵ = 1 (mod 5). Remainder = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q22",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Algebra",
+      "difficulty": "medium",
+      "question": "\\( If the \\sum of the roots of x² + px + q = 0 is 5 and the product is 6, then p and q are: \\)",
+      "options": [
+        "A) p = -5, q = -6",
+        "B) p = 5, q = 6",
+        "C) p = -5, q = 6",
+        "D) p = 5, q = -6"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For ax² + bx + c = 0, \\sum of roots = -b/a and product = c/a. Here: -p/1 = 5, so p = -5. And q/1 = 6, so q = 6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q23",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Calculus",
+      "difficulty": "medium",
+      "question": "The rate of change of the area of a circle with respect to its radius when r = 3 cm is:",
+      "options": [
+        "A) 12π cm²/cm",
+        "B) 9π cm²/cm",
+        "C) 6π cm²/cm",
+        "D) 3π cm²/cm"
+      ],
+      "correct_option": "C",
+      "explanation": "Area A = πr². dA/dr = 2πr. At r = 3: dA/dr = 2π(3) = 6π cm²/cm."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q24",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Probability Distributions",
+      "difficulty": "medium",
+      "question": "In a binomial distribution with n = 5 and p = 0.4, the variance is:",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 1.2",
+        "D) 0.6"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Variance = npq = 5 × 0.4 × 0.6 = 1.2. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q25",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Time Based Data",
+      "difficulty": "medium",
+      "question": "The value of the 3-year moving average for the data [10, 15, 20, 25, 30] at the middle year is:",
+      "options": [
+        "A) 18",
+        "B) 15",
+        "C) 20",
+        "D) 25"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( The 3-year moving average at the middle year (year 3) = (15 + 20 + 25)/3 = \\frac{60}{3} = 20. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q26",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Inferential Statistics",
+      "difficulty": "medium",
+      "question": "A sample of size 25 has mean 50 and standard deviation 5. The standard error of the mean is:",
+      "options": [
+        "A) 0.2",
+        "B) 25",
+        "C) 5",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Standard error = σ/\\sqrt{n} = 5/\\sqrt{25} = \\frac{5}{5} = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q27",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Financial Mathematics",
+      "difficulty": "medium",
+      "question": "The compound interest on ₹8000 for 2 years at 5% per annum compounded annually is:",
+      "options": [
+        "A) ₹800",
+        "B) ₹860",
+        "C) ₹820",
+        "D) ₹840"
+      ],
+      "correct_option": "C",
+      "explanation": "Amount = P(1 + r/100)ⁿ = 8000(1.05)² = 8000 × 1.1025 = 8820. CI = 8820 - 8000 = ₹820."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q28",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Linear Programming",
+      "difficulty": "medium",
+      "question": "Minimize Z = 2x + 3y subject to x + 2y ≥ 8, x ≥ 0, y ≥ 0. The minimum value is:",
+      "options": [
+        "A) 10",
+        "B) 8",
+        "C) 16",
+        "D) 12"
+      ],
+      "correct_option": "D",
+      "explanation": "Corner points of feasible region: (8,0)→Z=16, (0,4)→Z=12. Minimum Z = 12 at (0,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q29",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of Relations",
+      "difficulty": "medium",
+      "question": "The relation R = {(1,1), (2,2), (3,3), (1,2), (2,1)} on set {1,2,3} is:",
+      "options": [
+        "A) Transitive only",
+        "B) Reflexive only",
+        "C) Symmetric only",
+        "D) Equivalence relation"
+      ],
+      "correct_option": "D",
+      "explanation": "R is reflexive (contains (1,1), (2,2), (3,3)), symmetric (contains (1,2) and (2,1)), and transitive. Hence R is an equivalence relation."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q30",
+      "topic": "Matrices",
+      "sub_topic": "Calculus",
+      "difficulty": "medium",
+      "question": "\\( The function f(x) = \\left| \\1 \\right| + \\left| \\1 \\right| is: \\)",
+      "options": [
+        "A) Continuous everywhere but not differentiable at x = 0.5",
+        "B) Continuous and differentiable everywhere",
+        "C) Discontinuous at x = -1 and x = 2",
+        "D) Continuous everywhere but not differentiable at x = -1 and x = 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( The \\sum of absolute value functions is continuous everywhere. However, \\left| \\1 \\right| is not differentiable at x = a. So f(x) is not differentiable at x = -1 and x = 2, but is continuous everywhere. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q31",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "hard",
+      "question": "If A = [[2, 1, 1], [1, 2, 1], [1, 1, 2]] and A⁻¹ = (1/k)[[a, b, b], [b, a, b], [b, b, a]], then k equals:",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 4",
+        "D) 6"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\left| \\1 \\right| = 2(4-1) - 1(2-1) + 1(1-2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4. Since A⁻¹ = adj(A)/\\left| \\1 \\right|, we have k = \\left| \\1 \\right| = 4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q32",
+      "topic": "Matrices",
+      "sub_topic": "Calculus",
+      "difficulty": "hard",
+      "question": "\\( The value of \\lim(x→0) (eˣ - 1 - x)/x² is: \\)",
+      "options": [
+        "A) 1/2",
+        "B) 2",
+        "C) 0",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using L'Hôpital's rule twice: \\lim(x→0) (eˣ - 1 - x)/x² = \\lim(x→0) (eˣ - 1)/(2x) = \\lim(x→0) eˣ/2 = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q33",
+      "topic": "Matrices",
+      "sub_topic": "Probability",
+      "difficulty": "hard",
+      "question": "Three boxes contain balls: Box I (2R,3B), Box II (3R,2B), Box III (4R,1B). A box is chosen at random and a red ball is drawn. What is the probability it came from Box III?",
+      "options": [
+        "A) 2/5",
+        "B) 4/9",
+        "C) 5/9",
+        "D) 1/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( P(Box III | Red) = P(Box III ∩ Red)/P(Red) = (\\frac{1}{3} × \\frac{4}{5}) / [(\\frac{1}{3} × \\frac{2}{5}) + (\\frac{1}{3} × \\frac{3}{5}) + (\\frac{1}{3} × \\frac{4}{5})] = (\\frac{4}{15}) / (\\frac{9}{15}) = \\frac{4}{9}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q34",
+      "topic": "Matrices",
+      "sub_topic": "Integration",
+      "difficulty": "hard",
+      "question": "\\( The value of ∫₀^π x·\\sin(x)/(1 + cos²(x)) dx is: \\)",
+      "options": [
+        "A) π²/4",
+        "B) π²/2",
+        "C) π/2",
+        "D) π²/8"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using the property ∫₀^π f(x)dx = ∫₀^π f(π-x)dx and adding: 2I = ∫₀^π π·\\sin(x)/(1+cos²(x)) dx. Let u = \\cos(x), du = -\\sin(x)dx: 2I = π ∫₋₁¹ du/(1+u²) = π[\\tan⁻¹(u)]₋₁¹ = π(π/4 - (-π/4)) = π²/2. So I = π²/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q35",
+      "topic": "Matrices",
+      "sub_topic": "Differential Equations",
+      "difficulty": "hard",
+      "question": "The general solution of d²y/dx² - 4dy/dx + 4y = 0 is:",
+      "options": [
+        "A) y = (C₁ + C₂x)e⁻²ˣ",
+        "B) y = (C₁ + C₂x)e²ˣ",
+        "C) y = C₁cos(2x) + C₂sin(2x)",
+        "D) y = C₁e²ˣ + C₂e⁻²ˣ"
+      ],
+      "correct_option": "B",
+      "explanation": "Characteristic equation: r² - 4r + 4 = 0, giving (r-2)² = 0, so r = 2 (repeated root). General solution: y = (C₁ + C₂x)e²ˣ."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q36",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse Trigonometric Functions",
+      "difficulty": "hard",
+      "question": "Evaluate the following integral: The value of ∫dx/√(9-x²) is:",
+      "options": [
+        "A) sin⁻¹(x/3) + C",
+        "B) (1/3)sin⁻¹(x/3) + C",
+        "C) 3sin⁻¹(x/3) + C",
+        "D) sin⁻¹(3x) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Standard integral: ∫dx/√(a²-x²) = sin⁻¹(x/a) + C. Here a=3."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q37",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "hard",
+      "question": "Using Cramer's rule, solve: 2x + y = 5, x - 3y = 1. The value of x is:",
+      "options": [
+        "A) 5/7",
+        "B) 3/7",
+        "C) 11/7",
+        "D) 16/7"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( D = \\left| \\1 \\right| = -6-1 = -7. Dx = \\left| \\1 \\right| = -15-1 = -16. x = Dx/D = (-16)/(-7) = \\frac{16}{7}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q38",
+      "topic": "Matrices",
+      "sub_topic": "Calculus",
+      "difficulty": "hard",
+      "question": "For f(x) = x³ - 3x² + 2x on [0, 2], the value of c guaranteed by Rolle's theorem is:",
+      "options": [
+        "A) 1",
+        "B) 2/3",
+        "C) 1 ± √3",
+        "D) 1 ± 1/√3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( f(0) = 0 and f(2) = 8 - 12 + 4 = 0. f'(x) = 3x² - 6x + 2. Setting f'(c) = 0: 3c² - 6c + 2 = 0. By quadratic formula: c = (6 ± \\sqrt{36-24})/6 = (6 ± \\sqrt{12})/6 = (6 ± 2\\sqrt{3})/6 = 1 ± 1/\\sqrt{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q39",
+      "topic": "Matrices",
+      "sub_topic": "Probability",
+      "difficulty": "hard",
+      "question": "\\( A fair coin is tossed 6 \\times. The probability of getting at least 4 heads is: \\)",
+      "options": [
+        "A) 21/32",
+        "B) 15/64",
+        "C) 1/2",
+        "D) 11/32"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( P(X ≥ 4) = P(4) + P(5) + P(6) = C(6,4)(\\frac{1}{2})⁶ + C(6,5)(\\frac{1}{2})⁶ + C(6,6)(\\frac{1}{2})⁶ = (15 + 6 + 1)/64 = \\frac{22}{64} = \\frac{11}{32}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q40",
+      "topic": "Matrices",
+      "sub_topic": "Integration",
+      "difficulty": "hard",
+      "question": "The value of ∫(3x + 5)/((x+1)(x+2)) dx is:",
+      "options": [
+        "A) ln|x+1| + 2ln|x+2| + C",
+        "B) ln|x+1| - 2ln|x+2| + C",
+        "C) 2ln|x+1| + ln|x+2| + C",
+        "D) 2ln|x+1| - ln|x+2| + C"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using \\partial fractions: (3x+5)/((x+1)(x+2)) = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=-1: 2 = A(1), so A=2. At x=-2: -1 = B(-1), so B=1. ∫ = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q41",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Financial Mathematics",
+      "difficulty": "hard",
+      "question": "\\( A person deposits ₹1000 at the end of each year \\in a bank offering 10% compound interest. The amount after 3 years is: \\)",
+      "options": [
+        "A) ₹3000",
+        "B) ₹3100",
+        "C) ₹3200",
+        "D) ₹3310"
+      ],
+      "correct_option": "D",
+      "explanation": "This is an ordinary annuity. Future value = 1000(1.1)² + 1000(1.1)¹ + 1000(1.1)⁰ = 1000(1.21 + 1.1 + 1) = 1000(3.31) = ₹3310."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q42",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Probability Distributions",
+      "difficulty": "hard",
+      "question": "In a Poisson distribution, if P(X = 1) = P(X = 2), then the mean λ is:",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 4",
+        "D) 3"
+      ],
+      "correct_option": "A",
+      "explanation": "P(X=1) = (λ¹e⁻λ)/1! = λe⁻λ. P(X=2) = (λ²e⁻λ)/2! = λ²e⁻λ/2. Setting equal: λe⁻λ = λ²e⁻λ/2, so 1 = λ/2, giving λ = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q43",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Time Based Data",
+      "difficulty": "hard",
+      "question": "Using the method of least squares, the slope of the regression line for data points (1,2), (2,3), (3,5), (4,7) is:",
+      "options": [
+        "A) 1.5",
+        "B) 1.7",
+        "C) 2.0",
+        "D) 1.3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( x̄ = 2.5, ȳ = 4.25. Σ(xᵢ-x̄)(yᵢ-ȳ) = (-1.5)(-2.25) + (-0.5)(-1.25) + (0.5)(0.75) + (1.5)(2.75) = 3.375 + 0.625 + 0.375 + 4.125 = 8.5. Σ(xᵢ-x̄)² = 2.25 + 0.25 + 0.25 + 2.25 = 5. Slope b = 8.\\frac{5}{5} = 1.7. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q44",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Inferential Statistics",
+      "difficulty": "hard",
+      "question": "A population has mean 100 and variance 16. Using Central Limit Theorem, the probability that the sample mean of 64 observations exceeds 101 is approximately:",
+      "options": [
+        "A) 0.4772",
+        "B) 0.3413",
+        "C) 0.0228",
+        "D) 0.1587"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( σ_x̄ = σ/\\sqrt{n} = \\frac{4}{8} = 0.5. Z = (101-100)/0.5 = 2. P(Z > 2) = 1 - 0.9772 = 0.0228. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q45",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Numbers and Quantification",
+      "difficulty": "hard",
+      "question": "The number of positive divisors of 7200 is:",
+      "options": [
+        "A) 54",
+        "B) 48",
+        "C) 36",
+        "D) 60"
+      ],
+      "correct_option": "A",
+      "explanation": "7200 = 2⁵ × 3² × 5². Number of divisors = (5+1)(2+1)(2+1) = 6 × 3 × 3 = 54."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q46",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Algebra",
+      "difficulty": "hard",
+      "question": "If α, β are roots of x² - 3x + 2 = 0, then the equation whose roots are α² and β² is:",
+      "options": [
+        "A) x² - 7x + 4 = 0",
+        "B) x² - 5x + 4 = 0",
+        "C) x² - 13x + 36 = 0",
+        "D) x² - 5x + 16 = 0"
+      ],
+      "correct_option": "B",
+      "explanation": "α + β = 3, αβ = 2. α² + β² = (α+β)² - 2αβ = 9 - 4 = 5. α²β² = (αβ)² = 4. The equation is x² - 5x + 4 = 0."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q47",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Calculus",
+      "difficulty": "hard",
+      "question": "The volume of the largest right circular cone that can be cut from a cube of edge 6 cm is:",
+      "options": [
+        "A) 72π cm³",
+        "B) 18π cm³",
+        "C) 36π cm³",
+        "D) 54π cm³"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Maximum cone: base diameter = 6 cm (radius = 3 cm), height = 6 cm. Volume = (\\frac{1}{3})πr²h = (\\frac{1}{3})π(9)(6) = 18π cm³. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q48",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Financial Mathematics",
+      "difficulty": "hard",
+      "question": "The effective annual rate of interest corresponding to a nominal rate of 12% per annum compounded quarterly is:",
+      "options": [
+        "A) 12.68%",
+        "B) 12.00%",
+        "C) 12.55%",
+        "D) 12.49%"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Effective rate = (1 + r/n)ⁿ - 1 = (1 + 0.\\frac{12}{4})⁴ - 1 = (1.03)⁴ - 1 = 1.12550881 - 1 = 0.1255 = 12.55%. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q49",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Linear Programming",
+      "difficulty": "hard",
+      "question": "Maximize Z = 5x + 3y subject to x + y ≤ 10, 2x + y ≤ 16, x ≤ 7, x ≥ 0, y ≥ 0. The maximum value is:",
+      "options": [
+        "A) 42",
+        "B) 40",
+        "C) 45",
+        "D) 35"
+      ],
+      "correct_option": "A",
+      "explanation": "Corner points of feasible region: (0,0)→0, (7,0)→35, (6,4)→42, (0,10)→30. Point (7,3) is not feasible as 2(7)+3=17>16. Maximum Z = 42 at (6,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P24_L8C_Q50",
+      "topic": "Applied Mathematics",
+      "sub_topic": "Probability Distributions",
+      "difficulty": "hard",
+      "question": "In a normal distribution with mean 50 and standard deviation 10, the probability that a randomly selected value lies between 40 and 60 is approximately:",
+      "options": [
+        "A) 0.6826",
+        "B) 0.9974",
+        "C) 0.9544",
+        "D) 0.5000"
+      ],
+      "correct_option": "A",
+      "explanation": "40 and 60 are μ ± σ. In a normal distribution, P(μ - σ < X < μ + σ) ≈ 0.6826 (68-95-99.7 rule)."
+    }
+  ]
+}

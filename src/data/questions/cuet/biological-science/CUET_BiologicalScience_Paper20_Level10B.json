@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P20_L10B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 20,
+  "difficulty_level": "10B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "In angiosperms, the pollen grain is shed at which developmental stage in most species?",
+      "options": [
+        "A) Two-celled stage (vegetative cell and generative cell)",
+        "B) Three-celled stage (vegetative cell and two sperm cells)",
+        "C) Unicellular microspore stage",
+        "D) Four-celled stage with two tube cells"
+      ],
+      "correct_option": "D",
+      "explanation": "In approximately 60% of angiosperms, the pollen grain is shed at the two-celled stage (one vegetative cell and one generative cell). The generative cell later divides to form two sperm cells, either before or during pollen tube growth through the style."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q02",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which type of immunity is acquired by the fetus when maternal IgG antibodies cross the placenta?",
+      "options": [
+        "A) Active natural immunity",
+        "B) Active artificial immunity",
+        "C) Passive artificial immunity",
+        "D) Passive natural immunity"
+      ],
+      "correct_option": "D",
+      "explanation": "Maternal IgG antibodies crossing the placenta provide the fetus with pre-formed antibodies. Since the fetus does not produce these antibodies itself (passive) and the transfer occurs naturally via the placenta (natural), this is classified as naturally acquired passive immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "During spermatogenesis, the Sertoli cells secrete which hormone that acts as a local regulator of testicular function by inhibiting FSH release?",
+      "options": [
+        "A) Anti-Müllerian hormone (AMH), which causes regression of Müllerian ducts",
+        "B) Inhibin B, which provides negative feedback on FSH secretion",
+        "C) Dihydrotestosterone (DHT), which regulates secondary sexual characteristics",
+        "D) Activin, which stimulates FSH secretion"
+      ],
+      "correct_option": "D",
+      "explanation": "Sertoli cells secrete inhibin B in response to FSH stimulation. Inhibin B provides negative feedback specifically on FSH secretion from the anterior pituitary, serving as a key regulator of spermatogenesis without affecting LH or testosterone levels."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Double fertilization in angiosperms involves one sperm fusing with the egg cell and the other sperm fusing with:",
+      "options": [
+        "A) The antipodal cells to form the suspensor",
+        "B) The two polar nuclei to form the triploid endosperm",
+        "C) The central cell nucleus only, which is haploid",
+        "D) The synergids to form the endosperm"
+      ],
+      "correct_option": "D",
+      "explanation": "In double fertilization, one sperm fertilizes the egg to form the diploid zygote, while the other sperm fertilizes the central cell (containing two polar nuclei) to form the triploid primary endosperm nucleus, which develops into the endosperm that nourishes the embryo."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q05",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In a cross between AaBb and aabb, the offspring show a phenotypic ratio of 1:1:1:1. What does this indicate about the two genes?",
+      "options": [
+        "A) The genes assort independently or are far apart on the same chromosome",
+        "B) The genes are completely linked",
+        "C) The genes are linked with 50% recombination frequency",
+        "D) One gene is epistatic to the other"
+      ],
+      "correct_option": "C",
+      "explanation": "A 1:1:1:1 ratio in a testcross (AaBb x aabb) indicates that the heterozygous parent produces four types of gametes in equal proportions (AB, Ab, aB, ab). This occurs when genes assort independently (on different chromosomes) or are far apart on the same chromosome with recombination approaching 50%."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q06",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "During DNA replication, which enzyme synthesizes the RNA primer required for DNA polymerase to begin synthesis?",
+      "options": [
+        "A) Primase (DnaG)",
+        "B) DNA ligase",
+        "C) DNA polymerase III",
+        "D) Helicase (DnaB)"
+      ],
+      "correct_option": "C",
+      "explanation": "Primase (DnaG in E. coli) synthesizes a short RNA primer complementary to the DNA template. DNA polymerase III cannot initiate synthesis de novo and requires a primer with a free 3'-OH group to which it can add nucleotides."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q07",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Histamine is released from mast cells and basophils during allergic reactions. Which receptor mediates the increased vascular permeability and smooth muscle contraction in anaphylaxis?",
+      "options": [
+        "A) H3 receptor, which acts as an autoreceptor in the CNS",
+        "B) H1 receptor, which triggers vasodilation and increased capillary permeability",
+        "C) H2 receptor, which stimulates gastric acid secretion",
+        "D) H4 receptor, which mediates chemotaxis of eosinophils"
+      ],
+      "correct_option": "B",
+      "explanation": "Histamine H1 receptors mediate the classic signs of inflammation: vasodilation, increased vascular permeability (edema), smooth muscle contraction (especially bronchoconstriction in anaphylaxis), and itching. H1 antihistamines (like cetirizine) are first-line treatments for allergic reactions."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q08",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "In Swiss cheese, the characteristic large holes (eyes) are formed by the production of carbon dioxide by which organism?",
+      "options": [
+        "A) Lactobacillus lactis, which produces CO₂ during homolactic fermentation",
+        "B) Streptococcus thermophilus, which produces CO₂ during lactose metabolism",
+        "C) Penicillium roqueforti, which releases CO₂ during lipolysis",
+        "D) Propionibacterium freudenreichii, which produces CO₂ from propionic acid fermentation"
+      ],
+      "correct_option": "D",
+      "explanation": "Propionibacterium freudenreichii metabolizes lactic acid to propionic acid, acetic acid, and CO₂. The CO₂ gas forms bubbles that create the characteristic eyes in Swiss cheese. This secondary fermentation occurs during the ripening phase at warmer temperatures."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q09",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which enzyme is essential for joining Okazaki fragments during DNA replication by forming phosphodiester bonds between adjacent nucleotides?",
+      "options": [
+        "A) DNA polymerase I, which removes RNA primers",
+        "B) DNA ligase, which seals nicks in the sugar-phosphate backbone",
+        "C) Topoisomerase, which relieves supercoiling",
+        "D) DNA helicase, which unwinds the double helix"
+      ],
+      "correct_option": "D",
+      "explanation": "DNA ligase catalyzes the formation of phosphodiester bonds between adjacent 3'-OH and 5'-phosphate groups, sealing the nicks between Okazaki fragments on the lagging strand. Without ligase, the newly synthesized DNA would remain as discontinuous fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q10",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "In gel electrophoresis, DNA fragments migrate toward the positive electrode. What property of DNA accounts for its consistent charge-to-mass ratio?",
+      "options": [
+        "A) Each phosphate group carries a negative charge, and the charge is proportional to fragment length",
+        "B) Each nucleotide carries one positive charge from the amino group",
+        "C) DNA is uniformly coated with ethidium bromide before electrophoresis",
+        "D) The hydrogen bonds between bases carry a uniform positive charge"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA's phosphate backbone contributes one negative charge per nucleotide. Since each nucleotide has approximately the same molecular mass, the charge-to-mass ratio is constant regardless of fragment size. This means separation in standard agarose gel electrophoresis is based purely on size (length in base pairs)."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q11",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "The sigmoid (S-shaped) population growth curve reaches a plateau at the carrying capacity (K). At this point, the population growth rate is:",
+      "options": [
+        "A) Maximized because resources are abundant",
+        "B) Negative because emigration exceeds immigration",
+        "C) Zero because birth rate equals death rate",
+        "D) Positive but decreasing due to density-dependent factors"
+      ],
+      "correct_option": "C",
+      "explanation": "At carrying capacity (K), the population size stabilizes where the per capita birth rate equals the per capita death rate, making dN/dt = 0. Density-dependent factors (competition for limited resources, predation, disease) have increased mortality and decreased natality until they balance."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q12",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "The 10% law of energy transfer states that only about 10% of energy is passed from one trophic level to the next. This is primarily because:",
+      "options": [
+        "A) Predators consume only 10% of available prey",
+        "B) Sunlight provides only 10% usable energy to producers",
+        "C) Most energy is lost as heat through respiration and metabolic activities at each level",
+        "D) Decomposers capture 90% of the energy"
+      ],
+      "correct_option": "B",
+      "explanation": "At each trophic level, organisms use most of the energy they assimilate for cellular respiration (metabolic activities), which is lost as heat. Only about 10% of the energy is stored as biomass and available to the next trophic level. This limits the number of trophic levels in an ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q13",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which method of contraception works primarily by preventing ovulation through continuous release of synthetic estrogen and progestin?",
+      "options": [
+        "A) Barrier methods (condoms)",
+        "B) Combined oral contraceptive pills",
+        "C) Intrauterine copper device (CuT)",
+        "D) Tubal ligation (surgical sterilization)"
+      ],
+      "correct_option": "C",
+      "explanation": "Combined oral contraceptive pills contain synthetic estrogen and progestin that inhibit the mid-cycle LH surge through negative feedback on the hypothalamic-pituitary axis, thereby preventing ovulation. They also thicken cervical mucus and alter the endometrium."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q14",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In prokaryotes, the Shine-Dalgarno sequence (ribosome binding site) is located on the mRNA at which position relative to the start codon?",
+      "options": [
+        "A) Immediately after the start codon AUG",
+        "B) At the 3' end of the mRNA",
+        "C) 6-10 nucleotides upstream (5') of the start codon AUG",
+        "D) Within the promoter region upstream of the transcription start site"
+      ],
+      "correct_option": "D",
+      "explanation": "The Shine-Dalgarno sequence (AGGAGG) is located 6-10 nucleotides upstream of the start codon AUG on prokaryotic mRNA. It base-pairs with the 16S rRNA of the small ribosomal subunit, positioning the ribosome correctly for translation initiation."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q15",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Passive immunity differs from active immunity in that passive immunity:",
+      "options": [
+        "A) Provides immediate but temporary protection because no memory cells are generated",
+        "B) Involves the recipient's own immune system producing antibodies",
+        "C) Lasts for the lifetime of the individual",
+        "D) Requires exposure to antigens through vaccination"
+      ],
+      "correct_option": "A",
+      "explanation": "Passive immunity involves the transfer of pre-formed antibodies (e.g., maternal IgG through placenta, antivenom serum). It provides immediate protection but is temporary because the recipient's immune system is not activated and no memory cells are produced. The transferred antibodies are eventually degraded."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q16",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "During polymerase chain reaction (PCR), the step of heating to 94-98°C serves to:",
+      "options": [
+        "A) Allow primers to anneal to the template DNA",
+        "B) Denature the double-stranded DNA template into single strands",
+        "C) Activate the thermostable DNA polymerase",
+        "D) Extend the primers by synthesizing complementary DNA strands"
+      ],
+      "correct_option": "C",
+      "explanation": "The denaturation step (94-98°C) breaks the hydrogen bonds between the two strands of the double-stranded DNA template, yielding single-stranded DNA molecules that serve as templates for primer binding and extension in subsequent steps."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q17",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Which type of biodiversity is measured by the number of different species present in a given area?",
+      "options": [
+        "A) Genetic diversity",
+        "B) Species richness",
+        "C) Ecological diversity",
+        "D) Phylogenetic diversity"
+      ],
+      "correct_option": "B",
+      "explanation": "Species richness refers to the number of different species present in a defined area or community. It is the most commonly used measure of biodiversity. Genetic diversity refers to variation within a species, while ecological diversity refers to the variety of ecosystems and habitats in a region."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q18",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "In the human placenta, the syncytiotrophoblast layer is primarily responsible for which critical function during pregnancy?",
+      "options": [
+        "A) Production of hCG to maintain the corpus luteum and progesterone secretion in early pregnancy",
+        "B) Mechanical protection of the embryo through keratinized epithelial cells",
+        "C) Direct synthesis of fetal hemoglobin for oxygen transport",
+        "D) Formation of the amniotic cavity and production of amniotic fluid"
+      ],
+      "correct_option": "D",
+      "explanation": "The syncytiotrophoblast, the outermost multinucleated layer of the placenta, invades the maternal endometrium and produces human chorionic gonadotropin (hCG). hCG rescues the corpus luteum, maintaining progesterone secretion during the first trimester until the placenta takes over progesterone production."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q19",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "In apomixis, seeds are produced without fertilization. Which mechanism produces seeds genetically identical to the maternal parent?",
+      "options": [
+        "A) Parthenocarpy, where fruits develop without fertilization",
+        "B) Diplospory, where the megaspore mother cell avoids meiosis and forms a diploid embryo sac",
+        "C) Androgenesis, where the embryo develops from sperm cells",
+        "D) Polyembryony, where multiple embryos form from a single fertilized egg"
+      ],
+      "correct_option": "A",
+      "explanation": "In diplospory, the megaspore mother cell bypasses meiosis entirely and develops directly into a diploid embryo sac. The embryo then develops from an unreduced egg cell (parthenogenesis), producing offspring genetically identical to the maternal parent. This is a form of apomixis common in grasses."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q20",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "The hypothalamic-pituitary-gonadal axis regulates testosterone production. Which feedback mechanism best describes the action of testosterone at the hypothalamic level?",
+      "options": [
+        "A) Positive feedback that stimulates GnRH release",
+        "B) Negative feedback that inhibits GnRH and LH secretion",
+        "C) Paracrine signaling that stimulates FSH release only",
+        "D) No feedback effect on the hypothalamus"
+      ],
+      "correct_option": "B",
+      "explanation": "Testosterone exerts negative feedback at both the hypothalamus (reducing GnRH pulse frequency) and the anterior pituitary (reducing LH sensitivity to GnRH). Sertoli cell-derived inhibin B provides additional negative feedback specifically on FSH. This maintains testosterone levels within a physiological range."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q21",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Which assisted reproductive technology involves the direct injection of a single sperm into the cytoplasm of a mature oocyte?",
+      "options": [
+        "A) Intracytoplasmic sperm injection (ICSI)",
+        "B) Gamete intrafallopian transfer (GIFT)",
+        "C) In vitro fertilization (IVF)",
+        "D) Zygote intrafallopian transfer (ZIFT)"
+      ],
+      "correct_option": "A",
+      "explanation": "Intracytoplasmic sperm injection (ICSI) involves using a fine glass pipette to inject a single selected sperm directly into the oocyte cytoplasm. It is used primarily for severe male factor infertility, obstructive azoospermia, or after failed conventional IVF fertilization attempts."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q22",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "A woman is a carrier for an X-linked recessive disorder (X^d X). Her husband is normal (X Y). What is the probability that their daughter will be affected by the disorder?",
+      "options": [
+        "A) 0%, because daughters receive a normal X from their father",
+        "B) 25%, because one quarter of offspring are affected",
+        "C) 50%, because half of daughters inherit the mutant allele",
+        "D) 100%, because all daughters of carrier mothers are affected"
+      ],
+      "correct_option": "B",
+      "explanation": "Daughters inherit one X chromosome from each parent. The father contributes his normal X chromosome to all daughters. While daughters have a 50% chance of inheriting the X^d allele from the mother (making them carriers), they also receive a normal X from the father, so they are never homozygous for the recessive allele and do not express the disorder."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q23",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "During transcription in eukaryotes, RNA polymerase II transcribes protein-coding genes. Which transcription factor first binds to the TATA box to recruit RNA polymerase II?",
+      "options": [
+        "A) TFIIB, which directly binds the TATA box",
+        "B) TBP (TATA-binding protein), a subunit of TFIID",
+        "C) TFIIH, which phosphorylates the CTD of RNA polymerase II",
+        "D) TFIIA, which stabilizes the TFIIB-TBP complex"
+      ],
+      "correct_option": "B",
+      "explanation": "TBP (TATA-binding protein), a subunit of the multi-protein TFIID complex, is the first to recognize and bind the TATA box promoter element. This initiates the sequential assembly of other general transcription factors (TFIIA, TFIIB, TFIIF, RNA Pol II, TFIIE, TFIIH) to form the transcription initiation complex."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q24",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "Which post-translational modification of histones is generally associated with transcriptional activation of genes?",
+      "options": [
+        "A) Acetylation of histone tails (e.g., H3K27ac)",
+        "B) Methylation of H3K9 (histone H3 lysine 9)",
+        "C) Ubiquitination of histone H2A",
+        "D) Deacetylation of histone tails"
+      ],
+      "correct_option": "A",
+      "explanation": "Histone acetylation by histone acetyltransferases (HATs) neutralizes the positive charge of lysine residues, reducing the electrostatic attraction between histones and negatively charged DNA. This loosens chromatin structure (euchromatin), making DNA accessible to transcription factors and RNA polymerase."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q25",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "In the Meselson-Stahl experiment, after one generation of replication in 14N medium, the DNA formed a single band of intermediate density. This result supported which model of DNA replication?",
+      "options": [
+        "A) Both semiconservative and dispersive replication equally",
+        "B) The dispersive model could not be excluded after one generation",
+        "C) Semiconservative replication exclusively",
+        "D) Conservative replication only"
+      ],
+      "correct_option": "A",
+      "explanation": "After one generation in 14N medium, both semiconservative and dispersive models predict a single band of intermediate density. It was only after the second generation (showing two bands for semiconservative: one intermediate and one light) that the dispersive model (predicting a single band at progressively lighter densities) was definitively excluded."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q26",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Genetic drift has the strongest effect on allele frequencies in populations that are:",
+      "options": [
+        "A) Large and have high gene flow with neighboring populations",
+        "B) Undergoing strong directional selection",
+        "C) At Hardy-Weinberg equilibrium with random mating",
+        "D) Small and isolated from other populations"
+      ],
+      "correct_option": "D",
+      "explanation": "Genetic drift is the random change in allele frequencies due to chance events. Its magnitude is inversely proportional to population size (1/2N). In small, isolated populations, random sampling effects can rapidly change allele frequencies, leading to fixation or loss of alleles independent of their selective advantage."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q27",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "According to the molecular clock hypothesis, the rate of nucleotide substitution in a gene is expected to be:",
+      "options": [
+        "A) Constant over time and across lineages if the gene is neutrally evolving",
+        "B) Zero because most mutations are deleterious and eliminated",
+        "C) Accelerated only in coding regions under positive selection",
+        "D) Dependent on the generation time but not on population size"
+      ],
+      "correct_option": "A",
+      "explanation": "The molecular clock hypothesis, proposed by Zuckerkandl and Pauling, states that the rate of amino acid or nucleotide substitution in a protein or gene is approximately constant over time and across different lineages, provided the gene is evolving neutrally. This allows estimation of divergence times between species."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q28",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "Which phenomenon explains why a single gene can produce multiple protein isoforms through different patterns of intron removal?",
+      "options": [
+        "A) Gene amplification",
+        "B) Translational frameshifting during protein synthesis",
+        "C) RNA editing of the open reading frame",
+        "D) Alternative splicing of pre-mRNA"
+      ],
+      "correct_option": "C",
+      "explanation": "Alternative splicing allows a single pre-mRNA transcript to be processed in different ways by joining different combinations of exons. This produces multiple mRNA variants and protein isoforms from the same gene. It significantly increases proteomic diversity beyond the number of genes, with ~95% of human multi-exon genes undergoing alternative splicing."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q29",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "In the pathophysiology of type 1 diabetes mellitus, which cells are specifically targeted and destroyed by autoimmune processes?",
+      "options": [
+        "A) Beta cells of pancreatic islets that produce insulin",
+        "B) Acinar cells that produce digestive enzymes",
+        "C) Alpha cells of pancreatic islets that produce glucagon",
+        "D) Ductal epithelial cells that secrete bicarbonate"
+      ],
+      "correct_option": "C",
+      "explanation": "Type 1 diabetes mellitus results from T-cell mediated autoimmune destruction of pancreatic beta cells (β-cells) in the islets of Langerhans. This leads to absolute insulin deficiency, hyperglycemia, and dependence on exogenous insulin. It typically manifests in childhood or adolescence."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q30",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Complement-mediated cell lysis via the membrane attack complex (MAC) involves the sequential assembly of which complement components?",
+      "options": [
+        "A) C1q, C1r, C1s forming the C3 convertase",
+        "B) C3a and C5a acting as anaphylatoxins",
+        "C) C5b, C6, C7, C8, and multiple C9 molecules forming pores in the target membrane",
+        "D) Factor H and Factor I degrading C3b"
+      ],
+      "correct_option": "C",
+      "explanation": "The membrane attack complex (MAC) is formed by the sequential assembly of C5b (from C5 cleavage), C6, C7, C8, and multiple C9 molecules. C9 polymerizes to form transmembrane pores (approximately 10 nm diameter) in the target cell membrane, causing osmotic lysis of pathogens or antibody-coated cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q31",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "In a secondary wastewater treatment plant, the activated sludge process relies on which group of microorganisms to degrade organic matter?",
+      "options": [
+        "A) Methanogenic archaea that produce methane",
+        "B) Sulfur-oxidizing bacteria that produce sulfuric acid",
+        "C) Photosynthetic algae that produce oxygen",
+        "D) Aerobic heterotrophic bacteria and protozoa forming flocs"
+      ],
+      "correct_option": "C",
+      "explanation": "The activated sludge process uses aerobic heterotrophic bacteria (primarily Pseudomonas, Zoogloea, and Bacillus species) that aggregate into flocs along with protozoa. These organisms metabolize organic matter in wastewater, reducing BOD. Protozoa consume free-swimming bacteria, clarifying the effluent."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q32",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "During a secondary immune response, the rapid and robust antibody production is primarily mediated by which cell type?",
+      "options": [
+        "A) Naive B cells that have never encountered antigen",
+        "B) Memory B cells that rapidly differentiate into plasma cells",
+        "C) Dendritic cells that present antigen to T cells",
+        "D) Natural killer cells that mediate antibody-dependent cytotoxicity"
+      ],
+      "correct_option": "A",
+      "explanation": "Memory B cells, generated during the primary immune response, have high-affinity B cell receptors and can rapidly differentiate into antibody-secreting plasma cells upon re-exposure to the same antigen. This secondary response is faster (days vs weeks), stronger (higher antibody titer), and produces predominantly IgG rather than IgM."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q33",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Which cytokine is primarily responsible for the recruitment and activation of macrophages during chronic inflammation and granuloma formation?",
+      "options": [
+        "A) Interleukin-4 (IL-4), produced by Th2 cells",
+        "B) Interleukin-10 (IL-10), produced by regulatory T cells",
+        "C) Transforming growth factor-beta (TGF-β), produced by fibroblasts",
+        "D) Interferon-gamma (IFN-γ), produced by Th1 cells"
+      ],
+      "correct_option": "D",
+      "explanation": "IFN-γ, produced by Th1 cells and NK cells, is the key activator of macrophages. It enhances their microbicidal activity, upregulates MHC class II expression, and promotes granuloma formation in diseases like tuberculosis and leprosy. This Th1-mediated macrophage activation is critical for controlling intracellular pathogens."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q34",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "In Southern blotting, what is the purpose of the denaturation step after electrophoresis but before transfer to the membrane?",
+      "options": [
+        "A) To increase the binding affinity of DNA to the nitrocellulose membrane",
+        "B) To ligate the DNA fragments into the membrane matrix",
+        "C) To degrade RNA contaminants that may interfere with detection",
+        "D) To convert double-stranded DNA into single strands for probe hybridization"
+      ],
+      "correct_option": "B",
+      "explanation": "After electrophoresis, DNA fragments are treated with an alkaline solution (NaOH) to denature the double-stranded DNA into single strands. This is essential because hybridization probes (radioactive or fluorescent) are single-stranded and must base-pair with complementary sequences on the membrane for detection."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q35",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Which selectable marker is commonly used to identify plant cells that have successfully integrated a transgene during Agrobacterium-mediated transformation?",
+      "options": [
+        "A) Neomycin phosphotransferase II (nptII/kanamycin resistance)",
+        "B) Ampicillin resistance gene (ampR)",
+        "C) β-galactosidase (lacZ) for blue-white screening",
+        "D) Green fluorescent protein (GFP) from jellyfish"
+      ],
+      "correct_option": "A",
+      "explanation": "The nptII gene encoding neomycin phosphotransferase II confers resistance to kanamycin and related aminoglycoside antibiotics. It is widely used in plant transformation vectors because transformed plant cells survive on kanamycin-containing medium while non-transformed cells die. Antibiotic selection ensures that only genetically modified cells proliferate."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q36",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which technique allows site-directed mutagenesis by using short synthetic DNA oligonucleotides containing the desired mutation?",
+      "options": [
+        "A) Error-prone PCR, which introduces random mutations throughout the gene",
+        "B) UV irradiation to induce thymine dimers",
+        "C) Oligonucleotide-directed mutagenesis using primer extension with DNA polymerase",
+        "D) Chemical mutagenesis with ethyl methanesulfonate (EMS)"
+      ],
+      "correct_option": "C",
+      "explanation": "Oligonucleotide-directed (site-directed) mutagenesis uses a synthetic primer containing the desired mutation. The primer anneals to the template DNA and is extended by DNA polymerase to produce a mutated strand. After transformation and replication, the mutation is incorporated. This allows precise, predetermined changes at specific nucleotide positions."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q37",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "In animal cell culture, what is the purpose of adding trypsin to adherent cell cultures?",
+      "options": [
+        "A) To provide essential growth factors for cell proliferation",
+        "B) To stain viable cells for counting",
+        "C) To neutralize excess CO₂ in the incubator atmosphere",
+        "D) To digest extracellular matrix proteins and detach cells from the culture surface"
+      ],
+      "correct_option": "B",
+      "explanation": "Trypsin is a serine protease that cleaves extracellular matrix proteins (fibronectin, collagen) that anchor adherent cells to the culture vessel surface. Combined with EDTA (which chelates Ca²⁺ needed for cell adhesion), trypsinization produces a single-cell suspension for subculturing or counting."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q38",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which property of Taq DNA polymerase makes it suitable for PCR?",
+      "options": [
+        "A) It has proofreading (3'→5') exonuclease activity",
+        "B) It functions optimally at 37°C, the temperature of primer annealing",
+        "C) It can synthesize DNA without a template strand",
+        "D) It is heat-stable and retains activity after repeated denaturation at 94-98°C"
+      ],
+      "correct_option": "D",
+      "explanation": "Taq DNA polymerase, isolated from Thermus aquaticus, has optimal activity at 72-80°C and is heat-stable, retaining >90% activity after heating at 95°C for 1.5 hours. This thermostability eliminates the need to add fresh enzyme after each denaturation step, enabling automated thermal cycling."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q39",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "The ELISA test for HIV detection typically uses which format to detect anti-HIV antibodies in patient serum?",
+      "options": [
+        "A) Sandwich ELISA, where the antigen is captured between two antibodies",
+        "B) Competitive ELISA, where labeled and unlabeled antigen compete for binding",
+        "C) Direct ELISA, where the antigen is directly labeled with an enzyme",
+        "D) Indirect ELISA, where HIV antigens are coated and detected by patient antibodies followed by enzyme-conjugated anti-human IgG"
+      ],
+      "correct_option": "D",
+      "explanation": "Indirect ELISA for HIV detection coats the plate with HIV antigens (gp41, gp120). Patient serum is added; if anti-HIV antibodies are present, they bind. An enzyme-conjugated anti-human IgG secondary antibody is added, followed by substrate. The color intensity correlates with antibody concentration. This is the standard screening assay (confirmed by Western blot or PCR)."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q40",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "The Lotka-Volterra predator-prey model predicts that predator and prey populations oscillate over time. In this model, the predator population:",
+      "options": [
+        "A) Lags behind the prey population by approximately one-quarter of a cycle",
+        "B) Peaks simultaneously with the prey population",
+        "C) Leads the prey population by half a cycle",
+        "D) Remains constant regardless of prey density"
+      ],
+      "correct_option": "B",
+      "explanation": "In the Lotka-Volterra model, predator abundance lags behind prey abundance because predator reproduction depends on prey consumption time. After prey increases, predator numbers increase with a delay. The classic phase-shifted oscillation shows prey peaks followed by predator peaks approximately one-quarter cycle later."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q41",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "The gross primary productivity of an aquatic ecosystem is 1000 kJ/m²/year. If 60% of GPP is lost through autotrophic respiration, and herbivores assimilate 15% of the remaining NPP, what is the energy available to the herbivore trophic level?",
+      "options": [
+        "A) 60 kJ/m²/year",
+        "B) 400 kJ/m²/year",
+        "C) 150 kJ/m²/year",
+        "D) 600 kJ/m²/year"
+      ],
+      "correct_option": "C",
+      "explanation": "NPP = GPP - respiration = 1000 - (60% of 1000) = 1000 - 600 = 400 kJ/m²/year. Energy assimilated by herbivores = 15% of NPP = 0.15 × 400 = 60 kJ/m²/year. Note that assimilation is different from consumption (which includes egestion)."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q42",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "In biogeochemical cycling, the phosphorus cycle is classified as sedimentary because its primary reservoir is:",
+      "options": [
+        "A) Living organisms as adenosine triphosphate (ATP)",
+        "B) The atmosphere as phosphine gas (PH₃)",
+        "C) Rocks and soil minerals in the form of phosphate ions, with no significant atmospheric gaseous phase",
+        "D) Dissolved as elemental phosphorus (P₄) in ocean waters"
+      ],
+      "correct_option": "A",
+      "explanation": "The phosphorus cycle is a sedimentary biogeochemical cycle because its main reservoir is the lithosphere—phosphate rocks (apatite) and soil minerals. Unlike carbon and nitrogen, phosphorus lacks a significant gaseous phase at normal Earth temperatures, so cycling depends on weathering, erosion, and biological uptake rather than atmospheric transport."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q43",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "The species-area relationship on islands is steeper (higher z-value) than on mainland areas. Which explanation best accounts for this difference?",
+      "options": [
+        "A) The relationship is identical; z-values do not differ between islands and mainland",
+        "B) Islands have higher speciation rates than mainland areas",
+        "C) Mainland areas have lower habitat heterogeneity",
+        "D) Islands lose species faster with area reduction due to smaller population sizes and higher extinction rates"
+      ],
+      "correct_option": "A",
+      "explanation": "Island species-area curves typically have higher z-values (0.25-0.35) compared to mainland areas (0.10-0.15) because island populations are smaller and more extinction-prone. When island area decreases, the remaining habitat supports smaller populations, which face higher extinction risks due to demographic stochasticity, inbreeding depression, and environmental fluctuations."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q44",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Environmental Issues",
+      "difficulty": "hard",
+      "question": "Eutrophication in freshwater lakes is primarily caused by excess input of which nutrients?",
+      "options": [
+        "A) Carbon dioxide and methane",
+        "B) Nitrogen and phosphorus from agricultural runoff and sewage",
+        "C) Heavy metals like mercury and lead",
+        "D) Sodium chloride from road salt"
+      ],
+      "correct_option": "B",
+      "explanation": "Eutrophication is the nutrient enrichment of water bodies, primarily by nitrogen (nitrates, ammonium) and phosphorus (phosphates) from agricultural fertilizer runoff, sewage discharge, and industrial effluents. These nutrients stimulate excessive algal blooms, which upon decomposition deplete dissolved oxygen, killing aquatic life (hypoxia/anoxia)."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q45",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "During follicular development in the ovary, the transition from a preantral to an antral follicle is characterized by the appearance of a fluid-filled cavity. This process is critically dependent on which growth factor?",
+      "options": [
+        "A) Follicular fluid and granulosa cell secretion forming the antrum",
+        "B) Kit ligand (stem cell factor) and anti-Müllerian hormone",
+        "C) Vascular endothelial growth factor (VEGF)",
+        "D) Growth differentiation factor-9 (GDF-9) from the oocyte"
+      ],
+      "correct_option": "B",
+      "explanation": "The transition to an antral follicle involves granulosa cells secreting follicular fluid (plasma transudate and locally produced mucopolysaccharides) that coalesce to form the antral cavity. While GDF-9 is essential for early follicle growth and VEGF for angiogenesis, the specific formation of the antrum depends on granulosa cell secretory activity."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q46",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "In epistasis, one gene masks the phenotypic expression of another gene. In Labrador retrievers, the E/e gene determines whether pigment is deposited. If a dog is homozygous recessive (ee), it is yellow regardless of B/b genotype. This is an example of:",
+      "options": [
+        "A) Recessive epistasis where ee masks the B/b locus",
+        "B) Duplicate gene action",
+        "C) Complementary gene interaction",
+        "D) Domininant epistasis where E masks the B/b locus"
+      ],
+      "correct_option": "D",
+      "explanation": "In recessive epistasis, a homozygous recessive genotype at one locus (ee) masks the expression of alleles at a second locus (B/b). Eumelanin production (B allele) requires at least one E allele. Without the E allele (ee), no pigment is deposited, resulting in a yellow coat regardless of B/b genotype. This produces a modified 9:3:4 ratio in F2."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q47",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "Which DNA repair mechanism specifically corrects thymine dimers caused by UV radiation by excising a short single-stranded segment containing the damage?",
+      "options": [
+        "A) Base excision repair (BER), which removes damaged bases via glycosylases",
+        "B) Nucleotide excision repair (NER), which removes a 12-30 nucleotide oligomer containing the lesion",
+        "C) Mismatch repair (MMR), which corrects replication errors",
+        "D) Homologous recombination repair, which fixes double-strand breaks"
+      ],
+      "correct_option": "B",
+      "explanation": "Nucleotide excision repair (NER) is the primary mechanism for repairing bulky helix-distorting lesions such as thymine (pyrimidine) dimers. In E. coli, the UvrABC endonuclease complex excises a 12-nucleotide segment; in humans, ~22-30 nucleotides are removed. The gap is filled by DNA polymerase using the undamaged strand as template."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q48",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Which class of immunoglobulins is primarily responsible for mediating type I hypersensitivity reactions (allergic responses)?",
+      "options": [
+        "A) IgE, which binds to FcεRI receptors on mast cells and basophils",
+        "B) IgG, which activates the classical complement pathway",
+        "C) IgM, which is the first antibody produced in a primary response",
+        "D) IgA, which mediates mucosal immunity"
+      ],
+      "correct_option": "B",
+      "explanation": "IgE antibodies bind with high affinity to FcεRI receptors on mast cells and basophils. Upon re-exposure to allergen, cross-linking of bound IgE triggers degranulation, releasing histamine, leukotrienes, and prostaglandins. This immediate hypersensitivity (type I) mechanism underlies allergic rhinitis, asthma, and anaphylaxis."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q49",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which technique is used to determine the precise order of nucleotides in a DNA fragment by detecting the sequential addition of labeled nucleotides during synthesis?",
+      "options": [
+        "A) Next-generation sequencing (Illumina) using reversible terminators and fluorescent detection",
+        "B) Sanger sequencing using dideoxy chain terminators",
+        "C) Southern blotting using radioactive probes",
+        "D) Polymerase chain reaction (PCR) for amplification"
+      ],
+      "correct_option": "A",
+      "explanation": "Next-generation sequencing (e.g., Illumina platform) uses reversible terminator nucleotides, each labeled with a distinct fluorophore. During each sequencing cycle, one nucleotide is incorporated, detected by fluorescence, and the blocking group is cleaved. This allows massively parallel sequencing of millions of DNA fragments simultaneously."
+    },
+    {
+      "id": "CUET_BIO_2026_P20_L10B_Q50",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "In-situ conservation through wildlife sanctuaries differs from ex-situ conservation in that:",
+      "options": [
+        "A) In-situ conservation involves captive breeding of endangered species",
+        "B) Ex-situ conservation is always more effective than in-situ methods",
+        "C) In-situ conservation uses seed banks and gene banks for preservation",
+        "D) In-situ conservation protects species within their natural habitat, maintaining ecological interactions and evolutionary processes"
+      ],
+      "correct_option": "C",
+      "explanation": "In-such conservation (national parks, sanctuaries, biosphere reserves) protects entire ecosystems and species within their natural habitats. This preserves ecological interactions (predation, symbiosis, competition), maintains evolutionary processes (natural selection, adaptation), and is considered the ideal conservation approach. Ex-situ methods (zoos, botanical gardens, seed banks) serve as supplements."
+    }
+  ]
+}

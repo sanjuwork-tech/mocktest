@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P3_L3",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 3,
+  "difficulty_level": "3",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which hormone triggers ovulation by causing the mature Graafian follicle to rupture and release the oocyte?",
+      "options": [
+        "A) Prolactin release",
+        "B) Luteinizing hormone (LH) surge",
+        "C) Progesterone peak",
+        "D) Follicle-stimulating hormone (FSH) only"
+      ],
+      "correct_option": "B",
+      "explanation": "The LH surge, triggered by sustained high estrogen levels switching from negative to positive feedback, causes the follicular wall to weaken and rupture, releasing the oocyte ~24-36 hours after the surge begins."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "After fertilization, the ovule develops into which structure?",
+      "options": [
+        "A) The endosperm",
+        "B) The embryo sac",
+        "C) The fruit wall (pericarp)",
+        "D) The seed"
+      ],
+      "correct_option": "D",
+      "explanation": "After fertilization, the ovule matures into the seed. The ovary wall becomes the fruit wall (pericarp), while the zygote develops into the embryo within the seed."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which contraceptive method provides dual protection against both pregnancy and sexually transmitted infections?",
+      "options": [
+        "A) Condom",
+        "B) Injectable contraceptive",
+        "C) Oral contraceptive pill",
+        "D) Intrauterine device (IUD)"
+      ],
+      "correct_option": "A",
+      "explanation": "Condoms (both male and female) are barrier methods that prevent direct contact with bodily fluids, providing dual protection against pregnancy and STIs including HIV, gonorrhea, and chlamydia."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Spermatozoa gain motility and undergo maturation in which structure after leaving the seminiferous tubules?",
+      "options": [
+        "A) Seminal vesicle",
+        "B) Epididymis",
+        "C) Prostate gland",
+        "D) Vas deferens"
+      ],
+      "correct_option": "B",
+      "explanation": "Sperm produced in seminiferous tubules are immature and non-motile. They pass to the epididymis where they undergo maturation, gain motility, and are stored until ejaculation."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Wind-pollinated (anemophilous) flowers are characterized by which adaptations?",
+      "options": [
+        "A) Large brightly colored petals with nectar production",
+        "B) Heavy sticky pollen with strong fragrance",
+        "C) Deep tubular corolla with copious nectar",
+        "D) Small inconspicuous flowers, light non-sticky pollen grains produced in abundance, no nectar or fragrance"
+      ],
+      "correct_option": "D",
+      "explanation": "Anemophilous (wind-pollinated) flowers produce abundant lightweight pollen, have reduced perianth, and lack nectar/fragrance—adaptations for wind dispersal rather than animal attraction."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "The zona reaction (hardening of the zona pellucida) following fertilization is triggered by which preceding event?",
+      "options": [
+        "A) Cortical reaction—release of cortical granules from the oocyte that modify the zona pellucida",
+        "B) Formation of the fertilization cone",
+        "C) Acrosomal reaction",
+        "D) Capacitation of sperm"
+      ],
+      "correct_option": "A",
+      "explanation": "The cortical reaction releases cortical granules that modify the zona pellucida (zona reaction), preventing additional sperm binding—ensuring monospermic fertilization. This is triggered by calcium oscillations following sperm-egg fusion."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Which prenatal diagnostic technique involves sampling chorionic villi (placental tissue) at 10-12 weeks gestation?",
+      "options": [
+        "A) Cordocentesis",
+        "B) Preimplantation genetic diagnosis",
+        "C) Chorionic villus sampling (CVS)",
+        "D) Amniocentesis"
+      ],
+      "correct_option": "C",
+      "explanation": "CVS involves sampling chorionic villi at 10-12 weeks, providing earlier results than amniocentesis (14-16 weeks). It detects chromosomal abnormalities but carries a slightly higher miscarriage risk."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Geitonogamy is best described as:",
+      "options": [
+        "A) Pollination between flowers on different plants",
+        "B) Cross-pollination between different species",
+        "C) Pollination between different flowers on the same plant—genetically equivalent to autogamy but requiring a pollination agent",
+        "D) Self-pollination within a closed flower"
+      ],
+      "correct_option": "C",
+      "explanation": "Geitonogamy involves pollen transfer between flowers on the same plant. Though mechanically similar to cross-pollination, it is genetically equivalent to self-pollination since both gametes come from the same individual."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "The ductus arteriosus in fetal circulation shunts blood from the pulmonary artery to the aorta to bypass fetal lungs. After birth, it closes to form the:",
+      "options": [
+        "A) Ligamentum arteriosum",
+        "B) Ligamentum venosum",
+        "C) Fossa ovalis",
+        "D) Medial umbilical ligament"
+      ],
+      "correct_option": "A",
+      "explanation": "The ductus arteriosus closes functionally at birth when the lungs expand and oxygen levels rise, forming the ligamentum arteriosum. The foramen ovale closes to form the fossa ovalis; ductus venosus becomes the ligamentum venosum."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Human chorionic gonadotropin (hCG) has a longer circulating half-life than LH primarily because:",
+      "options": [
+        "A) Extensive glycosylation of the alpha subunit prevents receptor binding",
+        "B) A shorter beta subunit enhances plasma stability",
+        "C) Additional sialic acid residues on the carboxy-terminal peptide of its beta subunit slow hepatic and renal clearance",
+        "D) Its alpha subunit is structurally unique"
+      ],
+      "correct_option": "C",
+      "explanation": "hCG shares identical alpha subunit and similar beta subunit with LH. Its beta subunit has a C-terminal peptide rich in sialic acid, which reduces hepatic and renal clearance, extending its half-life to ~24 hours compared to LH's ~20 minutes."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "In Mendel's pea plants, crossing two heterozygous tall plants (Tt × Tt) produces what phenotypic ratio in the F2 generation?",
+      "options": [
+        "A) 1 tall : 3 dwarf",
+        "B) 1 tall : 1 dwarf",
+        "C) All tall",
+        "D) 3 tall : 1 dwarf"
+      ],
+      "correct_option": "D",
+      "explanation": "Tt × Tt produces genotypes 1 TT : 2 Tt : 1 tt. Since tall (T) is dominant over dwarf (t), the phenotypic ratio is 3 tall : 1 dwarf—the classic Mendelian monohybrid ratio."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Which enzyme removes RNA primers and replaces them with DNA nucleotides during lagging strand synthesis in prokaryotes?",
+      "options": [
+        "A) DNA polymerase III",
+        "B) DNA polymerase I",
+        "C) DNA ligase",
+        "D) Primase"
+      ],
+      "correct_option": "B",
+      "explanation": "DNA polymerase I has 5'→3' exonuclease activity that removes RNA primers and simultaneously replaces them with DNA nucleotides. DNA ligase then seals the nick between adjacent fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "The presence of feathers in Archaeopteryx supports the evolutionary link between reptiles and birds. This is an example of:",
+      "options": [
+        "A) Paleontological (fossil) evidence",
+        "B) Biochemical evidence",
+        "C) Embryological evidence",
+        "D) Comparative anatomy"
+      ],
+      "correct_option": "A",
+      "explanation": "Archaeopteryx lithographica (~150 mya) had both reptilian features (teeth, clawed wings, bony tail) and avian features (feathers, wishbone). Fossils documenting transitional forms provide direct paleontological evidence for evolution."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "A test cross determines the genotype of an individual showing a dominant phenotype by crossing it with:",
+      "options": [
+        "A) A homozygous recessive individual",
+        "B) A homozygous dominant individual",
+        "C) Any individual with the dominant phenotype",
+        "D) A heterozygous individual"
+      ],
+      "correct_option": "A",
+      "explanation": "A test cross determines whether a dominant-phenotype individual is homozygous dominant or heterozygous by crossing it with a homozygous recessive partner and observing offspring ratios (1:1 for heterozygous, all dominant for homozygous dominant)."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "During translation, the codon on mRNA is recognized by which structural feature of tRNA?",
+      "options": [
+        "A) The TψC loop",
+        "B) The anticodon—three nucleotides complementary to the mRNA codon",
+        "C) The variable arm",
+        "D) The amino acid attachment site at the 5' end"
+      ],
+      "correct_option": "B",
+      "explanation": "Each tRNA has an anticodon loop containing three nucleotides complementary to an mRNA codon. This base-pairing interaction ensures correct amino acid incorporation into the growing polypeptide chain during translation."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "A man with hemophilia (X-linked recessive, XhY) and a normal homozygous woman (XHXH) have children. What is true about their offspring?",
+      "options": [
+        "A) Half the daughters are hemophilic",
+        "B) All daughters are carriers; all sons have normal blood clotting",
+        "C) Half the sons and half the daughters show the disease",
+        "D) All sons are hemophilic"
+      ],
+      "correct_option": "B",
+      "explanation": "XhY × XHXH produces XHXh daughters (normal, carriers) and XHY sons (normal). Sons inherit Y from father and XH from mother—they cannot be affected. Daughters receive Xh from father and XH from mother—they are carriers."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Industrial melanism in Biston betularia demonstrates which evolutionary mechanism?",
+      "options": [
+        "A) Disruptive selection favoring both extremes",
+        "B) Artificial selection by human collectors",
+        "C) Stabilizing selection maintaining intermediate coloration",
+        "D) Directional natural selection favoring the dark carbonaria morph on soot-darkened tree bark"
+      ],
+      "correct_option": "D",
+      "explanation": "Directional selection shifted the population toward the dark carbonaria morph as soot darkened tree trunks, reducing the camouflage advantage of the light typica morph against bird predation. Clean air legislation later reversed this."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Which statement about the human genome is correct regarding repetitive DNA sequences?",
+      "options": [
+        "A) The human genome contains only unique non-repetitive sequences",
+        "B) Satellite DNA sequences are absent from the human genome",
+        "C) Approximately 50% of the human genome consists of repetitive sequences including transposons (mobile genetic elements)",
+        "D) Repetitive DNA sequences are all functional protein-coding genes"
+      ],
+      "correct_option": "C",
+      "explanation": "Approximately 50% of the human genome consists of repetitive sequences including transposons (LINEs, SINEs like Alu elements), tandem repeats, and satellite DNA. These have structural and regulatory roles and drive genome evolution."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The 5' cap of eukaryotic mRNA is critical for nuclear export and translation initiation because it recruits:",
+      "options": [
+        "A) The poly-A binding proteins (PABPs)",
+        "B) RNA polymerase II",
+        "C) Spliceosome components",
+        "D) The eIF4F complex (specifically eIF4E cap-binding protein)"
+      ],
+      "correct_option": "D",
+      "explanation": "The 5' cap (m7GpppN) binds eIF4E, which is part of the eIF4F complex required for ribosome recruitment, nuclear export, and mRNA stability. Poly-A tail and splicing are separate processes not directly involving the 5' cap."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The neutral theory of molecular evolution (Kimura) proposes that most evolutionary changes at the molecular level are caused by:",
+      "options": [
+        "A) Random genetic drift of selectively neutral mutations",
+        "B) Positive Darwinian selection favoring advantageous mutations",
+        "C) Environmental mutagens directing adaptive changes",
+        "D) Negative purifying selection removing deleterious alleles"
+      ],
+      "correct_option": "A",
+      "explanation": "Kimura's neutral theory posits that most molecular mutations are selectively neutral—neither beneficial nor harmful. Evolutionary change results from random genetic drift of neutral alleles rather than positive selection, explaining constant molecular evolution rates."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which pathogen causes rabies in humans?",
+      "options": [
+        "A) Toxoplasma gondii protozoan",
+        "B) Cryptococcus neoformans fungus",
+        "C) Clostridium tetani bacterium",
+        "D) Rabies virus (Lyssavirus—a negative-sense single-stranded RNA virus)"
+      ],
+      "correct_option": "D",
+      "explanation": "Rabies is caused by the rabies virus (genus Lyssavirus, family Rhabdoviridae)—a bullet-shaped negative-sense RNA virus. It spreads via infected animal bites and travels along peripheral nerves to the CNS, causing fatal encephalitis."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Sauerkraut fermentation is driven by successive populations of which microorganisms?",
+      "options": [
+        "A) Leuconostoc mesenteroides followed by Lactobacillus plantarum (lactic acid bacteria)",
+        "B) Saccharomyces cerevisiae",
+        "C) Acetobacter aceti",
+        "D) Aspergillus oryzae"
+      ],
+      "correct_option": "A",
+      "explanation": "Sauerkraut fermentation is driven by successive lactic acid bacteria: Leuconostoc mesenteroides initiates fermentation (heterofermentative), followed by Lactobacillus plantarum (homofermentative) which lowers pH further, preserving the cabbage."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which immunoglobulin mediates Type I hypersensitivity (allergic reactions) by binding to mast cells and basophils?",
+      "options": [
+        "A) IgM",
+        "B) IgA",
+        "C) IgG",
+        "D) IgE"
+      ],
+      "correct_option": "D",
+      "explanation": "IgE binds via its Fc region to FcεRI receptors on mast cells and basophils. When allergen cross-links bound IgE, degranulation releases histamine and other mediators, causing immediate allergic symptoms including anaphylaxis."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Streptokinase, a 'clot buster' used therapeutically to dissolve thrombi during myocardial infarction, is produced by which organism?",
+      "options": [
+        "A) Bacillus subtilis",
+        "B) Penicillium notatum",
+        "C) Streptococcus (specifically beta-hemolytic Streptococcus equisimilis)",
+        "D) Staphylococcus aureus"
+      ],
+      "correct_option": "C",
+      "explanation": "Streptokinase, produced by beta-hemolytic Streptococcus, binds plasminogen to form plasmin which degrades fibrin clots. It is used as a thrombolytic agent in acute MI, pulmonary embolism, and deep vein thrombosis."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which cells of the adaptive immune system mediate cell-mediated immunity without producing antibodies?",
+      "options": [
+        "A) B lymphocytes and plasma cells",
+        "B) Natural killer (NK) cells",
+        "C) T lymphocytes (cytotoxic T cells, helper T cells, regulatory T cells)",
+        "D) Macrophages and dendritic cells"
+      ],
+      "correct_option": "C",
+      "explanation": "T lymphocytes mediate cell-mediated immunity. Cytotoxic T cells (CD8+) kill infected cells; helper T cells (CD4+) coordinate immune responses. B cells produce antibodies (humoral immunity); NK cells and macrophages are innate immune cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Type III hypersensitivity is characterized by which pathogenic mechanism?",
+      "options": [
+        "A) IgE-mediated mast cell degranulation (Type I)",
+        "B) Deposition of antigen-antibody immune complexes in tissues, activating complement and causing inflammation",
+        "C) Antibody-mediated destruction of host cells (Type II)",
+        "D) T-cell mediated delayed-type response (Type IV)"
+      ],
+      "correct_option": "B",
+      "explanation": "Type III hypersensitivity involves formation of antigen-antibody complexes that deposit in tissues (kidneys, joints, vessels), triggering complement activation and neutrophil infiltration. Examples include SLE, serum sickness, and Arthus reaction."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which microorganisms serve as free-living nitrogen-fixing biofertilizers for cereal crops like wheat and rice?",
+      "options": [
+        "A) Rhizobium leguminosarum (specific to legume root nodules)",
+        "B) Streptococcus pneumoniae",
+        "C) Anabaena azollae (exclusively symbiotic with Azolla for rice paddies)",
+        "D) Azospirillum and Azotobacter"
+      ],
+      "correct_option": "D",
+      "explanation": "Azospirillum and Azotobacter are free-living (non-symbiotic) nitrogen-fixing bacteria used as biofertilizers for non-leguminous crops. Rhizobium forms root nodules only in legumes. Anabaena is symbiotic with the fern Azolla."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which statement correctly distinguishes a benign tumor from a malignant tumor?",
+      "options": [
+        "A) Benign tumors show high mitotic index and nuclear pleomorphism",
+        "B) Benign tumors always progress to malignancy within one year",
+        "C) Benign tumors remain localized and do not metastasize; malignant tumors invade tissues and can spread to distant organs",
+        "D) Malignant tumors are encapsulated and well-circumscribed"
+      ],
+      "correct_option": "C",
+      "explanation": "Benign tumors are localized, slow-growing, well-circumscribed masses that do not invade or metastasize. Malignant tumors (cancers) show invasive growth, metastasize via blood/lymphatics, and exhibit cellular atypia with high mitotic rates."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Cyclosporine A, used clinically to prevent organ transplant rejection, is produced by which microorganism?",
+      "options": [
+        "A) Streptococcus (produces streptokinase)",
+        "B) The fungus Tolypocladium inflatum (Neoclaviceps purpurea)",
+        "C) Monascus purpureus (produces statins)",
+        "D) Penicillium chrysogenum (produces penicillin)"
+      ],
+      "correct_option": "B",
+      "explanation": "Cyclosporine A, a cyclic peptide from the fungus Tolypocladium inflatum, inhibits calcineurin in T cells, blocking IL-2 transcription. It revolutionized organ transplantation by suppressing T-cell activation without myelosuppression."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "The lectin pathway of complement activation is initiated when mannose-binding lectin (MBL) recognizes which molecular pattern on pathogen surfaces?",
+      "options": [
+        "A) Terminal mannose, fucose, and N-acetylglucosamine residues common on bacterial and viral glycoproteins",
+        "B) Double-stranded DNA",
+        "C) Phospholipid bilayers of host cells",
+        "D) MHC class I molecules"
+      ],
+      "correct_option": "A",
+      "explanation": "MBL binds terminal mannose, fucose, and N-acetylglucosamine residues on bacterial and viral surfaces (rare on host cells due to sialic acid capping). This activates MASP-1/MASP-2, which cleave C4 and C2 to form the C3 convertase."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which enzyme is essential for PCR due to its thermostability at 94-95°C denaturation temperatures?",
+      "options": [
+        "A) DNA ligase from E. coli",
+        "B) Restriction enzyme HindIII",
+        "C) Taq polymerase from Thermus aquaticus",
+        "D) RNA polymerase from E. coli"
+      ],
+      "correct_option": "C",
+      "explanation": "Taq polymerase from the thermophilic bacterium Thermus aquaticus is heat-stable and survives the 94-95°C denaturation steps of PCR. Its optimal activity is at ~72°C, making it ideal for automated thermal cycling."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Bt cotton was developed to resist attacks from which specific group of insect pests?",
+      "options": [
+        "A) Thrips (Thysanoptera)",
+        "B) Whiteflies (Aleyrodidae)",
+        "C) Aphids (Hemiptera)",
+        "D) Lepidopteran larvae (cotton bollworms, pink bollworms, tobacco budworms)"
+      ],
+      "correct_option": "D",
+      "explanation": "Bt cotton produces Cry1Ac and Cry2Ab proteins from Bacillus thuringiensis that are specifically toxic to lepidopteran larvae. These proteins bind to midgut receptors, creating pores that kill the larvae—reducing insecticide use by 70-80%."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which technique separates DNA fragments based on their size by applying an electric field through an agarose gel?",
+      "options": [
+        "A) Western blotting",
+        "B) Agarose gel electrophoresis",
+        "C) DNA sequencing",
+        "D) PCR"
+      ],
+      "correct_option": "B",
+      "explanation": "Agarose gel electrophoresis separates DNA fragments by size: smaller fragments migrate faster through the porous gel toward the positive anode. The technique visualizes DNA bands with ethidium bromide or fluorescent dyes."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "In 1973, Cohen and Boyer created the first recombinant DNA organism by inserting a gene from which source into E. coli?",
+      "options": [
+        "A) Arabidopsis thaliana",
+        "B) African clawed frog (Xenopus laevis)",
+        "C) Drosophila melanogaster",
+        "D) Homo sapiens"
+      ],
+      "correct_option": "B",
+      "explanation": "In 1973, Cohen and Boyer created the first recombinant DNA organism by inserting a Xenopus gene into E. coli using pSC101 plasmid—marking the birth of modern genetic engineering and recombinant DNA technology."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Which type of bond is formed between adjacent nucleotides in a DNA strand by DNA polymerase during replication?",
+      "options": [
+        "A) Phosphodiester bond",
+        "B) Hydrogen bond",
+        "C) Disulfide bond",
+        "D) Glycosidic bond"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA polymerase catalyzes formation of phosphodiester bonds between the 3'-OH of the growing chain and the 5'-phosphate of the incoming dNTP. Hydrogen bonds hold complementary strands together; disulfide bonds are in proteins."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which blotting technique detects specific RNA molecules using labeled probes that hybridize to complementary sequences transferred to a membrane?",
+      "options": [
+        "A) Western blotting (for proteins)",
+        "B) Eastern blotting (for post-translational modifications)",
+        "C) Northern blotting",
+        "D) Southern blotting (for DNA)"
+      ],
+      "correct_option": "C",
+      "explanation": "Northern blotting detects specific RNA sequences. RNA is separated by gel electrophoresis, transferred to a membrane, and probed with labeled complementary DNA or RNA. Southern detects DNA; Western detects proteins."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Chemical transformation of E. coli using calcium chloride (CaCl2) followed by heat shock works by:",
+      "options": [
+        "A) Ca2+ ions neutralize repulsive charges between the negatively charged cell membrane and DNA, and heat shock creates transient pores",
+        "B) NaOH treatment denatures the cell wall",
+        "C) UV irradiation creates DNA breaks for insertion",
+        "D) Ethanol precipitation drives DNA into cells"
+      ],
+      "correct_option": "A",
+      "explanation": "CaCl2 neutralizes negative charges on both the cell membrane (phospholipids) and DNA (phosphate backbone). Heat shock (42°C for 90s) creates transient pores allowing DNA uptake—the standard chemical transformation protocol."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which transgenic organism was engineered to produce human alpha-1-antitrypsin in its milk for treating emphysema?",
+      "options": [
+        "A) Dolly the sheep",
+        "B) Oncomouse",
+        "C) Flavr Savr tomato",
+        "D) Rosie the cow (PPL Therapeutics, 1998)"
+      ],
+      "correct_option": "D",
+      "explanation": "Rosie (1998) was a transgenic cow that produced human alpha-1-antitrypsin in her milk. Dolly was cloned (not transgenic); Oncomouse is a cancer model carrying an activated oncogene; Flavr Savr is a delayed-ripening tomato."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "In Sanger sequencing, dideoxynucleotides (ddNTPs) cause chain termination because they:",
+      "options": [
+        "A) Prevent primer annealing to the template",
+        "B) Lack the 3'-hydroxyl group needed for phosphodiester bond formation with the next nucleotide",
+        "C) Cause spontaneous depurination of the template strand",
+        "D) Are recognized and cleaved by DNA polymerase"
+      ],
+      "correct_option": "B",
+      "explanation": "ddNTPs lack a 3'-hydroxyl group. When incorporated by DNA polymerase, they prevent further extension, producing fragments of varying lengths ending at each occurrence of that base. These are separated by electrophoresis to read the sequence."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Which statement correctly distinguishes somatic cell gene therapy from germline gene therapy?",
+      "options": [
+        "A) Neither type affects the patient's phenotype",
+        "B) Somatic gene therapy is heritable; germline is not",
+        "C) Somatic gene therapy targets body cells and is not inherited; germline therapy targets gametes/embryos and is heritable",
+        "D) Both types are equally heritable"
+      ],
+      "correct_option": "C",
+      "explanation": "Somatic gene therapy (e.g., ADA-SCID treatment using T cells) affects only the patient and is not passed to offspring. Germline gene therapy modifies gametes or embryos, producing heritable changes—currently ethically prohibited in humans."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "The remora fish attaching to a shark for transportation while the shark is unaffected is an example of:",
+      "options": [
+        "A) Commensalism",
+        "B) Parasitism",
+        "C) Mutualism",
+        "D) Competition"
+      ],
+      "correct_option": "A",
+      "explanation": "Commensalism benefits one species without affecting the other. Remoras gain transportation and food scraps; sharks are generally unaffected. This differs from mutualism (both benefit) or parasitism (one harmed)."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "In a food web, the primary role of decomposers is to:",
+      "options": [
+        "A) Capture solar energy for photosynthesis",
+        "B) Consume only live prey",
+        "C) Fix atmospheric nitrogen into ammonia",
+        "D) Break down dead organic matter into inorganic nutrients, enabling nutrient cycling"
+      ],
+      "correct_option": "D",
+      "explanation": "Decomposers (fungi, bacteria) mineralize organic matter, releasing CO2, NH4+, PO43-, and other inorganic nutrients back into the ecosystem for reuse by producers—essential for biogeochemical cycling."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "The Red List, which categorizes species by extinction risk, is published by which organization?",
+      "options": [
+        "A) World Wildlife Fund (WWF)",
+        "B) World Health Organization (WHO)",
+        "C) UNESCO",
+        "D) IUCN (International Union for Conservation of Nature)"
+      ],
+      "correct_option": "D",
+      "explanation": "The IUCN Red List of Threatened Species categorizes species from Least Concern to Extinct based on population trends, decline rates, and distribution. It is the global standard for conservation status assessment."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Uniform dispersion in a population results from:",
+      "options": [
+        "A) Patchy distribution of resources",
+        "B) Competition for limited resources or territoriality causing even spacing of individuals",
+        "C) Random environmental conditions",
+        "D) Social grouping behavior"
+      ],
+      "correct_option": "B",
+      "explanation": "Uniform (even) dispersion results from competition for limited resources or territoriality, spacing individuals at relatively even distances—seen in nesting seabirds, creosote bushes, and some desert shrubs."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "Which trophic level do primary consumers (herbivores) occupy in a food chain?",
+      "options": [
+        "A) Second trophic level",
+        "B) Third trophic level (secondary consumers)",
+        "C) Fourth trophic level (tertiary consumers)",
+        "D) First trophic level (producers)"
+      ],
+      "correct_option": "A",
+      "explanation": "Producers (autotrophs) occupy the first trophic level. Herbivores (primary consumers) eat producers and occupy the second trophic level. Secondary consumers (carnivores) are at the third level."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "In the logistic growth equation dN/dt = rN(K-N)/K, at what population size is the growth rate maximized?",
+      "options": [
+        "A) When N = K/2",
+        "B) When N = 0",
+        "C) When N = K",
+        "D) When N = 2K"
+      ],
+      "correct_option": "A",
+      "explanation": "The logistic growth rate is maximized at N = K/2—the inflection point of the sigmoid curve. At N = 0 or N = K, growth rate is zero. Growth is fastest when the population is at half the carrying capacity."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Which biogeochemical cycle lacks a significant atmospheric gaseous phase, making it the slowest major cycle?",
+      "options": [
+        "A) Carbon cycle",
+        "B) Water cycle",
+        "C) Phosphorus cycle",
+        "D) Nitrogen cycle"
+      ],
+      "correct_option": "C",
+      "explanation": "Phosphorus is a sedimentary cycle with no significant atmospheric phase—its reservoir is phosphate rocks and soil. Weathering slowly releases phosphate into ecosystems, making it the slowest major biogeochemical cycle."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "The flagship species approach in conservation uses which type of species to raise public support?",
+      "options": [
+        "A) Species with the highest economic value for medicine",
+        "B) Charismatic, popular species (e.g., tiger, giant panda, African elephant) that attract public funding",
+        "C) Species that are least known to science",
+        "D) The most numerous species in the ecosystem"
+      ],
+      "correct_option": "B",
+      "explanation": "Flagship species are charismatic megafauna used as symbols to raise public support for conservation. Protecting them indirectly conserves their entire ecosystem—a marketing strategy in conservation biology."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "The Red Queen hypothesis proposes that organisms must constantly evolve to maintain fitness relative to co-evolving species. Which scenario best illustrates this?",
+      "options": [
+        "A) Genetic drift causing random allele fixation in small populations",
+        "B) A population in a stable environment undergoing stabilizing selection",
+        "C) Host-parasite co-evolution where resistance and virulence genes cycle in frequency over generations",
+        "D) A species on an isolated island with no competitors or predators"
+      ],
+      "correct_option": "C",
+      "explanation": "The Red Queen hypothesis describes antagonistic co-evolution: hosts evolve resistance, parasites evolve counter-resistance, creating ongoing frequency-dependent selection. Neither gains a permanent advantage—constant adaptation is required to maintain relative fitness."
+    },
+    {
+      "id": "CUET_BIO_2026_P3_L3_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "DDT concentration increases in ospreys (fish-eating birds) compared to the fish they eat. This is explained by:",
+      "options": [
+        "A) Bioaccumulation decreases with increasing trophic level",
+        "B) DDT is water-soluble and rapidly excreted by fish",
+        "C) Biomagnification—DDT is persistent and lipophilic, accumulating at each trophic level with no excretion mechanism",
+        "D) Biodegradation by bacteria breaks down DDT before reaching higher levels"
+      ],
+      "correct_option": "C",
+      "explanation": "DDT is a persistent organic pollutant that is lipophilic and not metabolized or excreted. It accumulates in fatty tissues and biomagnifies: each trophic level retains all DDT from consumed prey, concentrating it 10-100x per level—reaching toxic levels in top predators."
+    }
+  ]
+}

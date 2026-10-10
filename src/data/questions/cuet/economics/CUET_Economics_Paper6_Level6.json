@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P6_L6",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 6,
+  "difficulty_level": "6",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q01",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumer Equilibrium",
+      "difficulty": "easy",
+      "question": "A consumer is in equilibrium when the marginal utility of good X is 4 utils and price of X is Rs. 2, while marginal utility of good Y is 6 utils and price of Y is Rs. 3. Which condition is satisfied?",
+      "options": [
+        "A) MUx/Px > MUy/Py",
+        "B) MUx/Px < MUy/Py",
+        "C) MUx/Px = MUy/Py",
+        "D) TUx/Px = TUy/Py"
+      ],
+      "correct_option": "C",
+      "explanation": "At equilibrium, MUx/Px = MUy/Py = 4/2 = 6/3 = 2."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q02",
+      "topic": "Microeconomics",
+      "sub_topic": "Theory of Demand",
+      "difficulty": "easy",
+      "question": "If the price of a commodity falls from Rs. 10 to Rs. 8 and quantity demanded rises from 100 units to 140 units, what is the price elasticity of demand using the percentage method?",
+      "options": [
+        "A) 1.0",
+        "B) 1.5",
+        "C) 2.0",
+        "D) 2.5"
+      ],
+      "correct_option": "C",
+      "explanation": "%ΔQ = (140-100)/100 = 40%. %ΔP = (10-8)/10 = 20%. Ed = 40/20 = 2.0."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q03",
+      "topic": "Microeconomics",
+      "sub_topic": "Production and Costs",
+      "difficulty": "easy",
+      "question": "In the short run, the total product curve initially rises at an increasing rate because:",
+      "options": [
+        "A) Average product is falling",
+        "B) Marginal product is rising",
+        "C) Average product is constant",
+        "D) Marginal product is negative"
+      ],
+      "correct_option": "B",
+      "explanation": "When MP is rising, TP increases at an increasing rate (first stage of production)."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q04",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumer Equilibrium",
+      "difficulty": "medium",
+      "question": "An indifference curve is convex to the origin because of:",
+      "options": [
+        "A) Increasing marginal rate of substitution",
+        "B) Decreasing marginal rate of substitution",
+        "C) Constant marginal rate of substitution",
+        "D) Zero marginal rate of substitution"
+      ],
+      "correct_option": "B",
+      "explanation": "Convexity reflects diminishing MRS: as you get more of X, you give up less Y for additional X."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q05",
+      "topic": "Microeconomics",
+      "sub_topic": "Theory of Demand",
+      "difficulty": "medium",
+      "question": "When the price of a good rises from Rs. 12 to Rs. 15 and total expenditure on it falls from Rs. 6,000 to Rs. 5,250, the demand is:",
+      "options": [
+        "A) Perfectly elastic",
+        "B) Elastic (Ed > 1)",
+        "C) Inelastic (Ed < 1)",
+        "D) Unit elastic"
+      ],
+      "correct_option": "B",
+      "explanation": "Price ↑ and TE ↓ implies elastic. Q1=500, Q2=350. %ΔP=25%, %ΔQ=30%. Ed=30/25=1.2>1."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q06",
+      "topic": "Microeconomics",
+      "sub_topic": "Production and Costs",
+      "difficulty": "medium",
+      "question": "The short-run average cost curve is U-shaped due to:",
+      "options": [
+        "A) Law of diminishing returns only",
+        "B) Economies of scale only",
+        "C) Combined effect of diminishing returns and spreading of fixed costs",
+        "D) Increasing returns to scale"
+      ],
+      "correct_option": "C",
+      "explanation": "Initially fixed cost spreading lowers AC; later diminishing returns raise AC — combined effect = U shape."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q07",
+      "topic": "Microeconomics",
+      "sub_topic": "Perfect Competition",
+      "difficulty": "medium",
+      "question": "Under perfect competition, a firm earns supernormal profit when:",
+      "options": [
+        "A) Price = ATC",
+        "B) Price > ATC",
+        "C) Price < AVC",
+        "D) Price = MC"
+      ],
+      "correct_option": "B",
+      "explanation": "Supernormal profit: P > ATC. Normal profit: P = ATC. Loss: P < ATC. P=MC is equilibrium condition, not profit indicator."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q08",
+      "topic": "Microeconomics",
+      "sub_topic": "Production and Costs",
+      "difficulty": "medium",
+      "question": "A firm sells 100 units at Rs. 20 each. If MR from 101st unit is Rs. 18, what is the new AR?",
+      "options": [
+        "A) Rs. 19.98",
+        "B) Rs. 20.00",
+        "C) Rs. 19.80",
+        "D) Rs. 19.00"
+      ],
+      "correct_option": "A",
+      "explanation": "TR(100)=2000. TR(101)=2000+18=2018. AR=2018/101=19.98."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q09",
+      "topic": "Microeconomics",
+      "sub_topic": "Theory of Demand",
+      "difficulty": "medium",
+      "question": "A rightward shift in demand curve for good X can be caused by:",
+      "options": [
+        "A) Decrease in price of X",
+        "B) Increase in price of complementary good",
+        "C) Increase in price of substitute good",
+        "D) Decrease in income for a normal good"
+      ],
+      "correct_option": "C",
+      "explanation": "Rise in substitute's price shifts demand right (consumers switch to X). A and B cause leftward shifts."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q10",
+      "topic": "Microeconomics",
+      "sub_topic": "Perfect Competition",
+      "difficulty": "medium",
+      "question": "Price elasticity of supply is zero (perfectly inelastic) when the supply curve is:",
+      "options": [
+        "A) A straight line through origin",
+        "B) Parallel to the quantity axis",
+        "C) Passing through origin with slope 1",
+        "D) Parallel to the price axis"
+      ],
+      "correct_option": "B",
+      "explanation": "Supply curve parallel to quantity axis (vertical) → Q unchanged regardless of P → Es = 0."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q11",
+      "topic": "Microeconomics",
+      "sub_topic": "Consumer Equilibrium",
+      "difficulty": "hard",
+      "question": "Px = Rs. 3, Py = Rs. 2. At equilibrium, MUx = 15 utils. MUy must be:",
+      "options": [
+        "A) 15 utils",
+        "B) 10 utils",
+        "C) 6 utils",
+        "D) 12 utils"
+      ],
+      "correct_option": "B",
+      "explanation": "MUx/Px = MUy/Py → 15/3 = MUy/2 → MUy = (15/3)×2 = 10 utils."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q12",
+      "topic": "Microeconomics",
+      "sub_topic": "Production and Costs",
+      "difficulty": "hard",
+      "question": "TC at Q=5 is Rs. 150; at Q=6 is Rs. 180. Market price = Rs. 35. The firm should:",
+      "options": [
+        "A) Shut down",
+        "B) Produce 6 units (P > MC)",
+        "C) Produce only 5 units",
+        "D) Increase beyond 6 units"
+      ],
+      "correct_option": "B",
+      "explanation": "MC(6th) = 180-150 = 30. Since P=35 > MC=30, the firm gains by producing the 6th unit."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q13",
+      "topic": "Microeconomics",
+      "sub_topic": "Perfect Competition",
+      "difficulty": "hard",
+      "question": "In the short run, a perfectly competitive firm will shut down if:",
+      "options": [
+        "A) P < AVC",
+        "B) P < AFC",
+        "C) P < ATC but > AVC",
+        "D) P < MC"
+      ],
+      "correct_option": "A",
+      "explanation": "Shutdown point: P < AVC. Firm cannot cover variable costs; better to produce nothing."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q14",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "easy",
+      "question": "At equilibrium in a competitive market:",
+      "options": [
+        "A) There is excess demand",
+        "B) There is excess supply",
+        "C) Quantity demanded equals quantity supplied",
+        "D) Price is rising"
+      ],
+      "correct_option": "C",
+      "explanation": "Equilibrium: Qd = Qs. No excess demand or supply. Price is stable."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q15",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "easy",
+      "question": "If the government imposes a price ceiling below the equilibrium price, the result is:",
+      "options": [
+        "A) Excess supply",
+        "B) Excess demand",
+        "C) No change in market",
+        "D) Fall in demand"
+      ],
+      "correct_option": "B",
+      "explanation": "Price ceiling below Pe creates excess demand: at lower price, Qd > Qs."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q16",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "medium",
+      "question": "Demand: Qd = 200 - 5P. Supply: Qs = 50 + 3P. The equilibrium price is:",
+      "options": [
+        "A) Rs. 15",
+        "B) Rs. 18.75",
+        "C) Rs. 20",
+        "D) Rs. 22.50"
+      ],
+      "correct_option": "B",
+      "explanation": "Set Qd=Qs: 200-5P = 50+3P → 150 = 8P → P = 18.75."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q17",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Ceiling & Floor",
+      "difficulty": "medium",
+      "question": "A price floor set above equilibrium price results in:",
+      "options": [
+        "A) Excess demand",
+        "B) Excess supply",
+        "C) Equilibrium shift to the right",
+        "D) Fall in supply"
+      ],
+      "correct_option": "B",
+      "explanation": "Price floor above Pe means price is kept artificially high → Qs > Qd → excess supply (surplus)."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q18",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "medium",
+      "question": "When demand increases and supply decreases, equilibrium price:",
+      "options": [
+        "A) Falls",
+        "B) Remains unchanged",
+        "C) Rises",
+        "D) May rise or fall"
+      ],
+      "correct_option": "C",
+      "explanation": "D shifts right (↑P) + S shifts left (↑P) → price definitely rises. Quantity effect is ambiguous."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q19",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "hard",
+      "question": "If both demand and supply increase by the same proportion, equilibrium:",
+      "options": [
+        "A) Price rises, quantity unchanged",
+        "B) Price unchanged, quantity rises",
+        "C) Price falls, quantity rises",
+        "D) Price and quantity both rise"
+      ],
+      "correct_option": "B",
+      "explanation": "Equal proportional shifts in D and S curves → price remains unchanged at intersection, quantity rises."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q20",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Ceiling & Floor",
+      "difficulty": "hard",
+      "question": "Demand: Qd = 100 - 2P. Supply: Qs = 4P. Government sets price ceiling at Rs. 10. The market shortage will be:",
+      "options": [
+        "A) 20 units",
+        "B) 30 units",
+        "C) 40 units",
+        "D) 50 units"
+      ],
+      "correct_option": "C",
+      "explanation": "Equilibrium: 100-2P=4P → P=16.67. Ceiling at 10 < 16.67. At P=10: Qd=100-20=80; Qs=40. Shortage=80-40=40 units."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q21",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Market Equilibrium",
+      "difficulty": "hard",
+      "question": "If demand is perfectly inelastic (Ed=0) and supply increases, equilibrium:",
+      "options": [
+        "A) Price rises, quantity unchanged",
+        "B) Price falls, quantity unchanged",
+        "C) Price falls, quantity rises",
+        "D) Price unchanged, quantity rises"
+      ],
+      "correct_option": "B",
+      "explanation": "Perfectly inelastic demand (vertical D curve). Supply shifts right → price falls, quantity remains same."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q22",
+      "topic": "Macroeconomics",
+      "sub_topic": "National Income Accounting",
+      "difficulty": "easy",
+      "question": "Which of the following aggregates represents the market value of final goods and services produced within the domestic territory of a country during a year, inclusive of depreciation?",
+      "options": [
+        "A) Net National Product at Market Price",
+        "B) Gross Domestic Product at Market Price",
+        "C) Net Domestic Product at Factor Cost",
+        "D) Gross National Product at Factor Cost"
+      ],
+      "correct_option": "B",
+      "explanation": "Gross Domestic Product at Market Price (GDP_MP) measures the market value of all final goods and services produced within the domestic territory before deducting depreciation."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q23",
+      "topic": "Macroeconomics",
+      "sub_topic": "National Income Accounting",
+      "difficulty": "easy",
+      "question": "Which method of calculating national income sums up all expenditures on final goods and services?",
+      "options": [
+        "A) Income method",
+        "B) Expenditure method",
+        "C) Value added method",
+        "D) Product method"
+      ],
+      "correct_option": "B",
+      "explanation": "Expenditure method: Y = C + I + G + (X - M). Sums all spending on final goods."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q24",
+      "topic": "Macroeconomics",
+      "sub_topic": "Money and Banking",
+      "difficulty": "easy",
+      "question": "The primary function of the Reserve Bank of India is:",
+      "options": [
+        "A) Accepting public deposits",
+        "B) Providing loans to public",
+        "C) Issuing currency and controlling money supply",
+        "D) Financing foreign trade"
+      ],
+      "correct_option": "C",
+      "explanation": "RBI is India's central bank. Its primary functions include issuing currency, regulating credit, and controlling money supply."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q25",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income",
+      "difficulty": "medium",
+      "question": "In the determination of income under a two-sector Keynesian model, which condition represents the leakage-injection equilibrium?",
+      "options": [
+        "A) Consumption equals Savings",
+        "B) Planned Savings equals Planned Investment",
+        "C) Aggregate Output equals Consumption expenditure only",
+        "D) Autonomous Investment equals Induced Consumption"
+      ],
+      "correct_option": "B",
+      "explanation": "In a two-sector model, savings represent leakages and investment represents injections. Equilibrium occurs where planned savings equal planned investment (S = I)."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q26",
+      "topic": "Macroeconomics",
+      "sub_topic": "Money and Banking",
+      "difficulty": "medium",
+      "question": "If the cash reserve ratio is 10% and initial deposits are Rs. 1,000, total money creation by the banking system is:",
+      "options": [
+        "A) Rs. 10,000",
+        "B) Rs. 9,000",
+        "C) Rs. 1,000",
+        "D) Rs. 100,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Money multiplier = 1/CRR = 1/0.10 = 10. Total money creation = 10 × 1,000 = Rs. 10,000."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q27",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income",
+      "difficulty": "medium",
+      "question": "Excess demand occurs when:",
+      "options": [
+        "A) Aggregate demand < Aggregate supply",
+        "B) Aggregate demand > Aggregate supply",
+        "C) Aggregate demand = Aggregate supply",
+        "D) Savings > Investment"
+      ],
+      "correct_option": "B",
+      "explanation": "Excess demand: AD > AS at full employment. Creates inflationary gap."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q28",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income",
+      "difficulty": "medium",
+      "question": "If the Marginal Propensity to Consume (MPC) is 0.75, what is the value of the investment multiplier?",
+      "options": [
+        "A) 2.5",
+        "B) 3.0",
+        "C) 4.0",
+        "D) 5.0"
+      ],
+      "correct_option": "C",
+      "explanation": "The investment multiplier is given by \\( K = \\frac{1}{1 - \\text{MPC}} = \\frac{1}{1 - 0.75} = \\frac{1}{0.25} = 4 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q29",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income",
+      "difficulty": "medium",
+      "question": "If MPC = 0.8 and investment increases by Rs. 100, increase in national income is:",
+      "options": [
+        "A) Rs. 100",
+        "B) Rs. 400",
+        "C) Rs. 500",
+        "D) Rs. 800"
+      ],
+      "correct_option": "C",
+      "explanation": "K = 1/(1-0.8) = 5. ΔY = K × ΔI = 5 × 100 = Rs. 500."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q30",
+      "topic": "Macroeconomics",
+      "sub_topic": "National Income Accounting",
+      "difficulty": "medium",
+      "question": "Which of the following is not included in national income?",
+      "options": [
+        "A) Salary of a teacher",
+        "B) Profit of a company",
+        "C) Sale of second-hand car",
+        "D) Rent from a building"
+      ],
+      "correct_option": "C",
+      "explanation": "Sale of second-hand goods does not represent current production; already counted when originally sold."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q31",
+      "topic": "Macroeconomics",
+      "sub_topic": "Money and Banking",
+      "difficulty": "hard",
+      "question": "If CRR is 20% and the banking system receives a primary deposit of Rs. 5,000, the total credit created will be:",
+      "options": [
+        "A) Rs. 25,000",
+        "B) Rs. 20,000",
+        "C) Rs. 4,000",
+        "D) Rs. 24,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Money multiplier = 1/0.20 = 5. Total deposits = 5 × 5,000 = 25,000. Total credit = 25,000 - 5,000 = 20,000."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q32",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income",
+      "difficulty": "hard",
+      "question": "In a two-sector economy, autonomous consumption = Rs. 50, MPC = 0.6 and autonomous investment = Rs. 150. Equilibrium income is:",
+      "options": [
+        "A) Rs. 375",
+        "B) Rs. 500",
+        "C) Rs. 600",
+        "D) Rs. 750"
+      ],
+      "correct_option": "B",
+      "explanation": "Y = (a + I)/(1 - MPC) = (50 + 150)/(1 - 0.6) = 200/0.4 = Rs. 500."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q33",
+      "topic": "Macroeconomics",
+      "sub_topic": "Determination of Income",
+      "difficulty": "hard",
+      "question": "If there is an inflationary gap of Rs. 500 and MPC = 0.75, government should reduce spending by:",
+      "options": [
+        "A) Rs. 500",
+        "B) Rs. 125",
+        "C) Rs. 375",
+        "D) Rs. 2000"
+      ],
+      "correct_option": "B",
+      "explanation": "K = 1/(1-0.75) = 4. To close gap of 500: ΔY = K × ΔG → 500 = 4 × ΔG → ΔG = 125. Reduce spending by Rs. 125."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q34",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Government Budget",
+      "difficulty": "easy",
+      "question": "Which of the following government receipts creates a liability for the government?",
+      "options": [
+        "A) Goods and Services Tax collection",
+        "B) Dividends from public sector enterprises",
+        "C) Borrowings from market loans",
+        "D) Fees and fines collected from the public"
+      ],
+      "correct_option": "C",
+      "explanation": "Market borrowings are capital receipts because they create a future repayment obligation/liability for the government."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q35",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "easy",
+      "question": "Current account of Balance of Payments records:",
+      "options": [
+        "A) Trade in goods and services, and transfers",
+        "B) Foreign direct investment",
+        "C) Foreign portfolio investment",
+        "D) Changes in foreign exchange reserves"
+      ],
+      "correct_option": "A",
+      "explanation": "Current account = Visible trade (goods) + Invisible trade (services) + Unilateral transfers + Income from investments."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q36",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Government Budget",
+      "difficulty": "medium",
+      "question": "A Revenue Deficit in the government budget signifies that:",
+      "options": [
+        "A) Capital disbursements exceed loan recoveries",
+        "B) Routine revenue earnings fall short of meeting day-to-day administrative expenditures",
+        "C) Capital investments in infrastructure are expanding",
+        "D) Disinvestment proceeds exceed external borrowings"
+      ],
+      "correct_option": "B",
+      "explanation": "Revenue Deficit = Revenue Expenditure - Revenue Receipts. It signals that government's normal revenue is inadequate to cover its routine consumption expenses."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q37",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Foreign Exchange Rate",
+      "difficulty": "medium",
+      "question": "In a managed floating exchange rate regime, the exchange rate is determined by market forces, but:",
+      "options": [
+        "A) The IMF fixes mandatory bilateral exchange parity",
+        "B) The central bank intervenes in the foreign exchange market to curb extreme volatility",
+        "C) Private commercial banks set fixed currency quotas without trading",
+        "D) Currencies are pegged permanently to gold reserves"
+      ],
+      "correct_option": "B",
+      "explanation": "Managed floating allows market forces to determine exchange rates while the central bank buys or sells foreign currency to stabilize extreme short-term fluctuations."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q38",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "medium",
+      "question": "A surplus in the capital account means:",
+      "options": [
+        "A) Exports > Imports",
+        "B) Capital inflows > Capital outflows",
+        "C) Current account surplus",
+        "D) Government surplus"
+      ],
+      "correct_option": "B",
+      "explanation": "Capital account surplus: Net inflow of capital (FDI + FPI + loans) > outflows."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q39",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Government Budget",
+      "difficulty": "medium",
+      "question": "Which budgetary objective is directly pursued when the government levies higher taxes on luxury items and offers subsidies on essential public transport?",
+      "options": [
+        "A) Price stabilization only",
+        "B) Reallocation of resources and reducing income inequalities",
+        "C) Enhancing import dependence",
+        "D) Direct management of commercial banking credit"
+      ],
+      "correct_option": "B",
+      "explanation": "Taxing luxury items while subsidizing essential goods and public utilities helps reallocate national resources towards social welfare and reduces income disparities."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q40",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Foreign Exchange Rate",
+      "difficulty": "hard",
+      "question": "If Rs. 75 = $1 changes to Rs. 80 = $1, this is called:",
+      "options": [
+        "A) Appreciation of rupee",
+        "B) Depreciation of rupee",
+        "C) Revaluation",
+        "D) Devaluation"
+      ],
+      "correct_option": "B",
+      "explanation": "More rupees needed to buy $1 → rupee has depreciated (lost value). Under flexible rates, this is depreciation."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q41",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "hard",
+      "question": "If a country's current account deficit is Rs. 80 billion and capital account surplus is Rs. 100 billion, the overall BOP is:",
+      "options": [
+        "A) Deficit of Rs. 180 billion",
+        "B) Surplus of Rs. 20 billion",
+        "C) Surplus of Rs. 180 billion",
+        "D) Deficit of Rs. 20 billion"
+      ],
+      "correct_option": "B",
+      "explanation": "BOP = Current account + Capital account = (-80) + 100 = Rs. 20 billion surplus."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q42",
+      "topic": "Government Budget and Open Economy",
+      "sub_topic": "Government Budget",
+      "difficulty": "hard",
+      "question": "If revenue deficit is Rs. 200, fiscal deficit is Rs. 500, and interest payments are Rs. 150, the primary deficit is:",
+      "options": [
+        "A) Rs. 500",
+        "B) Rs. 350",
+        "C) Rs. 300",
+        "D) Rs. 200"
+      ],
+      "correct_option": "B",
+      "explanation": "Primary deficit = Fiscal deficit - Interest payments = 500 - 150 = Rs. 350."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q43",
+      "topic": "Indian Economy",
+      "sub_topic": "Development Experience (1947-1990)",
+      "difficulty": "easy",
+      "question": "The Green Revolution in India was launched in:",
+      "options": [
+        "A) Mid-1950s",
+        "B) Mid-1960s",
+        "C) Mid-1970s",
+        "D) Mid-1980s"
+      ],
+      "correct_option": "B",
+      "explanation": "Green Revolution started in mid-1960s (1966-67) with high-yielding variety (HYV) seeds."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q44",
+      "topic": "Indian Economy",
+      "sub_topic": "Development Experience (1947-1990)",
+      "difficulty": "easy",
+      "question": "Industrial Policy Resolution of 1956 emphasized the role of:",
+      "options": [
+        "A) Private sector only",
+        "B) Public sector in core industries",
+        "C) Foreign investment only",
+        "D) Small scale industries only"
+      ],
+      "correct_option": "B",
+      "explanation": "IPR 1956 reserved core and strategic industries for the public sector (Schedule A and B)."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q45",
+      "topic": "Indian Economy",
+      "sub_topic": "Current Challenges",
+      "difficulty": "medium",
+      "question": "Which of the following is identified as a direct institutional source of human capital formation?",
+      "options": [
+        "A) Increase in crude population birth rate",
+        "B) Expenditure on education and preventative health",
+        "C) Accumulation of physical commercial machinery",
+        "D) Inward remittance of foreign gold bullion"
+      ],
+      "correct_option": "B",
+      "explanation": "Key sources of human capital formation include spending on education, health facilities, on-the-job training, migration, and acquiring labor market information."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q46",
+      "topic": "Indian Economy",
+      "sub_topic": "Current Challenges",
+      "difficulty": "medium",
+      "question": "The main objective of MGNREGA is to provide:",
+      "options": [
+        "A) Free education",
+        "B) Guaranteed 100 days of wage employment per year",
+        "C) Free healthcare",
+        "D) Subsidized housing"
+      ],
+      "correct_option": "B",
+      "explanation": "MGNREGA (2005) guarantees 100 days of wage employment per rural household per year."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q47",
+      "topic": "Indian Economy",
+      "sub_topic": "Economic Reforms since 1991",
+      "difficulty": "medium",
+      "question": "LPG reforms in India were introduced in response to:",
+      "options": [
+        "A) Agricultural crisis",
+        "B) Balance of Payments crisis",
+        "C) Industrial recession",
+        "D) Population explosion"
+      ],
+      "correct_option": "B",
+      "explanation": "1991 reforms (LPG) triggered by severe balance of payments crisis — forex reserves fell to barely 2 weeks of imports."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q48",
+      "topic": "Indian Economy",
+      "sub_topic": "Current Challenges",
+      "difficulty": "hard",
+      "question": "The sectoral composition of India's GDP in 2024-25 shows the highest contribution from:",
+      "options": [
+        "A) Agriculture",
+        "B) Industry",
+        "C) Services",
+        "D) Mining"
+      ],
+      "correct_option": "C",
+      "explanation": "Services sector contributes over 50% of India's GDP, making it the largest sector."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q49",
+      "topic": "Indian Economy",
+      "sub_topic": "Rural Development",
+      "difficulty": "hard",
+      "question": "The most important source of rural credit in India after 1969 has been:",
+      "options": [
+        "A) Moneylenders",
+        "B) Commercial banks after nationalisation",
+        "C) Landlord-tenant system",
+        "D) Indigenous bankers"
+      ],
+      "correct_option": "B",
+      "explanation": "After bank nationalisation in 1969, commercial banks expanded rural branches significantly."
+    },
+    {
+      "id": "CUET_ECO_2026_P6_L6_Q50",
+      "topic": "Indian Economy",
+      "sub_topic": "Sustainable Development",
+      "difficulty": "hard",
+      "question": "According to the concept of sustainable development, the present generation should ensure:",
+      "options": [
+        "A) Maximum economic growth now",
+        "B) Development that meets present needs without compromising future generations",
+        "C) No use of natural resources",
+        "D) Complete replacement of fossil fuels"
+      ],
+      "correct_option": "B",
+      "explanation": "Brundtland Commission (1987): Sustainable development = meeting present needs without compromising future generations."
+    }
+  ]
+}

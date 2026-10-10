@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P5_L5",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 5,
+  "difficulty_level": "5",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P5_L5_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Commands",
+      "difficulty": "easy",
+      "question": "Which SQL keyword is used to sort the result set in descending order?",
+      "options": [
+        "A) SORT",
+        "B) ASC",
+        "C) ORDER",
+        "D) DESC"
+      ],
+      "correct_option": "D",
+      "explanation": "The DESC keyword sorts the result set in descending order. ASC is the default for ascending."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "What does the COUNT(*) function return in SQL?",
+      "options": [
+        "A) Total number of rows including NULLs",
+        "B) Number of non-NULL values",
+        "C) Sum of all values",
+        "D) Number of distinct values"
+      ],
+      "correct_option": "A",
+      "explanation": "COUNT(*) counts all rows in a table, including those with NULL values in any column."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "Constraints",
+      "difficulty": "easy",
+      "question": "Which constraint ensures that a column cannot have NULL values?",
+      "options": [
+        "A) CHECK",
+        "B) UNIQUE",
+        "C) NOT NULL",
+        "D) DEFAULT"
+      ],
+      "correct_option": "C",
+      "explanation": "The NOT NULL constraint prevents a column from having NULL values."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "JOIN Operations",
+      "difficulty": "medium",
+      "question": "Which type of JOIN returns all rows from the left table and matching rows from the right table?",
+      "options": [
+        "A) INNER JOIN",
+        "B) LEFT JOIN",
+        "C) FULL OUTER JOIN",
+        "D) RIGHT JOIN"
+      ],
+      "correct_option": "B",
+      "explanation": "LEFT JOIN returns all rows from the left table plus matched rows from the right table, with NULLs for non-matching rows."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q05",
+      "topic": "Database/SQL",
+      "sub_topic": "GROUP BY & HAVING",
+      "difficulty": "medium",
+      "question": "Which clause is used to filter groups after the GROUP BY operation?",
+      "options": [
+        "A) FILTER",
+        "B) WHERE",
+        "C) SELECT",
+        "D) HAVING"
+      ],
+      "correct_option": "D",
+      "explanation": "HAVING is used to filter groups based on aggregate conditions, while WHERE filters rows before grouping."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "Subqueries",
+      "difficulty": "medium",
+      "question": "A subquery that returns a single row and single column is called:",
+      "options": [
+        "A) Scalar subquery",
+        "B) Correlated subquery",
+        "C) Table subquery",
+        "D) Row subquery"
+      ],
+      "correct_option": "A",
+      "explanation": "A scalar subquery returns exactly one value (one row, one column) and can be used wherever an expression is valid."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q07",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization",
+      "difficulty": "medium",
+      "question": "In database relational design, a relation is in Second Normal Form (2NF) if and only if it is in 1NF and satisfies which condition?",
+      "options": [
+        "A) No non-prime attribute is partially dependent on any candidate key",
+        "B) Every non-trivial functional dependency X -> Y has X as a superkey",
+        "C) No non-prime attribute is transitively dependent on the primary key",
+        "D) Multivalued dependencies are completely eliminated"
+      ],
+      "correct_option": "A",
+      "explanation": "A relation is in Second Normal Form (2NF) if it is in 1NF and contains no partial dependencies, meaning every non-prime attribute is fully functionally dependent on every candidate key. Eliminating transitive dependencies defines 3NF, having every determinant be a superkey defines BCNF, and eliminating multivalued dependencies defines 4NF."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q08",
+      "topic": "Database/SQL",
+      "sub_topic": "Transactions",
+      "difficulty": "hard",
+      "question": "Which property of ACID ensures that a transaction either completes entirely or not at all?",
+      "options": [
+        "A) Isolation",
+        "B) Atomicity",
+        "C) Durability",
+        "D) Consistency"
+      ],
+      "correct_option": "B",
+      "explanation": "Atomicity guarantees that a transaction is treated as a single unit — either all operations succeed or none do."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q09",
+      "topic": "Database/SQL",
+      "sub_topic": "Indexing",
+      "difficulty": "hard",
+      "question": "What is the primary disadvantage of creating too many indexes on a table?",
+      "options": [
+        "A) Reduced data integrity",
+        "B) Increased network latency",
+        "C) Slower INSERT/UPDATE operations",
+        "D) Increased query complexity"
+      ],
+      "correct_option": "C",
+      "explanation": "Indexes speed up reads but slow down writes because each INSERT/UPDATE must also update all relevant indexes."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q10",
+      "topic": "Database/SQL",
+      "sub_topic": "Views",
+      "difficulty": "hard",
+      "question": "Which of the following statements about SQL Views is correct?",
+      "options": [
+        "A) Views store physical data",
+        "B) Views cannot reference multiple tables",
+        "C) Views can always be updated",
+        "D) Views are virtual tables based on SQL queries"
+      ],
+      "correct_option": "D",
+      "explanation": "A view is a virtual table based on the result set of a SQL query. It does not store data physically and can reference multiple tables."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q11",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "Which layer of the OSI model is responsible for routing and forwarding data packets?",
+      "options": [
+        "A) Network Layer",
+        "B) Transport Layer",
+        "C) Physical Layer",
+        "D) Data Link Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "The Network Layer (Layer 3) handles routing, forwarding, and addressing of data packets across networks."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q12",
+      "topic": "Networks",
+      "sub_topic": "Network Topologies",
+      "difficulty": "easy",
+      "question": "In which network topology are all nodes connected to a central device?",
+      "options": [
+        "A) Bus",
+        "B) Star",
+        "C) Ring",
+        "D) Mesh"
+      ],
+      "correct_option": "B",
+      "explanation": "In a star topology, all nodes connect to a central hub or switch, making it easy to manage and troubleshoot."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q13",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "easy",
+      "question": "How many bits are in an IPv4 address?",
+      "options": [
+        "A) 128 bits",
+        "B) 64 bits",
+        "C) 32 bits",
+        "D) 16 bits"
+      ],
+      "correct_option": "C",
+      "explanation": "IPv4 addresses are 32 bits long, typically represented as four octets separated by dots."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q14",
+      "topic": "Networks",
+      "sub_topic": "TCP vs UDP",
+      "difficulty": "medium",
+      "question": "Which protocol provides reliable, ordered delivery of data?",
+      "options": [
+        "A) IP",
+        "B) UDP",
+        "C) ARP",
+        "D) TCP"
+      ],
+      "correct_option": "D",
+      "explanation": "TCP provides reliable, ordered, and error-checked delivery through acknowledgments and retransmissions."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q15",
+      "topic": "Networks",
+      "sub_topic": "Subnetting",
+      "difficulty": "medium",
+      "question": "What is the broadcast address for the subnet 192.168.1.0/24?",
+      "options": [
+        "A) 192.168.1.254",
+        "B) 192.168.1.255",
+        "C) 192.168.0.255",
+        "D) 192.168.1.1"
+      ],
+      "correct_option": "B",
+      "explanation": "For a /24 subnet, the broadcast address is the last address: 192.168.1.255."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q16",
+      "topic": "Networks",
+      "sub_topic": "Routing Protocols",
+      "difficulty": "medium",
+      "question": "Which routing protocol uses the Dijkstra algorithm to compute shortest paths?",
+      "options": [
+        "A) RIP",
+        "B) BGP",
+        "C) OSPF",
+        "D) EIGRP"
+      ],
+      "correct_option": "C",
+      "explanation": "OSPF (Open Shortest Path First) uses Dijkstra's algorithm to calculate the shortest path tree."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q17",
+      "topic": "Networks",
+      "sub_topic": "Network Devices",
+      "difficulty": "medium",
+      "question": "Which device operates at the Data Link Layer and forwards frames based on MAC addresses?",
+      "options": [
+        "A) Router",
+        "B) Hub",
+        "C) Gateway",
+        "D) Switch"
+      ],
+      "correct_option": "D",
+      "explanation": "A switch operates at Layer 2 and forwards frames based on MAC address tables."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q18",
+      "topic": "Networks",
+      "sub_topic": "DNS",
+      "difficulty": "hard",
+      "question": "What does a DNS AAAA record map to?",
+      "options": [
+        "A) IPv6 address",
+        "B) Mail server",
+        "C) IPv4 address",
+        "D) Alias name"
+      ],
+      "correct_option": "A",
+      "explanation": "AAAA records map a domain name to an IPv6 address, while A records map to IPv4."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q19",
+      "topic": "Networks",
+      "sub_topic": "CIDR",
+      "difficulty": "hard",
+      "question": "How many usable host addresses are available in a /28 subnet?",
+      "options": [
+        "A) 16",
+        "B) 14",
+        "C) 32",
+        "D) 30"
+      ],
+      "correct_option": "B",
+      "explanation": "A /28 has 2^4 - 2 = 14 usable host addresses (subtracting network and broadcast addresses)."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q20",
+      "topic": "Networks",
+      "sub_topic": "Firewalls",
+      "difficulty": "hard",
+      "question": "Which firewall type inspects the state and context of network connections?",
+      "options": [
+        "A) Application-layer firewall",
+        "B) Stateful inspection firewall",
+        "C) Proxy firewall",
+        "D) Packet-filtering firewall"
+      ],
+      "correct_option": "B",
+      "explanation": "Stateful inspection firewalls track the state of active connections and make decisions based on connection context."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Data Types",
+      "difficulty": "easy",
+      "question": "Which of the following is an immutable data type in Python?",
+      "options": [
+        "A) List",
+        "B) Dictionary",
+        "C) Tuple",
+        "D) Set"
+      ],
+      "correct_option": "C",
+      "explanation": "Tuples are immutable in Python, meaning their elements cannot be changed after creation."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists",
+      "difficulty": "easy",
+      "question": "What is the output of len([1, 2, 3, [4, 5]])?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) 3",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "The list has 4 elements: 1, 2, 3, and the inner list [4, 5]. len() counts only top-level elements."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Which method returns all keys of a dictionary in Python?",
+      "options": [
+        "A) keys()",
+        "B) get()",
+        "C) items()",
+        "D) values()"
+      ],
+      "correct_option": "A",
+      "explanation": "The keys() method returns a view object containing all the keys in the dictionary."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stacks",
+      "difficulty": "medium",
+      "question": "In a stack implemented using a Python list, which method is used to add an element to the top?",
+      "options": [
+        "A) append()",
+        "B) push()",
+        "C) insert()",
+        "D) add()"
+      ],
+      "correct_option": "A",
+      "explanation": "In Python, list.append() adds an element to the end (top of the stack). Python lists don't have a built-in push() method."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queues",
+      "difficulty": "medium",
+      "question": "Which data structure is used to implement a queue efficiently in Python?",
+      "options": [
+        "A) tuple",
+        "B) set",
+        "C) collections.deque",
+        "D) list"
+      ],
+      "correct_option": "C",
+      "explanation": "collections.deque provides O(1) append and pop operations from both ends, making it ideal for queues."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion",
+      "difficulty": "medium",
+      "question": "What is the base case in a recursive function?",
+      "options": [
+        "A) The first call to the function",
+        "B) The function signature",
+        "C) The return statement",
+        "D) The condition that stops recursion"
+      ],
+      "correct_option": "D",
+      "explanation": "The base case is the condition that stops the recursion, preventing infinite recursive calls."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Time Complexity",
+      "difficulty": "medium",
+      "question": "What is the time complexity of accessing an element in a Python list by index?",
+      "options": [
+        "A) O(n)",
+        "B) O(1)",
+        "C) O(log n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "B",
+      "explanation": "List indexing in Python is O(1) because lists are implemented as dynamic arrays with direct memory access."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Linked Lists",
+      "difficulty": "hard",
+      "question": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "Inserting at the head of a singly linked list is O(1) since it only requires updating the head pointer."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Trees",
+      "difficulty": "hard",
+      "question": "In a binary search tree, which traversal gives elements in sorted order?",
+      "options": [
+        "A) Inorder",
+        "B) Preorder",
+        "C) Level order",
+        "D) Postorder"
+      ],
+      "correct_option": "A",
+      "explanation": "Inorder traversal of a BST visits nodes in ascending order: left subtree, root, right subtree."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Hashing",
+      "difficulty": "medium",
+      "question": "What is the average time complexity of searching in a hash table with a good hash function?",
+      "options": [
+        "A) O(n)",
+        "B) O(1)",
+        "C) O(n^2)",
+        "D) O(log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "With a good hash function and load factor, hash table search is O(1) on average."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search",
+      "difficulty": "easy",
+      "question": "What is the worst-case time complexity of linear search?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(1)",
+        "C) O(n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Linear search has O(n) worst-case complexity as it may need to check every element."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "How many passes does bubble sort need in the worst case for an array of n elements?",
+      "options": [
+        "A) n",
+        "B) n/2",
+        "C) n-1",
+        "D) log n"
+      ],
+      "correct_option": "C",
+      "explanation": "Bubble sort requires n-1 passes in the worst case to sort n elements."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "What is the time complexity of selection sort in all cases?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(n^2)",
+        "C) O(n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection sort always performs O(n^2) comparisons regardless of input order."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "medium",
+      "question": "In binary search applied to a sorted array of size n, which recurrence relation accurately describes its worst-case running time T(n)?",
+      "options": [
+        "A) T(n) = T(n/2) + O(1)",
+        "B) T(n) = 2T(n/2) + O(n)",
+        "C) T(n) = T(n - 1) + O(1)",
+        "D) T(n) = 2T(n/2) + O(1)"
+      ],
+      "correct_option": "A",
+      "explanation": "Binary search compares the target key to the middle element (taking O(1) time) and then recursively searches one half of the array of size n/2, giving the recurrence relation T(n) = T(n/2) + O(1), which solves to O(log n). In contrast, T(n) = 2T(n/2) + O(n) describes merge sort, and T(n) = T(n - 1) + O(1) describes linear search."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "medium",
+      "question": "What is the worst-case time complexity of quicksort?",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n log n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "D",
+      "explanation": "Quicksort's worst case is O(n^2) when the pivot is always the smallest or largest element."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "medium",
+      "question": "What is the time complexity of merge sort in the worst case?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n^2)",
+        "C) O(n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Merge sort guarantees O(n log n) time complexity in all cases due to its divide-and-conquer approach."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Sort",
+      "difficulty": "medium",
+      "question": "Which data structure is heap sort based on?",
+      "options": [
+        "A) Queue",
+        "B) Binary Heap",
+        "C) Stack",
+        "D) Linked List"
+      ],
+      "correct_option": "B",
+      "explanation": "Heap sort uses a binary heap data structure to sort elements."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Comparison-Based Sorting",
+      "difficulty": "hard",
+      "question": "What is the lower bound for comparison-based sorting algorithms?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n)",
+        "C) O(n log n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "C",
+      "explanation": "The lower bound for comparison-based sorting is Ω(n log n), proven by the decision tree model."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Radix Sort",
+      "difficulty": "hard",
+      "question": "Which sorting algorithm does NOT use comparisons?",
+      "options": [
+        "A) Radix Sort",
+        "B) Merge Sort",
+        "C) Quick Sort",
+        "D) Heap Sort"
+      ],
+      "correct_option": "A",
+      "explanation": "Radix Sort sorts by processing individual digits/characters and does not compare elements directly."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "For which type of input does insertion sort perform best?",
+      "options": [
+        "A) Large random array",
+        "B) Reverse sorted array",
+        "C) All identical elements",
+        "D) Nearly sorted array"
+      ],
+      "correct_option": "D",
+      "explanation": "Insertion sort performs best on nearly sorted arrays, approaching O(n) time when few inversions exist."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "easy",
+      "question": "Which type of malicious software secretly monitors user keystrokes, passwords, and browsing habits without consent and transmits that data to an unauthorized third party?",
+      "options": [
+        "A) Ransomware",
+        "B) Worm",
+        "C) Spyware",
+        "D) Logic bomb"
+      ],
+      "correct_option": "C",
+      "explanation": "Spyware (such as a keylogger) secretly monitors user activity, keystrokes, and credentials without consent and transmits them to an attacker. Ransomware encrypts user data demanding payment, worms replicate autonomously over networks, and logic bombs execute malicious payloads upon specific trigger events."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption",
+      "difficulty": "easy",
+      "question": "Which type of encryption uses the same key for both encryption and decryption?",
+      "options": [
+        "A) Symmetric encryption",
+        "B) Digital signature",
+        "C) Hashing",
+        "D) Asymmetric encryption"
+      ],
+      "correct_option": "A",
+      "explanation": "Symmetric encryption uses a single shared key for both encryption and decryption."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Firewalls",
+      "difficulty": "easy",
+      "question": "A packet-filtering firewall inspects network traffic and makes filtering decisions primarily based on which criteria?",
+      "options": [
+        "A) Application-layer payload data and user passwords",
+        "B) Operating system registry credentials",
+        "C) Source and destination IP addresses, port numbers, and protocol type",
+        "D) Biometric authentication tokens"
+      ],
+      "correct_option": "C",
+      "explanation": "Packet-filtering firewalls inspect network packets at the network and transport layers, using packet header information including source/destination IP addresses, port numbers, and protocols to permit or deny traffic based on configured rules. They do not inspect application payloads, OS registries, or biometric tokens."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "Malware",
+      "difficulty": "medium",
+      "question": "What is ransomware?",
+      "options": [
+        "A) A virus that spreads via email",
+        "B) Malware that encrypts files and demands payment",
+        "C) A program that logs keystrokes",
+        "D) Software that displays ads"
+      ],
+      "correct_option": "B",
+      "explanation": "Ransomware encrypts a victim's files and demands a ransom payment for the decryption key."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection",
+      "difficulty": "medium",
+      "question": "How can SQL injection attacks be prevented?",
+      "options": [
+        "A) Encrypting the database",
+        "B) Using parameterized queries",
+        "C) Using longer passwords",
+        "D) Disabling JavaScript"
+      ],
+      "correct_option": "B",
+      "explanation": "Parameterized queries (prepared statements) separate SQL code from data, preventing injection."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "medium",
+      "question": "What is the primary data structure in Pandas?",
+      "options": [
+        "A) List",
+        "B) Dictionary",
+        "C) Array",
+        "D) DataFrame"
+      ],
+      "correct_option": "D",
+      "explanation": "The DataFrame is Pandas' primary two-dimensional labeled data structure for data manipulation."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "medium",
+      "question": "Which method is used to remove rows with missing values in a Pandas DataFrame?",
+      "options": [
+        "A) dropna()",
+        "B) fillna()",
+        "C) clean()",
+        "D) remove()"
+      ],
+      "correct_option": "A",
+      "explanation": "dropna() removes rows (or columns) containing missing values from a DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "Digital Signatures",
+      "difficulty": "hard",
+      "question": "Which key is used to verify a digital signature?",
+      "options": [
+        "A) Private key of sender",
+        "B) Public key of receiver",
+        "C) Public key of sender",
+        "D) Private key of receiver"
+      ],
+      "correct_option": "C",
+      "explanation": "Digital signatures are verified using the sender's public key, which confirms the signature was created with the sender's private key."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "XSS",
+      "difficulty": "hard",
+      "question": "Cross-Site Scripting (XSS) attacks primarily target:",
+      "options": [
+        "A) Network routers",
+        "B) Operating systems",
+        "C) Web browsers of users",
+        "D) Database servers"
+      ],
+      "correct_option": "C",
+      "explanation": "XSS attacks inject malicious scripts into web pages viewed by other users, targeting their browsers."
+    },
+    {
+      "id": "CUET_CS_2026_P5_L5_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas GroupBy",
+      "difficulty": "hard",
+      "question": "What does the groupby() function in Pandas do?",
+      "options": [
+        "A) Sorts the DataFrame",
+        "B) Merges two DataFrames",
+        "C) Removes duplicates",
+        "D) Groups data based on column values for aggregation"
+      ],
+      "correct_option": "D",
+      "explanation": "groupby() splits data into groups based on column values and allows aggregation operations on each group."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P16_L6B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 16,
+  "difficulty_level": "6B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Marginal Rate of Technical Substitution",
+      "difficulty": "medium",
+      "question": "The Marginal Rate of Technical Substitution of labour for capital (MRTS_LK) along an isoquant curve is mathematically equal to:",
+      "options": [
+        "A) The ratio of total fixed cost to total variable cost",
+        "B) The ratio of the marginal product of labour to the marginal product of capital (MP_L / MP_K)",
+        "C) The price of capital divided by the price of labour",
+        "D) The average product of labour divided by the average product of capital"
+      ],
+      "correct_option": "B",
+      "explanation": "Along an isoquant, total output is constant (dY = 0). Thus, MP_L * dL + MP_K * dK = 0, which yields -dK/dL = MRTS_LK = MP_L / MP_K."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Opportunity Cost Multi-Product",
+      "difficulty": "easy",
+      "question": "A farmer possessing 5 hectares of land can produce either 200 quintals of wheat or 150 quintals of mustard. If the farmer chooses to produce wheat, what is the opportunity cost of this decision?",
+      "options": [
+        "A) 200 quintals of wheat produced",
+        "B) 150 quintals of mustard foregone",
+        "C) 350 quintals of combined crop output",
+        "D) 50 quintals of net agricultural surplus"
+      ],
+      "correct_option": "B",
+      "explanation": "Opportunity cost is the value of the next best alternative foregone. By choosing to grow wheat, the farmer foregoes the production of 150 quintals of mustard."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Geometric Method of Elasticity",
+      "difficulty": "medium",
+      "question": "On a downward-sloping linear demand curve intersecting both axes, what is the value of price elasticity of demand at the exact mid-point of the demand curve?",
+      "options": [
+        "A) Infinitely elastic",
+        "B) Exactly equal to 1 (unitary elastic)",
+        "C) Exactly equal to zero",
+        "D) Greater than 1"
+      ],
+      "correct_option": "B",
+      "explanation": "According to the point (geometric) method, elasticity at any point on a linear demand curve is given by (Lower segment / Upper segment). At the midpoint, the two segments are equal, so elasticity = 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Corner Solution in Utility",
+      "difficulty": "medium",
+      "question": "When two goods are perfect substitutes and the consumer's indifference curves are straight lines flatter than the budget line (MRS_xy < P_x / P_y), where does the consumer achieve equilibrium?",
+      "options": [
+        "A) An interior tangency point consuming equal quantities of both goods",
+        "B) A corner solution where the consumer spends their entire budget exclusively on good Y",
+        "C) A corner solution spending entire income exclusively on good X",
+        "D) Equilibrium cannot be determined under linear preferences"
+      ],
+      "correct_option": "B",
+      "explanation": "If MRS_xy < P_x / P_y, good X is relatively more expensive in the market than the consumer values it relative to Y. The consumer maximizes utility by purchasing only good Y (corner solution on the Y-axis)."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Arc Elasticity Formula",
+      "difficulty": "hard",
+      "question": "When calculating the price elasticity of demand between two discrete points (P1, Q1) and (P2, Q2) on a demand curve, the midpoint arc elasticity formula uses which denominator for quantity?",
+      "options": [
+        "A) Q1 * Q2",
+        "B) (Q1 + Q2) / 2",
+        "C) |Q1 - Q2|",
+        "D) Q1 alone"
+      ],
+      "correct_option": "B",
+      "explanation": "Arc elasticity uses the average of the initial and final quantities, (Q1 + Q2)/2, as the base to ensure that the calculated elasticity is independent of the direction of the price movement."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q06",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Cobb-Douglas Production Function",
+      "difficulty": "hard",
+      "question": "Consider a Cobb-Douglas production function Q = A * L^(0.6) * K^(0.4). If both labour (L) and capital (K) inputs are increased simultaneously by 20 percent, total output Q will:",
+      "options": [
+        "A) Increase by 40 percent, displaying increasing returns to scale",
+        "B) Increase by exactly 20 percent, displaying constant returns to scale",
+        "C) Increase by 12 percent, displaying decreasing returns to scale",
+        "D) Remain completely unchanged"
+      ],
+      "correct_option": "B",
+      "explanation": "In Q = A * L^alpha * K^beta, the sum of powers alpha + beta = 0.6 + 0.4 = 1.0. This indicates a degree of homogeneity of 1, meaning the function exhibits Constant Returns to Scale (CRS)."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q07",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Planning Curve Concept",
+      "difficulty": "easy",
+      "question": "Why is the Long-Run Average Cost (LAC) curve commonly described as an 'envelope curve'?",
+      "options": [
+        "A) Because it encloses the firm's total fixed overhead costs",
+        "B) Because it envelops and is tangent to a family of short-run average cost (SAC) curves corresponding to different plant sizes",
+        "C) Because it rises continuously due to managerial diseconomies",
+        "D) Because it is horizontal at the shutdown price level"
+      ],
+      "correct_option": "B",
+      "explanation": "The LAC curve envelops all short-run average cost (SAC) curves by being tangent to each SAC curve at the lowest achievable cost for each planned output level."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q08",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Deadweight Loss under Monopoly",
+      "difficulty": "hard",
+      "question": "What does the 'deadweight loss' (social cost) of a monopoly represent compared to a competitive market?",
+      "options": [
+        "A) The total tax revenue paid by the monopolist to municipal corporations",
+        "B) The net loss in total economic surplus (consumer surplus plus producer surplus) resulting from output restriction and higher price",
+        "C) The total fixed expenditure invested in advertising and sales promotion",
+        "D) The excessive wage premiums paid to unionized labour"
+      ],
+      "correct_option": "B",
+      "explanation": "A monopolist restricts output below the competitive level where P = MC to maximize profit, creating a deadweight loss triangle where potential gains from mutually beneficial trade are permanently lost to society."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Price Discrimination Conditions",
+      "difficulty": "medium",
+      "question": "Third-degree price discrimination across two distinct market segments is profitable only if:",
+      "options": [
+        "A) The marginal cost of production differs significantly between sub-markets",
+        "B) Both sub-markets exhibit identical unitary elasticity of demand",
+        "C) The price elasticities of demand in the two sub-markets are different and resale between markets can be prevented",
+        "D) Consumers possess perfect information regarding prices in both markets"
+      ],
+      "correct_option": "C",
+      "explanation": "Third-degree price discrimination requires that the seller can segment the market, prevent resale (arbitrage), and charge a higher price in the market with lower price elasticity of demand."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q10",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Kinked Demand Curve",
+      "difficulty": "hard",
+      "question": "In Paul Sweezy's kinked demand curve model of oligopoly, why is the demand curve relatively elastic above the prevailing price and relatively inelastic below it?",
+      "options": [
+        "A) Because advertising expenditure becomes zero below the kink",
+        "B) Because the government regulates prices above the kink",
+        "C) Because rivals are assumed not to follow price increases, but will aggressively match price cuts",
+        "D) Because consumers switch entirely to imported substitutes when prices fall"
+      ],
+      "correct_option": "C",
+      "explanation": "If an oligopolist raises its price, competitors do not follow, so the firm loses substantial sales (elastic demand). If the firm cuts price, competitors match the cut immediately, so the firm gains few extra sales (inelastic demand)."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q11",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Excess Capacity Theorem",
+      "difficulty": "medium",
+      "question": "Under Chamberlin's monopolistic competition model, why do firms in long-run equilibrium operate with 'excess capacity'?",
+      "options": [
+        "A) Because total fixed costs exceed total variable costs at all outputs",
+        "B) Because government regulations restrict output below plant capacity",
+        "C) Because the downward-sloping demand curve is tangent to the falling portion of the LAC curve, short of its minimum efficient scale",
+        "D) Because firms deliberately hoard unsold finished stocks"
+      ],
+      "correct_option": "C",
+      "explanation": "Due to product differentiation, the demand (AR) curve is downward-sloping. Long-run tangency between AR and LAC must occur on the downward-sloping segment of LAC, meaning output is produced at higher than minimum achievable average cost (excess capacity)."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Tax Incidence and Elasticity",
+      "difficulty": "hard",
+      "question": "If an indirect excise tax is levied on a commodity whose demand is perfectly price inelastic while supply is upward sloping, who bears the economic burden of the tax?",
+      "options": [
+        "A) The tax burden is shared equally between buyers and sellers",
+        "B) Producers bear the entire tax burden through reduced profit margins",
+        "C) Consumers bear the entire economic burden of the tax as the price rises by the full tax amount",
+        "D) The tax burden is shifted onto factor input suppliers"
+      ],
+      "correct_option": "C",
+      "explanation": "When demand is completely unresponsive to price (perfectly inelastic, e_d = 0), consumers are willing to purchase the same quantity regardless of price, allowing suppliers to pass 100% of the tax forward to buyers."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Dual Pricing System",
+      "difficulty": "easy",
+      "question": "Under a dual pricing system historically implemented for essential commodities like sugar, how does the government allocate supply?",
+      "options": [
+        "A) Urban consumers pay zero price while rural consumers pay commercial prices",
+        "B) All domestic output is auctioned exclusively to foreign export consortia",
+        "C) A fixed quota of output is procured at a subsidized levy price for ration shops, while the remaining output is sold freely at market-clearing prices",
+        "D) Producers are mandated to sell all output below average variable cost"
+      ],
+      "correct_option": "C",
+      "explanation": "Under dual pricing, producers must surrender a specified proportion of output (levy quota) to the government at a controlled price for Public Distribution System (PDS) fair price shops, while selling the surplus in the open market."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Collusive Oligopoly",
+      "difficulty": "easy",
+      "question": "An explicit formal agreement among competing oligopolistic firms to coordinate output quotas, eliminate price competition, and maximize joint profits is called a:",
+      "options": [
+        "A) Natural monopoly",
+        "B) Joint stock corporation",
+        "C) Cartel",
+        "D) Conglomerate merger"
+      ],
+      "correct_option": "C",
+      "explanation": "A cartel (such as OPEC in crude oil) is a formal collusive association of independent producers formed to coordinate production quotas and fix prices to maximize industry profits."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Shifts in Equilibrium",
+      "difficulty": "medium",
+      "question": "If consumer preference shifts away from plastic bottles to glass bottles while the cost of manufacturing glass falls simultaneously, what will happen in the market for glass bottles?",
+      "options": [
+        "A) Equilibrium price will unambiguously rise while quantity falls",
+        "B) Both equilibrium price and quantity will collapse to zero",
+        "C) Equilibrium quantity will unambiguously increase, while the change in equilibrium price depends on the relative magnitudes of the shifts",
+        "D) Equilibrium quantity will fall while price remains constant"
+      ],
+      "correct_option": "C",
+      "explanation": "Increased preference shifts demand rightward (increasing price and quantity). Lower manufacturing costs shift supply rightward (decreasing price, increasing quantity). Quantity unambiguously increases; price change depends on relative shift magnitudes."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Ceiling Black Marketing",
+      "difficulty": "easy",
+      "question": "Black marketing often emerges as a direct unintended consequence of a government price ceiling because:",
+      "options": [
+        "A) The government pays cash bonuses to unauthorized dealers",
+        "B) Producers hoard inventory because market demand is zero",
+        "C) Dissatisfied buyers whose demand is unmet at the controlled ceiling price are willing to pay an unauthorized higher price to illegal sellers",
+        "D) Free market supply exceeds consumer demand at all prices"
+      ],
+      "correct_option": "C",
+      "explanation": "When an official ceiling price creates a persistent shortage, frustrated consumers who place a high valuation on the scarce good are willing to pay prices well above the legal ceiling in illegal black markets."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Fisher Equation",
+      "difficulty": "medium",
+      "question": "According to the Fisher equation in macroeconomic theory, the nominal interest rate (i) is approximately equal to:",
+      "options": [
+        "A) GDP deflator minus unemployment rate",
+        "B) Real interest rate divided by money multiplier",
+        "C) Real interest rate (r) plus expected inflation rate (pi)",
+        "D) Marginal efficiency of investment multiplied by capital-output ratio"
+      ],
+      "correct_option": "C",
+      "explanation": "The Fisher equation states that the nominal interest rate equals the real interest rate plus the expected rate of inflation: i = r + pi^e."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "GVA at Basic Prices",
+      "difficulty": "hard",
+      "question": "Under India's revised national accounting methodology introduced in 2015, how is Gross Value Added (GVA) at Basic Prices derived from GVA at Factor Cost?",
+      "options": [
+        "A) GVA at Basic Prices = GDP at Market Prices - Consumption of Fixed Capital",
+        "B) GVA at Basic Prices = GVA at Factor Cost + Product Taxes - Product Subsidies",
+        "C) GVA at Basic Prices = GVA at Factor Cost + Production Taxes - Production Subsidies",
+        "D) GVA at Basic Prices = GVA at Factor Cost + Net Factor Income from Abroad"
+      ],
+      "correct_option": "C",
+      "explanation": "In the revised methodology, GVA at basic prices includes net production taxes (taxes on production independent of volume, like land revenue or stamp duty minus subsidies like input subsidies), so GVA_basic = GVA_fc + (Production Taxes - Production Subsidies)."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Imputed Rent in GDP",
+      "difficulty": "easy",
+      "question": "Why is the imputed rent of owner-occupied houses included in the estimation of Gross Domestic Product?",
+      "options": [
+        "A) Because housing transactions always involve foreign exchange remittances",
+        "B) Because owner-occupants pay direct property lease taxes to the central government",
+        "C) Because owner-occupied dwellings render productive housing services equivalent to rented accommodations",
+        "D) Because owner-occupied homes are depreciated at 100 percent per year"
+      ],
+      "correct_option": "C",
+      "explanation": "Even though no cash rent changes hands, owner-occupied dwellings provide real flow of housing shelter services. To maintain consistency and avoid distortion when people move between renting and owning, imputed rent is counted in GDP."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Intermediate vs Capital Goods",
+      "difficulty": "medium",
+      "question": "Which of the following items purchased by a manufacturing firm is classified as an intermediate consumption good rather than a capital investment good?",
+      "options": [
+        "A) The acquisition of a permanent industrial plot for building a new factory unit",
+        "B) Heavy automated CNC milling machines designed to operate for 15 years",
+        "C) Lubricating oils, office stationery, and electricity consumed during the manufacturing process",
+        "D) Fleet of delivery freight trucks registered under company ownership"
+      ],
+      "correct_option": "C",
+      "explanation": "Intermediate consumption includes goods and services that are entirely used up, transformed, or consumed during the current production cycle (like electricity, lubricants, and paper), whereas durable machinery and trucks are capital assets."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Sterilization Operations",
+      "difficulty": "medium",
+      "question": "When a large surge of foreign direct investment enters India, the Reserve Bank of India buys foreign currency to prevent rupee appreciation. To 'sterilize' the inflationary impact of this injected domestic liquidity, the RBI will:",
+      "options": [
+        "A) Cut the repo rate by 100 basis points",
+        "B) Lower the Cash Reserve Ratio of commercial banks to encourage lending",
+        "C) Sell government securities in the domestic open market under the Market Stabilization Scheme",
+        "D) Print additional paper currency notes to distribute as public grants"
+      ],
+      "correct_option": "C",
+      "explanation": "Sterilization is the process of neutralizing the liquidity expansion caused by central bank foreign exchange purchases. The RBI absorbs the excess rupees by selling government securities in open market operations."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Marginal Standing Facility",
+      "difficulty": "medium",
+      "question": "The Marginal Standing Facility (MSF) instituted by the Reserve Bank of India allows scheduled commercial banks to borrow overnight emergency funds against approved government securities at an interest rate:",
+      "options": [
+        "A) Determined by bilateral agreement with foreign central banks",
+        "B) Lower than the prevailing Reverse Repo Rate",
+        "C) Exactly equal to the zero coupon bond yield",
+        "D) Higher than the prevailing Repo Rate"
+      ],
+      "correct_option": "D",
+      "explanation": "MSF is a penal emergency window where banks can borrow overnight funds from RBI dipping into their SLR portfolio at an interest rate fixed at a spread above the policy repo rate."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Velocity of Money",
+      "difficulty": "medium",
+      "question": "In Irving Fisher's Quantity Theory of Money equation MV = PT, what does the variable 'V' denote?",
+      "options": [
+        "A) The volatility of foreign exchange rates",
+        "B) The legal reserve requirement ratio",
+        "C) The total volume of real industrial production",
+        "D) The transactions velocity of circulation of money"
+      ],
+      "correct_option": "D",
+      "explanation": "In MV = PT, M is the stock of money, V is the transaction velocity of circulation (the average number of times a unit of money changes hands per year), P is the price level, and T is total transactions."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Forex Reserves Composition",
+      "difficulty": "easy",
+      "question": "India's official Foreign Exchange Reserves managed by the Reserve Bank of India consist of Foreign Currency Assets, Gold holdings, Special Drawing Rights (SDRs), and:",
+      "options": [
+        "A) Real estate holdings owned by Indian citizens abroad",
+        "B) Shares of domestic private software companies",
+        "C) Sovereign bonds issued by municipal municipal corporations",
+        "D) Reserve Tranche Position (RTP) in the International Monetary Fund"
+      ],
+      "correct_option": "D",
+      "explanation": "Forex reserves consist of: (1) Foreign Currency Assets (FCA), (2) Gold reserves, (3) Special Drawing Rights (SDRs) with IMF, and (4) Reserve Tranche Position (RTP) in the IMF."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier with Proportional Tax",
+      "difficulty": "hard",
+      "question": "In an economy where consumption is C = C_bar + b*Y_d and taxes are proportional to income (T = t*Y), the government expenditure multiplier is given by the formula:",
+      "options": [
+        "A) b / [1 - b + t]",
+        "B) 1 / [b * (1 - t)]",
+        "C) (1 - b) / (1 - t)",
+        "D) 1 / [1 - b(1 - t)]"
+      ],
+      "correct_option": "D",
+      "explanation": "With proportional taxes, disposable income Y_d = Y - tY = Y(1 - t). Aggregate demand AD = C_bar + b(1 - t)Y + I + G. Equating Y = AD gives Y[1 - b(1 - t)] = C_bar + I + G, so the multiplier is 1 / [1 - b(1 - t)]."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficit Financing and Inflation",
+      "difficulty": "medium",
+      "question": "When the government bridges a deflationary gap through deficit financing by borrowing directly from the central bank (monetization of deficit), the primary risk if pushed beyond the full employment level is:",
+      "options": [
+        "A) Rapid accumulation of foreign currency reserves",
+        "B) Immediate structural collapse of all commercial banks",
+        "C) A sharp contraction in the velocity of circulation of money",
+        "D) Demand-pull inflation due to excessive money supply chasing fixed full-employment output"
+      ],
+      "correct_option": "D",
+      "explanation": "Beyond the full employment level, output cannot expand in the short run. Continued creation of new fiat money to fund deficit spending directly fuels demand-pull inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Aggregate Expenditure Shifts",
+      "difficulty": "medium",
+      "question": "An autonomous increase in planned business investment expenditure causes the Aggregate Demand (C + I) line to:",
+      "options": [
+        "A) Shift downward parallel to itself",
+        "B) Rotate downward around the origin",
+        "C) Become completely vertical",
+        "D) Shift upward parallel to itself"
+      ],
+      "correct_option": "D",
+      "explanation": "Because autonomous investment is independent of income, an increase in autonomous investment raises the vertical intercept of the AD line without changing its slope (MPC), shifting it parallel upward."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Involuntary Unemployment",
+      "difficulty": "easy",
+      "question": "In Keynesian macroeconomic theory, involuntary unemployment refers to a situation where:",
+      "options": [
+        "A) Highly skilled professionals choose leisure over wage employment",
+        "B) Workers voluntarily leave employment to search for higher wage prospects elsewhere",
+        "C) Workers are temporarily unemployed due to seasonal factory closures",
+        "D) Able-bodied individuals willing to work at the prevailing wage rate are unable to find employment due to insufficient aggregate demand"
+      ],
+      "correct_option": "D",
+      "explanation": "Involuntary unemployment occurs when people who are physically fit and willing to accept work at prevailing market wages cannot find jobs because total aggregate demand in the economy is deficient."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Golden Rule of Public Finance",
+      "difficulty": "hard",
+      "question": "The 'Golden Rule of Public Finance' prescribes that over the economic cycle, government borrowing should:",
+      "options": [
+        "A) Never exceed total direct tax collections in any quarter",
+        "B) Be set equal to exactly 10 percent of gross national product",
+        "C) Be financed exclusively by borrowing from foreign multinational banks",
+        "D) Only be used to finance capital investment that yields future social and economic returns, while current revenue receipts cover all current consumption expenditure"
+      ],
+      "correct_option": "D",
+      "explanation": "The Golden Rule states that the government should run a zero or surplus balance on its current (revenue) budget over the economic cycle, borrowing only to invest in productive capital assets."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "FRBM Act 2003",
+      "difficulty": "medium",
+      "question": "The Fiscal Responsibility and Budget Management (FRBM) Act enacted by the Indian Parliament in 2003 initially mandated the central government to:",
+      "options": [
+        "A) Peg the fiscal deficit permanently to foreign exchange reserves",
+        "B) Double the corporate tax rate across all manufacturing industries",
+        "C) Discontinue all public borrowing from domestic commercial banks",
+        "D) Eliminate the Revenue Deficit entirely and reduce the Fiscal Deficit to 3 percent of GDP"
+      ],
+      "correct_option": "D",
+      "explanation": "The FRBM Act, 2003 aimed to institutionalize fiscal discipline by mandating the elimination of the revenue deficit and progressive reduction of the fiscal deficit to a sustainable 3% of GDP."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Crowding Out Effect",
+      "difficulty": "medium",
+      "question": "The 'crowding out' effect occurs when heavy government market borrowings to finance a large fiscal deficit lead to:",
+      "options": [
+        "A) Massive accumulation of unspent public deposits in commercial banks",
+        "B) An immediate influx of foreign goods that displaces domestic cottage industries",
+        "C) Forced reduction of corporate income taxes",
+        "D) Upward pressure on market interest rates, which dampens private sector investment and corporate borrowing"
+      ],
+      "correct_option": "D",
+      "explanation": "When the government absorbs a massive share of loanable funds in financial markets, the competition for funds pushes up interest rates, making borrowing expensive for private firms and 'crowding out' private investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "J-Curve Phenomenon",
+      "difficulty": "hard",
+      "question": "In international trade economics, the 'J-curve effect' suggests that following a currency devaluation, the trade balance of the depreciating country:",
+      "options": [
+        "A) Fluctuates erratically without following any economic adjustment trajectory",
+        "B) Improves immediately in the first month and then turns into a permanent trade deficit",
+        "C) Remains completely unchanged because import demand is perfectly elastic",
+        "D) Initially deteriorates in the short run due to pre-existing import contracts before improving in the long run as export volumes adjust"
+      ],
+      "correct_option": "D",
+      "explanation": "Because trade contracts are fixed in the short run, imports cost more in domestic currency immediately while export volumes take time to expand. This temporarily worsens the trade deficit before price elasticity takes effect, forming a 'J' shape."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "NEER vs REER",
+      "difficulty": "medium",
+      "question": "How does the Real Effective Exchange Rate (REER) differ from the Nominal Effective Exchange Rate (NEER)?",
+      "options": [
+        "A) NEER is adjusted for tariff rates whereas REER excludes all taxes",
+        "B) REER measures bilateral exchange rates solely against the US dollar without weights",
+        "C) REER excludes trade in industrial capital goods",
+        "D) REER adjusts the trade-weighted nominal exchange rate index (NEER) for domestic and foreign relative price level inflation differentials"
+      ],
+      "correct_option": "D",
+      "explanation": "NEER is a trade-weighted basket of nominal bilateral exchange rates. REER adjusts NEER for relative inflation differentials between the home country and its trading partners, serving as an indicator of international price competitiveness."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Drain of Wealth Theory",
+      "difficulty": "medium",
+      "question": "The profound critique demonstrating how British colonial rule systematically drained India's economic surplus to Britain without any equivalent commercial return was first popularized by:",
+      "options": [
+        "A) Amartya Sen in 'Development as Freedom'",
+        "B) Mahatma Gandhi in 'Hind Swaraj'",
+        "C) Jawaharlal Nehru in 'The Discovery of India'",
+        "D) Dadabhai Naoroji in his treatise 'Poverty and Un-British Rule in India'"
+      ],
+      "correct_option": "D",
+      "explanation": "Dadabhai Naoroji formulated the 'Drain of Wealth' theory, explaining how export surpluses from India were expropriated to finance Home Charges, pensions of British civil servants, and military expeditions."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Decennial Census History",
+      "difficulty": "easy",
+      "question": "The first synchronous decennial population census covering the entirety of British India was conducted in the year:",
+      "options": [
+        "A) 1921",
+        "B) 1853",
+        "C) 1901",
+        "D) 1881"
+      ],
+      "correct_option": "D",
+      "explanation": "Although non-synchronous demographic counts occurred earlier, India's first comprehensive, synchronous decennial census was carried out in 1881 and repeated every ten years thereafter."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Bank Nationalisation",
+      "difficulty": "easy",
+      "question": "In July 1969, the Government of India nationalized 14 major domestic commercial banks primarily to:",
+      "options": [
+        "A) Terminate all commercial lending to state-owned enterprises",
+        "B) Restrict private deposits and mandate compulsory gold confiscation",
+        "C) Facilitate foreign multinational corporations taking equity in public enterprises",
+        "D) Direct banking credit to priority sectors such as agriculture, small-scale enterprises, and rural branch expansion"
+      ],
+      "correct_option": "D",
+      "explanation": "Nationalisation in 1969 broke the control of industrial oligarchs over commercial credit, reorienting banking credit towards priority sectors (agriculture, SSI) and accelerating mass rural branch banking."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "MRTP Act 1969",
+      "difficulty": "medium",
+      "question": "The Monopolies and Restrictive Trade Practices (MRTP) Act was passed in 1969 to achieve which constitutional objective?",
+      "options": [
+        "A) Prevent the concentration of economic power in a few private corporate hands to the common detriment",
+        "B) Promote cross-border hostile corporate takeovers",
+        "C) Mandate complete state ownership of all small scale industries",
+        "D) Grant unlimited tax exemptions to monopoly enterprises"
+      ],
+      "correct_option": "A",
+      "explanation": "Enacted pursuant to the Directive Principles of State Policy, the MRTP Act aimed to ensure that the operation of the economic system did not result in concentration of wealth and monopolies."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Debate on Agricultural Subsidies",
+      "difficulty": "hard",
+      "question": "Why do critics argue against the indefinite continuation of generalized chemical fertilizer subsidies in Indian agriculture?",
+      "options": [
+        "A) Because disproportionate benefits accrue to prosperous large farmers and chemical manufacturers while inducing severe soil toxicity and groundwater depletion",
+        "B) Because fertilizer subsidies lead to immediate hyperinflation in urban services",
+        "C) Because small farmers are legally banned from utilizing chemical fertilizers",
+        "D) Because international agricultural agreements mandate 100% tax on fertilizers"
+      ],
+      "correct_option": "A",
+      "explanation": "Critics point out that fertilizer subsidies create a massive fiscal burden, largely benefit big landed farmers in irrigated regions, and promote unbalanced NPK application that degrades soil health and pollutes aquifers."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Strategic Disinvestment",
+      "difficulty": "medium",
+      "question": "In public sector reforms in India, 'Strategic Disinvestment' differs from minority share divestment because it entails:",
+      "options": [
+        "A) The sale of 50 percent or more of government equity along with the complete transfer of management control to a strategic private buyer",
+        "B) Selling shares exclusively to existing public sector employees",
+        "C) Listing loss-making units on local municipal stock exchanges",
+        "D) Transferring ownership to international humanitarian agencies"
+      ],
+      "correct_option": "A",
+      "explanation": "Strategic disinvestment involves relinquishing government shareholding of 50% or more, accompanied by transferring managerial control of the Central Public Sector Enterprise to a private strategic partner."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Goods and Services Tax",
+      "difficulty": "easy",
+      "question": "The introduction of the Goods and Services Tax (GST) in India in July 2017 subsumed numerous central and state indirect taxes to achieve:",
+      "options": [
+        "A) A unified national common market and elimination of the cascading effect of double taxation (tax-on-tax)",
+        "B) Complete abolition of all direct personal income taxes",
+        "C) Prohibition of interstate movement of manufactured merchandise",
+        "D) Replacement of commercial banking credit with state grants"
+      ],
+      "correct_option": "A",
+      "explanation": "GST unified India into a single domestic market ('One Nation, One Tax, One Market') by amalgamating excise, VAT, octroi, and service taxes, allowing seamless input tax credit to mitigate cascading effects."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "LERMS 1992",
+      "difficulty": "hard",
+      "question": "The Liberalised Exchange Rate Management System (LERMS) introduced in March 1992 represented a transition stage where:",
+      "options": [
+        "A) A dual exchange rate was instituted: 40 percent of foreign exchange receipts had to be surrendered at the official rate for essential imports, while 60 percent could be converted at free market rates",
+        "B) The Indian rupee was permanently fixed to the British Pound Sterling",
+        "C) All commercial banks were banned from buying foreign currencies",
+        "D) Importers were exempted from paying customs import tariffs"
+      ],
+      "correct_option": "A",
+      "explanation": "LERMS was a dual exchange rate regime that served as a stepping stone towards full convertibility on trade account. Exporters surrendered 40% at the official rate to fund essential government imports, while 60% was converted at market-determined rates."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Structural vs Stabilization Measures",
+      "difficulty": "medium",
+      "question": "Under the 1991 New Economic Policy, which of the following is classified as a short-term 'Stabilization Measure' rather than a long-term 'Structural Reform'?",
+      "options": [
+        "A) Devaluation of the rupee and fiscal tightening to restore foreign exchange reserves and control inflation",
+        "B) Deregulation of industrial licensing across heavy engineering",
+        "C) Disinvestment of public sector enterprise shares",
+        "D) Progressive tariff reductions and dismantling of import licensing"
+      ],
+      "correct_option": "A",
+      "explanation": "Stabilization policies were immediate, short-term macroeconomic measures designed to curb inflation and correct the acute balance of payments crisis. Industrial deregulation and trade liberalization were long-term structural reforms."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Brain Drain",
+      "difficulty": "medium",
+      "question": "The emigration of highly trained engineers, doctors, and scientists from developing nations like India to advanced industrial economies is economically termed:",
+      "options": [
+        "A) Brain drain (loss of high-quality human capital)",
+        "B) Involuntary seasonal migration",
+        "C) Casualisation of the labour force",
+        "D) Disguised structural unemployment"
+      ],
+      "correct_option": "A",
+      "explanation": "Brain drain refers to the international migration of skilled professionals who received subsidized higher education in their home country, depleting the domestic economy's high-level human capital stock."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "JAM Trinity",
+      "difficulty": "easy",
+      "question": "The 'JAM Trinity' harnessed by the Government of India for direct benefit transfers and financial inclusion stands for:",
+      "options": [
+        "A) Jan Dhan, Aadhaar, and Mobile",
+        "B) Jawahar Rozgar, Agriculture, and Marketing",
+        "C) Joint Asset Management",
+        "D) Judicial Administration and Monitoring"
+      ],
+      "correct_option": "A",
+      "explanation": "The JAM Trinity links Pradhan Mantri Jan Dhan Yojana (bank accounts), Aadhaar (biometric unique identification), and Mobile telephony to deliver welfare subsidies directly without middlemen leakage."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Three-Tier Rural Credit",
+      "difficulty": "hard",
+      "question": "In the short-term cooperative rural credit structure in India, what constitutes the grass-roots village-level tier directly lending to cultivators?",
+      "options": [
+        "A) Primary Agricultural Credit Societies (PACS)",
+        "B) District Central Cooperative Banks (DCCBs)",
+        "C) State Cooperative Apex Banks (StCBs)",
+        "D) Regional Rural Development Boards"
+      ],
+      "correct_option": "A",
+      "explanation": "The short-term rural cooperative credit structure has three tiers: Primary Agricultural Credit Societies (PACS) at the village level, DCCBs at the district level, and State Cooperative Banks (StCBs) at the state level."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Informal Employment in Formal Sector",
+      "difficulty": "hard",
+      "question": "The modern phenomenon where large formal sector corporate enterprises employ workers on short-term contractual arrangements without pension, provident fund, or health security is described as:",
+      "options": [
+        "A) Informalisation of employment within the formal sector",
+        "B) Complete formalisation of rural handicraft guilds",
+        "C) Frictional search unemployment",
+        "D) Structural obsolescence of industrial capital"
+      ],
+      "correct_option": "A",
+      "explanation": "Informalisation of employment occurs when enterprises in the formal (organized) sector hire workers on contract or casual basis, denying them statutory social security and job security enjoyed by permanent formal employees."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Environmental Carrying Capacity",
+      "difficulty": "medium",
+      "question": "Environmental degradation in fertile agricultural belts like Punjab and Haryana, manifesting as severe soil salinity, micronutrient exhaustion, and falling water tables, indicates that:",
+      "options": [
+        "A) Human resource extraction has surpassed the carrying capacity and sustainable regenerative threshold of the local agro-ecosystem",
+        "B) Farmers have abandoned chemical pesticides in favour of bio-fertilizers",
+        "C) The absorptive capacity of rural soil has become infinitely elastic",
+        "D) The Opportunity cost of groundwater extraction is exactly zero"
+      ],
+      "correct_option": "A",
+      "explanation": "Intensive monoculture, over-irrigation, and heavy chemical use have caused resource extraction and ecological damage to exceed the carrying and restorative capacity of the land."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Dual Pricing in China",
+      "difficulty": "hard",
+      "question": "What was the 'Dual Pricing System' introduced in China during the early phases of its post-1978 economic reforms?",
+      "options": [
+        "A) Farmers and industrial enterprises had to buy and sell a fixed quota of goods at government-mandated state prices, while remaining quantities were transacted at free market prices",
+        "B) Urban residents paid in gold while rural residents paid in fiat paper yuan",
+        "C) Export commodities were priced at double the domestic consumer price",
+        "D) State enterprises were mandated to price goods at zero marginal cost"
+      ],
+      "correct_option": "A",
+      "explanation": "China's dual pricing mechanism required economic agents to meet state-set quotas at administered prices, while allowing surplus production to be sold and purchased at market-determined prices, stimulating market production."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Remittances Dependency",
+      "difficulty": "medium",
+      "question": "During the late 1970s and 1980s, Pakistan's economic growth was heavily buoyed by an influx of foreign resources originating primarily from:",
+      "options": [
+        "A) Workers' remittances from large-scale emigration to Middle Eastern oil-exporting economies ('Gulf Boom')",
+        "B) Massive export of high-technology microchips to East Asia",
+        "C) Bilateral royalties received from space satellite launches",
+        "D) Sovereign dividend yields from European corporate equities"
+      ],
+      "correct_option": "A",
+      "explanation": "Pakistan experienced significant growth in the late 1970s and 1980s due to worker remittances from the Middle East oil boom and financial/military aid related to the Afghan crisis."
+    },
+    {
+      "id": "CUET_ECO_2026_P16_L6B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Female Labour Force Participation",
+      "difficulty": "hard",
+      "question": "In comparative evaluations of social and gender indicators among India, China, and Pakistan, which country exhibits the highest female labour force participation rate?",
+      "options": [
+        "A) China, where state policies historically emphasized universal female education, nursery support, and economic integration",
+        "B) Pakistan, due to predominant female employment in heavy capital goods factories",
+        "C) India, where rural female participation exceeds 80 percent in organized corporate management",
+        "D) All three nations exhibit identical female workforce participation rates"
+      ],
+      "correct_option": "A",
+      "explanation": "China has consistently maintained a significantly higher female labour force participation rate (around 60% or higher) than both India and Pakistan, supported by early social reforms, state child-care systems, and broad education."
+    }
+  ]
+}

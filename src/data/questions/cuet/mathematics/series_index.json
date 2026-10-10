@@ -1,0 +1,841 @@
+{
+  "series_id": "CUET_MATH_2026",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "total_papers": 25,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "total_questions_series": 1250,
+  "papers": [
+    {
+      "paper_number": 1,
+      "level": "1",
+      "filename": "CUET_Mathematics_Paper1_Level1.json",
+      "difficulty_distribution": {
+        "easy": "34 (68%)",
+        "medium": "13 (26%)",
+        "hard": "3 (6%)"
+      },
+      "key_distribution": {
+        "B": 14,
+        "D": 14,
+        "A": 12,
+        "C": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Definite Integrals",
+        "Determinants",
+        "Differential Equations",
+        "Higher Order Derivatives",
+        "Increasing and Decreasing Functions",
+        "Indefinite Integrals",
+        "Integrals",
+        "Integration and its Applications",
+        "Inverse Trigonometric Functions",
+        "Inverse of Matrix",
+        "Linear Programming",
+        "Matrices",
+        "Maxima and Minima",
+        "Probability",
+        "Relations and Functions",
+        "Simultaneous Equations",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 2,
+      "level": "2",
+      "filename": "CUET_Mathematics_Paper2_Level2.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "C": 17,
+        "D": 8,
+        "B": 13,
+        "A": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Definite Integrals",
+        "Determinants",
+        "Differential Equations",
+        "Higher Order Derivatives",
+        "Increasing and Decreasing Functions",
+        "Indefinite Integrals",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Inverse of Matrix",
+        "Linear Programming",
+        "Matrices",
+        "Maxima and Minima",
+        "Probability",
+        "Relations and Functions",
+        "Simultaneous Equations",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 3,
+      "level": "3",
+      "filename": "CUET_Mathematics_Paper3_Level3.json",
+      "difficulty_distribution": {
+        "easy": "25 (50%)",
+        "medium": "18 (36%)",
+        "hard": "7 (14%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "C": 15,
+        "D": 13,
+        "B": 9
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 4,
+      "level": "4",
+      "filename": "CUET_Mathematics_Paper4_Level4.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "C": 11,
+        "B": 19,
+        "D": 8
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Binomial Theorem",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Permutations and Combinations",
+        "Probability",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 5,
+      "level": "5",
+      "filename": "CUET_Mathematics_Paper5_Level5.json",
+      "difficulty_distribution": {
+        "easy": "15 (30%)",
+        "medium": "22 (44%)",
+        "hard": "13 (26%)"
+      },
+      "key_distribution": {
+        "B": 11,
+        "C": 14,
+        "D": 10,
+        "A": 15
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Calculus",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Inverse of Matrix",
+        "Limits",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Quadratic Equations",
+        "Relations and Functions",
+        "Simultaneous Equations",
+        "Three-dimensional Geometry",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 6,
+      "level": "6",
+      "filename": "CUET_Mathematics_Paper6_Level6.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "C": 9,
+        "A": 15,
+        "D": 16,
+        "B": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integration",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Three-dimensional Geometry",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 7,
+      "level": "7",
+      "filename": "CUET_Mathematics_Paper7_Level7.json",
+      "difficulty_distribution": {
+        "easy": "10 (20%)",
+        "medium": "22 (44%)",
+        "hard": "18 (36%)"
+      },
+      "key_distribution": {
+        "B": 9,
+        "C": 13,
+        "D": 18,
+        "A": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 8,
+      "level": "8",
+      "filename": "CUET_Mathematics_Paper8_Level8.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "D": 16,
+        "C": 9
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Coordinate Geometry",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Relations and Functions",
+        "Sets",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 9,
+      "level": "9",
+      "filename": "CUET_Mathematics_Paper9_Level9.json",
+      "difficulty_distribution": {
+        "easy": "5 (10%)",
+        "medium": "19 (38%)",
+        "hard": "26 (52%)"
+      },
+      "key_distribution": {
+        "D": 11,
+        "A": 20,
+        "C": 9,
+        "B": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Complex Numbers",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Higher Order Derivatives",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Maxima and Minima",
+        "Probability",
+        "Relations and Functions",
+        "Simultaneous Equations",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 10,
+      "level": "10",
+      "filename": "CUET_Mathematics_Paper10_Level10.json",
+      "difficulty_distribution": {
+        "easy": "2 (4%)",
+        "medium": "15 (30%)",
+        "hard": "33 (66%)"
+      },
+      "key_distribution": {
+        "B": 10,
+        "D": 13,
+        "A": 14,
+        "C": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Inverse of Matrix",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Relations and Functions",
+        "Simultaneous Equations",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 11,
+      "level": "1B",
+      "filename": "CUET_Mathematics_Paper11_Level1B.json",
+      "difficulty_distribution": {
+        "easy": "35 (70%)",
+        "medium": "12 (24%)",
+        "hard": "3 (6%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 8,
+        "D": 17,
+        "C": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 12,
+      "level": "2B",
+      "filename": "CUET_Mathematics_Paper12_Level2B.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "B": 11,
+        "D": 16,
+        "C": 12,
+        "A": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [],
+      "status": "complete"
+    },
+    {
+      "paper_number": 13,
+      "level": "3B",
+      "filename": "CUET_Mathematics_Paper13_Level3B.json",
+      "difficulty_distribution": {
+        "easy": "25 (50%)",
+        "medium": "18 (36%)",
+        "hard": "7 (14%)"
+      },
+      "key_distribution": {
+        "B": 17,
+        "C": 11,
+        "A": 12,
+        "D": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Calculus",
+        "Complex Numbers",
+        "Determinants",
+        "Differential Equations",
+        "Integration",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Sequences and Series",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 14,
+      "level": "4B",
+      "filename": "CUET_Mathematics_Paper14_Level4B.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 11,
+        "B": 13,
+        "D": 15,
+        "C": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Algebra",
+        "Calculus",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Probability",
+        "Relations and Functions",
+        "Vectors and 3D Geometry"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 15,
+      "level": "5B",
+      "filename": "CUET_Mathematics_Paper15_Level5B.json",
+      "difficulty_distribution": {
+        "easy": "15 (30%)",
+        "medium": "22 (44%)",
+        "hard": "13 (26%)"
+      },
+      "key_distribution": {
+        "C": 17,
+        "B": 11,
+        "D": 14,
+        "A": 8
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Algebra",
+        "Calculus",
+        "Coordinate Geometry",
+        "Linear Programming",
+        "Probability",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 16,
+      "level": "6B",
+      "filename": "CUET_Mathematics_Paper16_Level6B.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "D": 8,
+        "B": 16,
+        "A": 8,
+        "C": 18
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Calculus",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Integration",
+        "Inverse Trigonometric Functions",
+        "Matrices",
+        "Probability",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 17,
+      "level": "7B",
+      "filename": "CUET_Mathematics_Paper17_Level7B.json",
+      "difficulty_distribution": {
+        "easy": "10 (20%)",
+        "medium": "22 (44%)",
+        "hard": "18 (36%)"
+      },
+      "key_distribution": {
+        "A": 17,
+        "C": 11,
+        "B": 12,
+        "D": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Calculus",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 18,
+      "level": "8B",
+      "filename": "CUET_Mathematics_Paper18_Level8B.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "B": 15,
+        "C": 13,
+        "A": 13,
+        "D": 9
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "3D Geometry - Planes",
+        "Applications of Derivatives",
+        "Calculus - Applications",
+        "Calculus - Higher Derivatives",
+        "Calculus - Maxima/Minima",
+        "Calculus - Mean Value Theorem",
+        "Calculus - Monotonicity",
+        "Calculus - Related Rates",
+        "Continuity",
+        "Continuity and Differentiability",
+        "Derivatives",
+        "Determinants",
+        "Differential Equations",
+        "Differential Equations - Second Order",
+        "Financial Mathematics",
+        "Integration",
+        "Integration - Area Under Curve",
+        "Integration - By Parts",
+        "Integration - Definite",
+        "Integration - Partial Fractions",
+        "Integration - Substitution",
+        "Inverse Trigonometry",
+        "Inverse of Matrix",
+        "Linear Programming",
+        "Matrices",
+        "Matrices - Properties",
+        "Matrices - System of Equations",
+        "Matrices - Transpose",
+        "Probability",
+        "Probability - Bayes Theorem",
+        "Probability - Binomial",
+        "Probability - Conditional",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Vectors",
+        "Vectors - 3D",
+        "Vectors - Cross Product"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 19,
+      "level": "9B",
+      "filename": "CUET_Mathematics_Paper19_Level9B.json",
+      "difficulty_distribution": {
+        "easy": "5 (10%)",
+        "medium": "20 (40%)",
+        "hard": "25 (50%)"
+      },
+      "key_distribution": {
+        "A": 10,
+        "C": 14,
+        "B": 11,
+        "D": 15
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Calculus",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integration",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 20,
+      "level": "10B",
+      "filename": "CUET_Mathematics_Paper20_Level10B.json",
+      "difficulty_distribution": {
+        "easy": "2 (4%)",
+        "medium": "15 (30%)",
+        "hard": "33 (66%)"
+      },
+      "key_distribution": {
+        "B": 17,
+        "C": 13,
+        "A": 8,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Algebra",
+        "Calculus",
+        "Linear Programming",
+        "Probability",
+        "Relations and Functions",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 21,
+      "level": "2C",
+      "filename": "CUET_Mathematics_Paper21_Level2C.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "B": 17,
+        "C": 11,
+        "A": 12,
+        "D": 10
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Applications of Derivatives",
+        "Applied Mathematics",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Integration",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Three-dimensional Geometry",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 22,
+      "level": "4C",
+      "filename": "CUET_Mathematics_Paper22_Level4C.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 14,
+        "C": 12,
+        "D": 13,
+        "B": 11
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "3D Geometry",
+        "Applications of Derivatives",
+        "Calculus",
+        "Continuity and Differentiability",
+        "Determinants",
+        "Differential Equations",
+        "Financial Mathematics",
+        "Inferential Statistics",
+        "Integrals",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Numbers, Quantification and Numerical Applications",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions",
+        "Time Based Data",
+        "Vectors"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 23,
+      "level": "6C",
+      "filename": "CUET_Mathematics_Paper23_Level6C.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "B": 18,
+        "C": 8,
+        "D": 10,
+        "A": 14
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Calculus",
+        "Determinants",
+        "Differential Equations",
+        "Financial Mathematics",
+        "Integration",
+        "Inverse Trigonometric Functions",
+        "Linear Programming",
+        "Matrices",
+        "Probability",
+        "Probability Distributions",
+        "Relations and Functions"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 24,
+      "level": "8C",
+      "filename": "CUET_Mathematics_Paper24_Level8C.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "D": 13,
+        "B": 11,
+        "C": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Algebra",
+        "Applied Mathematics",
+        "Relations and Functions"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 25,
+      "level": "10C",
+      "filename": "CUET_Mathematics_Paper25_Level10C.json",
+      "difficulty_distribution": {
+        "easy": "2 (4%)",
+        "medium": "15 (30%)",
+        "hard": "33 (66%)"
+      },
+      "key_distribution": {
+        "D": 11,
+        "B": 15,
+        "A": 15,
+        "C": 9
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Algebra",
+        "Applied Mathematics",
+        "Relations and Functions"
+      ],
+      "status": "complete"
+    }
+  ]
+}

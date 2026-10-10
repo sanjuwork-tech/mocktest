@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P7_L7",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 7,
+  "difficulty_level": "7",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P7_L7_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "Basic SQL SELECT",
+      "difficulty": "easy",
+      "question": "Which SQL keyword is used to retrieve all columns from a table?",
+      "options": [
+        "A) *",
+        "B) FETCH",
+        "C) ALL",
+        "D) COLUMNS"
+      ],
+      "correct_option": "A",
+      "explanation": "The asterisk (*) in SQL SELECT statement retrieves all columns from the specified table."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which aggregate function returns the number of rows in a result set?",
+      "options": [
+        "A) AVG()",
+        "B) MAX()",
+        "C) SUM()",
+        "D) COUNT()"
+      ],
+      "correct_option": "D",
+      "explanation": "COUNT() returns the number of rows. SUM adds values, AVG calculates average, MAX returns the largest value."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL JOINs",
+      "difficulty": "medium",
+      "question": "A table 'Orders' has columns (order_id, cust_id, amount). A table 'Customers' has columns (cust_id, name, city). Which JOIN returns all customers and their orders, including customers who have not placed any orders?",
+      "options": [
+        "A) INNER JOIN Customers ON Orders.cust_id = Customers.cust_id",
+        "B) LEFT JOIN Customers ON Orders.cust_id = Customers.cust_id",
+        "C) LEFT JOIN Orders ON Customers.cust_id = Orders.cust_id",
+        "D) RIGHT JOIN Orders ON Customers.cust_id = Orders.cust_id"
+      ],
+      "correct_option": "C",
+      "explanation": "LEFT JOIN from Customers returns all rows from Customers (the left table) and matching rows from Orders. Customers with no orders will have NULL order fields."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization",
+      "difficulty": "medium",
+      "question": "A relation R(A,B,C,D) has functional dependencies {A→B, B→C, C→D}. What is the highest normal form satisfied by R?",
+      "options": [
+        "A) BCNF",
+        "B) 2NF",
+        "C) 3NF",
+        "D) 1NF only"
+      ],
+      "correct_option": "B",
+      "explanation": "The candidate key is A. Since all non-prime attributes (B,C,D) are fully dependent on A, 2NF is satisfied. But there are transitive dependencies A→B→C→D, so 3NF is violated. Hence highest normal form is 2NF."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q05",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Subqueries",
+      "difficulty": "medium",
+      "question": "Given a table Employees (emp_id, name, salary, dept_id), which query correctly finds employees earning more than the average salary?",
+      "options": [
+        "A) SELECT * FROM Employees HAVING salary > AVG(salary)",
+        "B) SELECT * FROM Employees WHERE salary > AVG(salary)",
+        "C) SELECT * FROM Employees WHERE salary > AVERAGE(salary)",
+        "D) SELECT * FROM Employees WHERE salary > (SELECT AVG(salary) FROM Employees)"
+      ],
+      "correct_option": "D",
+      "explanation": "Aggregate functions such as AVG() cannot be used directly in a WHERE clause without a subquery. A scalar subquery (SELECT AVG(salary) FROM Employees) computes the overall average salary first, allowing the outer query to filter all employees whose salary exceeds this value."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "Transactions & ACID",
+      "difficulty": "hard",
+      "question": "Which ACID property ensures that either all operations of a transaction are executed or none of them?",
+      "options": [
+        "A) Isolation",
+        "B) Atomicity",
+        "C) Durability",
+        "D) Consistency"
+      ],
+      "correct_option": "B",
+      "explanation": "Atomicity guarantees the 'all-or-nothing' nature of a transaction — either all operations complete successfully, or the entire transaction is rolled back."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q07",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL GROUP BY & HAVING",
+      "difficulty": "medium",
+      "question": "Which clause is used to filter groups after a GROUP BY clause is applied?",
+      "options": [
+        "A) FILTER",
+        "B) GROUP FILTER",
+        "C) HAVING",
+        "D) WHERE"
+      ],
+      "correct_option": "C",
+      "explanation": "HAVING filters groups after aggregation (GROUP BY). WHERE filters individual rows before grouping."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q08",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization - BCNF",
+      "difficulty": "hard",
+      "question": "Relation R(A,B,C,D) has FDs: {AB→C, C→D, D→A}. Which of the following is NOT a candidate key?",
+      "options": [
+        "A) CD",
+        "B) AB",
+        "C) BD",
+        "D) BC"
+      ],
+      "correct_option": "A",
+      "explanation": "Compute closures: AB+ = ABCD ✓, BC+ = BCDA ✓, BD+ = BDAC ✓. CD+ = CDA (B not derivable), so CD is not a superkey. Hence CD is not a candidate key."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q09",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL - Correlated Subquery",
+      "difficulty": "hard",
+      "question": "What is the output of: SELECT dept_id, MIN(salary) FROM Employees GROUP BY dept_id HAVING MIN(salary) > (SELECT AVG(salary) FROM Employees)?",
+      "options": [
+        "A) Departments where the minimum salary exceeds the company average salary",
+        "B) Departments where the average salary exceeds the company minimum salary",
+        "C) All employees whose salary exceeds their department's average",
+        "D) A syntax error because MIN() cannot be used in HAVING"
+      ],
+      "correct_option": "A",
+      "explanation": "The query groups by dept_id, computes MIN(salary) per department, then filters to keep only those groups where the department's minimum salary exceeds the overall average salary of all employees."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q10",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Indexes",
+      "difficulty": "hard",
+      "question": "A table has a clustered index on column A and a non-clustered index on column B. A query SELECT * FROM T WHERE B = 5 AND A = 10 is executed. Which index will the optimizer most likely use?",
+      "options": [
+        "A) Non-clustered index on B",
+        "B) Full table scan",
+        "C) Both indexes simultaneously",
+        "D) Clustered index on A"
+      ],
+      "correct_option": "D",
+      "explanation": "Since both A and B are equality conditions, the optimizer can use either. The clustered index on A allows direct row access, so it is preferred when both are equality matches."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q11",
+      "topic": "Networks",
+      "sub_topic": "OSI Model Layers",
+      "difficulty": "easy",
+      "question": "At which OSI layer does routing of packets between networks occur?",
+      "options": [
+        "A) Application Layer",
+        "B) Network Layer",
+        "C) Data Link Layer",
+        "D) Transport Layer"
+      ],
+      "correct_option": "B",
+      "explanation": "The Network Layer (Layer 3) handles logical addressing and routing of packets across multiple networks."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q12",
+      "topic": "Networks",
+      "sub_topic": "TCP vs UDP",
+      "difficulty": "easy",
+      "question": "Which protocol provides reliable, connection-oriented communication with flow control?",
+      "options": [
+        "A) ARP",
+        "B) ICMP",
+        "C) TCP",
+        "D) UDP"
+      ],
+      "correct_option": "C",
+      "explanation": "TCP (Transmission Control Protocol) provides reliable, connection-oriented, flow-controlled communication. UDP is connectionless and unreliable."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q13",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing & Subnetting",
+      "difficulty": "medium",
+      "question": "What is the broadcast address for subnet 192.168.10.0/25?",
+      "options": [
+        "A) 192.168.10.63",
+        "B) 192.168.10.255",
+        "C) 192.168.10.127",
+        "D) 192.168.10.128"
+      ],
+      "correct_option": "C",
+      "explanation": "/25 gives 2^(32-25) = 128 addresses. The range is 192.168.10.0 (network) to 192.168.10.127 (broadcast). So the broadcast address is 192.168.10.127."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q14",
+      "topic": "Networks",
+      "sub_topic": "HTTP & DNS",
+      "difficulty": "medium",
+      "question": "In the Domain Name System (DNS), which resource record type is specifically used to map a domain name to an IPv4 address?",
+      "options": [
+        "A) AAAA record",
+        "B) A record",
+        "C) MX record",
+        "D) CNAME record"
+      ],
+      "correct_option": "B",
+      "explanation": "In DNS, an 'A' (Address) record maps a domain name to its corresponding 32-bit IPv4 address. An 'AAAA' record maps a domain to a 128-bit IPv6 address, an 'MX' (Mail Exchange) record directs email traffic to designated mail servers, and a 'CNAME' (Canonical Name) record aliases one domain name to another."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q15",
+      "topic": "Networks",
+      "sub_topic": "Subnetting Calculation",
+      "difficulty": "medium",
+      "question": "An organization needs 6 subnets from 172.16.0.0/16, each supporting at least 2000 hosts. What subnet mask is appropriate?",
+      "options": [
+        "A) 255.255.224.0",
+        "B) 255.255.248.0",
+        "C) 255.255.255.0",
+        "D) 255.255.254.0"
+      ],
+      "correct_option": "A",
+      "explanation": "Borrow 3 bits from host portion: /16 + 3 = /19 = 255.255.224.0. This yields 2^3 = 8 subnets (≥6 needed) and 2^11 - 2 = 2046 hosts per subnet (≥2000 needed). /20 would give only 1022 hosts which is insufficient."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q16",
+      "topic": "Networks",
+      "sub_topic": "TCP Congestion Control",
+      "difficulty": "medium",
+      "question": "In TCP Reno congestion control, what happens to the congestion window size when a packet loss is detected?",
+      "options": [
+        "A) It is set to 1 MSS",
+        "B) It is doubled",
+        "C) It remains unchanged",
+        "D) It is halved"
+      ],
+      "correct_option": "D",
+      "explanation": "TCP Reno uses additive increase/multiplicative decrease. On packet loss, the congestion window (cwnd) is halved, and then additive increase resumes."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q17",
+      "topic": "Networks",
+      "sub_topic": "Error Detection - CRC",
+      "difficulty": "hard",
+      "question": "A 12-bit data word 110010101010 is transmitted using a CRC with generator polynomial x⁴ + x + 1. What is the remainder after CRC division?",
+      "options": [
+        "A) 1011",
+        "B) 0011",
+        "C) 1100",
+        "D) 0101"
+      ],
+      "correct_option": "D",
+      "explanation": "Generator x⁴+x+1 = 10011. Append 4 zeros: 1100101010100000. Perform XOR division by 10011. The remainder after division is 0101."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q18",
+      "topic": "Networks",
+      "sub_topic": "Routing Protocols - OSPF",
+      "difficulty": "hard",
+      "question": "In OSPF, what is the purpose of the designated router (DR) on a multi-access network segment?",
+      "options": [
+        "A) To encrypt all OSPF packets",
+        "B) To assign IP addresses to hosts",
+        "C) To reduce the number of adjacencies by acting as a central point for LSAs",
+        "D) To perform NAT for outgoing traffic"
+      ],
+      "correct_option": "C",
+      "explanation": "The DR reduces the number of OSPF adjacencies from O(n²) to O(n) on multi-access networks by centralizing LSA exchange. All routers form adjacencies only with the DR (and BDR)."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q19",
+      "topic": "Networks",
+      "sub_topic": "IPv6 Addressing",
+      "difficulty": "hard",
+      "question": "Which of the following is a valid link-local IPv6 address?",
+      "options": [
+        "A) ::1",
+        "B) FE80::1",
+        "C) FF02::1",
+        "D) 2001:db8::1"
+      ],
+      "correct_option": "B",
+      "explanation": "Link-local IPv6 addresses use the prefix FE80::/10. 2001:db8:: is documentation prefix, FF02::1 is multicast, ::1 is loopback."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q20",
+      "topic": "Networks",
+      "sub_topic": "CSMA/CD Minimum Frame",
+      "difficulty": "hard",
+      "question": "In a CSMA/CD network with 1 Gbps data rate and propagation delay of 5 μs, what is the minimum frame size required? (Signal speed = 2×10⁸ m/s)",
+      "options": [
+        "A) 1250 bytes",
+        "B) 10000 bytes",
+        "C) 5000 bytes",
+        "D) 625 bytes"
+      ],
+      "correct_option": "A",
+      "explanation": "Round-trip time = 2 × 5 μs = 10 μs. Minimum frame transmission time ≥ 10 μs. At 1 Gbps = 10⁹ bps, bits transmitted in 10 μs = 10⁹ × 10×10⁻⁶ = 10,000 bits = 1250 bytes."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists & Slicing",
+      "difficulty": "easy",
+      "question": "What is the output of: lst = [10,20,30,40,50]; print(lst[1:4])?",
+      "options": [
+        "A) [20,30,40,50]",
+        "B) [20,30,40]",
+        "C) [10,20,30]",
+        "D) [10,20,30,40]"
+      ],
+      "correct_option": "B",
+      "explanation": "Slicing lst[1:4] includes indices 1, 2, 3 → [20, 30, 40]."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Which method returns all key-value pairs from a dictionary as a list of tuples?",
+      "options": [
+        "A) values()",
+        "B) keys()",
+        "C) pairs()",
+        "D) items()"
+      ],
+      "correct_option": "D",
+      "explanation": "dict.items() returns key-value pairs as tuples. keys() returns only keys, values() returns only values."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stack Operations",
+      "difficulty": "medium",
+      "question": "A stack initially contains elements [5, 8, 3] (top=3). Operations: pop, push(7), pop, push(2), pop. What is the final top element?",
+      "options": [
+        "A) Stack is empty",
+        "B) 2",
+        "C) 8",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "Start: [5,8,3] top=3. pop→[5,8], push(7)→[5,8,7], pop→[5,8], push(2)→[5,8,2], pop→[5,8]. Final top = 8."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Circular Queue",
+      "difficulty": "medium",
+      "question": "A circular queue of size 5 has front=2, rear=4. How many elements are currently in the queue?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 1",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "Elements in circular queue = (rear - front + capacity) % capacity = (4 - 2 + 5) % 5 = 2."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Linked List Insertion",
+      "difficulty": "medium",
+      "question": "In a singly linked list, the time complexity to insert a node at a given position (with reference to the node) is:",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n²)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "If a reference to the position node is already given, insertion at that point is O(1) — just update pointers."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Binary Tree Height",
+      "difficulty": "medium",
+      "question": "A binary tree has 15 nodes. What is the maximum possible height of the tree?",
+      "options": [
+        "A) 14",
+        "B) 4",
+        "C) 15",
+        "D) 7"
+      ],
+      "correct_option": "A",
+      "explanation": "Maximum height of a binary tree with n nodes occurs when it is a skewed tree (linear chain). Height = n - 1 = 14."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Python Generators",
+      "difficulty": "medium",
+      "question": "What is the output of: def gen(): yield 1; yield 2; yield 3; g = gen(); print(list(g)[-1])?",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 2",
+        "D) Error"
+      ],
+      "correct_option": "B",
+      "explanation": "list(g) materializes all yielded values [1,2,3]. Indexing with -1 gives the last element = 3."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "AVL Tree Rotation",
+      "difficulty": "hard",
+      "question": "In an AVL tree, inserting 4 into a tree with root 10 (left=5, right=15; 5's left=3, 5's right=7) causes a rotation. What type of rotation is needed at the root?",
+      "options": [
+        "A) Left rotation on 10",
+        "B) Right rotation on 5",
+        "C) Right rotation on 10",
+        "D) Left-Right on 5"
+      ],
+      "correct_option": "C",
+      "explanation": "After insertion, 3's right child = 4. Height of left subtree of 10 = 3 (10→5→3→4), right subtree height = 1. BF(10) = 3 - 1 = 2. Left child 5 has BF = left height 2 (5→3→4) - right height 1 (5→7) = 1. This is Left-Left case at node 10 → Right rotation on 10."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Max-Heap Insertion",
+      "difficulty": "hard",
+      "question": "A max-heap is stored in array [25,15,20,10,5,12,8]. After inserting 22 and restoring the heap, what is the resulting array?",
+      "options": [
+        "A) [25,22,20,15,5,12,8,10]",
+        "B) [25,22,20,10,5,12,8,15]",
+        "C) [25,15,22,10,5,12,8,20]",
+        "D) [25,15,20,10,5,12,8,22]"
+      ],
+      "correct_option": "A",
+      "explanation": "Insert 22 at end: [25,15,20,10,5,12,8,22]. Bubble up: parent of index 7 is index 3 (value 10). 22>10, swap → [25,15,20,22,5,12,8,10]. Parent of index 3 is index 1 (value 15). 22>15, swap → [25,22,20,15,5,12,8,10]. Parent of index 1 is index 0 (value 25). 22<25, stop. Final: [25,22,20,15,5,12,8,10]."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Hash Table Linear Probing",
+      "difficulty": "hard",
+      "question": "A hash table of size 10 uses h(k) = k % 10 and linear probing. Keys 25, 35, 45, 55 are inserted in order. What slot does key 55 occupy?",
+      "options": [
+        "A) Slot 6",
+        "B) Slot 5",
+        "C) Slot 8",
+        "D) Slot 9"
+      ],
+      "correct_option": "C",
+      "explanation": "25 → slot 5. 35 → slot 5, collision → slot 6. 45 → slot 5 (taken), slot 6 (taken), slot 7. 55 → slot 5 (taken), slot 6 (taken), slot 7 (taken), slot 8. So 55 → slot 8."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search Requirement",
+      "difficulty": "easy",
+      "question": "In binary search, after comparing the search key with the middle element of a sorted array, what fraction of the search space is eliminated if the key does not match?",
+      "options": [
+        "A) One-fourth",
+        "B) One-half",
+        "C) Three-fourths",
+        "D) The entire array"
+      ],
+      "correct_option": "B",
+      "explanation": "Because the array is sorted, comparing the target key with the middle element reveals whether the key lies in the lower half or the upper half (if not found at the middle). Thus, exactly one-half of the remaining search space is discarded in every step, yielding O(log n) time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort Complexity",
+      "difficulty": "easy",
+      "question": "What is the time complexity of bubble sort in the worst case?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n²)"
+      ],
+      "correct_option": "D",
+      "explanation": "Bubble sort compares adjacent elements and swaps them. In worst case (reverse sorted), it requires O(n²) comparisons and swaps."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort Unbalanced",
+      "difficulty": "medium",
+      "question": "In Quick Sort, if the pivot always divides the array into 1/4 and 3/4 parts, what is the time complexity?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(n^1.2)",
+        "C) O(n)",
+        "D) O(n²)"
+      ],
+      "correct_option": "A",
+      "explanation": "The recurrence T(n) = T(n/4) + T(3n/4) + O(n) has the solution O(n log n). The tree depth is log n and each level does O(n) work."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort Comparisons",
+      "difficulty": "medium",
+      "question": "How many comparisons does merge sort make in the worst case for an array of n elements (where n is a power of 2)?",
+      "options": [
+        "A) n log₂n",
+        "B) n log₂n - n + 1",
+        "C) 2n log₂n",
+        "D) n(n-1)/2"
+      ],
+      "correct_option": "B",
+      "explanation": "Merge sort worst-case comparisons = n⌈log₂n⌉ - 2^⌈log₂n⌉ + 1. For n=2^k, this simplifies to n log₂n - n + 1."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search Average",
+      "difficulty": "medium",
+      "question": "An array of 1000 elements is unsorted. On average, how many comparisons does a successful linear search require?",
+      "options": [
+        "A) 1000",
+        "B) 500",
+        "C) 250",
+        "D) 500.5"
+      ],
+      "correct_option": "D",
+      "explanation": "Average comparisons for successful linear search = (n+1)/2 = 1001/2 = 500.5."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Build Complexity",
+      "difficulty": "medium",
+      "question": "What is the time complexity of building a heap from an unsorted array of n elements using the sift-down method?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(n²)",
+        "C) O(n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Heapify operation on all non-leaf nodes (from n/2 down to 1) takes O(n) total time, using the sift-down method."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort Worst Case",
+      "difficulty": "hard",
+      "question": "Quick Sort with first element as pivot is applied to an already sorted array of 8 distinct elements. How many total comparisons occur?",
+      "options": [
+        "A) 28",
+        "B) 45",
+        "C) 36",
+        "D) 64"
+      ],
+      "correct_option": "A",
+      "explanation": "For sorted array with first element as pivot, each partition compares pivot with remaining n-1 elements. Total comparisons = 7+6+5+4+3+2+1 = 28 = n(n-1)/2."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Radix Sort LSD",
+      "difficulty": "hard",
+      "question": "Radix sort processes digits from least significant to most significant using a stable counting sort. After sorting 3-digit numbers by the units digit only, which property must hold?",
+      "options": [
+        "A) Elements are sorted by units digit, with ties broken by tens digit",
+        "B) Elements are sorted by units digit, with ties broken by original order",
+        "C) All units digits are equal",
+        "D) The array is fully sorted"
+      ],
+      "correct_option": "B",
+      "explanation": "After one pass of LSD radix sort on the units digit, the array is sorted by the units digit. Stability of counting sort preserves the original relative order of elements with the same units digit."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search Guaranteed Elements",
+      "difficulty": "hard",
+      "question": "In a sorted array of n distinct elements, how many elements are guaranteed to be found by binary search regardless of the middle element selection strategy?",
+      "options": [
+        "A) All n elements",
+        "B) ⌈log₂(n+1)⌉",
+        "C) ⌊log₂n⌋ + 1",
+        "D) 2^⌊log₂n⌋"
+      ],
+      "correct_option": "C",
+      "explanation": "Binary search always examines elements at positions that form the path from root in a binary decision tree. The number of positions examined is at most ⌊log₂n⌋ + 1, and these are the elements guaranteed to be found regardless of pivot choice."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort Passes",
+      "difficulty": "hard",
+      "question": "Selection sort is applied to an array. After the first two passes, which statement is true?",
+      "options": [
+        "A) The array is sorted except the last two elements",
+        "B) Only the first element is in its final position",
+        "C) Last two elements are the two largest in sorted order",
+        "D) First two elements are the two smallest elements in sorted order"
+      ],
+      "correct_option": "D",
+      "explanation": "Each pass of selection sort places the smallest remaining element in its correct position. After two passes, the first two positions contain the two smallest elements in sorted order."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection Defense",
+      "difficulty": "easy",
+      "question": "Which of the following is the best defense against SQL injection attacks?",
+      "options": [
+        "A) Using stored procedures only",
+        "B) Input sanitization alone",
+        "C) Parameterized queries / prepared statements",
+        "D) Encrypting the database"
+      ],
+      "correct_option": "C",
+      "explanation": "Parameterized queries separate SQL code from data, preventing attackers from injecting malicious SQL through user input."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Symmetric Encryption",
+      "difficulty": "easy",
+      "question": "Which encryption type uses the same key for both encryption and decryption?",
+      "options": [
+        "A) ECC",
+        "B) AES",
+        "C) RSA",
+        "D) Diffie-Hellman"
+      ],
+      "correct_option": "B",
+      "explanation": "AES is a symmetric encryption algorithm using the same key for encryption and decryption. RSA, ECC, and Diffie-Hellman are asymmetric."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Column Selection",
+      "difficulty": "medium",
+      "question": "Given a DataFrame df with columns ['A','B','C'], which code returns only columns A and C?",
+      "options": [
+        "A) df.select(['A','C'])",
+        "B) df.iloc[:, 0:3]",
+        "C) df.loc[:, 'A':'C']",
+        "D) df[['A','C']]"
+      ],
+      "correct_option": "D",
+      "explanation": "df[['A','C']] selects columns A and C by name. df.loc[:, 'A':'C'] includes B as well. iloc[:, 0:3] selects all three columns. select() is not a pandas method."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas dropna",
+      "difficulty": "medium",
+      "question": "A DataFrame has missing values. Which method drops rows containing ANY missing value?",
+      "options": [
+        "A) df.dropna(how='any')",
+        "B) df.dropna(how='all')",
+        "C) df.isna()",
+        "D) df.fillna(0)"
+      ],
+      "correct_option": "A",
+      "explanation": "df.dropna(how='any') drops any row with at least one missing value. how='all' drops only rows where ALL values are missing. fillna replaces, isna detects."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas groupby Aggregation",
+      "difficulty": "medium",
+      "question": "Given df with columns ['dept','salary'], what does df.groupby('dept')['salary'].mean() return?",
+      "options": [
+        "A) A DataFrame with each row's salary",
+        "B) The overall mean salary",
+        "C) A pivot table",
+        "D) A Series with mean salary per department"
+      ],
+      "correct_option": "D",
+      "explanation": "groupby('dept')['salary'].mean() returns a Series indexed by department, with values being the mean salary for each department."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Merge Inner Join",
+      "difficulty": "medium",
+      "question": "Two DataFrames share a column 'id'. What does pd.merge(df1, df2, on='id', how='inner') return?",
+      "options": [
+        "A) Only rows with matching 'id' in both DataFrames",
+        "B) All rows from df1 with matching rows from df2",
+        "C) All rows from df2 with matching rows from df1",
+        "D) All rows from df1 and df2"
+      ],
+      "correct_option": "A",
+      "explanation": "Inner join returns only rows where the key 'id' exists in both DataFrames. Left/Right joins keep all rows from one side."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Firewall Types",
+      "difficulty": "medium",
+      "question": "Which type of firewall examines the state and context of network connections?",
+      "options": [
+        "A) Packet-filtering firewall",
+        "B) Circuit-level gateway",
+        "C) Stateful inspection firewall",
+        "D) Proxy firewall"
+      ],
+      "correct_option": "C",
+      "explanation": "Stateful inspection firewalls track active connections and examine packets in the context of the connection state, not just individual packets."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Filter & Count",
+      "difficulty": "hard",
+      "question": "A DataFrame df has columns ['name', 'age', 'city']. Which code correctly calculates the count of people aged above 30 in each city?",
+      "options": [
+        "A) df[df['age'] > 30].count()",
+        "B) df[df['age'] > 30]['city'].value_counts()",
+        "C) df.groupby('city')['age'].sum()",
+        "D) df.groupby('city').filter(lambda x: x['age'].mean() > 30)"
+      ],
+      "correct_option": "B",
+      "explanation": "df[df['age'] > 30]['city'].value_counts() first filters the DataFrame to include only rows where age is strictly greater than 30, and then applies value_counts() on the 'city' column to return the count of occurrences for each city. df.count() calculates counts across the entire DataFrame without grouping by city, .sum() computes age sums instead of row counts, and .filter() filters groups based on an aggregate condition rather than returning grouped counts."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Digital Signatures",
+      "difficulty": "hard",
+      "question": "In a digital signature scheme, which key is used to verify the signature?",
+      "options": [
+        "A) Public key of the sender",
+        "B) Private key of the sender",
+        "C) Private key of the receiver",
+        "D) Public key of the receiver"
+      ],
+      "correct_option": "A",
+      "explanation": "Digital signatures use the sender's private key to sign, and the sender's public key to verify. This ensures authenticity and non-repudiation."
+    },
+    {
+      "id": "CUET_CS_2026_P7_L7_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "CSRF Attack",
+      "difficulty": "hard",
+      "question": "Which attack exploits the trust a website has in a user's browser by forging unauthorized requests?",
+      "options": [
+        "A) Cross-Site Scripting (XSS)",
+        "B) SQL Injection",
+        "C) Cross-Site Request Forgery (CSRF)",
+        "D) Man-in-the-Middle"
+      ],
+      "correct_option": "C",
+      "explanation": "CSRF tricks a user's browser into sending unauthorized requests to a trusted site where the user is authenticated. XSS injects malicious scripts, SQL Injection targets databases, MitM intercepts communications."
+    }
+  ]
+}

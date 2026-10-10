@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P12_L2B",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 12,
+  "difficulty_level": "2B",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Algebra of Matrices",
+      "difficulty": "easy",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], what is the (1,2) entry of AB?",
+      "options": [
+        "A) 19",
+        "B) 22",
+        "C) 23",
+        "D) 50"
+      ],
+      "correct_option": "B",
+      "explanation": "The (1,2) entry of AB is the dot product of row 1 of A and column 2 of B: 1×6 + 2×8 = 6 + 16 = 22."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q02",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( If A = [[3, 1], [2, 4]], what is the value of \\left| \\1 \\right|? \\)",
+      "options": [
+        "A) 100",
+        "B) 10",
+        "C) 20",
+        "D) 50"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\left| \\1 \\right| = 3×4 − 1×2 = 10. \\left| \\1 \\right| = \\left| \\1 \\right|² = 100. The determinant of a matrix squared equals the square of the determinant. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q03",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "If the determinant of [[a, b], [c, d]] is 8, what is the determinant of [[2a, 2b], [c, d]]?",
+      "options": [
+        "A) 16",
+        "B) 8",
+        "C) 4",
+        "D) 32"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Multiplying the first row by 2 multiplies the determinant by 2. So \\left| \\1 \\right| = 2 × 8 = 16. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q04",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "\\( A fair die is rolled twice. What is the probability that the \\sum of the two rolls is 7? \\)",
+      "options": [
+        "A) 1/6",
+        "B) 1/12",
+        "C) 5/36",
+        "D) 7/36"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( There are 6 outcomes that give \\sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Total outcomes = 36. P = \\frac{6}{36} = \\frac{1}{6}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q05",
+      "topic": "Probability",
+      "sub_topic": "Multiplication theorem on probability",
+      "difficulty": "easy",
+      "question": "In how many ways can a committee of 3 be formed from 7 people?",
+      "options": [
+        "A) 35",
+        "B) 210",
+        "C) 21",
+        "D) 840"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( C(7,3) = 7!/(3!×4!) = (7×6×5)/(3×2×1) = 35. This is a combination problem since order does not matter \\in a committee. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q06",
+      "topic": "Probability",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "easy",
+      "question": "\\( A fair coin is tossed 4 \\times. What is the probability of getting at least 3 heads? \\)",
+      "options": [
+        "A) 5/16",
+        "B) 1/4",
+        "C) 11/16",
+        "D) 3/8"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(X≥3) = P(X=3) + P(X=4) = C(4,3)(\\frac{1}{2})⁴ + C(4,4)(\\frac{1}{2})⁴ = \\frac{4}{16} + \\frac{1}{16} = \\frac{5}{16}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q07",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "easy",
+      "question": "The maximum value of Z = 3x + 2y subject to x + y ≤ 5, x ≥ 0, y ≥ 0 is:",
+      "options": [
+        "A) 15",
+        "B) 10",
+        "C) 12",
+        "D) 8"
+      ],
+      "correct_option": "A",
+      "explanation": "Corner points: (0,0)→0, (5,0)→15, (0,5)→10. Maximum is 15 at (5,0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q08",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "If f(x) = x³eˣ, what is f'(x) using the product rule?",
+      "options": [
+        "A) 3x²eˣ",
+        "B) x²eˣ(3+x)",
+        "C) x³eˣ",
+        "D) 3x²eˣ + x³"
+      ],
+      "correct_option": "B",
+      "explanation": "Product rule: f'(x) = 3x²·eˣ + x³·eˣ = x²eˣ(3+x)."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q09",
+      "topic": "Matrices",
+      "sub_topic": "Invertible matrices and uniqueness of inverse",
+      "difficulty": "easy",
+      "question": "\\( If A is a 2×2 matrix with \\left| \\1 \\right| = 0, which of the following is true? \\)",
+      "options": [
+        "A) A is invertible",
+        "B) A is singular",
+        "C) A has a unique inverse",
+        "D) A is non-singular"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( A matrix with determinant zero is called singular and does not have an inverse. Only non-singular matrices (\\left| \\1 \\right| ≠ 0) are invertible. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q10",
+      "topic": "Probability Distributions",
+      "sub_topic": "Binomial distribution",
+      "difficulty": "easy",
+      "question": "For a binomial distribution with n=10 and p=0.3, the variance is:",
+      "options": [
+        "A) 2.1",
+        "B) 3",
+        "C) 1.45",
+        "D) 4.2"
+      ],
+      "correct_option": "A",
+      "explanation": "Variance = np(1−p) = 10 × 0.3 × 0.7 = 2.1."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q11",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "\\( In a binomial distribution with n=6 and p=\\frac{1}{3}, the mean is: \\)",
+      "options": [
+        "A) 6",
+        "B) 3",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Mean = np = 6 * (\\frac{1}{3}) = 2. This result follows from the fundamental principles of mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q12",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "The function f(x) = x^{2} + 2x + 3 has a minimum value of:",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 0",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "f(x) = (x+1)^2 + 2. Minimum value is 2 at x = -1."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q13",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Integral from 0 to 2 of (3x + 1) dx equals:",
+      "options": [
+        "A) 10",
+        "B) 6",
+        "C) 8",
+        "D) 4"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Integral from 0 to 2 of (3x+1) dx = [3x^\\frac{2}{2} + x] from 0 to 2 = 6 + 2 = 8. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q14",
+      "topic": "Matrices",
+      "sub_topic": "Algebra of Matrices",
+      "difficulty": "easy",
+      "question": "\\( If A is a 3x3 matrix with \\left| \\1 \\right| = 3, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 27",
+        "B) 243",
+        "C) 81",
+        "D) 9"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = 3^3 * \\left| \\1 \\right| = 27 * 3 = 81. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q15",
+      "topic": "Differential Equations",
+      "sub_topic": "Definition, order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The general solution of dy/dx = 5x^{4} is:",
+      "options": [
+        "A) y = x^5 + C",
+        "B) y = x^5/5 + C",
+        "C) y = 5x^3 + C",
+        "D) y = 20x^3 + C"
+      ],
+      "correct_option": "A",
+      "explanation": "The general solution of a differential equation includes an arbitrary constant C. Integral of 5x^{4} dx = x^{5} + C. A particular solution is obtained by applying initial conditions."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q16",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "\\( Two dice are rolled. The probability that the \\sum is 10 is: \\)",
+      "options": [
+        "A) 1/6",
+        "B) 1/9",
+        "C) 1/18",
+        "D) 1/12"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Favorable outcomes: (4,6), (5,5), (6,4). P = \\frac{3}{36} = \\frac{1}{12}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q17",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "\\( Find the value: The value of \\sec^{(-1)}(2) is: \\)",
+      "options": [
+        "A) pi/3",
+        "B) pi/2",
+        "C) pi/6",
+        "D) pi/4"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Inverse trigonometric functions return the angle whose trigonometric ratio equals the given value. \\sec(\\pi/3) = 2, so \\sec^{(-1)}(2) = \\pi/3. The principal value is chosen to make the function one-to-one. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q18",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "\\( Analyze the given function: The function f(x) = \\ln(x) is: \\)",
+      "options": [
+        "A) Constant",
+        "B) Decreasing on (0, infinity)",
+        "C) Increasing on (0, infinity)",
+        "D) Neither increasing nor decreasing"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( We analyze the function using standard techniques. f'(x) = 1/x > 0 for x > 0, so f is increasing on (0, \\infty). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q19",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "Find the value: If A = [[2,0],[0,3]], then A^{4} equals:",
+      "options": [
+        "A) [[8,0],[0,81]]",
+        "B) [[8,0],[0,12]]",
+        "C) [[16,0],[0,81]]",
+        "D) [[16,0],[0,12]]"
+      ],
+      "correct_option": "C",
+      "explanation": "For diagonal matrix, A^{4} = [[2^4,0],[0,3^4]] = [[16,0],[0,81]]. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q20",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "Find the value: The derivative of f(x) = e^{(2x)} is:",
+      "options": [
+        "A) 2e^(2x)",
+        "B) e^(2x)/2",
+        "C) 2e^x",
+        "D) e^(2x)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( The derivative of e^{(kx)} is k·e^{(kx)} by the chain rule. f'(x) = 2e^{(2x)} by chain rule. Exponential functions are unique \\in being proportional to their own derivative. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q21",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "A bag contains 3 red and 5 green balls. Two balls are drawn without replacement. The probability that both are green is:",
+      "options": [
+        "A) 1/4",
+        "B) 5/14",
+        "C) 5/16",
+        "D) 3/14"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( P(both green) = (\\frac{5}{8}) * (\\frac{4}{7}) = \\frac{20}{56} = \\frac{5}{14}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q22",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "easy",
+      "question": "The direction ratios of the line passing through (1,2,3) and (4,6,8) are:",
+      "options": [
+        "A) (5, 4, 3)",
+        "B) (3, 5, 4)",
+        "C) (4, 3, 5)",
+        "D) (3, 4, 5)"
+      ],
+      "correct_option": "D",
+      "explanation": "Direction ratios = (4-1, 6-2, 8-3) = (3, 4, 5)."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q23",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "\\( The value of integral from 0 to \\pi/2 of \\sin x dx is: \\)",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 0",
+        "D) pi/2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Integral from 0 to \\pi/2 of \\sin x dx = [-\\cos x] from 0 to \\pi/2 = 0 - (-1) = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q24",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "\\( Find the value of the function/derivative: If f(x) = \\cos x, then f'(\\pi) equals: \\)",
+      "options": [
+        "A) 0",
+        "B) -1",
+        "C) 1",
+        "D) pi"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( We apply the standard rules of differentiation. f'(x) = -\\sin x, so f'(\\pi) = -\\sin(\\pi) = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q25",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "The number of ways to arrange 4 different books on a shelf is:",
+      "options": [
+        "A) 16",
+        "B) 24",
+        "C) 12",
+        "D) 8"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Number of arrangements = 4! = 24. This result follows from the fundamental principles of mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q26",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "Analyze the given function: The function f(x) = x^{3} is:",
+      "options": [
+        "A) Decreasing on (0, infinity) only",
+        "B) Increasing on (0, infinity) only",
+        "C) Increasing on (-infinity, infinity)",
+        "D) Decreasing on (-infinity, infinity)"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( We analyze the function using standard techniques. f'(x) = 3x^{2} >= 0 for all x, so f is increasing on (-\\infty, \\infty). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q27",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "Find the value: If A = [[1,2],[0,1]], then A^{5} equals:",
+      "options": [
+        "A) [[1,10],[0,1]]",
+        "B) [[1,5],[0,1]]",
+        "C) [[1,7],[0,1]]",
+        "D) 5"
+      ],
+      "correct_option": "A",
+      "explanation": "For A = [[1,k],[0,1]], A^n = [[1,nk],[0,1]]. Here k=2, n=5, so A^{5} = [[1,10],[0,1]]. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q28",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "Evaluate the following integral: The value of ∫(2x+1)√(x²+x+1) dx is:",
+      "options": [
+        "A) (2/3)(x²+x+1)^(3/2) + C",
+        "B) (1/3)(x²+x+1)^(3/2) + C",
+        "C) (x²+x+1)^(3/2) + C",
+        "D) (3/2)(x²+x+1)^(3/2) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Let u = x²+x+1, du = (2x+1)dx. Integral = ∫√u du = (2/3)u^(3/2) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q29",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "The area of the triangle with vertices (0,0), (5,0), (0,12) is:",
+      "options": [
+        "A) 24",
+        "B) 15",
+        "C) 60",
+        "D) 30"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Area = \\frac{1}{2} * base * height = \\frac{1}{2} * 5 * 12 = 30. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q30",
+      "topic": "Differential Equations",
+      "sub_topic": "Definition, order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The solution of dy/dx = 2x with y(0) = 3 is:",
+      "options": [
+        "A) y = 2x + 3",
+        "B) y = x^2 + 3",
+        "C) y = 2x^2 + 3",
+        "D) y = x^2"
+      ],
+      "correct_option": "B",
+      "explanation": "Integral of 2x dx = x^{2} + C. Using y(0) = 3, C = 3. So y = x^{2} + 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q31",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[3,1],[2,1]], then A^{(-1)} equals:",
+      "options": [
+        "A) [[3,-1],[-2,1]]",
+        "B) [[1,1],[2,3]]",
+        "C) [[1,-1],[-2,3]]",
+        "D) [[-1,1],[2,-3]]"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\left| \\1 \\right| = 3-2 = 1. adj(A) = [[1,-1],[-2,3]]. So A^{(-1)} = adj(A)/\\left| \\1 \\right| = [[1,-1],[-2,3]]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q32",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "medium",
+      "question": "The maximum value of f(x) = -2x^{2} + 8x - 3 is:",
+      "options": [
+        "A) 8",
+        "B) 5",
+        "C) 3",
+        "D) 13"
+      ],
+      "correct_option": "B",
+      "explanation": "f'(x) = -4x + 8 = 0 -> x = 2. f(2) = -8 + 16 - 3 = 5."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q33",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "\\( Evaluate the indefinite integral ∫ \\sin x dx. \\)",
+      "options": [
+        "A) x*cos x - sin x + C",
+        "B) -x*cos x + sin x + C",
+        "C) -x*cos x - sin x + C",
+        "D) x*sin x + cos x + C"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( The integral of \\sin x is −\\cos x + C, since d/dx(−\\cos x) = \\sin x. This is a standard integral from the basic integration formulas. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q34",
+      "topic": "Differential Equations",
+      "sub_topic": "Definition, order and degree of differential equations",
+      "difficulty": "medium",
+      "question": "The general solution of dy/dx + 2y = 0 is:",
+      "options": [
+        "A) y = Csin(2x)",
+        "B) y = Ce^(2x)",
+        "C) y = Ccos(2x)",
+        "D) y = Ce^(-2x)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( This is a separable equation: dy/y = -2dx. Integrating: \\ln\\left| \\1 \\right| = -2x + C, so y = Ce^{(-2x)}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q35",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If P(A) = 0.7, P(B) = 0.5, and P(A intersect B) = 0.3, then P(A|B) equals:",
+      "options": [
+        "A) 0.5",
+        "B) 0.7",
+        "C) 0.4",
+        "D) 0.6"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( P(A|B) = P(A intersect B)/P(B) = 0.\\frac{3}{0}.5 = 0.6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q36",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vectors and scalars",
+      "difficulty": "medium",
+      "question": "The angle between vectors a = 2i + j and b = i + 2j is:",
+      "options": [
+        "A) pi/4",
+        "B) cos^(-1)(4/5)",
+        "C) cos^(-1)(3/5)",
+        "D) pi/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( a.b = 4, \\left| \\1 \\right| = \\left| \\1 \\right| = \\sqrt{5}. \\cos \\theta = \\frac{4}{5}, so \\theta = \\cos^{(-1)}(\\frac{4}{5}). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q37",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vectors and scalars",
+      "difficulty": "medium",
+      "question": "The equation of the plane passing through (2, -1, 3) with normal vector 2i - j + 3k is:",
+      "options": [
+        "A) 2x - y + 3z = 7",
+        "B) 2x - y + 3z = 14",
+        "C) 2x - y + 3z = 0",
+        "D) 2x - y + 3z = 5"
+      ],
+      "correct_option": "B",
+      "explanation": "2(x-2) - (y+1) + 3(z-3) = 0 -> 2x - 4 - y - 1 + 3z - 9 = 0 -> 2x - y + 3z = 14."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q38",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "\\( The value of integral from 0 to \\pi/2 of \\cos^{2}x dx is: \\)",
+      "options": [
+        "A) pi/2",
+        "B) pi/3",
+        "C) pi/4",
+        "D) 1"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using \\cos^{2}x = (1+cos2x)/2: Integral from 0 to \\pi/2 of \\cos^{2}x dx = [x/2 + sin2x/4] from 0 to \\pi/2 = \\pi/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q39",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If X ~ Binomial(n=6, p=0.5), then P(X=3) equals:",
+      "options": [
+        "A) 15/64",
+        "B) 5/8",
+        "C) 5/32",
+        "D) 5/16"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( P(X=3) = C(6,3) * (0.5)^6 = \\frac{20}{64} = \\frac{5}{16}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q40",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "medium",
+      "question": "The function f(x) = x^{4} - 4x^{2} has critical points at:",
+      "options": [
+        "A) x = 0, +/-sqrt(2)",
+        "B) x = +/-1, +/-2",
+        "C) x = 0, +/-1",
+        "D) x = 0, +/-2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( f'(x) = 4x^{3} - 8x = 4x(x^{2}-2) = 0 -> x = 0, +/-\\sqrt{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q41",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "medium",
+      "question": "The shortest distance between the lines r = (1,0,0) + t(1,0,0) and r = (0,1,1) + s(0,1,0) is:",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) sqrt(2)",
+        "D) sqrt(3)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( d1 = (1,0,0), d2 = (0,1,0), d1 x d2 = (0,0,1). Vector between points = (-1,1,1). Distance = \\left| \\1 \\right|/1 = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q42",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "\\( The value of \\lim(x->0) (1 - \\cos x)/x^{2} is: \\)",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 1/2",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using L'Hopital's rule twice: \\lim(x->0) (1-cosx)/x^{2} = \\lim(x->0) sinx/(2x) = \\lim(x->0) cosx/2 = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q43",
+      "topic": "Matrices",
+      "sub_topic": "Algebra of Matrices",
+      "difficulty": "medium",
+      "question": "Calculate the value of the given determinant using properties of determinants.",
+      "options": [
+        "A) 4",
+        "B) 8",
+        "C) 2",
+        "D) 16"
+      ],
+      "correct_option": "B",
+      "explanation": "For a 2x2 matrix [[a,b],[c,d]], the determinant equals ad - bc. For a 3x3 matrix, we use cofactor expansion or properties of determinants."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q44",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "The area bounded by y = x^{3} and y = x is:",
+      "options": [
+        "A) 1/4",
+        "B) 2/3",
+        "C) 1/2",
+        "D) 1/3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Area = Integral from 0 to 1 of (x-x^{3})dx + Integral from -1 to 0 of (x^{3}-x)dx = [x^\\frac{2}{2}-x^\\frac{4}{4}] from 0 to 1 + [x^\\frac{4}{4}-x^\\frac{2}{2}] from -1 to 0 = \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q45",
+      "topic": "Differential Equations",
+      "sub_topic": "Definition, order and degree of differential equations",
+      "difficulty": "medium",
+      "question": "The differential equation dy/dx = (x + y)/x is:",
+      "options": [
+        "A) Exact",
+        "B) Homogeneous",
+        "C) Separable but not homogeneous",
+        "D) Linear but not homogeneous"
+      ],
+      "correct_option": "B",
+      "explanation": "dy/dx = 1 + y/x. This is homogeneous as it can be written as a function of y/x."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q46",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "hard",
+      "question": "The maximum value of f(x) = x^{2}*e^{(-x)} for x >= 0 is:",
+      "options": [
+        "A) 1/e",
+        "B) 2/e",
+        "C) 4/e",
+        "D) 4/e^2"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 2x*e^{(-x)} - x^{2}*e^{(-x)} = x*e^{(-x)}(2-x). Critical point at x=2. f(2) = 4/e^{2}."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q47",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "hard",
+      "question": "The shortest distance between the skew lines L1: r = i + j + t(2i - j + k) and L2: r = 2i + j - k + s(3i - 2j + 4k) is:",
+      "options": [
+        "A) 1/sqrt(30)",
+        "B) 1/6",
+        "C) sqrt(30)",
+        "D) sqrt(30)/30"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( d1 x d2 = (-2,-5,-1), \\left| \\1 \\right| = \\sqrt{30}. Vector between points = (1,0,-1). Distance = \\left| \\1 \\right|/\\sqrt{30} = 1/\\sqrt{30}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q48",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "If A = [[0, -1], [1, 0]], then A^{2023} equals:",
+      "options": [
+        "A) [[-1,0],[0,-1]]",
+        "B) [[1,0],[0,1]]",
+        "C) [[0,-1],[1,0]]",
+        "D) [[0,1],[-1,0]]"
+      ],
+      "correct_option": "D",
+      "explanation": "A^{2} = -I, A^{4} = I. A^{2023} = A^{(4*505+3)} = A^{3} = A^{2}*A = -A = [[0,1],[-1,0]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q49",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "\\( The value of integral from 0 to \\infty of x^{3}*e^{(-x)} dx is: \\)",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 6",
+        "D) 24"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using Gamma function: Integral from 0 to \\infty of x^{3}*e^{(-x)} dx = Gamma(4) = 3! = 6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P12_L2B_Q50",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "The number of reflexive and symmetric relations on a set with 3 elements is:",
+      "options": [
+        "A) 64",
+        "B) 16",
+        "C) 6",
+        "D) 8"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For reflexive: all (a,a) must be \\in R. For symmetric: choose any \\subset of the 3 symmetric pairs {(1,2),(2,1)}, {(1,3),(3,1)}, {(2,3),(3,2)}. So 2^3 = 8. \\)"
+    }
+  ]
+}

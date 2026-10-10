@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P2_L2",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 2,
+  "difficulty_level": "2",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P2_L2_Q01",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "easy",
+      "question": "In a relational database, which key uniquely identifies each tuple in a relation and cannot contain NULL values?",
+      "options": [
+        "A) Primary Key",
+        "B) Foreign Key",
+        "C) Candidate Key",
+        "D) Alternate Key"
+      ],
+      "correct_option": "A",
+      "explanation": "The Primary Key is the chosen candidate key that uniquely identifies each tuple. By definition, it cannot contain NULL values."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q02",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Relational Algebra",
+      "difficulty": "easy",
+      "question": "Which relational algebra operation selects tuples from a relation that satisfy a given condition?",
+      "options": [
+        "A) Projection",
+        "B) Selection",
+        "C) Cartesian Product",
+        "D) Union"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection (σ) filters tuples based on a condition. Projection (π) selects columns. Union combines two relations."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q03",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "DDL & Data Types",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to remove a table entirely from a database, including its structure?",
+      "options": [
+        "A) TRUNCATE TABLE",
+        "B) DELETE TABLE",
+        "C) DROP TABLE",
+        "D) REMOVE TABLE"
+      ],
+      "correct_option": "C",
+      "explanation": "DROP TABLE removes the table structure and all data permanently. DELETE removes rows but keeps structure."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q04",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "DML & Basic Queries",
+      "difficulty": "easy",
+      "question": "Consider the SQL: SELECT Name FROM Students WHERE Marks > 75; What does this query return?",
+      "options": [
+        "A) Only the marks column of students with marks above 75",
+        "B) Names of students who scored more than 75 marks",
+        "C) All columns of students with marks greater than 75",
+        "D) All columns of students with marks less than 75"
+      ],
+      "correct_option": "B",
+      "explanation": "The query selects the Name column from the Students table where the Marks value exceeds 75."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q05",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Given a table Employees with column Salary, what does SELECT AVG(Salary) FROM Employees return?",
+      "options": [
+        "A) The average salary of all employees",
+        "B) The number of employees with a salary value",
+        "C) The total salary of all employees",
+        "D) The highest salary among employees"
+      ],
+      "correct_option": "A",
+      "explanation": "AVG() calculates the arithmetic mean. MAX() gives highest, SUM() gives total, COUNT() gives number of rows."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q06",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Joins & Set Operations",
+      "difficulty": "easy",
+      "question": "Which type of JOIN returns all rows from the left table and matched rows from the right table, with NULLs for unmatched right rows?",
+      "options": [
+        "A) INNER JOIN",
+        "B) CROSS JOIN",
+        "C) RIGHT JOIN",
+        "D) LEFT JOIN"
+      ],
+      "correct_option": "D",
+      "explanation": "LEFT JOIN returns all rows from the left table regardless of whether a match exists in the right table."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q07",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "GROUP BY, HAVING, ORDER BY",
+      "difficulty": "medium",
+      "question": "A table Sales has columns: Product, Region, Amount. Which query finds the total sales amount per region, showing only regions with total sales exceeding 50000?",
+      "options": [
+        "A) SELECT Region, SUM(Amount) FROM Sales WHERE Amount > 50000 GROUP BY Region;",
+        "B) SELECT Region, TOTAL(Amount) FROM Sales GROUP BY Region HAVING Amount > 50000;",
+        "C) SELECT Region, SUM(Amount) FROM Sales GROUP BY Region WHERE SUM(Amount) > 50000;",
+        "D) SELECT Region, SUM(Amount) FROM Sales GROUP BY Region HAVING SUM(Amount) > 50000;"
+      ],
+      "correct_option": "D",
+      "explanation": "HAVING is used to filter groups after aggregation. WHERE cannot use aggregate functions."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q08",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Nested Queries & Advanced SQL",
+      "difficulty": "medium",
+      "question": "Given tables Orders(CustomerID, OrderDate) and Customers(CustomerID, Name), which query correctly retrieves names of customers who placed an order in the year 2025?",
+      "options": [
+        "A) SELECT Name FROM Customers WHERE CustomerID = (SELECT CustomerID FROM Orders WHERE YEAR(OrderDate) = 2025);",
+        "B) SELECT Name FROM Customers WHERE CustomerID IN (SELECT CustomerID FROM Orders WHERE YEAR(OrderDate) = 2025);",
+        "C) SELECT Name FROM Customers, Orders WHERE YEAR(OrderDate) = 2025;",
+        "D) SELECT Name FROM Customers JOIN Orders WHERE YEAR(OrderDate) = 2025;"
+      ],
+      "correct_option": "B",
+      "explanation": "The subquery may return multiple CustomerIDs, so IN must be used (= expects a single value)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q09",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Complex Joins & Integrity Constraints",
+      "difficulty": "medium",
+      "question": "A foreign key constraint ensures which type of integrity in a relational database?",
+      "options": [
+        "A) Referential Integrity",
+        "B) Check Integrity",
+        "C) Domain Integrity",
+        "D) Entity Integrity"
+      ],
+      "correct_option": "A",
+      "explanation": "Referential Integrity ensures that a foreign key value must match a primary key value in the referenced table."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q10",
+      "topic": "Database Concepts and SQL",
+      "sub_topic": "Complex Query Optimization & Normalization",
+      "difficulty": "hard",
+      "question": "A relation R(A, B, C, D) has functional dependencies: A → B, B → C, and A → D. What is the highest normal form this relation satisfies?",
+      "options": [
+        "A) Boyce-Codd Normal Form (BCNF)",
+        "B) Third Normal Form (3NF)",
+        "C) Second Normal Form (2NF)",
+        "D) First Normal Form (1NF)"
+      ],
+      "correct_option": "C",
+      "explanation": "The candidate key is A. No partial dependency exists (single-attribute key), so it satisfies 2NF. However, B → C is a transitive dependency, violating 3NF."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which type of network typically spans a single building or a campus and is owned by a single organization?",
+      "options": [
+        "A) Wide Area Network (WAN)",
+        "B) Metropolitan Area Network (MAN)",
+        "C) Personal Area Network (PAN)",
+        "D) Local Area Network (LAN)"
+      ],
+      "correct_option": "D",
+      "explanation": "LAN covers a small geographical area like a building or campus. MAN spans a city. WAN spans countries."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which device connects multiple networks and forwards packets between them based on IP addresses?",
+      "options": [
+        "A) Router",
+        "B) Switch",
+        "C) Repeater",
+        "D) Hub"
+      ],
+      "correct_option": "A",
+      "explanation": "A Router operates at the network layer (Layer 3) and routes packets between different networks using IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "easy",
+      "question": "In which network topology are all nodes connected to a single central device through individual links?",
+      "options": [
+        "A) Mesh Topology",
+        "B) Star Topology",
+        "C) Bus Topology",
+        "D) Ring Topology"
+      ],
+      "correct_option": "B",
+      "explanation": "In Star Topology, every node has a dedicated connection to a central hub/switch."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "easy",
+      "question": "A MAC address is 48 bits long. How is it typically represented?",
+      "options": [
+        "A) As a 128-bit hexadecimal number",
+        "B) As a 32-bit binary number",
+        "C) As four decimal numbers separated by dots",
+        "D) As six groups of two hexadecimal digits separated by colons"
+      ],
+      "correct_option": "D",
+      "explanation": "MAC addresses are 48 bits, usually shown as 6 pairs of hex digits (e.g., 00:1A:2B:3C:4D:5E)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "easy",
+      "question": "What is the primary function of the Domain Name System (DNS)?",
+      "options": [
+        "A) To filter malicious websites from the network",
+        "B) To allocate IP addresses dynamically to devices",
+        "C) To translate domain names into IP addresses",
+        "D) To encrypt web traffic between client and server"
+      ],
+      "correct_option": "C",
+      "explanation": "DNS resolves human-readable domain names to machine-readable IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which wired communication medium offers the highest bandwidth and immunity to electromagnetic interference?",
+      "options": [
+        "A) Twisted Pair Cable",
+        "B) Optical Fiber",
+        "C) Ethernet Cable (Cat 6)",
+        "D) Coaxial Cable"
+      ],
+      "correct_option": "B",
+      "explanation": "Optical fiber uses light signals, providing extremely high bandwidth and complete immunity to electromagnetic interference."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "FTP uses two separate TCP connections for file transfer. What are they used for?",
+      "options": [
+        "A) One for IPv4 and one for IPv6",
+        "B) One for encryption and one for authentication",
+        "C) One for control commands and one for actual data transfer",
+        "D) One for upload and one for download"
+      ],
+      "correct_option": "C",
+      "explanation": "FTP uses port 21 for control and port 20 for data transfer."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "If a channel has a bandwidth of 10 MHz and uses 4-level signaling, what is the maximum data rate according to Nyquist's theorem?",
+      "options": [
+        "A) 20 Mbps",
+        "B) 80 Mbps",
+        "C) 40 Mbps",
+        "D) 10 Mbps"
+      ],
+      "correct_option": "C",
+      "explanation": "Nyquist: Max Data Rate = 2 × Bandwidth × log₂(V) = 2 × 10M × 2 = 40 Mbps."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "Which switching technique establishes a dedicated communication path between sender and receiver before data transmission begins?",
+      "options": [
+        "A) Circuit Switching",
+        "B) Message Switching",
+        "C) Packet Switching",
+        "D) Virtual Switching"
+      ],
+      "correct_option": "A",
+      "explanation": "Circuit switching sets up a dedicated path before transmission (like telephone networks)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "In a subnet with IP address 192.168.10.0/27, how many usable host addresses are available?",
+      "options": [
+        "A) 32",
+        "B) 14",
+        "C) 62",
+        "D) 30"
+      ],
+      "correct_option": "D",
+      "explanation": "/27 leaves 5 host bits. Total = 32. Subtract 2 (network and broadcast) = 30 usable host addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q21",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Exception Handling Basics",
+      "difficulty": "easy",
+      "question": "What happens when Python encounters an error that is not handled by any except block?",
+      "options": [
+        "A) The program continues execution silently",
+        "B) The program terminates with an error traceback",
+        "C) The error is logged but ignored automatically",
+        "D) Python retries the failed statement"
+      ],
+      "correct_option": "B",
+      "explanation": "Unhandled exceptions propagate up the call stack. If never caught, Python terminates the program and displays a traceback."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q22",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Try-Except-Else-Finally",
+      "difficulty": "easy",
+      "question": "In Python's try-except-else-finally structure, when does the else block execute?",
+      "options": [
+        "A) When no exception is raised in the try block",
+        "B) Only when the except block raises a new exception",
+        "C) When an exception is caught by except",
+        "D) Always before finally"
+      ],
+      "correct_option": "A",
+      "explanation": "The else block runs only if the try block completes successfully without raising an exception."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q23",
+      "topic": "Python and Data Structures",
+      "sub_topic": "File I/O (Text Files)",
+      "difficulty": "easy",
+      "question": "Which file mode in Python opens a file for both reading and writing, without truncating the existing content?",
+      "options": [
+        "A) w+",
+        "B) a+",
+        "C) r+",
+        "D) x"
+      ],
+      "correct_option": "C",
+      "explanation": "r+ opens for reading and writing at the beginning without truncating. w+ truncates the file."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q24",
+      "topic": "Python and Data Structures",
+      "sub_topic": "File I/O (Binary & Pickle)",
+      "difficulty": "easy",
+      "question": "To serialize a Python dictionary to a binary file and later reconstruct it, which module should be used?",
+      "options": [
+        "A) csv",
+        "B) os",
+        "C) json",
+        "D) pickle"
+      ],
+      "correct_option": "D",
+      "explanation": "pickle serializes Python objects to binary format and deserializes them back."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q25",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Stack Operations",
+      "difficulty": "easy",
+      "question": "A stack follows LIFO principle. If elements 10, 20, 30, 40 are pushed in order, and then two pop operations are performed, which element remains at the top?",
+      "options": [
+        "A) 10",
+        "B) 30",
+        "C) 20",
+        "D) 40"
+      ],
+      "correct_option": "C",
+      "explanation": "Push 10, 20, 30, 40. Stack: 40, 30, 20, 10. First pop removes 40. Second pop removes 30. Top is now 20."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q26",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Queue and Deque",
+      "difficulty": "easy",
+      "question": "A queue follows FIFO principle. If elements A, B, C, D are enqueued in order, and one dequeue is performed, which element is removed?",
+      "options": [
+        "A) D",
+        "B) A",
+        "C) B",
+        "D) C"
+      ],
+      "correct_option": "B",
+      "explanation": "Queue: A, B, C, D. Dequeue removes from front. First element enqueued (A) is the first removed."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q27",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Infix-to-Postfix Conversion",
+      "difficulty": "medium",
+      "question": "What is the postfix (Reverse Polish) notation of the infix expression: A + B * C - D?",
+      "options": [
+        "A) A B + C * D -",
+        "B) A B C + * D -",
+        "C) A B * C + D -",
+        "D) A B C * + D -"
+      ],
+      "correct_option": "D",
+      "explanation": "Using operator precedence: A + (B*C) - D → ABC*+D-."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q28",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Postfix Evaluation",
+      "difficulty": "medium",
+      "question": "Evaluate the postfix expression: 5 3 + 2 * 4 - (assume all operands are single-digit integers)",
+      "options": [
+        "A) 12",
+        "B) 10",
+        "C) 6",
+        "D) 14"
+      ],
+      "correct_option": "A",
+      "explanation": "Push 5, 3. + → 8. Push 2. * → 16. Push 4. - → 12."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q29",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Complex Exception Handling & Custom Exceptions",
+      "difficulty": "medium",
+      "question": "Which of the following correctly defines a custom exception class named InvalidAgeError that inherits from Exception in Python?",
+      "options": [
+        "A) custom exception InvalidAgeError: pass",
+        "B) class InvalidAgeError(Exception): pass",
+        "C) class InvalidAgeError inherits Exception: pass",
+        "D) class InvalidAgeError extends Exception: pass"
+      ],
+      "correct_option": "B",
+      "explanation": "In Python, custom exceptions are created by subclassing Exception with 'class Name(Base): body'."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q30",
+      "topic": "Python and Data Structures",
+      "sub_topic": "Advanced Data Structure Applications",
+      "difficulty": "hard",
+      "question": "A double-ended queue (deque) supports operations: appendLeft(x), appendRight(x), popLeft(), popRight(). Starting with an empty deque, what is the final state after: appendLeft(5), appendRight(3), appendLeft(7), popRight(), appendRight(1)?",
+      "options": [
+        "A) [7, 3, 1]",
+        "B) [5, 3, 1]",
+        "C) [7, 5, 3]",
+        "D) [7, 5, 1]"
+      ],
+      "correct_option": "D",
+      "explanation": "Steps: [5], [5,3], [7,5,3], popRight removes 3 → [7,5], appendRight(1) → [7,5,1]."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q31",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Linear Search",
+      "difficulty": "easy",
+      "question": "What is the worst-case time complexity of linear search on an unsorted array of n elements?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n²)",
+        "C) O(n)",
+        "D) O(1)"
+      ],
+      "correct_option": "C",
+      "explanation": "In the worst case, the element is not present or is at the end, requiring n comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q32",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "Binary search can only be applied on a sorted array. What is its best-case time complexity?",
+      "options": [
+        "A) O(1)",
+        "B) O(log n)",
+        "C) O(n log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "A",
+      "explanation": "In the best case, the middle element is the target, found in a single comparison."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q33",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "In bubble sort, after the first complete pass of an unsorted array of n elements, which element is guaranteed to be in its correct sorted position?",
+      "options": [
+        "A) The smallest element",
+        "B) The largest element",
+        "C) No element is guaranteed",
+        "D) The median element"
+      ],
+      "correct_option": "B",
+      "explanation": "After one pass, the largest element 'bubbles up' to the last position."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q34",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "How many swaps does selection sort perform in the worst case for an array of n elements?",
+      "options": [
+        "A) n log n",
+        "B) n",
+        "C) n²",
+        "D) n-1"
+      ],
+      "correct_option": "D",
+      "explanation": "Selection sort performs exactly n-1 swaps (one per iteration except the last)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q35",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "Insertion sort is most efficient when the input array is:",
+      "options": [
+        "A) Already sorted or nearly sorted",
+        "B) All elements are the same value",
+        "C) Randomly shuffled",
+        "D) Completely reversed"
+      ],
+      "correct_option": "A",
+      "explanation": "If the array is already sorted, each insertion requires only one comparison (best case O(n))."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q36",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Hashing Basics",
+      "difficulty": "easy",
+      "question": "A hash function h(key) = key mod 7 is used with a hash table of size 7. In which bucket will key 23 be placed?",
+      "options": [
+        "A) Bucket 6",
+        "B) Bucket 3",
+        "C) Bucket 2",
+        "D) Bucket 5"
+      ],
+      "correct_option": "C",
+      "explanation": "h(23) = 23 mod 7 = 2. Key 23 maps to bucket 2."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q37",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Sorting Algorithm Analysis",
+      "difficulty": "medium",
+      "question": "What is the average-case time complexity of quicksort when a good pivot is consistently chosen?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n²)"
+      ],
+      "correct_option": "B",
+      "explanation": "With good pivots, quicksort's recurrence T(n) = 2T(n/2) + O(n) solves to O(n log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q38",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Collision Resolution & Hash Functions",
+      "difficulty": "medium",
+      "question": "In open addressing (closed hashing), which collision resolution technique uses a second hash function to determine the next probe location?",
+      "options": [
+        "A) Chaining",
+        "B) Linear Probing",
+        "C) Double Hashing",
+        "D) Quadratic Probing"
+      ],
+      "correct_option": "C",
+      "explanation": "Double hashing uses h2(key) to compute probe interval: (h1(key) + i × h2(key)) mod m."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q39",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Mean, Median, Mode, Variance, Std Dev",
+      "difficulty": "medium",
+      "question": "Given the data set: 4, 8, 6, 5, 3, 2, 8, 9. What are the median and mode respectively?",
+      "options": [
+        "A) Median = 5.5, Mode = 8",
+        "B) Median = 5.5, Mode = 5",
+        "C) Median = 6, Mode = 8",
+        "D) Median = 5, Mode = 4"
+      ],
+      "correct_option": "A",
+      "explanation": "Sorted: 2, 3, 4, 5, 6, 8, 8, 9. Median = (5+6)/2 = 5.5. Mode = 8 (appears twice)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q40",
+      "topic": "Searching, Sorting and Data Statistics",
+      "sub_topic": "Complex Statistical Analysis",
+      "difficulty": "hard",
+      "question": "A dataset of 5 values has mean 20 and variance 4. A sixth value, 24, is added. What is the new variance? (Round to 2 decimal places)",
+      "options": [
+        "A) 4.00",
+        "B) 6.80",
+        "C) 3.33",
+        "D) 5.56"
+      ],
+      "correct_option": "D",
+      "explanation": "Sum = 100, sum_sq = 2020. After adding 24: sum = 124, sum_sq = 2596. New var = (2596/6) - (124/6)² = 5.56."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q41",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Viruses, Worms, Trojans",
+      "difficulty": "easy",
+      "question": "Which type of malware disguises itself as legitimate software but performs malicious actions when executed?",
+      "options": [
+        "A) Ransomware",
+        "B) Virus",
+        "C) Worm",
+        "D) Trojan Horse"
+      ],
+      "correct_option": "D",
+      "explanation": "A Trojan masquerades as useful software to trick users into running it."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q42",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Firewalls & Antivirus",
+      "difficulty": "easy",
+      "question": "What is the primary function of a firewall in a network?",
+      "options": [
+        "A) To encrypt data transmitted over the internet",
+        "B) To monitor and control incoming and outgoing network traffic based on security rules",
+        "C) To assign IP addresses to devices automatically",
+        "D) To detect and remove viruses from infected files"
+      ],
+      "correct_option": "B",
+      "explanation": "A firewall filters traffic based on predefined rules. Antivirus removes viruses. DHCP assigns IPs."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q43",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Pandas Series Creation",
+      "difficulty": "easy",
+      "question": "Which Python code correctly creates a Pandas Series containing the values [10, 20, 30, 40] with default integer indices?",
+      "options": [
+        "A) pd.Series([10, 20, 30, 40])",
+        "B) pd.Series({10, 20, 30, 40})",
+        "C) pd.DataFrame([10, 20, 30, 40])",
+        "D) pd.Series(10, 20, 30, 40)"
+      ],
+      "correct_option": "A",
+      "explanation": "pd.Series(data) where data is a list creates a Series with default integer index."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q44",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Pandas DataFrame Basics",
+      "difficulty": "easy",
+      "question": "Given a DataFrame df with columns 'Name', 'Age', 'City', how do you select only the 'Age' column?",
+      "options": [
+        "A) df.select('Age')",
+        "B) df['Name', 'Age']",
+        "C) df['Age']",
+        "D) df.column('Age')"
+      ],
+      "correct_option": "C",
+      "explanation": "Single column selection uses df['column_name'] (returns a Series)."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q45",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "IPR & Cyber Laws",
+      "difficulty": "easy",
+      "question": "Which Indian legislation primarily deals with cybercrime and electronic commerce?",
+      "options": [
+        "A) Copyright Act, 1957",
+        "B) Indian Penal Code, 1860",
+        "C) Companies Act, 2013",
+        "D) Information Technology Act, 2000"
+      ],
+      "correct_option": "D",
+      "explanation": "The IT Act 2000 is India's primary law addressing cybercrime and electronic governance."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q46",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "E-waste & Health Concerns",
+      "difficulty": "easy",
+      "question": "Prolonged use of computer screens can lead to Computer Vision Syndrome. Which of the following is NOT a recommended preventive measure?",
+      "options": [
+        "A) Following the 20-20-20 rule (every 20 min, look at something 20 ft away for 20 sec)",
+        "B) Increasing screen brightness to maximum to reduce eye strain",
+        "C) Using anti-glare screen filters",
+        "D) Adjusting screen to be at eye level and arm's length away"
+      ],
+      "correct_option": "B",
+      "explanation": "High brightness increases eye strain, not reduces it."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q47",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "DataFrame Operations & GroupBy",
+      "difficulty": "medium",
+      "question": "A DataFrame has columns 'Department', 'Employee', 'Salary'. What does df.groupby('Department')['Salary'].mean() return?",
+      "options": [
+        "A) Average salary for each department",
+        "B) The mean of all salaries across all departments",
+        "C) A list of employee names grouped by department",
+        "D) Total salary for each department"
+      ],
+      "correct_option": "A",
+      "explanation": "groupby + column selection + .mean() computes the average for each group."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q48",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Handling Missing Data & Descriptive Stats",
+      "difficulty": "medium",
+      "question": "In Pandas, what does the method fillna(0) do when applied to a DataFrame?",
+      "options": [
+        "A) Replaces all zero values with NaN",
+        "B) Deletes all rows containing NaN values",
+        "C) Replaces all NaN (missing) values with 0",
+        "D) Returns a boolean mask of NaN positions"
+      ],
+      "correct_option": "C",
+      "explanation": "fillna(value) replaces NaN/missing values with the specified value."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q49",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Denial of Service, Snooping, Eavesdropping",
+      "difficulty": "medium",
+      "question": "An attacker floods a web server with thousands of requests per second to make it unavailable to legitimate users. This is an example of:",
+      "options": [
+        "A) Phishing attack",
+        "B) Denial of Service (DoS) attack",
+        "C) SQL Injection",
+        "D) Man-in-the-Middle attack"
+      ],
+      "correct_option": "B",
+      "explanation": "DoS attacks overwhelm a system's resources to deny service."
+    },
+    {
+      "id": "CUET_CS_2026_P2_L2_Q50",
+      "topic": "Security, Pandas and Societal Impacts",
+      "sub_topic": "Complex Security Threat Analysis & IT Act",
+      "difficulty": "hard",
+      "question": "Under Section 66 of the IT Act 2000 (as amended in 2008), which of the following acts is punishable with imprisonment up to 3 years and/or a fine?",
+      "options": [
+        "A) Sending offensive messages through communication service",
+        "B) Failure to comply with government directions for interception",
+        "C) Unauthorized access to a computer system",
+        "D) Identity theft using someone's personal information"
+      ],
+      "correct_option": "C",
+      "explanation": "Section 66 deals with computer-related offences (hacking) and prescribes imprisonment up to 3 years and/or fine."
+    }
+  ]
+}

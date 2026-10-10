@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_GEO_2026_P06_L6",
+  "series_id": "CUET_GEO_2026",
+  "paper_number": 6,
+  "difficulty_level": "6",
+  "subject": "Geography / Geology (Code: 313)",
+  "syllabus_source": "cuet geography syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "CUET UG Geography Past Papers (2022-2024)",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q01",
+      "topic": "Fundamentals of Human Geography: Nature and Scope",
+      "sub_topic": "Sub-fields of Human Geography",
+      "difficulty": "easy",
+      "question": "Which sub-field of Human Geography interfaces directly with the sister social science discipline of Psychology?",
+      "options": [
+        "A) Behavioural Geography",
+        "B) Electoral Geography",
+        "C) Historical Geography",
+        "D) Military Geography"
+      ],
+      "correct_option": "A",
+      "explanation": "Behavioural geography studies human spatial perception, cognitive mental maps, and decision-making, drawing heavily from psychology."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q02",
+      "topic": "Fundamentals of Human Geography: Nature and Scope",
+      "sub_topic": "Sub-fields of Human Geography",
+      "difficulty": "medium",
+      "question": "The sub-field of 'Electoral Geography', which investigates voting trends, ballot patterns, and parliamentary constituency delineation, is an interface with:",
+      "options": [
+        "A) Anthropology and Paleontology",
+        "B) Psephology and Political Science",
+        "C) Geomorphology and Hydrology",
+        "D) Agricultural Botany"
+      ],
+      "correct_option": "B",
+      "explanation": "Electoral geography examines the spatial aspects of elections, voting behavior, and delimitation of electoral districts in close synergy with political science and psephology."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q03",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Measures of Density",
+      "difficulty": "medium",
+      "question": "How is 'Physiological Population Density' distinguished mathematically from crude population density?",
+      "options": [
+        "A) Total Agricultural Labourers divided by Gross Irrigated Land",
+        "B) Total Urban Population divided by Built-up Municipal Area",
+        "C) Total Population divided by Net Cultivated (Arable) Land",
+        "D) Total Rural Population divided by Total Forest Area"
+      ],
+      "correct_option": "C",
+      "explanation": "Physiological density measures population pressure directly on agricultural resources, calculated as Total Population / Net Cultivated Area."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q04",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Measures of Density",
+      "difficulty": "hard",
+      "question": "'Agricultural Density' is an essential demographic indicator computed as the ratio of:",
+      "options": [
+        "A) Total Urban Working Population to Net Sown Area",
+        "B) Total Livestock Herd Size to Permanent Pasture Acreage",
+        "C) Total Culturable Wasteland to Gross Irrigated Area",
+        "D) Total Agricultural Population to Net Cultivated (Arable) Land Area"
+      ],
+      "correct_option": "D",
+      "explanation": "Agricultural density isolates the farming community (cultivators and agricultural laborers and their dependents) relative to net arable land."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q05",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "Sex Ratio Metrics",
+      "difficulty": "medium",
+      "question": "Unlike India, where the sex ratio is calculated as the number of females per 1,000 males, in many Western countries it is defined as:",
+      "options": [
+        "A) Number of males per 1,000 (or per 100) females",
+        "B) Number of female live births per gross square kilometer",
+        "C) Total adult females divided by total infant deaths",
+        "D) Total working women divided by total elderly men"
+      ],
+      "correct_option": "A",
+      "explanation": "In European and North American demographic conventions, the sex ratio is expressed as the number of males per 100 or 1,000 females: (Male Population / Female Population) × 1000."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q06",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "HDI Tiers",
+      "difficulty": "easy",
+      "question": "Under the UNDP Human Development Report scoring criteria, countries having an HDI score between 0.700 and 0.799 are classified into which group?",
+      "options": [
+        "A) Very high human development",
+        "B) High human development",
+        "C) Medium human development",
+        "D) Low human development"
+      ],
+      "correct_option": "B",
+      "explanation": "Countries scoring 0.800 and above fall in 'Very High', while those between 0.700 and 0.799 are grouped in the 'High' human development tier."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q07",
+      "topic": "Fundamentals of Human Geography: People",
+      "sub_topic": "HDI Indicators",
+      "difficulty": "medium",
+      "question": "Which of the following dimensions is NOT included in calculating the Human Development Index (HDI)?",
+      "options": [
+        "A) Life expectancy at birth (health)",
+        "B) Expected and mean years of schooling (education)",
+        "C) Total national defense military expenditure",
+        "D) Gross National Income (GNI) per capita in Purchasing Power Parity (decent standard of living)"
+      ],
+      "correct_option": "C",
+      "explanation": "HDI measures average achievement across three fundamental dimensions: a long and healthy life, knowledge/education, and a decent standard of living."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q08",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Mining Hazards",
+      "difficulty": "medium",
+      "question": "Why is underground (shaft) mining recognized as far more hazardous to human labour than open-cast surface quarrying?",
+      "options": [
+        "A) It exposes workers directly to harsh tropical desert sunstrokes",
+        "B) It requires digging exclusively with bare hands without electricity",
+        "C) It operates only during night hours under severe winter blizzards",
+        "D) Mines are susceptible to poisonous gas explosions, underground fires, cave-ins, and flooding of deep shafts"
+      ],
+      "correct_option": "D",
+      "explanation": "Underground shaft mining involves dangerous working conditions, including methane and carbon monoxide asphyxiation, roof collapses, underground flooding, and fires."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q09",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Gathering Regions",
+      "difficulty": "medium",
+      "question": "Gathering as a primary economic pursuit is practiced in high-latitude zones encompassing which geographical territory?",
+      "options": [
+        "A) Northern Canada, northern Eurasia, and southern Chile",
+        "B) The Mediterranean coastal basin of southern Europe",
+        "C) The fertile delta plains of the Yangtze and Ganga",
+        "D) The central corn belt of the Midwestern United States"
+      ],
+      "correct_option": "A",
+      "explanation": "High-latitude gathering zones include northern Canada, northern Eurasia (Siberia), and southern Chile, where harsh cold limits agricultural cultivation."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q10",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Plantation Agriculture Crops",
+      "difficulty": "easy",
+      "question": "Which of the following is a classic plantation crop introduced into tropical Southeast Asia (particularly Malaysia) by European planters?",
+      "options": [
+        "A) Barley",
+        "B) Natural rubber",
+        "C) Rye",
+        "D) Oats"
+      ],
+      "correct_option": "B",
+      "explanation": "Rubber was brought from the Amazon basin and planted extensively in Malaysia and Indonesia by the British and Dutch as a major plantation crop."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q11",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Mediterranean Agriculture",
+      "difficulty": "easy",
+      "question": "Which unique climatic feature of the Mediterranean agricultural region enables the commercial cultivation of premium citrus fruits and olives?",
+      "options": [
+        "A) Perennial continuous snowfall throughout the year",
+        "B) High daily torrential equatorial afternoon rains",
+        "C) Mild, wet winters and warm, dry sunny summers",
+        "D) Dense summer fog and sub-zero winter permafrost"
+      ],
+      "correct_option": "C",
+      "explanation": "Mediterranean climate is characterized by winter rainfall brought by westerlies and dry warm sunny summers, perfect for citrus crops, olives, and viticulture."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q12",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Integrated Steel Plants",
+      "difficulty": "medium",
+      "question": "The Tata Iron and Steel Company (TISCO) at Jamshedpur was established in 1907 at the confluence of which two rivers to ensure perennial water supply?",
+      "options": [
+        "A) Damodar and Barakar",
+        "B) Mahanadi and Brahmani",
+        "C) Ganga and Son",
+        "D) Subarnarekha and Kharkai"
+      ],
+      "correct_option": "D",
+      "explanation": "TISCO at Jamshedpur was strategically built near the confluence of the Subarnarekha and Kharkai rivers, close to haematite mines of Mayurbhanj and Jharia coking coal."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q13",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Ownership of Industries",
+      "difficulty": "easy",
+      "question": "Industrial enterprises that are jointly established and managed by the government and private sector companies are classified as:",
+      "options": [
+        "A) Joint sector industries",
+        "B) Public sector undertakings",
+        "C) Sole proprietorships",
+        "D) Cooperative societies"
+      ],
+      "correct_option": "A",
+      "explanation": "Joint sector industries are managed jointly by the state and private individuals or consortiums (e.g., Oil India Limited)."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q14",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Cotton Textile Sectors",
+      "difficulty": "medium",
+      "question": "In developing countries like India, the cotton textile manufacturing sector is uniquely divided into which three operational segments?",
+      "options": [
+        "A) Cottage guilds, robotic nanotechnology, and deep sea processing",
+        "B) Handloom sector, powerloom sector, and composite mill sector",
+        "C) State defense armories, export cooperatives, and aviation mills",
+        "D) Heavy foundry sector, cryogenic blast sector, and chemical synth sector"
+      ],
+      "correct_option": "B",
+      "explanation": "Cotton textiles in India operate across: handloom (labor-intensive cottage weaving), powerloom (semi-mechanized decentralized units), and large integrated composite mills."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q15",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Informal Service Sector",
+      "difficulty": "easy",
+      "question": "The informal service sector in developing urban cities is characterized by:",
+      "options": [
+        "A) High corporate executive salaries and multinational stock options",
+        "B) Extensive state pension guarantees and permanent medical coverage",
+        "C) Unorganized, low-wage personal services such as domestic maids, street vendors, and auto-rickshaw drivers",
+        "D) Automated algorithmic high-frequency trading terminals"
+      ],
+      "correct_option": "C",
+      "explanation": "The informal or unorganized tertiary sector absorbs millions of unskilled rural migrants in precarious, unregulated, low-paid informal urban services."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q16",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Digital Divide",
+      "difficulty": "medium",
+      "question": "The 'Digital Divide' in human geography refers to the wide disparity in:",
+      "options": [
+        "A) The mathematical distance between primary iron mines and coastal ports",
+        "B) The ratio of agricultural tractors to manual wooden ploughs",
+        "C) The geographical elevation gap between sea level and high mountain plateaus",
+        "D) Access to Information and Communication Technology (ICT) across different countries and between urban and rural populations"
+      ],
+      "correct_option": "D",
+      "explanation": "The Digital Divide reflects spatial and socioeconomic inequalities in opportunities to access and utilize computers, the internet, and digital information systems."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q17",
+      "topic": "Fundamentals of Human Geography: Human Activities",
+      "sub_topic": "Quaternary vs Tertiary",
+      "difficulty": "medium",
+      "question": "What is the primary factor that distinguishes Quaternary economic activities from conventional Tertiary services?",
+      "options": [
+        "A) Quaternary activities involve intellectual capital, research, and generation/processing of complex knowledge and information",
+        "B) Quaternary activities deal exclusively with the physical extraction of iron ore and bauxite",
+        "C) Quaternary activities require no formal education or computer equipment",
+        "D) Quaternary activities involve only manual personal grooming like barbering"
+      ],
+      "correct_option": "A",
+      "explanation": "While tertiary activities provide general services, quaternary activities represent specialized knowledge-based services, software engineering, and strategic R&D."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q18",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Inland Waterways of Europe",
+      "difficulty": "hard",
+      "question": "The industrial Ruhr coal district in Germany is connected directly to the Rhine waterway through the inland river port of:",
+      "options": [
+        "A) Hamburg",
+        "B) Duisburg",
+        "C) Frankfurt",
+        "D) Munich"
+      ],
+      "correct_option": "B",
+      "explanation": "Duisburg, situated at the confluence of the Rhine and Ruhr rivers, is the world's largest inland river port, handling massive coal, iron, and chemical barge traffic."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q19",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Great Lakes Canals",
+      "difficulty": "medium",
+      "question": "Which canal connects Lake Superior and Lake Huron, allowing large lake freighters to bypass the St. Mary's rapids?",
+      "options": [
+        "A) The Welland Canal",
+        "B) The Erie Canal",
+        "C) The Soo Canal (Sault Ste. Marie)",
+        "D) The Corinth Canal"
+      ],
+      "correct_option": "C",
+      "explanation": "The Soo Canal (Sault Ste. Marie) bypasses the rapids between Lake Superior and Lake Huron, enabling iron ore and grain freighters to navigate the Great Lakes."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q20",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Major Ocean Routes",
+      "difficulty": "medium",
+      "question": "The South Atlantic Sea Route links Western Europe and West Africa across the Atlantic Ocean with which developing economic region?",
+      "options": [
+        "A) Japan, South Korea, and China in East Asia",
+        "B) India, Pakistan, and Sri Lanka in South Asia",
+        "C) Australia and New Zealand in Oceania",
+        "D) Brazil, Argentina, and Uruguay in South America"
+      ],
+      "correct_option": "D",
+      "explanation": "The South Atlantic Sea Route traverses the Atlantic, connecting ports in Western Europe and West Africa with Santos, Rio de Janeiro, Buenos Aires, and Montevideo."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q21",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Pipelines",
+      "difficulty": "hard",
+      "question": "The COMECON pipeline was constructed by the former Soviet Union to transport crude petroleum across over 4,000 km from the Volga-Urals basin to:",
+      "options": [
+        "A) Eastern European countries including Poland, East Germany, Hungary, and Czechoslovakia",
+        "B) South Asian ports on the Arabian Sea",
+        "C) Sub-Saharan African mining enclaves",
+        "D) Pacific coastal cities in western Canada"
+      ],
+      "correct_option": "A",
+      "explanation": "The COMECON (Druzhba or 'Friendship') pipeline was built to supply Soviet crude oil to socialist allies in Eastern Europe."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q22",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Types of Ports",
+      "difficulty": "easy",
+      "question": "Ports that specialize in handling bulk industrial cargoes such as crude petroleum, iron ore, coal, and bulk grains are categorized as:",
+      "options": [
+        "A) Packet passenger ports",
+        "B) Industrial ports",
+        "C) Naval fortress ports",
+        "D) River ferry terminals"
+      ],
+      "correct_option": "B",
+      "explanation": "Industrial ports are equipped with mechanized bulk-handling gear, deep drafts, and pipelines specifically designed to load and discharge heavy raw materials."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q23",
+      "topic": "India: People and Economy - People",
+      "sub_topic": "Census Occupational Classification",
+      "difficulty": "medium",
+      "question": "In the Census of India, the economically active working population is divided into which four standard industrial categories?",
+      "options": [
+        "A) White-collar executives, Blue-collar mechanics, Farmers, and Students",
+        "B) Primary miners, Secondary weavers, Tertiary traders, and Government officers",
+        "C) Cultivators, Agricultural Labourers, Household Industry Workers, and Other Workers",
+        "D) Landlords, Peasant tenants, Factory owners, and Retailers"
+      ],
+      "correct_option": "C",
+      "explanation": "The Census of India classifies all workers into four broad categories: Cultivators, Agricultural Labourers, Household Industry Workers, and Other Workers."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q24",
+      "topic": "India: People and Economy - People",
+      "sub_topic": "Agricultural Workers Proportion",
+      "difficulty": "medium",
+      "question": "What proportion of India's total workforce is engaged in the primary agricultural sector (as cultivators and agricultural labourers) according to Census 2011?",
+      "options": [
+        "A) 28.4 percent",
+        "B) 72.8 percent",
+        "C) 41.2 percent",
+        "D) 54.6 percent"
+      ],
+      "correct_option": "D",
+      "explanation": "According to Census 2011, about 54.6% of total workers in India are engaged in agricultural activities (31.8% agricultural laborers and 22.8% cultivators)."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q25",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Census Town Criteria",
+      "difficulty": "hard",
+      "question": "To be classified as a 'Census Town' in India, an urban settlement must satisfy which specific demographic criteria?",
+      "options": [
+        "A) Minimum population of 5,000, at least 75% of male main workers in non-agricultural pursuits, and density of at least 400 persons per sq km",
+        "B) Minimum population of 50,000, 100% literate citizens, and an operational international civil airport",
+        "C) Notification as a statutory municipality by the state legislative assembly regardless of population",
+        "D) Presence of at least three operational public sector heavy manufacturing plants"
+      ],
+      "correct_option": "A",
+      "explanation": "Census Towns are non-statutory urban settlements that meet three criteria: pop >= 5,000, >= 75% of male main workers in non-agricultural work, and density >= 400 persons/km²."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q26",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Garrison / Cantonment Towns",
+      "difficulty": "medium",
+      "question": "Mhow (Dr. Ambedkar Nagar in Madhya Pradesh) and Kamptee (in Maharashtra) were established historically as:",
+      "options": [
+        "A) Ancient religious temple centers",
+        "B) Military garrison and cantonment towns",
+        "C) Major marine pearl-fishing ports",
+        "D) Capital administrative metropolises"
+      ],
+      "correct_option": "B",
+      "explanation": "Mhow and Kamptee were established by the British military administration to station military regiments and cantonment commands."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q27",
+      "topic": "India: People and Economy - Human Settlements",
+      "sub_topic": "Modern Towns in India",
+      "difficulty": "easy",
+      "question": "Which of the following ports was developed as a 'Modern Town' by the British along the western coast of India?",
+      "options": [
+        "A) Madurai",
+        "B) Pataliputra",
+        "C) Mumbai",
+        "D) Ujjain"
+      ],
+      "correct_option": "C",
+      "explanation": "Modern towns in India were developed during British and European colonial expansion, establishing port footholds at Surat, Goa, Mumbai, Chennai, and Kolkata."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q28",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Land-Use Dynamics",
+      "difficulty": "medium",
+      "question": "Over the past six decades, which land-use category in India has shown the most consistent and substantial percentage increase?",
+      "options": [
+        "A) Permanent pastures and grazing lands",
+        "B) Culturable wastelands",
+        "C) Barren and unculturable rocky lands",
+        "D) Area under non-agricultural uses"
+      ],
+      "correct_option": "D",
+      "explanation": "Area under non-agricultural uses (buildings, roads, industrial infrastructure, urban housing) has risen steadily due to rapid urbanization and economic expansion."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q29",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Wheat Cultivation Trends",
+      "difficulty": "medium",
+      "question": "Although Uttar Pradesh produces the largest total volume of wheat in India, which state achieves the highest yield per hectare (over 4,000 kg/ha)?",
+      "options": [
+        "A) Punjab",
+        "B) Bihar",
+        "C) Madhya Pradesh",
+        "D) Rajasthan"
+      ],
+      "correct_option": "A",
+      "explanation": "Punjab achieves the highest per-hectare wheat yields in India due to near-100% canal and tube-well irrigation coverage, HYV seeds, and heavy fertilizer inputs."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q30",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Pulse Crops",
+      "difficulty": "easy",
+      "question": "Which of the following is the single largest pulse crop produced in India, accounting for nearly 40% of total pulse production?",
+      "options": [
+        "A) Tur (arhar)",
+        "B) Gram (chickpea)",
+        "C) Urad (black gram)",
+        "D) Moong (green gram)"
+      ],
+      "correct_option": "B",
+      "explanation": "Gram is the leading pulse cultivated in India, grown predominantly in Madhya Pradesh, Rajasthan, and Maharashtra during the Rabi season."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q31",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Tea Cultivation Conditions",
+      "difficulty": "hard",
+      "question": "Why is commercial tea cultivation concentrated along well-drained undulating hill slopes in the Brahmaputra valley and Nilgiris rather than flat plains?",
+      "options": [
+        "A) Tea leaves require sub-zero winter snowfall to develop caffeine content",
+        "B) Flat plains are legally reserved exclusively for atomic reactor testing",
+        "C) Tea bushes cannot tolerate stagnant water around their roots, demanding deep friable acidic loamy soils on gentle hill slopes",
+        "D) Hill breezes prevent tea leaves from turning green during photosynthesis"
+      ],
+      "correct_option": "C",
+      "explanation": "While tea requires heavy rainfall (150–250 cm), water stagnation is fatal to tea root systems; hence, well-drained mountain slopes are required."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q32",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Traditional Water Harvesting",
+      "difficulty": "hard",
+      "question": "In the hyper-arid Jaisalmer district of Rajasthan, traditional earthen embankments constructed across agricultural slopes to impound runoff and saturate fields for winter cropping are known as:",
+      "options": [
+        "A) Baolis",
+        "B) Guhls",
+        "C) Zings",
+        "D) Khadins"
+      ],
+      "correct_option": "D",
+      "explanation": "Khadins are indigenous water-harvesting systems designed by the Paliwal Brahmins of Jaisalmer, creating fertile moist soil beds for winter rabi crops."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q33",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Water Crisis",
+      "difficulty": "hard",
+      "question": "In the lower Ganga plains of West Bengal and Bihar, deep tube-well over-pumping has triggered serious public health concerns due to natural leaching of which toxic element?",
+      "options": [
+        "A) Arsenic",
+        "B) Mercury",
+        "C) Uranium",
+        "D) Cadmium"
+      ],
+      "correct_option": "A",
+      "explanation": "Excessive groundwater withdrawal in the Bengal alluvial basin exposes arsenic-rich pyrite sediments, leaching dangerous dissolved arsenic into village drinking wells."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q34",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Copper Deposits",
+      "difficulty": "medium",
+      "question": "The Malanjkhand copper belt, India's largest single open-cast copper mining operation, is located in the Balaghat district of:",
+      "options": [
+        "A) Rajasthan",
+        "B) Madhya Pradesh",
+        "C) Jharkhand",
+        "D) Karnataka"
+      ],
+      "correct_option": "B",
+      "explanation": "Malanjkhand in the Balaghat district of Madhya Pradesh accounts for more than half of India's domestic copper ore production."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q35",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Mica Production",
+      "difficulty": "medium",
+      "question": "The Nellore mica belt, famous for the extraction of green-tinted muscovite mica, is situated in which state?",
+      "options": [
+        "A) Karnataka",
+        "B) Tamil Nadu",
+        "C) Andhra Pradesh",
+        "D) Odisha"
+      ],
+      "correct_option": "C",
+      "explanation": "Andhra Pradesh's Nellore district is renowned for producing superior quality electrical-grade tinted mica."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q36",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Coal Basins",
+      "difficulty": "medium",
+      "question": "The Talcher coalfield, possessing massive reserves of thermal coal that fuel regional super thermal power stations, is situated in the valley of which river?",
+      "options": [
+        "A) Damodar river in West Bengal",
+        "B) Godavari river in Telangana",
+        "C) Son river in Madhya Pradesh",
+        "D) Mahanadi river in Odisha"
+      ],
+      "correct_option": "D",
+      "explanation": "Talcher coalfield in the Angul-Dhenkanal tract of Odisha is located in the Mahanadi river basin, supplying thermal coal across eastern India."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q37",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Wind Energy Potential",
+      "difficulty": "medium",
+      "question": "In Rajasthan, large-scale commercial wind power projects have been successfully developed around which desert district with high wind speeds?",
+      "options": [
+        "A) Jaisalmer",
+        "B) Jaipur",
+        "C) Alwar",
+        "D) Kota"
+      ],
+      "correct_option": "A",
+      "explanation": "Jaisalmer's vast open desert plains experience steady high-velocity winds, making it one of India's foremost wind energy generation hubs."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q38",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Warabandi System",
+      "difficulty": "hard",
+      "question": "In the Command Area of the Indira Gandhi Canal, what is the 'Warabandi System' implemented by the irrigation department?",
+      "options": [
+        "A) A legal prohibition on building brick houses within 50 km of canal distributaries",
+        "B) A strict rotational water-distribution schedule that allocates water turns to farmers based on holding size",
+        "C) A tax penalty imposed on farmers planting leguminous gram pulses",
+        "D) A military curfew preventing livestock from grazing near canal banks"
+      ],
+      "correct_option": "B",
+      "explanation": "Warabandi is an equitable water distribution system that allocates predetermined weekly water turns to individual farmers in proportion to their landholding."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q39",
+      "topic": "India: People and Economy - Resources and Development",
+      "sub_topic": "Sustainable Development Pillars",
+      "difficulty": "medium",
+      "question": "The modern concept of Sustainable Development harmonizes economic growth with which two other fundamental imperatives?",
+      "options": [
+        "A) Military territorial conquest and industrial mechanization",
+        "B) Complete national isolation and elimination of all foreign trade",
+        "C) Ecological preservation and social equity across generations",
+        "D) Massive urbanization and total deforestation of mountain watersheds"
+      ],
+      "correct_option": "C",
+      "explanation": "Sustainable development integrates three interconnected pillars: economic viability, environmental protection, and social equity across current and future generations."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q40",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Longest National Highway",
+      "difficulty": "easy",
+      "question": "National Highway 44 (NH-44), the backbone of the North-South Corridor and the longest national highway in India, connects:",
+      "options": [
+        "A) Silchar in Assam to Porbandar in Gujarat",
+        "B) Delhi to Kolkata via Varanasi",
+        "C) Mumbai to Chennai via Pune and Bengaluru",
+        "D) Srinagar in Jammu & Kashmir to Kanyakumari in Tamil Nadu"
+      ],
+      "correct_option": "D",
+      "explanation": "NH-44 spans 3,745 km from Srinagar in the extreme north to Kanyakumari at the southern tip of the Indian peninsula."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q41",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "East-West Corridor",
+      "difficulty": "easy",
+      "question": "The East-West Corridor of the National Highways Development Project (NHDP) connects:",
+      "options": [
+        "A) Silchar in Assam to Porbandar in Gujarat",
+        "B) Kolkata in West Bengal to Mumbai in Maharashtra",
+        "C) Guwahati in Assam to Amritsar in Punjab",
+        "D) Bhubaneswar in Odisha to Surat in Gujarat"
+      ],
+      "correct_option": "A",
+      "explanation": "The East-West highway corridor spans 3,300 km connecting Silchar in Assam with the port city of Porbandar on the Gujarat coast."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q42",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Corporatised Ports",
+      "difficulty": "hard",
+      "question": "Which major seaport on the east coast, situated 25 km north of Chennai, was established as India's first corporate port to handle thermal coal and cars?",
+      "options": [
+        "A) Visakhapatnam Port",
+        "B) Ennore Port (Kamarajar Port)",
+        "C) Paradip Port",
+        "D) Tuticorin Port"
+      ],
+      "correct_option": "B",
+      "explanation": "Kamarajar Port at Ennore was commissioned as a dedicated energy and corporate port to relieve severe bulk cargo pressure on Chennai Port."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q43",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Southern Sea Gateway",
+      "difficulty": "hard",
+      "question": "V.O. Chidambaranar Port (formerly Tuticorin Port) on the Tamil Nadu coast has a specialized artificial deep-water harbour designed to handle trade primarily with:",
+      "options": [
+        "A) Greenland and Arctic research settlements",
+        "B) Chile and Peru across the Southern Pacific",
+        "C) Sri Lanka and neighboring Indian Ocean island nations",
+        "D) Western Canada and Alaska across the Bering Strait"
+      ],
+      "correct_option": "C",
+      "explanation": "V.O. Chidambaranar Port in the Gulf of Mannar handles extensive cargo, thermal coal, fertilizers, and container transit to and from Sri Lanka."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q44",
+      "topic": "India: People and Economy - Geographical Perspective on Selected Issues",
+      "sub_topic": "Air Quality Index Parameters",
+      "difficulty": "hard",
+      "question": "In India's National Air Quality Index (AQI), which fine particulate pollutant poses the greatest danger to pulmonary and cardiovascular health due to deep alveolar penetration?",
+      "options": [
+        "A) Particulate Matter 100 (PM100)",
+        "B) Inert argon gas molecules",
+        "C) Suspended sea salt crystals",
+        "D) Particulate Matter 2.5 (PM2.5)"
+      ],
+      "correct_option": "D",
+      "explanation": "PM2.5 particles are smaller than 2.5 micrometers; when inhaled, they penetrate deep into lung alveoli and enter the bloodstream, causing serious cardiovascular and respiratory disease."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q45",
+      "topic": "India: People and Economy - Geographical Perspective on Selected Issues",
+      "sub_topic": "River Water Quality Monitoring",
+      "difficulty": "hard",
+      "question": "What parameter is utilized by the Central Pollution Control Board (CPCB) as the primary chemical indicator of organic waste pollution and sewage contamination in Indian rivers?",
+      "options": [
+        "A) Biochemical Oxygen Demand (BOD) and Fecal Coliform counts",
+        "B) Total dissolved radioactive radon isotopes",
+        "C) Ambient atmospheric barometric pressure above the river",
+        "D) Water surface seismic wave reflectivity"
+      ],
+      "correct_option": "A",
+      "explanation": "High Biochemical Oxygen Demand (BOD) indicates heavy depletion of dissolved oxygen caused by decomposing organic sewage, while fecal coliform bacteria indicate human waste contamination."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q46",
+      "topic": "India: People and Economy - Geographical Perspective on Selected Issues",
+      "sub_topic": "Desertification and Mining",
+      "difficulty": "hard",
+      "question": "In the Aravalli range of Rajasthan and Haryana, rapid desertification and loss of groundwater recharge have been accelerated by:",
+      "options": [
+        "A) Continuous volcanic eruptions coating mountain slopes in molten basalt",
+        "B) Unregulated open-cast stone quarrying and deforestation destroying the natural green buffer against the Thar desert",
+        "C) Constructing extensive subsurface railway tunnels beneath granite hills",
+        "D) Planting millions of indigenous neem trees across hill slopes"
+      ],
+      "correct_option": "B",
+      "explanation": "Illegal quarrying for quartzite and marble in the Aravallis has stripped the hills of vegetation and breached the natural geological barrier protecting eastern Rajasthan and Delhi from desert sand expansion."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q47",
+      "topic": "Fundamentals of Human Geography: Nature and Scope",
+      "sub_topic": "Griffith Taylor Traffic Analogy",
+      "difficulty": "medium",
+      "question": "In Griffith Taylor's concept of Neo-determinism, a human being's role in altering nature is compared to a:",
+      "options": [
+        "A) Master who exerts absolute, unfettered tyranny over physical elements",
+        "B) Helpless captive slave bound entirely by nature's iron laws",
+        "C) Traffic controller who can change the speed of flow but cannot alter the fundamental direction of the road",
+        "D) Computer programmer designing digital virtual realities"
+      ],
+      "correct_option": "C",
+      "explanation": "Taylor used the traffic controller analogy: humans can accelerate, slow, or halt the speed of development, but cannot defy nature's physical laws without causing catastrophic disasters."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q48",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Panama Canal Locks",
+      "difficulty": "hard",
+      "question": "Why does the Panama Canal require an intricate system of six locks (such as the Miraflores and Gatun locks) to lift and lower ships across the Isthmus?",
+      "options": [
+        "A) Because tidal currents in the Pacific are ten times faster than sound waves",
+        "B) Because the Pacific Ocean is legally required to remain at lower pressure than the Atlantic",
+        "C) Because locks are required to filter out dangerous sea monsters from the Caribbean Sea",
+        "D) Because ships must be lifted 26 metres above sea level to cross the artificial Gatun Lake and Continental Divide"
+      ],
+      "correct_option": "D",
+      "explanation": "The Panama Canal uses locks to lift ships 26 meters to the level of Lake Gatun and then lower them back to sea level on the other side."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q49",
+      "topic": "India: People and Economy - Transport, Communication and International Trade",
+      "sub_topic": "Natural Harbours in India",
+      "difficulty": "easy",
+      "question": "Which port on the western coast of India is a spacious natural harbour and historically the premier commercial gateway handling the country's foreign trade?",
+      "options": [
+        "A) Kandla Port",
+        "B) Marmagao Port",
+        "C) Mumbai Port",
+        "D) Kochi Port"
+      ],
+      "correct_option": "C",
+      "explanation": "Mumbai Port is a large natural deep-water harbour situated on the western coast of Maharashtra, serving a vast industrialized hinterland."
+    },
+    {
+      "id": "CUET_GEO_2026_P06_L6_Q50",
+      "topic": "Fundamentals of Human Geography: Transport, Communication and Trade",
+      "sub_topic": "Rhine River Navigation Details",
+      "difficulty": "hard",
+      "question": "The Rhine waterway in Europe is navigable for ocean-going freighters from its mouth at Rotterdam up to which Swiss inland city over a stretch of 700 km?",
+      "options": [
+        "A) Geneva",
+        "B) Zurich",
+        "C) Bern",
+        "D) Basel"
+      ],
+      "correct_option": "D",
+      "explanation": "The Rhine is navigable for a length of 700 km from the port of Rotterdam on the North Sea all the way upstream to Basel in Switzerland."
+    }
+  ]
+}

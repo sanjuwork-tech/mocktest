@@ -53,7 +53,7 @@ export function CheckoutButton({ productSlug, priceMinor, customerName, phone }:
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID || "rzp_test_mock", // Public key
         amount: orderData.amount,
         currency: orderData.currency,
-        name: "TestDisha",
+        name: "OurMocks",
         description: `Enrolment for ${productSlug}`,
         order_id: orderData.razorpayOrderId,
         handler: function () {

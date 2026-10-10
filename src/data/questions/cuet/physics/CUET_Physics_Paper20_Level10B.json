@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_PHY_2026_P20_L10B",
+  "series_id": "CUET_PHY_2026",
+  "paper_number": 20,
+  "difficulty_level": "10B",
+  "subject": "Physics (Code: 322)",
+  "syllabus_source": "CUET Physics Syllabus",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q01",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM wave properties",
+      "difficulty": "easy",
+      "question": "In an electromagnetic wave, the electric field and magnetic field are:",
+      "options": [
+        "A) Parallel to each other",
+        "B) Only perpendicular to each other",
+        "C) Perpendicular to each other and to the direction of propagation",
+        "D) Independent of propagation direction"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q02",
+      "topic": "Optics",
+      "sub_topic": "Plane mirror",
+      "difficulty": "easy",
+      "question": "A plane mirror produces an image that is:",
+      "options": [
+        "A) Real and inverted",
+        "B) Real and erect",
+        "C) Virtual and inverted",
+        "D) Virtual and erect"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q03",
+      "topic": "Electrostatics",
+      "sub_topic": "Coulomb's law",
+      "difficulty": "medium",
+      "question": "Two charges +6 μC and -6 μC are 0.3 m apart. The force is (k = 9×10⁹):",
+      "options": [
+        "A) 3.6 N attractive",
+        "B) 7.2 N attractive",
+        "C) 1.8 N attractive",
+        "D) 14.4 N attractive"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q04",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric flux",
+      "difficulty": "medium",
+      "question": "A charge Q is at the centre of a sphere. The flux through a hemisphere is:",
+      "options": [
+        "A) Q/ε₀",
+        "B) Q/(2ε₀)",
+        "C) 2Q/ε₀",
+        "D) Q/(4ε₀)"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q05",
+      "topic": "Current Electricity",
+      "sub_topic": "Power at reduced voltage",
+      "difficulty": "medium",
+      "question": "A 100 W, 220 V bulb is connected to 110 V. The power consumed is:",
+      "options": [
+        "A) 25 W",
+        "B) 50 W",
+        "C) 75 W",
+        "D) 100 W"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q06",
+      "topic": "Current Electricity",
+      "sub_topic": "Kirchhoff's junction rule",
+      "difficulty": "medium",
+      "question": "At a junction, I₁ = 4 A and I₂ = 2 A enter, while I₃ leaves. I₃ is:",
+      "options": [
+        "A) 6 A leaving",
+        "B) 2 A leaving",
+        "C) 6 A entering",
+        "D) 2 A entering"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q07",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Field due to straight wire",
+      "difficulty": "medium",
+      "question": "A straight wire carries 8 A. The field at 4 cm is (μ₀ = 4π×10⁻⁷):",
+      "options": [
+        "A) 8 × 10⁻⁵ T",
+        "B) 2 × 10⁻⁵ T",
+        "C) 16 × 10⁻⁵ T",
+        "D) 4 × 10⁻⁵ T"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q08",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Field direction",
+      "difficulty": "medium",
+      "question": "A wire carries current northward. The field directly above points:",
+      "options": [
+        "A) West",
+        "B) North",
+        "C) South",
+        "D) East"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q09",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Faraday's law",
+      "difficulty": "medium",
+      "question": "A coil of 80 turns has flux change from 0.2 Wb to 0.8 Wb in 0.4 s. The induced emf is:",
+      "options": [
+        "A) 60 V",
+        "B) 120 V",
+        "C) 80 V",
+        "D) 160 V"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q10",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Energy in inductor",
+      "difficulty": "medium",
+      "question": "An inductor of 0.6 H carries 3 A. The energy stored is:",
+      "options": [
+        "A) 5.4 J",
+        "B) 3.6 J",
+        "C) 0.9 J",
+        "D) 2.7 J"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q11",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Speed of light",
+      "difficulty": "medium",
+      "question": "The speed of EM waves in vacuum is:",
+      "options": [
+        "A) 3×10⁸ m/s",
+        "B) 3×10⁵ m/s",
+        "C) 3×10⁶ m/s",
+        "D) 3×10¹⁰ m/s"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q12",
+      "topic": "Optics",
+      "sub_topic": "Lens formula",
+      "difficulty": "medium",
+      "question": "An object is 50 cm from a convex lens of focal length 25 cm. The image distance is:",
+      "options": [
+        "A) 100 cm",
+        "B) 75 cm",
+        "C) 50 cm",
+        "D) 25 cm"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q13",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "de Broglie wavelength",
+      "difficulty": "medium",
+      "question": "The de Broglie wavelength of a particle depends on:",
+      "options": [
+        "A) Charge only",
+        "B) Mass only",
+        "C) Velocity only",
+        "D) Mass and velocity"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q14",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear radius",
+      "difficulty": "medium",
+      "question": "The radius of a nucleus with mass number 125 is (R₀ = 1.2 fm):",
+      "options": [
+        "A) 3.6 fm",
+        "B) 7.5 fm",
+        "C) 6 fm",
+        "D) 5 fm"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q15",
+      "topic": "Electronic Devices",
+      "sub_topic": "Germanium diode",
+      "difficulty": "medium",
+      "question": "A germanium diode in forward bias has voltage drop of approximately:",
+      "options": [
+        "A) 5 V",
+        "B) 1.5 V",
+        "C) 0.2 V",
+        "D) 0.7 V"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q16",
+      "topic": "Optics",
+      "sub_topic": "Snell's law",
+      "difficulty": "medium",
+      "question": "Light travels from air (n=1) to glass (n=1.5). The angle of refraction for 45° incidence is:",
+      "options": [
+        "A) 45°",
+        "B) 28°",
+        "C) 90°",
+        "D) 15°"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q17",
+      "topic": "Current Electricity",
+      "sub_topic": "Resistivity",
+      "difficulty": "medium",
+      "question": "A wire of resistivity 1.7×10⁻⁸ Ω·m, length 2 m, cross-section 1 mm² has resistance of:",
+      "options": [
+        "A) 8.5×10⁻⁹ Ω",
+        "B) 3.4×10⁻² Ω",
+        "C) 3.4×10⁻⁸ Ω",
+        "D) 1.7×10⁻² Ω"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q18",
+      "topic": "Electrostatics",
+      "sub_topic": "Capacitor with partial dielectric",
+      "difficulty": "hard",
+      "question": "A capacitor (C₀) is charged and disconnected. A dielectric (κ = 3) of thickness d/2 is inserted. The new capacitance is:",
+      "options": [
+        "A) 2C₀/3",
+        "B) C₀/2",
+        "C) 6C₀",
+        "D) 3C₀/2"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q19",
+      "topic": "Electrostatics",
+      "sub_topic": "Electrostatic shielding",
+      "difficulty": "hard",
+      "question": "A point charge +q is inside a conducting shell cavity. The shell is grounded. The charge on the outer surface is:",
+      "options": [
+        "A) Zero",
+        "B) +q",
+        "C) -q",
+        "D) +2q"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q20",
+      "topic": "Current Electricity",
+      "sub_topic": "RC circuit charging",
+      "difficulty": "hard",
+      "question": "A 30 μF capacitor charges through 100 kΩ using 20 V. Time to reach 12.6 V is:",
+      "options": [
+        "A) 4 s",
+        "B) 2 s",
+        "C) 3 s",
+        "D) 1 s"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q21",
+      "topic": "Current Electricity",
+      "sub_topic": "Internal resistance",
+      "difficulty": "hard",
+      "question": "A cell connected to 5 Ω gives 1.2 A, and to 10 Ω gives 0.7 A. Its emf and r are:",
+      "options": [
+        "A) E = 8 V, r = 1.67 Ω",
+        "B) E = 12 V, r = 5 Ω",
+        "C) E = 10 V, r = 3.33 Ω",
+        "D) E = 9 V, r = 2.5 Ω"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q22",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Cyclotron motion",
+      "difficulty": "hard",
+      "question": "A proton moves perpendicular to 0.4 T field with radius 0.15 m. Its KE is (m_p = 1.67×10⁻²⁷, e = 1.6×10⁻¹⁹):",
+      "options": [
+        "A) 1.38 × 10⁻¹³ J",
+        "B) 1.10 × 10⁻¹² J",
+        "C) 2.76 × 10⁻¹³ J",
+        "D) 5.52 × 10⁻¹³ J"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q23",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic torque",
+      "difficulty": "hard",
+      "question": "A magnetic dipole of moment 0.8 A·m² is in 0.3 T field at 45°. The torque is:",
+      "options": [
+        "A) 0.34 N·m",
+        "B) 0.17 N·m",
+        "C) 0.24 N·m",
+        "D) 0.12 N·m"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q24",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Quality factor",
+      "difficulty": "hard",
+      "question": "In a series LCR circuit, R = 20 Ω, L = 0.4 H, C = 25 μF. The Q-factor is:",
+      "options": [
+        "A) 2.5",
+        "B) 5",
+        "C) 20",
+        "D) 10"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q25",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Power in RL circuit",
+      "difficulty": "hard",
+      "question": "An RL circuit (R = 40 Ω, L = 0.156 H) is connected to 240 V, 50 Hz AC. The average power is:",
+      "options": [
+        "A) 480 W",
+        "B) 720 W",
+        "C) 576 W",
+        "D) 864 W"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q26",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Medium classification",
+      "difficulty": "hard",
+      "question": "An EM wave of 2 MHz enters a medium with σ = 5×10⁻³ S/m, εᵣ = 6, μᵣ = 1. The medium is:",
+      "options": [
+        "A) Perfect insulator",
+        "B) Good conductor",
+        "C) Free space",
+        "D) Lossy dielectric"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q27",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Radiation pressure",
+      "difficulty": "hard",
+      "question": "Sunlight of intensity 1400 W/m² falls on a perfectly reflecting surface. The radiation pressure is (c = 3×10⁸):",
+      "options": [
+        "A) 1.87 × 10⁻⁵ Pa",
+        "B) 9.33 × 10⁻⁶ Pa",
+        "C) 2.33 × 10⁻⁶ Pa",
+        "D) 4.67 × 10⁻⁶ Pa"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q28",
+      "topic": "Optics",
+      "sub_topic": "Angular resolution",
+      "difficulty": "hard",
+      "question": "A telescope has objective diameter 20 cm. For λ = 550 nm, the resolution limit is:",
+      "options": [
+        "A) 6.70 × 10⁻⁶ rad",
+        "B) 1.34 × 10⁻⁵ rad",
+        "C) 3.35 × 10⁻⁶ rad",
+        "D) 1.68 × 10⁻⁶ rad"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q29",
+      "topic": "Optics",
+      "sub_topic": "Wedge film interference",
+      "difficulty": "hard",
+      "question": "A wedge-shaped air film shows dark fringes every 0.4 mm. If λ = 480 nm, the wedge angle is:",
+      "options": [
+        "A) 2.4 × 10⁻³ rad",
+        "B) 6 × 10⁻⁴ rad",
+        "C) 1.2 × 10⁻³ rad",
+        "D) 3 × 10⁻⁴ rad"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q30",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Davisson-Germer",
+      "difficulty": "hard",
+      "question": "Electrons accelerated through 60 V show diffraction at 55°. The crystal plane spacing is approximately:",
+      "options": [
+        "A) 0.14 nm",
+        "B) 0.28 nm",
+        "C) 0.21 nm",
+        "D) 0.07 nm"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q31",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Compton scattering",
+      "difficulty": "hard",
+      "question": "An X-ray photon of wavelength 0.04 nm is scattered at 90°. The scattered wavelength is (h/m_e c = 2.43×10⁻¹² m):",
+      "options": [
+        "A) 0.0543 nm",
+        "B) 0.04243 nm",
+        "C) 0.0643 nm",
+        "D) 0.04024 nm"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q32",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Balmer series",
+      "difficulty": "hard",
+      "question": "The wavelength of the second Balmer line (n=4→2) in hydrogen is (R = 1.097×10⁷ m⁻¹):",
+      "options": [
+        "A) 656 nm",
+        "B) 410 nm",
+        "C) 486 nm",
+        "D) 434 nm"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q33",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear reaction Q-value",
+      "difficulty": "hard",
+      "question": "In ⁶Li + n → ³H + ⁴He, masses: ⁶Li=6.015122 u, ³H=3.016049 u, ⁴He=4.002603 u, n=1.008665 u. Q-value (1 u = 931.5 MeV):",
+      "options": [
+        "A) 2.4 MeV",
+        "B) 4.8 MeV",
+        "C) 9.6 MeV",
+        "D) 3.2 MeV"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q34",
+      "topic": "Electronic Devices",
+      "sub_topic": "Zener regulator",
+      "difficulty": "hard",
+      "question": "A Zener (Vz = 6.8 V) regulator has input 10-15 V and load 680 Ω. For proper regulation with Iz_min = 8 mA, series resistance should not exceed:",
+      "options": [
+        "A) 200 Ω",
+        "B) 150 Ω",
+        "C) 400 Ω",
+        "D) 300 Ω"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q35",
+      "topic": "Electronic Devices",
+      "sub_topic": "Rectifier PIV",
+      "difficulty": "hard",
+      "question": "In a full-wave bridge rectifier with 24 V (rms) input, the peak inverse voltage is:",
+      "options": [
+        "A) 67.8 V",
+        "B) 33.9 V",
+        "C) 48 V",
+        "D) 24 V"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q36",
+      "topic": "Electrostatics",
+      "sub_topic": "Energy redistribution",
+      "difficulty": "hard",
+      "question": "A 10 μF capacitor charged to 200 V is connected to an uncharged 10 μF capacitor. The energy lost is:",
+      "options": [
+        "A) 0.15 J",
+        "B) 0.10 J",
+        "C) 0.05 J",
+        "D) 0.20 J"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q37",
+      "topic": "Current Electricity",
+      "sub_topic": "Galvanometer conversion",
+      "difficulty": "hard",
+      "question": "A galvanometer (100 Ω, 2 mA) is converted to a 50 V voltmeter. The series resistance is:",
+      "options": [
+        "A) 24000 Ω",
+        "B) 25100 Ω",
+        "C) 24900 Ω",
+        "D) 25000 Ω"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q38",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Galvanometer torque",
+      "difficulty": "hard",
+      "question": "A galvanometer coil (150 turns, 0.02 m², 1 A) is in 0.5 T radial field. The deflecting torque is:",
+      "options": [
+        "A) 1.5 N·m",
+        "B) 0.5 N·m",
+        "C) 0.75 N·m",
+        "D) 3.0 N·m"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q39",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Eddy current braking",
+      "difficulty": "hard",
+      "question": "A copper disc rotates between magnet poles. The braking force is due to:",
+      "options": [
+        "A) Eddy currents",
+        "B) Electromagnetic radiation",
+        "C) Electrostatic attraction",
+        "D) Magnetic hysteresis"
+      ],
+      "correct_option": "A",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q40",
+      "topic": "Optics",
+      "sub_topic": "Prism dispersion",
+      "difficulty": "hard",
+      "question": "A prism of refracting angle 50° has n_red = 1.52 and n_violet = 1.58. The angular dispersion is:",
+      "options": [
+        "A) 4°",
+        "B) 6°",
+        "C) 3°",
+        "D) 5°"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q41",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Uncertainty principle",
+      "difficulty": "hard",
+      "question": "An electron is confined to 5×10⁻¹¹ m. The minimum uncertainty in momentum is (h = 6.63×10⁻³⁴):",
+      "options": [
+        "A) 4.22×10⁻²⁴ kg m/s",
+        "B) 1.05×10⁻²⁴ kg m/s",
+        "C) 5.27×10⁻²⁵ kg m/s",
+        "D) 2.11×10⁻²⁴ kg m/s"
+      ],
+      "correct_option": "B",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q42",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Activity decay",
+      "difficulty": "hard",
+      "question": "A sample has initial activity 1200 Bq. After 4 half-lives, its activity is:",
+      "options": [
+        "A) 37.5 Bq",
+        "B) 150 Bq",
+        "C) 300 Bq",
+        "D) 75 Bq"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q43",
+      "topic": "Electronic Devices",
+      "sub_topic": "Transistor amplifier",
+      "difficulty": "hard",
+      "question": "In a CE amplifier, β = 80 and Ib = 25 μA. If R_L = 4 kΩ and R_in = 2 kΩ, the voltage gain is:",
+      "options": [
+        "A) 200",
+        "B) 120",
+        "C) 80",
+        "D) 160"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q44",
+      "topic": "Electrostatics",
+      "sub_topic": "Energy density",
+      "difficulty": "hard",
+      "question": "The energy density in an electric field of 2×10⁶ V/m is (ε₀ = 8.85×10⁻¹²):",
+      "options": [
+        "A) 4.43 J/m³",
+        "B) 35.4 J/m³",
+        "C) 17.7 J/m³",
+        "D) 8.85 J/m³"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q45",
+      "topic": "Current Electricity",
+      "sub_topic": "Wheatstone bridge unbalance",
+      "difficulty": "hard",
+      "question": "In a balanced Wheatstone bridge, P = 200 Ω, Q = 400 Ω, R = 300 Ω. If P increases by 2%, the galvanometer current direction (from A to B) is:",
+      "options": [
+        "A) Cannot be determined",
+        "B) No current",
+        "C) A to B",
+        "D) B to A"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q46",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Helmholtz coil",
+      "difficulty": "hard",
+      "question": "Two identical coils (R = 0.2 m, N = 100, I = 2 A) are coaxial with separation = R. The field at midpoint is (μ₀ = 4π×10⁻⁷):",
+      "options": [
+        "A) 5.4×10⁻⁴ T",
+        "B) 7.2×10⁻⁴ T",
+        "C) 3.6×10⁻⁴ T",
+        "D) 1.8×10⁻⁴ T"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q47",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Bandwidth",
+      "difficulty": "hard",
+      "question": "An LCR circuit has f₀ = 2000 Hz and Q = 40. Its bandwidth is:",
+      "options": [
+        "A) 100 Hz",
+        "B) 40 Hz",
+        "C) 80 Hz",
+        "D) 50 Hz"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q48",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Skin depth",
+      "difficulty": "hard",
+      "question": "Copper (σ = 5.8×10⁷ S/m, μᵣ = 1) at 2 MHz has skin depth of:",
+      "options": [
+        "A) 188 μm",
+        "B) 94 μm",
+        "C) 47 μm",
+        "D) 23 μm"
+      ],
+      "correct_option": "C",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q49",
+      "topic": "Optics",
+      "sub_topic": "Fibre acceptance angle",
+      "difficulty": "hard",
+      "question": "A fibre has core n₁ = 1.48 and cladding n₂ = 1.46. The acceptance angle in air is:",
+      "options": [
+        "A) 35°",
+        "B) 28°",
+        "C) 20°",
+        "D) 14°"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    },
+    {
+      "id": "CUET_PHY_2026_P20_L10B_Q50",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photon momentum",
+      "difficulty": "hard",
+      "question": "A photon has wavelength 450 nm. Its momentum is (h = 6.63×10⁻³⁴):",
+      "options": [
+        "A) 5.88×10⁻²⁷ kg m/s",
+        "B) 4.41×10⁻²⁷ kg m/s",
+        "C) 2.94×10⁻²⁷ kg m/s",
+        "D) 1.47×10⁻²⁷ kg m/s"
+      ],
+      "correct_option": "D",
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P13_L3B",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 13,
+  "difficulty_level": "3B",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Central Problems of an Economy",
+      "difficulty": "easy",
+      "question": "Which central problem of an economy is primarily concerned with selecting the optimal combination of labour and capital techniques in production?",
+      "options": [
+        "A) What to produce",
+        "B) For whom to produce",
+        "C) When to produce",
+        "D) How to produce"
+      ],
+      "correct_option": "D",
+      "explanation": "The problem of 'How to produce' deals with the choice of technique of production\u2014specifically whether to adopt labour-intensive or capital-intensive methods."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Marginal Utility Analysis",
+      "difficulty": "easy",
+      "question": "Under the cardinal utility approach, what happens to Total Utility (TU) when Marginal Utility (MU) is positive and diminishing?",
+      "options": [
+        "A) Total Utility remains completely unchanged",
+        "B) Total Utility decreases at an increasing rate",
+        "C) Total Utility increases at a decreasing rate",
+        "D) Total Utility becomes zero"
+      ],
+      "correct_option": "C",
+      "explanation": "As long as marginal utility is positive though diminishing, each additional unit consumed adds a positive but smaller amount to total satisfaction, causing TU to increase at a decreasing rate."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Indifference Curve Analysis",
+      "difficulty": "medium",
+      "question": "Why is an indifference curve typically convex to the origin?",
+      "options": [
+        "A) Constant marginal rate of technical substitution",
+        "B) Increasing marginal rate of substitution",
+        "C) Diminishing marginal rate of substitution",
+        "D) Constant opportunity cost across all bundles"
+      ],
+      "correct_option": "C",
+      "explanation": "An indifference curve is convex to the origin due to the diminishing Marginal Rate of Substitution (MRS_xy), meaning a consumer is willing to give up less and less of good Y for successive equal increments of good X."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Budget Line",
+      "difficulty": "easy",
+      "question": "If the price of good X is Rs 20 and the price of good Y is Rs 10, what is the absolute slope of the budget line?",
+      "options": [
+        "A) 1.5",
+        "B) 0.5",
+        "C) 2.0",
+        "D) 10.0"
+      ],
+      "correct_option": "C",
+      "explanation": "The slope of the budget line is given by the price ratio P_x / P_y = 20 / 10 = 2.0."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Elasticity of Demand",
+      "difficulty": "hard",
+      "question": "A consumer buys 80 units of a commodity when its price is Rs 10 per unit. When the price rises to Rs 12 per unit, quantity demanded falls to 64 units. What is the price elasticity of demand using the percentage method?",
+      "options": [
+        "A) 0.8",
+        "B) 1.5",
+        "C) 1.2",
+        "D) 1.0"
+      ],
+      "correct_option": "D",
+      "explanation": "Percentage change in quantity = ((64 - 80) / 80) * 100 = -20%. Percentage change in price = ((12 - 10) / 10) * 100 = +20%. Elasticity e_p = |-20% / 20%| = 1.0 (unitary elastic)."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q06",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Demand Determinants",
+      "difficulty": "medium",
+      "question": "When an increase in the price of tea leads to an increase in the demand for coffee, tea and coffee are categorized as:",
+      "options": [
+        "A) Complementary goods",
+        "B) Substitute goods",
+        "C) Giffen goods",
+        "D) Inferior goods"
+      ],
+      "correct_option": "B",
+      "explanation": "Substitute goods have a positive cross-price elasticity: an increase in the price of one good raises the demand for the other."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q07",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer's Equilibrium",
+      "difficulty": "medium",
+      "question": "Under indifference curve analysis, which condition must hold at the consumer's equilibrium point alongside tangency of the budget line?",
+      "options": [
+        "A) MRS_xy is continuously increasing",
+        "B) Indifference curve must be concave to the origin",
+        "C) Indifference curve must be convex to the origin at point of equilibrium",
+        "D) Marginal utility of money must equal zero"
+      ],
+      "correct_option": "C",
+      "explanation": "At equilibrium, the slope of the indifference curve (MRS_xy) must equal the price ratio (P_x / P_y), and the indifference curve must be convex to the origin (diminishing MRS)."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q08",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Shifts in Demand Curve",
+      "difficulty": "easy",
+      "question": "A rightward shift in the demand curve for an inferior good occurs when:",
+      "options": [
+        "A) The price of the good itself decreases",
+        "B) Consumer income rises",
+        "C) Consumer income falls",
+        "D) The price of the good itself increases"
+      ],
+      "correct_option": "C",
+      "explanation": "For an inferior good, income and demand have an inverse relationship. A decline in consumer income increases the demand for inferior goods, shifting the curve to the right."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Law of Variable Proportions",
+      "difficulty": "easy",
+      "question": "According to the Law of Variable Proportions, what is the status of Marginal Product (MP) when Total Product (TP) reaches its maximum?",
+      "options": [
+        "A) MP is at its maximum",
+        "B) MP is negative",
+        "C) MP is equal to Average Product",
+        "D) MP is equal to zero"
+      ],
+      "correct_option": "D",
+      "explanation": "Total Product reaches its maximum when the slope of the TP curve (Marginal Product) is zero. Beyond this point, MP becomes negative and TP begins to decline."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q10",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Short Run Costs",
+      "difficulty": "medium",
+      "question": "As output increases continuously, which cost curve continues to decline monotonically towards the horizontal axis without ever touching it?",
+      "options": [
+        "A) Short-run Average Cost (SAC)",
+        "B) Average Variable Cost (AVC)",
+        "C) Marginal Cost (MC)",
+        "D) Average Fixed Cost (AFC)"
+      ],
+      "correct_option": "D",
+      "explanation": "Average Fixed Cost is Total Fixed Cost divided by output (TFC / Q). Because TFC is constant and positive, AFC declines continuously as output expands, forming a rectangular hyperbola."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q11",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Cost Relationships",
+      "difficulty": "medium",
+      "question": "At the minimum point of the Average Variable Cost (AVC) curve, which relationship between MC and AVC is true?",
+      "options": [
+        "A) Marginal Cost is greater than AVC",
+        "B) Marginal Cost is less than AVC",
+        "C) Marginal Cost is equal to AVC",
+        "D) Marginal Cost is at its absolute peak"
+      ],
+      "correct_option": "C",
+      "explanation": "The Marginal Cost curve cuts both the AVC and ATC curves from below at their respective minimum points; hence, MC = AVC at the minimum of AVC."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q12",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Revenue Concepts",
+      "difficulty": "medium",
+      "question": "In a perfectly competitive market where a firm can sell any quantity at the given market price, what is the shape of the Marginal Revenue (MR) curve?",
+      "options": [
+        "A) Upward sloping straight line from the origin",
+        "B) Downward sloping curve",
+        "C) Vertical line parallel to the vertical axis",
+        "D) Horizontal straight line parallel to the output axis"
+      ],
+      "correct_option": "D",
+      "explanation": "Under perfect competition, price is constant for the individual firm, meaning AR = MR = Price. The MR curve is therefore a horizontal line parallel to the X-axis."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Perfect Competition",
+      "difficulty": "easy",
+      "question": "Which feature of perfect competition ensures that individual firms in the long run earn only normal profits?",
+      "options": [
+        "A) Perfect knowledge among participants",
+        "B) Homogeneous product",
+        "C) Large number of buyers",
+        "D) Freedom of entry and exit of firms"
+      ],
+      "correct_option": "D",
+      "explanation": "Freedom of entry and exit allows new firms to enter when supernormal profits exist (driving down prices) and loss-making firms to exit (raising prices), ensuring only normal profits in the long run."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Market Equilibrium Applications",
+      "difficulty": "medium",
+      "question": "What is the primary economic consequence of imposing a price ceiling below the equilibrium market price?",
+      "options": [
+        "A) Accumulation of unsold surplus stocks with producers",
+        "B) Emergence of excess demand and potential rationing or black marketing",
+        "C) An immediate fall in market demand to zero",
+        "D) Expansion of supply by producers to clear the market"
+      ],
+      "correct_option": "B",
+      "explanation": "A price ceiling set below the equilibrium price makes the commodity cheaper, leading to quantity demanded exceeding quantity supplied (excess demand), which often results in shortages, rationing, or black marketing."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Floor",
+      "difficulty": "easy",
+      "question": "A Minimum Support Price (MSP) legislated for agricultural crops is an example of:",
+      "options": [
+        "A) Price ceiling",
+        "B) Dual pricing system",
+        "C) Price floor",
+        "D) Shadow price"
+      ],
+      "correct_option": "C",
+      "explanation": "A Minimum Support Price is a price floor set by the government above the equilibrium price to protect agricultural producers from steep price declines."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Simultaneous Shifts in Demand and Supply",
+      "difficulty": "hard",
+      "question": "If both market demand and market supply increase in equal proportions, how will the equilibrium price and equilibrium quantity change?",
+      "options": [
+        "A) Equilibrium price rises while equilibrium quantity falls",
+        "B) Equilibrium price remains unchanged while equilibrium quantity increases",
+        "C) Equilibrium price falls while equilibrium quantity remains constant",
+        "D) Both equilibrium price and equilibrium quantity decrease"
+      ],
+      "correct_option": "B",
+      "explanation": "When demand and supply shift to the right by identical magnitudes, the upward pressure on price from higher demand is exactly neutralized by the downward pressure from higher supply, leaving equilibrium price unchanged while quantity increases."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Basic Concepts of Macroeconomics",
+      "difficulty": "easy",
+      "question": "Which of the following is classified as a stock variable rather than a flow variable?",
+      "options": [
+        "A) Monthly salary of an employee",
+        "B) Annual depreciation of machinery",
+        "C) Gross domestic product of a nation",
+        "D) Total foreign exchange reserves at a specific date"
+      ],
+      "correct_option": "D",
+      "explanation": "A stock variable is measured at a specific point in time (e.g., total foreign exchange reserves on March 31). Salary, depreciation, and GDP are measured over an accounting period and are flows."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Aggregates Conversion",
+      "difficulty": "hard",
+      "question": "Given GDP at Market Price = Rs 5,000 crore, Net Factor Income from Abroad = Rs -100 crore, and Net Indirect Taxes = Rs 400 crore, what is GNP at Factor Cost?",
+      "options": [
+        "A) Rs 4,500 crore",
+        "B) Rs 5,300 crore",
+        "C) Rs 4,700 crore",
+        "D) Rs 4,900 crore"
+      ],
+      "correct_option": "A",
+      "explanation": "GNP_FC = GDP_MP + NFIA - NIT = 5,000 + (-100) - 400 = Rs 4,500 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Measurement of National Income",
+      "difficulty": "medium",
+      "question": "Under the expenditure method of calculating national income, which of the following is excluded from gross domestic capital formation?",
+      "options": [
+        "A) Purchase of existing second-hand financial shares and bonds",
+        "B) Business fixed investment in new plant and equipment",
+        "C) Residential construction investment by households",
+        "D) Net addition to inventory of raw materials and finished goods"
+      ],
+      "correct_option": "A",
+      "explanation": "Transactions in second-hand shares and securities represent a mere transfer of financial paper assets without generating any new physical capital goods in the economy, and are thus excluded."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "GDP Deflator and Real GDP",
+      "difficulty": "hard",
+      "question": "If Nominal GDP is Rs 6,600 crore and the GDP Deflator is 120, what is Real GDP?",
+      "options": [
+        "A) Rs 5,000 crore",
+        "B) Rs 7,920 crore",
+        "C) Rs 5,500 crore",
+        "D) Rs 6,000 crore"
+      ],
+      "correct_option": "C",
+      "explanation": "Real GDP = (Nominal GDP / GDP Deflator) * 100 = (6,600 / 120) * 100 = 55 * 100 = Rs 5,500 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Supply",
+      "difficulty": "easy",
+      "question": "Which measure of money supply in India includes currency with the public, demand deposits with commercial banks, and other deposits with RBI?",
+      "options": [
+        "A) M1",
+        "B) M2",
+        "C) M3",
+        "D) M4"
+      ],
+      "correct_option": "A",
+      "explanation": "M1 is the narrowest and most liquid measure of money supply, defined as: Currency with public + Demand deposits of commercial banks + Other deposits with RBI."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Credit Creation by Commercial Banks",
+      "difficulty": "easy",
+      "question": "If the Legal Reserve Ratio (LRR) fixed by the central bank is 10%, what is the value of the money multiplier?",
+      "options": [
+        "A) 5",
+        "B) 20",
+        "C) 2",
+        "D) 10"
+      ],
+      "correct_option": "D",
+      "explanation": "Money Multiplier = 1 / LRR = 1 / 0.10 = 10."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Monetary Policy Instruments",
+      "difficulty": "medium",
+      "question": "When the Reserve Bank of India sells government securities in the open market, what primary impact does it have on the banking system?",
+      "options": [
+        "A) Expands commercial bank reserves and lowers lending rates",
+        "B) Encourages speculative buying by foreign institutional investors",
+        "C) Sucks out liquidity from the banking system and contracts credit availability",
+        "D) Directly increases the cash reserve ratio of commercial banks"
+      ],
+      "correct_option": "C",
+      "explanation": "Sale of government securities by the RBI transfers money from commercial banks to the central bank, reducing commercial bank cash reserves and thereby contracting their credit-creating capacity."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Functions",
+      "difficulty": "easy",
+      "question": "When commercial banks face acute cash shortages and fail to secure financial assistance from other sources, which role does the central bank perform by advancing them emergency credit?",
+      "options": [
+        "A) Clearing house agent",
+        "B) Controller of foreign exchange",
+        "C) Custodian of public debt",
+        "D) Lender of last resort"
+      ],
+      "correct_option": "D",
+      "explanation": "As the 'lender of last resort', the central bank guarantees financial solvency to commercial banks by providing emergency credit against approved securities when all other credit avenues fail."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Propensity to Consume and Save",
+      "difficulty": "easy",
+      "question": "If the Marginal Propensity to Consume (MPC) in an economy is 0.75, what is the value of the Marginal Propensity to Save (MPS)?",
+      "options": [
+        "A) 0.25",
+        "B) 0.50",
+        "C) 0.75",
+        "D) 1.25"
+      ],
+      "correct_option": "A",
+      "explanation": "Because any change in income is either consumed or saved, Delta Y = Delta C + Delta S, which implies MPC + MPS = 1. Therefore, MPS = 1 - 0.75 = 0.25."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Investment Multiplier",
+      "difficulty": "hard",
+      "question": "In an economy, an initial increase in investment expenditure of Rs 200 crore leads to a total increase in national income of Rs 1,000 crore. What is the Marginal Propensity to Consume (MPC)?",
+      "options": [
+        "A) 0.5",
+        "B) 0.6",
+        "C) 0.8",
+        "D) 0.2"
+      ],
+      "correct_option": "C",
+      "explanation": "Multiplier k = Delta Y / Delta I = 1,000 / 200 = 5. Since k = 1 / (1 - MPC), 5 = 1 / (1 - MPC) => 1 - MPC = 0.2 => MPC = 0.8."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Two Sector Equilibrium",
+      "difficulty": "medium",
+      "question": "In a two-sector economy without government and external sectors, equilibrium national income is achieved where:",
+      "options": [
+        "A) Total planned consumption equals autonomous investment",
+        "B) Aggregate expenditure exceeds aggregate output",
+        "C) Marginal propensity to consume equals average propensity to consume",
+        "D) Planned savings equal planned investment"
+      ],
+      "correct_option": "D",
+      "explanation": "In a two-sector Keynesian model, equilibrium income is determined either where Aggregate Demand equals Aggregate Supply (C + I = C + S) or where planned Saving equals planned Investment (S = I)."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand",
+      "difficulty": "easy",
+      "question": "The deflationary gap refers to the amount by which actual aggregate demand falls short of aggregate supply at the:",
+      "options": [
+        "A) Full employment level of income",
+        "B) Zero income level",
+        "C) Breakeven point of consumption",
+        "D) Level where MPC equals zero"
+      ],
+      "correct_option": "A",
+      "explanation": "Deflationary gap measures the magnitude of deficient demand\u2014the shortage of aggregate demand relative to aggregate supply at the full employment level of output."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Classification of Receipts",
+      "difficulty": "easy",
+      "question": "Which of the following is classified as a capital receipt in the government budget?",
+      "options": [
+        "A) Dividends from public sector undertakings",
+        "B) Disinvestment proceeds from selling shares of public sector enterprises",
+        "C) Corporation tax collected from private companies",
+        "D) Fees charged for passport renewal"
+      ],
+      "correct_option": "B",
+      "explanation": "Capital receipts either create a liability or cause a reduction in the assets of the government. Disinvestment reduces government financial assets, so it is a capital receipt."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Deficit Measures",
+      "difficulty": "hard",
+      "question": "If the government's fiscal deficit is Rs 95,000 crore and interest payments on past borrowings amount to Rs 35,000 crore, what is the primary deficit?",
+      "options": [
+        "A) Rs 1,30,000 crore",
+        "B) Rs 50,000 crore",
+        "C) Rs 70,000 crore",
+        "D) Rs 60,000 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments = 95,000 - 35,000 = Rs 60,000 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Objectives of Budget",
+      "difficulty": "easy",
+      "question": "When the government levies progressive income taxes on high-income groups and utilizes the revenue for subsidizing public goods for low-income households, which budgetary objective is being pursued?",
+      "options": [
+        "A) Reallocation of resources",
+        "B) Economic stability",
+        "C) Reducing inequalities in income and wealth",
+        "D) Management of public commercial enterprises"
+      ],
+      "correct_option": "C",
+      "explanation": "Progressive taxation combined with welfare spending transfers purchasing power from the affluent to disadvantaged sections, fulfilling the objective of reducing income and wealth inequalities."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Structure of Balance of Payments",
+      "difficulty": "easy",
+      "question": "Which of the following items is recorded in the Current Account of India's Balance of Payments?",
+      "options": [
+        "A) Foreign Direct Investment (FDI) in Indian retail",
+        "B) External commercial borrowings by Indian corporations",
+        "C) Unilateral remittances sent home by non-resident Indians (NRIs)",
+        "D) Portfolio investment by foreign institutional investors"
+      ],
+      "correct_option": "C",
+      "explanation": "Unilateral transfer receipts, such as private gifts and remittances from workers abroad, are recorded as invisible receipts in the Current Account of BoP."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Foreign Exchange Rate",
+      "difficulty": "medium",
+      "question": "Under a flexible exchange rate system, when the price of one US dollar increases from Rs 80 to Rs 83 due to free market forces of demand and supply, the Indian Rupee has experienced:",
+      "options": [
+        "A) Depreciation",
+        "B) Appreciation",
+        "C) Devaluation",
+        "D) Revaluation"
+      ],
+      "correct_option": "A",
+      "explanation": "Under market-determined flexible exchange rates, a fall in the external purchasing value of the domestic currency is called depreciation. (Devaluation refers to an official downward adjustment under fixed rates)."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Agriculture on Eve of Independence",
+      "difficulty": "easy",
+      "question": "Under the British colonial administration in India, the Zamindari system of land revenue was prominent primarily in which region?",
+      "options": [
+        "A) Punjab and Haryana",
+        "B) Bengal Presidency",
+        "C) Bombay Presidency",
+        "D) Central Provinces"
+      ],
+      "correct_option": "B",
+      "explanation": "The Permanent Settlement (Zamindari system) introduced by Lord Cornwallis in 1793 was centered primarily in the Bengal Presidency (comprising present-day West Bengal, Bihar, and Odisha)."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Demographic Profile",
+      "difficulty": "easy",
+      "question": "Which census year is officially termed the 'Year of the Great Divide' in the demographic history of colonial India?",
+      "options": [
+        "A) 1881",
+        "B) 1901",
+        "C) 1947",
+        "D) 1921"
+      ],
+      "correct_option": "D",
+      "explanation": "1921 is known as the Year of the Great Divide because before 1921 India was in the first stage of demographic transition with fluctuating population; after 1921 India entered the second stage with continuous population growth."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Planning Goals",
+      "difficulty": "easy",
+      "question": "The architect of India's Second Five-Year Plan, which emphasized rapid development of basic and heavy capital goods industries, was:",
+      "options": [
+        "A) P.C. Mahalanobis",
+        "B) Dadabhai Naoroji",
+        "C) V.K.R.V. Rao",
+        "D) K.N. Raj"
+      ],
+      "correct_option": "A",
+      "explanation": "Professor Prasanta Chandra Mahalanobis formulated the heavy-industry-focused strategy of the Second Five-Year Plan (1956\u20131961)."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Industrial Policy Resolution 1956",
+      "difficulty": "medium",
+      "question": "Under the Industrial Policy Resolution (IPR) of 1956, how were industries categorized into Schedule A?",
+      "options": [
+        "A) Industries left completely to the unregulated private sector",
+        "B) Industries reserved exclusively for state ownership and development",
+        "C) Small-scale village and cottage industries with tax exemptions",
+        "D) Joint sector industries managed jointly by state and private capital"
+      ],
+      "correct_option": "B",
+      "explanation": "Schedule A of IPR 1956 consisted of 17 core industries whose future development was the exclusive responsibility of the State."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Small Scale Industries",
+      "difficulty": "easy",
+      "question": "Which committee, established in 1955, highlighted the critical potential of small-scale industries for promoting rural development and employment generation?",
+      "options": [
+        "A) Karve Committee",
+        "B) Rangarajan Committee",
+        "C) Narasimham Committee",
+        "D) Kelkar Committee"
+      ],
+      "correct_option": "A",
+      "explanation": "The Village and Small Scale Industries Committee, commonly known as the Karve Committee, was appointed in 1955 to examine the role of small industries in economic development."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Industrial Deregulation",
+      "difficulty": "medium",
+      "question": "Under the 1991 New Industrial Policy, industrial licensing was abolished for all industries except a small list reserved for health, safety, and strategic reasons. Which of the following is still subject to compulsory licensing?",
+      "options": [
+        "A) Manufacture of ready-made textiles",
+        "B) Electronic aerospace and defense equipment",
+        "C) Production of passenger cars and two-wheelers",
+        "D) Information technology software services"
+      ],
+      "correct_option": "B",
+      "explanation": "Compulsory industrial licensing is still mandated for items related to defense equipment, hazardous chemicals, industrial explosives, and specific tobacco products."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Financial Sector Reforms",
+      "difficulty": "easy",
+      "question": "A major objective of the financial sector reforms introduced in 1991 was to transform the role of the Reserve Bank of India from a:",
+      "options": [
+        "A) Regulator to a facilitator of the financial sector",
+        "B) Commercial lender to an equity investor",
+        "C) Currency issuer to a tax-collecting agency",
+        "D) Autonomous central bank into a department of the finance ministry"
+      ],
+      "correct_option": "A",
+      "explanation": "Financial reforms aimed to shift RBI's primary role from an intrusive 'regulator' that micromanaged interest rates and branch expansion to a market-friendly 'facilitator' allowing commercial banks greater operational freedom."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Privatization and Disinvestment",
+      "difficulty": "medium",
+      "question": "What is the primary rationale behind conferring 'Navratna' and 'Maharatna' status on selected Central Public Sector Enterprises (CPSEs)?",
+      "options": [
+        "A) To grant them greater financial autonomy and managerial flexibility to compete globally",
+        "B) To completely relieve them from submitting annual audited accounts to Parliament",
+        "C) To mandate 100% privatization within three fiscal years",
+        "D) To restrict their operations exclusively to domestic rural markets"
+      ],
+      "correct_option": "A",
+      "explanation": "The granting of Navratna and Maharatna status aims to empower top-performing public sector enterprises with substantial financial and operational autonomy, allowing them to expand and compete globally without seeking government approval for every capital expenditure."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "World Trade Organization",
+      "difficulty": "easy",
+      "question": "The World Trade Organization (WTO) was established in 1995 as the successor organization to which international arrangement?",
+      "options": [
+        "A) General Agreement on Tariffs and Trade (GATT)",
+        "B) International Monetary Fund (IMF)",
+        "C) International Bank for Reconstruction and Development (IBRD)",
+        "D) United Nations Conference on Trade and Development (UNCTAD)"
+      ],
+      "correct_option": "A",
+      "explanation": "The WTO was officially established on January 1, 1995, succeeding the General Agreement on Tariffs and Trade (GATT) that had operated since 1948."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Human Capital Formation",
+      "difficulty": "medium",
+      "question": "Which of the following is considered an indirect source of human capital formation because it reduces imperfect information in the job market?",
+      "options": [
+        "A) Expenditure on preventive healthcare vaccines",
+        "B) Investment in higher engineering and medical universities",
+        "C) Expenditure incurred on acquiring labour market information",
+        "D) On-the-job apprenticeship training inside factories"
+      ],
+      "correct_option": "C",
+      "explanation": "Expenditure on acquiring information regarding the labour market and educational institutions allows individuals to make rational investment decisions and fully realize the economic returns of their acquired skills."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Rural Credit and Institutions",
+      "difficulty": "easy",
+      "question": "Which apex institution was established in 1982 to coordinate the functioning of all institutions involved in rural financing in India?",
+      "options": [
+        "A) Small Industries Development Bank of India (SIDBI)",
+        "B) National Bank for Agriculture and Rural Development (NABARD)",
+        "C) Industrial Development Bank of India (IDBI)",
+        "D) Regional Rural Banks Association (RRBA)"
+      ],
+      "correct_option": "B",
+      "explanation": "NABARD was set up in July 1982 as the apex developmental bank to oversee, coordinate, and refinance all credit operations for agriculture and rural development."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Employment: Trends and Structure",
+      "difficulty": "medium",
+      "question": "The steady process where the proportion of casual wage labourers in the total workforce rises over time while regular salaried employment declines is termed:",
+      "options": [
+        "A) Informalisation of the workforce",
+        "B) Disguised employment",
+        "C) Structural unemployment",
+        "D) Casualisation of the workforce"
+      ],
+      "correct_option": "D",
+      "explanation": "Casualisation of the workforce describes the gradual shift in workforce composition from self-employment and regular salaried jobs towards casual wage labour."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Sustainable Economic Development",
+      "difficulty": "easy",
+      "question": "What is meant by the 'absorptive capacity' of the environment in environmental economics?",
+      "options": [
+        "A) The ability of the environment to absorb and assimilate waste materials without degradation",
+        "B) The total volume of freshwater stored in glaciers and subterranean aquifers",
+        "C) The physical rate at which mineral reserves are depleted by heavy industry",
+        "D) The maximum level of carbon emissions that atmospheric ozone can withstand"
+      ],
+      "correct_option": "A",
+      "explanation": "Absorptive capacity refers to the environment's natural ability to degrade and assimilate waste products without causing structural ecological degradation or collapse."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Organic Farming",
+      "difficulty": "hard",
+      "question": "Which of the following is considered a primary limitation of organic farming during its initial transition years?",
+      "options": [
+        "A) Complete lack of nutritional value in organic agricultural harvests",
+        "B) Extreme toxic contamination of surrounding water bodies",
+        "C) Excessive dependence on synthetic chemical nitrogenous fertilizers",
+        "D) Lower crop yields per hectare compared to conventional chemical farming"
+      ],
+      "correct_option": "D",
+      "explanation": "During the early transition period from chemical to organic agriculture, crop yields per hectare are generally lower than conventional farming, posing an initial financial challenge before soil fertility and biological pest management stabilize."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Economic Reforms in China",
+      "difficulty": "easy",
+      "question": "In which year did the People's Republic of China initiate its sweeping economic reform programme?",
+      "options": [
+        "A) 1978",
+        "B) 1958",
+        "C) 1991",
+        "D) 1988"
+      ],
+      "correct_option": "A",
+      "explanation": "China began its phased economic modernization and reform programme under Deng Xiaoping in 1978, starting with agriculture and later expanding to industrial and foreign trade sectors."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Great Leap Forward",
+      "difficulty": "medium",
+      "question": "What was the core objective of the 'Great Leap Forward' (GLF) campaign launched in China in 1958?",
+      "options": [
+        "A) To establish competitive foreign direct investment corridors in coastal provinces",
+        "B) To modernize the country through rapid industrialization and agricultural collectivization under the commune system",
+        "C) To privatize state enterprises and introduce stock markets in major cities",
+        "D) To enforce universal English language education across rural schools"
+      ],
+      "correct_option": "B",
+      "explanation": "Launched in 1958, the Great Leap Forward aimed to industrialize China rapidly on a massive scale by encouraging backyard furnaces and organizing rural agriculture into collective communes."
+    },
+    {
+      "id": "CUET_ECO_2026_P13_L3B_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Demographic Indicators Comparison",
+      "difficulty": "hard",
+      "question": "Consider the demographic indicators of India, China, and Pakistan. Which of the following statements is historically accurate regarding their fertility rates and population policies?",
+      "options": [
+        "A) China's introduction of the One-Child Policy in 1979 led to a significant decline in its population growth rate and subsequent demographic ageing",
+        "B) Pakistan has achieved a lower total fertility rate than China due to universal family planning outreach",
+        "C) India was the last country among the three to formulate an official national population policy",
+        "D) China has consistently maintained a higher maternal mortality ratio than Pakistan throughout the 2000s"
+      ],
+      "correct_option": "A",
+      "explanation": "China enacted the One-Child Policy in the late 1970s (1979), which dramatically reduced its fertility rate, slowed population growth, and ultimately resulted in a rapidly ageing demographic profile."
+    }
+  ]
+}

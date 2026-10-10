@@ -39,7 +39,7 @@ export async function checkEntitlement(
   subject: Subject,
 ): Promise<{ allowed: boolean; isFreeTier: boolean }> {
   // 1 Free Diagnostic Mock per subject series is available to all students
-  const freeSubjects: Subject[] = ["mathematics", "physics", "chemistry"];
+  const freeSubjects: Subject[] = ["mathematics", "physics", "chemistry", "biological-science"];
   if (freeSubjects.includes(subject)) {
     return { allowed: true, isFreeTier: true };
   }

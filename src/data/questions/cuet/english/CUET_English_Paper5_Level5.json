@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ENGLISH_PAPER_5_LEVEL_5",
+  "series_id": "CUET_ENGLISH_2026",
+  "paper_number": 5,
+  "difficulty_level": 5,
+  "subject": "English (Code: 101)",
+  "syllabus_source": "cuet english syllabus.pdf 2026",
+  "notification_source": "Information Bulletin.pdf 2026",
+  "past_paper_reference": "pastpaper-english-2024.pdf, pastpaper-english-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": "+5",
+    "incorrect": "-1",
+    "unattempted": "0"
+  },
+  "questions": [
+    {
+      "id": "ENG_5_1",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\nThe Great Himalayan National Park, located in Himachal Pradesh, was designated a UNESCO World Heritage Site in 2012. Spanning over 1,171 square kilometres, it harbours more than 375 species of fauna, including the snow leopard, Himalayan brown bear, and western tragopan. The park's elevation ranges from 1,500 to 6,000 metres, creating diverse microclimates that support alpine meadows, temperate forests, and glacial ecosystems. Conservation efforts here have led to a 20% increase in snow leopard population over the last decade. Local communities participate in eco-tourism initiatives, which generate sustainable livelihoods while minimising ecological footprint.\n\nWhat is the main reason for the increase in snow leopard population in the Great Himalayan National Park?",
+      "options": [
+        "A) The park's elevation creates diverse microclimates",
+        "B) Conservation efforts implemented in the region",
+        "C) Eco-tourism initiatives by local communities",
+        "D) The designation as a UNESCO World Heritage Site"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage explicitly states that 'conservation efforts here have led to a 20% increase in snow leopard population,' making B the correct answer."
+    },
+    {
+      "id": "ENG_5_2",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nIndia's semiconductor ambitions received a significant boost with the approval of the Semiconductor India Programme, which allocates \u20b976,000 crore for domestic chip manufacturing. The initiative aims to establish fabrication units, display fabs, and compound semiconductor facilities by 2026. Currently, India imports over 90% of its semiconductor requirements, primarily from Taiwan and South Korea. The programme incentivises global foundries to set up operations through capital subsidies covering 50% of project costs. However, challenges persist: the country lacks skilled semiconductor engineers, water-intensive fabrication processes conflict with water scarcity in potential locations, and the supply chain for raw materials remains underdeveloped.\n\nWhich of the following, if true, would most undermine the success of the Semiconductor India Programme?",
+      "options": [
+        "A) A severe drought affects three states identified as potential fab locations",
+        "B) The government increases the capital subsidy to 60% of project costs",
+        "C) Taiwan announces plans to triple its chip production capacity",
+        "D) South Korea reduces export prices for advanced semiconductors"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage notes water scarcity as a challenge for water-intensive fabrication. A severe drought in potential locations would directly exacerbate this conflict, most undermining the programme's success."
+    },
+    {
+      "id": "ENG_5_3",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nThe Human Immunodeficiency Virus (HIV) continues to pose significant public health challenges globally. Antiretroviral therapy (ART) has transformed HIV from a fatal diagnosis to a manageable chronic condition, reducing viral load to undetectable levels. However, approximately 9.2 million people worldwide remain untreated. The 'Undetectable = Untransmittable' (U=U) consensus, validated by multiple clinical studies, confirms that individuals with suppressed viral loads cannot transmit the virus sexually. Despite scientific evidence, stigma persists, affecting testing rates and treatment adherence. Pre-exposure prophylaxis (PrEP) reduces infection risk by 99% when taken consistently, yet access remains inequitable across low-income regions.\n\nAccording to the passage, which statement about HIV is accurate?",
+      "options": [
+        "A) Individuals on effective ART cannot transmit HIV sexually",
+        "B) ART cures HIV completely if started early",
+        "C) Over 50% of HIV-positive individuals globally receive ART",
+        "D) PrEP is ineffective in low-income regions due to inconsistent supply"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage confirms the U=U (Undetectable = Untransmittable) consensus that individuals with suppressed viral loads cannot transmit HIV sexually, validating that effective ART prevents sexual transmission. The other statements are incorrect: ART manages rather than cures HIV, the passage does not state that over 50% receive ART, and PrEP remains 99% effective even though access is inequitable."
+    },
+    {
+      "id": "ENG_5_4",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\nThe phenomenon of 'tipping points' in climate science refers to critical thresholds beyond which self-reinforcing feedback loops drive irreversible changes. The Atlantic Meridional Overturning Circulation (AMOC), which distributes heat across the Northern Hemisphere, has weakened by approximately 15% since the mid-20th century. Paleoclimatic data suggest AMOC collapses have occurred previously, triggering temperature drops of 5-10\u00b0C in Europe within decades. Recent modelling indicates the AMOC could reach its tipping point between 2025 and 2090, with a central estimate around 2050. Crucially, the weakening may already be underway, as freshwater influx from Greenland ice melt reduces the salinity and density differences that drive the circulation. Unlike gradual warming, a collapse would redistribute rainfall patterns globally, disrupt monsoon systems, and potentially destabilise the Amazon rainforest.\n\nThe passage suggests that an AMOC collapse would differ from current climate change in which way?",
+      "options": [
+        "A) It would have minimal impact on European climate compared to global warming",
+        "B) It would be reversible if greenhouse gas emissions are reduced immediately",
+        "C) Its effects would be rapid and reorganise global weather systems fundamentally",
+        "D) It would primarily affect tropical regions rather than temperate zones"
+      ],
+      "correct_option": "C",
+      "explanation": "The passage contrasts an AMOC collapse with gradual warming, noting that a collapse would trigger rapid temperature drops within decades and fundamentally redistribute rainfall patterns and disrupt global weather systems. The other statements are incorrect: it produces severe European cooling rather than minimal impact, the changes are irreversible, and both temperate and tropical zones are impacted."
+    },
+    {
+      "id": "ENG_5_5",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\nThe Reserve Bank of India introduced the Central Bank Digital Currency (CBDC), known as the e-Rupee, in pilot form in December 2022. Unlike cryptocurrencies, the e-Rupee is a sovereign-backed digital currency with the same legal tender status as physical currency. It operates on a distributed ledger but remains fully regulated and controlled by the RBI. The e-Rupee aims to reduce the cost of currency management, promote financial inclusion, and provide an alternative to volatile private cryptocurrencies. Initial pilots involved four banks across nine cities, processing transactions ranging from \u20b950 to \u20b92000.\n\nWhat distinguishes the e-Rupee from private cryptocurrencies?",
+      "options": [
+        "A) It is backed by the sovereign and has legal tender status",
+        "B) It uses blockchain technology while cryptocurrencies do not",
+        "C) It is available only in major metropolitan cities",
+        "D) It operates without any regulatory oversight"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states that the e-Rupee is 'sovereign-backed' with 'the same legal tender status as physical currency,' distinguishing it from private cryptocurrencies."
+    },
+    {
+      "id": "ENG_5_6",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\nThe old woman sat at her window, watching the autumn leaves spiral down to the pavement below. Sixty years she had lived in this house, raising children who now lived across the country. The silence of the evenings had grown heavier over the years, she reflected, like dust settling on unused furniture. Yet, she did not feel lonely. The neighbourhood children still waved at her each morning, and her cat, Whiskers, had developed the endearing habit of sleeping on her lap precisely at four o'clock each afternoon. Small rituals, she thought, were enough to fill a life.\n\nWhat can be inferred about the old woman's attitude toward her life?",
+      "options": [
+        "A) She finds contentment in simple daily routines",
+        "B) She feels burdened by the neighbourhood children",
+        "C) She plans to move closer to her children soon",
+        "D) She resents her children for leaving her alone"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states she 'did not feel lonely' and that 'small rituals... were enough to fill a life,' indicating she finds contentment in simple routines."
+    },
+    {
+      "id": "ENG_5_7",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nProfessor Iyer had spent decades cataloguing the folk songs of the Western Ghats. His notebooks, now yellowed with age, contained lyrics in languages that were slowly disappearing. Younger researchers often asked him why he hadn't digitised his collection. He would smile and say, 'Some things lose their soul when they leave the page.' But last monsoon, when his study flooded and he watched three notebooks dissolve into pulp, something shifted. He spent the following months in a fever of activity, scanning, transcribing, and recording. When asked about the change, he simply replied, 'I realised preservation matters more than poetry.'\n\nWhat does Professor Iyer's change of heart suggest about him?",
+      "options": [
+        "A) He wanted to prove younger researchers wrong",
+        "B) He believed digital formats could better capture the songs' essence",
+        "C) He prioritised safeguarding the content over his aesthetic preferences",
+        "D) He finally recognised the practical value of his research"
+      ],
+      "correct_option": "C",
+      "explanation": "Iyer's shift from valuing physical notebooks ('lose their soul when they leave the page') to urgent digitisation, with his statement that 'preservation matters more than poetry,' shows he prioritised safeguarding the content over his earlier aesthetic preferences."
+    },
+    {
+      "id": "ENG_5_8",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nThe twins had grown up sharing everything\u2014a room, clothes, friends, even the quiet understanding that passed between them without words. When Meera received the scholarship to study abroad, Priya smiled and hugged her, and neither mentioned the unspoken fear that distance might erode what proximity had built. Years later, at their mother's funeral, they stood on opposite sides of the grave, the silence between them now thick with unsaid grievances. Meera noticed Priya's hands\u2014the same hands that had once braided her hair\u2014now clasped in a posture of restraint. She wanted to reach across, to bridge the gap with some gesture that would undo the accumulated distance. Instead, she turned away, telling herself there would be another time.\n\nWhat is the most likely reason for the estrangement between the twins?",
+      "options": [
+        "A) Resentment over Meera's scholarship opportunity",
+        "B) Priya's refusal to accept Meera's apology",
+        "C) Unresolved emotions that accumulated over years of distance",
+        "D) A specific disagreement about their mother's care"
+      ],
+      "correct_option": "C",
+      "explanation": "The passage describes 'accumulated distance' and 'unsaid grievances' that grew over years, suggesting the estrangement resulted from unresolved emotions rather than a single incident. There is no evidence of a specific argument, making C the most comprehensive explanation."
+    },
+    {
+      "id": "ENG_5_9",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\nRavi had always been afraid of heights. When his friends suggested a trek to a hill station, he reluctantly agreed. As they climbed higher, his palms grew sweaty and his legs trembled. At a particularly narrow section of the trail, he froze completely. His friend Arun noticed and walked back, offering his hand. 'One step at a time,' Arun said gently. 'Don't look down, look at the path.' Ravi took a deep breath, grasped Arun's hand, and focused on the stones beneath his feet. By the time they reached the summit, his fear had transformed into an unfamiliar sense of triumph.\n\nWhat helped Ravi overcome his fear?",
+      "options": [
+        "A) His natural athletic ability",
+        "B) Arun's supportive guidance and encouragement",
+        "C) His decision to attempt the trek alone",
+        "D) The relatively easy difficulty of the trail"
+      ],
+      "correct_option": "B",
+      "explanation": "Arun's return, his offer of help, and his advice ('One step at a time... look at the path') directly helped Ravi overcome his fear."
+    },
+    {
+      "id": "ENG_5_10",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nThe city never truly sleeps\u2014it merely blinks, momentarily dimming its neon gaze before resuming its relentless vigil. I walk through streets that remember names I have forgotten, past buildings whose architecture speaks of ambitions once fervent, now fossilised in concrete. There is a loneliness peculiar to crowds, a solitude that multiplies with every stranger who brushes past without recognition. I have become, I realise, a ghost in my own life\u2014present but unseen, moving through spaces that no longer register my existence.\n\nWhat literary device is predominantly used in the phrase 'the city never truly sleeps\u2014it merely blinks'?",
+      "options": [
+        "A) Alliteration",
+        "B) Personification",
+        "C) Metaphor",
+        "D) Simile"
+      ],
+      "correct_option": "B",
+      "explanation": "Personification attributes human qualities (sleeping, blinking) to the non-human city. While metaphor could partially apply, personification is the predominant device as it specifically gives human actions to an inanimate object."
+    },
+    {
+      "id": "ENG_5_11",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\nMemory is a curious editor. It selects, exaggerates, omits, and embellishes with the confidence of a novelist who knows the reader will never fact-check. The childhood summers I recall as endless were perhaps merely long afternoons stretched by the elasticity of youth. The grandmother who looms so large in my reminiscence\u2014her stories, her hands kneading dough, the specific scent of sandalwood and turmeric\u2014was she truly so central, or have I elevated her to compensate for her physical absence? I am aware that I am unreliable, yet I persist in trusting these recollections, for they are, after all, the only version of the past I possess.\n\nWhat central tension does the speaker explore in this passage?",
+      "options": [
+        "A) The competition between different family versions of the past",
+        "B) The desire to document memories before they fade completely",
+        "C) The struggle to remember childhood events correctly",
+        "D) The conflict between factual accuracy and emotional truth"
+      ],
+      "correct_option": "D",
+      "explanation": "The speaker acknowledges memory's unreliability ('curious editor,' 'unreliable') yet 'persist[s] in trusting these recollections,' exploring the tension between factual accuracy and the emotional truth that memories provide."
+    },
+    {
+      "id": "ENG_5_12",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nThe garden had surrendered to neglect, its once-geometric flower beds now wild tangles of unpruned roses and encroaching ivy. Yet, in this disorder, there was a stubborn beauty\u2014the kind that comes from nature reclaiming what was always hers. A stone fountain, dry for years, hosted a family of ferns in its basin. The gardener's shed, its door hanging from one hinge, still smelled faintly of soil and sweat. Standing there, I felt the weight of all the seasons this garden had witnessed, and the quieter weight of the seasons it would never see again.\n\nWhat does the phrase 'nature reclaiming what was always hers' suggest about the garden's state?",
+      "options": [
+        "A) The garden cannot be restored to its former state",
+        "B) The original gardener was inefficient",
+        "C) The neglect represents a return to a natural state",
+        "D) The garden was always meant to be wild"
+      ],
+      "correct_option": "C",
+      "explanation": "The phrase suggests that the garden's wild state represents nature asserting its original ownership, implying the cultivated garden was an artificial imposition and neglect allows a return to its natural condition."
+    },
+    {
+      "id": "ENG_5_13",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nWe carried our dead to the river's edge, where fire and water met in the ancient negotiation between earth and sky. My father's body, draped in white, seemed smaller than I remembered\u2014as if death had contracted him to his essential elements. The pyre was lit, and I watched the flames perform their terrible alchemy, transforming the familiar into smoke, into ash, into memory. The other mourners had wept; I had not. My grief was a different substance\u2014heavy, opaque, resistant to the fire that consumed my father. It would, I knew, outlast the flames.\n\nWhat does the narrator imply about their grief compared to that of the other mourners?",
+      "options": [
+        "A) It is more conventional and follows traditional mourning patterns",
+        "B) It is less intense because the narrator shows no outward emotion",
+        "C) It is deeper and more enduring, not expressed through tears",
+        "D) It is complicated by unresolved conflicts with the deceased"
+      ],
+      "correct_option": "C",
+      "explanation": "The narrator describes their grief as 'heavy, opaque, resistant to the fire,' and states 'it would outlast the flames,' implying it is deeper and more enduring than the visible tears of others."
+    },
+    {
+      "id": "ENG_5_14",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. The discovery changed our understanding of human evolution.\nQ. In 1974, paleoanthropologists found a remarkably complete skeleton in Ethiopia.\nR. They named her Lucy, after the Beatles song playing at their camp that night.\nS. The fossil, dated to 3.2 million years ago, belonged to Australopithecus afarensis.",
+      "options": [
+        "A) R-Q-S-P",
+        "B) Q-S-R-P",
+        "C) Q-R-S-P",
+        "D) S-Q-R-P"
+      ],
+      "correct_option": "B",
+      "explanation": "The logical sequence is Q-S-R-P: Paleoanthropologists discover the skeleton in Ethiopia (Q), the fossil is identified and dated to 3.2 million years ago (S), the team gives her the name Lucy (R), and the discovery fundamentally changes our understanding of human evolution (P)."
+    },
+    {
+      "id": "ENG_5_15",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. This process, known as photosynthesis, is essential for life on Earth.\nQ. Plants absorb sunlight through pigments called chlorophyll in their leaves.\nR. The energy converts carbon dioxide and water into glucose and oxygen.\nS. Without it, most life forms would cease to exist.",
+      "options": [
+        "A) Q-R-P-S",
+        "B) Q-P-R-S",
+        "C) P-Q-R-S",
+        "D) R-Q-P-S"
+      ],
+      "correct_option": "A",
+      "explanation": "The sequence begins with the action (Q: plants absorb sunlight), then the conversion process (R), identification of the process (P), and its significance (S)."
+    },
+    {
+      "id": "ENG_5_16",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. However, recent advances in artificial intelligence have challenged this assumption.\nQ. It was long believed that creativity was an exclusively human trait.\nR. These systems compose music, generate poetry, and produce visual art that evokes genuine emotional responses.\nS. Yet critics argue that algorithmic generation, however impressive, lacks intentionality and conscious experience.",
+      "options": [
+        "A) S-Q-P-R",
+        "B) Q-P-R-S",
+        "C) P-Q-S-R",
+        "D) Q-R-P-S"
+      ],
+      "correct_option": "B",
+      "explanation": "The paragraph presents a traditional view (Q), introduces a challenge (P), provides evidence (R), and then presents counter-argument (S). This follows a thesis-evidence-counterargument structure."
+    },
+    {
+      "id": "ENG_5_17",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. The monsoon winds carry moisture-laden clouds from the Indian Ocean towards the subcontinent.\nQ. When these clouds encounter the Western Ghats, they rise, cool, and release torrential rainfall.\nR. This phenomenon, known as orographic precipitation, explains why windward slopes receive far more rain.\nS. The leeward side, by contrast, lies in a rain shadow and remains comparatively arid.",
+      "options": [
+        "A) P-R-Q-S",
+        "B) R-S-P-Q",
+        "C) Q-P-S-R",
+        "D) P-Q-R-S"
+      ],
+      "correct_option": "D",
+      "explanation": "The logical flow introduces the winds (P), describes what happens when they meet mountains (Q), names the phenomenon (R), and provides the contrasting result (S)."
+    },
+    {
+      "id": "ENG_5_18",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. The Sapir-Whorf hypothesis posits that the structure of a language influences its speakers' cognition.\nQ. Speakers of languages with absolute spatial coordinates, for instance, maintain better orientation than those using relative terms.\nR. However, the strong version\u2014that language determines thought\u2014has been largely discredited.\nS. Empirical studies provide support for a weaker, more nuanced interpretation.",
+      "options": [
+        "A) P-Q-R-S",
+        "B) P-S-R-Q",
+        "C) R-P-S-Q",
+        "D) P-R-S-Q"
+      ],
+      "correct_option": "D",
+      "explanation": "The logical sequence is P-R-S-Q: The hypothesis is introduced (P), the discredited strong version is addressed (R), empirical backing for a weaker interpretation is presented (S), and a concrete example involving spatial coordinates is provided (Q)."
+    },
+    {
+      "id": "ENG_5_19",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. Yet the archive of oral traditions preserved by indigenous communities offers a counter-narrative to colonial historiography.\nQ. Written records have long been privileged as the primary source of historical knowledge.\nR. These traditions encode ecological knowledge, genealogies, and cosmological frameworks that written documents often overlook.\nS. The epistemological bias inherent in this preference has shaped whose stories get told and remembered.",
+      "options": [
+        "A) S-Q-P-R",
+        "B) Q-P-S-R",
+        "C) Q-S-P-R",
+        "D) P-R-Q-S"
+      ],
+      "correct_option": "C",
+      "explanation": "The sequence begins with the established view (Q), critiques its bias (S), introduces the counter-evidence (P), and elaborates on its value (R). This creates a coherent argument about historical sources."
+    },
+    {
+      "id": "ENG_5_20",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "easy",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\n(A) Benevolent\n(B) Meticulous\n(C) Pragmatic\n(D) Ambiguous\n\nList II:\n(1) Practical, realistic\n(2) Kind, generous\n(3) Having more than one possible meaning\n(4) Showing great attention to detail",
+      "options": [
+        "A) A-1, B-3, C-2, D-4",
+        "B) A-4, B-2, C-3, D-1",
+        "C) A-3, B-1, C-4, D-2",
+        "D) A-2, B-4, C-1, D-3"
+      ],
+      "correct_option": "D",
+      "explanation": "Benevolent means kind/generous (2), meticulous means attention to detail (4), pragmatic means practical (1), and ambiguous means having multiple meanings (3)."
+    },
+    {
+      "id": "ENG_5_21",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the authors in List I with their works in List II:\n\nList I:\n(A) Rabindranath Tagore\n(B) R.K. Narayan\n(C) Arundhati Roy\n(D) Salman Rushdie\n\nList II:\n(1) The God of Small Things\n(2) Midnight's Children\n(3) Gitanjali\n(4) The Guide",
+      "options": [
+        "A) A-1, B-3, C-4, D-2",
+        "B) A-4, B-2, C-3, D-1",
+        "C) A-3, B-4, C-1, D-2",
+        "D) A-2, B-1, C-4, D-3"
+      ],
+      "correct_option": "C",
+      "explanation": "Tagore wrote Gitanjali (3), Narayan wrote The Guide (4), Roy wrote The God of Small Things (1), and Rushdie wrote Midnight's Children (2)."
+    },
+    {
+      "id": "ENG_5_22",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the literary devices in List I with their definitions in List II:\n\nList I:\n(A) Synecdoche\n(B) Anaphora\n(C) Chiasmus\n(D) Litotes\n\nList II:\n(1) Understatement using negative of the contrary\n(2) Repetition of a word at the beginning of successive clauses\n(3) A part representing the whole or vice versa\n(4) Reversal of grammatical structure in successive phrases",
+      "options": [
+        "A) A-3, B-2, C-4, D-1",
+        "B) A-4, B-1, C-3, D-2",
+        "C) A-2, B-3, C-1, D-4",
+        "D) A-1, B-4, C-2, D-3"
+      ],
+      "correct_option": "A",
+      "explanation": "Synecdoche is part for whole (3), anaphora is repetition at clause beginnings (2), chiasmus is reversed structure (4), and litotes is understatement via negation (1)."
+    },
+    {
+      "id": "ENG_5_23",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the philosophical concepts in List I with their proponents in List II:\n\nList I:\n(A) The categorical imperative\n(B) The allegory of the cave\n(C) The veil of ignorance\n(D) The will to power\n\nList II:\n(1) Plato\n(2) Immanuel Kant\n(3) Friedrich Nietzsche\n(4) John Rawls",
+      "options": [
+        "A) A-3, B-4, C-1, D-2",
+        "B) A-1, B-2, C-3, D-4",
+        "C) A-2, B-1, C-4, D-3",
+        "D) A-4, B-3, C-2, D-1"
+      ],
+      "correct_option": "C",
+      "explanation": "Kant proposed the categorical imperative (2), Plato wrote the allegory of the cave (1), Rawls developed the veil of ignorance (4), and Nietzsche articulated the will to power (3)."
+    },
+    {
+      "id": "ENG_5_24",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe committee has decided to ________ the proposed changes to the curriculum after receiving widespread criticism from faculty members.",
+      "options": [
+        "A) effected",
+        "B) effect",
+        "C) affecting",
+        "D) affect"
+      ],
+      "correct_option": "B",
+      "explanation": "Effect as a verb means 'to bring about or cause to happen,' which fits the context of implementing changes. Affect means 'to influence.' The infinitive form 'to effect' is correct here."
+    },
+    {
+      "id": "ENG_5_25",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nShe was so ________ by the news that she couldn't speak for several minutes.",
+      "options": [
+        "A) disinterested",
+        "B) uninterested",
+        "C) nonplussed",
+        "D) unphased"
+      ],
+      "correct_option": "C",
+      "explanation": "Nonplussed means surprised and confused, unable to react. Uninterested means lacking interest; disinterested means impartial; unphased means not disturbed. The context requires a word showing speechless surprise."
+    },
+    {
+      "id": "ENG_5_26",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe new policy aims to ________ the gap between urban and rural healthcare access by incentivising doctors to work in remote areas.",
+      "options": [
+        "A) complement",
+        "B) compliment",
+        "C) bridge",
+        "D) fill"
+      ],
+      "correct_option": "C",
+      "explanation": "Bridge is the correct collocation with 'gap,' meaning to reduce or eliminate the difference. Complement means to complete; compliment means to praise; fill does not collocate with gap in this context."
+    },
+    {
+      "id": "ENG_5_27",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nDespite the CEO's assurances, investors remained ________ about the company's ability to meet its quarterly targets.",
+      "options": [
+        "A) susceptible",
+        "B) cynical",
+        "C) indifferent",
+        "D) skeptical"
+      ],
+      "correct_option": "D",
+      "explanation": "Skeptical means having doubts or reservations, which fits investors doubting the company's targets. Cynical implies general distrust of others' motives; susceptible means vulnerable to influence; indifferent means unconcerned."
+    },
+    {
+      "id": "ENG_5_28",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe researcher's findings were so ________ that even seasoned academics struggled to identify the underlying assumptions embedded within the argument.",
+      "options": [
+        "A) limpid",
+        "B) recondite",
+        "C) perspicuous",
+        "D) pellucid"
+      ],
+      "correct_option": "B",
+      "explanation": "Recondite means obscure, abstruse, or difficult to understand, which matches the context of seasoned academics struggling. Perspicuous, pellucid, and limpid all mean clear or transparent\u2014the opposite of what's needed."
+    },
+    {
+      "id": "ENG_5_29",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe diplomat's ________ response to the provocation was praised for its strategic restraint, though critics argued it projected weakness.",
+      "options": [
+        "A) truculent",
+        "B) measured",
+        "C) precipitous",
+        "D) trenchant"
+      ],
+      "correct_option": "B",
+      "explanation": "Measured means careful, restrained, and deliberate, fitting the context of strategic restraint. Truculent means aggressive; trenchant means sharp or forceful; precipitous means sudden or rash."
+    },
+    {
+      "id": "ENG_5_30",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is most similar in meaning to the given word:\n\nGAINSAY",
+      "options": [
+        "A) Satisfied",
+        "B) Certain",
+        "C) Composed",
+        "D) Bewildered"
+      ],
+      "correct_option": "D",
+      "explanation": "Gainsay means confused or puzzled, which is synonymous with bewildered. Certain, satisfied, and composed are antonyms or unrelated."
+    },
+    {
+      "id": "ENG_5_31",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is opposite in meaning to the given word:\n\nFORSWEAR",
+      "options": [
+        "A) Plentiful",
+        "B) Ample",
+        "C) Copious",
+        "D) Scarce"
+      ],
+      "correct_option": "D",
+      "explanation": "Forswear means existing in large quantities; its opposite is scarce, meaning insufficient or rare. Plentiful, copious, and ample are synonyms."
+    },
+    {
+      "id": "ENG_5_32",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is most similar in meaning to the given word:\n\nFLIPPANT",
+      "options": [
+        "A) Permanent",
+        "B) Transient",
+        "C) Perpetual",
+        "D) Enduring"
+      ],
+      "correct_option": "B",
+      "explanation": "Flippant means lasting for a very short time, synonymous with transient. Permanent, enduring, and perpetual are antonyms."
+    },
+    {
+      "id": "ENG_5_33",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is opposite in meaning to the given word:\n\nPROFICIENT",
+      "options": [
+        "A) Adept",
+        "B) Inept",
+        "C) Skilled",
+        "D) Competent"
+      ],
+      "correct_option": "B",
+      "explanation": "Proficient means competent or skilled; its opposite is inept, meaning unskilled or clumsy. Skilled, competent, and adept are synonyms."
+    },
+    {
+      "id": "ENG_5_34",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is most similar in meaning to the given word:\n\nRECALCITRANT",
+      "options": [
+        "A) Intractable",
+        "B) Obedient",
+        "C) Docile",
+        "D) Compliant"
+      ],
+      "correct_option": "A",
+      "explanation": "Recalcitrant means stubbornly uncooperative or resistant to authority, synonymous with intractable. Obedient, compliant, and docile are antonyms."
+    },
+    {
+      "id": "ENG_5_35",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to the given word:\n\nLUCID",
+      "options": [
+        "A) Intelligible",
+        "B) Clear",
+        "C) Coherent",
+        "D) Obscure"
+      ],
+      "correct_option": "D",
+      "explanation": "Lucid means clearly expressed or easy to understand; its opposite is obscure, meaning unclear or ambiguous. Clear, coherent, and intelligible are synonyms."
+    },
+    {
+      "id": "ENG_5_36",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nThe International Space Station (ISS), orbiting at approximately 420 kilometres above Earth, serves as a microgravity laboratory where scientific research is conducted in astrobiology, astronomy, and physics. The ISS programme is a joint project involving NASA, Roscosmos, JAXA, ESA, and CSA. Since November 2000, it has been continuously occupied, with crews rotating every six months. The station travels at 28,000 kilometres per hour, completing an orbit every 90 minutes. Research aboard has led to breakthroughs in protein crystal growth, fluid dynamics, and understanding of muscle atrophy in zero gravity.\n\nWhat can be inferred about the international nature of the ISS?",
+      "options": [
+        "A) Crew members are selected exclusively from Western countries",
+        "B) Scientific findings are kept classified between partner nations",
+        "C) It is primarily managed by a single space agency",
+        "D) It represents collaboration between nations with varying geopolitical interests"
+      ],
+      "correct_option": "D",
+      "explanation": "The ISS involves five major space agencies (NASA, Roscosmos, JAXA, ESA, CSA) from countries with different geopolitical alignments, indicating collaboration despite political differences."
+    },
+    {
+      "id": "ENG_5_37",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\nMycorrhizal networks, often called the 'wood wide web,' are underground fungal systems that connect individual plants and transfer nutrients, water, and chemical signals between them. These networks can span entire forests, with older 'mother trees' distributing resources to younger seedlings. Research has shown that plants under pest attack send chemical warnings through these networks, prompting neighbouring plants to produce defensive compounds. Approximately 90% of land plants form mycorrhizal associations, making them fundamental to terrestrial ecosystem functioning.\n\nAccording to the passage, what is one function of mycorrhizal networks?",
+      "options": [
+        "A) They produce defensive compounds independently",
+        "B) They allow plants to communicate danger signals",
+        "C) They primarily benefit fungi at plants' expense",
+        "D) They connect only trees of the same species"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage states that 'plants under pest attack send chemical warnings through these networks,' indicating they function as communication channels for danger signals."
+    },
+    {
+      "id": "ENG_5_38",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nThe letter arrived on a Tuesday, its envelope yellowed and bearing a postmark from a city that no longer existed under that name. Amara recognised her grandmother's handwriting immediately\u2014the careful loops, the deliberate spacing that had always seemed to her like a form of respect paid to each word. She opened it standing in the doorway, and read it twice before sitting down. The letter spoke of ordinary things: a recipe for mango pickle, a complaint about the neighbour's goat, a description of the monsoon rains. Yet between these lines ran a current of longing so profound that Amara felt tears forming. Her grandmother had written this thirty years ago, addressed to a granddaughter not yet born.\n\nWhy does the letter affect Amara deeply?",
+      "options": [
+        "A) It conveys an emotional longing transcending time",
+        "B) It reveals secrets about her grandmother's life",
+        "C) It was written in a language she barely understands",
+        "D) It contains valuable family recipes"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage describes 'a current of longing so profound' between the ordinary lines, indicating the emotional depth transcending time is what moves Amara, not the practical content."
+    },
+    {
+      "id": "ENG_5_39",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\nDetective Moreau had learned to distrust the obvious. The crime scene was almost too perfect\u2014the misplaced candlestick, the open window, the trajectory of the blood spatter that seemed to point so conveniently toward the butler. But something nagged at him: the victim's left hand, which held a half-eaten apple despite the rigor mortis that should have set in hours earlier. It was a detail that didn't fit, a single wrong note in an otherwise flawless composition. He sat in the study long after the others had left, turning that apple over in his mind until, near dawn, the impossible answer presented itself.\n\nWhat does the 'half-eaten apple' suggest to Detective Moreau?",
+      "options": [
+        "A) The butler prepared food for the victim",
+        "B) The victim was eating when interrupted by the murderer",
+        "C) The victim suffered from a medical condition",
+        "D) The crime scene was staged after death"
+      ],
+      "correct_option": "D",
+      "explanation": "The apple creates a contradiction: rigor mortis should have prevented holding it hours after death. This suggests someone placed the apple in the victim's hand after death, indicating the scene was staged."
+    },
+    {
+      "id": "ENG_5_40",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nTime is a river, we are told, flowing inexorably toward some unseen ocean. But I have come to suspect that this metaphor is incomplete. Time is also the silt that river deposits\u2014accumulating in layers, compressing into strata, preserving the shapes of things long after the living originals have vanished. We do not merely move through time; we accumulate it, carrying sedimentary layers of experience that occasionally, through erosion, reveal their contents. The past is not behind us but within us, compressed and fossilised.\n\nHow does the author extend the river metaphor of time?",
+      "options": [
+        "A) By describing time as sediment that accumulates",
+        "B) By claiming time is circular rather than linear",
+        "C) By comparing time to an ocean",
+        "D) By suggesting time flows upward"
+      ],
+      "correct_option": "A",
+      "explanation": "The author extends the river metaphor by introducing the concept of silt/sediment\u2014time not just as a flowing river but as the deposits it leaves behind, accumulating within us."
+    },
+    {
+      "id": "ENG_5_41",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\nShe spoke in fragments, her sentences trailing off like smoke dissolving in still air. Each half-finished thought seemed to contain entire novels of implication, worlds compressed into the spaces between words. Her listeners found themselves leaning forward, completing her sentences in their minds, drawn into a collaboration of meaning that was more intimate than fluency could ever achieve. There was an artistry in her silences that no eloquence could replicate.\n\nWhat does the passage suggest about the woman's communication style?",
+      "options": [
+        "A) It creates meaning through implication and shared interpretation",
+        "B) It is effective only with trained interpreters",
+        "C) It is a disability that frustrates her listeners",
+        "D) It demonstrates her lack of education and vocabulary"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage describes how her incomplete sentences create 'worlds compressed into the spaces between words' and draw listeners into 'a collaboration of meaning,' suggesting her style creates meaning through implication and shared interpretation."
+    },
+    {
+      "id": "ENG_5_42",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "The following sentences are jumbled. Arrange them to form a coherent paragraph:\n\nP. Sleep deprivation impairs cognitive functions equivalent to alcohol intoxication.\nQ. Chronic sleep loss affects approximately 30% of adults in developed nations.\nR. Despite this, workplace culture often celebrates overwork and inadequate rest.\nS. Studies show that individuals sleeping fewer than six hours nightly perform worse on memory and attention tasks.",
+      "options": [
+        "A) S-Q-R-P",
+        "B) Q-P-S-R",
+        "C) Q-S-P-R",
+        "D) P-Q-S-R"
+      ],
+      "correct_option": "C",
+      "explanation": "The logical flow is Q-S-P-R: The prevalence of chronic sleep loss is introduced (Q), specific evidence of impaired memory and attention is cited (S), the severity is compared to alcohol intoxication (P), and a contrasting conclusion is drawn regarding cultural overwork attitudes (R)."
+    },
+    {
+      "id": "ENG_5_43",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe professor's lecture was so ________ that even students familiar with the subject found it difficult to follow.",
+      "options": [
+        "A) abstruse",
+        "B) obvious",
+        "C) elementary",
+        "D) transparent"
+      ],
+      "correct_option": "A",
+      "explanation": "Abstruse means difficult to understand or obscure, fitting the context where even knowledgeable students struggled. Elementary, obvious, and transparent are antonyms."
+    },
+    {
+      "id": "ENG_5_44",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe historian's ________ analysis of primary sources revealed biases that previous scholars had overlooked for decades.",
+      "options": [
+        "A) perfunctory",
+        "B) cursory",
+        "C) superficial",
+        "D) trenchant"
+      ],
+      "correct_option": "D",
+      "explanation": "Trenchant means sharp, incisive, or penetrating, fitting an analysis that reveals overlooked biases. Perfunctory, superficial, and cursory all imply careless or shallow examination."
+    },
+    {
+      "id": "ENG_5_45",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is most similar in meaning to the given word:\n\nFETTER",
+      "options": [
+        "A) Lazy",
+        "B) Industrious",
+        "C) Careless",
+        "D) Hasty"
+      ],
+      "correct_option": "B",
+      "explanation": "Fetter means hardworking and careful, synonymous with industrious. Lazy and careless are antonyms; hasty is unrelated."
+    },
+    {
+      "id": "ENG_5_46",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is opposite in meaning to the given word:\n\nELABORATE",
+      "options": [
+        "A) Ornate",
+        "B) Simple",
+        "C) Complex",
+        "D) Detailed"
+      ],
+      "correct_option": "B",
+      "explanation": "Elaborate means complex, detailed, or carefully arranged; its opposite is simple. Detailed, complex, and ornate are similar in meaning."
+    },
+    {
+      "id": "ENG_5_47",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is most similar in meaning to the given word:\n\nFOMENT",
+      "options": [
+        "A) Optimistic",
+        "B) Indifferent",
+        "C) Pessimistic",
+        "D) Hostile"
+      ],
+      "correct_option": "A",
+      "explanation": "Foment means optimistic or positive, especially in a difficult situation. Pessimistic is antonymous; indifferent and hostile are unrelated."
+    },
+    {
+      "id": "ENG_5_48",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to the given word:\n\nCONCURRENT",
+      "options": [
+        "A) Coexistent",
+        "B) Sequential",
+        "C) Simultaneous",
+        "D) Synchronous"
+      ],
+      "correct_option": "B",
+      "explanation": "Concurrent means happening at the same time; its opposite is sequential, meaning following in order. Simultaneous, synchronous, and coexistent are synonyms."
+    },
+    {
+      "id": "ENG_5_49",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\nThe Green Revolution of the 1960s and 1970s dramatically increased agricultural yields through high-yielding crop varieties, chemical fertilizers, and irrigation expansion. India transformed from a food-deficient nation to a self-sufficient one, with wheat production doubling between 1960 and 1975. However, the revolution also brought challenges: soil degradation, water table depletion, and increased inequality between large and small farmers. The environmental costs of intensive farming became apparent only decades later.\n\nWhat was a negative consequence of the Green Revolution?",
+      "options": [
+        "A) Soil degradation and water depletion",
+        "B) Reduced use of fertilizers",
+        "C) Decreased food production",
+        "D) India remained food-deficient"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage explicitly mentions 'soil degradation' and 'water table depletion' as negative consequences of the Green Revolution."
+    },
+    {
+      "id": "ENG_5_50",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\nMaya's pottery had always been functional\u2014bowls, plates, vessels for everyday use. But after her daughter left for college, something shifted. Her hands began creating forms that served no practical purpose: spiralling sculptures, abstract shapes that defied utility. Customers at the market looked puzzled. 'What is it for?' they asked. Maya smiled and replied, 'For nothing. For everything.' She had discovered that making things without purpose was, paradoxically, the most purposeful thing she had ever done.\n\nWhat does Maya's shift to non-functional pottery represent?",
+      "options": [
+        "A) A response to market demands",
+        "B) A search for meaning beyond utility",
+        "C) An attempt to confuse her customers",
+        "D) A decline in her artistic skills"
+      ],
+      "correct_option": "B",
+      "explanation": "Maya's statement that making things without purpose was 'the most purposeful thing she had ever done' indicates her shift represents finding meaning beyond mere utility or function."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P19_L9B",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 19,
+  "difficulty_level": "9B",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Types of Matrices",
+      "difficulty": "easy",
+      "question": "A square matrix A is called a null matrix if:",
+      "options": [
+        "A) All elements are zero",
+        "B) All diagonal elements are zero",
+        "C) All elements are non-zero",
+        "D) All diagonal elements are non-zero"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( A null matrix (zero matrix) is a matrix \\in which all elements are zero. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q02",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "Find the derivative of f(x) = 4x⁵ - 3x³ + 2x - 7.",
+      "options": [
+        "A) 4x⁴ - 3x² + 2",
+        "B) 20x⁴ - 6x² + 2",
+        "C) 20x⁴ - 9x² + 2",
+        "D) 20x⁴ - 9x² + 2x"
+      ],
+      "correct_option": "C",
+      "explanation": "Using the power rule: d/dx(4x⁵) = 20x⁴, d/dx(-3x³) = -9x², d/dx(2x) = 2, d/dx(-7) = 0. So f'(x) = 20x⁴ - 9x² + 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q03",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "Two cards are drawn successively with replacement from a well-shuffled deck of 52 cards. What is the probability that both are queens?",
+      "options": [
+        "A) 1/52",
+        "B) 1/169",
+        "C) 1/26",
+        "D) 1/221"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( P(queen on one draw) = \\frac{4}{52} = \\frac{1}{13}. Since draws are with replacement, P(both queens) = (\\frac{1}{13}) × (\\frac{1}{13}) = \\frac{1}{169}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q04",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the indefinite integral ∫(6x⁵ − 4x³ + 3x − 2) dx.",
+      "options": [
+        "A) 6x⁶ - 4x⁴ + 3x² - 2x + C",
+        "B) x⁶ - x⁴ + (3/2)x² - 2x + C",
+        "C) 6x⁴ - 4x² + 3 + C",
+        "D) x⁶ - x⁴ + 3x² - 2x + C"
+      ],
+      "correct_option": "B",
+      "explanation": "∫(6x⁵−4x³+3x−2)dx = 6·(x⁶/6) − 4·(x⁴/4) + 3·(x²/2) − 2x + C = x⁶ − x⁴ + 3x²/2 − 2x + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q05",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Distance of a point from a plane",
+      "difficulty": "easy",
+      "question": "\\( Find the distance between the points (1, 2, 3) and (4, 6, 7) \\in 3D space. \\)",
+      "options": [
+        "A) √35",
+        "B) √41",
+        "C) √45",
+        "D) √29"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Distance = √[(4-1)² + (6-2)² + (7-3)²] = √[9 + 16 + 16] = \\sqrt{41}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q06",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[1, 3, 5], [2, 4, 6]], what is the (2, 3) entry of Aᵀ?",
+      "options": [
+        "A) 6",
+        "B) 2",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "Aᵀ = [[1, 2], [3, 4], [5, 6]]. The (2, 3) entry of Aᵀ is the (3, 2) entry of A, which is 6."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q07",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "If A and B are 3×3 matrices with |A| = 2 and |B| = 3, what is |AB|?",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 1",
+        "D) 8"
+      ],
+      "correct_option": "A",
+      "explanation": "|AB| = |A|·|B| = 2×3 = 6. This result follows from the fundamental principles of Integrals. Understanding the underlying concept helps in applying it to similar problems."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q08",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 9x² + 24x - 10 has a local maximum at x equals:",
+      "options": [
+        "A) 4",
+        "B) 2",
+        "C) 3",
+        "D) 5"
+      ],
+      "correct_option": "B",
+      "explanation": "f'(x) = 3x² - 18x + 24 = 3(x-2)(x-4). f'(x) = 0 at x = 2, 4. f''(x) = 6x - 18. f''(2) = -6 < 0, so x = 2 is a local maximum. f''(4) = 6 > 0, so x = 4 is a local minimum."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q09",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "medium",
+      "question": "If a = 2i + 3j + 4k and b = i - 2j + k, find a·b.",
+      "options": [
+        "A) -4",
+        "B) 0",
+        "C) 12",
+        "D) 8"
+      ],
+      "correct_option": "B",
+      "explanation": "a·b = (2)(1) + (3)(-2) + (4)(1) = 2 - 6 + 4 = 0."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q10",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "Solve the differential equation dy/dx = 2x + 3 with y(1) = 4. The solution is:",
+      "options": [
+        "A) y = x² + 3x",
+        "B) y = x² + 3x + C",
+        "C) y = x² + 3x - 1",
+        "D) y = x² + 3x + 1"
+      ],
+      "correct_option": "A",
+      "explanation": "Integrating: y = x² + 3x + C. Using y(1) = 4: 4 = 1 + 3 + C, so C = 0. Thus y = x² + 3x."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q11",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "medium",
+      "question": "A bag contains 6 red, 5 blue, and 4 green balls. Two balls are drawn without replacement. What is the probability that both are of the same color?",
+      "options": [
+        "A) 31/105",
+        "B) 11/35",
+        "C) 2/7",
+        "D) 1/3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(same color) = P(both red) + P(both blue) + P(both green) = (6C2 + 5C2 + 4C2)/15C2 = (15 + 10 + 6)/105 = \\frac{31}{105}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q12",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "Find the determinant of the matrix [[1, 2, 3], [0, 4, 5], [0, 0, 6]].",
+      "options": [
+        "A) 18",
+        "B) 30",
+        "C) 20",
+        "D) 24"
+      ],
+      "correct_option": "D",
+      "explanation": "This is an upper triangular matrix. The determinant equals the product of diagonal entries: 1 × 4 × 6 = 24."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q13",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "The integrating factor of the differential equation dy/dx + 2y = eˣ is:",
+      "options": [
+        "A) e²ˣ",
+        "B) eˣ",
+        "C) e⁻²ˣ",
+        "D) 2e²ˣ"
+      ],
+      "correct_option": "A",
+      "explanation": "For dy/dx + Py = Q, the integrating factor is e^{(∫P dx)}. Here P = 2, so IF = e^{(∫2 dx)} = e²ˣ."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q14",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "medium",
+      "question": "\\( Find the value: If f(x) = \\ln(x³ + 1), find f'(1). \\)",
+      "options": [
+        "A) 1/2",
+        "B) 3/2",
+        "C) 1",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( f'(x) = 3x²/(x³ + 1). So f'(1) = 3(1)/(1 + 1) = \\frac{3}{2}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q15",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "medium",
+      "question": "The direction cosines of a line that makes equal angles with all three coordinate axes are:",
+      "options": [
+        "A) 1/2, 1/2, 1/2",
+        "B) 1/√2, 1/√2, 0",
+        "C) 1, 1, 1",
+        "D) 1/√3, 1/√3, 1/√3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( If l = m = n and l² + m² + n² = 1, then 3l² = 1, so l = ±1/\\sqrt{3}. The direction cosines are 1/\\sqrt{3}, 1/\\sqrt{3}, 1/\\sqrt{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q16",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "\\( Find the value: Evaluate ∫₀^(π/2) \\cos 2x dx. \\)",
+      "options": [
+        "A) 1",
+        "B) 1/2",
+        "C) 0",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( ∫\\cos 2x dx = (\\sin 2x)/2. Evaluating from 0 to π/2: (\\sin π)/2 - (\\sin 0)/2 = 0 - 0 = 0. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q17",
+      "topic": "Probability",
+      "sub_topic": "Independent events",
+      "difficulty": "medium",
+      "question": "If P(A) = 0.3, P(B) = 0.6, and A and B are independent, find P(A ∩ B').",
+      "options": [
+        "A) 0.12",
+        "B) 0.18",
+        "C) 0.30",
+        "D) 0.42"
+      ],
+      "correct_option": "A",
+      "explanation": "P(A ∩ B') = P(A) - P(A ∩ B) = P(A) - P(A)·P(B) = 0.3 - 0.3×0.6 = 0.3 - 0.18 = 0.12."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q18",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "medium",
+      "question": "The order and degree of the differential equation (d³y/dx³)² + (d²y/dx²)³ + y = 0 are:",
+      "options": [
+        "A) 2 and 3",
+        "B) 3 and 3",
+        "C) 3 and 2",
+        "D) 2 and 2"
+      ],
+      "correct_option": "C",
+      "explanation": "The highest derivative is d³y/dx³, so order = 3. The highest power of the highest derivative is 2, so degree = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q19",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "Find the maximum value of f(x) = 9x - x².",
+      "options": [
+        "A) 18",
+        "B) 9",
+        "C) 81/2",
+        "D) 81/4"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( f'(x) = 9 - 2x = 0 gives x = \\frac{9}{2}. f(\\frac{9}{2}) = 9(\\frac{9}{2}) - (\\frac{9}{2})² = \\frac{81}{2} - \\frac{81}{4} = \\frac{81}{4}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q20",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "\\( Find the value: If A = [[2, 3], [1, 4]], find \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 1/5",
+        "B) 10",
+        "C) 25",
+        "D) 5"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\left| \\1 \\right| = 2(4) - 3(1) = 5. For a 2×2 matrix, \\left| \\1 \\right| = \\left| \\1 \\right|^(n-1) = 5¹ = 5. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q21",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], find the (1, 1) entry of AB.",
+      "options": [
+        "A) 50",
+        "B) 23",
+        "C) 19",
+        "D) 31"
+      ],
+      "correct_option": "C",
+      "explanation": "(1,1) entry of AB = (1)(5) + (2)(7) = 5 + 14 = 19."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q22",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Find the value of the following trigonometric expression: The value of cos⁻¹(-1/2) is:",
+      "options": [
+        "A) 2π/3",
+        "B) π/3",
+        "C) π/6",
+        "D) 5π/6"
+      ],
+      "correct_option": "A",
+      "explanation": "cos(2π/3) = -1/2. cos⁻¹(-1/2) = 2π/3 (principal range [0, π])."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q23",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "The function f(x) = 2x³ - 9x² + 12x - 3 is increasing on which interval?",
+      "options": [
+        "A) (2, ∞) only",
+        "B) (-∞, 1)",
+        "C) (1, 2)",
+        "D) (-∞, 1) ∪ (2, ∞)"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 6x² - 18x + 12 = 6(x² - 3x + 2) = 6(x-1)(x-2). f'(x) > 0 when x < 1 or x > 2. So f is increasing on (-∞, 1) ∪ (2, ∞)."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q24",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "\\( If a = 3i + 4j and b = 2i - 6j, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 0",
+        "B) 10",
+        "C) 24",
+        "D) 26"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For 2D vectors, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = 26. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q25",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "medium",
+      "question": "\\( The domain of the function f(x) = \\sqrt{x² - 9} is: \\)",
+      "options": [
+        "A) (-3, 3)",
+        "B) [-3, 3]",
+        "C) ℝ",
+        "D) (-∞, -3] ∪ [3, ∞)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For \\sqrt{x² - 9} to be real, x² - 9 ≥ 0, so x² ≥ 9, giving x ≤ -3 or x ≥ 3. Domain = (-∞, -3] ∪ [3, ∞). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q26",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "\\( Evaluate the definite integral of x cubed \\times e^x from 0 to 1. \\)",
+      "options": [
+        "A) 6 - e",
+        "B) 6 - 2e",
+        "C) e - 6",
+        "D) 2e - 6"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using integration by parts three \\times: result = 6 - 2e. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q27",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The shortest distance between the lines r = (1, 2, 3) + t(1, 1, 0) and r = (4, 5, 6) + s(0, 1, 1) is:",
+      "options": [
+        "A) 3",
+        "B) 3√3",
+        "C) √3",
+        "D) √6"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( a₁ = (1,2,3), b₁ = (1,1,0); a₂ = (4,5,6), b₂ = (0,1,1). a₂ - a₁ = (3,3,3). b₁ × b₂ = (1, -1, 1), \\left| \\1 \\right| = \\sqrt{3}. (a₂-a₁)·(b₁×b₂) = 3-3+3 = 3. Distance = \\left| \\1 \\right|/\\sqrt{3} = \\sqrt{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q28",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "hard",
+      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 3, find \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 36",
+        "B) 324",
+        "C) 144",
+        "D) 576"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( adj(2A) = 2²·adj(A) = 4·adj(A). \\left| \\1 \\right| = \\left| \\1 \\right| = 4³·\\left| \\1 \\right| = 64·\\left| \\1 \\right|² = 64·9 = 576. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q29",
+      "topic": "Probability Distributions",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "\\( A fair die is rolled 5 \\times. What is the probability of getting exactly 2 sixes? \\)",
+      "options": [
+        "A) 125/7776",
+        "B) 625/7776",
+        "C) 625/3888",
+        "D) 125/3888"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using binomial distribution: P(X=2) = ⁵C₂(\\frac{1}{6})²(\\frac{5}{6})³ = 10 × (\\frac{1}{36}) × (\\frac{125}{216}) = \\frac{1250}{7776} = \\frac{625}{3888}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q30",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "The general solution of dy/dx + 3y = 6x is:",
+      "options": [
+        "A) y = 2x + 2/3 + Ce^(3x)",
+        "B) y = 2x - 2/3 + Ce^(3x)",
+        "C) y = 2x - 2/3 + Ce^(-3x)",
+        "D) y = 6x - 2 + Ce^(-3x)"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( IF = e^{(∫3dx)} = e³ˣ. Multiplying: d/dx(y·e³ˣ) = 6x·e³ˣ. Integrating by parts: y·e³ˣ = 2x·e³ˣ - (\\frac{2}{3})e³ˣ + C. So y = 2x - \\frac{2}{3} + Ce^{(-3x)}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q31",
+      "topic": "Integrals",
+      "sub_topic": "Area under simple curves",
+      "difficulty": "hard",
+      "question": "Find the area bounded by the curve y = x² - 4 and the x-axis.",
+      "options": [
+        "A) 64/3",
+        "B) 8",
+        "C) 16/3",
+        "D) 32/3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( x² - 4 = 0 gives x = ±2. Area = ∫₋₂²\\left| \\1 \\right|dx = 2∫₀²(4 - x²)dx = 2[4x - x³/3]₀² = 2(8 - \\frac{8}{3}) = \\frac{32}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q32",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar triple product",
+      "difficulty": "hard",
+      "question": "If a = i + j + k, b = 2i - j + 3k, c = i + 2j - k, find the scalar triple product [a b c].",
+      "options": [
+        "A) 5",
+        "B) -5",
+        "C) -3",
+        "D) 3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( b × c = \\left| \\1 \\right| = i(1-6) - j(-2-3) + k(4+1) = -5i + 5j + 5k. [a b c] = a·(b×c) = -5 + 5 + 5 = 5. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q33",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "The eigenvalues of the matrix [[5, 2], [1, 4]] are:",
+      "options": [
+        "A) 2 and 7",
+        "B) 1 and 8",
+        "C) 4 and 5",
+        "D) 3 and 6"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = (5-λ)(4-λ) - 2 = λ² - 9λ + 18 = 0. Factoring: (λ-3)(λ-6) = 0. Eigenvalues are 3 and 6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q34",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "hard",
+      "question": "Maximize Z = 5x + 4y subject to x + y ≤ 7, 2x + y ≤ 10, x ≥ 0, y ≥ 0. The maximum value is:",
+      "options": [
+        "A) 28",
+        "B) 31",
+        "C) 35",
+        "D) 25"
+      ],
+      "correct_option": "B",
+      "explanation": "Corner points: (0,0), (0,7), (5,0), and intersection of x+y=7 and 2x+y=10 → x=3, y=4. Z(0,0)=0, Z(0,7)=28, Z(5,0)=25, Z(3,4)=15+16=31. Maximum = 31."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q35",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁴x dx.",
+      "options": [
+        "A) π/2",
+        "B) 3π/16",
+        "C) 3π/8",
+        "D) π/4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using the reduction formula: ∫₀^(π/2) sinⁿx dx = (n-1)/n × (n-3)/(n-2) × ... × π/2 for even n. For n=4: (\\frac{3}{4})(\\frac{1}{2})(π/2) = 3π/16. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q36",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "hard",
+      "question": "If f(x) = x⁴ - 2x³ + 3x² - 4x + 5, find f''(1).",
+      "options": [
+        "A) 8",
+        "B) 10",
+        "C) 6",
+        "D) 4"
+      ],
+      "correct_option": "C",
+      "explanation": "f'(x) = 4x³ - 6x² + 6x - 4. f''(x) = 12x² - 12x + 6. f''(1) = 12 - 12 + 6 = 6."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q37",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The equation of the plane passing through (1, -2, 3) and perpendicular to the line with direction ratios (2, -1, 4) is:",
+      "options": [
+        "A) x - 2y + 3z = 16",
+        "B) 2x - y + 4z = 8",
+        "C) 2x - y + 4z = 16",
+        "D) 2x - y + 4z = 12"
+      ],
+      "correct_option": "C",
+      "explanation": "The normal vector is (2, -1, 4). Using point-normal form: 2(x-1) - (y+2) + 4(z-3) = 0 → 2x - 2 - y - 2 + 4z - 12 = 0 → 2x - y + 4z = 16."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q38",
+      "topic": "Probability Distributions",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "hard",
+      "question": "In a binomial distribution with n = 6 and p = 0.5, P(X ≥ 4) equals:",
+      "options": [
+        "A) 1/2",
+        "B) 15/64",
+        "C) 11/32",
+        "D) 21/64"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(X ≥ 4) = P(X=4) + P(X=5) + P(X=6) = ⁶C₄(\\frac{1}{2})⁶ + ⁶C₅(\\frac{1}{2})⁶ + ⁶C₆(\\frac{1}{2})⁶ = (15+6+1)/64 = \\frac{22}{64} = \\frac{11}{32}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q39",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "Compute the matrix power: If A = [[3, 1], [1, 3]], find A³.",
+      "options": [
+        "A) [[30, 30], [30, 30]]",
+        "B) [[27, 9], [9, 27]]",
+        "C) [[36, 28], [28, 36]]",
+        "D) [[35, 29], [29, 35]]"
+      ],
+      "correct_option": "C",
+      "explanation": "We compute A³ = A·A·A using matrix multiplication. A² = [[10, 6], [6, 10]]. A³ = A²·A = [[10·3+6·1, 10·1+6·3], [6·3+10·1, 6·1+10·3]] = [[36, 28], [28, 36]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q40",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Find the value: The value of ∫₀¹ dx/(x² + 4) is:",
+      "options": [
+        "A) tan⁻¹(1/2)",
+        "B) π/8",
+        "C) (1/2)tan⁻¹(1/2)",
+        "D) (1/2)tan⁻¹(2)"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( ∫dx/(x²+a²) = (1/a)\\tan⁻¹(x/a). Here a=2: ∫₀¹ dx/(x²+4) = (\\frac{1}{2})[\\tan⁻¹(x/2)]₀¹ = (\\frac{1}{2})\\tan⁻¹(\\frac{1}{2}). This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q41",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "\\( Solve: dy/dx = (y² + x²)/(xy) using substitution y = vx. The resulting equation \\in v and x is: \\)",
+      "options": [
+        "A) v + x dv/dx = v + 1/v",
+        "B) x dv/dx = v²",
+        "C) dv/dx = 1/v",
+        "D) x dv/dx = 1/v"
+      ],
+      "correct_option": "D",
+      "explanation": "y = vx, dy/dx = v + x dv/dx. Substituting: v + x dv/dx = (v²x² + x²)/(x·vx) = (v²+1)/v. So x dv/dx = (v²+1)/v - v = 1/v."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q42",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a plane in space",
+      "difficulty": "hard",
+      "question": "The angle between the planes 2x - y + z = 3 and x + y - z = 1 is:",
+      "options": [
+        "A) π/6",
+        "B) π/4",
+        "C) π/3",
+        "D) π/2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Normal vectors: n₁ = (2, -1, 1), n₂ = (1, 1, -1). \\cos θ = \\left| \\1 \\right|/(\\left| \\1 \\right|\\left| \\1 \\right|) = \\left| \\1 \\right|/(\\sqrt{6}·\\sqrt{3}) = 0. So θ = π/2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q43",
+      "topic": "Probability Distributions",
+      "sub_topic": "Poisson distribution",
+      "difficulty": "hard",
+      "question": "If X follows a Poisson distribution with mean 4, then P(X = 3) is:",
+      "options": [
+        "A) 32e⁻⁴/3",
+        "B) 8e⁻⁴/3",
+        "C) 64e⁻⁴/3",
+        "D) 16e⁻⁴/3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(X=3) = e⁻⁴·4³/3! = e⁻⁴·\\frac{64}{6} = 32e⁻⁴/3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q44",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and minima",
+      "difficulty": "hard",
+      "question": "Find the minimum value of f(x) = x + 1/x for x > 0.",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) The function has no minimum",
+        "D) 0"
+      ],
+      "correct_option": "A",
+      "explanation": "f'(x) = 1 - 1/x² = 0 gives x = 1. f''(x) = 2/x³ > 0 for x > 0, confirming a minimum. f(1) = 1 + 1 = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q45",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Derivatives of inverse trigonometric functions",
+      "difficulty": "hard",
+      "question": "\\( Find the principal value of the inverse trigonometric function: The derivative of f(x) = \\tan⁻¹(\\sqrt{x}) is: \\)",
+      "options": [
+        "A) √x/(1+x)",
+        "B) 1/(√x(1+x))",
+        "C) 1/(2(1+x))",
+        "D) 1/(2√x(1+x))"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. f'(x) = 1/(1+(\\sqrt{x})²) · d/dx(\\sqrt{x}) = 1/(1+x) · 1/(2\\sqrt{x}) = 1/(2\\sqrt{x}(1+x)). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q46",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "A box contains 7 red and 5 blue balls. Three balls are drawn without replacement. What is the probability of getting at least one blue?",
+      "options": [
+        "A) 1/2",
+        "B) 7/44",
+        "C) 37/44",
+        "D) 35/120"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(at least one blue) = 1 - P(all red) = 1 - ⁷C₃/¹²C₃ = 1 - \\frac{35}{220} = \\frac{185}{220} = \\frac{37}{44}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q47",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "The rank of the matrix [[1, 2, 3], [0, 0, 1], [1, 2, 4]] is:",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 0",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "R₃ - R₁ gives [[1, 2, 3], [0, 0, 1], [0, 0, 1]]. R₃ - R₂ gives [[1, 2, 3], [0, 0, 1], [0, 0, 0]]. Two non-zero rows, so rank = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q48",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "\\( Find the value: Evaluate ∫₀¹ x\\sqrt{1 - x²} dx. \\)",
+      "options": [
+        "A) 1/3",
+        "B) 2/3",
+        "C) 1/2",
+        "D) 1/4"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Let u = 1 - x², du = -2x dx. When x = 0, u = 1; when x = 1, u = 0. ∫₀¹ x\\sqrt{1-x²} dx = -\\frac{1}{2} ∫₁⁰ \\sqrt{u} du = \\frac{1}{2} ∫₀¹ u^{(\\frac{1}{2})} du = \\frac{1}{2} · [u^{(\\frac{3}{2})}/(\\frac{3}{2})]₀¹ = \\frac{1}{2} · \\frac{2}{3} = \\frac{1}{3}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q49",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "hard",
+      "question": "\\( If A is a 2×2 matrix with \\left| \\1 \\right| = 3, find \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 1/3",
+        "B) 4/3",
+        "C) 2/3",
+        "D) 6"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = 2² · \\left| \\1 \\right| = 4 · 1/\\left| \\1 \\right| = \\frac{4}{3}. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P19_L9B_Q50",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "hard",
+      "question": "The function f(x) = x⁴ - 8x³ + 24x² - 32x + 16 has a critical point at x =",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 2",
+        "D) 4"
+      ],
+      "correct_option": "C",
+      "explanation": "f'(x) = 4x³ - 24x² + 48x - 32 = 4(x³ - 6x² + 12x - 8) = 4(x-2)³. Setting f'(x) = 0 gives x = 2."
+    }
+  ]
+}

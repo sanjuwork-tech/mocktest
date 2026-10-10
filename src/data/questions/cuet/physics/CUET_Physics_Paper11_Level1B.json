@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_PHY_2026_P11_L1B",
+  "series_id": "CUET_PHY_2026",
+  "paper_number": 11,
+  "difficulty_level": "1B",
+  "subject": "Physics (Code: 322)",
+  "syllabus_source": "cuet physics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q01",
+      "topic": "Electrostatics",
+      "sub_topic": "Coulomb's Law",
+      "difficulty": "easy",
+      "question": "Two point charges +2 μC and -3 μC are placed 0.4 m apart in vacuum. The magnitude of electrostatic force between them is: (k = 9×10⁹ N·m²/C²)",
+      "options": [
+        "A) 1.35 N",
+        "B) 0.3375 N",
+        "C) 0.16875 N",
+        "D) 0.675 N"
+      ],
+      "correct_option": "B",
+      "explanation": "F = k|q₁q₂|/r² = (9×10⁹)(2×10⁻⁶)(3×10⁻⁶)/(0.4)² = (9×10⁹)(6×10⁻¹²)/0.16 = (54×10⁻³)/0.16 = 0.3375 N"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q02",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Field Lines",
+      "difficulty": "easy",
+      "question": "Electric field lines about a single positive point charge are:",
+      "options": [
+        "A) Radially outward straight lines",
+        "B) Circular and concentric",
+        "C) Radially inward straight lines",
+        "D) Parallel straight lines"
+      ],
+      "correct_option": "A",
+      "explanation": "Field lines for a positive point charge are straight lines radiating outward from the charge."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q03",
+      "topic": "Electrostatics",
+      "sub_topic": "Gauss's Law",
+      "difficulty": "medium",
+      "question": "A closed surface encloses charges +3 μC and -5 μC. The net flux through the surface is: (ε₀ = 8.85×10⁻¹² C²/N·m²)",
+      "options": [
+        "A) 2.26×10⁵ N·m²/C",
+        "B) 9.04×10⁵ N·m²/C",
+        "C) -2.26×10⁵ N·m²/C",
+        "D) -9.04×10⁵ N·m²/C"
+      ],
+      "correct_option": "C",
+      "explanation": "Φ = Q_enclosed/ε₀ = (3-5)×10⁻⁶/8.85×10⁻¹² = (-2×10⁻⁶)/(8.85×10⁻¹²) = -2.26×10⁵ N·m²/C"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q04",
+      "topic": "Electrostatics",
+      "sub_topic": "Capacitance and Energy",
+      "difficulty": "easy",
+      "question": "A 20 μF capacitor is charged to 50 V. The charge stored is:",
+      "options": [
+        "A) 2.5 mC",
+        "B) 0.4 mC",
+        "C) 10 mC",
+        "D) 1 mC"
+      ],
+      "correct_option": "D",
+      "explanation": "Q = CV = (20×10⁻⁶)(50) = 1000×10⁻⁶ = 1×10⁻³ C = 1 mC"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q05",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Potential and Field",
+      "difficulty": "medium",
+      "question": "In a uniform electric field of 100 V/m, the potential difference between two points 0.5 m apart along the field direction is:",
+      "options": [
+        "A) 100 V",
+        "B) 500 V",
+        "C) 50 V",
+        "D) 200 V"
+      ],
+      "correct_option": "C",
+      "explanation": "ΔV = Ed = (100)(0.5) = 50 V"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q06",
+      "topic": "Electrostatics",
+      "sub_topic": "Conservation of Charge",
+      "difficulty": "easy",
+      "question": "When two identical conducting spheres, one with charge +8 μC and another with charge -4 μC, are brought into contact and separated, the final charge on each is:",
+      "options": [
+        "A) +4 μC each",
+        "B) +1 μC each",
+        "C) +6 μC each",
+        "D) +2 μC each"
+      ],
+      "correct_option": "D",
+      "explanation": "Total charge = +8 + (-4) = +4 μC. On identical spheres, charge redistributes equally: +2 μC on each."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q07",
+      "topic": "Current Electricity",
+      "sub_topic": "Drift Velocity",
+      "difficulty": "easy",
+      "question": "The drift velocity of electrons in a copper wire of cross-section 1 mm² carrying 1 A current is approximately: (n = 8.5×10²⁸ m⁻³, e = 1.6×10⁻¹⁹ C)",
+      "options": [
+        "A) 0.07 mm/s",
+        "B) 0.7 mm/s",
+        "C) 0.007 mm/s",
+        "D) 7 mm/s"
+      ],
+      "correct_option": "A",
+      "explanation": "I = nAev_d → v_d = I/(nAe) = 1/(8.5×10²⁸×10⁻⁶×1.6×10⁻¹⁹) = 1/(13.6×10³) = 7.35×10⁻⁵ m/s = 0.0735 mm/s"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q08",
+      "topic": "Current Electricity",
+      "sub_topic": "Temperature Dependence of Resistance",
+      "difficulty": "easy",
+      "question": "The resistance of a metal wire increases with temperature because:",
+      "options": [
+        "A) Number of free electrons decreases",
+        "B) Relaxation time of electrons decreases",
+        "C) Length of wire decreases",
+        "D) Cross-sectional area decreases"
+      ],
+      "correct_option": "B",
+      "explanation": "As temperature increases, lattice vibrations increase, reducing the mean free path and relaxation time of electrons, thereby increasing resistivity and resistance."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q09",
+      "topic": "Current Electricity",
+      "sub_topic": "Internal Resistance",
+      "difficulty": "easy",
+      "question": "A cell of emf 2 V and internal resistance 0.5 Ω is connected to a 3.5 Ω resistor. The terminal voltage is:",
+      "options": [
+        "A) 1.75 V",
+        "B) 2 V",
+        "C) 1.5 V",
+        "D) 1.25 V"
+      ],
+      "correct_option": "A",
+      "explanation": "I = E/(R+r) = 2/(3.5+0.5) = 2/4 = 0.5 A. V_T = E - Ir = 2 - (0.5)(0.5) = 2 - 0.25 = 1.75 V"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q10",
+      "topic": "Current Electricity",
+      "sub_topic": "Potentiometer",
+      "difficulty": "medium",
+      "question": "In a potentiometer experiment, the balance point for a cell of emf 1.5 V is obtained at 60 cm. The emf of another cell that balances at 90 cm is:",
+      "options": [
+        "A) 1 V",
+        "B) 2 V",
+        "C) 3 V",
+        "D) 2.25 V"
+      ],
+      "correct_option": "D",
+      "explanation": "E ∝ L → E₂/E₁ = L₂/L₁ → E₂/1.5 = 90/60 → E₂ = 2.25 V"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q11",
+      "topic": "Current Electricity",
+      "sub_topic": "Series and Parallel Resistors",
+      "difficulty": "easy",
+      "question": "Three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. The equivalent resistance is:",
+      "options": [
+        "A) 11 Ω",
+        "B) 1 Ω",
+        "C) 1.5 Ω",
+        "D) 0.5 Ω"
+      ],
+      "correct_option": "B",
+      "explanation": "1/R_eq = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1 → R_eq = 1 Ω"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q12",
+      "topic": "Current Electricity",
+      "sub_topic": "Maximum Power Transfer",
+      "difficulty": "hard",
+      "question": "A battery of emf 12 V and internal resistance 2 Ω delivers maximum power to an external resistor. The maximum power delivered is:",
+      "options": [
+        "A) 72 W",
+        "B) 144 W",
+        "C) 18 W",
+        "D) 36 W"
+      ],
+      "correct_option": "C",
+      "explanation": "For max power transfer, R = r = 2 Ω. I = E/(R+r) = 12/4 = 3 A. P = I²R = 9×2 = 18 W (or P_max = E²/(4r) = 144/8 = 18 W)"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q13",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Force on Moving Charge",
+      "difficulty": "easy",
+      "question": "A proton moving with velocity 10⁶ m/s perpendicular to a magnetic field of 0.5 T experiences a force of: (q = 1.6×10⁻¹⁹ C)",
+      "options": [
+        "A) 1.6×10⁻¹³ N",
+        "B) 3.2×10⁻¹³ N",
+        "C) 8×10⁻¹⁴ N",
+        "D) 0.8×10⁻¹³ N"
+      ],
+      "correct_option": "D",
+      "explanation": "F = qvB = (1.6×10⁻¹⁹)(10⁶)(0.5) = 0.8×10⁻¹³ N = 8×10⁻¹⁴ N"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q14",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Cyclotron",
+      "difficulty": "easy",
+      "question": "In a cyclotron, the kinetic energy of a charged particle depends on:",
+      "options": [
+        "A) The radius of the dees",
+        "B) The accelerating voltage",
+        "C) The time spent in the cyclotron",
+        "D) The frequency of the electric field"
+      ],
+      "correct_option": "A",
+      "explanation": "K.E. = q²B²R²/(2m) where R is the radius of the dee. Final kinetic energy depends on the dee radius, not the accelerating voltage."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q15",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Moment",
+      "difficulty": "easy",
+      "question": "A current loop of area 0.1 m² carrying 2 A current has magnetic moment of:",
+      "options": [
+        "A) 5 A·m²",
+        "B) 0.05 A·m²",
+        "C) 0.2 A·m²",
+        "D) 20 A·m²"
+      ],
+      "correct_option": "C",
+      "explanation": "μ = IA = (2)(0.1) = 0.2 A·m²"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q16",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Torque on Current Loop",
+      "difficulty": "medium",
+      "question": "A rectangular coil of 100 turns, area 0.02 m², carrying 1 A current is placed in a 0.4 T magnetic field at 30° to the field. The torque on the coil is:",
+      "options": [
+        "A) 0.2 N·m",
+        "B) 0.8 N·m",
+        "C) 0.6 N·m",
+        "D) 0.4 N·m"
+      ],
+      "correct_option": "D",
+      "explanation": "τ = NIABsinθ = (100)(1)(0.02)(0.4)sin30° = (100)(1)(0.02)(0.4)(0.5) = 0.4 N·m"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q17",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Earth's Magnetic Field",
+      "difficulty": "easy",
+      "question": "The horizontal component of Earth's magnetic field at a place where dip angle is 60° and total field is 0.4 G is:",
+      "options": [
+        "A) 0.35 G",
+        "B) 0.2 G",
+        "C) 0.8 G",
+        "D) 0.4 G"
+      ],
+      "correct_option": "B",
+      "explanation": "H = B cos δ = 0.4 × cos60° = 0.4 × 0.5 = 0.2 G"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q18",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Self-Inductance",
+      "difficulty": "easy",
+      "question": "A coil has self-inductance 0.5 H. The induced emf when current changes from 2 A to 0 A in 0.1 s is:",
+      "options": [
+        "A) 10 V",
+        "B) 5 V",
+        "C) 1 V",
+        "D) 20 V"
+      ],
+      "correct_option": "A",
+      "explanation": "ε = -L(dI/dt) = -0.5(0-2)/0.1 = -0.5(-20) = 10 V. Magnitude = 10 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q19",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Eddy Currents",
+      "difficulty": "easy",
+      "question": "Eddy currents are used in:",
+      "options": [
+        "A) Capacitors to store energy",
+        "B) Electric motors to increase speed",
+        "C) Electromagnetic braking",
+        "D) Transformers to increase voltage"
+      ],
+      "correct_option": "C",
+      "explanation": "Eddy currents are used in electromagnetic braking systems (like in trains) where the induced currents oppose motion, providing smooth braking."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q20",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "RMS Values",
+      "difficulty": "easy",
+      "question": "The peak value of a 220 V AC supply is:",
+      "options": [
+        "A) 156 V",
+        "B) 311 V",
+        "C) 440 V",
+        "D) 220 V"
+      ],
+      "correct_option": "B",
+      "explanation": "V_rms = V₀/√2 → V₀ = V_rms × √2 = 220 × 1.414 = 311 V"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q21",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Power in AC Circuit",
+      "difficulty": "medium",
+      "question": "In an AC circuit with pure inductor, the power consumed is:",
+      "options": [
+        "A) Maximum",
+        "B) Half of maximum",
+        "C) Equal to VI",
+        "D) Zero"
+      ],
+      "correct_option": "D",
+      "explanation": "In a pure inductor, voltage and current are 90° out of phase. Power factor cos90° = 0, so average power consumed is zero. Energy is stored and returned."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q22",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Induced EMF in Rotating Coil",
+      "difficulty": "easy",
+      "question": "A coil of 50 turns rotates at 60 rad/s in a 0.2 T field. If area is 0.1 m², the maximum induced emf is:",
+      "options": [
+        "A) 600 V",
+        "B) 30 V",
+        "C) 60 V",
+        "D) 6 V"
+      ],
+      "correct_option": "C",
+      "explanation": "ε_max = NBAω = (50)(0.2)(0.1)(60) = 60 V"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q23",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "LC Oscillations",
+      "difficulty": "hard",
+      "question": "In an LC circuit with L = 10 mH and C = 100 μF, the frequency of oscillation is:",
+      "options": [
+        "A) 318 Hz",
+        "B) 500 Hz",
+        "C) 50 Hz",
+        "D) 159 Hz"
+      ],
+      "correct_option": "D",
+      "explanation": "f = 1/(2π√(LC)) = 1/(2π√(10×10⁻³×100×10⁻⁶)) = 1/(2π√(10⁻⁶)) = 1/(2π×10⁻³) = 159 Hz"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q24",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Spectrum Properties",
+      "difficulty": "easy",
+      "question": "EM waves can travel through vacuum because they:",
+      "options": [
+        "A) Are self-propagating oscillations of electric and magnetic fields",
+        "B) Travel as particles only",
+        "C) Are mechanical waves",
+        "D) Need a medium"
+      ],
+      "correct_option": "A",
+      "explanation": "EM waves are oscillations of electric and magnetic fields that regenerate each other, requiring no material medium."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q25",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Applications of EM Waves",
+      "difficulty": "easy",
+      "question": "Microwaves are used in radar because they:",
+      "options": [
+        "A) Can penetrate clouds and fog",
+        "B) Are ionizing radiation",
+        "C) Have long wavelength",
+        "D) Have very high frequency"
+      ],
+      "correct_option": "A",
+      "explanation": "Microwaves (wavelength ~cm) can penetrate clouds, fog, and light rain, making them suitable for radar applications."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q26",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Speed of EM Waves",
+      "difficulty": "medium",
+      "question": "An EM wave of frequency 100 MHz travels in a medium of refractive index 2. Its wavelength in the medium is: (c = 3×10⁸ m/s)",
+      "options": [
+        "A) 0.75 m",
+        "B) 3 m",
+        "C) 6 m",
+        "D) 1.5 m"
+      ],
+      "correct_option": "D",
+      "explanation": "λ = v/f = (c/n)/f = (3×10⁸/2)/(100×10⁶) = (1.5×10⁸)/(10⁸) = 1.5 m"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q27",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Polarization",
+      "difficulty": "medium",
+      "question": "The fact that EM waves are transverse is demonstrated by:",
+      "options": [
+        "A) Refraction",
+        "B) Polarization",
+        "C) Reflection",
+        "D) Diffraction"
+      ],
+      "correct_option": "B",
+      "explanation": "Only transverse waves can be polarized. The polarization of EM waves proves they are transverse in nature."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q28",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Intensity and Amplitude",
+      "difficulty": "easy",
+      "question": "The intensity of an EM wave is proportional to:",
+      "options": [
+        "A) Square root of amplitude",
+        "B) Amplitude",
+        "C) Square of amplitude",
+        "D) Cube of amplitude"
+      ],
+      "correct_option": "C",
+      "explanation": "Intensity I = ½ε₀cE₀², which is proportional to the square of the electric field amplitude."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q29",
+      "topic": "Optics",
+      "sub_topic": "Total Internal Reflection",
+      "difficulty": "easy",
+      "question": "The critical angle for light going from glass (n=1.5) to air (n=1) is:",
+      "options": [
+        "A) 41.8°",
+        "B) 45°",
+        "C) 60°",
+        "D) 30°"
+      ],
+      "correct_option": "A",
+      "explanation": "sin θ_c = n₂/n₁ = 1/1.5 = 0.667 → θ_c = arcsin(0.667) ≈ 41.8°"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q30",
+      "topic": "Optics",
+      "sub_topic": "Lens Maker's Formula",
+      "difficulty": "medium",
+      "question": "A convex lens of refractive index 1.5 is placed in water (n=1.33). Compared to air, its focal length:",
+      "options": [
+        "A) Becomes zero",
+        "B) Increases",
+        "C) Remains same",
+        "D) Decreases"
+      ],
+      "correct_option": "B",
+      "explanation": "1/f = (n-1)(1/R₁-1/R₂). In water, (1.5-1.33)/(1.5-1) = 0.17/0.5 = 0.34, which is less than 1 in air. So focal length increases."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q31",
+      "topic": "Optics",
+      "sub_topic": "Huygens Principle",
+      "difficulty": "easy",
+      "question": "According to Huygens principle, each point on a wavefront acts as a source of:",
+      "options": [
+        "A) Transverse waves only",
+        "B) Particles",
+        "C) Energy only",
+        "D) Secondary wavelets"
+      ],
+      "correct_option": "D",
+      "explanation": "Huygens principle states every point on a wavefront is a source of secondary wavelets that spread out in all directions."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q32",
+      "topic": "Optics",
+      "sub_topic": "Resolving Power",
+      "difficulty": "easy",
+      "question": "The resolving power of a telescope depends on:",
+      "options": [
+        "A) Diameter of objective",
+        "B) Focal length of objective",
+        "C) Magnification",
+        "D) Length of telescope"
+      ],
+      "correct_option": "A",
+      "explanation": "Resolving power = 1.22λ/D where D is the diameter of the objective lens. Larger diameter gives better resolution."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q33",
+      "topic": "Optics",
+      "sub_topic": "Polarization by Reflection",
+      "difficulty": "medium",
+      "question": "At Brewster's angle, the reflected light is:",
+      "options": [
+        "A) Unpolarized",
+        "B) Completely polarized parallel to the plane of incidence",
+        "C) Completely polarized perpendicular to the plane of incidence",
+        "D) Partially polarized"
+      ],
+      "correct_option": "C",
+      "explanation": "At Brewster's angle, the reflected light is completely plane-polarized with vibrations perpendicular to the plane of incidence (s-polarized)."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q34",
+      "topic": "Optics",
+      "sub_topic": "Optical Fiber",
+      "difficulty": "easy",
+      "question": "Optical fibers work on the principle of:",
+      "options": [
+        "A) Refraction",
+        "B) Total internal reflection",
+        "C) Interference",
+        "D) Diffraction"
+      ],
+      "correct_option": "B",
+      "explanation": "Optical fibers use total internal reflection to guide light through the core, which has higher refractive index than the cladding."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q35",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Threshold Frequency",
+      "difficulty": "easy",
+      "question": "The threshold frequency for a metal is 5×10¹⁴ Hz. The work function is: (h = 6.63×10⁻³⁴ J·s)",
+      "options": [
+        "A) 6.63×10⁻¹⁹ J",
+        "B) 3.315×10⁻¹⁹ J",
+        "C) 1.326×10⁻¹⁹ J",
+        "D) 1.656×10⁻¹⁹ J"
+      ],
+      "correct_option": "B",
+      "explanation": "φ = hf₀ = (6.63×10⁻³⁴)(5×10¹⁴) = 3.315×10⁻¹⁹ J"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q36",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "De Broglie Hypothesis",
+      "difficulty": "easy",
+      "question": "All matter exhibits wave-like properties according to de Broglie. This is called:",
+      "options": [
+        "A) Quantization",
+        "B) Uncertainty principle",
+        "C) Wave-particle duality",
+        "D) Superposition"
+      ],
+      "correct_option": "C",
+      "explanation": "De Broglie proposed that all matter has wave-particle duality, with λ = h/p."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q37",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Davisson-Germer Experiment",
+      "difficulty": "easy",
+      "question": "The Davisson-Germer experiment demonstrated the:",
+      "options": [
+        "A) Wave nature of electrons",
+        "B) Uncertainty principle",
+        "C) Quantization of energy",
+        "D) Particle nature of light"
+      ],
+      "correct_option": "A",
+      "explanation": "Davisson-Germer experiment showed electron diffraction by a nickel crystal, confirming de Broglie's hypothesis of matter waves."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q38",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Einstein's Photoelectric Equation",
+      "difficulty": "medium",
+      "question": "For a metal surface, the stopping potential is 1.8 V for light of wavelength 350 nm. The work function is: (h = 4.14×10⁻¹⁵ eV·s, c = 3×10⁸ m/s)",
+      "options": [
+        "A) 1.2 eV",
+        "B) 2.5 eV",
+        "C) 3.54 eV",
+        "D) 1.74 eV"
+      ],
+      "correct_option": "D",
+      "explanation": "E = hc/λ = (4.14×10⁻¹⁵×3×10⁸)/(350×10⁻⁹) = 3.54 eV. φ = E - eV_s = 3.54 - 1.8 = 1.74 eV"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q39",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Compton Effect and Momentum",
+      "difficulty": "hard",
+      "question": "A photon has energy 2 eV. Its momentum is: (c = 3×10⁸ m/s, 1 eV = 1.6×10⁻¹⁹ J)",
+      "options": [
+        "A) 1.07×10⁻²⁷ kg·m/s",
+        "B) 2.13×10⁻²⁷ kg·m/s",
+        "C) 3.2×10⁻¹⁹ kg·m/s",
+        "D) 6.4×10⁻¹⁹ kg·m/s"
+      ],
+      "correct_option": "A",
+      "explanation": "p = E/c = (2×1.6×10⁻¹⁹)/(3×10⁸) = 3.2×10⁻¹⁹/(3×10⁸) = 1.07×10⁻²⁷ kg·m/s"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q40",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Bohr Model and Energy Levels",
+      "difficulty": "easy",
+      "question": "The radius of the first Bohr orbit in hydrogen atom is approximately:",
+      "options": [
+        "A) 0.26 Å",
+        "B) 2.12 Å",
+        "C) 0.53 Å",
+        "D) 1.06 Å"
+      ],
+      "correct_option": "C",
+      "explanation": "r₁ = 0.529 Å ≈ 0.53 Å (Bohr radius)"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q41",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Paschen Series",
+      "difficulty": "easy",
+      "question": "The Paschen series of hydrogen spectrum lies in which region?",
+      "options": [
+        "A) Infrared",
+        "B) X-ray",
+        "C) Ultraviolet",
+        "D) Visible"
+      ],
+      "correct_option": "A",
+      "explanation": "Paschen series (transitions to n=3) produces infrared radiation. Lyman (n=1) is UV, Balmer (n=2) is visible."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q42",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Density",
+      "difficulty": "easy",
+      "question": "Nuclear density is approximately the same for all nuclei because:",
+      "options": [
+        "A) Nuclei have same radius",
+        "B) Mass is proportional to volume",
+        "C) Nucleons repel each other",
+        "D) Nuclear forces are short-range"
+      ],
+      "correct_option": "B",
+      "explanation": "Nuclear density is constant because mass ∝ A (number of nucleons) and volume ∝ R³ ∝ A (since R = r₀A^(1/3)), so mass/volume ≈ constant."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q43",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Alpha Decay",
+      "difficulty": "medium",
+      "question": "In alpha decay, the alpha particle emitted from ²³⁸U has kinetic energy 4.2 MeV. The recoil energy of the daughter nucleus is approximately: (mass ratio α:daughter ≈ 1:58.5)",
+      "options": [
+        "A) 4.2 MeV",
+        "B) 8.4 MeV",
+        "C) 2.1 MeV",
+        "D) 0.072 MeV"
+      ],
+      "correct_option": "D",
+      "explanation": "By conservation of momentum, m_αv_α = m_dv_d. Since K.E. ∝ 1/m, K_d/K_α = m_α/m_d ≈ 1/58.5. K_d = 4.2/58.5 ≈ 0.072 MeV"
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q44",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Beta Decay",
+      "difficulty": "easy",
+      "question": "In beta decay, the emitted particle is:",
+      "options": [
+        "A) Neutron",
+        "B) Alpha particle",
+        "C) Electron",
+        "D) Proton"
+      ],
+      "correct_option": "C",
+      "explanation": "In β⁻ decay, a neutron converts to a proton, emitting an electron (beta particle) and an antineutrino."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q45",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Force",
+      "difficulty": "easy",
+      "question": "The nuclear force between two protons is:",
+      "options": [
+        "A) Long-range and repulsive",
+        "B) Short-range and attractive",
+        "C) Long-range and attractive",
+        "D) Short-range and repulsive"
+      ],
+      "correct_option": "B",
+      "explanation": "Nuclear force is a short-range (~femtometer) attractive force that binds nucleons together in the nucleus."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q46",
+      "topic": "Electronic Devices",
+      "sub_topic": "Band Theory",
+      "difficulty": "easy",
+      "question": "In a semiconductor, the energy gap between valence and conduction bands is:",
+      "options": [
+        "A) More than 5 eV",
+        "B) Zero",
+        "C) Infinite",
+        "D) About 1 eV"
+      ],
+      "correct_option": "D",
+      "explanation": "Semiconductors have a small band gap (~1 eV) compared to insulators (>5 eV) and conductors (0 eV or overlapping bands)."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q47",
+      "topic": "Electronic Devices",
+      "sub_topic": "Intrinsic and Extrinsic Semiconductors",
+      "difficulty": "easy",
+      "question": "Doping a pure silicon crystal with phosphorus makes it:",
+      "options": [
+        "A) p-type",
+        "B) Intrinsic",
+        "C) n-type",
+        "D) Insulator"
+      ],
+      "correct_option": "C",
+      "explanation": "Phosphorus has 5 valence electrons vs silicon's 4. Extra electrons make it n-type (negative carriers)."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q48",
+      "topic": "Electronic Devices",
+      "sub_topic": "Diode VI Characteristics",
+      "difficulty": "medium",
+      "question": "In the VI characteristic of a p-n junction diode, the current rises sharply in forward bias when voltage exceeds:",
+      "options": [
+        "A) Saturation voltage",
+        "B) Threshold/cut-in voltage (~0.7 V for Si)",
+        "C) Breakdown voltage",
+        "D) 0 V"
+      ],
+      "correct_option": "B",
+      "explanation": "Current rises sharply only after overcoming the barrier potential (~0.7 V for Si, ~0.3 V for Ge) in forward bias."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q49",
+      "topic": "Electronic Devices",
+      "sub_topic": "Transistor Configurations",
+      "difficulty": "easy",
+      "question": "The common emitter configuration of a transistor provides:",
+      "options": [
+        "A) Neither voltage nor current gain",
+        "B) Only current gain",
+        "C) Only voltage gain",
+        "D) Both voltage and current gain"
+      ],
+      "correct_option": "D",
+      "explanation": "CE configuration provides both voltage gain and current gain, making it the most widely used for amplification."
+    },
+    {
+      "id": "CUET_PHY_2026_P11_L1B_Q50",
+      "topic": "Electronic Devices",
+      "sub_topic": "LED",
+      "difficulty": "easy",
+      "question": "LED stands for:",
+      "options": [
+        "A) Low Energy Device",
+        "B) Light Emitting Diode",
+        "C) Long Electron Diffraction",
+        "D) Linear Electronic Display"
+      ],
+      "correct_option": "B",
+      "explanation": "LED = Light Emitting Diode, a semiconductor device that emits light when forward biased."
+    }
+  ]
+}

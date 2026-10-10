@@ -144,9 +144,11 @@ export function StudentLogin() {
             onSubmit={(e) => {
               e.preventDefault();
               const data = new FormData(e.currentTarget);
+              const email = String(data.get("email")).trim().toLowerCase();
               if (
-                String(data.get("email")).trim().toLowerCase() !==
-                  "student@testdisha.demo" ||
+                (email !== "student@ourmocks.com" &&
+                  email !== "student@ourmocks.demo" &&
+                  email !== "student@testdisha.demo") ||
                 data.get("password") !== "Student@123"
               ) {
                 setError("Use the demo email and password shown below, or click 'Continue with Google'.");
@@ -168,7 +170,7 @@ export function StudentLogin() {
                     type="email"
                     autoComplete="username"
                     required
-                    defaultValue="student@testdisha.demo"
+                    defaultValue="student@ourmocks.com"
                   />
                 </label>
                 <label>

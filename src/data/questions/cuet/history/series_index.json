@@ -1,0 +1,822 @@
+{
+  "series_id": "CUET_HIS_2026",
+  "subject": "History (Code: 314)",
+  "syllabus_source": "cuet history syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "CUET UG History Past Papers (2022-2024)",
+  "total_papers": 25,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "total_questions_series": 1250,
+  "papers": [
+    {
+      "paper_number": 1,
+      "level": "1",
+      "filename": "CUET_History_Paper1_Level1.json",
+      "difficulty_distribution": {
+        "easy": "35 (70%)",
+        "medium": "12 (24%)",
+        "hard": "3 (6%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 13,
+        "C": 12,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 2,
+      "level": "2",
+      "filename": "CUET_History_Paper2_Level2.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 3,
+      "level": "3",
+      "filename": "CUET_History_Paper3_Level3.json",
+      "difficulty_distribution": {
+        "easy": "25 (50%)",
+        "medium": "17 (34%)",
+        "hard": "8 (16%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 4,
+      "level": "4",
+      "filename": "CUET_History_Paper4_Level4.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 5,
+      "level": "5",
+      "filename": "CUET_History_Paper5_Level5.json",
+      "difficulty_distribution": {
+        "easy": "15 (30%)",
+        "medium": "23 (46%)",
+        "hard": "12 (24%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 6,
+      "level": "6",
+      "filename": "CUET_History_Paper6_Level6.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 7,
+      "level": "7",
+      "filename": "CUET_History_Paper7_Level7.json",
+      "difficulty_distribution": {
+        "easy": "10 (20%)",
+        "medium": "22 (44%)",
+        "hard": "18 (36%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 8,
+      "level": "8",
+      "filename": "CUET_History_Paper8_Level8.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 9,
+      "level": "9",
+      "filename": "CUET_History_Paper9_Level9.json",
+      "difficulty_distribution": {
+        "easy": "5 (10%)",
+        "medium": "20 (40%)",
+        "hard": "25 (50%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 10,
+      "level": "10",
+      "filename": "CUET_History_Paper10_Level10.json",
+      "difficulty_distribution": {
+        "easy": "3 (6%)",
+        "medium": "15 (30%)",
+        "hard": "32 (64%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 11,
+      "level": "1B",
+      "filename": "CUET_History_Paper11_Level1B.json",
+      "difficulty_distribution": {
+        "easy": "35 (70%)",
+        "medium": "12 (24%)",
+        "hard": "3 (6%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 12,
+      "level": "2B",
+      "filename": "CUET_History_Paper12_Level2B.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 13,
+      "level": "3B",
+      "filename": "CUET_History_Paper13_Level3B.json",
+      "difficulty_distribution": {
+        "easy": "25 (50%)",
+        "medium": "17 (34%)",
+        "hard": "8 (16%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 14,
+      "level": "4B",
+      "filename": "CUET_History_Paper14_Level4B.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 15,
+      "level": "5B",
+      "filename": "CUET_History_Paper15_Level5B.json",
+      "difficulty_distribution": {
+        "easy": "15 (30%)",
+        "medium": "23 (46%)",
+        "hard": "12 (24%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 16,
+      "level": "6B",
+      "filename": "CUET_History_Paper16_Level6B.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 17,
+      "level": "7B",
+      "filename": "CUET_History_Paper17_Level7B.json",
+      "difficulty_distribution": {
+        "easy": "10 (20%)",
+        "medium": "22 (44%)",
+        "hard": "18 (36%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 18,
+      "level": "8B",
+      "filename": "CUET_History_Paper18_Level8B.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society: Evidence from Official Reports",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism: Cultural Developments",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers Accounts",
+        "Political and Economic Systems in Early States: Inscriptional Evidences",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies: Mahabharata",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 19,
+      "level": "9B",
+      "filename": "CUET_History_Paper19_Level9B.json",
+      "difficulty_distribution": {
+        "easy": "5 (10%)",
+        "medium": "20 (40%)",
+        "hard": "25 (50%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 20,
+      "level": "10B",
+      "filename": "CUET_History_Paper20_Level10B.json",
+      "difficulty_distribution": {
+        "easy": "3 (6%)",
+        "medium": "15 (30%)",
+        "hard": "32 (64%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 21,
+      "level": "2C",
+      "filename": "CUET_History_Paper21_Level2C.json",
+      "difficulty_distribution": {
+        "easy": "30 (60%)",
+        "medium": "15 (30%)",
+        "hard": "5 (10%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 22,
+      "level": "4C",
+      "filename": "CUET_History_Paper22_Level4C.json",
+      "difficulty_distribution": {
+        "easy": "20 (40%)",
+        "medium": "20 (40%)",
+        "hard": "10 (20%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 23,
+      "level": "6C",
+      "filename": "CUET_History_Paper23_Level6C.json",
+      "difficulty_distribution": {
+        "easy": "12 (24%)",
+        "medium": "23 (46%)",
+        "hard": "15 (30%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 24,
+      "level": "8C",
+      "filename": "CUET_History_Paper24_Level8C.json",
+      "difficulty_distribution": {
+        "easy": "8 (16%)",
+        "medium": "22 (44%)",
+        "hard": "20 (40%)"
+      },
+      "key_distribution": {
+        "A": 13,
+        "B": 12,
+        "C": 13,
+        "D": 12
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    },
+    {
+      "paper_number": 25,
+      "level": "10C",
+      "filename": "CUET_History_Paper25_Level10C.json",
+      "difficulty_distribution": {
+        "easy": "3 (6%)",
+        "medium": "15 (30%)",
+        "hard": "32 (64%)"
+      },
+      "key_distribution": {
+        "A": 12,
+        "B": 13,
+        "C": 12,
+        "D": 13
+      },
+      "total_questions": 50,
+      "topics_covered": [
+        "Colonialism and Rural Society",
+        "Harappan Civilisation and Archaeology",
+        "History of Buddhism and Jainism",
+        "Mahatma Gandhi and National Movements",
+        "Medieval Society through Travellers' Accounts",
+        "Political and Economic Systems in Early States",
+        "Religious History: Bhakti-Sufi Traditions",
+        "Revolt of 1857: Patterns and Representations",
+        "Social Histories of Early Societies",
+        "The Making of the Constitution",
+        "The Mughal Empire and Agrarian Society",
+        "Vijayanagara Empire: Politics, Economy and Architecture"
+      ],
+      "status": "complete"
+    }
+  ],
+  "cumulative_key_distribution": {
+    "A": 313,
+    "B": 313,
+    "C": 312,
+    "D": 312
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P1_L1",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 1,
+  "difficulty_level": "1",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P1_L1_Q01",
+      "topic": "Python",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "Which exception is raised when a user tries to access an index that is out of range in a list?",
+      "options": [
+        "A) TypeError",
+        "B) IndexError",
+        "C) ValueError",
+        "D) KeyError"
+      ],
+      "correct_option": "B",
+      "explanation": "IndexError is raised when trying to access an index that does not exist in a sequence like a list or tuple."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q02",
+      "topic": "Python",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "What keyword is used to handle exceptions in Python?",
+      "options": [
+        "A) handle",
+        "B) except",
+        "C) try",
+        "D) catch"
+      ],
+      "correct_option": "C",
+      "explanation": "In Python, exceptions are handled using try/except blocks. 'try' wraps code that may raise an exception."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q03",
+      "topic": "Python",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "Which method is used to read the entire content of a file object 'f'?",
+      "options": [
+        "A) f.readline()",
+        "B) f.readlines()",
+        "C) f.get()",
+        "D) f.read()"
+      ],
+      "correct_option": "D",
+      "explanation": "f.read() reads and returns the entire file content as a single string."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q04",
+      "topic": "Python",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "Which mode opens a file for both reading and writing?",
+      "options": [
+        "A) r+",
+        "B) r",
+        "C) w",
+        "D) a"
+      ],
+      "correct_option": "A",
+      "explanation": "The 'r+' mode opens a file for both reading and writing without truncating the file."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q05",
+      "topic": "Python",
+      "sub_topic": "Data Structures (Stack)",
+      "difficulty": "easy",
+      "question": "Which principle does a Stack follow?",
+      "options": [
+        "A) FIFO (First In First Out)",
+        "B) Random Access",
+        "C) LILO",
+        "D) LIFO (Last In First Out)"
+      ],
+      "correct_option": "D",
+      "explanation": "A stack follows LIFO — the last element pushed is the first one to be popped."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q06",
+      "topic": "Python",
+      "sub_topic": "Data Structures (Stack)",
+      "difficulty": "easy",
+      "question": "Which list method is equivalent to the 'push' operation in a stack?",
+      "options": [
+        "A) insert()",
+        "B) pop()",
+        "C) append()",
+        "D) extend()"
+      ],
+      "correct_option": "C",
+      "explanation": "append(item) adds an element to the end of the list, which serves as the top of the stack."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q07",
+      "topic": "Python",
+      "sub_topic": "Data Structures (Queue)",
+      "difficulty": "easy",
+      "question": "Which principle does a Queue follow?",
+      "options": [
+        "A) FIFO (First In First Out)",
+        "B) Round Robin",
+        "C) LIFO (Last In First Out)",
+        "D) LILO"
+      ],
+      "correct_option": "A",
+      "explanation": "A queue follows FIFO — the first element added is the first one to be removed."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q08",
+      "topic": "Python",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "What is the output of the following code?\n\ntry:\n    print(10/0)\nexcept ZeroDivisionError:\n    print('A')\nexcept:\n    print('B')",
+      "options": [
+        "A) A",
+        "B) AB",
+        "C) B",
+        "D) Error"
+      ],
+      "correct_option": "A",
+      "explanation": "The specific except clause for ZeroDivisionError catches the exception first and prints 'A'."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q09",
+      "topic": "Python",
+      "sub_topic": "File I/O",
+      "difficulty": "medium",
+      "question": "What does the 'with' statement do when used with file handling?",
+      "options": [
+        "A) Deletes the file",
+        "B) Automatically closes the file after the block executes",
+        "C) Reads the entire file",
+        "D) Opens the file in write mode"
+      ],
+      "correct_option": "B",
+      "explanation": "The 'with' statement ensures proper resource cleanup by automatically closing the file after the block executes, even if an exception occurs."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q10",
+      "topic": "Python",
+      "sub_topic": "Data Structures (Deque)",
+      "difficulty": "medium",
+      "question": "In collections.deque, what is the time complexity of appendleft() operation?",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "deque is implemented as a doubly-linked list, allowing O(1) append/pop operations at both ends."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q11",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a characteristic of a relational database?",
+      "options": [
+        "A) SQL is used to query data",
+        "B) Data is stored in a single flat file",
+        "C) Tables are related through keys",
+        "D) Data is organized in tables"
+      ],
+      "correct_option": "B",
+      "explanation": "Relational databases store data in multiple related tables, not a single flat file."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q12",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "A column that uniquely identifies each row in a table is called:",
+      "options": [
+        "A) Alternate Key",
+        "B) Candidate Key",
+        "C) Primary Key",
+        "D) Foreign Key"
+      ],
+      "correct_option": "C",
+      "explanation": "A Primary Key uniquely identifies each record in a table and cannot contain NULL values."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q13",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to create a new table?",
+      "options": [
+        "A) INSERT TABLE",
+        "B) MAKE TABLE",
+        "C) CREATE TABLE",
+        "D) NEW TABLE"
+      ],
+      "correct_option": "C",
+      "explanation": "CREATE TABLE is the DDL command used to define a new table structure in SQL."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q14",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to add new rows to a table?",
+      "options": [
+        "A) INSERT",
+        "B) ADD",
+        "C) APPEND",
+        "D) CREATE"
+      ],
+      "correct_option": "A",
+      "explanation": "INSERT INTO is the DML command used to add new records to a table."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q15",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "easy",
+      "question": "Which clause is used to filter rows in a SELECT query?",
+      "options": [
+        "A) ORDER BY",
+        "B) HAVING",
+        "C) GROUP BY",
+        "D) WHERE"
+      ],
+      "correct_option": "D",
+      "explanation": "The WHERE clause specifies a condition to filter which rows are returned by the SELECT query."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q16",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL function returns the total number of rows in a table?",
+      "options": [
+        "A) COUNT()",
+        "B) SUM()",
+        "C) ROWS()",
+        "D) TOTAL()"
+      ],
+      "correct_option": "A",
+      "explanation": "COUNT() returns the number of rows that match a specified condition or all rows in a table."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q17",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which keyword eliminates duplicate rows from the result of a SELECT query?",
+      "options": [
+        "A) REMOVE",
+        "B) UNIQUE",
+        "C) DIFFERENT",
+        "D) DISTINCT"
+      ],
+      "correct_option": "D",
+      "explanation": "SELECT DISTINCT returns only unique (non-duplicate) values from the specified columns."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q18",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "Which type of JOIN returns only the rows that have matching values in both tables?",
+      "options": [
+        "A) FULL OUTER JOIN",
+        "B) INNER JOIN",
+        "C) LEFT JOIN",
+        "D) RIGHT JOIN"
+      ],
+      "correct_option": "B",
+      "explanation": "INNER JOIN returns only rows where there is a match in both tables based on the join condition."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q19",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "Which clause is used to sort the result set of a query in descending order?",
+      "options": [
+        "A) GROUP BY ... DESC",
+        "B) ARRANGE BY ... DESC",
+        "C) SORT BY ... DESC",
+        "D) ORDER BY ... DESC"
+      ],
+      "correct_option": "D",
+      "explanation": "ORDER BY column_name DESC sorts the result set in descending order of the specified column."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q20",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Which SQL command is used to remove all rows from a table while preserving the table structure?",
+      "options": [
+        "A) DELETE TABLE",
+        "B) TRUNCATE TABLE",
+        "C) DROP TABLE",
+        "D) CLEAR TABLE"
+      ],
+      "correct_option": "B",
+      "explanation": "TRUNCATE TABLE removes all rows but keeps the table structure intact. DROP TABLE removes the table itself."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q21",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which network type covers the smallest geographical area?",
+      "options": [
+        "A) WAN (Wide Area Network)",
+        "B) MAN (Metropolitan Area Network)",
+        "C) PAN (Personal Area Network)",
+        "D) LAN (Local Area Network)"
+      ],
+      "correct_option": "C",
+      "explanation": "PAN covers the smallest area (typically within a person's reach), followed by LAN, MAN, and WAN."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q22",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which device connects multiple networks and forwards data packets between them?",
+      "options": [
+        "A) Router",
+        "B) Repeater",
+        "C) Hub",
+        "D) Switch"
+      ],
+      "correct_option": "A",
+      "explanation": "A router operates at the network layer and forwards packets between different networks based on IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q23",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "easy",
+      "question": "In which network topology are all nodes connected to a single central cable?",
+      "options": [
+        "A) Star Topology",
+        "B) Bus Topology",
+        "C) Ring Topology",
+        "D) Mesh Topology"
+      ],
+      "correct_option": "B",
+      "explanation": "In Bus Topology, all devices share a single communication line (backbone cable)."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q24",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "easy",
+      "question": "Which protocol is used to transfer web pages over the Internet?",
+      "options": [
+        "A) HTTP",
+        "B) FTP",
+        "C) SMTP",
+        "D) SNMP"
+      ],
+      "correct_option": "A",
+      "explanation": "HTTP (HyperText Transfer Protocol) is the protocol used for transferring web pages and related content."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q25",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "easy",
+      "question": "What is the length of an IPv4 address?",
+      "options": [
+        "A) 16 bits",
+        "B) 128 bits",
+        "C) 32 bits",
+        "D) 64 bits"
+      ],
+      "correct_option": "C",
+      "explanation": "An IPv4 address is a 32-bit binary number, typically represented as four decimal numbers separated by dots (e.g., 192.168.1.1)."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q26",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which address is used to identify a device on a local network at the hardware level?",
+      "options": [
+        "A) MAC Address",
+        "B) IP Address",
+        "C) Subnet Mask",
+        "D) Port Number"
+      ],
+      "correct_option": "A",
+      "explanation": "MAC (Media Access Control) address is a unique hardware identifier assigned to a network interface card."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q27",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol is used to automatically assign IP addresses to devices on a network?",
+      "options": [
+        "A) ARP",
+        "B) DNS",
+        "C) HTTP",
+        "D) DHCP"
+      ],
+      "correct_option": "D",
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) dynamically assigns IP addresses and other network configuration to devices."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q28",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "Which device operates at the data link layer (Layer 2) of the OSI model?",
+      "options": [
+        "A) Gateway",
+        "B) Router",
+        "C) Switch",
+        "D) Hub"
+      ],
+      "correct_option": "C",
+      "explanation": "A switch operates at Layer 2 and forwards frames based on MAC addresses. Routers operate at Layer 3."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q29",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "Which protocol is used to translate domain names into IP addresses?",
+      "options": [
+        "A) ICMP",
+        "B) DNS",
+        "C) FTP",
+        "D) DHCP"
+      ],
+      "correct_option": "B",
+      "explanation": "DNS (Domain Name System) translates human-readable domain names (e.g., www.example.com) into IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q30",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "What is the default subnet mask for the IP address 172.16.5.10?",
+      "options": [
+        "A) 255.255.255.0",
+        "B) 255.0.0.0",
+        "C) 255.255.255.128",
+        "D) 255.255.0.0"
+      ],
+      "correct_option": "D",
+      "explanation": "172.16.5.0 falls in Class B (range 128.0.0.0 to 191.255.255.255), so the default subnet mask is 255.255.0.0."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q31",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "Which of the following is a type of malicious software that replicates itself?",
+      "options": [
+        "A) Virus",
+        "B) Browser",
+        "C) Compiler",
+        "D) Firewall"
+      ],
+      "correct_option": "A",
+      "explanation": "A computer virus is malicious software that replicates itself and spreads to other systems."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q32",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "What is the primary purpose of a firewall?",
+      "options": [
+        "A) To store backups",
+        "B) To filter incoming and outgoing network traffic",
+        "C) To speed up the network",
+        "D) To encrypt data"
+      ],
+      "correct_option": "B",
+      "explanation": "A firewall monitors and controls incoming/outgoing network traffic based on security rules."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q33",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "easy",
+      "question": "Which Indian law addresses cybercrime and electronic commerce?",
+      "options": [
+        "A) IPC 1860",
+        "B) Copyright Act 1957",
+        "C) IT Act 2000",
+        "D) Patents Act 1970"
+      ],
+      "correct_option": "C",
+      "explanation": "The Information Technology Act, 2000 is India's primary law dealing with cybercrime and electronic commerce."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q34",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "easy",
+      "question": "Which type of intellectual property protects inventions?",
+      "options": [
+        "A) Copyright",
+        "B) Trademark",
+        "C) Trade Secret",
+        "D) Patent"
+      ],
+      "correct_option": "D",
+      "explanation": "A patent protects inventions and grants exclusive rights to the inventor for a limited period."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q35",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "easy",
+      "question": "Which symbol denotes copyright?",
+      "options": [
+        "A) ®",
+        "B) ©",
+        "C) ℗",
+        "D) ™"
+      ],
+      "correct_option": "B",
+      "explanation": "The © symbol denotes copyright, used to indicate ownership of creative works."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q36",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "Which type of attack floods a server with traffic to make it unavailable?",
+      "options": [
+        "A) Phishing",
+        "B) Sniffing",
+        "C) DoS (Denial of Service) attack",
+        "D) Spoofing"
+      ],
+      "correct_option": "C",
+      "explanation": "A DoS attack overwhelms a server with excessive traffic, making it unavailable to legitimate users."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q37",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "What does 'phishing' involve?",
+      "options": [
+        "A) Monitoring network traffic",
+        "B) Breaking into a computer system",
+        "C) Scanning for open ports",
+        "D) Sending fraudulent emails to steal sensitive information"
+      ],
+      "correct_option": "D",
+      "explanation": "Phishing uses deceptive emails or messages to trick users into revealing sensitive information like passwords."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q38",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "Which section of the IT Act deals with punishment for unauthorized access to a computer system?",
+      "options": [
+        "A) Section 43",
+        "B) Section 72",
+        "C) Section 66",
+        "D) Section 67"
+      ],
+      "correct_option": "A",
+      "explanation": "Section 43 of the IT Act deals with penalties for unauthorized access, introducing viruses, and damaging computer systems."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q39",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "Which software is specifically designed to detect and remove malware?",
+      "options": [
+        "A) VPN",
+        "B) Antivirus",
+        "C) Proxy Server",
+        "D) Firewall"
+      ],
+      "correct_option": "B",
+      "explanation": "Antivirus software is designed to detect, prevent, and remove malicious software like viruses, worms, and trojans."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q40",
+      "topic": "Security & Societal Impacts",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Under the Indian Copyright Act, for how many years does copyright protection last for literary works after the author's death?",
+      "options": [
+        "A) 20 years",
+        "B) 50 years",
+        "C) 75 years",
+        "D) 60 years"
+      ],
+      "correct_option": "D",
+      "explanation": "In India, copyright in literary, dramatic, musical, and artistic works lasts for 60 years after the author's death."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q41",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "In Pandas, which function displays the first n rows of a DataFrame?",
+      "options": [
+        "A) df.head()",
+        "B) df.preview()",
+        "C) df.first()",
+        "D) df.tail()"
+      ],
+      "correct_option": "A",
+      "explanation": "df.head() returns the first n rows (default n=5) of a DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q42",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "Which method is used to read a CSV file into a Pandas DataFrame?",
+      "options": [
+        "A) pd.import_csv()",
+        "B) pd.load_csv()",
+        "C) pd.read_csv()",
+        "D) pd.open_csv()"
+      ],
+      "correct_option": "C",
+      "explanation": "pd.read_csv() reads a CSV file and returns a DataFrame object in Pandas."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q43",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "Binary search requires the data to be:",
+      "options": [
+        "A) Sorted",
+        "B) Unsorted",
+        "C) In a linked list",
+        "D) Even in size"
+      ],
+      "correct_option": "A",
+      "explanation": "Binary search works by repeatedly dividing a sorted list in half to find the target value."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q44",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "easy",
+      "question": "What is the best-case time complexity of Bubble Sort?",
+      "options": [
+        "A) O(n²)",
+        "B) O(log n)",
+        "C) O(n log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "D",
+      "explanation": "In the best case (already sorted), Bubble Sort with an optimization flag completes in O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q45",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm builds the sorted array one item at a time?",
+      "options": [
+        "A) Quick Sort",
+        "B) Merge Sort",
+        "C) Insertion Sort",
+        "D) Heap Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Insertion Sort builds the final sorted array by inserting each element at its correct position one at a time."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q46",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is a collision in hashing?",
+      "options": [
+        "A) When the hash table is full",
+        "B) When data is corrupted",
+        "C) When two keys map to the same index in the hash table",
+        "D) When a hash function returns zero"
+      ],
+      "correct_option": "C",
+      "explanation": "A collision occurs when two different keys produce the same hash value and map to the same index."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q47",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "Which measure of central tendency is the most frequently occurring value in a dataset?",
+      "options": [
+        "A) Range",
+        "B) Mode",
+        "C) Mean",
+        "D) Median"
+      ],
+      "correct_option": "B",
+      "explanation": "Mode is the value that appears most frequently in a dataset."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q48",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "In a dataset of 7 numbers: 2, 3, 5, 7, 11, 13, 17, what is the median?",
+      "options": [
+        "A) 5",
+        "B) 8",
+        "C) 9",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "The median is the middle value of a sorted dataset. With 7 numbers, the 4th value (7) is the median."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q49",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "In a single pass of Bubble Sort on an unsorted array, what happens to the largest element?",
+      "options": [
+        "A) It moves to the end of the array",
+        "B) It is deleted",
+        "C) It stays in place",
+        "D) It moves to the beginning"
+      ],
+      "correct_option": "A",
+      "explanation": "In Bubble Sort, the largest element 'bubbles up' to its correct position at the end after each pass."
+    },
+    {
+      "id": "CUET_CS_2026_P1_L1_Q50",
+      "topic": "Data Handling & Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "medium",
+      "question": "Which collision resolution technique uses linked lists at each index of the hash table?",
+      "options": [
+        "A) Open Addressing",
+        "B) Chaining",
+        "C) Linear Probing",
+        "D) Double Hashing"
+      ],
+      "correct_option": "B",
+      "explanation": "Chaining stores colliding elements in a linked list at each index, while open addressing finds the next empty slot."
+    }
+  ]
+}

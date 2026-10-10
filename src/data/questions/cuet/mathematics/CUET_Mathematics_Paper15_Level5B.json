@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P15_L5B",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 15,
+  "difficulty_level": "5B",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "easy",
+      "question": "Compute the matrix power: If A = [[3, 0], [0, 2]], what is A⁴?",
+      "options": [
+        "A) [[12, 0], [0, 16]]",
+        "B) [[81, 0], [0, 8]]",
+        "C) [[81, 0], [0, 16]]",
+        "D) [[12, 0], [0, 8]]"
+      ],
+      "correct_option": "C",
+      "explanation": "We compute A⁴ = (A²)² using matrix multiplication. For a diagonal matrix, raising to a power raises each diagonal element to that power. A⁴ = [[3⁴, 0], [0, 2⁴]] = [[81, 0], [0, 16]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q02",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "easy",
+      "question": "\\( Evaluate the determinant \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 21",
+        "B) 42",
+        "C) 40",
+        "D) 35"
+      ],
+      "correct_option": "B",
+      "explanation": "For an upper triangular matrix, the determinant is the product of diagonal elements: 2 × 3 × 7 = 42."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q03",
+      "topic": "Probability",
+      "sub_topic": "Basic Probability",
+      "difficulty": "easy",
+      "question": "Two dice are rolled. What is the probability that the product of the numbers obtained is 12?",
+      "options": [
+        "A) 1/12",
+        "B) 1/18",
+        "C) 1/9",
+        "D) 1/6"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Favorable outcomes for product = 12: (2,6), (3,4), (4,3), (6,2) → 4 outcomes. Total outcomes = 36. Probability = \\frac{4}{36} = \\frac{1}{9}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q04",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "easy",
+      "question": "\\( Find the value: If f(x) = \\sqrt{x² + 4}, find f'(1). \\)",
+      "options": [
+        "A) 1/(2√5)",
+        "B) 1/5",
+        "C) 1/√5",
+        "D) 2/√5"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( f'(x) = x/\\sqrt{x² + 4}. At x = 1: f'(1) = 1/\\sqrt{1 + 4} = 1/\\sqrt{5}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q05",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "easy",
+      "question": "\\( Find the value: Evaluate ∫₀^(π/2) (\\sin x - \\cos x) dx. \\)",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 0",
+        "D) -1"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( ∫(\\sin x - \\cos x)dx = -\\cos x - \\sin x. Evaluating from 0 to π/2: (-\\cos(π/2) - \\sin(π/2)) - (-\\cos(0) - \\sin(0)) = (0 - 1) - (-1 - 0) = -1 + 1 = 0. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q06",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "easy",
+      "question": "The degree of the differential equation (dy/dx)³ + x(d²y/dx²)² = 0 is:",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 6",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( The degree is the power of the highest order derivative. Here, the highest order derivative is d²y/dx² with power 2, but the equation must be a polynomial \\in derivatives. The term (dy/dx)³ has degree 3, and (d²y/dx²)² has degree 2. The degree of the DE is the highest power, which is 3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q07",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector Algebra",
+      "difficulty": "easy",
+      "question": "\\( The unit vector \\in the direction of the vector 6i + 8j is: \\)",
+      "options": [
+        "A) (6/14)i + (8/14)j",
+        "B) (1/2)i + (1/2)j",
+        "C) 3i + 4j",
+        "D) (3/5)i + (4/5)j"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Magnitude = \\sqrt{6² + 8²} = \\sqrt{100} = 10. Unit vector = (\\frac{6}{10})i + (\\frac{8}{10})j = (\\frac{3}{5})i + (\\frac{4}{5})j. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q08",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse Trigonometric Functions",
+      "difficulty": "easy",
+      "question": "The determinant of [[1,2,3],[0,4,5],[0,0,6]] is:",
+      "options": [
+        "A) 24",
+        "B) 10",
+        "C) 48",
+        "D) 6"
+      ],
+      "correct_option": "A",
+      "explanation": "Upper triangular matrix: det = product of diagonal = 1×4×6 = 24."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q09",
+      "topic": "Relations and Functions",
+      "sub_topic": "Relations",
+      "difficulty": "easy",
+      "question": "The number of symmetric relations on a set with 3 elements is:",
+      "options": [
+        "A) 64",
+        "B) 512",
+        "C) 128",
+        "D) 256"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( For a set with n elements, the number of symmetric relations is 2^(n(n+1)/2). For n = 3: 2^(3×\\frac{4}{2}) = 2⁶ = 64. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q10",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "3D Geometry",
+      "difficulty": "easy",
+      "question": "The midpoint of the line segment joining the points (1, 3, 5) and (7, 9, 11) is:",
+      "options": [
+        "A) (4, 6, 8)",
+        "B) (3, 3, 3)",
+        "C) (6, 6, 6)",
+        "D) (8, 12, 16)"
+      ],
+      "correct_option": "A",
+      "explanation": "Midpoint = ((1+7)/2, (3+9)/2, (5+11)/2) = (4, 6, 8)."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q11",
+      "topic": "Probability",
+      "sub_topic": "Basic Probability",
+      "difficulty": "easy",
+      "question": "If A and B are mutually exclusive events with P(A) = 0.3 and P(B) = 0.5, then P(A∪B) equals:",
+      "options": [
+        "A) 0.65",
+        "B) 0.8",
+        "C) 0.15",
+        "D) 0.2"
+      ],
+      "correct_option": "B",
+      "explanation": "For mutually exclusive events, P(A∪B) = P(A) + P(B) = 0.3 + 0.5 = 0.8."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q12",
+      "topic": "Relations and Functions",
+      "sub_topic": "Functions",
+      "difficulty": "easy",
+      "question": "The range of the function f(x) = 3cos x + 2 is:",
+      "options": [
+        "A) [-3, 3]",
+        "B) [-1, 5]",
+        "C) [2, 5]",
+        "D) [-1, 1]"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Since \\cos x ∈ [-1, 1], we have 3cos x ∈ [-3, 3], so 3cos x + 2 ∈ [-1, 5]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q13",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "easy",
+      "question": "Evaluate the indefinite integral ∫ dx/(x² + 4x + 5).",
+      "options": [
+        "A) tan⁻¹(x) + C",
+        "B) ln|x² + 4x + 5| + C",
+        "C) (1/2)tan⁻¹((x+2)/1) + C",
+        "D) tan⁻¹(x+2) + C"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Complete the square: x²+4x+5 = (x+2)²+1. So ∫dx/[(x+2)²+1] = \\tan⁻¹(x+2) + C, using ∫du/(u²+1) = \\tan⁻¹u + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q14",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "3D Geometry",
+      "difficulty": "easy",
+      "question": "The equation of the line passing through the point (2, -1, 3) and parallel to the vector i + 2j - k is:",
+      "options": [
+        "A) (x-2)/1 = (y+1)/2 = (z-3)/(-1)",
+        "B) (x+2)/1 = (y-1)/2 = (z+3)/(-1)",
+        "C) x/1 = y/2 = z/(-1)",
+        "D) (x-2)/2 = (y+1)/(-1) = (z-3)/3"
+      ],
+      "correct_option": "A",
+      "explanation": "The equation of a line through (x₁, y₁, z₁) parallel to vector ai + bj + ck is (x-x₁)/a = (y-y₁)/b = (z-z₁)/c."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q15",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "easy",
+      "question": "Compute the value of the given determinant using the standard formula for 2x2 or 3x3 matrices.",
+      "options": [
+        "A) 32",
+        "B) -32",
+        "C) -8",
+        "D) 8"
+      ],
+      "correct_option": "B",
+      "explanation": "For a 2x2 matrix [[a,b],[c,d]], det = ad - bc. For 3x3, use cofactor expansion along any row or column."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q16",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 3]], find the matrix X such that 2A + X = B.",
+      "options": [
+        "A) [[0, 4], [5, 5]]",
+        "B) [[0, -4], [-5, -5]]",
+        "C) [[0, -4], [5, -5]]",
+        "D) [[-2, -4], [-5, -5]]"
+      ],
+      "correct_option": "B",
+      "explanation": "X = B - 2A = [[2,0],[1,3]] - [[2,4],[6,8]] = [[0,-4],[-5,-5]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q17",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "medium",
+      "question": "Calculate the determinant of the given matrix using cofactor expansion or properties of determinants.",
+      "options": [
+        "A) 30",
+        "B) 24",
+        "C) 6",
+        "D) 12"
+      ],
+      "correct_option": "C",
+      "explanation": "For 2x2: det = ad-bc. For 3x3: expand along any row/column using cofactors."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q18",
+      "topic": "Probability",
+      "sub_topic": "Conditional Probability",
+      "difficulty": "medium",
+      "question": "\\( Two dice are rolled. Given that the \\sum is 7, what is the probability that one of the dice shows a 3? \\)",
+      "options": [
+        "A) 1/3",
+        "B) 1/6",
+        "C) 1/2",
+        "D) 2/7"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Given \\sum = 7, outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 outcomes. Favorable (one die shows 3): (3,4), (4,3) → 2 outcomes. Probability = \\frac{2}{6} = \\frac{1}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q19",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "question": "If x³ + y³ = 6xy, find dy/dx at the point (3, 3).",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 2",
+        "D) -1"
+      ],
+      "correct_option": "D",
+      "explanation": "Differentiating: 3x² + 3y²(dy/dx) = 6y + 6x(dy/dx). At (3,3): 27 + 27(dy/dx) = 18 + 18(dy/dx). So 9(dy/dx) = -9, giving dy/dx = -1."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q20",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "medium",
+      "question": "Evaluate the given indefinite integral using standard integration techniques.",
+      "options": [
+        "A) (e² + 1)/4",
+        "B) (e² - 1)/4",
+        "C) e²/4",
+        "D) (e² + 1)/2"
+      ],
+      "correct_option": "A",
+      "explanation": "We apply the appropriate integration method (substitution, parts, or partial fractions) to find the antiderivative."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q21",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Straight Lines",
+      "difficulty": "medium",
+      "question": "The equation of the line passing through the point (2, 3) and perpendicular to the line 3x - 4y + 7 = 0 is:",
+      "options": [
+        "A) 3x + 4y - 18 = 0",
+        "B) 4x - 3y + 1 = 0",
+        "C) 4x + 3y - 17 = 0",
+        "D) 4x + 3y + 17 = 0"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( The slope of the line 3x - 4y + 7 = 0 is \\frac{3}{4}. The slope of a line perpendicular to it is -\\frac{4}{3}. Using point-slope form with point (2, 3): y - 3 = (-\\frac{4}{3})(x - 2) → 3y - 9 = -4x + 8 → 4x + 3y - 17 = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q22",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector Algebra",
+      "difficulty": "medium",
+      "question": "The projection of vector a = 3i + 4j + 5k on vector b = 2i - 2j + k is:",
+      "options": [
+        "A) 2i - j + k",
+        "B) 2i - 2j + k",
+        "C) 3i - 3j + (3/2)k",
+        "D) (2/3)(2i - 2j + k)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( a·b = 6 - 8 + 5 = 3. \\left| \\1 \\right|² = 4 + 4 + 1 = 9. Projection = (a·b/\\left| \\1 \\right|²)b = (\\frac{3}{9})(2i - 2j + k) = (\\frac{2}{3})(2i - 2j + k). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q23",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "question": "\\( If \\sin⁻¹(x) + \\sin⁻¹(y) = π/3, then \\cos⁻¹(x) + \\cos⁻¹(y) equals: \\)",
+      "options": [
+        "A) π/3",
+        "B) π/6",
+        "C) 2π/3",
+        "D) π/2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using the identity \\sin⁻¹(t) + \\cos⁻¹(t) = π/2, we have \\cos⁻¹(x) + \\cos⁻¹(y) = π - (\\sin⁻¹(x) + \\sin⁻¹(y)) = π - π/3 = 2π/3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q24",
+      "topic": "Relations and Functions",
+      "sub_topic": "Relations",
+      "difficulty": "medium",
+      "question": "A relation R on set A = {1, 2, 3} is defined as R = {(1,2), (2,3)}. The minimum number of ordered pairs that must be added to R to make it transitive is:",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 3",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "For transitivity, since (1,2) ∈ R and (2,3) ∈ R, we need (1,3) ∈ R. Only 1 pair needs to be added."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q25",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector Algebra",
+      "difficulty": "medium",
+      "question": "\\( If \\left| \\1 \\right| = 3, \\left| \\1 \\right| = 4, and the angle between a and b is 60^{\\circ}, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 6",
+        "B) 3√3",
+        "C) 6√3",
+        "D) 12"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\left| \\1 \\right| = \\left| \\1 \\right|\\left| \\1 \\right|\\sin θ = 3 × 4 × \\sin 60^{\\circ} = 12 × (√\\frac{3}{2}) = 6\\sqrt{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q26",
+      "topic": "Linear Programming",
+      "sub_topic": "Linear Programming",
+      "difficulty": "medium",
+      "question": "Minimize Z = 3x + 4y subject to x ≥ 0, y ≥ 0, x + y ≥ 4, and 2x + y ≥ 6. The minimum value is:",
+      "options": [
+        "A) 18",
+        "B) 16",
+        "C) 12",
+        "D) 14"
+      ],
+      "correct_option": "C",
+      "explanation": "Corner points: Intersection of x+y=4 and 2x+y=6 is (2,2). At (2,2): Z = 6+8 = 14. At (4,0): Z = 12. At (0,6): Z = 24. At (0,4): Z = 16. Minimum is 12 at (4,0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q27",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "medium",
+      "question": "The area bounded by the curve y = x² + 1, the x-axis, and the lines x = 0 and x = 2 is:",
+      "options": [
+        "A) 14/3",
+        "B) 16/3",
+        "C) 10/3",
+        "D) 6"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Area = ∫₀²(x² + 1)dx = [x³/3 + x]₀² = (\\frac{8}{3} + 2) - 0 = \\frac{8}{3} + \\frac{6}{3} = \\frac{14}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q28",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "question": "Find the value: If y = x³·e^x, find d²y/dx² at x = 0.",
+      "options": [
+        "A) 2",
+        "B) 0",
+        "C) 1",
+        "D) 6"
+      ],
+      "correct_option": "B",
+      "explanation": "y = x³e^x. y' = 3x²e^x + x³e^x = e^x(3x² + x³). y'' = e^x(3x² + x³) + e^x(6x + 3x²) = e^x(x³ + 6x² + 6x). At x = 0: y''(0) = 1(0 + 0 + 0) = 0. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q29",
+      "topic": "Probability",
+      "sub_topic": "Bayes Theorem",
+      "difficulty": "medium",
+      "question": "A company has two plants. Plant X produces 70% of items with 5% defective. Plant Y produces 30% with 10% defective. An item is selected at random and found defective. The probability it came from Plant X is:",
+      "options": [
+        "A) 5/13",
+        "B) 7/10",
+        "C) 7/13",
+        "D) 3/10"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(X\\left| \\1 \\right|X)P(X)/[P(D\\left| \\1 \\right|Y)P(Y)] = (0.05×0.7)/(0.05×0.7 + 0.10×0.3) = 0.035/(0.035 + 0.03) = 0.\\frac{035}{0}.065 = \\frac{35}{65} = \\frac{7}{13}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q30",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "3D Geometry",
+      "difficulty": "medium",
+      "question": "The equation of the plane passing through the points (1, 0, 0), (0, 2, 0), and (0, 0, 3) is:",
+      "options": [
+        "A) x + y + z = 1",
+        "B) 6x + 3y + 2z = 1",
+        "C) 6x + 3y + 2z = 6",
+        "D) x/1 + y/2 + z/3 = 1"
+      ],
+      "correct_option": "C",
+      "explanation": "Using intercept form: x/1 + y/2 + z/3 = 1. Multiplying by 6: 6x + 3y + 2z = 6."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q31",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Applications of Derivatives",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 12x² + 36x + 5 is increasing on the interval:",
+      "options": [
+        "A) (-∞, 2)",
+        "B) (2, 6)",
+        "C) (6, ∞)",
+        "D) (-∞, 2) ∪ (6, ∞)"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 3x² - 24x + 36 = 3(x² - 8x + 12) = 3(x-2)(x-6). f'(x) > 0 when x < 2 or x > 6. So f is increasing on (-∞, 2) ∪ (6, ∞)."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q32",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "medium",
+      "question": "Find the value: Evaluate ∫₀^(π/4) tan²x dx.",
+      "options": [
+        "A) 1 + π/4",
+        "B) π/4",
+        "C) 1 - π/4",
+        "D) π/4 - 1"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( tan²x = sec²x - 1. ∫tan²x dx = ∫(sec²x - 1)dx = \\tan x - x. Evaluating from 0 to π/4: (\\tan(π/4) - π/4) - (\\tan(0) - 0) = (1 - π/4) - 0 = 1 - π/4. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q33",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "medium",
+      "question": "The integrating factor of the differential equation dy/dx + (2/x)y = x³ is:",
+      "options": [
+        "A) x²",
+        "B) 2x",
+        "C) e^(x²)",
+        "D) x³"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( The integrating factor is e^{(∫(2/x)}dx) = e^{(2ln x)} = e^{(\\ln x²)} = x². \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q34",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector Algebra",
+      "difficulty": "medium",
+      "question": "If a = 2i - j + k, b = i + 3j - 2k, and c = -i + 2j + k, then the scalar triple product [a b c] equals:",
+      "options": [
+        "A) -12",
+        "B) -18",
+        "C) 12",
+        "D) 18"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( [a b c] = a·(b × c). b × c = \\left| \\1 \\right| = i(3+4) - j(1-2) + k(2+3) = 7i + j + 5k. a·(b × c) = (2)(7) + (-1)(1) + (1)(5) = 14 - 1 + 5 = 18. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q35",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "question": "\\( For what value of k is the function f(x) = { (\\sin 2x)/x, x ≠ 0; k, x = 0 } continuous at x = 0? \\)",
+      "options": [
+        "A) 1",
+        "B) 1/2",
+        "C) 2",
+        "D) 0"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( For continuity at x = 0: \\lim(x→0) f(x) = f(0). \\lim(x→0) \\sin(2x)/x = 2·\\lim(x→0) \\sin(2x)/(2x) = 2·1 = 2. So k = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q36",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "medium",
+      "question": "If A = [[2, 1], [1, 1]], then A⁻¹ equals:",
+      "options": [
+        "A) [[1, 1], [1, 2]]",
+        "B) [[2, -1], [-1, 1]]",
+        "C) [[1, -1], [-1, 2]]",
+        "D) [[-1, 1], [1, -2]]"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\left| \\1 \\right| = 2(1) - 1(1) = 1. adj(A) = [[1, -1], [-1, 2]]. A⁻¹ = adj(A)/\\left| \\1 \\right| = [[1, -1], [-1, 2]]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q37",
+      "topic": "Probability",
+      "sub_topic": "Binomial Distribution",
+      "difficulty": "medium",
+      "question": "In a binomial distribution with n = 8 and p = 0.5, P(X = 3) equals:",
+      "options": [
+        "A) 7/32",
+        "B) 7/64",
+        "C) 5/16",
+        "D) 1/8"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(X = 3) = C(8,3) × (0.5)³ × (0.5)⁵ = 56 × (\\frac{1}{8}) × (\\frac{1}{32}) = \\frac{56}{256} = \\frac{7}{32}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q38",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "3D Geometry",
+      "difficulty": "hard",
+      "question": "The shortest distance between the skew lines L₁: r = i + 2j + 3k + t(2i + j + k) and L₂: r = 3i + 4j + 5k + s(i - j + 2k) is:",
+      "options": [
+        "A) √3/3",
+        "B) 4√3/3",
+        "C) √3",
+        "D) 2√3/3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Using d = \\left| \\1 \\right|/\\left| \\1 \\right|. a₂ - a₁ = 2i + 2j + 2k. b₁ × b₂ = \\left| \\1 \\right| = i(2+1) - j(4-1) + k(-2-1) = 3i - 3j - 3k. \\left| \\1 \\right| = \\sqrt{9+9+9} = 3\\sqrt{3}. (a₂-a₁)·(b₁×b₂) = 6 - 6 - 6 = -6. d = \\left| \\1 \\right|/(3\\sqrt{3}) = 2/\\sqrt{3} = 2√\\frac{3}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q39",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁵x dx.",
+      "options": [
+        "A) 16/15",
+        "B) 2/15",
+        "C) 4/15",
+        "D) 8/15"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Using the reduction formula: ∫₀^(π/2) sinⁿx dx = ((n-1)/n) × ((n-3)/(n-2)) × ... × (\\frac{2}{3}) for odd n. For n = 5: (\\frac{4}{5}) × (\\frac{2}{3}) = \\frac{8}{15}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q40",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "hard",
+      "question": "If the eigenvalues of the matrix [[3, 1], [2, 2]] are λ₁ and λ₂, then λ₁² + λ₂² equals:",
+      "options": [
+        "A) 13",
+        "B) 25",
+        "C) 17",
+        "D) 21"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = 0 → (3-λ)(2-λ) - 2 = 0 → λ² - 5λ + 4 = 0. Eigenvalues: λ = 1, 4. λ₁² + λ₂² = 1 + 16 = 17. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q41",
+      "topic": "Probability",
+      "sub_topic": "Conditional Probability",
+      "difficulty": "hard",
+      "question": "A bag contains 4 red, 5 blue, and 6 green balls. Three balls are drawn at random. The probability that all three are of different colors is:",
+      "options": [
+        "A) 12/91",
+        "B) 8/91",
+        "C) 16/91",
+        "D) 24/91"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Total ways to draw 3 balls from 15: C(15,3) = 455. Favorable: 1 red, 1 blue, 1 green = C(4,1)×C(5,1)×C(6,1) = 4×5×6 = 120. Probability = \\frac{120}{455} = \\frac{24}{91}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q42",
+      "topic": "Linear Programming",
+      "sub_topic": "Linear Programming",
+      "difficulty": "hard",
+      "question": "Maximize Z = 4x + 5y subject to x ≥ 0, y ≥ 0, 2x + y ≤ 10, x + 2y ≤ 10. The maximum value is:",
+      "options": [
+        "A) 28",
+        "B) 30",
+        "C) 25",
+        "D) 32"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Corner points: (0,0): Z = 0. (5,0): Z = 20. (0,5): Z = 25. Intersection of 2x+y=10 and x+2y=10: From first, y = 10-2x. Substituting: x + 2(10-2x) = 10 → x + 20 - 4x = 10 → -3x = -10 → x = \\frac{10}{3}. y = 10 - \\frac{20}{3} = \\frac{10}{3}. Z = 4(\\frac{10}{3}) + 5(\\frac{10}{3}) = \\frac{40}{3} + \\frac{50}{3} = \\frac{90}{3} = 30. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q43",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "hard",
+      "question": "\\( The particular solution of dy/dx + y·\\tan x = \\sec x with y(0) = 2 is: \\)",
+      "options": [
+        "A) y = sin x - cos x",
+        "B) y = sin x + 2cos x",
+        "C) y = 2sin x + cos x",
+        "D) y = sin x + cos x"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Integrating factor = e^{(∫\\tan x dx)} = e^{(-\\ln \\cos x)} = \\sec x. Multiplying: \\sec x·dy/dx + y·\\sec x·\\tan x = sec²x. d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = \\tan x + C. y = \\sin x + C·\\cos x. Using y(0) = 2: 2 = 0 + C·1 → C = 2. So y = \\sin x + 2cos x. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q44",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "hard",
+      "question": "If A = [[1, 1], [0, 1]], then Aⁿ equals:",
+      "options": [
+        "A) [[1, 0], [n, 1]]",
+        "B) [[1, n], [0, 1]]",
+        "C) [[1, 1], [0, n]]",
+        "D) [[n, n], [0, n]]"
+      ],
+      "correct_option": "B",
+      "explanation": "By induction: A² = [[1,2],[0,1]], A³ = [[1,3],[0,1]], etc. In general, Aⁿ = [[1, n], [0, 1]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q45",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^∞ x³·e^{(-x)} dx.",
+      "options": [
+        "A) 2",
+        "B) 12",
+        "C) 6",
+        "D) 24"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using the \\gamma function: ∫₀^∞ xⁿ·e^{(-x)} dx = n!. For n = 3: 3! = 6. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q46",
+      "topic": "Probability",
+      "sub_topic": "Bayes Theorem",
+      "difficulty": "hard",
+      "question": "Three boxes contain balls. Box 1: 2 white, 3 black. Box 2: 4 white, 1 black. Box 3: 3 white, 2 black. A box is chosen at random and a ball is drawn. If the ball is white, the probability it came from Box 2 is:",
+      "options": [
+        "A) 5/9",
+        "B) 2/5",
+        "C) 4/9",
+        "D) 1/3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(Box 2\\left| \\1 \\right|Box 2)P(Box 2)/[P(White\\left| \\1 \\right|Box 2)P(Box 2) + P(White|Box 3)P(Box 3)] = (\\frac{4}{5})(\\frac{1}{3})/[(\\frac{2}{5})(\\frac{1}{3}) + (\\frac{4}{5})(\\frac{1}{3}) + (\\frac{3}{5})(\\frac{1}{3})] = (\\frac{4}{15})/[(2+4+3)/15] = \\frac{4}{9}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q47",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Applications of Derivatives",
+      "difficulty": "hard",
+      "question": "\\( A wire of length 20 cm is cut into two pieces. One piece is bent into an equilateral triangle and the other into a circle. The \\sum of the areas is minimum when the length used for the circle is: \\)",
+      "options": [
+        "A) 20π/(π + √3) cm",
+        "B) 20π/(3π + √3) cm",
+        "C) 20/(π + 3√3) cm",
+        "D) 20π/(π + 3√3) cm"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Let x be the length for the circle. Circle radius = x/(2π), area = x²/(4π). Triangle side = (20-x)/3, area = (√\\frac{3}{4})((20-x)/3)² = (√\\frac{3}{36})(20-x)². Total area A = x²/(4π) + (√\\frac{3}{36})(20-x)². dA/dx = x/(2π) - (√\\frac{3}{18})(20-x) = 0. x/(2π) = (√\\frac{3}{18})(20-x). 9x = π\\sqrt{3}(20-x). x(9 + π\\sqrt{3}) = 20π\\sqrt{3}. x = 20π\\sqrt{3}/(9 + π\\sqrt{3}) = 20π/(π + 3\\sqrt{3}) (dividing by \\sqrt{3}). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q48",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector Algebra",
+      "difficulty": "hard",
+      "question": "\\( If a, b, c are vectors such that a + b + c = 0 and \\left| \\1 \\right| = 3, \\left| \\1 \\right| = 5, \\left| \\1 \\right| = 7, then the angle between a and b is: \\)",
+      "options": [
+        "A) π/6",
+        "B) π/3",
+        "C) 2π/3",
+        "D) π/4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Since a + b = -c, we have \\left| \\1 \\right|² = \\left| \\1 \\right|². \\left| \\1 \\right|² + \\left| \\1 \\right|² + 2a·b = \\left| \\1 \\right|². 9 + 25 + 2(3)(5)\\cos θ = 49. 34 + 30cos θ = 49. 30cos θ = 15. \\cos θ = \\frac{1}{2}. θ = π/3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q49",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "question": "Let f(x) = { (e^{(2x)} - 1)/x, x ≠ 0; b, x = 0 }. If f is continuous at x = 0, then b equals:",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( For continuity at x = 0: \\lim(x→0) (e^{(2x)} - 1)/x = 2·\\lim(x→0) (e^{(2x)} - 1)/(2x) = 2·1 = 2. So b = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P15_L5B_Q50",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "hard",
+      "question": "\\( If A is a 3×3 matrix such that \\left| \\1 \\right| = 256, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 16",
+        "B) 8",
+        "C) 2",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\left| \\1 \\right| = \\left| \\1 \\right|^((n-1)²) for an n×n matrix. For n = 3: \\left| \\1 \\right| = \\left| \\1 \\right|^((3-1)²) = \\left| \\1 \\right|⁴. So \\left| \\1 \\right|⁴ = 256 → \\left| \\1 \\right| = 4. \\)"
+    }
+  ]
+}

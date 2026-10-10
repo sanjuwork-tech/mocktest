@@ -1,0 +1,2516 @@
+{
+  "exam": "CUET (UG)",
+  "totalSubjects": 12,
+  "totalPapers": 300,
+  "totalQuestions": 15000,
+  "subjects": [
+    {
+      "id": "accountancy",
+      "name": "Accountancy (Code: 301)",
+      "seriesId": "CUET_ACC_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Accountancy_Paper1_Level1.json",
+          "testId": "CUET_ACC_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper2_Level2.json",
+          "testId": "CUET_ACC_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper3_Level3.json",
+          "testId": "CUET_ACC_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper4_Level4.json",
+          "testId": "CUET_ACC_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper5_Level5.json",
+          "testId": "CUET_ACC_2026_P5_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper6_Level6.json",
+          "testId": "CUET_ACC_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper7_Level7.json",
+          "testId": "CUET_ACC_2026_P7_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper8_Level8.json",
+          "testId": "CUET_ACC_2026_P8_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper9_Level9.json",
+          "testId": "CUET_ACC_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper10_Level10.json",
+          "testId": "CUET_ACC_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper11_Level1B.json",
+          "testId": "CUET_ACC_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper12_Level2B.json",
+          "testId": "CUET_ACC_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper13_Level3B.json",
+          "testId": "CUET_ACC_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper14_Level4B.json",
+          "testId": "CUET_ACC_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper15_Level5B.json",
+          "testId": "CUET_ACC_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper16_Level6B.json",
+          "testId": "CUET_ACC_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper17_Level7B.json",
+          "testId": "CUET_ACC_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper18_Level8B.json",
+          "testId": "CUET_ACC_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper19_Level9B.json",
+          "testId": "CUET_ACC_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper20_Level10B.json",
+          "testId": "CUET_ACC_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper21_Level1C.json",
+          "testId": "CUET_ACC_2026_P21_L1C",
+          "paperNumber": 21,
+          "difficultyLevel": "1C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper22_Level2C.json",
+          "testId": "CUET_ACC_2026_P22_L2C",
+          "paperNumber": 22,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper23_Level3C.json",
+          "testId": "CUET_ACC_2026_P23_L3C",
+          "paperNumber": 23,
+          "difficultyLevel": "3C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper24_Level4C.json",
+          "testId": "CUET_ACC_2026_P24_L4C",
+          "paperNumber": 24,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Accountancy_Paper25_Level5C.json",
+          "testId": "CUET_ACC_2026_P25_L5C",
+          "paperNumber": 25,
+          "difficultyLevel": "5C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "biological-science",
+      "name": "Biological Science (Code: 304)",
+      "seriesId": "CUET_BIO_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_BiologicalScience_Paper1_Level1.json",
+          "testId": "CUET_BIO_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper2_Level2.json",
+          "testId": "CUET_BIO_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper3_Level3.json",
+          "testId": "CUET_BIO_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper4_Level4.json",
+          "testId": "CUET_BIO_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper5_Level5.json",
+          "testId": "CUET_BIO_2026_P5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper6_Level6.json",
+          "testId": "CUET_BIO_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper7_Level7.json",
+          "testId": "CUET_BIO_2026_P7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper8_Level8.json",
+          "testId": "CUET_BIO_2026_P8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper9_Level9.json",
+          "testId": "CUET_BIO_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper10_Level10.json",
+          "testId": "CUET_BIO_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper11_Level1B.json",
+          "testId": "CUET_BIO_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper12_Level2B.json",
+          "testId": "CUET_BIO_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper13_Level3B.json",
+          "testId": "CUET_BIO_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper14_Level4B.json",
+          "testId": "CUET_BIO_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper15_Level5B.json",
+          "testId": "CUET_BIO_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper16_Level6B.json",
+          "testId": "CUET_BIO_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper17_Level7B.json",
+          "testId": "CUET_BIO_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper18_Level8B.json",
+          "testId": "CUET_BIO_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper19_Level9B.json",
+          "testId": "CUET_BIO_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper20_Level10B.json",
+          "testId": "CUET_BIO_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper21_Level1C.json",
+          "testId": "CUET_BIO_2026_P21_L1C",
+          "paperNumber": 21,
+          "difficultyLevel": "1C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper22_Level2C.json",
+          "testId": "CUET_BIO_2026_P22_L2C",
+          "paperNumber": 22,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper23_Level3C.json",
+          "testId": "CUET_BIO_2026_P23_L3C",
+          "paperNumber": 23,
+          "difficultyLevel": "3C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper24_Level4C.json",
+          "testId": "CUET_BIO_2026_P24_L4C",
+          "paperNumber": 24,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_BiologicalScience_Paper25_Level5C.json",
+          "testId": "CUET_BIO_2026_P25_L5C",
+          "paperNumber": 25,
+          "difficultyLevel": "5C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science (Code: 308)",
+      "seriesId": "CUET_CS_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_ComputerScience_Paper1_Level1.json",
+          "testId": "CUET_CS_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper2_Level2.json",
+          "testId": "CUET_CS_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper3_Level3.json",
+          "testId": "CUET_CS_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper4_Level4.json",
+          "testId": "CUET_CS_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper5_Level5.json",
+          "testId": "CUET_CS_2026_P5_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper6_Level6.json",
+          "testId": "CUET_CS_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper7_Level7.json",
+          "testId": "CUET_CS_2026_P7_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper8_Level8.json",
+          "testId": "CUET_CS_2026_P8_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper9_Level9.json",
+          "testId": "CUET_CS_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper10_Level10.json",
+          "testId": "CUET_CS_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper11_Level1B.json",
+          "testId": "CUET_CS_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper12_Level2B.json",
+          "testId": "CUET_CS_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper13_Level3B.json",
+          "testId": "CUET_CS_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper14_Level4B.json",
+          "testId": "CUET_CS_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper15_Level5B.json",
+          "testId": "CUET_CS_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper16_Level6B.json",
+          "testId": "CUET_CS_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper17_Level7B.json",
+          "testId": "CUET_CS_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper18_Level8B.json",
+          "testId": "CUET_CS_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper19_Level9B.json",
+          "testId": "CUET_CS_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper20_Level10B.json",
+          "testId": "CUET_CS_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper21_Level1C.json",
+          "testId": "CUET_CS_2026_P21_L1C",
+          "paperNumber": 21,
+          "difficultyLevel": "1C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper22_Level2C.json",
+          "testId": "CUET_CS_2026_P22_L2C",
+          "paperNumber": 22,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper23_Level3C.json",
+          "testId": "CUET_CS_2026_P23_L3C",
+          "paperNumber": 23,
+          "difficultyLevel": "3C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper24_Level4C.json",
+          "testId": "CUET_CS_2026_P24_L4C",
+          "paperNumber": 24,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_ComputerScience_Paper25_Level5C.json",
+          "testId": "CUET_CS_2026_P25_L5C",
+          "paperNumber": 25,
+          "difficultyLevel": "5C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics (Code: 309)",
+      "seriesId": "CUET_ECO_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Economics_Paper1_Level1.json",
+          "testId": "CUET_ECO_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper2_Level2.json",
+          "testId": "CUET_ECO_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper3_Level3.json",
+          "testId": "CUET_ECO_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper4_Level4.json",
+          "testId": "CUET_ECO_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper5_Level5.json",
+          "testId": "CUET_ECO_2026_P5_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper6_Level6.json",
+          "testId": "CUET_ECO_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper7_Level7.json",
+          "testId": "CUET_ECO_2026_P7_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper8_Level8.json",
+          "testId": "CUET_ECO_2026_P8_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper9_Level9.json",
+          "testId": "CUET_ECO_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper10_Level10.json",
+          "testId": "CUET_ECO_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper11_Level1B.json",
+          "testId": "CUET_ECO_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper12_Level2B.json",
+          "testId": "CUET_ECO_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper13_Level3B.json",
+          "testId": "CUET_ECO_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper14_Level4B.json",
+          "testId": "CUET_ECO_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper15_Level5B.json",
+          "testId": "CUET_ECO_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper16_Level6B.json",
+          "testId": "CUET_ECO_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper17_Level7B.json",
+          "testId": "CUET_ECO_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper18_Level8B.json",
+          "testId": "CUET_ECO_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper19_Level9B.json",
+          "testId": "CUET_ECO_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper20_Level10B.json",
+          "testId": "CUET_ECO_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper21_Level2C.json",
+          "testId": "CUET_ECO_2026_P21_L2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper22_Level4C.json",
+          "testId": "CUET_ECO_2026_P22_L4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper23_Level6C.json",
+          "testId": "CUET_ECO_2026_P23_L6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper24_Level8C.json",
+          "testId": "CUET_ECO_2026_P24_L8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Economics_Paper25_Level10C.json",
+          "testId": "CUET_ECO_2026_P25_L10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English (Code: 101)",
+      "seriesId": "CUET_ENGLISH_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_English_Paper1_Level1.json",
+          "testId": "CUET_ENGLISH_PAPER_1_LEVEL_1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper2_Level2.json",
+          "testId": "CUET_ENGLISH_PAPER_2_LEVEL_2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper3_Level3.json",
+          "testId": "CUET_ENGLISH_PAPER_3_LEVEL_3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper4_Level4.json",
+          "testId": "CUET_ENGLISH_PAPER_4_LEVEL_4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper5_Level5.json",
+          "testId": "CUET_ENGLISH_PAPER_5_LEVEL_5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper6_Level6.json",
+          "testId": "CUET_ENGLISH_PAPER_6_LEVEL_6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper7_Level7.json",
+          "testId": "CUET_ENGLISH_PAPER_7_LEVEL_7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper8_Level8.json",
+          "testId": "CUET_ENGLISH_PAPER_8_LEVEL_8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper9_Level9.json",
+          "testId": "CUET_ENGLISH_PAPER_9_LEVEL_9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper10_Level10.json",
+          "testId": "CUET_ENGLISH_PAPER_10_LEVEL_10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper11_Level1B.json",
+          "testId": "CUET_ENGLISH_PAPER_11_LEVEL_1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper12_Level2B.json",
+          "testId": "CUET_ENGLISH_PAPER_12_LEVEL_2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper13_Level3B.json",
+          "testId": "CUET_ENGLISH_PAPER_13_LEVEL_3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper14_Level4B.json",
+          "testId": "CUET_ENGLISH_PAPER_14_LEVEL_4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper15_Level5B.json",
+          "testId": "CUET_ENGLISH_PAPER_15_LEVEL_5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper16_Level6B.json",
+          "testId": "CUET_ENGLISH_PAPER_16_LEVEL_6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper17_Level7B.json",
+          "testId": "CUET_ENGLISH_PAPER_4_LEVEL_4",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper18_Level8B.json",
+          "testId": "CUET_ENGLISH_PAPER_18_LEVEL_8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper19_Level9B.json",
+          "testId": "CUET_ENGLISH_PAPER_19_LEVEL_9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper20_Level10B.json",
+          "testId": "CUET_ENGLISH_PAPER_20_LEVEL_10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper21_Level2C.json",
+          "testId": "CUET_ENGLISH_PAPER_21_LEVEL_2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper22_Level4C.json",
+          "testId": "CUET_ENGLISH_PAPER_22_LEVEL_4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper23_Level6C.json",
+          "testId": "CUET_ENGLISH_PAPER_23_LEVEL_6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper24_Level8C.json",
+          "testId": "CUET_ENGLISH_PAPER_24_LEVEL_8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_English_Paper25_Level10C.json",
+          "testId": "CUET_ENGLISH_PAPER_25_LEVEL_10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "general-test",
+      "name": "General Test (Code: 501)",
+      "seriesId": "CUET_GAT_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_GeneralTest_Paper1_Level1.json",
+          "testId": "CUET_GAT_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper2_Level2.json",
+          "testId": "CUET_GAT_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper3_Level3.json",
+          "testId": "CUET_GAT_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper4_Level4.json",
+          "testId": "CUET_GAT_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper5_Level5.json",
+          "testId": "CUET_GAT_2026_P5_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper6_Level6.json",
+          "testId": "CUET_GAT_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper7_Level7.json",
+          "testId": "CUET_GAT_2026_P7_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper8_Level8.json",
+          "testId": "CUET_GAT_2026_P8_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper9_Level9.json",
+          "testId": "CUET_GAT_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper10_Level10.json",
+          "testId": "CUET_GAT_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper11_Level1B.json",
+          "testId": "CUET_GAT_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper12_Level2B.json",
+          "testId": "CUET_GAT_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper13_Level3B.json",
+          "testId": "CUET_GAT_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper14_Level4B.json",
+          "testId": "CUET_GAT_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper15_Level5B.json",
+          "testId": "CUET_GAT_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper16_Level6B.json",
+          "testId": "CUET_GAT_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper17_Level7B.json",
+          "testId": "CUET_GAT_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper18_Level8B.json",
+          "testId": "CUET_GAT_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper19_Level9B.json",
+          "testId": "CUET_GAT_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper20_Level10B.json",
+          "testId": "CUET_GAT_2026_P10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper21_Level1C.json",
+          "testId": "CUET_GAT_2026_P21_L1C",
+          "paperNumber": 21,
+          "difficultyLevel": "1C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper22_Level2C.json",
+          "testId": "CUET_GAT_2026_P22_L2C",
+          "paperNumber": 22,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper23_Level3C.json",
+          "testId": "CUET_GAT_2026_P23_L3C",
+          "paperNumber": 23,
+          "difficultyLevel": "3C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper24_Level4C.json",
+          "testId": "CUET_GAT_2026_P24_L4C",
+          "paperNumber": 24,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_GeneralTest_Paper25_Level5C.json",
+          "testId": "CUET_GAT_2026_P25_L5C",
+          "paperNumber": 25,
+          "difficultyLevel": "5C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography / Geology (Code: 313)",
+      "seriesId": "CUET_GEO_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Geography_Paper1_Level1.json",
+          "testId": "CUET_GEO_2026_P01_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper2_Level2.json",
+          "testId": "CUET_GEO_2026_P02_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper3_Level3.json",
+          "testId": "CUET_GEO_2026_P03_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper4_Level4.json",
+          "testId": "CUET_GEO_2026_P04_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper5_Level5.json",
+          "testId": "CUET_GEO_2026_P05_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper6_Level6.json",
+          "testId": "CUET_GEO_2026_P06_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper7_Level7.json",
+          "testId": "CUET_GEO_2026_P07_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper8_Level8.json",
+          "testId": "CUET_GEO_2026_P08_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper9_Level9.json",
+          "testId": "CUET_GEO_2026_P09_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper10_Level10.json",
+          "testId": "CUET_GEO_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper11_Level1B.json",
+          "testId": "CUET_GEO_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper12_Level2B.json",
+          "testId": "CUET_GEO_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper13_Level3B.json",
+          "testId": "CUET_GEO_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper14_Level4B.json",
+          "testId": "CUET_GEO_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper15_Level5B.json",
+          "testId": "CUET_GEO_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper16_Level6B.json",
+          "testId": "CUET_GEO_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper17_Level7B.json",
+          "testId": "CUET_GEO_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper18_Level8B.json",
+          "testId": "CUET_GEO_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper19_Level9B.json",
+          "testId": "CUET_GEO_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper20_Level10B.json",
+          "testId": "CUET_GEO_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper21_Level2C.json",
+          "testId": "CUET_GEO_2026_P21_L2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper22_Level4C.json",
+          "testId": "CUET_GEO_2026_P22_L4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper23_Level6C.json",
+          "testId": "CUET_GEO_2026_P23_L6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper24_Level8C.json",
+          "testId": "CUET_GEO_2026_P24_L8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Geography_Paper25_Level10C.json",
+          "testId": "CUET_GEO_2026_P25_L10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History (Code: 314)",
+      "seriesId": "CUET_HIS_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_History_Paper1_Level1.json",
+          "testId": "CUET_HIS_2026_P01_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper2_Level2.json",
+          "testId": "CUET_HIS_2026_P02_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper3_Level3.json",
+          "testId": "CUET_HIS_2026_P03_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper4_Level4.json",
+          "testId": "CUET_HIS_2026_P04_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper5_Level5.json",
+          "testId": "CUET_HIS_2026_P05_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper6_Level6.json",
+          "testId": "CUET_HIS_2026_P06_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper7_Level7.json",
+          "testId": "CUET_HIS_2026_P07_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper8_Level8.json",
+          "testId": "CUET_HIS_2026_P08_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper9_Level9.json",
+          "testId": "CUET_HIS_2026_P09_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper10_Level10.json",
+          "testId": "CUET_HIS_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper11_Level1B.json",
+          "testId": "CUET_HIS_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper12_Level2B.json",
+          "testId": "CUET_HIS_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper13_Level3B.json",
+          "testId": "CUET_HIS_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper14_Level4B.json",
+          "testId": "CUET_HIS_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper15_Level5B.json",
+          "testId": "CUET_HIS_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper16_Level6B.json",
+          "testId": "CUET_HIS_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper17_Level7B.json",
+          "testId": "CUET_HIS_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper18_Level8B.json",
+          "testId": "CUET_HIS_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper19_Level9B.json",
+          "testId": "CUET_HIS_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper20_Level10B.json",
+          "testId": "CUET_HIS_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper21_Level2C.json",
+          "testId": "CUET_HIS_2026_P21_L2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper22_Level4C.json",
+          "testId": "CUET_HIS_2026_P22_L4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper23_Level6C.json",
+          "testId": "CUET_HIS_2026_P23_L6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper24_Level8C.json",
+          "testId": "CUET_HIS_2026_P24_L8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_History_Paper25_Level10C.json",
+          "testId": "CUET_HIS_2026_P25_L10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "mass-media",
+      "name": "Mass Media / Mass Communication (Code: 318)",
+      "seriesId": "CUET_MM_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Mass_Media_Paper1_Level1.json",
+          "testId": "CUET_MM_2026_P01_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper2_Level2.json",
+          "testId": "CUET_MM_2026_P02_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper3_Level3.json",
+          "testId": "CUET_MM_2026_P03_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper4_Level4.json",
+          "testId": "CUET_MM_2026_P04_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper5_Level5.json",
+          "testId": "CUET_MM_2026_P05_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper6_Level6.json",
+          "testId": "CUET_MM_2026_P06_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper7_Level7.json",
+          "testId": "CUET_MM_2026_P07_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper8_Level8.json",
+          "testId": "CUET_MM_2026_P08_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper9_Level9.json",
+          "testId": "CUET_MM_2026_P09_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper10_Level10.json",
+          "testId": "CUET_MM_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper11_Level1B.json",
+          "testId": "CUET_MM_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper12_Level2B.json",
+          "testId": "CUET_MM_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper13_Level3B.json",
+          "testId": "CUET_MM_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper14_Level4B.json",
+          "testId": "CUET_MM_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper15_Level5B.json",
+          "testId": "CUET_MM_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper16_Level6B.json",
+          "testId": "CUET_MM_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper17_Level7B.json",
+          "testId": "CUET_MM_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper18_Level8B.json",
+          "testId": "CUET_MM_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper19_Level9B.json",
+          "testId": "CUET_MM_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper20_Level10B.json",
+          "testId": "CUET_MM_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper21_Level2C.json",
+          "testId": "CUET_MM_2026_P21_L2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper22_Level4C.json",
+          "testId": "CUET_MM_2026_P22_L4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper23_Level6C.json",
+          "testId": "CUET_MM_2026_P23_L6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper24_Level8C.json",
+          "testId": "CUET_MM_2026_P24_L8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mass_Media_Paper25_Level10C.json",
+          "testId": "CUET_MM_2026_P25_L10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics (Code: 319)",
+      "seriesId": "CUET_MATH_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Mathematics_Paper1_Level1.json",
+          "testId": "CUET_MATH_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper2_Level2.json",
+          "testId": "CUET_MATH_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper3_Level3.json",
+          "testId": "CUET_MATH_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper4_Level4.json",
+          "testId": "CUET_MATH_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper5_Level5.json",
+          "testId": "CUET_MATH_2026_P5_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper6_Level6.json",
+          "testId": "CUET_MATH_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper7_Level7.json",
+          "testId": "CUET_MATH_2026_P7_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper8_Level8.json",
+          "testId": "CUET_MATH_2026_P8_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper9_Level9.json",
+          "testId": "CUET_MATH_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper10_Level10.json",
+          "testId": "CUET_MATH_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper11_Level1B.json",
+          "testId": "CUET_MATH_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper12_Level2B.json",
+          "testId": "CUET_MATH_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper13_Level3B.json",
+          "testId": "CUET_MATH_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper14_Level4B.json",
+          "testId": "CUET_MATH_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper15_Level5B.json",
+          "testId": "CUET_MATH_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper16_Level6B.json",
+          "testId": "CUET_MATH_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper17_Level7B.json",
+          "testId": "CUET_MATH_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper18_Level8B.json",
+          "testId": "CUET_MATH_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper19_Level9B.json",
+          "testId": "CUET_MATH_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper20_Level10B.json",
+          "testId": "CUET_MATH_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper21_Level2C.json",
+          "testId": "CUET_MATH_2026_P21_L2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper22_Level4C.json",
+          "testId": "CUET_MATH_2026_P22_L4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper23_Level6C.json",
+          "testId": "CUET_MATH_2026_P23_L6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper24_Level8C.json",
+          "testId": "CUET_MATH_2026_P24_L8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Mathematics_Paper25_Level10C.json",
+          "testId": "CUET_MATH_2026_P25_L10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics (Code: 322)",
+      "seriesId": "CUET_PHY_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Physics_Paper1_Level1.json",
+          "testId": "CUET_PHY_2026_P1_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper2_Level2.json",
+          "testId": "CUET_PHY_2026_P2_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper3_Level3.json",
+          "testId": "CUET_PHY_2026_P3_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper4_Level4.json",
+          "testId": "CUET_PHY_2026_P4_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper5_Level5.json",
+          "testId": "CUET_PHY_2026_P5_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper6_Level6.json",
+          "testId": "CUET_PHY_2026_P6_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper7_Level7.json",
+          "testId": "CUET_PHY_2026_P7_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper8_Level8.json",
+          "testId": "CUET_PHY_2026_P8_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper9_Level9.json",
+          "testId": "CUET_PHY_2026_P9_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper10_Level10.json",
+          "testId": "CUET_PHY_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper11_Level1B.json",
+          "testId": "CUET_PHY_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper12_Level2B.json",
+          "testId": "CUET_PHY_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper13_Level3B.json",
+          "testId": "CUET_PHY_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper14_Level4B.json",
+          "testId": "CUET_PHY_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper15_Level5B.json",
+          "testId": "CUET_PHY_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper16_Level6B.json",
+          "testId": "CUET_PHY_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper17_Level7B.json",
+          "testId": "CUET_PHY_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper18_Level8B.json",
+          "testId": "CUET_PHY_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper19_Level9B.json",
+          "testId": "CUET_PHY_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper20_Level10B.json",
+          "testId": "CUET_PHY_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper21_Level1C.json",
+          "testId": "CUET_PHY_2026_P21_L1C",
+          "paperNumber": 21,
+          "difficultyLevel": "1C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper22_Level2C.json",
+          "testId": "CUET_PHY_2026_P22_L2C",
+          "paperNumber": 22,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper23_Level3C.json",
+          "testId": "CUET_PHY_2026_P23_L3C",
+          "paperNumber": 23,
+          "difficultyLevel": "3C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper24_Level4C.json",
+          "testId": "CUET_PHY_2026_P24_L4C",
+          "paperNumber": 24,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Physics_Paper25_Level5C.json",
+          "testId": "CUET_PHY_2026_P25_L5C",
+          "paperNumber": 25,
+          "difficultyLevel": "5C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    },
+    {
+      "id": "political-science",
+      "name": "Political Science (Code: 323)",
+      "seriesId": "CUET_POL_2026",
+      "paperCount": 25,
+      "questionCount": 1250,
+      "papers": [
+        {
+          "file": "CUET_Political_Science_Paper1_Level1.json",
+          "testId": "CUET_POL_2026_P01_L1",
+          "paperNumber": 1,
+          "difficultyLevel": "1",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper2_Level2.json",
+          "testId": "CUET_POL_2026_P02_L2",
+          "paperNumber": 2,
+          "difficultyLevel": "2",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper3_Level3.json",
+          "testId": "CUET_POL_2026_P03_L3",
+          "paperNumber": 3,
+          "difficultyLevel": "3",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper4_Level4.json",
+          "testId": "CUET_POL_2026_P04_L4",
+          "paperNumber": 4,
+          "difficultyLevel": "4",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper5_Level5.json",
+          "testId": "CUET_POL_2026_P05_L5",
+          "paperNumber": 5,
+          "difficultyLevel": "5",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper6_Level6.json",
+          "testId": "CUET_POL_2026_P06_L6",
+          "paperNumber": 6,
+          "difficultyLevel": "6",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper7_Level7.json",
+          "testId": "CUET_POL_2026_P07_L7",
+          "paperNumber": 7,
+          "difficultyLevel": "7",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper8_Level8.json",
+          "testId": "CUET_POL_2026_P08_L8",
+          "paperNumber": 8,
+          "difficultyLevel": "8",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper9_Level9.json",
+          "testId": "CUET_POL_2026_P09_L9",
+          "paperNumber": 9,
+          "difficultyLevel": "9",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper10_Level10.json",
+          "testId": "CUET_POL_2026_P10_L10",
+          "paperNumber": 10,
+          "difficultyLevel": "10",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper11_Level1B.json",
+          "testId": "CUET_POL_2026_P11_L1B",
+          "paperNumber": 11,
+          "difficultyLevel": "1B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper12_Level2B.json",
+          "testId": "CUET_POL_2026_P12_L2B",
+          "paperNumber": 12,
+          "difficultyLevel": "2B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper13_Level3B.json",
+          "testId": "CUET_POL_2026_P13_L3B",
+          "paperNumber": 13,
+          "difficultyLevel": "3B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper14_Level4B.json",
+          "testId": "CUET_POL_2026_P14_L4B",
+          "paperNumber": 14,
+          "difficultyLevel": "4B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper15_Level5B.json",
+          "testId": "CUET_POL_2026_P15_L5B",
+          "paperNumber": 15,
+          "difficultyLevel": "5B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper16_Level6B.json",
+          "testId": "CUET_POL_2026_P16_L6B",
+          "paperNumber": 16,
+          "difficultyLevel": "6B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper17_Level7B.json",
+          "testId": "CUET_POL_2026_P17_L7B",
+          "paperNumber": 17,
+          "difficultyLevel": "7B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper18_Level8B.json",
+          "testId": "CUET_POL_2026_P18_L8B",
+          "paperNumber": 18,
+          "difficultyLevel": "8B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper19_Level9B.json",
+          "testId": "CUET_POL_2026_P19_L9B",
+          "paperNumber": 19,
+          "difficultyLevel": "9B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper20_Level10B.json",
+          "testId": "CUET_POL_2026_P20_L10B",
+          "paperNumber": 20,
+          "difficultyLevel": "10B",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper21_Level2C.json",
+          "testId": "CUET_POL_2026_P21_L2C",
+          "paperNumber": 21,
+          "difficultyLevel": "2C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper22_Level4C.json",
+          "testId": "CUET_POL_2026_P22_L4C",
+          "paperNumber": 22,
+          "difficultyLevel": "4C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper23_Level6C.json",
+          "testId": "CUET_POL_2026_P23_L6C",
+          "paperNumber": 23,
+          "difficultyLevel": "6C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper24_Level8C.json",
+          "testId": "CUET_POL_2026_P24_L8C",
+          "paperNumber": 24,
+          "difficultyLevel": "8C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        },
+        {
+          "file": "CUET_Political_Science_Paper25_Level10C.json",
+          "testId": "CUET_POL_2026_P25_L10C",
+          "paperNumber": 25,
+          "difficultyLevel": "10C",
+          "questionCount": 50,
+          "durationMinutes": 60
+        }
+      ]
+    }
+  ]
+}

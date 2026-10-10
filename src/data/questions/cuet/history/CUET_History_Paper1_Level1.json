@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_HIS_2026_P01_L1",
+  "series_id": "CUET_HIS_2026",
+  "paper_number": 1,
+  "difficulty_level": 1,
+  "subject": "History (Code: 314)",
+  "syllabus_source": "cuet history syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "CUET UG History Past Papers (2022-2024)",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q01",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Harappan Civilisation and Archaeology",
+      "difficulty": "easy",
+      "question": "Which of the following Harappan sites has yielded direct archaeological evidence of a ploughed field?",
+      "options": [
+        "A) Kalibangan in Rajasthan",
+        "B) Lothal in Gujarat",
+        "C) Mohenjodaro in Sindh",
+        "D) Banawali in Haryana"
+      ],
+      "correct_option": "A",
+      "explanation": "Archaeological excavations at Kalibangan in Rajasthan revealed evidence of a ploughed field associated with Early Harappan levels, showing two sets of intersecting furrows."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q02",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Harappan Civilisation and Archaeology",
+      "difficulty": "easy",
+      "question": "The massive brick dockyard discovered in the Harappan civilization was located at which port town?",
+      "options": [
+        "A) Chanhudaro",
+        "B) Lothal",
+        "C) Sutkagen Dor",
+        "D) Dholavira"
+      ],
+      "correct_option": "B",
+      "explanation": "Lothal, situated near the Gulf of Khambhat in Gujarat, possessed a large tidal dockyard basin made of burnt bricks used for maritime trade."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q03",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Harappan Civilisation and Archaeology",
+      "difficulty": "easy",
+      "question": "Which Harappan settlement was almost exclusively devoted to craft production, including bead-making, shell-cutting, and seal-making?",
+      "options": [
+        "A) Mohenjodaro",
+        "B) Kalibangan",
+        "C) Chanhudaro",
+        "D) Kot Diji"
+      ],
+      "correct_option": "C",
+      "explanation": "Chanhudaro was a tiny settlement of less than 7 hectares dedicated almost entirely to specialized artisanal craft production like bead-making and shell-cutting."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q04",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Harappan Civilisation and Archaeology",
+      "difficulty": "medium",
+      "question": "In the drainage system of Mohenjodaro, domestic wastewater was channeled from household bathrooms directly into:",
+      "options": [
+        "A) Deep soak pits dug beneath private courtyards",
+        "B) Open agricultural irrigation ditches outside the town",
+        "C) Elevated wooden aqueducts running over roof terraces",
+        "D) Covered street drains connected to main sewer channels beneath roadways"
+      ],
+      "correct_option": "D",
+      "explanation": "Every Harappan house had drains connecting through the outer wall to street drains laid out on a grid pattern, which were covered with bricks or stone slabs."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q05",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Political and Economic Systems in Early States",
+      "difficulty": "easy",
+      "question": "Who was the British East India Company officer who successfully deciphered the Brahmi and Kharosthi scripts in 1838?",
+      "options": [
+        "A) James Prinsep",
+        "B) Alexander Cunningham",
+        "C) John Marshall",
+        "D) Mortimer Wheeler"
+      ],
+      "correct_option": "A",
+      "explanation": "James Prinsep, an officer in the mint of the East India Company, deciphered Brahmi and Kharosthi in 1838, unlocking ancient Ashokan inscriptions."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q06",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Political and Economic Systems in Early States",
+      "difficulty": "easy",
+      "question": "In ancient India, the term \"Mahajanapada\" referred to:",
+      "options": [
+        "A) A monastic residential complex for Buddhist monks",
+        "B) Major regional territorial states that emerged around the sixth century BCE",
+        "C) A guild of long-distance maritime merchants",
+        "D) Royal officers appointed to distribute grain relief"
+      ],
+      "correct_option": "B",
+      "explanation": "Early Buddhist and Jaina texts mention sixteen major territorial states known as Mahajanapadas flourishing across the subcontinent in the 6th century BCE."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q07",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Political and Economic Systems in Early States",
+      "difficulty": "medium",
+      "question": "The title \"Devanampiya Piyadassi\" frequently inscribed on pillars and rocks was used by which Mauryan ruler?",
+      "options": [
+        "A) Chandragupta Maurya",
+        "B) Bindusara",
+        "C) Ashoka",
+        "D) Dasharatha Maurya"
+      ],
+      "correct_option": "C",
+      "explanation": "Emperor Ashoka used the royal titles Devanampiya (\"Beloved of the Gods\") and Piyadassi (\"Pleasant to behold\") across his pillar and rock edicts."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q08",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Political and Economic Systems in Early States",
+      "difficulty": "hard",
+      "question": "The Prayaga Prashasti (Allahabad Pillar inscription), extolling the military conquests of Samudragupta, was composed in classical Sanskrit by his court poet:",
+      "options": [
+        "A) Banabhatta",
+        "B) Kalidasa",
+        "C) Ravikirti",
+        "D) Harishena"
+      ],
+      "correct_option": "D",
+      "explanation": "Harishena was the court poet (sandhivigrahika) of the Gupta emperor Samudragupta who composed the eulogistic Prayaga Prashasti on the Ashokan pillar at Allahabad."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q09",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Social Histories of Early Societies",
+      "difficulty": "easy",
+      "question": "The Critical Edition of the epic Mahabharata, running into thousands of pages over several decades, was prepared under the leadership of:",
+      "options": [
+        "A) V.S. Sukthankar",
+        "B) B.B. Lal",
+        "C) D.D. Kosambi",
+        "D) R.G. Bhandarkar"
+      ],
+      "correct_option": "A",
+      "explanation": "In 1919, the eminent Sanskritist V.S. Sukthankar initiated and led the mammoth project to compile the Critical Edition of the Mahabharata at the Bhandarkar Oriental Research Institute."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q10",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Social Histories of Early Societies",
+      "difficulty": "easy",
+      "question": "Which form of marriage involves a woman having multiple husbands simultaneously, as seen in the marriage of Draupadi in the Mahabharata?",
+      "options": [
+        "A) Polygyny",
+        "B) Polyandry",
+        "C) Endogamy",
+        "D) Exogamy"
+      ],
+      "correct_option": "B",
+      "explanation": "Polyandry is the practice of a woman having several husbands at the same time, exemplified in the epic by Draupadis marriage to the five Pandava brothers."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q11",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Social Histories of Early Societies",
+      "difficulty": "easy",
+      "question": "According to early Brahmanical legal texts such as the Manusmriti, what was the primary duty assigned to the Shudra varna?",
+      "options": [
+        "A) Conducting Vedic sacrifices and studying the scriptures",
+        "B) Protecting the realm and engaging in warfare",
+        "C) Serving the three higher varnas without malice",
+        "D) Engaging in long-distance maritime merchandise"
+      ],
+      "correct_option": "C",
+      "explanation": "The Dharmasutras and Dharmashastras prescribed that the only occupation for Shudras was serving the three upper varnas (Brahmanas, Kshatriyas, and Vaishyas)."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q12",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Social Histories of Early Societies",
+      "difficulty": "medium",
+      "question": "In the context of early Indian society, the term \"Gotra\" was named after a Vedic seer, and one of its fundamental normative rules was that:",
+      "options": [
+        "A) Women retained their fathers gotra even after marriage",
+        "B) Kings were legally forbidden from having any gotra affiliation",
+        "C) Foreigners were automatically assigned the Kashyapa gotra",
+        "D) Members of the same gotra were strictly prohibited from marrying each other"
+      ],
+      "correct_option": "D",
+      "explanation": "Brahmanical practice mandated exogamy regarding gotra: individuals of the same gotra were considered descendants of the same rishi and could not marry."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q13",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "History of Buddhism and Jainism",
+      "difficulty": "easy",
+      "question": "The Sanchi Stupa, one of the most prominent surviving Buddhist monuments, is situated near Bhopal in which Indian state?",
+      "options": [
+        "A) Madhya Pradesh",
+        "B) Uttar Pradesh",
+        "C) Bihar",
+        "D) Maharashtra"
+      ],
+      "correct_option": "A",
+      "explanation": "The Great Stupa at Sanchi is located on a hilltop in Raisen district near Bhopal in the central Indian state of Madhya Pradesh."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q14",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "History of Buddhism and Jainism",
+      "difficulty": "easy",
+      "question": "Vardhamana Mahavira is traditionally recognized as which Tirthankara in the Jain lineage of spiritual teachers?",
+      "options": [
+        "A) First Tirthankara",
+        "B) Twenty-fourth Tirthankara",
+        "C) Twenty-third Tirthankara",
+        "D) Twelfth Tirthankara"
+      ],
+      "correct_option": "B",
+      "explanation": "Mahavira was the 24th and last Tirthankara of Jainism, preceded by 23 earlier teachers including Parshvanatha (the 23rd) and Rishabhadeva (the 1st)."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q15",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "History of Buddhism and Jainism",
+      "difficulty": "easy",
+      "question": "The foundational teachings and discourses of Gautama Buddha are primarily compiled in which basket of the Tripitaka?",
+      "options": [
+        "A) Vinaya Pitaka",
+        "B) Abhidhamma Pitaka",
+        "C) Sutta Pitaka",
+        "D) Dipavamsa"
+      ],
+      "correct_option": "C",
+      "explanation": "The Sutta Pitaka contains the principal sermons, dialogues, and philosophical discourses delivered by the Buddha during his lifetime."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q16",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "History of Buddhism and Jainism",
+      "difficulty": "hard",
+      "question": "In the architectural terminology of a Buddhist stupa, the hemispherical earthen mound is called the \"anda\", while the square balcony-like structure perched on top representing the abode of the gods is termed the:",
+      "options": [
+        "A) Chhatri",
+        "B) Medhi",
+        "C) Torana",
+        "D) Harmika"
+      ],
+      "correct_option": "D",
+      "explanation": "Above the hemispherical mound (anda) of the stupa stood the harmika, a balcony-like square structure representing the dwelling place of the gods, from which arose a central mast (yashti)."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q17",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Medieval Society through Travellers' Accounts",
+      "difficulty": "easy",
+      "question": "The medieval traveler Al-Biruni, author of the celebrated encyclopedic work Kitab-ul-Hind, arrived in India from which Central Asian territory?",
+      "options": [
+        "A) Khwarizm (modern Uzbekistan)",
+        "B) Tangier in Morocco",
+        "C) Venice in Italy",
+        "D) Isfahan in Persia"
+      ],
+      "correct_option": "A",
+      "explanation": "Al-Biruni was born in 973 CE in Khwarizm (present-day Uzbekistan) and accompanied Sultan Mahmud of Ghazni to Punjab, where he studied Indian culture."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q18",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Medieval Society through Travellers' Accounts",
+      "difficulty": "easy",
+      "question": "The famous Moroccan globetrotter Ibn Battuta authored his detailed travel memoir in Arabic under the title:",
+      "options": [
+        "A) Kitab-ul-Hind",
+        "B) Rihla",
+        "C) Baburnama",
+        "D) Tarikh-i-Firoz Shahi"
+      ],
+      "correct_option": "B",
+      "explanation": "Ibn Battutas famous Arabic travelogue is called the Rihla (\"The Travel\"), offering vivid depictions of 14th-century social and cultural life across Africa, Asia, and India."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q19",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Medieval Society through Travellers' Accounts",
+      "difficulty": "easy",
+      "question": "Francois Bernier, the French physician and traveler who spent twelve years in India (1656-1668), was closely associated with the court of which Mughal prince?",
+      "options": [
+        "A) Prince Murad",
+        "B) Prince Shuja",
+        "C) Prince Dara Shukoh",
+        "D) Prince Khurram"
+      ],
+      "correct_option": "C",
+      "explanation": "Francois Bernier was a French doctor who served as personal physician to Dara Shukoh, the eldest son of Emperor Shah Jahan, and later resided in Aurangzebs court."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q20",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Medieval Society through Travellers' Accounts",
+      "difficulty": "medium",
+      "question": "In his travelogue, Ibn Battuta observed that the postal communication system in 14th-century India functioned efficiently via two channels: the horse-post called \"uluq\", and the foot-post known as:",
+      "options": [
+        "A) Barid",
+        "B) Sarai",
+        "C) Muqaddam",
+        "D) Dawa"
+      ],
+      "correct_option": "D",
+      "explanation": "Ibn Battuta documented two postal networks under Muhammad bin Tughlaq: the horse-post stationed every four miles called uluq, and the foot-post with runners stationed every mile called dawa."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q21",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Religious History: Bhakti-Sufi Traditions",
+      "difficulty": "easy",
+      "question": "In early medieval Tamil Nadu, the Bhakti saint-poets devoted to Lord Vishnu were known as the:",
+      "options": [
+        "A) Alvars",
+        "B) Nayanars",
+        "C) Virashaivas",
+        "D) Nathpanthis"
+      ],
+      "correct_option": "A",
+      "explanation": "The Alvars were Tamil poet-saints who immersed themselves in devotion to Vishnu, while the Nayanars were devotees of Shiva."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q22",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Religious History: Bhakti-Sufi Traditions",
+      "difficulty": "easy",
+      "question": "The Virashaiva or Lingayat movement in 12th-century Karnataka was founded by which charismatic Brahman minister?",
+      "options": [
+        "A) Ramanuja",
+        "B) Basavanna",
+        "C) Shankaracharya",
+        "D) Madhvacharya"
+      ],
+      "correct_option": "B",
+      "explanation": "Basavanna, a minister in the Kalachuri court, spearheaded the Virashaiva (Lingayat) devotional movement worshiping Shiva as a linga worn on the body."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q23",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Religious History: Bhakti-Sufi Traditions",
+      "difficulty": "medium",
+      "question": "The revered dargah of Khwaja Muinuddin Chishti, frequented by Emperor Akbar on multiple pilgrimages, is located in:",
+      "options": [
+        "A) Delhi",
+        "B) Fatehpur Sikri",
+        "C) Ajmer",
+        "D) Gulbarga"
+      ],
+      "correct_option": "C",
+      "explanation": "Khwaja Muinuddin Chishti established the Chishti silsila in India, and his shrine (dargah) in Ajmer, Rajasthan, became a major pilgrimage center."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q24",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Religious History: Bhakti-Sufi Traditions",
+      "difficulty": "medium",
+      "question": "In the Sikh tradition, the compilation of the sacred scripture Adi Granth Sahib was completed in 1604 by which Sikh Guru?",
+      "options": [
+        "A) Guru Nanak Dev Ji",
+        "B) Guru Angad Dev Ji",
+        "C) Guru Tegh Bahadur Ji",
+        "D) Guru Arjan Dev Ji"
+      ],
+      "correct_option": "D",
+      "explanation": "The fifth Sikh Guru, Guru Arjan Dev Ji, compiled the Adi Granth in 1604, incorporating hymns of the Sikh Gurus and Bhakti-Sufi saints like Kabir, Namdev, and Baba Farid."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q25",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Vijayanagara Empire: Politics, Economy and Architecture",
+      "difficulty": "easy",
+      "question": "The Vijayanagara Empire was founded along the banks of the Tungabhadra river in 1336 by the two brothers:",
+      "options": [
+        "A) Harihara and Bukka",
+        "B) Krishnadeva Raya and Achyuta Raya",
+        "C) Rama Raya and Tirumala",
+        "D) Deva Raya I and Deva Raya II"
+      ],
+      "correct_option": "A",
+      "explanation": "The Sangama brothers Harihara and Bukka established the Vijayanagara Empire in 1336 CE on the southern bank of the Tungabhadra River."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q26",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Vijayanagara Empire: Politics, Economy and Architecture",
+      "difficulty": "easy",
+      "question": "The most celebrated ruler of the Vijayanagara Empire, Krishnadeva Raya, belonged to which ruling dynasty?",
+      "options": [
+        "A) Sangama Dynasty",
+        "B) Tuluva Dynasty",
+        "C) Saluva Dynasty",
+        "D) Aravidu Dynasty"
+      ],
+      "correct_option": "B",
+      "explanation": "Krishnadeva Raya (reigned 1509-1529 CE), who expanded the empires boundaries and authored Amuktamalyada, belonged to the Tuluva dynasty."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q27",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Vijayanagara Empire: Politics, Economy and Architecture",
+      "difficulty": "easy",
+      "question": "The disastrous Battle of Talikota (Rakshasi-Tangadi), which led to the sacking of Vijayanagara city, occurred in the year:",
+      "options": [
+        "A) 1526",
+        "B) 1556",
+        "C) 1565",
+        "D) 1576"
+      ],
+      "correct_option": "C",
+      "explanation": "In 1565 CE, the combined forces of the Deccan Sultanates (Bijapur, Golconda, and Ahmadnagar) defeated the Vijayanagara army under Rama Raya at Talikota."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q28",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Vijayanagara Empire: Politics, Economy and Architecture",
+      "difficulty": "medium",
+      "question": "In the administrative system of the Vijayanagara Empire, the \"Amara-Nayakas\" were military commanders who held territories and were required to:",
+      "options": [
+        "A) Supervise naval shipyards on the Coromandel coast exclusively",
+        "B) Oversee temple priests and conduct daily ritual worship",
+        "C) Transcribe royal court poetry into Sanskrit and Kannada",
+        "D) Collect revenue from peasants and maintain a contingent of horses and foot soldiers for the king"
+      ],
+      "correct_option": "D",
+      "explanation": "The Amara-Nayaka system was a key political innovation of Vijayanagara derived from the Delhi Sultanates iqta system, where military chiefs collected revenue and supplied troops."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q29",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "The Mughal Empire and Agrarian Society",
+      "difficulty": "easy",
+      "question": "The monumental administrative compilation Ain-i-Akbari, providing detailed statistical information about Akbars realm, was authored by:",
+      "options": [
+        "A) Abu'l Fazl",
+        "B) Badauni",
+        "C) Faizi",
+        "D) Todar Mal"
+      ],
+      "correct_option": "A",
+      "explanation": "Abul Fazl, Akbars court historian and advisor, authored the Akbarnama, of which the third volume is the administrative compendium Ain-i-Akbari."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q30",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "The Mughal Empire and Agrarian Society",
+      "difficulty": "easy",
+      "question": "In the Ain-i-Akbari, agricultural land that was cultivated continuously year after year without being left fallow was classified as:",
+      "options": [
+        "A) Parauti",
+        "B) Polaj",
+        "C) Chachar",
+        "D) Banjar"
+      ],
+      "correct_option": "B",
+      "explanation": "Under the land classification scheme documented in the Ain-i-Akbari, Polaj was land that was cultivated every year and was never allowed to lie fallow."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q31",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "The Mughal Empire and Agrarian Society",
+      "difficulty": "easy",
+      "question": "In 17th-century Mughal agrarian terminology, the term \"Jins-i-Kamil\" referred specifically to:",
+      "options": [
+        "A) Inferior coarse millets grown in arid wasteland",
+        "B) Grain collected exclusively for village priests",
+        "C) High-value commercial cash crops like cotton and sugarcane",
+        "D) Fodder crops cultivated for imperial war horses"
+      ],
+      "correct_option": "C",
+      "explanation": "The Mughal state encouraged the production of Jins-i-Kamil (literally \"perfect crops\"), which were high-earning commercial cash crops like cotton and sugarcane."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q32",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "The Mughal Empire and Agrarian Society",
+      "difficulty": "medium",
+      "question": "In 16th-17th century rural India, the headman of the village panchayat was known locally as the:",
+      "options": [
+        "A) Diwan",
+        "B) Qanungo",
+        "C) Mansabdar",
+        "D) Muqaddam or Mandal"
+      ],
+      "correct_option": "D",
+      "explanation": "Village panchayats were headed by a headman known as the muqaddam or mandal, who was chosen through consensus of village elders and confirmed by the zamindar."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q33",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Colonialism and Rural Society",
+      "difficulty": "easy",
+      "question": "The Permanent Settlement of land revenue was introduced in Bengal in 1793 by Governor-General:",
+      "options": [
+        "A) Lord Cornwallis",
+        "B) Warren Hastings",
+        "C) Lord Wellesley",
+        "D) Lord William Bentinck"
+      ],
+      "correct_option": "A",
+      "explanation": "Lord Cornwallis instituted the Permanent Settlement in Bengal and Bihar in 1793, fixing land revenue in perpetuity with the zamindars."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q34",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Colonialism and Rural Society",
+      "difficulty": "easy",
+      "question": "The \"Fifth Report\" on the administration of the East India Company was submitted to the British Parliament in which year?",
+      "options": [
+        "A) 1793",
+        "B) 1813",
+        "C) 1833",
+        "D) 1858"
+      ],
+      "correct_option": "B",
+      "explanation": "The Fifth Report was submitted to the British Parliament in 1813, containing extensive petitions, collectors reports, and revenue accounts on rural Bengal."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q35",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Colonialism and Rural Society",
+      "difficulty": "medium",
+      "question": "In the Rajmahal Hills, the Santhal rebellion of 1855-56 was led by the legendary brothers:",
+      "options": [
+        "A) Birsa and Gaya Munda",
+        "B) Alluri Sitarama Raju and Gam Mallu Dora",
+        "C) Sidhu and Kanhu Santhal",
+        "D) Tilka Manjhi and Joria Santhal"
+      ],
+      "correct_option": "C",
+      "explanation": "Sidhu and Kanhu led the Santhal insurrection (Hul) against moneylenders, zamindars, and British officials in the Damin-i-Koh region in 1855."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q36",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Colonialism and Rural Society",
+      "difficulty": "hard",
+      "question": "The Deccan Riots Commission, formed to investigate rural peasant uprisings in western India, focused on violent unrest that broke out in 1875 in which village of Pune district?",
+      "options": [
+        "A) Bardoli",
+        "B) Champaran",
+        "C) Chauri Chaura",
+        "D) Supa"
+      ],
+      "correct_option": "D",
+      "explanation": "The Deccan peasant uprising started in May 1875 at the market village of Supa in Pune district, where ryots attacked moneylenders and burned debt bonds."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q37",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Revolt of 1857: Patterns and Representations",
+      "difficulty": "easy",
+      "question": "The Revolt of 1857 began on 10 May 1857 with a mutiny of sepoys stationed at the cantonment town of:",
+      "options": [
+        "A) Meerut",
+        "B) Barrackpore",
+        "C) Kanpur",
+        "D) Jhansi"
+      ],
+      "correct_option": "A",
+      "explanation": "The mutiny erupted on the afternoon of Sunday, 10 May 1857 in the Meerut cantonment, after which the sepoys marched to Delhi."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q38",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Revolt of 1857: Patterns and Representations",
+      "difficulty": "easy",
+      "question": "Who was the aged Mughal emperor whom the rebellious sepoys proclaimed as the symbolic leader of the 1857 uprising in Delhi?",
+      "options": [
+        "A) Shah Alam II",
+        "B) Bahadur Shah Zafar",
+        "C) Akbar Shah II",
+        "D) Alamgir II"
+      ],
+      "correct_option": "B",
+      "explanation": "The sepoys converged on the Red Fort in Delhi and persuaded Bahadur Shah II (Zafar), the last Mughal ruler, to accept the nominal leadership of the revolt."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q39",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Revolt of 1857: Patterns and Representations",
+      "difficulty": "easy",
+      "question": "In Lucknow, who was the deposed Nawab of Awadh whose queen Begum Hazrat Mahal rallied popular resistance against the British in 1857?",
+      "options": [
+        "A) Saadat Ali Khan",
+        "B) Asaf-ud-Daula",
+        "C) Wajid Ali Shah",
+        "D) Shuja-ud-Daula"
+      ],
+      "correct_option": "C",
+      "explanation": "Nawab Wajid Ali Shah had been deposed and exiled to Calcutta by Lord Dalhousie in 1856 on charges of \"misgovernance\", prompting widespread public fury in Awadh."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q40",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Revolt of 1857: Patterns and Representations",
+      "difficulty": "medium",
+      "question": "The famous British painting titled \"Relief of Lucknow\" (1859), depicting the celebration of British colonial military victory, was painted by:",
+      "options": [
+        "A) Joseph Noel Paton",
+        "B) Thomas Daniell",
+        "C) Henry Lawrence",
+        "D) Thomas Jones Barker"
+      ],
+      "correct_option": "D",
+      "explanation": "Thomas Jones Barker painted Relief of Lucknow in 1859, celebrating the arrival of British reinforcements under Colin Campbell to rescue the besieged British garrison."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q41",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Mahatma Gandhi and National Movements",
+      "difficulty": "easy",
+      "question": "In which year did Mahatma Gandhi return permanently to India from South Africa at the urging of Gopal Krishna Gokhale?",
+      "options": [
+        "A) 1915",
+        "B) 1917",
+        "C) 1919",
+        "D) 1920"
+      ],
+      "correct_option": "A",
+      "explanation": "Gandhiji returned to India in January 1915 after more than two decades in South Africa, where he had forged the method of Satyagraha."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q42",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Mahatma Gandhi and National Movements",
+      "difficulty": "easy",
+      "question": "Mahatma Gandhi launched the historic Salt March to Dandi from the Sabarmati Ashram in the year:",
+      "options": [
+        "A) 1928",
+        "B) 1930",
+        "C) 1932",
+        "D) 1942"
+      ],
+      "correct_option": "B",
+      "explanation": "The Dandi March began on 12 March 1930 from Sabarmati Ashram, reaching the coastal village of Dandi on 6 April 1930 to break the Salt Law."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q43",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Mahatma Gandhi and National Movements",
+      "difficulty": "easy",
+      "question": "The tragic Jallianwala Bagh massacre, which galvanized nationwide resistance and prompted Rabindranath Tagore to renounce his knighthood, took place on 13 April 1919 in:",
+      "options": [
+        "A) Lahore",
+        "B) Gujranwala",
+        "C) Amritsar",
+        "D) Jalandhar"
+      ],
+      "correct_option": "C",
+      "explanation": "General Dyer ordered troops to fire upon an unarmed gathering on Baisakhi day at Jallianwala Bagh in Amritsar, killing hundreds of peaceful citizens."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q44",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "Mahatma Gandhi and National Movements",
+      "difficulty": "medium",
+      "question": "Mahatma Gandhi abruptly suspended the nationwide Non-Cooperation Movement in February 1922 following a violent incident at:",
+      "options": [
+        "A) Kakori",
+        "B) Bardoli",
+        "C) Kheda",
+        "D) Chauri Chaura"
+      ],
+      "correct_option": "D",
+      "explanation": "On 4 February 1922, a crowd burned down a police station at Chauri Chaura in Gorakhpur district, Uttar Pradesh, killing 22 policemen, leading Gandhi to call off the movement."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q45",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "The Making of the Constitution",
+      "difficulty": "easy",
+      "question": "Who served as the Chairman of the Drafting Committee of the Constituent Assembly of India?",
+      "options": [
+        "A) Dr. B.R. Ambedkar",
+        "B) Dr. Rajendra Prasad",
+        "C) Jawaharlal Nehru",
+        "D) Sardar Vallabhbhai Patel"
+      ],
+      "correct_option": "A",
+      "explanation": "Dr. B.R. Ambedkar served as the Chairman of the six-member Drafting Committee that prepared the Draft Constitution of independent India."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q46",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "The Making of the Constitution",
+      "difficulty": "easy",
+      "question": "The momentous \"Objectives Resolution\", laying down the ideals of the Indian Republic, was introduced in the Constituent Assembly on 13 December 1946 by:",
+      "options": [
+        "A) Dr. B.R. Ambedkar",
+        "B) Jawaharlal Nehru",
+        "C) Maulana Abul Kalam Azad",
+        "D) Dr. Rajendra Prasad"
+      ],
+      "correct_option": "B",
+      "explanation": "Jawaharlal Nehru moved the historic Objectives Resolution in the Constituent Assembly on 13 December 1946, outlining the basic tenets and philosophy of the Constitution."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q47",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "The Making of the Constitution",
+      "difficulty": "easy",
+      "question": "Who was the permanent President of the Constituent Assembly under whose signature the Constitution of India was officially adopted?",
+      "options": [
+        "A) Dr. Sachchidananda Sinha",
+        "B) C. Rajagopalachari",
+        "C) Dr. Rajendra Prasad",
+        "D) B.N. Rau"
+      ],
+      "correct_option": "C",
+      "explanation": "Dr. Rajendra Prasad was elected permanent President of the Constituent Assembly on 11 December 1946 and presided over its historic deliberations."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q48",
+      "topic": "Themes in Indian History (Part - III)",
+      "sub_topic": "The Making of the Constitution",
+      "difficulty": "medium",
+      "question": "In the Constituent Assembly debates, who served as the Constitutional Advisor and prepared the initial background draft of the Constitution?",
+      "options": [
+        "A) K.M. Munshi",
+        "B) Alladi Krishnaswamy Iyer",
+        "C) S.N. Mukherjee",
+        "D) Sir B.N. Rau"
+      ],
+      "correct_option": "D",
+      "explanation": "Sir B.N. Rau served as the Constitutional Advisor to the Constituent Assembly, preparing comparative studies of other world constitutions and formulating the preliminary draft."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q49",
+      "topic": "Themes in Indian History (Part - I)",
+      "sub_topic": "Harappan Civilisation and Archaeology",
+      "difficulty": "easy",
+      "question": "Which raw material was imported by the Harappans from the Khetri region of Rajasthan?",
+      "options": [
+        "A) Copper",
+        "B) Gold",
+        "C) Lapis Lazuli",
+        "D) Carnelian"
+      ],
+      "correct_option": "A",
+      "explanation": "The Harappans sent expeditions to the Khetri region of Rajasthan to procure copper and to South India for gold."
+    },
+    {
+      "id": "CUET_HIS_2026_P01_L1_Q50",
+      "topic": "Themes in Indian History (Part - II)",
+      "sub_topic": "Religious History: Bhakti-Sufi Traditions",
+      "difficulty": "easy",
+      "question": "The collection of devotional poetry composed by the 16th-century Rajasthani poetess Mirabai was dedicated to:",
+      "options": [
+        "A) Lord Shiva",
+        "B) Lord Krishna",
+        "C) Lord Rama",
+        "D) Goddess Durga"
+      ],
+      "correct_option": "B",
+      "explanation": "Mirabai was a Rajput princess who renounced royal life and composed passionate devotional bhajans expressing love for Lord Krishna."
+    }
+  ]
+}

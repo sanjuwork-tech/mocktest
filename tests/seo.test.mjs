@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { canonicalSiteUrl } from "../src/lib/site-url.ts";
 
 test("canonical identity uses the actual public site, independent of preview host", () => {
-  assert.equal(canonicalSiteUrl(), "https://mocktest-sigma.vercel.app");
+  assert.equal(canonicalSiteUrl(), "https://ourmocks.com");
   assert.equal(
     canonicalSiteUrl("  https://example.com/  "),
     "https://example.com",

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P17_L7B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 17,
+  "difficulty_level": "7B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "In a flowering plant, the ploidy level of the integuments is:",
+      "options": [
+        "A) Diploid (2n)",
+        "B) Haploid (n)",
+        "C) Triploid (3n)",
+        "D) Tetraploid (4n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Integuments are part of the ovule (maternal sporophytic tissue) and are diploid (2n). They develop into the seed coat after fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The corpus luteum secretes which hormone essential for maintaining the endometrium during early pregnancy?",
+      "options": [
+        "A) Progesterone",
+        "B) Estrogen only",
+        "C) Oxytocin",
+        "D) FSH"
+      ],
+      "correct_option": "A",
+      "explanation": "The corpus luteum, formed from the ruptured Graafian follicle after ovulation, secretes progesterone which maintains the endometrium for implantation. If pregnancy occurs, hCG from the trophoblast rescues the corpus luteum."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Lactational amenorrhoea as a natural contraceptive method is effective for a maximum period of about:",
+      "options": [
+        "A) 3 months after parturition",
+        "B) 12 months after parturition",
+        "C) 6 months after parturition",
+        "D) 18 months after parturition"
+      ],
+      "correct_option": "C",
+      "explanation": "Lactational amenorrhoea suppresses ovulation due to high prolactin levels during exclusive breastfeeding. It is effective as a contraceptive only up to 6 months post-partum, provided the mother is amenorrheic and exclusively breastfeeding."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "In an angiosperm, if the chromosome number in the polar nuclei is 12 each, the chromosome number in the egg cell would be:",
+      "options": [
+        "A) 18",
+        "B) 6",
+        "C) 24",
+        "D) 12"
+      ],
+      "correct_option": "D",
+      "explanation": "The embryo sac is haploid (n). Each polar nucleus has n=12 chromosomes. The egg cell, also haploid, therefore has 12 chromosomes. The central cell (before fertilization) with two polar nuclei has 2n=24, and after fusion with a sperm (n=12) forms triploid (3n=36) endosperm."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "During spermatogenesis, the second meiotic division converts which of the following?",
+      "options": [
+        "A) Spermatids to spermatozoa",
+        "B) Primary spermatocytes to secondary spermatocytes",
+        "C) Spermatogonia to primary spermatocytes",
+        "D) Secondary spermatocytes to spermatids"
+      ],
+      "correct_option": "D",
+      "explanation": "Spermatogenesis involves: (1) Spermatogonia (2n) -> Primary spermatocytes (2n) by mitosis, (2) Primary spermatocytes (2n) -> Secondary spermatocytes (n) by meiosis I, (3) Secondary spermatocytes (n) -> Spermatids (n) by meiosis II, (4) Spermatids -> Spermatozoa by spermiogenesis (no division)."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Which of the following events marks the completion of fertilization in humans?",
+      "options": [
+        "A) Acrosomal reaction",
+        "B) Entry of sperm into the corona radiata",
+        "C) Fusion of pronuclei and formation of zygote with diploid chromosome number",
+        "D) Formation of male and female pronuclei"
+      ],
+      "correct_option": "C",
+      "explanation": "Fertilization is completed when the male and female pronuclei fuse, restoring the diploid chromosome number (2n=46) and forming a zygote. The sperm entry triggers completion of meiosis II in the oocyte, forming the female pronucleus, followed by pronuclear fusion."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "The phenomenon of apomixis is functionally equivalent to which of the following in animals?",
+      "options": [
+        "A) Polyembryony",
+        "B) Paedogenesis",
+        "C) Parthenogenesis",
+        "D) Viviparity"
+      ],
+      "correct_option": "C",
+      "explanation": "Apomixis (asexual reproduction through seeds without fertilization) is functionally analogous to parthenogenesis (development of an embryo from an unfertilized egg) in animals. Both bypass syngamy while producing offspring genetically identical to the mother."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "A couple has a child with Turner syndrome (45,X). If nondisjunction occurred in the father during meiosis I, what is the most likely explanation?",
+      "options": [
+        "A) Both sex chromosomes failed to separate, producing sperm with XY or no sex chromosome",
+        "B) Both sex chromosomes failed to separate, producing sperm with XX or YY",
+        "C) The mother contributed an extra X chromosome",
+        "D) Sister chromatids of the X failed to separate"
+      ],
+      "correct_option": "A",
+      "explanation": "Turner syndrome (45,X) results from a sperm lacking a sex chromosome fertilizing a normal X egg. Nondisjunction of homologous sex chromosomes in paternal meiosis I produces sperm with either both X and Y or neither sex chromosome. Fertilization of an X egg by a sex-chromosome-null sperm yields 45,X."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Which of the following statements about Intrauterine Devices (IUDs) is INCORRECT?",
+      "options": [
+        "A) Hormonal IUDs make the endometrium unsuitable for implantation",
+        "B) IUDs can be self-inserted without medical supervision",
+        "C) Cu-T is thought to release copper ions that suppress sperm motility",
+        "D) Copper-T increases phagocytosis of sperms"
+      ],
+      "correct_option": "B",
+      "explanation": "IUDs must be inserted by a trained medical professional under aseptic conditions. They cannot be self-inserted. Copper-T increases sperm phagocytosis and copper ions impair sperm motility, while hormonal IUDs alter the endometrium to prevent implantation and thicken cervical mucus."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Geitonogamy is genetically equivalent to autogamy but differs in that:",
+      "options": [
+        "A) It results in triploid endosperm",
+        "B) It requires pollen transfer between different flowers on the same plant",
+        "C) It always leads to self-incompatibility",
+        "D) It involves pollen transfer between flowers of different plants"
+      ],
+      "correct_option": "B",
+      "explanation": "Geitonogamy is transfer of pollen from the anther of one flower to the stigma of another flower on the same plant. Genetically it is equivalent to autogamy (both involve gametes from the same plant), but it differs mechanistically because it involves a pollinator or external agent between two different flowers."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q11",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance",
+      "difficulty": "easy",
+      "question": "The law of segregation in Mendelian genetics states that:",
+      "options": [
+        "A) Alleles of different genes assort independently",
+        "B) Dominant alleles are always expressed over recessive",
+        "C) Genes on the same chromosome are linked",
+        "D) Two alleles for a trait separate during gamete formation"
+      ],
+      "correct_option": "D",
+      "explanation": "Mendel's Law of Segregation states that the two alleles for a trait separate (segregate) during gamete formation, so each gamete carries only one allele for each gene. This occurs during anaphase I of meiosis when homologous chromosomes separate."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q12",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "The enzyme that unwinds the DNA double helix at the replication fork is:",
+      "options": [
+        "A) DNA polymerase III",
+        "B) DNA ligase",
+        "C) Primase",
+        "D) Helicase"
+      ],
+      "correct_option": "D",
+      "explanation": "Helicase unwinds the DNA double helix by breaking hydrogen bonds between base pairs at the replication fork, creating the single-stranded templates for replication. DNA polymerase III synthesizes new strands, primase lays RNA primers, and ligase seals Okazaki fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q13",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance",
+      "difficulty": "medium",
+      "question": "In a cross between two individuals with genotype AaBbCc x AaBbCc, what proportion of offspring will show the dominant phenotype for all three traits (assuming complete dominance and independent assortment)?",
+      "options": [
+        "A) 27/64",
+        "B) 1/64",
+        "C) 9/64",
+        "D) 3/64"
+      ],
+      "correct_option": "A",
+      "explanation": "For each heterozygous cross Aa x Aa, the probability of dominant phenotype (A_) is 3/4. Since the three genes assort independently, the probability of dominant phenotype for all three is (3/4) x (3/4) x (3/4) = 27/64. This is a trihybrid cross yielding a 27:9:9:9:3:3:3:1 phenotypic ratio."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q14",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which of the following correctly describes the role of the sigma (s) factor in prokaryotic transcription?",
+      "options": [
+        "A) It terminates transcription at rho-independent terminators",
+        "B) It adds the poly-A tail to mRNA",
+        "C) It recognizes and binds to the promoter region to initiate transcription",
+        "D) It catalyzes peptide bond formation"
+      ],
+      "correct_option": "C",
+      "explanation": "The sigma (s) factor is a subunit of prokaryotic RNA polymerase that recognizes and binds to the promoter sequence (specifically the -10 TATAAT and -35 regions), enabling transcription initiation. Once initiation occurs, the s factor dissociates."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q15",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "The Hardy-Weinberg equilibrium in a population will be disturbed by all of the following EXCEPT:",
+      "options": [
+        "A) Natural selection",
+        "B) Genetic drift",
+        "C) Gene flow",
+        "D) Random mating"
+      ],
+      "correct_option": "D",
+      "explanation": "Hardy-Weinberg equilibrium requires: no mutation, random mating, no gene flow, no genetic drift, and no natural selection. Random mating is actually a condition FOR equilibrium, not a disturbance. Gene flow, genetic drift, and natural selection all change allele frequencies and disrupt equilibrium."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q16",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance",
+      "difficulty": "medium",
+      "question": "A woman who is a carrier for color blindness (XBXb) and a normal-vision man (XBY) have a son. What is the probability their son will be color-blind?",
+      "options": [
+        "A) 100%",
+        "B) 0%",
+        "C) 50%",
+        "D) 25%"
+      ],
+      "correct_option": "C",
+      "explanation": "The cross is XBXb x XBY. Sons inherit X from mother and Y from father. The mother can pass either XB or Xb with equal probability (50% each). If the son receives Xb, he will be color-blind (XbY). Therefore, the probability is 50%."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q17",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In the lac operon, the operator region functions as a binding site for:",
+      "options": [
+        "A) The repressor protein",
+        "B) CAP-cAMP complex",
+        "C) The inducer lactose",
+        "D) RNA polymerase"
+      ],
+      "correct_option": "A",
+      "explanation": "In the lac operon, the operator is a DNA sequence where the repressor protein binds to block transcription. When lactose (or allolactose) binds to the repressor, it changes conformation and detaches from the operator, allowing RNA polymerase to transcribe the structural genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q18",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "A mutation changes the DNA template strand sequence from 3'-TAC AAA GGG-5' to 3'-TAC AAG GGG-5'. This mutation would result in:",
+      "options": [
+        "A) A missense mutation changing lysine to glutamic acid",
+        "B) A silent mutation with no amino acid change",
+        "C) A frameshift mutation altering all downstream codons",
+        "D) A nonsense mutation creating a premature stop codon"
+      ],
+      "correct_option": "B",
+      "explanation": "The template 3'-TAC AAA GGG-5' transcribes to mRNA 5'-AUG UUU CCC-3' encoding Met-Phe-Pro. After mutation to 3'-TAC AAG GGG-5', mRNA becomes 5'-AUG UUC CCC-3'. Both AAA and AAG in the template strand produce Phe codons in mRNA (UUU and UUC both code for Phe). This is a silent mutation."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q19",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The ABO blood group system has three alleles (IA, IB, i). If a population is in Hardy-Weinberg equilibrium with allele frequencies p(IA)=0.3, q(IB)=0.2, r(i)=0.5, what percentage would have blood group A phenotype?",
+      "options": [
+        "A) 33%",
+        "B) 9%",
+        "C) 39%",
+        "D) 30%"
+      ],
+      "correct_option": "C",
+      "explanation": "Blood group A phenotype results from genotypes IAIA or IAi. Frequency = p^2 + 2pr = (0.3)^2 + 2(0.3)(0.5) = 0.09 + 0.30 = 0.39 or 39%. This uses the Hardy-Weinberg extension for three alleles: (p+q+r)^2 = p^2+q^2+r^2+2pq+2pr+2qr = 1."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q20",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance",
+      "difficulty": "hard",
+      "question": "A plant with genotype AaBbCcDd is selfed. Assuming independent assortment and complete dominance, what fraction of the progeny will show exactly 3 dominant phenotypes out of 4 traits?",
+      "options": [
+        "A) 1/4",
+        "B) 27/64",
+        "C) 3/16",
+        "D) 1/64"
+      ],
+      "correct_option": "B",
+      "explanation": "For each trait, P(dominant) = 3/4, P(recessive) = 1/4. Probability of exactly 3 dominant phenotypes = C(4,3) x (3/4)^3 x (1/4) = 4 x (27/64) x (1/4) = 108/256 = 27/64. This is a binomial probability calculation."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q21",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health & Disease",
+      "difficulty": "easy",
+      "question": "The type of immunity acquired by vaccination is an example of:",
+      "options": [
+        "A) Passive natural immunity",
+        "B) Passive artificial immunity",
+        "C) Innate immunity",
+        "D) Active artificial immunity"
+      ],
+      "correct_option": "D",
+      "explanation": "Vaccination introduces antigens (weakened/killed pathogens or their products) that stimulate the body's own immune response, producing memory cells. This is active (body produces its own antibodies) and artificial (deliberate medical intervention) immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q22",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "The large holes in Swiss cheese are caused by a bacterium that produces:",
+      "options": [
+        "A) Lactic acid",
+        "B) Propionic acid",
+        "C) Carbon dioxide",
+        "D) Acetic acid"
+      ],
+      "correct_option": "C",
+      "explanation": "The large holes (eyes) in Swiss cheese are produced by Propionibacterium shermanii, which converts lactic acid to propionic acid and releases CO2 gas. The CO2 gas bubbles create the characteristic holes during the ripening process."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q23",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health & Disease",
+      "difficulty": "medium",
+      "question": "Which type of hypersensitivity reaction is responsible for causing myasthenia gravis?",
+      "options": [
+        "A) Type II (Antibody-mediated/cytotoxic)",
+        "B) Type I (Immediate/anaphylactic)",
+        "C) Type III (Immune complex-mediated)",
+        "D) Type IV (Delayed cell-mediated)"
+      ],
+      "correct_option": "A",
+      "explanation": "Myasthenia gravis is an autoimmune disease where antibodies block acetylcholine receptors at neuromuscular junctions. This is a Type II hypersensitivity reaction (cytotoxic/antibody-mediated) because IgG antibodies directly bind to cell surface receptors, preventing their normal function and leading to muscle weakness."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q24",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health & Disease",
+      "difficulty": "medium",
+      "question": "In the life cycle of Plasmodium, the stage that develops in the mosquito vector and is infective to humans is called:",
+      "options": [
+        "A) Gametocyte",
+        "B) Merozoite",
+        "C) Sporozoite",
+        "D) Trophozoite"
+      ],
+      "correct_option": "C",
+      "explanation": "Sporozoites are the infective stage of Plasmodium that are present in the salivary glands of the female Anopheles mosquito. When the mosquito bites a human, sporozoites are injected into the bloodstream and travel to the liver to initiate the hepatic phase of infection."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q25",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "In primary sewage treatment, the removal of floating debris and particulate matter is achieved by:",
+      "options": [
+        "A) Screening and sedimentation",
+        "B) Chlorination",
+        "C) Anaerobic digestion",
+        "D) Activated sludge process"
+      ],
+      "correct_option": "A",
+      "explanation": "Primary sewage treatment is a physical process involving screening (removal of floating debris) and sedimentation (settling of particulate matter as primary sludge). Secondary treatment involves biological processes (activated sludge, trickling filters), and tertiary treatment includes chemical disinfection like chlorination."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q26",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health & Disease",
+      "difficulty": "medium",
+      "question": "Which of the following pathogens causes disease through a toxin that increases intracellular cAMP levels?",
+      "options": [
+        "A) Salmonella typhi",
+        "B) Vibrio cholerae",
+        "C) Clostridium tetani",
+        "D) Mycobacterium tuberculosis"
+      ],
+      "correct_option": "B",
+      "explanation": "Vibrio cholerae produces cholera toxin (an AB5 toxin) that ADP-ribosylates the Gs protein, locking it in the active state. This causes constitutive activation of adenylyl cyclase, raising cAMP levels in intestinal epithelial cells, leading to massive chloride and water secretion causing profuse watery diarrhea."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q27",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "The organism Saccharomyces cerevisiae is used in the production of ethanol through fermentation. The optimal condition for maximum ethanol yield is:",
+      "options": [
+        "A) Aerobic with low sugar concentration",
+        "B) Anaerobic with unlimited oxygen",
+        "C) Aerobic with high sugar concentration",
+        "D) Anaerobic with moderate sugar concentration"
+      ],
+      "correct_option": "D",
+      "explanation": "Saccharomyces cerevisiae produces ethanol through anaerobic fermentation. Under aerobic conditions, it undergoes aerobic respiration producing CO2 and H2O. For maximum ethanol yield, anaerobic conditions with moderate sugar concentration (not too high to cause osmotic stress) are optimal."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q28",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health & Disease",
+      "difficulty": "hard",
+      "question": "In the immune response to a bacterial infection, the complement system contributes to pathogen clearance by all mechanisms EXCEPT:",
+      "options": [
+        "A) Secretion of interferons to inhibit viral replication",
+        "B) Opsonization via C3b deposition",
+        "C) Chemotaxis via C5a attracting phagocytes",
+        "D) Direct cell lysis via membrane attack complex (MAC)"
+      ],
+      "correct_option": "A",
+      "explanation": "Interferons are secreted by virus-infected cells as an antiviral defense, not by the complement system. The complement system contributes to immunity through: opsonization (C3b coating pathogens), formation of MAC (C5b-C9) causing direct lysis, and anaphylatoxins (C3a, C5a) promoting chemotaxis and inflammation."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q29",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health & Disease",
+      "difficulty": "hard",
+      "question": "A patient presents with high fever, headache, and a petechial rash. A gram-negative diplococcus is isolated from blood culture. The most likely pathogen is:",
+      "options": [
+        "A) Haemophilus influenzae",
+        "B) Staphylococcus aureus",
+        "C) Neisseria meningitidis",
+        "D) Streptococcus pneumoniae"
+      ],
+      "correct_option": "C",
+      "explanation": "Neisseria meningitidis is a gram-negative diplococcus that causes meningococcal meningitis, presenting with fever, headache, neck stiffness, and petechial/purpuric rash. Streptococcus pneumoniae is gram-positive in chains. Haemophilus influenzae is a gram-negative coccobacillus. Staphylococcus aureus is gram-positive cocci in clusters."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q30",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "During the production of cheese, the bacterium Lactobacillus contributes to curd formation by:",
+      "options": [
+        "A) Producing proteases that hydrolyze casein completely",
+        "B) Producing lactic acid that causes casein precipitation",
+        "C) Producing CO2 gas that separates curds and whey",
+        "D) Producing ethanol that denatures casein"
+      ],
+      "correct_option": "B",
+      "explanation": "Lactobacillus and other lactic acid bacteria ferment lactose to lactic acid during cheese-making. The acidification lowers the pH toward the isoelectric point of casein (pH 4.6), causing casein micelles to destabilize and precipitate as curd, separating from the liquid whey."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q31",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles & Processes",
+      "difficulty": "easy",
+      "question": "The technique of polymerase chain reaction (PCR) is used to:",
+      "options": [
+        "A) Amplify specific DNA sequences exponentially",
+        "B) Cut DNA at specific sequences",
+        "C) Separate DNA fragments by size",
+        "D) Insert genes into vectors"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR (Polymerase Chain Reaction) amplifies specific DNA sequences exponentially (2^n copies after n cycles) using thermostable DNA polymerase (Taq), primers, dNTPs, and thermal cycling. Restriction enzymes cut DNA, gel electrophoresis separates fragments, and ligation inserts genes into vectors."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q32",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "easy",
+      "question": "Bt cotton is genetically modified to produce a toxin that kills cotton bollworm. This toxin gene is derived from:",
+      "options": [
+        "A) Bacillus subtilis",
+        "B) Pseudomonas syringae",
+        "C) Agrobacterium tumefaciens",
+        "D) Bacillus thuringiensis"
+      ],
+      "correct_option": "D",
+      "explanation": "Bt cotton contains the cry gene from Bacillus thuringiensis that codes for the Bt toxin (Cry protein). When insects ingest this toxin, it is activated in their alkaline gut, creates pores in the gut wall, causing it to paralyze and die. This is a biopesticide strategy reducing chemical pesticide use."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q33",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles & Processes",
+      "difficulty": "medium",
+      "question": "Which restriction enzyme produces sticky ends with the sequence 5'-G-A-A-T-T-C-3'?",
+      "options": [
+        "A) HindIII",
+        "B) BamHI",
+        "C) EcoRI",
+        "D) PstI"
+      ],
+      "correct_option": "C",
+      "explanation": "EcoRI recognizes 5'-GAATTC-3' and cuts between G and A, producing 5' overhangs (sticky ends). HindIII recognizes AAGCTT, BamHI recognizes GGATCC. EcoRI is the classic example used in molecular biology textbooks for generating compatible sticky ends for cloning."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q34",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles & Processes",
+      "difficulty": "medium",
+      "question": "In gel electrophoresis, DNA fragments separate based on their:",
+      "options": [
+        "A) Size only",
+        "B) Charge only",
+        "C) Sequence composition",
+        "D) Size-to-charge ratio"
+      ],
+      "correct_option": "D",
+      "explanation": "In gel electrophoresis, DNA fragments migrate toward the positive electrode. The uniform negative charge per unit length (due to phosphate backbone) means migration depends primarily on size - smaller fragments move faster through the gel matrix. This is effectively a size-to-charge ratio separation where charge is proportional to length."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q35",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "medium",
+      "question": "The first cloned animal, Dolly the sheep, was produced using which technique?",
+      "options": [
+        "A) Gene targeting",
+        "B) Somatic cell nuclear transfer",
+        "C) In vitro fertilization",
+        "D) Embryo splitting"
+      ],
+      "correct_option": "B",
+      "explanation": "Dolly the sheep (1996) was produced by Somatic Cell Nuclear Transfer (SCNT), where the nucleus from an adult mammary gland cell was transferred into an enucleated egg cell. The reconstructed egg was then implanted into a surrogate mother. This demonstrated that differentiated cells can be reprogrammed to totipotency."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q36",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "medium",
+      "question": "A probe used in Southern blotting is typically composed of:",
+      "options": [
+        "A) Single-stranded DNA complementary to the target sequence",
+        "B) Carbohydrate molecules",
+        "C) Double-stranded RNA",
+        "D) Protein antibodies"
+      ],
+      "correct_option": "A",
+      "explanation": "Southern blotting uses a labeled single-stranded DNA probe that is complementary to the target DNA sequence. The probe hybridizes to the target DNA after transfer to a membrane, allowing detection of specific sequences. Northern blotting uses similar probes for RNA detection."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q37",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles & Processes",
+      "difficulty": "hard",
+      "question": "In the CRISPR-Cas9 system, the guide RNA (gRNA) functions to:",
+      "options": [
+        "A) Repair double-strand breaks by homologous recombination",
+        "B) Provide sequence-specific recognition and targeting of the Cas9 protein to DNA",
+        "C) Deliver the Cas9 protein into the cell",
+        "D) Cut the DNA at the target site"
+      ],
+      "correct_option": "B",
+      "explanation": "In CRISPR-Cas9, the guide RNA (gRNA) contains a ~20 nucleotide sequence complementary to the target DNA and directs the Cas9 nuclease to that specific genomic location. Cas9 itself performs the DNA cutting. The gRNA provides sequence-specific targeting, while the PAM sequence (NGG) is required for Cas9 recognition."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q38",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "hard",
+      "question": "A recombinant protein expressed in E. coli forms insoluble inclusion bodies. Which strategy would NOT help in obtaining soluble active protein?",
+      "options": [
+        "A) Lowering the induction temperature during expression",
+        "B) Fusing the target protein with a solubility-enhancing tag like GST",
+        "C) Adding strong denaturants after cell lysis and refolding",
+        "D) Using a weaker promoter to reduce expression rate"
+      ],
+      "correct_option": "C",
+      "explanation": "Adding strong denaturants after lysis with refolding is technically possible but often results in low yields and incorrect refolding, making it the LEAST practical strategy for routine soluble protein production. The standard approaches are: lowering temperature to reduce aggregation, using weaker promoters, or adding solubility tags (GST, MBP, NusA) to enhance proper folding and solubility."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q39",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "hard",
+      "question": "RNA interference (RNAi) using siRNA works by:",
+      "options": [
+        "A) Preventing ribosome assembly on mRNA",
+        "B) Degrading target mRNA through the RISC complex",
+        "C) Methylating DNA at promoter regions",
+        "D) Inhibiting transcription of target genes"
+      ],
+      "correct_option": "B",
+      "explanation": "In RNAi, siRNA is incorporated into the RISC (RNA-Induced Silencing Complex). The guide strand directs RISC to complementary target mRNA, which is then cleaved and degraded by the Argonaute protein (Slicer activity), preventing translation. This is a post-transcriptional gene silencing mechanism."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q40",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of Biotechnology",
+      "difficulty": "hard",
+      "question": "In Sanger sequencing, dideoxynucleotides (ddNTPs) terminate DNA synthesis because they lack:",
+      "options": [
+        "A) A nitrogenous base",
+        "B) A 5' phosphate group",
+        "C) A phosphate group",
+        "D) A 3' hydroxyl group"
+      ],
+      "correct_option": "D",
+      "explanation": "Dideoxynucleotides (ddNTPs) lack a 3'-OH group, which is required for phosphodiester bond formation with the next nucleotide. When a ddNTP is incorporated by DNA polymerase, chain elongation terminates. This is the fundamental principle of Sanger chain-termination sequencing."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q41",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms & Populations",
+      "difficulty": "easy",
+      "question": "The term ecology was first coined by:",
+      "options": [
+        "A) Charles Darwin",
+        "B) Robert May",
+        "C) E.O. Wilson",
+        "D) Ernst Haeckel"
+      ],
+      "correct_option": "D",
+      "explanation": "The term 'ecology' (Oekologie) was first coined by German biologist Ernst Haeckel in 1866, derived from Greek 'oikos' (house) and 'logos' (study). He defined it as the study of the natural economy of organisms."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q42",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "In a food chain, only about 10% of energy is transferred from one trophic level to the next. This is known as:",
+      "options": [
+        "A) Lindeman's 10% law",
+        "B) Leibig's law of minimum",
+        "C) Allen's rule",
+        "D) Shelford's law of tolerance"
+      ],
+      "correct_option": "A",
+      "explanation": "Lindeman's 10% law (or 10% rule) states that only about 10% of the energy fixed at one trophic level is available to the next level. The rest is lost as heat through respiration, incomplete consumption, and non-predatory death. This limits the number of trophic levels (usually 4-5) in an ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q43",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms & Populations",
+      "difficulty": "medium",
+      "question": "Which type of population growth curve is obtained when resources are unlimited and there are no predators?",
+      "options": [
+        "A) J-shaped (exponential)",
+        "B) S-shaped (sigmoid)",
+        "C) Bell-shaped",
+        "D) U-shaped"
+      ],
+      "correct_option": "A",
+      "explanation": "When resources are unlimited, a population grows exponentially producing a J-shaped curve described by dN/dt = rN. In nature, as resources become limited, growth slows and the population stabilizes at carrying capacity, producing an S-shaped (sigmoid) logistic curve described by dN/dt = rN(K-N)/K."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q44",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity & Conservation",
+      "difficulty": "medium",
+      "question": "The concept of keystone species was introduced by Robert T. Paine based on his study of:",
+      "options": [
+        "A) Wolves in Yellowstone",
+        "B) Sea otters in kelp forests",
+        "C) Elephants in African savanna",
+        "D) Pisaster starfish in rocky intertidal communities"
+      ],
+      "correct_option": "D",
+      "explanation": "Robert Paine introduced the keystone species concept in 1969 based on his study of the ochre sea star (Pisaster ochraceus) in Washington's rocky intertidal zone. Removing this predator caused competitive exclusion and reduced species diversity from 15 to 8 species, demonstrating its disproportionate ecological role."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q45",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "In the phosphorus cycle, unlike the carbon and nitrogen cycles, there is no significant:",
+      "options": [
+        "A) Microbial involvement",
+        "B) Biological uptake component",
+        "C) Atmospheric gaseous phase",
+        "D) Reservoir in the lithosphere"
+      ],
+      "correct_option": "C",
+      "explanation": "The phosphorus cycle is a sedimentary cycle with no significant atmospheric gaseous phase (unlike CO2 in carbon cycle, N2 in nitrogen cycle). Phosphorus cycles primarily between lithosphere (rocks/soil), hydrosphere (dissolved in water), and biosphere. It enters ecosystems through weathering of rocks and leaves through sedimentation."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q46",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms & Populations",
+      "difficulty": "hard",
+      "question": "In a population following logistic growth with carrying capacity K=1000 and r=0.5, what is the maximum population growth rate (dN/dt)?",
+      "options": [
+        "A) 62.5 individuals per unit time",
+        "B) 250 individuals per unit time",
+        "C) 125 individuals per unit time",
+        "D) 500 individuals per unit time"
+      ],
+      "correct_option": "C",
+      "explanation": "The logistic growth equation is dN/dt = rN(K-N)/K. The maximum growth rate occurs at N = K/2 = 500. Substituting: dN/dt = 0.5 x 500 x (1000-500)/1000 = 0.5 x 500 x 0.5 = 125. This is a standard ecological calculation for maximum sustainable yield."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q47",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "Gross primary productivity (GPP) minus autotrophic respiration (R) gives:",
+      "options": [
+        "A) Net ecosystem production",
+        "B) Net primary productivity (NPP)",
+        "C) Biomass accumulation rate",
+        "D) Net secondary productivity"
+      ],
+      "correct_option": "B",
+      "explanation": "NPP = GPP - R (autotrophic respiration). GPP is the total energy fixed by photosynthesis. Plants use a portion (R) for their own metabolism. The remainder (NPP) represents energy available to heterotrophs. NPP = GPP - R is a fundamental equation in ecosystem ecology. Net ecosystem production further subtracts heterotrophic respiration."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q48",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms & Populations",
+      "difficulty": "hard",
+      "question": "Two species of barnacles, Chthamalus and Balanus, compete for space on rocky shores. Balanus outcompetes Chthamalus in the lower intertidal zone. This is an example of:",
+      "options": [
+        "A) Competitive exclusion",
+        "B) Niche partitioning along a spatial gradient",
+        "C) Character displacement",
+        "D) Competitive release"
+      ],
+      "correct_option": "B",
+      "explanation": "This classic Connell (1961) study demonstrated that while Balanus competitively excludes Chthamalus from the lower zone, Chthamalus survives in the upper zone where Balanus cannot tolerate desiccation. This spatial niche partitioning (different vertical distributions) allows coexistence through habitat differentiation along the tidal gradient."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q49",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "In a tropical rainforest ecosystem, the pyramid of numbers is typically inverted because:",
+      "options": [
+        "A) Decomposers outnumber primary consumers",
+        "B) Energy transfer between trophic levels exceeds 20%",
+        "C) There are more herbivores than producers",
+        "D) Each large tree supports numerous small herbivores and parasites"
+      ],
+      "correct_option": "D",
+      "explanation": "In a tropical rainforest, the pyramid of numbers is often inverted at the producer-consumer interface because a single large tree (producer) can support many herbivores, parasites, and insectivores. While the numbers are inverted, the pyramid of energy is always upright as energy decreases at higher trophic levels."
+    },
+    {
+      "id": "CUET_BIO_2026_P17_L7B_Q50",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "In ecological succession, the climax community is maintained by:",
+      "options": [
+        "A) Invasion by exotic species",
+        "B) Dynamic equilibrium with the regional climate",
+        "C) Frequent disturbance events",
+        "D) Continuous arrival of new pioneer species"
+      ],
+      "correct_option": "B",
+      "explanation": "The climax community is the final stable stage of succession, maintained in dynamic equilibrium with the prevailing regional climate. It persists until a major disturbance resets succession. Pioneer species dominate early stages, disturbances interrupt succession, and exotic invasions represent disruption, not maintenance."
+    }
+  ]
+}

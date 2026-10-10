@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ENGLISH_PAPER_19_LEVEL_9B",
+  "series_id": "CUET_ENGLISH_2026",
+  "paper_number": 19,
+  "difficulty_level": "9B",
+  "subject": "English (Code: 101)",
+  "syllabus_source": "cuet english syllabus.pdf 2026",
+  "notification_source": "Information Bulletin.pdf 2026",
+  "past_paper_reference": "pastpaper-english-2024.pdf, pastpaper-english-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": "+5",
+    "incorrect": "-1",
+    "unattempted": "0"
+  },
+  "questions": [
+    {
+      "id": "ENG_19_1",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\n\"The deep ocean floor, once considered a barren wasteland, has emerged as a new frontier for mineral extraction. Polymetallic nodules\u2014potato-sized rocks rich in manganese, nickel, cobalt, and copper\u2014litter vast stretches of the abyssal plain at depths exceeding 4,000 metres. These nodules form over millions of years as minerals precipitate around organic fragments, accumulating at a rate of roughly one centimetre per million years. The Clarion-Clipperton Zone, a six-million-square-kilometre expanse of the Pacific Ocean between Hawaii and Mexico, contains more nickel and cobalt than all known terrestrial reserves combined. The International Seabed Authority (ISA), established under the UN Convention on the Law of the Sea, regulates mining claims in international waters and has issued over thirty exploration contracts to nations and corporations. Proponents argue that deep-sea mining is essential for the green energy transition, as electric vehicle batteries require vast quantities of these metals. However, marine biologists warn that mining operations could destroy ecosystems we barely understand. A single nodule harvest vehicle could strip kilometres of seabed annually, crushing organisms that take millennia to evolve and generating sediment plumes that smother filter-feeders across hundreds of square kilometres. Scientists have estimated that species recovery from mining disturbance could take millions of years, if it occurs at all.\"\n\nWhat are polymetallic nodules primarily composed of?",
+      "options": [
+        "A) Manganese, nickel, cobalt, and copper",
+        "B) Gold, silver, and platinum",
+        "C) Silicon, calcium, and magnesium",
+        "D) Iron, zinc, and aluminium"
+      ],
+      "correct_option": "A",
+      "explanation": "The passage states that polymetallic nodules are rich in manganese, nickel, cobalt, and copper."
+    },
+    {
+      "id": "ENG_19_2",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\n\"The deep ocean floor, once considered a barren wasteland, has emerged as a new frontier for mineral extraction. Polymetallic nodules\u2014potato-sized rocks rich in manganese, nickel, cobalt, and copper\u2014litter vast stretches of the abyssal plain at depths exceeding 4,000 metres. These nodules form over millions of years as minerals precipitate around organic fragments, accumulating at a rate of roughly one centimetre per million years. The Clarion-Clipperton Zone, a six-million-square-kilometre expanse of the Pacific Ocean between Hawaii and Mexico, contains more nickel and cobalt than all known terrestrial reserves combined. The International Seabed Authority (ISA), established under the UN Convention on the Law of the Sea, regulates mining claims in international waters and has issued over thirty exploration contracts to nations and corporations. Proponents argue that deep-sea mining is essential for the green energy transition, as electric vehicle batteries require vast quantities of these metals. However, marine biologists warn that mining operations could destroy ecosystems we barely understand. A single nodule harvest vehicle could strip kilometres of seabed annually, crushing organisms that take millennia to evolve and generating sediment plumes that smother filter-feeders across hundreds of square kilometres. Scientists have estimated that species recovery from mining disturbance could take millions of years, if it occurs at all.\"\n\nBased on the passage, what is the primary concern of marine biologists regarding deep-sea mining?",
+      "options": [
+        "A) Mining operations will deplete terrestrial mineral reserves too quickly",
+        "B) Mining could destroy deep-ocean ecosystems that are poorly understood",
+        "C) The cost of deep-sea mining will make electric vehicles unaffordable",
+        "D) Mining vessels will disrupt international shipping lanes"
+      ],
+      "correct_option": "B",
+      "explanation": "Marine biologists warn that mining operations could destroy ecosystems we barely understand."
+    },
+    {
+      "id": "ENG_19_3",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\n\"The deep ocean floor, once considered a barren wasteland, has emerged as a new frontier for mineral extraction. Polymetallic nodules\u2014potato-sized rocks rich in manganese, nickel, cobalt, and copper\u2014litter vast stretches of the abyssal plain at depths exceeding 4,000 metres. These nodules form over millions of years as minerals precipitate around organic fragments, accumulating at a rate of roughly one centimetre per million years. The Clarion-Clipperton Zone, a six-million-square-kilometre expanse of the Pacific Ocean between Hawaii and Mexico, contains more nickel and cobalt than all known terrestrial reserves combined. The International Seabed Authority (ISA), established under the UN Convention on the Law of the Sea, regulates mining claims in international waters and has issued over thirty exploration contracts to nations and corporations. Proponents argue that deep-sea mining is essential for the green energy transition, as electric vehicle batteries require vast quantities of these metals. However, marine biologists warn that mining operations could destroy ecosystems we barely understand. A single nodule harvest vehicle could strip kilometres of seabed annually, crushing organisms that take millennia to evolve and generating sediment plumes that smother filter-feeders across hundreds of square kilometres. Scientists have estimated that species recovery from mining disturbance could take millions of years, if it occurs at all.\"\n\nWhich of the following best captures the central tension in the passage regarding deep-sea mining?",
+      "options": [
+        "A) The economic benefits of mining versus the political complexities of international regulation",
+        "B) The need for minerals for green energy versus the risk of irreversible ecological damage",
+        "C) The speed of nodule formation versus the rate at which mining consumes them",
+        "D) The interests of developed nations versus those of developing nations in accessing mineral wealth"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage contrasts the need for minerals for the green energy transition with the risk of irreversible damage to deep-ocean ecosystems."
+    },
+    {
+      "id": "ENG_19_4",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\n\"Ravi Shankar had not touched his sitar in eleven years. The instrument lay in its velvet case beneath his bed, gathering dust the way abandoned things do when they carry too much memory. He had been thirty-two when he last performed on stage\u2014a charity concert in Delhi where his fingers had stumbled over the strings like strangers trying to recall a forgotten language. The audience had applauded politely, but Ravi had heard the silence between the notes, the places where his music used to breathe. His teacher, Ustad Ghulam Qadir, had once told him that a musician's hands remember what his mind chooses to forget. Ravi had disagreed then. He disagreed now, too, but for different reasons. His hands had not forgotten; they had simply lost the courage to remember. After his wife Meera's death, the sitar had become a monument to everything he could no longer say. His daughter Ananya, now twenty-five, had grown up hearing stories of her father's fame but never witnessing it herself. She had bought him a new set of strings last Diwali, leaving them on his desk like an unspoken challenge. Ravi had smiled, thanked her, and placed them in a drawer. But tonight, on the anniversary of Meera's death, he found himself unable to sit still. The apartment was too quiet, too full of absence. He knelt beside the bed, pulled out the case, and lifted the sitar into the lamplight. The wood was warm, as if it had been waiting. He plucked the first string. The note hung in the air, imperfect and trembling, but unmistakably alive. He closed his eyes and began to play.\"\n\nHow long had Ravi Shankar not played his sitar?",
+      "options": [
+        "A) Twenty years",
+        "B) Eleven years",
+        "C) Eight years",
+        "D) Five years"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage states that Ravi Shankar had not touched his sitar in eleven years."
+    },
+    {
+      "id": "ENG_19_5",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\n\"Ravi Shankar had not touched his sitar in eleven years. The instrument lay in its velvet case beneath his bed, gathering dust the way abandoned things do when they carry too much memory. He had been thirty-two when he last performed on stage\u2014a charity concert in Delhi where his fingers had stumbled over the strings like strangers trying to recall a forgotten language. The audience had applauded politely, but Ravi had heard the silence between the notes, the places where his music used to breathe. His teacher, Ustad Ghulam Qadir, had once told him that a musician's hands remember what his mind chooses to forget. Ravi had disagreed then. He disagreed now, too, but for different reasons. His hands had not forgotten; they had simply lost the courage to remember. After his wife Meera's death, the sitar had become a monument to everything he could no longer say. His daughter Ananya, now twenty-five, had grown up hearing stories of her father's fame but never witnessing it herself. She had bought him a new set of strings last Diwali, leaving them on his desk like an unspoken challenge. Ravi had smiled, thanked her, and placed them in a drawer. But tonight, on the anniversary of Meera's death, he found himself unable to sit still. The apartment was too quiet, too full of absence. He knelt beside the bed, pulled out the case, and lifted the sitar into the lamplight. The wood was warm, as if it had been waiting. He plucked the first string. The note hung in the air, imperfect and trembling, but unmistakably alive. He closed his eyes and began to play.\"\n\nWhat does the phrase 'his fingers had stumbled over the strings like strangers trying to recall a forgotten language' suggest about Ravi's last performance?",
+      "options": [
+        "A) He had forgotten the ragas he once knew by heart",
+        "B) He performed with great passion but poor technique",
+        "C) His once-familiar skill had become foreign and uncertain to him",
+        "D) He was playing an unfamiliar instrument for the first time"
+      ],
+      "correct_option": "C",
+      "explanation": "The simile suggests Ravi's once-natural musical ability had become unfamiliar and awkward."
+    },
+    {
+      "id": "ENG_19_6",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\n\"Ravi Shankar had not touched his sitar in eleven years. The instrument lay in its velvet case beneath his bed, gathering dust the way abandoned things do when they carry too much memory. He had been thirty-two when he last performed on stage\u2014a charity concert in Delhi where his fingers had stumbled over the strings like strangers trying to recall a forgotten language. The audience had applauded politely, but Ravi had heard the silence between the notes, the places where his music used to breathe. His teacher, Ustad Ghulam Qadir, had once told him that a musician's hands remember what his mind chooses to forget. Ravi had disagreed then. He disagreed now, too, but for different reasons. His hands had not forgotten; they had simply lost the courage to remember. After his wife Meera's death, the sitar had become a monument to everything he could no longer say. His daughter Ananya, now twenty-five, had grown up hearing stories of her father's fame but never witnessing it herself. She had bought him a new set of strings last Diwali, leaving them on his desk like an unspoken challenge. Ravi had smiled, thanked her, and placed them in a drawer. But tonight, on the anniversary of Meera's death, he found himself unable to sit still. The apartment was too quiet, too full of absence. He knelt beside the bed, pulled out the case, and lifted the sitar into the lamplight. The wood was warm, as if it had been waiting. He plucked the first string. The note hung in the air, imperfect and trembling, but unmistakably alive. He closed his eyes and began to play.\"\n\nWhat is the most likely reason Ravi decides to play the sitar on the anniversary of Meera's death?",
+      "options": [
+        "A) His daughter Ananya challenges him to perform again",
+        "B) He wants to prove his teacher wrong about memory",
+        "C) He hopes to perform at another charity concert",
+        "D) The overwhelming silence and absence compel him to reconnect with his music"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage describes the apartment as 'too quiet, too full of absence,' and Ravi 'unable to sit still,' suggesting emotional compulsion rather than external challenge."
+    },
+    {
+      "id": "ENG_19_7",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\n\"Ravi Shankar had not touched his sitar in eleven years. The instrument lay in its velvet case beneath his bed, gathering dust the way abandoned things do when they carry too much memory. He had been thirty-two when he last performed on stage\u2014a charity concert in Delhi where his fingers had stumbled over the strings like strangers trying to recall a forgotten language. The audience had applauded politely, but Ravi had heard the silence between the notes, the places where his music used to breathe. His teacher, Ustad Ghulam Qadir, had once told him that a musician's hands remember what his mind chooses to forget. Ravi had disagreed then. He disagreed now, too, but for different reasons. His hands had not forgotten; they had simply lost the courage to remember. After his wife Meera's death, the sitar had become a monument to everything he could no longer say. His daughter Ananya, now twenty-five, had grown up hearing stories of her father's fame but never witnessing it herself. She had bought him a new set of strings last Diwali, leaving them on his desk like an unspoken challenge. Ravi had smiled, thanked her, and placed them in a drawer. But tonight, on the anniversary of Meera's death, he found himself unable to sit still. The apartment was too quiet, too full of absence. He knelt beside the bed, pulled out the case, and lifted the sitar into the lamplight. The wood was warm, as if it had been waiting. He plucked the first string. The note hung in the air, imperfect and trembling, but unmistakably alive. He closed his eyes and began to play.\"\n\nThe description of the sitar's wood as 'warm, as if it had been waiting' serves primarily to:",
+      "options": [
+        "A) Indicate that the apartment was poorly heated",
+        "B) Suggest the instrument's anticipation of being played again",
+        "C) Contrast the sitar's vitality with Ravi's emotional numbness through personification",
+        "D) Emphasize the poor storage conditions beneath the bed"
+      ],
+      "correct_option": "C",
+      "explanation": "The warmth and 'waiting' personify the sitar, contrasting its enduring readiness with Ravi's years of avoidance and grief."
+    },
+    {
+      "id": "ENG_19_8",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "easy",
+      "question": "Read the following passage and answer the question:\n\n\"The ruins of Hampi rose from the boulder-strewn landscape like the bones of a forgotten giant, their granite limbs bleached white by centuries of sun. Once the seat of the Vijayanagara Empire, this city had been larger than London in its sixteenth-century splendour, its markets overflowing with diamonds from Golconda and spices from Malabar. Now, only silence inhabited the temples, and the Tungabhadra River flowed past with the indifference of something that has witnessed too many empires crumble to count. Dr. Lakshmi Narayan, archaeologist and reluctant pessimist, had spent twenty-three years excavating this site, and each season revealed new wonders: a concealed drainage system more sophisticated than modern engineering, granaries that could feed a quarter of a million people, inscriptions in seven languages that spoke of a cosmopolitan court where Persian merchants debated Sanskrit scholars. Yet what haunted her was not what remained but what had been destroyed. In 1565, the combined armies of the Deccan sultanates had sacked Hampi for six months, systematically dismantling what they could not carry away. The looting had been methodical\u2014temples toppled, libraries burned, the great stone chariot that once rolled on its wheels deliberately immobilised. Lakshmi often stood before the Lotus Mahal, its arches still graceful despite the fire that had blackened its walls, and tried to imagine the hands that carved each petal. Who were they? What did they believe they were building? Did they imagine their city would endure forever, or did they, like her, understand that permanence is the most dangerous illusion human beings construct?\"\n\nWhat was Hampi once the capital of?",
+      "options": [
+        "A) The Maratha Empire",
+        "B) The Gupta Empire",
+        "C) The Mughal Empire",
+        "D) The Vijayanagara Empire"
+      ],
+      "correct_option": "D",
+      "explanation": "The passage states Hampi was 'the seat of the Vijayanagara Empire.'"
+    },
+    {
+      "id": "ENG_19_9",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\n\"The ruins of Hampi rose from the boulder-strewn landscape like the bones of a forgotten giant, their granite limbs bleached white by centuries of sun. Once the seat of the Vijayanagara Empire, this city had been larger than London in its sixteenth-century splendour, its markets overflowing with diamonds from Golconda and spices from Malabar. Now, only silence inhabited the temples, and the Tungabhadra River flowed past with the indifference of something that has witnessed too many empires crumble to count. Dr. Lakshmi Narayan, archaeologist and reluctant pessimist, had spent twenty-three years excavating this site, and each season revealed new wonders: a concealed drainage system more sophisticated than modern engineering, granaries that could feed a quarter of a million people, inscriptions in seven languages that spoke of a cosmopolitan court where Persian merchants debated Sanskrit scholars. Yet what haunted her was not what remained but what had been destroyed. In 1565, the combined armies of the Deccan sultanates had sacked Hampi for six months, systematically dismantling what they could not carry away. The looting had been methodical\u2014temples toppled, libraries burned, the great stone chariot that once rolled on its wheels deliberately immobilised. Lakshmi often stood before the Lotus Mahal, its arches still graceful despite the fire that had blackened its walls, and tried to imagine the hands that carved each petal. Who were they? What did they believe they were building? Did they imagine their city would endure forever, or did they, like her, understand that permanence is the most dangerous illusion human beings construct?\"\n\nWhat literary device is employed in 'the ruins of Hampi rose from the boulder-strewn landscape like the bones of a forgotten giant'?",
+      "options": [
+        "A) Simile",
+        "B) Synecdoche",
+        "C) Metonymy",
+        "D) Oxymoron"
+      ],
+      "correct_option": "A",
+      "explanation": "The phrase uses 'like' to compare ruins to bones, making it a simile."
+    },
+    {
+      "id": "ENG_19_10",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the following passage and answer the question:\n\n\"The ruins of Hampi rose from the boulder-strewn landscape like the bones of a forgotten giant, their granite limbs bleached white by centuries of sun. Once the seat of the Vijayanagara Empire, this city had been larger than London in its sixteenth-century splendour, its markets overflowing with diamonds from Golconda and spices from Malabar. Now, only silence inhabited the temples, and the Tungabhadra River flowed past with the indifference of something that has witnessed too many empires crumble to count. Dr. Lakshmi Narayan, archaeologist and reluctant pessimist, had spent twenty-three years excavating this site, and each season revealed new wonders: a concealed drainage system more sophisticated than modern engineering, granaries that could feed a quarter of a million people, inscriptions in seven languages that spoke of a cosmopolitan court where Persian merchants debated Sanskrit scholars. Yet what haunted her was not what remained but what had been destroyed. In 1565, the combined armies of the Deccan sultanates had sacked Hampi for six months, systematically dismantling what they could not carry away. The looting had been methodical\u2014temples toppled, libraries burned, the great stone chariot that once rolled on its wheels deliberately immobilised. Lakshmi often stood before the Lotus Mahal, its arches still graceful despite the fire that had blackened its walls, and tried to imagine the hands that carved each petal. Who were they? What did they believe they were building? Did they imagine their city would endure forever, or did they, like her, understand that permanence is the most dangerous illusion human beings construct?\"\n\nWhat does Dr. Lakshmi Narayan find most haunting about Hampi?",
+      "options": [
+        "A) The scale of the ruins that remain",
+        "B) The evidence of what was systematically destroyed",
+        "C) The inscriptions she cannot decipher",
+        "D) The difficulty of excavating in the boulder-strewn landscape"
+      ],
+      "correct_option": "B",
+      "explanation": "The passage states 'what haunted her was not what remained but what had been destroyed.'"
+    },
+    {
+      "id": "ENG_19_11",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the following passage and answer the question:\n\n\"The ruins of Hampi rose from the boulder-strewn landscape like the bones of a forgotten giant, their granite limbs bleached white by centuries of sun. Once the seat of the Vijayanagara Empire, this city had been larger than London in its sixteenth-century splendour, its markets overflowing with diamonds from Golconda and spices from Malabar. Now, only silence inhabited the temples, and the Tungabhadra River flowed past with the indifference of something that has witnessed too many empires crumble to count. Dr. Lakshmi Narayan, archaeologist and reluctant pessimist, had spent twenty-three years excavating this site, and each season revealed new wonders: a concealed drainage system more sophisticated than modern engineering, granaries that could feed a quarter of a million people, inscriptions in seven languages that spoke of a cosmopolitan court where Persian merchants debated Sanskrit scholars. Yet what haunted her was not what remained but what had been destroyed. In 1565, the combined armies of the Deccan sultanates had sacked Hampi for six months, systematically dismantling what they could not carry away. The looting had been methodical\u2014temples toppled, libraries burned, the great stone chariot that once rolled on its wheels deliberately immobilised. Lakshmi often stood before the Lotus Mahal, its arches still graceful despite the fire that had blackened its walls, and tried to imagine the hands that carved each petal. Who were they? What did they believe they were building? Did they imagine their city would endure forever, or did they, like her, understand that permanence is the most dangerous illusion human beings construct?\"\n\nThe phrase 'permanence is the most dangerous illusion human beings construct' suggests that:",
+      "options": [
+        "A) Archaeologists should not become emotionally attached to their discoveries",
+        "B) Empires that build grand monuments inevitably invite destruction",
+        "C) The belief that anything lasts forever blinds us to the reality of impermanence",
+        "D) Granite structures are no more durable than political power"
+      ],
+      "correct_option": "C",
+      "explanation": "The phrase critiques the human tendency to believe in permanence, which the passage frames as an illusion in the face of inevitable decline."
+    },
+    {
+      "id": "ENG_19_12",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the discovery of penicillin\nQ: by Alexander Fleming in 1928\nR: revolutionised\nS: modern medicine",
+      "options": [
+        "A) SRPQ",
+        "B) SPRQ",
+        "C) PSRQ",
+        "D) PQRS"
+      ],
+      "correct_option": "D",
+      "explanation": "The correct sequence is P-Q-R-S: 'The discovery of penicillin by Alexander Fleming in 1928 revolutionised modern medicine.'"
+    },
+    {
+      "id": "ENG_19_13",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the committee\nQ: after reviewing all applications\nR: selected\nS: twelve candidates",
+      "options": [
+        "A) SRPQ",
+        "B) PQRS",
+        "C) SPRQ",
+        "D) QPRS"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct sequence is P-Q-R-S: 'The committee after reviewing all applications selected twelve candidates.'"
+    },
+    {
+      "id": "ENG_19_14",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the journalist\nQ: who had been investigating the scandal\nR: published her findings\nS: in a national daily",
+      "options": [
+        "A) PQRS",
+        "B) SQPR",
+        "C) QRPS",
+        "D) PRQS"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct sequence is P-Q-R-S: 'The journalist who had been investigating the scandal published her findings in a national daily.'"
+    },
+    {
+      "id": "ENG_19_15",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: although the evidence\nQ: was circumstantial and incomplete\nR: the jury returned\nS: a unanimous verdict",
+      "options": [
+        "A) QPSR",
+        "B) PQRS",
+        "C) RSPQ",
+        "D) RQSP"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct sequence is P-Q-R-S: 'Although the evidence was circumstantial and incomplete, the jury returned a unanimous verdict.'"
+    },
+    {
+      "id": "ENG_19_16",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the conservationists argued\nQ: that the proposed highway\nR: would irreversibly damage\nS: the wetland ecosystem",
+      "options": [
+        "A) PQRS",
+        "B) RPQS",
+        "C) RSQP",
+        "D) RQPS"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct sequence is P-Q-R-S: 'The conservationists argued that the proposed highway would irreversibly damage the wetland ecosystem.'"
+    },
+    {
+      "id": "ENG_19_17",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the diplomat whose negotiations\nQ: had averted a military conflict\nR: between the two nations\nS: received international recognition",
+      "options": [
+        "A) PRQS",
+        "B) PQRS",
+        "C) SRPQ",
+        "D) SQRP"
+      ],
+      "correct_option": "B",
+      "explanation": "The correct sequence is P-Q-R-S: 'The diplomat whose negotiations had averted a military conflict between the two nations received international recognition.'"
+    },
+    {
+      "id": "ENG_19_18",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the researchers demonstrated\nQ: that the experimental compound\nR: could significantly reduce\nS: tumour growth in mice",
+      "options": [
+        "A) QRSP",
+        "B) PQSR",
+        "C) QPSR",
+        "D) PQRS"
+      ],
+      "correct_option": "D",
+      "explanation": "The correct sequence is P-Q-R-S: 'The researchers demonstrated that the experimental compound could significantly reduce tumour growth in mice.'"
+    },
+    {
+      "id": "ENG_19_19",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the architect\nQ: who designed the museum\nR: received the Pritzker Prize\nS: for her lifetime achievement",
+      "options": [
+        "A) QPRS",
+        "B) SRQP",
+        "C) PQRS",
+        "D) SQRP"
+      ],
+      "correct_option": "C",
+      "explanation": "The correct sequence is P-Q-R-S: 'The architect who designed the museum received the Pritzker Prize for her lifetime achievement.'"
+    },
+    {
+      "id": "ENG_19_20",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the curator\nQ: who had spent decades\nR: acquiring rare manuscripts\nS: retired last month",
+      "options": [
+        "A) PQRS",
+        "B) QRSP",
+        "C) RQPS",
+        "D) RSPQ"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct sequence is P-Q-R-S: 'The curator who had spent decades acquiring rare manuscripts retired last month.'"
+    },
+    {
+      "id": "ENG_19_21",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the philosopher\nQ: whose ideas had been\nR: dismissed in his lifetime\nS: gained recognition posthumously",
+      "options": [
+        "A) PQRS",
+        "B) RPSQ",
+        "C) SRQP",
+        "D) SQPR"
+      ],
+      "correct_option": "A",
+      "explanation": "The correct sequence is P-Q-R-S: 'The philosopher whose ideas had been dismissed in his lifetime gained recognition posthumously.'"
+    },
+    {
+      "id": "ENG_19_22",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Mitigate\nB. Exacerbate\nC. Alleviate\nD. Aggravate\n\nList II:\n1. To make worse\n2. To make better\n3. To worsen significantly\n4. To lessen severity",
+      "options": [
+        "A) A-2, B-3, C-4, D-1",
+        "B) A-1, B-4, C-3, D-2",
+        "C) A-3, B-2, C-1, D-4",
+        "D) A-4, B-1, C-2, D-3"
+      ],
+      "correct_option": "D",
+      "explanation": "Mitigate = lessen severity (4); Exacerbate = make worse (1); Alleviate = make better (2); Aggravate = worsen significantly (3)."
+    },
+    {
+      "id": "ENG_19_23",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Benevolent\nB. Malevolent\nC. Ambiguous\nD. Lucid\n\nList II:\n1. Clear\n2. Kind\n3. Evil\n4. Unclear",
+      "options": [
+        "A) A-2, B-3, C-4, D-1",
+        "B) A-1, B-4, C-2, D-3",
+        "C) A-3, B-2, C-1, D-4",
+        "D) A-4, B-1, C-3, D-2"
+      ],
+      "correct_option": "A",
+      "explanation": "Benevolent = Kind (2); Malevolent = Evil (3); Ambiguous = Unclear (4); Lucid = Clear (1)."
+    },
+    {
+      "id": "ENG_19_24",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Anachronism\nB. Anathema\nC. Anomaly\nD. Aphorism\n\nList II:\n1. A deviation from the common rule\n2. Something out of its proper time\n3. A concise statement of a principle\n4. Something or someone detested",
+      "options": [
+        "A) A-1, B-3, C-4, D-2",
+        "B) A-4, B-2, C-3, D-1",
+        "C) A-3, B-1, C-2, D-4",
+        "D) A-2, B-4, C-1, D-3"
+      ],
+      "correct_option": "D",
+      "explanation": "Anachronism = out of proper time (2); Anathema = detested (4); Anomaly = deviation (1); Aphorism = concise principle (3)."
+    },
+    {
+      "id": "ENG_19_25",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Ephemeral\nB. Evanescent\nC. Perennial\nD. Perpetual\n\nList II:\n1. Lasting forever\n2. Short-lived\n3. Lasting through the year or many years\n4. Quickly fading",
+      "options": [
+        "A) A-2, B-4, C-3, D-1",
+        "B) A-4, B-2, C-1, D-3",
+        "C) A-3, B-1, C-2, D-4",
+        "D) A-1, B-3, C-4, D-2"
+      ],
+      "correct_option": "A",
+      "explanation": "Ephemeral = short-lived (2); Evanescent = quickly fading (4); Perennial = lasting many years (3); Perpetual = lasting forever (1)."
+    },
+    {
+      "id": "ENG_19_26",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Fastidious\nB. Munificent\nC. Parsimonious\nD. Quixotic\n\nList II:\n1. exceedingly idealistic\n2. very generous\n3. excessively careful\n4. stingy",
+      "options": [
+        "A) A-1, B-3, C-2, D-4",
+        "B) A-4, B-1, C-3, D-2",
+        "C) A-3, B-2, C-4, D-1",
+        "D) A-2, B-4, C-1, D-3"
+      ],
+      "correct_option": "C",
+      "explanation": "Fastidious = excessively careful (3); Munificent = very generous (2); Parsimonious = stingy (4); Quixotic = exceedingly idealistic (1)."
+    },
+    {
+      "id": "ENG_19_27",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Gregarious\nB. Reclusive\nC. Garrulous\nD. Taciturn\n\nList II:\n1. Reserved or uncommunicative\n2. Fond of company\n3. Habitually solitary\n4. Excessively talkative",
+      "options": [
+        "A) A-4, B-1, C-3, D-2",
+        "B) A-2, B-3, C-4, D-1",
+        "C) A-1, B-4, C-2, D-3",
+        "D) A-3, B-2, C-1, D-4"
+      ],
+      "correct_option": "B",
+      "explanation": "Gregarious = fond of company (2); Reclusive = solitary (3); Garrulous = talkative (4); Taciturn = uncommunicative (1)."
+    },
+    {
+      "id": "ENG_19_28",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Metaphor\nB. Simile\nC. Personification\nD. Alliteration\n\nList II:\n1. Comparison using like/as\n2. Repetition of initial consonant sounds\n3. Direct comparison without like/as\n4. Human qualities to non-human things",
+      "options": [
+        "A) A-3, B-1, C-4, D-2",
+        "B) A-4, B-2, C-1, D-3",
+        "C) A-1, B-3, C-2, D-4",
+        "D) A-2, B-4, C-3, D-1"
+      ],
+      "correct_option": "A",
+      "explanation": "Metaphor = direct comparison (3); Simile = comparison using like/as (1); Personification = human qualities to non-human (4); Alliteration = repetition of initial sounds (2)."
+    },
+    {
+      "id": "ENG_19_29",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Panacea\nB. Placebo\nC. Antidote\nD. Elixir\n\nList II:\n1. A cure-all remedy\n2. A harmless pill with no therapeutic effect\n3. A medicine that counteracts poison\n4. A magical potion believed to cure all ills",
+      "options": [
+        "A) A-3, B-4, C-2, D-1",
+        "B) A-4, B-3, C-1, D-2",
+        "C) A-1, B-2, C-3, D-4",
+        "D) A-2, B-1, C-4, D-3"
+      ],
+      "correct_option": "C",
+      "explanation": "Panacea = cure-all (1); Placebo = harmless pill (2); Antidote = counteracts poison (3); Elixir = magical potion (4)."
+    },
+    {
+      "id": "ENG_19_30",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe CEO's _____ decision to invest in renewable energy proved visionary when oil prices collapsed.",
+      "options": [
+        "A) pugnacious",
+        "B) prurient",
+        "C) prominent",
+        "D) prudent"
+      ],
+      "correct_option": "D",
+      "explanation": "'Prudent' means showing care for the future, fitting a wise investment decision."
+    },
+    {
+      "id": "ENG_19_31",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe professor's lecture was so _____ that even postgraduate students struggled to follow her complex arguments.",
+      "options": [
+        "A) pellucid",
+        "B) transparent",
+        "C) perspicuous",
+        "D) recondite"
+      ],
+      "correct_option": "D",
+      "explanation": "'Recondite' means difficult to understand, fitting a lecture that students struggled with."
+    },
+    {
+      "id": "ENG_19_32",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe ambassador's _____ remarks during the summit helped ease tensions between the rival nations.",
+      "options": [
+        "A) conciliatory",
+        "B) truculent",
+        "C) inflammatory",
+        "D) belligerent"
+      ],
+      "correct_option": "A",
+      "explanation": "'Conciliatory' means intended to placate or reconcile, fitting remarks that eased tensions."
+    },
+    {
+      "id": "ENG_19_33",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe judge's summing-up was _____; it failed to address the key evidence presented during the trial.",
+      "options": [
+        "A) perfunctory",
+        "B) comprehensive",
+        "C) meticulous",
+        "D) exhaustive"
+      ],
+      "correct_option": "A",
+      "explanation": "'Perfunctory' means carried out with minimal effort, describing a summing-up that failed to address key evidence."
+    },
+    {
+      "id": "ENG_19_34",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nThe ancient temple had been _____ restored, its original features carefully preserved by expert craftsmen.",
+      "options": [
+        "A) perfunctorily",
+        "B) painstakingly",
+        "C) hastily",
+        "D) negligently"
+      ],
+      "correct_option": "B",
+      "explanation": "'Painstakingly' means with great care and diligence, fitting a careful restoration."
+    },
+    {
+      "id": "ENG_19_35",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Choose the correct word to complete the sentence:\n\nHer _____ criticism of the proposal stunned the committee, who had expected a more measured response.",
+      "options": [
+        "A) scatheless",
+        "B) scathingless",
+        "C) scathing",
+        "D) scant"
+      ],
+      "correct_option": "C",
+      "explanation": "'Scathing' means severely critical, fitting criticism that stunned the committee."
+    },
+    {
+      "id": "ENG_19_36",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe politician's _____ speech failed to address any substantive issues, leaving the audience disappointed.",
+      "options": [
+        "A) substantial",
+        "B) incisive",
+        "C) vacuous",
+        "D) cogent"
+      ],
+      "correct_option": "C",
+      "explanation": "'Vacuous' means lacking intelligence or substance, fitting a speech that avoided substantive issues."
+    },
+    {
+      "id": "ENG_19_37",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe team's _____ efforts to meet the deadline impressed the clients, who had doubted their ability to deliver.",
+      "options": [
+        "A) halfhearted",
+        "B) stalwart",
+        "C) desultory",
+        "D) lackadaisical"
+      ],
+      "correct_option": "B",
+      "explanation": "'Stalwart' means loyal and reliable, fitting efforts that impressed clients."
+    },
+    {
+      "id": "ENG_19_38",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe detective's _____ investigation uncovered evidence that had been overlooked by three previous teams.",
+      "options": [
+        "A) cursory",
+        "B) desultory",
+        "C) perfunctory",
+        "D) meticulous"
+      ],
+      "correct_option": "D",
+      "explanation": "'Meticulous' means showing great attention to detail, fitting an investigation that uncovered overlooked evidence."
+    },
+    {
+      "id": "ENG_19_39",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nThe witness's _____ testimony contradicted the evidence presented by the prosecution, creating doubt in the jury's mind.",
+      "options": [
+        "A) imperious",
+        "B) impeccable",
+        "C) immutable",
+        "D) implacable"
+      ],
+      "correct_option": "B",
+      "explanation": "'Impeccable' means flawless or reliable, describing testimony that was so credible it contradicted the prosecution's evidence."
+    },
+    {
+      "id": "ENG_19_40",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is most similar in meaning to 'Empirical':",
+      "options": [
+        "A) Benevolent",
+        "B) Harmful",
+        "C) Beneficial",
+        "D) Harmless"
+      ],
+      "correct_option": "B",
+      "explanation": "'Pernicious' means having a harmful effect, especially gradually."
+    },
+    {
+      "id": "ENG_19_41",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is opposite in meaning to 'Anomaly':",
+      "options": [
+        "A) Ignore",
+        "B) Maintain",
+        "C) Improve",
+        "D) Worsen"
+      ],
+      "correct_option": "D",
+      "explanation": "'Ameliorate' means to make better; 'worsen' is its antonym."
+    },
+    {
+      "id": "ENG_19_42",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is most similar in meaning to 'Effervescent':",
+      "options": [
+        "A) Confuse",
+        "B) Simplify",
+        "C) Illuminate",
+        "D) Clarify"
+      ],
+      "correct_option": "A",
+      "explanation": "'Obfuscate' means to render obscure or unclear; 'confuse' is its closest synonym."
+    },
+    {
+      "id": "ENG_19_43",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to 'Pusillanimous':",
+      "options": [
+        "A) Timid",
+        "B) Cowardly",
+        "C) Fearful",
+        "D) Brave"
+      ],
+      "correct_option": "D",
+      "explanation": "'Pusillanimous' means showing a lack of courage; 'brave' is its antonym."
+    },
+    {
+      "id": "ENG_19_44",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is most similar in meaning to 'Limpid':",
+      "options": [
+        "A) Muddy",
+        "B) Obscure",
+        "C) Complex",
+        "D) Clear"
+      ],
+      "correct_option": "D",
+      "explanation": "'Limpid' means crystal clear or transparent."
+    },
+    {
+      "id": "ENG_19_45",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to 'Enigmatic':",
+      "options": [
+        "A) Unruly",
+        "B) Defiant",
+        "C) Stubborn",
+        "D) Obedient"
+      ],
+      "correct_option": "D",
+      "explanation": "'Recalcitrant' means having an obstinately uncooperative attitude; 'obedient' is its antonym."
+    },
+    {
+      "id": "ENG_19_46",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is most similar in meaning to 'Conundrum':",
+      "options": [
+        "A) Reserved",
+        "B) Enthusiastic",
+        "C) Indifferent",
+        "D) Depressed"
+      ],
+      "correct_option": "B",
+      "explanation": "'Ebullient' means cheerful and full of energy; 'enthusiastic' is its synonym."
+    },
+    {
+      "id": "ENG_19_47",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is opposite in meaning to 'Ebullience':",
+      "options": [
+        "A) Generous",
+        "B) Forgiving",
+        "C) Noble",
+        "D) Petty"
+      ],
+      "correct_option": "D",
+      "explanation": "'Magnanimous' means very generous or forgiving; 'petty' is its antonym."
+    },
+    {
+      "id": "ENG_19_48",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the linguist\nQ: who had dedicated her career\nR: to preserving endangered languages\nS: received a UNESCO award",
+      "options": [
+        "A) PQSR",
+        "B) RPQS",
+        "C) RSQP",
+        "D) PQRS"
+      ],
+      "correct_option": "D",
+      "explanation": "The correct sequence is P-Q-R-S: 'The linguist who had dedicated her career to preserving endangered languages received a UNESCO award.'"
+    },
+    {
+      "id": "ENG_19_49",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: the surgeon\nQ: who had pioneered\nR: the new technique\nS: trained doctors across the country",
+      "options": [
+        "A) PRSQ",
+        "B) SPRQ",
+        "C) PQRS",
+        "D) RQSP"
+      ],
+      "correct_option": "C",
+      "explanation": "The correct sequence is P-Q-R-S: 'The surgeon who had pioneered the new technique trained doctors across the country.'"
+    },
+    {
+      "id": "ENG_19_50",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to 'Laudatory':",
+      "options": [
+        "A) Critical",
+        "B) Flattering",
+        "C) Commendatory",
+        "D) Praising"
+      ],
+      "correct_option": "A",
+      "explanation": "'Laudatory' means expressing praise; 'critical' is its antonym."
+    }
+  ]
+}

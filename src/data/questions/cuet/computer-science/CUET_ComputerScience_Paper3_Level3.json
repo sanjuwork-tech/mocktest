@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P3_L3",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 3,
+  "difficulty_level": "3",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P3_L3_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL keyword is used to retrieve data from a database?",
+      "options": [
+        "A) EXTRACT",
+        "B) SELECT",
+        "C) GET",
+        "D) FETCH"
+      ],
+      "correct_option": "A",
+      "explanation": "SELECT is the standard SQL keyword for querying/retrieving data from a database table."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which clause is used to filter rows in a SQL query?",
+      "options": [
+        "A) CONDITION",
+        "B) WHERE",
+        "C) FILTER",
+        "D) HAVING"
+      ],
+      "correct_option": "C",
+      "explanation": "WHERE clause filters rows before grouping; HAVING filters after GROUP BY."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "A primary key in a database table ensures:",
+      "options": [
+        "A) Data encryption",
+        "B) Faster network speed",
+        "C) Uniqueness of each row",
+        "D) Backup of data"
+      ],
+      "correct_option": "D",
+      "explanation": "A primary key uniquely identifies each record and cannot contain NULL or duplicate values."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "easy",
+      "question": "Which SQL statement is used to create a new table?",
+      "options": [
+        "A) ADD TABLE",
+        "B) MAKE TABLE",
+        "C) NEW TABLE",
+        "D) CREATE TABLE"
+      ],
+      "correct_option": "C",
+      "explanation": "CREATE TABLE is the DDL command to define a new table structure in SQL."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "easy",
+      "question": "The SQL command to remove all rows from a table but keep the structure is:",
+      "options": [
+        "A) DROP",
+        "B) TRUNCATE",
+        "C) DELETE",
+        "D) REMOVE"
+      ],
+      "correct_option": "A",
+      "explanation": "TRUNCATE removes all rows quickly without logging; DROP removes the entire table structure."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "medium",
+      "question": "What does an INNER JOIN return?",
+      "options": [
+        "A) Only matching rows from both tables",
+        "B) All rows from right table only",
+        "C) All rows from both tables",
+        "D) All rows from left table only"
+      ],
+      "correct_option": "D",
+      "explanation": "INNER JOIN returns only the rows where there is a match in both tables based on the join condition."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "Which SQL function returns the number of rows that match a specified criterion?",
+      "options": [
+        "A) COUNT()",
+        "B) SUM()",
+        "C) TOTAL()",
+        "D) NUMBER()"
+      ],
+      "correct_option": "B",
+      "explanation": "COUNT() returns the number of rows matching a condition. SUM() adds numeric values."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "Which normal form eliminates transitive dependencies?",
+      "options": [
+        "A) 1NF",
+        "B) BCNF",
+        "C) 3NF",
+        "D) 2NF"
+      ],
+      "correct_option": "A",
+      "explanation": "Third Normal Form (3NF) removes transitive dependencies — non-key attributes must not depend on other non-key attributes."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "Consider: SELECT name FROM employees WHERE salary > (SELECT AVG(salary) FROM employees). What type of subquery is used?",
+      "options": [
+        "A) Table subquery",
+        "B) Correlated subquery",
+        "C) Scalar subquery",
+        "D) Row subquery"
+      ],
+      "correct_option": "B",
+      "explanation": "The subquery returns a single value (average salary), making it a scalar subquery."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Which ACID property ensures that either all operations of a transaction are executed or none are?",
+      "options": [
+        "A) Atomicity",
+        "B) Durability",
+        "C) Consistency",
+        "D) Isolation"
+      ],
+      "correct_option": "C",
+      "explanation": "Atomicity guarantees 'all or nothing' — a transaction is treated as a single indivisible unit."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which device forwards data packets between different networks?",
+      "options": [
+        "A) Switch",
+        "B) Hub",
+        "C) Router",
+        "D) Repeater"
+      ],
+      "correct_option": "D",
+      "explanation": "A router operates at Layer 3 and forwards packets between different networks using IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "What does LAN stand for?",
+      "options": [
+        "A) Local Area Network",
+        "B) Linked Access Network",
+        "C) Large Area Network",
+        "D) Long Access Node"
+      ],
+      "correct_option": "D",
+      "explanation": "LAN (Local Area Network) connects devices within a limited area like a building or campus."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "easy",
+      "question": "Which protocol is used to transfer web pages on the internet?",
+      "options": [
+        "A) HTTP",
+        "B) FTP",
+        "C) TCP",
+        "D) SMTP"
+      ],
+      "correct_option": "C",
+      "explanation": "HTTP (HyperText Transfer Protocol) is the application-layer protocol for transmitting web content."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "easy",
+      "question": "An IPv4 address consists of how many bits?",
+      "options": [
+        "A) 128 bits",
+        "B) 16 bits",
+        "C) 64 bits",
+        "D) 32 bits"
+      ],
+      "correct_option": "D",
+      "explanation": "IPv4 addresses are 32-bit numbers, typically represented as four octets (e.g., 192.168.1.1)."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "easy",
+      "question": "Which topology connects all devices to a single central cable?",
+      "options": [
+        "A) Star topology",
+        "B) Ring topology",
+        "C) Bus topology",
+        "D) Mesh topology"
+      ],
+      "correct_option": "B",
+      "explanation": "In bus topology, all nodes share a single communication line (backbone cable)."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "medium",
+      "question": "At which OSI layer does a switch operate?",
+      "options": [
+        "A) Physical Layer (Layer 1)",
+        "B) Network Layer (Layer 3)",
+        "C) Transport Layer (Layer 4)",
+        "D) Data Link Layer (Layer 2)"
+      ],
+      "correct_option": "B",
+      "explanation": "A switch operates at the Data Link Layer (Layer 2) and forwards frames based on MAC addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "Which protocol is used for secure web communication?",
+      "options": [
+        "A) HTTPS",
+        "B) FTP",
+        "C) HTTP",
+        "D) TELNET"
+      ],
+      "correct_option": "B",
+      "explanation": "HTTPS (HTTP Secure) uses SSL/TLS encryption to secure data between client and server."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "What is the subnet mask for a /26 CIDR notation?",
+      "options": [
+        "A) 255.255.255.0",
+        "B) 255.255.255.128",
+        "C) 255.255.255.224",
+        "D) 255.255.255.192"
+      ],
+      "correct_option": "A",
+      "explanation": "/26 means 26 network bits, leaving 6 host bits. Subnet mask = 255.255.255.192."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "Which protocol translates domain names to IP addresses?",
+      "options": [
+        "A) DNS",
+        "B) ICMP",
+        "C) ARP",
+        "D) DHCP"
+      ],
+      "correct_option": "C",
+      "explanation": "DNS (Domain Name System) resolves human-readable domain names to IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "A company needs 500 hosts per subnet. What is the minimum subnet mask (dotted decimal) that supports this?",
+      "options": [
+        "A) 255.255.255.0",
+        "B) 255.255.252.0",
+        "C) 255.255.248.0",
+        "D) 255.255.254.0"
+      ],
+      "correct_option": "A",
+      "explanation": "500 hosts need 2^9 - 2 = 510 hosts (9 host bits). Network bits = 32-9 = 23. Mask = 255.255.254.0 (/23)."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "What is the output of print(type([])) in Python?",
+      "options": [
+        "A) <class 'list'>",
+        "B) <class 'dict'>",
+        "C) <class 'array'>",
+        "D) <class 'tuple'>"
+      ],
+      "correct_option": "A",
+      "explanation": "[] creates an empty list, so type([]) returns <class 'list'>."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "easy",
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "A) function",
+        "B) define",
+        "C) func",
+        "D) def"
+      ],
+      "correct_option": "C",
+      "explanation": "Python uses the 'def' keyword followed by function name and parameters to define a function."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "easy",
+      "question": "A stack follows which principle?",
+      "options": [
+        "A) Random Access",
+        "B) LIFO (Last In First Out)",
+        "C) LILO",
+        "D) FIFO"
+      ],
+      "correct_option": "C",
+      "explanation": "A stack is LIFO — the last element pushed is the first one popped."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "easy",
+      "question": "What is the output of len('Hello') in Python?",
+      "options": [
+        "A) 5",
+        "B) 6",
+        "C) Error",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "len() returns the number of characters in a string. 'Hello' has 5 characters."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "Which data structure uses FIFO principle?",
+      "options": [
+        "A) Graph",
+        "B) Queue",
+        "C) Stack",
+        "D) Tree"
+      ],
+      "correct_option": "D",
+      "explanation": "A queue follows FIFO (First In First Out) — elements are removed in the order they were added."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "medium",
+      "question": "What is the output of [1, 2, 3] + [4, 5] in Python?",
+      "options": [
+        "A) [1, 2, 3, 4, 5]",
+        "B) Error",
+        "C) [1, 2, 3, 4, 5, 6]",
+        "D) [5, 4, 3, 2, 1]"
+      ],
+      "correct_option": "B",
+      "explanation": "The + operator concatenates two lists, producing [1, 2, 3, 4, 5]."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "medium",
+      "question": "In a binary search tree, the left child node contains values:",
+      "options": [
+        "A) Less than the parent node",
+        "B) Equal to parent",
+        "C) Any value",
+        "D) Greater than parent"
+      ],
+      "correct_option": "D",
+      "explanation": "In a BST, left subtree values are less than the parent, right subtree values are greater."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "What is the output of {'a': 1, 'b': 2}.get('c', 0)?",
+      "options": [
+        "A) 3",
+        "B) 0",
+        "C) Error",
+        "D) None"
+      ],
+      "correct_option": "B",
+      "explanation": "dict.get(key, default) returns the default value (0) if the key is not found."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "The time complexity of searching in a hash table (average case) is:",
+      "options": [
+        "A) O(n log n)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "A",
+      "explanation": "Hash tables provide O(1) average-case lookup time due to direct indexing via hash function."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "hard",
+      "question": "What is the time complexity of the recursive Fibonacci function f(n) = f(n-1) + f(n-2)?",
+      "options": [
+        "A) O(log n)",
+        "B) O(2^n)",
+        "C) O(n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "A",
+      "explanation": "The naive recursive Fibonacci has exponential time complexity O(2^n) due to repeated subproblem calculations."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the time complexity of linear search in the worst case?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(1)",
+        "C) O(n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Linear search checks each element sequentially, giving O(n) worst-case time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "Bubble sort compares which elements to sort?",
+      "options": [
+        "A) First and last",
+        "B) Only even-indexed",
+        "C) Adjacent elements",
+        "D) Random elements"
+      ],
+      "correct_option": "B",
+      "explanation": "Bubble sort repeatedly compares adjacent elements and swaps them if in wrong order."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "Binary search requires the array to be:",
+      "options": [
+        "A) Reversed",
+        "B) Sorted",
+        "C) Unsorted",
+        "D) Circular"
+      ],
+      "correct_option": "C",
+      "explanation": "Binary search works only on sorted arrays by repeatedly dividing the search interval in half."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "easy",
+      "question": "How many passes does selection sort need for an array of n elements?",
+      "options": [
+        "A) n+1",
+        "B) n-1",
+        "C) n",
+        "D) log n"
+      ],
+      "correct_option": "D",
+      "explanation": "Selection sort needs n-1 passes — after n-1 passes, the last element is automatically in place."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "Insertion sort is most efficient when the array is:",
+      "options": [
+        "A) Reverse sorted",
+        "B) Random",
+        "C) Very large",
+        "D) Nearly sorted"
+      ],
+      "correct_option": "A",
+      "explanation": "Insertion sort runs in O(n) time on nearly sorted arrays since few elements need shifting."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "medium",
+      "question": "What is the maximum number of comparisons needed for binary search on an array of 1024 elements?",
+      "options": [
+        "A) 512",
+        "B) 10",
+        "C) 11",
+        "D) 1024"
+      ],
+      "correct_option": "C",
+      "explanation": "Binary search needs at most log2(n) comparisons. log2(1024) = 10 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "What is the worst-case time complexity of quick sort?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(log n)",
+        "C) O(n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "D",
+      "explanation": "Quick sort's worst case O(n^2) occurs when the pivot is always the smallest or largest element."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "Merge sort uses which algorithmic paradigm?",
+      "options": [
+        "A) Dynamic Programming",
+        "B) Backtracking",
+        "C) Divide and Conquer",
+        "D) Greedy"
+      ],
+      "correct_option": "A",
+      "explanation": "Merge sort divides the array into halves, recursively sorts them, and merges the sorted halves."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "hard",
+      "question": "If quick sort always picks the median as pivot, what is the time complexity?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "B",
+      "explanation": "With median pivot, partitions are balanced, giving T(n) = 2T(n/2) + O(n) = O(n log n) by Master Theorem."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "What is the time complexity of building a max-heap from an unsorted array of n elements?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Building a heap using bottom-up heapify runs in O(n) time, not O(n log n), because most nodes are at lower levels."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "What does phishing refer to in cybersecurity?",
+      "options": [
+        "A) Network speed issue",
+        "B) Fraudulent emails to steal data",
+        "C) Hardware failure",
+        "D) A type of virus"
+      ],
+      "correct_option": "A",
+      "explanation": "Phishing is a social engineering attack using deceptive emails/messages to trick users into revealing sensitive information."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "Which Pandas data structure is one-dimensional?",
+      "options": [
+        "A) Array",
+        "B) DataFrame",
+        "C) Panel",
+        "D) Series"
+      ],
+      "correct_option": "D",
+      "explanation": "A Pandas Series is a one-dimensional labeled array. DataFrame is 2-dimensional."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "easy",
+      "question": "What does a firewall do in network security?",
+      "options": [
+        "A) Monitors and controls incoming/outgoing traffic",
+        "B) Speeds up internet",
+        "C) Stores backups",
+        "D) Encrypts files"
+      ],
+      "correct_option": "A",
+      "explanation": "A firewall filters network traffic based on security rules to block unauthorized access."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "easy",
+      "question": "Which function reads a CSV file in Pandas?",
+      "options": [
+        "A) load_csv()",
+        "B) read_file()",
+        "C) import_csv()",
+        "D) read_csv()"
+      ],
+      "correct_option": "B",
+      "explanation": "pd.read_csv() is the standard Pandas function to load CSV data into a DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "easy",
+      "question": "SSL/TLS is used for:",
+      "options": [
+        "A) File storage",
+        "B) Data compression",
+        "C) Speed optimization",
+        "D) Secure encrypted communication"
+      ],
+      "correct_option": "D",
+      "explanation": "SSL/TLS protocols provide encryption and authentication for secure communication over networks."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "medium",
+      "question": "What does df.head(3) return in Pandas?",
+      "options": [
+        "A) First 3 rows of DataFrame",
+        "B) Column headers",
+        "C) Random 3 rows",
+        "D) Last 3 rows"
+      ],
+      "correct_option": "C",
+      "explanation": "df.head(n) returns the first n rows (default 5) of the DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "What is the difference between symmetric and asymmetric encryption?",
+      "options": [
+        "A) Asymmetric is obsolete",
+        "B) Symmetric uses one key, asymmetric uses two keys",
+        "C) Both use same key",
+        "D) Symmetric is faster but less secure"
+      ],
+      "correct_option": "B",
+      "explanation": "Symmetric encryption uses a single shared key; asymmetric uses a public-private key pair."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "Which Pandas method provides statistical summary of numerical columns?",
+      "options": [
+        "A) info()",
+        "B) stats()",
+        "C) describe()",
+        "D) summary()"
+      ],
+      "correct_option": "D",
+      "explanation": "df.describe() generates descriptive statistics (count, mean, std, min, max, quartiles) for numeric columns."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "What is a DDoS attack?",
+      "options": [
+        "A) Spreading malware via USB",
+        "B) Overwhelming a server with traffic from multiple sources",
+        "C) Stealing passwords",
+        "D) Encrypting files for ransom"
+      ],
+      "correct_option": "C",
+      "explanation": "DDoS (Distributed Denial of Service) floods a target with massive traffic from many sources to make it unavailable."
+    },
+    {
+      "id": "CUET_CS_2026_P3_L3_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Given df.groupby('category')['sales'].sum(), what does this operation return?",
+      "options": [
+        "A) Total sales per category",
+        "B) Maximum sales per category",
+        "C) Average sales per category",
+        "D) Count of rows per category"
+      ],
+      "correct_option": "C",
+      "explanation": "groupby('category')['sales'].sum() groups by category and sums the sales column for each group."
+    }
+  ]
+}

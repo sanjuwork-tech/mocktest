@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_PHY_2026_P18_L8B",
+  "series_id": "CUET_PHY_2026",
+  "paper_number": 18,
+  "difficulty_level": "8B",
+  "subject": "Physics (Code: 322)",
+  "syllabus_source": "cuet physics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q01",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Radiation Pressure",
+      "difficulty": "hard",
+      "question": "An electromagnetic wave of intensity 100 W/m² is completely absorbed by a surface of area 2 m². The radiation pressure on the surface is (c = 3×10⁸ m/s):",
+      "options": [
+        "A) 6.67 × 10⁻⁷ Pa",
+        "B) 2 × 10⁻⁶ Pa",
+        "C) 1.67 × 10⁻⁷ Pa",
+        "D) 3.33 × 10⁻⁷ Pa"
+      ],
+      "correct_option": "D",
+      "explanation": "Radiation pressure for complete absorption: P = I/c = 100/(3×10⁸) = 3.33×10⁻⁷ Pa. (Area is not needed for pressure calculation.)"
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q02",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Energy Density",
+      "difficulty": "medium",
+      "question": "In an electromagnetic wave, the electric field amplitude is E₀. The total energy density of the wave is:",
+      "options": [
+        "A) ε₀E₀²/2",
+        "B) 2ε₀E₀²",
+        "C) ε₀E₀²",
+        "D) ε₀E₀²/4"
+      ],
+      "correct_option": "C",
+      "explanation": "u_E = ε₀E₀²/2 (electric energy density), u_B = ε₀E₀²/2 (magnetic energy density). Total u = u_E + u_B = ε₀E₀²."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q03",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Transformers",
+      "difficulty": "medium",
+      "question": "A step-up transformer has a turns ratio of 1:5. If the primary voltage is 200 V and the primary current is 10 A, the secondary current (assuming 100% efficiency) is:",
+      "options": [
+        "A) 50 A",
+        "B) 0.5 A",
+        "C) 2 A",
+        "D) 10 A"
+      ],
+      "correct_option": "C",
+      "explanation": "For an ideal transformer: V₁/V₂ = N₁/N₂ = I₂/I₁. I₂ = I₁ × N₁/N₂ = 10 × 1/5 = 2 A."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q04",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Force on Current-Carrying Conductor",
+      "difficulty": "easy",
+      "question": "A straight wire of length 0.5 m carrying a current of 4 A is placed perpendicular to a uniform magnetic field of 0.2 T. The force on the wire is:",
+      "options": [
+        "A) 0.8 N",
+        "B) 1.6 N",
+        "C) 0.2 N",
+        "D) 0.4 N"
+      ],
+      "correct_option": "D",
+      "explanation": "F = ILB sinθ = 4 × 0.5 × 0.2 × sin 90° = 0.4 N."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q05",
+      "topic": "Electrostatics",
+      "sub_topic": "Electrostatic Potential Energy",
+      "difficulty": "hard",
+      "question": "Four point charges +q, -q, +q, -q are placed alternately at the corners of a square of side a. The electrostatic potential energy of the system is:",
+      "options": [
+        "A) kq²/a × (4 - √2)",
+        "B) -kq²/a × (4 - √2)",
+        "C) 0",
+        "D) -kq²/a × (2 - √2)"
+      ],
+      "correct_option": "B",
+      "explanation": "4 sides: each pair is (+q)(-q) = -q²/a, total = -4kq²/a. 2 diagonals: both are (+q)(+q) and (-q)(-q) = +q²/(a√2) each, total = +2kq²/(a√2) = +√2 kq²/a. Net U = -4kq²/a + √2 kq²/a = -kq²/a(4-√2)."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q06",
+      "topic": "Electronic Devices",
+      "sub_topic": "PN Junction",
+      "difficulty": "easy",
+      "question": "In a forward-biased p-n junction diode, the depletion region:",
+      "options": [
+        "A) Widens",
+        "B) Narrows",
+        "C) Disappears completely",
+        "D) Remains unchanged"
+      ],
+      "correct_option": "B",
+      "explanation": "In forward bias, the applied voltage opposes the built-in potential barrier, causing the depletion region to narrow and allowing current to flow."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q07",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "Displacement Current",
+      "difficulty": "hard",
+      "question": "A parallel plate capacitor with plate area 0.1 m² is being charged by a current of 0.5 A. The displacement current across the gap and the rate of change of electric field between the plates (ε₀ = 8.85×10⁻¹²) are respectively:",
+      "options": [
+        "A) 0.25 A, 5.65×10¹⁰ V/m·s",
+        "B) 0.5 A, 5.65×10¹⁰ V/m·s",
+        "C) 0.5 A, 2.83×10¹⁰ V/m·s",
+        "D) 0.25 A, 2.83×10¹⁰ V/m·s"
+      ],
+      "correct_option": "B",
+      "explanation": "Displacement current I_d = conduction current = 0.5 A. I_d = ε₀ A (dE/dt). dE/dt = I/(ε₀A) = 0.5/(8.85×10⁻¹²×0.1) = 5.65×10¹⁰ V/m·s."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q08",
+      "topic": "Current Electricity",
+      "sub_topic": "Kirchhoff's Rules",
+      "difficulty": "hard",
+      "question": "Three resistors R₁ = 2 Ω, R₂ = 3 Ω, and R₃ = 6 Ω are connected in parallel across a battery of emf 6 V and internal resistance 0.5 Ω. The terminal voltage of the battery is:",
+      "options": [
+        "A) 4.5 V",
+        "B) 3.0 V",
+        "C) 4.0 V",
+        "D) 5.0 V"
+      ],
+      "correct_option": "C",
+      "explanation": "1/R_parallel = 1/2+1/3+1/6 = (3+2+1)/6 = 1. R_parallel = 1 Ω. Total R = 1+0.5 = 1.5 Ω. Current I = 6/1.5 = 4 A. Terminal voltage = V - Ir = 6 - 4×0.5 = 4 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q09",
+      "topic": "Optics",
+      "sub_topic": "Diffraction Grating",
+      "difficulty": "medium",
+      "question": "A diffraction grating has 500 lines/mm. The angle for the second order maximum for light of wavelength 600 nm is approximately:",
+      "options": [
+        "A) 17.5°",
+        "B) 53.1°",
+        "C) 36.9°",
+        "D) 8.6°"
+      ],
+      "correct_option": "C",
+      "explanation": "d = 1/(500×10³) = 2×10⁻⁶ m. d sin θ = nλ. sin θ = nλ/d = 2×600×10⁻⁹/(2×10⁻⁶) = 0.6. θ = sin⁻¹(0.6) ≈ 36.9°."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q10",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Lenz's Law",
+      "difficulty": "easy",
+      "question": "According to Lenz's law, the direction of induced current in a loop is such that it:",
+      "options": [
+        "A) Enhances the change in magnetic flux",
+        "B) Opposes the change in magnetic flux",
+        "C) Is always clockwise",
+        "D) Is independent of flux change"
+      ],
+      "correct_option": "B",
+      "explanation": "Lenz's law states that the direction of the induced current is such that it opposes the change in magnetic flux that produced it, in accordance with conservation of energy."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q11",
+      "topic": "Optics",
+      "sub_topic": "Total Internal Reflection",
+      "difficulty": "hard",
+      "question": "A ray of light travels from a medium of refractive index √3 to air. The critical angle for total internal reflection is:",
+      "options": [
+        "A) 60°",
+        "B) 30°",
+        "C) 45°",
+        "D) 35.3°"
+      ],
+      "correct_option": "D",
+      "explanation": "sin C = n₂/n₁ = 1/√3. C = sin⁻¹(1/√3) = sin⁻¹(0.577) ≈ 35.3°."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q12",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Faraday's Law",
+      "difficulty": "hard",
+      "question": "A rectangular loop of dimensions 0.2 m × 0.3 m is pulled out of a uniform magnetic field of 0.4 T at a constant velocity of 2 m/s. The longer sides are perpendicular to the motion. The induced emf in the loop is:",
+      "options": [
+        "A) 0.16 V",
+        "B) 0.12 V",
+        "C) 0.24 V",
+        "D) 0.08 V"
+      ],
+      "correct_option": "A",
+      "explanation": "ε = Blv where l = length of side perpendicular to motion and field = 0.2 m. ε = 0.4 × 0.2 × 2 = 0.16 V."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q13",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Field of Circular Loop",
+      "difficulty": "medium",
+      "question": "A circular loop of radius 0.1 m carries a current of 5 A. The magnetic field at its centre is (μ₀ = 4π×10⁻⁷):",
+      "options": [
+        "A) 3.14 × 10⁻⁵ T",
+        "B) 6.28 × 10⁻⁵ T",
+        "C) 1.57 × 10⁻⁵ T",
+        "D) 12.56 × 10⁻⁵ T"
+      ],
+      "correct_option": "A",
+      "explanation": "B = μ₀I/(2R) = (4π×10⁻⁷)(5)/(2×0.1) = 10π×10⁻⁷ = 3.14×10⁻⁵ T."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q14",
+      "topic": "Electrostatics",
+      "sub_topic": "Capacitors",
+      "difficulty": "medium",
+      "question": "A parallel plate capacitor of capacitance 10 μF is charged to 100 V and then disconnected. If the plate separation is doubled, the new energy stored is:",
+      "options": [
+        "A) 50 mJ",
+        "B) 200 mJ",
+        "C) 100 mJ",
+        "D) 25 mJ"
+      ],
+      "correct_option": "C",
+      "explanation": "Q = CV = 10×10⁻⁶ × 100 = 10⁻³ C. When separation doubles, C halves (C' = 5 μF). Energy U' = Q²/(2C') = (10⁻³)²/(2×5×10⁻⁶) = 10⁻⁶/(10⁻⁵) = 0.1 J = 100 mJ."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q15",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Bohr Model",
+      "difficulty": "easy",
+      "question": "In the Bohr model of hydrogen atom, the radius of the electron orbit in the ground state (n=1) is:",
+      "options": [
+        "A) 1.058 Å",
+        "B) 2.116 Å",
+        "C) 0.265 Å",
+        "D) 0.529 Å"
+      ],
+      "correct_option": "D",
+      "explanation": "The Bohr radius for n=1 is a₀ = 0.529 Å (or 0.0529 nm = 5.29×10⁻¹¹ m)."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q16",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Equation",
+      "difficulty": "hard",
+      "question": "Two different metals A and B have work functions φ_A and φ_B respectively. When light of frequency ν is incident on both, the stopping potential for A is twice that for B. The ratio φ_A/φ_B is (ν > threshold for both):",
+      "options": [
+        "A) (hν - 2eV_B)/(hν - eV_B) where V_B is stopping potential for B",
+        "B) (2hν - eV_B)/(hν - eV_B)",
+        "C) 2",
+        "D) Cannot be determined without more information"
+      ],
+      "correct_option": "D",
+      "explanation": "For A: hν = φ_A + eV_A. For B: hν = φ_B + eV_B. Given V_A = 2V_B: hν = φ_A + 2eV_B and hν = φ_B + eV_B. Therefore φ_A + 2eV_B = φ_B + eV_B, so φ_A = φ_B - eV_B. Without knowing the values of hν, φ_B, or eV_B, the ratio φ_A/φ_B cannot be determined."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q17",
+      "topic": "Current Electricity",
+      "sub_topic": "RC Circuits",
+      "difficulty": "hard",
+      "question": "A capacitor of 10 μF is charged through a 100 kΩ resistor by a 12 V battery. The charge on the capacitor after 1 second is approximately:",
+      "options": [
+        "A) 120 μC",
+        "B) 44.0 μC",
+        "C) 94.4 μC",
+        "D) 75.9 μC"
+      ],
+      "correct_option": "D",
+      "explanation": "τ = RC = 100×10³ × 10×10⁻⁶ = 1 s. q = Q_max(1 - e^(-t/τ)) = CV(1 - e⁻¹) = 120×(1-0.368) = 120×0.632 = 75.9 μC."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q18",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Wave Properties",
+      "difficulty": "hard",
+      "question": "An electromagnetic wave propagates in a medium of relative permittivity εᵣ = 9 and relative permeability μᵣ = 1. The ratio of the electric field amplitude to the magnetic field amplitude in this medium is (c = 3×10⁸ m/s):",
+      "options": [
+        "A) c/9",
+        "B) 3c",
+        "C) c/3",
+        "D) c"
+      ],
+      "correct_option": "C",
+      "explanation": "In a medium, v = c/√(εᵣμᵣ) = c/√9 = c/3. The ratio E/B = v = c/3."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q19",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Compton Effect",
+      "difficulty": "medium",
+      "question": "In Compton scattering, the change in wavelength of the scattered photon depends on:",
+      "options": [
+        "A) The scattering angle only",
+        "B) The incident wavelength only",
+        "C) Both incident wavelength and scattering angle",
+        "D) The intensity of incident light"
+      ],
+      "correct_option": "A",
+      "explanation": "Compton shift Δλ = (h/mc)(1 - cos θ) depends only on the scattering angle θ, not on the incident wavelength or intensity."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q20",
+      "topic": "Electrostatics",
+      "sub_topic": "Coulomb's Law",
+      "difficulty": "medium",
+      "question": "A charge +Q is fixed at the origin. A second charge +4Q is fixed at x = 3 m. A third charge q is placed on the x-axis such that the net force on it is zero. The position of q is:",
+      "options": [
+        "A) 1.5 m from +Q",
+        "B) 1 m from +Q",
+        "C) 2 m from +Q",
+        "D) 1 m from +4Q"
+      ],
+      "correct_option": "B",
+      "explanation": "Let the third charge be at distance x from +Q. For equilibrium: kQq/x² = k(4Q)q/(3-x)². Cancel kQq: 1/x² = 4/(3-x)². (3-x)² = 4x². 3-x = 2x → 3 = 3x → x = 1 m. So it's 1 m from +Q."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q21",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Binding Energy",
+      "difficulty": "hard",
+      "question": "The mass defect of a helium-4 nucleus (₂He⁴) is 0.0304 u. Its binding energy per nucleon is (1 u = 931.5 MeV/c²):",
+      "options": [
+        "A) 28.3 MeV",
+        "B) 14.15 MeV",
+        "C) 7.07 MeV",
+        "D) 3.54 MeV"
+      ],
+      "correct_option": "C",
+      "explanation": "Total BE = Δm × 931.5 = 0.0304 × 931.5 = 28.32 MeV. BE per nucleon = 28.32/4 = 7.08 MeV ≈ 7.07 MeV."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q22",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Power Factor",
+      "difficulty": "hard",
+      "question": "In a series RL circuit, R = 6 Ω and the inductive reactance X_L = 8 Ω. The power factor of the circuit is:",
+      "options": [
+        "A) 0.8",
+        "B) 0.707",
+        "C) 0.5",
+        "D) 0.6"
+      ],
+      "correct_option": "D",
+      "explanation": "Z = √(R² + X_L²) = √(36 + 64) = √100 = 10 Ω. Power factor = R/Z = 6/10 = 0.6."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q23",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photon Energy",
+      "difficulty": "easy",
+      "question": "The energy of a photon of wavelength 400 nm is approximately (h = 6.63×10⁻³⁴ J s, c = 3×10⁸ m/s):",
+      "options": [
+        "A) 3.31 × 10⁻¹⁹ J",
+        "B) 4.97 × 10⁻¹⁹ J",
+        "C) 1.66 × 10⁻¹⁹ J",
+        "D) 8.28 × 10⁻¹⁹ J"
+      ],
+      "correct_option": "B",
+      "explanation": "E = hc/λ = (6.63×10⁻³⁴)(3×10⁸)/(400×10⁻⁹) = 1.989×10⁻²⁵/4×10⁻⁷ = 4.97×10⁻¹⁹ J."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q24",
+      "topic": "Electronic Devices",
+      "sub_topic": "Transistor Action",
+      "difficulty": "hard",
+      "question": "In an n-p-n transistor operating in active mode, the base current is 10 μA and the collector current is 2 mA. The current gain (β) and emitter current are respectively:",
+      "options": [
+        "A) 200, 1.99 mA",
+        "B) 20, 2.1 mA",
+        "C) 20, 1.9 mA",
+        "D) 200, 2.01 mA"
+      ],
+      "correct_option": "D",
+      "explanation": "β = I_C/I_B = 2×10⁻³/(10×10⁻⁶) = 200. I_E = I_C + I_B = 2 + 0.01 = 2.01 mA."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q25",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Radioactive Decay",
+      "difficulty": "medium",
+      "question": "A radioactive substance has a half-life of 30 minutes. What fraction of the original sample remains after 90 minutes?",
+      "options": [
+        "A) 1/8",
+        "B) 1/16",
+        "C) 1/4",
+        "D) 1/2"
+      ],
+      "correct_option": "A",
+      "explanation": "After n half-lives, fraction remaining = (1/2)ⁿ. n = 90/30 = 3. Fraction = (1/2)³ = 1/8."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q26",
+      "topic": "Optics",
+      "sub_topic": "Lens Combination",
+      "difficulty": "medium",
+      "question": "Two thin convex lenses of focal lengths 10 cm and 20 cm are placed in contact. The combined power of the system is:",
+      "options": [
+        "A) 15 D",
+        "B) 10 D",
+        "C) 5 D",
+        "D) 20 D"
+      ],
+      "correct_option": "A",
+      "explanation": "P = P₁ + P₂ = 1/0.1 + 1/0.2 = 10 + 5 = 15 D."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q27",
+      "topic": "Optics",
+      "sub_topic": "Young's Double Slit Experiment",
+      "difficulty": "medium",
+      "question": "In Young's double slit experiment, light of wavelength 600 nm is used with slit separation 0.2 mm. The fringe width on a screen 1.5 m away is:",
+      "options": [
+        "A) 3.0 mm",
+        "B) 4.5 mm",
+        "C) 2.25 mm",
+        "D) 1.5 mm"
+      ],
+      "correct_option": "B",
+      "explanation": "β = λD/d = (600×10⁻⁹)(1.5)/(0.2×10⁻³) = 900×10⁻⁹/0.2×10⁻³ = 4.5×10⁻³ m = 4.5 mm."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q28",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "LCR Circuit",
+      "difficulty": "hard",
+      "question": "In a series LCR circuit, R = 12 Ω, X_L = 20 Ω, X_C = 15 Ω, connected to an AC source. The impedance and phase angle respectively are:",
+      "options": [
+        "A) 17 Ω, tan⁻¹(5/12)",
+        "B) 13 Ω, tan⁻¹(12/5)",
+        "C) 25 Ω, tan⁻¹(5/12)",
+        "D) 13 Ω, tan⁻¹(5/12)"
+      ],
+      "correct_option": "D",
+      "explanation": "Z = √(R² + (X_L - X_C)²) = √(144 + 25) = √169 = 13 Ω. tan φ = (X_L-X_C)/R = 5/12, so φ = tan⁻¹(5/12)."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q29",
+      "topic": "Electromagnetic Waves",
+      "sub_topic": "EM Spectrum",
+      "difficulty": "easy",
+      "question": "Arrange the following electromagnetic waves in order of increasing wavelength: γ-rays, microwaves, visible light, X-rays.",
+      "options": [
+        "A) γ-rays, X-rays, visible light, microwaves",
+        "B) Microwaves, visible light, X-rays, γ-rays",
+        "C) X-rays, γ-rays, visible light, microwaves",
+        "D) γ-rays, visible light, X-rays, microwaves"
+      ],
+      "correct_option": "A",
+      "explanation": "The EM spectrum in order of increasing wavelength (decreasing frequency) is: γ-rays, X-rays, UV, visible light, IR, microwaves, radio waves."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q30",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Nuclear Fission",
+      "difficulty": "medium",
+      "question": "In a nuclear fission reaction, a heavy nucleus splits into two lighter nuclei. The Q-value of the reaction is positive because:",
+      "options": [
+        "A) The total mass of products is greater than the reactant",
+        "B) The number of nucleons increases",
+        "C) The Coulomb force becomes stronger",
+        "D) The binding energy per nucleon of products is greater than that of the reactant"
+      ],
+      "correct_option": "D",
+      "explanation": "In fission, the binding energy per nucleon of the products is greater than that of the reactant, meaning the products are more tightly bound. The mass defect releases energy (Q > 0)."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q31",
+      "topic": "Electronic Devices",
+      "sub_topic": "Zener Diode",
+      "difficulty": "medium",
+      "question": "A Zener diode operates in reverse breakdown to maintain a constant voltage. If a Zener with breakdown voltage 6.2 V is connected in reverse bias across a variable voltage supply, the voltage across the Zener will be:",
+      "options": [
+        "A) Always 0 V",
+        "B) Equal to supply voltage",
+        "C) 6.2 V for supply > 6.2 V",
+        "D) 6.2 V regardless of supply"
+      ],
+      "correct_option": "C",
+      "explanation": "A Zener diode in reverse breakdown maintains a nearly constant voltage equal to its breakdown voltage, provided the supply voltage exceeds this value and a series resistor limits the current."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q32",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Photoelectric Effect",
+      "difficulty": "medium",
+      "question": "The work function of a metal is 2.5 eV. Light of wavelength 400 nm is incident on it. The maximum kinetic energy of emitted photoelectrons is (h = 6.63×10⁻³⁴, c = 3×10⁸, 1 eV = 1.6×10⁻¹⁹ J):",
+      "options": [
+        "A) 1.1 eV",
+        "B) 3.1 eV",
+        "C) 0.6 eV",
+        "D) 2.5 eV"
+      ],
+      "correct_option": "C",
+      "explanation": "E_photon = hc/λ = (6.63×10⁻³⁴)(3×10⁸)/(400×10⁻⁹) = 4.97×10⁻¹⁹ J = 3.1 eV. K.E._max = E_photon - φ = 3.1 - 2.5 = 0.6 eV."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q33",
+      "topic": "Optics",
+      "sub_topic": "Polarization",
+      "difficulty": "hard",
+      "question": "Two polarizers are placed with their transmission axes at 60° to each other. If unpolarized light of intensity I₀ is incident on the first polarizer, the intensity of light emerging from the second polarizer is:",
+      "options": [
+        "A) I₀/4",
+        "B) I₀/8",
+        "C) 3I₀/8",
+        "D) I₀/2"
+      ],
+      "correct_option": "B",
+      "explanation": "After first polarizer: I₁ = I₀/2. After second polarizer: I₂ = I₁ cos²60° = (I₀/2)×(0.5)² = (I₀/2)×(1/4) = I₀/8."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q34",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Mass Defect and Binding Energy",
+      "difficulty": "hard",
+      "question": "The mass of a deuterium nucleus (₁H²) is 2.0141 u. Given proton mass = 1.0078 u and neutron mass = 1.0087 u, the binding energy of deuterium is (1 u = 931.5 MeV/c²):",
+      "options": [
+        "A) 1.12 MeV",
+        "B) 2.23 MeV",
+        "C) 0.56 MeV",
+        "D) 3.34 MeV"
+      ],
+      "correct_option": "B",
+      "explanation": "Mass defect = (1.0078 + 1.0087) - 2.0141 = 2.0165 - 2.0141 = 0.0024 u. BE = 0.0024 × 931.5 = 2.236 MeV ≈ 2.23 MeV."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q35",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Lorentz Force",
+      "difficulty": "medium",
+      "question": "A proton moves with velocity 2×10⁶ m/s parallel to a uniform magnetic field of 0.3 T. The magnetic force on the proton is:",
+      "options": [
+        "A) 9.6 × 10⁻¹⁴ N",
+        "B) 4.8 × 10⁻¹⁴ N",
+        "C) 1.6 × 10⁻¹⁹ N",
+        "D) 0 N"
+      ],
+      "correct_option": "D",
+      "explanation": "F = qvB sinθ. Since v is parallel to B, θ = 0°, sinθ = 0. F = 0."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q36",
+      "topic": "Electronic Devices",
+      "sub_topic": "Rectifiers",
+      "difficulty": "hard",
+      "question": "In a half-wave rectifier with input AC of frequency 50 Hz, the ripple frequency in the output is:",
+      "options": [
+        "A) 50 Hz",
+        "B) 100 Hz",
+        "C) 25 Hz",
+        "D) 200 Hz"
+      ],
+      "correct_option": "A",
+      "explanation": "In a half-wave rectifier, only one half-cycle of the input passes, so the output pulses have the same frequency as the input AC: 50 Hz. In a full-wave rectifier, it would be 100 Hz."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q37",
+      "topic": "Electronic Devices",
+      "sub_topic": "Logic Gates",
+      "difficulty": "medium",
+      "question": "The truth table for a two-input logic gate is: (0,0)→1, (0,1)→0, (1,0)→0, (1,1)→0. This gate is:",
+      "options": [
+        "A) NAND gate",
+        "B) NOR gate",
+        "C) AND gate",
+        "D) XOR gate"
+      ],
+      "correct_option": "B",
+      "explanation": "A NOR gate outputs 1 only when all inputs are 0. The given truth table matches a NOR gate: 0 NOR 0 = 1, 0 NOR 1 = 0, 1 NOR 0 = 0, 1 NOR 1 = 0."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q38",
+      "topic": "Electrostatics",
+      "sub_topic": "Gauss's Law",
+      "difficulty": "medium",
+      "question": "An infinitely long cylinder of radius R carries a uniform volume charge density ρ. The electric field at a distance r < R from the axis is:",
+      "options": [
+        "A) ρr/(2ε₀)",
+        "B) ρR²/(2ε₀r)",
+        "C) ρR/(2ε₀r)",
+        "D) ρr²/(2ε₀R)"
+      ],
+      "correct_option": "A",
+      "explanation": "By Gauss's law, E(2πrL) = ρ(πr²L)/ε₀. E = ρr/(2ε₀)."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q39",
+      "topic": "Optics",
+      "sub_topic": "Snell's Law",
+      "difficulty": "easy",
+      "question": "A ray of light passes from air into a medium of refractive index 1.5. If the angle of incidence is 60°, the angle of refraction is approximately: (sin 60° = 0.866)",
+      "options": [
+        "A) 35.3°",
+        "B) 30°",
+        "C) 45°",
+        "D) 60°"
+      ],
+      "correct_option": "A",
+      "explanation": "n₁ sin i = n₂ sin r. 1 × 0.866 = 1.5 × sin r. sin r = 0.577. r = sin⁻¹(0.577) ≈ 35.3°."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q40",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "Electron Diffraction",
+      "difficulty": "hard",
+      "question": "In an electron diffraction experiment, electrons are accelerated through 54 V and incident on a crystal with interplanar spacing 2.15 Å. The angle for first-order Bragg diffraction is approximately (h = 6.63×10⁻³⁴, m_e = 9.1×10⁻³¹, e = 1.6×10⁻¹⁹):",
+      "options": [
+        "A) 35.8°",
+        "B) 22.5°",
+        "C) 15.4°",
+        "D) 45.0°"
+      ],
+      "correct_option": "B",
+      "explanation": "λ = h/√(2meV) = 6.63×10⁻³⁴/√(2×9.1×10⁻³¹×1.6×10⁻¹⁹×54) = 6.63×10⁻³⁴/√(1.57×10⁻⁴⁷) = 1.66×10⁻¹⁰ m = 1.66 Å. Bragg's law: 2d sin θ = nλ. sin θ = nλ/(2d) = 1.66/(2×2.15) = 0.386. θ = sin⁻¹(0.386) ≈ 22.7° ≈ 22.5°."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q41",
+      "topic": "Electrostatics",
+      "sub_topic": "Gauss's Law",
+      "difficulty": "hard",
+      "question": "A non-conducting spherical shell of inner radius R₁ and outer radius R₂ carries a uniform volume charge density ρ. The electric field at a distance r where R₁ < r < R₂ is:",
+      "options": [
+        "A) ρ(r - R₁)/(3ε₀)",
+        "B) ρ(R₂³ - R₁³)/(3ε₀r²)",
+        "C) ρ(r³ - R₁³)/(3ε₀r²)",
+        "D) ρr³/(3ε₀R₂²)"
+      ],
+      "correct_option": "C",
+      "explanation": "Charge enclosed Q = ρ(4π/3)(r³ - R₁³). By Gauss's law, E(4πr²) = Q/ε₀ = ρ(4π/3)(r³-R₁³)/ε₀. E = ρ(r³ - R₁³)/(3ε₀r²)."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q42",
+      "topic": "Dual Nature of Matter and Radiation",
+      "sub_topic": "de-Broglie Wavelength",
+      "difficulty": "medium",
+      "question": "An electron is accelerated through a potential difference of 100 V. Its de Broglie wavelength is approximately (h = 6.63×10⁻³⁴, m_e = 9.1×10⁻³¹, e = 1.6×10⁻¹⁹):",
+      "options": [
+        "A) 0.123 nm",
+        "B) 0.0123 nm",
+        "C) 1.23 nm",
+        "D) 0.049 nm"
+      ],
+      "correct_option": "A",
+      "explanation": "λ = h/√(2meV) = 6.63×10⁻³⁴/√(2×9.1×10⁻³¹×1.6×10⁻¹⁹×100) = 6.63×10⁻³⁴/√(2.91×10⁻⁴⁷) = 6.63×10⁻³⁴/5.39×10⁻²⁴ = 1.23×10⁻¹⁰ m = 0.123 nm."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q43",
+      "topic": "Current Electricity",
+      "sub_topic": "Temperature Coefficient of Resistance",
+      "difficulty": "easy",
+      "question": "The resistance of a wire is 8 Ω at 25°C and 10 Ω at 75°C. The temperature coefficient of resistance of the wire is:",
+      "options": [
+        "A) 0.005 /°C",
+        "B) 0.003 /°C",
+        "C) 0.002 /°C",
+        "D) 0.004 /°C"
+      ],
+      "correct_option": "A",
+      "explanation": "R₂ = R₁(1 + αΔT). 10 = 8(1 + α×50). 10/8 - 1 = 0.25 = 50α. α = 0.005 /°C."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q44",
+      "topic": "Current Electricity",
+      "sub_topic": "Internal Resistance",
+      "difficulty": "medium",
+      "question": "Two identical cells, each of emf 1.5 V and internal resistance 0.2 Ω, are connected in series opposing to a 2.6 Ω resistor. The current in the circuit is:",
+      "options": [
+        "A) 1.0 A",
+        "B) 0 A",
+        "C) 0.5 A",
+        "D) 2.0 A"
+      ],
+      "correct_option": "B",
+      "explanation": "In series opposing, net emf = 1.5 - 1.5 = 0 V. Current = 0 A."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q45",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Force Between Parallel Conductors",
+      "difficulty": "hard",
+      "question": "Two parallel wires carrying currents of 5 A and 10 A in the same direction are separated by 0.1 m. The force per unit length between them is (μ₀ = 4π×10⁻⁷):",
+      "options": [
+        "A) 1 × 10⁻⁴ N/m (repulsive)",
+        "B) 1 × 10⁻⁴ N/m (attractive)",
+        "C) 2 × 10⁻⁴ N/m (attractive)",
+        "D) 2 × 10⁻⁴ N/m (repulsive)"
+      ],
+      "correct_option": "B",
+      "explanation": "F/L = μ₀I₁I₂/(2πd) = (4π×10⁻⁷)(5)(10)/(2π×0.1) = 200π×10⁻⁷/2π = 1×10⁻⁴ N/m. Since currents are in the same direction, force is attractive."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q46",
+      "topic": "Magnetic Effects of Current and Magnetism",
+      "sub_topic": "Magnetic Dipole Moment",
+      "difficulty": "hard",
+      "question": "A square loop of side 0.2 m carrying a current of 4 A is placed in a uniform magnetic field of 0.8 T. The work required to rotate the loop from θ = 0° (normal parallel to field) to θ = 180° (normal anti-parallel to field) is:",
+      "options": [
+        "A) 0.128 J",
+        "B) 0.512 J",
+        "C) 0.256 J",
+        "D) 0.064 J"
+      ],
+      "correct_option": "C",
+      "explanation": "μ = IA = 4 × 0.04 = 0.16 A m². W = μB(cosθ₁ - cosθ₂) = 0.16×0.8×(cos0° - cos180°) = 0.128×(1-(-1)) = 0.128×2 = 0.256 J."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q47",
+      "topic": "Electromagnetic Induction and AC",
+      "sub_topic": "Self Inductance",
+      "difficulty": "medium",
+      "question": "The self-inductance of a solenoid of length 0.5 m with 1000 turns and cross-sectional area 0.01 m² is (μ₀ = 4π×10⁻⁷):",
+      "options": [
+        "A) 8π × 10⁻³ H",
+        "B) 4π × 10⁻³ H",
+        "C) 2π × 10⁻³ H",
+        "D) 16π × 10⁻³ H"
+      ],
+      "correct_option": "A",
+      "explanation": "L = μ₀N²A/l = (4π×10⁻⁷)(10⁶)(0.01)/0.5 = 4π×10⁻⁷×10⁶×0.02 = 8π×10⁻³ H."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q48",
+      "topic": "Electrostatics",
+      "sub_topic": "Electric Dipole",
+      "difficulty": "medium",
+      "question": "An electric dipole consists of charges +5 nC and -5 nC separated by 4 mm. The electric field at a point on the perpendicular bisector at a distance of 20 cm from the dipole center is (k = 9×10⁹):",
+      "options": [
+        "A) 4.5 × 10² N/C",
+        "B) 9.0 × 10² N/C",
+        "C) 1.125 × 10³ N/C",
+        "D) 2.25 × 10³ N/C"
+      ],
+      "correct_option": "D",
+      "explanation": "E = kp/r³ where p = qd = 5×10⁻⁹ × 4×10⁻³ = 2×10⁻¹¹ C m. E = (9×10⁹)(2×10⁻¹¹)/(0.2)³ = 1.8×10⁻¹/8×10⁻³ = 2.25×10³ N/C."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q49",
+      "topic": "Current Electricity",
+      "sub_topic": "Metre Bridge",
+      "difficulty": "medium",
+      "question": "In a metre bridge experiment, the balance point is found at 40 cm from the left end when two resistors P and Q are connected in the left and right gaps respectively. If P = 6 Ω, the value of Q is:",
+      "options": [
+        "A) 4 Ω",
+        "B) 12 Ω",
+        "C) 8 Ω",
+        "D) 9 Ω"
+      ],
+      "correct_option": "D",
+      "explanation": "P/Q = l/(100-l) = 40/60 = 2/3. Q = P×3/2 = 6×1.5 = 9 Ω."
+    },
+    {
+      "id": "CUET_PHY_2026_P18_L8B_Q50",
+      "topic": "Atoms and Nuclei",
+      "sub_topic": "Energy Levels",
+      "difficulty": "medium",
+      "question": "The energy of the electron in the n=2 state of a hydrogen atom is:",
+      "options": [
+        "A) -13.6 eV",
+        "B) -6.8 eV",
+        "C) -3.4 eV",
+        "D) -1.51 eV"
+      ],
+      "correct_option": "C",
+      "explanation": "E_n = -13.6/n² eV. E₂ = -13.6/4 = -3.4 eV."
+    }
+  ]
+}

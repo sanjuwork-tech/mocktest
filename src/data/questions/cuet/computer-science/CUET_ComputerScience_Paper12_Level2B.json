@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P12_L2B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 12,
+  "difficulty_level": "2B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions & Joins",
+      "difficulty": "easy",
+      "question": "Which SQL clause is used to filter rows before any grouping takes place?",
+      "options": [
+        "A) GROUP BY",
+        "B) WHERE",
+        "C) FILTER",
+        "D) HAVING"
+      ],
+      "correct_option": "B",
+      "explanation": "WHERE filters individual rows before GROUP BY aggregation. HAVING filters after grouping."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q02",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing & Subnetting",
+      "difficulty": "medium",
+      "question": "Which OSI layer is responsible for establishing, managing, and terminating sessions between applications?",
+      "options": [
+        "A) Application Layer",
+        "B) Session Layer",
+        "C) Presentation Layer",
+        "D) Transport Layer"
+      ],
+      "correct_option": "B",
+      "explanation": "The Session Layer (Layer 5) manages communication sessions."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q03",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion & Complexity",
+      "difficulty": "medium",
+      "question": "What is the output of: d = {'a': 1, 'b': 2}; print(d.setdefault('c', 3)); print(d)?",
+      "options": [
+        "A) KeyError",
+        "B) 3 then {'a':1, 'b':2, 'c':3}",
+        "C) None then {'a':1, 'b':2}",
+        "D) 3 then {'a':1, 'b':2}"
+      ],
+      "correct_option": "B",
+      "explanation": "setdefault('c', 3) returns 3 and adds 'c':3 to the dict."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q04",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort & Heaps",
+      "difficulty": "easy",
+      "question": "What is the time complexity of accessing the i-th element in a Python list?",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n²)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "Python lists are dynamic arrays, so accessing by index is O(1)."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q05",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption & Authentication",
+      "difficulty": "medium",
+      "question": "Which cybersecurity attack involves intercepting communication between two parties without their knowledge?",
+      "options": [
+        "A) Denial of Service",
+        "B) Brute force attack",
+        "C) Phishing",
+        "D) Man-in-the-Middle attack"
+      ],
+      "correct_option": "D",
+      "explanation": "Man-in-the-Middle (MitM) attacks secretly intercept and possibly alter communication."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "Keys & Relational Model",
+      "difficulty": "easy",
+      "question": "What does the SQL keyword 'DISTINCT' do?",
+      "options": [
+        "A) Removes duplicate values from results",
+        "B) Combines two queries",
+        "C) Filters rows by a condition",
+        "D) Sorts results in ascending order"
+      ],
+      "correct_option": "A",
+      "explanation": "SELECT DISTINCT returns only unique (non-duplicate) values from the query result."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q07",
+      "topic": "Networks",
+      "sub_topic": "TCP/UDP & Routing",
+      "difficulty": "easy",
+      "question": "Which protocol is used to send emails from a client to a mail server?",
+      "options": [
+        "A) IMAP",
+        "B) SMTP",
+        "C) POP3",
+        "D) HTTP"
+      ],
+      "correct_option": "B",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send emails."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q08",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists & Tuples",
+      "difficulty": "hard",
+      "question": "A binary tree has preorder traversal: 50, 30, 20, 40, 70, 60, 80 and inorder traversal: 20, 30, 40, 50, 60, 70, 80. What is the postorder traversal?",
+      "options": [
+        "A) 20, 40, 30, 60, 80, 70, 50",
+        "B) 20, 30, 40, 60, 70, 80, 50",
+        "C) 50, 30, 20, 40, 70, 60, 80",
+        "D) 80, 60, 70, 40, 20, 30, 50"
+      ],
+      "correct_option": "A",
+      "explanation": "Reconstruct: root=50, left=30(20,40), right=70(60,80). Postorder: 20,40,30,60,80,70,50."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q09",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear & Binary Search",
+      "difficulty": "easy",
+      "question": "Which of these is NOT a stable sorting algorithm?",
+      "options": [
+        "A) Selection Sort",
+        "B) Bubble Sort",
+        "C) Merge Sort",
+        "D) Insertion Sort"
+      ],
+      "correct_option": "A",
+      "explanation": "Selection Sort is not stable — it can swap equal elements past each other."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q10",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption & Authentication",
+      "difficulty": "easy",
+      "question": "What is a Trojan horse in cybersecurity?",
+      "options": [
+        "A) Malware disguised as legitimate software",
+        "B) A program that logs keystrokes",
+        "C) A tool for network scanning",
+        "D) A virus that spreads through networks"
+      ],
+      "correct_option": "A",
+      "explanation": "A Trojan masquerades as useful software to trick users into executing its malicious payload."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q11",
+      "topic": "Database/SQL",
+      "sub_topic": "DDL & Views",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a DDL command in SQL?",
+      "options": [
+        "A) DROP",
+        "B) ALTER",
+        "C) CREATE",
+        "D) DELETE"
+      ],
+      "correct_option": "D",
+      "explanation": "DELETE is a DML (Data Manipulation Language) command. CREATE, ALTER, DROP are DDL commands."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q12",
+      "topic": "Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "easy",
+      "question": "What is the main function of a router in a network?",
+      "options": [
+        "A) To filter spam emails",
+        "B) To convert digital signals to analog",
+        "C) To connect devices within the same LAN",
+        "D) To forward data packets between different networks"
+      ],
+      "correct_option": "D",
+      "explanation": "A router forwards packets between different networks based on IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q13",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stacks & Queues",
+      "difficulty": "easy",
+      "question": "Which of the following is the correct way to create an empty set in Python?",
+      "options": [
+        "A) x = set()",
+        "B) x = ()",
+        "C) x = {}",
+        "D) x = []"
+      ],
+      "correct_option": "A",
+      "explanation": "{} creates an empty dictionary, not a set. set() creates an empty set."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q14",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble & Selection Sort",
+      "difficulty": "hard",
+      "question": "A max-heap is represented as array [30, 20, 15, 10, 5, 12]. After performing heap sort, what is the array after the first removal of max and re-heapification?",
+      "options": [
+        "A) [20, 12, 15, 5, 10, 30]",
+        "B) [20, 15, 12, 10, 5, 30]",
+        "C) [20, 10, 15, 12, 5, 30]",
+        "D) [20, 12, 15, 10, 5, 30]"
+      ],
+      "correct_option": "B",
+      "explanation": "Remove max(30), move last(12) to root. Bubble down: 12<20 swap. Then 12>10,5 stop. Result: [20,15,12,10,5,30]."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q15",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "medium",
+      "question": "In Pandas, what does df.drop_duplicates() do by default?",
+      "options": [
+        "A) Keeps the last occurrence",
+        "B) Keeps the first occurrence",
+        "C) Keeps none",
+        "D) Removes all duplicates"
+      ],
+      "correct_option": "B",
+      "explanation": "drop_duplicates() by default keeps the first occurrence and removes subsequent duplicate rows."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q16",
+      "topic": "Database/SQL",
+      "sub_topic": "Keys & Relational Model",
+      "difficulty": "easy",
+      "question": "In a relational database, what is a tuple?",
+      "options": [
+        "A) A database constraint",
+        "B) A row in a table",
+        "C) A column in a table",
+        "D) A type of key"
+      ],
+      "correct_option": "B",
+      "explanation": "A tuple is a single row in a relational table, representing a complete record."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q17",
+      "topic": "Networks",
+      "sub_topic": "Protocols & Layers",
+      "difficulty": "medium",
+      "question": "An IP address is 192.168.10.50 with subnet mask 255.255.255.192. How many usable host addresses are in this subnet?",
+      "options": [
+        "A) 128",
+        "B) 254",
+        "C) 64",
+        "D) 62"
+      ],
+      "correct_option": "D",
+      "explanation": "Mask 255.255.255.192 = /26. Host bits = 6. Total addresses = 64. Usable hosts = 64 - 2 = 62."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q18",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries & Sets",
+      "difficulty": "easy",
+      "question": "What is the output of print(list(range(2, 8, 2)))?",
+      "options": [
+        "A) [2, 4, 6, 8, 10]",
+        "B) [2, 4, 6, 8]",
+        "C) [2, 8]",
+        "D) [2, 4, 6]"
+      ],
+      "correct_option": "D",
+      "explanation": "range(2, 8, 2) generates 2, 4, 6."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q19",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear & Binary Search",
+      "difficulty": "medium",
+      "question": "A hash function h(k) = k mod 11 maps keys to indices 0-10. Where is key 85 placed?",
+      "options": [
+        "A) Index 0",
+        "B) Index 85 mod 11 = 8",
+        "C) Index 85 mod 11 = 7",
+        "D) Index 8"
+      ],
+      "correct_option": "B",
+      "explanation": "85 mod 11 = 85 - 7*11 = 85 - 77 = 8."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q20",
+      "topic": "Security/Pandas",
+      "sub_topic": "Viruses & Malware",
+      "difficulty": "easy",
+      "question": "Which Pandas method returns descriptive statistics of a DataFrame?",
+      "options": [
+        "A) df.stats()",
+        "B) df.info()",
+        "C) df.describe()",
+        "D) df.summarize()"
+      ],
+      "correct_option": "C",
+      "explanation": "df.describe() returns count, mean, std, min, max, and quartiles for numerical columns."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q21",
+      "topic": "Database/SQL",
+      "sub_topic": "Keys & Relational Model",
+      "difficulty": "medium",
+      "question": "What is the difference between UNION and UNION ALL?",
+      "options": [
+        "A) UNION combines columns; UNION ALL combines rows",
+        "B) There is no difference",
+        "C) UNION sorts results; UNION ALL does not",
+        "D) UNION removes duplicates; UNION ALL keeps all rows"
+      ],
+      "correct_option": "D",
+      "explanation": "UNION removes duplicate rows from the combined result. UNION ALL retains all rows including duplicates."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q22",
+      "topic": "Networks",
+      "sub_topic": "Protocols & Layers",
+      "difficulty": "hard",
+      "question": "A TCP sender has a receiver advertised window of 8 KB, a congestion window of 16 KB, and has sent 4 KB of unacknowledged data. How many additional bytes can be sent immediately?",
+      "options": [
+        "A) 4 KB",
+        "B) 16 KB",
+        "C) 12 KB",
+        "D) 8 KB"
+      ],
+      "correct_option": "A",
+      "explanation": "Effective window = min(rwnd, cwnd) - unacknowledged = min(8, 16) - 4 = 8 - 4 = 4 KB."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stacks & Queues",
+      "difficulty": "medium",
+      "question": "In a queue with operations: enqueue(5), enqueue(3), dequeue(), enqueue(7), dequeue(), what element remains at the front?",
+      "options": [
+        "A) 3",
+        "B) Queue is empty",
+        "C) 7",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "enqueue 5,3 → [5,3]. dequeue → [3]. enqueue 7 → [3,7]. dequeue → [7]."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q24",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble & Selection Sort",
+      "difficulty": "easy",
+      "question": "In which scenario does linear search perform best?",
+      "options": [
+        "A) Element does not exist",
+        "B) All cases are equal",
+        "C) Element is at the beginning",
+        "D) Element is at the end"
+      ],
+      "correct_option": "C",
+      "explanation": "Best case for linear search is when the target is at the first position."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q25",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "easy",
+      "question": "What is the output of: import pandas as pd; s = pd.Series([1,2,3]); print(s.shape)?",
+      "options": [
+        "A) (3, 1)",
+        "B) (1, 3)",
+        "C) 3",
+        "D) (3,)"
+      ],
+      "correct_option": "D",
+      "explanation": "A Series is 1-dimensional, so its shape is (n,) — a tuple with one element: (3,)."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q26",
+      "topic": "Database/SQL",
+      "sub_topic": "Constraints & Normalization",
+      "difficulty": "easy",
+      "question": "Which aggregate function ignores NULL values by default?",
+      "options": [
+        "A) All aggregate functions ignore NULLs",
+        "B) COUNT(column_name)",
+        "C) None ignore NULLs",
+        "D) COUNT(*)"
+      ],
+      "correct_option": "A",
+      "explanation": "All aggregate functions (except COUNT(*)) ignore NULL values."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q27",
+      "topic": "Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "What is the purpose of ARP (Address Resolution Protocol)?",
+      "options": [
+        "A) To encrypt network packets",
+        "B) To resolve IP addresses to MAC addresses",
+        "C) To assign IP addresses dynamically",
+        "D) To resolve domain names to IP addresses"
+      ],
+      "correct_option": "B",
+      "explanation": "ARP maps an IP address to a physical MAC address on the local network segment."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries & Sets",
+      "difficulty": "easy",
+      "question": "What is the output of: x = [1, 2, 3]; x.insert(1, 99); print(x)?",
+      "options": [
+        "A) [1, 99, 2, 3]",
+        "B) [1, 99, 3]",
+        "C) [99, 1, 2, 3]",
+        "D) [1, 2, 3, 99]"
+      ],
+      "correct_option": "A",
+      "explanation": "insert(1, 99) inserts 99 at index 1, shifting subsequent elements right."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q29",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Hashing & Hash Tables",
+      "difficulty": "easy",
+      "question": "Given the array [5, 3, 8, 1, 2], after the first pass of Bubble Sort, what is the array state?",
+      "options": [
+        "A) [3, 5, 1, 2, 8]",
+        "B) [3, 1, 5, 2, 8]",
+        "C) [1, 2, 3, 5, 8]",
+        "D) [3, 5, 8, 1, 2]"
+      ],
+      "correct_option": "A",
+      "explanation": "Pass 1: compare(5,3)→swap; compare(5,8)→no swap; compare(8,1)→swap; compare(8,2)→swap. Result: [3,5,1,2,8]."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q30",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "easy",
+      "question": "Which of the following is used to protect data from unauthorized access during transmission?",
+      "options": [
+        "A) Compression",
+        "B) Hashing only",
+        "C) Encryption",
+        "D) Indexing"
+      ],
+      "correct_option": "C",
+      "explanation": "Encryption transforms data into ciphertext to protect it during transmission."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q31",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions & Joins",
+      "difficulty": "easy",
+      "question": "What is the result of the expression: NULL = NULL in SQL?",
+      "options": [
+        "A) NULL",
+        "B) TRUE",
+        "C) Error",
+        "D) FALSE"
+      ],
+      "correct_option": "A",
+      "explanation": "In SQL, any comparison involving NULL yields NULL (unknown), not TRUE or FALSE."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q32",
+      "topic": "Networks",
+      "sub_topic": "Protocols & Layers",
+      "difficulty": "easy",
+      "question": "What is the default port number for HTTP?",
+      "options": [
+        "A) 21",
+        "B) 80",
+        "C) 443",
+        "D) 25"
+      ],
+      "correct_option": "B",
+      "explanation": "HTTP uses port 80 by default. HTTPS uses port 443. FTP uses 21, SMTP uses 25."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q33",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists & Tuples",
+      "difficulty": "easy",
+      "question": "Which operator is used for exponentiation in Python?",
+      "options": [
+        "A) ^",
+        "B) **",
+        "C) //",
+        "D) %%"
+      ],
+      "correct_option": "B",
+      "explanation": "** is the exponentiation operator. 2 ** 3 = 8. ^ is bitwise XOR."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear & Binary Search",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm is known as 'divide and conquer'?",
+      "options": [
+        "A) Selection Sort",
+        "B) Insertion Sort",
+        "C) Bubble Sort",
+        "D) Merge Sort"
+      ],
+      "correct_option": "D",
+      "explanation": "Merge Sort divides the array into halves recursively, then merges sorted halves."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q35",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "medium",
+      "question": "What does df.isnull().sum() return when applied to a DataFrame?",
+      "options": [
+        "A) Total number of NaN values per column",
+        "B) A boolean DataFrame",
+        "C) The count of non-null values",
+        "D) The sum of all values"
+      ],
+      "correct_option": "A",
+      "explanation": "isnull() creates a boolean mask where True = NaN. sum() counts True values per column."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q36",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions & Joins",
+      "difficulty": "medium",
+      "question": "Which SQL statement retrieves the top 5 highest-paid employees from an Employees table?",
+      "options": [
+        "A) SELECT TOP 5 * FROM Employees WHERE salary = MAX(salary)",
+        "B) SELECT * FROM Employees GROUP BY salary HAVING ROWNUM <= 5",
+        "C) SELECT * FROM Employees ORDER BY salary ASC LIMIT 5",
+        "D) SELECT * FROM Employees ORDER BY salary DESC LIMIT 5"
+      ],
+      "correct_option": "D",
+      "explanation": "ORDER BY salary DESC sorts from highest to lowest, LIMIT 5 restricts output to top 5 rows."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q37",
+      "topic": "Networks",
+      "sub_topic": "TCP/UDP & Routing",
+      "difficulty": "easy",
+      "question": "Which of the following is a private IP address?",
+      "options": [
+        "A) 8.8.8.8",
+        "B) 198.51.100.1",
+        "C) 172.16.0.1",
+        "D) 203.0.113.1"
+      ],
+      "correct_option": "C",
+      "explanation": "172.16.0.1 falls in the private range 172.16.0.0 - 172.31.255.255."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q38",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Binary Trees & BST",
+      "difficulty": "medium",
+      "question": "What is the time complexity of binary search in a sorted list of n elements?",
+      "options": [
+        "A) O(n)",
+        "B) O(n²)",
+        "C) O(log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "C",
+      "explanation": "Binary search divides the search space in half at each step, giving O(log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Hashing & Hash Tables",
+      "difficulty": "medium",
+      "question": "In a data set with 10 values sorted in ascending order, the median is computed as the average of which two positions?",
+      "options": [
+        "A) 4th and 5th",
+        "B) 5th only",
+        "C) 5th and 6th",
+        "D) 10th and 1st"
+      ],
+      "correct_option": "C",
+      "explanation": "For an even number of elements (10), median = average of elements at positions 5 and 6."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q40",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "easy",
+      "question": "Which method is used to write a DataFrame to a CSV file in Pandas?",
+      "options": [
+        "A) df.export_csv()",
+        "B) df.write_csv()",
+        "C) df.to_csv()",
+        "D) df.save_csv()"
+      ],
+      "correct_option": "C",
+      "explanation": "df.to_csv() writes a DataFrame to a CSV file."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q41",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions & Joins",
+      "difficulty": "hard",
+      "question": "Relation R(A, B, C, D, E) has functional dependencies: AB → C, C → D, D → E. Which of the following is a candidate key?",
+      "options": [
+        "A) AE",
+        "B) AC",
+        "C) AB",
+        "D) AD"
+      ],
+      "correct_option": "C",
+      "explanation": "AB+ = ABCDE. AB determines all attributes. No subset of AB can determine all attributes."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q42",
+      "topic": "Networks",
+      "sub_topic": "Topologies & Devices",
+      "difficulty": "easy",
+      "question": "What does DNS stand for?",
+      "options": [
+        "A) Data Network Security",
+        "B) Domain Name System",
+        "C) Dynamic Network Service",
+        "D) Digital Network Signal"
+      ],
+      "correct_option": "B",
+      "explanation": "DNS (Domain Name System) translates domain names to IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q43",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists & Tuples",
+      "difficulty": "easy",
+      "question": "Which built-in function returns the number of items in a list?",
+      "options": [
+        "A) length()",
+        "B) count()",
+        "C) len()",
+        "D) size()"
+      ],
+      "correct_option": "C",
+      "explanation": "len() returns the number of items in any sequence or collection."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q44",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear & Binary Search",
+      "difficulty": "easy",
+      "question": "What is the worst-case time complexity of insertion sort on an array of n elements?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n)",
+        "C) O(n²)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Insertion sort has O(n²) worst-case complexity when the array is reverse sorted."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "Firewalls & Security",
+      "difficulty": "easy",
+      "question": "What is a computer virus?",
+      "options": [
+        "A) A hardware failure",
+        "B) A malicious program that replicates itself",
+        "C) An antivirus tool",
+        "D) A type of firewall"
+      ],
+      "correct_option": "B",
+      "explanation": "A computer virus is malicious software that replicates and spreads to other systems."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q46",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Queries & DML",
+      "difficulty": "medium",
+      "question": "Given a table Orders with 100 rows, 40 with customer_id NOT NULL. What does SELECT COUNT(*) FROM Orders WHERE customer_id IS NULL return?",
+      "options": [
+        "A) 100",
+        "B) 40",
+        "C) 60",
+        "D) 0"
+      ],
+      "correct_option": "C",
+      "explanation": "Total rows = 100. Rows with customer_id NOT NULL = 40. Rows where customer_id IS NULL = 100 - 40 = 60."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q47",
+      "topic": "Networks",
+      "sub_topic": "TCP/UDP & Routing",
+      "difficulty": "easy",
+      "question": "Which network topology connects each device to a central hub or switch?",
+      "options": [
+        "A) Mesh topology",
+        "B) Ring topology",
+        "C) Bus topology",
+        "D) Star topology"
+      ],
+      "correct_option": "D",
+      "explanation": "In star topology, all devices connect to a central device (hub/switch)."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q48",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion & Complexity",
+      "difficulty": "easy",
+      "question": "What does the 'break' statement do inside a loop?",
+      "options": [
+        "A) Restarts the loop",
+        "B) Skips the current iteration",
+        "C) Exits the loop entirely",
+        "D) Pauses execution"
+      ],
+      "correct_option": "C",
+      "explanation": "break exits the nearest enclosing loop immediately."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q49",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Hashing & Hash Tables",
+      "difficulty": "medium",
+      "question": "What is the total number of comparisons in the worst case for Bubble Sort on an array of 6 elements?",
+      "options": [
+        "A) 30",
+        "B) 6",
+        "C) 36",
+        "D) 15"
+      ],
+      "correct_option": "D",
+      "explanation": "Bubble Sort compares n(n-1)/2 times in worst case. For n=6: 6×5/2 = 15."
+    },
+    {
+      "id": "CUET_CS_2026_P12_L2B_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Viruses & Malware",
+      "difficulty": "hard",
+      "question": "A Caesar cipher shifts each letter by 3 positions. If the ciphertext is 'KHOOR', what is the plaintext?",
+      "options": [
+        "A) HELLO",
+        "B) WORLD",
+        "C) CRYPTO",
+        "D) SECURE"
+      ],
+      "correct_option": "A",
+      "explanation": "Shift back by 3: K→H, H→E, O→L, O→L, R→O. The plaintext is 'HELLO'."
+    }
+  ]
+}

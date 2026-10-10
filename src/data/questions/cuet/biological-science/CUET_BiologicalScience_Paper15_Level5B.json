@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P15_L5B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 15,
+  "difficulty_level": "5B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "During the follicular phase of the menstrual cycle, which hormone stimulates the growth and maturation of ovarian follicles?",
+      "options": [
+        "A) Progesterone",
+        "B) Luteinizing hormone (LH)",
+        "C) Estrogen",
+        "D) Follicle-stimulating hormone (FSH)"
+      ],
+      "correct_option": "D",
+      "explanation": "FSH secreted by the anterior pituitary stimulates the growth and maturation of ovarian follicles during the follicular phase. LH primarily triggers ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "The generative cell of a pollen grain divides to form two male gametes. What is the ploidy of the generative cell?",
+      "options": [
+        "A) Haploid (n)",
+        "B) Tetraploid (4n)",
+        "C) Triploid (3n)",
+        "D) Diploid (2n)"
+      ],
+      "correct_option": "A",
+      "explanation": "The pollen grain is a haploid structure produced by meiosis of a diploid microspore mother cell. The generative cell and vegetative cell are both haploid."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Which of the following contraceptive methods works primarily by preventing ovulation?",
+      "options": [
+        "A) Vasectomy",
+        "B) Copper-T",
+        "C) Oral contraceptive pills",
+        "D) Condom"
+      ],
+      "correct_option": "C",
+      "explanation": "Oral contraceptive pills contain estrogen and progesterone analogs that suppress FSH and LH secretion through negative feedback, thereby preventing ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "The morula stage of embryonic development consists of how many cells approximately?",
+      "options": [
+        "A) Over 100 cells",
+        "B) 16-32 cells",
+        "C) 2-4 cells",
+        "D) 8 cells only"
+      ],
+      "correct_option": "B",
+      "explanation": "The morula is a solid ball of approximately 16-32 cells formed by successive mitotic divisions (cleavage) of the zygote. It forms around 3-4 days after fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "The onset of parturition (childbirth) is triggered by which neuroendocrine reflex involving oxytocin?",
+      "options": [
+        "A) Fetal ADH stimulates maternal kidneys to retain fluid",
+        "B) Maternal progesterone surge directly stimulates myometrial contraction",
+        "C) Pituitary suppression of relaxin causes cervical dilation",
+        "D) Fetal cortisol stimulates placental estrogen, which triggers oxytocin release causing uterine contractions"
+      ],
+      "correct_option": "D",
+      "explanation": "Parturition is initiated by a fetoplacental signal: fetal cortisol stimulates placental conversion of progesterone to estrogen. The rising estrogen:progesterone ratio increases oxytocin receptors and triggers oxytocin release, causing rhythmic uterine contractions (Ferguson reflex)."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "In double fertilization of angiosperms, the second male gamete fuses with the polar nuclei. What is the ploidy of the resulting primary endosperm nucleus in a typical diploid plant (2n=14)?",
+      "options": [
+        "A) Triploid (3n=21)",
+        "B) Diploid (2n=14)",
+        "C) Tetraploid (4n=28)",
+        "D) Haploid (n=7)"
+      ],
+      "correct_option": "A",
+      "explanation": "The second male gamete (n=7) fuses with two polar nuclei (n=7 each) to form the primary endosperm nucleus which is triploid (3n=21). This develops into the endosperm that nourishes the embryo."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Which region of the sperm contains the mitochondria needed for providing energy during motility?",
+      "options": [
+        "A) Acrosome",
+        "B) Head",
+        "C) Middle piece (midpiece)",
+        "D) Tail (principal piece)"
+      ],
+      "correct_option": "C",
+      "explanation": "The middle piece (midpiece) of the sperm contains mitochondria spirally arranged around the axoneme. These mitochondria generate ATP through oxidative phosphorylation, providing energy for flagellar movement."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "Which hormone is used as the marker in pregnancy tests and is secreted by the developing placenta?",
+      "options": [
+        "A) Human chorionic gonadotropin (hCG)",
+        "B) Relaxin",
+        "C) Progesterone",
+        "D) Estrogen"
+      ],
+      "correct_option": "A",
+      "explanation": "hCG is secreted by the developing placenta (syncytiotrophoblast) shortly after implantation. It maintains the corpus luteum, ensuring continued progesterone production. Home pregnancy tests detect hCG in urine."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "In spermatogenesis, a single spermatogonium undergoes mitosis to produce two daughter cells. What happens to the two types of daughter cells (Type A and Type B) produced?",
+      "options": [
+        "A) Type A cells undergo apoptosis while Type B cells proliferate",
+        "B) Type A cells remain as stem cells to maintain the germ cell pool; Type B cells differentiate into primary spermatocytes",
+        "C) Type A cells become primary spermatocytes; Type B cells remain as stem cells",
+        "D) Both Type A and Type B cells directly enter meiosis I"
+      ],
+      "correct_option": "B",
+      "explanation": "Spermatogonial stem cells divide mitotically to produce Type A daughter cells that self-renew to maintain the stem cell pool, and Type B daughter cells that differentiate and commit to meiosis, becoming primary spermatocytes."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "The trophoblast cells of the blastocyst contribute to which structure during implantation?",
+      "options": [
+        "A) Embryonic disc",
+        "B) Amnion",
+        "C) Chorion and placenta",
+        "D) Yolk sac"
+      ],
+      "correct_option": "C",
+      "explanation": "The outer trophoblast layer of the blastocyst differentiates into the chorion (extraembryonic membrane) and contributes to placenta formation by invading the uterine endometrium and establishing the maternal-fetal interface."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "A homozygous dominant (TT) plant is crossed with a heterozygous (Tt) plant. What percentage of offspring will show the dominant phenotype?",
+      "options": [
+        "A) 25%",
+        "B) 100%",
+        "C) 50%",
+        "D) 75%"
+      ],
+      "correct_option": "B",
+      "explanation": "TT x Tt produces offspring with genotypes TT and Tt in equal proportions. Both genotypes express the dominant phenotype, so 100% of offspring will show the dominant trait."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "According to Chargaff's rules, if a DNA sample contains 20% adenine, what percentage of guanine does it contain?",
+      "options": [
+        "A) 50%",
+        "B) 40%",
+        "C) 20%",
+        "D) 30%"
+      ],
+      "correct_option": "D",
+      "explanation": "Chargaff's rules state A=T and G=C. If A=20%, then T=20%, so A+T=40%. The remaining 60% is G+C, meaning G=30% and C=30%."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "A segment of DNA that codes for a functional product (polypeptide or RNA) is called a:",
+      "options": [
+        "A) Gene",
+        "B) Chromosome",
+        "C) Codon",
+        "D) Nucleotide"
+      ],
+      "correct_option": "A",
+      "explanation": "A gene is a specific sequence of nucleotides in DNA that encodes a functional product, usually a polypeptide or functional RNA molecule. It is the fundamental unit of heredity."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Haemophilia is an X-linked recessive disorder. A normal man marries a woman whose father was haemophilic. What is the probability their first son will have haemophilia?",
+      "options": [
+        "A) 50%",
+        "B) 100%",
+        "C) 0%",
+        "D) 25%"
+      ],
+      "correct_option": "A",
+      "explanation": "The woman's father was haemophilic (XhY), making her a carrier (XhX). A normal man (XY) marries her. Sons receive X from mother: 50% chance of Xh (haemophilic) and 50% chance of X (normal). So probability of first son having haemophilia is 50%."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "In a cross between AaBbCc and AabbCC, what is the probability of an offspring having the genotype AabbCc?",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 1/8",
+        "D) 1/16"
+      ],
+      "correct_option": "C",
+      "explanation": "Analyze each gene separately: Aa x Aa gives Aa at 1/2; Bb x bb gives bb at 1/2; Cc x CC gives Cc at 1/2. Combined probability: 1/2 x 1/2 x 1/2 = 1/8."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which of the following is the promoter sequence in prokaryotes where RNA polymerase binds to initiate transcription?",
+      "options": [
+        "A) The TATA box at -25",
+        "B) The poly-A tail",
+        "C) The Shine-Dalgarno sequence",
+        "D) The Pribnow box (TATAAT) at -10 and the -35 sequence (TTGACA)"
+      ],
+      "correct_option": "D",
+      "explanation": "In prokaryotes, two conserved promoter sequences are recognized: the Pribnow box (TATAAT) at position -10 and the -35 sequence (TTGACA). These are binding sites for the sigma factor of RNA polymerase."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "The different species of Darwin's finches on the Galapagos Islands varied mainly in the size and shape of their beaks. This variation is most closely associated with:",
+      "options": [
+        "A) Sexual selection based on beak color",
+        "B) Geographic isolation from the mainland",
+        "C) Random genetic drift in small populations",
+        "D) Adaptation to different food sources available on different islands"
+      ],
+      "correct_option": "D",
+      "explanation": "Darwin's finches underwent adaptive radiation where natural selection shaped beak morphology to match available food sources (seeds, insects, cactus flowers) on different islands, demonstrating divergent evolution from a common ancestor."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In a test cross of a doubly heterozygous individual (AaBb) with a homozygous recessive (aabb), if the genes are completely linked, what phenotypic ratio would be observed in the offspring?",
+      "options": [
+        "A) 9:3:3:1",
+        "B) 3:1",
+        "C) 1:1",
+        "D) 1:1:1:1"
+      ],
+      "correct_option": "C",
+      "explanation": "If genes are completely linked, AaBb produces only parental gametes (AB and ab) with no recombinant gametes. Test cross with aabb yields AaBb and aabb in 1:1 ratio, corresponding to two phenotypes in 1:1 ratio."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "In the lac operon of E. coli, what would be the effect of a mutation in the operator sequence that prevents the repressor protein from binding?",
+      "options": [
+        "A) The repressor would bind to the promoter instead",
+        "B) The operon would be constitutively expressed regardless of lactose presence",
+        "C) The operon would only be transcribed in the presence of glucose",
+        "D) The operon would never be transcribed"
+      ],
+      "correct_option": "B",
+      "explanation": "The operator is the binding site for the lac repressor. If a mutation prevents repressor binding, RNA polymerase can transcribe the structural genes (lacZ, lacY, lacA) continuously, regardless of whether lactose is present. This results in constitutive expression."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "hard",
+      "question": "In a population, the frequency of the recessive allele for a trait is 0.3. Assuming Hardy-Weinberg equilibrium, what percentage of the population is heterozygous?",
+      "options": [
+        "A) 42%",
+        "B) 49%",
+        "C) 21%",
+        "D) 9%"
+      ],
+      "correct_option": "A",
+      "explanation": "Given q=0.3, then p=0.7. Heterozygous frequency = 2pq = 2(0.7)(0.3) = 0.42 = 42%. This represents carriers of the recessive allele in the population."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which causative agent is responsible for the disease tuberculosis in humans?",
+      "options": [
+        "A) Salmonella typhi",
+        "B) Vibrio cholerae",
+        "C) Streptococcus pneumoniae",
+        "D) Mycobacterium tuberculosis"
+      ],
+      "correct_option": "D",
+      "explanation": "Tuberculosis is caused by Mycobacterium tuberculosis, an acid-fast bacterium that primarily affects the lungs but can spread to other organs."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which type of immunoglobulin is most abundant in blood serum and provides the majority of antibody-based immunity against pathogens?",
+      "options": [
+        "A) IgE",
+        "B) IgG",
+        "C) IgM",
+        "D) IgA"
+      ],
+      "correct_option": "B",
+      "explanation": "IgG constitutes about 75-80% of total serum antibodies. It is the main antibody in secondary immune responses, crosses the placenta to provide passive immunity to the fetus, and is crucial for opsonization and complement activation."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "The principle of vaccination is based on the concept of:",
+      "options": [
+        "A) Phagocytosis",
+        "B) Immunological memory",
+        "C) Innate immunity",
+        "D) Inflammation"
+      ],
+      "correct_option": "B",
+      "explanation": "Vaccination exploits immunological memory by introducing attenuated or inactivated pathogens (or their antigens) to prime the immune system. This generates memory B and T cells that respond rapidly upon subsequent exposure to the actual pathogen."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "HIV primarily destroys which type of immune cell, leading to progressive immunodeficiency?",
+      "options": [
+        "A) B-lymphocytes",
+        "B) CD4+ helper T-cells",
+        "C) Natural killer cells",
+        "D) CD8+ cytotoxic T-cells"
+      ],
+      "correct_option": "B",
+      "explanation": "HIV binds to CD4 receptors on helper T-cells (CD4+ T-lymphocytes), enters the cell, replicates, and destroys it. The progressive decline in CD4+ T-cell count weakens the immune system, leading to AIDS."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Oncogenes are derived from normal cellular genes called proto-oncogenes. What type of mutation converts a proto-oncogene into an oncogene?",
+      "options": [
+        "A) Gain-of-function mutation (dominant)",
+        "B) Loss-of-function mutation",
+        "C) Deletion of both alleles",
+        "D) Frame-shift mutation only"
+      ],
+      "correct_option": "A",
+      "explanation": "Proto-oncogenes become oncogenes through gain-of-function mutations (point mutations, amplification, or chromosomal translocations). Only one allele needs to be altered (dominant effect), leading to uncontrolled cell proliferation."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "During an allergic reaction, mast cells release histamine. Which class of antibodies is primarily responsible for triggering this response?",
+      "options": [
+        "A) IgA",
+        "B) IgG",
+        "C) IgM",
+        "D) IgE"
+      ],
+      "correct_option": "D",
+      "explanation": "IgE antibodies bind to mast cells and basophils via their Fc region. When multivalent antigens crosslink these bound IgE molecules, mast cells degranulate releasing histamine and other mediators, causing allergic symptoms."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which microorganism is commonly used in the production of citric acid on an industrial scale?",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Lactobacillus",
+        "C) Aspergillus niger",
+        "D) Acetobacter aceti"
+      ],
+      "correct_option": "C",
+      "explanation": "Aspergillus niger, a filamentous fungus, is used for industrial production of citric acid through aerobic fermentation of sucrose-containing molasses. It accounts for the majority of world citric acid production."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "The drug Cannabis (marijuana) acts on cannabinoid receptors in the brain. Which of the following is the active psychoactive component?",
+      "options": [
+        "A) Morphine",
+        "B) Atropine",
+        "C) Tetrahydrocannabinol (THC)",
+        "D) Reserpine"
+      ],
+      "correct_option": "C",
+      "explanation": "Delta-9-tetrahydrocannabinol (THC) is the primary psychoactive component of Cannabis. It binds to CB1 receptors in the brain, affecting memory, pleasure, coordination, and perception."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Alpha-fetoprotein (AFP) in maternal serum is used as a marker for fetal abnormalities. Elevated AFP levels may indicate which condition?",
+      "options": [
+        "A) Cystic fibrosis",
+        "B) Trisomy 21 (Down syndrome)",
+        "C) Neural tube defects (spina bifida)",
+        "D) Turner syndrome"
+      ],
+      "correct_option": "C",
+      "explanation": "Elevated maternal serum AFP indicates neural tube defects (spina bifida, anencephaly) where fetal AFP leaks into amniotic fluid and maternal circulation. Trisomy 21 shows decreased AFP."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Widal test is used for the diagnosis of which disease?",
+      "options": [
+        "A) Typhoid fever",
+        "B) Malaria",
+        "C) Pneumonia",
+        "D) Tuberculosis"
+      ],
+      "correct_option": "A",
+      "explanation": "The Widal test detects antibodies against Salmonella typhi O (somatic) and H (flagellar) antigens in patient serum. It is a serological agglutination test used for typhoid fever diagnosis."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which heat-stable enzyme is essential for PCR (Polymerase Chain Reaction) due to its ability to withstand high temperatures during the denaturation step?",
+      "options": [
+        "A) Taq polymerase",
+        "B) Helicase",
+        "C) DNA ligase",
+        "D) RNA polymerase"
+      ],
+      "correct_option": "A",
+      "explanation": "Taq polymerase, isolated from Thermus aquaticus, is heat-stable and can withstand the high temperatures (94-96°C) used in each PCR cycle to denature DNA, making automated amplification possible."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Restriction endonucleases cut DNA at specific sequences. What type of ends are produced when EcoRI cuts its recognition sequence GAATTC?",
+      "options": [
+        "A) Blunt ends",
+        "B) Circular ends",
+        "C) Sticky ends with 3' overhang",
+        "D) Sticky (cohesive) ends with 5' overhang"
+      ],
+      "correct_option": "D",
+      "explanation": "EcoRI cuts between G and A on each strand, producing sticky (cohesive) ends with a 5' overhang (AATT). These complementary overhangs allow fragments from different sources to anneal via complementary base pairing."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Golden Rice is genetically engineered to produce which nutrient that is normally absent in rice endosperm?",
+      "options": [
+        "A) Beta-carotene (provitamin A)",
+        "B) Vitamin C",
+        "C) Lysine",
+        "D) Iron"
+      ],
+      "correct_option": "A",
+      "explanation": "Golden Rice contains genes (psy from daffodil and crtI from soil bacterium) that enable synthesis of beta-carotene in the endosperm. Beta-carotene is converted to Vitamin A in the body, addressing Vitamin A deficiency."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "In genetic engineering, the same restriction enzyme is used to cut both the vector DNA and the target DNA. Why?",
+      "options": [
+        "A) To increase the efficiency of DNA ligase",
+        "B) To generate complementary sticky ends that can join by base pairing",
+        "C) To ensure the target gene is not damaged",
+        "D) To reduce the cost of the experiment"
+      ],
+      "correct_option": "B",
+      "explanation": "Using the same restriction enzyme ensures that both the vector and target DNA are cut at the same recognition sequence, producing complementary sticky (cohesive) ends. These ends can base-pair, facilitating ligation of the insert into the vector."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Large-scale production of recombinant proteins is carried out using bioreactors. What is the primary purpose of maintaining aerobic conditions in a stirred-tank bioreactor for mammalian cell culture?",
+      "options": [
+        "A) To reduce the pH of the medium",
+        "B) To increase the rate of cell lysis",
+        "C) To support cellular respiration and energy production for cell growth and protein synthesis",
+        "D) To prevent contamination by anaerobic bacteria"
+      ],
+      "correct_option": "C",
+      "explanation": "Aerobic conditions (oxygen supply) are essential for oxidative phosphorylation, generating ATP needed for cell growth, maintenance, and recombinant protein production in mammalian cell cultures grown in bioreactors."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which technique is commonly used to introduce recombinant DNA directly into animal cells (e.g., to create transgenic mice)?",
+      "options": [
+        "A) Biolistic gene gun",
+        "B) Microinjection into the pronucleus of fertilized eggs",
+        "C) Agrobacterium-mediated transformation",
+        "D) Electroporation of leaf discs"
+      ],
+      "correct_option": "B",
+      "explanation": "Transgenic mice are created by microinjecting recombinant DNA into the larger male pronucleus of fertilized eggs, which are then implanted into surrogate mothers. Gene guns and Agrobacterium are used for plants; electroporation for bacteria."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "The first successful gene therapy (1990) was performed for which genetic disorder?",
+      "options": [
+        "A) Haemophilia A",
+        "B) Severe Combined Immunodeficiency (ADA-SCID)",
+        "C) Cystic fibrosis",
+        "D) Sickle cell anaemia"
+      ],
+      "correct_option": "B",
+      "explanation": "In 1990, Ashanthi DeSilva was treated for adenosine deaminase (ADA) deficiency, a form of Severe Combined Immunodeficiency (SCID). The functional ADA gene was introduced into her white blood cells using a retroviral vector."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "RNA interference (RNAi) is a post-transcriptional gene silencing mechanism. Which enzyme processes double-stranded RNA into small interfering RNAs (siRNAs)?",
+      "options": [
+        "A) Reverse transcriptase",
+        "B) RNA polymerase",
+        "C) Dicer",
+        "D) Splicing factor"
+      ],
+      "correct_option": "C",
+      "explanation": "Dicer is an RNase III enzyme that cleaves long double-stranded RNA into short (21-23 nucleotide) interfering RNAs (siRNAs). These siRNAs are then incorporated into the RISC complex to guide cleavage of complementary target mRNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "In indirect ELISA used for HIV detection, what is the sequence of binding events?",
+      "options": [
+        "A) Enzyme-linked HIV antigen coated, patient serum added, substrate added",
+        "B) Patient serum coated, HIV antigen added, enzyme-linked anti-HIV antibody added",
+        "C) Anti-human antibody coated, patient serum added, HIV antigen added, enzyme-linked anti-HIV antibody added",
+        "D) HIV antigen coated, patient serum added, enzyme-linked secondary anti-human antibody added, substrate added"
+      ],
+      "correct_option": "D",
+      "explanation": "Indirect ELISA: HIV antigen is coated on the plate. Patient serum (containing anti-HIV antibodies if infected) is added. Enzyme-linked secondary antibody (anti-human immunoglobulin) binds to patient antibodies. Substrate conversion produces a color change indicating infection."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which genetically modified organism was at the center of the 'Oncomouse' patent case in the United States?",
+      "options": [
+        "A) A sheep producing human alpha-1 antitrypsin for treating emphysema",
+        "B) A cow producing human lactoferrin in its milk",
+        "C) A mouse carrying the human insulin gene for diabetes research",
+        "D) A mouse genetically engineered with an activated oncogene, predisposed to cancer for research purposes"
+      ],
+      "correct_option": "D",
+      "explanation": "The Harvard Oncomouse (1988) was transgenic for an activated oncogene, making it highly susceptible to cancer. It was patented for use in carcinogenicity testing, raising important ethical and legal questions about patenting genetically modified life forms."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "Decomposers in an ecosystem primarily contribute to:",
+      "options": [
+        "A) Primary production",
+        "B) Predation on herbivores",
+        "C) Nutrient cycling by breaking down dead organic matter",
+        "D) Oxygen production"
+      ],
+      "correct_option": "C",
+      "explanation": "Decomposers (mainly bacteria and fungi) break down dead organic matter (detritus) into simpler inorganic substances, returning nutrients to the soil/water for reuse by producers. This drives biogeochemical cycles."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "The relationship between mycorrhizal fungi and plant roots is an example of:",
+      "options": [
+        "A) Commensalism",
+        "B) Mutualism",
+        "C) Parasitism",
+        "D) Competition"
+      ],
+      "correct_option": "B",
+      "explanation": "Mycorrhiza is a mutualistic association: the fungal hyphae extend the root system's reach, absorbing water and minerals (especially phosphorus) from soil, while the plant supplies carbohydrates to the fungus."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Which Indian biodiversity hotspot is a mountain range running parallel to the western coast and recognized as a UNESCO World Heritage Site?",
+      "options": [
+        "A) Western Ghats",
+        "B) Sundarbans",
+        "C) Eastern Ghats",
+        "D) Aravalli Range"
+      ],
+      "correct_option": "A",
+      "explanation": "The Western Ghats is one of 36 global biodiversity hotspots, characterized by high species richness and endemism (especially amphibians, reptiles, and plants). It runs parallel to India's western coast and was designated a UNESCO World Heritage Site in 2012."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "In primary succession on a bare rock surface, which organisms are typically the first colonizers?",
+      "options": [
+        "A) Mosses only",
+        "B) Grasses",
+        "C) Lichens",
+        "D) Shrubs"
+      ],
+      "correct_option": "C",
+      "explanation": "Lichens are pioneer species on bare rock surfaces. They secrete acids that weather the rock, forming initial soil. Mosses follow, then grasses, shrubs, and eventually trees — the process of primary succession."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "If a food web contains 4 trophic levels and the producers capture 50,000 kJ of energy, approximately how much energy would be available at the tertiary consumer level (assuming 10% transfer efficiency)?",
+      "options": [
+        "A) 50 kJ",
+        "B) 500 kJ",
+        "C) 5,000 kJ",
+        "D) 50,000 kJ"
+      ],
+      "correct_option": "A",
+      "explanation": "Lindeman's 10% law: Producers (50,000) -> Primary consumers (5,000) -> Secondary consumers (500) -> Tertiary consumers (50). At the 4th trophic level, approximately 50 kJ of energy is available."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "In exponential population growth, the growth curve is J-shaped. Which equation describes this pattern?",
+      "options": [
+        "A) dN/dt = rN(K-N)/K",
+        "B) dN/dt = r(K-N)",
+        "C) dN/dt = rN(N-K)",
+        "D) dN/dt = rN"
+      ],
+      "correct_option": "D",
+      "explanation": "Exponential growth follows dN/dt = rN, where r is the intrinsic rate of increase and N is population size. This produces a J-shaped curve as the population grows without resource limitation. The logistic equation includes the (K-N)/K term."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Which biogeochemical cycle is classified as a gaseous cycle with the atmosphere as the primary reservoir?",
+      "options": [
+        "A) Iron cycle",
+        "B) Nitrogen cycle",
+        "C) Phosphorus cycle",
+        "D) Calcium cycle"
+      ],
+      "correct_option": "B",
+      "explanation": "The nitrogen cycle is a gaseous cycle because its main reservoir is atmospheric N2 (78% of air). Phosphorus, calcium, and iron cycles are sedimentary cycles with Earth's crust as the main reservoir."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "The enhanced greenhouse effect is primarily attributed to increased atmospheric concentrations of CO2, methane, and nitrous oxide. Which of these gases has the highest global warming potential (GWP) over 100 years?",
+      "options": [
+        "A) Carbon dioxide (CO2)",
+        "B) Methane (CH4)",
+        "C) All have equal GWP",
+        "D) Nitrous oxide (N2O)"
+      ],
+      "correct_option": "D",
+      "explanation": "N2O has a GWP 265-298 times that of CO2 over 100 years. Methane has 28-36 times CO2's GWP. CO2 itself is the reference (GWP=1). Despite lower concentrations, N2O and CH4 have much greater heat-trapping capacity per molecule."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "Excessive nutrient runoff (nitrogen and phosphorus) into lakes causes algal blooms followed by oxygen depletion. What is the sequence of events leading to fish kill?",
+      "options": [
+        "A) Nutrient enrichment, immediate bacterial growth, fish kill",
+        "B) Algal bloom, increased dissolved oxygen, fish kill from hyperoxia",
+        "C) Nutrient enrichment, algal bloom, algal death, bacterial decomposition, oxygen depletion, fish kill",
+        "D) Nutrient enrichment, direct fish toxicity, fish kill"
+      ],
+      "correct_option": "C",
+      "explanation": "Eutrophication sequence: Excess nutrients -> rapid algal growth (bloom) -> algae die -> aerobic bacteria decompose dead algae, consuming dissolved oxygen -> hypoxic/anoxic conditions -> fish and other aerobic organisms suffocate and die."
+    },
+    {
+      "id": "CUET_BIO_2026_P15_L5B_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "The 'rivet popper' hypothesis proposed by Paul Ehrlich illustrates the importance of biodiversity by comparing an ecosystem to:",
+      "options": [
+        "A) A chain where each link represents a species",
+        "B) A web where connections represent mutualistic relationships",
+        "C) A pyramid where each level represents a trophic group",
+        "D) An airplane where rivets represent species and losing too many causes system failure"
+      ],
+      "correct_option": "D",
+      "explanation": "Ehrlich's rivet popper analogy compares species to rivets on an airplane wing. Losing individual rivets (species) may not immediately cause failure, but cumulative losses weaken the structure until catastrophic failure (ecosystem collapse) occurs."
+    }
+  ]
+}

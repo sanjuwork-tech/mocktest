@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P17_L7B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 17,
+  "difficulty_level": "7B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL statement modifies the structure of an existing table by adding a new column?",
+      "options": [
+        "A) MODIFY TABLE",
+        "B) ALTER TABLE",
+        "C) CHANGE SCHEMA",
+        "D) UPDATE TABLE"
+      ],
+      "correct_option": "B",
+      "explanation": "ALTER TABLE ADD COLUMN modifies table structure. UPDATE modifies data, not structure."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which constraint ensures that no two rows have the same value in a specified column and no NULLs?",
+      "options": [
+        "A) PRIMARY KEY",
+        "B) FOREIGN KEY",
+        "C) CHECK",
+        "D) UNIQUE"
+      ],
+      "correct_option": "A",
+      "explanation": "PRIMARY KEY uniquely identifies each row and prohibits NULLs. UNIQUE allows one NULL."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "A relation R(A,B,C) with FD {AB→C, C→A} and primary key AB. Which normal form does it violate?",
+      "options": [
+        "A) 1NF",
+        "B) 4NF",
+        "C) 2NF",
+        "D) 3NF"
+      ],
+      "correct_option": "D",
+      "explanation": "C→A creates a transitive dependency where a non-prime attribute determines part of a candidate key, violating 3NF."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "Given Student(sid, name) and Enrollment(sid, course), what does LEFT OUTER JOIN return?",
+      "options": [
+        "A) Only students who have at least one enrollment",
+        "B) The Cartesian product of both tables",
+        "C) All students including those with no enrollments",
+        "D) All enrollments regardless of matching students"
+      ],
+      "correct_option": "C",
+      "explanation": "LEFT OUTER JOIN returns all rows from the left table (Student), with NULLs for non-matching right table rows."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "Which ACID property guarantees that a transaction brings the database from one valid state to another?",
+      "options": [
+        "A) Isolation",
+        "B) Atomicity",
+        "C) Durability",
+        "D) Consistency"
+      ],
+      "correct_option": "D",
+      "explanation": "Consistency ensures the database remains in a valid state before and after the transaction."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "hard",
+      "question": "How many minimal candidate keys exist in R(A,B,C,D) with FDs {A→BC, D→A}?",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 0",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "D→A and A→BC gives D→ABCD. A determines B,C but not D. So only D is a candidate key. Answer: 1."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "Consider: SELECT dept, AVG(salary) FROM Employees GROUP BY dept HAVING AVG(salary) > 50000. What does this return?",
+      "options": [
+        "A) Employees earning more than 50000 grouped by department",
+        "B) The top 50000 employees by salary per department",
+        "C) Departments where average salary exceeds 50000",
+        "D) Departments where total salary exceeds 50000"
+      ],
+      "correct_option": "C",
+      "explanation": "HAVING filters aggregate results; AVG(salary) > 50000 filters departments exceeding that average."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "Given: SELECT name FROM Students WHERE marks >= ALL(SELECT marks FROM Students). What does this return?",
+      "options": [
+        "A) Student(s) with the highest marks",
+        "B) Students with marks greater than zero",
+        "C) Students with marks equal to the average",
+        "D) The first student alphabetically"
+      ],
+      "correct_option": "A",
+      "explanation": "ALL compares against every value in the subquery, so marks >= ALL(...) means marks >= the maximum."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "In two-phase locking protocol, when can a transaction release its first lock?",
+      "options": [
+        "A) Only after the commit phase begins",
+        "B) Only after acquiring all locks (end of growing phase)",
+        "C) Before acquiring any other locks",
+        "D) Immediately after acquiring it"
+      ],
+      "correct_option": "B",
+      "explanation": "2PL requires all locks to be acquired before any are released. First release marks end of growing phase."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "What is a virtual table that is defined by a query and does not physically store data called?",
+      "options": [
+        "A) Index",
+        "B) View",
+        "C) Temporary table",
+        "D) Materialized view"
+      ],
+      "correct_option": "B",
+      "explanation": "A View is a virtual table derived from one or more tables via a query, without storing data physically."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q11",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "Which OSI layer handles end-to-end communication and error recovery?",
+      "options": [
+        "A) Application Layer (Layer 7)",
+        "B) Network Layer (Layer 3)",
+        "C) Transport Layer (Layer 4)",
+        "D) Session Layer (Layer 5)"
+      ],
+      "correct_option": "C",
+      "explanation": "The Transport Layer manages end-to-end communication, flow control, and error recovery."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q12",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "Network Devices",
+      "difficulty": "easy",
+      "question": "Which device amplifies signals and operates at the Physical Layer?",
+      "options": [
+        "A) Bridge",
+        "B) Switch",
+        "C) Router",
+        "D) Repeater"
+      ],
+      "correct_option": "D",
+      "explanation": "A repeater is a Physical Layer device that regenerates signals to extend network range."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q13",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "IP Addressing",
+      "difficulty": "medium",
+      "question": "What is the network address for host 192.168.45.130 with subnet mask 255.255.255.192?",
+      "options": [
+        "A) 192.168.45.0",
+        "B) 192.168.45.192",
+        "C) 192.168.45.128",
+        "D) 192.168.45.64"
+      ],
+      "correct_option": "C",
+      "explanation": "/26 mask. 130 binary: 10000010. First 26 bits define network: 192.168.45.10xxxxxx = 192.168.45.128."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q14",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "TCP/UDP",
+      "difficulty": "medium",
+      "question": "Which field in the TCP header identifies the application process on the destination host?",
+      "options": [
+        "A) Sequence number",
+        "B) Window size",
+        "C) Destination port",
+        "D) Source IP address"
+      ],
+      "correct_option": "C",
+      "explanation": "The destination port identifies the specific application/service on the receiving host."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q15",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "Network Protocols",
+      "difficulty": "medium",
+      "question": "What does the DNS protocol primarily resolve?",
+      "options": [
+        "A) IP addresses to MAC addresses",
+        "B) Domain names to IP addresses",
+        "C) MAC addresses to IP addresses",
+        "D) Port numbers to protocols"
+      ],
+      "correct_option": "B",
+      "explanation": "DNS translates human-readable domain names into IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q16",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "IP Addressing",
+      "difficulty": "hard",
+      "question": "A /21 network is divided into subnets each supporting 30 hosts. What is the maximum number of such subnets?",
+      "options": [
+        "A) 16",
+        "B) 32",
+        "C) 128",
+        "D) 64"
+      ],
+      "correct_option": "B",
+      "explanation": "For 30 hosts: 2^n-2>=30, n=5 bits. /21+5 = /26. Number of subnets = 2^5 = 32."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q17",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "TCP Congestion Control",
+      "difficulty": "hard",
+      "question": "In TCP slow start, the congestion window starts at 1 MSS and doubles every RTT. What is the window size after 5 RTTs?",
+      "options": [
+        "A) 32 MSS",
+        "B) 64 MSS",
+        "C) 16 MSS",
+        "D) 5 MSS"
+      ],
+      "correct_option": "A",
+      "explanation": "RTT1:2, RTT2:4, RTT3:8, RTT4:16, RTT5:32. Window doubles each RTT during slow start."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q18",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "Routing Protocols",
+      "difficulty": "hard",
+      "question": "In link-state routing, which algorithm is used to compute shortest paths from the topology database?",
+      "options": [
+        "A) Spanning Tree Protocol",
+        "B) Bellman-Ford algorithm",
+        "C) Dijkstra's algorithm",
+        "D) Flooding algorithm"
+      ],
+      "correct_option": "C",
+      "explanation": "Link-state routing protocols (OSPF) use Dijkstra's algorithm to compute shortest paths."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q19",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "OSI Model",
+      "difficulty": "medium",
+      "question": "At which OSI layer do packet-filtering firewalls operate when filtering by IP addresses and ports?",
+      "options": [
+        "A) Network Layer and Transport Layer",
+        "B) Data Link Layer",
+        "C) Physical Layer",
+        "D) Application Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "Packet-filtering firewalls examine IP headers (Layer 3) and port numbers (Layer 4)."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q20",
+      "topic": "Networks & Data Communication",
+      "sub_topic": "Network Topologies",
+      "difficulty": "medium",
+      "question": "In a star topology, what happens if the central hub fails?",
+      "options": [
+        "A) Half the nodes lose connectivity",
+        "B) Only the hub is affected",
+        "C) Network switches to bus",
+        "D) All nodes lose connectivity"
+      ],
+      "correct_option": "D",
+      "explanation": "All communication passes through the central hub. If it fails, all nodes lose connectivity."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "What is the output of [1,2,3] + [4,5]?",
+      "options": [
+        "A) TypeError",
+        "B) [1,2,3,4,5,6]",
+        "C) [5,7,9]",
+        "D) [1,2,3,4,5]"
+      ],
+      "correct_option": "D",
+      "explanation": "The + operator concatenates two lists."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "easy",
+      "question": "What does d.get('key', 'default') return if 'key' is not in dictionary d?",
+      "options": [
+        "A) 'default'",
+        "B) False",
+        "C) None",
+        "D) KeyError"
+      ],
+      "correct_option": "A",
+      "explanation": "The second argument to dict.get() is the default value returned if the key is not found."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "A stack is used to check balanced parentheses. For input '({}[])', what is the maximum stack size reached?",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "Processing: '(' push(1), '{' push(2), '}' pop(1), '[' push(2), ']' pop(1), ')' pop(0). Max=2."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "What is the output of 'abracadabra'.count('a')?",
+      "options": [
+        "A) 6",
+        "B) 3",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct_option": "C",
+      "explanation": "'abracadabra' has 'a' at positions 0,3,5,7,10 = 5 occurrences."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "In a queue, elements A,B,C,D are enqueued in order. After two dequeues and one enqueue(E), what is the front?",
+      "options": [
+        "A) A",
+        "B) C",
+        "C) E",
+        "D) B"
+      ],
+      "correct_option": "B",
+      "explanation": "Dequeue removes A, dequeue removes B. Front is C. Enqueue(E) adds at rear."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "medium",
+      "question": "What is len({1,2,3,2,1}) in Python?",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) SyntaxError",
+        "D) 2"
+      ],
+      "correct_option": "A",
+      "explanation": "Sets remove duplicates. {1,2,3,2,1} = {1,2,3}, so len is 3."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "hard",
+      "question": "In a binary tree with 10 nodes, what is the minimum possible height (edges on longest root-to-leaf path)?",
+      "options": [
+        "A) 4",
+        "B) 9",
+        "C) 3",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "Complete binary tree minimizes height. 10 nodes fit in height 3 (1+2+4+3=10, levels 0-3)."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "hard",
+      "question": "What is the space complexity of the recursive Fibonacci function that makes two recursive calls?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n)",
+        "C) O(n^2)",
+        "D) O(2^n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Space complexity is determined by maximum recursion depth, which is O(n), not time O(2^n)."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "hard",
+      "question": "Given a singly linked list with only a head pointer, what is the time complexity of deleting the last node?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(1)",
+        "C) O(log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Deleting the last node requires finding the second-to-last node, requiring full traversal: O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "hard",
+      "question": "In a BST with n nodes, what is the worst-case time complexity for searching a key?",
+      "options": [
+        "A) O(n)",
+        "B) O(1)",
+        "C) O(n log n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "In the worst case (degenerate/skewed tree), search traverses all n nodes: O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the average-case time complexity of linear search?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(1)",
+        "C) O(log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Average case examines n/2 elements = O(n), same as worst case asymptotically."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "Binary search requires the array to be sorted in which order?",
+      "options": [
+        "A) Any consistent order (ascending or descending)",
+        "B) Random order",
+        "C) Strictly ascending",
+        "D) Strictly descending"
+      ],
+      "correct_option": "A",
+      "explanation": "Binary search works as long as the order is consistent."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "How many swaps does bubble sort perform on [5,4,3,2,1] in the first pass?",
+      "options": [
+        "A) 5",
+        "B) 2",
+        "C) 4",
+        "D) 10"
+      ],
+      "correct_option": "C",
+      "explanation": "Pass 1: (5,4)→swap, (5,3)→swap, (5,2)→swap, (5,1)→swap. 4 swaps. Array becomes [4,3,2,1,5]."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "What is the height of the recursion tree for merge sort on an array of 16 elements?",
+      "options": [
+        "A) 4",
+        "B) log₂16 + 1",
+        "C) 5",
+        "D) 16"
+      ],
+      "correct_option": "A",
+      "explanation": "Merge sort divides in half: 16→8→4→2→1. Depth = log₂(16) = 4."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "medium",
+      "question": "What is the average-case number of comparisons for quicksort on n elements?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(log n)",
+        "C) O(n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "D",
+      "explanation": "On average, quicksort makes O(n log n) comparisons. Average recursion depth is O(log n), each level O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "hard",
+      "question": "Given array [3,1,4,1,5,9,2,6], what is the max-heap after initial heapify (bottom-up)?",
+      "options": [
+        "A) [9,6,4,5,1,3,2,1]",
+        "B) [9,5,6,1,1,4,2,3]",
+        "C) [9,6,4,1,5,3,2,1]",
+        "D) [9,6,3,1,5,4,2,1]"
+      ],
+      "correct_option": "C",
+      "explanation": "Heapify bottom-up: process parents from index 3 to 0. Max element bubbles up. Root = 9."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "hard",
+      "question": "Binary search on a sorted array of 1,000,000 elements. Maximum comparisons needed?",
+      "options": [
+        "A) 19",
+        "B) 20",
+        "C) 21",
+        "D) 1000"
+      ],
+      "correct_option": "B",
+      "explanation": "ceil(log₂(1000000)) = 20 (2^20 = 1,048,576 > 1,000,000). Maximum 20 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "hard",
+      "question": "Sorting 1000 4-digit decimal numbers using radix sort requires how many counting sort passes?",
+      "options": [
+        "A) 1000",
+        "B) 4",
+        "C) 4000",
+        "D) 10"
+      ],
+      "correct_option": "B",
+      "explanation": "Radix sort performs one pass per digit. For 4-digit numbers, 4 passes needed."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "How many element shifts does insertion sort perform on the array [1,2,3,4,5]?",
+      "options": [
+        "A) 10",
+        "B) 4",
+        "C) 5",
+        "D) 0"
+      ],
+      "correct_option": "D",
+      "explanation": "Already sorted. Each element is in place, requiring 0 shifts."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "In selection sort, how many swaps are performed for an array of n distinct elements?",
+      "options": [
+        "A) 0",
+        "B) n-1",
+        "C) n(n-1)/2",
+        "D) n"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection sort performs exactly one swap per pass (placing minimum), giving n-1 swaps."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "Which protocol provides secure communication over a computer network using encryption?",
+      "options": [
+        "A) HTTPS",
+        "B) FTP",
+        "C) HTTP",
+        "D) SMTP"
+      ],
+      "correct_option": "A",
+      "explanation": "HTTPS encrypts communication using TLS/SSL, unlike plain HTTP."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "What is the default data type for a pandas Series created from a list of integers?",
+      "options": [
+        "A) float64",
+        "B) int64",
+        "C) str",
+        "D) object"
+      ],
+      "correct_option": "B",
+      "explanation": "A Series of integers defaults to int64 dtype."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "In the Caesar cipher with a shift of 5, what is the encryption of the letter 'X'?",
+      "options": [
+        "A) 'A'",
+        "B) 'D'",
+        "C) 'B'",
+        "D) 'C'"
+      ],
+      "correct_option": "D",
+      "explanation": "X (23) + 5 = 28 mod 26 = 2 → 'C'."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "What does df.groupby('class').size() return?",
+      "options": [
+        "A) Average of all numeric columns per class",
+        "B) Unique values in class column",
+        "C) A DataFrame",
+        "D) Number of rows per class"
+      ],
+      "correct_option": "D",
+      "explanation": "size() returns the count of rows in each group as a Series."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "medium",
+      "question": "What is the default policy in a well-configured firewall for incoming traffic?",
+      "options": [
+        "A) Allow only HTTP and HTTPS",
+        "B) Permit all, deny by exception",
+        "C) Deny all, permit by exception",
+        "D) Log all but allow all"
+      ],
+      "correct_option": "C",
+      "explanation": "Secure firewalls default to denying all incoming traffic, only allowing explicitly permitted connections."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "hard",
+      "question": "df1 has key A=[1,2,3], df2 has key A=[2,3,4]. What does pd.merge(df1, df2, how='outer', on='A') return?",
+      "options": [
+        "A) 2 rows with matching keys only",
+        "B) 3 rows with df1 keys only",
+        "C) 4 rows with NaN where keys don't match",
+        "D) 6 rows (all combinations)"
+      ],
+      "correct_option": "C",
+      "explanation": "Outer join includes all keys from both. Result has rows for 1,2,3,4 with NaN where no match."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "hard",
+      "question": "Hash table of size 11, quadratic probing. Where does key 23 go if slot 1 (23%11=1) is occupied?",
+      "options": [
+        "A) Slot 2",
+        "B) Slot 4",
+        "C) Slot 0",
+        "D) Slot 5"
+      ],
+      "correct_option": "A",
+      "explanation": "Hash: 23%11=1. i=1: (1+1²)%11 = 2. Key 23 goes to slot 2."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "hard",
+      "question": "What cryptographic property does a digital signature NOT provide?",
+      "options": [
+        "A) Integrity",
+        "B) Non-repudiation",
+        "C) Confidentiality",
+        "D) Authentication"
+      ],
+      "correct_option": "C",
+      "explanation": "Digital signatures provide authentication, non-repudiation, and integrity but NOT confidentiality."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "What is the difference between df.iloc[] and df.loc[]?",
+      "options": [
+        "A) iloc uses integer position, loc uses label",
+        "B) loc uses integer position, iloc uses label",
+        "C) iloc is for columns only",
+        "D) Both work identically"
+      ],
+      "correct_option": "A",
+      "explanation": "iloc uses integer-based position indexing, loc uses label-based indexing."
+    },
+    {
+      "id": "CUET_CS_2026_P17_L7B_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "What distinguishes a dictionary attack from a brute-force attack?",
+      "options": [
+        "A) Dictionary attack is faster",
+        "B) Dictionary attack uses a precompiled list of common passwords",
+        "C) Dictionary attack uses keyloggers",
+        "D) Brute-force attack only targets admin accounts"
+      ],
+      "correct_option": "B",
+      "explanation": "Dictionary attack tests a pre-selected list of likely passwords; brute-force tries all combinations."
+    }
+  ]
+}

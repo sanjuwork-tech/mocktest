@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P8_L8",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 8,
+  "difficulty_level": "8",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P8_L8_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which keyword sorts result sets in SQL?",
+      "options": [
+        "A) ORDER BY",
+        "B) SORT BY",
+        "C) ORDER",
+        "D) ARRANGE"
+      ],
+      "correct_option": "A",
+      "explanation": "ORDER BY sorts result sets ascending or descending."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q02",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which device routes packets between networks?",
+      "options": [
+        "A) Switch",
+        "B) Hub",
+        "C) Bridge",
+        "D) Router"
+      ],
+      "correct_option": "D",
+      "explanation": "Routers forward packets between networks using IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q03",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "easy",
+      "question": "Which Python type is immutable?",
+      "options": [
+        "A) List",
+        "B) Set",
+        "C) Dictionary",
+        "D) Tuple"
+      ],
+      "correct_option": "D",
+      "explanation": "Tuples are immutable sequences in Python."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q04",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "easy",
+      "question": "Which sort repeatedly finds the minimum element?",
+      "options": [
+        "A) Bubble Sort",
+        "B) Merge Sort",
+        "C) Insertion Sort",
+        "D) Selection Sort"
+      ],
+      "correct_option": "D",
+      "explanation": "Selection Sort finds the minimum and swaps it to the front."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q05",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "easy",
+      "question": "Which is a 1D Pandas structure?",
+      "options": [
+        "A) DataFrame",
+        "B) Matrix",
+        "C) Panel",
+        "D) Series"
+      ],
+      "correct_option": "D",
+      "explanation": "Series is the one-dimensional labeled array in Pandas."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Command to add a column to existing table?",
+      "options": [
+        "A) MODIFY",
+        "B) UPDATE",
+        "C) CHANGE",
+        "D) ALTER TABLE"
+      ],
+      "correct_option": "D",
+      "explanation": "ALTER TABLE adds, modifies, or drops columns."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q07",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Full form of MAN?",
+      "options": [
+        "A) Metropolitan Area Network",
+        "B) Multiple Access Node",
+        "C) Main Area Network",
+        "D) Managed Access Network"
+      ],
+      "correct_option": "A",
+      "explanation": "MAN = Metropolitan Area Network, covering a city."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q08",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "easy",
+      "question": "Queue insertion happens at which end?",
+      "options": [
+        "A) Front",
+        "B) Rear",
+        "C) Middle",
+        "D) Top"
+      ],
+      "correct_option": "B",
+      "explanation": "Queues insert at rear (enqueue), remove from front (dequeue)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "A subquery is:",
+      "options": [
+        "A) A query after main",
+        "B) Creates new table",
+        "C) Deletes records",
+        "D) Nested query inside another"
+      ],
+      "correct_option": "D",
+      "explanation": "A subquery is embedded within another SQL statement."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "GROUP BY is used for:",
+      "options": [
+        "A) Sorting rows",
+        "B) Grouping for aggregation",
+        "C) Filtering rows",
+        "D) Joining tables"
+      ],
+      "correct_option": "B",
+      "explanation": "GROUP BY groups rows for aggregate functions like COUNT, SUM."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q11",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "medium",
+      "question": "SELECT COUNT(*) FROM Students WHERE marks>80 returns:",
+      "options": [
+        "A) Sum",
+        "B) Count of students above 80",
+        "C) Average",
+        "D) Max marks"
+      ],
+      "correct_option": "B",
+      "explanation": "COUNT(*) counts rows matching the WHERE condition."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q12",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "Command to undo transaction changes?",
+      "options": [
+        "A) ROLLBACK",
+        "B) COMMIT",
+        "C) SAVE",
+        "D) REVERT"
+      ],
+      "correct_option": "A",
+      "explanation": "ROLLBACK undoes all changes in the current transaction."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q13",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "A SQL view is best described as:",
+      "options": [
+        "A) Physical copy",
+        "B) Virtual table from query",
+        "C) Backup",
+        "D) Index"
+      ],
+      "correct_option": "B",
+      "explanation": "A view is a saved SELECT query acting as virtual table."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q14",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "Constraint ensuring column values are distinct?",
+      "options": [
+        "A) PRIMARY KEY",
+        "B) NOT NULL",
+        "C) UNIQUE",
+        "D) CHECK"
+      ],
+      "correct_option": "C",
+      "explanation": "UNIQUE ensures all column values are different."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q15",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "LEFT JOIN returns:",
+      "options": [
+        "A) All left rows with matches",
+        "B) All right rows",
+        "C) Only matches",
+        "D) All both"
+      ],
+      "correct_option": "A",
+      "explanation": "LEFT JOIN returns all left rows, matched right rows or NULL."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q16",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "medium",
+      "question": "2NF eliminates:",
+      "options": [
+        "A) Transitive deps",
+        "B) Repeating groups",
+        "C) Partial dependencies",
+        "D) NULLs"
+      ],
+      "correct_option": "C",
+      "explanation": "2NF removes partial dependencies on composite keys."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "Protocol for sending emails?",
+      "options": [
+        "A) FTP",
+        "B) HTTP",
+        "C) SMTP",
+        "D) SNMP"
+      ],
+      "correct_option": "C",
+      "explanation": "SMTP sends emails from client to server."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "Default HTTP port?",
+      "options": [
+        "A) 21",
+        "B) 80",
+        "C) 443",
+        "D) 25"
+      ],
+      "correct_option": "B",
+      "explanation": "HTTP uses port 80 by default."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "Network address for 192.168.1.50/24?",
+      "options": [
+        "A) 192.168.0.0",
+        "B) 192.168.1.255",
+        "C) 192.168.1.0",
+        "D) 192.168.1.1"
+      ],
+      "correct_option": "C",
+      "explanation": "ANDing with /24 mask gives 192.168.1.0."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "medium",
+      "question": "End-to-end communication layer?",
+      "options": [
+        "A) Transport",
+        "B) Network",
+        "C) Session",
+        "D) Presentation"
+      ],
+      "correct_option": "A",
+      "explanation": "Transport Layer handles reliable end-to-end delivery."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q21",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "medium",
+      "question": "Switch vs hub difference?",
+      "options": [
+        "A) Layer 3 device",
+        "B) No filtering",
+        "C) Broadcasts all",
+        "D) Forwards by MAC address"
+      ],
+      "correct_option": "D",
+      "explanation": "Switches use MAC addresses to forward frames to specific ports."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q22",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "Protocol that assigns IP dynamically?",
+      "options": [
+        "A) DHCP",
+        "B) DNS",
+        "C) ARP",
+        "D) ICMP"
+      ],
+      "correct_option": "A",
+      "explanation": "DHCP automatically assigns IP addresses to devices."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "Output of print(2 ** 3)?",
+      "options": [
+        "A) 6",
+        "B) 9",
+        "C) 8",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "** is exponentiation: 2^3 = 8."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "Output of print('Hello'[1:3])?",
+      "options": [
+        "A) ell",
+        "B) el",
+        "C) Hel",
+        "D) lo"
+      ],
+      "correct_option": "B",
+      "explanation": "Slicing [1:3] gives characters at index 1,2: 'el'."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "Output of [x**2 for x in range(4)]?",
+      "options": [
+        "A) [0,1,4,9,16]",
+        "B) [1,4,9,16]",
+        "C) [0,1,4,9]",
+        "D) [0,2,4,6]"
+      ],
+      "correct_option": "C",
+      "explanation": "range(4) = 0,1,2,3; squared = [0,1,4,9]."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "hard",
+      "question": "Singly linked list node has:",
+      "options": [
+        "A) Both pointers",
+        "B) Data and next pointer",
+        "C) Only data",
+        "D) Only pointer"
+      ],
+      "correct_option": "B",
+      "explanation": "Each node contains data and pointer to next node."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "hard",
+      "question": "bool('False') returns?",
+      "options": [
+        "A) False",
+        "B) Error",
+        "C) True",
+        "D) None"
+      ],
+      "correct_option": "C",
+      "explanation": "Non-empty strings are truthy: bool('False') = True."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q28",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "Binary search complexity?",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n^2)",
+        "D) O(1)"
+      ],
+      "correct_option": "B",
+      "explanation": "Binary search halves the space: O(log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q29",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "Worst-case bubble sort complexity?",
+      "options": [
+        "A) O(n)",
+        "B) O(n^2)",
+        "C) O(log n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Bubble sort worst case: O(n^2) comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q30",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "medium",
+      "question": "What does phishing refer to?",
+      "options": [
+        "A) Password guessing",
+        "B) Network scanning",
+        "C) Fake websites to steal credentials",
+        "D) Data corruption"
+      ],
+      "correct_option": "C",
+      "explanation": "Phishing uses deceptive sites/emails to steal sensitive info."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q31",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "medium",
+      "question": "df.head(3) returns?",
+      "options": [
+        "A) First 3 rows",
+        "B) Last 3 rows",
+        "C) Column headers",
+        "D) 3 random rows"
+      ],
+      "correct_option": "A",
+      "explanation": "head(n) returns first n rows of DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q32",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "Method for statistical summary?",
+      "options": [
+        "A) df.stats()",
+        "B) df.describe()",
+        "C) df.info()",
+        "D) df.summary()"
+      ],
+      "correct_option": "B",
+      "explanation": "describe() provides statistical summary of numeric columns."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q33",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "A(3 rows), B(4 rows). CROSS JOIN gives:",
+      "options": [
+        "A) 7",
+        "B) 3",
+        "C) 1",
+        "D) 12"
+      ],
+      "correct_option": "D",
+      "explanation": "CROSS JOIN = 3×4 = 12 rows (Cartesian product)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q34",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "3NF requires 2NF plus no:",
+      "options": [
+        "A) Transitive dependencies",
+        "B) Repeating groups",
+        "C) Atomic values",
+        "D) Partial dependencies"
+      ],
+      "correct_option": "A",
+      "explanation": "3NF removes transitive dependencies on non-key attributes."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q35",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "Too many indexes cause:",
+      "options": [
+        "A) Slower queries",
+        "B) Data corruption",
+        "C) Slower INSERT/UPDATE/DELETE",
+        "D) Less storage"
+      ],
+      "correct_option": "C",
+      "explanation": "Indexes slow down writes as they must be maintained."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q36",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "hard",
+      "question": "ACID all-or-nothing property?",
+      "options": [
+        "A) Consistency",
+        "B) Atomicity",
+        "C) Durability",
+        "D) Isolation"
+      ],
+      "correct_option": "B",
+      "explanation": "Atomicity ensures transactions are all-or-nothing."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q37",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "hard",
+      "question": "10.0.0.0/16 with /22 mask creates subnets:",
+      "options": [
+        "A) 16",
+        "B) 32",
+        "C) 64",
+        "D) 8"
+      ],
+      "correct_option": "C",
+      "explanation": "Borrowed bits = 6; subnets = 2^6 = 64."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q38",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "hard",
+      "question": "Protocol mapping IP to MAC?",
+      "options": [
+        "A) ARP",
+        "B) DNS",
+        "C) DHCP",
+        "D) RARP"
+      ],
+      "correct_option": "A",
+      "explanation": "ARP resolves IP addresses to MAC addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q39",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "hard",
+      "question": "Bridge operates at which layer?",
+      "options": [
+        "A) Physical",
+        "B) Network",
+        "C) Transport",
+        "D) Data Link"
+      ],
+      "correct_option": "D",
+      "explanation": "Bridges forward frames at Data Link Layer (Layer 2)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q40",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "Switch operates at which layer?",
+      "options": [
+        "A) Physical",
+        "B) Network",
+        "C) Data Link",
+        "D) Transport"
+      ],
+      "correct_option": "C",
+      "explanation": "Switches forward frames at Data Link Layer (Layer 2)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q41",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "hard",
+      "question": "Recursive Fibonacci complexity?",
+      "options": [
+        "A) O(n)",
+        "B) O(n^2)",
+        "C) O(log n)",
+        "D) O(2^n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Recursive Fibonacci branches exponentially: O(2^n)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q42",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "hard",
+      "question": "Doubly linked list nodes have:",
+      "options": [
+        "A) Both pointers",
+        "B) Only next",
+        "C) Only previous",
+        "D) No pointers"
+      ],
+      "correct_option": "A",
+      "explanation": "Doubly linked lists have both next and previous pointers."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q43",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "hard",
+      "question": "Building max-heap from n elements complexity?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(n^2)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Building a heap from n elements takes O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q44",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "hard",
+      "question": "Worst-case quick sort complexity?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(n)",
+        "C) O(n log n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Quick sort worst case with bad pivots: O(n^2)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q45",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "If quick sort picks median as pivot, complexity?",
+      "options": [
+        "A) O(n)",
+        "B) O(n^2)",
+        "C) O(n log n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Median pivot gives balanced partitions: O(n log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q46",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "hard",
+      "question": "Merge sort uses which paradigm?",
+      "options": [
+        "A) Greedy",
+        "B) Dynamic Programming",
+        "C) Backtracking",
+        "D) Divide and Conquer"
+      ],
+      "correct_option": "D",
+      "explanation": "Merge sort divides, sorts, and merges: Divide and Conquer."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "hard",
+      "question": "DDoS attack means:",
+      "options": [
+        "A) Data theft",
+        "B) Password cracking",
+        "C) Malware infection",
+        "D) Overwhelming server with traffic"
+      ],
+      "correct_option": "D",
+      "explanation": "DDoS floods a target with traffic to cause denial of service."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "hard",
+      "question": "Symmetric vs asymmetric encryption?",
+      "options": [
+        "A) Symmetric: 1 key, Asymmetric: 2 keys",
+        "B) Both use 2 keys",
+        "C) No difference",
+        "D) Same key"
+      ],
+      "correct_option": "A",
+      "explanation": "Symmetric uses one shared key; asymmetric uses public/private pair."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "hard",
+      "question": "df.groupby('cat')['sales'].sum() returns?",
+      "options": [
+        "A) Total sales",
+        "B) Sum per category",
+        "C) Max sales",
+        "D) Average sales"
+      ],
+      "correct_option": "B",
+      "explanation": "groupby + sum returns aggregated sum per group."
+    },
+    {
+      "id": "CUET_CS_2026_P8_L8_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Purpose of a firewall?",
+      "options": [
+        "A) Speed up network",
+        "B) Block unauthorized access",
+        "C) Encrypt data",
+        "D) Assign IPs"
+      ],
+      "correct_option": "B",
+      "explanation": "Firewalls monitor and block unauthorized network access."
+    }
+  ]
+}

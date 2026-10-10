@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P12_L2B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 12,
+  "difficulty_level": "2B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "The scutellum in a grass embryo is a modified:",
+      "options": [
+        "A) Cotyledon",
+        "B) Endosperm",
+        "C) Plumule",
+        "D) Radicle"
+      ],
+      "correct_option": "A",
+      "explanation": "The scutellum is a single, shield-shaped cotyledon found in grasses (monocots). It absorbs nutrients from the endosperm during germination and transfers them to the growing embryo."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which part of the blastocyst implants into the uterine endometrium?",
+      "options": [
+        "A) Inner cell mass",
+        "B) Trophoblast",
+        "C) Blastocoel",
+        "D) Morula"
+      ],
+      "correct_option": "B",
+      "explanation": "The outer layer of the blastocyst, called the trophoblast, attaches to and implants into the uterine wall (endometrium). The inner cell mass forms the embryo proper."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The lactation period following childbirth is characterised by which hormonal profile?",
+      "options": [
+        "A) Low oxytocin and prolactin",
+        "B) High FSH and LH",
+        "C) High prolactin and low estrogen",
+        "D) High estrogen and progesterone"
+      ],
+      "correct_option": "C",
+      "explanation": "After delivery, estrogen and progesterone levels drop dramatically, removing their inhibitory effect on prolactin. High prolactin stimulates milk production (lactation). Oxytocin triggers milk ejection (let-down reflex)."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "In a typical dicot embryo, the protective sheath covering the radicle is the:",
+      "options": [
+        "A) Coleoptile",
+        "B) Epiblast",
+        "C) Coleorhiza",
+        "D) Plumule"
+      ],
+      "correct_option": "C",
+      "explanation": "The coleorhiza is a protective sheath covering the radicle in monocot embryos (grasses). The coleoptile covers the plumule. Dicots typically have neither. The question asks about the radicle sheath — in the context of dicot vs monocot, the question tests that coleorhiza is the radicle sheath."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The hormone inhibin is produced by which cells in the testes and plays a role in regulating FSH secretion?",
+      "options": [
+        "A) Leydig cells",
+        "B) Hypothalamic neurons",
+        "C) Spermatogonia",
+        "D) Sertoli cells"
+      ],
+      "correct_option": "D",
+      "explanation": "Sertoli cells produce inhibin in response to FSH stimulation. Inhibin provides negative feedback to the anterior pituitary to specifically reduce FSH secretion, fine-tuning spermatogenesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Which part of the flower develops into the fruit wall (pericarp) after fertilisation?",
+      "options": [
+        "A) Funicle",
+        "B) Integuments",
+        "C) Ovary wall",
+        "D) Ovule wall"
+      ],
+      "correct_option": "C",
+      "explanation": "After fertilisation, the ovary wall develops into the fruit wall (pericarp), which may be fleshy (mango, tomato) or dry (nut, capsule). The ovule develops into the seed."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which of the following sequences correctly describes the path of sperm transport from production to ejaculation?",
+      "options": [
+        "A) Seminiferous tubules → Vas deferens → Epididymis → Urethra",
+        "B) Epididymis → Seminiferous tubules → Vas deferens → Urethra",
+        "C) Seminiferous tubules → Urethra → Epididymis → Vas deferens",
+        "D) Seminiferous tubules → Epididymis → Vas deferens → Urethra"
+      ],
+      "correct_option": "D",
+      "explanation": "Sperm are produced in seminiferous tubules, mature and are stored in the epididymis, travel through the vas deferens during arousal, and exit via the urethra during ejaculation."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Which assisted reproductive technology involves the transfer of a zygote or early embryo (up to 8 blastomeres) into the fallopian tube?",
+      "options": [
+        "A) Intracytoplasmic Sperm Injection (ICSI)",
+        "B) Zygote Intrafallopian Transfer (ZIFT)",
+        "C) In Vitro Fertilisation (IVF)",
+        "D) Gamete Intrafallopian Transfer (GIFT)"
+      ],
+      "correct_option": "B",
+      "explanation": "ZIFT involves transferring a zygote or early embryo (up to 8 blastomeres) into the fallopian tube. GIFT transfers gametes (egg + sperm), while IVF involves transferring blastocysts into the uterus. ICSI is for severe male infertility."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Ginger propagates vegetatively through which modified plant organ?",
+      "options": [
+        "A) Rhizome",
+        "B) Sucker",
+        "C) Tuber",
+        "D) Bulb"
+      ],
+      "correct_option": "A",
+      "explanation": "Ginger propagates through rhizomes — underground horizontal stems that store food and give rise to new shoots. Though the ginger 'root' we cook with is actually a rhizome, not a true root."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The average gestation period in humans is approximately how many days from the last menstrual period?",
+      "options": [
+        "A) 180 days",
+        "B) 320 days",
+        "C) 240 days",
+        "D) 280 days"
+      ],
+      "correct_option": "D",
+      "explanation": "Human gestation typically lasts about 280 days (40 weeks) from the last menstrual period (LMP), or approximately 266 days from fertilisation."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "In Griffith's transforming principle experiment with Streptococcus pneumoniae, which combination of strains caused the death of the mouse?",
+      "options": [
+        "A) Live S-strain only",
+        "B) Heat-killed S-strain only",
+        "C) Live R-strain only",
+        "D) Live R-strain + Heat-killed S-strain"
+      ],
+      "correct_option": "D",
+      "explanation": "When live R-strain (non-virulent) was mixed with heat-killed S-strain (virulent), the mouse died. Griffith concluded that some 'transforming principle' from the dead S-strain converted the R-strain into virulent S-strain."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "A woman who is a carrier for colour blindness (X^c X) marries a man with normal vision (X Y). What is the probability that their son will be colour-blind?",
+      "options": [
+        "A) 100%",
+        "B) 50%",
+        "C) 25%",
+        "D) 0%"
+      ],
+      "correct_option": "B",
+      "explanation": "Colour blindness is X-linked recessive. Sons receive the X chromosome from the mother. A carrier mother (X^c X) has a 50% chance of passing the affected X^c chromosome to a son, who would then express the trait."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Which experimental evidence definitively proved that DNA (not protein) was the genetic material?",
+      "options": [
+        "A) Avery, MacLeod and McCarty's experiment",
+        "B) Hershey-Chase experiment",
+        "C) Meselson-Stahl experiment",
+        "D) Griffith's transformation experiment"
+      ],
+      "correct_option": "A",
+      "explanation": "Avery, MacLeod, and McCarty (1944) used enzyme treatments to systematically destroy DNA, RNA, and protein in S-strain extracts. Only when DNA was destroyed (by DNase) did transformation fail, proving DNA was the transforming principle."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "The phenomenon where unrelated species evolve similar traits due to similar environmental pressures is called:",
+      "options": [
+        "A) Convergent evolution",
+        "B) Parallel evolution",
+        "C) Adaptive radiation",
+        "D) Divergent evolution"
+      ],
+      "correct_option": "A",
+      "explanation": "Convergent evolution produces analogous structures in unrelated species facing similar selective pressures (e.g., wings of bats and birds). Divergent evolution leads to homologous structures."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "Which of the following statements about the human genome is correct?",
+      "options": [
+        "A) It consists of 48 chromosomes",
+        "B) All DNA sequences code for functional proteins",
+        "C) Less than 2% of the genome codes for proteins",
+        "D) It contains approximately 3 million protein-coding genes"
+      ],
+      "correct_option": "C",
+      "explanation": "The human genome has ~3.2 billion base pairs but only ~20,000-25,000 protein-coding genes (<2% of total DNA). The rest includes regulatory sequences, introns, repetitive DNA, and non-coding RNAs."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In snapdragons, a red-flowered plant (RR) is crossed with a white-flowered plant (WW). The F1 generation produces pink flowers. This is an example of:",
+      "options": [
+        "A) Complete dominance",
+        "B) Incomplete dominance",
+        "C) Codominance",
+        "D) Dominance"
+      ],
+      "correct_option": "B",
+      "explanation": "In incomplete dominance, neither allele is completely dominant, resulting in an intermediate phenotype (pink) in heterozygotes. Codominance (e.g., AB blood group) would show both phenotypes simultaneously."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The Founder Effect, a form of genetic drift, occurs when:",
+      "options": [
+        "A) Individuals migrate between two populations, introducing new alleles",
+        "B) A small group of individuals colonises a new habitat, carrying only a subset of the original gene pool",
+        "C) A large population is drastically reduced in size by a catastrophic event",
+        "D) Natural selection favours one phenotype over others"
+      ],
+      "correct_option": "B",
+      "explanation": "The Founder Effect occurs when a small group of individuals becomes separated or migrates from a large parental population to colonize a new geographic area. The gene pool of the new colony reflects only the allele frequencies of the founding individuals, leading to different allele frequencies and reduced genetic variation compared to the original population. A population bottleneck occurs when a sudden catastrophic reduction in population size alters allele frequencies, whereas migration between populations describes gene flow."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Okazaki fragments are synthesised during DNA replication on which strand?",
+      "options": [
+        "A) Leading strand",
+        "B) Parental strand",
+        "C) Lagging strand",
+        "D) Both strands"
+      ],
+      "correct_option": "C",
+      "explanation": "Okazaki fragments (100-200 nucleotides in eukaryotes) are short DNA segments synthesised discontinuously on the lagging strand because DNA polymerase can only synthesise in the 5' to 3' direction."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "The genotype of a male human for sex chromosomes is:",
+      "options": [
+        "A) XX",
+        "B) XO",
+        "C) YY",
+        "D) XY"
+      ],
+      "correct_option": "D",
+      "explanation": "Normal males have XY sex chromosomes (heterogametic), while normal females have XX (homogametic). Sex is determined by the sperm carrying either an X or Y chromosome."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which of the following best describes adaptive radiation as observed in Darwin's finches in the Galápagos Islands?",
+      "options": [
+        "A) All finches remained genetically identical despite occupying different niches",
+        "B) Finches migrated to the mainland and then returned with new traits",
+        "C) Different species evolved identical beak shapes due to similar food sources",
+        "D) A single ancestral species diversified into multiple species with different beak shapes adapted to various food sources"
+      ],
+      "correct_option": "D",
+      "explanation": "Adaptive radiation is the rapid diversification of a single ancestral lineage into multiple species adapted to different ecological niches. Darwin's finches evolved varied beak shapes suited for seeds, insects, cactus flowers, and other food sources."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which of the following diseases is transmitted by the Aedes mosquito?",
+      "options": [
+        "A) Dengue and Chikungunya",
+        "B) Filariasis",
+        "C) Japanese Encephalitis only",
+        "D) Malaria"
+      ],
+      "correct_option": "A",
+      "explanation": "Aedes aegypti transmits dengue, chikungunya, Zika, and yellow fever. Malaria is transmitted by female Anopheles, and filariasis by Culex mosquitoes."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Citric acid is commercially produced by fermentation using which microorganism?",
+      "options": [
+        "A) Clostridium butyricum",
+        "B) Saccharomyces cerevisiae",
+        "C) Aspergillus niger",
+        "D) Acetobacter aceti"
+      ],
+      "correct_option": "C",
+      "explanation": "Aspergillus niger, a filamentous fungus, is the primary microorganism used for industrial citric acid production through sugar fermentation. Saccharomyces produces ethanol, Acetobacter produces acetic acid."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which type of immunity is acquired when ready-made antibodies are injected into the body?",
+      "options": [
+        "A) Active natural immunity",
+        "B) Active artificial immunity",
+        "C) Passive artificial immunity",
+        "D) Passive natural immunity"
+      ],
+      "correct_option": "C",
+      "explanation": "Passive artificial immunity is acquired by injecting pre-formed antibodies (e.g., anti-tetanus serum, anti-rabies serum, antivenom). The body does not produce its own antibodies; protection is immediate but temporary."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which cell type of the human immune system is specifically targeted, invaded, and progressively depleted by Human Immunodeficiency Virus (HIV)?",
+      "options": [
+        "A) Erythrocytes (RBCs)",
+        "B) Helper T-lymphocytes (CD4+ T-cells)",
+        "C) Cytotoxic T-lymphocytes (CD8+ T-cells)",
+        "D) Basophils"
+      ],
+      "correct_option": "B",
+      "explanation": "HIV specifically targets and enters helper T-lymphocytes (CD4+ T-cells) and macrophages by binding to CD4 surface receptors. The virus replicates within these cells, causing a progressive decline in CD4+ T-cell count, which severely compromises cell-mediated immunity and leads to opportunistic infections characteristic of AIDS."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Streptokinase, used as a 'clot-buster' to dissolve blood clots in patients of myocardial infarction, is produced by:",
+      "options": [
+        "A) Penicillium notatum",
+        "B) Streptococcus pneumoniae",
+        "C) Staphylococcus aureus",
+        "D) Streptococcus (Group A beta-haemolytic)"
+      ],
+      "correct_option": "D",
+      "explanation": "Streptokinase is produced by beta-haemolytic Streptococcus (Group A). It activates plasminogen to form plasmin, which dissolves fibrin clots in coronary arteries during heart attacks."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which of the following cells act as the primary effector cells in cell-mediated immunity against virus-infected and cancerous cells?",
+      "options": [
+        "A) Helper T-cells (CD4+)",
+        "B) Cytotoxic T-cells (CD8+)",
+        "C) Basophils",
+        "D) B-lymphocytes"
+      ],
+      "correct_option": "B",
+      "explanation": "Cytotoxic T-cells (CD8+) directly kill virus-infected cells, tumour cells, and transplanted cells through release of perforin and granzymes. Helper T-cells coordinate the immune response but do not directly kill."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which of the following is a bacterial biofertiliser that fixes atmospheric nitrogen independently (free-living)?",
+      "options": [
+        "A) Frankia",
+        "B) Anabaena",
+        "C) Azotobacter",
+        "D) Rhizobium"
+      ],
+      "correct_option": "C",
+      "explanation": "Azotobacter is a free-living nitrogen-fixing bacterium used as a biofertilizer. Rhizobium and Frankia are symbiotic. Anabaena is a symbiotic cyanobacterium. Azospirillum is another option but not listed."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Which of the following correctly describes the interaction between HIV and the immune system at the molecular level?",
+      "options": [
+        "A) HIV gp120 binds to CD4 receptor, followed by interaction with CCR5 or CXCR4 co-receptors, enabling viral fusion",
+        "B) HIV enters macrophages by binding to CD8 receptors",
+        "C) HIV binds directly to MHC class II molecules on B-cells",
+        "D) HIV reverse transcriptase directly activates complement proteins"
+      ],
+      "correct_option": "A",
+      "explanation": "HIV entry requires gp120 binding to CD4 receptor, followed by interaction with co-receptors (CCR5 for macrophage-tropic, CXCR4 for T-cell-tropic strains). This triggers gp41-mediated fusion of viral envelope with cell membrane."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "The bacterium Lactobacillus converts milk into which product through lactic acid fermentation?",
+      "options": [
+        "A) Cheese",
+        "B) Butter",
+        "C) Vinegar",
+        "D) Yogurt"
+      ],
+      "correct_option": "D",
+      "explanation": "Lactobacillus delbrueckii and Streptococcus thermophilus ferment lactose to lactic acid, which curdles milk proteins (casein) producing yogurt. Cheese production involves additional steps (rennet, mould)."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which organelle is responsible for the initial glycosylation and folding of antibodies before they are secreted by plasma cells?",
+      "options": [
+        "A) Golgi apparatus",
+        "B) Nucleolus",
+        "C) Mitochondria",
+        "D) Rough endoplasmic reticulum"
+      ],
+      "correct_option": "D",
+      "explanation": "Antibodies are synthesised by ribosomes on the rough ER, where initial folding and N-linked glycosylation occur. The Golgi apparatus completes glycosylation and packages antibodies for secretion."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "The first restriction enzyme to be isolated (HindII) was obtained from which bacterium?",
+      "options": [
+        "A) Escherichia coli",
+        "B) Haemophilus influenzae",
+        "C) Bacillus amyloliquefaciens",
+        "D) Streptomyces species"
+      ],
+      "correct_option": "B",
+      "explanation": "HindII was isolated from Haemophilus influenzae Rd by Hamilton Smith and Daniel Nathans (Nobel Prize 1978). It recognises and cuts at GTY|RAC sequence."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "In transgenic plants, the most commonly used vector for gene transfer is derived from:",
+      "options": [
+        "A) Agrobacterium tumefaciens Ti plasmid",
+        "B) Baculovirus",
+        "C) T4 bacteriophage",
+        "D) CaMV 35S promoter"
+      ],
+      "correct_option": "A",
+      "explanation": "The Ti (tumor-inducing) plasmid of Agrobacterium tumefaciens naturally transfers T-DNA into plant cells, making it the most widely used vector for plant genetic engineering."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which of the following statements about palindromic DNA sequences in the context of restriction enzymes is correct?",
+      "options": [
+        "A) They are recognised by DNA ligase",
+        "B) They are only found in eukaryotic DNA",
+        "C) They read the same on both strands in the 5' to 3' direction",
+        "D) They are not cut by Type II restriction enzymes"
+      ],
+      "correct_option": "C",
+      "explanation": "Palindromic sequences (e.g., GAATTC) read identically on complementary strands when both are read 5' to 3'. Type II restriction enzymes (like EcoRI) recognise and cut within these palindromic sites."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Golden Rice was developed to address which nutritional deficiency?",
+      "options": [
+        "A) Iron deficiency",
+        "B) Vitamin A deficiency",
+        "C) Iodine deficiency",
+        "D) Protein deficiency"
+      ],
+      "correct_option": "B",
+      "explanation": "Golden Rice is engineered to produce beta-carotene (provitamin A) in the endosperm. It was developed to combat vitamin A deficiency, which causes blindness and increases mortality in developing countries."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which of the following techniques can be used to detect a specific protein in a sample?",
+      "options": [
+        "A) Western blotting",
+        "B) Northern blotting",
+        "C) Eastern blotting",
+        "D) Southern blotting"
+      ],
+      "correct_option": "A",
+      "explanation": "Western blotting detects proteins using specific antibodies after gel electrophoresis. Southern detects DNA, Northern detects RNA. Eastern blotting analyses protein modifications."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "In blue-white screening using X-gal, which of the following statements is INCORRECT?",
+      "options": [
+        "A) X-gal is cleaved by beta-galactosidase to produce a blue product",
+        "B) Blue colonies contain intact lacZ gene in non-recombinant plasmids",
+        "C) White colonies contain recombinant plasmids with insertional inactivation of lacZ",
+        "D) IPTG acts as the enzyme that directly cleaves X-gal"
+      ],
+      "correct_option": "D",
+      "explanation": "IPTG (isopropyl beta-D-1-thiogalactopyranoside) is an inducer that binds the lac repressor and induces lacZ expression, but it does NOT cleave X-gal. Beta-galactosidase cleaves X-gal to produce the blue indigo dye."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "During PCR, the annealing step involves which of the following temperatures approximately?",
+      "options": [
+        "A) 55°C",
+        "B) 72°C",
+        "C) 94°C",
+        "D) 37°C"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR involves three temperature steps: denaturation at ~94°C, annealing of primers at ~50-65°C (typically 55°C), and extension at ~72°C (optimal for Taq polymerase activity)."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "RNA interference (RNAi) in the nematode Caenorhabditis elegans was discovered by which scientists?",
+      "options": [
+        "A) Watson and Crick",
+        "B) Fire and Mello",
+        "C) Boyer and Cohen",
+        "D) Mendel and Morgan"
+      ],
+      "correct_option": "B",
+      "explanation": "Andrew Fire and Craig Mello discovered RNAi in C. elegans in 1998, demonstrating that double-stranded RNA triggers sequence-specific gene silencing. They received the 2006 Nobel Prize for this work."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a component required for in vitro amplification of DNA using PCR?",
+      "options": [
+        "A) Primers (forward and reverse)",
+        "B) dNTPs",
+        "C) DNA ligase",
+        "D) Thermostable DNA polymerase (Taq polymerase)"
+      ],
+      "correct_option": "C",
+      "explanation": "PCR requires template DNA, primers, dNTPs, and thermostable DNA polymerase. DNA ligase is NOT used in PCR; it is used in recombinant DNA technology to join DNA fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "The technique of inserting foreign DNA into animal cells using microscopic needles is called:",
+      "options": [
+        "A) Lipofection",
+        "B) Biolistics",
+        "C) Electroporation",
+        "D) Microinjection"
+      ],
+      "correct_option": "D",
+      "explanation": "Microinjection uses a fine glass needle (capillary micropipette) to directly inject DNA into the nucleus of an animal cell (e.g., into a fertilised egg for transgenic animal production). Biolistics is for plant cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "In the Lotka-Volterra predator-prey model, when the prey population increases, what happens to the predator population?",
+      "options": [
+        "A) Predators remain unchanged",
+        "B) Prey and predators both decrease simultaneously",
+        "C) Predators increase after a time lag",
+        "D) Predators decrease immediately"
+      ],
+      "correct_option": "C",
+      "explanation": "The Lotka-Volterra model predicts that predator populations increase after a time lag following prey population growth, because predators need time to reproduce and respond to increased food availability."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Which of the following best describes the relationship between GPP (Gross Primary Productivity) and NPP (Net Primary Productivity)?",
+      "options": [
+        "A) NPP = GPP - Respiration",
+        "B) NPP = GPP + Respiration",
+        "C) NPP = GPP ÷ Respiration",
+        "D) NPP = GPP × Respiration"
+      ],
+      "correct_option": "A",
+      "explanation": "Net Primary Productivity (NPP) equals Gross Primary Productivity (GPP) minus the energy lost through autotrophic respiration (R). NPP represents the energy available to heterotrophs in the ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Which of the following represents an ex-situ conservation strategy?",
+      "options": [
+        "A) Sacred groves",
+        "B) Botanical gardens and seed banks",
+        "C) National parks and wildlife sanctuaries",
+        "D) Biosphere reserves"
+      ],
+      "correct_option": "B",
+      "explanation": "Ex-situ conservation protects species outside their natural habitat in facilities like botanical gardens, zoos, seed banks, and gene banks. National parks, biosphere reserves, and sacred groves are in-situ (on-site) conservation."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "If producers in an ecosystem capture 100,000 kJ of solar energy through photosynthesis, approximately how much energy would be available to secondary consumers?",
+      "options": [
+        "A) 10,000 kJ",
+        "B) 50,000 kJ",
+        "C) 1,000 kJ",
+        "D) 100 kJ"
+      ],
+      "correct_option": "C",
+      "explanation": "According to Lindeman's 10% law: Producers (100,000) → Primary consumers (10,000) → Secondary consumers (1,000 kJ). Only ~10% of energy transfers to each successive trophic level."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "Which of the following correctly describes the IUCN 'Red List' categories for a species that has a population reduction of ≥50% over 10 years or three generations, where the causes are reversible AND understood AND ceased?",
+      "options": [
+        "A) Endangered",
+        "B) Vulnerable",
+        "C) Critically Endangered",
+        "D) Near Threatened"
+      ],
+      "correct_option": "B",
+      "explanation": "Criterion A for Vulnerable (VU) status includes ≥50% population reduction over 10 years or three generations where causes are reversible, understood, AND ceased. Endangered requires ≥70%, Critically Endangered requires ≥90% reduction."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "In a desert ecosystem, which abiotic factor most limits primary productivity?",
+      "options": [
+        "A) Water availability",
+        "B) Temperature",
+        "C) Light intensity",
+        "D) Soil pH"
+      ],
+      "correct_option": "A",
+      "explanation": "Water is the primary limiting factor in desert ecosystems. Despite abundant sunlight and warm temperatures, the scarcity of water severely limits plant growth and primary productivity in arid environments."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Which group of organisms are the primary producers in a deep-sea hydrothermal vent ecosystem?",
+      "options": [
+        "A) Green algae",
+        "B) Chemosynthetic bacteria",
+        "C) Sea grasses",
+        "D) Phytoplankton"
+      ],
+      "correct_option": "B",
+      "explanation": "In deep-sea hydrothermal vents, sunlight is absent. Chemosynthetic bacteria (e.g., sulfur-oxidising bacteria) serve as primary producers by oxidising hydrogen sulfide to produce energy, analogous to photosynthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "In a pond ecosystem, the pyramid of biomass is typically inverted. Which of the following best explains this phenomenon?",
+      "options": [
+        "A) Phytoplankton biomass exceeds that of all consumers combined",
+        "B) Decomposers contribute most of the biomass",
+        "C) Phytoplankton have rapid turnover rates but lower standing biomass compared to consumers",
+        "D) Fish are the only consumers"
+      ],
+      "correct_option": "C",
+      "explanation": "In aquatic ecosystems, phytoplankton have very rapid reproduction and turnover rates. While individual biomass is small, their productivity is high. The standing biomass of consumers (zooplankton, fish) exceeds that of phytoplankton at any given moment."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "The Red Data Book contains lists of:",
+      "options": [
+        "A) Endangered and threatened species",
+        "B) All plant species in a country",
+        "C) Commercially important species",
+        "D) All endemic species only"
+      ],
+      "correct_option": "A",
+      "explanation": "The Red Data Book, maintained by IUCN, catalogues species that are endangered, threatened, rare, or vulnerable. It serves as a conservation tool to identify species requiring protection efforts."
+    },
+    {
+      "id": "CUET_BIO_2026_P12_L2B_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "In ecological succession on a bare rock (primary succession), the correct sequence of colonisation is:",
+      "options": [
+        "A) Mosses → Lichens → Grasses → Trees → Shrubs",
+        "B) Shrubs → Grasses → Lichens → Mosses → Trees",
+        "C) Grasses → Lichens → Mosses → Trees → Shrubs",
+        "D) Lichens → Mosses → Grasses → Shrubs → Trees"
+      ],
+      "correct_option": "D",
+      "explanation": "Primary succession on bare rock follows: Lichens (pioneers, weather rock) → Mosses (thin soil layer) → Grasses → Shrubs → Trees (climax community). Each stage modifies the environment, making it suitable for the next."
+    }
+  ]
+}

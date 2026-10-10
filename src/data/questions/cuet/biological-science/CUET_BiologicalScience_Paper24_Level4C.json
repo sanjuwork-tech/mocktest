@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P24_L4C",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 24,
+  "difficulty_level": "4C",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "NCERT Class 12 Biology (Units VI-X)",
+  "notification_source": "CUET UG 2026 Information Bulletin",
+  "past_paper_reference": "CUET UG Biological Science 2023-2025",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The corpus luteum degenerates into which structure if fertilization does not occur?",
+      "options": [
+        "A) Corpus callosum",
+        "B) Corpus cavernosum",
+        "C) Corpus albicans",
+        "D) Corpus striatum"
+      ],
+      "correct_option": "C",
+      "explanation": "The corpus luteum degenerates into the corpus albicans if fertilization does not occur. The corpus callosum is a brain structure, while corpus cavernosum and striatum are unrelated."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which of the following is a sexually transmitted infection caused by a virus?",
+      "options": [
+        "A) Syphilis",
+        "B) Gonorrhea",
+        "C) Chlamydia",
+        "D) Genital herpes"
+      ],
+      "correct_option": "D",
+      "explanation": "Genital herpes is caused by herpes simplex virus (HSV). Syphilis is caused by Treponema pallidum (bacterium), gonorrhea by Neisseria gonorrhoeae, and chlamydia by Chlamydia trachomatis."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "In angiosperms, the male gametophyte (pollen grain) undergoes mitotic division before or after pollination depending on the species. In most monocots, at what stage is the pollen typically shed?",
+      "options": [
+        "A) Three-celled stage (vegetative + two male gametes)",
+        "B) Haploid microspore stage",
+        "C) Two-celled stage (vegetative + generative)",
+        "D) Four-celled stage with tube cell"
+      ],
+      "correct_option": "A",
+      "explanation": "In most monocots, pollen is shed at the three-celled stage (vegetative cell + two male gametes) because the generative cell divides before pollination. In most dicots, pollen is shed at the two-celled stage and the generative cell divides during pollen tube growth."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Which hormone is detected by most pregnancy tests?",
+      "options": [
+        "A) Progesterone",
+        "B) Estrogen",
+        "C) Luteinizing hormone",
+        "D) Human chorionic gonadotropin (hCG)"
+      ],
+      "correct_option": "D",
+      "explanation": "Pregnancy tests detect human chorionic gonadotropin (hCG) produced by the developing placenta to maintain pregnancy."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which of the following statements about the menstrual cycle is INCORRECT?",
+      "options": [
+        "A) The proliferative phase is characterized by progesterone dominance",
+        "B) The menstrual phase lasts about 3-5 days",
+        "C) Ovulation occurs around day 14 of a 28-day cycle",
+        "D) The secretory phase follows ovulation"
+      ],
+      "correct_option": "A",
+      "explanation": "The proliferative phase is characterized by estrogen dominance (not progesterone), which rebuilds the endometrium after menstruation. Progesterone dominates the secretory phase."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "In double fertilization of angiosperms, one male gamete fuses with the egg cell and the second male gamete fuses with:",
+      "options": [
+        "A) Synergids",
+        "B) Antipodal cells",
+        "C) Central cell (polar nuclei)",
+        "D) Nucellus"
+      ],
+      "correct_option": "C",
+      "explanation": "In double fertilization, one male gamete fuses with the egg cell to form the zygote (2n), while the second fuses with polar nuclei to form the triploid primary endosperm nucleus (3n)."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Which contraceptive method prevents pregnancy by inhibiting ovulation through synthetic estrogen and progesterone?",
+      "options": [
+        "A) Copper-T",
+        "B) Oral contraceptive pills",
+        "C) Vasectomy",
+        "D) Diaphragm"
+      ],
+      "correct_option": "B",
+      "explanation": "Oral contraceptive pills contain synthetic estrogen and progesterone that inhibit GnRH release, preventing FSH/LH surges and ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "During embryonic development in humans, the trophoblast differentiates into the chorion. Which critical function does the chorion serve?",
+      "options": [
+        "A) Production of hCG and formation of placenta",
+        "B) Formation of the amniotic cavity",
+        "C) Formation of the yolk sac",
+        "D) Development of the notochord"
+      ],
+      "correct_option": "A",
+      "explanation": "The chorion (from trophoblast) forms the fetal portion of the placenta and produces hCG to maintain pregnancy. The amniotic cavity forms from epiblast, yolk sac from hypoblast."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "In sporophytic self-incompatibility (e.g., Brassica), if a plant has genotype S1S2, which pollen will be rejected?",
+      "options": [
+        "A) S1 only",
+        "B) S2 only",
+        "C) Neither S1 nor S2",
+        "D) Both S1 and S2"
+      ],
+      "correct_option": "D",
+      "explanation": "In sporophytic self-incompatibility, the stigma recognizes pollen carrying S1 or S2 as self and rejects it. Both pollen genotypes matching the stigma alleles are rejected."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which of the following organisms reproduces by fragmentation followed by regeneration?",
+      "options": [
+        "A) Amoeba",
+        "B) Spirogyra",
+        "C) Plasmodium",
+        "D) Rhizopus"
+      ],
+      "correct_option": "B",
+      "explanation": "Spirogyra reproduces asexually by fragmentation. Amoeba uses binary fission, Plasmodium uses multiple fission, and Rhizopus uses sporulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q11",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "Mendel's law of independent assortment applies to genes that are:",
+      "options": [
+        "A) Located on the same chromosome",
+        "B) Always homozygous",
+        "C) Located on different chromosomes",
+        "D) Linked together"
+      ],
+      "correct_option": "C",
+      "explanation": "Independent assortment applies to genes on different chromosomes. Linked genes on the same chromosome tend to be inherited together."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q12",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "In DNA, the nitrogenous base thymine always pairs with:",
+      "options": [
+        "A) Guanine",
+        "B) Cytosine",
+        "C) Uracil",
+        "D) Adenine"
+      ],
+      "correct_option": "D",
+      "explanation": "According to Chargaff's rules, thymine (T) pairs with adenine (A) through two hydrogen bonds in double-stranded DNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q13",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Who proposed the theory of natural selection independently of Charles Darwin?",
+      "options": [
+        "A) Jean-Baptiste Lamarck",
+        "B) Thomas Malthus",
+        "C) Alfred Russel Wallace",
+        "D) Gregor Mendel"
+      ],
+      "correct_option": "C",
+      "explanation": "Alfred Russel Wallace independently conceived the theory of natural selection based on observations in the Malay Archipelago. Darwin and Wallace jointly presented findings in 1858."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q14",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "The enzyme that synthesizes the RNA primer during DNA replication is called:",
+      "options": [
+        "A) Primase",
+        "B) DNA polymerase III",
+        "C) DNA polymerase I",
+        "D) Helicase"
+      ],
+      "correct_option": "A",
+      "explanation": "Primase synthesizes short RNA primers that provide the 3'-OH group for DNA polymerase to begin DNA synthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q15",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In a cross between two plants with pink flowers (incomplete dominance), what F1 phenotypic ratio results from heterozygous (Rr x Rr) parents?",
+      "options": [
+        "A) All pink",
+        "B) 1 red : 2 pink : 1 white",
+        "C) 3 red : 1 white",
+        "D) 1 red : 1 pink"
+      ],
+      "correct_option": "B",
+      "explanation": "With incomplete dominance: RR = red, Rr = pink, rr = white. Rr x Rr yields 1 RR : 2 Rr : 1 rr (1 red : 2 pink : 1 white)."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q16",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which describes the role of release factors (RF1, RF2, RF3) in translation?",
+      "options": [
+        "A) They initiate translation by binding to the start codon",
+        "B) They add amino acids to the growing polypeptide chain",
+        "C) They recognize stop codons and cause ribosome to release the polypeptide chain",
+        "D) They proofread mRNA during transcription"
+      ],
+      "correct_option": "C",
+      "explanation": "Release factors recognize stop codons (UAA, UAG, UGA) at the A-site and trigger hydrolysis of the polypeptide chain from tRNA, terminating translation."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q17",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "According to Hardy-Weinberg equilibrium, if the recessive allele frequency (q) is 0.6, what is the frequency of homozygous dominant individuals (p2)?",
+      "options": [
+        "A) 0.36",
+        "B) 0.48",
+        "C) 0.64",
+        "D) 0.16"
+      ],
+      "correct_option": "D",
+      "explanation": "If q = 0.6, then p = 0.4. p2 = (0.4)^2 = 0.16."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q18",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In Drosophila, eye color is X-linked. A heterozygous red-eyed female crossed with a white-eyed male produces offspring with what phenotypic ratio?",
+      "options": [
+        "A) 1 red : 1 white in both sexes",
+        "B) All red-eyed",
+        "C) 1 red female : 1 white male",
+        "D) All females red, all males white"
+      ],
+      "correct_option": "A",
+      "explanation": "X^R X^r x X^r Y yields: X^R X^r (red female), X^r X^r (white female), X^R Y (red male), X^r Y (white male). Ratio is 1 red : 1 white in both sexes."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q19",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "In prokaryotic transcription, the Shine-Dalgarno sequence on mRNA is recognized by which component?",
+      "options": [
+        "A) RNA polymerase sigma factor",
+        "B) The 16S rRNA of the small ribosomal subunit",
+        "C) The 23S rRNA of the large ribosomal subunit",
+        "D) The TATA-binding protein"
+      ],
+      "correct_option": "B",
+      "explanation": "The Shine-Dalgarno sequence is complementary to the 3' end of 16S rRNA in the 30S ribosomal subunit, positioning the ribosome for translation initiation."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q20",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The molecular clock hypothesis is best supported by which observation?",
+      "options": [
+        "A) The relatively constant rate of amino acid substitutions in homologous proteins across species",
+        "B) The universal nature of the genetic code",
+        "C) The constant number of chromosomes in a species",
+        "D) The presence of introns in eukaryotic genes"
+      ],
+      "correct_option": "A",
+      "explanation": "The molecular clock hypothesis is supported by the observation that amino acid substitution rates in homologous proteins (like cytochrome c) are relatively constant across lineages, allowing estimation of divergence times."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q21",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which disease is caused by Plasmodium and transmitted by female Anopheles mosquitoes?",
+      "options": [
+        "A) Dengue",
+        "B) Malaria",
+        "C) Filariasis",
+        "D) Chikungunya"
+      ],
+      "correct_option": "B",
+      "explanation": "Malaria is caused by Plasmodium species and transmitted by female Anopheles mosquitoes. Dengue and chikungunya are viral diseases transmitted by Aedes mosquitoes."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q22",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which of the following is a communicable disease?",
+      "options": [
+        "A) Tuberculosis",
+        "B) Diabetes",
+        "C) Cancer",
+        "D) Hypertension"
+      ],
+      "correct_option": "A",
+      "explanation": "Tuberculosis is communicable, caused by Mycobacterium tuberculosis. Diabetes, cancer, and hypertension are non-communicable diseases."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q23",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which microorganism is primarily responsible for bread and alcohol production?",
+      "options": [
+        "A) Lactobacillus",
+        "B) Saccharomyces cerevisiae",
+        "C) Acetobacter",
+        "D) Clostridium"
+      ],
+      "correct_option": "B",
+      "explanation": "Saccharomyces cerevisiae produces CO2 (bread rise) and ethanol (alcohol) through fermentation. Lactobacillus is for dairy, Acetobacter for vinegar."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q24",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Passive immunity can be acquired naturally through:",
+      "options": [
+        "A) Vaccination",
+        "B) Infection with pathogen",
+        "C) Production of memory cells",
+        "D) Transfer of maternal antibodies across placenta"
+      ],
+      "correct_option": "D",
+      "explanation": "Passive natural immunity occurs when maternal antibodies are transferred across the placenta (IgG) or through breast milk (IgA). Vaccination induces active immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q25",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which of the following is a Type IV hypersensitivity (delayed-type) reaction?",
+      "options": [
+        "A) Anaphylactic shock",
+        "B) Hemolytic disease of the newborn",
+        "C) Tuberculin skin test (Mantoux)",
+        "D) Arthus reaction"
+      ],
+      "correct_option": "C",
+      "explanation": "Type IV hypersensitivity is T-cell mediated and delayed. The tuberculin skin test is a classic example. Anaphylactic shock is Type I, hemolytic disease is Type II, Arthus is Type III."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q26",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Streptokinase, produced by Streptococcus, is clinically used as a:",
+      "options": [
+        "A) Antibiotic",
+        "B) Immunosuppressant",
+        "C) Clot-dissolving (fibrinolytic) agent",
+        "D) Vitamin supplement"
+      ],
+      "correct_option": "C",
+      "explanation": "Streptokinase activates plasminogen to plasmin, which dissolves blood clots. It is used as a clot-busting drug in myocardial infarction and pulmonary embolism."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q27",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which of the following statements about cancer is CORRECT?",
+      "options": [
+        "A) All tumors are malignant",
+        "B) Benign tumors can metastasize to distant sites",
+        "C) Carcinomas are cancers of connective tissue",
+        "D) Oncogenic viruses cause cancer by integrating their DNA into the host genome"
+      ],
+      "correct_option": "D",
+      "explanation": "Oncogenic viruses integrate viral oncogenes into the host genome, disrupting cell cycle regulation. Not all tumors are malignant, benign ones don't metastasize, carcinomas are epithelial (sarcomas are connective tissue)."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q28",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Citric acid is produced industrially by fermentation using which microorganism?",
+      "options": [
+        "A) Penicillium chrysogenum",
+        "B) Rhizopus stolonifer",
+        "C) Candida albicans",
+        "D) Aspergillus niger"
+      ],
+      "correct_option": "D",
+      "explanation": "Aspergillus niger is used for industrial production of citric acid through submerged fermentation. Penicillium chrysogenum produces penicillin."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q29",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "In HIV infection, CD4+ T helper cell depletion is primarily due to:",
+      "options": [
+        "A) Direct viral lysis is the sole cause of CD4+ cell death",
+        "B) Apoptosis, immune activation, and pyroptosis contribute to depletion",
+        "C) HIV converts CD4+ T cells into B cells",
+        "D) The virus destroys CD4+ cells by producing exotoxins"
+      ],
+      "correct_option": "B",
+      "explanation": "CD4+ T cell depletion in HIV is multifactorial: direct viral killing, chronic immune activation, bystander apoptosis, and pyroptosis all contribute. Chronic immune activation is a major driver."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q30",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "hard",
+      "question": "Which vaccine is an example of a subunit vaccine?",
+      "options": [
+        "A) Hepatitis B vaccine produced by recombinant yeast",
+        "B) Live attenuated measles vaccine",
+        "C) Inactivated polio vaccine (Salk)",
+        "D) BCG vaccine for tuberculosis"
+      ],
+      "correct_option": "A",
+      "explanation": "The recombinant Hepatitis B vaccine is a subunit vaccine containing only HBsAg produced in yeast. Live attenuated (measles, BCG) and inactivated (Salk) vaccines contain whole organisms."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q31",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Which enzyme cuts DNA at specific sequences in genetic engineering?",
+      "options": [
+        "A) DNA ligase",
+        "B) DNA polymerase",
+        "C) Reverse transcriptase",
+        "D) Restriction endonuclease"
+      ],
+      "correct_option": "D",
+      "explanation": "Restriction endonucleases recognize specific palindromic DNA sequences and cut DNA at those sites. DNA ligase joins fragments, DNA polymerase synthesizes DNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q32",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Bt cotton produces insecticidal toxins derived from:",
+      "options": [
+        "A) Escherichia coli",
+        "B) Agrobacterium tumefaciens",
+        "C) Bacillus thuringiensis",
+        "D) Staphylococcus aureus"
+      ],
+      "correct_option": "C",
+      "explanation": "Bt cotton contains genes from Bacillus thuringiensis that produce Cry proteins toxic to bollworm larvae, reducing the need for chemical insecticides."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q33",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Polymerase Chain Reaction (PCR) is used to:",
+      "options": [
+        "A) Amplify specific DNA sequences",
+        "B) Sequence DNA",
+        "C) Cut DNA into fragments",
+        "D) Translate proteins"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR amplifies specific DNA sequences in vitro using thermostable DNA polymerase, primers, and thermal cycling."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q34",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which vector is commonly used to introduce genes into plant cells?",
+      "options": [
+        "A) Plasmid",
+        "B) Phage lambda",
+        "C) Ti plasmid of Agrobacterium tumefaciens",
+        "D) Cosmid"
+      ],
+      "correct_option": "C",
+      "explanation": "The Ti plasmid of Agrobacterium tumefaciens is the most widely used vector for plant genetic engineering. It naturally transfers T-DNA into plant cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q35",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "During gel electrophoresis, DNA fragments migrate toward the positive electrode because DNA is:",
+      "options": [
+        "A) Positively charged",
+        "B) Neutral and moves by diffusion",
+        "C) Negatively charged due to phosphate groups",
+        "D) Positively charged due to nitrogenous bases"
+      ],
+      "correct_option": "C",
+      "explanation": "DNA is negatively charged due to its phosphate backbone, so it migrates toward the positive electrode during electrophoresis. Smaller fragments move faster."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q36",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which is an example of a transgenic animal?",
+      "options": [
+        "A) Goat producing human alpha-1-antitrypsin in milk",
+        "B) Dolly the sheep (cloned)",
+        "C) Human insulin-producing E. coli",
+        "D) Golden rice"
+      ],
+      "correct_option": "A",
+      "explanation": "A goat producing human protein in milk is transgenic. Dolly was cloned, E. coli is a transgenic microorganism, and Golden rice is a transgenic plant."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q37",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which enzyme joins the gene of interest with a vector to create recombinant DNA?",
+      "options": [
+        "A) Restriction enzyme",
+        "B) Alkaline phosphatase",
+        "C) Reverse transcriptase",
+        "D) DNA ligase"
+      ],
+      "correct_option": "D",
+      "explanation": "DNA ligase joins the gene of interest with vector DNA by forming phosphodiester bonds. Restriction enzymes cut DNA, reverse transcriptase makes cDNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q38",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "RNA interference (RNAi) silences gene expression by:",
+      "options": [
+        "A) Degrading the target DNA",
+        "B) Preventing mRNA translation or degrading target mRNA",
+        "C) Inhibiting transcription factor binding to enhancers",
+        "D) Modifying histone proteins permanently"
+      ],
+      "correct_option": "B",
+      "explanation": "RNAi involves siRNA/miRNA guiding the RISC complex to complementary target mRNAs, leading to their degradation or translational repression."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q39",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "In blue-white screening with lacZ as reporter gene, white colonies indicate:",
+      "options": [
+        "A) The plasmid has no insert (self-ligated vector)",
+        "B) The insert has disrupted the lacZ gene, preventing X-gal cleavage",
+        "C) The bacteria lack the plasmid entirely",
+        "D) The antibiotic selection has failed"
+      ],
+      "correct_option": "B",
+      "explanation": "When foreign DNA is inserted into the lacZ gene, beta-galactosidase is disrupted, preventing X-gal cleavage. White colonies indicate successful insertion, blue colonies indicate empty vector."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q40",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Gene therapy for ADA deficiency SCID involves:",
+      "options": [
+        "A) Injecting purified ADA enzyme into the bloodstream",
+        "B) Inserting the ADA gene into bone marrow stem cells using a retroviral vector",
+        "C) Transplanting thymus tissue from a healthy donor",
+        "D) Administering high doses of vitamin C"
+      ],
+      "correct_option": "B",
+      "explanation": "Gene therapy for ADA-SCID involves extracting bone marrow stem cells, inserting a functional ADA gene using a retroviral vector, and returning corrected cells to the patient."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q41",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Which of the following is an abiotic component of an ecosystem?",
+      "options": [
+        "A) Sunlight",
+        "B) Bacteria",
+        "C) Fungi",
+        "D) Plants"
+      ],
+      "correct_option": "A",
+      "explanation": "Sunlight is an abiotic component. Bacteria, fungi, and plants are biotic components of an ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q42",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "The pyramid of numbers in a grassland ecosystem is usually:",
+      "options": [
+        "A) Upright",
+        "B) Inverted",
+        "C) Spindle-shaped",
+        "D) Absent"
+      ],
+      "correct_option": "A",
+      "explanation": "In grassland, the pyramid of numbers is upright: many grass plants (producers), fewer herbivores, and even fewer top carnivores."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q43",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Which interaction occurs when one species benefits and the other is neither harmed nor benefited?",
+      "options": [
+        "A) Mutualism",
+        "B) Parasitism",
+        "C) Commensalism",
+        "D) Competition"
+      ],
+      "correct_option": "C",
+      "explanation": "Commensalism is a (+/0) interaction where one species benefits while the other is unaffected. Mutualism is (+/+), parasitism is (+/-), competition is (-/-)."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q44",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Biodiversity hotspots are regions with:",
+      "options": [
+        "A) Low species diversity",
+        "B) Only plant diversity",
+        "C) Only animal diversity",
+        "D) High species richness and high endemism"
+      ],
+      "correct_option": "D",
+      "explanation": "Biodiversity hotspots have significant species richness and endemism under threat from humans. India has four: Western Ghats, Himalayas, Indo-Burma, Sundaland."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q45",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "According to the logistic growth model, population growth rate becomes zero when:",
+      "options": [
+        "A) N = 0",
+        "B) N = K/2",
+        "C) N = r",
+        "D) N = K"
+      ],
+      "correct_option": "D",
+      "explanation": "In the logistic equation dN/dt = rN(1 - N/K), growth rate becomes zero when N = K (carrying capacity). At N = K/2, growth rate is maximum."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q46",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Which biogeochemical cycle includes nitrogen fixation, nitrification, and denitrification?",
+      "options": [
+        "A) Carbon cycle",
+        "B) Phosphorus cycle",
+        "C) Nitrogen cycle",
+        "D) Sulfur cycle"
+      ],
+      "correct_option": "C",
+      "explanation": "The nitrogen cycle includes nitrogen fixation (N2 to NH3 by Rhizobium), nitrification (NH3 to NO3- by Nitrosomonas/Nitrobacter), and denitrification (NO3- to N2 by Pseudomonas)."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q47",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "The ecological niche of a species refers to:",
+      "options": [
+        "A) The physical location where it lives",
+        "B) Its functional role and position in the ecosystem, including resource use and interactions",
+        "C) The number of individuals in the population",
+        "D) The geographical range of the species"
+      ],
+      "correct_option": "B",
+      "explanation": "An ecological niche encompasses the functional role, resource use, habitat requirements, and interactions of a species within its ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q48",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "In primary succession, the pioneer species on bare rock are typically:",
+      "options": [
+        "A) Grasses",
+        "B) Shrubs",
+        "C) Trees",
+        "D) Lichens"
+      ],
+      "correct_option": "D",
+      "explanation": "Lichens are pioneer species on bare rocks in primary succession. They secrete acids that weather the rock, forming soil over time."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q49",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "In the carbon cycle, which process returns carbon to the atmosphere from the deep ocean over geological timescales?",
+      "options": [
+        "A) Photosynthesis by phytoplankton",
+        "B) Volcanic outgassing and weathering of carbonate rocks",
+        "C) Respiration by marine organisms",
+        "D) Sedimentation of dead organisms"
+      ],
+      "correct_option": "B",
+      "explanation": "Volcanic outgassing releases CO2 from Earth's mantle, and tectonic uplift weathers carbonate rocks, returning carbon to the atmosphere over geological timescales."
+    },
+    {
+      "id": "CUET_BIO_2026_P24_L4C_Q50",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "In the species-area relationship S = cA^z, which statement about the z-value is correct?",
+      "options": [
+        "A) z is typically lower for islands than for mainland areas",
+        "B) z is always 1 regardless of the system",
+        "C) z is typically higher for islands than for mainland areas",
+        "D) z has no ecological significance"
+      ],
+      "correct_option": "C",
+      "explanation": "z-values are typically higher for islands (0.25-0.35) than for mainland areas (0.1-0.15), reflecting greater isolation and extinction risk on islands."
+    }
+  ]
+}

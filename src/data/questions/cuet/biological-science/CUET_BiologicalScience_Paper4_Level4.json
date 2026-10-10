@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P4_L4",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 4,
+  "difficulty_level": "4",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "In angiosperms, the phenomenon of double fertilization involves fusion of one sperm nucleus with the egg and the second sperm nucleus with the synergids.",
+      "options": [
+        "A) True — both synergids are fertilized",
+        "B) False — second sperm fuses with polar nuclei",
+        "C) True — one synergid and the egg are fertilized",
+        "D) False — second sperm fuses with the antipodal cells"
+      ],
+      "correct_option": "B",
+      "explanation": "Double fertilization in angiosperms involves one sperm fertilizing the egg to form a zygote (2n), while the second sperm fuses with the two polar nuclei (or secondary nucleus) to form the triploid primary endosperm nucleus (3n). Synergids are accessory cells and are not fertilized."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Which of the following correctly describes the role of the hormone human chorionic gonadotropin (hCG) during early pregnancy?",
+      "options": [
+        "A) It stimulates the corpus luteum to continue progesterone secretion",
+        "B) It triggers ovulation from the Graafian follicle",
+        "C) It initiates uterine contractions at parturition",
+        "D) It promotes milk production in mammary glands"
+      ],
+      "correct_option": "A",
+      "explanation": "hCG, produced by the developing placenta, maintains the corpus luteum so that it continues secreting progesterone during early pregnancy. The presence of hCG in urine is the basis of pregnancy tests."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Which sexually transmitted infection is caused by a protozoan parasite?",
+      "options": [
+        "A) Syphilis (Treponema pallidum)",
+        "B) Trichomoniasis (Trichomonas vaginalis)",
+        "C) Gonorrhea (Neisseria gonorrhoeae)",
+        "D) Chlamydia (Chlamydia trachomatis)"
+      ],
+      "correct_option": "B",
+      "explanation": "Trichomoniasis is caused by the flagellated protozoan Trichomonas vaginalis. Syphilis, gonorrhea, and chlamydia are all caused by bacteria."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The transfer of pollen grains from anther to stigma of the same flower is called:",
+      "options": [
+        "A) Xenogamy",
+        "B) Geitonogamy",
+        "C) Allogamy",
+        "D) Autogamy"
+      ],
+      "correct_option": "D",
+      "explanation": "Autogamy is self-pollination within the same flower (anther to stigma of same flower). Geitonogamy is transfer between different flowers on the same plant. Xenogamy is cross-pollination between different plants."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "During spermatogenesis, the spermatids undergo spermiogenesis to form spermatozoa. Which cellular transformation does NOT occur during this process?",
+      "options": [
+        "A) Completion of meiosis I and meiosis II",
+        "B) Condensation of the nucleus and acrosome formation",
+        "C) Formation of the flagellum from centrioles",
+        "D) Shedding of most cytoplasm as residual bodies"
+      ],
+      "correct_option": "A",
+      "explanation": "Spermiogenesis is the transformation of spermatids (already haploid) into spermatozoa. Meiosis I and II are completed earlier — spermatogonia undergo meiosis to produce spermatids. The other options describe genuine changes during spermiogenesis: nuclear condensation, acrosome formation, flagellum development, and cytoplasm shedding."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Which of the following statements about the Medical Termination of Pregnancy (MTP) Act 2021 is INCORRECT?",
+      "options": [
+        "A) It requires one registered medical practitioner's opinion up to 20 weeks",
+        "B) It extended the upper gestation limit to 24 weeks for special categories",
+        "C) It allows termination at any gestational age if the woman's life is at risk",
+        "D) It permits unmarried women to avail of abortion services"
+      ],
+      "correct_option": "A",
+      "explanation": "The MTP Act 2021 requires the opinion of TWO registered medical practitioners for termination between 20-24 weeks (not one). Up to 20 weeks, one practitioner's opinion suffices. All other statements are correct: the 24-week limit for special categories, termination at any age if the woman's mother's life is at risk, and inclusion of unmarried women."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "In the menstrual cycle, the surge in which hormone triggers ovulation?",
+      "options": [
+        "A) Follicle-stimulating hormone (FSH)",
+        "B) Progesterone",
+        "C) Estradiol",
+        "D) Luteinizing hormone (LH)"
+      ],
+      "correct_option": "D",
+      "explanation": "The mid-cycle LH surge triggers ovulation by causing the mature Graafian follicle to rupture and release the ovum. FSH stimulates follicular development earlier in the cycle."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Which of the following is a characteristic of wind-pollinated flowers?",
+      "options": [
+        "A) Large, colorful petals and nectar production",
+        "B) Light, dry, and non-sticky pollen grains in large quantities",
+        "C) Sticky pollen grains with sculptured exine",
+        "D) Fetid odors and heat production"
+      ],
+      "correct_option": "B",
+      "explanation": "Wind-pollinated flowers produce large quantities of light, dry, non-sticky pollen grains easily carried by wind. They lack showy petals, nectar, or scent. Sticky pollen is characteristic of insect pollination. Fetid odors and heat are seen in some beetle-pollinated flowers."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "In assisted reproductive technology, the technique used when the father's sperm count is low and involves direct injection of a single sperm into the cytoplasm of an egg is called:",
+      "options": [
+        "A) In vitro fertilization (IVF)",
+        "B) Gamete intrafallopian transfer (GIFT)",
+        "C) Intracytoplasmic sperm injection (ICSI)",
+        "D) Zygote intrafallopian transfer (ZIFT)"
+      ],
+      "correct_option": "C",
+      "explanation": "ICSI (Intracytoplasmic Sperm Injection) involves direct injection of a single spermatozoon into the oocyte cytoplasm, bypassing the zona pellucida. It is used for severe male factor infertility. IVF involves mixing eggs and sperm in a dish; GIFT/ZIFT involve transferring gametes/zygotes into the fallopian tube."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "Amniocentesis is used to detect chromosomal abnormalities in the fetus. At which gestational week is it typically performed, and what fluid is analyzed?",
+      "options": [
+        "A) 8-10 weeks — chorionic villus sample",
+        "B) 16-20 weeks — amniotic fluid",
+        "C) 12-14 weeks — amniotic fluid",
+        "D) 24-28 weeks — maternal blood serum"
+      ],
+      "correct_option": "B",
+      "explanation": "Amniocentesis is performed at 16-20 weeks gestation. A sample of amniotic fluid (containing fetal cells shed from skin, urinary tract, etc.) is aspirated under ultrasound guidance and analyzed for chromosomal/genetic abnormalities. Chorionic villus sampling (CVS) is done at 10-12 weeks."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "A man with blood group AB marries a woman with blood group O. What are the possible blood groups of their children?",
+      "options": [
+        "A) AB and O only",
+        "B) A, B, and O",
+        "C) A and B only (AB and O not possible)",
+        "D) A and B only"
+      ],
+      "correct_option": "D",
+      "explanation": "AB parent (IAIB) produces gametes IA and IB. O parent (ii) produces gametes only i. Offspring: IAi (blood group A) and IBi (blood group B). AB and O are impossible."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "The enzyme responsible for unwinding the DNA double helix at the replication fork is:",
+      "options": [
+        "A) DNA polymerase III",
+        "B) DNA ligase",
+        "C) Helicase",
+        "D) Primase"
+      ],
+      "correct_option": "C",
+      "explanation": "Helicase unwinds the double-stranded DNA by breaking hydrogen bonds between complementary base pairs, creating the replication fork. DNA polymerase III synthesizes new strands, DNA ligase joins Okazaki fragments, and primase synthesizes RNA primers."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "The concept that the present-day diverse species have evolved from a common ancestor through gradual modifications is best supported by:",
+      "options": [
+        "A) Vestigial organs and homologous structures",
+        "B) Analogous organs",
+        "C) Convergent evolution only",
+        "D) Adaptive radiation without common descent"
+      ],
+      "correct_option": "A",
+      "explanation": "Homologous organs (same structure, different function) and vestigial organs provide evidence for common ancestry and gradual modification. Analogous organs result from convergent evolution (similar function, different origin) and do not indicate common descent."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "In a monohybrid cross between two heterozygous parents (Aa × Aa), what is the probability of obtaining a homozygous recessive offspring?",
+      "options": [
+        "A) 50%",
+        "B) 75%",
+        "C) 100%",
+        "D) 25%"
+      ],
+      "correct_option": "D",
+      "explanation": "Aa × Aa yields genotypic ratio 1 AA : 2 Aa : 1 aa. The probability of homozygous recessive (aa) is 1/4 or 25%."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Which of the following correctly describes the semi-conservative nature of DNA replication?",
+      "options": [
+        "A) Both daughter DNA molecules consist entirely of newly synthesized strands",
+        "B) One daughter molecule retains both parental strands; the other has both new strands",
+        "C) DNA strands are synthesized in short fragments that are later joined",
+        "D) Each daughter DNA molecule contains one parental strand and one newly synthesized strand"
+      ],
+      "correct_option": "D",
+      "explanation": "Semi-conservative replication (experimentally proven by Meselson and Stahl) indicates that during DNA replication, the two parental strands separate, with each serving as a template for synthesizing a complementary strand. Consequently, each daughter DNA duplex contains one original parental strand and one newly synthesized strand."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In prokaryotes, the Shine-Dalgarno sequence in mRNA is important for:",
+      "options": [
+        "A) Transcription initiation by RNA polymerase",
+        "B) Ribosome binding and translation initiation",
+        "C) Termination of transcription",
+        "D) Splicing of introns"
+      ],
+      "correct_option": "B",
+      "explanation": "The Shine-Dalgarno sequence (5'-AGGAGG-3') in prokaryotic mRNA is located upstream of the start codon and base-pairs with the 16S rRNA of the small ribosomal subunit, facilitating ribosome binding and translation initiation. Eukaryotes use the 5' cap for this purpose."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "According to Darwin's theory of natural selection, the unit of natural selection is:",
+      "options": [
+        "A) The gene",
+        "B) The population",
+        "C) The individual organism",
+        "D) The species"
+      ],
+      "correct_option": "C",
+      "explanation": "In Darwinian evolution, the individual organism is the unit of natural selection. Individuals with favorable variations survive and reproduce more successfully. Population and species are units of evolution (not selection); the gene is the unit of inheritance."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Which type of inheritance is exemplified by the ABO blood group system in humans?",
+      "options": [
+        "A) Simple Mendelian dominance",
+        "B) Codominance and multiple alleles",
+        "C) Incomplete dominance",
+        "D) Sex-linked inheritance"
+      ],
+      "correct_option": "B",
+      "explanation": "ABO blood groups are controlled by three alleles (IA, IB, i), making it a multiple allele system. IA and IB are codominant (both expressed in AB phenotype) while both are dominant over i. This is not simple dominance, incomplete dominance, or sex-linked."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "In a eukaryotic gene, the primary transcript (hnRNA) contains 2000 nucleotides, while the mature mRNA contains 1200 nucleotides. What accounts for the difference?",
+      "options": [
+        "A) Addition of the 5' cap and 3' poly-A tail",
+        "B) Removal of exons during splicing",
+        "C) Removal of introns only (cap and tail do not add nucleotides)",
+        "D) Removal of introns and addition of the 5' cap and poly-A tail"
+      ],
+      "correct_option": "C",
+      "explanation": "The 800-nucleotide difference is due to removal of introns during RNA splicing. The 5' cap and 3' poly-A tail are added post-transcriptionally but they modify existing nucleotides (cap replaces the 5' triphosphate, poly-A tail is added to the 3' end) rather than adding to the nucleotide count of the coding sequence."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "According to the Hardy-Weinberg principle, which condition would NOT disrupt genetic equilibrium in a population?",
+      "options": [
+        "A) Mutation introducing new alleles",
+        "B) Genetic drift in a small population",
+        "C) Natural selection favoring a specific phenotype",
+        "D) Random mating with respect to genotype"
+      ],
+      "correct_option": "D",
+      "explanation": "The Hardy-Weinberg genetic equilibrium describes an idealized, non-evolving population where allele and genotype frequencies remain constant across generations under five conditions: large population size (no genetic drift), random mating, absence of mutation, no gene flow, and no natural selection. Random mating preserves equilibrium, whereas mutation, genetic drift, and natural selection disrupt equilibrium and drive evolutionary change."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which of the following diseases is caused by a virus?",
+      "options": [
+        "A) Dengue fever",
+        "B) Tuberculosis",
+        "C) Malaria",
+        "D) Cholera"
+      ],
+      "correct_option": "A",
+      "explanation": "Dengue fever is caused by the dengue virus (Flavivirus), transmitted by Aedes mosquitoes. Tuberculosis is caused by Mycobacterium tuberculosis (bacterium), malaria by Plasmodium (protozoan), and cholera by Vibrio cholerae (bacterium)."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Streptococcus thermophilus and Lactobacillus bulgaricus are commonly used in the production of:",
+      "options": [
+        "A) Cheese",
+        "B) Bread",
+        "C) Vinegar",
+        "D) Yogurt"
+      ],
+      "correct_option": "D",
+      "explanation": "Streptococcus thermophilus and Lactobacillus bulgaricus ferment lactose to lactic acid, causing milk proteins to coagulate and form yogurt. Cheese uses different cultures, bread uses yeast (Saccharomyces cerevisiae), and vinegar uses Acetobacter."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which type of white blood cell is primarily involved in cell-mediated immunity?",
+      "options": [
+        "A) B-lymphocytes",
+        "B) Neutrophils",
+        "C) Basophils",
+        "D) T-lymphocytes"
+      ],
+      "correct_option": "D",
+      "explanation": "T-lymphocytes (T cells) are responsible for cell-mediated immunity — they directly attack infected or cancerous cells, regulate immune responses, and help B cells. B-lymphocytes mediate humoral (antibody-based) immunity. Neutrophils and basophils are phagocytic and inflammatory cells respectively."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "The fungus Penicillium notatum produces penicillin, which is effective against:",
+      "options": [
+        "A) Viral infections",
+        "B) Gram-positive bacteria",
+        "C) Fungal infections",
+        "D) Protozoan parasites"
+      ],
+      "correct_option": "B",
+      "explanation": "Penicillin inhibits cell wall synthesis (peptidoglycan cross-linking) in bacteria, particularly Gram-positive bacteria. It is ineffective against viruses (no cell wall), fungi, or protozoa."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which of the following diseases is caused by a protozoan parasite?",
+      "options": [
+        "A) Typhoid",
+        "B) Malaria",
+        "C) Pneumonia",
+        "D) Common cold"
+      ],
+      "correct_option": "B",
+      "explanation": "Malaria is caused by Plasmodium, a protozoan parasite. Typhoid is bacterial, pneumonia is bacterial, common cold is viral."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Bacillus thuringiensis (Bt) produces a protein toxic to insects. In biotechnology, the Bt gene is used to produce:",
+      "options": [
+        "A) Antibiotic-resistant crops",
+        "B) Herbicide-tolerant crops",
+        "C) Insect-resistant transgenic crops",
+        "D) Vitamin-enriched crops"
+      ],
+      "correct_option": "C",
+      "explanation": "Bt toxin (Cry protein) is toxic to specific insect larvae. The Bt gene from Bacillus thuringiensis has been introduced into crops like cotton and brinjal to produce insect-resistant transgenic (Bt) crops. Antibiotic resistance, herbicide tolerance, and biofortification use different genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "The secondary immune response is faster and stronger than the primary response because:",
+      "options": [
+        "A) Memory B and T cells generated during the primary response rapidly proliferate and differentiate",
+        "B) More macrophages are produced",
+        "C) The complement system is more active",
+        "D) Innate immunity is suppressed"
+      ],
+      "correct_option": "A",
+      "explanation": "The secondary immune response is faster and stronger due to immunological memory. Memory B and T cells generated during the primary response are long-lived and rapidly proliferate and differentiate upon re-exposure to the same antigen. This is the basis of vaccination."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Which microorganism is used in the production of the immunosuppressant drug cyclosporin A?",
+      "options": [
+        "A) Penicillium chrysogenum",
+        "B) Saccharomyces cerevisiae",
+        "C) Streptomyces griseus",
+        "D) Tolypocladium inflatum"
+      ],
+      "correct_option": "D",
+      "explanation": "Cyclosporin A is produced by the fungus Tolypocladium inflatum (formerly Trichoderma polysporum). It is used as an immunosuppressant to prevent organ transplant rejection. Penicillium produces penicillin, Saccharomyces is used in fermentation, and Streptomyces griseus produces streptomycin."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Which of the following best describes the mechanism of action of HIV on the human immune system?",
+      "options": [
+        "A) HIV directly destroys red blood cells, causing anemia",
+        "B) HIV targets the liver, impairing antibody production",
+        "C) HIV infects and destroys helper T-lymphocytes (CD4+ cells), weakening cell-mediated immunity",
+        "D) HIV attacks neutrophils, reducing phagocytosis"
+      ],
+      "correct_option": "C",
+      "explanation": "HIV binds to CD4 receptors on helper T-lymphocytes, enters them, replicates, and eventually destroys them. This depletion of CD4+ T cells cripples both cell-mediated and (indirectly) humoral immunity, leading to AIDS."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "In a biogas plant, the methanogenic bacteria (methanogens) that produce methane are obligate anaerobes. Which of the following statements about them is INCORRECT?",
+      "options": [
+        "A) They belong to the domain Archaea",
+        "B) They produce methane from acetate, H2, and CO2",
+        "C) They are aerobic bacteria that oxidize organic waste",
+        "D) They are found in the rumen of cattle and in anaerobic sludge"
+      ],
+      "correct_option": "C",
+      "explanation": "Methanogens are obligate ANAEROBES (option C is incorrect). They belong to Archaea, produce methane from substrates like acetate/H2/CO2, and are found in rumen and anaerobic digesters. Aerobic bacteria (e.g., Bacillus) handle the initial aerobic decomposition stages."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "The enzyme restriction endonuclease functions by:",
+      "options": [
+        "A) Cutting DNA at specific recognition sequences",
+        "B) Adding nucleotides to the 3' end of DNA",
+        "C) Joining DNA fragments by forming phosphodiester bonds",
+        "D) Unwinding the DNA double helix"
+      ],
+      "correct_option": "A",
+      "explanation": "Restriction endonucleases (e.g., EcoRI, HindIII) recognize specific palindromic sequences in DNA and cut both strands at or near these sites. They are used as molecular scissors in genetic engineering."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of a genetically modified organism (GMO)?",
+      "options": [
+        "A) A plant produced by traditional cross-breeding",
+        "B) A cow that has been selectively bred for high milk yield",
+        "C) Bt cotton containing the Bacillus thuringiensis toxin gene",
+        "D) A hybrid corn variety developed by cross-pollination"
+      ],
+      "correct_option": "C",
+      "explanation": "Bt cotton is a transgenic GMO — it contains a gene from Bacillus thuringiensis introduced through recombinant DNA technology. Traditional breeding, selective breeding, and hybridization do not involve direct genetic modification using biotechnology tools."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "In recombinant DNA technology, the function of a vector is to:",
+      "options": [
+        "A) Cut the donor DNA into fragments",
+        "B) Identify recombinant colonies on agar plates",
+        "C) Sequence the inserted gene",
+        "D) Carry the foreign DNA into a host cell and enable its replication"
+      ],
+      "correct_option": "D",
+      "explanation": "A vector (e.g., plasmid, phage, cosmid) carries the foreign DNA into the host cell and enables its replication and expression. Restriction enzymes cut DNA, selectable markers identify recombinants, and sequencing is done by other methods."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Insulin produced by recombinant DNA technology (Humulin) differs from earlier pork/beef insulin in that it:",
+      "options": [
+        "A) Is extracted from animal pancreases",
+        "B) Is produced by genetically modified E. coli or yeast",
+        "C) Is a completely synthetic hormone made by chemical methods",
+        "D) Is administered by injection only"
+      ],
+      "correct_option": "B",
+      "explanation": "Humulin (recombinant human insulin) is produced by genetically engineered E. coli or Saccharomyces cerevisiae carrying the human insulin gene. Earlier insulin was extracted from pork/beef pancreases, causing allergic reactions in some patients."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which of the following techniques is used to amplify a specific DNA sequence in vitro?",
+      "options": [
+        "A) Southern blotting",
+        "B) Gel electrophoresis",
+        "C) Polymerase Chain Reaction (PCR)",
+        "D) Western blotting"
+      ],
+      "correct_option": "C",
+      "explanation": "PCR amplifies specific DNA sequences using thermal cycling and DNA polymerase. Southern blotting detects DNA, gel electrophoresis separates DNA by size, and Western blotting detects proteins."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Gene therapy is used to treat genetic disorders by:",
+      "options": [
+        "A) Suppressing the immune system",
+        "B) Replacing the defective gene with a functional copy",
+        "C) Killing defective cells",
+        "D) Synthesizing new proteins from mRNA"
+      ],
+      "correct_option": "B",
+      "explanation": "Gene therapy involves introducing a functional copy of a gene to replace or supplement a defective gene. It has been used to treat disorders like ADA deficiency (adenosine deaminase deficiency) and severe combined immunodeficiency (SCID)."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which selectable marker is commonly used in plant transformation vectors to identify transformed cells?",
+      "options": [
+        "A) Neomycin phosphotransferase II (nptII) conferring kanamycin resistance",
+        "B) Ampicillin resistance gene (ampR)",
+        "C) Beta-galactosidase (lacZ)",
+        "D) Green fluorescent protein (GFP) from jellyfish"
+      ],
+      "correct_option": "A",
+      "explanation": "The nptII gene (neomycin phosphotransferase II) conferring kanamycin resistance is commonly used as a selectable marker in plant transformation. AmpR and lacZ are bacterial markers, and GFP is a reporter gene (not a selectable marker for antibiotic resistance)."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "The polymerase chain reaction (PCR) requires all of the following EXCEPT:",
+      "options": [
+        "A) DNA ligase",
+        "B) DNA template",
+        "C) Primers (oligonucleotides)",
+        "D) Thermostable DNA polymerase (Taq polymerase)"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR requires template DNA, primers, dNTPs, and thermostable DNA polymerase (Taq). DNA ligase is NOT required — it is used in recombinant DNA technology to join DNA fragments, not in PCR."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Which characteristic of Type II restriction endonucleases makes them particularly valuable and widely used in recombinant DNA technology?",
+      "options": [
+        "A) They cleave DNA non-specifically at random locations thousands of base pairs away from the recognition site",
+        "B) They require ATP hydrolysis and S-adenosylmethionine as mandatory cofactors for cleavage",
+        "C) They cleave DNA at precise, specific palindromic recognition sequences without requiring ATP",
+        "D) They function simultaneously as both a restriction endonuclease and a methyltransferase enzyme"
+      ],
+      "correct_option": "C",
+      "explanation": "Type II restriction endonucleases cleave DNA at specific, fixed positions within or immediately adjacent to their palindromic recognition sequences, requiring only Mg2+ as a cofactor without requiring ATP. This sequence-specific cleavage produces defined, predictable sticky or blunt ends essential for recombinant DNA cloning. In contrast, Type I enzymes cleave randomly far from their recognition site and require ATP."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "RNA interference (RNAi) is used in biotechnology to silence specific genes. The mechanism involves:",
+      "options": [
+        "A) Binding of antisense DNA to mRNA to block translation",
+        "B) Methylation of DNA to prevent transcription",
+        "C) Removal of exons during splicing",
+        "D) Degradation of target mRNA by small interfering RNA (siRNA) guided by RISC"
+      ],
+      "correct_option": "D",
+      "explanation": "RNAi uses siRNA (small interfering RNA) that is incorporated into the RISC (RNA-induced silencing complex), which then guides the cleavage and degradation of complementary target mRNA. This silences gene expression post-transcriptionally."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "Which of the following best describes a population in ecological terms?",
+      "options": [
+        "A) All organisms of different species in a given area",
+        "B) All individuals of a species in a given area at a given time",
+        "C) All living and non-living components of an ecosystem",
+        "D) The total biomass of an ecosystem"
+      ],
+      "correct_option": "B",
+      "explanation": "A population is a group of individuals of the same species that live in a given area at the same time and can interbreed. Different species in an area form a community; living and non-living components form an ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "The primary source of energy for most ecosystems is:",
+      "options": [
+        "A) Solar radiation (sunlight)",
+        "B) Chemical energy from decomposers",
+        "C) Geothermal heat from Earth's core",
+        "D) Kinetic energy from wind"
+      ],
+      "correct_option": "A",
+      "explanation": "Solar radiation (sunlight) is the primary energy source for most ecosystems. Producers (plants, algae) convert solar energy into chemical energy via photosynthesis. The exception is deep-sea hydrothermal vent ecosystems, which use chemosynthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Biodiversity is highest in which of the following biomes?",
+      "options": [
+        "A) Tropical rainforest",
+        "B) Tundra",
+        "C) Temperate grassland",
+        "D) Hot desert"
+      ],
+      "correct_option": "A",
+      "explanation": "Tropical rainforests have the highest biodiversity due to warm temperatures, abundant rainfall, high productivity, and complex ecological niches. Tundra and deserts have low biodiversity; temperate grasslands are intermediate."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Which of the following is an abiotic factor in an ecosystem?",
+      "options": [
+        "A) Predation by wolves on deer",
+        "B) Soil pH affecting nutrient availability",
+        "C) Competition between two plant species for sunlight",
+        "D) Pollination of flowers by bees"
+      ],
+      "correct_option": "B",
+      "explanation": "Soil pH is an abiotic (non-living) factor that influences nutrient availability and plant growth. Predation, competition, and pollination are biotic (living) interactions."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "In a food chain with the sequence: Grass → Grasshopper → Frog → Snake → Hawk, the secondary consumer is:",
+      "options": [
+        "A) Grasshopper",
+        "B) Snake",
+        "C) Hawk",
+        "D) Frog"
+      ],
+      "correct_option": "D",
+      "explanation": "Grass (producer) → Grasshopper (primary consumer) → Frog (secondary consumer) → Snake (tertiary consumer) → Hawk (quaternary consumer). The secondary consumer is the frog."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of ex situ conservation?",
+      "options": [
+        "A) National parks and wildlife sanctuaries",
+        "B) Seed banks and botanical gardens",
+        "C) Biosphere reserves",
+        "D) Marine protected areas"
+      ],
+      "correct_option": "B",
+      "explanation": "Ex situ conservation involves protecting species outside their natural habitat — seed banks, botanical gardens, zoos, and cryopreservation. In situ conservation (national parks, sanctuaries, biosphere reserves, marine protected areas) protects species within their natural habitats."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "According to the logistic growth model (Verhulst-Pearl), population growth rate decreases when:",
+      "options": [
+        "A) The population size is far below carrying capacity (K)",
+        "B) Resources are unlimited",
+        "C) Population size approaches carrying capacity (K)",
+        "D) The intrinsic rate of increase (r) is maximized"
+      ],
+      "correct_option": "C",
+      "explanation": "In the logistic model dN/dt = rN(K-N)/K, growth rate decreases as N approaches K due to resource limitation. When N << K, growth is exponential. Unlimited resources and high r would increase growth rate."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "In an ecosystem, the pyramid of numbers is inverted in which of the following cases?",
+      "options": [
+        "A) Grassland ecosystem",
+        "B) Aquatic ecosystem with phytoplankton",
+        "C) Forest ecosystem with large trees and few herbivores",
+        "D) Single large tree supporting many insects and birds"
+      ],
+      "correct_option": "D",
+      "explanation": "An inverted pyramid of numbers occurs when a single large producer (tree) supports numerous smaller consumers (insects, birds). In grassland, the pyramid is upright. In aquatic ecosystems, the pyramid of biomass may be inverted, not numbers."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "The species-area relationship, as described by the equation S = cA^z, indicates that:",
+      "options": [
+        "A) Species richness decreases linearly with area",
+        "B) Doubling the area always doubles the number of species",
+        "C) Species richness increases with area, with z typically ranging from 0.1 to 0.3 on a log-log scale",
+        "D) Larger areas have fewer species due to competition"
+      ],
+      "correct_option": "C",
+      "explanation": "The species-area relationship S = cA^z shows that species richness (S) increases with area (A). On a log-log scale, z typically ranges from 0.1 to 0.3, meaning doubling the area increases species by 10-23%, not doubling it. The relationship is curvilinear, not linear or inverse."
+    },
+    {
+      "id": "CUET_BIO_2026_P4_L4_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "Which of the following best explains why only about 10% of energy is transferred from one trophic level to the next?",
+      "options": [
+        "A) Energy is lost as heat due to metabolic activities, and not all biomass at one level is consumed",
+        "B) Organisms at higher trophic levels are less efficient at hunting",
+        "C) Producers absorb only 10% of sunlight",
+        "D) Decomposers consume 90% of the energy"
+      ],
+      "correct_option": "A",
+      "explanation": "The 10% rule (Lindeman's law) reflects that much energy is lost as heat due to respiration and metabolism, and not all biomass at a lower trophic level is consumed by the next level. Producers actually use only 1-5% of sunlight (not the 90% figure). Decomposers consume detritus, not 90% of energy."
+    }
+  ]
+}

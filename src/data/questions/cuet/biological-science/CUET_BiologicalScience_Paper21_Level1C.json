@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P21_L1C",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 21,
+  "difficulty_level": "1C",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The outermost wall layer of a pollen grain is composed of:",
+      "options": [
+        "A) Sporopollenin",
+        "B) Pectin",
+        "C) Lignin",
+        "D) Cellulose"
+      ],
+      "correct_option": "A",
+      "explanation": "The exine of a pollen grain is composed of sporopollenin, the most resistant known organic material."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "In human females, the menstrual cycle typically lasts approximately:",
+      "options": [
+        "A) 14 days",
+        "B) 28 days",
+        "C) 42 days",
+        "D) 7 days"
+      ],
+      "correct_option": "B",
+      "explanation": "The human menstrual cycle typically spans about 28 days, though normal range is 21-35 days."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "The formation of megaspores from the megaspore mother cell by meiosis is called:",
+      "options": [
+        "A) Megagametogenesis",
+        "B) Microsporogenesis",
+        "C) Embryogenesis",
+        "D) Megasporogenesis"
+      ],
+      "correct_option": "D",
+      "explanation": "Megasporogenesis is the formation of megaspores from megaspore mother cells via meiotic division."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "The part of a sperm that provides energy for its motility is the:",
+      "options": [
+        "A) Middle piece",
+        "B) Head",
+        "C) Acrosome",
+        "D) Tail"
+      ],
+      "correct_option": "A",
+      "explanation": "The middle piece contains numerous mitochondria that provide ATP for sperm movement."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Amniocentesis is primarily used to detect:",
+      "options": [
+        "A) Blood group of fetus",
+        "B) Sex of the fetus only",
+        "C) Genetic disorders in fetus",
+        "D) Rh factor only"
+      ],
+      "correct_option": "C",
+      "explanation": "Amniocentesis analyzes fetal cells from amniotic fluid to detect chromosomal and genetic disorders."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Double fertilization involving fusion of one male gamete with egg and another with polar nuclei is characteristic of:",
+      "options": [
+        "A) Angiosperms",
+        "B) Pteridophytes",
+        "C) Bryophytes",
+        "D) Gymnosperms"
+      ],
+      "correct_option": "A",
+      "explanation": "Double fertilization (zygote + triploid endosperm formation) is a hallmark of angiosperms."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "Fimbriae are finger-like projections found at the edges of which structure?",
+      "options": [
+        "A) Cervix",
+        "B) Ovary",
+        "C) Uterine tube (fallopian tube)",
+        "D) Uterus"
+      ],
+      "correct_option": "C",
+      "explanation": "Fimbriae are finger-like projections at the infundibulum of the uterine tube that capture the released ovum."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The Copper-T intrauterine contraceptive device prevents pregnancy mainly by:",
+      "options": [
+        "A) Thickening cervical mucus",
+        "B) Blocking fallopian tubes",
+        "C) Suppressing ovulation",
+        "D) Releasing copper ions that impair sperm motility"
+      ],
+      "correct_option": "D",
+      "explanation": "Copper-T releases copper ions that create a spermicidal environment, impairing sperm motility."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Lactational amenorrhea acts as a natural contraceptive because breastfeeding:",
+      "options": [
+        "A) Destroys ovarian follicles",
+        "B) Suppresses gonadotropin release and ovulation",
+        "C) Thickens cervical mucus",
+        "D) Increases estrogen levels"
+      ],
+      "correct_option": "B",
+      "explanation": "Intensive breastfeeding suppresses GnRH and gonadotropin release, preventing ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Cleistogamy refers to the phenomenon where:",
+      "options": [
+        "A) Self-pollination occurs in unopened flowers",
+        "B) Flowers lack either stamens or carpels",
+        "C) Flowers open widely for cross-pollination",
+        "D) Pollen from one flower pollinates a different plant"
+      ],
+      "correct_option": "A",
+      "explanation": "Cleistogamy involves self-pollination within closed, unopened flowers, ensuring automatic seed set."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q11",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "The total number of chromosomes in a normal human diploid cell is:",
+      "options": [
+        "A) 48",
+        "B) 44",
+        "C) 46",
+        "D) 23"
+      ],
+      "correct_option": "C",
+      "explanation": "Normal human somatic cells are diploid with 46 chromosomes (23 pairs)."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q12",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "Which nitrogenous base is present in RNA but absent in DNA?",
+      "options": [
+        "A) Adenine",
+        "B) Guanine",
+        "C) Uracil",
+        "D) Cytosine"
+      ],
+      "correct_option": "C",
+      "explanation": "RNA contains uracil instead of thymine; uracil pairs with adenine in RNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q13",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "A heritable change in the nucleotide sequence of DNA is called:",
+      "options": [
+        "A) Transduction",
+        "B) Transcription",
+        "C) Mutation",
+        "D) Translation"
+      ],
+      "correct_option": "C",
+      "explanation": "A mutation is any heritable change in the DNA sequence, including substitutions, insertions, and deletions."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q14",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "A test cross involves crossing an individual with dominant phenotype with:",
+      "options": [
+        "A) A homozygous recessive individual",
+        "B) Any random individual",
+        "C) Another dominant individual",
+        "D) A heterozygous individual"
+      ],
+      "correct_option": "A",
+      "explanation": "Test cross determines the genotype of a dominant phenotype individual by crossing with a recessive homozygote."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q15",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "During DNA replication, the enzyme that unwinds the double helix by breaking hydrogen bonds between base pairs is:",
+      "options": [
+        "A) DNA polymerase",
+        "B) Helicase",
+        "C) Primase",
+        "D) DNA ligase"
+      ],
+      "correct_option": "B",
+      "explanation": "Helicase unwinds the DNA double helix at the replication fork by breaking hydrogen bonds between bases."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q16",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "Darwin's finches of the Galapagos Islands illustrate which evolutionary process?",
+      "options": [
+        "A) Convergent evolution",
+        "B) Coevolution",
+        "C) Parallel evolution",
+        "D) Adaptive radiation"
+      ],
+      "correct_option": "D",
+      "explanation": "Darwin's finches evolved from a common ancestor into multiple species with different beak shapes for different food sources."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q17",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "Down syndrome in humans is caused by:",
+      "options": [
+        "A) Tetrasomy of chromosome 18",
+        "B) Monosomy of chromosome 21",
+        "C) Triploidy",
+        "D) Trisomy of chromosome 21"
+      ],
+      "correct_option": "D",
+      "explanation": "Down syndrome is caused by trisomy 21 (three copies of chromosome 21)."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q18",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "During translation, the amino acid is transferred to the ribosome by which molecule?",
+      "options": [
+        "A) rRNA",
+        "B) DNA",
+        "C) mRNA",
+        "D) tRNA"
+      ],
+      "correct_option": "D",
+      "explanation": "tRNA carries specific amino acids and matches its anticodon with mRNA codons during protein synthesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q19",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "In a dihybrid cross between RrYy and RrYy individuals, the expected phenotypic ratio of offspring is:",
+      "options": [
+        "A) 3:1",
+        "B) 9:3:3:1",
+        "C) 1:1:1:1",
+        "D) 1:2:1"
+      ],
+      "correct_option": "B",
+      "explanation": "A dihybrid cross of heterozygotes yields 9:3:3:1 phenotypic ratio for two independently assorting genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q20",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "The untranslated regions (UTRs) at the ends of mRNA function to:",
+      "options": [
+        "A) Regulate mRNA stability and translation",
+        "B) Bind tRNA directly",
+        "C) Code for signal peptides",
+        "D) Prevent DNA replication"
+      ],
+      "correct_option": "A",
+      "explanation": "UTRs do not code for proteins but regulate mRNA stability, localization, and ribosome binding."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q21",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "Which concept proposes that evolution occurs through slow, incremental changes over long periods rather than sudden jumps?",
+      "options": [
+        "A) Gradualism",
+        "B) Punctuated equilibrium",
+        "C) Saltationism",
+        "D) Catastrophism"
+      ],
+      "correct_option": "A",
+      "explanation": "Gradualism proposes that evolution occurs slowly and steadily over long periods, as opposed to punctuated equilibrium."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q22",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Lymphatic filariasis (elephantiasis) is caused by which parasite?",
+      "options": [
+        "A) Entamoeba histolytica",
+        "B) Plasmodium vivax",
+        "C) Wuchereria bancrofti",
+        "D) Ascaris lumbricoides"
+      ],
+      "correct_option": "C",
+      "explanation": "Wuchereria bancrofti is the filarial worm that causes elephantiasis, transmitted by female Culex mosquitoes."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q23",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "The bacterium responsible for the characteristic flavor and holes in Swiss cheese is:",
+      "options": [
+        "A) Bacillus subtilis",
+        "B) Lactobacillus bulgaricus",
+        "C) Propionibacterium shermanii",
+        "D) Streptococcus thermophilus"
+      ],
+      "correct_option": "C",
+      "explanation": "Propionibacterium shermanii converts lactic acid to propionic acid and CO2, creating Swiss cheese holes and flavor."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q24",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Plasmodium, the malarial parasite, is transmitted to humans through the bite of:",
+      "options": [
+        "A) Culex mosquito",
+        "B) Anopheles mosquito",
+        "C) Mansonia mosquito",
+        "D) Aedes mosquito"
+      ],
+      "correct_option": "B",
+      "explanation": "Plasmodium is transmitted to humans through the bite of female Anopheles mosquitoes."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q25",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Blood group O negative is called the universal donor because its red blood cells lack:",
+      "options": [
+        "A) Hemoglobin",
+        "B) Anti-A and anti-B antibodies",
+        "C) A, B, and Rh D antigens",
+        "D) Plasma proteins"
+      ],
+      "correct_option": "C",
+      "explanation": "O negative RBCs lack A, B, and Rh D antigens, preventing agglutination in any ABO or Rh blood group recipient."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q26",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Aspergillus niger is the organism commercially used for the production of:",
+      "options": [
+        "A) Citric acid",
+        "B) Acetic acid",
+        "C) Lactic acid",
+        "D) Butyric acid"
+      ],
+      "correct_option": "A",
+      "explanation": "Aspergillus niger is the primary fungus used for industrial citric acid production."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q27",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which leukocyte releases histamine during allergic and inflammatory responses?",
+      "options": [
+        "A) Basophil",
+        "B) Eosinophil",
+        "C) Lymphocyte",
+        "D) Neutrophil"
+      ],
+      "correct_option": "A",
+      "explanation": "Basophils release histamine and serotonin during allergic and inflammatory responses."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q28",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Ringworm infection of the skin is caused by certain species of:",
+      "options": [
+        "A) Protozoa",
+        "B) Viruses",
+        "C) Bacteria",
+        "D) Fungi"
+      ],
+      "correct_option": "D",
+      "explanation": "Ringworm (tinea) is caused by dermatophyte fungi such as Trichophyton, Microsporum, and Epidermophyton."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q29",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "During secondary sewage treatment, the biological oxygen demand (BOD) is reduced mainly by:",
+      "options": [
+        "A) Chemical coagulants",
+        "B) Strictly anaerobic bacteria",
+        "C) High-temperature incineration",
+        "D) Aerobic heterotrophic microbes"
+      ],
+      "correct_option": "D",
+      "explanation": "Secondary treatment uses aerobic microbes in aeration tanks to consume organic matter, reducing BOD."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q30",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "The antibody class that is pentameric in structure and is the first to be produced during a primary immune response is:",
+      "options": [
+        "A) IgM",
+        "B) IgE",
+        "C) IgA",
+        "D) IgG"
+      ],
+      "correct_option": "A",
+      "explanation": "IgM is a pentamer and the first antibody produced during a primary immune response."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q31",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "A high BOD value in a water sample indicates:",
+      "options": [
+        "A) Low microbial activity",
+        "B) High organic pollution",
+        "C) High dissolved oxygen content",
+        "D) High water clarity"
+      ],
+      "correct_option": "B",
+      "explanation": "High BOD indicates a large amount of organic matter that aerobic microbes are decomposing."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q32",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "The first restriction endonuclease enzyme ever isolated was:",
+      "options": [
+        "A) EcoRI",
+        "B) BamHI",
+        "C) HindII",
+        "D) HindIII"
+      ],
+      "correct_option": "C",
+      "explanation": "HindII was the first restriction enzyme to be discovered and isolated."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q33",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Genetically modified organisms that contain foreign DNA are called:",
+      "options": [
+        "A) Polyploid organisms",
+        "B) Mutated organisms",
+        "C) Transgenic organisms",
+        "D) Hybrid organisms"
+      ],
+      "correct_option": "C",
+      "explanation": "Transgenic organisms contain foreign DNA inserted through genetic engineering."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q34",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "In agarose gel electrophoresis, DNA fragments migrate toward the:",
+      "options": [
+        "A) Positive electrode (anode)",
+        "B) Remain stationary",
+        "C) Negative electrode (cathode)",
+        "D) Center of the gel"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA is negatively charged due to phosphate groups and migrates toward the positive electrode."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q35",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Dolly, the first cloned mammal, was a:",
+      "options": [
+        "A) Cow",
+        "B) Goat",
+        "C) Mouse",
+        "D) Sheep"
+      ],
+      "correct_option": "D",
+      "explanation": "Dolly the sheep was cloned in 1996 from an adult somatic cell using somatic cell nuclear transfer."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q36",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Which enzyme forms phosphodiester bonds between two DNA fragments?",
+      "options": [
+        "A) Helicase",
+        "B) DNA ligase",
+        "C) DNA polymerase",
+        "D) Restriction endonuclease"
+      ],
+      "correct_option": "B",
+      "explanation": "DNA ligase catalyzes the formation of phosphodiester bonds between adjacent DNA fragments."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q37",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Biopiracy is best defined as:",
+      "options": [
+        "A) Synthetic biology research",
+        "B) Unauthorized patenting of biological resources/traditional knowledge",
+        "C) Use of biological control agents",
+        "D) Production of bioweapons"
+      ],
+      "correct_option": "B",
+      "explanation": "Biopiracy involves the unauthorized patenting of biological resources or indigenous knowledge."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q38",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "All of the following are commonly used genetic engineering vectors EXCEPT:",
+      "options": [
+        "A) Bacteriophages",
+        "B) Plasmids",
+        "C) Cosmids",
+        "D) Ribosomes"
+      ],
+      "correct_option": "D",
+      "explanation": "Ribosomes are translation machinery, not DNA vectors. Plasmids, bacteriophages, and cosmids are all used vectors."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q39",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "PCR uses a thermostable DNA polymerase obtained from which organism?",
+      "options": [
+        "A) Escherichia coli",
+        "B) Saccharomyces cerevisiae",
+        "C) Bacillus subtilis",
+        "D) Thermus aquaticus"
+      ],
+      "correct_option": "D",
+      "explanation": "Taq polymerase from Thermus aquaticus survives the high denaturation temperatures in PCR."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q40",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which blotting technique uses antibodies for detection of specific proteins?",
+      "options": [
+        "A) Southern blot",
+        "B) Western blot",
+        "C) Northern blot",
+        "D) Dot blot"
+      ],
+      "correct_option": "B",
+      "explanation": "Western blotting detects specific proteins using labeled antibodies after gel electrophoresis and transfer."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q41",
+      "topic": "Biotechnology & its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which of the following statements about Golden Rice is INCORRECT?",
+      "options": [
+        "A) It is a transgenic variety of wheat",
+        "B) It is genetically modified to produce beta-carotene",
+        "C) It addresses vitamin A deficiency",
+        "D) It was developed by Ingo Potrykus and Peter Beyer"
+      ],
+      "correct_option": "A",
+      "explanation": "Golden Rice is a transgenic variety of RICE, not wheat, engineered to produce beta-carotene."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q42",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "Detritivores are organisms that:",
+      "options": [
+        "A) Hunt other animals",
+        "B) Feed on living plants",
+        "C) Feed on dead and decaying organic matter",
+        "D) Produce organic compounds"
+      ],
+      "correct_option": "C",
+      "explanation": "Detritivores consume detritus (dead and decaying organic matter), playing a key role in nutrient cycling."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q43",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "The highest trophic level in most terrestrial food chains is occupied by:",
+      "options": [
+        "A) Primary carnivores",
+        "B) Tertiary carnivores",
+        "C) Secondary carnivores",
+        "D) Herbivores"
+      ],
+      "correct_option": "B",
+      "explanation": "Tertiary carnivores (top predators) occupy the highest trophic level with the least available energy."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q44",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "The sum of all areas on Earth where living organisms are found is called the:",
+      "options": [
+        "A) Hydrosphere",
+        "B) Biosphere",
+        "C) Lithosphere",
+        "D) Atmosphere"
+      ],
+      "correct_option": "B",
+      "explanation": "The biosphere encompasses all regions where life exists across the atmosphere, hydrosphere, and lithosphere."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q45",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "The pyramid of energy in an ecosystem is always:",
+      "options": [
+        "A) Inverted",
+        "B) Varies with ecosystem type",
+        "C) Upright",
+        "D) Spindle-shaped"
+      ],
+      "correct_option": "C",
+      "explanation": "Energy pyramids are always upright because only about 10% of energy transfers to the next trophic level."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q46",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "The physical environment where an organism lives is specifically called its:",
+      "options": [
+        "A) Ecosystem",
+        "B) Habitat",
+        "C) Niche",
+        "D) Biome"
+      ],
+      "correct_option": "B",
+      "explanation": "Habitat is the physical location where an organism lives; niche is its functional role."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q47",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Ecology is best defined as the study of:",
+      "options": [
+        "A) Cellular processes",
+        "B) Animal behavior",
+        "C) Plant taxonomy",
+        "D) Interactions between organisms and environment"
+      ],
+      "correct_option": "D",
+      "explanation": "Ecology is the scientific study of interactions among organisms and between organisms and their environment."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q48",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "When resources are unlimited, a population grows exponentially producing a growth curve shaped like the letter:",
+      "options": [
+        "A) J",
+        "B) U",
+        "C) S",
+        "D) L"
+      ],
+      "correct_option": "A",
+      "explanation": "Exponential growth produces a J-shaped curve; logistic growth produces an S-shaped curve."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q49",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "A species whose impact on the community is far greater than its abundance would suggest is called:",
+      "options": [
+        "A) Pioneer species",
+        "B) Dominant species",
+        "C) Invasive species",
+        "D) Keystone species"
+      ],
+      "correct_option": "D",
+      "explanation": "Keystone species have a disproportionate impact on ecosystem structure relative to their low abundance."
+    },
+    {
+      "id": "CUET_BIO_2026_P21_L1C_Q50",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "The species-area relationship is S = cA^z. If z = 0.25 and the area increases 100-fold, by what factor does species richness increase?",
+      "options": [
+        "A) 10",
+        "B) 100",
+        "C) 3.16",
+        "D) 1.58"
+      ],
+      "correct_option": "C",
+      "explanation": "100^0.25 = 10^(2*0.25) = 10^0.5 = sqrt(10) approximately 3.16."
+    }
+  ]
+}

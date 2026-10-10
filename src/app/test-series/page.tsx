@@ -24,7 +24,7 @@ export default function TestSeriesPage() {
         data={{
           "@context": "https://schema.org",
           "@type": "ItemList",
-          name: "TestDisha Mock Test Series",
+          name: "OurMocks Test Series",
           description:
             "Explore mock test series for CUET UG, IISER IAT, NEST and COMEDK UGET.",
           numberOfItems: products.length,

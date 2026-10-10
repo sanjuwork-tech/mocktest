@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P21_L2C",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 21,
+  "difficulty_level": "2C",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Scope of Microeconomics",
+      "difficulty": "medium",
+      "question": "Which of the following topics is studied under Microeconomics rather than Macroeconomics?",
+      "options": [
+        "A) Aggregate national price level inflation",
+        "B) Determination of the price of an individual car model",
+        "C) Total employment in the country",
+        "D) Gross Domestic Product of the nation"
+      ],
+      "correct_option": "B",
+      "explanation": "Microeconomics studies individual economic units and specific markets, such as the pricing of an individual commodity or behaviour of an individual firm."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Opportunity Cost",
+      "difficulty": "easy",
+      "question": "The value of the next best alternative sacrifice made when a choice is undertaken is defined as:",
+      "options": [
+        "A) Marginal revenue",
+        "B) Opportunity cost",
+        "C) Explicit production cost",
+        "D) Sunk fixed expenditure"
+      ],
+      "correct_option": "B",
+      "explanation": "Opportunity cost is defined in economics as the cost of the next best alternative foregone when resources are allocated to a chosen purpose."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Monotonic Preferences",
+      "difficulty": "medium",
+      "question": "A consumer's preferences are called 'monotonic' if, between any two bundles, the consumer always prefers the bundle that contains:",
+      "options": [
+        "A) Fewer total units of both goods combined",
+        "B) More of at least one good and no less of the other good",
+        "C) Exactly equal amounts of all goods",
+        "D) Only the good with the lowest monetary price"
+      ],
+      "correct_option": "B",
+      "explanation": "Monotonic preferences imply that a consumer always prefers more of a good to less (non-satiation), choosing bundles with more of at least one good and no less of any other."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Indifference Map",
+      "difficulty": "medium",
+      "question": "A graphical collection or family of indifference curves representing different levels of consumer satisfaction is termed an:",
+      "options": [
+        "A) Isoquant diagram",
+        "B) Indifference map",
+        "C) Expansion path",
+        "D) Production frontier"
+      ],
+      "correct_option": "B",
+      "explanation": "An indifference map is a set of indifference curves where each curve represents a distinct level of consumer satisfaction, with higher curves denoting higher utility."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Law of Demand Statement",
+      "difficulty": "medium",
+      "question": "The Law of Demand states that, other things remaining constant, there exists:",
+      "options": [
+        "A) A direct positive relationship between price and quantity supplied",
+        "B) An inverse relationship between the price of a commodity and its quantity demanded",
+        "C) An inverse relationship between consumer income and consumption",
+        "D) A constant demand at all conceivable market prices"
+      ],
+      "correct_option": "B",
+      "explanation": "The Law of Demand states that ceteris paribus (other factors held constant), as the price of a good rises, its quantity demanded falls, and vice versa."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q06",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Market Demand Derivation",
+      "difficulty": "medium",
+      "question": "Market demand for a good is obtained by which geometric operation on individual consumer demand curves?",
+      "options": [
+        "A) Vertical summation of consumer reservation prices",
+        "B) Horizontal summation of all individual demand curves at each price",
+        "C) Calculating the average slope of all budget lines",
+        "D) Multiplying individual demands by the inflation rate"
+      ],
+      "correct_option": "B",
+      "explanation": "Market demand curve is derived through the horizontal summation of quantities demanded by all individual buyers in the market at each prevailing price."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q07",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Total Outlay Inelastic Demand",
+      "difficulty": "hard",
+      "question": "According to the total outlay method, if an increase in the price of a commodity leads to an increase in total expenditure by consumers, the price elasticity of demand is:",
+      "options": [
+        "A) Elastic (e_p > 1)",
+        "B) Inelastic (e_p < 1)",
+        "C) Unitary (e_p = 1)",
+        "D) Perfectly elastic (e_p = infinity)"
+      ],
+      "correct_option": "B",
+      "explanation": "When price and total expenditure move in the same direction (both rise or both fall), demand is price inelastic (e_p < 1)."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q08",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Average Product Formula",
+      "difficulty": "easy",
+      "question": "Average Product of labour (AP_L) is calculated by dividing:",
+      "options": [
+        "A) Change in Total Product by change in capital",
+        "B) Total Product by total units of labour input employed (TP / L)",
+        "C) Marginal Product by total fixed cost",
+        "D) Total variable cost by price of output"
+      ],
+      "correct_option": "B",
+      "explanation": "Average Product is total output produced per unit of the variable factor employed: AP_L = TP / L."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "TFC at Zero Output",
+      "difficulty": "medium",
+      "question": "At zero level of output, what is the value of Total Variable Cost (TVC) and Total Fixed Cost (TFC)?",
+      "options": [
+        "A) Both TVC and TFC are equal to zero",
+        "B) TVC is zero, while TFC is positive and constant",
+        "C) TVC is positive and TFC is zero",
+        "D) TFC becomes negative"
+      ],
+      "correct_option": "B",
+      "explanation": "Fixed costs must be paid even if production is completely shut down (TFC > 0). Variable costs vary directly with output, so TVC = 0 when output is zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q10",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Total Cost Formula",
+      "difficulty": "easy",
+      "question": "In the short run, Total Cost (TC) is the algebraic sum of:",
+      "options": [
+        "A) Average Cost and Marginal Cost",
+        "B) Total Fixed Cost and Total Variable Cost (TFC + TVC)",
+        "C) Total Revenue and Operating Profit",
+        "D) Implicit cost and normal profit"
+      ],
+      "correct_option": "B",
+      "explanation": "Total Cost in the short run comprises fixed overhead expenses and variable operating expenses: TC = TFC + TVC."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q11",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Average Revenue and Price",
+      "difficulty": "medium",
+      "question": "Why is Average Revenue (AR) always identically equal to the per-unit market price of the commodity?",
+      "options": [
+        "A) Because firms never pay corporate profit taxes",
+        "B) Because marginal cost is always constant",
+        "C) Because AR is total revenue divided by quantity (TR / Q = (P * Q) / Q = P)",
+        "D) Because total fixed costs cancel out in long run"
+      ],
+      "correct_option": "C",
+      "explanation": "By definition, Average Revenue = Total Revenue / Quantity = (Price * Quantity) / Quantity = Price. Hence, AR is always equal to price."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q12",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Law of Supply",
+      "difficulty": "easy",
+      "question": "The Law of Supply states that, ceteris paribus, when the market price of a commodity increases:",
+      "options": [
+        "A) The supply curve shifts bodily to the left",
+        "B) Quantity supplied decreases to zero",
+        "C) Quantity supplied increases, resulting in an upward-sloping supply curve",
+        "D) Production technology immediately becomes obsolete"
+      ],
+      "correct_option": "C",
+      "explanation": "Higher prices offer greater profit margins to producers, inducing them to offer larger quantities for sale (direct positive relationship between price and quantity supplied)."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Features of Perfect Competition",
+      "difficulty": "easy",
+      "question": "Which of the following is a primary characteristic of a perfectly competitive market?",
+      "options": [
+        "A) Heavy expenditures on competitive brand advertising",
+        "B) A single dominant producer setting arbitrary prices",
+        "C) Large number of buyers and sellers trading a homogeneous product",
+        "D) Severe legal barriers preventing entry of new firms"
+      ],
+      "correct_option": "C",
+      "explanation": "Perfect competition is defined by numerous atomistic buyers and sellers, standardized homogeneous products, free entry and exit, and perfect information."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Ceiling Fair Price Shops",
+      "difficulty": "medium",
+      "question": "When the government fixes a price ceiling on foodgrains below the equilibrium market price, distribution is typically executed through:",
+      "options": [
+        "A) International foreign exchange brokerages",
+        "B) Unregulated private e-commerce auctions",
+        "C) Fair Price Shops under the Public Distribution System (PDS)",
+        "D) Stock exchange clearing corporations"
+      ],
+      "correct_option": "C",
+      "explanation": "To ensure equitable distribution of subsidized foodgrains and prevent black marketing under a price ceiling, governments utilize Fair Price Shops (ration shops) under PDS."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Floor Agricultural Crops",
+      "difficulty": "easy",
+      "question": "A price floor legislated by the government to assure farmers of a remunerative minimum price for their harvest is known as:",
+      "options": [
+        "A) Statutory Liquidity Ratio (SLR)",
+        "B) Maximum Retail Price (MRP)",
+        "C) Minimum Support Price (MSP)",
+        "D) Cash Reserve Ratio (CRR)"
+      ],
+      "correct_option": "C",
+      "explanation": "MSP is a price floor set above the free market clearing price to guarantee farmers against distress selling during bumper harvest gluts."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Equilibrium Price Determination",
+      "difficulty": "easy",
+      "question": "In a free competitive market, the equilibrium price is determined at the intersection of:",
+      "options": [
+        "A) Budget line and indifference curve",
+        "B) Average cost curve and marginal cost curve",
+        "C) Market demand curve and market supply curve",
+        "D) Total revenue curve and tax schedule"
+      ],
+      "correct_option": "C",
+      "explanation": "Market equilibrium occurs where the aggregate quantity demanded by consumers equals the aggregate quantity supplied by producers (market demand = market supply)."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Real Flow vs Money Flow",
+      "difficulty": "medium",
+      "question": "In the circular flow of income, the physical flow of factor services (land, labour, capital) from households to firms and goods from firms to households is termed:",
+      "options": [
+        "A) Nominal financial flow",
+        "B) Money flow",
+        "C) Real flow",
+        "D) Capital transfer flow"
+      ],
+      "correct_option": "C",
+      "explanation": "Real flow refers to the physical movement of factor inputs from households to enterprises and finished goods and services from enterprises to households."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Stock vs Flow Examples",
+      "difficulty": "easy",
+      "question": "Which of the following economic variables is classified as a flow variable?",
+      "options": [
+        "A) Money supply in the banking system on March 31",
+        "B) Total wealth of a household on January 1",
+        "C) Monthly income of a teacher",
+        "D) Total inventory of machines in a factory at year-end"
+      ],
+      "correct_option": "C",
+      "explanation": "A flow variable is measured per unit of time (e.g., monthly income, annual output). Wealth, money supply, and machine inventory at a point in time are stocks."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Depreciation Definition",
+      "difficulty": "easy",
+      "question": "Consumption of fixed capital during the routine process of production due to normal wear and tear and foreseen obsolescence is termed:",
+      "options": [
+        "A) Inventory accumulation",
+        "B) Capital formation",
+        "C) Depreciation",
+        "D) Unilateral factor transfer"
+      ],
+      "correct_option": "C",
+      "explanation": "Depreciation (consumption of fixed capital) measures the loss of value of fixed capital assets during production due to physical wear and tear and anticipated obsolescence."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Net Indirect Taxes",
+      "difficulty": "hard",
+      "question": "The difference between indirect taxes levied by the government and subsidies granted to producers is called:",
+      "options": [
+        "A) Mixed Income",
+        "B) Operating Surplus",
+        "C) Net Indirect Taxes (NIT)",
+        "D) Net Factor Income from Abroad"
+      ],
+      "correct_option": "C",
+      "explanation": "Net Indirect Taxes = Indirect Taxes - Subsidies. It bridges the valuation gap between Market Price and Factor Cost."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q21",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "National Income Aggregate Symbol",
+      "difficulty": "easy",
+      "question": "Which of the following macroeconomic aggregates is officially designated as 'National Income'?",
+      "options": [
+        "A) Net Domestic Product at Market Price (NDP_MP)",
+        "B) Gross Domestic Product at Market Price (GDP_MP)",
+        "C) Net National Product at Factor Cost (NNP_FC)",
+        "D) Gross National Product at Market Price (GNP_MP)"
+      ],
+      "correct_option": "C",
+      "explanation": "In national accounting, National Income is strictly defined as Net National Product at Factor Cost (NNP_FC)."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Barter Inconvenience",
+      "difficulty": "easy",
+      "question": "The essential prerequisite for trade to take place under a pure barter system without money is the:",
+      "options": [
+        "A) Creation of derivative bank deposits",
+        "B) Legal intervention of commercial banks",
+        "C) Availability of fiat paper currency",
+        "D) Double coincidence of wants"
+      ],
+      "correct_option": "D",
+      "explanation": "Barter requires double coincidence of wants: both parties must mutually desire the commodity the other person is offering in exchange."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "M1 Money Supply Components",
+      "difficulty": "medium",
+      "question": "Under the Reserve Bank of India's money supply classification, M1 is composed of Currency with the public + Demand deposits with banks and:",
+      "options": [
+        "A) Corporate equity shares",
+        "B) Time deposits with commercial banks",
+        "C) Post office recurring savings certificates",
+        "D) Other deposits with the RBI"
+      ],
+      "correct_option": "D",
+      "explanation": "M1 = Currency held by public + Demand deposits of commercial banks + Other deposits held with the Reserve Bank of India."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Currency Monopoly",
+      "difficulty": "easy",
+      "question": "In India, which institution has the sole legal monopoly right to issue currency notes (except one-rupee notes and coins)?",
+      "options": [
+        "A) Securities and Exchange Board of India (SEBI)",
+        "B) State Bank of India (SBI)",
+        "C) Ministry of Commerce and Industry",
+        "D) Reserve Bank of India (RBI)"
+      ],
+      "correct_option": "D",
+      "explanation": "The Reserve Bank of India is the central monetary authority with the exclusive sole authority to issue banknotes in India."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q25",
+      "topic": "Money and Banking",
+      "sub_topic": "Cash Reserve Ratio Definition",
+      "difficulty": "medium",
+      "question": "The Cash Reserve Ratio (CRR) refers to the minimum percentage of net demand and time liabilities that commercial banks must keep as cash reserves with:",
+      "options": [
+        "A) In their own local vault branches",
+        "B) The Union Ministry of Finance",
+        "C) The World Bank headquarters",
+        "D) The Reserve Bank of India"
+      ],
+      "correct_option": "D",
+      "explanation": "CRR is the statutory percentage of total deposits that commercial banks are legally mandated to deposit with the Reserve Bank of India in cash."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Autonomous Consumption",
+      "difficulty": "easy",
+      "question": "The baseline level of consumption expenditure that takes place even when personal disposable income is zero is called:",
+      "options": [
+        "A) Ex-post investment",
+        "B) Induced consumption",
+        "C) Marginal propensity to save",
+        "D) Autonomous consumption"
+      ],
+      "correct_option": "D",
+      "explanation": "Autonomous consumption represents minimum survival consumption expenditure that occurs independently of the level of income, financed through dissaving."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "MPC Formula",
+      "difficulty": "medium",
+      "question": "The Marginal Propensity to Consume (MPC) measures the ratio of:",
+      "options": [
+        "A) Total savings to personal disposable income",
+        "B) Total consumption to total national income (C / Y)",
+        "C) Change in savings to change in investment",
+        "D) Change in consumption to change in income (Delta C / Delta Y)"
+      ],
+      "correct_option": "D",
+      "explanation": "MPC is defined as the change in consumption expenditure resulting from a unit change in national income: MPC = Delta C / Delta Y."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier Calculation",
+      "difficulty": "hard",
+      "question": "If the Marginal Propensity to Consume (MPC) in an economy is 0.5, what is the value of the investment multiplier?",
+      "options": [
+        "A) 10",
+        "B) 5",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "Investment multiplier k = 1 / (1 - MPC) = 1 / (1 - 0.5) = 1 / 0.5 = 2."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q29",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Inflationary Gap",
+      "difficulty": "easy",
+      "question": "An inflationary gap in an economy emerges when actual aggregate demand exceeds aggregate supply at the:",
+      "options": [
+        "A) Point of maximum unemployment",
+        "B) Zero income level",
+        "C) Breakeven consumption point",
+        "D) Full employment level of output"
+      ],
+      "correct_option": "D",
+      "explanation": "An inflationary gap occurs when aggregate demand is higher than the aggregate supply corresponding to full employment of productive resources."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Revenue Receipts Definition",
+      "difficulty": "medium",
+      "question": "Government revenue receipts are receipts that neither create any liability nor cause any:",
+      "options": [
+        "A) Allocation to defense equipment",
+        "B) Increase in public welfare spending",
+        "C) Collection of direct income taxes",
+        "D) Reduction in the assets of the government"
+      ],
+      "correct_option": "D",
+      "explanation": "Revenue receipts are routine sovereign inflows (like taxes and fees) that do not create any future repayment liability and do not reduce government assets."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Non-Tax Revenue Examples",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of non-tax revenue for the central government?",
+      "options": [
+        "A) Corporate income tax",
+        "B) Goods and Services Tax (GST)",
+        "C) Personal income tax",
+        "D) Fees, fines, and dividends from public sector undertakings"
+      ],
+      "correct_option": "D",
+      "explanation": "Non-tax revenue comprises receipts from administrative charges, passport fees, penalties, escheat, interest receipts, and dividends from public enterprises."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Balance of Trade Definition",
+      "difficulty": "medium",
+      "question": "The Balance of Trade (merchandise balance) in the Balance of Payments accounts records the difference between:",
+      "options": [
+        "A) Direct taxes and indirect excise duties",
+        "B) Factor service payments and unilateral gifts",
+        "C) Capital inflows and foreign currency loans",
+        "D) Total value of merchandise exports and merchandise imports of goods"
+      ],
+      "correct_option": "D",
+      "explanation": "Balance of Trade = Value of merchandise exports of visible goods minus Value of merchandise imports of visible goods."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Fixed Exchange Rate Determination",
+      "difficulty": "hard",
+      "question": "Under a fixed exchange rate system, the official valuation of the domestic currency is determined and pegged by:",
+      "options": [
+        "A) Private foreign exchange retail dealers",
+        "B) Unregulated market forces of demand and supply",
+        "C) International commercial software corporations",
+        "D) The government or central monetary authority"
+      ],
+      "correct_option": "D",
+      "explanation": "Under a fixed exchange rate system, the central bank or government officially fixes and defends the exchange rate against an anchor currency or gold."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Colonial Feeder Economy",
+      "difficulty": "easy",
+      "question": "The primary economic objective of British colonial policies in India was to reduce the Indian economy into a mere:",
+      "options": [
+        "A) Autonomous industrialized socialist nation",
+        "B) Global financial center for commercial software",
+        "C) Dominant exporter of precision machine tools",
+        "D) Feeder economy supplying raw materials to British industries and consuming British manufactured factory goods"
+      ],
+      "correct_option": "D",
+      "explanation": "Colonial trade policies systematically transformed India into an exporter of raw materials (cotton, jute, indigo) to Britain and an importer of British finished industrial goods."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Handicrafts Decline Impact",
+      "difficulty": "easy",
+      "question": "The systematic decay of traditional Indian handicrafts during British colonial rule resulted in massive rural unemployment and:",
+      "options": [
+        "A) Complete abolition of land revenue taxes",
+        "B) Rapid establishment of modern indigenous electronics factories",
+        "C) A massive influx of gold bullion into Indian village guilds",
+        "D) Overcrowding of the agricultural sector as artisans turned into farm labourers"
+      ],
+      "correct_option": "D",
+      "explanation": "The destruction of handicraft industries forced millions of displaced rural artisans into agriculture, increasing the land-man ratio and causing agrarian distress."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Census History British India",
+      "difficulty": "easy",
+      "question": "The first official synchronous population census in British India was conducted in:",
+      "options": [
+        "A) 1881",
+        "B) 1947",
+        "C) 1901",
+        "D) 1921"
+      ],
+      "correct_option": "A",
+      "explanation": "The first comprehensive and synchronous decennial population census of India was carried out in 1881 under colonial administration."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Goals of Five Year Plans",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT one of the four common basic goals of India's Five-Year Plans?",
+      "options": [
+        "A) Complete privatization of all agricultural lands to foreign corporations",
+        "B) Economic growth",
+        "C) Modernization of technology and social outlook",
+        "D) Self-reliance and equity"
+      ],
+      "correct_option": "A",
+      "explanation": "The four overarching goals of Indian planning were Growth, Modernization, Self-reliance, and Equity. Foreign corporate takeover of land was never a goal."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Abolition of Intermediaries",
+      "difficulty": "medium",
+      "question": "Post-independence land reforms in India achieved their most immediate and undisputed success in:",
+      "options": [
+        "A) Abolishing feudal intermediaries (Zamindars) and bringing millions of cultivators into direct contact with the state",
+        "B) Redistributing 100 percent of private farm land to municipal bodies",
+        "C) Banning all chemical fertilizer imports",
+        "D) Mechanizing all agricultural harvesting with combine harvesters"
+      ],
+      "correct_option": "A",
+      "explanation": "Abolishing the Zamindari system eliminated feudal intermediaries, conferring occupancy rights to nearly 20 million tenants directly under the state."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q39",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Green Revolution HYV Crops",
+      "difficulty": "easy",
+      "question": "The Green Revolution introduced in India in the mid-1960s was initially centered on High Yielding Varieties (HYV) of which two food crops?",
+      "options": [
+        "A) Wheat and rice",
+        "B) Jute and cotton",
+        "C) Tea and coffee",
+        "D) Sugarcane and rubber"
+      ],
+      "correct_option": "A",
+      "explanation": "The Green Revolution was spearheaded by dwarf, high-yielding semi-dwarf seed varieties of wheat and rice along with chemical fertilizers and canal irrigation."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q40",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "IPR 1956 Three Categories",
+      "difficulty": "hard",
+      "question": "Under the Industrial Policy Resolution of 1956, industries in India were classified into how many distinct schedules (categories)?",
+      "options": [
+        "A) Three categories (Schedule A, Schedule B, and Schedule C)",
+        "B) Ten regional divisions",
+        "C) Two categories solely divided by factory size",
+        "D) Five export categories"
+      ],
+      "correct_option": "A",
+      "explanation": "IPR 1956 classified industries into three categories: Schedule A (exclusive state ownership), Schedule B (state-led with private supplement), and Schedule C (private sector under licensing)."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Crisis of 1991 Trigger",
+      "difficulty": "easy",
+      "question": "India was compelled to introduce the New Economic Policy in 1991 primarily due to an acute crisis in:",
+      "options": [
+        "A) Balance of Payments with foreign exchange reserves falling to barely two weeks of imports",
+        "B) Massive over-production of wheat in Punjab",
+        "C) Excessive foreign currency inflows",
+        "D) Zero unemployment in urban cities"
+      ],
+      "correct_option": "A",
+      "explanation": "The 1991 economic crisis was triggered by severe foreign exchange exhaustion, high fiscal deficits, double-digit inflation, and imminent sovereign debt default."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q42",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "LPG Strategy Full Form",
+      "difficulty": "easy",
+      "question": "The reform policy package initiated in India in 1991 is popularly summarized by the acronym 'LPG', which stands for:",
+      "options": [
+        "A) Liberalisation, Privatisation, and Globalisation",
+        "B) Liquefied Petroleum Gas",
+        "C) Labour, Production, and Growth",
+        "D) Land, Population, and Governance"
+      ],
+      "correct_option": "A",
+      "explanation": "LPG denotes Liberalisation (deregulation), Privatisation (reducing state ownership), and Globalisation (integrating the domestic economy with world markets)."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q43",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Disinvestment Definition",
+      "difficulty": "easy",
+      "question": "The sale of a portion of government equity shareholding in public sector commercial enterprises to private investors is called:",
+      "options": [
+        "A) Disinvestment",
+        "B) Nationalisation",
+        "C) Monopolisation",
+        "D) Amortisation"
+      ],
+      "correct_option": "A",
+      "explanation": "Disinvestment refers to the dilution of government equity in Public Sector Undertakings (PSUs) by selling shares to the private sector or public."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Sources of Human Capital",
+      "difficulty": "easy",
+      "question": "Which of the following is considered the most significant and fundamental source of human capital formation in an economy?",
+      "options": [
+        "A) Investment in education and healthcare",
+        "B) Acquisition of commercial real estate",
+        "C) Construction of private luxury villas",
+        "D) Import of gold bullion jewelry"
+      ],
+      "correct_option": "A",
+      "explanation": "Spending on education increases knowledge, skills, and earning potential, while spending on health enhances physical stamina and productivity, forming human capital."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "NABARD Establishment Year",
+      "difficulty": "easy",
+      "question": "The National Bank for Agriculture and Rural Development (NABARD) was established in which year as the apex rural credit refinancing institution?",
+      "options": [
+        "A) 1982",
+        "B) 1991",
+        "C) 1969",
+        "D) 1950"
+      ],
+      "correct_option": "A",
+      "explanation": "NABARD was set up on July 12, 1982, to coordinate rural finance and provide refinance facilities to commercial banks, RRBs, and cooperative banks for agriculture."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Self Help Groups Microcredit",
+      "difficulty": "easy",
+      "question": "Self-Help Groups (SHGs) promote rural financial inclusion by mobilizing small thrift savings from members and providing:",
+      "options": [
+        "A) Collateral-free microloans for consumption and productive microenterprises",
+        "B) Free foreign airline tickets to urban centres",
+        "C) Direct agricultural machinery manufacturing grants",
+        "D) Sovereign gold bonds at zero cost"
+      ],
+      "correct_option": "A",
+      "explanation": "SHGs pool small individual savings and grant small, collateral-free loans to members to overcome emergency consumption needs and support micro-enterprises."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Sustainable Development Meaning",
+      "difficulty": "easy",
+      "question": "Sustainable economic development is defined as economic progress that meets the needs of the present generation without:",
+      "options": [
+        "A) Compromising the ability of future generations to meet their own developmental needs",
+        "B) Levying any taxes on industrial manufacturing",
+        "C) Allowing international trade across maritime borders",
+        "D) Constructing railway lines through mountain ranges"
+      ],
+      "correct_option": "A",
+      "explanation": "Sustainable development ensures present resource utilization without degrading ecosystems or exhausting natural capital for future generations."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "China Economic Reforms Year",
+      "difficulty": "easy",
+      "question": "In which year did the People's Republic of China initiate its comprehensive economic reform programme under Deng Xiaoping?",
+      "options": [
+        "A) 1978",
+        "B) 1991",
+        "C) 1950",
+        "D) 1966"
+      ],
+      "correct_option": "A",
+      "explanation": "China's economic reform process was formally inaugurated in December 1978, initiating rural household responsibility reforms and opening coastal Special Economic Zones."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Development Planning Start",
+      "difficulty": "easy",
+      "question": "Pakistan announced its First Five-Year Plan (originally known as the Medium Term Plan) in the year:",
+      "options": [
+        "A) 1956",
+        "B) 1947",
+        "C) 1971",
+        "D) 1988"
+      ],
+      "correct_option": "A",
+      "explanation": "Pakistan published its First Five-Year Plan covering the period 1955\u20131960 (formally announced in 1956), following the mixed economy planning pattern."
+    },
+    {
+      "id": "CUET_ECO_2026_P21_L2C_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "China Great Leap Forward Year",
+      "difficulty": "easy",
+      "question": "The 'Great Leap Forward' (GLF) campaign aimed at industrializing the countryside through rural communes was launched in China in:",
+      "options": [
+        "A) 1958",
+        "B) 1978",
+        "C) 1949",
+        "D) 1989"
+      ],
+      "correct_option": "A",
+      "explanation": "Mao Zedong launched the Great Leap Forward in 1958 to transform China from an agrarian society into an industrial power through rural collectivization and backyard steel furnaces."
+    }
+  ]
+}

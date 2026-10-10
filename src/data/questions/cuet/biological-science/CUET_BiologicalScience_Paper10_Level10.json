@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P10_L10",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 10,
+  "difficulty_level": "10",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "NCERT Class 12 Biology",
+  "notification_source": "CUET UG 2026 Biological Science (Information Bulletin)",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q01",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity",
+      "difficulty": "easy",
+      "question": "Which of the following correctly defines a 'community' in ecology?",
+      "options": [
+        "A) All populations of different species interacting in a given area",
+        "B) The living and non-living components of an environment",
+        "C) The global sum of all ecosystems",
+        "D) All individuals of a single species in a given area"
+      ],
+      "correct_option": "A",
+      "explanation": "A community consists of all the populations of different species that live and interact in a defined area. Option A defines a population, C defines an ecosystem, and D defines the biosphere."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The hormone primarily responsible for the development of secondary sexual characteristics in females is:",
+      "options": [
+        "A) Estrogen",
+        "B) Luteinizing hormone (LH)",
+        "C) Progesterone",
+        "D) Follicle-stimulating hormone (FSH)"
+      ],
+      "correct_option": "A",
+      "explanation": "Estrogen is the primary female sex hormone responsible for the development of secondary sexual characteristics such as breast development, widening of hips, and the regulation of the menstrual cycle."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q03",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In eukaryotes, the mature mRNA is shorter than the gene that encodes it. Which process accounts for this?",
+      "options": [
+        "A) Removal of introns by splicing and addition of 5' cap and poly-A tail",
+        "B) Addition of the 5' cap and poly-A tail",
+        "C) Removal of exons by splicing",
+        "D) Removal of introns by splicing"
+      ],
+      "correct_option": "D",
+      "explanation": "During RNA processing, introns (non-coding regions) are removed by splicing, making the mature mRNA shorter than the original gene. The 5' cap and poly-A tail are added but do not reduce length—they add nucleotides."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q04",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "The species-area relationship is expressed by the equation S = cA^z. In this equation, the value of 'z' typically falls in which range?",
+      "options": [
+        "A) 0.6 to 0.8",
+        "B) 0.01 to 0.05",
+        "C) 0.1 to 0.2, but can be higher on islands",
+        "D) 1.5 to 2.0"
+      ],
+      "correct_option": "C",
+      "explanation": "In the species-area relationship S = cA^z, the exponent z typically ranges from 0.1 to 0.2 for mainland areas but can be as high as 0.6–0.7 for islands, reflecting the steeper species loss with area reduction on islands."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q05",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "A person infected with HIV shows a progressive decline in CD4+ T-cell count. Which immunological consequence is most directly responsible for the onset of opportunistic infections?",
+      "options": [
+        "A) Failure to produce complement proteins",
+        "B) Reduced erythrocyte production in bone marrow",
+        "C) Loss of phagocytic activity by neutrophils",
+        "D) Loss of cell-mediated immune coordination and helper function"
+      ],
+      "correct_option": "D",
+      "explanation": "CD4+ helper T cells coordinate both cell-mediated and humoral immunity. Their depletion disrupts activation of cytotoxic T cells, B cells, and macrophages, leading to failure of immune surveillance and opportunistic infections."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q06",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology Processes",
+      "difficulty": "medium",
+      "question": "In a continuous stirred-tank bioreactor (CSTR), the steady-state biomass concentration depends on:",
+      "options": [
+        "A) The dilution rate alone",
+        "B) The substrate feed concentration and the yield coefficient (Yx/s)",
+        "C) The temperature and pH but not the substrate concentration",
+        "D) The reactor volume only"
+      ],
+      "correct_option": "B",
+      "explanation": "At steady state in a CSTR, biomass concentration X = Yx/s × (S₀ - S), where Yx/s is the yield coefficient, S₀ is feed substrate concentration, and S is residual substrate concentration."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "The phenomenon where the pollen of one plant species germinates on the stigma of another species but fails to achieve fertilization is an example of:",
+      "options": [
+        "A) Self-incompatibility",
+        "B) Geitonogamy",
+        "C) Parthenocarpy",
+        "D) Interspecific incompatibility"
+      ],
+      "correct_option": "D",
+      "explanation": "Interspecific incompatibility is a prezygotic reproductive barrier that prevents hybridization between species. Geitonogamy is pollination within the same plant, self-incompatibility is within the same species."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q08",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of Inheritance",
+      "difficulty": "medium",
+      "question": "In a dihybrid cross between two heterozygous individuals (AaBb × AaBb), what proportion of the F2 offspring showing both dominant phenotypes is expected to be heterozygous for at least one gene?",
+      "options": [
+        "A) 8/9",
+        "B) 1/3",
+        "C) 1/4",
+        "D) 1/9"
+      ],
+      "correct_option": "A",
+      "explanation": "9/16 of F2 show both dominant phenotypes (A_B_). Of these, only 1/16 is AABB (homozygous for both). The remaining 8/16 are heterozygous for at least one gene. So 8/9 of the dominant-phenotype group is heterozygous for at least one gene."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q09",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biogeochemical Cycles",
+      "difficulty": "medium",
+      "question": "Denitrifying bacteria convert nitrates (NO₃⁻) back to nitrogen gas (N₂). This process is most likely to occur under which condition?",
+      "options": [
+        "A) Aerobic soil with high oxygen levels",
+        "B) High pH alkaline soils",
+        "C) Cold polar environments only",
+        "D) Anaerobic waterlogged soils"
+      ],
+      "correct_option": "D",
+      "explanation": "Denitrification is an anaerobic process carried out by bacteria (e.g., Pseudomonas) that use nitrate as an electron acceptor in the absence of oxygen, commonly in waterlogged or poorly drained soils."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q10",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Recombinant DNA Technology",
+      "difficulty": "medium",
+      "question": "When cloning a gene into a plasmid vector using blue-white screening, colonies that appear white on X-gal medium indicate:",
+      "options": [
+        "A) The lacZ gene is functional and cleaves X-gal to produce a blue pigment",
+        "B) The lacZ gene is disrupted by insert DNA, so no functional β-galactosidase is produced",
+        "C) The plasmid is absent from the bacterium",
+        "D) The plasmid has no antibiotic resistance"
+      ],
+      "correct_option": "B",
+      "explanation": "White colonies indicate the lacZ gene has been disrupted by the inserted DNA fragment, preventing production of functional β-galactosidase. Blue colonies indicate intact lacZ (no insert)."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q11",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "BOD (Biochemical Oxygen Demand) is a measure of organic pollution in water. If a water sample has a BOD of 18 ppm, it indicates:",
+      "options": [
+        "A) Moderately polluted water",
+        "B) Water contaminated with heavy metals",
+        "C) Highly polluted water with high organic load",
+        "D) Very clean water suitable for drinking"
+      ],
+      "correct_option": "C",
+      "explanation": "BOD values above 17 ppm indicate highly polluted water with a high organic load. Clean water has BOD < 5 ppm, moderately polluted water is 5–17 ppm."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q12",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "During human fertilization, the cortical reaction is triggered by the fusion of the sperm with the oocyte membrane. What is its primary function?",
+      "options": [
+        "A) To prevent polyspermy by hardening the zona pellucida",
+        "B) To trigger meiosis I completion in the oocyte",
+        "C) To initiate the acrosomal reaction in the sperm",
+        "D) To attract more sperm to the oocyte"
+      ],
+      "correct_option": "A",
+      "explanation": "The cortical reaction releases cortical granules that modify the zona pellucida, making it impermeable to additional sperm. This block to polyspermy ensures only one sperm fertilizes the egg."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q13",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Linkage and Recombination",
+      "difficulty": "medium",
+      "question": "Two genes located very close to each other on the same chromosome are expected to have a recombination frequency close to:",
+      "options": [
+        "A) 75%",
+        "B) 25%",
+        "C) 0%",
+        "D) 50%"
+      ],
+      "correct_option": "C",
+      "explanation": "Genes very close together on the same chromosome are tightly linked and rarely separated by crossing over. Their recombination frequency approaches 0%, while genes far apart approach 50%."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q14",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Population Ecology",
+      "difficulty": "medium",
+      "question": "The logistic growth equation is dN/dt = rN(K-N)/K. At what population size (N) is the growth rate maximized?",
+      "options": [
+        "A) N = K",
+        "B) N = 2K",
+        "C) N = 0",
+        "D) N = K/2"
+      ],
+      "correct_option": "D",
+      "explanation": "The logistic growth rate dN/dt is a quadratic function of N, maximized at N = K/2. At N = 0 or N = K, growth rate is zero. This is the inflection point of the sigmoid curve."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q15",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Vaccines",
+      "difficulty": "medium",
+      "question": "The HPV vaccine (Gardasil/Cervarix) is recommended before sexual debut. What type of immunity does it generate?",
+      "options": [
+        "A) Active artificial immunity",
+        "B) Passive natural immunity",
+        "C) Innate immunity only",
+        "D) Passive artificial immunity"
+      ],
+      "correct_option": "A",
+      "explanation": "The HPV vaccine introduces viral antigens (L1 capsid protein VLPs) to stimulate the body's own immune response, producing memory B and T cells. This is artificially acquired active immunity."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q16",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Gene Cloning",
+      "difficulty": "medium",
+      "question": "Why are expression vectors preferred over simple cloning vectors when producing recombinant proteins in bacteria?",
+      "options": [
+        "A) They cannot be replicated in bacterial cells",
+        "B) They contain regulatory sequences (promoter, ribosome-binding site) for transcription and translation",
+        "C) They are smaller in size",
+        "D) They lack antibiotic resistance markers"
+      ],
+      "correct_option": "B",
+      "explanation": "Expression vectors contain additional elements like strong promoters (e.g., lac, T7), Shine-Dalgarno sequences, and sometimes fusion tags that enable efficient transcription and translation of the cloned gene."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q17",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Gene Expression",
+      "difficulty": "medium",
+      "question": "In the lac operon, the presence of both lactose and glucose in the medium results in:",
+      "options": [
+        "A) Low-level (basal) transcription due to catabolite repression",
+        "B) Complete absence of lac gene transcription",
+        "C) Transcription only when lactose is depleted",
+        "D) High transcription of lac genes"
+      ],
+      "correct_option": "A",
+      "explanation": "When glucose is present, cAMP levels are low, so CAP cannot activate transcription. Even if lactose inactivates the repressor, the operon is transcribed only at a basal level due to catabolite repression."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q18",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "During early embryonic development in mammals, the inner cell mass (ICM) of the blastocyst gives rise to the:",
+      "options": [
+        "A) Chorionic villi exclusively",
+        "B) Embryonic disc and subsequently the three germ layers",
+        "C) Trophoblast and placenta",
+        "D) Yolk sac only"
+      ],
+      "correct_option": "B",
+      "explanation": "The ICM differentiates into the embryonic disc (epiblast and hypoblast), which gives rise to all three germ layers (ectoderm, mesoderm, endoderm) and ultimately the embryo proper."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q19",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "Which property of the genetic code explains why a single-base substitution in the third position of a codon often does not change the encoded amino acid?",
+      "options": [
+        "A) Non-overlapping nature",
+        "B) Degeneracy (wobble position)",
+        "C) Comma-free reading",
+        "D) Universality"
+      ],
+      "correct_option": "B",
+      "explanation": "The genetic code is degenerate—most amino acids are encoded by multiple codons. The third base (wobble position) often varies without changing the amino acid, providing a buffer against point mutations."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q20",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Biotechnology Applications",
+      "difficulty": "hard",
+      "question": "Molecular farming uses transgenic plants to produce pharmaceutical proteins. Which is a key advantage of plant-based expression systems over mammalian cell cultures?",
+      "options": [
+        "A) Plants perform post-translational modifications identical to humans",
+        "B) Lower production costs and absence of risk of mammalian pathogen contamination",
+        "C) Faster protein folding due to higher growth temperatures",
+        "D) Plants can only produce non-glycosylated proteins"
+      ],
+      "correct_option": "B",
+      "explanation": "Plant-based molecular farming offers significantly lower costs, scalability, and eliminates the risk of contamination by mammalian pathogens (prions, viruses) that could harm humans."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q21",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Environmental Issues",
+      "difficulty": "hard",
+      "question": "The Montreal Protocol (1987) was designed to phase out the production of:",
+      "options": [
+        "A) Greenhouse gases like CO₂ and methane",
+        "B) Persistent organic pollutants (POPs)",
+        "C) Sulphur dioxide and nitrogen oxides causing acid rain",
+        "D) Ozone-depleting substances such as CFCs and halons"
+      ],
+      "correct_option": "D",
+      "explanation": "The Montreal Protocol specifically targeted ozone-depleting substances (CFCs, halons, carbon tetrachloride) to protect the stratospheric ozone layer."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q22",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Cancer",
+      "difficulty": "hard",
+      "question": "Oncogenes differ from proto-oncogenes in that oncogenes:",
+      "options": [
+        "A) Are only present in viruses",
+        "B) Are normal genes that regulate the cell cycle",
+        "C) Have gained function or are overexpressed, driving uncontrolled cell proliferation",
+        "D) Inhibit cell division and promote apoptosis"
+      ],
+      "correct_option": "C",
+      "explanation": "Proto-oncogenes are normal genes involved in cell growth regulation. Oncogenes arise from mutations, amplification, or viral insertion that cause gain-of-function, leading to constitutive activation."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q23",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "In the luteal phase of the menstrual cycle, if fertilization does not occur, the corpus luteum degenerates because:",
+      "options": [
+        "A) Lack of hCG fails to rescue the corpus luteum, and declining LH support leads to luteolysis",
+        "B) Progesterone exerts positive feedback on GnRH",
+        "C) FSH directly inhibits progesterone synthesis",
+        "D) LH levels remain high throughout the cycle"
+      ],
+      "correct_option": "A",
+      "explanation": "Without fertilization, hCG is not produced, so the corpus luteum is not rescued. Declining LH support leads to luteolysis, causing a drop in progesterone and estrogen, triggering menstruation."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q24",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Speciation",
+      "difficulty": "hard",
+      "question": "Sympatric speciation is LEAST likely to occur through which mechanism?",
+      "options": [
+        "A) Disruptive selection on resource use",
+        "B) Polyploidy in plants",
+        "C) Habitat differentiation within a continuous population",
+        "D) Geographic isolation followed by genetic divergence"
+      ],
+      "correct_option": "D",
+      "explanation": "Geographic isolation followed by divergence describes allopatric speciation, not sympatric. Sympatric speciation occurs without geographic barriers, via polyploidy, habitat differentiation, or disruptive selection."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q25",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Molecular Diagnostics",
+      "difficulty": "hard",
+      "question": "Real-time PCR (qPCR) differs from conventional PCR in that it:",
+      "options": [
+        "A) Does not require primers",
+        "B) Uses a different DNA polymerase",
+        "C) Measures amplification in real-time using fluorescent reporters, allowing quantification",
+        "D) Can only amplify RNA templates"
+      ],
+      "correct_option": "C",
+      "explanation": "qPCR uses fluorescent dyes (SYBR Green) or probes (TaqMan) to monitor amplification in real time, enabling quantification of the initial template using the Ct (cycle threshold) value."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q26",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecological Succession",
+      "difficulty": "hard",
+      "question": "During primary succession on bare rock, pioneer species (lichens and mosses) facilitate the establishment of later species by:",
+      "options": [
+        "A) Producing soil through weathering of rock and accumulation of organic matter",
+        "B) Preventing any further colonization",
+        "C) Increasing competition for light",
+        "D) Decreasing water retention"
+      ],
+      "correct_option": "A",
+      "explanation": "Pioneer species like lichens secrete acids that weather rock, and their dead organic matter accumulates, forming soil. This gradual soil formation allows later species to colonize."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q27",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Immunity",
+      "difficulty": "hard",
+      "question": "MHC class I molecules present antigens to which type of T cell, and from which source are these antigens derived?",
+      "options": [
+        "A) Memory T cells; only viral antigens",
+        "B) Cytotoxic T cells (CD8+); intracellular pathogens or self-proteins",
+        "C) Regulatory T cells; only bacterial antigens",
+        "D) Helper T cells (CD4+); extracellular pathogens"
+      ],
+      "correct_option": "B",
+      "explanation": "MHC class I molecules present peptides from intracellular sources (virus-infected cells, tumor cells) to CD8+ cytotoxic T cells, which then kill the abnormal cell."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q28",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "The copper-T (CuT) IUD is a common non-hormonal contraceptive. Its primary mechanism of action is to:",
+      "options": [
+        "A) Release progesterone to thicken cervical mucus",
+        "B) Block the fallopian tubes mechanically",
+        "C) Suppress ovulation entirely",
+        "D) Create a cytotoxic reaction that impairs sperm motility and prevents implantation"
+      ],
+      "correct_option": "D",
+      "explanation": "The copper ions released by CuT create a cytotoxic intrauterine environment that impairs sperm viability and motility, and also prevent implantation by causing a local inflammatory response."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q29",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Population Genetics",
+      "difficulty": "hard",
+      "question": "In a population at Hardy-Weinberg equilibrium, the frequency of the recessive allele is 0.4. What is the expected frequency of homozygous dominant individuals?",
+      "options": [
+        "A) 0.36",
+        "B) 0.60",
+        "C) 0.16",
+        "D) 0.48"
+      ],
+      "correct_option": "A",
+      "explanation": "If q = 0.4, then p = 0.6. Homozygous dominant frequency = p² = (0.6)² = 0.36."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q30",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Bioreactors",
+      "difficulty": "hard",
+      "question": "In a fed-batch bioreactor, the quasi-steady-state assumption implies that:",
+      "options": [
+        "A) Substrate concentration is zero throughout",
+        "B) The specific growth rate equals the dilution rate",
+        "C) The reactor volume remains constant",
+        "D) Substrate concentration remains approximately constant while biomass accumulates"
+      ],
+      "correct_option": "D",
+      "explanation": "In fed-batch operation, substrate is fed at a rate that maintains a low, approximately constant substrate concentration while biomass accumulates. The volume increases over time."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q31",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Conservation Ecology",
+      "difficulty": "hard",
+      "question": "The edge effect in fragmented habitats typically results in:",
+      "options": [
+        "A) Uniform species distribution throughout the fragment",
+        "B) Higher vulnerability to invasive species, predation, and microclimatic changes at the habitat boundary",
+        "C) Increased species richness at the boundary",
+        "D) Decreased competition among edge-dwelling species"
+      ],
+      "correct_option": "B",
+      "explanation": "Edge effects describe altered conditions at habitat boundaries—increased light, temperature fluctuations, wind exposure, and easier access for predators and invasive species. This reduces habitat quality for interior species."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q32",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "AIDS and Drug Abuse",
+      "difficulty": "hard",
+      "question": "HIV establishes latent reservoirs primarily in resting memory CD4+ T cells. This is a major obstacle to curing HIV because:",
+      "options": [
+        "A) Latent virus is resistant to all antibiotics",
+        "B) Memory T cells are not affected by any drugs",
+        "C) Latent proviral DNA is invisible to the immune system and antiretroviral drugs target active replication",
+        "D) Latent HIV only exists in the central nervous system"
+      ],
+      "correct_option": "C",
+      "explanation": "Latent HIV provirus integrated into resting CD4+ T cells is transcriptionally silent, making it invisible to the immune system. Antiretroviral drugs target active viral replication steps, not latent provirus."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q33",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "In angiosperms, pollen tube growth through the style toward the ovule is guided by chemotropic signals. Which structure secretes the attractant peptides?",
+      "options": [
+        "A) The pollen grain itself",
+        "B) The tapetal cells of the anther",
+        "C) The synergids of the embryo sac",
+        "D) The integuments of the ovule"
+      ],
+      "correct_option": "C",
+      "explanation": "The synergids, flanking the egg cell in the embryo sac, secrete attractant peptides (e.g., LURE peptides in Torenia) that guide the pollen tube to the micropyle for fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q34",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Mutation",
+      "difficulty": "hard",
+      "question": "A nonsense mutation in a gene results in:",
+      "options": [
+        "A) A shift in the reading frame",
+        "B) No change in the amino acid sequence",
+        "C) A change in a single amino acid",
+        "D) Premature termination of translation due to a stop codon"
+      ],
+      "correct_option": "D",
+      "explanation": "A nonsense mutation changes a codon that specified an amino acid into a stop codon (UAA, UAG, or UGA), causing premature termination of translation and typically producing a truncated protein."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q35",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Genetically Modified Organisms",
+      "difficulty": "hard",
+      "question": "The Bt toxin gene from Bacillus thuringiensis, when introduced into cotton (Bt cotton), provides resistance against bollworms. For the toxin to become active in the insect gut, it requires:",
+      "options": [
+        "A) High salt concentration",
+        "B) Alkaline pH and specific gut proteases",
+        "C) Neutral pH and UV light",
+        "D) Acidic pH and proteolytic cleavage"
+      ],
+      "correct_option": "B",
+      "explanation": "The Cry protein (Bt toxin) is a protoxin that requires alkaline conditions (pH 9–11, as in insect larval guts) and specific gut proteases to be cleaved into its active form."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q36",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Pollution",
+      "difficulty": "hard",
+      "question": "Biomagnification of DDT in aquatic food chains results in the highest concentration in:",
+      "options": [
+        "A) Zooplankton",
+        "B) Small fish",
+        "C) Top predators like fish-eating birds",
+        "D) Phytoplankton"
+      ],
+      "correct_option": "C",
+      "explanation": "DDT is lipophilic and not easily metabolized or excreted. It accumulates at each trophic level, reaching the highest concentrations in top predators (biomagnification). Fish-eating birds like pelicans are most affected."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q37",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Animal Husbandry",
+      "difficulty": "hard",
+      "question": "In MOET (Multiple Ovulation Embryo Transfer) technology used in cattle breeding, the donor cow is treated with:",
+      "options": [
+        "A) FSH-like hormones to induce superovulation, followed by artificial insemination and embryo recovery",
+        "B) Progesterone to maintain pregnancy",
+        "C) Oxytocin to induce parturition",
+        "D) GnRH to suppress ovulation"
+      ],
+      "correct_option": "A",
+      "explanation": "MOET involves treating a high-quality donor cow with FSH-like hormones to induce multiple ovulations (superovulation), artificial insemination, and then non-surgical recovery of multiple embryos."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q38",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Spermatogenesis and oogenesis differ in that:",
+      "options": [
+        "A) Spermatogenesis produces one functional gamete per meiosis",
+        "B) Spermatogenesis produces four functional sperm per meiosis, while oogenesis produces one functional ovum and polar bodies",
+        "C) Oogenesis begins at puberty in human females",
+        "D) Spermatogenesis occurs in the epididymis"
+      ],
+      "correct_option": "B",
+      "explanation": "Each spermatogonium undergoing meiosis produces four functional sperm. Each oogonium produces one functional ovum and 2–3 polar bodies (which degenerate). Oogenesis begins in fetal life."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q39",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "The neutral theory of molecular evolution posits that most evolutionary changes at the molecular level are caused by:",
+      "options": [
+        "A) Natural selection favoring advantageous mutations",
+        "B) Adaptive radiation of species",
+        "C) Directed mutation in response to environmental pressure",
+        "D) Random genetic drift of selectively neutral mutations"
+      ],
+      "correct_option": "D",
+      "explanation": "The neutral theory (Motoo Kimura) argues that most molecular changes are selectively neutral, and their frequencies change over time by random genetic drift, not natural selection."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q40",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Gene Therapy",
+      "difficulty": "hard",
+      "question": "In the first successful gene therapy for ADA-SCID (1990), which cells were modified?",
+      "options": [
+        "A) Fibroblasts from skin",
+        "B) Liver cells (hepatocytes)",
+        "C) T lymphocytes from peripheral blood",
+        "D) Hematopoietic stem cells from bone marrow"
+      ],
+      "correct_option": "C",
+      "explanation": "The first successful gene therapy (Ashanthi DeSilva, 1990) used the patient's own T lymphocytes, which were modified ex vivo with a retroviral vector carrying the ADA gene, then reinfused."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q41",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Energy Flow",
+      "difficulty": "hard",
+      "question": "If the gross primary productivity (GPP) of a forest is 2000 kJ/m²/year and autotrophic respiration is 800 kJ/m²/year, what is the net primary productivity (NPP)?",
+      "options": [
+        "A) 2800 kJ/m²/year",
+        "B) 1200 kJ/m²/year",
+        "C) 800 kJ/m²/year",
+        "D) 2000 kJ/m²/year"
+      ],
+      "correct_option": "B",
+      "explanation": "NPP = GPP − R (autotrophic respiration) = 2000 − 800 = 1200 kJ/m²/year. NPP is the energy available to heterotrophs in the ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q42",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Plant Breeding",
+      "difficulty": "hard",
+      "question": "In hybrid variety development, the F1 hybrids are superior to parents (heterosis). To maintain this superiority in farmers' fields, the breeder must:",
+      "options": [
+        "A) Re-cross the same parental lines each season to produce fresh F1 seeds",
+        "B) Select the best F1 individuals and self them",
+        "C) Treat the F1 plants with colchicine to fix heterosis",
+        "D) Allow open pollination and collect seeds for the next generation"
+      ],
+      "correct_option": "A",
+      "explanation": "F1 hybrid vigor declines in the F2 generation due to segregation and recombination. To maintain heterosis, the breeder must re-cross the same inbred parental lines each season to produce fresh F1 hybrid seeds."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q43",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Amniocentesis is a prenatal diagnostic technique. Which statement about it is correct?",
+      "options": [
+        "A) It is a non-invasive imaging technique",
+        "B) It is performed during the first trimester (6–8 weeks)",
+        "C) It can detect chromosomal abnormalities by analyzing amniotic fluid cells",
+        "D) It only detects maternal infections"
+      ],
+      "correct_option": "C",
+      "explanation": "Amniocentesis is performed at 15–18 weeks of gestation. Amniotic fluid contains fetal cells that can be cultured and karyotyped to detect chromosomal abnormalities (e.g., Down syndrome). It is invasive, not imaging-based."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q44",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Sex Determination",
+      "difficulty": "hard",
+      "question": "In birds (ZZ-ZW sex determination system), a male homozygous for the wild-type allele (Z⁺Z⁺) mates with a female carrying a recessive mutant allele on her Z chromosome (Z^mW). What proportion of female offspring will express the recessive trait?",
+      "options": [
+        "A) 100%, because the mother passes Z^m to all daughters",
+        "B) 0%, because all daughters are heterozygous Z⁺Z^m and the trait is recessive",
+        "C) 50%, because half of daughters inherit Z^m",
+        "D) 25%, because one quarter of all offspring are mutant females"
+      ],
+      "correct_option": "B",
+      "explanation": "All daughters receive Z⁺ from the father and either Z^m or W from the mother. Half of daughters are Z⁺Z^m (carriers, normal phenotype since the trait is recessive) and half are Z⁺W (normal). Since daughters are never Z^mZ^m, none express the recessive trait."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q45",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Bioethics",
+      "difficulty": "hard",
+      "question": "The Asilomar Conference (1975) was significant in biotechnology history because it:",
+      "options": [
+        "A) Patented the first transgenic animal",
+        "B) Banned all forms of genetic engineering",
+        "C) Approved the first GMO for commercial sale",
+        "D) Established voluntary guidelines and containment levels for recombinant DNA research"
+      ],
+      "correct_option": "D",
+      "explanation": "The Asilomar Conference established voluntary safety guidelines, physical and biological containment levels, and a framework for responsible recombinant DNA research. It was a landmark self-governance effort by the scientific community."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q46",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Climate Change",
+      "difficulty": "hard",
+      "question": "The Enhanced Greenhouse Effect is primarily attributed to increased CO₂ from fossil fuel combustion. Which additional greenhouse gas is predominantly emitted from livestock and rice paddies?",
+      "options": [
+        "A) Chlorofluorocarbons (CFCs)",
+        "B) Nitrous oxide (N₂O)",
+        "C) Methane (CH₄)",
+        "D) Ozone (O₃)"
+      ],
+      "correct_option": "C",
+      "explanation": "Methane (CH₄) is produced by enteric fermentation in ruminants (cattle, sheep) and anaerobic decomposition in flooded rice paddies. It has a global warming potential ~80 times that of CO₂ over a 20-year horizon."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q47",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Biotechnology in Medicine",
+      "difficulty": "hard",
+      "question": "Recombinant human insulin (Humulin) is produced in E. coli by:",
+      "options": [
+        "A) Cloning the A and B chains separately, expressing them, and chemically combining them",
+        "B) Modifying bovine insulin to resemble human insulin",
+        "C) Using a single gene that produces both chains simultaneously",
+        "D) Directly inserting the human insulin gene into the bacterial chromosome"
+      ],
+      "correct_option": "A",
+      "explanation": "The original Humulin production method cloned the A-chain and B-chain genes separately into E. coli, expressed them as separate polypeptides, then chemically combined them to form active human insulin."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q48",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "In parthenogenesis, an unfertilized egg develops into an offspring. Which organism naturally reproduces by this method?",
+      "options": [
+        "A) Frogs",
+        "B) Humans",
+        "C) Honey bees (drones develop from unfertilized eggs)",
+        "D) Elephants"
+      ],
+      "correct_option": "C",
+      "explanation": "In honey bees (Apis mellifera), the queen uses stored sperm to fertilize eggs (producing diploid females—workers or queens). Unfertilized eggs develop by arrhenotoky (a form of parthenogenesis) into haploid males (drones)."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q49",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Darwinian Evolution",
+      "difficulty": "hard",
+      "question": "According to Darwin's theory of natural selection, which is NOT a necessary condition for evolution to occur?",
+      "options": [
+        "A) Variation among individuals",
+        "B) Intentional mutation directed by the environment",
+        "C) Heritability of traits",
+        "D) Differential reproductive success"
+      ],
+      "correct_option": "B",
+      "explanation": "Darwin's theory requires variation, heritability, and differential fitness. Mutations are random and not directed by the environment or the organism's needs. Lamarckism proposed that acquired traits are inherited, but this has been discredited."
+    },
+    {
+      "id": "CUET_BIO_2026_P10_L10_Q50",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles of Biotechnology",
+      "difficulty": "hard",
+      "question": "Restriction enzymes recognize palindromic sequences and cut DNA to produce sticky ends. Which type of ends are produced when EcoRI cuts GAATTC?",
+      "options": [
+        "A) 3' overhangs with TTAA single-stranded tails",
+        "B) Random nicks without specific end structure",
+        "C) 5' overhangs (sticky ends) with AATT single-stranded tails",
+        "D) Blunt ends at the center of the recognition site"
+      ],
+      "correct_option": "C",
+      "explanation": "EcoRI cuts between G and A on each strand of its recognition sequence 5'-GAATTC-3', producing 5' overhangs with the sequence AATT. These sticky ends allow specific, complementary base-pairing during ligation."
+    }
+  ]
+}

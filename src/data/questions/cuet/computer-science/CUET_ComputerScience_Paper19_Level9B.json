@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P19_L9B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 19,
+  "difficulty_level": "9B",
+  "subject": "Computer Science",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL keyword eliminates duplicate rows from the result set?",
+      "options": [
+        "A) UNIQUE",
+        "B) REMOVE",
+        "C) DISTINCT",
+        "D) DELETE"
+      ],
+      "correct_option": "C",
+      "explanation": "SELECT DISTINCT returns only unique (non-duplicate) values."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "medium",
+      "question": "COUNT(column_name) vs COUNT(*): which ignores NULLs?",
+      "options": [
+        "A) COUNT(column_name) ignores NULLs",
+        "B) Both ignore NULLs",
+        "C) Both count NULLs",
+        "D) COUNT(*) ignores NULLs"
+      ],
+      "correct_option": "A",
+      "explanation": "COUNT(column_name) counts only non-NULL values; COUNT(*) counts all rows."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "What does NATURAL JOIN do in SQL?",
+      "options": [
+        "A) Joins using a specified condition only",
+        "B) Creates a Cartesian product",
+        "C) Joins only matching rows from the right table",
+        "D) Automatically joins on columns with the same name"
+      ],
+      "correct_option": "D",
+      "explanation": "NATURAL JOIN automatically matches columns with the same name."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "SQL command to modify existing column data type?",
+      "options": [
+        "A) UPDATE COLUMN",
+        "B) MODIFY COLUMN",
+        "C) CHANGE COLUMN",
+        "D) CONVERT COLUMN"
+      ],
+      "correct_option": "B",
+      "explanation": "ALTER TABLE ... MODIFY COLUMN changes data type or constraints."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "Which relational algebra operation theoretically eliminates duplicates?",
+      "options": [
+        "A) Selection",
+        "B) Projection",
+        "C) Union",
+        "D) Cartesian product"
+      ],
+      "correct_option": "B",
+      "explanation": "Projection (π) returns a set of tuples, theoretically eliminating duplicates."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "hard",
+      "question": "Under READ UNCOMMITTED, which anomaly is possible?",
+      "options": [
+        "A) Dirty read only",
+        "B) All of these",
+        "C) Phantom read only",
+        "D) Non-repeatable read only"
+      ],
+      "correct_option": "B",
+      "explanation": "READ UNCOMMITTED has no isolation guarantees; all anomalies are possible."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "hard",
+      "question": "B+ tree on salary, 10% selectivity, 1M rows. Index entries scanned?",
+      "options": [
+        "A) 10,000",
+        "B) 1,000",
+        "C) 100",
+        "D) 100,000"
+      ],
+      "correct_option": "D",
+      "explanation": "With 10% selectivity, ~100,000 rows match. B+ tree scans all matching entries."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "Relation R(A,B,C,D,E) has FDs: {A→BC, CD→E, B→D}. Candidate key?",
+      "options": [
+        "A) A",
+        "B) CD",
+        "C) AD",
+        "D) AB"
+      ],
+      "correct_option": "C",
+      "explanation": "A→BC gives A→B,C; B→D gives A→D. CD→E and AD contains C,D, thus AD→E. AD is candidate key."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "DENSE_RANK() differs from RANK() in that:",
+      "options": [
+        "A) DENSE_RANK does not skip numbers after ties",
+        "B) DENSE_RANK skips numbers after ties",
+        "C) DENSE_RANK gives unique numbers to all rows",
+        "D) DENSE_RANK only works with PARTITION BY"
+      ],
+      "correct_option": "A",
+      "explanation": "RANK() skips after ties (1,1,3); DENSE_RANK() does not (1,1,2)."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "SELECT COUNT(*) FROM Emp WHERE sal>50000 HAVING COUNT(*)>10 returns:",
+      "options": [
+        "A) Count if >10 else empty",
+        "B) Always returns count",
+        "C) Error",
+        "D) Zero"
+      ],
+      "correct_option": "A",
+      "explanation": "HAVING without GROUP BY treats entire result as one group, returning count only if >10."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Protocol that resolves IP addresses to MAC addresses?",
+      "options": [
+        "A) DNS",
+        "B) DHCP",
+        "C) ICMP",
+        "D) ARP"
+      ],
+      "correct_option": "D",
+      "explanation": "ARP maps IP addresses to physical MAC addresses on the same local network."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "medium",
+      "question": "Max data rate for 4 kHz bandwidth, 16-level signaling (Nyquist)?",
+      "options": [
+        "A) 8 kbps",
+        "B) 16 kbps",
+        "C) 32 kbps",
+        "D) 64 kbps"
+      ],
+      "correct_option": "C",
+      "explanation": "Nyquist: 2 × 4000 × log₂(16) = 32,000 bps."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "Broadcast address for subnet 10.0.0.0/30?",
+      "options": [
+        "A) 10.0.0.4",
+        "B) 10.0.0.3",
+        "C) 10.0.0.255",
+        "D) 10.0.0.0"
+      ],
+      "correct_option": "B",
+      "explanation": "/30 leaves 2 host bits. Total 4 addresses: network .0, usable .1-.2, broadcast .3."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "TCP header field for flow control?",
+      "options": [
+        "A) Sequence Number",
+        "B) Acknowledgment Number",
+        "C) Window Size",
+        "D) Flags"
+      ],
+      "correct_option": "C",
+      "explanation": "Window Size indicates how much data the receiver can accept."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "medium",
+      "question": "Device translating between different network layer protocols?",
+      "options": [
+        "A) Bridge",
+        "B) Switch",
+        "C) Router",
+        "D) Gateway"
+      ],
+      "correct_option": "D",
+      "explanation": "A gateway operates at multiple layers and translates between protocols."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "hard",
+      "question": "TCP Reno: cwnd=16 MSS, timeout. New cwnd and ssthresh?",
+      "options": [
+        "A) cwnd=8, ssthresh=8",
+        "B) cwnd=1, ssthresh=16",
+        "C) cwnd=1, ssthresh=8",
+        "D) cwnd=16, ssthresh=1"
+      ],
+      "correct_option": "C",
+      "explanation": "On timeout: ssthresh = cwnd/2 = 8 MSS, cwnd = 1 MSS."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "hard",
+      "question": "CRC generator polynomial x⁴+x³+1 in binary?",
+      "options": [
+        "A) 10011",
+        "B) 11010",
+        "C) 10101",
+        "D) 11001"
+      ],
+      "correct_option": "D",
+      "explanation": "x⁴+x³+1 = 1·x⁴ + 1·x³ + 0·x² + 0·x¹ + 1·x⁰ = 11001."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "hard",
+      "question": "OSPF backbone area (Area 0) purpose?",
+      "options": [
+        "A) Connects all OSPF areas for inter-area routing",
+        "B) Stores all routing tables",
+        "C) Handles only external routes",
+        "D) Manages BGP peering"
+      ],
+      "correct_option": "A",
+      "explanation": "OSPF requires Area 0 that all other areas connect to."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "hard",
+      "question": "HTTP/2 server push differs from HTTP/1.1 by:",
+      "options": [
+        "A) Using UDP for transport",
+        "B) Proactively sending resources before client requests",
+        "C) Requiring fewer TCP connections",
+        "D) Compressing all resources into one file"
+      ],
+      "correct_option": "B",
+      "explanation": "HTTP/2 Server Push sends resources proactively, anticipating client needs."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "CSMA/CD: 100 Mbps, 64-byte min frame, signal speed 2×10⁸ m/s. Max diameter?",
+      "options": [
+        "A) 512 meters",
+        "B) 256 meters",
+        "C) 1024 meters",
+        "D) 128 meters"
+      ],
+      "correct_option": "A",
+      "explanation": "Tx time = 5.12 μs ≥ 2×prop delay. Max one-way = 2.56 μs. Distance = 512m."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "Which mode opens a file for reading in Python?",
+      "options": [
+        "A) 'w'",
+        "B) 'a'",
+        "C) 'r'",
+        "D) 'x'"
+      ],
+      "correct_option": "C",
+      "explanation": "Mode 'r' opens a file for reading. 'w' writes, 'a' appends, 'x' creates exclusively."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "medium",
+      "question": "Stack [10,20,30] (top=30). push(40), pop(), push(50). Top?",
+      "options": [
+        "A) 30",
+        "B) 40",
+        "C) 20",
+        "D) 50"
+      ],
+      "correct_option": "D",
+      "explanation": "push(40): [10,20,30,40]. pop(): [10,20,30]. push(50): [10,20,30,50]. Top = 50."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "sorted([3,1,4,1,5,9,2,6], reverse=True)[:3]?",
+      "options": [
+        "A) [9,5,6]",
+        "B) [9,6,5]",
+        "C) [3,1,4]",
+        "D) [1,1,2]"
+      ],
+      "correct_option": "B",
+      "explanation": "sorted(reverse=True) → [9,6,5,4,3,2,1,1]. [:3] → [9,6,5]."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "List comprehension for squares of even numbers 1-10?",
+      "options": [
+        "A) [x**2 for x in range(2,11,2)]",
+        "B) [x*2 for x in range(1,11) if x%2==0]",
+        "C) [x**2 for x in range(1,11) if x%2!=0]",
+        "D) [x**2 for x in range(1,11) if x%3==0]"
+      ],
+      "correct_option": "A",
+      "explanation": "range(2,11,2) generates even numbers 2,4,6,8,10, then squares them."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "try:\n x=1/0\nexcept ZeroDivisionError:\n print('A')\nexcept:\n print('B')",
+      "options": [
+        "A) B",
+        "B) AB",
+        "C) A",
+        "D) Error"
+      ],
+      "correct_option": "C",
+      "explanation": "ZeroDivisionError caught by first except, printing 'A'."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "hard",
+      "question": "'with' statement in Python file handling:",
+      "options": [
+        "A) Automatically closes the file",
+        "B) Reads entire file at once",
+        "C) Deletes file after use",
+        "D) Opens file in write mode"
+      ],
+      "correct_option": "A",
+      "explanation": "The 'with' statement ensures automatic file closure."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "hard",
+      "question": "Queue [1,2,3] (front=1). enqueue(4), dequeue(), enqueue(5). Front?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 3",
+        "D) 5"
+      ],
+      "correct_option": "B",
+      "explanation": "enqueue(4): [1,2,3,4]. dequeue(): [2,3,4]. enqueue(5): [2,3,4,5]. Front = 2."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "hard",
+      "question": "[i for i in range(10) if i%3==0 and i%2==0]?",
+      "options": [
+        "A) [0,6,9]",
+        "B) [0,2,4,6,8]",
+        "C) [0,3,6,9]",
+        "D) [0,6]"
+      ],
+      "correct_option": "D",
+      "explanation": "i%3==0 selects 0,3,6,9. i%2==0 filters to even: 0 and 6."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "hard",
+      "question": "Which sort has O(n) best-case time complexity?",
+      "options": [
+        "A) Quick Sort",
+        "B) Selection Sort",
+        "C) Bubble Sort",
+        "D) Heap Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Bubble Sort with optimization completes in O(n) when array is already sorted."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "hard",
+      "question": "finally block in try-except-finally:",
+      "options": [
+        "A) Always executes",
+        "B) Executes only on exception",
+        "C) Executes only when no exception",
+        "D) Replaces the except block"
+      ],
+      "correct_option": "A",
+      "explanation": "The finally block always executes, whether exception occurred or not."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "The array must be sorted for which search algorithm to work correctly?",
+      "options": [
+        "A) Linear search",
+        "B) Binary search",
+        "C) Jump search",
+        "D) Bubble search"
+      ],
+      "correct_option": "B",
+      "explanation": "Binary search divides the search space in half at each step, requiring the array to be sorted."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "Hash table size 11, h(k)=k%11, linear probing. Keys 22,33,44. Where is 44?",
+      "options": [
+        "A) Index 2",
+        "B) Index 3",
+        "C) Index 1",
+        "D) Index 0"
+      ],
+      "correct_option": "A",
+      "explanation": "22→0, 33→0 collision→1, 44→0 collision→1 taken→2 free."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "IQR for [1,2,3,4,5,6,7,8,9,10]?",
+      "options": [
+        "A) 5.5",
+        "B) 6",
+        "C) 6.5",
+        "D) 5"
+      ],
+      "correct_option": "D",
+      "explanation": "Q1=3, Q3=8. IQR = Q3 - Q1 = 5."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "Max-heap of 15 elements, last non-leaf node (0-indexed)?",
+      "options": [
+        "A) 7",
+        "B) 8",
+        "C) 6",
+        "D) 14"
+      ],
+      "correct_option": "C",
+      "explanation": "floor(n/2) - 1 = floor(15/2) - 1 = 7 - 1 = 6."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "medium",
+      "question": "Which sort performs fewest swaps in worst case?",
+      "options": [
+        "A) Bubble Sort",
+        "B) Selection Sort",
+        "C) Insertion Sort",
+        "D) Quick Sort"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection Sort performs exactly n-1 swaps, fewer than others."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "hard",
+      "question": "Max comparisons for binary search on 127 elements?",
+      "options": [
+        "A) 8",
+        "B) 6",
+        "C) 127",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "log₂(127) ≈ 6.988, ceil = 7. 2⁷ = 128 > 127."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "hard",
+      "question": "Double hashing: h1(k)=k%7, h2(k)=5-(k%5). Key 23 probe sequence?",
+      "options": [
+        "A) 2,5,1,4,0,3,6",
+        "B) 2,3,4,5,6,0,1",
+        "C) 2,4,6,1,3,5,0",
+        "D) 2,6,3,0,4,1,5"
+      ],
+      "correct_option": "C",
+      "explanation": "h1(23)=2, h2(23)=2. Probe: (2+i×2)%7 → 2,4,6,1,3,5,0."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "hard",
+      "question": "Mean=50, SD=5, 100 values. Chebyshev: at least % between 40 and 60?",
+      "options": [
+        "A) 50%",
+        "B) 75%",
+        "C) 88.9%",
+        "D) 95%"
+      ],
+      "correct_option": "B",
+      "explanation": "40-60 is ±2σ. Chebyshev: 1 - 1/k² = 1 - 1/4 = 75%."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "hard",
+      "question": "Quick Sort with median pivot always: recurrence and solution?",
+      "options": [
+        "A) T(n)=2T(n/2)+O(n) → O(n log n)",
+        "B) T(n)=T(n/2)+O(n) → O(n)",
+        "C) T(n)=2T(n/2)+O(1) → O(n)",
+        "D) T(n)=T(n-1)+O(n) → O(n²)"
+      ],
+      "correct_option": "A",
+      "explanation": "Median pivot gives balanced partitions. T(n)=2T(n/2)+O(n) → O(n log n)."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "Insertion sort on [7,6,5,4,3,2,1]. Total shifts?",
+      "options": [
+        "A) 7",
+        "B) 6",
+        "C) 28",
+        "D) 21"
+      ],
+      "correct_option": "D",
+      "explanation": "Reverse sorted: 1+2+3+4+5+6 = 21 shifts."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "HTTPS stands for:",
+      "options": [
+        "A) HyperText Transfer Protocol Secure",
+        "B) HyperText Transfer Private System",
+        "C) HyperText Transmission Protocol Standard",
+        "D) High Transfer Technology Protocol Secure"
+      ],
+      "correct_option": "A",
+      "explanation": "HTTPS = HyperText Transfer Protocol Secure, using SSL/TLS."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "pd.merge(df1, df2, on='id', how='inner') returns:",
+      "options": [
+        "A) All rows from both",
+        "B) Only rows with matching 'id' in both",
+        "C) All rows from df1",
+        "D) All rows from df2"
+      ],
+      "correct_option": "B",
+      "explanation": "how='inner' returns only rows where key exists in both DataFrames."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "Create Pandas Series with [10,20,30,40]?",
+      "options": [
+        "A) pd.DataFrame([10,20,30,40])",
+        "B) pd.Series([10,20,30,40])",
+        "C) pd.Series({10,20,30,40})",
+        "D) pd.Series(10,20,30,40)"
+      ],
+      "correct_option": "B",
+      "explanation": "pd.Series(data) where data is a list creates a Series."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "Indian law for cybercrime and electronic commerce?",
+      "options": [
+        "A) Copyright Act, 1957",
+        "B) Indian Penal Code, 1860",
+        "C) IT Act, 2000",
+        "D) Patents Act, 1970"
+      ],
+      "correct_option": "C",
+      "explanation": "The IT Act, 2000 is India's primary cybercrime and e-commerce law."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "medium",
+      "question": "Primary purpose of a digital signature?",
+      "options": [
+        "A) Compress data",
+        "B) Encrypt messages",
+        "C) Authentication, integrity, and non-repudiation",
+        "D) Hide sender's IP"
+      ],
+      "correct_option": "C",
+      "explanation": "Digital signatures verify identity, confirm integrity, prevent denial."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "hard",
+      "question": "RSA: p=17, q=11, e=7. Private key d?",
+      "options": [
+        "A) 7",
+        "B) 147",
+        "C) 43",
+        "D) 23"
+      ],
+      "correct_option": "D",
+      "explanation": "n=187, φ(n)=160. d = 7⁻¹ mod 160. 7×23=161≡1 mod 160. So d=23."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "hard",
+      "question": "df.groupby('category')['sales'].sum() returns:",
+      "options": [
+        "A) DataFrame with all columns",
+        "B) Single scalar value",
+        "C) Series with sales summed per category",
+        "D) Error"
+      ],
+      "correct_option": "C",
+      "explanation": "groupby + column selection + sum() returns a Series indexed by category."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "hard",
+      "question": "Firewall examining connection state and context?",
+      "options": [
+        "A) Stateful inspection firewall",
+        "B) Circuit-level gateway",
+        "C) Packet-filtering firewall",
+        "D) Application-layer proxy"
+      ],
+      "correct_option": "A",
+      "explanation": "Stateful inspection firewalls track active connections and context."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "hard",
+      "question": "IT Act Section 66: up to 3 years imprisonment for?",
+      "options": [
+        "A) Identity theft",
+        "B) Sending offensive messages",
+        "C) Failure to comply with interception",
+        "D) Unauthorized access to computer system"
+      ],
+      "correct_option": "D",
+      "explanation": "Section 66 deals with computer-related offences (hacking)."
+    },
+    {
+      "id": "CUET_CS_2026_P19_L9B_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "Diffie-Hellman vulnerable to MITM because:",
+      "options": [
+        "A) Does not authenticate communicating parties",
+        "B) Discrete logarithm is easy",
+        "C) Transmits shared secret over network",
+        "D) Uses small prime numbers"
+      ],
+      "correct_option": "A",
+      "explanation": "DH provides secure key agreement but doesn't authenticate parties."
+    }
+  ]
+}

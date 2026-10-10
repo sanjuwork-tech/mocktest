@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ENGLISH_PAPER_9_LEVEL_9",
+  "series_id": "CUET_ENGLISH_2026",
+  "paper_number": 9,
+  "difficulty_level": 9,
+  "subject": "English (Code: 101)",
+  "syllabus_source": "cuet english syllabus.pdf 2026",
+  "notification_source": "Information Bulletin.pdf 2026",
+  "past_paper_reference": "pastpaper-english-2024.pdf, pastpaper-english-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": "+5",
+    "incorrect": "-1",
+    "unattempted": "0"
+  },
+  "questions": [
+    {
+      "id": "ENG_9_1",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The rapid expansion of artificial intelligence has transformed industries worldwide, yet its environmental footprint remains a growing concern. Training large language models requires enormous computational power, consuming electricity equivalent to the annual usage of small countries. A single training run for a state-of-the-art model can emit as much carbon as five cars over their entire lifetimes. Data centres, which house the servers powering AI, account for approximately 1% of global electricity consumption, a figure projected to rise sharply as AI adoption accelerates. Researchers are now exploring energy-efficient architectures and renewable-powered facilities to mitigate this impact. Some companies have begun publishing transparency reports on their carbon emissions, though critics argue these disclosures remain incomplete. The challenge lies in balancing AI's transformative potential with the urgent need for sustainable development.\"\n\nAccording to the passage, what is a significant environmental concern associated with AI development?",
+      "options": [
+        "A) AI systems produce toxic electronic waste during manufacturing",
+        "B) AI algorithms require rare earth minerals that cause mining pollution",
+        "C) Training large AI models consumes enormous amounts of electricity",
+        "D) Data centres contaminate local water sources with chemical coolants"
+      ],
+      "explanation": "The passage states that training large language models requires enormous computational power and electricity.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_2",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The rapid expansion of artificial intelligence has transformed industries worldwide, yet its environmental footprint remains a growing concern. Training large language models requires enormous computational power, consuming electricity equivalent to the annual usage of small countries. A single training run for a state-of-the-art model can emit as much carbon as five cars over their entire lifetimes. Data centres, which house the servers powering AI, account for approximately 1% of global electricity consumption, a figure projected to rise sharply as AI adoption accelerates. Researchers are now exploring energy-efficient architectures and renewable-powered facilities to mitigate this impact. Some companies have begun publishing transparency reports on their carbon emissions, though critics argue these disclosures remain incomplete. The challenge lies in balancing AI's transformative potential with the urgent need for sustainable development.\"\n\nBased on the passage, which inference about critics' views on corporate transparency is most reasonable?",
+      "options": [
+        "A) Critics contend that carbon emissions from AI are too small to warrant reporting",
+        "B) Critics argue that only government agencies should publish environmental data",
+        "C) Critics believe current carbon emission disclosures are insufficient and lack completeness",
+        "D) Critics maintain that transparency reports should focus exclusively on financial metrics"
+      ],
+      "explanation": "The passage states critics argue that transparency reports on carbon emissions remain incomplete.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_3",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Factual Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"The rapid expansion of artificial intelligence has transformed industries worldwide, yet its environmental footprint remains a growing concern. Training large language models requires enormous computational power, consuming electricity equivalent to the annual usage of small countries. A single training run for a state-of-the-art model can emit as much carbon as five cars over their entire lifetimes. Data centres, which house the servers powering AI, account for approximately 1% of global electricity consumption, a figure projected to rise sharply as AI adoption accelerates. Researchers are now exploring energy-efficient architectures and renewable-powered facilities to mitigate this impact. Some companies have begun publishing transparency reports on their carbon emissions, though critics argue these disclosures remain incomplete. The challenge lies in balancing AI's transformative potential with the urgent need for sustainable development.\"\n\nWhich of the following best captures the central tension presented in the passage?",
+      "options": [
+        "A) Renewable energy availability versus data centre expansion needs",
+        "B) AI's transformative potential versus the imperative of sustainable development",
+        "C) Open-source AI development versus proprietary technology ownership",
+        "D) Corporate profit motives versus government environmental regulations"
+      ],
+      "explanation": "The passage concludes by stating the challenge lies in balancing AI's transformative potential with sustainable development.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_4",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"Maya's grandmother had always been the keeper of stories. Every evening, as the sun dipped behind the neem tree in the courtyard, she would settle into her wicker chair and unfold tales that seemed to stretch back centuries. Maya, perched on the floor beside her, would listen with wide eyes as rivers spoke, mountains walked, and ordinary villagers outwitted kings. Now, at twenty-three, Maya found herself in a sterile apartment in a distant city, her grandmother three months gone. She had tried recording the stories on her phone, but the device had malfunctioned months ago, and with it, the last voices she had captured. It was on a rain-soaked Tuesday, while sorting through a cardboard box of her grandmother's belongings, that she discovered the notebook\u2014spiral-bound, its pages yellowed and filled with her grandmother's cramped handwriting. Every story she had ever heard, written down in a language Maya could barely read. She sat on the floor, clutching the notebook, and for the first time since the funeral, she did not feel alone. The stories had not died with her grandmother; they had merely been waiting.\"\n\nWhy does Maya feel she has lost connection with her grandmother's stories?",
+      "options": [
+        "A) Her grandmother forbade anyone from writing down the tales",
+        "B) Her phone malfunctioned and she lost the recordings she had made",
+        "C) The stories were told in a dialect Maya never learned to speak",
+        "D) She moved to a city where storytelling is not culturally valued"
+      ],
+      "explanation": "The passage states Maya's phone malfunctioned and with it, the last voice recordings she had captured.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_5",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"Maya's grandmother had always been the keeper of stories. Every evening, as the sun dipped behind the neem tree in the courtyard, she would settle into her wicker chair and unfold tales that seemed to stretch back centuries. Maya, perched on the floor beside her, would listen with wide eyes as rivers spoke, mountains walked, and ordinary villagers outwitted kings. Now, at twenty-three, Maya found herself in a sterile apartment in a distant city, her grandmother three months gone. She had tried recording the stories on her phone, but the device had malfunctioned months ago, and with it, the last voices she had captured. It was on a rain-soaked Tuesday, while sorting through a cardboard box of her grandmother's belongings, that she discovered the notebook\u2014spiral-bound, its pages yellowed and filled with her grandmother's cramped handwriting. Every story she had ever heard, written down in a language Maya could barely read. She sat on the floor, clutching the notebook, and for the first time since the funeral, she did not feel alone. The stories had not died with her grandmother; they had merely been waiting.\"\n\nThe phrase 'they had merely been waiting' suggests that:",
+      "options": [
+        "A) The stories were preserved in the notebook, awaiting discovery and continuation",
+        "B) The stories had magical powers that would activate when Maya read them",
+        "C) Maya had been intentionally avoiding her grandmother's belongings",
+        "D) Maya's grandmother had planned for Maya to find the notebook on a specific date"
+      ],
+      "explanation": "The metaphorical phrase indicates the written stories were preserved in the notebook, waiting to be found.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_6",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Narrative Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"Maya's grandmother had always been the keeper of stories. Every evening, as the sun dipped behind the neem tree in the courtyard, she would settle into her wicker chair and unfold tales that seemed to stretch back centuries. Maya, perched on the floor beside her, would listen with wide eyes as rivers spoke, mountains walked, and ordinary villagers outwitted kings. Now, at twenty-three, Maya found herself in a sterile apartment in a distant city, her grandmother three months gone. She had tried recording the stories on her phone, but the device had malfunctioned months ago, and with it, the last voices she had captured. It was on a rain-soaked Tuesday, while sorting through a cardboard box of her grandmother's belongings, that she discovered the notebook\u2014spiral-bound, its pages yellowed and filled with her grandmother's cramped handwriting. Every story she had ever heard, written down in a language Maya could barely read. She sat on the floor, clutching the notebook, and for the first time since the funeral, she did not feel alone. The stories had not died with her grandmother; they had merely been waiting.\"\n\nWhat is the most likely reason the author describes the notebook as written in 'a language Maya could barely read'?",
+      "options": [
+        "A) To suggest that Maya's grandmother used a secret code in her writing",
+        "B) To emphasise the gap between generations and the fragility of cultural transmission",
+        "C) To show that the notebook was written by someone other than the grandmother",
+        "D) To indicate that Maya had never received formal education in reading"
+      ],
+      "explanation": "This detail highlights generational distance and how cultural heritage risks being lost.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_7",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "medium",
+      "question": "Read the passage:\n\n\"The old clock tower had stopped striking years ago, its hands frozen at ten minutes to midnight. Children in the village swore they heard it chime on moonless nights, but the elders dismissed this as fancy. Ravi, the clockmaker's son, knew better. His father had once told him that the clock held a secret\u2014that it had stopped not from neglect but from choice, at the precise moment the last of the old families left the village. 'A clock that has witnessed everything,' his father had whispered, 'sometimes chooses silence.' Ravi would often climb the narrow stairs to the tower room, where dust motes danced in the single shaft of light from the broken window. He would sit beside the silent mechanism and imagine the centuries it had measured\u2014the births, the weddings, the quiet departures. One evening, as the first monsoon rain began to fall, Ravi noticed something he had never seen before: the minute hand had moved. Just barely. As if the clock were testing whether anyone was still listening.\"\n\nHow do the elders in the village react to children's claims about hearing the clock chime?",
+      "options": [
+        "A) They investigate the tower to verify the children's claims",
+        "B) They punish the children for spreading false rumours",
+        "C) They dismiss the claims as fancy or imagination",
+        "D) They organise night vigils to listen for the chimes"
+      ],
+      "explanation": "The passage states that 'the elders dismissed this as fancy,' meaning they considered it mere imagination.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_8",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"The old clock tower had stopped striking years ago, its hands frozen at ten minutes to midnight. Children in the village swore they heard it chime on moonless nights, but the elders dismissed this as fancy. Ravi, the clockmaker's son, knew better. His father had once told him that the clock held a secret\u2014that it had stopped not from neglect but from choice, at the precise moment the last of the old families left the village. 'A clock that has witnessed everything,' his father had whispered, 'sometimes chooses silence.' Ravi would often climb the narrow stairs to the tower room, where dust motes danced in the single shaft of light from the broken window. He would sit beside the silent mechanism and imagine the centuries it had measured\u2014the births, the weddings, the quiet departures. One evening, as the first monsoon rain began to fall, Ravi noticed something he had never seen before: the minute hand had moved. Just barely. As if the clock were testing whether anyone was still listening.\"\n\nThe line 'A clock that has witnessed everything, sometimes chooses silence' employs which literary device?",
+      "options": [
+        "A) Synecdoche",
+        "B) Personification",
+        "C) Hyperbole",
+        "D) Onomatopoeia"
+      ],
+      "explanation": "The clock is given human qualities\u2014it 'witnessed' and 'chooses'\u2014which is personification.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_9",
+      "topic": "Reading Comprehension",
+      "sub_topic": "Literary Passage",
+      "difficulty": "hard",
+      "question": "Read the passage:\n\n\"The old clock tower had stopped striking years ago, its hands frozen at ten minutes to midnight. Children in the village swore they heard it chime on moonless nights, but the elders dismissed this as fancy. Ravi, the clockmaker's son, knew better. His father had once told him that the clock held a secret\u2014that it had stopped not from neglect but from choice, at the precise moment the last of the old families left the village. 'A clock that has witnessed everything,' his father had whispered, 'sometimes chooses silence.' Ravi would often climb the narrow stairs to the tower room, where dust motes danced in the single shaft of light from the broken window. He would sit beside the silent mechanism and imagine the centuries it had measured\u2014the births, the weddings, the quiet departures. One evening, as the first monsoon rain began to fall, Ravi noticed something he had never seen before: the minute hand had moved. Just barely. As if the clock were testing whether anyone was still listening.\"\n\nWhat might the moving of the minute hand at the end of the passage symbolise?",
+      "options": [
+        "A) A possible revival of the village's connection with its past and heritage",
+        "B) Ravi's imagination playing tricks on him during the storm",
+        "C) A mechanical fault that occurred due to the monsoon humidity",
+        "D) The ghost of the clockmaker trying to communicate with Ravi"
+      ],
+      "explanation": "The clock 'testing whether anyone was still listening' symbolically suggests the village's past reaching out.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_10",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "The following sentence has been divided into four parts. Identify the part that contains a grammatical error.\n\n'Neither the students nor the teacher (A) / were aware of the changes (B) / that had been made (C) / in the examination schedule.' (D)",
+      "options": [
+        "A) C - that had been made",
+        "B) D - in the examination schedule",
+        "C) A - Neither the students nor the teacher",
+        "D) B - were aware of the changes"
+      ],
+      "explanation": "With 'neither...nor,' the verb agrees with the nearest subject. Since 'teacher' is singular, it should be 'was aware.'",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_11",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: that the ancient manuscript\nQ: carbon dating revealed\nR: was at least three thousand years old\nS: found in the cave",
+      "options": [
+        "A) QSRP",
+        "B) PQRS",
+        "C) QRPS",
+        "D) QPRS"
+      ],
+      "explanation": "The correct sequence is Q-P-R-S: 'Carbon dating revealed that the ancient manuscript found in the cave was at least three thousand years old.'",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_12",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a meaningful paragraph:\n\nP: which had been abandoned for decades\nQ: the explorers finally reached the summit\nR: where they discovered a small temple\nS: after a gruelling twelve-hour climb",
+      "options": [
+        "A) QRPS",
+        "B) QSPR",
+        "C) SQPR",
+        "D) QSRP"
+      ],
+      "explanation": "The correct sequence is Q-S-R-P: 'The explorers finally reached the summit after a gruelling twelve-hour climb where they discovered a small temple which had been abandoned for decades.'",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_13",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a meaningful sentence:\n\nP: she decided\nQ: after much deliberation\nR: to pursue\nS: a career in medicine",
+      "options": [
+        "A) PSRQ",
+        "B) QPRS",
+        "C) PRQS",
+        "D) PQRS"
+      ],
+      "explanation": "The correct sequence is P-Q-R-S: 'She decided after much deliberation to pursue a career in medicine.'",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_14",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: that the government's new policy\nQ: economists have argued\nR: could inadvertently harm\nS: small businesses",
+      "options": [
+        "A) PQRS",
+        "B) QPRS",
+        "C) QSPR",
+        "D) QRPS"
+      ],
+      "explanation": "The correct sequence is Q-P-R-S: 'Economists have argued that the government's new policy could inadvertently harm small businesses.'",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_15",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "hard",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: which had been carved by medieval craftsmen\nQ: the cathedral's stone pillars\nR: drew admiration\nS: from every visitor",
+      "options": [
+        "A) QPRS",
+        "B) PQRS",
+        "C) QRPS",
+        "D) QSRP"
+      ],
+      "explanation": "The correct sequence is Q-P-R-S: 'The cathedral's stone pillars which had been carved by medieval craftsmen drew admiration from every visitor.'",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_16",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "easy",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a meaningful sentence:\n\nP: the scientist\nQ: who discovered the new element\nR: was awarded\nS: the Nobel Prize",
+      "options": [
+        "A) PSRQ",
+        "B) PQRS",
+        "C) QPRS",
+        "D) PRQS"
+      ],
+      "explanation": "The correct sequence is P-Q-R-S: 'The scientist who discovered the new element was awarded the Nobel Prize.'",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_17",
+      "topic": "Verbal Ability",
+      "sub_topic": "Rearranging Parts",
+      "difficulty": "medium",
+      "question": "Rearrange the following parts (P-Q-R-S) to form a coherent sentence:\n\nP: despite the heavy rainfall\nQ: the cricket match\nR: continued\nS: without any interruption",
+      "options": [
+        "A) QPRS",
+        "B) PQRS",
+        "C) QRPS",
+        "D) PQSR"
+      ],
+      "explanation": "The correct sequence is P-Q-R-S: 'Despite the heavy rainfall, the cricket match continued without any interruption.'",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_18",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the idioms in List I with their meanings in List II:\n\nList I:\nA. Break the ice\nB. Hit the nail on the head\nC. Let the cat out of the bag\nD. Burn the midnight oil\n\nList II:\n1. To reveal a secret\n2. To initiate conversation in a social setting\n3. To study or work late into the night\n4. To describe exactly what is causing a situation",
+      "options": [
+        "A) A-2, B-4, C-1, D-3",
+        "B) A-4, B-2, C-3, D-1",
+        "C) A-1, B-3, C-2, D-4",
+        "D) A-3, B-1, C-4, D-2"
+      ],
+      "explanation": "Break the ice = initiate conversation; Hit the nail = be exactly right; Cat out of bag = reveal secret; Burn midnight oil = work late.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_19",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the authors in List I with their works in List II:\n\nList I:\nA. Arundhati Roy\nB. Salman Rushdie\nC. Amitav Ghosh\nD. Vikram Seth\n\nList II:\n1. A Suitable Boy\n2. The God of Small Things\n3. The Glass Palace\n4. Midnight's Children",
+      "options": [
+        "A) A-2, B-4, C-3, D-1",
+        "B) A-3, B-1, C-2, D-4",
+        "C) A-4, B-2, C-1, D-3",
+        "D) A-1, B-3, C-4, D-2"
+      ],
+      "explanation": "Roy = The God of Small Things; Rushdie = Midnight's Children; Ghosh = The Glass Palace; Seth = A Suitable Boy.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_20",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the literary devices in List I with their definitions in List II:\n\nList I:\nA. Metonymy\nB. Synecdoche\nC. Anaphora\nD. Chiasmus\n\nList II:\n1. Repetition of a word at the beginning of successive clauses\n2. Substitution of an attribute or associated feature for the thing itself\n3. A reversal in the order of words in two otherwise parallel phrases\n4. A part made to represent the whole, or vice versa",
+      "options": [
+        "A) A-2, B-4, C-1, D-3",
+        "B) A-3, B-1, C-2, D-4",
+        "C) A-1, B-4, C-3, D-2",
+        "D) A-4, B-2, C-1, D-3"
+      ],
+      "explanation": "Metonymy = associated feature; Synecdoche = part for whole; Anaphora = repetition; Chiasmus = reversed order.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_21",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the words in List I with their correct meanings in List II:\n\nList I:\nA. Ephemeral\nB. Pernicious\nC. Magnanimous\nD. Obsequious\n\nList II:\n1. Having a harmful effect, especially in a gradual or subtle way\n2. Lasting for a very short time\n3. Obedient or attentive to an excessive degree\n4. Generous in forgiving; noble in spirit",
+      "options": [
+        "A) A-4, B-3, C-2, D-1",
+        "B) A-3, B-2, C-1, D-4",
+        "C) A-2, B-1, C-4, D-3",
+        "D) A-1, B-4, C-3, D-2"
+      ],
+      "explanation": "Ephemeral = short-lived; Pernicious = harmful; Magnanimous = generous/noble; Obsequious = excessively obedient.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_22",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the prefixes in List I with their meanings in List II:\n\nList I:\nA. Hyper-\nB. Hypo-\nC. Pseudo-\nD. Anti-\n\nList II:\n1. Against; opposed to\n2. Below; beneath; less than normal\n3. Above; beyond; excessive\n4. False; counterfeit",
+      "options": [
+        "A) A-1, B-4, C-3, D-2",
+        "B) A-4, B-3, C-2, D-1",
+        "C) A-3, B-2, C-4, D-1",
+        "D) A-2, B-1, C-4, D-3"
+      ],
+      "explanation": "Hyper- = excessive; Hypo- = below normal; Pseudo- = false; Anti- = against.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_23",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "medium",
+      "question": "Match the figures of speech in List I with their examples in List II:\n\nList I:\nA. Simile\nB. Personification\nC. Alliteration\nD. Oxymoron\n\nList II:\n1. 'Deafening silence'\n2. 'She sings like an angel'\n3. 'The wind whispered through the trees'\n4. 'Peter Piper picked a peck'",
+      "options": [
+        "A) A-3, B-2, C-1, D-4",
+        "B) A-1, B-4, C-2, D-3",
+        "C) A-4, B-1, C-3, D-2",
+        "D) A-2, B-3, C-4, D-1"
+      ],
+      "explanation": "Simile = 'like an angel'; Personification = wind whispered; Alliteration = Peter Piper; Oxymoron = deafening silence.",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_24",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the rhetorical devices in List I with their descriptions in List II:\n\nList I:\nA. Litotes\nB. Zeugma\nC. Anadiplosis\nD. Asyndeton\n\nList II:\n1. Omission of conjunctions between clauses, creating urgency\n2. Understatement by using a negative to affirm a positive\n3. Repetition of the last word of a clause at the start of the next\n4. A single verb or adjective governs two objects, but fits only one literally",
+      "options": [
+        "A) A-1, B-3, C-4, D-2",
+        "B) A-4, B-2, C-1, D-3",
+        "C) A-3, B-1, C-2, D-4",
+        "D) A-2, B-4, C-3, D-1"
+      ],
+      "explanation": "Litotes = negative understatement; Zeugma = one word governs two; Anadiplosis = repetition; Asyndeton = no conjunctions.",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_25",
+      "topic": "Verbal Ability",
+      "sub_topic": "Match the Following",
+      "difficulty": "hard",
+      "question": "Match the terms in List I with their fields of study in List II:\n\nList I:\nA. Phonology\nB. Etymology\nC. Semantics\nD. Pragmatics\n\nList II:\n1. The study of meaning in context\n2. The study of word origins and history\n3. The study of sound systems in language\n4. The study of meaning in language",
+      "options": [
+        "A) A-2, B-1, C-4, D-3",
+        "B) A-4, B-3, C-2, D-1",
+        "C) A-1, B-4, C-3, D-2",
+        "D) A-3, B-2, C-4, D-1"
+      ],
+      "explanation": "Phonology = sound systems; Etymology = word origins; Semantics = meaning; Pragmatics = meaning in context.",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_26",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe committee has decided to _____ the meeting until next week due to the chairman's illness.",
+      "options": [
+        "A) prepone",
+        "B) propose",
+        "C) postpone",
+        "D) precede"
+      ],
+      "explanation": "'Postpone' means to delay or defer an event to a later time.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_27",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Select the word that best fills the blank:\n\nThe scientist's _____ research on climate change earned her international recognition and numerous awards.",
+      "options": [
+        "A) groundbreaking",
+        "B) grounded",
+        "C) broken",
+        "D) groundbreakingly"
+      ],
+      "explanation": "'Groundbreaking' (adjective) means innovative or pioneering, correctly modifying the noun 'research.'",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_28",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to fill in the blank:\n\nThe diplomat's _____ remarks during the negotiation nearly derailed the peace talks, forcing mediators to intervene.",
+      "options": [
+        "A) incisive",
+        "B) incendiary",
+        "C) incipient",
+        "D) incidental"
+      ],
+      "explanation": "'Incendiary' means tending to stir up conflict, which matches remarks that nearly derailed peace talks.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_29",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Fill in the blank with the most appropriate word:\n\nThe new policy aims to _____ the gap between rich and poor by implementing progressive taxation.",
+      "options": [
+        "A) bridge",
+        "B) besiege",
+        "C) broach",
+        "D) breach"
+      ],
+      "explanation": "'Bridge the gap' is the correct collocation meaning to reduce the difference between two things.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_30",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Select the appropriate word:\n\nThe ancient manuscript was so _____ that even experts struggled to decipher its faded script and crumbling pages.",
+      "options": [
+        "A) decrepit",
+        "B) delirious",
+        "C) delectable",
+        "D) deleterious"
+      ],
+      "explanation": "'Decrepit' means worn out or ruined by age, perfectly describing an ancient, crumbling manuscript.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_31",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word to complete the sentence:\n\nHer _____ knowledge of medieval history impressed the interview panel, who had never encountered an applicant with such depth of expertise.",
+      "options": [
+        "A) endemic",
+        "B) enigmatic",
+        "C) enervating",
+        "D) encyclopaedic"
+      ],
+      "explanation": "'Encyclopaedic' means comprehensive and wide-ranging, fitting the description of impressive depth of knowledge.",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_32",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Fill in the blank with the correct option:\n\nThe manager's _____ attitude towards employee concerns led to a significant drop in workplace morale.",
+      "options": [
+        "A) dismissive",
+        "B) dismissible",
+        "C) dismissate",
+        "D) dismissory"
+      ],
+      "explanation": "'Dismissive' means showing indifference or disregard, correctly describing the manager's attitude.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_33",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word:\n\nThe students were asked to _____ their essays by Friday, as the teacher needed time to grade them before the holidays.",
+      "options": [
+        "A) remit",
+        "B) submit",
+        "C) permit",
+        "D) transmit"
+      ],
+      "explanation": "'Submit' means to hand in or present for review, which is the correct word for turning in essays.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_34",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Select the most appropriate word:\n\nThe _____ between the two brothers was evident in their contrasting personalities\u2014one outgoing, the other reserved.",
+      "options": [
+        "A) dispensing",
+        "B) dispersal",
+        "C) dispassion",
+        "D) disparity"
+      ],
+      "explanation": "'Disparity' means a great difference, which fits the description of contrasting personalities.",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_35",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Choose the correct word:\n\nThe committee's decision was _____; it satisfied neither faction and left both sides feeling aggrieved and unheard.",
+      "options": [
+        "A) equitable",
+        "B) equanimous",
+        "C) equestrian",
+        "D) equivocal"
+      ],
+      "explanation": "'Equivocal' means ambiguous or unclear, describing a decision that failed to clearly address either side's concerns.",
+      "correct_option": "D"
+    },
+    {
+      "id": "ENG_9_36",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "medium",
+      "question": "Fill in the blank with the appropriate word:\n\nThe _____ of the new law was debated extensively before it was finally passed by the parliament.",
+      "options": [
+        "A) effigy",
+        "B) efficacy",
+        "C) effrontery",
+        "D) effluence"
+      ],
+      "explanation": "'Efficacy' means effectiveness, which is what would be debated regarding a new law's potential impact.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_37",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "hard",
+      "question": "Select the correct word:\n\nThe _____ negotiations between the two countries lasted for months before a treaty was finally signed.",
+      "options": [
+        "A) profane",
+        "B) prosaic",
+        "C) protracted",
+        "D) propitious"
+      ],
+      "explanation": "'Protracted' means prolonged or drawn out, which fits negotiations that lasted for months.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_38",
+      "topic": "Verbal Ability",
+      "sub_topic": "Choosing the Correct Word",
+      "difficulty": "easy",
+      "question": "Choose the correct word to complete the sentence:\n\nThe witness's _____ testimony contradicted the evidence presented by the prosecution.",
+      "options": [
+        "A) credible",
+        "B) unreliable",
+        "C) consistent",
+        "D) supportive"
+      ],
+      "correct_option": "B",
+      "explanation": "Unreliable means not trustworthy, which fits testimony that contradicts evidence."
+    },
+    {
+      "id": "ENG_9_39",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is most similar in meaning to 'Tacit':",
+      "options": [
+        "A) implied though not spoken",
+        "B) unclear",
+        "C) rare",
+        "D) fearful"
+      ],
+      "explanation": "'Tacit' means implied though not spoken.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_40",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is most similar in meaning to 'Vituperative':",
+      "options": [
+        "A) abusive",
+        "B) unclear",
+        "C) rare",
+        "D) fearful"
+      ],
+      "explanation": "'Vituperative' means abusive.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_41",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "easy",
+      "question": "Choose the word that is opposite in meaning to 'Winsome':",
+      "options": [
+        "A) repulsive",
+        "B) attractive",
+        "C) common",
+        "D) praiseworthy"
+      ],
+      "explanation": "'Winsome' means repulsive.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_42",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to 'Zenith':",
+      "options": [
+        "A) nadir",
+        "B) peak",
+        "C) common",
+        "D) praiseworthy"
+      ],
+      "explanation": "'Zenith' means nadir.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_43",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is most similar in meaning to 'Abstemious':",
+      "options": [
+        "A) moderate in appetite",
+        "B) unclear",
+        "C) rare",
+        "D) fearful"
+      ],
+      "explanation": "'Abstemious' means moderate in appetite.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_44",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the word that is opposite in meaning to 'Adroit':",
+      "options": [
+        "A) clumsy",
+        "B) skillful",
+        "C) common",
+        "D) praiseworthy"
+      ],
+      "explanation": "'Adroit' means clumsy.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_45",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the synonym for 'Obsequious':",
+      "options": [
+        "A) Openly rebellious",
+        "B) Excessively obedient or servile",
+        "C) Highly intelligent",
+        "D) Extremely wealthy"
+      ],
+      "explanation": "'Obsequious' means obedient or attentive to an excessively servile degree.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_46",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is opposite in meaning to 'Amenable':",
+      "options": [
+        "A) disagreeable",
+        "B) agreeable",
+        "C) common",
+        "D) praiseworthy"
+      ],
+      "explanation": "'Amenable' means disagreeable.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_47",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the antonym of 'Magnanimous':",
+      "options": [
+        "A) Generous",
+        "B) Petty",
+        "C) Forgiving",
+        "D) Noble"
+      ],
+      "explanation": "'Magnanimous' means generous in spirit; 'petty' (mean-spirited, small-minded) is its antonym.",
+      "correct_option": "B"
+    },
+    {
+      "id": "ENG_9_48",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Choose the word that is most similar in meaning to 'Anathema':",
+      "options": [
+        "A) something intensely disliked",
+        "B) unclear",
+        "C) rare",
+        "D) fearful"
+      ],
+      "explanation": "'Anathema' means something intensely disliked.",
+      "correct_option": "A"
+    },
+    {
+      "id": "ENG_9_49",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "medium",
+      "question": "Choose the synonym for 'Germane':",
+      "options": [
+        "A) Melody",
+        "B) Silence",
+        "C) Discordant noise",
+        "D) Harmony"
+      ],
+      "explanation": "'Germane' means a harsh discordant mixture of sounds; 'discordant noise' is its synonym.",
+      "correct_option": "C"
+    },
+    {
+      "id": "ENG_9_50",
+      "topic": "Verbal Ability",
+      "sub_topic": "Synonyms and Antonyms",
+      "difficulty": "hard",
+      "question": "Select the antonym of 'Pernicious':",
+      "options": [
+        "A) Destructive",
+        "B) Harmful",
+        "C) Noxious",
+        "D) Beneficial"
+      ],
+      "explanation": "'Pernicious' means having a harmful effect; 'beneficial' (favorable) is its antonym.",
+      "correct_option": "D"
+    }
+  ]
+}

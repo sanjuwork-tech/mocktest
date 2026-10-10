@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P24_L8C",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 24,
+  "difficulty_level": "8C",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Lexicographic Preferences",
+      "difficulty": "hard",
+      "question": "In advanced microeconomics, why cannot 'Lexicographic Preferences' (where commodity 1 is strictly prioritized over commodity 2 like words in a dictionary) be represented by any continuous real-valued utility function?",
+      "options": [
+        "A) Because the consumer violates transitivity of choices",
+        "B) Because lexicographic preference orderings violate the axiom of continuity, meaning indifference curves degenerate into single discrete points",
+        "C) Because the marginal utility of money increases infinitely",
+        "D) Because the two goods must be consumed in negative quantities"
+      ],
+      "correct_option": "B",
+      "explanation": "Lexicographic preferences violate the continuity axiom: there is no trade-off between the goods, so no continuous utility function or two-dimensional indifference curve exists."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Homothetic Utility Functions",
+      "difficulty": "hard",
+      "question": "A consumer utility function is described as 'Homothetic' if the Marginal Rate of Substitution (MRS) depends solely on the ratio of the quantities consumed (Y / X). A crucial economic property of homothetic preferences is that:",
+      "options": [
+        "A) The consumer spends 100 percent of income on inferior goods",
+        "B) All income expansion paths (Engel curves) are straight rays originating from the origin, meaning income elasticity of demand for all goods is exactly unity",
+        "C) The price elasticity of demand is zero for all commodities",
+        "D) Indifference curves are strictly concave to the origin"
+      ],
+      "correct_option": "B",
+      "explanation": "Homothetic preferences possess linear Engel curves originating from the origin, ensuring that expenditure shares on each good remain constant as income increases (unitary income elasticity)."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Giffen vs Veblen Goods",
+      "difficulty": "medium",
+      "question": "While both Giffen goods and Veblen goods exhibit an upward-sloping demand curve, how do their underlying theoretical mechanisms fundamentally differ?",
+      "options": [
+        "A) Giffen goods violate the law of supply while Veblen goods violate the law of costs",
+        "B) Giffen behavior is driven by a powerful negative real income effect in an inferior subsistence good, whereas Veblen behavior is driven by social snob appeal and conspicuous consumption preferences",
+        "C) Veblen goods are consumed exclusively by low-income rural peasants",
+        "D) Giffen goods are manufactured exclusively by public monopolies"
+      ],
+      "correct_option": "B",
+      "explanation": "A Giffen good is an inferior necessity whose negative income effect overwhelms the substitution effect. A Veblen good is a luxury status symbol whose higher price makes it more desirable for conspicuous prestige."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q04",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Elasticity of Input Substitution",
+      "difficulty": "hard",
+      "question": "The Elasticity of Factor Substitution (sigma) along an isoquant measures:",
+      "options": [
+        "A) The ratio of total variable cost to total fixed overhead",
+        "B) The percentage change in the capital-labour ratio (K / L) relative to the percentage change in the Marginal Rate of Technical Substitution (MRTS_LK)",
+        "C) The rate of output growth when only labour increases",
+        "D) The percentage change in product price divided by change in wages"
+      ],
+      "correct_option": "B",
+      "explanation": "Elasticity of substitution sigma = (% Delta (K/L)) / (% Delta MRTS), quantifying how easily capital and labour can be substituted for each other in response to a change in relative factor prices."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q05",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Multi-Product Scope Economies",
+      "difficulty": "medium",
+      "question": "A diversified corporation enjoys 'Economies of Scope' across two distinct product lines when:",
+      "options": [
+        "A) The average cost of each single product declines solely with scale",
+        "B) Producing two distinct commodities jointly within an integrated enterprise costs less than producing them in two independent specialized firms",
+        "C) The marginal physical product of capital is zero",
+        "D) Factor inputs are completely non-substitutable"
+      ],
+      "correct_option": "B",
+      "explanation": "Economies of scope exist when the joint production of two or more goods generates cost savings through shared overheads, administrative synergies, or common R&D facilities."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q06",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Steiner Peak-Load Pricing Model",
+      "difficulty": "hard",
+      "question": "In Peter Steiner's classic Peak-Load Pricing model for public utilities with fixed plant capacity, optimal allocative efficiency requires that:",
+      "options": [
+        "A) All users pay an identical flat monthly rate regardless of time of use",
+        "B) Off-peak users pay only the short-run operating marginal cost, while peak users pay operating marginal cost plus the full marginal cost of expanding plant capacity",
+        "C) Off-peak users subsidize peak industrial consumption",
+        "D) Peak users receive free electrical power from municipal authorities"
+      ],
+      "correct_option": "B",
+      "explanation": "Capacity is installed to serve peak demand. Hence, peak users should pay both operating costs and capital capacity costs, while off-peak users pay only short-run operating costs."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q07",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "First Degree Discrimination Efficiency",
+      "difficulty": "hard",
+      "question": "Why does a monopolist practicing first-degree (perfect) price discrimination produce the socially efficient, competitive level of output with zero deadweight loss?",
+      "options": [
+        "A) Because the monopolist donates all supernormal profits to charity",
+        "B) Because the monopolist's marginal revenue curve coincides with the market demand curve, making it profitable to expand output up to where Price = Marginal Cost",
+        "C) Because consumer surplus is maximized at the expense of producer surplus",
+        "D) Because fixed capital costs are completely abolished"
+      ],
+      "correct_option": "B",
+      "explanation": "By charging each buyer their maximum willingness to pay, MR = P. The firm produces until P = MC (allocative efficiency), converting all consumer surplus into monopoly profit with 0 deadweight loss."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q08",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Edgeworth Price Cycles",
+      "difficulty": "hard",
+      "question": "In the Bertrand-Edgeworth duopoly model where firms produce homogeneous goods but face strict production capacity constraints, equilibrium price behaves as:",
+      "options": [
+        "A) A stable price rigidly fixed at marginal cost forever",
+        "B) An oscillating 'Edgeworth Price Cycle', wherein firms sequentially undercut each other's prices down to marginal cost and then abruptly raise prices back to monopoly levels",
+        "C) A collusive monopoly cartel price supported by written treaty",
+        "D) A price permanently fixed at zero"
+      ],
+      "correct_option": "B",
+      "explanation": "Capacity constraints prevent a single firm from satisfying the entire market when undercutting. Firms undercut iteratively until capacity binds, then raise prices to exploit residual demand, creating price cycles."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q09",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Market Solutions to Adverse Selection",
+      "difficulty": "medium",
+      "question": "In markets afflicted by asymmetric information and adverse selection, which institutional mechanism serves to signal product quality and restore market trade?",
+      "options": [
+        "A) Strict statutory prohibition of product advertising",
+        "B) Comprehensive warranties, brand name reputation, and third-party certification",
+        "C) Enforcing identical pricing across all goods regardless of grade",
+        "D) Eliminating all return policies in retail stores"
+      ],
+      "correct_option": "B",
+      "explanation": "Warranties and brand reputations act as credible market signals because offering long guarantees is too costly for manufacturers of inferior goods ('lemons'), overcoming adverse selection."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q10",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Insurance Deductibles and Moral Hazard",
+      "difficulty": "medium",
+      "question": "Why do commercial health and property insurance contracts incorporate 'deductibles' and 'co-payments' requiring policyholders to bear a portion of any insured loss?",
+      "options": [
+        "A) To subsidize the administrative costs of foreign banking institutions",
+        "B) To mitigate moral hazard by preserving the policyholder's financial incentive to exercise reasonable care and avoid reckless behaviour",
+        "C) To convert private insurance companies into public charities",
+        "D) To guarantee zero corporate profits for insurance underwriters"
+      ],
+      "correct_option": "B",
+      "explanation": "Deductibles and co-insurance ensure policyholders share in financial losses, aligning their incentives to take precautions and reducing post-contractual moral hazard."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q11",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Pigovian Tax vs Coasean Solution",
+      "difficulty": "hard",
+      "question": "When addressing a negative production externality (such as industrial effluent dumping in a river), how does the Pigovian tax approach fundamentally differ from the Coasean approach?",
+      "options": [
+        "A) Coasean bargaining requires the complete abolition of private property",
+        "B) Pigovian taxes mandate 100 percent state ownership of polluting factories",
+        "C) Pigovian policy relies on government taxation equal to marginal external damage, whereas the Coasean approach relies on assigning clear property rights and private bargaining",
+        "D) The two approaches require zero transaction costs to operate effectively"
+      ],
+      "correct_option": "C",
+      "explanation": "A Pigovian tax is a state-administered price mechanism internalizing external cost (tax = MEC). Coase proposed establishing clear property rights and letting parties bargain to an efficient outcome."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Specific vs Ad-Valorem Tax Incidence",
+      "difficulty": "medium",
+      "question": "A 'Specific Tax' is levied as a fixed monetary sum per physical unit of the commodity, whereas an 'Ad-Valorem Tax' is levied as a:",
+      "options": [
+        "A) Annual levy on the company's retained financial capital",
+        "B) Lump-sum poll fee on factory workers",
+        "C) Specified percentage of the selling price or monetary value of the commodity",
+        "D) Fixed charge based on the distance goods travel to market"
+      ],
+      "correct_option": "C",
+      "explanation": "Specific taxes are fixed rupee amounts per physical unit (e.g. Rs 5 per litre of petrol). Ad-valorem taxes are proportional percentage charges on product value (e.g. 18% GST)."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Contestable Markets Free Entry",
+      "difficulty": "medium",
+      "question": "In William Baumol's contestable markets theory, what is the critical structural condition that prevents an incumbent monopoly firm from earning supernormal profits?",
+      "options": [
+        "A) Severe trade union wage demands that absorb all corporate profits",
+        "B) Compulsory price controls enacted by anti-monopoly commissions",
+        "C) Absence of sunk entry and exit costs, allowing prospective entrants to engage in hit-and-run competition if price exceeds average cost",
+        "D) An infinitely large number of existing competitors"
+      ],
+      "correct_option": "C",
+      "explanation": "Contestable markets require zero sunk costs. Even with only one seller, the threat of rapid entry and costless exit forces the incumbent to produce efficiently and charge P = AC."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Demand Elasticity Extreme Values",
+      "difficulty": "easy",
+      "question": "When the price elasticity of demand for a commodity is equal to zero, a 10 percent increase in its price will cause quantity demanded to:",
+      "options": [
+        "A) Rise by 10 percent",
+        "B) Fall by 10 percent",
+        "C) Remain completely unchanged",
+        "D) Collapse to zero"
+      ],
+      "correct_option": "C",
+      "explanation": "Price elasticity of zero denotes perfectly inelastic demand: consumers buy the exact same quantity regardless of how high or low the price goes."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopolistic Competition Chamberlin",
+      "difficulty": "medium",
+      "question": "In Edward Chamberlin's monopolistic competition model, the 'tangency solution' in the long run implies that:",
+      "options": [
+        "A) Supernormal economic profits persist permanently",
+        "B) Price equals marginal cost at the minimum of average cost",
+        "C) The firm's downward-sloping demand curve is tangent to the Long-Run Average Cost curve, earning only normal profits with excess capacity",
+        "D) Total revenue is less than total variable cost"
+      ],
+      "correct_option": "C",
+      "explanation": "Chamberlin showed that free entry drives profits to normal levels (P = LAC), but downward-sloping demand ensures tangency occurs on the falling segment of LAC, resulting in excess capacity."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Supply Elasticity Time Horizon",
+      "difficulty": "easy",
+      "question": "Price elasticity of supply for most manufactured goods is higher in the long run than in the short run because:",
+      "options": [
+        "A) Government subsidies automatically decline over time",
+        "B) Consumers stop purchasing manufactured products in the long run",
+        "C) Firms have sufficient time to adjust all factor inputs, expand plant capacity, and new firms can enter the industry",
+        "D) Production technology becomes frozen in the long run"
+      ],
+      "correct_option": "C",
+      "explanation": "In the long run, all inputs are variable. Firms can build new factories and expand production lines, making supply significantly more responsive to price changes."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Laspeyres vs Paasche Index",
+      "difficulty": "hard",
+      "question": "In constructing GDP deflators and price indices, why does a Laspeyres price index typically overstate true inflation while a Paasche price index understates it?",
+      "options": [
+        "A) Paasche uses gold bullion as the sole commodity benchmark",
+        "B) Laspeyres excludes all manufactured goods from the basket",
+        "C) Laspeyres uses fixed base-period quantity weights and ignores consumer substitution away from goods whose relative prices have risen, while Paasche uses current-period weights that overstate substitution",
+        "D) Laspeyres automatically deducts direct personal income taxes"
+      ],
+      "correct_option": "C",
+      "explanation": "Laspeyres holds base-year quantities constant, ignoring that consumers substitute away from expensive goods (substitution bias). Paasche weights by current quantities, reflecting substitution and understating inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Tanzi Currency Demand Approach",
+      "difficulty": "hard",
+      "question": "Vito Tanzi's 'Currency Demand Approach' estimates the size of the shadow (black) economy based on the econometric assumption that:",
+      "options": [
+        "A) Underground businesses borrow exclusively from foreign central banks",
+        "B) Informal workers only consume imported luxury merchandise",
+        "C) Underground and tax-evading economic transactions are conducted primarily in physical cash currency to avoid leaving electronic audit trails",
+        "D) The velocity of circulation of money is zero in shadow markets"
+      ],
+      "correct_option": "C",
+      "explanation": "Tanzi's model posits that taxes and regulations drive underground activity, which relies on physical cash currency for anonymity. Excess cash demand relative to economic fundamentals measures the shadow economy."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Natural Capital Depletion in NNP",
+      "difficulty": "medium",
+      "question": "In Environmentally Adjusted Net National Product (ED-NNP or Green NNP), what deduction is made from conventional NNP?",
+      "options": [
+        "A) Grants given to non-governmental welfare organizations",
+        "B) Total corporation tax collected from mining companies",
+        "C) Monetary valuation of natural resource depletion and environmental quality degradation",
+        "D) Depreciation of commercial software codes"
+      ],
+      "correct_option": "C",
+      "explanation": "Green NNP deducts both conventional consumption of fixed capital (depreciation) and the economic cost of natural resource depletion (forests, minerals, groundwater) and environmental damage."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Real vs Nominal National Income",
+      "difficulty": "easy",
+      "question": "Real National Income measures the flow of final goods and services valued at:",
+      "options": [
+        "A) Future anticipated prices",
+        "B) Prevailing current-year market prices",
+        "C) Constant base-year prices",
+        "D) International foreign currency exchange rates"
+      ],
+      "correct_option": "C",
+      "explanation": "Real national income reflects physical volume of output valued at constant base-year prices, eliminating distortions caused by general price inflation."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Cambridge Cash Balance Approach",
+      "difficulty": "easy",
+      "question": "In the Cambridge Cash Balance equation M_d = k * P * Y, what does the parameter 'k' represent?",
+      "options": [
+        "A) The capital-output ratio of heavy engineering plants",
+        "B) The legal reserve ratio enforced on commercial banks",
+        "C) The proportion of nominal national income that individuals desire to hold in the form of liquid cash balances",
+        "D) The annual depreciation rate of physical currency notes"
+      ],
+      "correct_option": "C",
+      "explanation": "In Cambridge monetary theory (Marshall and Pigou), k is the cash-balance ratio: the fraction of annual nominal income people desire to hold as ready purchasing power (k = 1/V)."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Standing Deposit Facility Mechanics",
+      "difficulty": "medium",
+      "question": "The introduction of the Standing Deposit Facility (SDF) in India's operating monetary framework made which liquidity absorption tool redundant for routine operations?",
+      "options": [
+        "A) Decennial demographic census surveys",
+        "B) Marginal Standing Facility overnight borrowing window",
+        "C) Priority sector agricultural lending targets",
+        "D) Fixed-rate reverse repo operations backed by government securities"
+      ],
+      "correct_option": "D",
+      "explanation": "The uncollateralized SDF replaced the fixed-rate reverse repo as the floor of the LAF corridor, enabling RBI to absorb liquidity without pledging government securities."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Credit Channel Monetary Transmission",
+      "difficulty": "hard",
+      "question": "The 'Bank Lending Channel' of monetary policy transmission operates primarily when a hike in policy rates:",
+      "options": [
+        "A) Forces commercial banks to distribute free gold bullion",
+        "B) Automatically raises the exchange rate to infinity",
+        "C) Eliminates all corporate profit taxes",
+        "D) Reduces commercial bank reserves and deposits, causing banks to contract the supply of bank loans, particularly impacting bank-dependent small and medium enterprises"
+      ],
+      "correct_option": "D",
+      "explanation": "The bank lending channel focuses on credit availability: monetary tightening drains bank reserves, restricting bank loan supply and depressing investment among bank-dependent firms."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Clearing House Function",
+      "difficulty": "easy",
+      "question": "As a 'Clearing House' for commercial banks, the central bank performs which vital operational service?",
+      "options": [
+        "A) Sells unallocated agricultural lands to private investors",
+        "B) Demolishes unprofitable commercial bank branches",
+        "C) Dictates retail consumer goods prices in department stores",
+        "D) Settles inter-bank claims and mutual obligations by transferring entries across banks' reserve accounts held with the central bank"
+      ],
+      "correct_option": "D",
+      "explanation": "Because commercial banks hold reserve deposits with the central bank, inter-bank cheques and payment obligations are settled through book transfers between their respective accounts."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Bequest Motive in Life Cycle",
+      "difficulty": "hard",
+      "question": "When Franco Modigliani's Life-Cycle Hypothesis is extended to incorporate an intergenerational 'Bequest Motive' (parents wanting to leave wealth to children):",
+      "options": [
+        "A) The investment multiplier becomes negative",
+        "B) Marginal propensity to consume rises to 2.0",
+        "C) All household savings collapse to zero upon retirement",
+        "D) Elderly retirees do not completely dissave their assets during retirement, maintaining a higher aggregate national capital stock than predicted by the pure life-cycle model"
+      ],
+      "correct_option": "D",
+      "explanation": "Under the pure life-cycle hypothesis, wealth falls to zero at death. A bequest motive induces individuals to retain assets, dampening elderly dissaving and maintaining higher aggregate wealth."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Capital-Output Ratio Accelerator",
+      "difficulty": "hard",
+      "question": "In the interaction between the Multiplier and the Accelerator (Samuelson's Business Cycle model), if the marginal propensity to consume is 'c' and the accelerator coefficient is 'v', explosive economic cycles occur when:",
+      "options": [
+        "A) Commercial banks eliminate all lending interest rates",
+        "B) The accelerator coefficient 'v' is equal to zero",
+        "C) Autonomous investment exceeds total government spending",
+        "D) The values of 'c' and 'v' combine such that induced investment continuously magnifies output fluctuations beyond sustainable bounds"
+      ],
+      "correct_option": "D",
+      "explanation": "Samuelson demonstrated that the interaction of the multiplier (c) and accelerator (v) generates business cycles. Higher values of v and c push the system into explosive or oscillatory expansion."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Interest Sensitivity of Investment",
+      "difficulty": "medium",
+      "question": "The degree of fiscal 'crowding out' of private investment is greatest when:",
+      "options": [
+        "A) The central bank pins interest rates permanently at zero",
+        "B) Private investment is completely interest-inelastic",
+        "C) The money multiplier is zero",
+        "D) Private investment expenditure is highly sensitive (elastic) to changes in the rate of interest"
+      ],
+      "correct_option": "D",
+      "explanation": "When investment demand is highly elastic with respect to interest rates, any rise in interest rates triggered by government borrowing leads to a large contraction in private capital spending."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand Remedies Summary",
+      "difficulty": "easy",
+      "question": "Deficient demand in an economy results in involuntary unemployment because:",
+      "options": [
+        "A) The legal reserve ratio has been abolished",
+        "B) Workers refuse to accept cash wage payments",
+        "C) The physical stock of capital equipment has been destroyed",
+        "D) Aggregate demand is insufficient to purchase the output produced at full employment, prompting firms to cut production and lay off workers"
+      ],
+      "correct_option": "D",
+      "explanation": "Deficient demand means total planned spending is less than full employment output. Producers face unsold inventories and respond by curtailing production, creating involuntary unemployment."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Domar Condition with Primary Deficits",
+      "difficulty": "hard",
+      "question": "If an economy satisfies the Domar stability condition (growth rate of real GDP exceeds real interest rate, g > r), a government running a primary deficit can still maintain a stable debt-to-GDP ratio provided:",
+      "options": [
+        "A) Domestic commercial banks are nationalized every fiscal quarter",
+        "B) Disinvestment receipts equal total tax revenues",
+        "C) The government prints 100 percent of its expenditure in gold tokens",
+        "D) The primary deficit as a percentage of GDP does not exceed the product of the debt ratio and the growth-interest differential: pb <= b * (g - r)"
+      ],
+      "correct_option": "D",
+      "explanation": "The debt dynamics formula Delta b = pb - (g - r)*b shows that a government can sustain a primary deficit (pb > 0) without increasing its debt ratio as long as pb <= (g - r)*b."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Bracket Creep and Fiscal Drag",
+      "difficulty": "medium",
+      "question": "In public finance, 'Bracket Creep' is a consequence of progressive taxation during inflation where:",
+      "options": [
+        "A) Tax collectors grant universal tax exemptions to manufacturing firms",
+        "B) Corporations evade taxes by moving operations across state borders",
+        "C) Municipal governments lower property tax assessments",
+        "D) Purely nominal wage increases push taxpayers into higher tax brackets, increasing their effective tax rate even though real purchasing power has not increased"
+      ],
+      "correct_option": "D",
+      "explanation": "Bracket creep occurs when inflation boosts nominal wages, shunting earners into higher tax brackets. Real purchasing power stays unchanged or falls, but the average tax rate climbs."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Revenue Deficit Implications Disinvestment",
+      "difficulty": "medium",
+      "question": "A government that persistently utilizes disinvestment proceeds and capital borrowings to finance its revenue deficit is engaging in:",
+      "options": [
+        "A) Increasing foreign exchange reserves",
+        "B) Prudent counter-cyclical infrastructure financing",
+        "C) Eliminating sovereign public debt",
+        "D) Dissaving, depleting public assets to meet current administrative consumption rather than creating productive capital assets"
+      ],
+      "correct_option": "D",
+      "explanation": "Financing routine revenue expenditures via borrowing or disinvestment amounts to government dissaving: liquidating national capital assets to fund consumption, compromising future growth."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Second Generation BoP Crisis Obstfeld",
+      "difficulty": "hard",
+      "question": "Maurice Obstfeld's 'Second-Generation' model of currency crises shows that speculative attacks against a fixed exchange rate can be self-fulfilling because:",
+      "options": [
+        "A) Fixed exchange rates automatically eliminate all international capital mobility",
+        "B) Speculators are legally mandated to purchase sovereign debt",
+        "C) Foreign currency reserves are physically infinite",
+        "D) The government faces a trade-off between defending the currency via painful high interest rates and domestic political-economic goals (like avoiding unemployment and bank failures)"
+      ],
+      "correct_option": "D",
+      "explanation": "Second-generation models show that speculators test the government's resolve. Defending the peg requires hiking interest rates; if defending causes severe domestic distress, the government abandons the peg, fulfilling expectations."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Covered vs Uncovered Interest Parity",
+      "difficulty": "hard",
+      "question": "How does Covered Interest Parity (CIP) fundamentally differ from Uncovered Interest Parity (UIP)?",
+      "options": [
+        "A) CIP assumes zero international capital mobility",
+        "B) CIP applies only to agricultural crops while UIP applies to manufacturing",
+        "C) UIP eliminates all foreign exchange market transactions",
+        "D) CIP uses the forward exchange rate contract to lock in foreign currency values, whereas UIP relies on unhedged expected future spot exchange rates"
+      ],
+      "correct_option": "D",
+      "explanation": "CIP is an arbitrage condition using forward exchange contracts to eliminate currency risk (forward premium = interest differential). UIP is an unhedged speculative condition based on expected future spot rates."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Colonial Railway Network Debate",
+      "difficulty": "medium",
+      "question": "Economic historians critique the colonial construction of the Indian railway network on the grounds that its route design was structured primarily to:",
+      "options": [
+        "A) Connect rural cottage spinning clusters to local consumer mandis",
+        "B) Promote heavy machine tool factories in remote central districts",
+        "C) Distribute free foodgrains across drought-affected villages",
+        "D) Connect raw material producing hinterlands directly with major coastal ports for export to Britain and facilitate imperial troop movement, rather than fostering domestic internal industrial linkages"
+      ],
+      "correct_option": "D",
+      "explanation": "The colonial railway system followed an extractive export-oriented design: linking agrarian hinterlands to ports (Bombay, Calcutta, Madras) for raw material export, with freight rate policies favouring foreign over domestic trade."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Amartya Sen Entitlement Approach",
+      "difficulty": "hard",
+      "question": "In his seminal study of the 1943 Bengal Famine, Nobel laureate Amartya Sen disproved the 'Food Availability Decline' (FAD) hypothesis by demonstrating that the famine was caused by:",
+      "options": [
+        "A) A massive decline in global foodgrain production",
+        "B) Complete physical destruction of 100 percent of the rice crop by blight",
+        "C) The closure of all commercial railway routes by military decree",
+        "D) A catastrophic failure of exchange entitlements, where wartime inflation and hoarding stripped landless agricultural labourers of the purchasing power to acquire food, despite adequate aggregate food supply"
+      ],
+      "correct_option": "D",
+      "explanation": "Sen demonstrated that overall food supply in 1943 Bengal was only 5% lower than average. Famine occurred because agricultural wages stagnated while food prices skyrocketed, destroying the exchange entitlements of rural labourers."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Bombay Plan State Capitalism",
+      "difficulty": "medium",
+      "question": "The 1944 Bombay Plan authored by leading Indian private industrialists was groundbreaking because it explicitly endorsed:",
+      "options": [
+        "A) Massive state investment in basic heavy infrastructure, public utilities, and social overhead capital to lay the groundwork for private industrial expansion",
+        "B) An immediate complete ban on private corporate ownership of factories",
+        "C) The total elimination of all protective tariffs on foreign goods",
+        "D) The conversion of all Indian industrial enterprises into municipal cooperatives"
+      ],
+      "correct_option": "A",
+      "explanation": "India's leading industrialists acknowledged that private enterprise lacked the immense capital required for basic infrastructure and heavy industry, calling for state planning and public investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "MRTP Act Monopolistic Pre-Entry Scrutiny",
+      "difficulty": "medium",
+      "question": "Under the original provisions of the Monopolies and Restrictive Trade Practices (MRTP) Act 1969, an industrial enterprise was designated an 'MRTP House' and subjected to strict pre-entry expansion licensing if its total assets exceeded:",
+      "options": [
+        "A) Rs 20 crore (raised to Rs 100 crore in 1985)",
+        "B) Rs 1 crore",
+        "C) Rs 1,000 crore",
+        "D) Rs 50 lakh"
+      ],
+      "correct_option": "A",
+      "explanation": "The MRTP Act initially set an asset threshold of Rs 20 crore for monopoly houses, requiring central government clearance for any capacity expansion, establishment of new units, or mergers (raised to Rs 100 crore in 1985)."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Social Banking Priority Sector 1969",
+      "difficulty": "easy",
+      "question": "The primary objective of bank nationalisation in India in 1969 was to replace class banking with 'social banking', ensuring that banking credit was channeled towards:",
+      "options": [
+        "A) Priority sectors including agriculture, small-scale enterprises, and retail artisans",
+        "B) Foreign multinational corporations operating in port cities",
+        "C) Speculative luxury real estate developers",
+        "D) Private overseas equity funds"
+      ],
+      "correct_option": "A",
+      "explanation": "Bank nationalisation ended the monopoly of industrial houses over bank funds, re-directing credit toward priority sectors (agriculture, SSI, self-employed) and driving rural branch expansion."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q39",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Stabilization vs Structural Reforms",
+      "difficulty": "medium",
+      "question": "In the 1991 New Economic Policy, which of the following policy actions is categorized as a long-term 'Structural Reform'?",
+      "options": [
+        "A) Phased dismantling of quantitative import restrictions and tariff rationalization",
+        "B) Immediate two-step emergency currency devaluation",
+        "C) Emergency borrowing from the IMF under the Standby Arrangement",
+        "D) Raising short-term treasury bill yields to curb currency speculation"
+      ],
+      "correct_option": "A",
+      "explanation": "Trade policy liberalization and industrial deregulation were long-term structural reforms aimed at improving efficiency, while currency devaluation and fiscal austerity were short-term stabilization measures."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Dual GST Structure",
+      "difficulty": "medium",
+      "question": "Under India's Goods and Services Tax (GST) architecture, an interstate supply of goods or services from one state to another is subject to:",
+      "options": [
+        "A) Integrated Goods and Services Tax (IGST) levied by the Centre and shared with destination states",
+        "B) State GST (SGST) collected twice by the originating state",
+        "C) Central Excise Duty combined with state octroi tax",
+        "D) Customs import tariffs levied by municipal corporations"
+      ],
+      "correct_option": "A",
+      "explanation": "Interstate transactions are taxed under the Integrated GST (IGST) administered by the Central Government, with tax revenue shared with the consuming destination state pursuant to the destination principle."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "SEBI Statutory Powers 1992",
+      "difficulty": "easy",
+      "question": "The Securities and Exchange Board of India (SEBI) was accorded statutory regulatory powers under an Act of Parliament in 1992 primarily to:",
+      "options": [
+        "A) Protect the interests of investors in securities and promote the orderly development of capital markets",
+        "B) Fix daily interest rates for commercial bank fixed deposits",
+        "C) Dictate retail consumer commodity prices across mandis",
+        "D) Supervise the collection of municipal property taxes"
+      ],
+      "correct_option": "A",
+      "explanation": "Enacted following the 1992 securities market scam, the SEBI Act gave statutory authority to SEBI to regulate stock exchanges, mutual funds, merchant bankers, and curb fraudulent market practices."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q42",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "NIPUN Bharat Mission",
+      "difficulty": "medium",
+      "question": "The National Initiative for Proficiency in Reading with Understanding and Numeracy (NIPUN Bharat) launched under NEP 2020 aims to ensure that every child achieves foundational literacy and numeracy by:",
+      "options": [
+        "A) Grade 3 (by age 9)",
+        "B) Grade 12 (by age 18)",
+        "C) Post-graduate university level",
+        "D) Grade 10 board examinations"
+      ],
+      "correct_option": "A",
+      "explanation": "NIPUN Bharat sets an explicit learning milestone: ensuring that every child in India attains foundational literacy and numeracy by the end of Grade 3 (by 2026\u201327)."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Andhra Pradesh Microfinance Crisis",
+      "difficulty": "hard",
+      "question": "The Andhra Pradesh Microfinance Crisis of 2010, which prompted the RBI to establish the Malegam Committee, was triggered primarily by:",
+      "options": [
+        "A) Aggressive over-indebtedness of poor households resulting from multiple loans, usurious interest rates, and coercive recovery practices by unregulated for-profit MFIs",
+        "B) The complete withdrawal of all commercial banks from the state",
+        "C) Severe drought that led to 100 percent default on municipal water bills",
+        "D) A central government ban on self-help group savings deposits"
+      ],
+      "correct_option": "A",
+      "explanation": "For-profit NBFC-MFIs engaged in multiple lending, ghost borrowing, exorbitant interest rates, and coercive collection tactics, precipitating borrower suicides and prompting strict state and RBI regulatory intervention."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "electronic National Agriculture Market",
+      "difficulty": "medium",
+      "question": "The electronic National Agriculture Market (e-NAM) launched by the Government of India is an online trading portal designed to:",
+      "options": [
+        "A) Integrate existing APMC mandis into a unified pan-India electronic market for agricultural commodities to discover transparent competitive prices",
+        "B) Mandate that all foodgrains be exported exclusively to overseas supermarkets",
+        "C) Abolish all minimum support price procurement centres",
+        "D) Prohibit farmers from transporting crops across district borders"
+      ],
+      "correct_option": "A",
+      "explanation": "e-NAM creates a unified national agricultural electronic market by networking existing physical APMC mandis, facilitating online bidding, transparent price discovery, and pan-India trading."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Bio-Decomposer Solution Stubble Burning",
+      "difficulty": "medium",
+      "question": "To address severe post-harvest seasonal air pollution caused by paddy stubble burning in northern India, agricultural scientists developed microbial 'Bio-Decomposers' to:",
+      "options": [
+        "A) Accelerate the biological decomposition of crop residue in the field into nutrient-rich organic manure without requiring open burning",
+        "B) Convert paddy straw into radioactive fuel rods",
+        "C) Freeze crop residues under artificial liquid nitrogen",
+        "D) Permanently ban the cultivation of basmati rice"
+      ],
+      "correct_option": "A",
+      "explanation": "Microbial bio-decomposers (such as the Pusa Bio-Decomposer) spray a consortium of fungal enzymes on harvested fields, decomposing hard paddy straw into organic manure within 20\u201325 days, obviating the need to burn."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Contractualization of Formal Workforce",
+      "difficulty": "hard",
+      "question": "The growing phenomenon of 'Contractualization' in India's organized industrial manufacturing sector refers to:",
+      "options": [
+        "A) The substitution of permanent regular salaried workers with contract labour hired via third-party staffing agencies to lower wage bills and bypass statutory job security obligations",
+        "B) Converting private corporate firms into municipal public utilities",
+        "C) The complete unionization of all unorganized agricultural farm workers",
+        "D) Replacing automated manufacturing machines with manual hand tools"
+      ],
+      "correct_option": "A",
+      "explanation": "To achieve labour flexibility and bypass Chapter V-B of the Industrial Disputes Act, formal firms increasingly hire contract workers through intermediaries, paying lower wages and avoiding provident fund and severance liabilities."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Herman Daly Sustainability Principles",
+      "difficulty": "hard",
+      "question": "According to the ecological sustainability principles articulated by Herman Daly, what rule must govern the utilization of non-renewable resources (such as fossil fuels)?",
+      "options": [
+        "A) The rate of depletion of non-renewable resources should not exceed the rate at which renewable substitutes are developed and brought online",
+        "B) Non-renewable resources should be extracted at maximum physical speed",
+        "C) The price of fossil fuels should be subsidized by 100 percent",
+        "D) All petroleum reserves must be incinerated within one decade"
+      ],
+      "correct_option": "A",
+      "explanation": "Herman Daly's quasi-sustainability rule states that non-renewable resource extraction must be paired with investment in renewable substitutes, so the regenerative capacity of the replacement compensates for resource depletion."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Township Village Enterprises China",
+      "difficulty": "medium",
+      "question": "China's Township and Village Enterprises (TVEs) established in rural areas were unique because they were owned by:",
+      "options": [
+        "A) Local rural collective township communities, operating under competitive market discipline with hard budget constraints",
+        "B) Private foreign equity consortiums based in Western Europe",
+        "C) The central Soviet state planning bureau in Moscow",
+        "D) Religious monastic orders"
+      ],
+      "correct_option": "A",
+      "explanation": "TVEs were market-driven collective commercial enterprises owned by rural townships and villages. They were self-financing, absorbed rural surplus labour, and produced light industrial goods for export."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Tax to GDP Stagnation",
+      "difficulty": "medium",
+      "question": "A chronic structural bottleneck in Pakistan's fiscal architecture that has perpetually constrained public spending on healthcare and education is its:",
+      "options": [
+        "A) Exceptionally low tax-to-GDP ratio (averaging around 9 to 10 percent) accompanied by widespread exemptions for agricultural elites",
+        "B) Excessive municipal taxation on software developers",
+        "C) Complete elimination of all sovereign public debt",
+        "D) Ban on commercial banking credit"
+      ],
+      "correct_option": "A",
+      "explanation": "Pakistan suffers from a narrow tax base, pervasive exemptions, and tax evasion among powerful landed elites, keeping its tax-to-GDP ratio under 10% and starving schools, hospitals, and infrastructure of funding."
+    },
+    {
+      "id": "CUET_ECO_2026_P24_L8C_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Sectoral Growth Trajectory Divergence",
+      "difficulty": "hard",
+      "question": "In contrasting the post-1980 structural growth trajectories of China and India, which empirical observation accurately captures their divergent development paths?",
+      "options": [
+        "A) China engineered an industrial export boom that absorbed rural labour into secondary manufacturing, whereas India's growth was driven primarily by the high-productivity service sector while the bulk of labour remained stuck in low-productivity agriculture",
+        "B) India became the world's dominant manufacturer of hardware electronics while China relied exclusively on service exports",
+        "C) Pakistan achieved universal literacy and surpassed India as well as China in per capita GDP",
+        "D) India and China mutually eliminated their industrial sectors in favour of commune agriculture"
+      ],
+      "correct_option": "A",
+      "explanation": "China's structural transformation successfully shifted the employment and GDP centre of gravity to manufacturing. India's growth was powered by knowledge-based services, leaving nearly 45% of the workforce in agriculture."
+    }
+  ]
+}

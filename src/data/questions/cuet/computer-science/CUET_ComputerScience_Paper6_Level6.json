@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P6_L6",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 6,
+  "difficulty_level": "6",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P6_L6_Q01",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Queues",
+      "difficulty": "hard",
+      "question": "In a circular queue of size 8, if front = 5 and rear = 2, how many elements are currently stored?",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 7",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "In circular queue, when rear < front: elements = (size - front) + rear = (8-5) + 2 = 5 elements."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q02",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Sets",
+      "difficulty": "medium",
+      "question": "Given set1 = {1, 2, 3, 4} and set2 = {3, 4, 5, 6}, what is set1.difference(set2)?",
+      "options": [
+        "A) {1, 2}",
+        "B) {1, 2, 3, 4}",
+        "C) {5, 6}",
+        "D) {3, 4}"
+      ],
+      "correct_option": "A",
+      "explanation": "set1.difference(set2) returns elements in set1 but not in set2: {1, 2}."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q03",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Congestion Control",
+      "difficulty": "hard",
+      "question": "In TCP's AIMD congestion control algorithm, if the current window size is 20 MSS and congestion is detected, what is the new threshold and window size?",
+      "options": [
+        "A) Threshold = 10, Window = 10",
+        "B) Threshold = 20, Window = 1",
+        "C) Threshold = 20, Window = 10",
+        "D) Threshold = 10, Window = 1"
+      ],
+      "correct_option": "D",
+      "explanation": "On congestion detection, TCP sets threshold = current_window/2 = 10 MSS, and resets window = 1 MSS. Then it grows exponentially (slow start) up to threshold, then additively."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q04",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "TCP/IP",
+      "difficulty": "medium",
+      "question": "In TCP, the three-way handshake involves which sequence of flags/messages?",
+      "options": [
+        "A) SYN, ACK, FIN",
+        "B) SYN, SYN-ACK, ACK",
+        "C) SYN, SYN, ACK",
+        "D) SYN, RST, ACK"
+      ],
+      "correct_option": "B",
+      "explanation": "TCP three-way handshake: Client sends SYN, Server responds with SYN-ACK, Client completes with ACK. This establishes a reliable connection."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "A LEFT OUTER JOIN between tables T1 (left) and T2 (right) will return:",
+      "options": [
+        "A) All rows from T2 and matching rows from T1, with NULLs where no match exists in T1",
+        "B) All rows from T1 and matching rows from T2, with NULLs where no match exists in T2",
+        "C) Only matching rows from both T1 and T2",
+        "D) All rows from both T1 and T2, with NULLs where no match exists in either table"
+      ],
+      "correct_option": "B",
+      "explanation": "A LEFT OUTER JOIN returns all rows from the left table (T1) and matching rows from the right table (T2), placing NULLs in the columns of T2 wherever no matching tuple exists."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q06",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Pandas - Operations",
+      "difficulty": "medium",
+      "question": "Which Pandas method is used to handle missing values by filling them with a specified value?",
+      "options": [
+        "A) df.dropna()",
+        "B) df.replace()",
+        "C) df.fillna()",
+        "D) df.clean()"
+      ],
+      "correct_option": "C",
+      "explanation": "df.fillna() fills missing (NaN) values with a specified value or method (forward fill, backward fill, etc.). dropna() removes rows/columns with missing values."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q07",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Linked Lists",
+      "difficulty": "hard",
+      "question": "In a singly linked list with n nodes, what is the worst-case time complexity of searching for a specific element when only the head pointer is available?",
+      "options": [
+        "A) O(1)",
+        "B) O(log n)",
+        "C) O(n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Searching in a singly linked list requires traversing nodes sequentially from the head, giving O(n) worst-case time complexity since there is no random access."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "In SQL, a view that includes aggregate functions and GROUP BY clause is:",
+      "options": [
+        "A) Always updatable",
+        "B) Updatable with INSTEAD OF triggers only",
+        "C) Never updatable",
+        "D) Updatable if it contains a primary key"
+      ],
+      "correct_option": "C",
+      "explanation": "Views containing aggregate functions and GROUP BY are never directly updatable because the database cannot map updates on aggregated rows back to specific rows in the base table."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q09",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "File Handling",
+      "difficulty": "medium",
+      "question": "What does the 'a' mode do when opening a file in Python?",
+      "options": [
+        "A) Opens file for reading",
+        "B) Opens file for writing (overwrites)",
+        "C) Opens file for binary reading",
+        "D) Opens file for appending"
+      ],
+      "correct_option": "D",
+      "explanation": "Mode 'a' opens a file for appending - writes are added to the end without truncating existing content."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q10",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Transport Layer",
+      "difficulty": "medium",
+      "question": "What is the primary difference between TCP and UDP?",
+      "options": [
+        "A) TCP is connectionless, UDP is connection-oriented",
+        "B) TCP provides reliable, ordered delivery; UDP is unreliable and unordered",
+        "C) TCP operates at Network Layer, UDP at Transport Layer",
+        "D) TCP uses IP addresses, UDP uses MAC addresses"
+      ],
+      "correct_option": "B",
+      "explanation": "TCP provides reliable, ordered, error-checked delivery with flow control. UDP is minimal, connectionless, without guaranteed delivery or ordering."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q11",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Strings",
+      "difficulty": "easy",
+      "question": "What does the method 'str.upper()' return for 'Hello World'?",
+      "options": [
+        "A) 'HELLO WORLD'",
+        "B) 'hello world'",
+        "C) 'Hello World'",
+        "D) Error"
+      ],
+      "correct_option": "A",
+      "explanation": "str.upper() converts all characters to uppercase, so 'Hello World' becomes 'HELLO WORLD'."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q12",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Which method is used to retrieve a value from a dictionary while providing a default if the key doesn't exist?",
+      "options": [
+        "A) dict.find(key, default)",
+        "B) dict[key, default]",
+        "C) dict.get(key, default)",
+        "D) dict.retrieve(key, default)"
+      ],
+      "correct_option": "C",
+      "explanation": "dict.get(key, default) returns the value for key if present, otherwise returns default without raising KeyError."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q13",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "IP Addressing",
+      "difficulty": "hard",
+      "question": "An organization needs to create 12 subnets from a Class C network (192.168.1.0/24). What subnet mask should be used, and how many usable hosts per subnet?",
+      "options": [
+        "A) /28, 14 hosts",
+        "B) /27, 30 hosts",
+        "C) /26, 62 hosts",
+        "D) /25, 126 hosts"
+      ],
+      "correct_option": "A",
+      "explanation": "For 12 subnets from a /24, we need 4 bits (2^4=16 ≥ 12), so /28. Host bits = 32-28 = 4, usable hosts = 2^4 - 2 = 14."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q14",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "easy",
+      "question": "Which SQL command is used to remove all rows from a table without removing the table structure?",
+      "options": [
+        "A) DROP TABLE",
+        "B) DELETE FROM table",
+        "C) REMOVE TABLE",
+        "D) TRUNCATE TABLE"
+      ],
+      "correct_option": "D",
+      "explanation": "TRUNCATE TABLE removes all rows but keeps the table structure. DELETE also removes rows but is logged row-by-row. DROP TABLE removes both data and structure."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q15",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "What is the overall time complexity of Heap Sort for sorting n elements?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(n²)",
+        "D) O(log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Heap Sort takes O(n) to build the heap and O(n log n) for n extract-max operations (each taking O(log n)), giving overall O(n log n) time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q16",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "medium",
+      "question": "How many comparisons does Selection Sort perform on an array of n elements?",
+      "options": [
+        "A) n",
+        "B) n(n-1)/2",
+        "C) n log n",
+        "D) n²"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection Sort always performs n(n-1)/2 comparisons: first pass n-1, second n-2, ..., last 1. Total = n(n-1)/2 regardless of input order."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q17",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "OSI Model",
+      "difficulty": "medium",
+      "question": "Which layer of the OSI model is responsible for logical addressing and routing?",
+      "options": [
+        "A) Physical Layer",
+        "B) Data Link Layer",
+        "C) Transport Layer",
+        "D) Network Layer"
+      ],
+      "correct_option": "D",
+      "explanation": "The Network Layer (Layer 3) handles logical addressing (IP addresses) and routing of packets across networks."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q18",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Stacks",
+      "difficulty": "medium",
+      "question": "A stack follows LIFO. If operations are: push(10), push(20), pop(), push(30), pop(), what remains in the stack?",
+      "options": [
+        "A) [10, 30]",
+        "B) [30]",
+        "C) [20, 30]",
+        "D) [10]"
+      ],
+      "correct_option": "D",
+      "explanation": "push(10)→[10], push(20)→[10,20], pop()→[10], push(30)→[10,30], pop()→[10]. Only 10 remains."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q19",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "hard",
+      "question": "In Quick Sort, if the pivot is always chosen as the last element and the array is already sorted, the time complexity is:",
+      "options": [
+        "A) O(n²)",
+        "B) O(n log n)",
+        "C) O(n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Choosing the last element as pivot on a sorted array creates maximally unbalanced partitions (one empty), leading to O(n²) time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q20",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "In relational algebra, the operation used to combine two relations by matching rows with common attribute values and including only those rows in the result is called:",
+      "options": [
+        "A) Cartesian product",
+        "B) Division",
+        "C) Difference",
+        "D) Natural join"
+      ],
+      "correct_option": "D",
+      "explanation": "Natural join combines two relations based on common attribute values and eliminates duplicate columns. Cartesian product combines all possible pairs without matching."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q21",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Phishing",
+      "difficulty": "easy",
+      "question": "Phishing attacks typically aim to:",
+      "options": [
+        "A) Overload a server with requests",
+        "B) Steal sensitive information by impersonating trusted entities",
+        "C) Encrypt files for ransom",
+        "D) Spread through removable media"
+      ],
+      "correct_option": "B",
+      "explanation": "Phishing uses deceptive emails/websites impersonating trusted entities to trick users into revealing sensitive information like passwords or credit card numbers."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q22",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Application Layer",
+      "difficulty": "medium",
+      "question": "Which DNS record type maps a domain name to its mail server?",
+      "options": [
+        "A) A record",
+        "B) CNAME record",
+        "C) MX record",
+        "D) NS record"
+      ],
+      "correct_option": "C",
+      "explanation": "MX (Mail Exchange) records specify the mail server responsible for receiving email on behalf of a domain. A records map to IP, NS to nameservers."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q23",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "In the worst case, how many comparisons does linear search perform on an array of 100 elements?",
+      "options": [
+        "A) 1",
+        "B) 50",
+        "C) 100",
+        "D) log₂(100)"
+      ],
+      "correct_option": "C",
+      "explanation": "In the worst case (element not present or at the end), linear search examines every element: 100 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q24",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Digital Signatures",
+      "difficulty": "medium",
+      "question": "A digital signature provides which of the following?",
+      "options": [
+        "A) Confidentiality only",
+        "B) Availability",
+        "C) Encryption of the message",
+        "D) Authentication, integrity, and non-repudiation"
+      ],
+      "correct_option": "D",
+      "explanation": "Digital signatures use asymmetric cryptography to provide authentication (sender identity), integrity (message unchanged), and non-repudiation (sender cannot deny sending)."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q25",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Network Security",
+      "difficulty": "easy",
+      "question": "What does a firewall primarily protect against?",
+      "options": [
+        "A) Malware infections",
+        "B) Data corruption",
+        "C) Unauthorized network access",
+        "D) Power surges"
+      ],
+      "correct_option": "C",
+      "explanation": "A firewall monitors and controls incoming/outgoing network traffic based on security rules, primarily protecting against unauthorized access."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q26",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Functions",
+      "difficulty": "medium",
+      "question": "What is the output of: [x**2 for x in range(5) if x % 2 == 0]?",
+      "options": [
+        "A) [1, 9]",
+        "B) [0, 4, 16]",
+        "C) [0, 1, 4, 9, 16]",
+        "D) [0, 2, 4]"
+      ],
+      "correct_option": "B",
+      "explanation": "range(5) gives 0,1,2,3,4. Filtering even (x%2==0): 0,2,4. Squaring: 0,4,16."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q27",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "Which Python keyword is used to catch exceptions in a try-except block?",
+      "options": [
+        "A) except",
+        "B) catch",
+        "C) throw",
+        "D) error"
+      ],
+      "correct_option": "A",
+      "explanation": "In Python, the 'except' keyword is used to catch and handle exceptions that occur in the 'try' block."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q28",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Lists",
+      "difficulty": "medium",
+      "question": "What is the output of: len([1, 2, [3, 4], 5])?",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 4",
+        "D) Error"
+      ],
+      "correct_option": "C",
+      "explanation": "The list has 4 elements: 1, 2, [3,4] (one element - a nested list), and 5. len() counts top-level elements only."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q29",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Tuples",
+      "difficulty": "medium",
+      "question": "What is the result of: tuple('abc') + (1, 2)?",
+      "options": [
+        "A) ('abc', 1, 2)",
+        "B) ('a', 'b', 'c', 1, 2)",
+        "C) TypeError",
+        "D) ('abc1', 'abc2')"
+      ],
+      "correct_option": "B",
+      "explanation": "tuple('abc') creates ('a', 'b', 'c'), then concatenation with (1, 2) gives ('a', 'b', 'c', 1, 2)."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q30",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "SQL Injection",
+      "difficulty": "hard",
+      "question": "Which technique is the most effective defense against SQL injection attacks?",
+      "options": [
+        "A) Input sanitization with regex",
+        "B) Limiting input length",
+        "C) Disabling JavaScript",
+        "D) Using parameterized queries/prepared statements"
+      ],
+      "correct_option": "D",
+      "explanation": "Parameterized queries (prepared statements) separate SQL code from data, making it impossible for user input to alter query structure. This is the most effective defense."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q31",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Pandas - GroupBy",
+      "difficulty": "hard",
+      "question": "Given a DataFrame with columns 'dept' and 'salary', what does df.groupby('dept')['salary'].mean() return?",
+      "options": [
+        "A) Average salary per department",
+        "B) Total salary per department",
+        "C) Maximum salary per department",
+        "D) Number of employees per department"
+      ],
+      "correct_option": "A",
+      "explanation": "groupby('dept') groups rows by department, ['salary'] selects the salary column, and .mean() computes the average salary for each department."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "What is the space complexity of Merge Sort?",
+      "options": [
+        "A) O(n)",
+        "B) O(1)",
+        "C) O(log n)",
+        "D) O(n²)"
+      ],
+      "correct_option": "A",
+      "explanation": "Merge Sort requires O(n) additional space for temporary arrays during the merge operation, plus O(log n) for recursion stack, but overall space complexity is O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "medium",
+      "question": "What is the time complexity of binary search on a sorted array of n elements?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(1)",
+        "D) O(log n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Binary search halves the search space at each step, giving O(log n) time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q34",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Pandas - DataFrame",
+      "difficulty": "medium",
+      "question": "In Pandas, what does df.shape return?",
+      "options": [
+        "A) A list of column names",
+        "B) A tuple (rows, columns)",
+        "C) The data types of columns",
+        "D) The first 5 rows"
+      ],
+      "correct_option": "B",
+      "explanation": "df.shape returns a tuple (number_of_rows, number_of_columns) describing the dimensions of the DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q35",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol operates at the Transport Layer of the Internet protocol suite to provide connectionless, best-effort datagram delivery without guarantee of ordering or error recovery?",
+      "options": [
+        "A) TCP",
+        "B) FTP",
+        "C) SMTP",
+        "D) UDP"
+      ],
+      "correct_option": "D",
+      "explanation": "User Datagram Protocol (UDP) is a connectionless transport layer protocol that transmits datagrams without establishing a prior connection or providing acknowledgments, retransmission, or flow control. TCP is connection-oriented and reliable, while FTP and SMTP are application layer protocols."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q36",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Pandas - Indexing",
+      "difficulty": "easy",
+      "question": "What does df.iloc[0] return in Pandas?",
+      "options": [
+        "A) The first column",
+        "B) The value at index label 0",
+        "C) The first row as a Series",
+        "D) The last row"
+      ],
+      "correct_option": "C",
+      "explanation": "df.iloc[0] uses integer-based indexing to return the first row as a Series. loc uses label-based indexing."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q37",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Pandas - Merging",
+      "difficulty": "hard",
+      "question": "In Pandas, pd.merge(df1, df2, on='id', how='inner') performs:",
+      "options": [
+        "A) Intersection based on matching 'id' values",
+        "B) Union of both DataFrames",
+        "C) All rows from df1 with matching df2",
+        "D) All rows from both DataFrames"
+      ],
+      "correct_option": "A",
+      "explanation": "how='inner' returns only rows where the 'id' value exists in both DataFrames - the intersection of keys."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q38",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "A relation R(A, B, C, D) has functional dependencies: A → B, B → C, C → D. The candidate key is A. The highest normal form satisfied by this relation is:",
+      "options": [
+        "A) 1NF",
+        "B) 2NF",
+        "C) 3NF",
+        "D) BCNF"
+      ],
+      "correct_option": "B",
+      "explanation": "There is a transitive dependency A → B → C → D. For 3NF, every non-prime attribute must be transitively dependent on every candidate key, but here B → C creates a partial transitive dependency through non-prime attributes. The relation is in 2NF (no partial dependencies since A is the single candidate key) but not 3NF because of transitive dependencies."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q39",
+      "topic": "Python (Data Structures, Exception Handling, File Handling)",
+      "sub_topic": "Trees",
+      "difficulty": "hard",
+      "question": "A binary search tree has nodes inserted in order: 50, 30, 70, 20, 40, 60, 80. What is the height of the resulting tree?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 4",
+        "D) 7"
+      ],
+      "correct_option": "A",
+      "explanation": "The tree is balanced: root 50, children 30 and 70, grandchildren 20,40,60,80. Height = 2 (root at level 0, children at level 1, grandchildren at level 2). Wait, let me recalculate. Root at level 0, children at level 1, grandchildren at level 2. Height = 2."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "For an array of 5 elements [5, 4, 3, 2, 1], how many total shifts are performed during Insertion Sort?",
+      "options": [
+        "A) 10",
+        "B) 15",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "Reverse sorted: i=1: 1 shift, i=2: 2 shifts, i=3: 3 shifts, i=4: 4 shifts. Total = 1+2+3+4 = 10 shifts."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q41",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL aggregate function returns the number of non-NULL values in a specified column?",
+      "options": [
+        "A) COUNT(*)",
+        "B) SUM()",
+        "C) TOTAL()",
+        "D) COUNT(column_name)"
+      ],
+      "correct_option": "D",
+      "explanation": "COUNT(column_name) counts only non-NULL values in that column, while COUNT(*) counts all rows regardless of NULLs."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q42",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "What is the worst-case time complexity of Bubble Sort?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(n²)",
+        "D) O(log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Bubble Sort requires n-1 passes, each comparing n-i-1 elements, giving O(n²) worst-case and average-case time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q43",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "Consider: SELECT name FROM employees WHERE dept_id IN (SELECT dept_id FROM departments WHERE budget > 100000). This is an example of:",
+      "options": [
+        "A) Correlated subquery",
+        "B) Join query",
+        "C) Self join",
+        "D) Non-correlated subquery"
+      ],
+      "correct_option": "D",
+      "explanation": "The subquery (SELECT dept_id FROM departments WHERE budget > 100000) executes once and independently of the outer query, making it a non-correlated subquery."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q44",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "Which constraint ensures that a column (or set of columns) uniquely identifies each row and does not allow NULL values?",
+      "options": [
+        "A) PRIMARY KEY",
+        "B) UNIQUE",
+        "C) CHECK",
+        "D) FOREIGN KEY"
+      ],
+      "correct_option": "A",
+      "explanation": "PRIMARY KEY constraint ensures both uniqueness and NOT NULL. UNIQUE allows NULLs, FOREIGN KEY references another table, and CHECK validates a condition."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q45",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Routing",
+      "difficulty": "hard",
+      "question": "In Distance Vector Routing, what is the 'count to infinity' problem?",
+      "options": [
+        "A) The router's memory overflowing due to too many routes",
+        "B) Packets looping indefinitely when a link fails, with distance incrementing each hop",
+        "C) Convergence taking longer than the TTL value",
+        "D) All routers having different hop count values"
+      ],
+      "correct_option": "B",
+      "explanation": "Count to infinity occurs when a link fails and routers slowly increment their distance to the unreachable destination, passing updated metrics back and forth until reaching infinity (typically 16 in RIP)."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q46",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Error Correction",
+      "difficulty": "medium",
+      "question": "Hamming code is primarily used for which of the following in data communication?",
+      "options": [
+        "A) Error detection only",
+        "B) Encryption of data",
+        "C) Error detection and single-bit error correction",
+        "D) Data compression"
+      ],
+      "correct_option": "C",
+      "explanation": "Hamming code can detect up to two-bit errors and correct single-bit errors by adding redundant parity bits at specific positions in the data word."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q47",
+      "topic": "Computer Networks & Data Communication",
+      "sub_topic": "Network Devices",
+      "difficulty": "easy",
+      "question": "A switch operates at which layer of the OSI model?",
+      "options": [
+        "A) Physical Layer",
+        "B) Data Link Layer",
+        "C) Network Layer",
+        "D) Transport Layer"
+      ],
+      "correct_option": "B",
+      "explanation": "A switch operates at the Data Link Layer (Layer 2), forwarding frames based on MAC addresses. Routers operate at Layer 3."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q48",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "easy",
+      "question": "Which SQL keyword is used to retrieve unique values from a column in a SELECT query?",
+      "options": [
+        "A) DISTINCT",
+        "B) UNIQUE",
+        "C) DIFFERENT",
+        "D) ONLY"
+      ],
+      "correct_option": "A",
+      "explanation": "The DISTINCT keyword eliminates duplicate rows from the result set of a SELECT query, returning only unique values."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q49",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "A B+ tree index with order 100 can have a maximum of how many levels to index 1,000,000 records if leaf nodes hold 50 records each?",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 3",
+        "D) 5"
+      ],
+      "correct_option": "C",
+      "explanation": "Leaf level: 1,000,000/50 = 20,000 leaf nodes. With fanout 100: Level 1: 20,000/100 = 200 internal nodes. Level 2: 200/100 = 2 internal nodes. Level 3: 2/100 = 1 root. So 3 levels of internal nodes + leaves = 3 levels total (counting root as level 1, internal as level 2, leaves as level 3)."
+    },
+    {
+      "id": "CUET_CS_2026_P6_L6_Q50",
+      "topic": "Security (Cyber Security & Data Handling)",
+      "sub_topic": "Hashing",
+      "difficulty": "medium",
+      "question": "Which of the following algorithms is commonly used for generating a fixed-size hash value from arbitrary-length input data?",
+      "options": [
+        "A) SHA-256",
+        "B) RSA",
+        "C) AES",
+        "D) Diffie-Hellman"
+      ],
+      "correct_option": "A",
+      "explanation": "SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that produces a fixed 256-bit hash value. RSA and Diffie-Hellman are for key exchange/signing, AES is for encryption."
+    }
+  ]
+}

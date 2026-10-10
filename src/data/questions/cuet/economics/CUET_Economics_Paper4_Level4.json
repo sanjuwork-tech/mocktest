@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P4_L4",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 4,
+  "difficulty_level": "4",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q01",
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Central Problems",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT one of the central problems faced by every economy?",
+      "options": [
+        "A) How to produce",
+        "B) What to produce and in what quantities",
+        "C) For whom to produce",
+        "D) How to eliminate scarcity permanently"
+      ],
+      "correct_option": "D",
+      "explanation": "The three central problems are what to produce, how to produce, and for whom to produce. Scarcity is an economic reality that can only be managed, not eliminated."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q02",
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Consumer's Equilibrium",
+      "difficulty": "easy",
+      "question": "A consumer attains equilibrium in the one-commodity case (Marshallian analysis) when the marginal utility of the good in terms of money is:",
+      "options": [
+        "A) Less than the price of the good",
+        "B) Zero",
+        "C) Greater than the price of the good",
+        "D) Equal to the price of the good"
+      ],
+      "correct_option": "D",
+      "explanation": "Consumer equilibrium requires MU in money terms = Price, meaning the consumer gets exactly the worth of their money."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q03",
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Two Commodity Equilibrium",
+      "difficulty": "medium",
+      "question": "A consumer buys two goods X and Y. The price of X is Rs.4 and the price of Y is Rs.5. If MUx = 24 utils at the current consumption bundle and the consumer is in equilibrium, MUy must be:",
+      "options": [
+        "A) 20 utils",
+        "B) 30 utils",
+        "C) 24 utils",
+        "D) 28 utils"
+      ],
+      "correct_option": "B",
+      "explanation": "At equilibrium MUx/Px = MUy/Py → 24/4 = MUy/5 → 6 = MUy/5 → MUy = 30."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q04",
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Budget Line",
+      "difficulty": "hard",
+      "question": "A consumer has an income of Rs.400. Good X costs Rs.20 and good Y costs Rs.40. If the price of X falls to Rs.10 while income and Py remain unchanged, the budget line will:",
+      "options": [
+        "A) Rotate outward on the X-axis",
+        "B) Remain unchanged since income is unchanged",
+        "C) Shift parallelly outward",
+        "D) Rotate outward on the Y-axis"
+      ],
+      "correct_option": "A",
+      "explanation": "When Px falls, the maximum quantity of X affordable rises from 20 to 40 units while the Y-intercept (400/40 = 10) stays the same, rotating the line outward on the X-axis."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q05",
+      "topic": "Production and Costs",
+      "sub_topic": "Short-run Production",
+      "difficulty": "easy",
+      "question": "In the short run, the Law of Variable Proportions operates because:",
+      "options": [
+        "A) Technology is changing",
+        "B) Returns to scale are constant",
+        "C) All factors are variable",
+        "D) At least one factor input is fixed"
+      ],
+      "correct_option": "D",
+      "explanation": "The law applies in the short run because at least one factor (usually capital/land) is fixed while other factors vary."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q06",
+      "topic": "Production and Costs",
+      "sub_topic": "TP, MP, AP Relationships",
+      "difficulty": "easy",
+      "question": "When Marginal Product (MP) becomes zero, Total Product (TP) is:",
+      "options": [
+        "A) Equal to Average Product",
+        "B) At its minimum",
+        "C) At its maximum",
+        "D) Falling at an increasing rate"
+      ],
+      "correct_option": "C",
+      "explanation": "When MP = 0, TP is at its peak. Beyond this point, MP becomes negative and TP declines."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q07",
+      "topic": "Production and Costs",
+      "sub_topic": "Marginal Cost",
+      "difficulty": "medium",
+      "question": "If Total Variable Cost (TVC) at 3 units of output is Rs.150 and at 4 units is Rs.200, the Marginal Cost of the 4th unit is:",
+      "options": [
+        "A) Rs.40",
+        "B) Rs.37.5",
+        "C) Rs.50",
+        "D) Rs.60"
+      ],
+      "correct_option": "C",
+      "explanation": "MC = ΔTVC/ΔQ = (200 - 150) / (4 - 3) = Rs.50."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q08",
+      "topic": "Production and Costs",
+      "sub_topic": "Producer's Equilibrium",
+      "difficulty": "hard",
+      "question": "A firm's total cost schedule: Q=1 TC=110; Q=2 TC=130; Q=3 TC=145; Q=4 TC=170; Q=5 TC=200. If the market price is Rs.35 per unit, at what output does the firm maximize profit?",
+      "options": [
+        "A) 2 units",
+        "B) 4 units",
+        "C) 3 units",
+        "D) 5 units"
+      ],
+      "correct_option": "D",
+      "explanation": "MC at Q=5 = 200-170 = 30 ≤ 35; at Q=4 MC = 25 ≤ 35. Profit max where MC = P (or closest without exceeding). Since MC at Q=5 = 30 ≤ P=35, the firm produces 5 units."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q09",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Features",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a necessary condition for a market to be perfectly competitive?",
+      "options": [
+        "A) Significant advertising and product differentiation by firms",
+        "B) Free entry and exit of firms",
+        "C) Large number of buyers and sellers",
+        "D) Homogeneous (identical) product"
+      ],
+      "correct_option": "A",
+      "explanation": "Perfect competition requires homogeneous products and price-taking behavior, making advertising and product differentiation unnecessary."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q10",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Profit Maximization",
+      "difficulty": "medium",
+      "question": "The profit-maximizing condition for any firm, including under perfect competition, is:",
+      "options": [
+        "A) TC = TR with TC minimum",
+        "B) MC = MR with MC cutting MR from below",
+        "C) AC = AR with AC minimum",
+        "D) MC = MR with MC cutting MR from above"
+      ],
+      "correct_option": "B",
+      "explanation": "Profit is maximized where MC = MR, and MC must be rising (cutting MR from below) to ensure it's a maximum, not a minimum."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q11",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Price Determination",
+      "difficulty": "medium",
+      "question": "In a perfectly competitive market, if there is a decrease in input costs while demand remains unchanged, the equilibrium will show:",
+      "options": [
+        "A) No change in price or quantity",
+        "B) Lower price and higher quantity",
+        "C) Higher price and lower quantity",
+        "D) Higher price and higher quantity"
+      ],
+      "correct_option": "C",
+      "explanation": "Lower input costs increase supply (supply curve shifts right), reducing equilibrium price and increasing equilibrium quantity."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q12",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Profit Maximization Numerical",
+      "difficulty": "hard",
+      "question": "A perfectly competitive firm has TC = 50 + 10Q + Q². If the market price is Rs.20, the profit-maximizing level of output is:",
+      "options": [
+        "A) 5 units",
+        "B) 10 units",
+        "C) 4 units",
+        "D) 3 units"
+      ],
+      "correct_option": "A",
+      "explanation": "MC = dTC/dQ = 10 + 2Q. Set MC = P: 10 + 2Q = 20 → Q = 5. At Q=5, MC is rising (second-order condition satisfied)."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q13",
+      "topic": "Market Equilibrium and Simple Applications",
+      "sub_topic": "Price Ceiling",
+      "difficulty": "easy",
+      "question": "A government-mandated maximum legal price charged for an essential commodity to protect consumers is known as:",
+      "options": [
+        "A) Price ceiling",
+        "B) Equilibrium price",
+        "C) Support price",
+        "D) Price floor"
+      ],
+      "correct_option": "A",
+      "explanation": "A price ceiling is set below the equilibrium price to make goods like food and fuel affordable for consumers."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q14",
+      "topic": "Market Equilibrium and Simple Applications",
+      "sub_topic": "Excess Demand/Supply",
+      "difficulty": "medium",
+      "question": "At a price of Rs.50, the quantity demanded of a commodity is 200 units while the quantity supplied is 300 units. This situation indicates:",
+      "options": [
+        "A) Excess demand (shortage) of 100 units",
+        "B) Market equilibrium",
+        "C) Excess demand of 500 units",
+        "D) Excess supply (surplus) of 100 units"
+      ],
+      "correct_option": "D",
+      "explanation": "When Qs (300) > Qd (200), there is excess supply (surplus) of 100 units, putting downward pressure on price."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q15",
+      "topic": "Market Equilibrium and Simple Applications",
+      "sub_topic": "Market Equilibrium Numerical",
+      "difficulty": "hard",
+      "question": "In a market, demand is Qd = 100 - 2P and supply is Qs = 10 + 3P. If the government imposes a price ceiling of Rs.15, what is the market outcome?",
+      "options": [
+        "A) Market remains in equilibrium",
+        "B) Shortage of 5 units",
+        "C) Surplus of 15 units",
+        "D) Shortage of 15 units"
+      ],
+      "correct_option": "D",
+      "explanation": "At P=15: Qd = 100-30 = 70, Qs = 10+45 = 55. Since Qd > Qs, there is a shortage of 70-55 = 15 units."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q16",
+      "topic": "National Income Accounting",
+      "sub_topic": "Methods of Calculating NI",
+      "difficulty": "easy",
+      "question": "The method of calculating national income that sums all factor incomes (wages, rent, interest, profit) is called the:",
+      "options": [
+        "A) Value Added method",
+        "B) Output method",
+        "C) Expenditure method",
+        "D) Income method"
+      ],
+      "correct_option": "D",
+      "explanation": "The income method sums all incomes earned by factors of production: compensation of employees, rent, interest, and profit."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q17",
+      "topic": "National Income Accounting",
+      "sub_topic": "GDP and Welfare",
+      "difficulty": "easy",
+      "question": "GDP at Market Price minus Net Indirect Taxes equals:",
+      "options": [
+        "A) Personal Income",
+        "B) NDP at Market Price",
+        "C) GDP at Factor Cost",
+        "D) GNP at Factor Cost"
+      ],
+      "correct_option": "C",
+      "explanation": "GDP at Factor Cost = GDP at Market Price - Indirect Taxes + Subsidies. Net Indirect Taxes = Indirect Taxes - Subsidies."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q18",
+      "topic": "National Income Accounting",
+      "sub_topic": "Expenditure Method",
+      "difficulty": "medium",
+      "question": "Which of the following should be INCLUDED when calculating GDP by the expenditure method: (i) Sale of a used car Rs.2 lakh, (ii) Purchase of new machinery Rs.5 lakh, (iii) Purchase of shares Rs.1 lakh, (iv) Intermediate goods Rs.3 lakh?",
+      "options": [
+        "A) (ii) + (iv) Rs.8 lakh",
+        "B) All four Rs.11 lakh",
+        "C) Only (ii) Rs.5 lakh",
+        "D) (i) + (ii) Rs.7 lakh"
+      ],
+      "correct_option": "C",
+      "explanation": "Only the purchase of new machinery (final good) is included. Used cars, shares, and intermediate goods are excluded from GDP."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q19",
+      "topic": "National Income Accounting",
+      "sub_topic": "Value Added Method",
+      "difficulty": "hard",
+      "question": "A farmer sells wheat to a miller for Rs.8,000. The miller sells flour to a baker for Rs.12,000. The baker sells bread to consumers for Rs.18,000. The total value added in this production chain is:",
+      "options": [
+        "A) Rs.26,000",
+        "B) Rs.18,000",
+        "C) Rs.38,000",
+        "D) Rs.10,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Farmer: 8,000; Miller: 12,000-8,000 = 4,000; Baker: 18,000-12,000 = 6,000. Total = 18,000 (equals final value of bread)."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q20",
+      "topic": "Money and Banking",
+      "sub_topic": "Functions of Money",
+      "difficulty": "easy",
+      "question": "The function of money that eliminates the need for double coincidence of wants in exchange is:",
+      "options": [
+        "A) Store of value",
+        "B) Unit of account",
+        "C) Medium of exchange",
+        "D) Standard of deferred payment"
+      ],
+      "correct_option": "C",
+      "explanation": "Money as a medium of exchange allows indirect exchange, removing the requirement that each party wants what the other has."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q21",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Functions",
+      "difficulty": "easy",
+      "question": "The central bank of India, which acts as the banker to the government and controller of credit, is:",
+      "options": [
+        "A) Securities and Exchange Board of India",
+        "B) NABARD",
+        "C) Reserve Bank of India",
+        "D) State Bank of India"
+      ],
+      "correct_option": "C",
+      "explanation": "The RBI is India's central bank, performing functions like currency issuance, government banking, and monetary policy."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Multiplier",
+      "difficulty": "medium",
+      "question": "If the Cash Reserve Ratio (CRR) is 20% and the banking system receives a primary deposit of Rs.1,000, the total money creation potential (deposit multiplier) is:",
+      "options": [
+        "A) Rs.5,000",
+        "B) Rs.800",
+        "C) Rs.1,000",
+        "D) Rs.4,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Money multiplier = 1/CRR = 1/0.20 = 5. Total deposit creation = 5 × 1,000 = Rs.5,000."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Policy Tools",
+      "difficulty": "hard",
+      "question": "If the RBI sells government securities worth Rs.50 crore through Open Market Operations and the money multiplier is 4, the money supply in the economy will:",
+      "options": [
+        "A) Decrease by Rs.50 crore",
+        "B) Increase by Rs.200 crore",
+        "C) Decrease by Rs.200 crore",
+        "D) Increase by Rs.50 crore"
+      ],
+      "correct_option": "C",
+      "explanation": "Sale of securities reduces bank reserves. Money supply decreases by the amount of securities sold × multiplier = 50 × 4 = Rs.200 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q24",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Aggregate Demand",
+      "difficulty": "easy",
+      "question": "In a two-sector economy (households and firms), Aggregate Demand consists of:",
+      "options": [
+        "A) Consumption expenditure and Investment expenditure",
+        "B) Wages, Rent, Interest, and Profit",
+        "C) Consumption, Investment, and Government spending",
+        "D) Saving and Investment only"
+      ],
+      "correct_option": "A",
+      "explanation": "A two-sector model excludes government and foreign trade, so AD = Consumption + Investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Two Sector Model",
+      "difficulty": "easy",
+      "question": "In a two-sector economy, equilibrium level of income is determined when:",
+      "options": [
+        "A) Aggregate Demand is less than Aggregate Supply",
+        "B) Saving exceeds Investment",
+        "C) Consumption equals Income",
+        "D) Planned Saving equals Planned Investment"
+      ],
+      "correct_option": "D",
+      "explanation": "In the two-sector model, equilibrium occurs where leakages (saving) equal injections (investment), i.e., S = I."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier",
+      "difficulty": "medium",
+      "question": "If the Marginal Propensity to Consume (MPC) in an economy is 0.75, the value of the investment multiplier is:",
+      "options": [
+        "A) 1.33",
+        "B) 3",
+        "C) 0.75",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "Multiplier k = 1/(1-MPC) = 1/(1-0.75) = 1/0.25 = 4."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand",
+      "difficulty": "hard",
+      "question": "Deficient demand in an economy leads to which of the following situations?",
+      "options": [
+        "A) Inflation and full employment",
+        "B) Deflation and involuntary unemployment",
+        "C) Increase in aggregate supply",
+        "D) Rise in general price level and wages"
+      ],
+      "correct_option": "B",
+      "explanation": "Deficient demand (AD < AS at full employment) creates a deflationary gap, causing falling prices and rising unemployment."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q28",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Classification of Receipts",
+      "difficulty": "easy",
+      "question": "Receipts in the government budget that do not create a liability or reduce assets are classified as:",
+      "options": [
+        "A) Capital receipts",
+        "B) Public debt receipts",
+        "C) Disinvestment receipts",
+        "D) Revenue receipts"
+      ],
+      "correct_option": "D",
+      "explanation": "Revenue receipts (taxes, fees) neither create liabilities nor reduce assets, unlike capital receipts."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Classification of Expenditure",
+      "difficulty": "easy",
+      "question": "Which of the following is an example of revenue expenditure in the government budget?",
+      "options": [
+        "A) Loan given to a PSU",
+        "B) Purchase of military equipment",
+        "C) Construction of a national highway",
+        "D) Payment of salaries to government employees"
+      ],
+      "correct_option": "D",
+      "explanation": "Salaries are recurring revenue expenditure with no asset creation. Highway construction and equipment are capital expenditure."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Measures of Deficit",
+      "difficulty": "medium",
+      "question": "If total government expenditure is Rs.500 crore, revenue receipts are Rs.350 crore, and non-debt capital receipts are Rs.50 crore, the fiscal deficit equals:",
+      "options": [
+        "A) Rs.150 crore",
+        "B) Rs.100 crore",
+        "C) Rs.250 crore",
+        "D) Rs.200 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Fiscal deficit = Total expenditure - (Revenue receipts + Non-debt capital receipts) = 500 - (350+50) = Rs.100 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Primary Deficit",
+      "difficulty": "hard",
+      "question": "A government budget shows: Revenue receipts Rs.200 cr, Capital receipts (net of borrowing) Rs.30 cr, Revenue expenditure Rs.350 cr, Capital expenditure Rs.120 cr, Interest payments Rs.80 cr. The primary deficit is:",
+      "options": [
+        "A) Rs.240 crore",
+        "B) Rs.80 crore",
+        "C) Rs.300 crore",
+        "D) Rs.160 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "Fiscal deficit = (350+120) - (200+30) = 240. Primary deficit = Fiscal deficit - Interest payments = 240 - 80 = Rs.160 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q32",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Balance of Payments Components",
+      "difficulty": "easy",
+      "question": "The component of Balance of Payments that records exports and imports of goods and services, along with unilateral transfers, is the:",
+      "options": [
+        "A) Errors and omissions account",
+        "B) Capital account",
+        "C) Current account",
+        "D) Official reserves account"
+      ],
+      "correct_option": "C",
+      "explanation": "The current account captures trade in goods (visible) and services (invisible), net income from abroad, and current transfers."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q33",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Fixed Exchange Rate",
+      "difficulty": "medium",
+      "question": "Under a fixed exchange rate system, the value of a currency is determined and maintained by:",
+      "options": [
+        "A) The International Monetary Fund exclusively",
+        "B) Multinational corporations through FDI flows",
+        "C) Free market forces of demand and supply",
+        "D) The government/central bank through intervention"
+      ],
+      "correct_option": "D",
+      "explanation": "Fixed exchange rates are pegged by the government/central bank, which buys/sells foreign currency to maintain the rate."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q34",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Managed Floating",
+      "difficulty": "medium",
+      "question": "Managed floating (dirty floating) is an exchange rate system where:",
+      "options": [
+        "A) The exchange rate is primarily market-determined but the central bank intervenes to prevent excessive volatility",
+        "B) The exchange rate is entirely free from any intervention",
+        "C) Multiple exchange rates operate simultaneously for different transactions",
+        "D) The rate is fixed permanently by the government"
+      ],
+      "correct_option": "A",
+      "explanation": "Managed floating combines market-determined rates with occasional central bank intervention to smooth fluctuations, as practiced by India."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q35",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Exchange Rate Determination",
+      "difficulty": "hard",
+      "question": "In the foreign exchange market, demand for dollars is Qd = 200 - 5E and supply is Qs = 50 + 10E, where E is rupees per dollar. The equilibrium exchange rate is:",
+      "options": [
+        "A) Rs.10 per dollar",
+        "B) Rs.8 per dollar",
+        "C) Rs.12 per dollar",
+        "D) Rs.15 per dollar"
+      ],
+      "correct_option": "A",
+      "explanation": "At equilibrium Qd = Qs: 200 - 5E = 50 + 10E → 150 = 15E → E = 10. Equilibrium rate is Rs.10 per dollar."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q36",
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "State on Eve of Independence",
+      "difficulty": "easy",
+      "question": "On the eve of independence in 1947, the Indian economy was best described as:",
+      "options": [
+        "A) A modern service-oriented economy",
+        "B) A stagnant and backward colonial economy",
+        "C) A rapidly industrializing economy",
+        "D) A fully self-sufficient agricultural economy"
+      ],
+      "correct_option": "B",
+      "explanation": "India in 1947 was characterized by stagnation, poverty, low life expectancy, and dependence on British colonial rule with minimal industrial base."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q37",
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "Five Year Plans",
+      "difficulty": "easy",
+      "question": "The main objectives of India's Five Year Plans included all of the following EXCEPT:",
+      "options": [
+        "A) Growth with social justice",
+        "B) Complete privatization of all industries",
+        "C) Elimination of poverty",
+        "D) Self-reliance"
+      ],
+      "correct_option": "C",
+      "explanation": "The Five Year Plans focused on growth, self-reliance, and social justice. Privatization was not an objective of the planning era."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q38",
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "IPR 1956",
+      "difficulty": "medium",
+      "question": "The Industrial Policy Resolution of 1956 classified industries into three schedules. Industries reserved exclusively for the public sector were listed under:",
+      "options": [
+        "A) Schedule A",
+        "B) Schedule C",
+        "C) Schedule D",
+        "D) Schedule B"
+      ],
+      "correct_option": "A",
+      "explanation": "Schedule A (17 industries including arms, atomic energy, railways) was exclusively for the state. Schedule B (12 industries) was state-dominated but private participation allowed."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q39",
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "LPG Policy",
+      "difficulty": "easy",
+      "question": "LPG, the tripartite policy framework for economic reforms introduced in India in 1991, stands for:",
+      "options": [
+        "A) Liberalization, Privatization, and Globalization",
+        "B) Loan, Profit, and Governance",
+        "C) Land, Production, and Growth",
+        "D) Labour, Price, and Goods"
+      ],
+      "correct_option": "A",
+      "explanation": "LPG refers to the three pillars: Liberalization (reducing controls), Privatization (transferring PSU to private), Globalization (integrating with world economy)."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q40",
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "Features of Liberalization",
+      "difficulty": "medium",
+      "question": "Which of the following was NOT a feature of the liberalization measures introduced in India in 1991?",
+      "options": [
+        "A) Nationalization of private sector banks",
+        "B) Reduction in import tariff rates",
+        "C) Abolition of industrial licensing for most industries",
+        "D) Deregulation of industrial policy and MRTP restrictions"
+      ],
+      "correct_option": "A",
+      "explanation": "Bank nationalization happened in 1969 and 1980, not in 1991. Liberalization removed licensing, cut tariffs, and deregulated industries."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q41",
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "Privatization",
+      "difficulty": "medium",
+      "question": "Privatization primarily involves:",
+      "options": [
+        "A) Transferring ownership and management from public sector to private sector",
+        "B) Expanding the role of public sector enterprises",
+        "C) Imposing price controls on private firms",
+        "D) Increasing government control over all industries"
+      ],
+      "correct_option": "A",
+      "explanation": "Privatization means disinvestment/transfer of PSU shares to the private sector, reducing government ownership and management."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q42",
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "Appraisal of LPG",
+      "difficulty": "hard",
+      "question": "A major criticism of the LPG reforms in India is that they have:",
+      "options": [
+        "A) Decreased foreign exchange reserves significantly",
+        "B) Led to widening income and regional inequalities",
+        "C) Reduced the overall GDP growth rate",
+        "D) Eliminated poverty completely"
+      ],
+      "correct_option": "B",
+      "explanation": "A widely cited criticism is that benefits of reforms were unevenly distributed, increasing inequality across regions and income groups."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q43",
+      "topic": "Current Challenges Facing the Indian Economy",
+      "sub_topic": "Human Capital Formation",
+      "difficulty": "easy",
+      "question": "Human capital formation is the process of:",
+      "options": [
+        "A) Expanding the banking and financial sector",
+        "B) Accumulating physical machinery and infrastructure",
+        "C) Developing the skills, knowledge, and experience of people",
+        "D) Increasing the money supply in the economy"
+      ],
+      "correct_option": "C",
+      "explanation": "Human capital is the stock of competence, knowledge, and personality attributes embodied in people, developed through education and health."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q44",
+      "topic": "Current Challenges Facing the Indian Economy",
+      "sub_topic": "Agricultural Problems",
+      "difficulty": "easy",
+      "question": "Which of the following is a major structural problem of Indian agriculture?",
+      "options": [
+        "A) Lack of sufficient agricultural labor",
+        "B) Fragmentation and small size of land holdings",
+        "C) Over-production leading to agricultural glut",
+        "D) Excessive mechanization causing unemployment"
+      ],
+      "correct_option": "B",
+      "explanation": "Indian agriculture is characterized by small, fragmented holdings due to inheritance laws and subdivision, limiting economies of scale."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q45",
+      "topic": "Current Challenges Facing the Indian Economy",
+      "sub_topic": "Role of Cooperatives",
+      "difficulty": "medium",
+      "question": "Cooperatives have played an important role in India's rural development, particularly in:",
+      "options": [
+        "A) Managing India's foreign exchange reserves",
+        "B) Replacing all private banking in rural areas",
+        "C) Controlling industrial production",
+        "D) Providing agricultural credit and marketing of produce"
+      ],
+      "correct_option": "D",
+      "explanation": "Cooperatives (e.g., dairy cooperatives like Amul, rural credit cooperatives) provide farmers with credit and collective marketing power."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q46",
+      "topic": "Current Challenges Facing the Indian Economy",
+      "sub_topic": "Employment",
+      "difficulty": "medium",
+      "question": "The informal (unorganized) sector in India is characterized by:",
+      "options": [
+        "A) Mandatory provident fund and ESI coverage",
+        "B) Lack of job security and absence of social security benefits",
+        "C) Strict government oversight and compliance",
+        "D) High wages and regulated working conditions"
+      ],
+      "correct_option": "B",
+      "explanation": "The informal sector employs most Indian workers but offers no job security, no social security, and irregular wages."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q47",
+      "topic": "Current Challenges Facing the Indian Economy",
+      "sub_topic": "Sustainable Development",
+      "difficulty": "hard",
+      "question": "Sustainable development, as defined by the Brundtland Commission, emphasizes:",
+      "options": [
+        "A) Complete cessation of all industrial activity",
+        "B) Rapid industrialization regardless of environmental cost",
+        "C) Meeting the needs of the present without compromising the ability of future generations to meet their needs",
+        "D) Focusing exclusively on GDP growth"
+      ],
+      "correct_option": "C",
+      "explanation": "The 1987 Brundtland Report defined sustainable development as balancing current needs with intergenerational equity."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q48",
+      "topic": "Development Experiences of India",
+      "sub_topic": "Comparison with Neighbours",
+      "difficulty": "easy",
+      "question": "Among India, China, and Pakistan, which country has generally ranked higher on the Human Development Index (HDI) in recent decades?",
+      "options": [
+        "A) All three have equal HDI rankings",
+        "B) India",
+        "C) Pakistan",
+        "D) China"
+      ],
+      "correct_option": "D",
+      "explanation": "China has consistently ranked higher than both India and Pakistan on HDI due to better health indicators and higher per capita income."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q49",
+      "topic": "Development Experiences of India",
+      "sub_topic": "Sectoral Development",
+      "difficulty": "medium",
+      "question": "Compared to its neighbors, India's growth trajectory has been distinctive in being primarily driven by which sector?",
+      "options": [
+        "A) Mining sector",
+        "B) Services sector",
+        "C) Manufacturing sector",
+        "D) Agriculture sector"
+      ],
+      "correct_option": "B",
+      "explanation": "India's growth is unique among developing nations for being services-led (IT, BPO, finance), contributing over 50% of GDP, unlike China's manufacturing-led growth."
+    },
+    {
+      "id": "CUET_ECO_2026_P4_L4_Q50",
+      "topic": "Development Experiences of India",
+      "sub_topic": "Development Strategies Comparison",
+      "difficulty": "hard",
+      "question": "A key difference between India's and China's development strategies has been that China:",
+      "options": [
+        "A) Relied primarily on services-led growth in the early reform period",
+        "B) Achieved growth without investing in infrastructure",
+        "C) Avoided foreign direct investment entirely",
+        "D) Focused on export-oriented manufacturing and heavy industrialization from the outset"
+      ],
+      "correct_option": "D",
+      "explanation": "China's development model emphasized manufacturing through SEZs, infrastructure investment, and export promotion, while India's growth has been services-driven."
+    }
+  ]
+}

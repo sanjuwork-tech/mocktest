@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P14_L4B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 14,
+  "difficulty_level": "4B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The Leydig cells in the testes are stimulated by which hormone to produce testosterone?",
+      "options": [
+        "A) Follicle-stimulating hormone (FSH)",
+        "B) Growth hormone (GH)",
+        "C) Luteinizing hormone (LH)",
+        "D) Adrenocorticotropic hormone (ACTH)"
+      ],
+      "correct_option": "C",
+      "explanation": "LH acts on Leydig (interstitial) cells to stimulate synthesis and secretion of testosterone. FSH acts on Sertoli cells to support spermatogenesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The acrosome of the sperm is derived from which organelle?",
+      "options": [
+        "A) Golgi apparatus",
+        "B) Mitochondria",
+        "C) Endoplasmic reticulum",
+        "D) Nucleus"
+      ],
+      "correct_option": "A",
+      "explanation": "The acrosome is a modified Golgi apparatus containing hydrolytic enzymes (hyaluronidase, acrosin) essential for penetrating the egg's protective layers during fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "In a flowering plant, the anther contains how many microsporangia in typical dicot plants?",
+      "options": [
+        "A) Two",
+        "B) Six",
+        "C) Eight",
+        "D) Four"
+      ],
+      "correct_option": "D",
+      "explanation": "A typical dicot anther is tetrasporangiate, containing four microsporangia (pollen sacs) where microspore mother cells undergo meiosis to form pollen grains."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "Which of the following contraceptive methods also provides protection against sexually transmitted infections?",
+      "options": [
+        "A) Condom",
+        "B) Oral pills",
+        "C) Intrauterine device",
+        "D) Tubectomy"
+      ],
+      "correct_option": "A",
+      "explanation": "Condoms (male or female) create a physical barrier that prevents both pregnancy and transmission of STIs including HIV, gonorrhea, and chlamydia."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "Fertilization in humans normally occurs in which region of the female reproductive tract?",
+      "options": [
+        "A) Infundibulum",
+        "B) Uterus",
+        "C) Cervix",
+        "D) Ampulla of fallopian tube"
+      ],
+      "correct_option": "D",
+      "explanation": "Fertilization occurs in the ampulla of the fallopian tube (ampullary-isthmic junction), where the capacitated sperm meets the secondary oocyte."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Pollen-pistil interaction in self-incompatible plants results in inhibition of pollen tube growth at which stage in gametophytic self-incompatibility?",
+      "options": [
+        "A) Within the stigma tissue",
+        "B) Within the style or on the ovary after tube entry",
+        "C) Before pollen germination on the stigma",
+        "D) Only after fertilization"
+      ],
+      "correct_option": "B",
+      "explanation": "In gametopic self-incompatibility (e.g., in Solanaceae), compatible pollen tubes grow through the style, while incompatible tubes are arrested within the style or after entering the ovary, preventing self-fertilization."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "The process of capacitation of sperm involves which changes that enable fertilization?",
+      "options": [
+        "A) Removal of acrosomal enzymes",
+        "B) Formation of the fertilization cone",
+        "C) Removal of coating substances from sperm surface in the female tract, increasing motility",
+        "D) Fusion with the egg membrane"
+      ],
+      "correct_option": "C",
+      "explanation": "Capacitation occurs in the female reproductive tract over several hours, removing coating substances from the sperm surface, increasing flagellar movement, and enabling the acrosomal reaction upon egg contact."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "Amniocentesis can detect all of the following EXCEPT:",
+      "options": [
+        "A) Down syndrome (trisomy 21)",
+        "B) Neural tube defects",
+        "C) Cystic fibrosis carrier status in the mother",
+        "D) Sex determination of fetus"
+      ],
+      "correct_option": "C",
+      "explanation": "Amniocentesis analyzes fetal cells in amniotic fluid for chromosomal abnormalities (trisomies), neural tube defects (elevated alpha-fetoprotein), and sex. Maternal carrier status is assessed through maternal blood testing, not amniocentesis."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "In apomixis, embryos are formed without meiosis and fertilization. Which type involves embryo development from a diploid nucellar cell?",
+      "options": [
+        "A) Diplospory",
+        "B) Adventive embryony",
+        "C) Apospory",
+        "D) Parthenogenesis"
+      ],
+      "correct_option": "B",
+      "explanation": "Adventive embryony (nucellar embryony) involves direct development of embryos from diploid nucellar cells surrounding the embryo sac. Seen in citrus, mango, and some orchids. The resulting offspring are genetically identical to the mother plant."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "During the luteal phase of the menstrual cycle, which hormonal combination maintains the endometrium while suppressing new follicular development?",
+      "options": [
+        "A) High progesterone and moderate estrogen from corpus luteum",
+        "B) High estrogen and low progesterone",
+        "C) High FSH and LH with low steroids",
+        "D) Oxytocin and prolactin only"
+      ],
+      "correct_option": "A",
+      "explanation": "The corpus luteum secretes high progesterone and moderate estrogen. Progesterone maintains the secretory endometrium for potential implantation and provides negative feedback on GnRH, suppressing FSH/LH and preventing new follicular recruitment."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q11",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "A cross between AaBb and aabb produces offspring in what phenotypic ratio if the genes assort independently?",
+      "options": [
+        "A) 3:1",
+        "B) 9:3:3:1",
+        "C) 1:2:1",
+        "D) 1:1:1:1"
+      ],
+      "correct_option": "D",
+      "explanation": "AaBb x aabb is a test cross for two genes. AaBb produces 4 gamete types (AB, Ab, aB, ab) each at 1/4 frequency, while aabb produces only ab. Offspring phenotypes are 1:1:1:1."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q12",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "In the Hershey-Chase experiment, which radioactive isotope was used to specifically label viral DNA?",
+      "options": [
+        "A) ³⁵S (sulfur-35)",
+        "B) ³H (tritium)",
+        "C) ³²P (phosphorus-32)",
+        "D) ¹⁴C (carbon-14)"
+      ],
+      "correct_option": "C",
+      "explanation": "³²P labels DNA (phosphate backbone) while ³⁵S labels protein (methionine, cysteine). Results showed ³²P entered bacterial cells, confirming DNA as genetic material."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "The Hardy-Weinberg equilibrium assumes all of the following conditions EXCEPT:",
+      "options": [
+        "A) High mutation rate",
+        "B) Large population size",
+        "C) Random mating",
+        "D) No natural selection"
+      ],
+      "correct_option": "A",
+      "explanation": "Hardy-Weinberg equilibrium requires no mutation, no gene flow, large population (no drift), random mating, and no selection. High mutation rate would violate the 'no mutation' assumption."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q14",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "easy",
+      "question": "Colour blindness is X-linked recessive. If a colour-blind father and a carrier mother have a daughter, what is the probability she will be colour-blind?",
+      "options": [
+        "A) 0%",
+        "B) 25%",
+        "C) 50%",
+        "D) 100%"
+      ],
+      "correct_option": "C",
+      "explanation": "Father is XᶜY (colour-blind), Mother is XᶜX (carrier). Daughters receive Xᶜ from father and either X or Xᶜ from mother. 50% chance of XᶜXᶜ (colour-blind) and 50% chance of XᶜX (carrier)."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q15",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT a function of the 5' cap added to eukaryotic mRNA?",
+      "options": [
+        "A) Protection from 5' exonuclease degradation",
+        "B) Facilitation of splicing of the first intron",
+        "C) Recognition by the ribosome for translation initiation",
+        "D) Directing the mRNA to the mitochondria"
+      ],
+      "correct_option": "D",
+      "explanation": "The 7-methylguanosine 5' cap protects mRNA, aids splicing, and is recognized by eIF4E for translation initiation. Mitochondrial targeting depends on mitochondrial localization signals, not the 5' cap."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q16",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Adaptive radiation is best exemplified by which phenomenon?",
+      "options": [
+        "A) Wings of bats and birds evolving independently",
+        "B) Darwin's finches in the Galapagos Islands diversifying into species with different beak shapes",
+        "C) Antibiotic resistance developing in bacteria",
+        "D) Peppered moth colour change during industrial revolution"
+      ],
+      "correct_option": "B",
+      "explanation": "Adaptive radiation involves rapid diversification of a single ancestral lineage into multiple species adapted to different ecological niches. Darwin's finches evolved varied beak shapes for different food sources across the Galapagos."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "In a dihybrid cross between two heterozygous individuals (AaBb x AaBb), what proportion of offspring will have the genotype AABB?",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 1/16",
+        "D) 1/8"
+      ],
+      "correct_option": "C",
+      "explanation": "Each heterozygous cross (Aa x Aa) produces AA at 1/4 frequency. Similarly Bb x Bb produces BB at 1/4. Since genes assort independently: P(AABB) = 1/4 x 1/4 = 1/16."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q18",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "A frameshift mutation occurs when a single nucleotide is inserted into a coding region. What is the most likely consequence?",
+      "options": [
+        "A) Only a change in the last amino acid of the protein",
+        "B) A single amino acid substitution at the site of insertion",
+        "C) No change in the protein due to codon degeneracy",
+        "D) Complete change in downstream amino acid sequence, often creating a premature stop codon"
+      ],
+      "correct_option": "D",
+      "explanation": "Insertion of one nucleotide shifts the reading frame of all downstream codons. This typically alters every subsequent amino acid and often introduces a premature stop codon, resulting in a truncated nonfunctional protein."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q19",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "Which of the following observations best supports the theory of evolution by natural selection rather than Lamarckian inheritance?",
+      "options": [
+        "A) Giraffes have long necks because their ancestors stretched to reach high leaves",
+        "B) Antibiotic resistance in bacteria arises from random mutations followed by survival of resistant strains under antibiotic exposure",
+        "C) Bodybuilders' children inherit increased muscular strength",
+        "D) Snakes lost their legs through disuse over generations"
+      ],
+      "correct_option": "B",
+      "explanation": "Antibiotic resistance supports natural selection: resistance alleles arise randomly; antibiotics provide the selective pressure favoring resistant variants. This does not involve inheritance of acquired characteristics (Lamarckism)."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q20",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "In eukaryotes, DNA replication requires multiple origins of replication because:",
+      "options": [
+        "A) Each chromosome is a single linear molecule that must be replicated quickly despite its large size",
+        "B) Eukaryotic DNA polymerase is slower than prokaryotic polymerase",
+        "C) There are multiple chromosomes to replicate simultaneously",
+        "D) Multiple origins ensure bidirectional replication"
+      ],
+      "correct_option": "A",
+      "explanation": "Eukaryotic chromosomes are much larger than prokaryotic genomes. Multiple origins (replication bubbles) allow simultaneous bidirectional replication, enabling complete duplication within the S phase. A single origin would be too slow."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q21",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which immunoglobulin is the first to be produced during a primary immune response?",
+      "options": [
+        "A) IgM",
+        "B) IgA",
+        "C) IgG",
+        "D) IgE"
+      ],
+      "correct_option": "A",
+      "explanation": "IgM is the first antibody produced in a primary immune response. It appears within days, before IgG. IgM is a pentamer and is highly effective at complement activation and agglutination."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q22",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Which microorganism is used for the production of Swiss cheese with characteristic holes?",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Lactobacillus acidophilus",
+        "C) Propionibacterium freudenreichii",
+        "D) Aspergillus niger"
+      ],
+      "correct_option": "C",
+      "explanation": "Propionibacterium freudenreichii produces CO₂ during fermentation, creating the characteristic holes (eyes) in Swiss cheese, along with propionic acid contributing to its flavor."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q23",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Which type of immunity is acquired when preformed antibodies are injected into a person?",
+      "options": [
+        "A) Active natural immunity",
+        "B) Passive artificial immunity",
+        "C) Active artificial immunity",
+        "D) Passive natural immunity"
+      ],
+      "correct_option": "B",
+      "explanation": "Passive artificial immunity results from injection of preformed antibodies (e.g., anti-tetanus serum, anti-snake venom). It provides immediate but temporary protection since the body does not produce its own memory cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q24",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "The causative agent of malaria, Plasmodium, is transmitted to humans through the bite of which mosquito genus?",
+      "options": [
+        "A) Aedes",
+        "B) Culex",
+        "C) Anopheles",
+        "D) Mansonia"
+      ],
+      "correct_option": "C",
+      "explanation": "Female Anopheles mosquitoes serve as vectors for Plasmodium species causing malaria. Aedes transmits dengue and chikungunya; Culex transmits filariasis and Japanese encephalitis."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q25",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "In the activated sludge process of sewage treatment, the biological component that degrades organic matter consists of:",
+      "options": [
+        "A) Only aerobic bacteria",
+        "B) Only algae",
+        "C) Only anaerobic bacteria",
+        "D) A mixed microbial community of bacteria, fungi, and protozoa"
+      ],
+      "correct_option": "D",
+      "explanation": "Activated sludge contains a diverse microbial community including aerobic bacteria (Flavobacterium, Pseudomonas), fungi, and protozoa that collectively degrade organic matter through aerobic decomposition."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q26",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "B-lymphocytes mature in the bone marrow and differentiate into plasma cells that secrete antibodies. What type of antigen presentation is required for full B-cell activation?",
+      "options": [
+        "A) Direct binding to unprocessed antigen only",
+        "B) Antigen presentation by dendritic cells via MHC class II along with T-helper cell co-stimulation",
+        "C) Presentation via MHC class I to cytotoxic T-cells",
+        "D) Complement fixation alone"
+      ],
+      "correct_option": "B",
+      "explanation": "T-dependent B-cell activation requires both B-cell receptor binding to antigen AND co-stimulation from antigen-specific T-helper cells that recognize the same antigen presented by the B-cell via MHC class II."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a biofertilizer that fixes atmospheric nitrogen in association with legume roots?",
+      "options": [
+        "A) Azolla",
+        "B) Azospirillum",
+        "C) Mycorrhiza",
+        "D) Rhizobium"
+      ],
+      "correct_option": "D",
+      "explanation": "Rhizobium forms symbiotic nodules on legume roots where it fixes atmospheric nitrogen into ammonia for the plant. Azospirillum and Azotobacter are free-living; Mycorrhiza aids phosphorus uptake."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which cytokine is primarily responsible for the cytokine storm observed in severe influenza or COVID-19, and what is the mechanism of pathology?",
+      "options": [
+        "A) TGF-beta promoting fibrosis",
+        "B) IL-6 and TNF-alpha overproduction causing widespread inflammation, capillary leak, and multi-organ failure",
+        "C) IFN-gamma activating macrophages locally",
+        "D) IL-10 suppressing inflammation"
+      ],
+      "correct_option": "B",
+      "explanation": "Excessive production of pro-inflammatory cytokines (IL-6, TNF-alpha, IL-1beta) leads to systemic inflammation, vascular leakage, acute respiratory distress syndrome, and multi-organ failure in severe viral infections."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Which microbial metabolite acts as a clot-buster by converting plasminogen to plasmin, dissolving thrombi in myocardial infarction?",
+      "options": [
+        "A) Streptokinase from Streptococcus",
+        "B) Staphylokinase from Staphylococcus aureus",
+        "C) Coagulase from Staphylococcus",
+        "D) Hyaluronidase from Clostridium"
+      ],
+      "correct_option": "A",
+      "explanation": "Streptokinase (from beta-hemolytic Streptococcus) forms a complex with plasminogen, converting it to plasmin which degrades fibrin clots. Used clinically as a thrombolytic agent for myocardial infarction and pulmonary embolism."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q30",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Metastasis of cancer cells involves epithelial-mesenchymal transition (EMT). Which process is critical for successful metastasis?",
+      "options": [
+        "A) Loss of cell adhesion, degradation of extracellular matrix, and invasion into blood vessels",
+        "B) Increased expression of E-cadherin to maintain cell adhesion",
+        "C) Enhanced apoptosis of circulating tumor cells",
+        "D) Increased contact inhibition"
+      ],
+      "correct_option": "A",
+      "explanation": "Metastasis requires tumor cells to lose adhesion (downregulate E-cadherin), secrete matrix metalloproteinases to degrade ECM, intravasate into blood vessels, survive in circulation, and extravasate at distant sites."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q31",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "easy",
+      "question": "Which enzyme is used to join DNA fragments by forming phosphodiester bonds between compatible ends?",
+      "options": [
+        "A) Restriction endonuclease",
+        "B) Reverse transcriptase",
+        "C) DNA ligase",
+        "D) DNA polymerase I"
+      ],
+      "correct_option": "C",
+      "explanation": "DNA ligase catalyzes the formation of phosphodiester bonds between the 3'-OH and 5'-phosphate ends of DNA fragments, sealing nicks in the sugar-phosphate backbone during cloning."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q32",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "Bt cotton provides resistance against bollworms because the plant produces:",
+      "options": [
+        "A) Chitinase enzymes that degrade insect exoskeletons",
+        "B) Cry proteins toxic to lepidopteran larvae",
+        "C) Volatile compounds that repel insects",
+        "D) Antibodies against insect pests"
+      ],
+      "correct_option": "B",
+      "explanation": "Bt cotton expresses cry genes from Bacillus thuringiensis that encode delta-endotoxins (Cry proteins). In the alkaline insect midgut, these proteins are activated and bind to receptors, creating pores that kill the larva."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q33",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "easy",
+      "question": "In gel electrophoresis, smaller DNA fragments migrate faster than larger ones because:",
+      "options": [
+        "A) They bind less ethidium bromide",
+        "B) They are more attracted to the positive electrode",
+        "C) They experience less resistance from the gel matrix",
+        "D) They have more charge"
+      ],
+      "correct_option": "C",
+      "explanation": "DNA fragments have uniform charge density (one phosphate per nucleotide). Smaller fragments move through the gel pores more easily, experiencing less frictional resistance, and thus migrate faster toward the anode."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q34",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "medium",
+      "question": "Which technique is used to detect HIV infection by detecting antibodies against the virus in patient serum?",
+      "options": [
+        "A) PCR",
+        "B) Southern blot",
+        "C) Western blot only",
+        "D) ELISA"
+      ],
+      "correct_option": "D",
+      "explanation": "ELISA (Enzyme-Linked Immunosorbent Assay) is used for initial HIV screening. Patient serum is tested for anti-HIV antibodies using antigen-coated plates with enzyme-linked detection. Western blot is used as confirmatory test."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q35",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "The Ti plasmid used in plant genetic engineering is derived from which bacterium?",
+      "options": [
+        "A) Agrobacterium tumefaciens",
+        "B) Bacillus thuringiensis",
+        "C) Pseudomonas syringae",
+        "D) Escherichia coli"
+      ],
+      "correct_option": "A",
+      "explanation": "Agrobacterium tumefaciens contains a Ti (tumor-inducing) plasmid. The T-DNA region of this plasmid naturally integrates into plant genomes, making it an excellent vector for plant genetic engineering."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q36",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a genetically modified organism that produces a pharmaceutical product?",
+      "options": [
+        "A) Golden rice producing beta-carotene",
+        "B) Oncomouse used for cancer research",
+        "C) Dolly the cloned sheep",
+        "D) Transgenic goats producing human antithrombin (ATryn) in milk"
+      ],
+      "correct_option": "D",
+      "explanation": "ATryn is human antithrombin produced in the milk of transgenic goats, approved for treating antithrombin deficiency. Golden rice produces nutrients; Oncomouse is a cancer model; Dolly was cloned, not transgenic for pharmaceuticals."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q37",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "medium",
+      "question": "During PCR, the annealing step typically occurs at what temperature range?",
+      "options": [
+        "A) 37°C",
+        "B) 50-65°C",
+        "C) 72°C only",
+        "D) 94-96°C"
+      ],
+      "correct_option": "B",
+      "explanation": "The annealing step in PCR occurs at 50-65°C, allowing primers to bind (anneal) to complementary sequences on the single-stranded template. The exact temperature depends on primer length and GC content."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q38",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "RNA interference (RNAi) for gene silencing involves which of the following components to specifically degrade target mRNA?",
+      "options": [
+        "A) Single-stranded RNA and Dicer only",
+        "B) Double-stranded RNA, Dicer processing into siRNA, and RISC complex with Argonaute",
+        "C) Antisense DNA and DNA ligase",
+        "D) CRISPR-Cas9 ribonucleoprotein complex"
+      ],
+      "correct_option": "B",
+      "explanation": "In RNAi, long dsRNA is processed by Dicer into siRNAs (21-23 nt). One strand loads into the RISC complex containing Argonaute, guiding it to complementary target mRNA for cleavage and degradation."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q39",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology and its Applications",
+      "difficulty": "hard",
+      "question": "Which statement correctly describes the basis of blue-white screening in cloning vectors?",
+      "options": [
+        "A) The screening relies on antibiotic resistance gene disruption",
+        "B) Blue colonies contain disrupted lacZ gene from insertional inactivation",
+        "C) Recombinant plasmids disrupt lacZ, preventing beta-galactosidase production, resulting in white colonies",
+        "D) White colonies contain functional beta-galactosidase that cleaves X-gal"
+      ],
+      "correct_option": "C",
+      "explanation": "In vectors like pUC19, foreign DNA is cloned into the lacZ gene. Non-recombinant bacteria produce functional beta-galactosidase (blue on X-gal), while recombinants have disrupted lacZ and remain white, enabling visual screening."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q40",
+      "topic": "Biotechnology and its Applications",
+      "sub_topic": "Biotechnology: Principles and Processes",
+      "difficulty": "hard",
+      "question": "Gene therapy for inherited retinal dystrophy using adeno-associated virus (AAV) vectors works by:",
+      "options": [
+        "A) Delivering a functional copy of the gene (e.g., RPE65) to retinal cells via viral transduction without integration into host genome",
+        "B) Integrating the therapeutic gene into every cell of the retina",
+        "C) Replacing defective photoreceptor cells entirely",
+        "D) Editing the mutated gene in situ using CRISPR"
+      ],
+      "correct_option": "A",
+      "explanation": "Luxturna (voretigene neparvovec) uses AAV2 to deliver functional RPE65 gene to retinal pigment epithelial cells. The therapeutic DNA persists episomally, restoring the visual cycle in Leber congenital amaurosis."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q41",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "In a logistic growth curve, the carrying capacity (K) represents:",
+      "options": [
+        "A) The maximum population size that the environment can sustain indefinitely",
+        "B) The maximum growth rate of the population",
+        "C) The time taken to double the population",
+        "D) The initial population size"
+      ],
+      "correct_option": "A",
+      "explanation": "Carrying capacity (K) is the maximum number of individuals an environment can support given limited resources. At K, birth rate equals death rate and population growth stops."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q42",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "Which trophic level do autotrophs (green plants) occupy in a food chain?",
+      "options": [
+        "A) Second trophic level (primary consumers)",
+        "B) Fourth trophic level (tertiary consumers)",
+        "C) First trophic level (producers)",
+        "D) Third trophic level (secondary consumers)"
+      ],
+      "correct_option": "C",
+      "explanation": "Autotrophs/producers (green plants) constitute the first trophic level. They convert solar energy into chemical energy through photosynthesis, forming the base of all food chains."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q43",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "The species richness of an ecosystem refers to:",
+      "options": [
+        "A) The total number of individuals in a population",
+        "B) The number of endemic species only",
+        "C) The genetic diversity within a species",
+        "D) The number of different species present in a given area"
+      ],
+      "correct_option": "D",
+      "explanation": "Species richness is a measure of the number of different species in a community. It does not consider abundance (evenness) — only how many species are present."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q44",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "A species that plays a critical role in maintaining ecosystem structure despite low abundance is called:",
+      "options": [
+        "A) Umbrella species",
+        "B) Flagship species",
+        "C) Keystone species",
+        "D) Foundation species"
+      ],
+      "correct_option": "C",
+      "explanation": "A keystone species (e.g., sea star Pisaster, sea otter) has a disproportionate effect on ecosystem structure relative to its abundance. Its removal causes major community shifts."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q45",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "In a grassland ecosystem, the pyramid of numbers is typically:",
+      "options": [
+        "A) A straight line with equal numbers at each level",
+        "B) Inverted with few producers and many herbivores",
+        "C) Always inverted for numbers but upright for biomass",
+        "D) Upright with many grass plants, fewer herbivores, and even fewer predators"
+      ],
+      "correct_option": "D",
+      "explanation": "In terrestrial grassland ecosystems, the pyramid of numbers is upright: many grass plants support fewer herbivores (insects, rodents), which support even fewer predators (hawks, foxes)."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q46",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "In competition between two species, the competitive exclusion principle states that:",
+      "options": [
+        "A) Both species always coexist",
+        "B) Competition always leads to increased biodiversity",
+        "C) Neither species is affected",
+        "D) The superior competitor will eventually eliminate the inferior one from that habitat"
+      ],
+      "correct_option": "D",
+      "explanation": "Gause's competitive exclusion principle states that two species with identical ecological niches cannot coexist indefinitely — one will outcompete and exclude the other."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q47",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "medium",
+      "question": "Which type of biodiversity conservation approach is exemplified by establishing botanical gardens and zoological parks?",
+      "options": [
+        "A) Ex-situ conservation",
+        "B) Sacred groves",
+        "C) In-situ conservation",
+        "D) Community-based conservation"
+      ],
+      "correct_option": "A",
+      "explanation": "Ex-situ conservation protects species outside their natural habitats. Botanical gardens (plants), zoological parks (animals), seed banks, and gene banks are all ex-situ methods for preserving genetic diversity."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q48",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "hard",
+      "question": "The biological oxygen demand (BOD) of a water sample indicates:",
+      "options": [
+        "A) The total oxygen content in water",
+        "B) The amount of oxygen required by aerobic microorganisms to decompose organic matter",
+        "C) The dissolved oxygen available to fish",
+        "D) The rate of photosynthesis by aquatic plants"
+      ],
+      "correct_option": "B",
+      "explanation": "BOD measures dissolved oxygen consumed by aerobic bacteria decomposing organic matter in water. Higher BOD indicates greater organic pollution and less oxygen available for aquatic life."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q49",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "The 'tragedy of the commons' refers to:",
+      "options": [
+        "A) Depletion of shared resources when individuals act in self-interest despite collective harm",
+        "B) Government ownership of all natural resources",
+        "C) The inevitability of species extinction",
+        "D) The superiority of private property rights"
+      ],
+      "correct_option": "A",
+      "explanation": "Hardin's 'tragedy of the commons' describes how shared, unregulated resources (grazing lands, fisheries) are overexploited when each user benefits individually while costs are shared by all, leading to depletion."
+    },
+    {
+      "id": "CUET_BIO_2026_P14_L4B_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "Which biogeochemical cycle includes denitrification, nitrogen fixation, and nitrification as key processes, and is classified as a sedimentary cycle?",
+      "options": [
+        "A) Both nitrogen and phosphorus cycles",
+        "B) Nitrogen cycle",
+        "C) Phosphorus cycle",
+        "D) Carbon cycle"
+      ],
+      "correct_option": "B",
+      "explanation": "The nitrogen cycle involves nitrogen fixation (N2→NH3), nitrification (NH3→NO2→NO3), and denitrification (NO3→N2). Despite having an atmospheric reservoir, the key biological transformations (fixation, nitrification) distinguish it from purely sedimentary cycles like phosphorus."
+    }
+  ]
+}

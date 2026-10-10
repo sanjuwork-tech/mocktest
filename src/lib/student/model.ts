@@ -1,4 +1,4 @@
-export type Subject = "mathematics" | "physics" | "chemistry";
+export type Subject = "mathematics" | "physics" | "chemistry" | "biological-science";
 export type QuestionType =
   | "single"
   | "multiple"
@@ -69,6 +69,12 @@ export const SUBJECTS: {
     title: "Physics",
     subtitle: "Turn the world around you into understanding.",
     color: "#406900",
+  },
+  {
+    id: "biological-science",
+    title: "Biological Science",
+    subtitle: "Explore genetics, cell biology, and ecosystems.",
+    color: "#059669",
   },
   {
     id: "chemistry",

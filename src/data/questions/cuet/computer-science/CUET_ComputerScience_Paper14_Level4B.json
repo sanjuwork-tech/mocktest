@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P14_L4B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 14,
+  "difficulty_level": "4B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "GROUP BY and HAVING",
+      "difficulty": "easy",
+      "question": "A table Sales has columns (product_id, region, amount). Which query correctly finds the region with the highest total sales?",
+      "options": [
+        "A) SELECT region, SUM(amount) FROM Sales WHERE SUM(amount) = (SELECT MAX(SUM(amount)) FROM Sales)",
+        "B) SELECT region FROM Sales HAVING SUM(amount) > ALL",
+        "C) SELECT region, MAX(amount) FROM Sales GROUP BY region",
+        "D) SELECT region, SUM(amount) FROM Sales GROUP BY region ORDER BY SUM(amount) DESC LIMIT 1"
+      ],
+      "correct_option": "D",
+      "explanation": "Option B groups sales by region, sums amounts per region, sorts descending, and takes the top row. Option A is invalid because WHERE cannot filter on aggregates. Option C finds the maximum single sale per region, not total. Option D is syntactically incorrect."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization",
+      "difficulty": "easy",
+      "question": "A relation R(A, B, C, D) has functional dependencies {A → B, B → C, A → D}. The candidate key is A. Which normal form does R satisfy?",
+      "options": [
+        "A) 2NF",
+        "B) 3NF",
+        "C) BCNF",
+        "D) 1NF only"
+      ],
+      "correct_option": "A",
+      "explanation": "The candidate key is A. Since A is a single attribute, there are no partial dependencies (satisfies 2NF). However, B → C is a transitive dependency (A → B → C), so 3NF is violated. Thus R is in 2NF."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "Relational Algebra",
+      "difficulty": "easy",
+      "question": "Given relations R(A, B) with 3 tuples and S(B, C) with 4 tuples, where R.B and S.B have no common values. What is the number of tuples in R ⋈ S (natural join)?",
+      "options": [
+        "A) 12",
+        "B) 3",
+        "C) 7",
+        "D) 0"
+      ],
+      "correct_option": "D",
+      "explanation": "A natural join matches tuples from R and S on the common attribute B. Since R.B and S.B share no values, no tuples match, resulting in 0 tuples."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "A table Employees has 100 rows. The 'commission' column has 40 NULL values. What does SELECT COUNT(commission) FROM Employees return?",
+      "options": [
+        "A) NULL",
+        "B) 100",
+        "C) 60",
+        "D) 40"
+      ],
+      "correct_option": "C",
+      "explanation": "COUNT(column) ignores NULL values. With 100 rows and 40 NULLs, there are 60 non-NULL commission values, so COUNT returns 60."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q05",
+      "topic": "Database/SQL",
+      "sub_topic": "Subqueries",
+      "difficulty": "medium",
+      "question": "Consider the query: SELECT e.name FROM Employees e WHERE e.salary > (SELECT AVG(salary) FROM Employees WHERE dept_id = e.dept_id). What does this query return?",
+      "options": [
+        "A) Employees whose salary is above their department's average salary",
+        "B) Employees whose salary is above the overall company average",
+        "C) Departments where average salary exceeds the company average",
+        "D) The employee with the highest salary in each department"
+      ],
+      "correct_option": "A",
+      "explanation": "This is a correlated subquery — the inner query references e.dept_id from the outer query, computing the average salary per department. The outer query then filters employees earning more than their own department's average."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "JOIN Operations",
+      "difficulty": "medium",
+      "question": "Tables: Students(sid, name, dept_id), Departments(dept_id, dept_name, building). Which query lists all students along with their department name, including students without a department?",
+      "options": [
+        "A) SELECT s.name, d.dept_name FROM Students s CROSS JOIN Departments d",
+        "B) SELECT s.name, d.dept_name FROM Students s LEFT JOIN Departments d ON s.dept_id = d.dept_id",
+        "C) SELECT s.name, d.dept_name FROM Students s RIGHT JOIN Departments d ON s.dept_id = d.dept_id",
+        "D) SELECT s.name, d.dept_name FROM Students s JOIN Departments d ON s.dept_id = d.dept_id"
+      ],
+      "correct_option": "B",
+      "explanation": "LEFT JOIN preserves all rows from the left table (Students) even when there is no match in the right table (Departments). Students without a department will show NULL for dept_name."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q07",
+      "topic": "Database/SQL",
+      "sub_topic": "Indexing",
+      "difficulty": "medium",
+      "question": "A table has a composite index on (dept_id, salary). Which query will NOT benefit from this index?",
+      "options": [
+        "A) SELECT * FROM Employees WHERE dept_id = 10 AND salary > 50000",
+        "B) SELECT * FROM Employees WHERE salary > 50000",
+        "C) SELECT * FROM Employees WHERE dept_id = 10",
+        "D) SELECT * FROM Employees WHERE dept_id = 10 ORDER BY salary"
+      ],
+      "correct_option": "B",
+      "explanation": "A composite index (dept_id, salary) can be used when the query filters on the leftmost prefix (dept_id) or both columns. Query C filters only on salary, which is not the leftmost column, so the index cannot be used."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q08",
+      "topic": "Database/SQL",
+      "sub_topic": "Transactions",
+      "difficulty": "medium",
+      "question": "Two transactions T1 and T2 execute concurrently. T1 reads A=100, then T2 updates A=200 and commits. T1 reads A again and sees 200. Which phenomenon does this illustrate?",
+      "options": [
+        "A) Non-repeatable read",
+        "B) Phantom read",
+        "C) Dirty read",
+        "D) Lost update"
+      ],
+      "correct_option": "A",
+      "explanation": "A non-repeatable read occurs when a transaction reads the same row twice and sees different values because another committed transaction modified it between the two reads. This is a non-repeatable read (A changed from 100 to 200 within T1)."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q09",
+      "topic": "Database/SQL",
+      "sub_topic": "Window Functions",
+      "difficulty": "hard",
+      "question": "Given a table Scores(student_id, subject, marks), what does the query SELECT student_id, subject, marks, RANK() OVER (PARTITION BY subject ORDER BY marks DESC) FROM Scores return?",
+      "options": [
+        "A) Each student's rank across all subjects combined",
+        "B) The overall rank of each subject by total marks",
+        "C) Each student's rank within their subject, with ties getting the same rank and the next rank skipping",
+        "D) Each student's rank within their subject, with ties getting consecutive ranks"
+      ],
+      "correct_option": "C",
+      "explanation": "RANK() with PARTITION BY subject computes ranks separately per subject. DESC means highest marks = rank 1. RANK() assigns the same rank to ties and skips the next rank (e.g., 1, 1, 3). DENSE_RANK() would give consecutive ranks."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q10",
+      "topic": "Database/SQL",
+      "sub_topic": "Recursive CTE",
+      "difficulty": "hard",
+      "question": "A table Employees has columns (emp_id, emp_name, manager_id). A recursive CTE is used to find all subordinates of emp_id=1 (including indirect subordinates at any depth). If the hierarchy is 1→2→3→4 (chain), how many rows will the recursive CTE return?",
+      "options": [
+        "A) 10",
+        "B) 6",
+        "C) 4",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "Starting with emp_id=1, the recursive CTE finds direct subordinates (emp_id=2), then their subordinates (emp_id=3), then emp_id=4. Total rows returned = 3 (employees 2, 3, 4). Employee 1 itself is the anchor and is not counted as a subordinate."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q11",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "easy",
+      "question": "What is the network address of the IP address 203.110.45.67/26?",
+      "options": [
+        "A) 203.110.45.192",
+        "B) 203.110.45.64",
+        "C) 203.110.45.0",
+        "D) 203.110.45.128"
+      ],
+      "correct_option": "B",
+      "explanation": "/26 means 26 network bits. The subnet mask is 255.255.255.192. The block size is 256-192=64. Networks are 0, 64, 128, 192. IP 67 falls in the 64-127 range, so the network address is 203.110.45.64."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q12",
+      "topic": "Networks",
+      "sub_topic": "Application Layer Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol is used to transfer emails from a sender's mail server to a recipient's mail server?",
+      "options": [
+        "A) IMAP",
+        "B) HTTP",
+        "C) SMTP",
+        "D) POP3"
+      ],
+      "correct_option": "C",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) handles sending emails between mail servers. POP3 and IMAP are for retrieving emails from a server to a client. HTTP is for web page transfer."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q13",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "At which OSI layer does a bridge operate?",
+      "options": [
+        "A) Data Link Layer",
+        "B) Physical Layer",
+        "C) Transport Layer",
+        "D) Network Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "A bridge operates at the Data Link Layer (Layer 2), forwarding frames based on MAC addresses. Unlike a simple repeater/hub (Layer 1), a bridge makes forwarding decisions based on MAC address tables."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q14",
+      "topic": "Networks",
+      "sub_topic": "Network Types",
+      "difficulty": "easy",
+      "question": "Which network type typically covers a metropolitan area, such as a city?",
+      "options": [
+        "A) PAN",
+        "B) WAN",
+        "C) LAN",
+        "D) MAN"
+      ],
+      "correct_option": "D",
+      "explanation": "MAN (Metropolitan Area Network) covers a city or campus. LAN covers a building/room, WAN spans countries/continents, and PAN is for personal devices."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q15",
+      "topic": "Networks",
+      "sub_topic": "Subnetting",
+      "difficulty": "medium",
+      "question": "An organization is given the network 10.0.0.0/8. They need 500 subnets. What is the new subnet mask?",
+      "options": [
+        "A) 255.255.128.0",
+        "B) 255.255.192.0",
+        "C) 255.255.0.0",
+        "D) 255.255.255.0"
+      ],
+      "correct_option": "A",
+      "explanation": "To create 500 subnets, we need at least 9 bits (2^9=512). /8 + 9 = /17. Subnet mask: 255.255.128.0 (first 17 bits are network: 8+8+1)."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q16",
+      "topic": "Networks",
+      "sub_topic": "TCP Handshake",
+      "difficulty": "medium",
+      "question": "In TCP three-way handshake, the second segment (from server to computer) has which flags set?",
+      "options": [
+        "A) FIN and ACK",
+        "B) SYN only",
+        "C) ACK only",
+        "D) SYN and ACK"
+      ],
+      "correct_option": "D",
+      "explanation": "Step 1: Client sends SYN. Step 2: Server responds with SYN+ACK (acknowledges client's SYN and sends its own). Step 3: Client sends ACK. The second segment carries both SYN and ACK flags."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q17",
+      "topic": "Networks",
+      "sub_topic": "Routing",
+      "difficulty": "medium",
+      "question": "A router has these entries: 10.0.0.0/8 via Eth0, 10.1.0.0/16 via Eth1, 10.1.1.0/24 via Eth2. A packet arrives for 10.1.1.50. Which interface is used?",
+      "options": [
+        "A) Eth1",
+        "B) Eth2",
+        "C) Default route",
+        "D) Eth0"
+      ],
+      "correct_option": "B",
+      "explanation": "Longest prefix match rule: /24 is more specific than /16 and /8. 10.1.1.50 matches 10.1.1.0/24, so Eth2 is selected."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q18",
+      "topic": "Networks",
+      "sub_topic": "Error Detection",
+      "difficulty": "medium",
+      "question": "Using CRC with generator polynomial x^3 + x^2 + 1 (binary 1101), the data to send is 101001. What is the CRC remainder?",
+      "options": [
+        "A) 001",
+        "B) 101",
+        "C) 011",
+        "D) 110"
+      ],
+      "correct_option": "C",
+      "explanation": "Append 3 zeros (degree of polynomial): 101001000. Divide by 1101 using XOR. The remainder is 011. This is appended to the data to form the transmitted codeword."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q19",
+      "topic": "Networks",
+      "sub_topic": "TCP Congestion Control",
+      "difficulty": "hard",
+      "question": "TCP Reno has cwnd = 16 MSS and ssthresh = 8 MSS. A triple duplicate ACK occurs, followed by 4 successful RTTs with no loss. What is cwnd after these 4 RTTs?",
+      "options": [
+        "A) 10 MSS",
+        "B) 11 MSS",
+        "C) 9 MSS",
+        "D) 12 MSS"
+      ],
+      "correct_option": "D",
+      "explanation": "Triple duplicate ACK → cwnd = ssthresh = 8 MSS (fast recovery sets cwnd to ssthresh). Then in congestion avoidance, cwnd increases by 1 per RTT: RTT1→9, RTT2→10, RTT3→11, RTT4→12. Final cwnd = 12 MSS."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q20",
+      "topic": "Networks",
+      "sub_topic": "Sliding Window",
+      "difficulty": "hard",
+      "question": "In a sliding window protocol using 4-bit sequence numbers, the sender window size is 7 and receiver window size is 7. The sender has sent frames 0-6 and received ACK for frames 0-2. What frames can the sender now transmit?",
+      "options": [
+        "A) Frames 7, 8, 9, 10",
+        "B) Frames 7, 8, 9",
+        "C) Frames 7, 8, 9, 10, 11",
+        "D) Frames 3, 4, 5, 6, 7, 8, 9"
+      ],
+      "correct_option": "B",
+      "explanation": "With 4-bit sequence numbers, the range is 0-15. Sender window size=7. After ACK for 0-2, the window slides to start at 3. The sender can send frames 3,4,5,6 (already sent) and new frames 7,8,9. But since 3-6 are already sent but not yet acknowledged, the sender can only send 3 new frames (7,8,9) to fill the window of 7. So it can transmit frames 7, 8, 9."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "List Comprehensions",
+      "difficulty": "easy",
+      "question": "What is the output of: [x*2 for x in range(6) if x % 3 == 0]?",
+      "options": [
+        "A) [0, 6]",
+        "B) [0, 3, 6]",
+        "C) [0, 2, 4, 6, 8, 10]",
+        "D) [0, 6, 12]"
+      ],
+      "correct_option": "A",
+      "explanation": "range(6) gives 0,1,2,3,4,5. x%3==0 selects 0 and 3. Multiplying by 2: [0*2, 3*2] = [0, 6]."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionary Operations",
+      "difficulty": "easy",
+      "question": "Given d = {'a': 5, 'b': 10, 'c': 15}, what is the result of d.get('b', 0) + d.get('d', 0)?",
+      "options": [
+        "A) 0",
+        "B) Error: KeyError",
+        "C) 10",
+        "D) 15"
+      ],
+      "correct_option": "C",
+      "explanation": "d.get('b', 0) returns 10 (key exists). d.get('d', 0) returns 0 (key doesn't exist, default used). Sum = 10 + 0 = 10."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Time Complexity",
+      "difficulty": "easy",
+      "question": "What is the average time complexity of accessing an element by index in a Python list?",
+      "options": [
+        "A) O(n)",
+        "B) O(log n)",
+        "C) O(n log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "Python lists are implemented as dynamic arrays. Access by index uses direct memory addressing, so it is O(1) on average."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Tuples",
+      "difficulty": "easy",
+      "question": "What is the output of: t = (1, 2, 3); print(t[1:] + (4, 5))?",
+      "options": [
+        "A) (2, 3, 4, 5)",
+        "B) (1, 2, 3, 4, 5)",
+        "C) (2, 3)",
+        "D) (1, 2, 3)"
+      ],
+      "correct_option": "A",
+      "explanation": "t[1:] gives (2, 3). Adding (4, 5) creates (2, 3, 4, 5). Tuple slicing and concatenation produce a new tuple."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stack Applications",
+      "difficulty": "medium",
+      "question": "A stack is used to evaluate the postfix expression: 5 3 + 4 * 2 -. What is the result?",
+      "options": [
+        "A) 34",
+        "B) 30",
+        "C) 18",
+        "D) 26"
+      ],
+      "correct_option": "B",
+      "explanation": "Postfix evaluation: Push 5, push 3, + pops 5 and 3, push 8. Push 4, * pops 8 and 4, push 32. Push 2, - pops 32 and 2, push 30. Result = 30."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Linked Lists",
+      "difficulty": "medium",
+      "question": "In a singly linked list with nodes A→B→C→D, what is the time complexity to delete node C given only a pointer to C?",
+      "options": [
+        "A) Cannot be done with only a pointer to C",
+        "B) O(n)",
+        "C) O(1)",
+        "D) O(log n)"
+      ],
+      "correct_option": "C",
+      "explanation": "With only a pointer to C in a singly linked list, we can copy D's data to C and delete D (by linking C to D.next). This is the 'copy next' trick and takes O(1) time."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Hash Tables",
+      "difficulty": "medium",
+      "question": "A hash table of size 8 uses h(k) = k % 8 with linear probing. Keys 18, 26, 34, 42 are inserted in order. Which index does key 42 occupy?",
+      "options": [
+        "A) 5",
+        "B) 4",
+        "C) 2",
+        "D) 3"
+      ],
+      "correct_option": "A",
+      "explanation": "18%8=2 → index 2. 26%8=3 → index 3. 34%8=2 → occupied, probe to 4 → index 4. 42%8=2 → occupied, 3→occupied, 4→occupied, probe to 5 → index 5."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queues",
+      "difficulty": "medium",
+      "question": "A queue initially has elements [10, 20, 30] (front=10). After ENQUEUE(40), DEQUEUE(), ENQUEUE(50), what is the order of elements from front to rear?",
+      "options": [
+        "A) [30, 40, 50]",
+        "B) [20, 30, 40, 50]",
+        "C) [10, 20, 30, 40, 50]",
+        "D) [20, 30, 50]"
+      ],
+      "correct_option": "B",
+      "explanation": "Start: [10, 20, 30]. ENQUEUE(40): [10, 20, 30, 40]. DEQUEUE(): removes 10, [20, 30, 40]. ENQUEUE(50): [20, 30, 40, 50]."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion",
+      "difficulty": "hard",
+      "question": "What is the output of: def f(n): return n if n <= 1 else f(n-1) + f(n-2); print(f(6))?",
+      "options": [
+        "A) 5",
+        "B) 13",
+        "C) 21",
+        "D) 8"
+      ],
+      "correct_option": "D",
+      "explanation": "This computes Fibonacci numbers recursively. f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, f(6)=8. So f(6) = 8."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Tree Traversals",
+      "difficulty": "hard",
+      "question": "A binary search tree is built by inserting keys in order: 50, 30, 70, 20, 40, 60, 80. What is the inorder traversal?",
+      "options": [
+        "A) 80, 60, 70, 40, 20, 30, 50",
+        "B) 50, 30, 20, 40, 70, 60, 80",
+        "C) 20, 30, 40, 50, 60, 70, 80",
+        "D) 20, 40, 30, 60, 80, 70, 50"
+      ],
+      "correct_option": "C",
+      "explanation": "In a BST, inorder traversal gives elements in sorted ascending order. The keys 20,30,40,50,60,70,80 sorted gives 20,30,40,50,60,70,80."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Fundamentals",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm has O(n log n) average time but O(n²) worst-case time and is not stable?",
+      "options": [
+        "A) Merge Sort",
+        "B) Heap Sort",
+        "C) Quick Sort",
+        "D) Tim Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Quick Sort has O(n log n) average time but degrades to O(n²) worst case (e.g., already sorted input with bad pivot). It is not stable. Merge Sort is O(n log n) worst and stable. Heap Sort is O(n log n) but not stable. Tim Sort is O(n log n) and stable."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "Binary search can be applied on which of the following?",
+      "options": [
+        "A) A sorted array",
+        "B) Any linked list",
+        "C) Any unsorted array",
+        "D) A binary tree"
+      ],
+      "correct_option": "A",
+      "explanation": "Binary search requires random access to the middle element, which is only efficient in a sorted array. Linked lists lack O(1) random access."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Hashing",
+      "difficulty": "easy",
+      "question": "What is the primary purpose of a hash function in a hash table?",
+      "options": [
+        "A) To encrypt data for security",
+        "B) To map keys to array indices for efficient lookup",
+        "C) To sort the keys in ascending order",
+        "D) To resolve collisions automatically"
+      ],
+      "correct_option": "B",
+      "explanation": "A hash function maps input keys to integer indices within the hash table's array bounds, enabling O(1) average-case lookup."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "What is the best-case time complexity of insertion sort?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(log n)",
+        "C) O(n²)",
+        "D) O(n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Insertion sort's best case is when the array is already sorted. It makes n-1 comparisons and 0 swaps, giving O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "medium",
+      "question": "In Quick Sort with first element as pivot on array [4, 2, 8, 3, 1], what is the array after the first partition?",
+      "options": [
+        "A) [1, 2, 3, 8, 4]",
+        "B) [1, 2, 3, 4, 8]",
+        "C) [2, 1, 3, 4, 8]",
+        "D) [2, 3, 1, 4, 8]"
+      ],
+      "correct_option": "D",
+      "explanation": "Using Lomuto partition with pivot=4 (first element): scan and place elements ≤4 to the left. Result after partition: [2, 3, 1, 4, 8]. The pivot 4 is in its final position with smaller elements on the left and larger on the right."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "medium",
+      "question": "During merge sort of [29, 15, 48, 7, 33, 61, 19], what is the array after the first complete merge pass?",
+      "options": [
+        "A) [29, 15, 7, 48, 33, 61, 19]",
+        "B) [15, 29, 7, 48, 33, 61, 19]",
+        "C) [7, 15, 19, 29, 33, 48, 61]",
+        "D) [15, 29, 7, 48, 19, 61, 33]"
+      ],
+      "correct_option": "B",
+      "explanation": "After the first merge pass (pairwise merging): [15,29], [7,48], [33,61], [19]. Merged array: [15, 29, 7, 48, 33, 61, 19]."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Sort",
+      "difficulty": "medium",
+      "question": "A max-heap is built from [4, 10, 3, 5, 1]. After building the heap and performing one extract-max, what is the array?",
+      "options": [
+        "A) [4, 1, 3, 5]",
+        "B) [10, 5, 3, 4, 1]",
+        "C) [5, 4, 3, 1]",
+        "D) [5, 4, 3, 1, 10]"
+      ],
+      "correct_option": "C",
+      "explanation": "Build max-heap: [10, 5, 3, 4, 1]. Extract max (10): swap 10 with last element (1), reduce heap size, heapify root. Result: [5, 4, 3, 1] (with 10 removed and placed at end)."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting Analysis",
+      "difficulty": "medium",
+      "question": "How many comparisons does selection sort perform on an array of 8 elements?",
+      "options": [
+        "A) 28",
+        "B) 56",
+        "C) 36",
+        "D) 64"
+      ],
+      "correct_option": "A",
+      "explanation": "Selection sort always makes n(n-1)/2 comparisons regardless of input. For n=8: 8×7/2 = 28 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Counting Sort",
+      "difficulty": "hard",
+      "question": "Counting sort is applied to array [3, 1, 4, 1, 5, 9, 2, 6]. What is the position of the second occurrence of value 1 in the sorted output?",
+      "options": [
+        "A) Index 0",
+        "B) Index 1",
+        "C) Index 2",
+        "D) Index 3"
+      ],
+      "correct_option": "B",
+      "explanation": "Counting sort produces [1, 1, 2, 3, 4, 5, 6, 9]. The first 1 is at index 0, the second 1 is at index 1. Since counting sort is stable, equal elements maintain their relative order from the input."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Radix Sort",
+      "difficulty": "hard",
+      "question": "Radix sort (LSD) processes 3-digit numbers [329, 457, 657, 839, 436, 720, 355]. After sorting by the least significant digit (units place), what is the array order?",
+      "options": [
+        "A) [329, 720, 355, 436, 457, 657, 839]",
+        "B) [329, 457, 657, 839, 436, 720, 355]",
+        "C) [720, 329, 436, 839, 355, 457, 657]",
+        "D) [720, 355, 436, 457, 657, 329, 839]"
+      ],
+      "correct_option": "D",
+      "explanation": "Sort by units digit: 720(0), 355(5), 436(6), 457(7), 657(7), 329(9), 839(9). Stable sort gives: [720, 355, 436, 457, 657, 329, 839]."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "Security Fundamentals",
+      "difficulty": "easy",
+      "question": "What is the primary purpose of encryption?",
+      "options": [
+        "A) To convert plaintext into ciphertext to ensure confidentiality",
+        "B) To compress data for faster transmission",
+        "C) To authenticate the sender of a message",
+        "D) To detect errors in data transmission"
+      ],
+      "correct_option": "A",
+      "explanation": "Encryption transforms plaintext into ciphertext to protect data confidentiality. Compression, error detection, and authentication are separate concerns."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "easy",
+      "question": "What does df.describe() return in Pandas?",
+      "options": [
+        "A) The data types of all columns",
+        "B) The number of rows and columns",
+        "C) Statistical summary of numerical columns",
+        "D) The first 5 rows of the DataFrame"
+      ],
+      "correct_option": "C",
+      "explanation": "df.describe() provides count, mean, std, min, 25%, 50%, 75%, and max for numerical columns."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Attacks",
+      "difficulty": "easy",
+      "question": "Which type of attack floods a server with excessive requests to make it unavailable?",
+      "options": [
+        "A) SQL Injection",
+        "B) Man-in-the-Middle",
+        "C) Phishing",
+        "D) DDoS"
+      ],
+      "correct_option": "D",
+      "explanation": "DDoS (Distributed Denial of Service) overwhelms a server with traffic from multiple sources, making it unavailable to legitimate users."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas I/O",
+      "difficulty": "easy",
+      "question": "Which Pandas function is used to read an Excel file?",
+      "options": [
+        "A) pd.read_excel()",
+        "B) pd.load_excel()",
+        "C) pd.read_csv()",
+        "D) pd.read_file()"
+      ],
+      "correct_option": "A",
+      "explanation": "pd.read_excel() reads Excel files into DataFrames. pd.read_csv() reads CSV files."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection Prevention",
+      "difficulty": "medium",
+      "question": "Which technique is the most effective defense against SQL injection?",
+      "options": [
+        "A) Using complex passwords",
+        "B) Encrypting the database",
+        "C) Parameterized queries",
+        "D) Using firewalls"
+      ],
+      "correct_option": "C",
+      "explanation": "Parameterized queries (prepared statements) separate SQL code from data, preventing malicious input from being interpreted as SQL commands."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "DataFrame Operations",
+      "difficulty": "medium",
+      "question": "Two DataFrames df1 (columns: id, name) and df2 (columns: id, score) share the column 'id'. What does pd.merge(df1, df2, on='id', how='inner') return?",
+      "options": [
+        "A) All rows from df2, with NaN where df1 has no match",
+        "B) All rows from df1, with NaN where df2 has no match",
+        "C) Rows with matching id in both df1 and df2",
+        "D) All rows from df1 and df2"
+      ],
+      "correct_option": "C",
+      "explanation": "Inner merge returns only rows where the key ('id') exists in both DataFrames. Rows unique to either DataFrame are excluded."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Network Security",
+      "difficulty": "medium",
+      "question": "In TLS 1.3, how many round trips are required to establish a connection (compared to TLS 1.2)?",
+      "options": [
+        "A) 0",
+        "B) 1 (reduced from 2)",
+        "C) 2 (same as TLS 1.2)",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "TLS 1.3 completes the handshake in 1 RTT, down from 2 RTTs in TLS 1.2, by combining key exchange and authentication."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "DataFrame Operations",
+      "difficulty": "medium",
+      "question": "A DataFrame has columns (year, month, region, profit). What does df.pivot_table(values='profit', index=['year','month'], columns='region', aggfunc='mean') create?",
+      "options": [
+        "A) A line plot showing profit trends over time",
+        "B) A table with year-month combinations as rows, regions as columns, and mean profit as values",
+        "C) A single-column Series with average profit per year",
+        "D) A melted DataFrame with one row per observation"
+      ],
+      "correct_option": "B",
+      "explanation": "pivot_table with index=['year','month'] creates hierarchical rows, columns='region' creates column per region, values='profit' fills cells with profit values, and aggfunc='mean' computes the average for each group."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Data Anonymization",
+      "difficulty": "hard",
+      "question": "A dataset has quasi-identifiers (age, zip_code, gender). To achieve 2-anonymity, each combination of quasi-identifiers must appear at least twice. Given records: (25, 56001, M), (25, 56001, M), (25, 56001, F), (30, 56001, M), what is the minimum number of records that need to be suppressed?",
+      "options": [
+        "A) 0",
+        "B) 3",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "Group by (age, zip_code, gender): (25,56001,M) appears twice ✓, (25,56001,F) appears once ✗, (30,56001,M) appears once ✗. Both singletons must be suppressed. Minimum = 2 records."
+    },
+    {
+      "id": "CUET_CS_2026_P14_L4B_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Advanced DataFrame Operations",
+      "difficulty": "hard",
+      "question": "Given df with columns (department, employee, salary), what does df.groupby('department')['salary'].transform('max') return?",
+      "options": [
+        "A) A sorted DataFrame with highest salary first per department",
+        "B) A Series with same length as df where each row contains the maximum salary of its department",
+        "C) A pivot table showing salary distribution across departments",
+        "D) A DataFrame with one row per department and its maximum salary"
+      ],
+      "correct_option": "B",
+      "explanation": "transform('max') returns a Series of the same length as the original DataFrame. Each row gets the maximum salary of its department group, preserving the original index and row count."
+    }
+  ]
+}

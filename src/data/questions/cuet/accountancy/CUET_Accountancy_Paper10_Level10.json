@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ACC_2026_P10_L10",
+  "series_id": "CUET_ACC_2026",
+  "paper_number": 10,
+  "difficulty_level": "10",
+  "subject": "Accountancy (Code: 301)",
+  "syllabus_source": "cuet accountancy syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q01",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Partnership Deed — Interest on Loan",
+      "difficulty": "easy",
+      "question": "As per the Indian Partnership Act, 1932, if the partnership deed is silent regarding the rate of interest on a partner's loan to the firm, the rate of interest payable is:",
+      "options": [
+        "A) 12% per annum",
+        "B) 6% per annum",
+        "C) No interest is payable",
+        "D) 10% per annum"
+      ],
+      "correct_option": "B",
+      "explanation": "Section 13(d) of the Indian Partnership Act, 1932 states that where no specific rate is mentioned in the deed, interest on a partner's loan is payable at 6% per annum."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q02",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Capital — Profit Restriction",
+      "difficulty": "medium",
+      "question": "P and Q share profits in the ratio 2:1. Their capitals are ₹15,00,000 and ₹10,00,000 respectively. The deed provides for interest on capital at 10% p.a. The firm earned a profit of ₹2,00,000. What is the interest on capital allowed to P?",
+      "options": [
+        "A) ₹1,50,000",
+        "B) ₹2,00,000",
+        "C) ₹80,000",
+        "D) ₹1,20,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Interest due: P=10%×₹15L=₹1,50,000; Q=10%×₹10L=₹1,00,000. Total=₹2,50,000 > profit of ₹2,00,000. Interest restricted to available profit and distributed in ratio of interest due (3:2). P's share=3/5×₹2,00,000=₹1,20,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q03",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Fixed vs Fluctuating Capital",
+      "difficulty": "medium",
+      "question": "Under the Fixed Capital method of maintaining partners' capital accounts, which of the following items is recorded in the Partner's Current Account?",
+      "options": [
+        "A) Additional capital introduced",
+        "B) Only capital contribution",
+        "C) Drawings and interest on drawings",
+        "D) Goodwill on admission"
+      ],
+      "correct_option": "C",
+      "explanation": "Under Fixed Capital method, only capital introduced and withdrawn are recorded in the Capital Account. All other adjustments like drawings, interest on capital, salary, and share of profit are recorded in the Current Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q04",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "P&L Appropriation — Salary",
+      "difficulty": "medium",
+      "question": "M and N share profits equally. M is entitled to a salary of ₹72,000 p.a. The net profit after salary is ₹1,80,000. What is N's total share of profit?",
+      "options": [
+        "A) ₹90,000",
+        "B) ₹72,000",
+        "C) ₹54,000",
+        "D) ₹1,26,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Net profit after salary=₹1,80,000. Profit shared equally between M and N. N's share=₹1,80,000×1/2=₹90,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q05",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "P&L Appropriation — Multi-tier",
+      "difficulty": "hard",
+      "question": "A, B and C share profits in the ratio 5:3:2. Their fixed capitals are ₹5,00,000, ₹3,00,000 and ₹2,00,000 respectively. Interest on capital is allowed at 10% p.a. and A is entitled to a salary of ₹60,000 p.a. The net profit before adjustments is ₹8,00,000. What is A's total share of profit?",
+      "options": [
+        "A) ₹3,70,000",
+        "B) ₹4,10,000",
+        "C) ₹4,50,000",
+        "D) ₹4,30,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Interest: A=₹50,000, B=₹30,000, C=₹20,000 (total ₹1,00,000). Salary to A=₹60,000. Remaining=₹8,00,000−₹1,00,000−₹60,000=₹6,40,000. A's share=5/10×₹6,40,000=₹3,20,000. A's total=₹50,000+₹60,000+₹3,20,000=₹4,30,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q06",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Guarantee of Profit",
+      "difficulty": "hard",
+      "question": "X, Y and Z share profits in the ratio 4:3:2. Z is guaranteed a minimum of ₹50,000 p.a. The deficiency is borne by X and Y in the ratio 3:1. If the firm earns a profit of ₹3,60,000, what is X's share of profit?",
+      "options": [
+        "A) ₹1,55,000",
+        "B) ₹1,50,000",
+        "C) ₹1,60,000",
+        "D) ₹1,45,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Z's share=2/9×₹3,60,000=₹80,000. Since ₹80,000 exceeds the guarantee of ₹50,000, there is no deficiency. X's share=4/9×₹3,60,000=₹1,60,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q07",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Drawings — Monthly",
+      "difficulty": "hard",
+      "question": "A partner draws ₹10,000 at the beginning of every month. If the rate of interest on drawings is 12% p.a., what is the interest on drawings for the year?",
+      "options": [
+        "A) ₹6,600",
+        "B) ₹7,800",
+        "C) ₹13,200",
+        "D) ₹7,200"
+      ],
+      "correct_option": "B",
+      "explanation": "Total drawings=₹10,000×12=₹1,20,000. For monthly drawings at beginning, average period=(12+11+10+...+1)/12=78/12=6.5 months. Interest=₹1,20,000×12%×6.5/12=₹7,800."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q08",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Drawings — Quarterly",
+      "difficulty": "hard",
+      "question": "A partner draws ₹20,000 at the beginning of every quarter. If interest on drawings is charged at 12% p.a., what is the total interest on drawings for the year?",
+      "options": [
+        "A) ₹6,000",
+        "B) ₹5,000",
+        "C) ₹7,000",
+        "D) ₹4,800"
+      ],
+      "correct_option": "A",
+      "explanation": "Total drawings=₹20,000×4=₹80,000. Average period=(12+9+6+3)/4=7.5 months. Interest=₹80,000×12%×7.5/12=₹80,000×0.075=₹6,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q09",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "P&L Appropriation with Loss",
+      "difficulty": "hard",
+      "question": "A and B share profits in the ratio 3:2. Their capitals are ₹6,00,000 and ₹4,00,000. Interest on capital @8% and A's salary of ₹72,000 are provided in the deed. The firm incurred a net loss of ₹1,00,000 before appropriations. What is A's net share of the loss?",
+      "options": [
+        "A) ₹48,000 loss",
+        "B) ₹72,000 loss",
+        "C) ₹31,200 loss",
+        "D) ₹1,51,200 loss"
+      ],
+      "correct_option": "C",
+      "explanation": "Appropriations: Interest A=₹48,000, B=₹32,000; Salary A=₹72,000. Total appropriations=₹1,52,000. Total loss to distribute=₹1,00,000+₹1,52,000=₹2,52,000. A's share=3/5×₹2,52,000=₹1,51,200. A's net loss=₹1,51,200−₹48,000−₹72,000=₹31,200."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q10",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Sacrificing Ratio",
+      "difficulty": "medium",
+      "question": "A and B share profits in the ratio 4:1. They admit C for 1/5 share of profits which he acquires from A and B in the ratio 3:2. What is the sacrificing ratio of A and B?",
+      "options": [
+        "A) 4:1",
+        "B) 3:1",
+        "C) 1:1",
+        "D) 3:2"
+      ],
+      "correct_option": "D",
+      "explanation": "C acquires 1/5 from A and B in ratio 3:2. A's sacrifice=(3/5)×(1/5)=3/25. B's sacrifice=(2/5)×(1/5)=2/25. Sacrificing ratio A:B=3/25:2/25=3:2."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q11",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Gaining Ratio",
+      "difficulty": "medium",
+      "question": "A, B and C share profits in the ratio 5:3:2. C retires and A and B take C's share in the ratio 3:2. What is the gaining ratio of A and B?",
+      "options": [
+        "A) 5:3",
+        "B) 3:2",
+        "C) 2:1",
+        "D) 6:4"
+      ],
+      "correct_option": "B",
+      "explanation": "C's share=2/10. A takes 3/5×2/10=6/50. B takes 2/5×2/10=4/50. A's gain=6/50. B's gain=4/50. Gaining ratio=6:4=3:2."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q12",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill Valuation — Average Profit",
+      "difficulty": "medium",
+      "question": "The profits of a firm for the last 4 years are: ₹20,000, ₹30,000, ₹40,000 and ₹30,000. Goodwill is valued at 2 years' purchase of the average profit. What is the value of goodwill?",
+      "options": [
+        "A) ₹60,000",
+        "B) ₹80,000",
+        "C) ₹40,000",
+        "D) ₹1,20,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Average profit=(₹20,000+₹30,000+₹40,000+₹30,000)/4=₹30,000. Goodwill=2×₹30,000=₹60,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q13",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill Valuation — Super Profit",
+      "difficulty": "hard",
+      "question": "Average capital employed=₹50,00,000. Normal rate of return=12%. Average profit=₹8,00,000. Goodwill at 3 years' purchase of super profit is:",
+      "options": [
+        "A) ₹8,00,000",
+        "B) ₹24,00,000",
+        "C) ₹18,00,000",
+        "D) ₹6,00,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Normal profit=12%×₹50,00,000=₹6,00,000. Super profit=₹8,00,000−₹6,00,000=₹2,00,000. Goodwill=3×₹2,00,000=₹6,00,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q14",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill Valuation — Capitalisation",
+      "difficulty": "hard",
+      "question": "Average profit of a firm=₹6,00,000. Normal rate of return=10%. Capital employed=₹40,00,000. What is goodwill under the Capitalisation of Average Profit method?",
+      "options": [
+        "A) ₹20,00,000",
+        "B) ₹60,00,000",
+        "C) ₹10,00,000",
+        "D) ₹30,00,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Capitalised value of average profit=₹6,00,000×(100/10)=₹60,00,000. Goodwill=Capitalised value−Capital employed=₹60,00,000−₹40,00,000=₹20,00,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q15",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Revaluation Account",
+      "difficulty": "hard",
+      "question": "On admission of a new partner: Land appreciated by ₹5,00,000, Building depreciated by ₹2,00,000, an unrecorded liability of ₹30,000 was discovered, and provision for doubtful debts increased from ₹20,000 to ₹40,000. What is the net Revaluation profit or loss?",
+      "options": [
+        "A) Loss of ₹2,50,000",
+        "B) Profit of ₹3,00,000",
+        "C) Profit of ₹2,50,000",
+        "D) Loss of ₹1,50,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Credit side: Land appreciation ₹5,00,000. Debit side: Building depreciation ₹2,00,000 + Unrecorded liability ₹30,000 + Provision increase ₹20,000=₹2,50,000. Net profit=₹5,00,000−₹2,50,000=₹2,50,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q16",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Retirement of Partner",
+      "difficulty": "hard",
+      "question": "A, B and C share profits in the ratio 5:3:2. C's capital is ₹4,00,000. On C's retirement, goodwill is valued at ₹9,00,000 and there is a revaluation loss of ₹1,50,000. What is the total amount due to C?",
+      "options": [
+        "A) ₹4,30,000",
+        "B) ₹5,50,000",
+        "C) ₹6,00,000",
+        "D) ₹4,00,000"
+      ],
+      "correct_option": "B",
+      "explanation": "C's capital=₹4,00,000. C's share of goodwill=2/10×₹9,00,000=₹1,80,000. Less: C's share of revaluation loss=2/10×₹1,50,000=₹30,000. Total due to C=₹4,00,000+₹1,80,000−₹30,000=₹5,50,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q17",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Death of Partner",
+      "difficulty": "hard",
+      "question": "A, B and C share profits in the ratio 3:2:1. C died on 30th September. C's capital was ₹6,00,000, goodwill was valued at ₹12,00,000, and revaluation profit was ₹3,00,000. C's share of profit up to the date of death was ₹90,000 and interest on capital @10% p.a. is allowed. What is the total amount due to C's executor?",
+      "options": [
+        "A) ₹9,50,000",
+        "B) ₹10,00,000",
+        "C) ₹9,20,000",
+        "D) ₹9,70,000"
+      ],
+      "correct_option": "D",
+      "explanation": "C's capital=₹6,00,000. C's goodwill=1/6×₹12,00,000=₹2,00,000. C's revaluation profit=1/6×₹3,00,000=₹50,000. Interest on capital=₹6,00,000×10%×6/12=₹30,000. Profit till death=₹90,000. Total=₹6,00,000+₹2,00,000+₹50,000+₹30,000+₹90,000=₹9,70,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q18",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Admission — Hidden Goodwill",
+      "difficulty": "hard",
+      "question": "A and B share profits in the ratio 3:2 with capitals of ₹12,00,000 and ₹8,00,000. C is admitted for 1/4 share and brings ₹7,00,000 as capital. What is the implied hidden goodwill of the firm?",
+      "options": [
+        "A) ₹3,00,000",
+        "B) ₹5,00,000",
+        "C) ₹1,00,000",
+        "D) ₹2,00,000"
+      ],
+      "correct_option": "C",
+      "explanation": "C's capital of ₹7,00,000 represents 1/4 share → Implied total capital=₹7,00,000×4=₹28,00,000. Actual capital=₹12L+₹8L+₹7L=₹27,00,000. Hidden goodwill=₹28L−₹27L=₹1,00,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q19",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account",
+      "difficulty": "medium",
+      "question": "On dissolution of a firm: Assets with book value of ₹6,00,000 were realised at 80% of book value. Creditors of ₹2,00,000 were settled at 102% of book value. Realisation expenses were ₹8,000. What is the net loss on realisation?",
+      "options": [
+        "A) ₹1,20,000",
+        "B) ₹1,32,000",
+        "C) ₹1,28,000",
+        "D) ₹1,40,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Loss on assets=₹6,00,000−₹4,80,000=₹1,20,000. Loss on creditors=102%×₹2L−₹2L=₹4,000. Realisation expenses=₹8,000. Total loss=₹1,20,000+₹4,000+₹8,000=₹1,32,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q20",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Settlement of Accounts — Order",
+      "difficulty": "medium",
+      "question": "On dissolution of a partnership firm, which of the following is the correct order of payment from the realised assets?",
+      "options": [
+        "A) Outside debts → Partners' loans → Partners' capital → Accumulated profits",
+        "B) Partners' loans → Outside debts → Partners' capital → Accumulated profits",
+        "C) Outside debts → Partners' capital → Partners' loans → Accumulated profits",
+        "D) Accumulated profits → Outside debts → Partners' loans → Partners' capital"
+      ],
+      "correct_option": "A",
+      "explanation": "As per Section 48 of the Indian Partnership Act, 1932, the order of payment is: (1) Outside debts/creditors, (2) Partners' loans, (3) Partners' capital, (4) Accumulated profits/reserves (distributed in PSR)."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q21",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation — Unrecorded Items",
+      "difficulty": "hard",
+      "question": "On dissolution: Assets with book value of ₹8,00,000 were sold for ₹6,50,000. Creditors of ₹3,00,000 were settled at 95%. An unrecorded furniture was sold for ₹40,000. Realisation expenses were ₹12,000 and a partner's loan of ₹50,000 was repaid. What is the net loss on realisation?",
+      "options": [
+        "A) ₹4,42,000",
+        "B) ₹4,50,000",
+        "C) ₹4,32,000",
+        "D) ₹4,27,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Debit: Assets ₹8,00,000 + Creditors paid ₹2,85,000 + Expenses ₹12,000 + Partner's loan ₹50,000=₹11,47,000. Credit: Assets sold ₹6,50,000 + Furniture ₹40,000 + Creditors discount ₹15,000=₹7,05,000. Loss=₹11,47,000−₹7,05,000=₹4,42,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q22",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Piecemeal Distribution",
+      "difficulty": "hard",
+      "question": "S, T and U share profits in the ratio 3:2:1. Their capital balances are ₹1,50,000, ₹60,000 and ₹30,000 respectively. After paying outside creditors, the first cash available is ₹60,000. Under the Maximum Loss Method, how much does U receive?",
+      "options": [
+        "A) ₹10,000",
+        "B) ₹30,000",
+        "C) ₹40,000",
+        "D) ₹20,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Capital/profit ratio: S=₹1,50,000/3=₹50,000, T=₹60,000/2=₹30,000, U=₹30,000/1=₹30,000. S has highest (₹50,000). To equalize, T needs ₹50,000×2−₹60,000=₹40,000, U needs ₹50,000×1−₹30,000=₹20,000. First ₹60,000 distributed to T and U in 2:1 ratio. U receives ₹60,000×1/3=₹20,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q23",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Insolvent Partner — Garner vs Murray",
+      "difficulty": "hard",
+      "question": "V, W and X share profits in the ratio 5:3:2. V is insolvent. On dissolution, the realisation loss is ₹4,00,000. V's capital is ₹1,00,000, W's capital is ₹3,00,000 and X's capital is ₹2,00,000. As per Garner vs Murray rule, what additional loss does W bear on account of V's deficiency?",
+      "options": [
+        "A) ₹40,000",
+        "B) ₹50,000",
+        "C) ₹60,000",
+        "D) ₹30,000"
+      ],
+      "correct_option": "C",
+      "explanation": "V's share of loss=5/10×₹4,00,000=₹2,00,000. V's deficiency=₹1,00,000−₹2,00,000=−₹1,00,000. Solvent partners' capital ratio W:X=₹3L:₹2L=3:2. W bears ₹1,00,000×3/5=₹60,000 of V's deficiency."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q24",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Loss Distribution",
+      "difficulty": "hard",
+      "question": "Y and Z share profits in the ratio 3:2. On dissolution, assets with book value of ₹10,00,000 were realised for ₹7,00,000. External creditors of ₹2,00,000 were paid at book value and realisation expenses were ₹15,000. What is the realisation loss and Z's share of it?",
+      "options": [
+        "A) Loss ₹3,00,000; Z's share ₹1,20,000",
+        "B) Loss ₹3,15,000; Z's share ₹1,26,000",
+        "C) Loss ₹3,15,000; Z's share ₹1,89,000",
+        "D) Loss ₹2,85,000; Z's share ₹1,14,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Realisation loss=₹10,00,000−₹7,00,000+₹15,000=₹3,15,000 (creditors at book value, no effect). Z's share=2/5×₹3,15,000=₹1,26,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q25",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation — Asset Taken Over",
+      "difficulty": "hard",
+      "question": "A and B share profits equally. On dissolution: Machinery (book value ₹3,00,000) was taken over by A for ₹2,50,000. Debtors (book value ₹1,50,000) were realised at 90%. Creditors of ₹2,00,000 were settled at 90%. Realisation expenses were ₹10,000. What is the net loss on realisation?",
+      "options": [
+        "A) ₹60,000",
+        "B) ₹45,000",
+        "C) ₹70,000",
+        "D) ₹55,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Dr: Assets ₹4,50,000 + Creditors paid ₹1,80,000 + Expenses ₹10,000=₹6,40,000. Cr: Creditors ₹2,00,000 + Machinery (A takes) ₹2,50,000 + Debtors realised ₹1,35,000=₹5,85,000. Loss=₹6,40,000−₹5,85,000=₹55,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q26",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Journal Entry — Asset Transfer",
+      "difficulty": "hard",
+      "question": "On dissolution of a firm, which of the following journal entries is correct for transferring assets (except cash/bank) to the Realisation Account?",
+      "options": [
+        "A) Debit Assets A/c, Credit Realisation A/c",
+        "B) Debit Partners' Capital A/c, Credit Assets A/c",
+        "C) Debit Realisation A/c, Credit Assets A/c",
+        "D) Debit Cash A/c, Credit Realisation A/c"
+      ],
+      "correct_option": "C",
+      "explanation": "On dissolution, assets are transferred to Realisation Account by debiting Realisation A/c (to record disposal) and crediting individual Asset Accounts (to remove them from the books)."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q27",
+      "topic": "Company Accounts",
+      "sub_topic": "Issue of Shares at Premium",
+      "difficulty": "medium",
+      "question": "A company issues 1,000 shares of ₹100 each at a premium of ₹20 per share. What is the correct journal entry?",
+      "options": [
+        "A) Bank A/c Dr. ₹1,20,000; To Share Capital A/c ₹1,00,000; To Securities Premium A/c ₹20,000",
+        "B) Bank A/c Dr. ₹1,20,000; To Share Capital A/c ₹1,20,000",
+        "C) Share Capital A/c Dr. ₹1,00,000; Securities Premium A/c Dr. ₹20,000; To Bank A/c ₹1,20,000",
+        "D) Bank A/c Dr. ₹1,00,000; To Share Capital A/c ₹1,00,000"
+      ],
+      "correct_option": "A",
+      "explanation": "When shares are issued at a premium, Bank A/c is debited with the total amount received (₹1,20,000), Share Capital A/c is credited with the face value (₹1,00,000), and Securities Premium A/c is credited with the premium amount (₹20,000)."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q28",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures — Collateral Security",
+      "difficulty": "medium",
+      "question": "When debentures are issued as collateral security for a loan, the journal entry is:",
+      "options": [
+        "A) Bank A/c Dr.; To Debentures A/c",
+        "B) No entry is passed; only a note is given",
+        "C) Debentures Suspense A/c Dr.; To Debentures A/c",
+        "D) Bank A/c Dr.; To Debentures Suspense A/c"
+      ],
+      "correct_option": "B",
+      "explanation": "When debentures are issued as collateral security (secondary security) for a loan, no immediate journal entry is passed. Only a note is given in the books. An entry is passed only if the loan is not repaid and the lender enforces the security."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q29",
+      "topic": "Company Accounts",
+      "sub_topic": "Pro Rata Allotment, Forfeiture and Re-issue",
+      "difficulty": "hard",
+      "question": "A company invited applications for 50,000 shares of ₹10 each (₹4 on application, ₹3 on allotment, ₹3 on final call). Applications were received for 70,000 shares and pro rata allotment was made. A shareholder allotted 1,000 shares failed to pay allotment and call money. The shares were forfeited and 800 shares were re-issued as ₹9 paid-up at ₹7 per share. What is the amount transferred to Capital Reserve?",
+      "options": [
+        "A) ₹3,200",
+        "B) ₹4,480",
+        "C) ₹2,400",
+        "D) ₹2,880"
+      ],
+      "correct_option": "D",
+      "explanation": "Shareholder applied for 1,400 shares, paid ₹5,600 on application. Excess ₹1,600 adjusted against allotment. Forfeiture amount=₹5,600. For 800 shares reissued: forfeiture amount=₹5,600×800/1,000=₹4,480. Discount on reissue=(₹9−₹7)×800=₹1,600. Capital Reserve=₹4,480−₹1,600=₹2,880."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q30",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures — Loss on Issue",
+      "difficulty": "hard",
+      "question": "A company issued 3,000 debentures of ₹1,000 each at a discount of 8%, redeemable at a premium of 10%. What is the total amount of loss on issue of debentures?",
+      "options": [
+        "A) ₹5,40,000",
+        "B) ₹2,40,000",
+        "C) ₹3,00,000",
+        "D) ₹5,00,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Total face value=3,000×₹1,000=₹30,00,000. Discount on issue=8%×₹30,00,000=₹2,40,000. Premium on redemption=10%×₹30,00,000=₹3,00,000. Total loss on issue=₹2,40,000+₹3,00,000=₹5,40,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q31",
+      "topic": "Company Accounts",
+      "sub_topic": "Forfeiture of Shares at Premium",
+      "difficulty": "hard",
+      "question": "A company issued 500 shares of ₹100 each at ₹130 (including ₹30 premium). ₹40 (including ₹10 premium) on application, ₹50 (including ₹20 premium) on allotment, and ₹40 on call. A shareholder failed to pay allotment and call. The shares were forfeited. What amount was credited to Share Forfeiture Account?",
+      "options": [
+        "A) ₹25,000",
+        "B) ₹20,000",
+        "C) ₹45,000",
+        "D) ₹15,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Amount received on application=₹40×500=₹20,000. On forfeiture, Share Capital is debited with called-up value (₹100×500=₹50,000), Securities Premium is debited for unpaid premium (₹20×500=₹10,000 since premium on allotment not paid), and Share Forfeiture is credited with amount already received=₹20,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q32",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Application — Excess Adjustment",
+      "difficulty": "hard",
+      "question": "A company received applications for 1,00,000 shares against 60,000 shares of ₹10 each issued at ₹5 on application and ₹3 on allotment. 10,000 applications were rejected and money refunded. The excess application money was adjusted against allotment. What amount was adjusted against allotment?",
+      "options": [
+        "A) ₹2,00,000",
+        "B) ₹1,00,000",
+        "C) ₹1,50,000",
+        "D) ₹50,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Application money received=1,00,000×₹5=₹5,00,000. Refund for rejected=10,000×₹5=₹50,000. Remaining=₹4,50,000. Due on 60,000 shares=60,000×₹5=₹3,00,000. Excess adjusted to allotment=₹4,50,000−₹3,00,000=₹1,50,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q33",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures — Issue at Par",
+      "difficulty": "hard",
+      "question": "The correct journal entry for issue of 5,000 debentures of ₹100 each at par is:",
+      "options": [
+        "A) Debentures A/c Dr. ₹5,00,000; To Bank A/c ₹5,00,000",
+        "B) Bank A/c Dr. ₹5,00,000; To Debentures Application A/c ₹5,00,000",
+        "C) Bank A/c Dr. ₹5,00,000; To Debentures A/c ₹5,00,000",
+        "D) Debentures Application A/c Dr. ₹5,00,000; To Bank A/c ₹5,00,000"
+      ],
+      "correct_option": "C",
+      "explanation": "When debentures are issued at par, Bank A/c is debited with the amount received and Debentures A/c is credited with the face value. The entry is: Bank A/c Dr. ₹5,00,000; To Debentures A/c ₹5,00,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q34",
+      "topic": "Company Accounts",
+      "sub_topic": "Buyback of Shares",
+      "difficulty": "hard",
+      "question": "As per the Companies Act, 2013, a company can buy back its shares from:",
+      "options": [
+        "A) Out of free reserves only",
+        "B) Out of proceeds of fresh issue only",
+        "C) Out of capital redemption reserve only",
+        "D) Out of free reserves, securities premium, or proceeds of fresh issue"
+      ],
+      "correct_option": "D",
+      "explanation": "As per Section 68 of the Companies Act, 2013, a company can buy back its shares out of: (i) free reserves, (ii) securities premium, or (iii) proceeds of any fresh issue of shares. The buyback cannot exceed 25% of the total paid-up capital and free reserves."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q35",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Current Ratio",
+      "difficulty": "easy",
+      "question": "The current ratio is calculated as:",
+      "options": [
+        "A) Current Assets / Current Liabilities",
+        "B) Current Liabilities / Current Assets",
+        "C) Quick Assets / Current Liabilities",
+        "D) Current Assets / Total Liabilities"
+      ],
+      "correct_option": "A",
+      "explanation": "Current Ratio = Current Assets ÷ Current Liabilities. It measures the firm's ability to meet short-term obligations."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q36",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Current Ratio — Interpretation",
+      "difficulty": "medium",
+      "question": "A company has a current ratio of 2.5:1. If it purchases goods worth ₹2,00,000 on credit, the new current ratio will:",
+      "options": [
+        "A) Increase",
+        "B) Decrease",
+        "C) Remain unchanged",
+        "D) Cannot be determined"
+      ],
+      "correct_option": "B",
+      "explanation": "When goods are purchased on credit, both current assets (inventory) and current liabilities (creditors) increase by the same amount. Since the original ratio (2.5:1) is greater than 1, adding equal amounts to numerator and denominator decreases the ratio. New ratio = (2.5X + 2L)/(X + 2L) < 2.5."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q37",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Common Size Balance Sheet",
+      "difficulty": "medium",
+      "question": "In a common size Balance Sheet, each item on the equity and liabilities side is expressed as a percentage of:",
+      "options": [
+        "A) Total equity",
+        "B) Current liabilities",
+        "C) Share capital only",
+        "D) Total of Balance Sheet (Total Assets)"
+      ],
+      "correct_option": "D",
+      "explanation": "In a common size Balance Sheet, each item is expressed as a percentage of the total of the Balance Sheet (Total Assets = Total Equity and Liabilities). This allows comparison across companies or periods."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q38",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Operating Profit Ratio",
+      "difficulty": "medium",
+      "question": "A company's net sales are ₹40,00,000, gross profit is ₹12,00,000 and operating expenses are ₹5,00,000. What is the operating profit ratio?",
+      "options": [
+        "A) 17.5%",
+        "B) 30%",
+        "C) 12.5%",
+        "D) 20%"
+      ],
+      "correct_option": "A",
+      "explanation": "Operating Profit=Gross Profit−Operating Expenses=₹12L−₹5L=₹7,00,000. Operating Profit Ratio=(₹7L/₹40L)×100=17.5%."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q39",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Return on Investment",
+      "difficulty": "hard",
+      "question": "A company's net profit before interest and tax is ₹18,00,000. Non-current assets are ₹55,00,000, current assets are ₹15,00,000, and current liabilities are ₹10,00,000. What is the Return on Investment (ROI)?",
+      "options": [
+        "A) 25%",
+        "B) 20%",
+        "C) 30%",
+        "D) 35%"
+      ],
+      "correct_option": "C",
+      "explanation": "Capital Employed=Non-current assets+Current assets−Current liabilities=₹55L+₹15L−₹10L=₹60,00,000. ROI=(Net Profit before interest and tax/Capital Employed)×100=(₹18,00,000/₹60,00,000)×100=30%."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q40",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Debt-Equity Ratio",
+      "difficulty": "hard",
+      "question": "A company has 12% Debentures of ₹15,00,000, Long-term borrowings of ₹10,00,000, Share Capital of ₹25,00,000, and Reserves & Surplus of ₹15,00,000. What is the Debt-Equity Ratio?",
+      "options": [
+        "A) 0.5 : 1",
+        "B) 0.625 : 1",
+        "C) 0.42 : 1",
+        "D) 0.375 : 1"
+      ],
+      "correct_option": "B",
+      "explanation": "Long-term Debt=₹15L+₹10L=₹25,00,000. Shareholders' Funds=₹25L+₹15L=₹40,00,000. Debt-Equity Ratio=₹25L/₹40L=0.625:1."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q41",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Cash Flow — Operating Activities",
+      "difficulty": "hard",
+      "question": "A company reports net profit after tax of ₹8,00,000. Additional information: Depreciation ₹1,50,000, Loss on sale of machinery ₹30,000, Profit on sale of investments ₹20,000, Increase in debtors ₹40,000, Decrease in inventory ₹25,000, Increase in creditors ₹35,000. What is the cash flow from operating activities under the indirect method?",
+      "options": [
+        "A) ₹9,50,000",
+        "B) ₹10,00,000",
+        "C) ₹9,30,000",
+        "D) ₹9,80,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Cash from operations=₹8L+₹1.5L (depreciation)+₹30K (loss on sale)−₹20K (profit on sale)−₹40K (increase in debtors)+₹25K (decrease in inventory)+₹35K (increase in creditors)=₹9,80,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q42",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Interest Coverage Ratio",
+      "difficulty": "hard",
+      "question": "A company's net profit before interest and tax is ₹20,00,000. The interest on long-term debt is ₹4,00,000. What is the Interest Coverage Ratio?",
+      "options": [
+        "A) 4 times",
+        "B) 6 times",
+        "C) 5 times",
+        "D) 8 times"
+      ],
+      "correct_option": "C",
+      "explanation": "Interest Coverage Ratio=Net Profit before Interest and Tax/Interest on Long-term Debt=₹20,00,000/₹4,00,000=5 times. It indicates the company can cover its interest obligation 5 times over from its operating profits."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q43",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "CAS — Database Management",
+      "difficulty": "medium",
+      "question": "In a Computerised Accounting System, which of the following ensures that data is not duplicated and maintains integrity?",
+      "options": [
+        "A) Primary key constraint only",
+        "B) Both primary and foreign key constraints",
+        "C) Foreign key constraint only",
+        "D) Cell formatting"
+      ],
+      "correct_option": "B",
+      "explanation": "Primary key constraint ensures each record is unique (no duplicates), while foreign key constraint maintains referential integrity between tables. Together they ensure data consistency and prevent duplication."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q44",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Tally — Company Features",
+      "difficulty": "medium",
+      "question": "In Tally, the F11 (Features) function is used to:",
+      "options": [
+        "A) Configure company-level settings and features",
+        "B) Create a new company",
+        "C) Generate financial statements",
+        "D) Enter voucher entries"
+      ],
+      "correct_option": "A",
+      "explanation": "F11 (Features) in Tally allows users to configure company-level settings such as accounting features, statutory & taxation features, and inventory features. It controls how the accounting system behaves for that specific company."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q45",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheets — Nested IF",
+      "difficulty": "hard",
+      "question": "In Excel, you need to categorise a student's grade based on marks: ≥90='A', ≥75='B', ≥60='C', ≥40='D', <40='F'. Which formula correctly implements this for a value in cell B2?",
+      "options": [
+        "A) =IF(B2>=90,'A',IF(B2>=75,'B',IF(B2>=60,'C','D')))",
+        "B) =IF(B2>=40,'D',IF(B2>=60,'C',IF(B2>=75,'B',IF(B2>=90,'A','F'))))",
+        "C) =IF(B2>=90,'A',IF(B2>=75,'B',IF(B2>=60,'C',IF(B2>=40,'D','F'))))",
+        "D) =IF(B2<90,'A',IF(B2<75,'B',IF(B2<60,'C',IF(B2<40,'D','F'))))"
+      ],
+      "correct_option": "C",
+      "explanation": "When using nested IF functions with multiple ranges, conditions must be evaluated in consistent sequential order (either descending or ascending). Testing descending conditions from the highest boundary down: =IF(B2>=90,'A',IF(B2>=75,'B',IF(B2>=60,'C',IF(B2>=40,'D','F')))) correctly assigns 'A' for ≥90, 'B' for 75–89, 'C' for 60–74, 'D' for 40–59, and 'F' for marks below 40. Testing lower boundaries first without upper limits or omitting the lowest category leads to logic errors."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q46",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheet — Loan Amortization",
+      "difficulty": "hard",
+      "question": "A loan of ₹10,00,000 is to be repaid in 36 monthly instalments at 10% p.a. interest. Using the Excel PMT function =PMT(10%/12,36,1000000), what is the approximate monthly payment (EMI)?",
+      "options": [
+        "A) ₹30,000",
+        "B) ₹35,000",
+        "C) ₹33,333",
+        "D) ₹32,267"
+      ],
+      "correct_option": "D",
+      "explanation": "PMT=₹10,00,000×(10%/12)×(1+10%/12)^36/((1+10%/12)^36−1)=₹32,267 (approximately). The PMT function calculates the constant periodic payment required to pay off a loan fully over the specified term."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q47",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheet — DDB Depreciation",
+      "difficulty": "hard",
+      "question": "An asset costing ₹5,00,000 with salvage value of ₹50,000 and useful life of 5 years. Using the Excel DDB function =DDB(500000,50000,5,1), what is the depreciation for the first year?",
+      "options": [
+        "A) ₹2,00,000",
+        "B) ₹1,80,000",
+        "C) ₹1,00,000",
+        "D) ₹2,50,000"
+      ],
+      "correct_option": "A",
+      "explanation": "DDB uses double-declining balance: rate=2/5=40%. Year 1 depreciation=₹5,00,000×40%=₹2,00,000. The DDB function calculates depreciation at twice the straight-line rate on the declining balance."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q48",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Cloud-Based Accounting",
+      "difficulty": "hard",
+      "question": "Which of the following is an advantage of cloud-based accounting software over desktop-based software?",
+      "options": [
+        "A) Requires installation on every computer",
+        "B) Automatic updates and real-time multi-user access",
+        "C) Data can only be accessed from one location",
+        "D) Higher upfront hardware costs"
+      ],
+      "correct_option": "B",
+      "explanation": "Cloud-based accounting (e.g., Zoho Books, QuickBooks Online) offers automatic software updates, real-time multi-user access from anywhere, lower upfront costs, and automatic data backup—eliminating the need for local installation and single-location access."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q49",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheet — Data Validation",
+      "difficulty": "hard",
+      "question": "In Excel, which feature is used to restrict the type of data or the values that users can enter into a cell?",
+      "options": [
+        "A) Conditional Formatting",
+        "B) Pivot Table",
+        "C) Filter",
+        "D) Data Validation"
+      ],
+      "correct_option": "D",
+      "explanation": "Data Validation restricts the type of data or values users can enter (e.g., whole numbers between 1-100, dates, dropdown lists). Conditional Formatting changes cell appearance based on conditions. Pivot Table summarizes data. Filter narrows displayed data."
+    },
+    {
+      "id": "CUET_ACC_2026_P10_L10_Q50",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheet — Absolute Reference",
+      "difficulty": "hard",
+      "question": "In Excel, if you want to keep both row and column references constant when copying a formula to another cell, you use which type of reference?",
+      "options": [
+        "A) Relative reference (e.g., A1)",
+        "B) Mixed reference (e.g., $A1)",
+        "C) Absolute reference (e.g., $A$1)",
+        "D) Static reference"
+      ],
+      "correct_option": "C",
+      "explanation": "Absolute reference (e.g., $A$1) keeps both row and column fixed when the formula is copied to other cells. Mixed reference (e.g., $A1 or A$1) keeps only one dimension fixed. Relative reference (A1) changes both automatically."
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ACC_2026_P21_L1C",
+  "series_id": "CUET_ACC_2026",
+  "paper_number": 21,
+  "difficulty_level": "1C",
+  "subject": "Accountancy (Code: 301)",
+  "syllabus_source": "cuet accountancy syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q01",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Partnership Deed — Registration",
+      "difficulty": "easy",
+      "question": "A partnership firm is not registered under the Indian Partnership Act. Which of the following is a legal consequence of non-registration?",
+      "options": [
+        "A) The firm cannot enforce its claims against third parties in court",
+        "B) The firm cannot carry on business at all",
+        "C) The firm automatically dissolves after one year",
+        "D) Partners are personally liable for all debts"
+      ],
+      "correct_option": "A",
+      "explanation": "As per Section 69 of the Indian Partnership Act 1932, an unregistered firm cannot sue third parties to enforce contractual rights. It can still carry on business, but faces procedural limitations in legal proceedings."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q02",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Maximum Number of Partners",
+      "difficulty": "easy",
+      "question": "As per Rule 10 of the Companies (Miscellaneous) Rules, 2014, the maximum permissible number of partners in a firm engaged in non-banking business is:",
+      "options": [
+        "A) 20",
+        "B) No limit prescribed",
+        "C) 50",
+        "D) 100"
+      ],
+      "correct_option": "C",
+      "explanation": "Rule 10 of Companies (Miscellaneous) Rules 2014 prescribes a maximum of 50 partners for non-banking firms. For banking business, the limit is 10 partners."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q03",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Capital — Absence of Deed",
+      "difficulty": "easy",
+      "question": "When the partnership deed is silent on the matter, interest on capital contributed by partners is:",
+      "options": [
+        "A) Payable only if the firm earns a profit",
+        "B) Payable at the discretion of the managing partner",
+        "C) Payable at 6% per annum",
+        "D) Not payable at all"
+      ],
+      "correct_option": "D",
+      "explanation": "The Indian Partnership Act 1932 provides that if the deed is silent, no interest on capital is payable to partners. Interest on capital is allowed only if expressly provided in the deed."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q04",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Fixed vs Fluctuating Capital",
+      "difficulty": "easy",
+      "question": "Under the fixed capital method, the balance of each partner's capital account:",
+      "options": [
+        "A) Decreases with drawings each year",
+        "B) Remains unchanged unless additional capital is introduced or withdrawn",
+        "C) Increases with profit share each year",
+        "D) Fluctuates every year"
+      ],
+      "correct_option": "B",
+      "explanation": "Under the fixed capital method, only additional capital introduced or permanent withdrawals affect the capital account balance; all other appropriations go through the current account."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q05",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Profit Division — Simple Ratio",
+      "difficulty": "easy",
+      "question": "P and Q are partners sharing profits in the ratio 4:1. If the firm earns a profit of Rs.75,000, Q's share of profit equals:",
+      "options": [
+        "A) Rs.15,000",
+        "B) Rs.50,000",
+        "C) Rs.60,000",
+        "D) Rs.25,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Q's share = Rs.75,000 × 1/(4+1) = Rs.75,000 × 1/5 = Rs.15,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q06",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Drawings — Nature",
+      "difficulty": "easy",
+      "question": "Interest on drawings charged from partners is:",
+      "options": [
+        "A) A capital receipt of the firm",
+        "B) An income for the firm and a loss for the partner",
+        "C) A loss for the firm",
+        "D) An expense of the firm"
+      ],
+      "correct_option": "B",
+      "explanation": "Interest on drawings is an income for the firm (credited to P&L Appropriation Account) and simultaneously a loss/expense for the partner (debited to their capital/current account)."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q07",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Interest on Partner's Loan — Silent Deed",
+      "difficulty": "easy",
+      "question": "X advances a loan of Rs.50,000 to the firm. In the absence of any partnership deed provision, the interest payable on this loan is:",
+      "options": [
+        "A) 10% per annum",
+        "B) No interest is payable",
+        "C) 12% per annum",
+        "D) 6% per annum"
+      ],
+      "correct_option": "D",
+      "explanation": "As per Section 12(b) of the Indian Partnership Act 1932, if the deed is silent, interest on a partner's loan to the firm is payable at 6% simple interest per annum."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q08",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Commission to Partner — Before vs After",
+      "difficulty": "medium",
+      "question": "Partner M is entitled to a commission of 10% of net profit after charging such commission. If the net profit before commission is Rs.2,20,000, the commission payable to M is:",
+      "options": [
+        "A) Rs.22,000",
+        "B) Rs.18,000",
+        "C) Rs.20,000",
+        "D) Rs.24,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Commission = 10% of net profit after commission. Let commission = C. C = 10% × (2,20,000 − C) → C = 22,000 − 0.1C → 1.1C = 22,000 → C = Rs.20,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q09",
+      "topic": "Accounting for Partnership",
+      "sub_topic": "Guarantee of Profit — Deficiency Borne",
+      "difficulty": "medium",
+      "question": "A and B guaranteed partner C a minimum profit of Rs.30,000. The firm incurred a loss of Rs.15,000. A and B share profits in the ratio 3:2. A's total share of loss after meeting the guarantee equals:",
+      "options": [
+        "A) Rs.9,000",
+        "B) Rs.15,000",
+        "C) Rs.27,000",
+        "D) Rs.18,000"
+      ],
+      "correct_option": "C",
+      "explanation": "C's guaranteed profit = Rs.30,000. Firm's loss = Rs.15,000. Total deficiency = Rs.30,000 + Rs.15,000 = Rs.45,000. A's share = Rs.45,000 × 3/5 = Rs.27,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q10",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill — Nature",
+      "difficulty": "easy",
+      "question": "Goodwill of a firm is classified as:",
+      "options": [
+        "A) A fictitious asset",
+        "B) A tangible fixed asset",
+        "C) A current asset",
+        "D) An intangible asset"
+      ],
+      "correct_option": "D",
+      "explanation": "Goodwill is an intangible asset because it lacks physical existence but provides future economic benefits to the firm."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q11",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Sacrificing Ratio",
+      "difficulty": "easy",
+      "question": "Sacrificing ratio is computed as:",
+      "options": [
+        "A) Old share + New share",
+        "B) Old share − New share",
+        "C) New share − Old share",
+        "D) Old share × New share"
+      ],
+      "correct_option": "B",
+      "explanation": "Sacrificing ratio = Old profit-sharing ratio − New profit-sharing ratio. It represents the extent to which old partners sacrifice their share of profit in favour of the incoming partner."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q12",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Gaining Ratio",
+      "difficulty": "easy",
+      "question": "When a partner retires, the remaining partners acquire the outgoing partner's share. The ratio in which they acquire it is called:",
+      "options": [
+        "A) Gaining ratio",
+        "B) Sacrificing ratio",
+        "C) Capital ratio",
+        "D) Profit-sharing ratio"
+      ],
+      "correct_option": "A",
+      "explanation": "Gaining ratio = New profit-sharing ratio − Old profit-sharing ratio. It represents the extent to which remaining partners gain from the outgoing partner's share."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q13",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Revaluation Account — Purpose",
+      "difficulty": "easy",
+      "question": "A Revaluation Account is prepared at the time of reconstitution of the partnership to:",
+      "options": [
+        "A) Calculate interest on capital",
+        "B) Determine the drawings of partners",
+        "C) Record the adjusted values of assets and liabilities at current worth",
+        "D) Distribute accumulated profits"
+      ],
+      "correct_option": "C",
+      "explanation": "Revaluation Account (or Profit & Loss Adjustment Account) is prepared to bring assets and liabilities to their fair values at the time of admission, retirement, or death of a partner."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q14",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Admission — Goodwill Distribution",
+      "difficulty": "easy",
+      "question": "When a new partner brings cash for goodwill (premium), this amount is distributed among the old partners in their:",
+      "options": [
+        "A) Sacrificing ratio",
+        "B) Old profit-sharing ratio",
+        "C) Capital ratio",
+        "D) New profit-sharing ratio"
+      ],
+      "correct_option": "A",
+      "explanation": "Goodwill brought by a new partner compensates old partners for the sacrifice in their profit-sharing ratio. Hence it is distributed in the sacrificing ratio."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q15",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Retirement — Amount Due Treatment",
+      "difficulty": "easy",
+      "question": "On retirement of a partner, if the amount due is not paid immediately and is payable in instalments, it is transferred to:",
+      "options": [
+        "A) Retiring Partner's Payable Account",
+        "B) His loan account",
+        "C) His capital account",
+        "D) His current account"
+      ],
+      "correct_option": "B",
+      "explanation": "When the amount due to a retiring partner is not paid in full immediately and is to be paid in instalments, it is transferred to the retiring partner's Loan Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q16",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill Valuation — Weighted Average",
+      "difficulty": "hard",
+      "question": "Profits of a firm for the last 3 years are Rs.12,000, Rs.18,000, and Rs.24,000 with weights 1, 2, and 3 respectively. Goodwill is valued at 2 years' purchase of the weighted average profit. The value of goodwill is:",
+      "options": [
+        "A) Rs.36,000",
+        "B) Rs.30,000",
+        "C) Rs.48,000",
+        "D) Rs.40,000"
+      ],
+      "correct_option": "D",
+      "explanation": "Weighted average profit = (12,000×1 + 18,000×2 + 24,000×3) / (1+2+3) = (12,000 + 36,000 + 72,000) / 6 = 1,20,000/6 = Rs.20,000. Goodwill = Rs.20,000 × 2 = Rs.40,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q17",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Goodwill Valuation — Super Profit",
+      "difficulty": "medium",
+      "question": "Capital employed in a business is Rs.3,00,000. Normal rate of return is 12%. Average profit earned is Rs.45,000. Goodwill at 4 years' purchase of super profit equals:",
+      "options": [
+        "A) Rs.1,80,000",
+        "B) Rs.36,000",
+        "C) Rs.1,44,000",
+        "D) Rs.9,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Normal profit = Rs.3,00,000 × 12% = Rs.36,000. Super profit = Rs.45,000 − Rs.36,000 = Rs.9,000. Goodwill = Rs.9,000 × 4 = Rs.36,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q18",
+      "topic": "Reconstitution of Partnership",
+      "sub_topic": "Hidden Goodwill",
+      "difficulty": "hard",
+      "question": "X and Y share profits equally. Z is admitted for 1/5 share and brings Rs.80,000 as capital and Rs.25,000 as goodwill. If the total agreed capital of the firm is Rs.5,00,000, the hidden goodwill is:",
+      "options": [
+        "A) Rs.1,00,000",
+        "B) Rs.80,000",
+        "C) Rs.1,25,000",
+        "D) Rs.1,20,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Z's capital = Rs.80,000 for 1/5 share → implied total capital = Rs.80,000 × 5 = Rs.4,00,000. Agreed total capital = Rs.5,00,000. Hidden goodwill = Rs.5,00,000 − Rs.4,00,000 = Rs.1,00,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q19",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account — Purpose",
+      "difficulty": "easy",
+      "question": "Realisation Account is opened at the time of:",
+      "options": [
+        "A) Preparation of annual accounts",
+        "B) Admission of a new partner",
+        "C) Retirement of a partner",
+        "D) Dissolution of the partnership firm"
+      ],
+      "correct_option": "D",
+      "explanation": "Realisation Account is opened only at the time of dissolution of the firm to ascertain the profit or loss on the realisation of assets and settlement of liabilities."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q20",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Settlement of Accounts — Order",
+      "difficulty": "easy",
+      "question": "On dissolution of a firm, the first claim to be satisfied from the available cash is:",
+      "options": [
+        "A) Partner's capital balances",
+        "B) Partner's share of profit",
+        "C) Outside creditors",
+        "D) Partner's loan to the firm"
+      ],
+      "correct_option": "C",
+      "explanation": "As per Section 48 of the Indian Partnership Act 1932, the first priority in settlement on dissolution is payment of outside debts/creditors."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q21",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Account Items",
+      "difficulty": "easy",
+      "question": "Which one of the following items is NOT recorded in the Realisation Account?",
+      "options": [
+        "A) Partners' capital balances",
+        "B) Realisation expenses paid by the firm",
+        "C) Sale of unrecorded asset",
+        "D) Payment to creditors at a discount"
+      ],
+      "correct_option": "A",
+      "explanation": "Partners' capital balances are not transferred to Realisation Account. Only assets (except cash/bank) and liabilities (except partner's capital and loan) are transferred to Realisation Account."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q22",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Dissolution of Firm vs Partnership",
+      "difficulty": "easy",
+      "question": "Dissolution of partnership means:",
+      "options": [
+        "A) The firm's business is permanently closed",
+        "B) A change in the relationship among partners without closing the business",
+        "C) All assets are sold and all liabilities are paid",
+        "D) The firm becomes insolvent"
+      ],
+      "correct_option": "B",
+      "explanation": "Dissolution of partnership refers to a change in the existing agreement (admission, retirement, death) without discontinuing the business. Dissolution of firm means complete closure."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q23",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Accumulated Losses Distribution",
+      "difficulty": "easy",
+      "question": "On dissolution of a firm, accumulated losses (debit balance of Profit & Loss Account) are distributed among partners in their:",
+      "options": [
+        "A) Capital ratio",
+        "B) Sacrificing ratio",
+        "C) Profit-sharing ratio",
+        "D) Equal ratio"
+      ],
+      "correct_option": "C",
+      "explanation": "Accumulated losses are borne by partners in their profit-sharing ratio, same as accumulated profits would have been distributed."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q24",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Piecemeal Distribution — Methods",
+      "difficulty": "easy",
+      "question": "In piecemeal distribution during dissolution, the methods used to ensure no partner receives more than their due are:",
+      "options": [
+        "A) Proportionate Capital Method",
+        "B) Equal Distribution Method",
+        "C) Surplus Capital Method",
+        "D) Both Proportionate Capital and Surplus Capital Methods"
+      ],
+      "correct_option": "D",
+      "explanation": "Both the Proportionate Capital Method (Higher Relative Capital Method) and the Surplus Capital Method are used for piecemeal distribution to ensure partners receive only what is due to them in the correct order."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q25",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Realisation Loss Computation",
+      "difficulty": "medium",
+      "question": "On dissolution, assets with book value Rs.6,00,000 were sold for Rs.5,10,000. Realisation expenses of Rs.15,000 were incurred. The loss on realisation is:",
+      "options": [
+        "A) Rs.90,000",
+        "B) Rs.1,05,000",
+        "C) Rs.75,000",
+        "D) Rs.85,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Loss on realisation = (Book value − Sale value) + Expenses = (Rs.6,00,000 − Rs.5,10,000) + Rs.15,000 = Rs.90,000 + Rs.15,000 = Rs.1,05,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q26",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Garner vs Murray Rule",
+      "difficulty": "medium",
+      "question": "Under the Garner vs Murray rule, the loss due to insolvency of a partner is borne by the solvent partners in their:",
+      "options": [
+        "A) Sacrificing ratio",
+        "B) Equal ratio",
+        "C) Capital ratio (as on the date of dissolution)",
+        "D) Profit-sharing ratio"
+      ],
+      "correct_option": "C",
+      "explanation": "The Garner vs Murray decision (English law, followed in India) states that the loss arising from a partner's insolvency must be borne by solvent partners in proportion to their capitals (capital ratio) as on the date of dissolution."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q27",
+      "topic": "Dissolution of Partnership",
+      "sub_topic": "Garner vs Murray — Insolvent Partner",
+      "difficulty": "hard",
+      "question": "A, B, and C share profits equally. Their capitals on the date of dissolution are Rs.60,000, Rs.40,000, and Rs.20,000 respectively. A loss of Rs.90,000 was incurred on realisation. After paying outside creditors, cash available is Rs.30,000. C is insolvent. How much will A receive?",
+      "options": [
+        "A) Rs.24,000",
+        "B) Rs.25,000",
+        "C) Rs.30,000",
+        "D) Rs.20,000"
+      ],
+      "correct_option": "A",
+      "explanation": "Loss shared equally: each Rs.30,000. Capital after loss: A=Rs.30,000, B=Rs.10,000, C=−Rs.10,000. C insolvent → Rs.10,000 deficiency borne by A & B in capital ratio (60,000:40,000=3:2). A bears 10,000×3/5=6,000. A receives = 30,000−6,000 = Rs.24,000."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q28",
+      "topic": "Company Accounts",
+      "sub_topic": "Share Capital — Authorised Capital",
+      "difficulty": "easy",
+      "question": "The maximum amount of share capital that a company is authorised to raise, as stated in its Memorandum of Association, is called:",
+      "options": [
+        "A) Subscribed capital",
+        "B) Authorised or Registered capital",
+        "C) Paid-up capital",
+        "D) Issued capital"
+      ],
+      "correct_option": "B",
+      "explanation": "Authorised capital (also called nominal or registered capital) is the maximum amount a company can issue, as specified in the Memorandum of Association."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q29",
+      "topic": "Company Accounts",
+      "sub_topic": "Issue of Shares at Premium",
+      "difficulty": "easy",
+      "question": "When a company issues shares at a premium, the amount of premium is credited to:",
+      "options": [
+        "A) Securities Premium Account",
+        "B) Capital Reserve Account",
+        "C) Share Capital Account",
+        "D) General Reserve Account"
+      ],
+      "correct_option": "A",
+      "explanation": "The excess amount received over the face value (nominal value) of shares is credited to the Securities Premium Account, to be used only for purposes specified under Section 52 of the Companies Act 2013."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q30",
+      "topic": "Company Accounts",
+      "sub_topic": "Calls in Arrears",
+      "difficulty": "easy",
+      "question": "Calls in arrears are shown in the company's Balance Sheet as:",
+      "options": [
+        "A) A current asset",
+        "B) A contingent liability",
+        "C) A deduction from the concerned call account under Share Capital",
+        "D) A current liability"
+      ],
+      "correct_option": "C",
+      "explanation": "Calls in arrears represent the amount called up by the company but not yet received from shareholders. They are shown as a deduction from the called-up capital in the Balance Sheet."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q31",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures — Legal Nature",
+      "difficulty": "easy",
+      "question": "Debentures in a company are best described as instruments representing:",
+      "options": [
+        "A) An asset held by the company",
+        "B) Part ownership of the company",
+        "C) Reserve and surplus of the company",
+        "D) A borrowing or debt owed by the company to debenture holders"
+      ],
+      "correct_option": "D",
+      "explanation": "Debentures are debt instruments. They represent borrowed funds raised by the company. Debenture holders are creditors, not owners."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q32",
+      "topic": "Company Accounts",
+      "sub_topic": "Types of Shares — Preference",
+      "difficulty": "easy",
+      "question": "Preference shareholders have a preferential right over equity shareholders regarding:",
+      "options": [
+        "A) Management participation",
+        "B) Transfer of shares",
+        "C) Voting rights only",
+        "D) Payment of dividend and repayment of capital on winding up"
+      ],
+      "correct_option": "D",
+      "explanation": "Preference shareholders have a fixed preferential right to receive dividends before equity shareholders and to the repayment of capital on winding up of the company."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q33",
+      "topic": "Company Accounts",
+      "sub_topic": "Forfeiture of Shares — Share Forfeiture Account",
+      "difficulty": "medium",
+      "question": "A shareholder holds 300 shares of Rs.10 each (Rs.8 called up) but fails to pay the final call of Rs.3 per share. On forfeiture, the amount credited to Share Forfeiture Account equals:",
+      "options": [
+        "A) Rs.1,500",
+        "B) Rs.900",
+        "C) Rs.1,200",
+        "D) Rs.2,400"
+      ],
+      "correct_option": "A",
+      "explanation": "Called up = Rs.8. Unpaid final call = Rs.3. Amount already paid = Rs.8 − Rs.3 = Rs.5 per share. Share Forfeiture Account is credited with the amount already paid: 300 × Rs.5 = Rs.1,500."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q34",
+      "topic": "Company Accounts",
+      "sub_topic": "Debentures — Issue at Discount",
+      "difficulty": "medium",
+      "question": "2,000 debentures of Rs.100 each are issued at Rs.95, redeemable at par after 5 years. The loss on issue of debentures is:",
+      "options": [
+        "A) Rs.1,00,000",
+        "B) Rs.1,90,000",
+        "C) Rs.10,000",
+        "D) Rs.5,000"
+      ],
+      "correct_option": "C",
+      "explanation": "Loss on issue = Number of debentures × (Face value − Issue price) = 2,000 × (Rs.100 − Rs.95) = 2,000 × Rs.5 = Rs.10,000. This loss is written off over the redemption period."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q35",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Current Ratio",
+      "difficulty": "easy",
+      "question": "The formula for calculating the current ratio is:",
+      "options": [
+        "A) Quick Assets ÷ Current Liabilities",
+        "B) Current Assets ÷ Current Liabilities",
+        "C) Total Assets ÷ Total Liabilities",
+        "D) Current Liabilities ÷ Current Assets"
+      ],
+      "correct_option": "B",
+      "explanation": "Current Ratio = Current Assets / Current Liabilities. It measures the firm's ability to meet its short-term obligations from its short-term assets."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q36",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Cash Flow — Operating Activities",
+      "difficulty": "easy",
+      "question": "Which of the following is an operating activity in a Cash Flow Statement?",
+      "options": [
+        "A) Cash received from sale of goods",
+        "B) Purchase of machinery",
+        "C) Issue of debentures",
+        "D) Redemption of preference shares"
+      ],
+      "correct_option": "A",
+      "explanation": "Cash received from customers/sale of goods is an operating activity. Purchase of machinery is investing; issue of debentures and redemption of shares are financing activities."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q37",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Common Size Statement — Balance Sheet",
+      "difficulty": "easy",
+      "question": "When preparing a common size balance sheet, the total of which items is taken as 100%?",
+      "options": [
+        "A) Share Capital only",
+        "B) Net revenue from operations",
+        "C) The sum of Shareholders' Funds and Total Non-Current & Current Liabilities (i.e., Balance Sheet Total)",
+        "D) Current Assets plus Current Liabilities"
+      ],
+      "correct_option": "C",
+      "explanation": "In a common size balance sheet, the base is the Balance Sheet total (Shareholders' Funds + Non-current Liabilities + Current Liabilities), which equals Total Assets, taken as 100%."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q38",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Comparative Statements — Alternative Name",
+      "difficulty": "easy",
+      "question": "Comparative financial statements, which present corresponding figures for two or more accounting periods side by side, are also termed as:",
+      "options": [
+        "A) Ratio statements",
+        "B) Vertical statements",
+        "C) Structural statements",
+        "D) Dynamic or Horizontal statements"
+      ],
+      "correct_option": "D",
+      "explanation": "Comparative statements present data from multiple periods side by side for period-to-period comparison, which is also called dynamic analysis or horizontal analysis."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q39",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Financial Statements — Components",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a general-purpose financial statement?",
+      "options": [
+        "A) Statement of Profit and Loss",
+        "B) Memorandum of Association",
+        "C) Cash Flow Statement",
+        "D) Balance Sheet"
+      ],
+      "correct_option": "B",
+      "explanation": "The four general-purpose financial statements are: Balance Sheet, Statement of Profit & Loss, Cash Flow Statement, and Notes to Accounts. The Memorandum of Association is a constitutional document, not a financial statement."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q40",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Debt-Equity Ratio",
+      "difficulty": "medium",
+      "question": "A company has long-term borrowings of Rs.5,00,000 and shareholders' funds of Rs.8,00,000. The debt-equity ratio equals:",
+      "options": [
+        "A) 0.625 : 1",
+        "B) 0.5 : 1",
+        "C) 1.6 : 1",
+        "D) 2 : 1"
+      ],
+      "correct_option": "A",
+      "explanation": "Debt-Equity Ratio = Long-term Debt / Shareholders' Funds = Rs.5,00,000 / Rs.8,00,000 = 0.625 : 1."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q41",
+      "topic": "Analysis of Financial Statements",
+      "sub_topic": "Inventory Turnover Ratio",
+      "difficulty": "medium",
+      "question": "Cost of revenue from operations is Rs.3,00,000. Opening inventory is Rs.50,000 and closing inventory is Rs.70,000. The inventory turnover ratio is:",
+      "options": [
+        "A) 4 times",
+        "B) 6 times",
+        "C) 5 times",
+        "D) 3.75 times"
+      ],
+      "correct_option": "C",
+      "explanation": "Average inventory = (Rs.50,000 + Rs.70,000) / 2 = Rs.60,000. Inventory Turnover Ratio = Cost of Revenue from Operations / Average Inventory = Rs.3,00,000 / Rs.60,000 = 5 times."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q42",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "CAS — Database Foundation",
+      "difficulty": "easy",
+      "question": "Computerised Accounting System (CAS) fundamentally relies on:",
+      "options": [
+        "A) Physical vouchers only",
+        "B) Manual ledger books",
+        "C) Standalone mechanical calculators",
+        "D) Database concepts and processing"
+      ],
+      "correct_option": "D",
+      "explanation": "CAS is based on the database concept where all accounting data is stored in a structured database, enabling simultaneous processing of accounting and reporting."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q43",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheet — Cell Definition",
+      "difficulty": "easy",
+      "question": "In Microsoft Excel, a cell is defined as the point where:",
+      "options": [
+        "A) Two rows intersect",
+        "B) A formula is applied",
+        "C) A worksheet ends",
+        "D) A row and a column meet"
+      ],
+      "correct_option": "D",
+      "explanation": "A cell is the fundamental unit of a spreadsheet formed at the intersection of a specific row and a specific column, identified by a unique cell address such as B5 or C12."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q44",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Tally Software",
+      "difficulty": "easy",
+      "question": "Tally is primarily a:",
+      "options": [
+        "A) Enterprise resource planning (ERP) and accounting software",
+        "B) Operating system",
+        "C) Programming language",
+        "D) Database management system only"
+      ],
+      "correct_option": "A",
+      "explanation": "Tally (Tally.ERP 9 / Tally Prime) is an accounting and ERP software used widely in India for bookkeeping, inventory management, taxation, and financial reporting."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q45",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "CAS — Real-time Processing",
+      "difficulty": "easy",
+      "question": "A key advantage of a computerised accounting system over a manual system is:",
+      "options": [
+        "A) Difficulty in maintaining backup",
+        "B) Real-time data processing and instant report generation",
+        "C) Slower data processing",
+        "D) Higher error rates"
+      ],
+      "correct_option": "B",
+      "explanation": "CAS enables real-time processing of transactions and instant generation of reports (Trial Balance, P&L, Balance Sheet) without manual compilation delays."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q46",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Spreadsheet — Absolute Reference",
+      "difficulty": "medium",
+      "question": "In Excel, the cell reference $B$3 is an example of:",
+      "options": [
+        "A) Relative reference",
+        "B) Dynamic reference",
+        "C) Absolute reference",
+        "D) Mixed reference"
+      ],
+      "correct_option": "C",
+      "explanation": "$B$3 is an absolute reference because both the column (B) and row (3) are fixed with the $ sign. It does not change when the formula is copied to another cell."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q47",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Data Validation",
+      "difficulty": "easy",
+      "question": "In a spreadsheet, 'Data Validation' is used to:",
+      "options": [
+        "A) Sort data in ascending order",
+        "B) Delete invalid data automatically",
+        "C) Restrict the type or range of values that can be entered in a cell",
+        "D) Merge two cells into one"
+      ],
+      "correct_option": "C",
+      "explanation": "Data Validation allows the user to set rules (e.g., whole number between 1-100, list of values) restricting what data can be entered in a cell, reducing input errors."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q48",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Depreciation — WDV Method",
+      "difficulty": "medium",
+      "question": "A machine costing Rs.2,00,000 is depreciated using the Written Down Value method at 15% per annum. The book value at the end of 2 years is:",
+      "options": [
+        "A) Rs.1,45,000",
+        "B) Rs.1,44,500",
+        "C) Rs.1,40,000",
+        "D) Rs.1,70,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Year 1: Book value = 2,00,000 − (2,00,000 × 15%) = 2,00,000 − 30,000 = Rs.1,70,000. Year 2: Book value = 1,70,000 − (1,70,000 × 15%) = 1,70,000 − 25,500 = Rs.1,44,500."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q49",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "PMT Function",
+      "difficulty": "medium",
+      "question": "The PMT function in Excel is used to calculate:",
+      "options": [
+        "A) The periodic payment for a loan based on constant payments and a constant interest rate",
+        "B) The net present value of a series of cash flows",
+        "C) The future value of a lump sum investment",
+        "D) Depreciation using the double declining method"
+      ],
+      "correct_option": "A",
+      "explanation": "The PMT function returns the periodic payment for an annuity (such as a loan EMI) based on constant payments and a constant interest rate."
+    },
+    {
+      "id": "CUET_ACC_2026_P21_L1C_Q50",
+      "topic": "Computerised Accounting System",
+      "sub_topic": "Pie Chart — Purpose",
+      "difficulty": "easy",
+      "question": "A pie chart is most effective for showing:",
+      "options": [
+        "A) Comparison of discrete items side by side",
+        "B) The correlation between two variables",
+        "C) Trend of data over several years",
+        "D) The composition or percentage distribution of a whole"
+      ],
+      "correct_option": "D",
+      "explanation": "A pie chart divides a circle into sectors to show the proportion or percentage composition of each component relative to the whole."
+    }
+  ]
+}

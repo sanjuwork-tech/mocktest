@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P21_L1C",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 21,
+  "difficulty_level": "1C",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "DML Commands",
+      "difficulty": "easy",
+      "question": "Which SQL keyword is used to retrieve data from a database table?",
+      "options": [
+        "A) SELECT",
+        "B) FETCH",
+        "C) GET",
+        "D) RETRIEVE"
+      ],
+      "correct_option": "A",
+      "explanation": "SELECT retrieves data. FETCH is used with cursors."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "Which SQL function calculates the average of a numeric column?",
+      "options": [
+        "A) MEAN()",
+        "B) MEDIAN()",
+        "C) SUM()",
+        "D) AVG()"
+      ],
+      "correct_option": "D",
+      "explanation": "AVG() computes the arithmetic mean. SUM() adds values."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "Relational Model",
+      "difficulty": "easy",
+      "question": "What is a relational database schema?",
+      "options": [
+        "A) The data stored in tables",
+        "B) The structure or design of the database",
+        "C) The SQL queries used",
+        "D) The backup of the database"
+      ],
+      "correct_option": "B",
+      "explanation": "A schema defines the structure: tables, columns, relationships."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which clause limits the number of rows returned in MySQL?",
+      "options": [
+        "A) TOP",
+        "B) FIRST",
+        "C) LIMIT",
+        "D) ROWNUM"
+      ],
+      "correct_option": "C",
+      "explanation": "MySQL uses LIMIT. TOP is SQL Server, ROWNUM is Oracle."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q05",
+      "topic": "Database/SQL",
+      "sub_topic": "Keys",
+      "difficulty": "easy",
+      "question": "A composite primary key is made up of:",
+      "options": [
+        "A) Two or more columns combined",
+        "B) Only numeric columns",
+        "C) Auto-generated values only",
+        "D) Foreign keys only"
+      ],
+      "correct_option": "A",
+      "explanation": "A composite key combines multiple columns to uniquely identify each row."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "Constraints",
+      "difficulty": "easy",
+      "question": "Which SQL constraint ensures all values in a column are unique?",
+      "options": [
+        "A) PRIMARY KEY",
+        "B) CHECK",
+        "C) DISTINCT",
+        "D) UNIQUE"
+      ],
+      "correct_option": "D",
+      "explanation": "UNIQUE ensures no duplicate values in a column (allows one NULL)."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q07",
+      "topic": "Database/SQL",
+      "sub_topic": "Joins",
+      "difficulty": "easy",
+      "question": "A self-join is used to:",
+      "options": [
+        "A) Join two different databases",
+        "B) Combine all columns of two tables",
+        "C) Join a table with itself",
+        "D) Create a new table"
+      ],
+      "correct_option": "B",
+      "explanation": "A self-join treats a table as two separate entities using aliases."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q08",
+      "topic": "Database/SQL",
+      "sub_topic": "Grouping",
+      "difficulty": "medium",
+      "question": "Which statement about GROUP BY and HAVING is correct?",
+      "options": [
+        "A) HAVING filters groups after aggregation",
+        "B) WHERE can use aggregate functions",
+        "C) GROUP BY must always use ORDER BY",
+        "D) HAVING is used before GROUP BY"
+      ],
+      "correct_option": "A",
+      "explanation": "WHERE filters rows before grouping. HAVING filters groups after aggregation."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q09",
+      "topic": "Database/SQL",
+      "sub_topic": "Subqueries",
+      "difficulty": "medium",
+      "question": "What does SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees) return?",
+      "options": [
+        "A) Employees with the highest salary",
+        "B) The average salary of all employees",
+        "C) Employees with salary below average",
+        "D) All employees with salary above average"
+      ],
+      "correct_option": "D",
+      "explanation": "Subquery computes average; outer query returns employees earning more than that."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q10",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization",
+      "difficulty": "hard",
+      "question": "A relation R(A,B,C) is in 2NF but not 3NF. Which dependency must exist?",
+      "options": [
+        "A) Multi-valued dependency",
+        "B) Join dependency",
+        "C) Transitive dependency through a non-prime attribute",
+        "D) Partial dependency on a candidate key"
+      ],
+      "correct_option": "C",
+      "explanation": "2NF eliminates partial dependencies. 3NF eliminates transitive dependencies of non-prime attributes."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q11",
+      "topic": "Networks",
+      "sub_topic": "Network Types",
+      "difficulty": "easy",
+      "question": "What is the main difference between a MAN and a LAN?",
+      "options": [
+        "A) LAN covers cities, MAN covers countries",
+        "B) MAN uses TCP/IP, LAN does not",
+        "C) MAN covers a larger geographic area than LAN",
+        "D) LAN is wireless, MAN is wired"
+      ],
+      "correct_option": "C",
+      "explanation": "MAN covers a city/metropolitan area; LAN covers a small building."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q12",
+      "topic": "Networks",
+      "sub_topic": "Devices",
+      "difficulty": "easy",
+      "question": "Which device converts digital signals to analog for telephone lines?",
+      "options": [
+        "A) Switch",
+        "B) Modem",
+        "C) Router",
+        "D) Bridge"
+      ],
+      "correct_option": "B",
+      "explanation": "A modem modulates digital to analog and demodulates back."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q13",
+      "topic": "Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol securely transfers files over a network?",
+      "options": [
+        "A) FTP",
+        "B) HTTP",
+        "C) SNMP",
+        "D) SFTP"
+      ],
+      "correct_option": "D",
+      "explanation": "SFTP (SSH File Transfer Protocol) provides encrypted file transfer."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q14",
+      "topic": "Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "Which topology is most fault-tolerant if one node fails?",
+      "options": [
+        "A) Bus",
+        "B) Mesh",
+        "C) Star",
+        "D) Ring"
+      ],
+      "correct_option": "B",
+      "explanation": "Mesh has redundant paths. If one link fails, data routes through alternates."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q15",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "At which OSI layer does a switch primarily operate?",
+      "options": [
+        "A) Data Link Layer",
+        "B) Physical Layer",
+        "C) Network Layer",
+        "D) Transport Layer"
+      ],
+      "correct_option": "A",
+      "explanation": "Switches operate at Layer 2 using MAC addresses to forward frames."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q16",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "easy",
+      "question": "Which IP range is reserved for private networks?",
+      "options": [
+        "A) 172.32.0.0 to 172.63.255.255",
+        "B) 10.255.0.0 to 10.255.255.255",
+        "C) 192.168.0.0 to 192.168.255.255",
+        "D) 169.254.0.0 to 169.255.255.255"
+      ],
+      "correct_option": "C",
+      "explanation": "Private ranges: 192.168/16, 172.16/12, 10/8."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q17",
+      "topic": "Networks",
+      "sub_topic": "Devices",
+      "difficulty": "easy",
+      "question": "What device connects two networks with different application layer protocols?",
+      "options": [
+        "A) Bridge",
+        "B) Switch",
+        "C) Gateway",
+        "D) Repeater"
+      ],
+      "correct_option": "C",
+      "explanation": "A gateway converts protocols at any OSI layer, connecting dissimilar networks."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q18",
+      "topic": "Networks",
+      "sub_topic": "TCP vs UDP",
+      "difficulty": "medium",
+      "question": "Which application protocol typically uses UDP as its transport?",
+      "options": [
+        "A) HTTP",
+        "B) SMTP",
+        "C) FTP",
+        "D) DNS"
+      ],
+      "correct_option": "D",
+      "explanation": "DNS uses UDP for fast queries. HTTP, SMTP, FTP use TCP."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q19",
+      "topic": "Networks",
+      "sub_topic": "Subnetting",
+      "difficulty": "medium",
+      "question": "For IP 10.0.0.5 with mask 255.255.0.0, how many host bits are available?",
+      "options": [
+        "A) 8",
+        "B) 16",
+        "C) 24",
+        "D) 32"
+      ],
+      "correct_option": "B",
+      "explanation": "Mask /16 leaves 16 host bits."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q20",
+      "topic": "Networks",
+      "sub_topic": "DNS",
+      "difficulty": "hard",
+      "question": "In DNS resolution, what does an NS record specify?",
+      "options": [
+        "A) The authoritative name servers for a zone",
+        "B) The mail server for a domain",
+        "C) An alias for a domain name",
+        "D) The IP address of a domain"
+      ],
+      "correct_option": "A",
+      "explanation": "NS records identify which DNS servers are authoritative for a zone."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists",
+      "difficulty": "easy",
+      "question": "What does [x*2 for x in range(4)] produce?",
+      "options": [
+        "A) [0, 1, 2, 3]",
+        "B) [0, 2, 4, 6]",
+        "C) [2, 4, 6, 8]",
+        "D) [0, 2, 4, 8]"
+      ],
+      "correct_option": "B",
+      "explanation": "range(4) = 0,1,2,3. Each *2 = [0,2,4,6]."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Tuples",
+      "difficulty": "easy",
+      "question": "What is the output of t = (1,); print(type(t))?",
+      "options": [
+        "A) <class 'tuple'>",
+        "B) <class 'int'>",
+        "C) <class 'list'>",
+        "D) Error"
+      ],
+      "correct_option": "A",
+      "explanation": "A single-element tuple requires a trailing comma. type is tuple."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "What happens when accessing a non-existent key using d['key']?",
+      "options": [
+        "A) Creates the key",
+        "B) Returns None",
+        "C) Returns 0",
+        "D) Raises KeyError"
+      ],
+      "correct_option": "D",
+      "explanation": "Direct access to missing key raises KeyError. Use d.get() to return None."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Strings",
+      "difficulty": "easy",
+      "question": "What is the output of 'Hello World'.split()?",
+      "options": [
+        "A) ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']",
+        "B) ['HelloWorld']",
+        "C) ['Hello', 'World']",
+        "D) 'Hello World'"
+      ],
+      "correct_option": "C",
+      "explanation": "split() splits on whitespace, returning ['Hello', 'World']."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Sets",
+      "difficulty": "easy",
+      "question": "What is the result of {1, 2, 3} & {2, 3, 4}?",
+      "options": [
+        "A) {2, 3}",
+        "B) {1, 4}",
+        "C) {1, 2, 3, 4}",
+        "D) Error"
+      ],
+      "correct_option": "A",
+      "explanation": "& is intersection. Common elements: 2 and 3."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stacks",
+      "difficulty": "easy",
+      "question": "Which list operation removes and returns the last element for a stack?",
+      "options": [
+        "A) remove()",
+        "B) pop()",
+        "C) discard()",
+        "D) pop(0)"
+      ],
+      "correct_option": "B",
+      "explanation": "pop() without arguments removes the last element (LIFO)."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queues",
+      "difficulty": "easy",
+      "question": "In a queue, which element is removed first?",
+      "options": [
+        "A) A random element",
+        "B) The most recently added",
+        "C) The element that has been in the queue longest",
+        "D) The middle element"
+      ],
+      "correct_option": "C",
+      "explanation": "Queue is FIFO: First In, First Out. Oldest element removed first."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "What happens if an exception is raised but not caught?",
+      "options": [
+        "A) Python retries the code",
+        "B) The exception is logged but ignored",
+        "C) The program continues silently",
+        "D) The program terminates with a traceback"
+      ],
+      "correct_option": "D",
+      "explanation": "Uncaught exceptions propagate up and terminate the program with a traceback."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "medium",
+      "question": "What does the 'with' statement provide when opening files?",
+      "options": [
+        "A) Faster file reading",
+        "B) Automatic file closing after the block",
+        "C) Automatic error correction",
+        "D) Compression of the file"
+      ],
+      "correct_option": "B",
+      "explanation": "'with' is a context manager ensuring the file is properly closed."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "OOP",
+      "difficulty": "medium",
+      "question": "What is method resolution order (MRO) used for in Python?",
+      "options": [
+        "A) Defining method parameters",
+        "B) Sorting methods alphabetically",
+        "C) Determining which method to call in multiple inheritance",
+        "D) Deciding the execution order of methods"
+      ],
+      "correct_option": "C",
+      "explanation": "MRO uses C3 linearization to determine which method to invoke in multiple inheritance."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q31",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search",
+      "difficulty": "easy",
+      "question": "In linear search on an array of n elements, under which condition does the best-case time complexity of O(1) occur?",
+      "options": [
+        "A) When the target element is located at the very first index",
+        "B) When the target element is located at the exact middle index",
+        "C) When the target element is located at the final index",
+        "D) When the target element is completely absent from the array"
+      ],
+      "correct_option": "A",
+      "explanation": "In linear search, elements are checked sequentially starting from index 0. The best-case scenario occurs when the searched element is located at the very first position (index 0), requiring only 1 comparison and thus executing in O(1) time. Finding the element at the middle or end, or confirming its absence, requires inspecting multiple or all n elements."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q32",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "What precondition must be met before applying binary search?",
+      "options": [
+        "A) Data must be stored in a linked list",
+        "B) Elements must be unique",
+        "C) There must be at least 100 elements",
+        "D) Data must be sorted"
+      ],
+      "correct_option": "D",
+      "explanation": "Binary search requires sorted data to correctly eliminate half the search space."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the main advantage of bubble sort?",
+      "options": [
+        "A) Uses no extra memory",
+        "B) Fastest sorting algorithm",
+        "C) Simple to implement and understand",
+        "D) Works best on large datasets"
+      ],
+      "correct_option": "C",
+      "explanation": "Bubble sort is used for teaching due to its simplicity."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "Insertion sort performs best when the input is:",
+      "options": [
+        "A) Reverse sorted",
+        "B) Randomly shuffled",
+        "C) All identical",
+        "D) Already sorted"
+      ],
+      "correct_option": "D",
+      "explanation": "Already sorted data means no shifts needed, giving O(n) best-case."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "How many comparisons does selection sort make for n elements?",
+      "options": [
+        "A) n",
+        "B) n(n-1)/2",
+        "C) n^2/4",
+        "D) n log n"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection sort always makes n(n-1)/2 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm is stable: merge sort or quick sort?",
+      "options": [
+        "A) Only merge sort is stable",
+        "B) Only quick sort is stable",
+        "C) Both are stable",
+        "D) Neither is stable"
+      ],
+      "correct_option": "A",
+      "explanation": "Merge sort preserves the relative order of equal elements."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "easy",
+      "question": "What happens in quick sort when the pivot is always the smallest element?",
+      "options": [
+        "A) Best case performance",
+        "B) The array is already sorted",
+        "C) The algorithm stops",
+        "D) Worst case O(n^2) performance"
+      ],
+      "correct_option": "D",
+      "explanation": "Consistently poor pivot choice causes unbalanced partitions, O(n^2)."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Hashing",
+      "difficulty": "medium",
+      "question": "What is a collision in hashing and how is it resolved?",
+      "options": [
+        "A) The table is full, resolved by deleting old entries",
+        "B) Two keys map to same index, resolved by chaining or open addressing",
+        "C) The key is invalid, resolved by returning None",
+        "D) The hash function fails, resolved by rehashing"
+      ],
+      "correct_option": "B",
+      "explanation": "Collision: two keys hash to same slot. Resolved by chaining or probing."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Data Statistics",
+      "difficulty": "medium",
+      "question": "The variance of a dataset measures:",
+      "options": [
+        "A) How spread out the values are from the mean",
+        "B) The most frequent value",
+        "C) The average value",
+        "D) The middle value"
+      ],
+      "correct_option": "A",
+      "explanation": "Variance quantifies the dispersion of data points around the mean."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Sort",
+      "difficulty": "medium",
+      "question": "In a min-heap, where is the smallest element located?",
+      "options": [
+        "A) At index n/2",
+        "B) At the last leaf node",
+        "C) At the root (index 0)",
+        "D) Random location"
+      ],
+      "correct_option": "C",
+      "explanation": "In a min-heap, the smallest element is always at the root."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "Malware",
+      "difficulty": "easy",
+      "question": "Which malware type encrypts victim files and demands payment for decryption?",
+      "options": [
+        "A) Spyware",
+        "B) Adware",
+        "C) Ransomware",
+        "D) Worm"
+      ],
+      "correct_option": "C",
+      "explanation": "Ransomware encrypts files and demands ransom for the decryption key."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Network Security",
+      "difficulty": "easy",
+      "question": "What is phishing in cybersecurity?",
+      "options": [
+        "A) A type of antivirus software",
+        "B) A hardware failure mode",
+        "C) A network protocol for file transfer",
+        "D) A social engineering attack to steal credentials via deceptive emails"
+      ],
+      "correct_option": "D",
+      "explanation": "Phishing uses deceptive emails to trick users into revealing sensitive info."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "easy",
+      "question": "How do you create a Pandas DataFrame from a dictionary?",
+      "options": [
+        "A) pd.DataFrame(dict)",
+        "B) pd.read_dict(dict)",
+        "C) pd.from_dict(dict)",
+        "D) pd.create(dict)"
+      ],
+      "correct_option": "A",
+      "explanation": "pd.DataFrame(dict) creates a DataFrame with dict keys as column names."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "IPR",
+      "difficulty": "easy",
+      "question": "What does a patent protect?",
+      "options": [
+        "A) Trade secrets",
+        "B) Inventions and technical solutions",
+        "C) Brand names",
+        "D) Original artistic works"
+      ],
+      "correct_option": "B",
+      "explanation": "Patents protect inventions, granting exclusive rights to the inventor."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Operations",
+      "difficulty": "easy",
+      "question": "What does df.describe() provide?",
+      "options": [
+        "A) Summary statistics (count, mean, std, min, max)",
+        "B) Column names only",
+        "C) Column data types",
+        "D) List of missing values"
+      ],
+      "correct_option": "A",
+      "explanation": "df.describe() gives count, mean, std, min, quartiles, max."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Laws",
+      "difficulty": "easy",
+      "question": "What does the IT Act 2000 provide legal framework for in India?",
+      "options": [
+        "A) Telecommunications only",
+        "B) Only software patents",
+        "C) Electronic governance and cybercrime",
+        "D) Only hardware manufacturing"
+      ],
+      "correct_option": "C",
+      "explanation": "IT Act 2000 provides legal recognition for e-transactions and addresses cybercrime."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas GroupBy",
+      "difficulty": "easy",
+      "question": "What does df.groupby('city')['population'].count() return?",
+      "options": [
+        "A) Average population per city",
+        "B) Number of records per city",
+        "C) Maximum population per city",
+        "D) Total population per city"
+      ],
+      "correct_option": "B",
+      "explanation": "groupby + count() returns the number of entries in each group."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption",
+      "difficulty": "medium",
+      "question": "What is the difference between encoding and encryption?",
+      "options": [
+        "A) Encoding is irreversible, encryption is reversible",
+        "B) They are the same thing",
+        "C) Encoding is only for text, encryption is only for files",
+        "D) Encoding transforms data format; encryption secures data with a key"
+      ],
+      "correct_option": "D",
+      "explanation": "Encoding (Base64) transforms data for transmission. Encryption requires a key."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Merge",
+      "difficulty": "medium",
+      "question": "What happens when pd.merge is performed with duplicate keys?",
+      "options": [
+        "A) All matching combinations are produced",
+        "B) Only the first matching row is kept",
+        "C) An error is raised",
+        "D) Only the last matching row is kept"
+      ],
+      "correct_option": "A",
+      "explanation": "Merge produces all combinations of matching rows, like SQL JOIN."
+    },
+    {
+      "id": "CUET_CS_2026_P21_L1C_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection",
+      "difficulty": "hard",
+      "question": "What is the difference between blind SQL injection and standard SQL injection?",
+      "options": [
+        "A) Standard injection is faster than blind injection",
+        "B) Blind injection has no visible output but infers data through true/false",
+        "C) Blind injection works only on MySQL",
+        "D) Blind injection requires physical access"
+      ],
+      "correct_option": "B",
+      "explanation": "Blind SQLi has no visible output but uses boolean/time-based techniques."
+    }
+  ]
+}

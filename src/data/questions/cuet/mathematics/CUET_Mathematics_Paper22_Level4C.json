@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P22_L4C",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 22,
+  "difficulty_level": "4C",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Types of Matrices",
+      "difficulty": "easy",
+      "question": "\\( A matrix has 3 rows and 4 columns. The number of elements \\in this matrix is: \\)",
+      "options": [
+        "A) 12",
+        "B) 14",
+        "C) 10",
+        "D) 16"
+      ],
+      "correct_option": "A",
+      "explanation": "A matrix of order m × n has m × n elements. Here 3 × 4 = 12."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q02",
+      "topic": "Probability",
+      "sub_topic": "Classical Probability",
+      "difficulty": "easy",
+      "question": "A fair coin is tossed twice. What is the probability of getting at least one head?",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 3/4",
+        "D) 1"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Sample space = {HH, HT, TH, TT}. At least one head = {HH, HT, TH}. Probability = \\frac{3}{4}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q03",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Principal Value",
+      "difficulty": "easy",
+      "question": "If P(A) = 0.3 and P(B) = 0.4, and A, B independent, what is P(A∪B)?",
+      "options": [
+        "A) 0.58",
+        "B) 0.7",
+        "C) 0.12",
+        "D) 0.82"
+      ],
+      "correct_option": "A",
+      "explanation": "P(A∪B) = P(A) + P(B) - P(A∩B) = 0.3 + 0.4 - 0.12 = 0.58."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q04",
+      "topic": "Determinants",
+      "sub_topic": "Evaluation of Determinants",
+      "difficulty": "easy",
+      "question": "If A = [[3, 1], [2, 4]], then det(A) equals:",
+      "options": [
+        "A) 10",
+        "B) 8",
+        "C) 14",
+        "D) 12"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( det(A) = (3)(4) - (1)(2) = 12 - 2 = 10. This result follows from the fundamental principles of Determinants. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q05",
+      "topic": "Linear Programming",
+      "sub_topic": "Graphical Method",
+      "difficulty": "easy",
+      "question": "The feasible region of a linear programming problem defined by x ≥ 0, y ≥ 0, x + y ≤ 4 is a:",
+      "options": [
+        "A) Circle",
+        "B) Rectangle",
+        "C) Square",
+        "D) Triangle"
+      ],
+      "correct_option": "D",
+      "explanation": "The constraints x ≥ 0, y ≥ 0, x + y ≤ 4 form a right triangle with vertices (0,0), (4,0), (0,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q06",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and Degree",
+      "difficulty": "easy",
+      "question": "The order of the differential equation (d²y/dx²)³ + dy/dx + y = 0 is:",
+      "options": [
+        "A) 3",
+        "B) 0",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "The order is the highest derivative present, which is d²y/dx², so order = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q07",
+      "topic": "Relations and Functions",
+      "sub_topic": "Equivalence Relations",
+      "difficulty": "easy",
+      "question": "The relation R on the set of integers defined by aRb iff a - b is divisible by 3 is:",
+      "options": [
+        "A) Only symmetric",
+        "B) Only transitive",
+        "C) An equivalence relation",
+        "D) Only reflexive"
+      ],
+      "correct_option": "C",
+      "explanation": "Reflexive: a-a=0 divisible by 3. Symmetric: if a-b=3k then b-a=3(-k). Transitive: if a-b=3m and b-c=3n then a-c=3(m+n). Hence equivalence relation."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q08",
+      "topic": "Integrals",
+      "sub_topic": "Indefinite Integrals",
+      "difficulty": "easy",
+      "question": "Recall that the derivative of tan(x) is sec^2(x). Use this to find the integral of sec^2(x).",
+      "options": [
+        "A) tan x + C",
+        "B) cot x + C",
+        "C) -tan x + C",
+        "D) -cot x + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Since d/dx[tan(x)] = sec^2(x), the integral of sec^2(x) dx = tan(x) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q09",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity",
+      "difficulty": "easy",
+      "question": "\\( The function f(x) = \\left| \\1 \\right| at x = 5 is: \\)",
+      "options": [
+        "A) Continuous and differentiable",
+        "B) Not defined",
+        "C) Continuous but not differentiable",
+        "D) Discontinuous"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( f(x) = \\left| \\1 \\right| is continuous at x=5 (limit = f(5) = 0) but has a sharp corner, so LHD ≠ RHD. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q10",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction Cosines",
+      "difficulty": "easy",
+      "question": "If a line makes angles 60^{\\circ}, 45^{\\circ}, and θ with x, y, z axes respectively, then θ is:",
+      "options": [
+        "A) 60°",
+        "B) 90°",
+        "C) 30°",
+        "D) 45°"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( cos²60^{\\circ} + cos²45^{\\circ} + cos²θ = 1 → \\frac{1}{4} + \\frac{1}{2} + cos²θ = 1 → cos²θ = \\frac{1}{4} → θ = 60^{\\circ}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q11",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of Functions",
+      "difficulty": "easy",
+      "question": "The function f: ℝ → ℝ defined by f(x) = 2x + 3 is:",
+      "options": [
+        "A) Neither one-one nor onto",
+        "B) One-one but not onto",
+        "C) One-one and onto",
+        "D) Onto but not one-one"
+      ],
+      "correct_option": "C",
+      "explanation": "f(x) = 2x+3 is a linear function with non-zero slope. For any y ∈ ℝ, x = (y-3)/2 gives f(x)=y (onto). And f(a)=f(b) ⟹ a=b (one-one)."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q12",
+      "topic": "Financial Mathematics",
+      "sub_topic": "Compound Annual Growth Rate",
+      "difficulty": "easy",
+      "question": "\\( An investment grows from ₹5,000 to ₹6,655 \\in 3 years. The compound annual growth rate (CAGR) is: \\)",
+      "options": [
+        "A) 12%",
+        "B) 10%",
+        "C) 15%",
+        "D) 8%"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( CAGR = (\\frac{6655}{5000})^(\\frac{1}{3}) - 1 = (1.331)^(\\frac{1}{3}) - 1 = 1.10 - 1 = 10%. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q13",
+      "topic": "Vector Algebra",
+      "sub_topic": "Magnitude and Direction",
+      "difficulty": "easy",
+      "question": "The magnitude of vector 3î + 4ĵ - 12k̂ is:",
+      "options": [
+        "A) 11",
+        "B) 13",
+        "C) 17",
+        "D) 15"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{3² + 4² + (-12}²) = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q14",
+      "topic": "Probability Distributions",
+      "sub_topic": "Binomial Distribution",
+      "difficulty": "easy",
+      "question": "\\( In a binomial distribution with n = 5 and p = \\frac{1}{2}, the mean is: \\)",
+      "options": [
+        "A) 5/3",
+        "B) 5/2",
+        "C) 5/4",
+        "D) 10"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Mean of binomial distribution = np = 5 × (\\frac{1}{2}) = \\frac{5}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q15",
+      "topic": "Index Numbers and Time-Based Data",
+      "sub_topic": "Components of Time Series",
+      "difficulty": "easy",
+      "question": "Which component of time series refers to regular, periodic fluctuations within a year?",
+      "options": [
+        "A) Irregular variation",
+        "B) Cyclical variation",
+        "C) Secular trend",
+        "D) Seasonal variation"
+      ],
+      "correct_option": "D",
+      "explanation": "Seasonal variations are regular, periodic fluctuations that repeat within a one-year period."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q16",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differentiation",
+      "difficulty": "easy",
+      "question": "If f(x) = x⁴ - 3x² + 2x + 1, then f'(0) equals:",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) -1",
+        "D) 0"
+      ],
+      "correct_option": "B",
+      "explanation": "Differentiation follows standard rules. f'(x) = 4x³ - 6x + 2, so f'(0) = 2. The derivative represents the instantaneous rate of change of the function."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q17",
+      "topic": "Probability",
+      "sub_topic": "Bayes Theorem",
+      "difficulty": "easy",
+      "question": "A box contains 5 red and 3 blue marbles. Two marbles are drawn without replacement. The probability that both are red is:",
+      "options": [
+        "A) 10/28",
+        "B) 5/14",
+        "C) 20/56",
+        "D) All of these are equivalent"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( P(both red) = (\\frac{5}{8})(\\frac{4}{7}) = \\frac{20}{56} = \\frac{10}{28} = \\frac{5}{14}. All options represent the same value. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q18",
+      "topic": "Matrices",
+      "sub_topic": "Properties of Transpose",
+      "difficulty": "easy",
+      "question": "For any square matrix A, the product A^T A^T is equal to:",
+      "options": [
+        "A) A²",
+        "B) A",
+        "C) (A²)^T",
+        "D) 2A^T"
+      ],
+      "correct_option": "C",
+      "explanation": "A^T A^T = (A^T)². By property, (AA)^T = A^T A^T, meaning (A²)^T = (A^T)²."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q19",
+      "topic": "Numerical Applications",
+      "sub_topic": "Modulo Arithmetic",
+      "difficulty": "easy",
+      "question": "The remainder when 7²⁵ is divided by 5 is:",
+      "options": [
+        "A) 4",
+        "B) 3",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "7 ≡ 2 (mod 5). 7²⁵ ≡ 2²⁵ = 2·(2⁴)⁶ = 2·1⁶ = 2 (mod 5). Remainder = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q20",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Application of Integration",
+      "difficulty": "easy",
+      "question": "Consumer surplus is given by CS = ∫₀^{q₀} [D(q) - p₀] dq, where D(q) is the demand function. This integral represents:",
+      "options": [
+        "A) Area between demand curve and price line",
+        "B) Slope of demand",
+        "C) Revenue",
+        "D) Area under supply curve"
+      ],
+      "correct_option": "A",
+      "explanation": "Consumer surplus is the area between the demand curve D(q) and the horizontal price line p₀ from 0 to q₀."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q21",
+      "topic": "Matrices",
+      "sub_topic": "Inverse of Matrix",
+      "difficulty": "medium",
+      "question": "If A and B are 3×3 matrices such that AB = I and det(A) = 7, then det(B) equals:",
+      "options": [
+        "A) 49",
+        "B) 7",
+        "C) 1/49",
+        "D) 1/7"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( AB = I ⟹ det(A)·det(B) = 1 ⟹ 7·det(B) = 1 ⟹ det(B) = \\frac{1}{7}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q22",
+      "topic": "Integrals",
+      "sub_topic": "Integration by Parts",
+      "difficulty": "medium",
+      "question": "\\( Evaluate the indefinite integral of x \\times e to the 2x using integration by parts. \\)",
+      "options": [
+        "A) (x e^{2x})/2 + e^{2x}/4 + C",
+        "B) x e^{2x} - e^{2x}/2 + C",
+        "C) (x e^{2x})/2 - e^{2x}/4 + C",
+        "D) x² e^{2x}/2 + C"
+      ],
+      "correct_option": "C",
+      "explanation": "Let u = x, dv = e^{(2x)}dx. Result = e^{(2x)}(2x-1)/4 + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q23",
+      "topic": "Differential Equations",
+      "sub_topic": "Homogeneous Equations",
+      "difficulty": "medium",
+      "question": "The general solution of dy/dx = (x + y)/(x - y) is of the form:",
+      "options": [
+        "A) cos⁻¹(y/x) - ln(x + y) = C",
+        "B) tan⁻¹(y/x) - (1/2)ln(x² + y²) = C",
+        "C) sin⁻¹(y/x) + ln(x² + y²) = C",
+        "D) tan⁻¹(y/x) + (1/2)ln(x² + y²) = C"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Put y = vx, then dy/dx = v + x·dv/dx. The equation becomes v + x·dv/dx = (1+v)/(1-v). Solving gives \\tan⁻¹(v) - (\\frac{1}{2})\\ln(1+v²) = \\ln\\left| \\1 \\right| + C, which simplifies to \\tan⁻¹(y/x) - (\\frac{1}{2})\\ln(x²+y²) = C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q24",
+      "topic": "Probability",
+      "sub_topic": "Conditional Probability",
+      "difficulty": "medium",
+      "question": "A die is thrown. If the outcome is even, a coin is tossed. The probability of getting a head is:",
+      "options": [
+        "A) 1/4",
+        "B) 1/3",
+        "C) 3/4",
+        "D) 1/2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(even) = \\frac{3}{6} = \\frac{1}{2}. P(head | even) = \\frac{1}{2}. P(even AND head) = P(even)·P(head) = (\\frac{1}{2})(\\frac{1}{2}) = \\frac{1}{4}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q25",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Angle Between Lines",
+      "difficulty": "medium",
+      "question": "The acute angle between the lines with direction ratios (1, 2, 2) and (3, 4, 0) has cosine equal to:",
+      "options": [
+        "A) 11/15",
+        "B) 11/(3·√41)",
+        "C) 11/(3·√21)",
+        "D) 11/(3·√29)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\cos θ = \\left| \\1 \\right| / (\\sqrt{1²+2²+2²}·\\sqrt{3²+4²+0²}) = \\left| \\1 \\right| / (\\sqrt{9}·\\sqrt{25}) = \\frac{11}{15}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q26",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal Feasible Solution",
+      "difficulty": "medium",
+      "question": "Maximize Z = 3x + 4y subject to x + y ≤ 4, x ≥ 0, y ≥ 0. The maximum value of Z is:",
+      "options": [
+        "A) 12",
+        "B) 14",
+        "C) 18",
+        "D) 16"
+      ],
+      "correct_option": "D",
+      "explanation": "Corner points: (0,0)→0, (4,0)→12, (0,4)→16. Maximum Z = 16 at (0,4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q27",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Properties",
+      "difficulty": "medium",
+      "question": "\\( The value of \\tan⁻¹(\\frac{1}{2}) + \\tan⁻¹(\\frac{1}{3}) is: \\)",
+      "options": [
+        "A) π/2",
+        "B) π/6",
+        "C) π/4",
+        "D) π/3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using \\tan⁻¹a + \\tan⁻¹b = \\tan⁻¹((a+b)/(1-ab)) for ab<1: = \\tan⁻¹((\\frac{1}{2}+\\frac{1}{3})/(1-\\frac{1}{6})) = \\tan⁻¹((\\frac{5}{6})/(\\frac{5}{6})) = \\tan⁻¹(1) = π/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q28",
+      "topic": "Probability Distributions",
+      "sub_topic": "Normal Distribution",
+      "difficulty": "medium",
+      "question": "For a standard normal distribution, the area between z = -1 and z = 1 is approximately:",
+      "options": [
+        "A) 68.2%",
+        "B) 50%",
+        "C) 99.7%",
+        "D) 95.4%"
+      ],
+      "correct_option": "A",
+      "explanation": "For standard normal distribution: area within ±1σ ≈ 68.2%, ±2σ ≈ 95.4%, ±3σ ≈ 99.7%."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q29",
+      "topic": "Integrals",
+      "sub_topic": "Definite Integrals",
+      "difficulty": "medium",
+      "question": "Find the value: ∫₀¹ (1/(1+x²)) dx equals:",
+      "options": [
+        "A) π/6",
+        "B) π/4",
+        "C) π/2",
+        "D) π/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( ∫₀¹ 1/(1+x²)dx = [\\tan⁻¹x]₀¹ = \\tan⁻¹(1) - \\tan⁻¹(0) = π/4 - 0 = π/4. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q30",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "medium",
+      "question": "The function f(x) = 2x³ - 9x² + 12x - 3 has a local minimum at x =",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 0",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 6x² - 18x + 12 = 6(x-1)(x-2). Critical points at x=1,2. f''(x) = 12x - 18. f''(2) = 6 > 0 ⟹ local minimum at x=2."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q31",
+      "topic": "Matrices",
+      "sub_topic": "Solving System of Equations",
+      "difficulty": "medium",
+      "question": "For the system: 2x + y = 7 and x - y = -1, the value of x is:",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 4",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "Adding equations: 3x = 6 → x = 2. Substituting: 2 - y = -1 → y = 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q32",
+      "topic": "Vector Algebra",
+      "sub_topic": "Cross Product",
+      "difficulty": "medium",
+      "question": "If a = 2î + 3ĵ and b = î - 2ĵ + k̂, then the area of the parallelogram formed by a and b is:",
+      "options": [
+        "A) √(55)",
+        "B) √(45)",
+        "C) √(50)",
+        "D) √(62)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = (3·1 - 0·(-2))i - (2·1 - 0·1)j + (2·(-2) - 3·1)k = 3î - 2ĵ - 7k̂. \\left| \\1 \\right| = \\sqrt{9+4+49} = \\sqrt{62}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q33",
+      "topic": "Financial Mathematics",
+      "sub_topic": "EMI Calculation",
+      "difficulty": "medium",
+      "question": "The EMI for a loan of ₹1,00,000 at 12% p.a. compounded monthly for 1 year (rounded to nearest ₹) is approximately:",
+      "options": [
+        "A) ₹9,000",
+        "B) ₹8,500",
+        "C) ₹8,885",
+        "D) ₹8,333"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( EMI = P·r·(1+r)^n / ((1+r)^n - 1) where r = 0.\\frac{12}{12} = 0.01, n = 12. EMI = 100000·0.01·(1.01)^12 / ((1.01)^12 - 1) = 1000·1.\\frac{1268}{0}.1268 ≈ ₹8,885. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q34",
+      "topic": "Integrals",
+      "sub_topic": "Partial Fractions",
+      "difficulty": "medium",
+      "question": "\\( Evaluate the indefinite integral ∫(3x + 5)/[(x+1)(x+2)] dx using \\partial fractions. \\)",
+      "options": [
+        "A) ln|x+1| + 2 ln|x+2| + C",
+        "B) 2 ln|x+1| + ln|x+2| + C",
+        "C) ln|x+1| - ln|x+2| + C",
+        "D) 3 ln|x+1| - ln|x+2| + C"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=−1: 2=A. At x=−2: −1=−B, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q35",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "medium",
+      "question": "According to the Central Limit Theorem, the sampling distribution of the sample mean approaches which distribution as n → ∞?",
+      "options": [
+        "A) Uniform distribution",
+        "B) t-distribution",
+        "C) Normal distribution",
+        "D) Chi-square distribution"
+      ],
+      "correct_option": "C",
+      "explanation": "The Central Limit Theorem states that regardless of the population distribution, the sampling distribution of the mean approaches a normal distribution as sample size increases."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q36",
+      "topic": "Determinants",
+      "sub_topic": "Applications of Determinants",
+      "difficulty": "medium",
+      "question": "Using Cramer's rule to solve 2x + 3y = 8 and x + 4y = 9, the value of y is:",
+      "options": [
+        "A) 1",
+        "B) 4",
+        "C) 3",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( D = \\left| \\1 \\right| = 8-3 = 5. D_y = \\left| \\1 \\right| = 18-8 = 10. y = D_y/D = \\frac{10}{5} = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q37",
+      "topic": "Relations and Functions",
+      "sub_topic": "Composition of Functions",
+      "difficulty": "medium",
+      "question": "If f(x) = 2x + 1 and g(x) = x² - 3, then (f∘g)(2) equals:",
+      "options": [
+        "A) 3",
+        "B) 7",
+        "C) 5",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "(f∘g)(2) = f(g(2)) = f(2²-3) = f(1) = 2(1)+1 = 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q38",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Marginal Cost and Revenue",
+      "difficulty": "medium",
+      "question": "If the total revenue function is R(x) = 50x - 0.5x², then the marginal revenue when x = 10 is:",
+      "options": [
+        "A) 45",
+        "B) 50",
+        "C) 35",
+        "D) 40"
+      ],
+      "correct_option": "D",
+      "explanation": "MR = dR/dx = 50 - x. At x = 10, MR = 50 - 10 = 40."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q39",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Identities",
+      "difficulty": "medium",
+      "question": "\\( For x > 0, the value of \\tan⁻¹x + \\cot⁻¹x is: \\)",
+      "options": [
+        "A) π/4",
+        "B) 0",
+        "C) π/2",
+        "D) π"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using the identity \\cot⁻¹x = π/2 - \\tan⁻¹x, we get \\tan⁻¹x + \\cot⁻¹x = π/2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q40",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Skew Lines",
+      "difficulty": "medium",
+      "question": "\\( Two lines \\in 3D space are called skew if they: \\)",
+      "options": [
+        "A) Are neither parallel nor intersecting",
+        "B) Intersect at a point",
+        "C) Are parallel",
+        "D) Lie in the same plane"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Skew lines are lines \\in 3D space that are neither parallel nor do they intersect. They do not lie \\in the same plane. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q41",
+      "topic": "Integrals",
+      "sub_topic": "Properties of Definite Integrals",
+      "difficulty": "hard",
+      "question": "\\( The value of ∫₀^{π/2} (\\sin x)/(\\sin x + \\cos x) dx is: \\)",
+      "options": [
+        "A) π/2",
+        "B) π/4",
+        "C) π/6",
+        "D) π/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let I = ∫₀^{π/2} \\sin x/(\\sin x+\\cos x) dx. Also I = ∫₀^{π/2} \\cos x/(\\sin x+\\cos x) dx (by substitution x→π/2-x). Adding: 2I = ∫₀^{π/2} 1 dx = π/2. So I = π/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q42",
+      "topic": "Probability",
+      "sub_topic": "Bayes Theorem",
+      "difficulty": "hard",
+      "question": "A factory has two machines A and B. Machine A produces 60% of items and Machine B 40%. The defect rate of A is 3% and B is 5%. If a randomly selected item is defective, the probability it came from Machine B is:",
+      "options": [
+        "A) 5/19",
+        "B) 8/19",
+        "C) 10/19",
+        "D) 7/19"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(def\\left| \\1 \\right|B) = 0.05. P(B\\left| \\1 \\right|B) / [P(A)·P(def\\left| \\1 \\right|B)] = (0.4)(0.05)/[(0.6)(0.03)+(0.4)(0.05)] = 0.02/(0.018+0.02) = 0.\\frac{02}{0}.038 = \\frac{20}{38} = \\frac{10}{19}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q43",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear Differential Equations",
+      "difficulty": "hard",
+      "question": "The solution of d²y/dx² - 3dy/dx + 2y = 0 is:",
+      "options": [
+        "A) y = C₁e^x + C₂e^{2x}",
+        "B) y = C₁e^{-x} + C₂e^{-2x}",
+        "C) y = C₁e^{2x} + C₂e^{3x}",
+        "D) y = C₁e^x + C₂e^{-2x}"
+      ],
+      "correct_option": "A",
+      "explanation": "Auxiliary equation: m² - 3m + 2 = 0 → (m-1)(m-2) = 0 → m = 1, 2. General solution: y = C₁e^x + C₂e^{2x}."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q44",
+      "topic": "Integrals",
+      "sub_topic": "Integration by Parts",
+      "difficulty": "hard",
+      "question": "\\( Evaluate the indefinite integral ∫ ẽx(\\sin x + \\cos x) dx. \\)",
+      "options": [
+        "A) e^x sin x + C",
+        "B) e^x cos x + C",
+        "C) e^x (sin x - cos x) + C",
+        "D) e^x (sin x + cos x) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Notice that d/dx(ẽx \\sin x) = ẽx \\sin x + ẽx \\cos x = ẽx(\\sin x + \\cos x). Therefore ∫ẽx(\\sin x + \\cos x)dx = ẽx \\sin x + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q45",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar Triple Product",
+      "difficulty": "hard",
+      "question": "The volume of the parallelepiped formed by vectors î+ĵ, ĵ+k̂, and k̂+î is:",
+      "options": [
+        "A) 0",
+        "B) 2",
+        "C) √2",
+        "D) 1"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Volume = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q46",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Shortest Distance Between Lines",
+      "difficulty": "hard",
+      "question": "The shortest distance between the lines r = î+ĵ+λ(2î-ĵ+k̂) and r = 2î+ĵ-k̂+μ(î-ĵ+k̂) is:",
+      "options": [
+        "A) 2/√3",
+        "B) 1/√2",
+        "C) 3/√2",
+        "D) √2/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using formula d = \\left| \\1 \\right|/\\left| \\1 \\right|. a₁=(1,1,0), a₂=(2,1,-1), a₂-a₁=(1,0,-1). b₁=(2,-1,1), b₂=(1,-1,1). b₁×b₂ = (-1·1-1·(-1), 1·1-2·1, 2·(-1)-(-1)·1) = (0, -1, -1). \\left| \\1 \\right| = \\sqrt{2}. (a₂-a₁)·(b₁×b₂) = (1,0,-1)·(0,-1,-1) = 1. d = 1/\\sqrt{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q47",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "hard",
+      "question": "\\( The maximum area of a rectangle inscribed \\in the ellipse x²/16 + y²/9 = 1 with sides parallel to axes is: \\)",
+      "options": [
+        "A) 36",
+        "B) 48",
+        "C) 12",
+        "D) 24"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Area = 4xy where (x,y) is on the ellipse. Maximize 4xy subject to x²/16+y²/9=1. Using parametric form x=4cosθ, y=3sinθ: Area = 4(4cosθ)(3sinθ) = 24 \\sin(2θ). Maximum when \\sin(2θ)=1 → Area = 24. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q48",
+      "topic": "Probability Distributions",
+      "sub_topic": "Poisson Distribution",
+      "difficulty": "hard",
+      "question": "If X follows a Poisson distribution with P(X=1) = P(X=2), the value of P(X=3) is:",
+      "options": [
+        "A) 4e^{-2}/3",
+        "B) 8e^{-2}/3",
+        "C) e^{-2}/6",
+        "D) 2e^{-2}/3"
+      ],
+      "correct_option": "A",
+      "explanation": "P(X=k) = λ^k e^{-λ}/k!. P(X=1)=P(X=2) → λe^{-λ} = λ²e^{-λ}/2 → λ=2. P(X=3) = 2³e^{-2}/3! = 8e^{-2}/6 = 4e^{-2}/3."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q49",
+      "topic": "Determinants",
+      "sub_topic": "Adjoint and Inverse",
+      "difficulty": "hard",
+      "question": "If A is a 3×3 matrix and det(adj(adj A)) = 256, then det(A) equals:",
+      "options": [
+        "A) 16",
+        "B) 8",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "For n×n matrix: adj(adj A) = det(A)^{n-2} · A. So det(adj(adj A)) = det(det(A)^{n-2} · A) = det(A)^{(n-2)n} · det(A) = det(A)^{(n-1)²}. For n=3: det(A)^4 = 256 → det(A) = 4."
+    },
+    {
+      "id": "CUET_MATH_2026_P22_L4C_Q50",
+      "topic": "Integrals",
+      "sub_topic": "Area Under Curves",
+      "difficulty": "hard",
+      "question": "\\( The area of the region bounded by y = \\sin x, y = \\cos x, and the y-axis \\in the first quadrant is: \\)",
+      "options": [
+        "A) √2 + 1",
+        "B) 2√2",
+        "C) 2(√2 - 1)",
+        "D) √2 - 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Intersection of \\sin x = \\cos x at x = π/4. Area = ∫₀^{π/4}(\\cos x - \\sin x)dx = [\\sin x + \\cos x]₀^{π/4} = (1/\\sqrt{2} + 1/\\sqrt{2}) - (0 + 1) = \\sqrt{2} - 1. \\)"
+    }
+  ]
+}

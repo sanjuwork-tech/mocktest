@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_GAT_2026_P8_L8",
+  "series_id": "CUET_GAT_2026",
+  "paper_number": 8,
+  "difficulty_level": "8",
+  "subject": "General Test (Code: 501)",
+  "syllabus_source": "cuet general aptitude test syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "pastpaper-gat-2024.pdf, pastpaper-gat-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q01",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "easy",
+      "question": "The Hirakud Dam, one of the longest dams in the world, is built across which river?",
+      "options": [
+        "A) Godavari",
+        "B) Mahanadi",
+        "C) Krishna",
+        "D) Narmada"
+      ],
+      "correct_option": "B",
+      "explanation": "Hirakud Dam, near Sambalpur in Odisha, is built across the Mahanadi. The other rivers carry different major projects — Polavaram (Godavari), Nagarjuna Sagar (Krishna) and Sardar Sarovar (Narmada)."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q02",
+      "topic": "Current Affairs",
+      "sub_topic": "Awards",
+      "difficulty": "easy",
+      "question": "Laszlo Krasznahorkai, winner of the Nobel Prize in Literature 2025, is an author from which country?",
+      "options": [
+        "A) Hungary",
+        "B) Poland",
+        "C) Austria",
+        "D) Czechia"
+      ],
+      "correct_option": "A",
+      "explanation": "The Swedish Academy awarded the 2025 Literature Nobel to Hungarian writer Laszlo Krasznahorkai, 'for his compelling and visionary oeuvre that, in the midst of apocalyptic terror, reaffirms the power of art'. He is only the second Hungarian laureate, after Imre Kertesz (2002)."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q03",
+      "topic": "Numerical Ability",
+      "sub_topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "If the selling price of 15 articles is equal to the cost price of 12 articles, what is the profit or loss percentage?",
+      "options": [
+        "A) 20% profit",
+        "B) 20% loss",
+        "C) 25% profit",
+        "D) 25% loss"
+      ],
+      "correct_option": "B",
+      "explanation": "SP of 15 = CP of 12, so SP = (12/15) × CP = 0.8 × CP. Selling below cost by 20% of CP means a loss of 20%."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q04",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Clocks",
+      "difficulty": "hard",
+      "question": "At what time between 7 and 8 o'clock will the hands of a clock be at right angles for the first time?",
+      "options": [
+        "A) 38 2/11 minutes past 7",
+        "B) 21 9/11 minutes past 7",
+        "C) 54 6/11 minutes past 7",
+        "D) 24 6/11 minutes past 7"
+      ],
+      "correct_option": "B",
+      "explanation": "At 7 o'clock the hour hand is 210° ahead of the minute hand. For the first right angle, the minute hand must gain 120°, which takes 120/5.5 = 21 9/11 minutes past 7. (38 2/11 is the coincidence time, 54 6/11 the second right angle.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q05",
+      "topic": "General Mental Ability",
+      "sub_topic": "Classification",
+      "difficulty": "easy",
+      "question": "Which one of the following is different from the others?",
+      "options": [
+        "A) Rectangle",
+        "B) Rhombus",
+        "C) Trapezium",
+        "D) Cube"
+      ],
+      "correct_option": "D",
+      "explanation": "A cube is a three-dimensional solid; rectangle, rhombus and trapezium are two-dimensional plane figures."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q06",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "medium",
+      "question": "Dholavira, the Harappan city inscribed as a UNESCO World Heritage Site in 2021, is located on which island in the Great Rann of Kutch?",
+      "options": [
+        "A) Khadir Bet",
+        "B) Bet Dwarka",
+        "C) Piram Island",
+        "D) Diu"
+      ],
+      "correct_option": "A",
+      "explanation": "Dholavira lies on Khadir Bet island in the Great Rann of Kutch, Gujarat, and is famed for its water-conservation system, reservoirs and a stadium-like structure."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q07",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Geometry",
+      "difficulty": "medium",
+      "question": "The supplement of an angle is four times its complement. What is the measure of the angle?",
+      "options": [
+        "A) 30°",
+        "B) 45°",
+        "C) 75°",
+        "D) 60°"
+      ],
+      "correct_option": "D",
+      "explanation": "If the angle is x, then 180 − x = 4(90 − x), so 180 − x = 360 − 4x, giving 3x = 180 and x = 60°. Check: supplement 120° is indeed four times the complement 30°."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q08",
+      "topic": "Current Affairs",
+      "sub_topic": "Awards",
+      "difficulty": "hard",
+      "question": "The Abel Prize 2025 was awarded to Masaki Kashiwara for fundamental contributions to algebraic analysis and representation theory. He is associated with which institution?",
+      "options": [
+        "A) Institute for Advanced Study, Princeton",
+        "B) Research Institute for Mathematical Sciences (RIMS), Kyoto University",
+        "C) College de France, Paris",
+        "D) University of Tokyo"
+      ],
+      "correct_option": "B",
+      "explanation": "Masaki Kashiwara of RIMS, Kyoto University, Japan, received the 2025 Abel Prize from the Norwegian Academy of Science and Letters, cited for the theory of D-modules and the discovery of crystal bases."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q09",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "easy",
+      "question": "Which is the smallest Union Territory of India by area?",
+      "options": [
+        "A) Puducherry",
+        "B) Dadra and Nagar Haveli and Daman and Diu",
+        "C) Lakshadweep",
+        "D) Andaman and Nicobar Islands"
+      ],
+      "correct_option": "C",
+      "explanation": "Lakshadweep, with an area of only about 32 sq km, is the smallest Union Territory of India by area."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q10",
+      "topic": "Numerical Ability",
+      "sub_topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "A sum of ₹1,210 is divided among A, B and C such that A:B = 5:4 and B:C = 9:10. What is C's share?",
+      "options": [
+        "A) ₹360",
+        "B) ₹440",
+        "C) ₹480",
+        "D) ₹400"
+      ],
+      "correct_option": "D",
+      "explanation": "Make B common: A:B = 5:4 = 45:36 and B:C = 9:10 = 36:40, so A:B:C = 45:36:40 (121 parts). C's share = (40/121) × 1210 = ₹400."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q11",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Physics",
+      "difficulty": "easy",
+      "question": "Which optical phenomenon is primarily responsible for the formation of a rainbow?",
+      "options": [
+        "A) Regular reflection",
+        "B) Polarisation",
+        "C) Diffraction",
+        "D) Dispersion of sunlight"
+      ],
+      "correct_option": "D",
+      "explanation": "A rainbow forms when sunlight undergoes dispersion inside raindrops — refraction splits white light into its component colours, followed by internal reflection — separating red through violet."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q12",
+      "topic": "Current Affairs",
+      "sub_topic": "Heritage",
+      "difficulty": "medium",
+      "question": "The Moidams, inscribed as India's 43rd UNESCO World Heritage Site in July 2024, are royal burial mounds associated with which dynasty?",
+      "options": [
+        "A) Chutia",
+        "B) Koch",
+        "C) Ahom",
+        "D) Kachari"
+      ],
+      "correct_option": "C",
+      "explanation": "The Moidams at Charaideo are the mound-burial sites of Ahom royalty. They became India's 43rd World Heritage Site and the first cultural site from Northeast India at the 46th WHC session in New Delhi."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q13",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Calendars",
+      "difficulty": "medium",
+      "question": "If 1 January 2025 was a Wednesday, what day of the week was 31 December 2025?",
+      "options": [
+        "A) Tuesday",
+        "B) Monday",
+        "C) Thursday",
+        "D) Wednesday"
+      ],
+      "correct_option": "D",
+      "explanation": "2025 is not a leap year and has 365 days. 31 December is the 364th day after 1 January, and 364 = 52 × 7, so it falls on the same weekday as 1 January — Wednesday. The 'Monday' option traps those who subtract instead of adding."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q14",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "Two trains of lengths 120 m and 180 m run on parallel tracks at 54 km/h and 36 km/h respectively, in opposite directions. How long do they take to cross each other completely?",
+      "options": [
+        "A) 15 s",
+        "B) 14 s",
+        "C) 12 s",
+        "D) 10 s"
+      ],
+      "correct_option": "C",
+      "explanation": "Relative speed = 54 + 36 = 90 km/h = 25 m/s. Combined length to clear = 120 + 180 = 300 m. Time = 300/25 = 12 seconds."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q15",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Data Interpretation",
+      "difficulty": "easy",
+      "question": "A family's monthly income of ₹72,000 is shown in a pie chart as: Food 120°, Rent 90°, Education 60°, Savings 45°, Transport 45°. How much does the family save per month?",
+      "options": [
+        "A) ₹8,000",
+        "B) ₹9,000",
+        "C) ₹10,800",
+        "D) ₹12,000"
+      ],
+      "correct_option": "B",
+      "explanation": "Savings sector = 45°, so savings = (45/360) × 72,000 = ₹9,000."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q16",
+      "topic": "General Knowledge",
+      "sub_topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "The santoor, a hammered dulcimer now firmly established in Hindustani classical music, originated from the folk music tradition of which region?",
+      "options": [
+        "A) Rajasthan",
+        "B) Bengal",
+        "C) Kerala",
+        "D) Kashmir"
+      ],
+      "correct_option": "D",
+      "explanation": "The santoor was traditionally used in the Sufiana Mausiq of Kashmir. Pandit Shivkumar Sharma later adapted it for Hindustani classical performance."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q17",
+      "topic": "General Mental Ability",
+      "sub_topic": "Direction Sense",
+      "difficulty": "medium",
+      "question": "Ravi cycles 8 km north, turns left and cycles 6 km, turns left again and cycles 5 km, then turns left once more and cycles 6 km. How far is he from his starting point?",
+      "options": [
+        "A) 5 km",
+        "B) 8 km",
+        "C) 3 km",
+        "D) 13 km"
+      ],
+      "correct_option": "C",
+      "explanation": "Net displacement: north 8 − south 5 = 3 km; east 0 − west 6 + east 6 = 0. The two 6 km legs cancel, leaving him exactly 3 km north of the start."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q18",
+      "topic": "Current Affairs",
+      "sub_topic": "Awards",
+      "difficulty": "medium",
+      "question": "The 2024 Nobel Prize in Economic Sciences was awarded 'for studies of how institutions are formed and affect prosperity'. Who were the laureates?",
+      "options": [
+        "A) Abhijit Banerjee, Esther Duflo and Michael Kremer",
+        "B) Claudia Goldin",
+        "C) Ben Bernanke, Douglas Diamond and Philip Dybvig",
+        "D) Daron Acemoglu, Simon Johnson and James A. Robinson"
+      ],
+      "correct_option": "D",
+      "explanation": "Acemoglu, Johnson and Robinson won the 2024 economics Nobel for their work on institutions and prosperity. The distractors are laureates of 2019 (poverty alleviation), 2023 (women's labour-market outcomes) and 2022 (banking crises) respectively."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q19",
+      "topic": "General Mental Ability",
+      "sub_topic": "Analogy",
+      "difficulty": "medium",
+      "question": "Select the pair that completes the analogy: Ornithologist : Birds :: Entomologist : ?",
+      "options": [
+        "A) Fish",
+        "B) Insects",
+        "C) Plants",
+        "D) Fossils"
+      ],
+      "correct_option": "B",
+      "explanation": "An ornithologist studies birds; an entomologist studies insects. The other options correspond to ichthyology, botany and palaeontology."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q20",
+      "topic": "Numerical Ability",
+      "sub_topic": "Profit & Loss",
+      "difficulty": "medium",
+      "question": "A shopkeeper sells article X at a 20% profit and article Y at a 10% loss. If each article cost him ₹2,500, what is his net profit or loss percentage on the two transactions combined?",
+      "options": [
+        "A) 5% profit",
+        "B) 4% profit",
+        "C) 6% profit",
+        "D) 5% loss"
+      ],
+      "correct_option": "A",
+      "explanation": "Profit on X = 20% of 2500 = ₹500; loss on Y = 10% of 2500 = ₹250. Net gain = ₹250 on a total cost of ₹5,000 = 5% profit."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q21",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Health & Disease",
+      "difficulty": "medium",
+      "question": "Why are antibiotics ineffective in treating the common cold?",
+      "options": [
+        "A) The cold virus mutates faster than antibiotics can act",
+        "B) Antibiotics act on structures specific to bacteria, which viruses lack",
+        "C) Antibiotics suppress the immune response",
+        "D) Viruses are too small to be affected by any drug"
+      ],
+      "correct_option": "B",
+      "explanation": "Antibiotics target bacterial structures such as cell walls and bacterial ribosomes. Viruses have neither — they replicate using the host cell's machinery — so antibiotics do not work against the common cold."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q22",
+      "topic": "General Knowledge",
+      "sub_topic": "Polity",
+      "difficulty": "medium",
+      "question": "A Money Bill passed by the Lok Sabha must be returned by the Rajya Sabha, with or without recommendations, within how many days?",
+      "options": [
+        "A) 7 days",
+        "B) 14 days",
+        "C) 21 days",
+        "D) 30 days"
+      ],
+      "correct_option": "B",
+      "explanation": "Under Article 109, the Rajya Sabha must return a Money Bill within 14 days; failing that, the Bill is deemed to have been passed by both Houses in the form passed by the Lok Sabha."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q23",
+      "topic": "General Mental Ability",
+      "sub_topic": "Number Series",
+      "difficulty": "hard",
+      "question": "What is the next term in the series 1, 2, 4, 7, 12, 20, ...?",
+      "options": [
+        "A) 33",
+        "B) 30",
+        "C) 32",
+        "D) 34"
+      ],
+      "correct_option": "A",
+      "explanation": "Each term equals the sum of the previous two terms plus 1: 1+2+1=4, 2+4+1=7, 4+7+1=12, 7+12+1=20, 12+20+1=33."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q24",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The radius of the base of a cone is 7 cm and its vertical height is 24 cm. What is its curved surface area? (Take π = 22/7)",
+      "options": [
+        "A) 525 cm²",
+        "B) 625 cm²",
+        "C) 550 cm²",
+        "D) 704 cm²"
+      ],
+      "correct_option": "C",
+      "explanation": "Slant height l = √(7² + 24²) = √625 = 25 cm. Curved surface area = πrl = (22/7) × 7 × 25 = 550 cm²."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q25",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports",
+      "difficulty": "easy",
+      "question": "Which team did India defeat in the final of the Women's Asian Champions Trophy 2024 in hockey, held at Rajgir?",
+      "options": [
+        "A) Japan",
+        "B) China",
+        "C) South Korea",
+        "D) Malaysia"
+      ],
+      "correct_option": "B",
+      "explanation": "India beat China 1-0 in the final at Rajgir on 20 November 2024, Deepika scoring the winner. It was India's third Women's Asian Champions Trophy title, tying South Korea as the most successful team."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q26",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Scheduling",
+      "difficulty": "hard",
+      "question": "Five seminars — Coding, Design, Finance, Law and Marketing — are scheduled from Monday to Friday, one per day. Finance is on Thursday. Design is scheduled immediately before Finance. Exactly two seminars are scheduled between Coding and Finance. Law is not scheduled on Friday. Which seminar is scheduled on Friday?",
+      "options": [
+        "A) Law",
+        "B) Coding",
+        "C) Marketing",
+        "D) Design"
+      ],
+      "correct_option": "C",
+      "explanation": "Finance is on Thursday and Design immediately before it, on Wednesday. Exactly two seminars between Coding and Finance forces Coding to Monday (Tuesday and Wednesday lie between). Law is not on Friday, so Law takes Tuesday, leaving Marketing for Friday."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q27",
+      "topic": "Numerical Ability",
+      "sub_topic": "Simple & Compound Interest",
+      "difficulty": "medium",
+      "question": "A person invests ₹18,000 in two parts — one part at 6% per annum and the other at 9% per annum simple interest. If the total interest earned in one year is ₹1,260, how much was invested at 9%?",
+      "options": [
+        "A) ₹4,000",
+        "B) ₹6,000",
+        "C) ₹5,000",
+        "D) ₹7,000"
+      ],
+      "correct_option": "B",
+      "explanation": "If the whole ₹18,000 earned 6%, interest would be ₹1,080 — short of ₹1,260 by ₹180. Each rupee shifted from 6% to 9% gains 3 paise, so amount at 9% = 180/0.03 = ₹6,000. Check: 12,000×6% + 6,000×9% = 720 + 540 = ₹1,260."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q28",
+      "topic": "General Knowledge",
+      "sub_topic": "History",
+      "difficulty": "hard",
+      "question": "Who commanded the Maratha forces in the Third Battle of Panipat (1761) against Ahmad Shah Abdali?",
+      "options": [
+        "A) Sadashivrao Bhau",
+        "B) Mahadji Scindia",
+        "C) Raghunathrao",
+        "D) Malharrao Holkar"
+      ],
+      "correct_option": "A",
+      "explanation": "Sadashivrao Bhau was the Maratha commander-in-chief (Peshwa's cousin) at Panipat in 1761, where the Marathas were defeated by Ahmad Shah Abdali's forces. He, along with Vishwasrao Peshwa, was killed in the battle."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q29",
+      "topic": "General Mental Ability",
+      "sub_topic": "Blood Relations",
+      "difficulty": "medium",
+      "question": "Pointing to a photograph of a boy, Meera said, 'He is the son of my father's only sister.' How is the boy related to Meera?",
+      "options": [
+        "A) Cousin",
+        "B) Brother",
+        "C) Nephew",
+        "D) Uncle"
+      ],
+      "correct_option": "A",
+      "explanation": "Meera's father's only sister is Meera's paternal aunt, and the aunt's son is Meera's cousin."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q30",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Algebra",
+      "difficulty": "hard",
+      "question": "The sum of the squares of three consecutive positive integers is 434. What is the largest of the three integers?",
+      "options": [
+        "A) 13",
+        "B) 12",
+        "C) 14",
+        "D) 11"
+      ],
+      "correct_option": "A",
+      "explanation": "Since 12² × 3 = 432 is close to 434, the integers must be 11, 12 and 13: 121 + 144 + 169 = 434. The largest of the three is 13."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q31",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Environment",
+      "difficulty": "hard",
+      "question": "Among the following greenhouse gases, which has the highest global warming potential per unit mass over a 100-year period?",
+      "options": [
+        "A) Sulphur hexafluoride",
+        "B) Carbon dioxide",
+        "C) Methane",
+        "D) Nitrous oxide"
+      ],
+      "correct_option": "A",
+      "explanation": "Sulphur hexafluoride (SF₆), used in electrical switchgear, has a 100-year global warming potential roughly 23,500 times that of CO₂ — far higher than methane (~28×) or nitrous oxide (~265×)."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q32",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Syllogism",
+      "difficulty": "hard",
+      "question": "Statements: Some keys are locks. All locks are doors. No door is a window. Conclusions: I. Some keys are doors. II. No lock is a window. Which conclusion(s) follow?",
+      "options": [
+        "A) Only I follows",
+        "B) Both I and II follow",
+        "C) Only II follows",
+        "D) Neither follows"
+      ],
+      "correct_option": "B",
+      "explanation": "I: The keys that are locks are also doors (all locks are doors), so some keys are doors — valid. II: Every lock is a door, and no door is a window, so no lock is a window — valid. Both conclusions follow."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q33",
+      "topic": "Numerical Ability",
+      "sub_topic": "Averages",
+      "difficulty": "hard",
+      "question": "The average of 9 numbers is 30. The average of the first five of these numbers is 25 and the average of the last three is 35. What is the sixth number?",
+      "options": [
+        "A) 38",
+        "B) 35",
+        "C) 45",
+        "D) 40"
+      ],
+      "correct_option": "D",
+      "explanation": "Total of all nine = 270. First five sum to 125; last three sum to 105. The sixth number = 270 − 125 − 105 = 40."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q34",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports",
+      "difficulty": "medium",
+      "question": "Who captained India in the Asia Cup 2025, played in the T20 format, in which India defeated Pakistan by five wickets in the final in Dubai?",
+      "options": [
+        "A) Shubman Gill",
+        "B) Hardik Pandya",
+        "C) Suryakumar Yadav",
+        "D) Rohit Sharma"
+      ],
+      "correct_option": "C",
+      "explanation": "Suryakumar Yadav led India in the 2025 Asia Cup, where India retained the title; Tilak Varma's unbeaten 69 anchored the chase in the final against Pakistan."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q35",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "medium",
+      "question": "The circumference of a circle is equal to the perimeter of a square whose side is 22 cm. What is the area of the circle? (Take π = 22/7)",
+      "options": [
+        "A) 588 cm²",
+        "B) 608 cm²",
+        "C) 624 cm²",
+        "D) 616 cm²"
+      ],
+      "correct_option": "D",
+      "explanation": "Perimeter of the square = 4 × 22 = 88 cm, so 2πr = 88 gives r = 88 × 7/44 = 14 cm. Area = πr² = (22/7) × 196 = 616 cm²."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q36",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Biology",
+      "difficulty": "medium",
+      "question": "In human beings, the sex of a child is determined by:",
+      "options": [
+        "A) The chromosomes contributed by the mother",
+        "B) Hormones released by the mother during pregnancy",
+        "C) The sex chromosome carried by the father's sperm",
+        "D) Environmental conditions during development"
+      ],
+      "correct_option": "C",
+      "explanation": "The mother's egg always carries an X chromosome; the father's sperm carries either X or Y. An X-carrying sperm produces XX (female) and a Y-carrying sperm produces XY (male), so the father's gamete determines the sex."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q37",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Logic Grid",
+      "difficulty": "hard",
+      "question": "Tanvi, Umang, Ria and Sameer live in Delhi, Mumbai, Chennai and Kolkata, and each works as a lawyer, doctor, engineer or architect, not necessarily in that order. Sameer lives in Mumbai. The doctor lives in Mumbai. The engineer lives in Chennai. Umang does not live in Chennai. Tanvi does not live in Kolkata. Tanvi is the lawyer. Who is the architect?",
+      "options": [
+        "A) Tanvi",
+        "B) Ria",
+        "C) Sameer",
+        "D) Umang"
+      ],
+      "correct_option": "D",
+      "explanation": "Sameer lives in Mumbai, so he is the doctor. The engineer lives in Chennai — it cannot be Sameer (doctor) or Tanvi (lawyer), and Umang does not live in Chennai, so Ria is the engineer. Tanvi does not live in Kolkata, so Tanvi lives in Delhi. That leaves Umang in Kolkata, and the only remaining profession is architect — Umang is the architect."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q38",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Biology",
+      "difficulty": "easy",
+      "question": "Which blood group is known as the universal donor for red blood cell transfusion?",
+      "options": [
+        "A) O negative",
+        "B) AB positive",
+        "C) O positive",
+        "D) AB negative"
+      ],
+      "correct_option": "A",
+      "explanation": "O negative red cells carry neither A nor B antigens nor the Rh(D) antigen, so they can be given to recipients of any blood group. AB positive is the universal recipient."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q39",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time & Work",
+      "difficulty": "hard",
+      "question": "12 men can complete a piece of work in 20 days. They work together for 4 days, after which 4 men leave the job. In how many days, counted from the beginning, will the work be completed?",
+      "options": [
+        "A) 24 days",
+        "B) 26 days",
+        "C) 28 days",
+        "D) 30 days"
+      ],
+      "correct_option": "C",
+      "explanation": "Total work = 12 × 20 = 240 man-days. In 4 days, 12 men do 48 man-days, leaving 192. With 8 men remaining, that takes 192/8 = 24 more days, so the work finishes 4 + 24 = 28 days from the beginning."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q40",
+      "topic": "General Mental Ability",
+      "sub_topic": "Coding-Decoding",
+      "difficulty": "hard",
+      "question": "In a certain code, the first letter of a word is replaced by the letter one place ahead of it, the second letter by two places ahead, the third by three places ahead, and so on. Which of the following words is coded as QCLRY?",
+      "options": [
+        "A) PLANT",
+        "B) PAINT",
+        "C) PRINT",
+        "D) PIVOT"
+      ],
+      "correct_option": "B",
+      "explanation": "Working backwards: Q−1 = P, C−2 = A, L−3 = I, R−4 = N, Y−5 = T, giving PAINT. (PLANT would code as QNDRY, PRINT as QTLRY, PIVOT as QKYSY.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q41",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Percentage Applications",
+      "difficulty": "hard",
+      "question": "A company sells product X at ₹250 (1,000 units) and product Y at ₹400 (500 units). Next year, X's price rises 10% and its volume falls 10%, while Y's price falls 10% and its volume rises 25%. What is the percentage change in the company's total revenue?",
+      "options": [
+        "A) +2%",
+        "B) +3%",
+        "C) +5%",
+        "D) +7.5%"
+      ],
+      "correct_option": "C",
+      "explanation": "Current revenue = 250 × 1000 + 400 × 500 = ₹4,50,000. Next year: X = 275 × 900 = ₹2,47,500; Y = 360 × 625 = ₹2,25,000; total ₹4,72,500. Change = 22,500/4,50,000 = +5%."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q42",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight friends — A, B, C, D, E, F, G, H — sit around a circular table facing the center. A sits opposite to E. B sits second to the left of A. C sits third to the right of B. D sits between A and B. F sits second to the right of D. G sits opposite to C. Who sits to the immediate left of H?",
+      "options": [
+        "A) E",
+        "B) A",
+        "C) C",
+        "D) F"
+      ],
+      "correct_option": "A",
+      "explanation": "From the constraints: A opposite E. B second to left of A. C third to right of B. D between A and B. F second to right of D. G opposite C. The remaining seat is H, with E to H's immediate left."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q43",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "hard",
+      "question": "Saddle Peak, the highest point of the Andaman and Nicobar Islands, is located on which island?",
+      "options": [
+        "A) South Andaman",
+        "B) Little Andaman",
+        "C) North Andaman",
+        "D) Baratang"
+      ],
+      "correct_option": "C",
+      "explanation": "Saddle Peak (732 m) rises within Saddle Peak National Park near Diglipur, on North Andaman Island."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q44",
+      "topic": "Numerical Ability",
+      "sub_topic": "Percentage",
+      "difficulty": "hard",
+      "question": "A village has 8,000 residents, with men and women in the ratio 3:2. In one year, the number of men increases by 10% and the number of women by 20%. What is the percentage increase in the village's total population?",
+      "options": [
+        "A) 14%",
+        "B) 12%",
+        "C) 15%",
+        "D) 16%"
+      ],
+      "correct_option": "A",
+      "explanation": "Men = 4,800 and women = 3,200. After the increase: men = 5,280 and women = 3,840, totalling 9,120. Increase = 1,120 on 8,000 = 14%. (A weighted average, not the simple 15%.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q45",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports",
+      "difficulty": "hard",
+      "question": "Which of the following sportspersons was NOT among the four recipients of the Major Dhyan Chand Khel Ratna Award 2024, announced in January 2025?",
+      "options": [
+        "A) Manu Bhaker",
+        "B) D Gukesh",
+        "C) Praveen Kumar",
+        "D) Neeraj Chopra"
+      ],
+      "correct_option": "D",
+      "explanation": "The Khel Ratna 2024 went to shooter Manu Bhaker, chess World Champion D Gukesh, hockey captain Harmanpreet Singh and para-athlete Praveen Kumar. Neeraj Chopra had earlier received the award in 2021, but was not a 2024 recipient."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q46",
+      "topic": "General Mental Ability",
+      "sub_topic": "Number Series",
+      "difficulty": "medium",
+      "question": "What is the next term in the series 5, 7, 11, 19, 35, ...?",
+      "options": [
+        "A) 63",
+        "B) 51",
+        "C) 67",
+        "D) 69"
+      ],
+      "correct_option": "C",
+      "explanation": "The differences double each time: +2, +4, +8, +16, so the next difference is +32, giving 35 + 32 = 67."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q47",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports",
+      "difficulty": "hard",
+      "question": "Which team won the ICC World Test Championship Final 2025, played at Lord's?",
+      "options": [
+        "A) South Africa",
+        "B) Australia",
+        "C) India",
+        "D) New Zealand"
+      ],
+      "correct_option": "A",
+      "explanation": "South Africa defeated Australia by five wickets in the 2025 World Test Championship final at Lord's, securing their first ICC men's global trophy since 1998."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q48",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Percentage Applications",
+      "difficulty": "hard",
+      "question": "A person spends 75% of his income. His income increases by 20% while his expenditure increases by 10%. By what percentage do his savings increase?",
+      "options": [
+        "A) 50%",
+        "B) 30%",
+        "C) 40%",
+        "D) 60%"
+      ],
+      "correct_option": "A",
+      "explanation": "Take income = 100: savings = 25. New income = 120, new expenditure = 75 × 1.1 = 82.5, so new savings = 37.5. Increase = 12.5/25 = 50%."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q49",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Chemistry",
+      "difficulty": "medium",
+      "question": "Packets of chips are flushed with nitrogen gas before being sealed. What is the purpose of this practice?",
+      "options": [
+        "A) Nitrogen keeps the chips warm during transport",
+        "B) Nitrogen kills all bacteria inside the packet",
+        "C) Nitrogen is inert and prevents oxidation of the oils, keeping the chips from turning rancid",
+        "D) Nitrogen adds to the flavour of the chips"
+      ],
+      "correct_option": "C",
+      "explanation": "Nitrogen is an unreactive gas that displaces oxygen inside the packet. Without oxygen, the fats and oils in the chips cannot oxidise and turn rancid, and the pack also stays cushioned against crushing."
+    },
+    {
+      "id": "CUET_GAT_2026_P8_L8_Q50",
+      "topic": "General Mental Ability",
+      "sub_topic": "Letter Series",
+      "difficulty": "hard",
+      "question": "What is the next letter in the series M, N, L, O, K, P, ...?",
+      "options": [
+        "A) I",
+        "B) Q",
+        "C) K",
+        "D) J"
+      ],
+      "correct_option": "D",
+      "explanation": "Two interleaved chains run alternately: the odd-position letters step backward (M, L, K, ...) and the even-position letters step forward (N, O, P, ...). The seventh term belongs to the backward chain, so after K comes J."
+    }
+  ]
+}

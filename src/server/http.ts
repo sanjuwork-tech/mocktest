@@ -26,7 +26,7 @@ export function requireOrigin(request: Request) {
   if (!allowedOrigin(origin, host))
     throw new ApiError(
       403,
-      "This request must come from the TestDisha application.",
+      "This request must come from the OurMocks application.",
     );
 }
 export async function readJson(

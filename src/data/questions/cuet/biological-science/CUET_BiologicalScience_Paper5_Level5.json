@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P5",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 5,
+  "difficulty_level": "5",
+  "subject": "Biological Science",
+  "syllabus_source": "NCERT Class 12 Biology",
+  "notification_source": "CUET UG 2026 Biological Science (NTA Notification)",
+  "past_paper_reference": "CUET UG Biological Science 2023-2025",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q01",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "For a tumor suppressor gene to promote cancer, mutations must occur in:",
+      "options": [
+        "A) Both alleles of the gene",
+        "B) Mitochondrial DNA",
+        "C) The promoter region only",
+        "D) Only one allele"
+      ],
+      "correct_option": "A",
+      "explanation": "Tumor suppressor genes follow the two-hit hypothesis — both alleles must be inactivated (mutated) before cancer develops (e.g., retinoblastoma gene RB1)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q02",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Secretory IgA in breast milk provides immunity to infants by:",
+      "options": [
+        "A) Stimulating T-cell production",
+        "B) Directly killing bacteria",
+        "C) Activating complement system",
+        "D) Protecting mucosal surfaces from pathogens"
+      ],
+      "correct_option": "D",
+      "explanation": "IgA is the predominant antibody in secretions; it prevents pathogen attachment to mucosal surfaces in the infant's respiratory and digestive tracts."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q03",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "hard",
+      "question": "Sympatric speciation differs from allopatric speciation in that it:",
+      "options": [
+        "A) Requires physical barriers",
+        "B) Only occurs in plants",
+        "C) Occurs without geographic isolation",
+        "D) Always involves polyploidy"
+      ],
+      "correct_option": "C",
+      "explanation": "Sympatric speciation occurs within the same geographic area through mechanisms like polyploidy, habitat differentiation, or sexual selection, without physical barriers."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q04",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "A cross between F1 offspring and a homozygous recessive parent is called a:",
+      "options": [
+        "A) Monohybrid cross",
+        "B) Test cross",
+        "C) Dihybrid cross",
+        "D) Back cross"
+      ],
+      "correct_option": "B",
+      "explanation": "A test cross determines the genotype of an individual with dominant phenotype by crossing it with a homozygous recessive individual."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "medium",
+      "question": "In human females, the primary oocyte is arrested at which stage of meiosis until puberty?",
+      "options": [
+        "A) Metaphase II",
+        "B) Pachytene stage of prophase I",
+        "C) Leptotene stage of prophase I",
+        "D) Diplotene stage of prophase I"
+      ],
+      "correct_option": "D",
+      "explanation": "Primary oocytes enter meiosis I during fetal development but arrest at the diplotene stage of prophase I, remaining dormant until puberty."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q06",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "medium",
+      "question": "Which biogeochemical cycle does NOT have a significant atmospheric (gaseous) phase?",
+      "options": [
+        "A) Carbon cycle",
+        "B) Nitrogen cycle",
+        "C) Phosphorus cycle",
+        "D) Sulfur cycle"
+      ],
+      "correct_option": "C",
+      "explanation": "Phosphorus cycles mainly through rock, soil, water, and sediments. Unlike C, N, and S, it lacks a major gaseous atmospheric reservoir."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q07",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "medium",
+      "question": "Which of the following vaccines uses a live attenuated strain?",
+      "options": [
+        "A) Hepatitis B vaccine",
+        "B) Inactivated Polio Vaccine (IPV)",
+        "C) Oral Polio Vaccine (OPV)",
+        "D) Tetanus toxoid"
+      ],
+      "correct_option": "C",
+      "explanation": "OPV contains live attenuated Sabin strains that replicate in the gut and induce both humoral and cell-mediated immunity, unlike killed IPV."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "Amniocentesis is typically performed during which week of pregnancy for genetic testing?",
+      "options": [
+        "A) 4-6 weeks",
+        "B) 24-28 weeks",
+        "C) 32-34 weeks",
+        "D) 14-16 weeks"
+      ],
+      "correct_option": "D",
+      "explanation": "Amniocentesis is performed at 14-16 weeks when sufficient amniotic fluid is present and enough fetal cells can be cultured for karyotyping."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q09",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "Which of the following is NOT a standard cancer treatment modality?",
+      "options": [
+        "A) Radiotherapy",
+        "B) Immunotherapy",
+        "C) Chemotherapy",
+        "D) Phagotherapy"
+      ],
+      "correct_option": "D",
+      "explanation": "The main cancer treatments are surgery, chemotherapy, radiotherapy, immunotherapy, and targeted therapy. 'Phagotherapy' is not a recognized modality."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q10",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "Which of the following human disorders is X-linked recessive?",
+      "options": [
+        "A) Albinism",
+        "B) Hemophilia A",
+        "C) Phenylketonuria",
+        "D) Sickle cell anemia"
+      ],
+      "correct_option": "B",
+      "explanation": "Hemophilia A (factor VIII deficiency) is inherited as an X-linked recessive trait, affecting predominantly males."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q11",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "Molecular Tools",
+      "difficulty": "easy",
+      "question": "The enzyme reverse transcriptase synthesizes DNA from which template?",
+      "options": [
+        "A) Protein",
+        "B) Ribosomal RNA only",
+        "C) Double-stranded DNA",
+        "D) mRNA"
+      ],
+      "correct_option": "D",
+      "explanation": "Reverse transcriptase, discovered in retroviruses, converts RNA into complementary DNA (cDNA) — essential for making gene libraries."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q12",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "The microorganism used commercially for citric acid production is:",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Aspergillus niger",
+        "C) Acetobacter aceti",
+        "D) Lactobacillus acidophilus"
+      ],
+      "correct_option": "B",
+      "explanation": "Aspergillus niger, a filamentous fungus, is widely used in industrial fermentation to produce citric acid from sucrose."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q13",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "easy",
+      "question": "The addition or deletion of one or two nucleotides in DNA causes:",
+      "options": [
+        "A) Transition mutation",
+        "B) Point mutation",
+        "C) Transversion mutation",
+        "D) Frameshift mutation"
+      ],
+      "correct_option": "D",
+      "explanation": "Insertion/deletion of nucleotides not divisible by three shifts the reading frame, altering all downstream codons — a frameshift mutation."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q14",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Combined oral contraceptive pills prevent pregnancy primarily by:",
+      "options": [
+        "A) Blocking sperm entry into cervix",
+        "B) Inhibiting ovulation through suppression of gonadotropins",
+        "C) Preventing implantation of blastocyst",
+        "D) Thickening cervical mucus only"
+      ],
+      "correct_option": "B",
+      "explanation": "OCPs contain estrogen and progesterone which exert negative feedback on the pituitary, suppressing FSH and LH release, thereby preventing ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q15",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "Cloning",
+      "difficulty": "hard",
+      "question": "Dolly the sheep (1996) was cloned from which type of donor cell?",
+      "options": [
+        "A) Blood lymphocyte",
+        "B) Mammary gland epithelial cell (somatic cell)",
+        "C) Embryonic stem cell",
+        "D) Neuron"
+      ],
+      "correct_option": "B",
+      "explanation": "Dolly was the first mammal cloned from an adult somatic cell — a mammary gland cell — using somatic cell nuclear transfer (SCNT), proving differentiated cells could be reprogrammed."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q16",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "CRISPR-Cas9",
+      "difficulty": "hard",
+      "question": "In CRISPR-Cas9 genome editing, the guide RNA (gRNA) functions to:",
+      "options": [
+        "A) Cut the DNA at specific sites",
+        "B) Amplify the target gene",
+        "C) Repair double-strand breaks",
+        "D) Direct the Cas9 enzyme to the target DNA sequence"
+      ],
+      "correct_option": "D",
+      "explanation": "The gRNA contains a ~20-nt sequence complementary to the target DNA, guiding Cas9 to the precise genomic location where it makes the double-strand cut."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q17",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "easy",
+      "question": "The chromosomal theory of inheritance was independently proposed by:",
+      "options": [
+        "A) Sutton and Boveri",
+        "B) Mendel and Morgan",
+        "C) Bateson and Punnett",
+        "D) Darwin and Wallace"
+      ],
+      "correct_option": "A",
+      "explanation": "Walter Sutton and Theodor Boveri independently recognized that chromosomes carry hereditary units and segregate during meiosis."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q18",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "medium",
+      "question": "Tobacco abuse primarily increases the risk of cancer in which organ?",
+      "options": [
+        "A) Liver",
+        "B) Kidney",
+        "C) Lungs",
+        "D) Skin"
+      ],
+      "correct_option": "C",
+      "explanation": "Tobacco smoke contains carcinogens that directly contact lung tissue, making lung cancer the most common tobacco-related malignancy."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q19",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "Blotting Techniques",
+      "difficulty": "medium",
+      "question": "Northern blotting is specifically used to detect:",
+      "options": [
+        "A) Proteins",
+        "B) DNA sequences",
+        "C) RNA molecules",
+        "D) Lipids"
+      ],
+      "correct_option": "C",
+      "explanation": "Northern blot detects specific RNA sequences using a labeled DNA/RNA probe, while Southern blot detects DNA and Western blot detects proteins."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q20",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The corpus luteum secretes which hormone essential for maintaining the uterine lining during early pregnancy?",
+      "options": [
+        "A) Follicle-stimulating hormone",
+        "B) Progesterone",
+        "C) Estrogen",
+        "D) Luteinizing hormone"
+      ],
+      "correct_option": "B",
+      "explanation": "The corpus luteum, formed from the ruptured Graafian follicle after ovulation, secretes progesterone which maintains the endometrium for implantation."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q21",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "According to the 10% law of energy flow, the energy available at the tertiary consumer level is approximately what percentage of the producer's energy?",
+      "options": [
+        "A) 0.1%",
+        "B) 1%",
+        "C) 10%",
+        "D) 0.01%"
+      ],
+      "correct_option": "A",
+      "explanation": "Lindeman's 10% rule: only ~10% of energy transfers to the next trophic level. Producer (100%) → Primary (10%) → Secondary (1%) → Tertiary (0.1%)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q22",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "If two unaffected parents produce an affected child in a pedigree, the inheritance pattern is most likely:",
+      "options": [
+        "A) Autosomal recessive",
+        "B) Autosomal dominant",
+        "C) X-linked dominant",
+        "D) Y-linked"
+      ],
+      "correct_option": "A",
+      "explanation": "Unaffected parents producing an affected child indicates both parents are carriers of a recessive allele, making autosomal recessive the most likely pattern."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q23",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "PCR",
+      "difficulty": "medium",
+      "question": "The denaturation step in PCR, which separates DNA strands, is carried out at approximately:",
+      "options": [
+        "A) 94°C",
+        "B) 72°C",
+        "C) 55°C",
+        "D) 37°C"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR involves denaturation (~94°C), annealing (~55°C), and extension (~72°C). High temperature breaks hydrogen bonds between DNA strands."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q24",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "Which greenhouse gas has the highest global warming potential (GWP) per molecule over 100 years?",
+      "options": [
+        "A) Nitrous oxide",
+        "B) Carbon dioxide",
+        "C) Methane",
+        "D) CFC-12"
+      ],
+      "correct_option": "D",
+      "explanation": "CFC-12 has a GWP of ~10,900 compared to CO2 (1), CH4 (28), and N2O (265) because it absorbs infrared radiation extremely efficiently and persists for ~100 years."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q25",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "In a food chain: Grass → Grasshopper → Frog → Snake → Hawk, the frog is a:",
+      "options": [
+        "A) Tertiary consumer",
+        "B) Producer",
+        "C) Secondary consumer",
+        "D) Primary consumer"
+      ],
+      "correct_option": "C",
+      "explanation": "Grass is producer, grasshopper is primary consumer, frog is secondary consumer, snake is tertiary consumer, and hawk is quaternary consumer."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q26",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "Recombinant DNA Technology",
+      "difficulty": "easy",
+      "question": "Restriction endonucleases are naturally found in:",
+      "options": [
+        "A) Bacteria",
+        "B) Plant cells",
+        "C) Animal cells",
+        "D) Fungi only"
+      ],
+      "correct_option": "A",
+      "explanation": "Restriction enzymes are bacterial defense mechanisms that cleave foreign DNA at specific recognition sequences, protecting the host from bacteriophages."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q27",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "In hybridoma technology, the fusion of B-lymphocytes with myeloma cells produces:",
+      "options": [
+        "A) Monoclonal antibodies",
+        "B) Interferon",
+        "C) T-lymphocytes",
+        "D) Stem cells"
+      ],
+      "correct_option": "A",
+      "explanation": "Hybridomas combine the antibody-producing ability of B-cells with the immortality of myeloma cells, enabling continuous production of identical (monoclonal) antibodies."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q28",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Human Health and Disease",
+      "difficulty": "easy",
+      "question": "Colostrum provides which type of immunity to newborn infants?",
+      "options": [
+        "A) Passive artificial immunity",
+        "B) Passive natural immunity",
+        "C) Active natural immunity",
+        "D) Active artificial immunity"
+      ],
+      "correct_option": "B",
+      "explanation": "Colostrum contains IgA antibodies passed from mother to infant — this is passive (pre-formed antibodies) and natural (through breastfeeding)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q29",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "easy",
+      "question": "Malignant tumors are characterized by the ability to:",
+      "options": [
+        "A) Remain encapsulated",
+        "B) Metastasize to distant tissues",
+        "C) Grow slowly",
+        "D) Self-destruct via apoptosis"
+      ],
+      "correct_option": "B",
+      "explanation": "Malignant (cancerous) tumors invade surrounding tissues and metastasize — spreading to distant sites via blood or lymph, unlike benign tumors."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q30",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "easy",
+      "question": "The major cause of species extinction in tropical rainforests is:",
+      "options": [
+        "A) Volcanic eruptions",
+        "B) Deforestation and habitat loss",
+        "C) Natural forest fires",
+        "D) Competition with native species"
+      ],
+      "correct_option": "B",
+      "explanation": "Human-driven deforestation for agriculture and urbanization is the primary threat to tropical biodiversity, destroying habitats faster than species can adapt."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q31",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Endemic species are particularly vulnerable to extinction because they:",
+      "options": [
+        "A) Cannot hybridize",
+        "B) Have restricted geographic distribution",
+        "C) Are always large-bodied",
+        "D) Reproduce only sexually"
+      ],
+      "correct_option": "B",
+      "explanation": "Endemic species are restricted to a specific geographic area, making them susceptible to habitat destruction, climate change, or stochastic events."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q32",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "DNA Sequencing",
+      "difficulty": "medium",
+      "question": "In Sanger sequencing, chain termination occurs due to the incorporation of:",
+      "options": [
+        "A) RNA primers",
+        "B) DNA ligase",
+        "C) Dideoxynucleotides (ddNTPs)",
+        "D) Standard dNTPs"
+      ],
+      "correct_option": "C",
+      "explanation": "Sanger sequencing uses ddNTPs which lack the 3'-OH group, causing random chain termination and producing fragments of varying lengths for sequencing."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q33",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "Plant Biotechnology",
+      "difficulty": "easy",
+      "question": "The Ti plasmid used for gene transfer into plants originates from:",
+      "options": [
+        "A) Escherichia coli",
+        "B) Bacillus thuringiensis",
+        "C) Rhizobium",
+        "D) Agrobacterium tumefaciens"
+      ],
+      "correct_option": "D",
+      "explanation": "Agrobacterium tumefaciens contains a Ti (tumor-inducing) plasmid whose T-DNA integrates into plant genome, making it a natural genetic engineer."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q34",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "Gause's competitive exclusion principle states that:",
+      "options": [
+        "A) Competition only occurs between animals",
+        "B) One species always preys on another",
+        "C) Two species with identical niches cannot coexist indefinitely",
+        "D) Niche overlap always increases biodiversity"
+      ],
+      "correct_option": "C",
+      "explanation": "Gause's principle states that complete competitors cannot coexist — one will inevitably outcompete the other (verified with Paramecium species)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q35",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "In a population where the dominant allele frequency is 0.8, the expected heterozygous genotype frequency under Hardy-Weinberg equilibrium is:",
+      "options": [
+        "A) 0.16",
+        "B) 0.04",
+        "C) 0.64",
+        "D) 0.32"
+      ],
+      "correct_option": "D",
+      "explanation": "q = 1 - 0.8 = 0.2; heterozygote frequency = 2pq = 2 × 0.8 × 0.2 = 0.32."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q36",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "Commensalism is an interaction where:",
+      "options": [
+        "A) One species benefits while the other is unaffected",
+        "B) Both species are harmed",
+        "C) Both species benefit",
+        "D) One benefits and the other is harmed"
+      ],
+      "correct_option": "A",
+      "explanation": "Commensalism benefits one organism without affecting the other (e.g., barnacles on whales, epiphytic orchids on trees)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q37",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Biodiversity and Conservation",
+      "difficulty": "hard",
+      "question": "The final stable community in ecological succession that remains relatively unchanged is called the:",
+      "options": [
+        "A) Climax community",
+        "B) Seral community",
+        "C) Intermediate community",
+        "D) Pioneer community"
+      ],
+      "correct_option": "A",
+      "explanation": "The climax community is the terminal stage of succession where species composition remains stable unless disturbed by fire, clearing, or other events."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q38",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The acrosomal reaction in mammalian sperm is triggered by contact with the:",
+      "options": [
+        "A) Oocyte plasma membrane",
+        "B) Corona radiata",
+        "C) Zona pellucida",
+        "D) Cortical granules"
+      ],
+      "correct_option": "C",
+      "explanation": "When sperm binds to ZP3 glycoproteins of the zona pellucida, it triggers the acrosomal reaction releasing enzymes to penetrate the egg."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q39",
+      "topic": "Biology and Human Welfare",
+      "sub_topic": "Microbes in Human Welfare",
+      "difficulty": "hard",
+      "question": "The ability of cancer cells to evade programmed cell death is due to mutations in genes that regulate:",
+      "options": [
+        "A) DNA replication only",
+        "B) Glycolysis",
+        "C) Cell adhesion",
+        "D) Apoptosis pathways"
+      ],
+      "correct_option": "D",
+      "explanation": "Cancer cells often have mutations in apoptotic genes (like p53), preventing them from undergoing programmed cell death even with severe DNA damage."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q40",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "RNA Interference",
+      "difficulty": "medium",
+      "question": "RNA interference (RNAi) gene silencing employs which molecule?",
+      "options": [
+        "A) Double-stranded DNA",
+        "B) Double-stranded RNA",
+        "C) Transfer RNA",
+        "D) Single-stranded DNA"
+      ],
+      "correct_option": "B",
+      "explanation": "RNAi uses small interfering RNA (siRNA), a double-stranded RNA, to target and degrade complementary mRNA, silencing specific gene expression."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q41",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "The morula stage of embryonic development consists of how many cells?",
+      "options": [
+        "A) 64 cells",
+        "B) 4 cells",
+        "C) 2 cells",
+        "D) 16 cells"
+      ],
+      "correct_option": "D",
+      "explanation": "After 3-4 days of cleavage divisions, the embryo reaches the 16-cell stage called morula, which then develops into a blastocyst."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q42",
+      "topic": "Biotechnology and Applications",
+      "sub_topic": "Genetic Engineering",
+      "difficulty": "medium",
+      "question": "The first genetically engineered human insulin (Humulin) was produced using:",
+      "options": [
+        "A) Pichia pastoris",
+        "B) Saccharomyces cerevisiae",
+        "C) Streptomyces",
+        "D) Escherichia coli"
+      ],
+      "correct_option": "D",
+      "explanation": "In 1982, recombinant human insulin was produced by inserting the human insulin gene into E. coli, marking the first commercial biopharmaceutical."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q43",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "The chorionic villi in the placenta are bathed in:",
+      "options": [
+        "A) Maternal blood in the intervillous space",
+        "B) Amniotic fluid",
+        "C) Cervical mucus",
+        "D) Fetal blood only"
+      ],
+      "correct_option": "A",
+      "explanation": "Chorionic villi project into the intervillous space where maternal blood flows, allowing exchange of gases and nutrients without direct blood mixing."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q44",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "The tapetum in the anther is nourishing the:",
+      "options": [
+        "A) Embryo sac",
+        "B) Endosperm",
+        "C) Developing pollen grains",
+        "D) Ovules"
+      ],
+      "correct_option": "C",
+      "explanation": "The tapetum is the innermost nutritive layer of the anther wall that provides nutrients, sporopollenin, and pollen kit to developing microspores."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q45",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Principles of Inheritance and Variation",
+      "difficulty": "medium",
+      "question": "Pleiotropy refers to a phenomenon where:",
+      "options": [
+        "A) Multiple genes control one trait",
+        "B) One gene masks the effect of another",
+        "C) A single gene influences multiple phenotypic traits",
+        "D) Both alleles are expressed equally"
+      ],
+      "correct_option": "C",
+      "explanation": "Pleiotropy occurs when a single gene product affects multiple, seemingly unrelated phenotypic characteristics (e.g., Marfan syndrome gene affects skeleton, eyes, heart)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q46",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "In the lac operon model, the repressor protein binds to the:",
+      "options": [
+        "A) Promoter region",
+        "B) Regulator gene",
+        "C) Operator region",
+        "D) Structural genes"
+      ],
+      "correct_option": "C",
+      "explanation": "The lac repressor binds to the operator, blocking RNA polymerase from transcribing the structural genes (lacZ, lacY, lacA)."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q47",
+      "topic": "Genetics and Evolution",
+      "sub_topic": "Molecular Basis of Inheritance",
+      "difficulty": "medium",
+      "question": "The Hardy-Weinberg law is violated by all of the following evolutionary forces EXCEPT:",
+      "options": [
+        "A) Random mating",
+        "B) Gene flow",
+        "C) Natural selection",
+        "D) Genetic drift"
+      ],
+      "correct_option": "A",
+      "explanation": "Hardy-Weinberg equilibrium assumes random mating. Non-random mating, along with mutation, migration, drift, and selection, alters allele frequencies."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q48",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "easy",
+      "question": "In human spermatogenesis, the transformation of spermatids into spermatozoa is called:",
+      "options": [
+        "A) Meiosis I",
+        "B) Spermiogenesis",
+        "C) Mitosis",
+        "D) Spermatocytogenesis"
+      ],
+      "correct_option": "B",
+      "explanation": "Spermiogenesis is the final stage where round spermatids undergo structural changes to become motile spermatozoa."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q49",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "The mid-cycle LH surge is triggered by which hormonal feedback mechanism?",
+      "options": [
+        "A) Positive feedback by high estrogen levels",
+        "B) Positive feedback by FSH",
+        "C) Negative feedback by inhibin",
+        "D) Negative feedback by progesterone"
+      ],
+      "correct_option": "A",
+      "explanation": "Rising estrogen from the dominant follicle reaches a threshold that switches from negative to positive feedback, triggering the LH surge that causes ovulation."
+    },
+    {
+      "id": "CUET_BIO_2026_P5_L5_Q50",
+      "topic": "Ecology and Environment",
+      "sub_topic": "Organisms and Populations",
+      "difficulty": "easy",
+      "question": "In a typical grassland ecosystem, the pyramid of numbers is:",
+      "options": [
+        "A) Upright",
+        "B) Bell-shaped",
+        "C) Inverted",
+        "D) Spindle-shaped"
+      ],
+      "correct_option": "A",
+      "explanation": "Grasslands have many producers (grasses) supporting fewer herbivores and even fewer predators, forming an upright pyramid of numbers."
+    }
+  ]
+}

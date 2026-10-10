@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P1_L1",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 1,
+  "difficulty_level": "1",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q01",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Central Problems",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT one of the central problems of an economy?",
+      "options": [
+        "A) For whom to produce?",
+        "B) When to produce?",
+        "C) How to produce?",
+        "D) What to produce?"
+      ],
+      "correct_option": "B",
+      "explanation": "The three central problems are: what to produce, how to produce, and for whom to produce. 'When to produce' is not a central problem."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q02",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Consumer's Equilibrium",
+      "difficulty": "easy",
+      "question": "A consumer is in equilibrium when the marginal utility per rupee spent on each good is:",
+      "options": [
+        "A) Minimum for one good",
+        "B) Maximum for one good",
+        "C) Zero",
+        "D) Equal"
+      ],
+      "correct_option": "D",
+      "explanation": "Consumer equilibrium requires MU per rupee to be equal across all goods (MUx/Px = MUy/Py)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q03",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Demand",
+      "difficulty": "easy",
+      "question": "Movement along the demand curve is caused by a change in:",
+      "options": [
+        "A) Income of the consumer",
+        "B) Tastes and preferences",
+        "C) Price of the related good",
+        "D) Price of the good itself"
+      ],
+      "correct_option": "D",
+      "explanation": "Movement along the demand curve occurs due to a change in the price of the good itself, while shifts are caused by non-price factors."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q04",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Demand Determinants",
+      "difficulty": "easy",
+      "question": "Which of the following will cause a rightward shift in the demand curve for smartphones?",
+      "options": [
+        "A) Rise in price of mobile data plans",
+        "B) Increase in consumer income",
+        "C) Fall in price of smartphones",
+        "D) Decrease in population"
+      ],
+      "correct_option": "B",
+      "explanation": "A rise in consumer income increases demand for normal goods, shifting the curve rightward. A fall in own price causes movement along the curve, not a shift."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q05",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "If the price of a good rises by 10% and quantity demanded falls by 20%, the price elasticity of demand is:",
+      "options": [
+        "A) 2",
+        "B) 10",
+        "C) 200",
+        "D) 0.5"
+      ],
+      "correct_option": "A",
+      "explanation": "Ed = % change in quantity / % change in price = 20/10 = 2 (elastic)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q06",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "easy",
+      "question": "Demand for a good is said to be inelastic when:",
+      "options": [
+        "A) Ed = 0",
+        "B) Ed < 1",
+        "C) Ed = 1",
+        "D) Ed > 1"
+      ],
+      "correct_option": "B",
+      "explanation": "When Ed < 1, the percentage change in quantity demanded is less than the percentage change in price — demand is inelastic."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q07",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Utility Approach",
+      "difficulty": "medium",
+      "question": "If MUx = 60, Px = 12, MUy = 30, and Py = 6, the consumer is:",
+      "options": [
+        "A) Better off buying more Y and less X",
+        "B) Better off buying more X and less Y",
+        "C) In equilibrium",
+        "D) At a corner solution"
+      ],
+      "correct_option": "C",
+      "explanation": "MUx/Px = 60/12 = 5 and MUy/Py = 30/6 = 5. Since they are equal, the consumer is in equilibrium."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q08",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "medium",
+      "question": "A vertical demand curve indicates which type of elasticity?",
+      "options": [
+        "A) Perfectly inelastic",
+        "B) Relatively inelastic",
+        "C) Perfectly elastic",
+        "D) Unit elastic"
+      ],
+      "correct_option": "A",
+      "explanation": "A vertical demand curve means quantity demanded does not change at all when price changes — perfectly inelastic demand (Ed = 0)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q09",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Demand",
+      "difficulty": "medium",
+      "question": "If the cross-price elasticity of demand between tea and coffee is +2.5, the two goods are:",
+      "options": [
+        "A) Complementary goods",
+        "B) Normal goods",
+        "C) Substitute goods",
+        "D) Inferior goods"
+      ],
+      "correct_option": "C",
+      "explanation": "A positive cross-price elasticity means that as the price of one good rises, demand for the other rises — the goods are substitutes."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q10",
+      "topic": "Consumer Behaviour",
+      "sub_topic": "Consumer's Equilibrium",
+      "difficulty": "hard",
+      "question": "A consumer's budget line shifts parallel outward when:",
+      "options": [
+        "A) Consumer's income falls",
+        "B) Price ratio changes",
+        "C) Price of one good falls",
+        "D) Price of both goods fall proportionally"
+      ],
+      "correct_option": "D",
+      "explanation": "A parallel outward shift occurs when income rises (or both prices fall by the same proportion) — the slope (price ratio) remains unchanged but purchasing power increases."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q11",
+      "topic": "Production and Costs",
+      "sub_topic": "Production Function",
+      "difficulty": "easy",
+      "question": "In the short run, which factor of production is typically fixed?",
+      "options": [
+        "A) Capital",
+        "B) Raw materials",
+        "C) Power",
+        "D) Labour"
+      ],
+      "correct_option": "A",
+      "explanation": "In the short run, capital (plant, machinery) is typically fixed, while labour and raw materials are variable."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q12",
+      "topic": "Production and Costs",
+      "sub_topic": "TP, MP, AP",
+      "difficulty": "easy",
+      "question": "When marginal product is falling but positive, total product is:",
+      "options": [
+        "A) At its maximum",
+        "B) Rising at an increasing rate",
+        "C) Rising at a decreasing rate",
+        "D) Falling"
+      ],
+      "correct_option": "C",
+      "explanation": "As long as MP is positive, TP rises. When MP is falling (but > 0), TP rises at a decreasing rate."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q13",
+      "topic": "Production and Costs",
+      "sub_topic": "Cost Concepts",
+      "difficulty": "easy",
+      "question": "Which cost remains even when output is zero?",
+      "options": [
+        "A) Average variable cost",
+        "B) Marginal cost",
+        "C) Variable cost",
+        "D) Fixed cost"
+      ],
+      "correct_option": "D",
+      "explanation": "Fixed costs (e.g., rent, insurance) are incurred even at zero output; variable costs are zero when output is zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q14",
+      "topic": "Production and Costs",
+      "sub_topic": "Revenue Concepts",
+      "difficulty": "easy",
+      "question": "When average revenue is constant, marginal revenue is:",
+      "options": [
+        "A) Equal to AR",
+        "B) Zero",
+        "C) Less than AR",
+        "D) Greater than AR"
+      ],
+      "correct_option": "A",
+      "explanation": "When AR is constant (horizontal demand curve), each additional unit adds exactly the same amount to total revenue, so MR = AR."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q15",
+      "topic": "Production and Costs",
+      "sub_topic": "Producer's Equilibrium",
+      "difficulty": "easy",
+      "question": "Producer's equilibrium under perfect competition is achieved when:",
+      "options": [
+        "A) MC = MR and MC is falling",
+        "B) MC = MR and MC is rising",
+        "C) MC < MR",
+        "D) MC > MR"
+      ],
+      "correct_option": "B",
+      "explanation": "The producer maximizes profit where MC = MC, provided MC is rising (or cuts MR from below)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q16",
+      "topic": "Perfect Competition",
+      "sub_topic": "Features",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a feature of perfect competition?",
+      "options": [
+        "A) Significant advertising",
+        "B) Large number of buyers and sellers",
+        "C) Free entry and exit",
+        "D) Homogeneous products"
+      ],
+      "correct_option": "A",
+      "explanation": "In perfect competition, products are identical, so there is no need for advertising. Advertising implies product differentiation."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q17",
+      "topic": "Perfect Competition",
+      "sub_topic": "Price Determination",
+      "difficulty": "easy",
+      "question": "In perfect competition, the firm faces a demand curve that is:",
+      "options": [
+        "A) Upward sloping",
+        "B) Perfectly inelastic (vertical)",
+        "C) Perfectly elastic (horizontal)",
+        "D) Downward sloping"
+      ],
+      "correct_option": "C",
+      "explanation": "A perfectly competitive firm is a price taker and faces a perfectly elastic (horizontal) demand curve at the market price."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q18",
+      "topic": "Production and Costs",
+      "sub_topic": "Cost Curves",
+      "difficulty": "medium",
+      "question": "Average total cost (ATC) is equal to:",
+      "options": [
+        "A) AFC - AVC",
+        "B) AFC × AVC",
+        "C) AFC + AVC",
+        "D) MC + AVC"
+      ],
+      "correct_option": "C",
+      "explanation": "ATC = TC/Q = (FC + VC)/Q = AFC + AVC."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q19",
+      "topic": "Perfect Competition",
+      "sub_topic": "Profit Maximization",
+      "difficulty": "medium",
+      "question": "If market price is Rs 20, MC of the 5th unit is Rs 18, and MC of the 6th unit is Rs 22, the firm should produce:",
+      "options": [
+        "A) Shut down",
+        "B) More than 6 units",
+        "C) 6 units",
+        "D) 5 units"
+      ],
+      "correct_option": "D",
+      "explanation": "The firm should produce 5 units: at Q=5, MC < P (so producing the 5th unit adds profit), but at Q=6, MC > P (the 6th unit would reduce profit)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q20",
+      "topic": "Perfect Competition",
+      "sub_topic": "Supply and Price Determination",
+      "difficulty": "hard",
+      "question": "In a perfectly competitive market, if demand increases while supply remains unchanged, what happens to the equilibrium price and the number of firms in the long run?",
+      "options": [
+        "A) Price rises, number of firms rises",
+        "B) Price returns to original, number of firms rises",
+        "C) Price falls, number of firms falls",
+        "D) Price rises, number of firms falls"
+      ],
+      "correct_option": "B",
+      "explanation": "In the short run, demand increase raises price (super-normal profits). In the long run, new firms enter, supply increases, price returns to the original (minimum ATC), but the number of firms is higher."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q21",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Equilibrium",
+      "difficulty": "easy",
+      "question": "At the equilibrium price, quantity demanded is:",
+      "options": [
+        "A) Greater than quantity supplied",
+        "B) Equal to quantity supplied",
+        "C) Zero",
+        "D) Less than quantity supplied"
+      ],
+      "correct_option": "B",
+      "explanation": "Equilibrium occurs where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q22",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Excess Demand",
+      "difficulty": "easy",
+      "question": "Excess demand occurs when the market price is:",
+      "options": [
+        "A) Above equilibrium",
+        "B) Independent of equilibrium",
+        "C) Equal to equilibrium",
+        "D) Below equilibrium"
+      ],
+      "correct_option": "D",
+      "explanation": "When price is below equilibrium, consumers want to buy more than producers want to sell, creating excess demand."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q23",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Ceiling",
+      "difficulty": "easy",
+      "question": "A government-imposed maximum price below the equilibrium price is called:",
+      "options": [
+        "A) Price ceiling",
+        "B) Subsidy",
+        "C) Administered price",
+        "D) Price floor"
+      ],
+      "correct_option": "A",
+      "explanation": "A price ceiling (maximum legal price) set below equilibrium creates excess demand (shortage)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q24",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Floor",
+      "difficulty": "easy",
+      "question": "Minimum support price (MSP) for agricultural goods is an example of:",
+      "options": [
+        "A) Market equilibrium price",
+        "B) Black marketing",
+        "C) Price ceiling",
+        "D) Price floor"
+      ],
+      "correct_option": "D",
+      "explanation": "MSP is a government-imposed minimum price (price floor) above equilibrium to protect farmers' incomes."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q25",
+      "topic": "National Income Accounting",
+      "sub_topic": "Circular Flow",
+      "difficulty": "easy",
+      "question": "In a simple two-sector economy, the circular flow shows that:",
+      "options": [
+        "A) Income = Saving",
+        "B) Income = Consumption",
+        "C) Income = Output",
+        "D) Income = Investment"
+      ],
+      "correct_option": "C",
+      "explanation": "In the circular flow, the value of output produced equals the income earned by factors of production."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q26",
+      "topic": "National Income Accounting",
+      "sub_topic": "Methods of Calculating NI",
+      "difficulty": "easy",
+      "question": "The product method calculates national income by summing:",
+      "options": [
+        "A) All expenditures made",
+        "B) Taxes collected",
+        "C) All incomes earned",
+        "D) Value added at each stage of production"
+      ],
+      "correct_option": "D",
+      "explanation": "The product (value-added) method sums the value added at each stage to avoid double counting."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q27",
+      "topic": "National Income Accounting",
+      "sub_topic": "GDP Concepts",
+      "difficulty": "easy",
+      "question": "GDP at factor cost is equal to GDP at market price minus:",
+      "options": [
+        "A) Direct taxes",
+        "B) Indirect taxes minus subsidies",
+        "C) Indirect taxes plus subsidies",
+        "D) Depreciation"
+      ],
+      "correct_option": "B",
+      "explanation": "GDP at factor cost = GDP at market price − indirect taxes + subsidies."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q28",
+      "topic": "Market Equilibrium",
+      "sub_topic": "Shifts in Demand/Supply",
+      "difficulty": "medium",
+      "question": "If both demand and supply increase, the equilibrium quantity will definitely:",
+      "options": [
+        "A) Decrease",
+        "B) May increase or decrease",
+        "C) Increase",
+        "D) Remain unchanged"
+      ],
+      "correct_option": "C",
+      "explanation": "An increase in both demand and supply unambiguously increases equilibrium quantity; the effect on price is indeterminate."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q29",
+      "topic": "National Income Accounting",
+      "sub_topic": "GDP and Welfare",
+      "difficulty": "medium",
+      "question": "Which of the following is a limitation of GDP as a measure of welfare?",
+      "options": [
+        "A) It is measured at current prices",
+        "B) It does not account for income distribution",
+        "C) It includes all goods and services produced",
+        "D) It measures only final goods"
+      ],
+      "correct_option": "B",
+      "explanation": "GDP does not reflect how income is distributed — a country can have high GDP but extreme inequality."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q30",
+      "topic": "National Income Accounting",
+      "sub_topic": "Income Method",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT included in the income method of calculating national income?",
+      "options": [
+        "A) Wages and salaries",
+        "B) Rent",
+        "C) Intermediate consumption",
+        "D) Profit"
+      ],
+      "correct_option": "C",
+      "explanation": "The income method sums factor incomes (wages, rent, interest, profit). Intermediate consumption is used in the value-added method, not the income method."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q31",
+      "topic": "Money and Banking",
+      "sub_topic": "Functions of Money",
+      "difficulty": "easy",
+      "question": "Which of the following is the most liquid form of money?",
+      "options": [
+        "A) Currency and coins",
+        "B) Time deposits",
+        "C) Treasury bills",
+        "D) Demand deposits"
+      ],
+      "correct_option": "A",
+      "explanation": "Currency and coins (legal tender) are the most liquid — they require no conversion to be used for transactions."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q32",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Supply",
+      "difficulty": "easy",
+      "question": "The supply of money in an economy includes:",
+      "options": [
+        "A) Currency held by the public",
+        "B) Only bank reserves",
+        "C) Currency held by the public plus time deposits",
+        "D) Currency held by the public plus demand deposits"
+      ],
+      "correct_option": "D",
+      "explanation": "M1 (narrow money) = currency held by the public + demand deposits with banks."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q33",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank",
+      "difficulty": "easy",
+      "question": "Which of the following is a function of the Reserve Bank of India?",
+      "options": [
+        "A) Accepting deposits from the public",
+        "B) Lending to farmers",
+        "C) Issuing currency",
+        "D) Providing insurance to industries"
+      ],
+      "correct_option": "C",
+      "explanation": "The RBI has the sole authority to issue currency notes in India (except one-rupee notes issued by the government)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q34",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Aggregate Demand",
+      "difficulty": "easy",
+      "question": "Aggregate demand in a two-sector model consists of:",
+      "options": [
+        "A) Consumption + Saving",
+        "B) Consumption + Net exports",
+        "C) Consumption + Investment",
+        "D) Consumption + Government spending"
+      ],
+      "correct_option": "C",
+      "explanation": "In a two-sector model (no government, no foreign trade), AD = C + I."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q35",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Excess Demand",
+      "difficulty": "easy",
+      "question": "Excess demand in the economy leads to:",
+      "options": [
+        "A) Rise in prices",
+        "B) Fall in output",
+        "C) Fall in prices",
+        "D) Increase in unemployment"
+      ],
+      "correct_option": "A",
+      "explanation": "Excess demand (AD > AS) creates inflationary pressure, leading to a rise in the general price level."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q36",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand",
+      "difficulty": "easy",
+      "question": "Which of the following is a consequence of deficient demand?",
+      "options": [
+        "A) Increase in employment",
+        "B) Deflationary gap",
+        "C) Excess capacity utilization",
+        "D) Inflation"
+      ],
+      "correct_option": "B",
+      "explanation": "Deficient demand means AD < AS, leading to a deflationary gap, unsold inventory, and potential under-utilization of resources."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q37",
+      "topic": "Government Budget",
+      "sub_topic": "Components",
+      "difficulty": "easy",
+      "question": "Revenue receipts include:",
+      "options": [
+        "A) Borrowings",
+        "B) Recovery of loans",
+        "C) Income tax and corporate tax",
+        "D) Sale of public assets"
+      ],
+      "correct_option": "C",
+      "explanation": "Revenue receipts are those that do not create a liability or reduce an asset — e.g., taxes. Borrowings and asset sales are capital receipts."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q38",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Multiplier",
+      "difficulty": "medium",
+      "question": "If the legal reserve ratio is 20%, the money multiplier is:",
+      "options": [
+        "A) 2",
+        "B) 10",
+        "C) 5",
+        "D) 20"
+      ],
+      "correct_option": "C",
+      "explanation": "Money multiplier = 1/rr = 1/0.20 = 5."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q39",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier",
+      "difficulty": "medium",
+      "question": "If the marginal propensity to save (MPS) is 0.25, the investment multiplier is:",
+      "options": [
+        "A) 2.5",
+        "B) 0.25",
+        "C) 1.25",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "Multiplier = 1/MPS = 1/0.25 = 4."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q40",
+      "topic": "Government Budget",
+      "sub_topic": "Fiscal Deficit",
+      "difficulty": "hard",
+      "question": "Fiscal deficit equals:",
+      "options": [
+        "A) Revenue expenditure − revenue receipts",
+        "B) Total expenditure − total receipts excluding borrowings",
+        "C) Total expenditure − revenue receipts",
+        "D) Total expenditure − total receipts"
+      ],
+      "correct_option": "B",
+      "explanation": "Fiscal deficit = Total expenditure − (Revenue receipts + Non-debt capital receipts like recovery of loans). It measures the borrowings required by the government."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q41",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "easy",
+      "question": "Which account in the balance of payments records trade in goods and services?",
+      "options": [
+        "A) Official reserves account",
+        "B) Financial account",
+        "C) Capital account",
+        "D) Current account"
+      ],
+      "correct_option": "D",
+      "explanation": "The current account records trade in goods (visible) and services (invisible), income flows, and transfers."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q42",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Balance of Payments",
+      "difficulty": "easy",
+      "question": "A surplus in the balance of payments means:",
+      "options": [
+        "A) Imports exceed exports",
+        "B) Credits exceed debits",
+        "C) Debits exceed credits",
+        "D) Capital outflow exceeds inflow"
+      ],
+      "correct_option": "B",
+      "explanation": "BOP surplus means the total credits (inflows) exceed total debits (outflows) across all accounts."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q43",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Exchange Rate",
+      "difficulty": "easy",
+      "question": "Under a flexible exchange rate system, the exchange rate is determined by:",
+      "options": [
+        "A) International Monetary Fund",
+        "B) Government",
+        "C) Market forces of demand and supply",
+        "D) Central bank"
+      ],
+      "correct_option": "C",
+      "explanation": "In a flexible (floating) exchange rate system, the rate is determined by the demand and supply of foreign currency in the foreign exchange market."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q44",
+      "topic": "Indian Economic Development",
+      "sub_topic": "Pre-Independence",
+      "difficulty": "easy",
+      "question": "On the eve of independence, India's economy was primarily:",
+      "options": [
+        "A) Export-oriented",
+        "B) Industrial",
+        "C) Agricultural",
+        "D) Service-based"
+      ],
+      "correct_option": "C",
+      "explanation": "India's economy was predominantly agrarian at independence, with over 70% of the population dependent on agriculture."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q45",
+      "topic": "Indian Economic Development",
+      "sub_topic": "Five Year Plans",
+      "difficulty": "easy",
+      "question": "The First Five Year Plan in India (1951-52) gave top priority to:",
+      "options": [
+        "A) Agriculture and irrigation",
+        "B) Heavy industry",
+        "C) Information technology",
+        "D) Service sector"
+      ],
+      "correct_option": "A",
+      "explanation": "The First Five Year Plan prioritized agriculture and irrigation to address food shortages and the legacy of partition."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q46",
+      "topic": "Indian Economic Development",
+      "sub_topic": "Economic Reforms 1991",
+      "difficulty": "easy",
+      "question": "The LPG reforms introduced in 1991 stand for:",
+      "options": [
+        "A) Labour, Price, Goods",
+        "B) Land, Production, Growth",
+        "C) Liberal, Public, Government",
+        "D) Liberalisation, Privatisation, Globalisation"
+      ],
+      "correct_option": "D",
+      "explanation": "LPG = Liberalisation (removing restrictions), Privatisation (reducing public sector role), Globalisation (integrating with the world economy)."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q47",
+      "topic": "Indian Economic Development",
+      "sub_topic": "Human Capital",
+      "difficulty": "easy",
+      "question": "Human capital formation refers to:",
+      "options": [
+        "A) Increase in money supply",
+        "B) Increase in the stock of machines",
+        "C) Development of skills and knowledge in people",
+        "D) Increase in population"
+      ],
+      "correct_option": "C",
+      "explanation": "Human capital is the stock of skills, knowledge, and experience possessed by individuals — it makes people more productive."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q48",
+      "topic": "Indian Economic Development",
+      "sub_topic": "Rural Development",
+      "difficulty": "easy",
+      "question": "Which institution plays a key role in providing credit to Indian farmers?",
+      "options": [
+        "A) Commercial banks and cooperatives",
+        "B) Stock exchanges",
+        "C) Reserve Bank of India",
+        "D) Insurance companies"
+      ],
+      "correct_option": "A",
+      "explanation": "Commercial banks, regional rural banks, and cooperative societies are major sources of agricultural credit in India."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q49",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Exchange Rate",
+      "difficulty": "medium",
+      "question": "Depreciation of the Indian rupee against the US dollar means:",
+      "options": [
+        "A) Indian imports become cheaper in rupee terms",
+        "B) More rupees are needed to buy one dollar",
+        "C) Fewer rupees are needed to buy one dollar",
+        "D) Indian exports become more expensive in dollar terms"
+      ],
+      "correct_option": "B",
+      "explanation": "Depreciation means the domestic currency weakens — more rupees are needed to buy one dollar, making Indian exports cheaper abroad."
+    },
+    {
+      "id": "CUET_ECO_2026_P1_L1_Q50",
+      "topic": "Indian Economic Development",
+      "sub_topic": "Current Challenges",
+      "difficulty": "medium",
+      "question": "Which of the following is a major challenge of the informal sector in India?",
+      "options": [
+        "A) Access to social security benefits",
+        "B) Low wages and lack of regulated working conditions",
+        "C) Over-regulation by the government",
+        "D) High job security"
+      ],
+      "correct_option": "B",
+      "explanation": "Informal sector workers typically face low wages, no job security, no social security benefits, and unregulated working conditions."
+    }
+  ]
+}

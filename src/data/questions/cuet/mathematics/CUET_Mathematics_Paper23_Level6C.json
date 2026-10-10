@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P23_L6C",
+  "series_id": "CUET_MATH_2026",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "paper_number": 23,
+  "difficulty_level": "6C",
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q01",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differentiation",
+      "difficulty": "easy",
+      "question": "If y = x^{3} - 4x^{2} + 2x - 5, then dy/dx at x = 1 is:",
+      "options": [
+        "A) 5",
+        "B) -3",
+        "C) 3",
+        "D) -1"
+      ],
+      "correct_option": "B",
+      "explanation": "dy/dx = 3x^{2} - 8x + 2. At x=1: 3(1)^2 - 8(1) + 2 = 3 - 8 + 2 = -3."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q02",
+      "topic": "Matrices",
+      "sub_topic": "Matrix Operations",
+      "difficulty": "easy",
+      "question": "If A is a 3×2 matrix and B is a 2×4 matrix, then the order of AB is:",
+      "options": [
+        "A) 2×2",
+        "B) 2×4",
+        "C) 3×4",
+        "D) 4×3"
+      ],
+      "correct_option": "C",
+      "explanation": "When multiplying a 3×2 matrix by a 2×4 matrix, the result has order (3×4)."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q03",
+      "topic": "Probability",
+      "sub_topic": "Basic Probability",
+      "difficulty": "easy",
+      "question": "A die is rolled. The probability of getting an even number or a number greater than 4 is:",
+      "options": [
+        "A) 5/6",
+        "B) 1/6",
+        "C) 1/2",
+        "D) 2/3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Even numbers: {2,4,6}, Numbers > 4: {5,6}. Union = {2,4,5,6} = 4 outcomes. P = \\frac{4}{6} = \\frac{2}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q04",
+      "topic": "Determinants",
+      "sub_topic": "Evaluation",
+      "difficulty": "easy",
+      "question": "\\( If A = [[3, 1], [2, 5]], then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 11",
+        "B) 15",
+        "C) 13",
+        "D) 17"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = (3)(5) - (1)(2) = 15 - 2 = 13. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q05",
+      "topic": "Integrals",
+      "sub_topic": "Indefinite Integration",
+      "difficulty": "easy",
+      "question": "Evaluate the indefinite integral ∫(x³ + x² + x + 1) dx.",
+      "options": [
+        "A) x⁴/4 + x³/3 + x²/2 + x + C",
+        "B) x⁴ + x³ + x² + x + C",
+        "C) x⁴/4 + x³/2 + x + C",
+        "D) 3x² + 2x + 1 + C"
+      ],
+      "correct_option": "A",
+      "explanation": "∫(x³+x²+x+1)dx = x⁴/4 + x³/3 + x²/2 + x + C. We integrate each term using the power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q06",
+      "topic": "Relations and Functions",
+      "sub_topic": "Trigonometric Functions",
+      "difficulty": "easy",
+      "question": "\\( The range of the function f(x) = 2 \\sin(x) + 3 is: \\)",
+      "options": [
+        "A) [-2, 2]",
+        "B) [1, 5]",
+        "C) [3, 5]",
+        "D) [-1, 1]"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Since \\sin(x) ∈ [-1,1], then 2sin(x) ∈ [-2,2], so 2sin(x)+3 ∈ [1,5]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q07",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Principal Values",
+      "difficulty": "easy",
+      "question": "\\( The value of \\tan^{-1}(1) + \\tan^{-1}(-1) is: \\)",
+      "options": [
+        "A) -π/2",
+        "B) π/2",
+        "C) 0",
+        "D) π"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( \\tan^{-1}(1) = π/4, \\tan^{-1}(-1) = -π/4. Sum = 0. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q08",
+      "topic": "Linear Programming",
+      "sub_topic": "Feasible Region",
+      "difficulty": "easy",
+      "question": "The feasible region of a linear programming problem is always a:",
+      "options": [
+        "A) Parabola",
+        "B) Circle",
+        "C) Convex polygon",
+        "D) Concave polygon"
+      ],
+      "correct_option": "C",
+      "explanation": "The feasible region of a linear programming problem is always a convex polygon (convex set)."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q09",
+      "topic": "Financial Mathematics",
+      "sub_topic": "Compound Interest",
+      "difficulty": "easy",
+      "question": "The compound interest on ₹1000 for 2 years at 10% per annum, compounded annually, is:",
+      "options": [
+        "A) ₹100",
+        "B) ₹210",
+        "C) ₹200",
+        "D) ₹1210"
+      ],
+      "correct_option": "B",
+      "explanation": "A = 1000(1.1)^2 = 1000 × 1.21 = 1210. CI = 1210 - 1000 = ₹210."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q10",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "If the probability of an event A is 0.7, what is the probability of the complement of A?",
+      "options": [
+        "A) 0.3",
+        "B) 0.7",
+        "C) 1",
+        "D) 0"
+      ],
+      "correct_option": "A",
+      "explanation": "P(A') = 1 − P(A) = 1 − 0.7 = 0.3. The complement rule states that the probability of an event not occurring is 1 minus the probability of it occurring."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q11",
+      "topic": "Matrices",
+      "sub_topic": "Identity Matrix",
+      "difficulty": "easy",
+      "question": "If I is the 3×3 identity matrix and A is a 3×3 matrix, then AI equals:",
+      "options": [
+        "A) I",
+        "B) 0",
+        "C) A^T",
+        "D) A"
+      ],
+      "correct_option": "D",
+      "explanation": "By the identity matrix property: AI = IA = A."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q12",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Exponential Functions",
+      "difficulty": "easy",
+      "question": "Find the value: The derivative of f(x) = e^{(3x)} is:",
+      "options": [
+        "A) e^(3x)/3",
+        "B) 3e^(3x)",
+        "C) 3x·e^(3x)",
+        "D) e^(3x)"
+      ],
+      "correct_option": "B",
+      "explanation": "d/dx[e^{(3x)}] = e^{(3x)} · d/dx(3x) = 3e^{(3x)}. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q13",
+      "topic": "Integrals",
+      "sub_topic": "Definite Integration",
+      "difficulty": "medium",
+      "question": "If A is a 2×2 matrix with tr(A) = 5 and |A| = 6, what are the eigenvalues?",
+      "options": [
+        "A) 2 and 3",
+        "B) 1 and 4",
+        "C) -1 and 6",
+        "D) 5 and 1"
+      ],
+      "correct_option": "A",
+      "explanation": "λ₁ + λ₂ = 5, λ₁λ₂ = 6. Solving: λ = 2, 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q14",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Identities",
+      "difficulty": "medium",
+      "question": "\\( If \\tan^{-1}(x) + \\tan^{-1}(y) = π/4, and xy < 1, then x + y + xy equals: \\)",
+      "options": [
+        "A) 2",
+        "B) -1",
+        "C) 1",
+        "D) 0"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using \\tan^{-1}(x) + \\tan^{-1}(y) = \\tan^{-1}((x+y)/(1-xy)) = π/4. So (x+y)/(1-xy) = 1, giving x+y = 1-xy, so x+y+xy = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q15",
+      "topic": "Probability",
+      "sub_topic": "Conditional Probability",
+      "difficulty": "medium",
+      "question": "Two cards are drawn from a pack of 52 cards without replacement. The probability that both are hearts is:",
+      "options": [
+        "A) 1/17",
+        "B) 1/26",
+        "C) 13/52",
+        "D) 1/13"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(both hearts) = (\\frac{13}{52}) × (\\frac{12}{51}) = (\\frac{1}{4}) × (\\frac{12}{51}) = \\frac{12}{204} = \\frac{1}{17}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q16",
+      "topic": "Matrices",
+      "sub_topic": "Multiplication",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], then AB equals:",
+      "options": [
+        "A) [[1, 2], [3, 4]]",
+        "B) [[2, 1], [3, 4]]",
+        "C) [[3, 4], [1, 2]]",
+        "D) [[2, 1], [4, 3]]"
+      ],
+      "correct_option": "D",
+      "explanation": "AB = [[1·0+2·1, 1·1+2·0], [3·0+4·1, 3·1+4·0]] = [[2, 1], [4, 3]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q17",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Maxima and Minima",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 6x² + 9x + 2 has a local minimum at:",
+      "options": [
+        "A) x = 3",
+        "B) x = 0",
+        "C) x = 2",
+        "D) x = 1"
+      ],
+      "correct_option": "A",
+      "explanation": "f'(x) = 3x² - 12x + 9 = 3(x-1)(x-3). f''(x) = 6x - 12. f''(3) = 6 > 0, so x = 3 is a local minimum."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q18",
+      "topic": "Integrals",
+      "sub_topic": "Integration by Parts",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: The value of ∫x·e^(2x) dx is:",
+      "options": [
+        "A) e^(2x)(2x-1)/4 + C",
+        "B) e^(2x)(x-1)/2 + C",
+        "C) e^(2x)(2x+1)/4 + C",
+        "D) e^(2x)(x+1)/2 + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Integration by parts: u = x, dv = e^(2x)dx. Result = xe^(2x)/2 - e^(2x)/4 + C = e^(2x)(2x-1)/4 + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q19",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "If the determinant of matrix [[a, b], [c, d]] is 10, what is the determinant of [[2a, 2b], [3c, 3d]]?",
+      "options": [
+        "A) 60",
+        "B) 20",
+        "C) 30",
+        "D) 10"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\left| \\1 \\right| = 2×3 × \\left| \\1 \\right| = 6 × 10 = 60. Multiplying a row by k multiplies the determinant by k. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q20",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse of a Function",
+      "difficulty": "medium",
+      "question": "If f(x) = (2x + 1)/(x - 3), then f^{-1}(x) equals:",
+      "options": [
+        "A) (x + 1)/(2x - 3)",
+        "B) (3x + 1)/(x - 2)",
+        "C) (x - 3)/(2x + 1)",
+        "D) (3x - 1)/(x + 2)"
+      ],
+      "correct_option": "B",
+      "explanation": "y = (2x+1)/(x-3) ⟹ y(x-3) = 2x+1 ⟹ yx - 3y = 2x+1 ⟹ x(y-2) = 3y+1 ⟹ x = (3y+1)/(y-2). So f^{-1}(x) = (3x+1)/(x-2)."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q21",
+      "topic": "Probability Distributions",
+      "sub_topic": "Normal Distribution",
+      "difficulty": "medium",
+      "question": "In a normal distribution with mean 50 and standard deviation 10, the z-score for x = 70 is:",
+      "options": [
+        "A) 0.5",
+        "B) 2",
+        "C) 1",
+        "D) 20"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( z = (x - μ)/σ = (70 - 50)/10 = \\frac{20}{10} = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q22",
+      "topic": "Financial Mathematics",
+      "sub_topic": "Compound Interest",
+      "difficulty": "medium",
+      "question": "The amount on ₹5000 at 8% per annum for 1.5 years, compounded half-yearly, is:",
+      "options": [
+        "A) ₹5600",
+        "B) ₹5400",
+        "C) ₹5800",
+        "D) ₹5624.32"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Rate per period = \\frac{8}{2} = 4%, n = 3 half-years. A = 5000(1.04)³ = 5000 × 1.124864 = ₹5624.32. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q23",
+      "topic": "Probability Distributions",
+      "sub_topic": "Binomial Distribution",
+      "difficulty": "medium",
+      "question": "In a binomial distribution with n = 5 and p = 0.4, P(X = 2) equals:",
+      "options": [
+        "A) 0.432",
+        "B) 0.3456",
+        "C) 0.2592",
+        "D) 0.2304"
+      ],
+      "correct_option": "B",
+      "explanation": "P(X=2) = C(5,2) × (0.4)² × (0.6)³ = 10 × 0.16 × 0.216 = 0.3456."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q24",
+      "topic": "Matrices",
+      "sub_topic": "Solving Linear Equations",
+      "difficulty": "medium",
+      "question": "If AX = B where A = [[2, 1], [1, 3]], B = [[5], [10]], then X equals:",
+      "options": [
+        "A) [[2], [1]]",
+        "B) [[1], [3]]",
+        "C) [[1], [2]]",
+        "D) [[3], [1]]"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( det(A) = 5. A^{-1} = (\\frac{1}{5})[[3, -1], [-1, 2]]. X = A^{-1}B = (\\frac{1}{5})[[3·5-1·10], [-1·5+2·10]] = (\\frac{1}{5})[[5], [15]] = [[1], [3]]. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q25",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Tangent and Normal",
+      "difficulty": "medium",
+      "question": "The equation of the tangent to the curve y = x² at the point (3, 9) is:",
+      "options": [
+        "A) y = 6x + 9",
+        "B) y = 6x - 9",
+        "C) y = 3x - 9",
+        "D) y = 3x + 9"
+      ],
+      "correct_option": "B",
+      "explanation": "dy/dx = 2x. At x = 3, slope = 6. Tangent: y - 9 = 6(x - 3) → y = 6x - 9."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q26",
+      "topic": "Integrals",
+      "sub_topic": "Trigonometric Integration",
+      "difficulty": "medium",
+      "question": "\\( Evaluate the indefinite integral of \\sin squared x with respect to x. \\)",
+      "options": [
+        "A) x/2 + sin(2x)/4 + C",
+        "B) x/2 - sin(2x)/4 + C",
+        "C) x - sin(x) + C",
+        "D) -cos²(x)/2 + C"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using identity \\sin^{2}(x) = (1-\\cos(2x))/2: result = x/2 - \\sin(2x)/4 + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q27",
+      "topic": "Linear Programming",
+      "sub_topic": "Graphical Method",
+      "difficulty": "medium",
+      "question": "Maximize Z = 3x + 2y subject to x + y ≤ 4, x ≥ 0, y ≥ 0. The maximum value is:",
+      "options": [
+        "A) 12",
+        "B) 6",
+        "C) 10",
+        "D) 8"
+      ],
+      "correct_option": "A",
+      "explanation": "Corner points: (0,0)→0, (4,0)→12, (0,4)→8. Maximum Z = 12 at (4,0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q28",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and Degree",
+      "difficulty": "medium",
+      "question": "The order and degree of the differential equation d³y/dx³ + (d²y/dx²)² + y = 0 are respectively:",
+      "options": [
+        "A) 3 and 1",
+        "B) 2 and 3",
+        "C) 3 and 2",
+        "D) 1 and 3"
+      ],
+      "correct_option": "A",
+      "explanation": "The highest derivative is d³y/dx³, so order = 3. The degree (power of highest derivative) = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q29",
+      "topic": "Probability",
+      "sub_topic": "Multiplication theorem on probability",
+      "difficulty": "medium",
+      "question": "A bag has 5 white, 4 black, and 6 red balls. If three balls are drawn at random without replacement, what is the probability that all three are of different colors?",
+      "options": [
+        "A) 24/91",
+        "B) 120/455",
+        "C) 8/35",
+        "D) 16/65"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Total ways to draw 3 from 15 = C(15,3) = 455. Favorable = 5 × 4 × 6 = 120 (one of each color). P = \\frac{120}{455} = \\frac{24}{91}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q30",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Composition",
+      "difficulty": "medium",
+      "question": "\\( Find the value: \\sin(\\tan^{-1}(\\frac{3}{4})) equals: \\)",
+      "options": [
+        "A) 5/4",
+        "B) 5/3",
+        "C) 4/5",
+        "D) 3/5"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Let θ = \\tan^{-1}(\\frac{3}{4}). Then \\tan(θ) = \\frac{3}{4}. In a right triangle with opposite=3, adjacent=4, hypotenuse=5. \\sin(θ) = \\frac{3}{5}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q31",
+      "topic": "Integrals",
+      "sub_topic": "Area Under Curve",
+      "difficulty": "medium",
+      "question": "The area bounded by y = x², the x-axis, and x = 2 is:",
+      "options": [
+        "A) 8",
+        "B) 8/3",
+        "C) 4/3",
+        "D) 16/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Definite integrals are evaluated using the Fundamental Theorem of Calculus: ∫ₐᵇ f(x)dx = F(b)−F(a). Area = ∫₀² x² dx = [x³/3]₀² = \\frac{8}{3}. This gives the net area under the curve between the limits. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q32",
+      "topic": "Matrices",
+      "sub_topic": "Transpose Properties",
+      "difficulty": "medium",
+      "question": "If A and B are matrices such that AB is defined, then (AB)^T equals:",
+      "options": [
+        "A) AB",
+        "B) A^T B^T",
+        "C) B^T A^T",
+        "D) BA"
+      ],
+      "correct_option": "C",
+      "explanation": "By the transpose property of matrix multiplication: (AB)^T = B^T A^T."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q33",
+      "topic": "Probability Distributions",
+      "sub_topic": "Binomial Distribution",
+      "difficulty": "medium",
+      "question": "For a binomial distribution with n = 10 and p = 0.3, the variance is:",
+      "options": [
+        "A) 2.1",
+        "B) 0.21",
+        "C) 7",
+        "D) 3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( For a binomial distribution B(n,p), the mean is np and variance is np(1−p). Variance = npq = 10 × 0.3 × 0.7 = 2.1. This models the number of successes \\in n independent Bernoulli trials. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q34",
+      "topic": "Differential Equations",
+      "sub_topic": "Variable Separable",
+      "difficulty": "medium",
+      "question": "The general solution of dy/dx = -x/y is:",
+      "options": [
+        "A) x² - y² = C",
+        "B) x² + y² = Cx",
+        "C) y² - x² = C",
+        "D) x² + y² = C"
+      ],
+      "correct_option": "D",
+      "explanation": "Separating variables: y dy = -x dx. Integrating: y²/2 = -x²/2 + C. So x² + y² = C."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q35",
+      "topic": "Financial Mathematics",
+      "sub_topic": "Depreciation",
+      "difficulty": "medium",
+      "question": "A machine costing ₹8000 depreciates at 10% per annum (reducing balance). Its value after 3 years is:",
+      "options": [
+        "A) ₹5832",
+        "B) ₹5600",
+        "C) ₹7200",
+        "D) ₹6480"
+      ],
+      "correct_option": "A",
+      "explanation": "Value = 8000 × (0.9)³ = 8000 × 0.729 = ₹5832."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q36",
+      "topic": "Integrals",
+      "sub_topic": "Substitution Method",
+      "difficulty": "hard",
+      "question": "\\( Evaluate the indefinite integral ∫ x·\\sqrt{x+1} dx. \\)",
+      "options": [
+        "A) (x+1)^{5/2} + C",
+        "B) (2/5)(x+1)^{5/2} + C",
+        "C) (2/3)(x+1)^{3/2} + C",
+        "D) (2/5)(x+1)^{5/2} - (2/3)(x+1)^{3/2} + C"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Let u = x+1, then x = u−1, dx = du. ∫x·\\sqrt{x+1}dx = ∫(u−1)\\sqrt{u} du = ∫(u^{(\\frac{3}{2})} − u^{(\\frac{1}{2})})du = (\\frac{2}{5})(x+1)^(\\frac{5}{2}) − (\\frac{2}{3})(x+1)^(\\frac{3}{2}) + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q37",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Equations",
+      "difficulty": "hard",
+      "question": "\\( The number of solutions of the equation \\sin^{-1}(x) + \\sin^{-1}(2x) = π/3 is: \\)",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 0",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Domain requires \\left| \\1 \\right| ≤ \\frac{1}{2}. Using \\sin^{-1}(x) + \\sin^{-1}(2x) = \\sin^{-1}(x\\sqrt{1-4x²} + 2x\\sqrt{1-x²}) = π/3. This gives x\\sqrt{1-4x²} + 2x\\sqrt{1-x²} = √\\frac{3}{2}. By analysis, there is exactly one solution \\in the valid domain. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q38",
+      "topic": "Probability",
+      "sub_topic": "Total Probability",
+      "difficulty": "hard",
+      "question": "Box A has 2 red and 3 blue balls; Box B has 4 red and 1 blue ball. A fair coin is flipped: if heads, draw from Box A; if tails, from Box B. The probability of drawing a red ball is:",
+      "options": [
+        "A) 3/5",
+        "B) 7/10",
+        "C) 2/5",
+        "D) 11/20"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(red) = P(H)·P(red\\left| \\1 \\right|B) = (\\frac{1}{2})(\\frac{2}{5}) + (\\frac{1}{2})(\\frac{4}{5}) = \\frac{1}{5} + \\frac{2}{5} = \\frac{3}{5}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q39",
+      "topic": "Matrices",
+      "sub_topic": "Inverse of Matrix",
+      "difficulty": "hard",
+      "question": "If A = [[1, 1, 0], [0, 1, 1], [1, 0, 1]], then the (2,3) entry of A^{-1} is:",
+      "options": [
+        "A) 1/3",
+        "B) -1/2",
+        "C) 1/2",
+        "D) -1/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( det(A) = 2. The cofactor matrix is [[1,1,-1],[-1,1,1],[1,-1,0]]. Adjoint = transpose = [[1,-1,1],[1,1,-1],[-1,1,0]]. A^{-1} = adj(A)/2. The (2,3) entry is -\\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q40",
+      "topic": "Integrals",
+      "sub_topic": "Definite Integration",
+      "difficulty": "hard",
+      "question": "Find the value: ∫₀^{π/2} sin³(x) dx equals:",
+      "options": [
+        "A) 4/3",
+        "B) 2/3",
+        "C) 1/3",
+        "D) 1"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( ∫₀^{π/2} sin³(x)dx = ∫₀^{π/2} \\sin(x)(1-cos²(x))dx. Let u=\\cos(x), du=-\\sin(x)dx. When x=0, u=1; x=π/2, u=0. = ∫₁⁰ -(1-u²)du = ∫₀¹ (1-u²)du = [u - u³/3]₀¹ = 1 - \\frac{1}{3} = \\frac{2}{3}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q41",
+      "topic": "Linear Programming",
+      "sub_topic": "Graphical Method",
+      "difficulty": "hard",
+      "question": "Minimize Z = 2x + 3y subject to x + y ≥ 6, 2x + y ≥ 8, x ≥ 0, y ≥ 0. The minimum value is:",
+      "options": [
+        "A) 16",
+        "B) 12",
+        "C) 14",
+        "D) 24"
+      ],
+      "correct_option": "B",
+      "explanation": "Corner points: Intersection of x+y=6 and 2x+y=8 gives x=2, y=4. Other corners: (6,0) from x+y=6, (0,8) from 2x+y=8. Z(2,4)=4+12=16, Z(6,0)=12, Z(0,8)=24. Minimum Z = 12 at (6,0)."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q42",
+      "topic": "Differential Equations",
+      "sub_topic": "Homogeneous DE",
+      "difficulty": "hard",
+      "question": "The general solution of dy/dx = (x² - y²)/(2xy) is:",
+      "options": [
+        "A) x² - y² = Cy",
+        "B) x² - y² = Cx",
+        "C) x² + y² = Cy",
+        "D) x² + y² = Cx"
+      ],
+      "correct_option": "B",
+      "explanation": "Using substitution y = vx, we get v + x dv/dx = (1-v²)/(2v). Separating variables and integrating gives x² - y² = Cx."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q43",
+      "topic": "Integrals",
+      "sub_topic": "Partial Fractions",
+      "difficulty": "hard",
+      "question": "\\( Evaluate the indefinite integral ∫(3x + 5)/(x² + 3x + 2) dx using \\partial fractions. \\)",
+      "options": [
+        "A) ln|x+1| + 2ln|x+2| + C",
+        "B) ln|x+1| - ln|x+2| + C",
+        "C) 2ln|x+1| + ln|x+2| + C",
+        "D) 2ln|x+1| - ln|x+2| + C"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Factor: x²+3x+2 = (x+1)(x+2). Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: A=2, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q44",
+      "topic": "Probability Distributions",
+      "sub_topic": "Poisson Distribution",
+      "difficulty": "hard",
+      "question": "In a Poisson distribution with mean 3, P(X = 2) equals:",
+      "options": [
+        "A) 3/(2e³)",
+        "B) 9/(2e²)",
+        "C) 3/e³",
+        "D) 9/(2e³)"
+      ],
+      "correct_option": "D",
+      "explanation": "Probability theory quantifies uncertainty. P(X=2) = (e^{-3} · 3²)/2! = 9/(2e³). Key concepts include sample spaces, events, and probability distributions."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q45",
+      "topic": "Matrices",
+      "sub_topic": "Matrix Equations",
+      "difficulty": "hard",
+      "question": "If A² - 3A + 2I = 0 for a 2×2 matrix A, then A^{-1} equals:",
+      "options": [
+        "A) (A + 3I)/2",
+        "B) (3I + A)/2",
+        "C) (A - 3I)/2",
+        "D) (3I - A)/2"
+      ],
+      "correct_option": "D",
+      "explanation": "A² - 3A + 2I = 0 ⟹ A² - 3A = -2I ⟹ A(A - 3I) = -2I ⟹ A(3I - A)/2 = I. So A^{-1} = (3I - A)/2."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q46",
+      "topic": "Probability",
+      "sub_topic": "Bayes Theorem",
+      "difficulty": "hard",
+      "question": "A factory has two machines A and B. Machine A produces 60% of items, B produces 40%. Defect rates: A=2%, B=3%. If an item is defective, the probability it came from machine A is:",
+      "options": [
+        "A) 1/3",
+        "B) 3/5",
+        "C) 1/2",
+        "D) 2/5"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( P(A\\left| \\1 \\right|A) / [P(A)·P(D\\left| \\1 \\right|B)] = (0.6×0.02)/(0.6×0.02 + 0.4×0.03) = 0.012/(0.012+0.012) = 0.\\frac{012}{0}.024 = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q47",
+      "topic": "Integrals",
+      "sub_topic": "Advanced Integration",
+      "difficulty": "hard",
+      "question": "\\( Find the value: ∫₀^{π/2} 1/(1 + \\tan x) dx equals: \\)",
+      "options": [
+        "A) 1",
+        "B) π/4",
+        "C) π/2",
+        "D) π/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let I = ∫₀^{π/2} 1/(1+\\tan x)dx. Using the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx: I = ∫₀^{π/2} 1/(1+\\tan(π/2-x))dx = ∫₀^{π/2} 1/(1+\\cot x)dx = ∫₀^{π/2} \\tan x/(1+\\tan x)dx. Adding: 2I = ∫₀^{π/2} (1+\\tan x)/(1+\\tan x)dx = ∫₀^{π/2} 1 dx = π/2. So I = π/4. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q48",
+      "topic": "Matrices",
+      "sub_topic": "Rank of Matrix",
+      "difficulty": "hard",
+      "question": "The rank of the matrix [[1, 2, 3], [2, 4, 6], [3, 6, 9]] is:",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 0",
+        "D) 3"
+      ],
+      "correct_option": "A",
+      "explanation": "Row 2 = 2×Row 1, Row 3 = 3×Row 1. All rows are linearly dependent. Only one linearly independent row, so rank = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q49",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear DE",
+      "difficulty": "hard",
+      "question": "The integrating factor of the differential equation dy/dx + y/x = x² is:",
+      "options": [
+        "A) e^x",
+        "B) x",
+        "C) 1/x",
+        "D) ln(x)"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( The equation is dy/dx + P(x)y = Q(x) where P(x) = 1/x. Integrating factor = e^{∫P(x)dx} = e^{∫(1/x)dx} = e^{\\ln\\left| \\1 \\right|} = x. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P23_L6C_Q50",
+      "topic": "Linear Programming",
+      "sub_topic": "Graphical Method",
+      "difficulty": "hard",
+      "question": "Maximize Z = 4x + 3y subject to 2x + y ≤ 14, x + 2y ≤ 16, x ≥ 0, y ≥ 0. The maximum value is:",
+      "options": [
+        "A) 34",
+        "B) 30",
+        "C) 28",
+        "D) 24"
+      ],
+      "correct_option": "A",
+      "explanation": "Corner points: (0,0)→0, (7,0)→28, (0,8)→24. Intersection of 2x+y=14 and x+2y=16: x=4, y=6. Z(4,6)=16+18=34. Maximum Z = 34 at (4,6)."
+    }
+  ]
+}

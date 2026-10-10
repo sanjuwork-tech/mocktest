@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P22_L4C",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 22,
+  "difficulty_level": "4C",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "PPC Technological Progress",
+      "difficulty": "medium",
+      "question": "An advancement in production technology that improves efficiency in producing both goods simultaneously will cause the Production Possibility Frontier (PPF) to:",
+      "options": [
+        "A) Shift inward to the left",
+        "B) Shift outward to the right",
+        "C) Rotate inward along the vertical axis",
+        "D) Remain completely unchanged"
+      ],
+      "correct_option": "B",
+      "explanation": "Technological advancement in both sectors expands the economy's productive capacity, shifting the entire PPF outward to the right."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q02",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Marginal Rate of Substitution Formula",
+      "difficulty": "hard",
+      "question": "The Marginal Rate of Substitution of good X for good Y (MRS_xy) measures:",
+      "options": [
+        "A) The market price ratio of the two commodities",
+        "B) The amount of good Y a consumer is willing to give up for an additional unit of good X while maintaining the same utility (- Delta Y / Delta X)",
+        "C) The ratio of total expenditure on good X to total expenditure on good Y",
+        "D) The marginal physical product of capital"
+      ],
+      "correct_option": "B",
+      "explanation": "MRS_xy is the slope of the indifference curve, measuring the rate at which the consumer is willing to substitute good X for good Y without altering total satisfaction."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q03",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Budget Line Income Shift",
+      "difficulty": "medium",
+      "question": "When consumer money income increases while the prices of both commodities X and Y remain unchanged, the budget line:",
+      "options": [
+        "A) Shifts inward parallel to itself",
+        "B) Shifts outward parallel to itself",
+        "C) Rotates inward around the Y-intercept",
+        "D) Rotates outward around the X-intercept"
+      ],
+      "correct_option": "B",
+      "explanation": "With constant prices, the slope (- P_x / P_y) remains identical while both intercepts (M / P_x and M / P_y) expand proportionately, shifting the line parallel outward."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q04",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Perfectly Inelastic Demand",
+      "difficulty": "medium",
+      "question": "A demand curve that is perfectly vertical and parallel to the vertical price axis represents:",
+      "options": [
+        "A) Perfectly elastic demand (e_p = infinity)",
+        "B) Perfectly inelastic demand (e_p = 0)",
+        "C) Unitary elastic demand (e_p = 1)",
+        "D) Highly elastic demand (e_p > 1)"
+      ],
+      "correct_option": "B",
+      "explanation": "A vertical demand curve indicates that quantity demanded remains completely unchanged regardless of price fluctuations (elasticity = 0)."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q05",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Perfectly Elastic Demand",
+      "difficulty": "medium",
+      "question": "A demand curve that is horizontal and parallel to the horizontal output axis represents:",
+      "options": [
+        "A) Perfectly inelastic demand (e_p = 0)",
+        "B) Perfectly elastic demand (e_p = infinity)",
+        "C) Unitary elastic demand (e_p = 1)",
+        "D) Relatively inelastic demand (e_p < 1)"
+      ],
+      "correct_option": "B",
+      "explanation": "A horizontal demand curve indicates that buyers will purchase an infinite quantity at the prevailing price, but zero at any slightly higher price (infinite price elasticity)."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q06",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Fixed vs Variable Factors",
+      "difficulty": "medium",
+      "question": "In production theory, which of the following is typically classified as a fixed factor in the short run?",
+      "options": [
+        "A) Raw materials consumed per unit of output",
+        "B) Heavy factory plant building and installed heavy machinery",
+        "C) Casual daily wage labour hired for assembly",
+        "D) Electricity units consumed by operating machines"
+      ],
+      "correct_option": "B",
+      "explanation": "Fixed factors are inputs whose quantity cannot be altered in the short run (e.g. factory buildings, heavy plant equipment), unlike variable factors (labour, raw materials)."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q07",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "TP and MP Relationship",
+      "difficulty": "hard",
+      "question": "When Marginal Product (MP) becomes negative, what happens to the Total Product (TP) curve?",
+      "options": [
+        "A) Total Product rises at an increasing rate",
+        "B) Total Product starts declining",
+        "C) Total Product remains at its absolute peak",
+        "D) Total Product becomes equal to zero"
+      ],
+      "correct_option": "B",
+      "explanation": "Marginal product represents the addition to total product. When MP turns negative, each additional variable unit reduces total output, causing TP to decline."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q08",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Marginal Cost Definition",
+      "difficulty": "medium",
+      "question": "Marginal Cost (MC) is mathematically defined as the:",
+      "options": [
+        "A) Total cost divided by total quantity produced",
+        "B) Addition to total cost from producing one additional unit of output (TC_n - TC_{n-1})",
+        "C) Total fixed cost multiplied by market price",
+        "D) Difference between total revenue and operating profit"
+      ],
+      "correct_option": "B",
+      "explanation": "Marginal cost is the net addition to total cost resulting from the production of an additional unit of output: MC_n = TC_n - TC_{n-1}."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q09",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Average Cost Decomposition",
+      "difficulty": "medium",
+      "question": "Average Total Cost (ATC) is equal to the sum of:",
+      "options": [
+        "A) Total Fixed Cost and Marginal Cost",
+        "B) Average Fixed Cost and Average Variable Cost (AFC + AVC)",
+        "C) Total Variable Cost divided by total revenue",
+        "D) Marginal Revenue and Normal Profit"
+      ],
+      "correct_option": "B",
+      "explanation": "Because TC = TFC + TVC, dividing through by output Q yields ATC = AFC + AVC."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q10",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Total Revenue Curve Competitive Firm",
+      "difficulty": "hard",
+      "question": "In a perfectly competitive market where price is constant at all output levels, what is the shape of the firm's Total Revenue (TR) curve?",
+      "options": [
+        "A) An inverted U-shaped curve reaching a maximum",
+        "B) A straight upward-sloping line originating from the origin",
+        "C) A horizontal straight line parallel to the output axis",
+        "D) A vertical straight line parallel to the revenue axis"
+      ],
+      "correct_option": "B",
+      "explanation": "Since TR = P * Q and price P is constant, TR increases proportionately with output Q, forming an upward-sloping straight line through the origin with a constant slope equal to price."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q11",
+      "topic": "Producer Behaviour and Supply",
+      "sub_topic": "Price Elasticity of Supply Formula",
+      "difficulty": "medium",
+      "question": "The price elasticity of supply (e_s) using the percentage method is formulated as:",
+      "options": [
+        "A) Percentage change in cost divided by percentage change in tax",
+        "B) Percentage change in price divided by percentage change in consumer income",
+        "C) Percentage change in quantity supplied divided by percentage change in price",
+        "D) Total revenue divided by total fixed cost"
+      ],
+      "correct_option": "C",
+      "explanation": "Price elasticity of supply measures the responsiveness of quantity supplied to a change in price: e_s = (% Delta Q_s) / (% Delta P)."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q12",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Market Excess Supply",
+      "difficulty": "hard",
+      "question": "When the prevailing market price is above the equilibrium market price, quantity supplied exceeds quantity demanded, creating:",
+      "options": [
+        "A) Immediate collapse of consumer income to zero",
+        "B) Excess demand (shortage), which pushes market price higher",
+        "C) Excess supply (surplus), which exerts downward pressure on market price until equilibrium is restored",
+        "D) An outward shift in the market demand curve"
+      ],
+      "correct_option": "C",
+      "explanation": "A price above equilibrium creates a surplus. Competing sellers cut prices to clear unsold inventory, driving the price back down to equilibrium."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q13",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Market Excess Demand",
+      "difficulty": "hard",
+      "question": "When the prevailing market price is below the equilibrium market price, quantity demanded exceeds quantity supplied, creating:",
+      "options": [
+        "A) Immediate shutdown of all manufacturing factories",
+        "B) Excess supply (surplus), which depresses prices further",
+        "C) Excess demand (shortage), which exerts upward pressure on market price until equilibrium is restored",
+        "D) Involuntary deflation across all sectors"
+      ],
+      "correct_option": "C",
+      "explanation": "At a price below equilibrium, shortages emerge. Frustrated buyers bid up prices, inducing producers to expand supply until market equilibrium is re-established."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q14",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Ceiling Legal Maximum",
+      "difficulty": "medium",
+      "question": "A price ceiling is a legally mandated:",
+      "options": [
+        "A) Ad-valorem sales tax rate levied on luxury vehicles",
+        "B) Minimum guaranteed price promised to agricultural producers",
+        "C) Maximum permissible price that can be charged for a good, typically imposed below equilibrium price to protect consumers",
+        "D) Fixed export tariff on pharmaceutical supplies"
+      ],
+      "correct_option": "C",
+      "explanation": "A price ceiling sets the statutory upper limit on price. When enacted below equilibrium, it aims to keep essential commodities affordable for low-income consumers."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q15",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Price Floor Minimum Wage",
+      "difficulty": "medium",
+      "question": "Statutory Minimum Wage legislation enforced by the government in labour markets is a direct application of a:",
+      "options": [
+        "A) Dual pricing levy",
+        "B) Price ceiling",
+        "C) Price floor",
+        "D) Pigovian tax subsidy"
+      ],
+      "correct_option": "C",
+      "explanation": "Minimum wage laws establish a price floor (minimum wage rate) below which employers cannot legally hire workers, protecting labour from exploitation."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q16",
+      "topic": "Forms of Market and Price Determination",
+      "sub_topic": "Monopoly Barriers to Entry",
+      "difficulty": "hard",
+      "question": "Which of the following creates a formidable legal barrier to entry that shields a monopoly firm from potential competitors?",
+      "options": [
+        "A) Complete transparency of production engineering techniques",
+        "B) High employee turnover in factory operations",
+        "C) Patents, copyrights, and government franchise licenses",
+        "D) Atomistic market structure with small capital outlays"
+      ],
+      "correct_option": "C",
+      "explanation": "Legal barriers like government patents, exclusive franchise licenses, and statutory monopolies grant exclusive rights to produce, preventing new competitors from entering."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q17",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Circular Flow Leakages",
+      "difficulty": "medium",
+      "question": "In macroeconomic circular flow analysis, which of the following is classified as a leakage (withdrawal) from the income stream?",
+      "options": [
+        "A) Government expenditure on public health clinics",
+        "B) Capital investment by producing firms",
+        "C) Savings by households in financial institutions",
+        "D) Export receipts from foreign trade"
+      ],
+      "correct_option": "C",
+      "explanation": "Leakages are portions of income not spent on currently produced domestic goods (Savings, Taxes, Imports). Investment, government spending, and exports are injections."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q18",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Gross Domestic Product Definition",
+      "difficulty": "easy",
+      "question": "Gross Domestic Product at Market Price (GDP_MP) measures the gross market value of all:",
+      "options": [
+        "A) Unilateral remittances received from citizens abroad",
+        "B) Intermediate goods bought by factory owners during a decade",
+        "C) Final goods and services produced within the domestic economic territory of a country during an accounting year",
+        "D) Second-hand shares traded on domestic stock exchanges"
+      ],
+      "correct_option": "C",
+      "explanation": "GDP_MP is the total gross market value of all final goods and services generated within the geographic/economic territory of a nation during a one-year accounting period."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q19",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Final vs Intermediate Goods",
+      "difficulty": "medium",
+      "question": "Which of the following items is treated as a final consumer good rather than an intermediate good?",
+      "options": [
+        "A) Coal purchased by a thermal power station to generate electricity",
+        "B) Milk purchased by a sweet maker to manufacture rasgullas",
+        "C) Milk purchased by a household for domestic family consumption",
+        "D) Cotton yarn purchased by a textile factory to weave cloth"
+      ],
+      "correct_option": "C",
+      "explanation": "Milk bought by households is for ultimate final consumption and does not undergo further commercial resale or transformation, classifying it as a final consumer good."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q20",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "NFIA Calculation",
+      "difficulty": "easy",
+      "question": "Net Factor Income from Abroad (NFIA) is algebraically calculated as:",
+      "options": [
+        "A) Gross domestic product minus net indirect taxes",
+        "B) Merchandise exports minus merchandise imports",
+        "C) Factor income received from abroad minus Factor income paid to abroad",
+        "D) Personal income minus corporate savings"
+      ],
+      "correct_option": "C",
+      "explanation": "NFIA = Factor income earned by normal residents from the rest of the world minus Factor income earned by non-residents inside the domestic territory."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q21",
+      "topic": "National Income and Related Aggregates",
+      "sub_topic": "Value Added Formula",
+      "difficulty": "easy",
+      "question": "Value Added by a producing enterprise is calculated as:",
+      "options": [
+        "A) Total Sales minus Wages paid to workers",
+        "B) Total Revenue plus Depreciation",
+        "C) Value of Output minus Intermediate Consumption",
+        "D) Net Profit plus Direct Corporation Tax"
+      ],
+      "correct_option": "C",
+      "explanation": "Gross Value Added = Value of Output - Value of Intermediate Goods and Services consumed during production."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q22",
+      "topic": "Money and Banking",
+      "sub_topic": "Credit Creation Multiplier Formula",
+      "difficulty": "hard",
+      "question": "If the Legal Reserve Ratio (LRR) fixed by the central bank is 20 percent and an initial fresh cash deposit of Rs 500 crore is made, what is the maximum total deposit creation in the banking system?",
+      "options": [
+        "A) Rs 500 crore",
+        "B) Rs 1,000 crore",
+        "C) Rs 5,000 crore",
+        "D) Rs 2,500 crore"
+      ],
+      "correct_option": "D",
+      "explanation": "Money Multiplier = 1 / LRR = 1 / 0.20 = 5. Total deposits created = Initial Deposit * Multiplier = 500 * 5 = Rs 2,500 crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q23",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Banker to Government",
+      "difficulty": "easy",
+      "question": "In its capacity as 'Banker to the Government', the Reserve Bank of India performs which function?",
+      "options": [
+        "A) Issues airline tickets to government ministers",
+        "B) Directly collects income taxes from retail shoppers",
+        "C) Fixes retail vegetable prices in wholesale mandis",
+        "D) Manages the banking accounts of Central and State Governments and administers public debt"
+      ],
+      "correct_option": "D",
+      "explanation": "As banker to the government, the RBI accepts receipts, makes disbursements on behalf of the government, advances short-term ways and means advances, and manages public debt."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q24",
+      "topic": "Money and Banking",
+      "sub_topic": "Reverse Repo Rate Liquidity",
+      "difficulty": "medium",
+      "question": "When the Reserve Bank of India raises the Reverse Repo Rate, commercial banks are incentivized to:",
+      "options": [
+        "A) Sell all their physical gold reserves abroad",
+        "B) Increase aggressive unsecured lending to real estate firms",
+        "C) Lower their deposit rates across all savings accounts",
+        "D) Park more surplus funds with the RBI to earn higher risk-free interest, reducing lendable liquidity in the market"
+      ],
+      "correct_option": "D",
+      "explanation": "A higher Reverse Repo Rate makes parking funds with the central bank more lucrative, encouraging banks to hold reserves with RBI rather than lending to the market, contracting liquidity."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q25",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Consumption Function Equation",
+      "difficulty": "easy",
+      "question": "In the linear consumption function C = C_bar + bY, what do the terms 'C_bar' and 'b' represent?",
+      "options": [
+        "A) C_bar represents autonomous investment and b represents export propensity",
+        "B) C_bar represents induced consumption and b represents total savings",
+        "C) C_bar represents national income and b represents corporate tax",
+        "D) C_bar represents autonomous consumption and b represents the marginal propensity to consume (MPC)"
+      ],
+      "correct_option": "D",
+      "explanation": "In C = C_bar + bY, C_bar is autonomous consumption (consumption at zero income) and b is the slope of the consumption function, which is the Marginal Propensity to Consume (MPC)."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q26",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "MPS and MPC Identity",
+      "difficulty": "easy",
+      "question": "Because any incremental change in national income is either spent on consumption or saved, it is mathematically always true that:",
+      "options": [
+        "A) MPC / MPS = 1",
+        "B) MPC - MPS = 1",
+        "C) MPC * MPS = 1",
+        "D) MPC + MPS = 1"
+      ],
+      "correct_option": "D",
+      "explanation": "Delta Y = Delta C + Delta S. Dividing through by Delta Y gives (Delta C / Delta Y) + (Delta S / Delta Y) = 1, so MPC + MPS = 1."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q27",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier Formula via MPS",
+      "difficulty": "easy",
+      "question": "The investment multiplier (k) can be expressed in terms of the Marginal Propensity to Save (MPS) as:",
+      "options": [
+        "A) k = 1 + MPS",
+        "B) k = 1 - MPS",
+        "C) k = MPS / (1 - MPS)",
+        "D) k = 1 / MPS"
+      ],
+      "correct_option": "D",
+      "explanation": "Since k = 1 / (1 - MPC) and 1 - MPC = MPS, the investment multiplier can be directly written as k = 1 / MPS."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q28",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deflationary Gap Remedy Monetary",
+      "difficulty": "hard",
+      "question": "To remedy a deflationary gap (deficient demand) in the economy, which monetary policy action should the central bank take?",
+      "options": [
+        "A) Prohibit commercial banks from opening new savings accounts",
+        "B) Raise the cash reserve ratio to absorb bank reserves",
+        "C) Increase the margin requirement on industrial loans",
+        "D) Lower the repo rate and buy government securities in the open market to expand credit availability"
+      ],
+      "correct_option": "D",
+      "explanation": "To combat deficient demand, the central bank implements expansionary monetary policy: cutting policy rates (repo rate) and purchasing bonds (OMO purchase) to inject liquidity and lower borrowing costs."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q29",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Fiscal Deficit Formula",
+      "difficulty": "easy",
+      "question": "The Fiscal Deficit in the government budget is algebraically calculated as:",
+      "options": [
+        "A) Total Tax Revenue minus Disinvestment Receipts",
+        "B) Revenue Expenditure minus Revenue Receipts",
+        "C) Capital Expenditure minus Capital Receipts",
+        "D) Total Expenditure minus Total Receipts excluding Borrowings"
+      ],
+      "correct_option": "D",
+      "explanation": "Fiscal Deficit measures total government borrowing requirement: Fiscal Deficit = Total Budget Expenditure - (Revenue Receipts + Non-debt Capital Receipts)."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q30",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Primary Deficit Meaning",
+      "difficulty": "easy",
+      "question": "The Primary Deficit shows the government's borrowing requirement for current operations excluding past commitments. It is calculated as:",
+      "options": [
+        "A) Capital Expenditure minus Fiscal Deficit",
+        "B) Revenue Deficit minus Disinvestment",
+        "C) Total Expenditure minus Corporate Tax",
+        "D) Fiscal Deficit minus Interest Payments"
+      ],
+      "correct_option": "D",
+      "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments on accumulated past debt."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q31",
+      "topic": "Government Budget and the Economy",
+      "sub_topic": "Direct Tax Property",
+      "difficulty": "easy",
+      "question": "Which of the following taxes is an example of a direct tax levied by the central government?",
+      "options": [
+        "A) Customs import duty on electronic gadgets",
+        "B) Goods and Services Tax (GST)",
+        "C) Central Excise Duty on tobacco",
+        "D) Corporation tax on company profits"
+      ],
+      "correct_option": "D",
+      "explanation": "Corporation tax is levied directly on the net profits of companies; its financial incidence cannot be shifted to other entities, making it a direct tax."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q32",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Currency Appreciation Meaning",
+      "difficulty": "easy",
+      "question": "Under a flexible exchange rate system, when the market exchange rate changes from 1 USD = Rs 84 to 1 USD = Rs 80, the Indian Rupee has:",
+      "options": [
+        "A) Disinvested",
+        "B) Depreciated",
+        "C) Devalued",
+        "D) Appreciated"
+      ],
+      "correct_option": "D",
+      "explanation": "Fewer rupees are now needed to buy one US dollar (Rs 80 instead of Rs 84). The rupee has gained external value in market trading, which is called currency appreciation."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q33",
+      "topic": "Balance of Payments and Foreign Exchange",
+      "sub_topic": "Capital Account FDI and FPI",
+      "difficulty": "medium",
+      "question": "Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI) are classified in which component of the Balance of Payments?",
+      "options": [
+        "A) Unilateral Transfer Account",
+        "B) Current Account",
+        "C) Balance of Trade visible merchandise account",
+        "D) Capital Account"
+      ],
+      "correct_option": "D",
+      "explanation": "Cross-border financial investments and asset transactions (such as FDI and FPI) alter international asset/liability positions and are recorded in the Capital Account."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q34",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Zamindari Sunset Law",
+      "difficulty": "hard",
+      "question": "Under the British colonial Permanent Settlement (Zamindari system), what was the 'Sunset Law' governing land revenue collection?",
+      "options": [
+        "A) Irrigation canals could only release water before sunset",
+        "B) Farm workers were legally prohibited from working in fields after sunset",
+        "C) Agricultural foodgrain mandis were forced to close at dusk",
+        "D) Zamindars had to deposit their fixed revenue to the colonial treasury before sunset on a specified calendar date, failing which their estate was auctioned off"
+      ],
+      "correct_option": "D",
+      "explanation": "The Sunset Law stipulated that if a Zamindar failed to pay the predetermined revenue instalment to the East India Company before sunset on the appointed date, his zamindari estate was confiscated and auctioned."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q35",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Literacy Rate Eve of Independence",
+      "difficulty": "easy",
+      "question": "On the eve of Indian independence in 1947, the overall adult literacy rate in India was approximately:",
+      "options": [
+        "A) Exactly 35 percent",
+        "B) Approximately 50 percent",
+        "C) Over 80 percent across all states",
+        "D) Less than 16 percent (with female literacy under 7 percent)"
+      ],
+      "correct_option": "D",
+      "explanation": "British colonial rule left massive educational deprivation: overall literacy stood below 16%, and female literacy was pitifully low at around 7%."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q36",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "First Five Year Plan K.N. Raj",
+      "difficulty": "medium",
+      "question": "The First Five-Year Plan of India (1951\u20131956) was drafted under the guidance of young economist K.N. Raj, based on which macroeconomic growth model?",
+      "options": [
+        "A) Harrod-Domar growth model",
+        "B) Feldman-Mahalanobis model",
+        "C) Solow-Swan neoclassical model",
+        "D) Lewis two-sector surplus labour model"
+      ],
+      "correct_option": "A",
+      "explanation": "The First Plan adapted the Harrod-Domar growth model, focusing on raising the national savings rate and deploying capital into agricultural irrigation to resolve food crises."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q37",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Land Ceiling Legislation",
+      "difficulty": "easy",
+      "question": "In post-independence land reform legislations, 'Land Ceiling' referred to:",
+      "options": [
+        "A) Fixing the legal maximum limit on the size of agricultural landholding that an individual or family could own",
+        "B) Constructing storage silos over farm land",
+        "C) Fixing minimum agricultural wage rates",
+        "D) Setting maximum retail food prices in cities"
+      ],
+      "correct_option": "A",
+      "explanation": "Land ceiling laws specified the statutory maximum limit on agricultural acreage an individual/household could own, aiming to acquire surplus land for redistribution to landless peasants."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q38",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Small Scale Industries Capital Ceiling",
+      "difficulty": "easy",
+      "question": "In 1950, a small-scale industrial unit in India was originally defined as an enterprise with a maximum capital investment of:",
+      "options": [
+        "A) Rs 5 lakh",
+        "B) Rs 1 crore",
+        "C) Rs 10 crore",
+        "D) Rs 50 lakh"
+      ],
+      "correct_option": "A",
+      "explanation": "In 1950, a small-scale industry was defined as one investing not more than Rs 5 lakh in fixed assets (plant and machinery), reflecting the capital ceiling of that period."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q39",
+      "topic": "Indian Economic Development: 1947-1990",
+      "sub_topic": "Karve Committee Recommendations",
+      "difficulty": "medium",
+      "question": "The Karve Committee (1955) recommended the reservation of certain manufactured products exclusively for small-scale industries primarily to:",
+      "options": [
+        "A) Protect labour-intensive small enterprises from destructive competition by large-scale mechanized factories",
+        "B) Encourage foreign multinational corporate takeovers",
+        "C) Mandate 100 percent export of handicraft items",
+        "D) Eliminate all commercial bank branches in villages"
+      ],
+      "correct_option": "A",
+      "explanation": "The Village and Small Scale Industries (Karve) Committee proposed reserving specific products for small industries to protect employment and shield small units from large automated factories."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q40",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Devaluation in July 1991",
+      "difficulty": "medium",
+      "question": "In July 1991, as an immediate emergency stabilization measure, the Reserve Bank of India devalued the Indian Rupee in two quick steps by approximately:",
+      "options": [
+        "A) 18 to 19 percent against major foreign currencies to boost export competitiveness and stem capital flight",
+        "B) 50 percent against gold bullion",
+        "C) 5 percent solely against the Japanese Yen",
+        "D) The rupee was revalued upwards by 25 percent"
+      ],
+      "correct_option": "A",
+      "explanation": "On July 1 and July 3, 1991, the RBI devalued the rupee by about 18\u201319% to correct severe currency overvaluation, stimulate exports, and halt capital flight during the BoP crisis."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q41",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Abolition of Industrial Licensing 1991",
+      "difficulty": "easy",
+      "question": "The New Industrial Policy announced on July 24, 1991, abolished compulsory industrial licensing for all projects except for a small list of industries reserved for:",
+      "options": [
+        "A) Security, strategic, environmental, and hazardous chemical concerns",
+        "B) Agricultural foodgrain processing",
+        "C) Cotton textile and readymade garment weaving",
+        "D) Software coding and computer programming"
+      ],
+      "correct_option": "A",
+      "explanation": "The 1991 reforms dismantled the 'License-Permit Raj' across almost all manufacturing sectors, retaining licensing only for a short list of 18 (later reduced to 4-5) security and hazard-sensitive industries."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q42",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "On the Job Training",
+      "difficulty": "easy",
+      "question": "Why do firms invest in 'on-the-job training' for their workers as a source of human capital formation?",
+      "options": [
+        "A) Because enhanced technical skills increase worker productivity, and the resulting gain in output exceeds training costs",
+        "B) Because trained workers are legally required to accept zero wages",
+        "C) Because training automatically eliminates all depreciation of machinery",
+        "D) Because the central government reimburses 100 percent of corporate profits"
+      ],
+      "correct_option": "A",
+      "explanation": "On-the-job training equips workers with firm-specific operational skills, raising labour productivity and output by an amount that exceeds the direct cost of conducting the training."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q43",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Kudumbashree State of Origin",
+      "difficulty": "easy",
+      "question": "The renowned community-based poverty reduction and women empowerment mission 'Kudumbashree' was launched in which Indian state?",
+      "options": [
+        "A) Kerala",
+        "B) Gujarat",
+        "C) Punjab",
+        "D) Bihar"
+      ],
+      "correct_option": "A",
+      "explanation": "Kudumbashree was launched in Kerala in 1998 by the State Poverty Eradication Mission to organize poor women into neighbourhood groups for microenterprises and empowerment."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q44",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Casualisation of Labour",
+      "difficulty": "easy",
+      "question": "The structural trend where the proportion of casual wage labourers in the total national workforce increases over time is termed:",
+      "options": [
+        "A) Casualisation of the workforce",
+        "B) Formalisation of employment",
+        "C) Urbanisation of agriculture",
+        "D) Disinvestment of public labour"
+      ],
+      "correct_option": "A",
+      "explanation": "Casualisation describes the increasing share of casual wage labour relative to self-employed and regular salaried workers in the overall workforce."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q45",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Carrying Capacity of Environment",
+      "difficulty": "medium",
+      "question": "The 'Carrying Capacity' of the environment implies that:",
+      "options": [
+        "A) The rate of resource extraction must stay within the natural regeneration rate, and waste generation must stay within the environment's absorptive capacity",
+        "B) The earth's crust can absorb infinite chemical fertilizers without degradation",
+        "C) All fossil fuels will be exhausted within three calendar years",
+        "D) Total industrial production must match agricultural production"
+      ],
+      "correct_option": "A",
+      "explanation": "Carrying capacity means that resource exploitation does not exceed regeneration and waste generation does not exceed the absorptive capacity of the ecosystem."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Organic Farming Bio-fertilizers",
+      "difficulty": "easy",
+      "question": "Organic agriculture replaces chemical nitrogenous fertilizers and synthetic pesticides primarily with:",
+      "options": [
+        "A) Animal manures, bio-fertilizers, crop rotation, and botanical biopesticides",
+        "B) Heavy industrial toxic lubricants",
+        "C) Untreated urban sewage sludge",
+        "D) Imported plastic crop mulches"
+      ],
+      "correct_option": "A",
+      "explanation": "Organic farming relies on ecological pest management and soil health maintenance through compost, farmyard manure, green manure, biofertilizers, and biological pest control."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q47",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Commune System Collectivization",
+      "difficulty": "medium",
+      "question": "Under the commune system established during the Great Leap Forward in China in 1958, agricultural farming was organized such that:",
+      "options": [
+        "A) Land was collectively owned by communes of thousands of households who farmed land jointly and shared proceeds",
+        "B) Private landlords retained absolute ownership and collected cash rent",
+        "C) Individual farmers were permitted to sell 100 percent of output to Western exporters",
+        "D) All farm work was automated with computerized tractors"
+      ],
+      "correct_option": "A",
+      "explanation": "In 1958, China collectivized agriculture into large rural communes where land was collectively cultivated by thousands of peasant households sharing equipment and collective output."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q48",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "One Child Policy China 1979",
+      "difficulty": "easy",
+      "question": "China enforced its strict 'One-Child Policy' to curb rapid population growth in the year:",
+      "options": [
+        "A) 1979",
+        "B) 1958",
+        "C) 1991",
+        "D) 1947"
+      ],
+      "correct_option": "A",
+      "explanation": "In 1979, the Chinese government introduced the stringent One-Child Policy, which significantly slowed population growth but subsequently caused rapid demographic aging."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q49",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Pakistan Denationalisation 1988",
+      "difficulty": "medium",
+      "question": "In 1988, Pakistan adopted broad economic structural reforms that reversed its 1970s policies by initiating:",
+      "options": [
+        "A) Denationalisation, deregulation of the private sector, and disinvestment of state-owned enterprises",
+        "B) Complete state nationalisation of all retail grocery stores",
+        "C) The abolition of all private commercial banking branches",
+        "D) A ban on foreign remittances from the Middle East"
+      ],
+      "correct_option": "A",
+      "explanation": "In 1988, Pakistan launched a structural adjustment reform program that emphasized denationalization, private sector encouragement, and tariff rationalization."
+    },
+    {
+      "id": "CUET_ECO_2026_P22_L4C_Q50",
+      "topic": "Development Experience of India: Comparison with Neighbours",
+      "sub_topic": "Life Expectancy Comparison",
+      "difficulty": "hard",
+      "question": "Comparing social development indicators in the 2020s, which country among India, China, and Pakistan achieved the highest life expectancy at birth (surpassing 78 years)?",
+      "options": [
+        "A) China",
+        "B) India",
+        "C) Pakistan",
+        "D) All three nations have identical life expectancies of 65 years"
+      ],
+      "correct_option": "A",
+      "explanation": "Sustained investments in healthcare, clean water, sanitation, and nutrition have elevated China's life expectancy at birth to over 78 years, significantly outperforming India (~67-70 years) and Pakistan (~66 years)."
+    }
+  ]
+}

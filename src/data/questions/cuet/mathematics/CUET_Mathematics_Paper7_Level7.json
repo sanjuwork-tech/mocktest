@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P7_L7",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 7,
+  "difficulty_level": "7",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q01",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "\\( Find the domain of the function: If f(x) = \\sqrt{x - 3}, the domain of f is: \\)",
+      "options": [
+        "A) (3, ∞)",
+        "B) [3, ∞)",
+        "C) [0, ∞)",
+        "D) ℝ"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( The domain is the set of all x-values for which the function is defined. For \\sqrt{x-3} to be real, x-3 ≥ 0, so x ≥ 3. Domain = [3, ∞). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q02",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "Solve the following problem: If f(x) = |x|, what is f'(0)?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) -1",
+        "D) Does not exist"
+      ],
+      "correct_option": "D",
+      "explanation": "f(x) = |x| has a corner at x=0. Left derivative = -1, right derivative = 1. f'(0) does not exist."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q03",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "easy",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], then A + B equals:",
+      "options": [
+        "A) [[5, 12], [21, 32]]",
+        "B) [[6, 8], [10, 12]]",
+        "C) [[6, 7], [10, 11]]",
+        "D) [[6, 8], [9, 12]]"
+      ],
+      "correct_option": "B",
+      "explanation": "Matrix addition: add corresponding elements. A+B = [[1+5, 2+6], [3+7, 4+8]] = [[6,8],[10,12]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q04",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( Find the value: The value of \\left| \\1 \\right| is: \\)",
+      "options": [
+        "A) 15",
+        "B) 29",
+        "C) 1",
+        "D) 13"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = 3(5) - 7(2) = 15 - 14 = 1. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q05",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "Analyze the given function: The function f(x) = 1/x is:",
+      "options": [
+        "A) Discontinuous at x=1",
+        "B) Continuous everywhere",
+        "C) Continuous only for x > 0",
+        "D) Continuous except at x=0"
+      ],
+      "correct_option": "D",
+      "explanation": "We analyze the function using standard techniques. f(x) = 1/x is a rational function, continuous on its domain ℝ\\{0}, discontinuous at x=0."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q06",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Rate of change of quantities",
+      "difficulty": "easy",
+      "question": "The rate of change of area of a circle with respect to its radius when r = 3 is:",
+      "options": [
+        "A) 12π",
+        "B) 3π",
+        "C) 9π",
+        "D) 6π"
+      ],
+      "correct_option": "D",
+      "explanation": "Area A = πr². dA/dr = 2πr. At r=3, rate = 2π(3) = 6π."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q07",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the following integral: The value of ∫x²·cos(x) dx is:",
+      "options": [
+        "A) x²sin(x) + 2xcos(x) - 2sin(x) + C",
+        "B) x²sin(x) - 2xcos(x) + 2sin(x) + C",
+        "C) x²cos(x) + 2xsin(x) - 2cos(x) + C",
+        "D) x²cos(x) - 2xsin(x) + 2cos(x) + C"
+      ],
+      "correct_option": "A",
+      "explanation": "Integration by parts twice: u = x², dv = cos(x)dx. Result = x²sin(x) + 2xcos(x) - 2sin(x) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q08",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The degree of the differential equation (d²y/dx²)³ + (dy/dx)⁵ + y = 0 is:",
+      "options": [
+        "A) 2",
+        "B) 5",
+        "C) 1",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "The degree is the power of the highest derivative. Here d²y/dx² has power 3, so degree = 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q09",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vectors and scalars",
+      "difficulty": "easy",
+      "question": "\\( Find the value: If a = 3i + 4j + 12k, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 13",
+        "B) √169",
+        "C) 19",
+        "D) 5"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{3² + 4² + 12²} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q10",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "\\( Two dice are thrown. The probability that the \\sum is less than 5 is: \\)",
+      "options": [
+        "A) 1/9",
+        "B) 1/12",
+        "C) 1/6",
+        "D) 2/9"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Favorable outcomes: \\sum=2:(1,1), \\sum=3:(1,2),(2,1), \\sum=4:(1,3),(2,2),(3,1) = 6 outcomes. P = \\frac{6}{36} = \\frac{1}{6}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q11",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "medium",
+      "question": "If f: ℝ → ℝ is defined by f(x) = x² + 1, then f is:",
+      "options": [
+        "A) One-one and onto",
+        "B) Onto but not one-one",
+        "C) Neither one-one nor onto",
+        "D) One-one but not onto"
+      ],
+      "correct_option": "C",
+      "explanation": "f(x) = x²+1 is not one-one (f(1)=f(-1)=2) and not onto (values < 1 are not achieved)."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q12",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "medium",
+      "question": "Evaluate the following integral: The value of ∫₀¹ dx/(1+x²) is:",
+      "options": [
+        "A) π/4",
+        "B) π/2",
+        "C) π/6",
+        "D) π/3"
+      ],
+      "correct_option": "A",
+      "explanation": "∫₀¹ dx/(1+x²) = [tan⁻¹x]₀¹ = tan⁻¹(1) - tan⁻¹(0) = π/4."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q13",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "\\( If A is a 3×3 matrix and \\left| \\1 \\right| = -2, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 4",
+        "B) -2",
+        "C) 8",
+        "D) -4"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( For n×n matrix, \\left| \\1 \\right| = \\left| \\1 \\right|^(n-1). Here n=3, so \\left| \\1 \\right| = (-2)² = 4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q14",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2, 3], [2, 3, 4], [3, 4, 5]], then the trace of A is:",
+      "options": [
+        "A) 12",
+        "B) 15",
+        "C) 6",
+        "D) 9"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Trace = \\sum of diagonal elements = 1 + 3 + 5 = 9. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q15",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "\\( Find the value: The derivative of f(x) = \\ln(x² + 1) is: \\)",
+      "options": [
+        "A) 2x/(x²+1)",
+        "B) x/(x²+1)",
+        "C) 1/(x²+1)",
+        "D) 2x·ln(x²+1)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( By chain rule: d/dx \\ln(x²+1) = 1/(x²+1) · 2x = 2x/(x²+1). This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q16",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and minima",
+      "difficulty": "medium",
+      "question": "The function f(x) = x·e^{(-x)} has a local maximum at x equals:",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) -1",
+        "D) 0"
+      ],
+      "correct_option": "B",
+      "explanation": "f'(x) = e^{(-x)} - x·e^{(-x)} = e^{(-x)}(1-x) = 0 → x=1. f''(1) = -e^{(-1)} < 0, so maximum at x=1."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q17",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Compute the indefinite integral of x times cos(x) using integration by parts.",
+      "options": [
+        "A) x·sin x - cos x + C",
+        "B) x·sin x + cos x + C",
+        "C) x·sin x + sin x + C",
+        "D) x·cos x + sin x + C"
+      ],
+      "correct_option": "B",
+      "explanation": "Let u = x, dv = cos(x)dx. Then du = dx, v = sin(x). The integral equals x*sin(x) - integral of sin(x)dx = x*sin(x) + cos(x) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q18",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "The solution of dy/dx + y = 0 with y(0) = 2 is:",
+      "options": [
+        "A) y = 2e^(-x)",
+        "B) y = e^(2x)",
+        "C) y = 2e^x",
+        "D) y = e^(-2x)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Separating: dy/y = -dx. \\ln\\left| \\1 \\right| = -x + C, y = Ce^{(-x)}. With y(0)=2: C=2. So y = 2e^{(-x)}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q19",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "The area of the triangle with vertices (0,0), (3,0), and (0,4) using vector cross product is:",
+      "options": [
+        "A) 7",
+        "B) 6",
+        "C) 5",
+        "D) 12"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Vectors: a = 3i, b = 4j. Area = ½\\left| \\1 \\right| = ½\\left| \\1 \\right| = ½\\left| \\1 \\right| = 6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q20",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "medium",
+      "question": "The equation of the line passing through (2, -1, 3) and perpendicular to the plane 3x - y + 2z = 5 is:",
+      "options": [
+        "A) (x-2)/3 = (y+1)/1 = (z-3)/2",
+        "B) (x-2)/2 = (y+1)/(-1) = (z-3)/3",
+        "C) (x+2)/3 = (y-1)/(-1) = (z+3)/2",
+        "D) (x-2)/3 = (y+1)/(-1) = (z-3)/2"
+      ],
+      "correct_option": "D",
+      "explanation": "The direction ratios are the coefficients of the plane: (3, -1, 2). Line through (2,-1,3) with these ratios: (x-2)/3 = (y+1)/(-1) = (z-3)/2."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q21",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "A dietician wants to mix two foods F1 and F2 to get at least 8 units of vitamin A and 10 units of vitamin B. F1 contains 2 units/kg of A and 3 units/kg of B, costing ₹5/kg. F2 contains 4 units/kg of A and 2 units/kg of B, costing ₹4/kg. Minimize the cost.",
+      "options": [
+        "A) ₹16",
+        "B) ₹18",
+        "C) ₹20",
+        "D) ₹22"
+      ],
+      "correct_option": "B",
+      "explanation": "Minimize Z = 5x + 4y subject to 2x + 4y ≥ 8, 3x + 2y ≥ 10, x ≥ 0, y ≥ 0. Corner points: (0,5)→20, (4,0)→20, (2,1.5)→16. At (2,1.5): 2(2)+4(1.5)=10 ≥ 8, 3(2)+2(1.5)=9 < 10. Not feasible. At (0,5): 0+20=20 ≥ 8, 0+10=10 ≥ 10. Z=20. At (4,0): 8+0=8 ≥ 8, 12+0=12 ≥ 10. Z=20. At (1,2): 2+8=10 ≥ 8, 3+4=7 < 10. Not feasible. At (2,2): 4+8=12 ≥ 8, 6+4=10 ≥ 10. Z=10+8=18. So minimum is ₹18 at (2,2)."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q22",
+      "topic": "Probability",
+      "sub_topic": "Random variable and its probability distribution",
+      "difficulty": "medium",
+      "question": "A box contains 4 red, 3 blue, and 2 green balls. Three balls are drawn at random. The probability that all are red is:",
+      "options": [
+        "A) 4/9",
+        "B) 2/21",
+        "C) 1/6",
+        "D) 1/21"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Total balls = 9. P(all red) = C(4,3)/C(9,3) = \\frac{4}{84} = \\frac{1}{21}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q23",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "Find the derivative of the given function: If y = e^{(x²)}, then dy/dx equals:",
+      "options": [
+        "A) x²·e^(x²)",
+        "B) 2e^(x²)",
+        "C) 2x·e^(x²)",
+        "D) e^(x²)"
+      ],
+      "correct_option": "C",
+      "explanation": "We apply the standard rules of differentiation. By chain rule: dy/dx = e^{(x²)} · d/dx(x²) = 2x·e^{(x²)}."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q24",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Derivatives of inverse trigonometric functions",
+      "difficulty": "medium",
+      "question": "\\( Find the value of the function/derivative: If f(x) = \\sin⁻¹(2x), then f'(x) equals: \\)",
+      "options": [
+        "A) 1/√(1-x²)",
+        "B) 2/√(1-4x²)",
+        "C) 2x/√(1-4x²)",
+        "D) 1/√(1-4x²)"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( We apply the standard rules of differentiation. Differentiation follows standard rules. f'(x) = 1/\\sqrt{1-(2x}²) · 2 = 2/\\sqrt{1-4x²}. The derivative represents the instantaneous rate of change of the function. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q25",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Solve the following problem: If f(x) = x/(x+1), what is f'(x)?",
+      "options": [
+        "A) 1/(x+1)²",
+        "B) 1/(x+1)",
+        "C) x/(x+1)²",
+        "D) (x+1)/x²"
+      ],
+      "correct_option": "A",
+      "explanation": "Quotient rule: f'(x) = [(1)(x+1) - x(1)]/(x+1)² = 1/(x+1)²."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q26",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vectors and scalars",
+      "difficulty": "medium",
+      "question": "The projection of vector a = 4i + 3j on vector b = i + j is:",
+      "options": [
+        "A) 5/√2",
+        "B) 7/2",
+        "C) 7/√2",
+        "D) 5/2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Projection = (a·b)/\\left| \\1 \\right| = (4+3)/\\sqrt{2} = 7/\\sqrt{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q27",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a plane in space",
+      "difficulty": "medium",
+      "question": "The distance between the parallel planes 2x - y + 2z = 4 and 2x - y + 2z = 10 is:",
+      "options": [
+        "A) 6/√9",
+        "B) 6/3",
+        "C) 3",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Distance = \\left| \\1 \\right|/\\sqrt{a²+b²+c²} = \\left| \\1 \\right|/\\sqrt{4+1+4} = \\frac{6}{3} = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q28",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[0, 1], [-1, 0]], then A⁴ equals:",
+      "options": [
+        "A) [[1, 0], [0, 1]]",
+        "B) [[0, 1], [-1, 0]]",
+        "C) [[0, -1], [1, 0]]",
+        "D) [[-1, 0], [0, -1]]"
+      ],
+      "correct_option": "A",
+      "explanation": "A² = [[-1,0],[0,-1]] = -I. A⁴ = (A²)² = (-I)² = I."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q29",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 3x² + 4 has a local minimum at x equals:",
+      "options": [
+        "A) 0",
+        "B) -1",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 3x² - 6x = 3x(x-2) = 0 → x=0 or x=2. f''(x) = 6x-6. f''(2) = 6 > 0, so minimum at x=2."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q30",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "medium",
+      "question": "If A and B are events with P(A) = 0.5, P(B) = 0.3, and P(A∩B) = 0.1, then P(A|B) equals:",
+      "options": [
+        "A) 1/3",
+        "B) 2/3",
+        "C) 1/5",
+        "D) 1/2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, P(A|B) = P(A∩B)/P(B) = 0.\\frac{1}{0}.3 = \\frac{1}{3}. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q31",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "Solve the differential equation: The general solution of dy/dx = x/y is:",
+      "options": [
+        "A) y² = 2x + C",
+        "B) y² = x² + C",
+        "C) y = x + C",
+        "D) y = x² + C"
+      ],
+      "correct_option": "B",
+      "explanation": "We use standard methods for solving differential equations. Separating: y dy = x dx. Integrating: y²/2 = x²/2 + C₁, so y² = x² + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q32",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "\\( The value of ∫₀^(π/2) \\sin x·\\cos x dx is: \\)",
+      "options": [
+        "A) π/4",
+        "B) 1",
+        "C) 0",
+        "D) 1/2"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( ∫₀^(π/2) \\sin x·\\cos x dx = ½∫₀^(π/2) \\sin 2x dx = ½[-\\cos 2x/2]₀^(π/2) = ½[(1-(-1))/2] = ½(1) = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q33",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "hard",
+      "question": "If A = [[1, 1, 0], [0, 1, 1], [0, 0, 1]], then A⁴ equals:",
+      "options": [
+        "A) [[1, 4, 6], [0, 1, 4], [0, 0, 1]]",
+        "B) [[1, 4, 0], [0, 1, 4], [0, 0, 1]]",
+        "C) [[4, 4, 0], [0, 4, 4], [0, 0, 4]]",
+        "D) [[1, 6, 4], [0, 1, 6], [0, 0, 1]]"
+      ],
+      "correct_option": "A",
+      "explanation": "A = I + N where N = [[0,1,0],[0,0,1],[0,0,0]]. N³ = 0. A⁴ = I + 4N + 6N² = [[1,4,6],[0,1,4],[0,0,1]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q34",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "hard",
+      "question": "If A is a 3×3 skew-symmetric matrix, what is |A|?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) -1",
+        "D) Depends on A"
+      ],
+      "correct_option": "A",
+      "explanation": "For odd-order skew-symmetric matrices, |A| = |-A| = (-1)³|A| = -|A|. So |A| = 0."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q35",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "hard",
+      "question": "\\( Find the derivative of the given function: If y = \\cot⁻¹(x), then dy/dx equals: \\)",
+      "options": [
+        "A) -1/√(1-x²)",
+        "B) 1/(1+x²)",
+        "C) 1/(x²-1)",
+        "D) -1/(1+x²)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( We apply the standard rules of differentiation. Let y = \\cot⁻¹(x), so \\cot y = x. Differentiating: -csc²y · dy/dx = 1. dy/dx = -1/csc²y = -1/(1+cot²y) = -1/(1+x²). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q36",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Maxima and minima",
+      "difficulty": "hard",
+      "question": "\\( The maximum area of a rectangle inscribed \\in a circle of radius 5 is: \\)",
+      "options": [
+        "A) 25π",
+        "B) 25",
+        "C) 50",
+        "D) 100"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a rectangle inscribed \\in a circle, maximum area occurs for a square. Diagonal = 10. Side = 10/\\sqrt{2} = 5\\sqrt{2}. Area = (5\\sqrt{2})² = 50. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q37",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Evaluate the following integral: The value of ∫₀¹ x·ln(x) dx is:",
+      "options": [
+        "A) -1/4",
+        "B) -1/2",
+        "C) 1/4",
+        "D) 1/2"
+      ],
+      "correct_option": "A",
+      "explanation": "Integration by parts: u = ln(x), dv = x dx. ∫₀¹ x·ln(x)dx = [x²/2·ln(x)]₀¹ - ∫₀¹ x/2 dx = 0 - 1/4 = -1/4."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q38",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "\\( The solution of dy/dx = (y/x) + \\tan(y/x) is: \\)",
+      "options": [
+        "A) cos(y/x) = Cx",
+        "B) y = Cx",
+        "C) sin(y/x) = Cx",
+        "D) y/x = Cx"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( This is homogeneous. Let y = vx: v + x dv/dx = v + \\tan v. So x dv/dx = \\tan v. \\cot v dv = dx/x. \\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C₁. \\sin v = Cx, so \\sin(y/x) = Cx. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q39",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar triple product",
+      "difficulty": "hard",
+      "question": "The scalar triple product [a b c] where a = i + j, b = j + k, c = i + k equals:",
+      "options": [
+        "A) -1",
+        "B) 1",
+        "C) 2",
+        "D) 0"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( [a b c] = a·(b×c). b×c = \\left| \\1 \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(b×c) = 1+1+0 = 2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q40",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a line in space",
+      "difficulty": "hard",
+      "question": "The shortest distance between the skew lines r = i + j + t(2i - j + k) and r = 2i + k + s(i + j - k) is:",
+      "options": [
+        "A) √2",
+        "B) 2/√3",
+        "C) 1/√3",
+        "D) 0"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( a₁ = (1,1,0), b₁ = (2,-1,1), a₂ = (2,0,1), b₂ = (1,1,-1). a₂-a₁ = (1,-1,1). b₁×b₂ = \\left| \\1 \\right| = i(1-1) - j(-2-1) + k(2+1) = 3j + 3k. (a₂-a₁)·(b₁×b₂) = 0-3+3 = 0. Distance = 0. The lines intersect! \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q41",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "hard",
+      "question": "Maximize Z = 3x + 2y subject to x + y ≤ 6, 2x + y ≤ 8, x, y ≥ 0. The maximum value is:",
+      "options": [
+        "A) 16",
+        "B) 18",
+        "C) 14",
+        "D) 12"
+      ],
+      "correct_option": "C",
+      "explanation": "Corner points: (0,0)→0, (4,0)→12, (0,6)→12. Intersection of x+y=6 and 2x+y=8: x=2, y=4. Z = 3(2) + 2(4) = 6+8 = 14. Maximum is 14."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q42",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "\\( A fair coin is tossed 4 \\times. The probability of getting exactly 2 heads is: \\)",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 5/16",
+        "D) 3/8"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Probability theory quantifies uncertainty. P(X=2) = C(4,2)/2⁴ = \\frac{6}{16} = \\frac{3}{8}. Key concepts include sample spaces, events, and probability distributions. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q43",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "hard",
+      "question": "\\( Find the derivative of the given function: If y = x^{(\\sin x)}, then dy/dx equals: \\)",
+      "options": [
+        "A) x^(sin x)(cos x/x)",
+        "B) x^(sin x)(sin x/x)",
+        "C) x^(sin x)(cos x·ln x - sin x/x)",
+        "D) x^(sin x)(cos x·ln x + sin x/x)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( We apply the standard rules of differentiation. \\ln y = \\sin x · \\ln x. (1/y)y' = \\cos x · \\ln x + \\sin x/x. y' = y(\\cos x·\\ln x + \\sin x/x) = x^{(\\sin x)}(\\cos x·\\ln x + \\sin x/x). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q44",
+      "topic": "Integrals",
+      "sub_topic": "Area under simple curves",
+      "difficulty": "hard",
+      "question": "The area bounded by y = x² and y = 2x is:",
+      "options": [
+        "A) 4/3",
+        "B) 2/3",
+        "C) 1/3",
+        "D) 8/3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Curves intersect at x=0 and x=2. Area = ∫₀² (2x - x²) dx = [x² - x³/3]₀² = 4 - \\frac{8}{3} = \\frac{4}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q45",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "hard",
+      "question": "If the matrix A = [[2, 1], [1, 2]] has eigenvalue 3, then the other eigenvalue is:",
+      "options": [
+        "A) 1",
+        "B) -1",
+        "C) 0",
+        "D) 2"
+      ],
+      "correct_option": "A",
+      "explanation": "Characteristic equation: (2-μ)² - 1 = 0 → μ² - 4μ + 3 = 0 → (μ-1)(μ-3) = 0. Eigenvalues are 1 and 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q46",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Angle between two lines/planes",
+      "difficulty": "hard",
+      "question": "\\( The radius of the circle inscribed \\in the triangle formed by x=0, y=0, and 3x + 4y = 12 is: \\)",
+      "options": [
+        "A) 2",
+        "B) 6/5",
+        "C) 1",
+        "D) 3"
+      ],
+      "correct_option": "C",
+      "explanation": "Triangle vertices: (0,0), (4,0), (0,3). Right triangle with legs 3, 4, hypotenuse 5. Inradius r = (a+b-c)/2 = (3+4-5)/2 = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q47",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "hard",
+      "question": "The number of ways to arrange the letters of 'BANANA' such that all A's are together is:",
+      "options": [
+        "A) 120",
+        "B) 60",
+        "C) 24",
+        "D) 12"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Treat all 3 A's as one block. Now we have 4 items: [AAA], B, N, N. Arrangements = 4!/2! = \\frac{24}{2} = 12. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q48",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "If A = [[1,2],[3,4]], what is the trace of A?",
+      "options": [
+        "A) 5",
+        "B) 10",
+        "C) -2",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "tr(A) = sum of diagonal elements = 1 + 4 = 5."
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q49",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Derivatives of inverse trigonometric functions",
+      "difficulty": "hard",
+      "question": "\\( If y = \\tan⁻¹((1-\\cos x)/\\sin x), then dy/dx equals: \\)",
+      "options": [
+        "A) -1",
+        "B) 1",
+        "C) 1/2",
+        "D) -1/2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( (1-\\cos x)/\\sin x = \\tan(x/2). So y = \\tan⁻¹(\\tan(x/2)) = x/2 (for appropriate domain). dy/dx = \\frac{1}{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P7_L7_Q50",
+      "topic": "Differential Equations",
+      "sub_topic": "Definition, order and degree of differential equations",
+      "difficulty": "hard",
+      "question": "The differential equation of the family of curves y = A e^{(3x)} + B e^{(-2x)} is:",
+      "options": [
+        "A) y'' - y' + 6y = 0",
+        "B) y'' + y' + 6y = 0",
+        "C) y'' + y' - 6y = 0",
+        "D) y'' - y' - 6y = 0"
+      ],
+      "correct_option": "D",
+      "explanation": "y = Ae^{(3x)} + Be^{(-2x)}. y' = 3Ae^{(3x)} - 2Be^{(-2x)}. y'' = 9Ae^{(3x)} + 4Be^{(-2x)}. Then y'' - y' - 6y = 9Ae^{(3x)} + 4Be^{(-2x)} - 3Ae^{(3x)} + 2Be^{(-2x)} - 6Ae^{(3x)} - 6Be^{(-2x)} = 0."
+    }
+  ]
+}

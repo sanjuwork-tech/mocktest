@@ -16,7 +16,7 @@ export function GET() {
     `- [Home](${siteConfig.url}/): Discover entrance exams and opportunities after Class 12`,
     `- [Exams](${siteConfig.url}/exams): Browse CUET UG, IISER IAT, NISER NEST, and COMEDK exam guides`,
     `- [Mock Test Series](${siteConfig.url}/test-series): Compare and explore mock test bundles for entrance exams`,
-    `- [About](${siteConfig.url}/about): Learn about TestDisha's mission`,
+    `- [About](${siteConfig.url}/about): Learn about OurMocks's mission`,
     "",
     "## Exam guides",
     "",

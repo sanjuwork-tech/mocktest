@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P18_L8B",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 18,
+  "difficulty_level": "8B",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "Advanced Queries",
+      "difficulty": "medium",
+      "question": "A table EMP has columns emp_id (INT), dept_id (INT), salary (DECIMAL). Which SQL query correctly displays department(s) where the average salary exceeds the overall average salary?",
+      "options": [
+        "A) SELECT dept_id FROM EMP GROUP BY dept_id HAVING AVG(salary) > (SELECT AVG(salary) FROM EMP)",
+        "B) SELECT dept_id, AVG(salary) FROM EMP HAVING AVG(salary) > AVG(SELECT salary FROM EMP)",
+        "C) SELECT dept_id FROM EMP GROUP BY dept_id WHERE AVG(salary) > (SELECT AVG(salary) FROM EMP)",
+        "D) SELECT dept_id FROM EMP WHERE salary > (SELECT AVG(salary) FROM EMP) GROUP BY dept_id"
+      ],
+      "correct_option": "A",
+      "explanation": "HAVING filters groups after aggregation; a subquery computes the overall average."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "JOIN Operations",
+      "difficulty": "hard",
+      "question": "Students(sid,name,dept_id) and Departments(dept_id,dept_name). LEFT JOIN: SELECT s.name,d.dept_name FROM Students s LEFT JOIN Departments d ON s.dept_id=d.dept_id. If 3 students have dept_id=NULL and 2 departments have no students, how many rows have NULL dept_name?",
+      "options": [
+        "A) 5",
+        "B) 3",
+        "C) 2",
+        "D) 0"
+      ],
+      "correct_option": "B",
+      "explanation": "LEFT JOIN returns all Student rows. Students with dept_id=NULL have no match, so dept_name is NULL for those 3 rows."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization - BCNF",
+      "difficulty": "hard",
+      "question": "Relation R(A,B,C,D) has FDs: A->B, B->C, C->D. Candidate key is A. Which normal form does this satisfy?",
+      "options": [
+        "A) 1NF only",
+        "B) BCNF",
+        "C) 2NF but not 3NF",
+        "D) 3NF but not BCNF"
+      ],
+      "correct_option": "C",
+      "explanation": "Key A is single attr -> no partial dep -> 2NF satisfied. B->C: B not superkey, C not prime -> violates 3NF."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Subqueries",
+      "difficulty": "easy",
+      "question": "Given table Books(book_id,title,price), which query correctly finds the title of the book(s) with the highest price, including all ties?",
+      "options": [
+        "A) SELECT title FROM Books WHERE price = MAX(price)",
+        "B) SELECT title FROM Books WHERE price > AVG(price)",
+        "C) SELECT title FROM Books WHERE price = (SELECT MAX(price) FROM Books)",
+        "D) SELECT title, MAX(price) FROM Books"
+      ],
+      "correct_option": "C",
+      "explanation": "To retrieve all books sharing the highest price (properly handling ties), a scalar subquery (SELECT MAX(price) FROM Books) computes the maximum price, and the outer query filters records matching that peak value. Aggregate functions like MAX() cannot be used directly in a WHERE clause without a subquery, comparing against average retrieves all above-average prices, and selecting title with MAX(price) without a GROUP BY clause is invalid."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q05",
+      "topic": "Database/SQL",
+      "sub_topic": "Integrity Constraints",
+      "difficulty": "medium",
+      "question": "Table Orders(oid,cid,pid) has FK on cid referencing Customers(cid). What happens inserting cid=999 when no such customer exists?",
+      "options": [
+        "A) The insert fails with a referential integrity constraint violation",
+        "B) The row is inserted with cid=NULL automatically",
+        "C) The insert succeeds; FK checked only during SELECT",
+        "D) A new customer cid=999 is created automatically"
+      ],
+      "correct_option": "A",
+      "explanation": "Foreign key constraints are enforced at INSERT/UPDATE time. The insert fails."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q06",
+      "topic": "Database/SQL",
+      "sub_topic": "Transactions & ACID",
+      "difficulty": "medium",
+      "question": "T1 writes a row, T2 reads it before T1 commits. T1 is later rolled back. What is this called?",
+      "options": [
+        "A) Non-repeatable read",
+        "B) Lost update",
+        "C) Phantom read",
+        "D) Dirty read"
+      ],
+      "correct_option": "D",
+      "explanation": "Dirty read: a transaction reads data written by another uncommitted transaction."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q07",
+      "topic": "Database/SQL",
+      "sub_topic": "Relational Algebra",
+      "difficulty": "hard",
+      "question": "R(A,B) has 5 tuples, S(B,C) has 3 tuples. pi_A(R natural join S) is evaluated. Maximum tuples in result?",
+      "options": [
+        "A) 8",
+        "B) 3",
+        "C) 5",
+        "D) 15"
+      ],
+      "correct_option": "C",
+      "explanation": "Every tuple in the join has an A-value from R. pi_A(R join S) subset of pi_A(R), max 5 distinct values."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q08",
+      "topic": "Database/SQL",
+      "sub_topic": "Indexing",
+      "difficulty": "hard",
+      "question": "Table has 10M rows with B+ tree index on X. Query: WHERE X=42 AND Y=7. Index on X is highly selective (50 rows match X=42). Best strategy?",
+      "options": [
+        "A) Full table scan",
+        "B) Use index on X to find 50 rows, then filter those 50 where Y=7",
+        "C) Use both X index and hash index on Y simultaneously",
+        "D) Create temp index on Y and use it"
+      ],
+      "correct_option": "B",
+      "explanation": "With 50 rows matching X=42, B+ tree efficiently locates them. Filtering Y=7 on 50 rows is trivial."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q09",
+      "topic": "Database/SQL",
+      "sub_topic": "GROUP BY, HAVING, ORDER BY",
+      "difficulty": "easy",
+      "question": "Which SQL clause is processed first in logical query processing order?",
+      "options": [
+        "A) WHERE",
+        "B) SELECT",
+        "C) ORDER BY",
+        "D) FROM"
+      ],
+      "correct_option": "D",
+      "explanation": "SQL logical order: FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY. FROM is first."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q10",
+      "topic": "Database/SQL",
+      "sub_topic": "DDL & Data Types",
+      "difficulty": "medium",
+      "question": "DBA executes: ALTER TABLE Products DROP COLUMN prod_id; but prod_id is the PK column. Outcome?",
+      "options": [
+        "A) Command fails because PK column cannot be dropped without first dropping the constraint",
+        "B) Command succeeds only if table has no rows",
+        "C) Column set to NULL for all rows but not removed",
+        "D) Column dropped, PK constraint implicitly removed"
+      ],
+      "correct_option": "A",
+      "explanation": "Most RDBMS prevent dropping a column that is part of a primary key constraint."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q11",
+      "topic": "Networks",
+      "sub_topic": "IPv6 Addressing",
+      "difficulty": "medium",
+      "question": "IPv6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. Valid shortened form?",
+      "options": [
+        "A) 2001:db8:85a3:0:0:8a2e:0370:7334::",
+        "B) 2001:0db8:85a3:::8a2e:0370:7334",
+        "C) 2001:db8:85a3::8a2e:370:7334",
+        "D) 2001::db8::85a3:0:0:8a2e:370:7334"
+      ],
+      "correct_option": "C",
+      "explanation": "Leading zeros omitted, one contiguous zero group replaced with ::. Only one :: allowed."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q12",
+      "topic": "Networks",
+      "sub_topic": "TCP Congestion Control",
+      "difficulty": "hard",
+      "question": "TCP Reno: cwnd=16 MSS, ssthresh=8 MSS. Timeout occurs. New cwnd and ssthresh?",
+      "options": [
+        "A) cwnd=1 MSS, ssthresh=4 MSS",
+        "B) cwnd=1 MSS, ssthresh=8 MSS",
+        "C) cwnd=8 MSS, ssthresh=8 MSS",
+        "D) cwnd=1 MSS, ssthresh=16 MSS"
+      ],
+      "correct_option": "B",
+      "explanation": "On timeout: ssthresh=cwnd/2=8 MSS, cwnd=1 MSS. Then slow start from cwnd=1."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q13",
+      "topic": "Networks",
+      "sub_topic": "Error Detection - CRC",
+      "difficulty": "hard",
+      "question": "CRC: data=101101, generator x^3+x+1 (1011). Remainder appended?",
+      "options": [
+        "A) 110",
+        "B) 011",
+        "C) 010",
+        "D) 101"
+      ],
+      "correct_option": "B",
+      "explanation": "XOR division of 101101000 by 1011 yields remainder 011."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q14",
+      "topic": "Networks",
+      "sub_topic": "OSI Model Layers",
+      "difficulty": "easy",
+      "question": "At which OSI layer does a router primarily operate?",
+      "options": [
+        "A) Transport Layer (Layer 4)",
+        "B) Application Layer (Layer 7)",
+        "C) Network Layer (Layer 3)",
+        "D) Data Link Layer (Layer 2)"
+      ],
+      "correct_option": "C",
+      "explanation": "Routers operate at the Network Layer, forwarding based on IP addresses."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q15",
+      "topic": "Networks",
+      "sub_topic": "Subnetting Calculation",
+      "difficulty": "hard",
+      "question": "Network 192.168.10.0/24 divided into 8 equal subnets. New subnet mask and usable hosts?",
+      "options": [
+        "A) 255.255.255.240, 14 hosts",
+        "B) 255.255.255.192, 62 hosts",
+        "C) 255.255.255.248, 6 hosts",
+        "D) 255.255.255.224, 30 hosts"
+      ],
+      "correct_option": "D",
+      "explanation": "8 subnets need 3 bits. /24+3=/27. Mask 255.255.255.224. Host bits=5, 2^5-2=30."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q16",
+      "topic": "Networks",
+      "sub_topic": "CSMA/CD Minimum Frame",
+      "difficulty": "medium",
+      "question": "10 Mbps Ethernet, max round-trip delay 25.6 microseconds. Minimum frame size for CSMA/CD?",
+      "options": [
+        "A) 64 bytes",
+        "B) 512 bytes",
+        "C) 256 bytes",
+        "D) 128 bytes"
+      ],
+      "correct_option": "A",
+      "explanation": "IEEE 802.3 specifies minimum Ethernet frame size of 64 bytes."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q17",
+      "topic": "Networks",
+      "sub_topic": "DNS",
+      "difficulty": "medium",
+      "question": "User types www.example.com. Local DNS has no cache. How many queries in iterative resolution?",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "B",
+      "explanation": "Iterative: (1) root server, (2) TLD server, (3) authoritative server. Total 3 queries."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q18",
+      "topic": "Networks",
+      "sub_topic": "Routing Protocols - OSPF",
+      "difficulty": "medium",
+      "question": "Which statement about OSPF is correct?",
+      "options": [
+        "A) OSPF uses Dijkstra's SPF algorithm and divides networks into areas",
+        "B) OSPF is a distance-vector protocol using hop count",
+        "C) OSPF is primarily used for inter-domain routing between ASes",
+        "D) OSPF sends full routing table updates every 30 seconds"
+      ],
+      "correct_option": "A",
+      "explanation": "OSPF is link-state using Dijkstra's SPF. BGP (not OSPF) is for inter-domain routing."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q19",
+      "topic": "Networks",
+      "sub_topic": "HTTP & DNS",
+      "difficulty": "easy",
+      "question": "Which HTTP status code indicates resource permanently moved to a new URL?",
+      "options": [
+        "A) 500",
+        "B) 404",
+        "C) 200",
+        "D) 301"
+      ],
+      "correct_option": "D",
+      "explanation": "HTTP 301 Moved Permanently indicates permanent relocation."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q20",
+      "topic": "Networks",
+      "sub_topic": "Congestion Control",
+      "difficulty": "hard",
+      "question": "TCP Reno: cwnd=12 MSS, ssthresh=6 MSS. All 12 segments transmitted successfully. New cwnd?",
+      "options": [
+        "A) 12 MSS",
+        "B) 14 MSS",
+        "C) 13 MSS",
+        "D) 24 MSS"
+      ],
+      "correct_option": "C",
+      "explanation": "cwnd > ssthresh -> congestion avoidance. cwnd increases by 1 MSS per RTT. New cwnd=13."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q21",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Infix-to-Postfix",
+      "difficulty": "hard",
+      "question": "Postfix of: a+b*c-d/e^f (^ is right-assoc, highest prec; *,/ next; +,- lowest)?",
+      "options": [
+        "A) abc*+de^f/-",
+        "B) ab*c+def^/-",
+        "C) abc*+def/^/-",
+        "D) abc*+def^/-"
+      ],
+      "correct_option": "D",
+      "explanation": "Shunting-yard: prec ^(right)>*,/ >+,-. Result: abc*+def^/-"
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q22",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Heap Sort",
+      "difficulty": "hard",
+      "question": "Max-heap from [15,12,10,8,6,4,3]. After two extract-max ops, first 3 elements?",
+      "options": [
+        "A) [10,8,4]",
+        "B) [8,6,4]",
+        "C) [10,8,6]",
+        "D) [10,6,8]"
+      ],
+      "correct_option": "C",
+      "explanation": "Extract 15: [12,8,10,6,3,4]. Extract 12: [10,8,6,4,3]. First 3: [10,8,6]."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q23",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Output?\nd={1:'a',2:'b',3:'c'}\nprint(d.get(2,'z'),d.get(4,'z'))",
+      "options": [
+        "A) a z",
+        "B) b z",
+        "C) KeyError",
+        "D) 2 4"
+      ],
+      "correct_option": "B",
+      "explanation": "get(2,'z') returns 'b'. get(4,'z') returns 'z'. Output: b z."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q24",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "medium",
+      "question": "Output?\ntry:\n    try:\n        raise ValueError('inner')\n    except TypeError:\n        print('caught type')\n    finally:\n        print('inner finally')\nexcept ValueError as e:\n    print(f'caught: {e}')",
+      "options": [
+        "A) inner finally\ncaught: inner",
+        "B) caught: inner\ninner finally",
+        "C) inner finally",
+        "D) caught type"
+      ],
+      "correct_option": "A",
+      "explanation": "Inner finally executes before ValueError propagates to outer except."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q25",
+      "topic": "Python/Data Structures",
+      "sub_topic": "List Operations",
+      "difficulty": "medium",
+      "question": "Output?\nlst=[0,1,2,3,4,5,6,7,8,9]\nresult=lst[::-2][2:5]\nprint(result)",
+      "options": [
+        "A) [7,5,3]",
+        "B) [6,4,2]",
+        "C) [4,2,0]",
+        "D) [5,3,1]"
+      ],
+      "correct_option": "D",
+      "explanation": "lst[::-2]=[9,7,5,3,1]. [2:5]=[5,3,1]."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q26",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion",
+      "difficulty": "medium",
+      "question": "Output?\ndef f(n):\n    if n<=0:return 0\n    return n%3+f(n-3)\nprint(f(10))",
+      "options": [
+        "A) 4",
+        "B) 5",
+        "C) 7",
+        "D) 6"
+      ],
+      "correct_option": "A",
+      "explanation": "f(10)=1+f(7)=1+1+f(4)=2+1+f(1)=3+1+0=4."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q27",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Tuples",
+      "difficulty": "medium",
+      "question": "Output?\nt=(1,2,3,4,5)\nprint(t[1:-1],len(t[1:-1]))",
+      "options": [
+        "A) (2,3,4) 4",
+        "B) (2,3,4) 3",
+        "C) (1,2,3,4) 4",
+        "D) (2,3,4,5) 4"
+      ],
+      "correct_option": "B",
+      "explanation": "t[1:-1]=(2,3,4). Length=3."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q28",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Sets",
+      "difficulty": "medium",
+      "question": "Output?\na={1,2,3,4}\nb={3,4,5,6}\nprint((a-b)|(b-a))",
+      "options": [
+        "A) {3,4}",
+        "B) {1,2}",
+        "C) {1,2,5,6}",
+        "D) {1,2,3,4,5,6}"
+      ],
+      "correct_option": "C",
+      "explanation": "a-b={1,2}, b-a={5,6}. Union={1,2,5,6}."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "File I/O & Pickle",
+      "difficulty": "medium",
+      "question": "Which statement about pickle is correct?",
+      "options": [
+        "A) Pickle files are human-readable and safe from untrusted sources",
+        "B) Pickle can serialize complex objects like custom class instances",
+        "C) pickle.dump() reads a Python object from a binary file",
+        "D) pickle.load() serializes a Python object to a byte stream"
+      ],
+      "correct_option": "B",
+      "explanation": "pickle.dump() writes/serializes; pickle.load() reads/deserializes. Binary, unsafe for untrusted."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Statistics",
+      "difficulty": "easy",
+      "question": "Output?\nimport statistics\ndata=[2,4,4,4,5,5,7,9]\nprint(round(statistics.mean(data),2),round(statistics.pstdev(data),2))",
+      "options": [
+        "A) 5.0 2.15",
+        "B) 5.14 2.0",
+        "C) 5.0 2.0",
+        "D) 5.0 1.87"
+      ],
+      "correct_option": "C",
+      "explanation": "mean=40/8=5.0. pstdev=sqrt((9+3+0+4+16)/8)=sqrt(4)=2.0."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q31",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Generators",
+      "difficulty": "hard",
+      "question": "Output?\ndef gen():\n    yield 1\n    yield from [2,3]\n    yield 4\ng=gen()\nprint(list(g)[-2])",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 4",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "Yields 1,2,3,4. list(g)=[1,2,3,4]. Index -2 = 3."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q32",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queue and Deque",
+      "difficulty": "hard",
+      "question": "deque(maxlen=3): append(1),append(2),append(3),append(4),appendleft(0). Final content?",
+      "options": [
+        "A) deque([0,4,3],maxlen=3)",
+        "B) deque([0,3,4],maxlen=3)",
+        "C) deque([0,1,2],maxlen=3)",
+        "D) deque([0,2,3],maxlen=3)"
+      ],
+      "correct_option": "D",
+      "explanation": "After appends: [2,3,4]. appendleft(0): [0,2,3]."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "hard",
+      "question": "Quicksort on [1,2,3,4,5,6,7] with first element as pivot. Comparisons in first partition?",
+      "options": [
+        "A) 7",
+        "B) 15",
+        "C) 6",
+        "D) 21"
+      ],
+      "correct_option": "C",
+      "explanation": "Pivot=1 compared with remaining 6 elements. 6 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "hard",
+      "question": "Merge sort on [8,7,6,5,4,3,2,1]. Comparisons in final merge step?",
+      "options": [
+        "A) 7",
+        "B) 15",
+        "C) 8",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "Subarrays [5,6,7,8] and [1,2,3,4]. Merging needs only 4 comparisons."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Interpolation Search",
+      "difficulty": "medium",
+      "question": "Sorted array 1..100, interpolation search for 75. First probe index?",
+      "options": [
+        "A) 75",
+        "B) 74",
+        "C) 76",
+        "D) 50"
+      ],
+      "correct_option": "B",
+      "explanation": "pos=0+((75-1)*(99-0))/(100-1)=74."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Radix Sort LSD",
+      "difficulty": "hard",
+      "question": "Radix sort (base 10) on [231,145,678,329,555,102,450]. After 2nd pass (tens), order of elements with tens digit 5?",
+      "options": [
+        "A) 450,555",
+        "B) 555,450",
+        "C) 555,450,231",
+        "D) 450,555,145"
+      ],
+      "correct_option": "A",
+      "explanation": "After 1st pass: [450,231,102,145,555,678,329]. After 2nd pass: [102,329,231,145,450,555,678]. Order: 450,555."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q37",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "medium",
+      "question": "Bubble sort on 6 elements descending. Swaps in first pass?",
+      "options": [
+        "A) 6",
+        "B) 5",
+        "C) 15",
+        "D) 10"
+      ],
+      "correct_option": "B",
+      "explanation": "First pass: (6,5),(6,4),(6,3),(6,2),(6,1) = 5 swaps."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q38",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search",
+      "difficulty": "medium",
+      "question": "Linear search of n elements, target present. Average comparisons?",
+      "options": [
+        "A) n",
+        "B) n/2",
+        "C) (n+1)/2",
+        "D) log2(n)"
+      ],
+      "correct_option": "C",
+      "explanation": "Average=(1+2+...+n)/n=(n+1)/2."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q39",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "Selection sort on 5 elements. After 2 passes, elements in final position?",
+      "options": [
+        "A) 1",
+        "B) 4",
+        "C) 3",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "One element placed per pass. After 2 passes: 2 elements in final position."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q40",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Build",
+      "difficulty": "easy",
+      "question": "Time complexity of building max-heap from unsorted array using bottom-up heapify?",
+      "options": [
+        "A) O(n)",
+        "B) O(n^2)",
+        "C) O(n log n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "Bottom-up heapify builds heap in O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q41",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection",
+      "difficulty": "hard",
+      "question": "App uses: query='SELECT * FROM users WHERE name=''+user_input+'''. Input to bypass auth?",
+      "options": [
+        "A) DROP TABLE users",
+        "B) admin' OR '1'='1",
+        "C) admin",
+        "D) SELECT * FROM users"
+      ],
+      "correct_option": "B",
+      "explanation": "Input makes condition always true: '1'='1'."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q42",
+      "topic": "Security/Pandas",
+      "sub_topic": "Symmetric Encryption",
+      "difficulty": "medium",
+      "question": "Which statement about AES is correct?",
+      "options": [
+        "A) AES supports key sizes 128,192,256 bits",
+        "B) AES-256 uses 256-bit block size",
+        "C) AES is asymmetric",
+        "D) AES requires two separate keys"
+      ],
+      "correct_option": "A",
+      "explanation": "AES is symmetric with key sizes 128/192/256 bits, fixed 128-bit block."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q43",
+      "topic": "Security/Pandas",
+      "sub_topic": "Firewall Types",
+      "difficulty": "hard",
+      "question": "Firewall inspecting HTTP payload for SQL injection operates at?",
+      "options": [
+        "A) Circuit-level gateway (session layer)",
+        "B) Packet filtering (network layer)",
+        "C) Stateful inspection (transport layer)",
+        "D) Application layer (proxy firewall)"
+      ],
+      "correct_option": "D",
+      "explanation": "Inspecting HTTP payload requires application-layer understanding."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q44",
+      "topic": "Security/Pandas",
+      "sub_topic": "Viruses, Worms, Trojans",
+      "difficulty": "medium",
+      "question": "Malware disguising as legitimate software but not replicating?",
+      "options": [
+        "A) Ransomware",
+        "B) Worm",
+        "C) Trojan",
+        "D) Virus"
+      ],
+      "correct_option": "C",
+      "explanation": "Trojan disguises as legitimate software. Unlike viruses/worms, no self-replication."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q45",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas DataFrame",
+      "difficulty": "medium",
+      "question": "DataFrame df with cols ['A','B','C']. Select rows where A>10 AND B<5?",
+      "options": [
+        "A) df[df['A']>10 and df['B']<5]",
+        "B) df[(df['A']>10)&(df['B']<5)]",
+        "C) df.query('A>10')&df.query('B<5')",
+        "D) df[df['A']>10|df['B']<5]"
+      ],
+      "correct_option": "B",
+      "explanation": "Pandas uses & for AND. Each condition in parentheses."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q46",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas GroupBy",
+      "difficulty": "hard",
+      "question": "df.groupby('dept')['salary'].agg(['mean','count']).reset_index() returns?",
+      "options": [
+        "A) DataFrame with MultiIndex columns plus dept",
+        "B) DataFrame with columns: dept,mean,count",
+        "C) Error: agg cannot accept list",
+        "D) Series with dept as index"
+      ],
+      "correct_option": "A",
+      "explanation": "agg(['mean','count']) on SeriesGroupBy produces MultiIndex columns."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q47",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Merging",
+      "difficulty": "hard",
+      "question": "A(100 rows,id/name) and B(80 rows,id/salary), 70 matching ids. Rows in pd.merge(A,B,on='id',how='inner')?",
+      "options": [
+        "A) 70",
+        "B) 100",
+        "C) Cannot determine without knowing duplicate keys",
+        "D) 80"
+      ],
+      "correct_option": "C",
+      "explanation": "If ids duplicated, cartesian product of matching duplicates could exceed 70."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q48",
+      "topic": "Security/Pandas",
+      "sub_topic": "CSRF Attack",
+      "difficulty": "medium",
+      "question": "Most effective defense against CSRF?",
+      "options": [
+        "A) Input validation with regex",
+        "B) Using HTTPS instead of HTTP",
+        "C) Implementing CORS headers",
+        "D) Anti-CSRF tokens in forms validated server-side"
+      ],
+      "correct_option": "D",
+      "explanation": "Anti-CSRF tokens ensure requests originated from legitimate site."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Digital Signatures",
+      "difficulty": "hard",
+      "question": "Digital signature scheme: which key signs and which verifies?",
+      "options": [
+        "A) Sign with sender's private key, verify with sender's public key",
+        "B) Sign with receiver's private key, verify with receiver's public key",
+        "C) Sign with sender's public key, verify with sender's private key",
+        "D) Sign with receiver's public key, verify with receiver's private key"
+      ],
+      "correct_option": "A",
+      "explanation": "Sender's private key signs, sender's public key verifies. Ensures non-repudiation."
+    },
+    {
+      "id": "CUET_CS_2026_P18_L8B_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas dropna",
+      "difficulty": "easy",
+      "question": "DataFrame 10 rows, 4 cols. dropna(thresh=3). 2 rows have 1 NaN, 3 rows have 2 NaNs, 5 rows have 0 NaNs. Rows remaining?",
+      "options": [
+        "A) 5",
+        "B) 8",
+        "C) 10",
+        "D) 7"
+      ],
+      "correct_option": "D",
+      "explanation": "Rows with 1 NaN: 3 non-NaNs kept (2). Rows with 2 NaNs: 2 non-NaNs removed (3). Rows with 0 NaNs: kept (5). Total: 7."
+    }
+  ]
+}

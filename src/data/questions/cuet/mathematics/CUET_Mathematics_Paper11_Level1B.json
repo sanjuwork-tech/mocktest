@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P11_L1B",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 11,
+  "difficulty_level": "1B",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q01",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "easy",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], what is the (1, 2) entry of A + B?",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 4",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( A + B = [[1+0, 2+1], [3+1, 4+0]] = [[1, 3], [4, 4]]. The (1, 2) entry is the element \\in row 1, column 2, which is 3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q02",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( Find the value: Evaluate the determinant \\left| \\1 \\right|. \\)",
+      "options": [
+        "A) 1",
+        "B) 5",
+        "C) 8",
+        "D) 11"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( For a 2×2 matrix \\left| \\1 \\right|, the determinant is ad - bc. Here, (2)(4) - (3)(1) = 8 - 3 = 5. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q03",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "\\( Find the principal value of the inverse trigonometric function: The principal value of \\tan⁻¹(1) is: \\)",
+      "options": [
+        "A) π/6",
+        "B) π/4",
+        "C) π/2",
+        "D) π/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. \\tan(π/4) = 1, and π/4 lies \\in the principal value range (-π/2, π/2). Therefore, \\tan⁻¹(1) = π/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q04",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "A relation R on set A = {1, 2, 3} is defined by R = {(1,1), (2,2), (3,3), (1,2), (2,3)}. Which property does R satisfy?",
+      "options": [
+        "A) Symmetric only",
+        "B) Transitive only",
+        "C) Equivalence relation",
+        "D) Reflexive only"
+      ],
+      "correct_option": "D",
+      "explanation": "R contains (1,1), (2,2), (3,3), so it is reflexive. It is not symmetric because (1,2) ∈ R but (2,1) ∉ R. It is not transitive because (1,2) ∈ R and (2,3) ∈ R, but (1,3) ∉ R. Hence, R is reflexive only."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q05",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "easy",
+      "question": "Analyze the given function: The function f(x) = x² + 3x + 2 is:",
+      "options": [
+        "A) Discontinuous at x = 0",
+        "B) Discontinuous at x = -1",
+        "C) Continuous only at x = 1",
+        "D) Continuous everywhere"
+      ],
+      "correct_option": "D",
+      "explanation": "We analyze the function using standard techniques. f(x) = x² + 3x + 2 is a polynomial function. All polynomial functions are continuous everywhere on ℝ."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q06",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "easy",
+      "question": "If f(x) = 3x² - 2x + 1, then f'(2) equals:",
+      "options": [
+        "A) 14",
+        "B) 12",
+        "C) 10",
+        "D) 8"
+      ],
+      "correct_option": "C",
+      "explanation": "f'(x) = 6x - 2. Substituting x = 2: f'(2) = 6(2) - 2 = 12 - 2 = 10."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q07",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the definite integral ∫₀¹ (3x² + 2x) dx.",
+      "options": [
+        "A) x⁴ - x³ + x² - x + C",
+        "B) x⁴ - x³ + x² + C",
+        "C) 4x⁴ - 3x³ + 2x² - x + C",
+        "D) 12x² - 6x + 2 + C"
+      ],
+      "correct_option": "A",
+      "explanation": "∫₀¹(3x²+2x)dx = [x³ + x²]₀¹ = (1+1) − (0+0) = 2. We find the antiderivative and apply the Fundamental Theorem of Calculus."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q08",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the definite integral ∫₀¹ (3x² + 2x) dx.",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 4",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "∫₀¹(3x²+2x)dx = [x³ + x²]₀¹ = (1+1) − (0+0) = 2. We find the antiderivative and apply the Fundamental Theorem of Calculus."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q09",
+      "topic": "Differential Equations",
+      "sub_topic": "Order and degree of differential equations",
+      "difficulty": "easy",
+      "question": "The degree of the differential equation (d²y/dx²)² + dy/dx + y = 0 is:",
+      "options": [
+        "A) 2",
+        "B) 4",
+        "C) 3",
+        "D) 1"
+      ],
+      "correct_option": "A",
+      "explanation": "The degree of a differential equation is the power of the highest order derivative. Here, the highest derivative is d²y/dx² with power 2, so the degree is 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q10",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "\\( A fair coin is tossed 3 \\times. What is the probability of getting exactly 2 heads? \\)",
+      "options": [
+        "A) 1/2",
+        "B) 1/8",
+        "C) 3/8",
+        "D) 5/8"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Total outcomes = 2³ = 8. Favorable outcomes (exactly 2 heads) = C(3,2) = 3 (HHT, HTH, THH). Probability = \\frac{3}{8}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q11",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vectors and scalars",
+      "difficulty": "easy",
+      "question": "\\( Find the value: If a = i + 2j + 2k, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 5",
+        "B) 4",
+        "C) 2",
+        "D) 3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{1² + 2² + 2²} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q12",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Distance of a point from a plane",
+      "difficulty": "easy",
+      "question": "The distance between the points (0, 0, 0) and (3, 4, 0) is:",
+      "options": [
+        "A) 7",
+        "B) 4",
+        "C) 3",
+        "D) 5"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Distance = \\sqrt{(3-0}² + (4-0)² + (0-0)²) = \\sqrt{9 + 16 + 0} = \\sqrt{25} = 5. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q13",
+      "topic": "Probability",
+      "sub_topic": "Random variable and its probability distribution",
+      "difficulty": "easy",
+      "question": "A bag contains 3 red and 5 blue balls. Two balls are drawn at random without replacement. The probability that both are red is:",
+      "options": [
+        "A) 3/28",
+        "B) 1/4",
+        "C) 5/28",
+        "D) 9/64"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(both red) = (\\frac{3}{8}) × (\\frac{2}{7}) = \\frac{6}{56} = \\frac{3}{28}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q14",
+      "topic": "Matrices",
+      "sub_topic": "Transpose of a matrix",
+      "difficulty": "easy",
+      "question": "If A is a 2×3 matrix, what is the order of its transpose A'?",
+      "options": [
+        "A) 3×2",
+        "B) 2×3",
+        "C) 3×3",
+        "D) 2×2"
+      ],
+      "correct_option": "A",
+      "explanation": "The transpose of an m×n matrix is an n×m matrix. Since A is 2×3, A' is 3×2."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q15",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "If two columns of a determinant are identical, then its value is:",
+      "options": [
+        "A) Cannot be determined",
+        "B) 1",
+        "C) -1",
+        "D) 0"
+      ],
+      "correct_option": "D",
+      "explanation": "A fundamental property of determinants states that if any two columns (or rows) are identical, the determinant equals zero."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q16",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "Determine the principal value of the given inverse trigonometric expression.",
+      "options": [
+        "A) 0",
+        "B) π/4",
+        "C) π",
+        "D) π/2"
+      ],
+      "correct_option": "D",
+      "explanation": "The principal value of an inverse trigonometric function lies in its defined range. We use standard identities and properties to find the exact value."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q17",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "\\( Analyze the given function: The function f(x) = \\left| \\1 \\right| is: \\)",
+      "options": [
+        "A) Continuous everywhere",
+        "B) Not continuous at x = 2",
+        "C) Discontinuous at x = 2",
+        "D) Differentiable everywhere"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( We analyze the function using standard techniques. The absolute value function \\left| \\1 \\right| is continuous everywhere on ℝ. However, it is not differentiable at x = 2 (corner point). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q18",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "The derivative of e^{(3x)} with respect to x is:",
+      "options": [
+        "A) 3x·e^(3x)",
+        "B) e^(3x)",
+        "C) 3e^(3x)",
+        "D) e^(3x)/3"
+      ],
+      "correct_option": "C",
+      "explanation": "Using the chain rule: d/dx[e^{(3x)}] = e^{(3x)} × d/dx[3x] = e^{(3x)} × 3 = 3e^{(3x)}."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q19",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "\\( Evaluate the indefinite integral of \\cos(2x) with respect to x. \\)",
+      "options": [
+        "A) sin(2x) + C",
+        "B) -cos(2x)/2 + C",
+        "C) sin(2x)/2 + C",
+        "D) -sin(2x)/2 + C"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Let u = 2x, then du = 2dx. So integral of \\cos(2x)dx = (\\frac{1}{2})\\sin(2x) + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q20",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "easy",
+      "question": "Solve the differential equation: The general solution of dy/dx = 5x⁴ is:",
+      "options": [
+        "A) y = 20x³ + C",
+        "B) y = 5x³ + C",
+        "C) y = x⁵ + C",
+        "D) y = x⁴ + C"
+      ],
+      "correct_option": "C",
+      "explanation": "We use standard methods for solving differential equations. Integrating both sides: y = ∫5x⁴ dx = 5 × x⁵/5 + C = x⁵ + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q21",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "If P(A) = 0.6 and P(B) = 0.3, and A and B are mutually exclusive, then P(A ∪ B) equals:",
+      "options": [
+        "A) 0.7",
+        "B) 0.3",
+        "C) 0.9",
+        "D) 0.18"
+      ],
+      "correct_option": "C",
+      "explanation": "For mutually exclusive events, P(A ∪ B) = P(A) + P(B) = 0.6 + 0.3 = 0.9."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q22",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar (dot) product of vectors",
+      "difficulty": "easy",
+      "question": "If a = i + j + k and b = i - j + k, then a·b equals:",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) -1",
+        "D) 3"
+      ],
+      "correct_option": "A",
+      "explanation": "a·b = (1)(1) + (1)(-1) + (1)(1) = 1 - 1 + 1 = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q23",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Direction cosines and direction ratios",
+      "difficulty": "easy",
+      "question": "The direction cosines of the y-axis are:",
+      "options": [
+        "A) (0, 0, 1)",
+        "B) (1, 0, 0)",
+        "C) (1, 1, 1)",
+        "D) (0, 1, 0)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( The y-axis makes angles of 90^{\\circ}, 0^{\\circ}, and 90^{\\circ} with the x, y, and z axes respectively. The direction cosines are (\\cos 90^{\\circ}, \\cos 0^{\\circ}, \\cos 90^{\\circ}) = (0, 1, 0). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q24",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "easy",
+      "question": "Minimize Z = x + 2y subject to x ≥ 0, y ≥ 0, x + y ≥ 1. The minimum value is:",
+      "options": [
+        "A) 3",
+        "B) 1",
+        "C) 2",
+        "D) 0"
+      ],
+      "correct_option": "B",
+      "explanation": "The feasible region has corner points at (1, 0) and (0, 1). At (1, 0): Z = 1 + 0 = 1. At (0, 1): Z = 0 + 2 = 2. The minimum value is 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q25",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "easy",
+      "question": "If A = [[1, 0], [0, 1]], then A² equals:",
+      "options": [
+        "A) [[0, 1], [1, 0]]",
+        "B) [[2, 0], [0, 2]]",
+        "C) [[1, 1], [1, 1]]",
+        "D) [[1, 0], [0, 1]]"
+      ],
+      "correct_option": "D",
+      "explanation": "A is the identity matrix I. The square of the identity matrix is itself: I² = I = [[1, 0], [0, 1]]."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q26",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "easy",
+      "question": "\\( The value of the determinant \\left| \\1 \\right| is: \\)",
+      "options": [
+        "A) 8",
+        "B) 0",
+        "C) 2",
+        "D) 15"
+      ],
+      "correct_option": "D",
+      "explanation": "For a diagonal matrix, the determinant is the product of diagonal elements: 5 × 3 = 15."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q27",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "easy",
+      "question": "Find the principal value of the given inverse trigonometric expression using standard identities.",
+      "options": [
+        "A) π/2",
+        "B) 0",
+        "C) π/4",
+        "D) π"
+      ],
+      "correct_option": "A",
+      "explanation": "The principal value of inverse trig functions lies in their defined ranges: sin^-1 in [-pi/2, pi/2], cos^-1 in [0, pi], tan^-1 in (-pi/2, pi/2). Use known values and identities."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q28",
+      "topic": "Relations and Functions",
+      "sub_topic": "Types of relations",
+      "difficulty": "easy",
+      "question": "The number of symmetric relations on a set with 2 elements is:",
+      "options": [
+        "A) 6",
+        "B) 4",
+        "C) 8",
+        "D) 16"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a set with n elements, the number of symmetric relations is 2^(n(n+1)/2). For n = 2: 2^(2×\\frac{3}{2}) = 2³ = 8. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q29",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "The function f(x) = 1/(x - 1) is continuous at:",
+      "options": [
+        "A) All real numbers",
+        "B) x = 0",
+        "C) x = 1",
+        "D) All x ≠ 1"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( f(x) = 1/(x - 1) is a rational function that is undefined at x = 1. It is continuous at all points \\in its domain, i.e., all real numbers except x = 1. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q30",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Continuity and differentiability",
+      "difficulty": "easy",
+      "question": "\\( Find the derivative of the given function: If y = \\ln(x³), then dy/dx equals: \\)",
+      "options": [
+        "A) 3x²",
+        "B) x³/3",
+        "C) 1/(3x)",
+        "D) 3/x"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( We apply the standard rules of differentiation. y = \\ln(x³) = 3ln(x). Therefore, dy/dx = 3 × (1/x) = 3/x. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q31",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "Evaluate the indefinite integral ∫(1/x²) dx.",
+      "options": [
+        "A) -1/x + C",
+        "B) -2/x³ + C",
+        "C) ln(x²) + C",
+        "D) 1/x + C"
+      ],
+      "correct_option": "A",
+      "explanation": "∫(1/x²)dx = ∫x⁻² dx = x⁻¹/(−1) + C = −1/x + C. We use the power rule with n = −2."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q32",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "easy",
+      "question": "\\( Find the value: Evaluate ∫₀^(π/2) \\cos(2x) dx. \\)",
+      "options": [
+        "A) π/2",
+        "B) 0",
+        "C) 1",
+        "D) 1/2"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( ∫\\cos(2x) dx = \\sin(2x)/2. Evaluating from 0 to π/2: [\\sin(π)/2] - [\\sin(0)/2] = 0 - 0 = 0. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q33",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "easy",
+      "question": "The integrating factor of the differential equation dy/dx + 2xy = x is:",
+      "options": [
+        "A) e^(2x)",
+        "B) e^x",
+        "C) e^(x²)",
+        "D) e^(x²/2)"
+      ],
+      "correct_option": "C",
+      "explanation": "For dy/dx + P(x)y = Q(x), the integrating factor is e^{(∫P(x)}dx). Here P(x) = 2x, so IF = e^{(∫2x dx)} = e^{(x²)}."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q34",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "easy",
+      "question": "A card is drawn from a well-shuffled deck of 52 cards. The probability that it is a face card (Jack, Queen, or King) is:",
+      "options": [
+        "A) 3/13",
+        "B) 1/13",
+        "C) 5/13",
+        "D) 4/13"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( There are 12 face cards \\in a deck (3 per suit × 4 suits). Probability = \\frac{12}{52} = \\frac{3}{13}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q35",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "easy",
+      "question": "The cross product of unit vectors i and j is:",
+      "options": [
+        "A) 0",
+        "B) k",
+        "C) j",
+        "D) i"
+      ],
+      "correct_option": "B",
+      "explanation": "By the right-hand rule, i × j = k. This is a fundamental property of the cross product of standard unit vectors."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q36",
+      "topic": "Matrices",
+      "sub_topic": "Concept, notation, order, equality, types of matrices",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 3]], what is the (2, 1) entry of AB?",
+      "options": [
+        "A) 10",
+        "B) 6",
+        "C) 8",
+        "D) 12"
+      ],
+      "correct_option": "A",
+      "explanation": "AB = [[1·2+2·1, 1·0+2·3], [3·2+4·1, 3·0+4·3]] = [[4, 6], [10, 12]]. The (2, 1) entry is 10."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q37",
+      "topic": "Determinants",
+      "sub_topic": "Determinant of a square matrix (up to 3×3)",
+      "difficulty": "medium",
+      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 3, then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 8/3",
+        "B) 1/6",
+        "C) 2/3",
+        "D) 6"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\left| \\1 \\right| = 2³ · \\left| \\1 \\right| = 8 · (1/\\left| \\1 \\right|) = 8 · (\\frac{1}{3}) = \\frac{8}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q38",
+      "topic": "Inverse Trigonometric Functions",
+      "sub_topic": "Definition and basic concepts",
+      "difficulty": "medium",
+      "question": "Determine the principal value of the given inverse trigonometric expression using known values and identities.",
+      "options": [
+        "A) π/6",
+        "B) π/2",
+        "C) 2π/3",
+        "D) π/3"
+      ],
+      "correct_option": "B",
+      "explanation": "Principal values: sin^-1 in [-pi/2, pi/2], cos^-1 in [0, pi], tan^-1 in (-pi/2, pi/2). Use standard angles and identities."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q39",
+      "topic": "Applications of Derivatives",
+      "sub_topic": "Second-order derivatives",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ - 6x² + 9x + 2 has a local maximum at x equals:",
+      "options": [
+        "A) 3",
+        "B) 2",
+        "C) 0",
+        "D) 1"
+      ],
+      "correct_option": "D",
+      "explanation": "f'(x) = 3x² - 12x + 9 = 3(x-1)(x-3). Critical points at x = 1, 3. f''(x) = 6x - 12. f''(1) = -6 < 0 (local max), f''(3) = 6 > 0 (local min). Local maximum at x = 1."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q40",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "\\( Evaluate the indefinite integral ∫ x·\\cos(2x) dx using integration by parts. \\)",
+      "options": [
+        "A) x·sin(2x)/2 - cos(2x)/4 + C",
+        "B) x·cos(2x)/2 - sin(2x)/4 + C",
+        "C) x·cos(2x)/2 + sin(2x)/4 + C",
+        "D) x·sin(2x)/2 + cos(2x)/4 + C"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Let u = x, dv = \\cos(2x) dx. Then du = dx, v = \\sin(2x)/2. ∫x·\\cos(2x)dx = x·\\sin(2x)/2 − ∫\\sin(2x)/2 dx = x·\\sin(2x)/2 + \\cos(2x)/4 + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q41",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "medium",
+      "question": "The particular solution of dy/dx = 2x with y(1) = 3 is:",
+      "options": [
+        "A) y = x² + 1",
+        "B) y = x² + 3",
+        "C) y = 2x + 1",
+        "D) y = x² + 2"
+      ],
+      "correct_option": "D",
+      "explanation": "Integrating: y = x² + C. Using y(1) = 3: 3 = 1 + C, so C = 2. The particular solution is y = x² + 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q42",
+      "topic": "Probability Distributions",
+      "sub_topic": "Bernoulli trials and Binomial distribution",
+      "difficulty": "medium",
+      "question": "In a binomial distribution with n = 8 and p = 0.5, the mean and variance are respectively:",
+      "options": [
+        "A) 4 and 2",
+        "B) 8 and 4",
+        "C) 4 and 4",
+        "D) 8 and 2"
+      ],
+      "correct_option": "A",
+      "explanation": "Mean = np = 8 × 0.5 = 4. Variance = npq = 8 × 0.5 × 0.5 = 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q43",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "If a = i + 2j + 3k and b = 2i - j + k, then a × b equals:",
+      "options": [
+        "A) 5i - 5j + 5k",
+        "B) -5i + 5j + 5k",
+        "C) 5i + 5j - 5k",
+        "D) 5i + 5j + 5k"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = i(2·1 - 3·(-1)) - j(1·1 - 3·2) + k(1·(-1) - 2·2) = 5i + 5j - 5k. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q44",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Equation of a plane in space",
+      "difficulty": "medium",
+      "question": "The equation of the plane passing through (1, 2, 3) with normal vector i + j + k is:",
+      "options": [
+        "A) x + y + z = 1",
+        "B) x + y + z = 3",
+        "C) x + y + z = 6",
+        "D) x + y + z = 0"
+      ],
+      "correct_option": "C",
+      "explanation": "Using point-normal form: 1(x-1) + 1(y-2) + 1(z-3) = 0, which simplifies to x + y + z = 6."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q45",
+      "topic": "Linear Programming",
+      "sub_topic": "Optimal feasible solutions",
+      "difficulty": "medium",
+      "question": "Maximize Z = 4x + 3y subject to x ≥ 0, y ≥ 0, 2x + y ≤ 8, x + 2y ≤ 10. The maximum value is:",
+      "options": [
+        "A) 18",
+        "B) 15",
+        "C) 16",
+        "D) 20"
+      ],
+      "correct_option": "D",
+      "explanation": "Corner points: (0,0): Z=0; (4,0): Z=16; (0,5): Z=15. Intersection of 2x+y=8 and x+2y=10 gives x=2, y=4. At (2,4): Z = 4(2) + 3(4) = 20. Maximum value is 20."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q46",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "medium",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin²x dx.",
+      "options": [
+        "A) π/3",
+        "B) π/6",
+        "C) π/4",
+        "D) π/2"
+      ],
+      "correct_option": "C",
+      "explanation": "Using sin²x = (1-cos2x)/2: ∫₀^(π/2) sin²x dx = ∫₀^(π/2) (1-cos2x)/2 dx = [x/2 - sin2x/4]₀^(π/2) = π/4. This result follows from standard mathematical principles."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q47",
+      "topic": "Probability",
+      "sub_topic": "Conditional probability",
+      "difficulty": "medium",
+      "question": "If P(A) = 0.6, P(B) = 0.5, and P(A ∪ B) = 0.8, then P(A|B) equals:",
+      "options": [
+        "A) 0.2",
+        "B) 0.3",
+        "C) 0.5",
+        "D) 0.6"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( P(A ∪ B) = P(A) + P(B) - P(A ∩ B), so 0.8 = 0.6 + 0.5 - P(A ∩ B), giving P(A ∩ B) = 0.3. Then P(A|B) = P(A ∩ B)/P(B) = 0.\\frac{3}{0}.5 = 0.6. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q48",
+      "topic": "Matrices",
+      "sub_topic": "Equality of matrices",
+      "difficulty": "hard",
+      "question": "\\( If A is a 3×3 matrix such that A² = A (idempotent matrix), then \\left| \\1 \\right| equals: \\)",
+      "options": [
+        "A) 8",
+        "B) 4",
+        "C) 2",
+        "D) 0"
+      ],
+      "correct_option": "D",
+      "explanation": "Since A² = A, we have A³ = A·A² = A·A = A² = A. Therefore, A³ - 2A² + A = A - 2A + A = 0 (zero matrix). The determinant of the zero matrix is 0."
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q49",
+      "topic": "Differential Equations",
+      "sub_topic": "Linear differential equations",
+      "difficulty": "hard",
+      "question": "\\( The solution of the differential equation x(dy/dx) = y + x·\\tan(y/x) with y(1) = π/4 is: \\)",
+      "options": [
+        "A) tan(y/x) = x",
+        "B) sin(y/x) = √2x",
+        "C) sin(y/x) = x/√2",
+        "D) cos(y/x) = x/√2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( This is a homogeneous equation. Let y = vx, so dy/dx = v + x(dv/dx). Substituting: x(v + x·dv/dx) = vx + x·\\tan(v), giving x²·dv/dx = x·\\tan(v). Separating: \\cot(v)dv = dx/x. Integrating: \\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C, so \\sin(v) = Cx. Thus \\sin(y/x) = Cx. Using y(1) = π/4: \\sin(π/4) = C, so C = 1/\\sqrt{2}. The solution is \\sin(y/x) = x/\\sqrt{2}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P11_L1B_Q50",
+      "topic": "Integrals",
+      "sub_topic": "Integration as inverse process of differentiation",
+      "difficulty": "hard",
+      "question": "Find the value: The value of ∫₀^∞ x³·e^{(-x)} dx is:",
+      "options": [
+        "A) 12",
+        "B) 6",
+        "C) 9",
+        "D) 3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( This integral equals Γ(4) = 3! = 6, where Γ is the \\gamma function. Alternatively, using repeated integration by parts: ∫₀^∞ x³·e^{(-x)} dx = 3∫₀^∞ x²·e^{(-x)} dx = 3 × 2∫₀^∞ x·e^{(-x)} dx = 6 × 1 = 6. This result follows from standard mathematical principles. \\)"
+    }
+  ]
+}

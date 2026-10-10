@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MM_2026_P01_L1",
+  "series_id": "CUET_MM_2026",
+  "paper_number": 1,
+  "difficulty_level": "1",
+  "subject": "Mass Media / Mass Communication (Code: 318)",
+  "syllabus_source": "cuet mass media syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "CUET UG Mass Media Past Papers (2022-2024)",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MM_2026_P01_L1_Q01",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Levels of Communication: Intrapersonal",
+      "difficulty": "easy",
+      "question": "Communication that takes place within an individual, involving internal thought processing, self-reflection, and contemplation, is called:",
+      "options": [
+        "A) Intrapersonal communication",
+        "B) Interpersonal communication",
+        "C) Mass communication",
+        "D) Intercultural communication"
+      ],
+      "correct_option": "A",
+      "explanation": "Intrapersonal communication occurs within one's own mind, including internal dialogue, self-reflection, daydreaming, and personal decision-making."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q02",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Models of Communication: Harold Lasswell Formula",
+      "difficulty": "easy",
+      "question": "Harold Lasswell's famous classic formula (1948) defines communication by answering which sequence of questions?",
+      "options": [
+        "A) Why, Where, When, How, and for What profit?",
+        "B) Who says What, in Which channel, to Whom, with What effect?",
+        "C) Send, Receive, Delete, Archive, and Forward?",
+        "D) Source, Noise, Decibel, Echo, and Amplitude?"
+      ],
+      "correct_option": "B",
+      "explanation": "Lasswell's linear model states: Who (Sender) -> Says What (Message) -> In Which Channel (Medium) -> To Whom (Receiver) -> With What Effect (Feedback/Impact)."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q03",
+      "topic": "Communication: Culture and Communication",
+      "sub_topic": "Stereotyping in Mass Media",
+      "difficulty": "easy",
+      "question": "In mass communication, assigning fixed, oversimplified, and generalized characteristics to an entire group or community is known as:",
+      "options": [
+        "A) Encoding",
+        "B) Broadcasting",
+        "C) Stereotyping",
+        "D) Symbiosis"
+      ],
+      "correct_option": "C",
+      "explanation": "Stereotyping involves depicting social groups through rigid, oversimplified clichés rather than representing individual complexity."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q04",
+      "topic": "Communication: Evolution of Media",
+      "sub_topic": "First Newspaper in India: Bengal Gazette",
+      "difficulty": "easy",
+      "question": "Which was the first printed newspaper published in India, started by James Augustus Hicky in 1780?",
+      "options": [
+        "A) The Times of India",
+        "B) The Hindu",
+        "C) Samachar Darpan",
+        "D) Bengal Gazette (or Calcutta General Advertiser)"
+      ],
+      "correct_option": "D",
+      "explanation": "James Augustus Hicky launched the Bengal Gazette on 29 January 1780 in Calcutta, marking the birth of print journalism in India."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q05",
+      "topic": "Communication: Understanding Communication",
+      "sub_topic": "Shannon and Weaver Mathematical Model: Concept of Noise",
+      "difficulty": "medium",
+      "question": "In the Shannon-Weaver Mathematical Model of Communication (1949), any unwanted technical disturbance or interference that distorts the transmitted signal is termed:",
+      "options": [
+        "A) Noise",
+        "B) Entropy",
+        "C) Feedback",
+        "D) Channel capacity"
+      ],
+      "correct_option": "A",
+      "explanation": "Shannon and Weaver introduced 'Noise' as static or physical interference in the communication channel that degrades signal accuracy between transmitter and receiver."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q06",
+      "topic": "Communication: Communication and Social Change",
+      "sub_topic": "Media as a Catalyst in Environmental Social Movements",
+      "difficulty": "medium",
+      "question": "How did regional folk media and print reporting act as a catalyst for social change during the Chipko Movement in Uttarakhand?",
+      "options": [
+        "A) By distributing television satellite receivers to logging companies",
+        "B) By spreading songs and grassroot reports that mobilized community resistance against commercial deforestation",
+        "C) By promoting high-speed commercial timber cutting contracts",
+        "D) By filing international patent rights for foreign paper mills"
+      ],
+      "correct_option": "B",
+      "explanation": "During the Chipko movement, folk songs (such as those by Ghanshyam Raturi) and local reportage spread eco-awareness, inspiring villagers to embrace trees to protect forests."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q07",
+      "topic": "Journalism: Understanding News",
+      "sub_topic": "News Values: Proximity",
+      "difficulty": "easy",
+      "question": "A news story about a local municipal water pipe burst in a reader's neighborhood carries high news value primarily due to which factor?",
+      "options": [
+        "A) Bizarre oddity",
+        "B) International prominence",
+        "C) Proximity (geographic closeness)",
+        "D) Historical antiquity"
+      ],
+      "correct_option": "C",
+      "explanation": "Proximity dictates that events happening closer to home possess greater personal relevance and impact for the local audience."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q08",
+      "topic": "Journalism: Understanding News",
+      "sub_topic": "News Values: Prominence",
+      "difficulty": "easy",
+      "question": "When a public figure, celebrity, or head of state makes a routine public statement, it becomes major news primarily due to the news value of:",
+      "options": [
+        "A) Obscurity",
+        "B) Proximity",
+        "C) Technical complexity",
+        "D) Prominence"
+      ],
+      "correct_option": "D",
+      "explanation": "Prominence means that actions and statements of well-known personalities inherently attract widespread public attention."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q09",
+      "topic": "Journalism: Reporting and Editing Techniques",
+      "sub_topic": "Inverted Pyramid Structure",
+      "difficulty": "easy",
+      "question": "In conventional hard-news writing, arranging information in descending order of importance (most crucial facts at the top) is called the:",
+      "options": [
+        "A) Inverted Pyramid style",
+        "B) Chronological narrative style",
+        "C) Stream of consciousness style",
+        "D) Dramatic hourglass structure"
+      ],
+      "correct_option": "A",
+      "explanation": "The inverted pyramid presents the most critical facts (Lead) first, followed by supporting details, background, and lesser details at the bottom."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q10",
+      "topic": "Journalism: Reporting and Editing Techniques",
+      "sub_topic": "The 5 W's and 1 H in the Lead",
+      "difficulty": "easy",
+      "question": "A standard news lead (lede) strives to answer the core journalistic questions known as the '5 W's and 1 H', which stand for:",
+      "options": [
+        "A) Which, Whom, Whose, Whence, Wherefore, and How much",
+        "B) Who, What, Where, When, Why, and How",
+        "C) Win, Want, Wish, Wait, Warn, and Help",
+        "D) Write, Wire, Word, Web, Watch, and Hear"
+      ],
+      "correct_option": "B",
+      "explanation": "The foundational journalistic formula answers Who was involved, What happened, Where it took place, When it occurred, Why it happened, and How it came about."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q11",
+      "topic": "Journalism: Photo Journalism",
+      "sub_topic": "Captions / Cutlines",
+      "difficulty": "easy",
+      "question": "A short explanatory piece of text printed immediately beneath or beside a news photograph to provide context and identify subjects is called a:",
+      "options": [
+        "A) Byline",
+        "B) Masthead",
+        "C) Caption (or cutline)",
+        "D) Dateline"
+      ],
+      "correct_option": "C",
+      "explanation": "A caption (cutline) explains the who, what, where, and when depicted in the news photograph."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q12",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Paid News Practice",
+      "difficulty": "easy",
+      "question": "The unethical practice where news organizations publish promotional or political propaganda disguised as independent news in exchange for money is called:",
+      "options": [
+        "A) Yellow journalism",
+        "B) Citizen journalism",
+        "C) Investigative reporting",
+        "D) Paid news"
+      ],
+      "correct_option": "D",
+      "explanation": "Paid news refers to disguised advertisements or favorable political coverage masquerading as objective reporting in exchange for cash or corporate favors."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q13",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Defamation: Libel vs Slander",
+      "difficulty": "medium",
+      "question": "In media law, what is the fundamental distinction between 'libel' and 'slander'?",
+      "options": [
+        "A) Libel is defamatory statement published in permanent or written form, whereas slander is temporary spoken defamation",
+        "B) Libel applies only to politicians, while slander applies to ordinary citizens",
+        "C) Libel is a constitutional right, while slander is a corporate tax code",
+        "D) Libel is civil law in rural courts, while slander is an international maritime violation"
+      ],
+      "correct_option": "A",
+      "explanation": "Libel is written, printed, or broadcast defamation in lasting form; slander is oral, transient spoken defamation."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q14",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "AIDA Model of Advertising",
+      "difficulty": "easy",
+      "question": "The widely referenced classical advertising response hierarchy model 'AIDA' stands for:",
+      "options": [
+        "A) Awareness, Insight, Direction, Authority",
+        "B) Attention, Interest, Desire, Action",
+        "C) Advertisement, Income, Dividend, Asset",
+        "D) Attitude, Incentive, Decision, Agreement"
+      ],
+      "correct_option": "B",
+      "explanation": "E. St. Elmo Lewis formulated AIDA: an effective advertisement must attract Attention, arouse Interest, create Desire, and lead to Action (purchase)."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q15",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Public Service Advertising (PSA)",
+      "difficulty": "easy",
+      "question": "An advertisement created to promote public welfare issues such as pulse polio vaccination, road safety, or anti-smoking rather than selling a commercial product is a:",
+      "options": [
+        "A) Classified advertisement",
+        "B) Convert advertising",
+        "C) Public Service Advertisement (PSA)",
+        "D) Trade promotional campaign"
+      ],
+      "correct_option": "C",
+      "explanation": "PSAs are non-commercial messages designed to educate the public and stimulate civic awareness regarding health, safety, and community issues."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q16",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Covert Advertising / Product Placement",
+      "difficulty": "easy",
+      "question": "When a branded commercial product is seamlessly integrated into a mainstream feature film or television serial storyline, the technique is known as:",
+      "options": [
+        "A) Comparative advertising",
+        "B) Direct mail advertising",
+        "C) Subliminal banner advertising",
+        "D) Covert advertising (or product placement)"
+      ],
+      "correct_option": "D",
+      "explanation": "Covert advertising (product placement) embeds a brand into entertainment content (e.g., a film character drinking a specific branded beverage)."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q17",
+      "topic": "Advertising and Public Relations: Public Relations",
+      "sub_topic": "Role of Public Relations Officer (PRO)",
+      "difficulty": "easy",
+      "question": "The primary responsibility of a Public Relations Officer (PRO) in an enterprise or government organization is to:",
+      "options": [
+        "A) Build and maintain mutual understanding, goodwill, and two-way communication between the organization and its publics",
+        "B) Audit financial bank statements and file tax returns",
+        "C) Directly manufacture industrial spare parts on the factory floor",
+        "D) Sell retail products door-to-door on commission"
+      ],
+      "correct_option": "A",
+      "explanation": "A PRO acts as an organizational liaison, managing institutional reputation, press releases, media conferences, and stakeholder communications."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q18",
+      "topic": "Advertising and Public Relations: Public Relations",
+      "sub_topic": "PR Tools: Press Release",
+      "difficulty": "easy",
+      "question": "An official written statement sent by an organization to news media outlets to announce newsworthy information or an upcoming event is called a:",
+      "options": [
+        "A) House journal",
+        "B) Press Release (or News Release)",
+        "C) Advertorial",
+        "D) Annual balance sheet"
+      ],
+      "correct_option": "B",
+      "explanation": "A press release is a standard PR document formatted in journalistic style sent to newsrooms to announce organizational updates."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q19",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Unique Selling Proposition (USP)",
+      "difficulty": "easy",
+      "question": "In advertising strategy, the distinct, compelling benefit or feature that sets a product apart from all its competitors is known as its:",
+      "options": [
+        "A) Gross Rating Point (GRP)",
+        "B) Cost Per Mille (CPM)",
+        "C) Unique Selling Proposition (USP)",
+        "D) Return on Investment (ROI)"
+      ],
+      "correct_option": "C",
+      "explanation": "Pioneered by Rosser Reeves, the Unique Selling Proposition (USP) is the singular competitive differentiator highlighted in ad campaigns."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q20",
+      "topic": "Advertising and Public Relations: Public Relations",
+      "sub_topic": "Crisis Management Protocol in PR",
+      "difficulty": "medium",
+      "question": "During an unexpected organizational disaster (such as a factory gas leak or product recall), what is the most ethical and effective PR response?",
+      "options": [
+        "A) Complete denial of the accident and blaming anonymous journalists",
+        "B) Total silence and disconnecting all media phone lines for two weeks",
+        "C) Threatening legal lawsuits against anyone who mentions the incident",
+        "D) Immediate, transparent disclosure of verified facts, empathetic stakeholder address, and proactive corrective measures"
+      ],
+      "correct_option": "D",
+      "explanation": "Effective crisis communication requires honesty, speed, empathy, regular media updates, and accountable corrective action."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q21",
+      "topic": "Advertising and Public Relations: Advertising",
+      "sub_topic": "Cross Promotion Strategy",
+      "difficulty": "medium",
+      "question": "When a fast-food chain bundles toys featuring characters from a newly released Hollywood animated blockbuster film in its meal boxes, this marketing strategy is termed:",
+      "options": [
+        "A) Cross promotion",
+        "B) Ambush marketing",
+        "C) Institutional advocacy",
+        "D) Defensive advertising"
+      ],
+      "correct_option": "A",
+      "explanation": "Cross promotion involves two independent brands collaborating to promote each other's products for mutual commercial benefit."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q22",
+      "topic": "TV Production Process: Production Stages",
+      "sub_topic": "Pre-Production Stage Components",
+      "difficulty": "easy",
+      "question": "Which television production stage encompasses conceptualization, research, scriptwriting, budgeting, and storyboarding before actual shooting begins?",
+      "options": [
+        "A) Production",
+        "B) Pre-production",
+        "C) Post-production",
+        "D) Master distribution"
+      ],
+      "correct_option": "B",
+      "explanation": "Pre-production covers all preparatory planning, logistics, scripting, casting, and scheduling necessary prior to the camera roll."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q23",
+      "topic": "TV Production Process: Production Stages",
+      "sub_topic": "Post-Production Stage Components",
+      "difficulty": "easy",
+      "question": "The phase of television production where video editing, sound dubbing, background music addition, color correction, and titling take place is:",
+      "options": [
+        "A) Pre-production",
+        "B) Reconnaissance",
+        "C) Post-production",
+        "D) On-location blocking"
+      ],
+      "correct_option": "C",
+      "explanation": "Post-production integrates recorded footage through non-linear editing, sound design, Foley effects, visual graphics, and final mastering."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q24",
+      "topic": "TV Production Process: Camera Work & Lighting",
+      "sub_topic": "Camera Movement: Pan vs Tilt",
+      "difficulty": "easy",
+      "question": "Moving the camera horizontally from left to right on a fixed tripod head is called a:",
+      "options": [
+        "A) Tilt",
+        "B) Dolly",
+        "C) Zoom",
+        "D) Pan"
+      ],
+      "correct_option": "D",
+      "explanation": "A Pan rotates the camera horizontally along the horizontal axis; a Tilt moves the camera vertically up or down."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q25",
+      "topic": "TV Production Process: Programmes & Formats",
+      "sub_topic": "Television Rating Point (TRP)",
+      "difficulty": "medium",
+      "question": "In television broadcast analytics, Television Rating Points (TRP) are measured primarily to determine:",
+      "options": [
+        "A) The percentage of target households watching a specific program at a given time, influencing advertising tariffs",
+        "B) The electrical voltage required to operate television transmitter towers",
+        "C) The physical weight of cathode ray tube monitors in consumer homes",
+        "D) The total number of satellite dishes manufactured in domestic factories"
+      ],
+      "correct_option": "A",
+      "explanation": "TRP measures viewership popularity of programs across demographic samples, dictating commercial ad rates for channels."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q26",
+      "topic": "TV Production Process: Camera Work & Lighting",
+      "sub_topic": "Two-Column Script Format",
+      "difficulty": "medium",
+      "question": "In television and corporate video scripting, the standard two-column AV script separates instructions into:",
+      "options": [
+        "A) Budget costs on the left and Actor salaries on the right",
+        "B) Video cues on the left column and Audio elements on the right column",
+        "C) Director remarks on the left and Catering menus on the right",
+        "D) English dialogue on the left and Subtitles on the right"
+      ],
+      "correct_option": "B",
+      "explanation": "The traditional split-column AV script places visual instructions (camera shots, graphics) on the left and corresponding sound/dialogue on the right."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q27",
+      "topic": "Radio: Writing for Radio",
+      "sub_topic": "Radio as 'Theatre of the Mind'",
+      "difficulty": "easy",
+      "question": "Radio is celebrated as the 'Theatre of the Mind' because:",
+      "options": [
+        "A) It transmits high-definition holographic projections onto living room walls",
+        "B) It requires actors to perform on physical Broadway theatrical stages",
+        "C) It uses spoken words, sound effects, and music to stimulate the listener's imagination to create mental pictures",
+        "D) It operates exclusively inside psychiatric neurology hospital wards"
+      ],
+      "correct_option": "C",
+      "explanation": "Because radio is an auditory medium, skilled scriptwriters use sound effects, voice inflections, and silence to evoke vivid visual mental imagery."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q28",
+      "topic": "Radio: Writing for Radio",
+      "sub_topic": "Radio Script Language Rules",
+      "difficulty": "easy",
+      "question": "Which of the following is a fundamental rule when writing a script for radio broadcast?",
+      "options": [
+        "A) Use dense technical jargon and multi-clause paragraphs",
+        "B) Write in archaic passive voice with lengthy footnotes",
+        "C) Include complex mathematical equations for listeners to solve",
+        "D) Use conversational language, active voice, and short simple sentences"
+      ],
+      "correct_option": "D",
+      "explanation": "Radio writing is written for the ear, not the eye; listeners cannot re-read a sentence, so language must be simple, direct, and conversational."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q29",
+      "topic": "Radio: Radio Recording",
+      "sub_topic": "Microphone Polar Patterns: Omnidirectional",
+      "difficulty": "easy",
+      "question": "A microphone that picks up sound equally from all directions (360 degrees) is classified as:",
+      "options": [
+        "A) Omnidirectional microphone",
+        "B) Unidirectional (Cardioid) microphone",
+        "C) Bidirectional microphone",
+        "D) Shotgun microphone"
+      ],
+      "correct_option": "A",
+      "explanation": "An omnidirectional microphone has a spherical pickup pattern, capturing ambient sound and voices equally from all sides."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q30",
+      "topic": "Radio: Radio Recording",
+      "sub_topic": "Cardioid vs Bidirectional Microphones",
+      "difficulty": "medium",
+      "question": "In a radio talk show interview where two guests sit directly facing each other across a single table, which microphone pattern is most suitable to capture both speakers while rejecting room noise?",
+      "options": [
+        "A) A hyper-cardioid shotgun microphone pointing at the ceiling",
+        "B) A bidirectional (figure-8) microphone",
+        "C) An omnidirectional lavalier clipped under the table",
+        "D) A parabolic reflector microphone placed outside the window"
+      ],
+      "correct_option": "B",
+      "explanation": "A bidirectional microphone has a figure-8 pickup pattern, recording sound from the front and back while rejecting sound from the sides."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q31",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "Lumière Brothers First Public Screening 1895",
+      "difficulty": "easy",
+      "question": "The Lumière Brothers (Auguste and Louis) held their historic first public projection of cinematographic motion pictures in December 1895 in:",
+      "options": [
+        "A) London, England",
+        "B) New York, USA",
+        "C) Paris, France",
+        "D) Berlin, Germany"
+      ],
+      "correct_option": "C",
+      "explanation": "On 28 December 1895, the Lumière brothers held the first commercial public screening using their Cinématographe at the Grand Café in Paris."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q32",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "Dadasaheb Phalke and Indian Cinema",
+      "difficulty": "easy",
+      "question": "Who is revered as the 'Father of Indian Cinema' for producing India's first indigenous full-length silent feature film 'Raja Harishchandra' (1913)?",
+      "options": [
+        "A) Satyajit Ray",
+        "B) V. Shantaram",
+        "C) Raj Kapoor",
+        "D) Dadasaheb Phalke (Dhundiraj Govind Phalke)"
+      ],
+      "correct_option": "D",
+      "explanation": "Dadasaheb Phalke produced and directed 'Raja Harishchandra' in 1913, establishing the foundational milestone of Indian cinema."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q33",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "John Grierson Documentary Definition",
+      "difficulty": "easy",
+      "question": "Scottish filmmaker John Grierson famously coined the term and defined a documentary film as:",
+      "options": [
+        "A) 'The creative treatment of actuality'",
+        "B) 'A purely fictional escapist fantasy'",
+        "C) 'A spontaneous home video without editing'",
+        "D) 'An advertisement designed for commercial retail sales'"
+      ],
+      "correct_option": "A",
+      "explanation": "John Grierson coined the classic definition of documentary in 1926 as 'the creative treatment of actuality'."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q34",
+      "topic": "Cinema: Production Process and Cinema Genres",
+      "sub_topic": "Film Genres: Film Noir / Crime",
+      "difficulty": "easy",
+      "question": "Which cinema genre is characterized by shadowy low-key lighting, cynical private detectives, urban underworld crime, and moral ambiguity?",
+      "options": [
+        "A) Romantic Musical",
+        "B) Film Noir (Crime drama)",
+        "C) Slapstick Comedy",
+        "D) Space Fantasy"
+      ],
+      "correct_option": "B",
+      "explanation": "Film Noir is a classic sub-genre of crime cinema featuring chiascuro lighting, cynical protagonists, femme fatales, and gritty urban corruption."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q35",
+      "topic": "Cinema: Cinema and Social Change",
+      "sub_topic": "Shyam Benegal's Manthan (1976) Crowd-funding",
+      "difficulty": "easy",
+      "question": "Shyam Benegal's landmark parallel cinema film 'Manthan' (1976), depicting the white revolution dairy cooperative movement, was uniquely financed by:",
+      "options": [
+        "A) A single foreign Hollywood multinational studio",
+        "B) A lottery ticket fund organized by a commercial airline",
+        "C) 500,000 rural dairy farmers contributing two rupees each",
+        "D) The British colonial imperial welfare trust"
+      ],
+      "correct_option": "C",
+      "explanation": "'Manthan' was a pioneering crowd-funded film funded by 500,000 farmers of the Gujarat Co-operative Milk Marketing Federation (Amul) donating Rs. 2 each."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q36",
+      "topic": "Cinema: History of Cinema",
+      "sub_topic": "Robert Flaherty and Nanook of the North (1922)",
+      "difficulty": "medium",
+      "question": "Robert Flaherty's pioneering 1922 film 'Nanook of the North' is recognized as a historic milestone in cinema history because it was:",
+      "options": [
+        "A) The first computer-generated three-dimensional animated cartoon",
+        "B) The first talking synchronized dialogue picture filmed in colour",
+        "C) The first Hollywood studio space science-fiction blockbuster",
+        "D) The first commercially successful feature-length ethnographic documentary depicting the daily life of an Inuit family"
+      ],
+      "correct_option": "D",
+      "explanation": "Flaherty's 'Nanook of the North' chronicled the harsh survival of Inuit hunter Nanook in the Canadian Arctic, establishing ethnographic documentary filmmaking."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q37",
+      "topic": "Cinema: Production Process and Cinema Genres",
+      "sub_topic": "Genre Theory: Iconography and Conventions",
+      "difficulty": "medium",
+      "question": "In cinema genre theory, visual elements repeatedly associated with a specific genre (such as six-shooters, saloons, and horseback chases in Westerns) are termed its:",
+      "options": [
+        "A) Iconography",
+        "B) Cinematography",
+        "C) Archeological continuity",
+        "D) Diegetic soundtrack"
+      ],
+      "correct_option": "A",
+      "explanation": "Iconography refers to symbolic visual objects, settings, and character archetypes immediately recognizable to audiences as markers of a specific genre."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q38",
+      "topic": "Social Media: Definition and Types",
+      "sub_topic": "Social Media Definition",
+      "difficulty": "easy",
+      "question": "Social media platforms are fundamentally distinguished from traditional broadcast media by their reliance on:",
+      "options": [
+        "A) One-way top-down broadcasting to passive receivers",
+        "B) User-generated content and multi-directional, participatory networking",
+        "C) Printed paper distribution via morning postal vans",
+        "D) Exclusively analog radio frequencies regulated by state telegraphs"
+      ],
+      "correct_option": "B",
+      "explanation": "Social media (Web 2.0) empowers users to create, share, comment on, and modify user-generated content in participatory virtual networks."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q39",
+      "topic": "Social Media: Netiquettes",
+      "sub_topic": "Meaning and Importance of Netiquettes",
+      "difficulty": "easy",
+      "question": "The accepted code of polite, responsible, and ethical conduct expected of internet and social media users is known as:",
+      "options": [
+        "A) Algorithmic bias",
+        "B) Cyber bullying",
+        "C) Netiquette",
+        "D) Digital surveillance"
+      ],
+      "correct_option": "C",
+      "explanation": "Netiquette (network etiquette) comprises guidelines for respectful online behavior, privacy protection, and civil digital communication."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q40",
+      "topic": "Social Media: Cyber Crime",
+      "sub_topic": "Cyberbullying Definition",
+      "difficulty": "easy",
+      "question": "Repeatedly posting hostile, intimidating, or defamatory remarks targeting a specific individual on digital forums or messaging apps is termed:",
+      "options": [
+        "A) Citizen journalism",
+        "B) Ethical hacking",
+        "C) Data mining",
+        "D) Cyberbullying"
+      ],
+      "correct_option": "D",
+      "explanation": "Cyberbullying involves deliberate, repeated electronic harassment, intimidation, or public humiliation of an individual online."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q41",
+      "topic": "Social Media: Cyber Crime",
+      "sub_topic": "Phishing Scam Mechanics",
+      "difficulty": "easy",
+      "question": "A fraudulent practice where scammers send deceptive emails or messages disguised as legitimate banks or tech companies to steal sensitive passwords is:",
+      "options": [
+        "A) Phishing",
+        "B) Blogging",
+        "C) Podcasting",
+        "D) Streaming"
+      ],
+      "correct_option": "A",
+      "explanation": "Phishing is social engineering cyber fraud where perpetrators pose as reputable institutions to lure victims into revealing login credentials or credit card details."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q42",
+      "topic": "Social Media: Role in Democracy",
+      "sub_topic": "Cyber Activism and Hashtag Mobilization",
+      "difficulty": "medium",
+      "question": "The strategic use of social media platforms (such as Twitter, Facebook, and Instagram) to organize protests, coordinate civic actions, and raise human rights awareness is termed:",
+      "options": [
+        "A) Cyber espionage",
+        "B) Cyber activism (or digital activism)",
+        "C) Commercial advertorials",
+        "D) Algorithmic clickbait"
+      ],
+      "correct_option": "B",
+      "explanation": "Cyber activism leverages digital networks and hashtag campaigns (e.g., #MeToo, Arab Spring) for swift civic mobilization and political advocacy."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q43",
+      "topic": "Social Media: Netiquettes",
+      "sub_topic": "Digital Footprint and Privacy",
+      "difficulty": "medium",
+      "question": "Why is being mindful of one's 'digital footprint' considered a critical aspect of internet netiquette?",
+      "options": [
+        "A) Because computers automatically erase all hard drive memory every twenty-four hours",
+        "B) Because typing words online consumes physical paper pulp in municipal forests",
+        "C) Because online activities, comments, and photos leave permanent searchable records that can affect personal reputation and career prospects",
+        "D) Because the United Nations fines internet users for viewing websites"
+      ],
+      "correct_option": "C",
+      "explanation": "A digital footprint represents permanent electronic traces left by user activity online, which prospective employers, universities, and institutions can inspect."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q44",
+      "topic": "New Media: Concepts",
+      "sub_topic": "Internet as Meeting Point of Mass Media",
+      "difficulty": "easy",
+      "question": "How does the Internet function as the 'meeting point' of all traditional mass media?",
+      "options": [
+        "A) By requiring all physical newspapers to be hand-delivered across telephone wires",
+        "B) By converting television picture tubes into gasoline-powered transmitters",
+        "C) By replacing all human journalists with physical industrial printing presses",
+        "D) By digitizing and integrating text, audio, still images, and video into a single multimedia platform"
+      ],
+      "correct_option": "D",
+      "explanation": "The Internet brings together print (text), radio (audio), television (video), and photography into a unified digital multimedia ecosystem."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q45",
+      "topic": "New Media: Concepts",
+      "sub_topic": "Shift from One-to-Many to Many-to-Many",
+      "difficulty": "easy",
+      "question": "Traditional broadcast media (TV, radio, newspapers) operated on a 'one-to-many' model, whereas New Media operates primarily on a:",
+      "options": [
+        "A) 'Many-to-many' interactive communication model",
+        "B) 'None-to-none' silent non-verbal model",
+        "C) 'One-to-zero' encrypted military radar model",
+        "D) 'One-to-one' private postal telegram model"
+      ],
+      "correct_option": "A",
+      "explanation": "New Media allows any user to be both a content producer and consumer, creating interactive many-to-many networks."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q46",
+      "topic": "New Media: Emerging Trends",
+      "sub_topic": "Concept of the 'Prosumer'",
+      "difficulty": "easy",
+      "question": "In contemporary new media culture, Alvin Toffler's term 'Prosumer' describes an individual who:",
+      "options": [
+        "A) Exclusively buys retail merchandise from foreign television infomercials",
+        "B) Simultaneously consumes media content and actively produces media content",
+        "C) Refuses to use any electrical device manufactured after 1950",
+        "D) Operates high-voltage submarine telegraph communication cables"
+      ],
+      "correct_option": "B",
+      "explanation": "A 'prosumer' combines the roles of producer and consumer, actively generating videos, blogs, and posts while consuming content from others."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q47",
+      "topic": "New Media: Emerging Trends",
+      "sub_topic": "Media Convergence Definition",
+      "difficulty": "easy",
+      "question": "The merging of distinct mass media technologies (such as telephony, computing, and television broadcasting) into unified digital platforms is called:",
+      "options": [
+        "A) Media divergence",
+        "B) Cognitive dissonance",
+        "C) Media convergence",
+        "D) Selective retention"
+      ],
+      "correct_option": "C",
+      "explanation": "Media convergence describes the blending of telecommunications, computing, and audio-visual broadcasting across shared digital networks."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q48",
+      "topic": "New Media: Socio-Political Implications",
+      "sub_topic": "Filter Bubbles and Echo Chambers",
+      "difficulty": "hard",
+      "question": "How do algorithmic recommendation engines on search engines and social feeds create intellectual 'filter bubbles' that polarize public discourse?",
+      "options": [
+        "A) By requiring all users to subscribe to physical paper newsletters delivered by post",
+        "B) By automatically deleting all digital encyclopedia articles every weekend",
+        "C) By converting political discussions into encrypted mathematical prime numbers",
+        "D) By repeatedly serving users content conforming to their past preferences while filtering out dissenting perspectives, isolating them in echo chambers"
+      ],
+      "correct_option": "D",
+      "explanation": "Algorithmic personalization reinforces confirmation bias by isolating users in ideological echo chambers where contrasting viewpoints are invisible."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q49",
+      "topic": "New Media: Emerging Trends",
+      "sub_topic": "Mobile Journalism (MoJo) Workflow",
+      "difficulty": "hard",
+      "question": "Why has Mobile Journalism (MoJo) fundamentally transformed breaking news coverage for contemporary global newsrooms?",
+      "options": [
+        "A) It empowers lone field journalists to record high-definition video, edit stories on smartphones, and broadcast live via 4G/5G without heavy satellite broadcast vans",
+        "B) It requires newsrooms to abandon digital video and return exclusively to Morse code telegrams",
+        "C) It mandates that news reporters must be aboard moving trains to transmit news",
+        "D) It prevents journalists from verifying facts before broadcasting"
+      ],
+      "correct_option": "A",
+      "explanation": "MoJo enables solo journalists equipped with mobile devices, compact mics, and editing apps to capture, edit, and transmit broadcast-grade packages instantly."
+    },
+    {
+      "id": "CUET_MM_2026_P01_L1_Q50",
+      "topic": "Journalism: Media Laws & Ethical Issues",
+      "sub_topic": "Article 19(1)(a) and Reasonable Restrictions under 19(2)",
+      "difficulty": "hard",
+      "question": "Under Article 19(2) of the Indian Constitution, the fundamental freedom of speech and expression guaranteed under Article 19(1)(a) is subject to reasonable restrictions on which specific grounds?",
+      "options": [
+        "A) Maximizing corporate advertising profits of national press cartels",
+        "B) Sovereignty and integrity of India, security of the State, public order, decency, morality, contempt of court, defamation, or incitement to an offence",
+        "C) Preventing citizens from criticizing elected political party leaders",
+        "D) Banning foreign language educational publications during peacetime"
+      ],
+      "correct_option": "B",
+      "explanation": "Article 19(1)(a) grants freedom of speech and expression (including freedom of the press), subject under 19(2) to reasonable restrictions on public order, morality, state security, sovereignty, contempt of court, and defamation."
+    }
+  ]
+}

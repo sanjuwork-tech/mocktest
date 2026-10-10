@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P24_L4C",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 24,
+  "difficulty_level": "4C",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q01",
+      "topic": "Database/SQL",
+      "sub_topic": "Normalization",
+      "difficulty": "easy",
+      "question": "Which normal form eliminates transitive dependencies in a relational database?",
+      "options": [
+        "A) 2NF",
+        "B) BCNF",
+        "C) 3NF",
+        "D) 1NF"
+      ],
+      "correct_option": "C",
+      "explanation": "Third Normal Form (3NF) removes transitive dependencies."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q02",
+      "topic": "Database/SQL",
+      "sub_topic": "SQL Commands",
+      "difficulty": "easy",
+      "question": "Which SQL command removes all rows from a table without logging individual row deletions?",
+      "options": [
+        "A) REMOVE",
+        "B) DELETE",
+        "C) DROP",
+        "D) TRUNCATE"
+      ],
+      "correct_option": "D",
+      "explanation": "TRUNCATE removes all rows quickly without logging each row deletion."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q03",
+      "topic": "Database/SQL",
+      "sub_topic": "Joins",
+      "difficulty": "easy",
+      "question": "Which SQL join returns all rows from the left table and matched rows from the right table?",
+      "options": [
+        "A) RIGHT JOIN",
+        "B) LEFT JOIN",
+        "C) FULL OUTER JOIN",
+        "D) INNER JOIN"
+      ],
+      "correct_option": "B",
+      "explanation": "LEFT JOIN returns all rows from the left table plus matched rows from the right."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q04",
+      "topic": "Database/SQL",
+      "sub_topic": "Keys",
+      "difficulty": "easy",
+      "question": "What is a candidate key in a relational database?",
+      "options": [
+        "A) A set of attributes that can uniquely identify a tuple",
+        "B) An attribute with NULL values",
+        "C) A foreign key referencing another table",
+        "D) A key always chosen as primary key"
+      ],
+      "correct_option": "A",
+      "explanation": "A candidate key is a minimal set of attributes that can uniquely identify a tuple."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q05",
+      "topic": "Networks",
+      "sub_topic": "OSI Model",
+      "difficulty": "easy",
+      "question": "At which OSI layer does a router operate?",
+      "options": [
+        "A) Transport Layer",
+        "B) Application Layer",
+        "C) Data Link Layer",
+        "D) Network Layer"
+      ],
+      "correct_option": "D",
+      "explanation": "Routers operate at the Network Layer (Layer 3)."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q06",
+      "topic": "Networks",
+      "sub_topic": "IP Addressing",
+      "difficulty": "easy",
+      "question": "Which IP address class has a default subnet mask of 255.255.0.0?",
+      "options": [
+        "A) Class B",
+        "B) Class D",
+        "C) Class C",
+        "D) Class A"
+      ],
+      "correct_option": "A",
+      "explanation": "Class B addresses use a default subnet mask of 255.255.0.0."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q07",
+      "topic": "Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which protocol is used to transfer files between a client and server over a network?",
+      "options": [
+        "A) SNMP",
+        "B) SMTP",
+        "C) FTP",
+        "D) HTTP"
+      ],
+      "correct_option": "C",
+      "explanation": "FTP (File Transfer Protocol) is used to transfer files between a client and server over a network."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q08",
+      "topic": "Networks",
+      "sub_topic": "Devices",
+      "difficulty": "easy",
+      "question": "Which device regenerates and retransmits received signals to all ports indiscriminately?",
+      "options": [
+        "A) Router",
+        "B) Hub",
+        "C) Bridge",
+        "D) Switch"
+      ],
+      "correct_option": "B",
+      "explanation": "A hub is a Layer 1 device that broadcasts incoming signals to all ports without filtering."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q09",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Lists",
+      "difficulty": "easy",
+      "question": "What is the output of len([1, [2, 3], 4, 5]) in Python?",
+      "options": [
+        "A) 3",
+        "B) 4",
+        "C) 5",
+        "D) 6"
+      ],
+      "correct_option": "B",
+      "explanation": "The list has 4 elements: 1, [2,3], 4, and 5."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q10",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Dictionaries",
+      "difficulty": "easy",
+      "question": "Which method returns all key-value pairs from a dictionary in Python?",
+      "options": [
+        "A) d.items()",
+        "B) d.get()",
+        "C) d.keys()",
+        "D) d.values()"
+      ],
+      "correct_option": "A",
+      "explanation": "d.items() returns a view of all (key, value) tuples."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q11",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Strings",
+      "difficulty": "easy",
+      "question": "What does the string method .strip() do?",
+      "options": [
+        "A) Converts to uppercase",
+        "B) Splits the string",
+        "C) Removes all spaces from the string",
+        "D) Removes leading and trailing whitespace"
+      ],
+      "correct_option": "D",
+      "explanation": ".strip() removes leading and trailing whitespace."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q12",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Tuples",
+      "difficulty": "easy",
+      "question": "Which of the following is true about tuples in Python?",
+      "options": [
+        "A) Tuples cannot be nested",
+        "B) Tuples can contain only integers",
+        "C) Tuples are immutable and ordered",
+        "D) Tuples are mutable"
+      ],
+      "correct_option": "C",
+      "explanation": "Tuples are immutable and ordered."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q13",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "easy",
+      "question": "What is the prerequisite for performing binary search on an array?",
+      "options": [
+        "A) Array must be of even length",
+        "B) Array must be sorted",
+        "C) Array must be unsorted",
+        "D) Array must have unique elements"
+      ],
+      "correct_option": "B",
+      "explanation": "Binary search requires the array to be sorted."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q14",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "In bubble sort, what operation is repeatedly performed to sort the array?",
+      "options": [
+        "A) Dividing the array into halves and merging them",
+        "B) Comparing adjacent elements and swapping if in wrong order",
+        "C) Selecting a pivot and partitioning the array",
+        "D) Selecting the minimum element and placing it at the beginning"
+      ],
+      "correct_option": "B",
+      "explanation": "Bubble sort repeatedly compares adjacent elements and swaps them if they are in the wrong order."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q15",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Linear Search",
+      "difficulty": "easy",
+      "question": "How many comparisons does linear search make in the worst case for an array of n elements?",
+      "options": [
+        "A) n",
+        "B) 1",
+        "C) n²",
+        "D) log n"
+      ],
+      "correct_option": "A",
+      "explanation": "In the worst case, linear search examines all n elements."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q16",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm builds the sorted array one item at a time by inserting elements into correct position?",
+      "options": [
+        "A) Quick Sort",
+        "B) Selection Sort",
+        "C) Insertion Sort",
+        "D) Merge Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Insertion Sort iteratively places each element into its correct position."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q17",
+      "topic": "Security/Pandas",
+      "sub_topic": "Cyber Security",
+      "difficulty": "easy",
+      "question": "What type of attack involves intercepting communication between two parties without their knowledge?",
+      "options": [
+        "A) Denial of Service",
+        "B) Brute force",
+        "C) Phishing",
+        "D) Man-in-the-middle"
+      ],
+      "correct_option": "D",
+      "explanation": "Man-in-the-middle attack intercepts communications between two parties."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q18",
+      "topic": "Security/Pandas",
+      "sub_topic": "Encryption",
+      "difficulty": "easy",
+      "question": "In symmetric key cryptography, how many keys are used for encryption and decryption?",
+      "options": [
+        "A) Two keys (public and private)",
+        "B) A different key for each user",
+        "C) One shared key",
+        "D) No keys needed"
+      ],
+      "correct_option": "C",
+      "explanation": "Symmetric cryptography uses a single shared key."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q19",
+      "topic": "Security/Pandas",
+      "sub_topic": "Hashing",
+      "difficulty": "easy",
+      "question": "Which of the following is a cryptographic hash function?",
+      "options": [
+        "A) DES",
+        "B) SHA-256",
+        "C) AES",
+        "D) RSA"
+      ],
+      "correct_option": "B",
+      "explanation": "SHA-256 is a cryptographic hash function."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q20",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Basics",
+      "difficulty": "easy",
+      "question": "Which Pandas method provides a statistical summary of a DataFrame?",
+      "options": [
+        "A) df.describe()",
+        "B) df.info()",
+        "C) df.head()",
+        "D) df.shape()"
+      ],
+      "correct_option": "A",
+      "explanation": "df.describe() returns count, mean, std, min, quartiles, and max."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q21",
+      "topic": "Database/SQL",
+      "sub_topic": "Views",
+      "difficulty": "medium",
+      "question": "In SQL, a view is best described as:",
+      "options": [
+        "A) A physical copy of a table",
+        "B) A stored procedure",
+        "C) An index on a table",
+        "D) A virtual table based on a SELECT query"
+      ],
+      "correct_option": "D",
+      "explanation": "A view is a virtual table derived from base tables via a SELECT query."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q22",
+      "topic": "Database/SQL",
+      "sub_topic": "Aggregation",
+      "difficulty": "medium",
+      "question": "Given Employees(emp_id, dept, salary), which query returns the department with highest average salary?",
+      "options": [
+        "A) SELECT dept, AVG(salary) FROM Employees WHERE salary = MAX(salary)",
+        "B) SELECT dept, SUM(salary) FROM Employees ORDER BY dept",
+        "C) SELECT dept, AVG(salary) FROM Employees GROUP BY dept ORDER BY AVG(salary) DESC LIMIT 1",
+        "D) SELECT dept, MAX(salary) FROM Employees GROUP BY dept"
+      ],
+      "correct_option": "C",
+      "explanation": "To find the department with the highest average salary, the query must group records by department using GROUP BY dept, compute the average salary per department with AVG(salary), sort the averages in descending order using ORDER BY AVG(salary) DESC, and use LIMIT 1 to return the top record. Aggregate functions like MAX() cannot be placed directly in a WHERE clause, and SUM() calculates total rather than average salary."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q23",
+      "topic": "Database/SQL",
+      "sub_topic": "Indexing",
+      "difficulty": "medium",
+      "question": "What is the primary disadvantage of creating too many indexes on a database table?",
+      "options": [
+        "A) Slower INSERT/UPDATE/DELETE operations",
+        "B) Reduced data integrity",
+        "C) Increased network latency",
+        "D) Increased query compilation time"
+      ],
+      "correct_option": "A",
+      "explanation": "Each index must be updated on INSERT/UPDATE/DELETE, degrading write performance."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q24",
+      "topic": "Database/SQL",
+      "sub_topic": "Transactions",
+      "difficulty": "medium",
+      "question": "Which ACID property ensures that either all operations of a transaction are executed or none at all?",
+      "options": [
+        "A) Isolation",
+        "B) Durability",
+        "C) Consistency",
+        "D) Atomicity"
+      ],
+      "correct_option": "D",
+      "explanation": "Atomicity guarantees a transaction is indivisible — all or nothing."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q25",
+      "topic": "Networks",
+      "sub_topic": "TCP/IP",
+      "difficulty": "medium",
+      "question": "What is the purpose of the three-way handshake in TCP?",
+      "options": [
+        "A) To compress data",
+        "B) To encrypt data",
+        "C) To establish a reliable connection",
+        "D) To detect errors"
+      ],
+      "correct_option": "C",
+      "explanation": "The three-way handshake establishes a reliable connection."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q26",
+      "topic": "Networks",
+      "sub_topic": "Subnetting",
+      "difficulty": "medium",
+      "question": "A network administrator needs to create subnets supporting 30 hosts each from 192.168.1.0/24. What subnet mask should be used?",
+      "options": [
+        "A) 255.255.255.248",
+        "B) 255.255.255.224",
+        "C) 255.255.255.192",
+        "D) 255.255.255.240"
+      ],
+      "correct_option": "B",
+      "explanation": "For 30 hosts: need 2^h - 2 >= 30, so h >= 5. Subnet mask = /27 = 255.255.255.224."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q27",
+      "topic": "Networks",
+      "sub_topic": "Routing",
+      "difficulty": "medium",
+      "question": "Which routing protocol uses the Bellman-Ford algorithm?",
+      "options": [
+        "A) EIGRP",
+        "B) RIP",
+        "C) BGP",
+        "D) OSPF"
+      ],
+      "correct_option": "B",
+      "explanation": "RIP uses the Bellman-Ford distance-vector algorithm."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q28",
+      "topic": "Networks",
+      "sub_topic": "Security",
+      "difficulty": "medium",
+      "question": "What is the primary function of an Intrusion Detection System (IDS)?",
+      "options": [
+        "A) Assign IP addresses dynamically",
+        "B) Encrypt sensitive data in transit",
+        "C) Block all incoming connections",
+        "D) Monitor network traffic and alert on suspicious activity"
+      ],
+      "correct_option": "D",
+      "explanation": "An IDS monitors network traffic for suspicious activity and generates alerts, but does not block traffic."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q29",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Sets",
+      "difficulty": "medium",
+      "question": "Which set operation returns elements in either set but not in both?",
+      "options": [
+        "A) symmetric_difference()",
+        "B) intersection()",
+        "C) union()",
+        "D) difference()"
+      ],
+      "correct_option": "A",
+      "explanation": "symmetric_difference() returns elements in either set but not in their intersection."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q30",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Stack",
+      "difficulty": "medium",
+      "question": "If elements are pushed onto a stack in order A, B, C, D, which pop sequence is impossible?",
+      "options": [
+        "A) D, C, B, A",
+        "B) A, B, C, D",
+        "C) B, A, D, C",
+        "D) C, D, B, A"
+      ],
+      "correct_option": "C",
+      "explanation": "B, A, D, C is impossible because after B and A pop, D is on top, so C cannot be popped after D."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q31",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Queue",
+      "difficulty": "medium",
+      "question": "In a circular queue of size 10 with front=3 and rear=7, how many elements are present?",
+      "options": [
+        "A) 5",
+        "B) 3",
+        "C) 4",
+        "D) 6"
+      ],
+      "correct_option": "C",
+      "explanation": "Number of elements = (7 - 3 + 10) % 10 = 4."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q32",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Recursion",
+      "difficulty": "medium",
+      "question": "What is the time complexity of recursive Fibonacci without memoization?",
+      "options": [
+        "A) O(2^n)",
+        "B) O(n)",
+        "C) O(n log n)",
+        "D) O(n²)"
+      ],
+      "correct_option": "A",
+      "explanation": "Naive recursive Fibonacci has exponential time O(2^n)."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q33",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "What is the best-case time complexity of selection sort?",
+      "options": [
+        "A) O(n)",
+        "B) O(n²)",
+        "C) O(n log n)",
+        "D) O(log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Selection sort always performs O(n²) comparisons regardless of input."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q34",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Quick Sort",
+      "difficulty": "medium",
+      "question": "What is the worst-case time complexity of Quick Sort when the pivot is always the smallest element?",
+      "options": [
+        "A) O(n log n)",
+        "B) O(log n)",
+        "C) O(n)",
+        "D) O(n²)"
+      ],
+      "correct_option": "D",
+      "explanation": "If the pivot is always the smallest element, partitions are maximally unbalanced, leading to O(n²)."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q35",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Merge Sort",
+      "difficulty": "medium",
+      "question": "How many passes does merge sort need to sort an array of 8 elements?",
+      "options": [
+        "A) 4",
+        "B) 2",
+        "C) 3",
+        "D) 8"
+      ],
+      "correct_option": "C",
+      "explanation": "Merge sort divides the array in half each pass: log2(8) = 3 passes."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q36",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Heap Sort",
+      "difficulty": "medium",
+      "question": "What is the time complexity of heap sort in the worst case?",
+      "options": [
+        "A) O(n²)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n)"
+      ],
+      "correct_option": "B",
+      "explanation": "Heap sort has O(n log n) worst-case time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q37",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Indexing",
+      "difficulty": "medium",
+      "question": "What does df.loc[] primarily use to access data in a DataFrame?",
+      "options": [
+        "A) Column names and row labels",
+        "B) Boolean masks only",
+        "C) Integer positions",
+        "D) SQL-like queries"
+      ],
+      "correct_option": "A",
+      "explanation": "df.loc[] accesses data by label."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q38",
+      "topic": "Security/Pandas",
+      "sub_topic": "SQL Injection",
+      "difficulty": "medium",
+      "question": "What is the primary risk of a successful SQL injection attack?",
+      "options": [
+        "A) Increased server load",
+        "B) Network disconnection",
+        "C) Browser crash",
+        "D) Unauthorized access to or manipulation of database data"
+      ],
+      "correct_option": "D",
+      "explanation": "SQL injection allows attackers to bypass authentication, read/modify/delete database data."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q39",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Grouping",
+      "difficulty": "medium",
+      "question": "What does df.groupby('department')['salary'].mean() compute?",
+      "options": [
+        "A) Total salary per department",
+        "B) Average salary per department",
+        "C) Number of employees per department",
+        "D) Maximum salary per department"
+      ],
+      "correct_option": "B",
+      "explanation": "The groupby-then-mean pattern computes average salary within each department."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q40",
+      "topic": "Security/Pandas",
+      "sub_topic": "Network Security",
+      "difficulty": "medium",
+      "question": "What is the purpose of a digital certificate?",
+      "options": [
+        "A) Prevent virus infections",
+        "B) Encrypt all network traffic",
+        "C) Verify the identity of a website or entity",
+        "D) Store passwords securely"
+      ],
+      "correct_option": "C",
+      "explanation": "A digital certificate binds a public key to an entity's identity."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q41",
+      "topic": "Database/SQL",
+      "sub_topic": "Functional Dependencies",
+      "difficulty": "hard",
+      "question": "Given relation R(A, B, C, D) with FDs {A -> B, B -> C, C -> D}, what is the highest normal form satisfied by R?",
+      "options": [
+        "A) BCNF",
+        "B) 1NF",
+        "C) 3NF",
+        "D) 2NF"
+      ],
+      "correct_option": "D",
+      "explanation": "The candidate key is A. No partial dependencies exist, so 2NF is satisfied. Transitive dependencies violate 3NF. Thus highest NF is 2NF."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q42",
+      "topic": "Database/SQL",
+      "sub_topic": "Subqueries",
+      "difficulty": "hard",
+      "question": "Consider: SELECT name FROM Students WHERE marks > (SELECT AVG(marks) FROM Students). What does this return?",
+      "options": [
+        "A) Students whose marks exceed the overall average",
+        "B) All students",
+        "C) Students whose marks equal the average",
+        "D) The student with maximum marks only"
+      ],
+      "correct_option": "A",
+      "explanation": "The subquery computes the overall average; the outer query selects students whose marks exceed that average."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q43",
+      "topic": "Networks",
+      "sub_topic": "IPv6",
+      "difficulty": "hard",
+      "question": "How many bits does an IPv6 address contain?",
+      "options": [
+        "A) 256",
+        "B) 128",
+        "C) 64",
+        "D) 32"
+      ],
+      "correct_option": "B",
+      "explanation": "IPv6 addresses are 128 bits long."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q44",
+      "topic": "Networks",
+      "sub_topic": "TCP/IP",
+      "difficulty": "hard",
+      "question": "In TCP Reno, if the congestion window is 8 MSS and a timeout occurs, what is the new congestion window size?",
+      "options": [
+        "A) 1 MSS",
+        "B) 16 MSS",
+        "C) 8 MSS",
+        "D) 4 MSS"
+      ],
+      "correct_option": "A",
+      "explanation": "On timeout, TCP Reno resets the congestion window to 1 MSS."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q45",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Linked List",
+      "difficulty": "hard",
+      "question": "What is the time complexity of searching for an element in a singly linked list of n nodes?",
+      "options": [
+        "A) O(log n)",
+        "B) O(1)",
+        "C) O(n²)",
+        "D) O(n)"
+      ],
+      "correct_option": "D",
+      "explanation": "Searching in a singly linked list requires traversing from head to target node, taking O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q46",
+      "topic": "Python/Data Structures",
+      "sub_topic": "Trees",
+      "difficulty": "hard",
+      "question": "In a binary search tree with 15 nodes, what is the maximum possible height?",
+      "options": [
+        "A) 14",
+        "B) 3",
+        "C) 15",
+        "D) 4"
+      ],
+      "correct_option": "A",
+      "explanation": "Maximum height of a BST with n nodes occurs when the tree is a linear chain: height = n - 1 = 14."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q47",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Sorting",
+      "difficulty": "hard",
+      "question": "Which sorting algorithm guarantees O(n log n) worst-case time complexity?",
+      "options": [
+        "A) Insertion Sort",
+        "B) Bubble Sort",
+        "C) Merge Sort",
+        "D) Quick Sort"
+      ],
+      "correct_option": "C",
+      "explanation": "Merge Sort guarantees O(n log n) worst-case."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q48",
+      "topic": "Searching/Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "What is the maximum number of comparisons needed for binary search in a sorted array of 1024 elements?",
+      "options": [
+        "A) 11",
+        "B) 512",
+        "C) 1024",
+        "D) 10"
+      ],
+      "correct_option": "D",
+      "explanation": "Binary search needs at most log2(n) comparisons. For 1024, log2(1024) = 10."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q49",
+      "topic": "Security/Pandas",
+      "sub_topic": "Pandas Merging",
+      "difficulty": "hard",
+      "question": "Which Pandas function combines two DataFrames based on a common column like a SQL JOIN?",
+      "options": [
+        "A) df.join() without a key",
+        "B) pd.merge()",
+        "C) pd.concat()",
+        "D) df.append()"
+      ],
+      "correct_option": "B",
+      "explanation": "pd.merge() joins DataFrames on a common column."
+    },
+    {
+      "id": "CUET_CS_2026_P24_L4C_Q50",
+      "topic": "Security/Pandas",
+      "sub_topic": "Advanced Security",
+      "difficulty": "hard",
+      "question": "Which attack exploits a system by writing data beyond allocated buffer boundaries in memory?",
+      "options": [
+        "A) Session hijacking",
+        "B) ARP spoofing",
+        "C) Buffer overflow",
+        "D) Cross-site scripting"
+      ],
+      "correct_option": "C",
+      "explanation": "Buffer overflow attacks write excess data beyond a buffer's allocated memory."
+    }
+  ]
+}

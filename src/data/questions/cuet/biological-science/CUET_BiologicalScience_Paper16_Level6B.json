@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_BIO_2026_P16_L6B",
+  "series_id": "CUET_BIO_2026",
+  "paper_number": 16,
+  "difficulty_level": "6B",
+  "subject": "Biological Science (Code: 304)",
+  "syllabus_source": "cuet biological science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q01",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "easy",
+      "question": "The pollen tube enters the embryo sac through which structure?",
+      "options": [
+        "A) Micropyle",
+        "B) Hilum",
+        "C) Integument",
+        "D) Nucellus"
+      ],
+      "correct_option": "A",
+      "explanation": "The pollen tube enters the ovule through the micropyle, a small opening in the integuments, to deliver male gametes into the embryo sac."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q02",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "easy",
+      "question": "The corpus luteum secretes which hormone to maintain the endometrium during early pregnancy?",
+      "options": [
+        "A) Estrogen",
+        "B) LH",
+        "C) Progesterone",
+        "D) FSH"
+      ],
+      "correct_option": "C",
+      "explanation": "The corpus luteum secretes progesterone, which maintains the endometrium and prevents menstruation during early pregnancy."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q03",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Which intrauterine device works by releasing copper ions that suppress sperm motility and fertilising capacity?",
+      "options": [
+        "A) Lippes loop",
+        "B) Multiload-375",
+        "C) CuT-380A",
+        "D) LNG-20"
+      ],
+      "correct_option": "C",
+      "explanation": "CuT-380A is a copper-releasing IUD where copper ions impair sperm motility and fertilising capacity, providing effective contraception for up to 10 years."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q04",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "In angiosperms, the endosperm is typically triploid because it results from the fusion of:",
+      "options": [
+        "A) Synergids and antipodal cells",
+        "B) Two polar nuclei and one sperm nucleus",
+        "C) Egg and sperm nucleus",
+        "D) Two sperm nuclei and one polar nucleus"
+      ],
+      "correct_option": "B",
+      "explanation": "Double fertilisation in angiosperms involves one sperm fusing with the egg to form a diploid zygote, while the second sperm fuses with the two polar nuclei to form a triploid primary endosperm nucleus."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q05",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Which of the following events does NOT occur during the luteal phase of the menstrual cycle?",
+      "options": [
+        "A) Formation of the corpus luteum",
+        "B) Secretion of progesterone",
+        "C) Shedding of the endometrial lining",
+        "D) Maintenance of the endometrium"
+      ],
+      "correct_option": "C",
+      "explanation": "Shedding of the endometrial lining occurs during the menstrual phase, not the luteal phase. The luteal phase involves corpus luteum formation, progesterone secretion, and endometrial maintenance."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q06",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "medium",
+      "question": "Amniocentesis is used to detect chromosomal abnormalities in the foetus. Which of the following statements about amniocentesis is correct?",
+      "options": [
+        "A) It samples chorionic villi from the placenta",
+        "B) It involves withdrawal of amniotic fluid containing foetal cells",
+        "C) It can detect all genetic disorders with certainty",
+        "D) It is typically performed during the third trimester"
+      ],
+      "correct_option": "B",
+      "explanation": "Amniocentesis involves withdrawing a sample of amniotic fluid containing foetal cells, typically performed during the second trimester (14-20 weeks), to detect chromosomal abnormalities."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q07",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "medium",
+      "question": "Parthenocarpy refers to the development of fruit without fertilisation. Which plant hormone is commonly used commercially to induce parthenocarpy in tomatoes?",
+      "options": [
+        "A) Auxin",
+        "B) Cytokinin",
+        "C) Gibberellin",
+        "D) Ethylene"
+      ],
+      "correct_option": "A",
+      "explanation": "Auxin (particularly 2,4-D or NAA) is used commercially to induce parthenocarpy in tomatoes, developing seedless fruit without fertilisation."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q08",
+      "topic": "Reproduction",
+      "sub_topic": "Sexual Reproduction in Flowering Plants",
+      "difficulty": "hard",
+      "question": "In human spermatogenesis, the spermatogonium undergoes mitosis to produce two daughter cells. One remains a stem cell, while the other differentiates into a primary spermatocyte. If a spermatogonium has a diploid chromosome number of 46, how many chromosomes and chromatids are present in a secondary spermatocyte during metaphase II?",
+      "options": [
+        "A) 23 chromosomes, 23 chromatids",
+        "B) 46 chromosomes, 46 chromatids",
+        "C) 46 chromosomes, 92 chromatids",
+        "D) 23 chromosomes, 46 chromatids"
+      ],
+      "correct_option": "D",
+      "explanation": "A secondary spermatocyte has 23 chromosomes (haploid), each consisting of two sister chromatids, so there are 46 chromatids in total during metaphase II."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q09",
+      "topic": "Reproduction",
+      "sub_topic": "Human Reproduction",
+      "difficulty": "hard",
+      "question": "In IVF, the embryo is typically transferred to the uterus at which developmental stage?",
+      "options": [
+        "A) Gastrula",
+        "B) Zygote",
+        "C) 2-cell stage",
+        "D) 8-cell to morula stage"
+      ],
+      "correct_option": "D",
+      "explanation": "In IVF (in vitro fertilisation), the embryo is transferred to the uterus at the 8-cell stage or morula stage (around 3 days after fertilisation), as the uterus is naturally receptive at this stage."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q10",
+      "topic": "Reproduction",
+      "sub_topic": "Reproductive Health",
+      "difficulty": "hard",
+      "question": "During the acrosomal reaction, the sperm releases enzymes to penetrate the corona radiata and zona pellucida. Which enzyme is primarily responsible for digesting the zona pellucida?",
+      "options": [
+        "A) Collagenase",
+        "B) Acrosin",
+        "C) Trypsin",
+        "D) Hyaluronidase"
+      ],
+      "correct_option": "B",
+      "explanation": "Acrosin is a proteolytic enzyme released from the acrosome that digests the zona pellucida, allowing the sperm to penetrate and fuse with the egg. Hyaluronidase disperses the corona radiata."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q11",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of inheritance",
+      "difficulty": "easy",
+      "question": "In a dihybrid cross involving two heterozygous parents (AaBb x AaBb), what is the expected phenotypic ratio in the F2 generation?",
+      "options": [
+        "A) 3:1",
+        "B) 1:1:1:1",
+        "C) 9:3:3:1",
+        "D) 1:2:1"
+      ],
+      "correct_option": "C",
+      "explanation": "A dihybrid cross between two heterozygous parents (AaBb x AaBb) yields a phenotypic ratio of 9:3:3:1 in the F2 generation, demonstrating independent assortment of the two genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q12",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular basis of inheritance",
+      "difficulty": "easy",
+      "question": "Which enzyme is responsible for synthesising a new DNA strand during DNA replication by adding nucleotides to the 3' end of the growing chain?",
+      "options": [
+        "A) DNA polymerase",
+        "B) DNA ligase",
+        "C) RNA primase",
+        "D) DNA helicase"
+      ],
+      "correct_option": "A",
+      "explanation": "DNA polymerase synthesises the new DNA strand in the 5' to 3' direction by adding nucleotides to the 3' hydroxyl end of the growing chain."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q13",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Principles of inheritance",
+      "difficulty": "medium",
+      "question": "In a cross between a homozygous dominant (AA) and a homozygous recessive (aa) parent, what percentage of the F2 generation will be homozygous?",
+      "options": [
+        "A) 50%",
+        "B) 100%",
+        "C) 75%",
+        "D) 25%"
+      ],
+      "correct_option": "A",
+      "explanation": "F1 generation is all Aa. F2 generation from Aa x Aa yields 1 AA : 2 Aa : 1 aa. Homozygous individuals (AA + aa) = 2/4 = 50%."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q14",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular basis of inheritance",
+      "difficulty": "medium",
+      "question": "In eukaryotes, the transcription of mRNA from DNA is catalysed by RNA polymerase II. Which of the following modifications is NOT a post-transcriptional modification of pre-mRNA?",
+      "options": [
+        "A) 5' capping",
+        "B) Splicing of introns",
+        "C) 3' polyadenylation",
+        "D) Addition of promoter sequence"
+      ],
+      "correct_option": "D",
+      "explanation": "The promoter sequence is a DNA element that initiates transcription, not a post-transcriptional modification. 5' capping, 3' polyadenylation, and splicing are all post-transcriptional modifications of pre-mRNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q15",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular basis of inheritance",
+      "difficulty": "medium",
+      "question": "The genetic code is degenerate because:",
+      "options": [
+        "A) The code is not universal",
+        "B) Multiple codons can code for the same amino acid",
+        "C) Codons overlap with each other",
+        "D) One codon codes for multiple amino acids"
+      ],
+      "correct_option": "B",
+      "explanation": "The genetic code is degenerate (redundant) because multiple codons can specify the same amino acid. For example, six different codons code for leucine."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q16",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "Which of the following best explains the evolutionary significance of homologous organs?",
+      "options": [
+        "A) They are vestigial structures with no current function",
+        "B) They indicate convergent evolution",
+        "C) They indicate common ancestry with divergent functions",
+        "D) They show adaptation to similar environments"
+      ],
+      "correct_option": "C",
+      "explanation": "Homologous organs share a common embryonic origin and basic structure but may perform different functions, indicating divergent evolution from a common ancestor."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q17",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "medium",
+      "question": "According to the Hardy-Weinberg equilibrium principle, which of the following conditions must be met for allele frequencies to remain constant?",
+      "options": [
+        "A) Random mating occurs",
+        "B) Gene flow is occurring",
+        "C) Genetic drift is significant",
+        "D) Natural selection is operating"
+      ],
+      "correct_option": "A",
+      "explanation": "Hardy-Weinberg equilibrium requires: no mutation, no gene flow, no genetic drift, random mating, and no natural selection. Random mating (panmixia) is essential for allele frequencies to remain constant."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q18",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular basis of inheritance",
+      "difficulty": "hard",
+      "question": "In an operon model, the repressor protein binds to the operator to prevent transcription. Which of the following correctly describes the lac operon in the presence of lactose?",
+      "options": [
+        "A) The repressor binds to the promoter and blocks RNA polymerase",
+        "B) Lactose binds to the promoter and activates transcription",
+        "C) Lactose binds to the repressor, causing it to detach from the operator, allowing transcription",
+        "D) The repressor binds to the operator and transcription is blocked"
+      ],
+      "correct_option": "C",
+      "explanation": "In the lac operon, lactose (or allolactose) acts as an inducer by binding to the repressor protein, causing it to detach from the operator region, thereby allowing RNA polymerase to transcribe the structural genes."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q19",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Evolution",
+      "difficulty": "hard",
+      "question": "A population of finches on an island shows a shift in average beak size over several generations due to a drought that favours larger seeds. This is an example of:",
+      "options": [
+        "A) Disruptive selection",
+        "B) Stabilising selection",
+        "C) Genetic drift",
+        "D) Directional selection"
+      ],
+      "correct_option": "D",
+      "explanation": "Directional selection occurs when environmental conditions favour one extreme of a trait, shifting the population's average phenotype. The drought favouring larger seeds selects for larger beaks."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q20",
+      "topic": "Genetics & Evolution",
+      "sub_topic": "Molecular basis of inheritance",
+      "difficulty": "hard",
+      "question": "A DNA sample has 30% thymine. What percentage of the sample is guanine?",
+      "options": [
+        "A) 20%",
+        "B) 30%",
+        "C) 10%",
+        "D) 40%"
+      ],
+      "correct_option": "A",
+      "explanation": "According to Chargaff's rules, A=T and G=C. If T=30%, then A=30%. Total A+T=60%, so G+C=40%. Therefore G=20% and C=20%."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q21",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "easy",
+      "question": "Which of the following types of immunity involves receiving pre-formed antibodies through breastfeeding?",
+      "options": [
+        "A) Active natural immunity",
+        "B) Passive artificial immunity",
+        "C) Passive natural immunity",
+        "D) Active artificial immunity"
+      ],
+      "correct_option": "C",
+      "explanation": "Passive natural immunity is acquired by receiving pre-formed antibodies from another source through natural means, such as breastfeeding (colostrum) or placental transfer from mother to foetus."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q22",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "easy",
+      "question": "Which of the following is a protozoan disease?",
+      "options": [
+        "A) Cholera",
+        "B) Malaria",
+        "C) Tetanus",
+        "D) Typhoid"
+      ],
+      "correct_option": "B",
+      "explanation": "Malaria is caused by Plasmodium, a protozoan parasite. Tetanus (bacteria), Cholera (bacteria), and Typhoid (bacteria) are bacterial diseases."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q23",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in human welfare",
+      "difficulty": "easy",
+      "question": "Which microorganism is used in the production of citric acid in the food industry?",
+      "options": [
+        "A) Penicillium roqueforti",
+        "B) Lactobacillus bulgaricus",
+        "C) Aspergillus niger",
+        "D) Saccharomyces cerevisiae"
+      ],
+      "correct_option": "C",
+      "explanation": "Aspergillus niger, a filamentous fungus, is used industrially for the large-scale production of citric acid through fermentation."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q24",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "medium",
+      "question": "The virus that causes AIDS belongs to which family?",
+      "options": [
+        "A) Flaviviridae",
+        "B) Herpesviridae",
+        "C) Adenoviridae",
+        "D) Retroviridae"
+      ],
+      "correct_option": "D",
+      "explanation": "HIV (Human Immunodeficiency Virus) belongs to the Retroviridae family. It is a retrovirus that contains RNA as its genetic material and uses reverse transcriptase to produce DNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q25",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "medium",
+      "question": "Which immunoglobulin is primarily responsible for providing passive immunity to newborns through breast milk?",
+      "options": [
+        "A) IgA",
+        "B) IgG",
+        "C) IgE",
+        "D) IgM"
+      ],
+      "correct_option": "A",
+      "explanation": "Secretory IgA (sIgA) is the predominant immunoglobulin in breast milk and provides passive mucosal immunity to the infant's gastrointestinal tract."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q26",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in human welfare",
+      "difficulty": "medium",
+      "question": "Streptococcus pneumoniae can be transformed by DNA from a heat-killed virulent strain. This phenomenon is called:",
+      "options": [
+        "A) Transduction",
+        "B) Transformation",
+        "C) Transposition",
+        "D) Conjugation"
+      ],
+      "correct_option": "B",
+      "explanation": "Transformation is the uptake of naked DNA from the environment by a bacterium. Griffith's experiment with Streptococcus pneumoniae demonstrated transformation, showing that genetic material could be transferred from heat-killed virulent bacteria to live non-virulent ones."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q27",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "medium",
+      "question": "Which of the following is a characteristic feature of innate immunity but NOT adaptive immunity?",
+      "options": [
+        "A) Rapid response within hours",
+        "B) Specificity to pathogens",
+        "C) Memory response",
+        "D) Production of antibodies"
+      ],
+      "correct_option": "A",
+      "explanation": "Innate immunity provides an immediate, non-specific response (within hours) and lacks memory. Adaptive immunity is slower, specific, and produces memory cells."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q28",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "hard",
+      "question": "Cancer cells are characterised by uncontrolled cell division due to mutations in proto-oncogenes and tumour suppressor genes. Which of the following is a tumour suppressor gene commonly mutated in human cancers?",
+      "options": [
+        "A) EGFR",
+        "B) p53",
+        "C) Myc",
+        "D) Ras"
+      ],
+      "correct_option": "B",
+      "explanation": "p53 is a tumour suppressor gene that regulates the cell cycle and promotes apoptosis. Mutations in p53 are found in over 50% of human cancers. Ras, Myc, and EGFR are oncogenes."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q29",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Microbes in human welfare",
+      "difficulty": "hard",
+      "question": "Bacillus thuringiensis (Bt) produces insecticidal proteins called Cry proteins. When these proteins are ingested by insect larvae, they become activated in the alkaline environment of the gut and bind to receptors, causing:",
+      "options": [
+        "A) Lysis of gut epithelial cells",
+        "B) Inhibition of protein synthesis",
+        "C) Coagulation of haemolymph",
+        "D) Blocking of nerve impulses"
+      ],
+      "correct_option": "A",
+      "explanation": "Bt Cry proteins are activated in the alkaline insect gut and bind to specific receptors on gut epithelial cells, forming pores that cause osmotic lysis of the gut lining, leading to insect death."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q30",
+      "topic": "Biology & Human Welfare",
+      "sub_topic": "Human health and disease",
+      "difficulty": "hard",
+      "question": "Which type of hypersensitivity reaction is mediated by IgE antibodies and mast cell degranulation?",
+      "options": [
+        "A) Type III (Immune complex)",
+        "B) Type II (Cytotoxic)",
+        "C) Type IV (Delayed)",
+        "D) Type I (Immediate)"
+      ],
+      "correct_option": "D",
+      "explanation": "Type I hypersensitivity (immediate/anaphylactic) is mediated by IgE antibodies binding to mast cells and basophils, triggering degranulation and release of histamine and other mediators."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q31",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles of biotechnology",
+      "difficulty": "easy",
+      "question": "Which of the following enzymes is used to create complementary DNA (cDNA) from an mRNA template?",
+      "options": [
+        "A) DNA ligase",
+        "B) Taq polymerase",
+        "C) DNA polymerase I",
+        "D) Reverse transcriptase"
+      ],
+      "correct_option": "D",
+      "explanation": "Reverse transcriptase synthesises DNA from an RNA template, creating cDNA from mRNA. This enzyme is essential for constructing cDNA libraries and studying gene expression."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q32",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles of biotechnology",
+      "difficulty": "easy",
+      "question": "In recombinant DNA technology, which enzyme is used to create sticky ends on DNA fragments to facilitate their joining?",
+      "options": [
+        "A) Reverse transcriptase",
+        "B) DNA ligase",
+        "C) Restriction endonuclease",
+        "D) Alkaline phosphatase"
+      ],
+      "correct_option": "C",
+      "explanation": "Restriction endonucleases cut DNA at specific sequences, often creating sticky (overhanging) ends that facilitate the joining of complementary DNA fragments by DNA ligase."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q33",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles of biotechnology",
+      "difficulty": "medium",
+      "question": "In gel electrophoresis, DNA fragments are separated based on their size. Which of the following statements is correct?",
+      "options": [
+        "A) Larger fragments migrate faster towards the positive electrode",
+        "B) Smaller fragments migrate faster towards the positive electrode",
+        "C) Smaller fragments migrate faster towards the negative electrode",
+        "D) Larger fragments migrate faster towards the negative electrode"
+      ],
+      "correct_option": "B",
+      "explanation": "In gel electrophoresis, DNA is negatively charged and migrates towards the positive electrode. Smaller fragments move faster through the gel matrix than larger ones."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q34",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Processes of biotechnology",
+      "difficulty": "medium",
+      "question": "PCR (Polymerase Chain Reaction) involves three main steps in each cycle. What is the correct sequence of these steps?",
+      "options": [
+        "A) Denaturation, Annealing, Extension",
+        "B) Annealing, Denaturation, Extension",
+        "C) Extension, Annealing, Denaturation",
+        "D) Denaturation, Extension, Annealing"
+      ],
+      "correct_option": "A",
+      "explanation": "PCR cycles consist of: (1) Denaturation (94-98°C) to separate DNA strands, (2) Annealing (50-65°C) for primer binding, and (3) Extension (72°C) for DNA synthesis by Taq polymerase."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q35",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles of biotechnology",
+      "difficulty": "medium",
+      "question": "The polymerase chain reaction (PCR) requires a special DNA polymerase that is heat-stable. This enzyme is isolated from which organism?",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Thermus aquaticus",
+        "C) Bacillus subtilis",
+        "D) Escherichia coli"
+      ],
+      "correct_option": "B",
+      "explanation": "Taq polymerase, isolated from the thermophilic bacterium Thermus aquaticus, is heat-stable and can withstand the high temperatures (94-98°C) used in PCR denaturation steps."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q36",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of biotechnology",
+      "difficulty": "medium",
+      "question": "RNA interference (RNAi) is a biological process in which RNA molecules inhibit gene expression. Which of the following molecules is primarily involved in the RNAi pathway?",
+      "options": [
+        "A) tRNA",
+        "B) rRNA",
+        "C) siRNA (small interfering RNA)",
+        "D) mRNA"
+      ],
+      "correct_option": "C",
+      "explanation": "siRNA (small interfering RNA) and miRNA (microRNA) are the key molecules in RNAi. They guide the RISC complex to complementary mRNA targets, leading to mRNA degradation or translational repression."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q37",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of biotechnology",
+      "difficulty": "medium",
+      "question": "Which of the following is an example of a genetically modified (GM) crop that has been widely adopted for its insect resistance?",
+      "options": [
+        "A) Flavr Savr tomato",
+        "B) Roundup Ready soybean",
+        "C) Golden Rice",
+        "D) Bt Cotton"
+      ],
+      "correct_option": "D",
+      "explanation": "Bt Cotton contains genes from Bacillus thuringiensis that produce insecticidal proteins, providing resistance against bollworm pests. Golden Rice provides vitamin A, Flavr Savr delays ripening, and Roundup Ready resists herbicide."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q38",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of biotechnology",
+      "difficulty": "hard",
+      "question": "In DNA fingerprinting, the probe used for detecting specific DNA sequences is typically:",
+      "options": [
+        "A) A fluorescent dye",
+        "B) A labelled complementary DNA sequence",
+        "C) A DNA polymerase",
+        "D) A restriction enzyme"
+      ],
+      "correct_option": "B",
+      "explanation": "In DNA fingerprinting (Southern blotting), a labelled complementary DNA probe is used to hybridise with specific target sequences on the membrane, allowing detection of the DNA fragment of interest."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q39",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Principles of biotechnology",
+      "difficulty": "hard",
+      "question": "During cDNA synthesis using reverse transcriptase, which of the following is the correct sequence of events?",
+      "options": [
+        "A) mRNA is converted to protein, which is then reverse-transcribed",
+        "B) mRNA is transcribed into double-stranded DNA directly",
+        "C) mRNA is replicated by reverse transcriptase to form RNA-DNA hybrid, then the RNA is degraded and DNA polymerase synthesises the second strand",
+        "D) mRNA is converted to single-stranded DNA, then to double-stranded DNA by DNA polymerase"
+      ],
+      "correct_option": "C",
+      "explanation": "Reverse transcriptase uses mRNA as a template to synthesise a complementary DNA strand (forming an RNA-DNA hybrid). RNase H degrades the RNA strand, and DNA polymerase synthesises the second DNA strand to produce double-stranded cDNA."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q40",
+      "topic": "Biotechnology & Applications",
+      "sub_topic": "Applications of biotechnology",
+      "difficulty": "hard",
+      "question": "Gene therapy involves inserting a functional gene into a patient's cells to treat a disease. Which of the following is a major challenge in gene therapy for somatic cells?",
+      "options": [
+        "A) The transgene is not expressed in the target tissue",
+        "B) The effect is heritable to future generations",
+        "C) The transgene causes immediate immune rejection",
+        "D) The transgene integrates into germline cells"
+      ],
+      "correct_option": "A",
+      "explanation": "A major challenge in somatic gene therapy is achieving efficient and sustained expression of the transgene in the target tissue. Options B and D describe germline therapy, and while immune response is a concern, the primary challenge is tissue-specific expression and integration site effects."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q41",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and populations",
+      "difficulty": "easy",
+      "question": "The term 'ecology' was coined by:",
+      "options": [
+        "A) G. Evelyn Hutchinson",
+        "B) Ernst Haeckel",
+        "C) Robert May",
+        "D) Eugene Odum"
+      ],
+      "correct_option": "B",
+      "explanation": "The term 'ecology' was coined by Ernst Haeckel in 1866, derived from the Greek words 'oikos' (house) and 'logos' (study)."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q42",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "easy",
+      "question": "In an ecosystem, the primary source of energy for producers is:",
+      "options": [
+        "A) Solar radiation",
+        "B) Chemical energy from soil",
+        "C) Heat from Earth's core",
+        "D) Decomposing organic matter"
+      ],
+      "correct_option": "A",
+      "explanation": "Producers (plants/algae) capture solar radiation through photosynthesis and convert it into chemical energy, forming the base of the food chain in an ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q43",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and populations",
+      "difficulty": "easy",
+      "question": "Which of the following represents an abiotic component of an ecosystem?",
+      "options": [
+        "A) Bacteria",
+        "B) Fungi",
+        "C) Temperature",
+        "D) Protozoa"
+      ],
+      "correct_option": "C",
+      "explanation": "Abiotic components include non-living physical and chemical factors such as temperature, light, water, soil, and minerals. Fungi, bacteria, and protozoa are biotic components."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q44",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "The pyramid of numbers in a grassland ecosystem is typically:",
+      "options": [
+        "A) Spindle-shaped",
+        "B) Inverted",
+        "C) Absent",
+        "D) Upright"
+      ],
+      "correct_option": "D",
+      "explanation": "In a grassland ecosystem, the pyramid of numbers is typically upright because there are many grass plants (producers), fewer herbivores, and even fewer carnivores."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q45",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Organisms and populations",
+      "difficulty": "medium",
+      "question": "In a population showing logistic growth, the carrying capacity (K) is the:",
+      "options": [
+        "A) Point where birth rate equals death rate",
+        "B) Rate of population increase",
+        "C) Maximum reproductive rate",
+        "D) Maximum population size the environment can sustain"
+      ],
+      "correct_option": "D",
+      "explanation": "Carrying capacity (K) is the maximum population size that a particular environment can sustain indefinitely, given the available resources. At K, birth rate equals death rate."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q46",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and conservation",
+      "difficulty": "medium",
+      "question": "Which of the following is the most species-rich taxonomic group of animals?",
+      "options": [
+        "A) Mammals",
+        "B) Birds",
+        "C) Reptiles",
+        "D) Insects"
+      ],
+      "correct_option": "D",
+      "explanation": "Insects (Class Insecta) are the most species-rich taxonomic group, comprising over 70% of all known animal species. There are more than a million described species of insects."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q47",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "medium",
+      "question": "In a food chain, the energy available at the tertiary consumer level is 100 J. Assuming 10% energy transfer between trophic levels, what was the energy at the producer level?",
+      "options": [
+        "A) 100 J",
+        "B) 100,000 J",
+        "C) 1,000 J",
+        "D) 10,000 J"
+      ],
+      "correct_option": "B",
+      "explanation": "With 10% energy transfer, tertiary consumers (4th trophic level) receive 100 J. Working backwards: secondary consumers = 1,000 J, primary consumers = 10,000 J, producers = 100,000 J."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q48",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "In a forest ecosystem, a researcher measures the gross primary productivity (GPP) as 2000 kJ/m²/year and the respiration of producers as 800 kJ/m²/year. What is the net primary productivity (NPP)?",
+      "options": [
+        "A) 1200 kJ/m²/year",
+        "B) 800 kJ/m²/year",
+        "C) 2000 kJ/m²/year",
+        "D) 2800 kJ/m²/year"
+      ],
+      "correct_option": "A",
+      "explanation": "NPP = GPP - Respiration of producers = 2000 - 800 = 1200 kJ/m²/year. NPP represents the energy available to primary consumers in the ecosystem."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q49",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Biodiversity and conservation",
+      "difficulty": "hard",
+      "question": "The species-area relationship is often described by the equation S = cA^z, where S is species richness and A is area. Which of the following statements about the value of 'z' is correct?",
+      "options": [
+        "A) z is the same for all ecosystems",
+        "B) z is typically higher on continents than on islands",
+        "C) z is typically higher on islands than on continents",
+        "D) z is independent of habitat diversity"
+      ],
+      "correct_option": "C",
+      "explanation": "The species-area exponent (z) is typically higher for islands (0.25-0.35) than for continents (0.10-0.18) because island species are more vulnerable to extinction from habitat loss, so reducing area causes greater species loss."
+    },
+    {
+      "id": "CUET_BIO_2026_P16_L6B_Q50",
+      "topic": "Ecology & Environment",
+      "sub_topic": "Ecosystem",
+      "difficulty": "hard",
+      "question": "In ecological succession, pioneer species are the first to colonise a barren area. Which of the following is a characteristic of pioneer species in primary succession on bare rock?",
+      "options": [
+        "A) Slow growth rate",
+        "B) Deep root systems",
+        "C) High nutrient requirements",
+        "D) Ability to fix atmospheric nitrogen"
+      ],
+      "correct_option": "D",
+      "explanation": "Pioneer species like lichens in primary succession are adapted to nutrient-poor environments. Some pioneer species (e.g., certain cyanobacteria and lichens with cyanobacterial symbionts) can fix atmospheric nitrogen, providing essential nutrients for later colonisers."
+    }
+  ]
+}

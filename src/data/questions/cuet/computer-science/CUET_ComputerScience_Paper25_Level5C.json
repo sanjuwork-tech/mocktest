@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_CS_2026_P25_L5C",
+  "series_id": "CUET_CS_2026",
+  "paper_number": 25,
+  "difficulty_level": "5C",
+  "subject": "Computer Science (Code: 308)",
+  "syllabus_source": "cuet computer science syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q01",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "easy",
+      "question": "Which SQL operator is used to combine rows from two or more tables based on a related column between them?",
+      "options": [
+        "A) UNION",
+        "B) COMBINE",
+        "C) JOIN",
+        "D) MERGE"
+      ],
+      "correct_option": "C",
+      "explanation": "JOIN combines rows from two tables based on a related column. UNION combines result sets vertically (adds rows), not horizontally."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q02",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "easy",
+      "question": "In the ACID properties of database transactions, what does the letter 'I' stand for?",
+      "options": [
+        "A) Integrity",
+        "B) Independence",
+        "C) Increment",
+        "D) Isolation"
+      ],
+      "correct_option": "D",
+      "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Isolation ensures concurrent transactions do not interfere with each other."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q03",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "medium",
+      "question": "A table is in Third Normal Form (3NF) if it satisfies which condition?",
+      "options": [
+        "A) It is in 2NF and every non-prime attribute is fully functionally dependent on every candidate key",
+        "B) It is in 2NF and every non-prime attribute is non-transitively dependent on every candidate key",
+        "C) It is in Boyce-Codd Normal Form (BCNF)",
+        "D) It is in 1NF and contains no repeating groups"
+      ],
+      "correct_option": "B",
+      "explanation": "3NF requires 2NF plus that every non-prime attribute depends only on the candidate key, not on other non-key attributes (eliminates transitive dependencies)."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q04",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "medium",
+      "question": "Which SQL clause is used to filter groups created by the GROUP BY clause?",
+      "options": [
+        "A) FILTER",
+        "B) GROUP FILTER",
+        "C) HAVING",
+        "D) WHERE"
+      ],
+      "correct_option": "C",
+      "explanation": "HAVING filters groups after aggregation, while WHERE filters rows before grouping."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q05",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "medium",
+      "question": "What is the result of the query: SELECT COUNT(*) FROM employees WHERE salary > 50000;?",
+      "options": [
+        "A) Total number of employees in the table",
+        "B) Sum of all salaries exceeding 50000",
+        "C) Number of employees with salary greater than 50000",
+        "D) Average salary of employees earning more than 50000"
+      ],
+      "correct_option": "C",
+      "explanation": "COUNT(*) counts rows matching the WHERE condition. This query counts employees whose salary exceeds 50000."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q06",
+      "topic": "Database & SQL",
+      "sub_topic": "SQL Queries",
+      "difficulty": "medium",
+      "question": "Which clause is used with ALTER TABLE to remove an existing column from a table?",
+      "options": [
+        "A) REMOVE COLUMN",
+        "B) DROP COLUMN",
+        "C) ERASE COLUMN",
+        "D) DELETE COLUMN"
+      ],
+      "correct_option": "B",
+      "explanation": "ALTER TABLE table_name DROP COLUMN column_name is the standard SQL syntax to remove a column from an existing table."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q07",
+      "topic": "Database & SQL",
+      "sub_topic": "Aggregate Functions",
+      "difficulty": "hard",
+      "question": "Given tables Employees(EmpID, Name, DeptID, Salary) and Departments(DeptID, DeptName), which query correctly lists each department name along with the highest salary in that department?",
+      "options": [
+        "A) SELECT DeptName, MAX(Salary) FROM Employees JOIN Departments USING(DeptID) GROUP BY DeptName",
+        "B) SELECT DeptName, MAX(Salary) FROM Employees NATURAL JOIN Departments",
+        "C) SELECT DeptName, MAX(Salary) FROM Employees, Departments WHERE Employees.DeptID = Departments.DeptID",
+        "D) SELECT DeptName, MAX(Salary) FROM Employees GROUP BY DeptID"
+      ],
+      "correct_option": "A",
+      "explanation": "To display each department name alongside its highest employee salary, the query must join the Employees and Departments tables on their shared DeptID column and group the joined rows by DeptName to calculate MAX(Salary) for each department. Queries that omit the GROUP BY clause cannot return individual department aggregates alongside non-aggregated department names, and grouping solely on Employees without joining fails to retrieve DeptName."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q08",
+      "topic": "Database & SQL",
+      "sub_topic": "JOINs & Operations",
+      "difficulty": "hard",
+      "question": "In SQL, what is a correlated subquery?",
+      "options": [
+        "A) A subquery that references columns from the outer query",
+        "B) A subquery that always returns the same result regardless of the outer query",
+        "C) A subquery that runs independently of the outer query",
+        "D) A subquery that uses the CORRELATE keyword"
+      ],
+      "correct_option": "A",
+      "explanation": "A correlated subquery references columns from the outer query and is executed once for each row processed by the outer query."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q09",
+      "topic": "Database & SQL",
+      "sub_topic": "Constraints & DDL",
+      "difficulty": "hard",
+      "question": "Which of the following is true about a clustered index in a relational database?",
+      "options": [
+        "A) A table can have multiple clustered indexes",
+        "B) It must always be defined on a unique column",
+        "C) It is stored in a separate file from the table data",
+        "D) It determines the physical order of data rows in the table"
+      ],
+      "correct_option": "D",
+      "explanation": "A clustered index determines the physical storage order of data in a table. A table can have only one clustered index because data can be physically sorted in only one way."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q10",
+      "topic": "Database & SQL",
+      "sub_topic": "Relational Model & Keys",
+      "difficulty": "hard",
+      "question": "What does the SQL EXPLAIN command provide?",
+      "options": [
+        "A) The structure and columns of a table",
+        "B) The execution plan of a query showing how the database will process it",
+        "C) Documentation for SQL built-in functions",
+        "D) A list of all SQL syntax errors in a query"
+      ],
+      "correct_option": "B",
+      "explanation": "EXPLAIN displays the execution plan of a query, showing the order of operations, join methods, and index usage the database optimizer will employ."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q11",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "easy",
+      "question": "What does LAN stand for in computer networking?",
+      "options": [
+        "A) Local Area Network",
+        "B) Linked Area Network",
+        "C) Large Area Network",
+        "D) Long Area Network"
+      ],
+      "correct_option": "A",
+      "explanation": "LAN (Local Area Network) connects devices within a limited area such as a home, office, or building."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q12",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "easy",
+      "question": "Which layer of the OSI model is responsible for routing packets across multiple networks?",
+      "options": [
+        "A) Data Link Layer",
+        "B) Network Layer",
+        "C) Application Layer",
+        "D) Transport Layer"
+      ],
+      "correct_option": "B",
+      "explanation": "The Network Layer (Layer 3) handles logical addressing and routing of packets across different networks."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q13",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "medium",
+      "question": "What is the primary purpose of ARP (Address Resolution Protocol)?",
+      "options": [
+        "A) To assign IP addresses dynamically to devices",
+        "B) To route packets between different networks",
+        "C) To resolve IP addresses to MAC addresses",
+        "D) To resolve domain names to IP addresses"
+      ],
+      "correct_option": "C",
+      "explanation": "ARP maps a known IP address to the corresponding MAC address on a local network segment."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q14",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "medium",
+      "question": "In the TCP/IP model, which transport layer protocol provides reliable, connection-oriented communication?",
+      "options": [
+        "A) ICMP",
+        "B) IP",
+        "C) UDP",
+        "D) TCP"
+      ],
+      "correct_option": "D",
+      "explanation": "TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of data through connection-oriented communication."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q15",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "medium",
+      "question": "What is the default port number used by HTTPS?",
+      "options": [
+        "A) 21",
+        "B) 443",
+        "C) 25",
+        "D) 80"
+      ],
+      "correct_option": "B",
+      "explanation": "HTTPS uses port 443 by default. HTTP uses port 80, FTP uses port 21, and SMTP uses port 25."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q16",
+      "topic": "Computer Networks",
+      "sub_topic": "Topologies",
+      "difficulty": "medium",
+      "question": "Which network device operates at the physical layer and regenerates incoming signals, broadcasting them to all ports?",
+      "options": [
+        "A) Bridge",
+        "B) Switch",
+        "C) Router",
+        "D) Hub"
+      ],
+      "correct_option": "D",
+      "explanation": "A hub operates at Layer 1 (Physical Layer) and broadcasts incoming data to all connected ports without intelligence."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q17",
+      "topic": "Computer Networks",
+      "sub_topic": "Protocols",
+      "difficulty": "hard",
+      "question": "According to Shannon's theorem, what is the approximate maximum data rate of a channel with a bandwidth of 3000 Hz and a signal-to-noise ratio of 30 dB?",
+      "options": [
+        "A) Approximately 30,000 bps",
+        "B) Approximately 15,000 bps",
+        "C) Approximately 3,000 bps",
+        "D) Approximately 90,000 bps"
+      ],
+      "correct_option": "A",
+      "explanation": "Shannon's theorem: C = B × log2(1 + SNR). SNR_dB = 30 means SNR = 10^(30/10) = 1000. C = 3000 × log2(1001) ≈ 3000 × 9.97 ≈ 29,910 bps ≈ 30,000 bps."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q18",
+      "topic": "Computer Networks",
+      "sub_topic": "IP/MAC & DNS",
+      "difficulty": "hard",
+      "question": "In the OSI model, which layer is responsible for data compression, encryption, and translation between data formats?",
+      "options": [
+        "A) Transport Layer",
+        "B) Application Layer",
+        "C) Session Layer",
+        "D) Presentation Layer"
+      ],
+      "correct_option": "D",
+      "explanation": "The Presentation Layer (Layer 6) handles data representation, including compression, encryption, and format conversion."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q19",
+      "topic": "Computer Networks",
+      "sub_topic": "Data Communication",
+      "difficulty": "hard",
+      "question": "What is the primary difference between a traditional router and a Layer 3 switch?",
+      "options": [
+        "A) Routers use MAC addresses for forwarding, while Layer 3 switches use IP addresses",
+        "B) Routers operate at Layer 2, while Layer 3 switches operate at Layer 3",
+        "C) Routers typically use software-based forwarding, while Layer 3 switches use hardware-based forwarding (ASICs)",
+        "D) There is no functional difference between them"
+      ],
+      "correct_option": "C",
+      "explanation": "Layer 3 switches use ASICs (Application-Specific Integrated Circuits) for hardware-based forwarding at wire speed, while traditional routers rely on software-based forwarding."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q20",
+      "topic": "Computer Networks",
+      "sub_topic": "Network Types & Devices",
+      "difficulty": "hard",
+      "question": "Which routing algorithm category does OSPF (Open Shortest Path First) belong to?",
+      "options": [
+        "A) Link State",
+        "B) Path Vector",
+        "C) Bellman-Ford",
+        "D) Distance Vector"
+      ],
+      "correct_option": "A",
+      "explanation": "OSPF is a Link State routing protocol where each router maintains a complete topology map of the network and computes shortest paths using Dijkstra's algorithm."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q21",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "easy",
+      "question": "What is the output of the following Python code? print(type([1, 2, 3]))",
+      "options": [
+        "A) <class 'set'>",
+        "B) <class 'tuple'>",
+        "C) <class 'array'>",
+        "D) <class 'list'>"
+      ],
+      "correct_option": "D",
+      "explanation": "[1, 2, 3] is a Python list literal, so type() returns <class 'list'>."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q22",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "easy",
+      "question": "What is the output of the following Python code?\n\ndef greet(name, msg='Hello'):\n    return f'{msg}, {name}!'\n\nprint(greet('Alice'))",
+      "options": [
+        "A) Hello, Alice!",
+        "B) Error: missing argument",
+        "C) f'Hello, Alice!'",
+        "D) greet('Alice'), msg='Hello'"
+      ],
+      "correct_option": "A",
+      "explanation": "The function greet has a default argument msg='Hello', so calling greet('Alice') uses the default, returning 'Hello, Alice!'."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q23",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "easy",
+      "question": "What is the average-case time complexity of accessing an element in a Python dictionary by its key?",
+      "options": [
+        "A) O(log n)",
+        "B) O(n log n)",
+        "C) O(n)",
+        "D) O(1)"
+      ],
+      "correct_option": "D",
+      "explanation": "Python dictionaries are implemented as hash tables, providing O(1) average-case time complexity for key lookups."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q24",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "In Python, what does the __init__ method represent in a class?",
+      "options": [
+        "A) A static method",
+        "B) A constructor method",
+        "C) A class method",
+        "D) A destructor method"
+      ],
+      "correct_option": "B",
+      "explanation": "__init__ is the constructor method in Python classes, automatically called when a new instance is created to initialize the object."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q25",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "easy",
+      "question": "What is the output of the following Python code? print(list(range(2, 10, 2)))",
+      "options": [
+        "A) [2, 4, 6, 8, 10]",
+        "B) [2, 10]",
+        "C) [0, 2, 4, 6, 8]",
+        "D) [2, 4, 6, 8]"
+      ],
+      "correct_option": "D",
+      "explanation": "range(2, 10, 2) generates numbers starting at 2, ending before 10, with step 2: 2, 4, 6, 8."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q26",
+      "topic": "Python & Data Structures",
+      "sub_topic": "File I/O",
+      "difficulty": "medium",
+      "question": "Which data structure does Python's set() use internally for implementation?",
+      "options": [
+        "A) Linked List",
+        "B) Hash Table",
+        "C) Binary Search Tree",
+        "D) Array"
+      ],
+      "correct_option": "B",
+      "explanation": "Python's set is implemented using a hash table, which provides O(1) average-case time for add, remove, and membership operations."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q27",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Stack & Queue",
+      "difficulty": "medium",
+      "question": "What is the output of the following Python code?\n\ndef outer():\n    x = 10\n    def inner():\n        nonlocal x\n        x = 20\n    inner()\n    return x\n\nprint(outer())",
+      "options": [
+        "A) Error: nonlocal not allowed",
+        "B) 10",
+        "C) 20",
+        "D) None"
+      ],
+      "correct_option": "C",
+      "explanation": "The nonlocal keyword allows inner() to modify the variable x from the enclosing outer() scope. After inner() runs, x becomes 20."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q28",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Searching",
+      "difficulty": "medium",
+      "question": "What is the key difference between a deep copy and a shallow copy in Python?",
+      "options": [
+        "A) Deep copy creates a new object, while shallow copy does not create any new object",
+        "B) Shallow copy is always faster than deep copy for all data structures",
+        "C) Deep copy recursively duplicates all nested objects, while shallow copy duplicates only the top-level object",
+        "D) There is no practical difference between them"
+      ],
+      "correct_option": "C",
+      "explanation": "A shallow copy creates a new container but references the same nested objects. A deep copy recursively creates new copies of all nested objects."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q29",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Sorting",
+      "difficulty": "medium",
+      "question": "What is the time complexity of the following Python code?\n\ndef func(n):\n    for i in range(n):\n        for j in range(i):\n            print(i, j)",
+      "options": [
+        "A) O(n^2)",
+        "B) O(n log n)",
+        "C) O(2^n)",
+        "D) O(n)"
+      ],
+      "correct_option": "A",
+      "explanation": "The inner loop runs i times for each i from 0 to n-1. Total iterations = 0+1+2+...+(n-1) = n(n-1)/2, which is O(n^2)."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q30",
+      "topic": "Python & Data Structures",
+      "sub_topic": "Exception Handling",
+      "difficulty": "hard",
+      "question": "Which of the following statements about Python's Global Interpreter Lock (GIL) is correct?",
+      "options": [
+        "A) It was removed in Python 3 and no longer exists",
+        "B) It improves the performance of CPU-bound multi-threaded programs",
+        "C) It prevents multiple native threads from executing Python bytecode simultaneously",
+        "D) It allows multiple threads to execute Python bytecode simultaneously on different cores"
+      ],
+      "correct_option": "C",
+      "explanation": "The GIL is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecode simultaneously, which limits true parallelism in CPython."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q31",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "easy",
+      "question": "What is the worst-case time complexity of linear search in an unsorted array of n elements?",
+      "options": [
+        "A) O(n)",
+        "B) O(1)",
+        "C) O(n^2)",
+        "D) O(log n)"
+      ],
+      "correct_option": "A",
+      "explanation": "In the worst case, linear search must examine every element once, giving O(n) time complexity."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q32",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "easy",
+      "question": "Which sorting algorithm has the best average-case time complexity among comparison-based sorts?",
+      "options": [
+        "A) Selection Sort",
+        "B) Merge Sort",
+        "C) Insertion Sort",
+        "D) Bubble Sort"
+      ],
+      "correct_option": "B",
+      "explanation": "Merge Sort has O(n log n) average and worst-case time complexity, which is optimal for comparison-based sorting."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q33",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "easy",
+      "question": "In a Binary Search Tree (BST), where is the smallest element always located?",
+      "options": [
+        "A) At the root node",
+        "B) At any leaf node",
+        "C) At the rightmost node",
+        "D) At the leftmost node"
+      ],
+      "correct_option": "D",
+      "explanation": "In a BST, all values in the left subtree are smaller than the root. The smallest element is found by following left pointers to the leftmost node."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q34",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "medium",
+      "question": "Which sorting algorithm uses a divide-and-conquer approach and is NOT stable?",
+      "options": [
+        "A) Quick Sort",
+        "B) Insertion Sort",
+        "C) Merge Sort",
+        "D) Bubble Sort"
+      ],
+      "correct_option": "A",
+      "explanation": "Quick Sort uses divide-and-conquer but is NOT stable because the partition step may reorder equal elements. Merge Sort, Insertion Sort, and Bubble Sort are stable."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q35",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "medium",
+      "question": "Which sorting algorithm is both stable and guarantees O(n log n) time complexity in all cases (best, average, and worst)?",
+      "options": [
+        "A) Selection Sort",
+        "B) Quick Sort",
+        "C) Heap Sort",
+        "D) Merge Sort"
+      ],
+      "correct_option": "D",
+      "explanation": "Merge Sort is stable (preserves relative order of equal elements) and guarantees O(n log n) time in all cases."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q36",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Bubble Sort",
+      "difficulty": "medium",
+      "question": "What is the auxiliary space complexity of the standard Merge Sort implementation?",
+      "options": [
+        "A) O(n^2)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(1)"
+      ],
+      "correct_option": "B",
+      "explanation": "Merge Sort requires O(n) additional space for the temporary arrays used during the merge step."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q37",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Selection Sort",
+      "difficulty": "medium",
+      "question": "Consider the array [5, 3, 8, 4, 2]. After the first complete pass of Selection Sort, what is the state of the array?",
+      "options": [
+        "A) [2, 3, 4, 5, 8]",
+        "B) [3, 5, 8, 4, 2]",
+        "C) [2, 3, 8, 4, 5]",
+        "D) [3, 5, 4, 8, 2]"
+      ],
+      "correct_option": "C",
+      "explanation": "Selection Sort finds the minimum element (2 at index 4) and swaps it with the first element (5 at index 0), resulting in [2, 3, 8, 4, 5]."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q38",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Insertion Sort",
+      "difficulty": "hard",
+      "question": "What is the time complexity of building a max-heap from an unsorted array of n elements using the bottom-up heapify approach?",
+      "options": [
+        "A) O(n)",
+        "B) O(n log n)",
+        "C) O(log n)",
+        "D) O(n^2)"
+      ],
+      "correct_option": "A",
+      "explanation": "Bottom-up heapify builds a heap in O(n) time because most nodes are at lower levels and require fewer swaps. The sum of heights of all nodes in a complete binary tree is O(n)."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q39",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Hashing & Data Stats",
+      "difficulty": "hard",
+      "question": "In a hash table using open addressing with linear probing, what is the worst-case time complexity for searching a key?",
+      "options": [
+        "A) O(1)",
+        "B) O(n)",
+        "C) O(log n)",
+        "D) O(n log n)"
+      ],
+      "correct_option": "B",
+      "explanation": "With linear probing, in the worst case (all keys cluster together), a search may need to traverse the entire cluster, resulting in O(n) time."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q40",
+      "topic": "Searching & Sorting",
+      "sub_topic": "Binary Search",
+      "difficulty": "hard",
+      "question": "The Master Theorem for solving recurrences of the form T(n) = aT(n/b) + f(n) has three cases based on comparing f(n) with which expression?",
+      "options": [
+        "A) b^(log_a(n))",
+        "B) n^a",
+        "C) n^(log_b(a))",
+        "D) a^(log_b(n))"
+      ],
+      "correct_option": "C",
+      "explanation": "The Master Theorem compares f(n) with n^(log_b(a)) to determine which of the three cases applies for the asymptotic solution."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q41",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "What does VPN stand for in the context of network security?",
+      "options": [
+        "A) Virtual Public Network",
+        "B) Verified Private Network",
+        "C) Virtual Protected Network",
+        "D) Virtual Private Network"
+      ],
+      "correct_option": "D",
+      "explanation": "VPN (Virtual Private Network) creates a secure, encrypted connection over a less-secure network like the internet."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q42",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "easy",
+      "question": "Which Python library is primarily used for data manipulation and analysis with DataFrame structures?",
+      "options": [
+        "A) Scikit-learn",
+        "B) Pandas",
+        "C) NumPy",
+        "D) Matplotlib"
+      ],
+      "correct_option": "B",
+      "explanation": "Pandas is the primary Python library for data manipulation and analysis, providing DataFrame and Series data structures."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q43",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "easy",
+      "question": "In Pandas, what does the dropna() method do?",
+      "options": [
+        "A) Drops the first n rows of the DataFrame",
+        "B) Fills missing values with zero",
+        "C) Removes duplicate rows from a DataFrame",
+        "D) Removes rows or columns containing missing (NaN) values"
+      ],
+      "correct_option": "D",
+      "explanation": "dropna() removes rows or columns that contain NaN (missing) values from a DataFrame."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q44",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "What type of attack involves secretly intercepting and possibly altering communications between two parties who believe they are communicating directly?",
+      "options": [
+        "A) Cross-Site Scripting",
+        "B) SQL Injection",
+        "C) Man-in-the-Middle attack",
+        "D) Phishing attack"
+      ],
+      "correct_option": "C",
+      "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly intercepts and potentially alters communications between two parties."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q45",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "medium",
+      "question": "Which of the following encryption algorithms is asymmetric (uses a pair of public and private keys)?",
+      "options": [
+        "A) AES",
+        "B) RSA",
+        "C) Blowfish",
+        "D) DES"
+      ],
+      "correct_option": "B",
+      "explanation": "RSA is an asymmetric encryption algorithm that uses a public key for encryption and a private key for decryption. AES, DES, and Blowfish are symmetric algorithms."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q46",
+      "topic": "Security & Pandas",
+      "sub_topic": "Firewall & Security",
+      "difficulty": "easy",
+      "question": "In Pandas, what does the groupby() function primarily do?",
+      "options": [
+        "A) Merges two DataFrames based on a common column",
+        "B) Sorts the DataFrame by specified columns",
+        "C) Groups rows based on column values for aggregation operations",
+        "D) Removes duplicate rows from the DataFrame"
+      ],
+      "correct_option": "C",
+      "explanation": "groupby() splits data into groups based on column values, allowing aggregation operations like sum, mean, count, etc. on each group."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q47",
+      "topic": "Security & Pandas",
+      "sub_topic": "Pandas DataFrames",
+      "difficulty": "medium",
+      "question": "What is the purpose of adding a 'salt' to a password before hashing it?",
+      "options": [
+        "A) To add random data that prevents precomputed rainbow table attacks",
+        "B) To make the password shorter and easier to store",
+        "C) To speed up the hashing process",
+        "D) To encrypt the password using symmetric encryption"
+      ],
+      "correct_option": "A",
+      "explanation": "A salt is random data added to each password before hashing, ensuring identical passwords produce different hashes and defeating precomputed rainbow table attacks."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q48",
+      "topic": "Security & Pandas",
+      "sub_topic": "Matplotlib Plotting",
+      "difficulty": "medium",
+      "question": "In Pandas, what is the difference between .loc and .iloc indexers?",
+      "options": [
+        "A) .loc is used only for rows, while .iloc is used only for columns",
+        "B) .loc uses label-based indexing, while .iloc uses integer-based (positional) indexing",
+        "C) .loc uses integer-based indexing, while .iloc uses label-based indexing",
+        "D) They are identical and can be used interchangeably"
+      ],
+      "correct_option": "B",
+      "explanation": ".loc accesses data by labels (row/column names), while .iloc accesses data by integer positions (0-based indices)."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q49",
+      "topic": "Security & Pandas",
+      "sub_topic": "Societal Impacts & IPR",
+      "difficulty": "medium",
+      "question": "What characterizes a zero-day vulnerability in cybersecurity?",
+      "options": [
+        "A) A vulnerability that is exploited before the software vendor becomes aware of it or releases a patch",
+        "B) A vulnerability that affects zero systems in the wild",
+        "C) A vulnerability that takes exactly zero days to fix once discovered",
+        "D) A vulnerability that has been publicly known for zero days"
+      ],
+      "correct_option": "A",
+      "explanation": "A zero-day vulnerability is a software flaw that is unknown to the vendor and exploited by attackers before a patch or fix is available."
+    },
+    {
+      "id": "CUET_CS_2026_P25_L5C_Q50",
+      "topic": "Security & Pandas",
+      "sub_topic": "Viruses & Threats",
+      "difficulty": "hard",
+      "question": "What is the output of the following Pandas code?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].sum() + df['B'].mean())",
+      "options": [
+        "A) 10.5",
+        "B) 10.0",
+        "C) 11.5",
+        "D) 11.0"
+      ],
+      "correct_option": "D",
+      "explanation": "df['A'].sum() = 1+2+3 = 6. df['B'].mean() = (4+5+6)/3 = 5.0. Total = 6 + 5.0 = 11.0."
+    }
+  ]
+}

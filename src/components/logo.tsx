@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export function Logo() {
   return (
-    <Link href="/" className="brand-logo" aria-label="TestDisha home">
+    <Link href="/" className="brand-logo" aria-label="OurMocks home">
       <Image
         src="/logo.svg"
-        alt="TestDisha"
+        alt="OurMocks"
         width={205}
         height={43}
         priority

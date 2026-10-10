@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_GAT_2026_P9_L9",
+  "series_id": "CUET_GAT_2026",
+  "paper_number": 9,
+  "difficulty_level": "9",
+  "subject": "General Test (Code: 501)",
+  "syllabus_source": "cuet general aptitude test syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "pastpaper-gat-2024.pdf, pastpaper-gat-2025.pdf",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q01",
+      "topic": "General Knowledge",
+      "sub_topic": "History",
+      "difficulty": "medium",
+      "question": "Under the Doctrine of Lapse, adopted by the British as an annexation policy, princely states without a natural male heir were taken over by the East India Company and later the Crown. Which Governor-General was most closely associated with this policy, under which states such as Satara, Jaitpur and Nagpur were annexed?",
+      "options": [
+        "A) Lord Wellesley",
+        "B) Lord Dalhousie",
+        "C) Lord Cornwallis",
+        "D) Lord Canning"
+      ],
+      "correct_option": "B",
+      "explanation": "Lord Dalhousie (Governor-General 1848–1856) applied the Doctrine of Lapse aggressively, annexing Satara (1848), Jaitpur and Sambalpur (1850), Udaipur (1852), Jhansi (1853) and Nagpur (1854). Wellesley is associated with the Subsidiary Alliance, Cornwallis with the Permanent Settlement, and Canning presided over the transfer of power after 1857."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q02",
+      "topic": "Current Affairs",
+      "sub_topic": "Appointments",
+      "difficulty": "medium",
+      "question": "C. P. Radhakrishnan was elected the 15th Vice-President of India on 9 September 2025, defeating the opposition candidate Justice B. Sudershan Reddy. Immediately before his election as Vice-President, he was serving as the Governor of which state?",
+      "options": [
+        "A) Karnataka",
+        "B) Jharkhand",
+        "C) Maharashtra",
+        "D) Telangana"
+      ],
+      "correct_option": "C",
+      "explanation": "C. P. Radhakrishnan was Governor of Maharashtra at the time of his election to the Vice-Presidency in September 2025. He had earlier served as Governor of Jharkhand and held additional charge of Telangana and Puducherry, but his immediate prior posting was Maharashtra."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q03",
+      "topic": "General Mental Ability",
+      "sub_topic": "Number Series",
+      "difficulty": "easy",
+      "question": "Find the next term in the series: 2, 6, 12, 20, 30, ___",
+      "options": [
+        "A) 40",
+        "B) 44",
+        "C) 42",
+        "D) 46"
+      ],
+      "correct_option": "C",
+      "explanation": "The differences are 4, 6, 8, 10, so the next difference is 12, giving 30 + 12 = 42. Equivalently, each term is n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, so the next term is 6×7 = 42."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q04",
+      "topic": "Numerical Ability",
+      "sub_topic": "Percentage",
+      "difficulty": "easy",
+      "question": "In an examination of maximum 250 marks, a candidate needs 36% to pass. If she scores 84 marks, by how many marks does she fall short of the passing score?",
+      "options": [
+        "A) 4",
+        "B) 6",
+        "C) 5",
+        "D) 8"
+      ],
+      "correct_option": "B",
+      "explanation": "Passing marks = 36% of 250 = 90. She scored 84, so she fails by 90 − 84 = 6 marks."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q05",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Progressions",
+      "difficulty": "medium",
+      "question": "In an arithmetic progression, the 3rd term is 11 and the 8th term is 31. What is the sum of the first 15 terms of the progression?",
+      "options": [
+        "A) 435",
+        "B) 465",
+        "C) 450",
+        "D) 480"
+      ],
+      "correct_option": "B",
+      "explanation": "a + 2d = 11 and a + 7d = 31, so 5d = 20, d = 4 and a = 3. Sum of 15 terms = (15/2)[2×3 + 14×4] = 7.5 × (6 + 56) = 7.5 × 62 = 465."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q06",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Syllogism",
+      "difficulty": "medium",
+      "question": "Statements: All poets are dreamers. No dreamer is a banker.\nConclusions: I. No poet is a banker. II. Some dreamers are not bankers.\nWhich of the conclusions logically follow(s)?",
+      "options": [
+        "A) Only conclusion I follows",
+        "B) Only conclusion II follows",
+        "C) Both conclusions I and II follow",
+        "D) Neither conclusion follows"
+      ],
+      "correct_option": "C",
+      "explanation": "Since all poets lie inside the set of dreamers, and no dreamer is a banker, no poet can be a banker — I follows. Also, since no dreamer is a banker, every dreamer is a non-banker, so certainly some dreamers are not bankers — II follows. Both follow."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q07",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Physics",
+      "difficulty": "easy",
+      "question": "Weather reports often quote atmospheric pressure in hectopascals (for example, 1013 hPa). The SI unit of pressure, the pascal, is named after which scientist?",
+      "options": [
+        "A) Isaac Newton",
+        "B) Blaise Pascal",
+        "C) James Joule",
+        "D) James Watt"
+      ],
+      "correct_option": "B",
+      "explanation": "The pascal (Pa = N/m²) is named after Blaise Pascal, the 17th-century French mathematician and physicist who studied fluid pressure; one hectopascal equals 100 pascals. Newton, Joule and Watt give their names to the units of force, energy and power respectively."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q08",
+      "topic": "General Knowledge",
+      "sub_topic": "Polity",
+      "difficulty": "hard",
+      "question": "Article 108 of the Constitution of India provides for a joint sitting of the two Houses of Parliament to resolve a deadlock over ordinary legislation. How many times has such a joint sitting actually been held since 1950?",
+      "options": [
+        "A) One",
+        "B) Two",
+        "C) Three",
+        "D) Four"
+      ],
+      "correct_option": "C",
+      "explanation": "Only three joint sittings have been held: for the Dowry Prohibition Bill (1961), the Banking Service Commission Repeal Bill (1978) and the Prevention of Terrorism Bill (POTA, 2002). The provision does not apply to Money Bills and Constitutional Amendment Bills."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q09",
+      "topic": "Current Affairs",
+      "sub_topic": "Sports",
+      "difficulty": "medium",
+      "question": "India won its first-ever ICC Women's Cricket World Cup title in November 2025, defeating the same opponent it had lost to in the finals of 2005 and 2017. Which team did India beat in the 2025 final, played at the DY Patil Stadium in Navi Mumbai?",
+      "options": [
+        "A) Australia",
+        "B) England",
+        "C) South Africa",
+        "D) New Zealand"
+      ],
+      "correct_option": "C",
+      "explanation": "India defeated South Africa by 52 runs in the final at Navi Mumbai on 2 November 2025, with Deepti Sharma (5 wickets) and Shafali Verma (87 runs) starring. South Africa's Laura Wolvaardt scored a century in a losing cause. India had earlier lost the 2005 final to Australia and the 2017 final to England."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q10",
+      "topic": "General Mental Ability",
+      "sub_topic": "Letter Series",
+      "difficulty": "medium",
+      "question": "Each letter is assigned its alphabet position (A=1, B=2, ..., Z=26), and a word is coded by the product of the positions of its first and last letters. For example, DAD is coded as 4 × 4 = 16. Under this scheme, what is the code for the word TREE?",
+      "options": [
+        "A) 120",
+        "B) 100",
+        "C) 140",
+        "D) 160"
+      ],
+      "correct_option": "B",
+      "explanation": "T is the 20th letter and E is the 5th, so TREE is coded as 20 × 5 = 100. The example DAD uses D=4 at both ends: 4 × 4 = 16. (The distractor 120 would come from multiplying all four letters' positions: 20 × 18 × 5 × 5.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q11",
+      "topic": "Numerical Ability",
+      "sub_topic": "Ratio & Proportion",
+      "difficulty": "medium",
+      "question": "A piggy bank contains 50-paise coins, ₹1 coins and ₹2 coins in the ratio 5 : 4 : 2 respectively. If the total money in the piggy bank is ₹126, how many ₹1 coins does it contain?",
+      "options": [
+        "A) 24",
+        "B) 40",
+        "C) 60",
+        "D) 48"
+      ],
+      "correct_option": "D",
+      "explanation": "Let the numbers of coins be 5x, 4x and 2x. Their value = 0.5(5x) + 1(4x) + 2(2x) = 2.5x + 4x + 4x = 10.5x = 126, so x = 12. The number of ₹1 coins is 4x = 48."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q12",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Geometry",
+      "difficulty": "hard",
+      "question": "In triangle ABC, the internal bisectors of angles B and C meet at point I. If angle A measures 58°, what is the measure of angle BIC?",
+      "options": [
+        "A) 119°",
+        "B) 116°",
+        "C) 122°",
+        "D) 124°"
+      ],
+      "correct_option": "A",
+      "explanation": "For the incentre I of a triangle, angle BIC = 90° + (A/2). Here that is 90° + 29° = 119°. (Derivation: B/2 + C/2 = (180° − 58°)/2 = 61°, so BIC = 180° − 61° = 119°.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q13",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Calendar",
+      "difficulty": "medium",
+      "question": "If 15 August 2025 fell on a Friday, on which day of the week did 2 October 2025 fall?",
+      "options": [
+        "A) Wednesday",
+        "B) Friday",
+        "C) Saturday",
+        "D) Thursday"
+      ],
+      "correct_option": "D",
+      "explanation": "From 15 August to 2 October: 16 days remain in August (16–31) + 30 days of September + 2 days of October = 48 days. 48 ÷ 7 leaves remainder 6, so the day advances by 6 from Friday, which gives Thursday."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q14",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Environment",
+      "difficulty": "medium",
+      "question": "Which greenhouse gas, the second-largest contributor to human-made warming after carbon dioxide, is released in large quantities from paddy fields, enteric fermentation in cattle, and landfills?",
+      "options": [
+        "A) Methane",
+        "B) Carbon dioxide",
+        "C) Nitrous oxide",
+        "D) Sulphur hexafluoride"
+      ],
+      "correct_option": "A",
+      "explanation": "Methane (CH₄) is produced by anaerobic decomposition in flooded paddy fields and landfills and by enteric fermentation in ruminants such as cattle. It traps far more heat per molecule than CO₂. Nitrous oxide comes mainly from fertilisers, and SF₆ is an industrial electrical-insulation gas."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q15",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "medium",
+      "question": "Kunchikal Falls, formed by the Varahi River and counted as the highest waterfall in India, is located in which state?",
+      "options": [
+        "A) Karnataka",
+        "B) Kerala",
+        "C) Tamil Nadu",
+        "D) Maharashtra"
+      ],
+      "correct_option": "A",
+      "explanation": "Kunchikal Falls, near Agumbe in Udupi district of Karnataka, cascades about 455 m in tiered steps and is India's highest waterfall. Jog Falls (also in Karnataka) is the best-known nearby plunge waterfall, but Kunchikal is higher."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q16",
+      "topic": "Current Affairs",
+      "sub_topic": "Defence",
+      "difficulty": "hard",
+      "question": "In his Independence Day address from the Red Fort on 15 August 2025, the Prime Minister announced 'Mission Sudarshan Chakra'. What is this mission aimed at?",
+      "options": [
+        "A) Building an indigenous, multi-layered air and missile defence shield to protect strategic and civilian installations by 2035",
+        "B) Constructing a high-speed rail corridor connecting Delhi with all state capitals",
+        "C) Launching a nationwide inter-linking of rivers to solve regional water scarcity",
+        "D) Developing an indigenous digital currency to replace cash transactions"
+      ],
+      "correct_option": "A",
+      "explanation": "Mission Sudarshan Chakra, announced on 15 August 2025, aims to develop a comprehensive indigenous multi-layered air-defence system — drawing its name from Lord Krishna's Sudarshan Chakra — to shield vital military and civilian installations from missiles, drones and aircraft, with a long-term horizon around 2035."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q17",
+      "topic": "General Mental Ability",
+      "sub_topic": "Coding-Decoding",
+      "difficulty": "medium",
+      "question": "In a certain code, 'LIGHT' is written as 'MHJIW' (each letter shifted +1). How is 'DARK' written?",
+      "options": [
+        "A) EBSJ",
+        "B) EARL",
+        "C) EBSL",
+        "D) EBRL"
+      ],
+      "correct_option": "C",
+      "explanation": "D+1=E, A+1=B, R+1=S, K+1=L. So DARK=EBSL."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q18",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time & Work",
+      "difficulty": "hard",
+      "question": "P can complete a job in 20 days. Q is 25% more efficient than P, and R is 50% more efficient than Q. Working together, in how many days will the three of them complete the job?",
+      "options": [
+        "A) 160/33 days (about 4.8 days)",
+        "B) 5.5 days",
+        "C) 6 days",
+        "D) 32/7 days (about 4.6 days)"
+      ],
+      "correct_option": "A",
+      "explanation": "P's rate = 1/20. Q is 25% more efficient, so Q's rate = 1.25 × (1/20) = 1/16. R is 50% more efficient than Q, so R's rate = 1.5 × (1/16) = 3/32. Combined rate = 1/20 + 1/16 + 3/32 = (8 + 10 + 15)/160 = 33/160. Time = 160/33 ≈ 4.85 days."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q19",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "hard",
+      "question": "A solid metallic sphere of radius 6 cm is melted and drawn into a uniform cylindrical wire of radius 0.2 mm. What is the length of the wire, in metres?",
+      "options": [
+        "A) 720 m",
+        "B) 3,600 m",
+        "C) 7,200 m",
+        "D) 72,000 m"
+      ],
+      "correct_option": "C",
+      "explanation": "Volume of sphere = (4/3)π(6³) = 288π cm³. The wire's radius is 0.2 mm = 0.02 cm, so its cross-section area = π(0.02)² = 0.0004π cm². Length L satisfies 0.0004πL = 288π, giving L = 720,000 cm = 7,200 m. The unit conversion (mm to cm, cm to m) is where most errors occur."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q20",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Seating Arrangement",
+      "difficulty": "hard",
+      "question": "Eight persons P, Q, R, S, T, U, V, W sit around a square table, two on each side, facing the center. P sits on the left side of Q. R sits opposite to T. S sits on the same side as P but not adjacent. U sits to the right of V. W sits between T and U. Who sits to the immediate right of P?",
+      "options": [
+        "A) Q",
+        "B) S",
+        "C) R",
+        "D) Cannot be determined"
+      ],
+      "correct_option": "A",
+      "explanation": "P sits on the left side of Q (immediate right neighbor). The arrangement confirms Q is immediately to P's right."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q21",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Biology",
+      "difficulty": "medium",
+      "question": "In the human eye, which structure changes the focal length of the lens so that objects at different distances can be focused sharply on the retina?",
+      "options": [
+        "A) Iris",
+        "B) Cornea",
+        "C) Ciliary muscles",
+        "D) Optic nerve"
+      ],
+      "correct_option": "C",
+      "explanation": "The ciliary muscles alter the curvature (and hence the focal length) of the eye lens — this ability is called accommodation. The iris controls the size of the pupil and thus the amount of light entering; the cornea's curvature is fixed; the optic nerve carries signals to the brain."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q22",
+      "topic": "General Knowledge",
+      "sub_topic": "Art & Culture",
+      "difficulty": "medium",
+      "question": "Kathak, one of the classical dance forms of India, is known for its intricate footwork, spins (chakkars) and expressive storytelling. The very name 'Kathak' is derived from the Sanskrit word 'katha', which means:",
+      "options": [
+        "A) Song",
+        "B) Dance",
+        "C) Rhythm",
+        "D) Story"
+      ],
+      "correct_option": "D",
+      "explanation": "'Katha' means story, and 'Kathakas' were the travelling bards-storytellers of North India who narrated epics with music, gesture and dance — the origin of the Kathak tradition. The dance grew in the courts of North India, absorbing Persian influences under the Mughals."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q23",
+      "topic": "Current Affairs",
+      "sub_topic": "Reports & Indices",
+      "difficulty": "hard",
+      "question": "In the Global Hunger Index 2025, India was ranked 102nd out of 123 countries, with a score of 25.8 placing it in the 'serious' category. Which organisations jointly publish the Global Hunger Index?",
+      "options": [
+        "A) UNDP and FAO",
+        "B) The World Bank",
+        "C) Oxfam and the World Food Programme",
+        "D) Concern Worldwide and Welthungerhilfe"
+      ],
+      "correct_option": "D",
+      "explanation": "The Global Hunger Index is published jointly by Concern Worldwide (Ireland) and Welthungerhilfe (Germany). The GHI 2025 placed India 102nd of 123 countries; the Government of India has repeatedly questioned the index's methodology."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q24",
+      "topic": "General Mental Ability",
+      "sub_topic": "Direction Sense",
+      "difficulty": "medium",
+      "question": "From a base camp X, helicopter P flies 40 km due north and then 30 km due east before landing. Helicopter Q takes off from X at the same time, flies 40 km due south and then 30 km due west before landing. What is the horizontal distance between the two landing points?",
+      "options": [
+        "A) 60 km",
+        "B) 100 km",
+        "C) 80 km",
+        "D) 140 km"
+      ],
+      "correct_option": "B",
+      "explanation": "Take X as the origin. P lands at (+30, +40) and Q lands at (−30, −40). The separation is √[(30+30)² + (40+40)²] = √(60² + 80²) = √(3600 + 6400) = √10000 = 100 km — the 3-4-5 triangle scaled by 20."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q25",
+      "topic": "Numerical Ability",
+      "sub_topic": "Time, Speed & Distance",
+      "difficulty": "medium",
+      "question": "A cyclist rides from town A to town B at 12 km/h and returns along the same road at 9 km/h. The total travelling time for the round trip is 7 hours. What is the distance between A and B?",
+      "options": [
+        "A) 32 km",
+        "B) 40 km",
+        "C) 36 km",
+        "D) 42 km"
+      ],
+      "correct_option": "C",
+      "explanation": "Let the distance be d. Then d/12 + d/9 = 7, so d(3 + 4)/36 = 7, giving d × 7/36 = 7 and d = 36 km. (Check: 36/12 = 3 h, 36/9 = 4 h, total 7 h.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q26",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Profit & Loss",
+      "difficulty": "hard",
+      "question": "A garments trader fixes the marked price of each shirt 35% above its cost price. He sells exactly half his stock at the marked price, one-fourth of his stock at a 10% discount on the marked price, and the remaining one-fourth at a 20% discount on the marked price. What is his overall profit percentage on the entire stock?",
+      "options": [
+        "A) 24.875%",
+        "B) 24.5%",
+        "C) 25%",
+        "D) 26%"
+      ],
+      "correct_option": "A",
+      "explanation": "Take CP = ₹100 per shirt, so the marked price = ₹135. For 4 shirts (cost ₹400): two sell at ₹135 each, one at 90% of MP = ₹121.50, and one at 80% of MP = ₹108. Total revenue = 270 + 121.50 + 108 = ₹499.50. Profit = ₹99.50 on ₹400 = 24.875%."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q27",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Scheduling Puzzle",
+      "difficulty": "hard",
+      "question": "Six lectures — Anthropology, Botany, Chemistry, Design, Economics and French — are scheduled from Monday to Saturday of one week, exactly one lecture per day. (i) Anthropology is scheduled on Tuesday. (ii) French is scheduled immediately before Economics. (iii) Economics is not scheduled on Monday. (iv) Design is scheduled immediately after Botany. (v) Neither Botany nor Design is scheduled on a day immediately before or after Anthropology. On which day is the French lecture scheduled?",
+      "options": [
+        "A) Monday",
+        "B) Wednesday",
+        "C) Thursday",
+        "D) Saturday"
+      ],
+      "correct_option": "B",
+      "explanation": "French–Economics is an adjacent pair (French then Economics). Since Anthropology occupies Tuesday, the pair sits at Wed–Thu or Fri–Sat. Design must come immediately after Botany, and neither Botany nor Design may touch Tuesday — so the Botany–Design pair cannot use Mon or Wed. If French–Economics took Fri–Sat, Botany–Design would have to fit Mon and Wed, violating the Tuesday-adjacency rule. Hence French–Economics = Wed–Thu, forcing Botany–Design onto Fri–Sat and Chemistry onto Monday. French is on Wednesday. (Verified unique: Chemistry Mon, Anthropology Tue, French Wed, Economics Thu, Botany Fri, Design Sat.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q28",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Health & Disease",
+      "difficulty": "medium",
+      "question": "The DPT combination vaccine, given to infants under India's Universal Immunisation Programme, protects against three diseases. Which of the following diseases is NOT covered by the DPT vaccine?",
+      "options": [
+        "A) Diphtheria",
+        "B) Whooping cough (pertussis)",
+        "C) Tetanus",
+        "D) Poliomyelitis"
+      ],
+      "correct_option": "D",
+      "explanation": "DPT stands for Diphtheria, Pertussis (whooping cough) and Tetanus. Polio is prevented by separate polio vaccines (OPV/IPV) delivered through dedicated pulses and routine immunisation, not through the DPT combination."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q29",
+      "topic": "General Knowledge",
+      "sub_topic": "Polity",
+      "difficulty": "hard",
+      "question": "Consider the following statements about the Constituent Assembly of India:\n1. Its members were elected indirectly by the members of the provincial legislative assemblies constituted under the 1935 Act.\n2. Its first meeting was held on 9 December 1946, with Sachchidananda Sinha acting as temporary Chairman.\n3. Dr. Rajendra Prasad was elected as its permanent Chairman on 11 December 1946.\nHow many of the above statements are correct?",
+      "options": [
+        "A) Only one",
+        "B) Only two",
+        "C) None",
+        "D) All three"
+      ],
+      "correct_option": "D",
+      "explanation": "All three statements are correct. The Assembly was elected indirectly by provincial assembly members; its first sitting took place on 9 December 1946 with Sachchidananda Sinha as temporary Chairman; and Dr. Rajendra Prasad was elected permanent President on 11 December 1946."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q30",
+      "topic": "Current Affairs",
+      "sub_topic": "International Events",
+      "difficulty": "easy",
+      "question": "In December 2025, a terror attack during a Hanukkah celebration at Bondi Beach, declared the deadliest mass shooting in that country since the 1996 Port Arthur massacre, shocked the world. In which country is Bondi Beach located?",
+      "options": [
+        "A) New Zealand",
+        "B) Australia",
+        "C) United Kingdom",
+        "D) Canada"
+      ],
+      "correct_option": "B",
+      "explanation": "Bondi Beach is in Sydney, Australia. The 14 December 2025 attack on a Hanukkah gathering there killed 15 people and was declared a terrorist incident — Australia's deadliest mass shooting since Port Arthur in 1996."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q31",
+      "topic": "General Mental Ability",
+      "sub_topic": "Blood Relations",
+      "difficulty": "hard",
+      "question": "A is the sister of B. B is the son of C. C is the wife of D. E is the father of D. F is the son of E. How is A related to F?",
+      "options": [
+        "A) Aunt",
+        "B) Sister",
+        "C) Granddaughter",
+        "D) Niece"
+      ],
+      "correct_option": "D",
+      "explanation": "C is the wife of D, so B (son of C) and A (sister of B) are D's children. E is the father of D and F is the son of E, so F and D are brothers. F is therefore A's paternal uncle, which makes A the niece of F."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q32",
+      "topic": "Numerical Ability",
+      "sub_topic": "Simple & Compound Interest",
+      "difficulty": "hard",
+      "question": "The compound interest on a certain sum for 2 years at 10% per annum, compounded annually, is ₹2,520. What would be the simple interest on the same sum at the same rate for 3 years?",
+      "options": [
+        "A) ₹3,000",
+        "B) ₹3,960",
+        "C) ₹4,200",
+        "D) ₹3,600"
+      ],
+      "correct_option": "D",
+      "explanation": "CI for 2 years = P[(1.1)² − 1] = 0.21P = 2,520, so P = ₹12,000. Simple interest for 3 years at 10% = 12,000 × 10 × 3/100 = ₹3,600."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q33",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Data Interpretation",
+      "difficulty": "medium",
+      "question": "The table below shows the number of visitors (in thousands) to a city museum in four consecutive months of 2025.\n\nMonth | Visitors (thousands)\nJanuary | 60\nFebruary | 75\nMarch | 90\nApril | 120\n\nIn which month was the percentage increase in visitors over the previous month the highest?",
+      "options": [
+        "A) February",
+        "B) March",
+        "C) The increase was equal in all months",
+        "D) April"
+      ],
+      "correct_option": "D",
+      "explanation": "February: (75−60)/60 = 25%. March: (90−75)/75 = 20%. April: (120−90)/90 = 33.3%. The highest percentage increase over the previous month was in April (33.3%)."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q34",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Clock",
+      "difficulty": "hard",
+      "question": "At what time between 9 o'clock and 10 o'clock will the hour hand and the minute hand of a clock exactly coincide?",
+      "options": [
+        "A) 49 1/11 minutes past 9",
+        "B) 48 6/11 minutes past 9",
+        "C) 50 8/11 minutes past 9",
+        "D) 45 minutes past 9"
+      ],
+      "correct_option": "A",
+      "explanation": "At 9 o'clock the minute hand is 270° behind the hour hand. The minute hand gains 5.5° per minute, so coincidence occurs after 270/5.5 = 540/11 = 49 1/11 minutes past 9."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q35",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Environment",
+      "difficulty": "hard",
+      "question": "The 'albedo effect' refers to the reflection of incoming solar radiation by light-coloured surfaces such as ice and snow. The decline of Arctic sea ice amplifies global warming primarily because:",
+      "options": [
+        "A) the exposed ocean water reflects more sunlight than ice did",
+        "B) the darker ocean surface absorbs more solar radiation, causing further warming in a positive feedback loop",
+        "C) the ocean dissolves more carbon dioxide as it warms",
+        "D) melting ice increases the salinity of the ocean surface, trapping heat"
+      ],
+      "correct_option": "B",
+      "explanation": "Ice is highly reflective (high albedo); open ocean water is dark and absorbs most of the incoming solar radiation. As ice retreats, more energy is absorbed, which melts more ice — a classic positive (amplifying) feedback. Option B describes a carbon-cycle effect that actually weakens as water warms, and A is the opposite of reality."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q36",
+      "topic": "General Knowledge",
+      "sub_topic": "Economics",
+      "difficulty": "hard",
+      "question": "The 'World Investment Report', an annual publication analysing global trends in foreign direct investment (FDI), is brought out by which organisation?",
+      "options": [
+        "A) The United Nations Conference on Trade and Development (UNCTAD)",
+        "B) The World Bank",
+        "C) The International Monetary Fund",
+        "D) The World Trade Organization"
+      ],
+      "correct_option": "A",
+      "explanation": "The World Investment Report has been published annually by UNCTAD since 1991, tracking global and regional FDI flows and investment-policy developments. The World Bank, IMF and WTO publish other flagship reports (World Development Report, World Economic Outlook, World Trade Report)."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q37",
+      "topic": "Current Affairs",
+      "sub_topic": "Science & Technology",
+      "difficulty": "hard",
+      "question": "The Chenab Rail Bridge — the world's highest railway arch bridge, standing about 359 m above the river bed — was inaugurated in June 2025. It forms a part of which railway project?",
+      "options": [
+        "A) The Udhampur–Srinagar–Baramulla Rail Link (USBRL) project in Jammu and Kashmir",
+        "B) The Western Dedicated Freight Corridor",
+        "C) The Konkan Railway expansion project",
+        "D) The Char Dham all-weather road programme"
+      ],
+      "correct_option": "A",
+      "explanation": "The Chenab Rail Bridge, between Bakkal and Kauri in Reasi district, is the centrepiece of the USBRL project connecting the Kashmir Valley to the Indian rail network. At about 359 m above the Chenab riverbed it is the world's highest railway arch bridge."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q38",
+      "topic": "General Mental Ability",
+      "sub_topic": "Classification",
+      "difficulty": "hard",
+      "question": "Three of the following letter groups follow the same pattern, while one does not. Find the odd one out.",
+      "options": [
+        "A) FHK",
+        "B) BDF",
+        "C) CEG",
+        "D) JLN"
+      ],
+      "correct_option": "A",
+      "explanation": "In BDF (B→D→F), CEG (C→E→G) and JLN (J→L→N), the letters advance by +2 and then +2. In FHK, the steps are F→H (+2) but H→K (+3), breaking the pattern. FHK is the odd group."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q39",
+      "topic": "Numerical Ability",
+      "sub_topic": "Number System",
+      "difficulty": "hard",
+      "question": "What is the remainder when 7^74 is divided by 100?",
+      "options": [
+        "A) 01",
+        "B) 43",
+        "C) 49",
+        "D) 07"
+      ],
+      "correct_option": "C",
+      "explanation": "Powers of 7 modulo 100 cycle with period 4: 7¹ = 07, 7² = 49, 7³ = 343 ≡ 43, 7⁴ = 2401 ≡ 01, then the pattern repeats. Since 74 = 4 × 18 + 2, 7^74 ≡ 7² ≡ 49 (mod 100)."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q40",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Mensuration",
+      "difficulty": "hard",
+      "question": "A cylindrical pillar of diameter 28 cm and height 4 m is to have its curved surface painted. If the cost of painting is ₹25 per square metre, what is the total cost? (Take π = 22/7)",
+      "options": [
+        "A) ₹80",
+        "B) ₹96",
+        "C) ₹88",
+        "D) ₹110"
+      ],
+      "correct_option": "C",
+      "explanation": "Radius = 14 cm = 0.14 m; height = 4 m. Curved surface area = 2πrh = 2 × (22/7) × 0.14 × 4 = 3.52 m². Cost = 3.52 × 25 = ₹88. The conversion of the radius from centimetres to metres is the crucial step."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q41",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Statement & Assumption",
+      "difficulty": "medium",
+      "question": "Statement: 'The municipal corporation has decided to replace all conventional streetlights in the city with LED streetlights to cut down electricity bills.'\nAssumptions:\nI. LED streetlights consume less electricity than the conventional streetlights currently in use.\nII. The municipal corporation has enough funds to carry out the replacement.\nWhich of the assumptions is/are implicit in the statement?",
+      "options": [
+        "A) Only assumption II is implicit",
+        "B) Both assumptions I and II are implicit",
+        "C) Only assumption I is implicit",
+        "D) Neither assumption is implicit"
+      ],
+      "correct_option": "C",
+      "explanation": "The stated purpose — cutting electricity bills — clearly rests on the assumption that LEDs consume less electricity (I). Whether the corporation has the funds is not asserted or presupposed by the statement itself; a decision can be announced without funds being assured. Hence only I is implicit."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q42",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Physics",
+      "difficulty": "hard",
+      "question": "A solid iron ball and a hollow iron ball of the same outer volume are fully submerged in water. Which experiences greater buoyant force?",
+      "options": [
+        "A) Both experience the same buoyant force",
+        "B) Hollow ball",
+        "C) Solid ball",
+        "D) Cannot be determined"
+      ],
+      "correct_option": "A",
+      "explanation": "Buoyant force = weight of displaced fluid. Since both balls have the same outer volume and are fully submerged, they displace the same volume of water. Therefore, both experience the same buoyant force."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q43",
+      "topic": "General Knowledge",
+      "sub_topic": "Geography",
+      "difficulty": "easy",
+      "question": "Lake Pichola, famous for the Lake Palace standing on an island within it, is located in which city of Rajasthan?",
+      "options": [
+        "A) Jodhpur",
+        "B) Udaipur",
+        "C) Jaipur",
+        "D) Bikaner"
+      ],
+      "correct_option": "B",
+      "explanation": "Lake Pichola is an artificial freshwater lake in Udaipur, created in 1362; the Taj Lake Palace and Jag Mandir stand on its islands. Udaipur is often called the 'City of Lakes'."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q44",
+      "topic": "Current Affairs",
+      "sub_topic": "Science & Technology",
+      "difficulty": "medium",
+      "question": "Vyommitra, the female-looking humanoid robot developed by ISRO, is designed to fly aboard which mission, simulating astronaut functions and relaying crew-module conditions before human flight?",
+      "options": [
+        "A) Chandrayaan-4",
+        "B) Mangalyaan-2",
+        "C) NISAR",
+        "D) Gaganyaan"
+      ],
+      "correct_option": "D",
+      "explanation": "Vyommitra ('friend in the sky') is the half-humanoid developed by ISRO for the Gaganyaan human spaceflight programme. It is designed to fly on the uncrewed Gaganyaan test flights, performing crew-simulation tasks such as operating switches and monitoring life-support parameters."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q45",
+      "topic": "General Mental Ability",
+      "sub_topic": "Analogy",
+      "difficulty": "hard",
+      "question": "Select the pair that completes the analogy: 13 : 156 :: 15 : ?",
+      "options": [
+        "A) 195",
+        "B) 225",
+        "C) 240",
+        "D) 210"
+      ],
+      "correct_option": "D",
+      "explanation": "In the pair 13 : 156, the second number is the product of the first with its successor: 13 × 12 = 156. Applying the same relation, 15 × 14 = 210. (Note the direction: n × (n − 1), not n × (n + 1) = 240, which is the trap.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q46",
+      "topic": "Numerical Ability",
+      "sub_topic": "Profit & Loss",
+      "difficulty": "hard",
+      "question": "A dishonest rice seller claims to sell rice at the cost price but uses a false weight of 900 grams in place of 1 kg. What is his actual profit percentage?",
+      "options": [
+        "A) 9 1/11 %",
+        "B) 11 1/9 %",
+        "C) 10%",
+        "D) 12.5%"
+      ],
+      "correct_option": "B",
+      "explanation": "Selling at the cost price, he charges the price of 1,000 g but delivers only 900 g. His gain = 100 g on a cost of 900 g, so profit % = 100/900 × 100 = 11 1/9 %. (The trap answer 10% comes from wrongly taking the gain on 1,000 g.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q47",
+      "topic": "Quantitative Reasoning",
+      "sub_topic": "Algebra",
+      "difficulty": "hard",
+      "question": "The sum of the first and third terms of a geometric progression is 20, and the sum of its fourth and sixth terms is 540. If all terms of the progression are positive, what is its first term?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 4",
+        "D) 5"
+      ],
+      "correct_option": "B",
+      "explanation": "Let the first term be a and common ratio r. Then a(1 + r²) = 20 and a r³(1 + r²) = 540. Dividing the second equation by the first gives r³ = 27, so r = 3. Substituting back: a(1 + 9) = 20, so a = 2. (A negative r is excluded by the 'all terms positive' condition; a = 4 or 5 would give sums inconsistent with r³ = 27.)"
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q48",
+      "topic": "Logical and Analytical Reasoning",
+      "sub_topic": "Logic Grid",
+      "difficulty": "hard",
+      "question": "Four musicians — Amar, Beena, Chetan and Divya — each play a different instrument (Flute, Guitar, Sitar, Violin) and each belongs to a different city (Jaipur, Lucknow, Pune, Surat).\n(i) Beena plays the Sitar.\n(ii) Divya plays the Violin.\n(iii) Amar is from Lucknow.\n(iv) Divya is from Pune.\n(v) Chetan is from Jaipur.\n(vi) The Violinist is from Pune.\n(vii) The Flautist is not from Jaipur.\n(viii) Chetan does not play the Flute.\nWho plays the Guitar, and which city does that person belong to?",
+      "options": [
+        "A) Amar, who belongs to Lucknow",
+        "B) Beena, who belongs to Surat",
+        "C) Divya, who belongs to Pune",
+        "D) Chetan, who belongs to Jaipur"
+      ],
+      "correct_option": "D",
+      "explanation": "Amar = Lucknow, Divya = Pune (and Divya = Violin, consistent with condition vi), Chetan = Jaipur, leaving Beena = Surat. Instruments: Divya = Violin and Beena = Sitar; Amar and Chetan share Flute and Guitar, and since Chetan does not play the Flute (viii), Chetan plays the Guitar and Amar the Flute (Amar being from Lucknow also satisfies condition vii). Hence Chetan of Jaipur plays the Guitar."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q49",
+      "topic": "General Science and Environment Literacy",
+      "sub_topic": "Chemistry",
+      "difficulty": "hard",
+      "question": "Citric acid, widely used in food and beverage industries, is produced on an industrial scale by submerged fermentation using which microorganism?",
+      "options": [
+        "A) Saccharomyces cerevisiae",
+        "B) Lactobacillus bulgaricus",
+        "C) Penicillium notatum",
+        "D) Aspergillus niger"
+      ],
+      "correct_option": "D",
+      "explanation": "Industrial citric acid is produced by fermenting sugar sources (molasses) with the fungus Aspergillus niger. Saccharomyces cerevisiae is baker's/brewer's yeast (ethanol), Lactobacillus is used for curd, and Penicillium notatum was the source of the first penicillin."
+    },
+    {
+      "id": "CUET_GAT_2026_P9_L9_Q50",
+      "topic": "Numerical Ability",
+      "sub_topic": "Average",
+      "difficulty": "medium",
+      "question": "The average age of a committee of 8 members is 40 years. One member, aged 56 years, retires and is replaced by a new member aged 32 years. What is the average age of the committee now?",
+      "options": [
+        "A) 37 years",
+        "B) 36 years",
+        "C) 38 years",
+        "D) 39 years"
+      ],
+      "correct_option": "A",
+      "explanation": "Total age before = 8 × 40 = 320 years. After the replacement: 320 − 56 + 32 = 296 years. New average = 296/8 = 37 years."
+    }
+  ]
+}

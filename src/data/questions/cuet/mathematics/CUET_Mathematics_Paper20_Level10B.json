@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_MATH_2026_P20_L10B",
+  "series_id": "CUET_MATH_2026",
+  "paper_number": 20,
+  "difficulty_level": "10B",
+  "subject": "Mathematics (Code: 319)",
+  "syllabus_source": "cuet mathematics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "N/A",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q01",
+      "topic": "Probability",
+      "sub_topic": "Conditional Probability",
+      "difficulty": "easy",
+      "question": "A fair die is rolled once. What is the probability of getting a number divisible by 3?",
+      "options": [
+        "A) 1/2",
+        "B) 1/3",
+        "C) 2/3",
+        "D) 1/6"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Numbers divisible by 3 on a die are 3 and 6. So P = \\frac{2}{6} = \\frac{1}{3}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q02",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "easy",
+      "question": "If a matrix has 4 rows and 3 columns, what is its order?",
+      "options": [
+        "A) 12",
+        "B) 4 × 3",
+        "C) 3 × 4",
+        "D) Cannot be determined"
+      ],
+      "correct_option": "B",
+      "explanation": "The order of a matrix is given by (number of rows) × (number of columns). So it is 4 × 3."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q03",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Increasing and Decreasing Functions",
+      "difficulty": "medium",
+      "question": "The function f(x) = x³ + 3x² - 9x + 5 is increasing on which interval?",
+      "options": [
+        "A) (-3, 1)",
+        "B) (-∞, -3) ∪ (1, ∞)",
+        "C) (-∞, -1) ∪ (3, ∞)",
+        "D) (-1, 3)"
+      ],
+      "correct_option": "B",
+      "explanation": "f'(x) = 3x² + 6x - 9 = 3(x² + 2x - 3) = 3(x+3)(x-1). f'(x) > 0 when x < -3 or x > 1. So f is increasing on (-∞, -3) ∪ (1, ∞)."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q04",
+      "topic": "Matrices",
+      "sub_topic": "Determinants",
+      "difficulty": "medium",
+      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 2, then the value of \\left| \\1 \\right| is: \\)",
+      "options": [
+        "A) 8",
+        "B) 16",
+        "C) 4",
+        "D) 2"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = \\left| \\1 \\right|^(n-1) = 2² = 4. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q05",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integration",
+      "difficulty": "medium",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos⁵x dx.",
+      "options": [
+        "A) 2/3",
+        "B) 16/15",
+        "C) 8/15",
+        "D) 4/5"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using reduction formula for odd n: ∫₀^(π/2) cos⁵x dx = (\\frac{4}{5}) × (\\frac{2}{3}) × 1 = \\frac{8}{15}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q06",
+      "topic": "Probability",
+      "sub_topic": "Bayes Theorem",
+      "difficulty": "medium",
+      "question": "A bag contains 3 red and 5 blue balls. Another bag contains 4 red and 4 blue balls. A bag is chosen at random and a ball is drawn. If the ball is red, what is the probability it came from the first bag?",
+      "options": [
+        "A) 3/7",
+        "B) 3/8",
+        "C) 1/2",
+        "D) 4/7"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(Bag1|Red) = (\\frac{3}{8})(\\frac{1}{2}) / [(\\frac{3}{8})(\\frac{1}{2}) + (\\frac{4}{8})(\\frac{1}{2})] = (\\frac{3}{16}) / (\\frac{7}{16}) = \\frac{3}{7}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q07",
+      "topic": "Vector Algebra",
+      "sub_topic": "Vector (cross) product of vectors",
+      "difficulty": "medium",
+      "question": "If a = 3i + 2j - k and b = i - 4j + 2k, then a × b equals:",
+      "options": [
+        "A) 0i - 7j + 14k",
+        "B) 0i - 7j - 14k",
+        "C) 0i + 7j - 14k",
+        "D) 0i + 7j + 14k"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( a × b = \\left| \\1 \\right| = i(4-4) - j(6-(-1)) + k(-12-2) = 0i - 7j - 14k. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q08",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "medium",
+      "question": "The solution of the differential equation dy/dx = 3y with y(0) = 2 is:",
+      "options": [
+        "A) y = 3e^(2x)",
+        "B) y = 2e^(-3x)",
+        "C) y = e^(3x) + 2",
+        "D) y = 2e^(3x)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( dy/y = 3dx, integrating: \\ln\\left| \\1 \\right| = 3x + C. With y(0) = 2: \\ln 2 = C. So y = 2e^{(3x)}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q09",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Angle between two lines",
+      "difficulty": "medium",
+      "question": "The angle between the lines (x−1)/2 = (y−2)/3 = (z−3)/4 and (x−2)/1 = (y+1)/2 = (z−1)/3 is:",
+      "options": [
+        "A) cos⁻¹(20/√406)",
+        "B) cos⁻¹(20/√29√14)",
+        "C) cos⁻¹(20/√29)",
+        "D) cos⁻¹(20/√14)"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\cos θ = \\left| \\1 \\right|/(\\sqrt{a₁²+b₁²+c₁²}\\sqrt{a₂²+b₂²+c₂²}) = \\left| \\1 \\right|/(\\sqrt{4+9+16}\\sqrt{1+4+9}) = 20/(\\sqrt{29}\\sqrt{14}) = 20/\\sqrt{406}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q10",
+      "topic": "Linear Programming",
+      "sub_topic": "Graphical Method",
+      "difficulty": "medium",
+      "question": "Maximize Z = 3x + 2y subject to x ≥ 0, y ≥ 0, x + y ≤ 5, 2x + y ≤ 8. The maximum value is:",
+      "options": [
+        "A) 10",
+        "B) 12",
+        "C) 13",
+        "D) 15"
+      ],
+      "correct_option": "C",
+      "explanation": "Corner points: (0,0)→0, (0,5)→10, (4,0)→12. Intersection of x+y=5 and 2x+y=8 gives x=3, y=2. Z(3,2) = 13."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q11",
+      "topic": "Relations and Functions",
+      "sub_topic": "Inverse Trigonometric Functions",
+      "difficulty": "medium",
+      "question": "\\( The value of \\sin⁻¹(\\frac{3}{5}) + \\cos⁻¹(\\frac{3}{5}) is equal to: \\)",
+      "options": [
+        "A) π/2",
+        "B) 2π/3",
+        "C) π",
+        "D) π/3"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using the identity \\sin⁻¹(x) + \\cos⁻¹(x) = π/2 for all x ∈ [-1, 1], the value is π/2. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q12",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "medium",
+      "question": "Find the derivative of the given function: If y = xˣ, then dy/dx equals:",
+      "options": [
+        "A) xˣ ln x",
+        "B) xˣ⁻¹",
+        "C) xˣ(1 - ln x)",
+        "D) xˣ(1 + ln x)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( We apply the standard rules of differentiation. Taking \\ln: \\ln y = x \\ln x. Differentiating: (1/y)dy/dx = \\ln x + 1, so dy/dx = xˣ(1 + \\ln x). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q13",
+      "topic": "Matrices",
+      "sub_topic": "Matrices",
+      "difficulty": "medium",
+      "question": "If A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], then the (1,1) entry of AB is:",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) 3",
+        "D) 2"
+      ],
+      "correct_option": "D",
+      "explanation": "AB = [[1·0+2·1, 1·1+2·0], [3·0+4·1, 3·1+4·0]] = [[2, 1], [4, 3]]. The (1,1) entry is 2."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q14",
+      "topic": "Probability",
+      "sub_topic": "Binomial Distribution",
+      "difficulty": "medium",
+      "question": "In a binomial distribution with n = 6 and p = 0.5, the probability of getting exactly 3 successes is:",
+      "options": [
+        "A) 5/16",
+        "B) 5/32",
+        "C) 15/64",
+        "D) 1/2"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P(X = 3) = C(6,3)·(0.5)³·(0.5)³ = 20·(\\frac{1}{64}) = \\frac{20}{64} = \\frac{5}{16}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q15",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Higher Order Derivatives",
+      "difficulty": "medium",
+      "question": "Find the second derivative of the given function: If y = e^{(x²)}, then d²y/dx² equals:",
+      "options": [
+        "A) 2e^(x²)(1 + 2x²)",
+        "B) 2e^(x²)",
+        "C) e^(x²)(2 + 4x²)",
+        "D) 4x²e^(x²)"
+      ],
+      "correct_option": "C",
+      "explanation": "We differentiate twice using standard rules. dy/dx = 2x·e^{(x²)}. d²y/dx² = 2e^{(x²)} + 4x²e^{(x²)} = e^{(x²)}(2 + 4x²)."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q16",
+      "topic": "Vector Algebra",
+      "sub_topic": "Scalar Triple Product",
+      "difficulty": "medium",
+      "question": "If a = 2i, b = 3j, c = 4k, then the scalar triple product [a b c] equals:",
+      "options": [
+        "A) 12",
+        "B) 0",
+        "C) 24",
+        "D) 6"
+      ],
+      "correct_option": "C",
+      "explanation": "[a b c] = a·(b×c) = 2i·(3j × 4k) = 2i·12i = 24."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q17",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "medium",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin³x dx.",
+      "options": [
+        "A) 1/2",
+        "B) 4/3",
+        "C) 2/3",
+        "D) 1/3"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin³x dx = (\\frac{2}{3})·1 = \\frac{2}{3}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q18",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "\\( Evaluate ∫₀^(π/2) (\\sin x)/(\\sin x + \\cos x) dx using the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx. \\)",
+      "options": [
+        "A) π/2",
+        "B) π/3",
+        "C) 1",
+        "D) π/4"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Let I = ∫₀^(π/2) \\sin x/(\\sin x + \\cos x) dx. Also I = ∫₀^(π/2) \\cos x/(\\cos x + \\sin x) dx. Adding: 2I = π/2, so I = π/4. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q19",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁵x cos³x dx.",
+      "options": [
+        "A) 1/12",
+        "B) 1/24",
+        "C) 1/48",
+        "D) 1/36"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using Beta function: B(3,2)/2 = (2!·1!/4!)/2 = (\\frac{2}{24})/2 = \\frac{1}{24}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q20",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Applications of Derivatives",
+      "difficulty": "hard",
+      "question": "\\( A wire of length 30 cm is cut into two pieces. One piece is bent into an equilateral triangle and the other into a circle. The \\sum of the areas is minimum when the length used for the circle is: \\)",
+      "options": [
+        "A) 30√3π/(√3π + 9) cm",
+        "B) 15√3π/(π + √3) cm",
+        "C) 30/(√3 + 3) cm",
+        "D) 30π/(π + 3) cm"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Let x be length for circle. Circle area = x²/(4π). Triangle area = \\sqrt{3}(30-x)²/36. dA/dx = x/(2π) - \\sqrt{3}(30-x)/18 = 0. Solving: x = 30\\sqrt{3}π/(\\sqrt{3}π + 9). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q21",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Applications of Derivatives",
+      "difficulty": "hard",
+      "question": "\\( The maximum volume of a right circular cylinder inscribed \\in a sphere of radius R is: \\)",
+      "options": [
+        "A) 2πR³/3",
+        "B) πR³/√3",
+        "C) 8πR³/(3√3)",
+        "D) 4πR³/(3√3)"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( V = πr²h with r² + (h/2)² = R². dV/dh = π(R² - 3h²/4) = 0, so h = 2R/\\sqrt{3}. V = 4πR³/(3\\sqrt{3}). \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q22",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "hard",
+      "question": "\\( A population grows at a rate proportional to its size. If the population doubles \\in 5 years, the time it takes to triple (from its initial size) is closest to: \\)",
+      "options": [
+        "A) 7.9 years",
+        "B) 10.0 years",
+        "C) 12.5 years",
+        "D) 15.0 years"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( P = P₀e^{(kt)}. Doubling: 2 = e^{(5k)} → k = \\ln\\frac{2}{5}. Tripling: 3 = e^{(kt)} → t = 3·ln2... solving: t = ln3/k = ln3/(\\ln\\frac{2}{5}) = 5·ln3/ln2 = 5·1.585 = 7.9 years. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q23",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "hard",
+      "question": "The solution of the differential equation dy/dx = (x + y)/(x - y) is:",
+      "options": [
+        "A) tan⁻¹(x/y) + ln(x² + y²) = C",
+        "B) tan⁻¹(y/x) - ln(x² + y²) = C",
+        "C) tan⁻¹(x/y) - ln(x² + y²) = C",
+        "D) tan⁻¹(y/x) + ln(x² + y²) = C"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let y = vx, then dy/dx = v + x dv/dx. Substituting: v + x dv/dx = (1 + v)/(1 - v). So x dv/dx = (1 + v)/(1 - v) - v = (1 + v - v + v²)/(1 - v) = (1 + v²)/(1 - v). Separating: (1 - v)/(1 + v²) dv = dx/x. Integrating: \\tan⁻¹(v) - \\ln(1 + v²)/2 = \\ln\\left| \\1 \\right| + C. Substituting v = y/x: \\tan⁻¹(y/x) - \\ln(x² + y²)/2 = \\ln\\left| \\1 \\right| + C. Simplifying: \\tan⁻¹(y/x) - \\ln(x² + y²) = C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q24",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Differential Equations",
+      "difficulty": "hard",
+      "question": "The differential equation representing the family of curves y = Ae^{(3x)} + Be^{(-2x)} is:",
+      "options": [
+        "A) d²y/dx² + dy/dx - 6y = 0",
+        "B) d²y/dx² - dy/dx + 6y = 0",
+        "C) d²y/dx² + dy/dx + 6y = 0",
+        "D) d²y/dx² - dy/dx - 6y = 0"
+      ],
+      "correct_option": "D",
+      "explanation": "dy/dx = 3Ae^{(3x)} - 2Be^{(-2x)}. d²y/dx² = 9Ae^{(3x)} + 4Be^{(-2x)}. Eliminating A and B: d²y/dx² - dy/dx - 6y = 0."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q25",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "question": "\\( If y = \\sin⁻¹(\\sqrt{1 - x²}) for x ∈ (0, 1), then dy/dx equals: \\)",
+      "options": [
+        "A) -x/√(1 - x²)",
+        "B) x/√(1 - x²)",
+        "C) -1/√(1 - x²)",
+        "D) 1/√(1 - x²)"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Let x = \\sin θ, θ ∈ (0, π/2). Then \\sqrt{1-x²} = \\cos θ. y = \\sin⁻¹(\\cos θ) = π/2 - θ = π/2 - \\sin⁻¹x. dy/dx = -1/\\sqrt{1-x²}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q26",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Continuity and Differentiability",
+      "difficulty": "hard",
+      "question": "\\( For what value of k is the function f(x) = {\\sin(3x)/x, x ≠ 0; k, x = 0} differentiable at x = 0? \\)",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) Does not exist for any k",
+        "D) 0"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( For continuity: \\lim(x→0) \\sin(3x)/x = 3, so k = 3. For differentiability: f'(0) = \\lim(h→0)[\\sin(3h)/h - 3]/h = 0. So f is differentiable at x = 0 when k = 3. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q27",
+      "topic": "Vector Algebra",
+      "sub_topic": "3D Geometry",
+      "difficulty": "hard",
+      "question": "The shortest distance between the skew lines L₁: r = i + j + t(2i - j + k) and L₂: r = 2i + j - k + s(3i - 2j + 4k) is:",
+      "options": [
+        "A) 1/√30",
+        "B) 2/√30",
+        "C) √30/15",
+        "D) √30/30"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Using formula: d = \\left| \\1 \\right| / \\left| \\1 \\right|. a₁ = (1,1,0), a₂ = (2,1,-1), b₁ = (2,-1,1), b₂ = (3,-2,4). b₁×b₂ = (-2,-5,-1). \\left| \\1 \\right| = \\sqrt{30}. a₂-a₁ = (1,0,-1). (a₂-a₁)·(b₁×b₂) = -2+0+1 = -1. d = \\left| \\1 \\right|/\\sqrt{30} = √\\frac{30}{30}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q28",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Angle Between Lines",
+      "difficulty": "hard",
+      "question": "The angle between the lines with direction ratios (1, 1, 0) and (1, 0, 1) is:",
+      "options": [
+        "A) 30°",
+        "B) 60°",
+        "C) 90°",
+        "D) 45°"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\cos θ = (1·1 + 1·0 + 0·1)/(\\sqrt{1²+1²+0²}·\\sqrt{1²+0²+1²}) = 1/(\\sqrt{2}·\\sqrt{2}) = \\frac{1}{2}. So θ = 60^{\\circ}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q29",
+      "topic": "Three Dimensional Geometry",
+      "sub_topic": "Shortest Distance",
+      "difficulty": "hard",
+      "question": "The shortest distance between the parallel planes 2x - y + 2z + 3 = 0 and 4x - 2y + 4z + 7 = 0 is:",
+      "options": [
+        "A) 5/6",
+        "B) 1/6",
+        "C) 2/3",
+        "D) 1/3"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( First plane: 2x - y + 2z + 3 = 0. Second plane (divide by 2): 2x - y + 2z + \\frac{7}{2} = 0. Distance = \\left| \\1 \\right|/\\sqrt{4+1+4} = \\left| \\1 \\right|/3 = \\frac{1}{6}. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q30",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀¹ x²·(x³ + 1)⁴ dx.",
+      "options": [
+        "A) 16/15",
+        "B) 31/15",
+        "C) 32/15",
+        "D) 1/3"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Let u = x³ + 1, du = 3x² dx. When x = 0, u = 1; when x = 1, u = 2. Integral = (\\frac{1}{3})∫₁² u⁴ du = (\\frac{1}{3})[u⁵/5]₁² = (\\frac{1}{15})(32 - 1) = \\frac{31}{15}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q31",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Solve the following Continuity and Differentiability problem.",
+      "options": [
+        "A) e^(2x)(x - 1)/2 + C",
+        "B) e^(2x)(x + 1)/2 + C",
+        "C) e^(2x)(2x - 1)/4 + C",
+        "D) e^(2x)(2x + 1)/4 + C"
+      ],
+      "correct_option": "C",
+      "explanation": "Apply Integrals concepts to find the answer."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q32",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Evaluate the indefinite integral of 1 over x squared plus a constant, using the arctangent formula.",
+      "options": [
+        "A) tan⁻¹(x+2) + C",
+        "B) (1/2)tan⁻¹((x+2)/2) + C",
+        "C) (1/2)tan⁻¹(x+2) + C",
+        "D) tan⁻¹((x+2)/2) + C"
+      ],
+      "correct_option": "B",
+      "explanation": "Using the formula integral of 1/(x^2+a^2) dx = (1/a)tan^-1(x/a) + C."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q33",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "\\( Evaluate the indefinite integral ∫ x·\\cos(2x) dx using integration by parts. \\)",
+      "options": [
+        "A) -(x·cos(2x))/2 + sin(2x)/4 + C",
+        "B) -(x·cos(2x))/2 - sin(2x)/4 + C",
+        "C) (x·sin(2x))/2 + cos(2x)/4 + C",
+        "D) (x·sin(2x))/2 - cos(2x)/4 + C"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Let u = x, dv = \\cos(2x) dx. Then du = dx, v = \\sin(2x)/2. ∫x·\\cos(2x)dx = x·\\sin(2x)/2 − ∫\\sin(2x)/2 dx = x·\\sin(2x)/2 + \\cos(2x)/4 + C. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q34",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^∞ e^{(-2x)} dx.",
+      "options": [
+        "A) ∞",
+        "B) 1/2",
+        "C) 1",
+        "D) 2"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( ∫₀^∞ e^{(-2x)} dx = [-e^{(-2x)}/2]₀^∞ = 0 - (-\\frac{1}{2}) = \\frac{1}{2}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q35",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁶x dx.",
+      "options": [
+        "A) 5π/32",
+        "B) π/4",
+        "C) 15π/96",
+        "D) 3π/16"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁶x dx = (\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 15π/96 = 5π/32. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q36",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integration",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/4) tan³x dx.",
+      "options": [
+        "A) 1/2",
+        "B) (1 - ln2)/2",
+        "C) (1 + ln2)/2",
+        "D) (ln2 - 1)/2"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( ∫ tan³x dx = ∫ \\tan x × tan²x dx = ∫ \\tan x × (sec²x - 1) dx = ∫ \\tan x sec²x dx - ∫ \\tan x dx. First integral: let u = \\tan x, du = sec²x dx, so ∫ u du = u²/2 = tan²x/2. Second: ∫ \\tan x dx = -\\ln\\left| \\1 \\right|. So ∫ tan³x dx = tan²x/2 + \\ln\\left| \\1 \\right|. From 0 to π/4: (\\frac{1}{2} + \\ln(1/\\sqrt{2})) - (0 + 0) = \\frac{1}{2} - \\ln(2)/2 = (1 - ln2)/2. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q37",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos⁶x dx.",
+      "options": [
+        "A) 15π/96",
+        "B) π/4",
+        "C) 5π/32",
+        "D) 3π/16"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁶x dx = (\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 15π/96 = 5π/32. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q38",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sinx·cosx dx.",
+      "options": [
+        "A) 1/2",
+        "B) 0",
+        "C) 1",
+        "D) 1/4"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( ∫₀^(π/2) sinx·cosx dx = (\\frac{1}{2})∫₀^(π/2) \\sin(2x) dx = (\\frac{1}{2})[-\\cos(2x)/2]₀^(π/2) = \\frac{1}{2}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q39",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin²x·cos²x dx.",
+      "options": [
+        "A) π/8",
+        "B) π/32",
+        "C) π/16",
+        "D) π/4"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( ∫₀^(π/2) sin²x·cos²x dx = (\\frac{1}{4})∫₀^(π/2) sin²(2x) dx = (\\frac{1}{4})∫₀^(π/2) (1 - \\cos(4x))/2 dx = π/16. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q40",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁸x dx.",
+      "options": [
+        "A) 7π/64",
+        "B) 35π/256",
+        "C) 5π/32",
+        "D) π/4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁸x dx = (\\frac{7}{8})(\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 35π/256. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q41",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos⁸x dx.",
+      "options": [
+        "A) π/4",
+        "B) 35π/256",
+        "C) 7π/64",
+        "D) 5π/32"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁸x dx = (\\frac{7}{8})(\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 35π/256. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q42",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁵x cos⁵x dx.",
+      "options": [
+        "A) 1/30",
+        "B) 1/60",
+        "C) 1/120",
+        "D) 1/20"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using Beta function: B(3, 3)/2 = (Γ(3)Γ(3)/Γ(6))/2 = (2·\\frac{2}{120})/2 = \\frac{1}{60}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q43",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁴x cos²x dx.",
+      "options": [
+        "A) 3π/32",
+        "B) π/8",
+        "C) π/16",
+        "D) π/32"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( Using Beta function: B(\\frac{5}{2}, \\frac{3}{2})/2 = π/32. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q44",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin²x cos⁴x dx.",
+      "options": [
+        "A) π/16",
+        "B) π/32",
+        "C) 3π/32",
+        "D) π/8"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using Beta function: B(\\frac{3}{2}, \\frac{5}{2})/2 = π/32. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q45",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin³x cos³x dx.",
+      "options": [
+        "A) 1/6",
+        "B) 1/24",
+        "C) 1/8",
+        "D) 1/12"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Using Beta function: B(2, 2)/2 = (Γ(2)Γ(2)/Γ(4))/2 = (1·\\frac{1}{6})/2 = \\frac{1}{12}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q46",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integration",
+      "difficulty": "hard",
+      "question": "Solve the following Continuity and Differentiability problem.",
+      "options": [
+        "A) (3/8) - ln2",
+        "B) (5/8) - ln2",
+        "C) (5/8) + ln2",
+        "D) (3/8) + ln2"
+      ],
+      "correct_option": "D",
+      "explanation": "Apply Integration concepts to find the answer."
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q47",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁷x dx.",
+      "options": [
+        "A) 4/7",
+        "B) 8/15",
+        "C) 16/35",
+        "D) 32/105"
+      ],
+      "correct_option": "C",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁷x dx = (\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{16}{35}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q48",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos⁷x dx.",
+      "options": [
+        "A) 4/7",
+        "B) 32/105",
+        "C) 8/15",
+        "D) 16/35"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁷x dx = (\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{16}{35}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q49",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) sin⁹x dx.",
+      "options": [
+        "A) 16/35",
+        "B) 128/315",
+        "C) 64/105",
+        "D) 8/15"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁹x dx = (\\frac{8}{9})(\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{128}{315}. This result follows from standard mathematical principles. \\)"
+    },
+    {
+      "id": "CUET_MATH_2026_P20_L10B_Q50",
+      "topic": "Continuity and Differentiability",
+      "sub_topic": "Integrals",
+      "difficulty": "hard",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos⁹x dx.",
+      "options": [
+        "A) 8/15",
+        "B) 128/315",
+        "C) 64/105",
+        "D) 16/35"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁹x dx = (\\frac{8}{9})(\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{128}{315}. This result follows from standard mathematical principles. \\)"
+    }
+  ]
+}

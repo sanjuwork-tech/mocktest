@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P9_L9",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 9,
+  "difficulty_level": "9",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q01",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Monotonic Preferences",
+      "difficulty": "easy",
+      "question": "If a consumer possesses monotonic preferences, between bundle A (4 units of X, 5 units of Y) and bundle B (4 units of X, 6 units of Y), the consumer will strictly prefer:",
+      "options": [
+        "A) Bundle A over Bundle B",
+        "B) Bundle B over Bundle A",
+        "C) Be indifferent between both bundles",
+        "D) Neither bundle as both violate rationality"
+      ],
+      "correct_option": "B",
+      "explanation": "Monotonic preferences mean the consumer strictly prefers bundles with more of at least one good and no less of any other good."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q02",
+      "topic": "Production and Costs",
+      "sub_topic": "Shapes of Short-Run Cost Curves",
+      "difficulty": "easy",
+      "question": "Which of the following cost curves is shaped as a rectangular hyperbola?",
+      "options": [
+        "A) Marginal Cost (MC) curve",
+        "B) Average Variable Cost (AVC) curve",
+        "C) Average Fixed Cost (AFC) curve",
+        "D) Total Fixed Cost (TFC) curve"
+      ],
+      "correct_option": "C",
+      "explanation": "Because \\( \\text{AFC} \\times Q = \\text{TFC} \\) (a positive constant), the AFC curve takes the shape of a rectangular hyperbola."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q03",
+      "topic": "National Income Accounting",
+      "sub_topic": "Real vs Nominal GDP",
+      "difficulty": "easy",
+      "question": "The ratio of Nominal GDP to Real GDP multiplied by 100 is known as the:",
+      "options": [
+        "A) Wholesale Price Index",
+        "B) Consumer Price Index",
+        "C) GDP Deflator",
+        "D) Net National Product Deflator"
+      ],
+      "correct_option": "C",
+      "explanation": "GDP Deflator is defined as \\( \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100 \\), measuring the overall price level of domestically produced goods."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q04",
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Policy Tools",
+      "difficulty": "easy",
+      "question": "The outright purchase and sale of government securities in the open market by the central bank is termed:",
+      "options": [
+        "A) Marginal Standing Facility",
+        "B) Selective Credit Regulation",
+        "C) Moral Suasion",
+        "D) Open Market Operations (OMO)"
+      ],
+      "correct_option": "D",
+      "explanation": "Open Market Operations refer to the central bank's buying and selling of government securities to regulate high-powered money."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q05",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Privatisation",
+      "difficulty": "easy",
+      "question": "The Navratna and Maharatna status schemes were introduced by the government primarily to:",
+      "options": [
+        "A) Liquidate non-performing private commercial banks",
+        "B) Transfer complete equity ownership to private domestic conglomerates",
+        "C) Restrict foreign direct investment in public telecom utilities",
+        "D) Grant managerial and operational autonomy to profit-making Public Sector Enterprises"
+      ],
+      "correct_option": "D",
+      "explanation": "Maharatna, Navratna, and Miniratna statuses provide operational and financial autonomy to efficient public sector undertakings."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q06",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Consumer Equilibrium (Two Goods)",
+      "difficulty": "medium",
+      "question": "A consumer consumes goods X and Y with prices \\( P_x = ₹4 \\) and \\( P_y = ₹2 \\). If at the current consumption level \\( \\text{MU}_x = 16 \\) and \\( \\text{MU}_y = 10 \\), what adjustments will restore consumer equilibrium?",
+      "options": [
+        "A) The consumer should buy more of good X and less of good Y",
+        "B) The consumer should buy more of good Y and less of good X",
+        "C) The consumer is already in equilibrium",
+        "D) The consumer should reduce consumption of both goods simultaneously"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( \\text{MU}_x / P_x = 16 / 4 = 4 \\); \\( \\text{MU}_y / P_y = 10 / 2 = 5 \\). Since \\( \\text{MU}_y / P_y > \\text{MU}_x / P_x \\), consuming more Y lowers \\( \\text{MU}_y \\) until equality is re-established."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q07",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Budget Line Intercepts",
+      "difficulty": "medium",
+      "question": "If a consumer's income is ₹120 and the prices of goods X and Y are ₹6 and ₹10 respectively, the horizontal and vertical intercepts of the budget line are:",
+      "options": [
+        "A) 25 units on X-axis and 15 units on Y-axis",
+        "B) 12 units on X-axis and 20 units on Y-axis",
+        "C) 15 units on X-axis and 10 units on Y-axis",
+        "D) 20 units on X-axis and 12 units on Y-axis"
+      ],
+      "correct_option": "D",
+      "explanation": "Horizontal intercept = \\( M / P_x = 120 / 6 = 20 \\); Vertical intercept = \\( M / P_y = 120 / 10 = 12 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q08",
+      "topic": "Production and Costs",
+      "sub_topic": "Relationship between AP and MP",
+      "difficulty": "medium",
+      "question": "At the point where the Average Product (AP) curve reaches its maximum:",
+      "options": [
+        "A) Marginal Product is equal to zero",
+        "B) Total Product begins to decline",
+        "C) Marginal Product equals Average Product",
+        "D) Marginal Product is at its maximum point"
+      ],
+      "correct_option": "C",
+      "explanation": "When AP is at its maximum, the MP curve intersects the AP curve from above, so \\( \\text{MP} = \\text{AP} \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q09",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Short-run Supply Curve",
+      "difficulty": "medium",
+      "question": "The short-run supply curve of an individual perfectly competitive firm is given by:",
+      "options": [
+        "A) The entire Average Variable Cost curve",
+        "B) The rising portion of the Marginal Cost curve at and above the minimum Average Variable Cost",
+        "C) The horizontal section of the Average Total Cost curve",
+        "D) The downward sloping segment of the Marginal Revenue curve"
+      ],
+      "correct_option": "B",
+      "explanation": "A competitive firm equates price with MC; it operates in the short run only when \\( P \\geq \\min(\\text{AVC}) \\). Thus, the short-run supply curve is the rising portion of SMC on or above min AVC."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q10",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Effects of Simultaneous Shifts",
+      "difficulty": "medium",
+      "question": "If market demand increases while market supply decreases by the exact same magnitude, what will happen to the equilibrium price and quantity?",
+      "options": [
+        "A) Equilibrium price will rise, while equilibrium quantity remains unchanged",
+        "B) Both equilibrium price and quantity will rise",
+        "C) Equilibrium price will remain unchanged, while quantity increases",
+        "D) Equilibrium price will fall, while quantity remains unchanged"
+      ],
+      "correct_option": "A",
+      "explanation": "Higher demand bids price up; lower supply also drives price up. The demand expansion pushes quantity up while supply contraction pulls quantity down equally, leaving quantity unchanged while price rises."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q11",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Price Ceiling Applications",
+      "difficulty": "medium",
+      "question": "Which of the following is an adverse market consequence frequently associated with the prolonged implementation of a statutory price ceiling?",
+      "options": [
+        "A) Accumulation of unwanted surplus buffer stocks in private warehouses",
+        "B) Sharply falling producer costs due to economies of scale",
+        "C) Excessive entry of new manufacturing corporations",
+        "D) Emergence of black marketing and deterioration in product quality"
+      ],
+      "correct_option": "D",
+      "explanation": "Price ceilings below market equilibrium generate chronic shortages, leading to black marketing, rationing queues, and reduced quality."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q12",
+      "topic": "National Income Accounting",
+      "sub_topic": "Value Added Calculation",
+      "difficulty": "medium",
+      "question": "Gross Value Added at Market Price (\\( \\text{GVA}_{MP} \\)) is calculated as:",
+      "options": [
+        "A) Domestic Income plus Net Factor Income from Abroad",
+        "B) Total Sales plus Net Indirect Taxes",
+        "C) Value of Output minus Depreciation minus Net Indirect Taxes",
+        "D) Value of Output minus Intermediate Consumption"
+      ],
+      "correct_option": "D",
+      "explanation": "\\( \\text{GVA}_{MP} = \\text{Value of Output} - \\text{Intermediate Consumption} \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q13",
+      "topic": "National Income Accounting",
+      "sub_topic": "Domestic vs National Concepts",
+      "difficulty": "medium",
+      "question": "Net Factor Income from Abroad (NFIA) will be negative when:",
+      "options": [
+        "A) Factor income received from abroad by resident factors exceeds factor income paid to non-residents",
+        "B) Factor income paid to non-residents within domestic territory exceeds factor income earned by residents abroad",
+        "C) Merchandise exports exceed merchandise imports",
+        "D) Government debt servicing abroad is completely waived"
+      ],
+      "correct_option": "B",
+      "explanation": "NFIA = Factor income from abroad - Factor income to abroad. When factor payments to foreigners exceed receipts from abroad, NFIA is negative."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q14",
+      "topic": "Money and Banking",
+      "sub_topic": "Money Creation",
+      "difficulty": "medium",
+      "question": "If the Legal Reserve Ratio (LRR) is 0.125 (12.5%), what is the value of the money multiplier?",
+      "options": [
+        "A) 5.0",
+        "B) 12.5",
+        "C) 10.0",
+        "D) 8.0"
+      ],
+      "correct_option": "D",
+      "explanation": "Money multiplier \\( = 1 / \\text{LRR} = 1 / 0.125 = 8.0 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q15",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Break-even Income",
+      "difficulty": "medium",
+      "question": "In macroeconomic theory, the 'break-even point' of household income occurs when:",
+      "options": [
+        "A) Consumption expenditure equals zero",
+        "B) Marginal Propensity to Consume equals unity",
+        "C) Investment expenditure equals planned savings (\\( I = S \\))",
+        "D) Consumption expenditure equals total national income (\\( C = Y \\)) and savings are zero"
+      ],
+      "correct_option": "D",
+      "explanation": "Break-even level of income is reached when consumption spending exactly equals disposable income (\\( C = Y \\)), so savings are zero (\\( S = 0 \\))."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q16",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Deficient Demand Correction",
+      "difficulty": "medium",
+      "question": "To remedy a deflationary gap arising from deficient demand, the Reserve Bank of India should:",
+      "options": [
+        "A) Increase the Repo Rate and raise Cash Reserve Ratio",
+        "B) Issue fresh administrative directives rationing commercial bank credit",
+        "C) Increase the margin requirements on commercial loan advances",
+        "D) Decrease the Repo Rate and buy government bonds in open market operations"
+      ],
+      "correct_option": "D",
+      "explanation": "Lowering the repo rate and buying government bonds injects liquidity into the banking system, reducing interest rates and stimulating aggregate demand."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q17",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Capital vs Revenue Expenditure",
+      "difficulty": "medium",
+      "question": "Which of the following budget disbursements creates an asset or causes a reduction in the liabilities of the government?",
+      "options": [
+        "A) Old-age pensions and scholarships to students",
+        "B) Investment in equity shares of Bharat Heavy Electricals Limited (BHEL)",
+        "C) Defence revenue maintenance salaries",
+        "D) Subsidies provided on agricultural fertilizers"
+      ],
+      "correct_option": "B",
+      "explanation": "Purchasing equity shares creates a financial asset for the government, making it a Capital Expenditure. The other three are Revenue Expenditures."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q18",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Foreign Exchange Appreciation",
+      "difficulty": "medium",
+      "question": "When the exchange rate changes from \\( \\$1 = ₹82 \\) to \\( \\$1 = ₹78 \\), this implies that:",
+      "options": [
+        "A) The Indian Rupee has depreciated against the US Dollar",
+        "B) Indian exports to the US will become substantially cheaper",
+        "C) The Indian Rupee has been devalued by the Reserve Bank of India",
+        "D) The Indian Rupee has appreciated against the US Dollar"
+      ],
+      "correct_option": "D",
+      "explanation": "Fewer rupees are now needed to buy one US dollar, which means the Indian rupee has appreciated in value under a flexible rate regime."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q19",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Green Revolution Impact",
+      "difficulty": "medium",
+      "question": "The Green Revolution in India primarily succeeded in achieving self-sufficiency in which crops?",
+      "options": [
+        "A) Pulses and oilseeds",
+        "B) Cotton and raw jute",
+        "C) Wheat and rice",
+        "D) Tea, coffee, and spices"
+      ],
+      "correct_option": "C",
+      "explanation": "The initial phases of the Green Revolution in Punjab, Haryana, and Western UP were concentrated in HYV wheat and paddy crops."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q20",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Financial Sector Liberalisation",
+      "difficulty": "medium",
+      "question": "Under the financial sector reforms post-1991, the limit on Foreign Institutional Investors (FIIs) and Foreign Direct Investment (FDI) in Indian private banks was:",
+      "options": [
+        "A) Reduced to zero to prevent foreign takeovers",
+        "B) Subject to daily clearance by the Comptroller and Auditor General",
+        "C) Confined exclusively to state-owned cooperative societies",
+        "D) Substantially raised to enhance competition and capitalization"
+      ],
+      "correct_option": "D",
+      "explanation": "FDI and FII limits in the banking sector were progressively raised (eventually up to 74% in private sector banks) to bring in capital and technology."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q21",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Agricultural Diversification",
+      "difficulty": "medium",
+      "question": "Agricultural diversification involves two aspects: diversification of crop production and:",
+      "options": [
+        "A) Diversification of productive activities from agriculture to allied sectors and non-farm employment",
+        "B) Increasing chemical pesticide utilization across arid acreage",
+        "C) Conversion of fertile paddy fields into urban residential complexes",
+        "D) Reverting to traditional barter trade in rural mandis"
+      ],
+      "correct_option": "A",
+      "explanation": "Diversification involves shifting from subsistence cropping to commercial crops and shifting surplus labor into allied activities (dairy, fisheries, horticulture) and non-farm sectors."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q22",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Organic Farming",
+      "difficulty": "medium",
+      "question": "Which of the following is a recognized benefit of organic farming over conventional chemical farming?",
+      "options": [
+        "A) It completely eliminates the need for any labor input",
+        "B) It produces crops with indefinite shelf life requiring no refrigeration",
+        "C) It sustains soil fertility and relies on eco-friendly, locally produced inputs",
+        "D) It guarantees double the initial crop yield in the first growing season"
+      ],
+      "correct_option": "C",
+      "explanation": "Organic farming restores ecological balance and soil fertility through organic manures and bio-fertilizers, avoiding chemical contamination."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q23",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Demographic Comparison",
+      "difficulty": "medium",
+      "question": "Among India, China, and Pakistan, which country exhibits the lowest population density (people per square kilometer)?",
+      "options": [
+        "A) India",
+        "B) Pakistan",
+        "C) China",
+        "D) India and Pakistan have identical density"
+      ],
+      "correct_option": "C",
+      "explanation": "Due to its vast land area (nearly 9.6 million sq km), China has a much lower population density (approx. 150 people/sq km) compared to India (approx. 435) and Pakistan (approx. 280)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q24",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Sectoral Contribution to GDP",
+      "difficulty": "medium",
+      "question": "In Pakistan, which sector currently accounts for the largest proportion of its Gross Domestic Product (GDP)?",
+      "options": [
+        "A) Agriculture",
+        "B) Manufacturing",
+        "C) Services",
+        "D) Mining and quarrying"
+      ],
+      "correct_option": "C",
+      "explanation": "Similar to India, Pakistan has experienced a structural transition where the services sector contributes more than 50% of total GDP."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q25",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Commune System in China",
+      "difficulty": "medium",
+      "question": "Under the 'Commune System' introduced during China's Great Leap Forward:",
+      "options": [
+        "A) Agricultural lands were distributed as private freehold estates to individual farmers",
+        "B) Peasant families were prohibited from farming and relocated to coastal ports",
+        "C) Multi-national corporations were granted 99-year agricultural concessions",
+        "D) People collectively owned and cultivated land, sharing output based on work points"
+      ],
+      "correct_option": "D",
+      "explanation": "Under the commune system, rural households were organized into large agricultural communes to farm collective land cooperatively."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q26",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Indifference Curve Convexity",
+      "difficulty": "hard",
+      "question": "Assertion (A): An indifference curve is strictly convex to the origin.\nReason (R): As the consumer substitutes good X for good Y, the Marginal Rate of Substitution (\\( \\text{MRS}_{xy} \\)) diminishes continuously along the curve.\n\nChoose the correct option:",
+      "options": [
+        "A) Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+        "B) Assertion and Reason are true, but Reason is NOT the correct explanation of Assertion",
+        "C) Assertion is true, but Reason is false",
+        "D) Assertion is false, but Reason is true"
+      ],
+      "correct_option": "A",
+      "explanation": "Convexity of the indifference curve to the origin is directly caused by the diminishing marginal rate of substitution."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q27",
+      "topic": "Consumer Behaviour and Demand",
+      "sub_topic": "Elasticity and Total Outlay",
+      "difficulty": "hard",
+      "question": "A consumer buys 50 units of a commodity at a price of ₹4 per unit. When the price rises to ₹5 per unit, the consumer still spends exactly ₹200 on that commodity. What is the price elasticity of demand?",
+      "options": [
+        "A) Zero (\\( |E_d| = 0 \\))",
+        "B) Unitary (\\( |E_d| = 1 \\))",
+        "C) Highly elastic (\\( |E_d| = 2.5 \\))",
+        "D) Perfectly elastic (\\( |E_d| = \\infty \\))"
+      ],
+      "correct_option": "B",
+      "explanation": "Initial expenditure = \\( 50 \\times 4 = ₹200 \\). New expenditure = ₹200 at price ₹5, so new quantity = \\( 200 / 5 = 40 \\) units. By total outlay method, when total outlay remains constant despite a price change, \\( |E_d| = 1 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q28",
+      "topic": "Production and Costs",
+      "sub_topic": "Law of Variable Proportions",
+      "difficulty": "hard",
+      "question": "In the production process of a firm operating with one variable input:\nStatement 1: When Marginal Product is zero, Total Product reaches its maximum.\nStatement 2: The point of inflexion on the Total Product curve occurs when Marginal Product is at its maximum.\n\nWhich of the following evaluations is correct?",
+      "options": [
+        "A) Statement 1 is true, but Statement 2 is false",
+        "B) Statement 2 is true, but Statement 1 is false",
+        "C) Both Statement 1 and Statement 2 are true",
+        "D) Both Statement 1 and Statement 2 are false"
+      ],
+      "correct_option": "C",
+      "explanation": "Both statements are correct economic theorems. The point of inflexion marks the transition from increasing to diminishing marginal returns, where MP is maximum. Total Product is maximized when MP equals zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q29",
+      "topic": "Production and Costs",
+      "sub_topic": "Cost Arithmetic",
+      "difficulty": "hard",
+      "question": "A firm has Total Fixed Cost (TFC) of ₹120. Its Average Variable Cost (AVC) schedule is given below:\n- At 1 unit: AVC = ₹40\n- At 2 units: AVC = ₹35\n- At 3 units: AVC = ₹38\n\nWhat is the Marginal Cost of producing the 3rd unit?",
+      "options": [
+        "A) ₹38",
+        "B) ₹70",
+        "C) ₹54",
+        "D) ₹44"
+      ],
+      "correct_option": "D",
+      "explanation": "TVC at 2 units = \\( 2 \\times 35 = 70 \\). TVC at 3 units = \\( 3 \\times 38 = 114 \\). \\( \\text{MC}_3 = \\text{TVC}_3 - \\text{TVC}_2 = 114 - 70 = ₹44 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q30",
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Normal Profits and Long-run Equilibrium",
+      "difficulty": "hard",
+      "question": "In the long-run equilibrium of a perfectly competitive industry, which condition holds true for every active firm?",
+      "options": [
+        "A) \\( P = \\text{MR} = \\text{LMC} = \\min(\\text{LAC}) \\), earning only normal profit",
+        "B) \\( P > \\text{LAC} \\), yielding persistent supernormal profit",
+        "C) \\( \\text{LMC} \\) intersects LAC from above at its maximum point",
+        "D) \\( \\text{LMC} = \\text{LAC} = 0 \\)"
+      ],
+      "correct_option": "A",
+      "explanation": "Free entry and exit drive long-run economic profits to zero (normal profits), where price equals minimum LAC and LMC."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q31",
+      "topic": "Market Equilibrium and Applications",
+      "sub_topic": "Price Elasticity of Supply Determination",
+      "difficulty": "hard",
+      "question": "If a straight-line supply curve originates from the positive vertical (price) axis and slopes upward to the right, its price elasticity of supply at any point is:",
+      "options": [
+        "A) Less than one (\\( E_s < 1 \\))",
+        "B) Equal to one (\\( E_s = 1 \\))",
+        "C) Greater than one (\\( E_s > 1 \\))",
+        "D) Equal to zero (\\( E_s = 0 \\))"
+      ],
+      "correct_option": "C",
+      "explanation": "Any linear upward-sloping supply curve that intersects the positive price (vertical) axis has an elasticity of supply greater than unity (\\( E_s > 1 \\))."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q32",
+      "topic": "National Income Accounting",
+      "sub_topic": "Comprehensive National Income Problem",
+      "difficulty": "hard",
+      "question": "Calculate National Income (\\( \\text{NNP}_{FC} \\)) from the following data:\n- GDP at Market Price = ₹8,500 crore\n- Consumption of Fixed Capital (Depreciation) = ₹600 crore\n- Subsidies = ₹150 crore\n- Indirect Taxes = ₹850 crore\n- Net Factor Income to Abroad = ₹100 crore\n\nNational Income is:",
+      "options": [
+        "A) ₹7,100 crore",
+        "B) ₹7,200 crore",
+        "C) ₹7,300 crore",
+        "D) ₹7,400 crore"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\text{NNP}_{FC} = \\text{GDP}_{MP} - \\text{Depreciation} - \\text{Net Indirect Taxes} + \\text{NFIA} \\). Net Indirect Taxes = \\( 850 - 150 = 700 \\). NFIA = \\( -100 \\). Therefore, \\( \\text{NNP}_{FC} = 8500 - 600 - 700 + (-100) = ₹7,100 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q33",
+      "topic": "National Income Accounting",
+      "sub_topic": "Treatment of Items in National Income",
+      "difficulty": "hard",
+      "question": "Which of the following items is included while estimating the National Income of India?",
+      "options": [
+        "A) Brokerage paid on the sale and purchase of second-hand motor cars",
+        "B) Financial proceeds received from selling corporate equity shares",
+        "C) Monthly pocket money given by parents to high school students",
+        "D) Old-age social security pension disbursements"
+      ],
+      "correct_option": "A",
+      "explanation": "Brokerage is payment for a productive service rendered in the current year, hence included. Transfer payments and pure financial asset trades are excluded."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q34",
+      "topic": "National Income Accounting",
+      "sub_topic": "Value Added with Change in Inventory",
+      "difficulty": "hard",
+      "question": "A manufacturing enterprise reports the following data for an accounting year:\n- Domestic Sales = ₹1,200 crore\n- Exports = ₹300 crore\n- Opening Stock = ₹150 crore\n- Closing Stock = ₹250 crore\n- Purchases of raw materials from domestic market = ₹600 crore\n- Import of raw materials = ₹100 crore\n\nWhat is the Gross Value Added at Market Price (\\( \\text{GVA}_{MP} \\))?",
+      "options": [
+        "A) ₹800 crore",
+        "B) ₹900 crore",
+        "C) ₹1,000 crore",
+        "D) ₹1,100 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Total Sales = \\( 1200 + 300 = 1500 \\). Change in stock = \\( 250 - 150 = 100 \\). Value of output = \\( 1500 + 100 = 1600 \\). Intermediate consumption = \\( 600 + 100 = 700 \\). \\( \\text{GVA}_{MP} = 1600 - 700 = ₹900 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q35",
+      "topic": "Money and Banking",
+      "sub_topic": "Monetary Aggregates",
+      "difficulty": "hard",
+      "question": "Consider the following components of money supply:\n1. Currency notes and coins with the public\n2. Demand deposits with commercial banks\n3. 'Other' deposits with the Reserve Bank of India\n4. Net time deposits with commercial banks\n\nWhich of these components comprise \\( M_1 \\)?",
+      "options": [
+        "A) 1 and 2 only",
+        "B) 1, 2, and 3 only",
+        "C) 1, 2, and 4 only",
+        "D) 1, 2, 3, and 4"
+      ],
+      "correct_option": "B",
+      "explanation": "\\( M_1 = C + \\text{DD} + \\text{OD} \\) (currency with public + demand deposits with banks + other deposits with RBI). Time deposits belong to \\( M_3 \\)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q36",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Algebraic Determination of Equilibrium Income",
+      "difficulty": "hard",
+      "question": "In a two-sector economy, autonomous consumption \\( \\bar{C} = ₹100 \\) crore, Marginal Propensity to Save \\( \\text{MPS} = 0.20 \\), and planned investment \\( I = ₹200 \\) crore. The equilibrium level of national income and the level of consumption at equilibrium are respectively:",
+      "options": [
+        "A) \\( Y = ₹1,500 \\text{ crore}, C = ₹1,300 \\text{ crore} \\)",
+        "B) \\( Y = ₹1,200 \\text{ crore}, C = ₹1,000 \\text{ crore} \\)",
+        "C) \\( Y = ₹1,500 \\text{ crore}, C = ₹1,400 \\text{ crore} \\)",
+        "D) \\( Y = ₹1,800 \\text{ crore}, C = ₹1,600 \\text{ crore} \\)"
+      ],
+      "correct_option": "A",
+      "explanation": "\\( \\text{MPC} = 1 - \\text{MPS} = 1 - 0.2 = 0.8 \\). Equilibrium: \\( Y = C + I = 100 + 0.8Y + 200 \\implies 0.2Y = 300 \\implies Y = ₹1,500 \\) crore. Consumption \\( C = 100 + 0.8(1500) = 100 + 1200 = ₹1,300 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q37",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Paradox of Thrift",
+      "difficulty": "hard",
+      "question": "The 'Paradox of Thrift' popularized by J.M. Keynes demonstrates that when all individuals in an economy attempt to increase their saving rate:",
+      "options": [
+        "A) National investment automatically expands and stimulates real growth",
+        "B) Aggregate demand drops, causing equilibrium income to fall and leaving total realized savings unchanged or lower",
+        "C) The investment multiplier expands to infinity",
+        "D) The economy moves permanently into full employment"
+      ],
+      "correct_option": "B",
+      "explanation": "An autonomous attempt to increase savings reduces consumption and AD, contracting equilibrium national income until total savings fall back to planned investment."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q38",
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Inflationary Gap Calculation",
+      "difficulty": "hard",
+      "question": "If full-employment income is ₹8,000 crore and the actual equilibrium aggregate demand produces an income level of ₹10,000 crore in an economy with an MPC of 0.80, what is the size of the Inflationary Gap?",
+      "options": [
+        "A) ₹2,000 crore",
+        "B) ₹400 crore",
+        "C) ₹800 crore",
+        "D) ₹1,600 crore"
+      ],
+      "correct_option": "B",
+      "explanation": "Excess output = \\( \\Delta Y = 10000 - 8000 = ₹2,000 \\) crore. Multiplier \\( K = 1 / (1 - 0.8) = 5 \\). Since \\( \\Delta Y = K \\times (\\text{Inflationary Gap}) \\), Inflationary Gap = \\( 2000 / 5 = ₹400 \\) crore."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q39",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Budgetary Deficit Analysis",
+      "difficulty": "hard",
+      "question": "Assertion (A): High and persistent Revenue Deficits force the government toward dissaving and capital decumulation.\nReason (R): A Revenue Deficit means the government is utilizing capital receipts (like borrowings or disinvestment proceeds) to finance routine administrative consumption.\n\nChoose the correct option:",
+      "options": [
+        "A) Assertion and Reason are true, and Reason is the correct explanation of Assertion",
+        "B) Assertion and Reason are true, but Reason is NOT the correct explanation of Assertion",
+        "C) Assertion is true, but Reason is false",
+        "D) Assertion is false, but Reason is true"
+      ],
+      "correct_option": "A",
+      "explanation": "Revenue deficit implies that current consumption exceeds current revenue, requiring borrowings or capital sales to cover day-to-day government operations."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q40",
+      "topic": "Government Budget and Economy",
+      "sub_topic": "Tax Revenue Classification",
+      "difficulty": "hard",
+      "question": "Which of the following represents a Progressive Tax system?",
+      "options": [
+        "A) A tax where the rate of taxation decreases as the taxpayer's income increases",
+        "B) A uniform tax rate applied uniformly across all income brackets regardless of wealth",
+        "C) A tax where the effective rate of taxation increases as the taxpayer's income increases",
+        "D) A tax levied on the volume or weight of a commodity rather than its value"
+      ],
+      "correct_option": "C",
+      "explanation": "Under a progressive tax system, higher income earners face higher marginal and average tax rates, reducing income inequality."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q41",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "BOP Deficit and Reserve Movement",
+      "difficulty": "hard",
+      "question": "When there is an overall Balance of Payments deficit of ₹15,000 crore, how is this deficit accommodated in the official records of the Reserve Bank of India?",
+      "options": [
+        "A) By an equivalent decrease in official foreign exchange reserves (entered on the credit side as an official reserve sale)",
+        "B) By an increase in official foreign exchange reserves on the debit side",
+        "C) By cancelling commercial letters of credit across private banks",
+        "D) By administrative devaluation of the statutory rupee par value"
+      ],
+      "correct_option": "A",
+      "explanation": "To finance a BOP deficit, the central bank sells foreign reserves, which brings in foreign exchange, recorded as an official reserve sale (credit entry)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q42",
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Purchasing Power Parity",
+      "difficulty": "hard",
+      "question": "According to the Purchasing Power Parity (PPP) theory, the equilibrium exchange rate between two currencies in the long run adjusts to reflect:",
+      "options": [
+        "A) The ratio of nominal central bank policy repo rates",
+        "B) The ratio of price levels of a comparable basket of goods and services in the two countries",
+        "C) The bilateral tariff differentials negotiated under WTO treaties",
+        "D) The relative gold reserve holdings of the respective central banks"
+      ],
+      "correct_option": "B",
+      "explanation": "PPP theory states that exchange rates between currencies are in equilibrium when their purchasing power is equal (i.e. exchange rate = price of domestic basket / price of foreign basket)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q43",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Institutional Evaluation of Land Reforms",
+      "difficulty": "hard",
+      "question": "Which two Indian states witnessed the most comprehensive and successful implementation of land reform legislation (land to the tiller)?",
+      "options": [
+        "A) Kerala and West Bengal",
+        "B) Uttar Pradesh and Bihar",
+        "C) Punjab and Haryana",
+        "D) Rajasthan and Gujarat"
+      ],
+      "correct_option": "A",
+      "explanation": "Due to dedicated political will and peasant mobilization, land reforms (tenancy security and land ceilings) were implemented most successfully in Kerala and West Bengal (Operation Barga)."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q44",
+      "topic": "Indian Economic Development (1947-1990)",
+      "sub_topic": "Import Substitution Mechanics",
+      "difficulty": "hard",
+      "question": "In the pre-1991 era, import substitution policy protected domestic manufacturing through two primary instruments:\nStatement 1: Tariffs, which are taxes on imported goods making them more expensive.\nStatement 2: Quotas, which specify the quantitative maximum limit of goods that can be imported.\n\nWhich of the following is correct?",
+      "options": [
+        "A) Statement 1 is correct, but Statement 2 is incorrect",
+        "B) Statement 2 is correct, but Statement 1 is incorrect",
+        "C) Both Statement 1 and Statement 2 are correct",
+        "D) Both Statement 1 and Statement 2 are incorrect"
+      ],
+      "correct_option": "C",
+      "explanation": "Both tariffs (price instrument) and quotas (quantitative physical limits) were the two main pillars of the import substitution strategy in India."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q45",
+      "topic": "Economic Reforms Since 1991",
+      "sub_topic": "Fiscal and Tax Policy Reforms",
+      "difficulty": "hard",
+      "question": "The Raja Chelliah Committee recommendations formed the foundation for which major component of the 1991 structural reforms in India?",
+      "options": [
+        "A) Direct and indirect tax reforms (simplification and rate rationalization)",
+        "B) Banking sector recapitalization norms",
+        "C) Dismantling of agricultural cooperative societies",
+        "D) Disinvestment of public defense enterprises"
+      ],
+      "correct_option": "A",
+      "explanation": "The Tax Reforms Committee headed by Dr. Raja J. Chelliah (1991) recommended lowering corporate/personal tax rates, simplifying tax codes, and reducing import tariffs."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q46",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Human Capital and Economic Growth",
+      "difficulty": "hard",
+      "question": "Which of the following indicators best demonstrates the qualitative dimension of human capital formation rather than merely quantitative educational expansion?",
+      "options": [
+        "A) Gross Enrolment Ratio in primary education",
+        "B) Total number of university campuses established",
+        "C) Learning outcomes and life expectancy at birth adjusted for disability",
+        "D) Pupil-teacher head-count ratio in municipal schools"
+      ],
+      "correct_option": "C",
+      "explanation": "Human capital formation emphasizes the quality, competency, and healthy longevity of people (health-adjusted life expectancy and measured skill attainment), rather than simple enrollment counts."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q47",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Types of Unemployment",
+      "difficulty": "hard",
+      "question": "In rural Indian agriculture, where eight family members work on a farm plot that requires only five workers to achieve the exact same level of output, the excess three workers are experiencing:",
+      "options": [
+        "A) Frictional unemployment",
+        "B) Structural unemployment",
+        "C) Disguised unemployment (with zero marginal productivity)",
+        "D) Voluntary seasonal unemployment"
+      ],
+      "correct_option": "C",
+      "explanation": "Disguised unemployment is a situation where more people are engaged in a job than needed, so the marginal physical product of surplus labor is zero."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q48",
+      "topic": "Current Challenges Facing Indian Economy",
+      "sub_topic": "Environmental Absorptive Capacity",
+      "difficulty": "hard",
+      "question": "An environmental crisis arises when the rate of resource extraction and waste generation exceeds the environment's:",
+      "options": [
+        "A) Absorptive capacity and regenerative capacity",
+        "B) Industrial patent registration quota",
+        "C) Foreign exchange investment threshold",
+        "D) Mining concession royalty limit"
+      ],
+      "correct_option": "A",
+      "explanation": "An environmental crisis occurs when extraction exceeds the regeneration rate of renewable resources and waste generated surpasses the environment's absorptive capacity."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q49",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "One Child Policy Effects",
+      "difficulty": "hard",
+      "question": "A major long-term demographic challenge confronting China today as a direct consequence of its historic 'One-Child Policy' is:",
+      "options": [
+        "A) An unsustainable youth dependency ratio and rapid population explosion",
+        "B) A rapidly aging population and a shrinking working-age labor force",
+        "C) Complete depopulation of coastal manufacturing hubs",
+        "D) Reversal of all urban commune collective industries"
+      ],
+      "correct_option": "B",
+      "explanation": "The One-Child Policy drastically reduced the birth rate, creating an accelerated demographic transition toward an elderly population and a declining working-age cohort."
+    },
+    {
+      "id": "CUET_ECO_2026_P9_L9_Q50",
+      "topic": "Development Experiences of India: Neighbours",
+      "sub_topic": "Comparative Economic Policies",
+      "difficulty": "hard",
+      "question": "Match the following historical economic policy events with their respective countries:\n(p) Great Proletarian Cultural Revolution\n(q) Structural Adjustment Reforms initiated in 1988\n(r) Nationalization of capital goods industries in early 1970s\n(s) Economic reforms initiated in 1991\n\nWhich of the following combinations correctly maps to China, Pakistan, and India?",
+      "options": [
+        "A) China: (p); Pakistan: (q) and (r); India: (s)",
+        "B) China: (q); Pakistan: (p); India: (r) and (s)",
+        "C) China: (r); Pakistan: (p) and (s); India: (q)",
+        "D) China: (s); Pakistan: (q); India: (p) and (r)"
+      ],
+      "correct_option": "A",
+      "explanation": "The Cultural Revolution (1966-76) took place in China; Pakistan nationalized capital goods in the early 1970s (Bhutto era) and began reforms in 1988; India launched its New Economic Policy in 1991."
+    }
+  ]
+}

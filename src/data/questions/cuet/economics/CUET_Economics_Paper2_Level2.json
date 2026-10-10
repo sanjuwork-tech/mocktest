@@ -1,0 +1,769 @@
+{
+  "test_id": "CUET_ECO_2026_P2_L2",
+  "series_id": "CUET_ECO_2026",
+  "paper_number": 2,
+  "difficulty_level": "2",
+  "subject": "Economics (Code: 309)",
+  "syllabus_source": "cuet economics syllabus.pdf",
+  "notification_source": "Information Bulletin.pdf",
+  "past_paper_reference": "None",
+  "duration_minutes": 60,
+  "total_questions": 50,
+  "marking_scheme": {
+    "correct": 5,
+    "incorrect": -1,
+    "unattempted": 0
+  },
+  "questions": [
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Central Problems of an Economy",
+      "difficulty": "easy",
+      "question": "The central problem of 'for whom to produce' in an economy is concerned with:",
+      "options": [
+        "A) Determining the efficiency of production",
+        "B) Choice of technology",
+        "C) Distribution of income among people",
+        "D) Deciding what goods to produce"
+      ],
+      "correct_option": "C",
+      "explanation": "'For whom to produce' is the problem of distribution — deciding how the national income is to be divided among different members of society.",
+      "id": "CUET_ECO_2026_P2_L2_Q01"
+    },
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Consumer's Equilibrium - Utility Approach",
+      "difficulty": "easy",
+      "question": "A consumer is in equilibrium when the marginal utility of a good is equal to:",
+      "options": [
+        "A) Total utility of the good",
+        "B) Zero",
+        "C) Average utility of the good",
+        "D) Price of the good"
+      ],
+      "correct_option": "D",
+      "explanation": "In the single commodity utility approach, a consumer is in equilibrium when MU = Price. If MU > P, the consumer buys more; if MU < P, the consumer buys less.",
+      "id": "CUET_ECO_2026_P2_L2_Q02"
+    },
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Demand - Determinants",
+      "difficulty": "easy",
+      "question": "An increase in the price of a complementary good will lead to:",
+      "options": [
+        "A) Rightward shift in demand curve of the given good",
+        "B) Movement along the demand curve of the given good",
+        "C) No change in demand",
+        "D) Leftward shift in demand curve of the given good"
+      ],
+      "correct_option": "D",
+      "explanation": "A rise in the price of a complementary good reduces its demand, which in turn reduces the demand for the given good, shifting the demand curve leftward.",
+      "id": "CUET_ECO_2026_P2_L2_Q03"
+    },
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Price Elasticity of Demand",
+      "difficulty": "medium",
+      "question": "If the price of a good falls from Rs. 15 to Rs. 12, and quantity demanded rises from 100 units to 150 units, the price elasticity of demand (using percentage method) is:",
+      "options": [
+        "A) 0.55",
+        "B) 1.5",
+        "C) 2.5",
+        "D) 1.8"
+      ],
+      "correct_option": "D",
+      "explanation": "% change in Q = (50/100)×100 = 50%. % change in P = (3/15)×100 = 20%. Ed = 50/20 = 2.5. Wait, let me recalculate: ΔQ = 50, average Q = 125; ΔP = -3, average P = 13.5. Using midpoint: %ΔQ = 50/125 = 40%, %ΔP = 3/13.5 = 22.2%. Ed = 40/22.2 ≈ 1.8.",
+      "id": "CUET_ECO_2026_P2_L2_Q04"
+    },
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Demand - Movement vs Shift",
+      "difficulty": "easy",
+      "question": "A movement along the demand curve is caused by a change in:",
+      "options": [
+        "A) Price of the good itself",
+        "B) Taste and preferences",
+        "C) Income of the consumer",
+        "D) Price of substitute good"
+      ],
+      "correct_option": "A",
+      "explanation": "Movement along the demand curve (extension or contraction of demand) occurs due to a change in the price of the good itself, ceteris paribus.",
+      "id": "CUET_ECO_2026_P2_L2_Q05"
+    },
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Budget Line",
+      "difficulty": "medium",
+      "question": "A consumer has an income of Rs. 60 to spend on two goods X and Y priced at Rs. 6 and Rs. 4 respectively. The slope of the budget line (X on horizontal axis) is:",
+      "options": [
+        "A) -2/3",
+        "B) -6",
+        "C) -3/2",
+        "D) -1.5"
+      ],
+      "correct_option": "C",
+      "explanation": "Slope of budget line = -Px/Py = -6/4 = -3/2 = -1.5.",
+      "id": "CUET_ECO_2026_P2_L2_Q06"
+    },
+    {
+      "topic": "Production and Costs",
+      "sub_topic": "Production Function - Short Run",
+      "difficulty": "easy",
+      "question": "In the short run, a production function shows the relationship between:",
+      "options": [
+        "A) Revenue and cost",
+        "B) Variable inputs and output",
+        "C) Price and quantity",
+        "D) Fixed costs and variable costs"
+      ],
+      "correct_option": "B",
+      "explanation": "The short run production function shows how output changes when variable inputs are changed, with fixed inputs held constant.",
+      "id": "CUET_ECO_2026_P2_L2_Q07"
+    },
+    {
+      "topic": "Production and Costs",
+      "sub_topic": "TP, MP and AP Curves",
+      "difficulty": "easy",
+      "question": "When marginal product is falling but still positive, total product is:",
+      "options": [
+        "A) Falling",
+        "B) At its maximum",
+        "C) Constant",
+        "D) Rising at a decreasing rate"
+      ],
+      "correct_option": "D",
+      "explanation": "When MP is positive but falling, TP rises but at a decreasing rate. TP only falls when MP becomes negative.",
+      "id": "CUET_ECO_2026_P2_L2_Q08"
+    },
+    {
+      "topic": "Production and Costs",
+      "sub_topic": "Short Run Cost Curves",
+      "difficulty": "easy",
+      "question": "Which of the following cost curves is U-shaped?",
+      "options": [
+        "A) Total Fixed Cost",
+        "B) Marginal Cost",
+        "C) Average Fixed Cost",
+        "D) None of these"
+      ],
+      "correct_option": "B",
+      "explanation": "MC is U-shaped due to the law of variable proportions. AFC is a rectangular hyperbola, and TFC is a horizontal line.",
+      "id": "CUET_ECO_2026_P2_L2_Q09"
+    },
+    {
+      "topic": "Production and Costs",
+      "sub_topic": "Relationship between AC and MC",
+      "difficulty": "medium",
+      "question": "When average cost is falling, marginal cost must be:",
+      "options": [
+        "A) Zero",
+        "B) Equal to average cost",
+        "C) Greater than average cost",
+        "D) Less than average cost"
+      ],
+      "correct_option": "D",
+      "explanation": "When AC is falling, MC < AC. MC pulls AC down when it is below AC, and pulls AC up when it is above AC.",
+      "id": "CUET_ECO_2026_P2_L2_Q10"
+    },
+    {
+      "topic": "Production and Costs",
+      "sub_topic": "Total, Average and Marginal Revenue",
+      "difficulty": "easy",
+      "question": "Under perfect competition, the average revenue of a firm is equal to:",
+      "options": [
+        "A) Total revenue",
+        "B) Marginal cost",
+        "C) Total cost",
+        "D) Price"
+      ],
+      "correct_option": "D",
+      "explanation": "Under perfect competition, AR = MR = Price, since each unit is sold at the same market price.",
+      "id": "CUET_ECO_2026_P2_L2_Q11"
+    },
+    {
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Features of Perfect Competition",
+      "difficulty": "easy",
+      "question": "Which of the following is a necessary condition for perfect competition?",
+      "options": [
+        "A) Barriers to entry",
+        "B) Perfect knowledge among buyers and sellers",
+        "C) Product differentiation",
+        "D) Few sellers and many buyers"
+      ],
+      "correct_option": "B",
+      "explanation": "Perfect competition requires many buyers and sellers, homogeneous product, perfect knowledge, and free entry/exit.",
+      "id": "CUET_ECO_2026_P2_L2_Q12"
+    },
+    {
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Profit Maximization",
+      "difficulty": "medium",
+      "question": "A firm maximizes profit when:",
+      "options": [
+        "A) AC = AR",
+        "B) TR = TC",
+        "C) MC = MR and MC is falling",
+        "D) MC = MR and MC is rising"
+      ],
+      "correct_option": "D",
+      "explanation": "Profit maximization condition is MC = MR, with the additional requirement that MC must be rising (or cut MR from below) at that point.",
+      "id": "CUET_ECO_2026_P2_L2_Q13"
+    },
+    {
+      "topic": "Theory of the Firm under Perfect Competition",
+      "sub_topic": "Supply Curve",
+      "difficulty": "medium",
+      "question": "The supply curve of a firm in perfect competition in the short run is the:",
+      "options": [
+        "A) Average revenue curve",
+        "B) Average cost curve above AC",
+        "C) Total cost curve",
+        "D) Marginal cost curve above AVC"
+      ],
+      "correct_option": "D",
+      "explanation": "In perfect competition, the firm's short-run supply curve is the portion of the MC curve that lies above the minimum AVC (shut-down point).",
+      "id": "CUET_ECO_2026_P2_L2_Q14"
+    },
+    {
+      "topic": "Market Equilibrium",
+      "sub_topic": "Excess Demand and Excess Supply",
+      "difficulty": "easy",
+      "question": "When the market price is below the equilibrium price, there is:",
+      "options": [
+        "A) Excess supply",
+        "B) Equilibrium",
+        "C) Deflation",
+        "D) Excess demand"
+      ],
+      "correct_option": "D",
+      "explanation": "At a price below equilibrium, quantity demanded exceeds quantity supplied, creating excess demand (shortage), which pushes the price upward.",
+      "id": "CUET_ECO_2026_P2_L2_Q15"
+    },
+    {
+      "topic": "Market Equilibrium",
+      "sub_topic": "Price Elasticity of Supply",
+      "difficulty": "easy",
+      "question": "If the supply curve passes through the origin, the price elasticity of supply is:",
+      "options": [
+        "A) Zero",
+        "B) Equal to one",
+        "C) Less than one",
+        "D) Infinity"
+      ],
+      "correct_option": "B",
+      "explanation": "For a straight-line supply curve passing through the origin, elasticity = 1 (unitary elastic), since the ratio of percentage changes in Q and P is equal.",
+      "id": "CUET_ECO_2026_P2_L2_Q16"
+    },
+    {
+      "topic": "National Income Accounting",
+      "sub_topic": "Methods of Calculating National Income",
+      "difficulty": "easy",
+      "question": "The value added method of calculating national income avoids the problem of:",
+      "options": [
+        "A) Double counting",
+        "B) Unemployment",
+        "C) Underestimation",
+        "D) Inflation"
+      ],
+      "correct_option": "A",
+      "explanation": "The value-added method sums up the value added at each stage of production, thereby avoiding double counting of intermediate goods.",
+      "id": "CUET_ECO_2026_P2_L2_Q17"
+    },
+    {
+      "topic": "National Income Accounting",
+      "sub_topic": "Aggregates related to National Income",
+      "difficulty": "easy",
+      "question": "Net National Product at factor cost (\\( \\text{NNP}_{FC} \\)) is also known as:",
+      "options": [
+        "A) National Income",
+        "B) Domestic Income",
+        "C) Gross National Product",
+        "D) Personal Disposable Income"
+      ],
+      "correct_option": "A",
+      "explanation": "Net National Product at factor cost (NNP_FC) is the standard definition of National Income of a nation.",
+      "id": "CUET_ECO_2026_P2_L2_Q18"
+    },
+    {
+      "topic": "National Income Accounting",
+      "sub_topic": "GDP and Welfare",
+      "difficulty": "medium",
+      "question": "Which of the following is NOT a limitation of using GDP as a measure of welfare?",
+      "options": [
+        "A) Income distribution is not captured",
+        "B) Non-market transactions are ignored",
+        "C) Government services are not counted",
+        "D) Environmental degradation costs are excluded"
+      ],
+      "correct_option": "C",
+      "explanation": "Government services ARE counted in GDP (at cost). The other three are genuine limitations of GDP as a welfare measure.",
+      "id": "CUET_ECO_2026_P2_L2_Q19"
+    },
+    {
+      "topic": "Money and Banking",
+      "sub_topic": "Functions of Money",
+      "difficulty": "easy",
+      "question": "Money serves as a store of value because:",
+      "options": [
+        "A) It is legally tender",
+        "B) It is issued by the government",
+        "C) It is a medium of exchange",
+        "D) Its value remains stable over time"
+      ],
+      "correct_option": "D",
+      "explanation": "Money can be saved and used for future purchases. For it to serve as a store of value, its purchasing power must remain reasonably stable.",
+      "id": "CUET_ECO_2026_P2_L2_Q20"
+    },
+    {
+      "topic": "Money and Banking",
+      "sub_topic": "Central Bank Functions",
+      "difficulty": "easy",
+      "question": "Which of the following is the lender of last resort?",
+      "options": [
+        "A) World Bank",
+        "B) Commercial banks",
+        "C) Reserve Bank of India",
+        "D) Ministry of Finance"
+      ],
+      "correct_option": "C",
+      "explanation": "The RBI acts as lender of last resort, providing emergency funds to commercial banks facing liquidity crises.",
+      "id": "CUET_ECO_2026_P2_L2_Q21"
+    },
+    {
+      "topic": "Money and Banking",
+      "sub_topic": "Policy Tools to Control Money Supply",
+      "difficulty": "medium",
+      "question": "To reduce the money supply during inflation, the RBI will:",
+      "options": [
+        "A) Buy government securities in open market",
+        "B) Lower the repo rate",
+        "C) Raise the CRR",
+        "D) Lower the SLR"
+      ],
+      "correct_option": "C",
+      "explanation": "Raising the CRR reduces the amount available for lending, contracting the money supply. This is a contractionary monetary policy measure.",
+      "id": "CUET_ECO_2026_P2_L2_Q22"
+    },
+    {
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Aggregate Demand Components",
+      "difficulty": "easy",
+      "question": "The four components of aggregate demand in an open economy are:",
+      "options": [
+        "A) C + I + G",
+        "B) C + S + I + G",
+        "C) C + I + G + NX",
+        "D) C + I + G + X"
+      ],
+      "correct_option": "C",
+      "explanation": "AD = C (consumption) + I (investment) + G (government spending) + NX (net exports = X-M).",
+      "id": "CUET_ECO_2026_P2_L2_Q23"
+    },
+    {
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Excess Demand and Deficient Demand",
+      "difficulty": "easy",
+      "question": "Deficient demand leads to:",
+      "options": [
+        "A) Both inflation and unemployment",
+        "B) Deflationary gap",
+        "C) Inflationary gap",
+        "D) Increase in output"
+      ],
+      "correct_option": "B",
+      "explanation": "When AD < AS at full employment, there is a deflationary gap, leading to involuntary unemployment and unused capacity.",
+      "id": "CUET_ECO_2026_P2_L2_Q24"
+    },
+    {
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Corrective Measures for Deficient Demand",
+      "difficulty": "medium",
+      "question": "To correct deficient demand, the government should:",
+      "options": [
+        "A) Increase government spending",
+        "B) Increase CRR",
+        "C) Reduce public expenditure",
+        "D) Increase taxes"
+      ],
+      "correct_option": "A",
+      "explanation": "Increasing government spending raises aggregate demand directly, helping to close the deflationary gap and reduce unemployment.",
+      "id": "CUET_ECO_2026_P2_L2_Q25"
+    },
+    {
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Multiplier Mechanism",
+      "difficulty": "medium",
+      "question": "If the marginal propensity to consume (MPC) is 0.75, the investment multiplier is:",
+      "options": [
+        "A) 3",
+        "B) 1.33",
+        "C) 2",
+        "D) 4"
+      ],
+      "correct_option": "D",
+      "explanation": "Multiplier = 1/(1-MPC) = 1/(1-0.75) = 1/0.25 = 4. A Rs. 1 increase in investment raises income by Rs. 4.",
+      "id": "CUET_ECO_2026_P2_L2_Q26"
+    },
+    {
+      "topic": "Government Budget",
+      "sub_topic": "Revenue Receipts vs Capital Receipts",
+      "difficulty": "easy",
+      "question": "Tax receipts by the government are classified as:",
+      "options": [
+        "A) Public account receipts",
+        "B) Capital receipts",
+        "C) Revenue receipts",
+        "D) Debt receipts"
+      ],
+      "correct_option": "C",
+      "explanation": "Tax receipts are revenue receipts because they neither create a liability nor reduce an asset. They are regular income for the government.",
+      "id": "CUET_ECO_2026_P2_L2_Q27"
+    },
+    {
+      "topic": "Government Budget",
+      "sub_topic": "Fiscal Deficit",
+      "difficulty": "medium",
+      "question": "Fiscal deficit is equal to:",
+      "options": [
+        "A) Revenue expenditure minus revenue receipts",
+        "B) Primary deficit minus interest payments",
+        "C) Total borrowing of the government",
+        "D) Total expenditure minus total receipts excluding borrowing"
+      ],
+      "correct_option": "D",
+      "explanation": "Fiscal deficit = Total expenditure - (Revenue receipts + Non-debt creating capital receipts). It equals the borrowing requirement of the government.",
+      "id": "CUET_ECO_2026_P2_L2_Q28"
+    },
+    {
+      "topic": "Government Budget",
+      "sub_topic": "Balanced, Surplus and Deficit Budget",
+      "difficulty": "easy",
+      "question": "When government revenue receipts exceed its total expenditure, the budget is called:",
+      "options": [
+        "A) Balanced budget",
+        "B) Deficit budget",
+        "C) Zero-based budget",
+        "D) Surplus budget"
+      ],
+      "correct_option": "D",
+      "explanation": "A surplus budget occurs when revenue receipts are greater than total expenditure, indicating net savings by the government.",
+      "id": "CUET_ECO_2026_P2_L2_Q29"
+    },
+    {
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Balance of Payments Components",
+      "difficulty": "easy",
+      "question": "Which of the following is recorded in the capital account of the Balance of Payments?",
+      "options": [
+        "A) Import of services",
+        "B) Foreign direct investment",
+        "C) Remittances from abroad",
+        "D) Export of goods"
+      ],
+      "correct_option": "B",
+      "explanation": "FDI is a capital account transaction (financial flows). Exports/imports of goods and services, and remittances, are current account items.",
+      "id": "CUET_ECO_2026_P2_L2_Q30"
+    },
+    {
+      "topic": "Open Economy Macroeconomics",
+      "sub_topic": "Managed Floating",
+      "difficulty": "hard",
+      "question": "Managed floating refers to an exchange rate system where:",
+      "options": [
+        "A) The central bank intervenes to influence the rate while allowing market determination",
+        "B) The rate is completely fixed by the central bank",
+        "C) The rate is determined solely by market forces",
+        "D) Multiple exchange rates exist for different transactions"
+      ],
+      "correct_option": "A",
+      "explanation": "Managed floating combines market determination with selective central bank intervention to prevent excessive volatility. India follows this system.",
+      "id": "CUET_ECO_2026_P2_L2_Q31"
+    },
+    {
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "Indian Economy on the Eve of Independence",
+      "difficulty": "easy",
+      "question": "At the time of independence, India's economy was primarily:",
+      "options": [
+        "A) Service-oriented",
+        "B) Industrialized",
+        "C) Agricultural",
+        "D) Technology-driven"
+      ],
+      "correct_option": "C",
+      "explanation": "At independence, around 70% of the workforce was engaged in agriculture, and the industrial sector was underdeveloped due to colonial exploitation.",
+      "id": "CUET_ECO_2026_P2_L2_Q32"
+    },
+    {
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "Five Year Plans - Common Goals",
+      "difficulty": "easy",
+      "question": "The four common goals of India's Five Year Plans were growth, modernization, self-reliance, and:",
+      "options": [
+        "A) Equity",
+        "B) Liberalization",
+        "C) Globalization",
+        "D) Privatization"
+      ],
+      "correct_option": "A",
+      "explanation": "The common goals of India's planning were: growth (increase in GDP), modernization (adoption of new technology), self-reliance (reducing imports), and equity (reducing inequality).",
+      "id": "CUET_ECO_2026_P2_L2_Q33"
+    },
+    {
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "New Agricultural Strategy",
+      "difficulty": "medium",
+      "question": "The Green Revolution in India introduced high-yielding varieties of seeds in:",
+      "options": [
+        "A) Early 1970s",
+        "B) Mid-1950s",
+        "C) Mid-1980s",
+        "D) Mid-1960s"
+      ],
+      "correct_option": "D",
+      "explanation": "The Green Revolution was introduced in India around 1966-67, starting with high-yielding varieties of wheat in Punjab, Haryana, and western Uttar Pradesh.",
+      "id": "CUET_ECO_2026_P2_L2_Q34"
+    },
+    {
+      "topic": "Development Policies and Experience (1947-90)",
+      "sub_topic": "Industrial Policy Resolution 1956",
+      "difficulty": "easy",
+      "question": "The Industrial Policy Resolution of 1956 divided industries into:",
+      "options": [
+        "A) Two schedules",
+        "B) Three schedules",
+        "C) Four schedules",
+        "D) Five schedules"
+      ],
+      "correct_option": "B",
+      "explanation": "IPR 1956 divided industries into three schedules: Schedule A (state monopoly), Schedule B (state-led development), and Schedule C (private sector).",
+      "id": "CUET_ECO_2026_P2_L2_Q35"
+    },
+    {
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "Liberalisation",
+      "difficulty": "easy",
+      "question": "The New Economic Policy of 1991 introduced liberalisation by:",
+      "options": [
+        "A) Expanding public sector",
+        "B) Increasing import tariffs",
+        "C) Removing industrial licensing for most industries",
+        "D) Nationalizing banks"
+      ],
+      "correct_option": "C",
+      "explanation": "Liberalisation in 1991 abolished industrial licensing (except for a few industries), reduced trade barriers, and opened sectors to private and foreign investment.",
+      "id": "CUET_ECO_2026_P2_L2_Q36"
+    },
+    {
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "Globalisation",
+      "difficulty": "medium",
+      "question": "Globalisation refers to:",
+      "options": [
+        "A) Nationalization of industries",
+        "B) Integration of national economies with the world economy",
+        "C) Restriction on foreign investment",
+        "D) Increase in import duties"
+      ],
+      "correct_option": "B",
+      "explanation": "Globalisation is the process of integrating the domestic economy with the world economy through trade, investment, and technology flows.",
+      "id": "CUET_ECO_2026_P2_L2_Q37"
+    },
+    {
+      "topic": "Economic Reforms since 1991",
+      "sub_topic": "Appraisal of LPG Reforms",
+      "difficulty": "hard",
+      "question": "A major criticism of the LPG reforms in India is that they led to:",
+      "options": [
+        "A) Increased employment in all sectors",
+        "B) Growth without adequate employment generation (jobless growth)",
+        "C) Reduced regional and income inequalities",
+        "D) Decline in foreign exchange reserves"
+      ],
+      "correct_option": "B",
+      "explanation": "Despite high GDP growth post-1991, employment growth remained sluggish. This 'jobless growth' is a major criticism of the LPG reforms.",
+      "id": "CUET_ECO_2026_P2_L2_Q38"
+    },
+    {
+      "topic": "Current Challenges - Human Capital Formation",
+      "sub_topic": "Human Capital vs Physical Capital",
+      "difficulty": "easy",
+      "question": "Human capital refers to:",
+      "options": [
+        "A) Government financial reserves",
+        "B) Bank deposits of individuals",
+        "C) Physical infrastructure",
+        "D) The stock of skills and knowledge embodied in the population"
+      ],
+      "correct_option": "D",
+      "explanation": "Human capital is the collective stock of skills, knowledge, and experience of the population that contributes to economic productivity.",
+      "id": "CUET_ECO_2026_P2_L2_Q39"
+    },
+    {
+      "topic": "Current Challenges - Human Capital Formation",
+      "sub_topic": "Role of Education",
+      "difficulty": "easy",
+      "question": "As per recent data, the Gross Enrollment Ratio (GER) in higher education in India is approximately:",
+      "options": [
+        "A) 50%",
+        "B) 18%",
+        "C) 10%",
+        "D) 28%"
+      ],
+      "correct_option": "D",
+      "explanation": "India's GER in higher education (ages 18-23) is around 28%, reflecting both growth and the large population base.",
+      "id": "CUET_ECO_2026_P2_L2_Q40"
+    },
+    {
+      "topic": "Current Challenges - Employment",
+      "sub_topic": "Formal vs Informal Sector",
+      "difficulty": "medium",
+      "question": "The informal sector in India is characterized by:",
+      "options": [
+        "A) Lack of job security, no formal contracts, and no social security",
+        "B) Mostly public sector employment",
+        "C) Written contracts and social security benefits",
+        "D) High job security and regulated working hours"
+      ],
+      "correct_option": "A",
+      "explanation": "The informal sector is characterized by small-scale operations, lack of formal contracts, no social security benefits, and irregular employment.",
+      "id": "CUET_ECO_2026_P2_L2_Q41"
+    },
+    {
+      "topic": "Current Challenges - Employment",
+      "sub_topic": "Workforce Participation Rate",
+      "difficulty": "hard",
+      "question": "A declining workforce participation rate in India, particularly among women, indicates:",
+      "options": [
+        "A) A booming economy creating more jobs",
+        "B) Higher enrollment in education or discouraged worker effect",
+        "C) Rapid industrialization",
+        "D) Improved labor laws protecting workers"
+      ],
+      "correct_option": "B",
+      "explanation": "Declining female WPR reflects the 'discouraged worker effect' (people leaving the workforce) or higher enrollment in education, not necessarily economic prosperity.",
+      "id": "CUET_ECO_2026_P2_L2_Q42"
+    },
+    {
+      "topic": "Development Experiences of India",
+      "sub_topic": "Comparison with Neighbours - HDI",
+      "difficulty": "easy",
+      "question": "Among India, Pakistan, and Bangladesh, which country has shown the most improvement in HDI ranking in recent years?",
+      "options": [
+        "A) India",
+        "B) Bangladesh",
+        "C) Pakistan",
+        "D) All three are equal"
+      ],
+      "correct_option": "B",
+      "explanation": "Bangladesh has made remarkable progress in HDI, often ranking higher than India in recent years due to improvements in health, education, and gender parity.",
+      "id": "CUET_ECO_2026_P2_L2_Q43"
+    },
+    {
+      "topic": "Development Experiences of India",
+      "sub_topic": "Sectoral Development Comparison",
+      "difficulty": "medium",
+      "question": "Compared to India, China's economy is more:",
+      "options": [
+        "A) Service-oriented",
+        "B) Manufacturing-oriented",
+        "C) Informal sector-dominated",
+        "D) Agriculture-dependent"
+      ],
+      "correct_option": "B",
+      "explanation": "China's development strategy focused heavily on manufacturing (export-led growth), making it the 'world's factory'. India's growth is more services-led.",
+      "id": "CUET_ECO_2026_P2_L2_Q44"
+    },
+    {
+      "topic": "Development Experiences of India",
+      "sub_topic": "Development Strategies - India vs Pakistan",
+      "difficulty": "hard",
+      "question": "Both India and Pakistan have a similar population size, but Pakistan's per capita GDP (nominal) is lower than India's. A key reason for this divergence since the 1990s is:",
+      "options": [
+        "A) India's smaller workforce",
+        "B) India's focus on agriculture",
+        "C) Pakistan's higher industrial output",
+        "D) India's higher investment in education and infrastructure, and service-led growth"
+      ],
+      "correct_option": "D",
+      "explanation": "India's growth, driven by the IT services sector and higher investment in human and physical capital, outpaced Pakistan's, which faced political instability and lower development spending.",
+      "id": "CUET_ECO_2026_P2_L2_Q45"
+    },
+    {
+      "topic": "Environment and Sustainable Development",
+      "sub_topic": "Definition and Functions",
+      "difficulty": "easy",
+      "question": "Sustainable development means development that meets the needs of the present without compromising the ability of:",
+      "options": [
+        "A) Corporations to earn profits",
+        "B) Future generations to meet their own needs",
+        "C) Foreign investors to invest",
+        "D) The government to collect taxes"
+      ],
+      "correct_option": "B",
+      "explanation": "The Brundtland Commission definition: sustainable development meets present needs without compromising future generations' ability to meet theirs.",
+      "id": "CUET_ECO_2026_P2_L2_Q46"
+    },
+    {
+      "topic": "Environment and Sustainable Development",
+      "sub_topic": "State of India's Environment",
+      "difficulty": "medium",
+      "question": "India ranks among the top countries in the world in terms of:",
+      "options": [
+        "A) Air quality in cities",
+        "B) Per capita carbon emissions",
+        "C) Renewable energy capacity (solar and wind)",
+        "D) Forest cover percentage"
+      ],
+      "correct_option": "C",
+      "explanation": "India is among the top 5 countries globally in installed renewable energy capacity, with significant growth in solar and wind energy.",
+      "id": "CUET_ECO_2026_P2_L2_Q47"
+    },
+    {
+      "topic": "Theory of Consumer Behaviour",
+      "sub_topic": "Consumer's Equilibrium - Two Commodity Case",
+      "difficulty": "easy",
+      "question": "In the two commodity case, a consumer is in equilibrium when:",
+      "options": [
+        "A) MUx/Px > MUy/Py",
+        "B) TUx = TUy",
+        "C) MUx/Px = MUy/Py",
+        "D) MUx/Px < MUy/Py"
+      ],
+      "correct_option": "C",
+      "explanation": "In the two commodity case, the law of equi-marginal utility states that equilibrium is reached when MUx/Px = MUy/Py, meaning the marginal utility per rupee spent is equal across both goods.",
+      "id": "CUET_ECO_2026_P2_L2_Q48"
+    },
+    {
+      "topic": "Market Equilibrium",
+      "sub_topic": "Effect of Simultaneous Shift in Demand and Supply",
+      "difficulty": "easy",
+      "question": "If both demand and supply of a good increase by the same proportion, the equilibrium:",
+      "options": [
+        "A) Price falls, quantity rises",
+        "B) Price remains unchanged, quantity rises",
+        "C) Price rises, quantity rises",
+        "D) Price remains unchanged, quantity falls"
+      ],
+      "correct_option": "B",
+      "explanation": "When both demand and supply increase by the same proportion, the equilibrium quantity rises, but the equilibrium price remains unchanged.",
+      "id": "CUET_ECO_2026_P2_L2_Q49"
+    },
+    {
+      "topic": "Determination of Income and Employment",
+      "sub_topic": "Paradox of Thrift",
+      "difficulty": "hard",
+      "question": "The paradox of thrift suggests that:",
+      "options": [
+        "A) If everyone tries to save more during a recession, aggregate saving may actually fall",
+        "B) Saving is always beneficial for economic growth",
+        "C) Higher savings lead to higher investment automatically",
+        "D) Thrift is a virtue that should be encouraged during booms"
+      ],
+      "correct_option": "A",
+      "explanation": "The paradox of thrift, proposed by Keynes, states that during a recession, if everyone increases savings, aggregate demand falls, leading to lower income and ultimately lower total saving.",
+      "id": "CUET_ECO_2026_P2_L2_Q50"
+    }
+  ]
+}

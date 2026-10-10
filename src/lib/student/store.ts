@@ -8,8 +8,9 @@ import {
   type Response,
   type Subject,
 } from "./model";
-const KEY = "testdisha-student-demo-v1";
-const LEGACY_KEY = "mockstride-student-demo-v1";
+const KEY = "ourmocks-student-demo-v1";
+const LEGACY_KEY_1 = "testdisha-student-demo-v1";
+const LEGACY_KEY_2 = "mockstride-student-demo-v1";
 const EMPTY: DemoState = { version: 1, signedIn: false, attempts: [] };
 const EMPTY_JSON = JSON.stringify(EMPTY);
 let memory = EMPTY_JSON;
@@ -18,7 +19,10 @@ let memoryOnly = false;
 function read() {
   if (memoryOnly) return memory;
   try {
-    const raw = localStorage.getItem(KEY) ?? localStorage.getItem(LEGACY_KEY);
+    const raw =
+      localStorage.getItem(KEY) ??
+      localStorage.getItem(LEGACY_KEY_1) ??
+      localStorage.getItem(LEGACY_KEY_2);
     memory = raw ?? EMPTY_JSON;
     return memory;
   } catch {
@@ -39,7 +43,7 @@ function parse(raw: string): DemoState {
         (a: Attempt) =>
           a &&
           typeof a.id === "string" &&
-          ["mathematics", "physics", "chemistry"].includes(a.subject) &&
+          ["mathematics", "physics", "chemistry", "biological-science"].includes(a.subject) &&
           Number.isFinite(a.deadline) &&
           a.responses &&
           a.reflections,
