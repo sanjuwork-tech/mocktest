@@ -8,25 +8,46 @@ import {
   Atom,
   Sigma,
   Dna,
+  FileSpreadsheet,
+  Code2,
+  TrendingUp,
+  Languages,
+  BrainCircuit,
+  Globe,
+  Landmark,
+  Radio,
+  Scale,
   Play,
   ChartNoAxesCombined,
   CheckCircle2,
+  GraduationCap,
+  Sparkles,
+  BookOpenCheck,
 } from "lucide-react";
 import { StudentShell } from "./shell";
 import { createSample, useDemo } from "@/lib/student/store";
-import { SUBJECTS, analyze } from "@/lib/student/model";
+import { SUBJECTS, analyze, type Subject } from "@/lib/student/model";
 import { questionsFor, questionBank } from "@/data/student/bank";
 
 const subjectIcons: Record<string, typeof Sigma> = {
   mathematics: Sigma,
   physics: Atom,
-  "biological-science": Dna,
   chemistry: FlaskConical,
+  "biological-science": Dna,
+  accountancy: FileSpreadsheet,
+  "computer-science": Code2,
+  economics: TrendingUp,
+  english: Languages,
+  "general-test": BrainCircuit,
+  geography: Globe,
+  history: Landmark,
+  "mass-media": Radio,
+  "political-science": Scale,
 };
 
 type ServerAttempt = {
   id: string;
-  subject: "mathematics" | "physics" | "chemistry";
+  subject: Subject;
   startedAt: number;
   submittedAt?: number;
   score: number;
@@ -35,10 +56,79 @@ type ServerAttempt = {
   status: string;
 };
 
+type ExamOption = {
+  id: string;
+  name: string;
+  badge: string;
+  subjectsCount: number;
+  totalTests: string;
+  pattern: string;
+  description: string;
+  subjectIds: Subject[];
+};
+
+const EXAM_OPTIONS: ExamOption[] = [
+  {
+    id: "cuet-ug",
+    name: "CUET (UG)",
+    badge: "National Testing Agency",
+    subjectsCount: 12,
+    totalTests: "300 Papers (25 per subject)",
+    pattern: "50 Questions · 90 Mins · +4 / −1",
+    description: "Central, State & Top University Admissions (BA, BSc, BCom, BCA, Engineering)",
+    subjectIds: [
+      "mathematics",
+      "physics",
+      "chemistry",
+      "biological-science",
+      "accountancy",
+      "computer-science",
+      "economics",
+      "english",
+      "general-test",
+      "geography",
+      "history",
+      "mass-media",
+      "political-science",
+    ],
+  },
+  {
+    id: "iiser-iat",
+    name: "IISER IAT",
+    badge: "BS-MS Research",
+    subjectsCount: 4,
+    totalTests: "PCM + Biology Bundles",
+    pattern: "60 Questions · 180 Mins · +4 / −1",
+    description: "Admissions to 7 IISER campuses, IISc Bangalore, and IIT Madras Science Programs",
+    subjectIds: ["mathematics", "physics", "chemistry", "biological-science"],
+  },
+  {
+    id: "comedk-uget",
+    name: "COMEDK UGET",
+    badge: "Karnataka Engineering",
+    subjectsCount: 3,
+    totalTests: "Engineering Stream",
+    pattern: "180 Questions · 180 Mins · No Negative",
+    description: "Entrance for 190+ top engineering colleges in Karnataka (RVCE, BMSCE, MSRIT)",
+    subjectIds: ["physics", "chemistry", "mathematics"],
+  },
+  {
+    id: "niser-nest",
+    name: "NISER NEST",
+    badge: "DAE Research",
+    subjectsCount: 4,
+    totalTests: "Integrated MSc",
+    pattern: "80 Questions · 210 Mins · Sectional Timing",
+    description: "National Screening Test for NISER Bhubaneswar and UM-DAE CEBS Mumbai",
+    subjectIds: ["physics", "chemistry", "mathematics", "biological-science"],
+  },
+];
+
 export function StudentDashboard() {
   const { attempts } = useDemo();
   const router = useRouter();
-  const [studentName, setStudentName] = useState<string>("");
+  const [selectedExamId, setSelectedExamId] = useState<string>("cuet-ug");
+  const [studentName, setStudentName] = useState<string>("Aspirant");
   const [serverAttempts, setServerAttempts] = useState<ServerAttempt[]>([]);
 
   useEffect(() => {
@@ -74,6 +164,8 @@ export function StudentDashboard() {
   }, serverAttempts.length * 50);
 
   const firstName = studentName ? studentName.split(" ")[0] : "future explorer";
+  const activeExam = EXAM_OPTIONS.find((e) => e.id === selectedExamId) || EXAM_OPTIONS[0];
+  const displayedSubjects = SUBJECTS.filter((s) => activeExam.subjectIds.includes(s.id));
 
   return (
     <StudentShell>
@@ -86,16 +178,16 @@ export function StudentDashboard() {
             <em>{firstName}.</em>
           </h1>
           <p>
-            A score tells you where you are. Understanding your mistakes helps
-            you decide where to go next.
+            Choose your target entrance exam below to explore syllabus patterns, test formats,
+            and launch Test 1 diagnostic mocks with live real-time timing.
           </p>
           <Link href="/exams" className="text-link">
-            Keep exploring your exam options <ArrowRight size={16} />
+            Keep exploring official exam pattern guides <ArrowRight size={16} />
           </Link>
         </div>
         <div className="student-hero-note">
           <span className="student-note-icon">
-            <CompassIcon />
+            <GraduationCap size={32} />
           </span>
           <p>
             One test doesn’t
@@ -106,9 +198,118 @@ export function StudentDashboard() {
         </div>
       </section>
 
+      {/* Target Exam Selection Cards */}
+      <section style={{ marginBottom: "32px" }}>
+        <div style={{ marginBottom: "16px" }}>
+          <p className="eyebrow">Step 1: Choose Your Entrance Exam</p>
+          <h2 style={{ fontSize: "22px", fontWeight: 700, margin: "4px 0" }}>
+            Select Target Examination
+          </h2>
+          <p style={{ fontSize: "14px", color: "#64748b" }}>
+            Switch between examinations to view tailored subjects, question banks, and Test 1 mocks.
+          </p>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+            gap: "16px",
+          }}
+        >
+          {EXAM_OPTIONS.map((exam) => {
+            const isSelected = exam.id === selectedExamId;
+            return (
+              <div
+                key={exam.id}
+                onClick={() => setSelectedExamId(exam.id)}
+                style={{
+                  cursor: "pointer",
+                  borderRadius: "12px",
+                  padding: "18px 20px",
+                  border: isSelected ? "2px solid var(--blue, #1f5eff)" : "1px solid #e2e8f0",
+                  background: isSelected ? "#f8faff" : "#ffffff",
+                  boxShadow: isSelected
+                    ? "0 4px 14px rgba(31, 94, 255, 0.12)"
+                    : "0 1px 3px rgba(0,0,0,0.04)",
+                  transition: "all 0.2s ease",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      marginBottom: "8px",
+                    }}
+                  >
+                    <span
+                      style={{
+                        fontSize: "11px",
+                        fontWeight: 700,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.5px",
+                        color: isSelected ? "var(--blue, #1f5eff)" : "#64748b",
+                        background: isSelected ? "#e0edff" : "#f1f5f9",
+                        padding: "2px 8px",
+                        borderRadius: "12px",
+                      }}
+                    >
+                      {exam.badge}
+                    </span>
+                    {isSelected && (
+                      <span
+                        style={{
+                          fontSize: "12px",
+                          color: "var(--blue, #1f5eff)",
+                          fontWeight: 600,
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "3px",
+                        }}
+                      >
+                        <CheckCircle2 size={14} /> Selected
+                      </span>
+                    )}
+                  </div>
+                  <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a", margin: "4px 0" }}>
+                    {exam.name}
+                  </h3>
+                  <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.4, margin: "6px 0 12px 0" }}>
+                    {exam.description}
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    borderTop: "1px solid #f1f5f9",
+                    paddingTop: "10px",
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "4px",
+                    fontSize: "12px",
+                    color: "#64748b",
+                  }}
+                >
+                  <div>
+                    <strong style={{ color: "#1e293b" }}>{exam.subjectsCount} Subjects</strong> · {exam.totalTests}
+                  </div>
+                  <div style={{ color: "#059669", fontWeight: 500 }}>{exam.pattern}</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Stats Bar */}
       <div className="student-stat-grid">
         <div>
-          <span>Practice library</span>
+          <span>Active practice library</span>
           <strong>
             {questionBank.length} <small>questions</small>
           </strong>
@@ -122,24 +323,25 @@ export function StudentDashboard() {
           <strong>{answeredCount}</strong>
         </div>
         <div>
-          <span>Your next step</span>
-          <strong className="student-stat-text">Start curious.</strong>
+          <span>Selected Exam</span>
+          <strong className="student-stat-text">{activeExam.name}</strong>
         </div>
       </div>
 
+      {/* Subjects & Test 1 Launch Section */}
       <section className="student-section">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Choose your focus</p>
-            <h2>Make room for progress.</h2>
+            <p className="eyebrow">{activeExam.name} · Available Subjects</p>
+            <h2>Launch Test 1 Practice Mock</h2>
           </div>
           <span className="student-muted">
-            50 questions · 90 minutes per subject
+            {displayedSubjects.length} subjects available · 50 questions · 90 minutes per subject
           </span>
         </div>
 
         <div className="student-subject-grid">
-          {SUBJECTS.map((s) => {
+          {displayedSubjects.map((s) => {
             const active = attempts.find(
               (a) => a.subject === s.id && !a.submittedAt,
             );
@@ -153,12 +355,12 @@ export function StudentDashboard() {
                   <Icon size={26} />
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <p className="eyebrow">Subject practice</p>
+                  <p className="eyebrow">{s.code ? `CUET Code: ${s.code}` : "Domain Practice"}</p>
                   <span
                     style={{
                       fontSize: "11px",
                       background: "#e8f0fe",
-                      color: "var(--blue)",
+                      color: "var(--blue, #1f5eff)",
                       padding: "2px 8px",
                       borderRadius: "12px",
                       fontWeight: 600,
@@ -167,21 +369,21 @@ export function StudentDashboard() {
                       gap: "4px",
                     }}
                   >
-                    <CheckCircle2 size={12} /> Free Diagnostic Mock
+                    <CheckCircle2 size={12} /> Test 1 Diagnostic
                   </span>
                 </div>
                 <h3>{s.title}</h3>
                 <p>{s.subtitle}</p>
                 <div className="student-card-facts">
                   <span>50 questions</span>
-                  <span>10 formats</span>
+                  <span>Paper 1</span>
                   <span>200 marks</span>
                 </div>
                 <Link
                   href={`/student/tests/${s.id}`}
                   className="button-primary"
                 >
-                  {active ? "Resume test" : "Explore & start test"}{" "}
+                  {active ? "Resume test" : "Start Test 1"}{" "}
                   <Play size={15} />
                 </Link>
                 <button
@@ -196,13 +398,13 @@ export function StudentDashboard() {
             );
           })}
         </div>
-        <p className="student-muted">
-          Scoring rules: +4 correct, −1 incorrect, 0 unanswered. Multiple
-          answers, matching and ordering use exact-match scoring with no partial
-          credit. Answers are autosaved with cloud synchronization and local backup.
+        <p className="student-muted" style={{ marginTop: "16px" }}>
+          Scoring rules: +4 correct, −1 incorrect, 0 unanswered. Real-time timer runs on both total exam
+          and active question to deliver granular pacing insights in your post-test diagnostic report.
         </p>
       </section>
 
+      {/* Attempt History */}
       <section className="student-section">
         <div className="section-heading">
           <div>
@@ -264,23 +466,15 @@ export function StudentDashboard() {
           </div>
         ) : (
           <div className="student-empty">
-            <BookOpenIcon />
+            <BookOpenCheck size={36} style={{ color: "#94a3b8", margin: "0 auto 12px auto" }} />
             <h3>Your first learning story starts here.</h3>
             <p>
-              Complete a test to see your strengths, topics to revisit and a
-              practical plan for tomorrow. Or preview a labelled sample above.
+              Complete Test 1 in any subject above to see your strengths, pacing, questions taking the
+              most time, and a practical revision plan.
             </p>
           </div>
         )}
       </section>
     </StudentShell>
   );
-}
-
-function CompassIcon() {
-  return <Sigma size={34} aria-hidden="true" />;
-}
-
-function BookOpenIcon() {
-  return <ChartNoAxesCombined size={30} aria-hidden="true" />;
 }

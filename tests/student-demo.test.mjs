@@ -26,10 +26,24 @@ const attempt = (responses = {}) => ({
   reflections: {},
 });
 
-test("200 unique CUET questions: 50 per subject, verified options and valid answer keys", () => {
-  assert.equal(bank.length, 200);
-  assert.equal(new Set(bank.map((q) => q.id)).size, 200);
-  for (const subject of ["mathematics", "physics", "chemistry", "biological-science"]) {
+test("650 unique CUET questions: 50 per subject, verified options and valid answer keys", () => {
+  assert.equal(bank.length, 650);
+  assert.equal(new Set(bank.map((q) => q.id)).size, 650);
+  for (const subject of [
+    "mathematics",
+    "physics",
+    "chemistry",
+    "biological-science",
+    "accountancy",
+    "computer-science",
+    "economics",
+    "english",
+    "general-test",
+    "geography",
+    "history",
+    "mass-media",
+    "political-science",
+  ]) {
     const qs = bank.filter((q) => q.subject === subject);
     assert.equal(qs.length, 50);
   }

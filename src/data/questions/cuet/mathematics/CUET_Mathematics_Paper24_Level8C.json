@@ -35,7 +35,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Domain and Range",
       "difficulty": "easy",
-      "question": "\\( The domain of the function f(x) = \\sqrt{x² - 16} is: \\)",
+      "question": "The domain of the function f(x) = $1$ is:",
       "options": [
         "A) [-4, 4]",
         "B) [0, ∞)",
@@ -58,7 +58,7 @@
         "D) 7/12"
       ],
       "correct_option": "B",
-      "explanation": "\\( Total balls = 5 + 7 = 12. Favorable outcomes (red) = 5. Probability = \\frac{5}{12}. \\)"
+      "explanation": "Total balls = 5 + 7 = 12. Favorable outcomes (red) = 5. Probability = $1$."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q04",
@@ -80,7 +80,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "easy",
-      "question": "\\( The value of \\sin⁻¹(\\frac{1}{2}) + \\sin⁻¹(\\frac{1}{2}) is: \\)",
+      "question": "The value of sin⁻¹($1$) + sin⁻¹($1$) is:",
       "options": [
         "A) π/3",
         "B) π/4",
@@ -88,14 +88,14 @@
         "D) π/6"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\sin⁻¹(\\frac{1}{2}) = π/6. So \\sin⁻¹(\\frac{1}{2}) + \\sin⁻¹(\\frac{1}{2}) = π/6 + π/6 = π/3. \\)"
+      "explanation": "$sin⁻¹($1$) = π/6. So sin⁻¹($1$) + sin⁻¹($1$) = π/6 + π/6 = π/3.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q06",
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "\\( If A = [[2, 3], [1, 4]], then \\left| \\1 \\right| equals: \\)",
+      "question": "If A = [[2, 3], [1, 4]], then \\left| A \\right| equals:",
       "options": [
         "A) 8",
         "B) 2",
@@ -103,7 +103,7 @@
         "D) 5"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = (2)(4) - (3)(1) = 8 - 3 = 5. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = (2)(4) - (3)(1) = 8 - 3 = 5. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q07",
@@ -118,14 +118,14 @@
         "D) On the boundary only"
       ],
       "correct_option": "A",
-      "explanation": "\\( The optimal solution \\in linear programming is always found at a vertex (corner point) of the feasible region. \\)"
+      "explanation": "The optimal solution ∈ linear programming is always found at a vertex (corner point) of the feasible region."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q08",
       "topic": "Applied Mathematics",
       "sub_topic": "Financial Mathematics",
       "difficulty": "easy",
-      "question": "\\( A \\sum of ₹5000 amounts to ₹6500 \\in 3 years at simple interest. The rate of interest per annum is: \\)",
+      "question": "A ∑ of ₹5000 amounts to ₹6500 ∈ 3 years at simple interest. The rate of interest per annum is:",
       "options": [
         "A) 10%",
         "B) 15%",
@@ -133,7 +133,7 @@
         "D) 12%"
       ],
       "correct_option": "A",
-      "explanation": "\\( SI = 6500 - 5000 = 1500. Using SI = P×R×T/100: 1500 = 5000×R×\\frac{3}{100}, so R = (1500×100)/(5000×3) = 10%. \\)"
+      "explanation": "SI = 6500 - 5000 = 1500. Using SI = P×R×T/100: 1500 = 5000×R×$1$, so R = (1500×100)/(5000×3) = 10%."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q09",
@@ -148,14 +148,14 @@
         "D) (-1/2)[[4, -2], [-3, 1]]"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 1×4 - 2×3 = -2. Adjoint of A = [[4, -2], [-3, 1]]. So A⁻¹ = adj(A)/\\left| \\1 \\right| = (-\\frac{1}{2})[[4, -2], [-3, 1]]. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. \\left| A \\right| = 1×4 - 2×3 = -2. Adjoint of A = [[4, -2], [-3, 1]]. So A⁻¹ = adj(A)/\\left| A \\right| = (-$1$)[[4, -2], [-3, 1]]."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q10",
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "medium",
-      "question": "\\( If y = x³ \\sin(x), then dy/dx at x = π is: \\)",
+      "question": "If y = x³ sin(x), then dy/dx at x = π is:",
       "options": [
         "A) 3π²",
         "B) -3π²",
@@ -163,14 +163,14 @@
         "D) π³"
       ],
       "correct_option": "C",
-      "explanation": "\\( dy/dx = 3x² \\sin(x) + x³ \\cos(x). At x = π: 3π² \\sin(π) + π³ \\cos(π) = 3π²(0) + π³(-1) = -π³. \\)"
+      "explanation": "$dy/dx = 3x² sin(x) + x³ cos(x). At x = π: 3π² sin(π) + π³ cos(π) = 3π²(0) + π³(-1) = -π³.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q11",
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "medium",
-      "question": "\\( A die is thrown twice. Let A be the event that the first throw is 6, and B be the event that the \\sum is 8. What is P(A∩B)? \\)",
+      "question": "A die is thrown twice. Let A be the event that the first throw is 6, and B be the event that the ∑ is 8. What is P(A∩B)?",
       "options": [
         "A) 1/6",
         "B) 5/36",
@@ -178,7 +178,7 @@
         "D) 1/36"
       ],
       "correct_option": "D",
-      "explanation": "\\( A∩B occurs when first throw is 6 AND \\sum is 8, so second throw must be 2. Only outcome: (6,2). P(A∩B) = \\frac{1}{36}. \\)"
+      "explanation": "A∩B occurs when first throw is 6 AND ∑ is 8, so second throw must be 2. Only outcome: (6,2). P(A∩B) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q12",
@@ -230,7 +230,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "medium",
-      "question": "\\( If \\tan⁻¹(x) + \\tan⁻¹(2x) = π/4, then x equals: \\)",
+      "question": "If tan⁻¹(x) + tan⁻¹(2x) = π/4, then x equals:",
       "options": [
         "A) (3 + √17)/4",
         "B) (-3 + √17)/4",
@@ -238,14 +238,14 @@
         "D) (-3 - √17)/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using \\tan⁻¹(a) + \\tan⁻¹(b) = \\tan⁻¹((a+b)/(1-ab)): \\tan⁻¹(3x/(1-2x²)) = π/4. So 3x/(1-2x²) = 1, giving 2x² + 3x - 1 = 0. By quadratic formula: x = (-3 ± \\sqrt{17})/4. Since ab = 2x² < 1, we need x = (-3 + \\sqrt{17})/4. \\)"
+      "explanation": "Using tan⁻¹(a) + tan⁻¹(b) = tan⁻¹((a+b)/(1-ab)): tan⁻¹(3x/(1-2x²)) = π/4. So 3x/(1-2x²) = 1, giving 2x² + 3x - 1 = 0. By quadratic formula: x = (-3 ± $1$)/4. Since ab = 2x² < 1, we need x = (-3 + $1$)/4."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q16",
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "medium",
-      "question": "\\( If A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], then \\left| \\1 \\right| equals: \\)",
+      "question": "If A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], then \\left| A \\right| equals:",
       "options": [
         "A) 2",
         "B) 0",
@@ -253,7 +253,7 @@
         "D) -1"
       ],
       "correct_option": "C",
-      "explanation": "\\( Expanding along first row: \\left| \\1 \\right| = 1(1·0 - 4·6) - 2(0·0 - 4·5) + 3(0·6 - 1·5) = 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1. \\)"
+      "explanation": "Expanding along first row: \\left| A \\right| = 1(1·0 - 4·6) - 2(0·0 - 4·5) + 3(0·6 - 1·5) = 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q17",
@@ -283,7 +283,7 @@
         "D) 6/10"
       ],
       "correct_option": "A",
-      "explanation": "\\( After drawing a blue ball first, 4 red and 5 blue remain (9 total). P(second is red | first was blue) = \\frac{4}{9}. \\)"
+      "explanation": "After drawing a blue ball first, 4 red and 5 blue remain (9 total). P(second is red | first was blue) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q19",
@@ -335,7 +335,7 @@
       "topic": "Applied Mathematics",
       "sub_topic": "Algebra",
       "difficulty": "medium",
-      "question": "\\( If the \\sum of the roots of x² + px + q = 0 is 5 and the product is 6, then p and q are: \\)",
+      "question": "If the ∑ of the roots of x² + px + q = 0 is 5 and the product is 6, then p and q are:",
       "options": [
         "A) p = -5, q = -6",
         "B) p = 5, q = 6",
@@ -343,7 +343,7 @@
         "D) p = 5, q = -6"
       ],
       "correct_option": "C",
-      "explanation": "\\( For ax² + bx + c = 0, \\sum of roots = -b/a and product = c/a. Here: -p/1 = 5, so p = -5. And q/1 = 6, so q = 6. \\)"
+      "explanation": "For ax² + bx + c = 0, ∑ of roots = -b/a and product = c/a. Here: -p/1 = 5, so p = -5. And q/1 = 6, so q = 6."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q23",
@@ -373,7 +373,7 @@
         "D) 0.6"
       ],
       "correct_option": "C",
-      "explanation": "\\( Variance = npq = 5 × 0.4 × 0.6 = 1.2. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "Variance = npq = 5 × 0.4 × 0.6 = 1.2. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q25",
@@ -388,7 +388,7 @@
         "D) 25"
       ],
       "correct_option": "C",
-      "explanation": "\\( The 3-year moving average at the middle year (year 3) = (15 + 20 + 25)/3 = \\frac{60}{3} = 20. \\)"
+      "explanation": "The 3-year moving average at the middle year (year 3) = (15 + 20 + 25)/3 = $1$ = 20."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q26",
@@ -403,7 +403,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( Standard error = σ/\\sqrt{n} = 5/\\sqrt{25} = \\frac{5}{5} = 1. \\)"
+      "explanation": "Standard error = σ/$1$ = 5/$1$ = $1$ = 1."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q27",
@@ -455,7 +455,7 @@
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "medium",
-      "question": "\\( The function f(x) = \\left| \\1 \\right| + \\left| \\1 \\right| is: \\)",
+      "question": "The function f(x) = \\left| A \\right| + \\left| A \\right| is:",
       "options": [
         "A) Continuous everywhere but not differentiable at x = 0.5",
         "B) Continuous and differentiable everywhere",
@@ -463,7 +463,7 @@
         "D) Continuous everywhere but not differentiable at x = -1 and x = 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( The \\sum of absolute value functions is continuous everywhere. However, \\left| \\1 \\right| is not differentiable at x = a. So f(x) is not differentiable at x = -1 and x = 2, but is continuous everywhere. \\)"
+      "explanation": "The ∑ of absolute value functions is continuous everywhere. However, \\left| A \\right| is not differentiable at x = a. So f(x) is not differentiable at x = -1 and x = 2, but is continuous everywhere."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q31",
@@ -478,14 +478,14 @@
         "D) 6"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right| = 2(4-1) - 1(2-1) + 1(1-2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4. Since A⁻¹ = adj(A)/\\left| \\1 \\right|, we have k = \\left| \\1 \\right| = 4. \\)"
+      "explanation": "\\left| A \\right| = 2(4-1) - 1(2-1) + 1(1-2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4. Since A⁻¹ = adj(A)/\\left| A \\right|, we have k = \\left| A \\right| = 4."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q32",
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "hard",
-      "question": "\\( The value of \\lim(x→0) (eˣ - 1 - x)/x² is: \\)",
+      "question": "The value of \\lim(x→0) (eˣ - 1 - x)/x² is:",
       "options": [
         "A) 1/2",
         "B) 2",
@@ -493,7 +493,7 @@
         "D) 1"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using L'Hôpital's rule twice: \\lim(x→0) (eˣ - 1 - x)/x² = \\lim(x→0) (eˣ - 1)/(2x) = \\lim(x→0) eˣ/2 = \\frac{1}{2}. \\)"
+      "explanation": "Using L'Hôpital's rule twice: \\lim(x→0) (eˣ - 1 - x)/x² = \\lim(x→0) (eˣ - 1)/(2x) = \\lim(x→0) eˣ/2 = $1$."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q33",
@@ -508,14 +508,14 @@
         "D) 1/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(Box III | Red) = P(Box III ∩ Red)/P(Red) = (\\frac{1}{3} × \\frac{4}{5}) / [(\\frac{1}{3} × \\frac{2}{5}) + (\\frac{1}{3} × \\frac{3}{5}) + (\\frac{1}{3} × \\frac{4}{5})] = (\\frac{4}{15}) / (\\frac{9}{15}) = \\frac{4}{9}. \\)"
+      "explanation": "P(Box III | Red) = P(Box III ∩ Red)/P(Red) = ($1$ × $1$) / [($1$ × $1$) + ($1$ × $1$) + ($1$ × $1$)] = ($1$) / ($1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q34",
       "topic": "Matrices",
       "sub_topic": "Integration",
       "difficulty": "hard",
-      "question": "\\( The value of ∫₀^π x·\\sin(x)/(1 + cos²(x)) dx is: \\)",
+      "question": "The value of ∫₀^π x·sin(x)/(1 + cos²(x)) dx is:",
       "options": [
         "A) π²/4",
         "B) π²/2",
@@ -523,7 +523,7 @@
         "D) π²/8"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using the property ∫₀^π f(x)dx = ∫₀^π f(π-x)dx and adding: 2I = ∫₀^π π·\\sin(x)/(1+cos²(x)) dx. Let u = \\cos(x), du = -\\sin(x)dx: 2I = π ∫₋₁¹ du/(1+u²) = π[\\tan⁻¹(u)]₋₁¹ = π(π/4 - (-π/4)) = π²/2. So I = π²/4. \\)"
+      "explanation": "Using the property ∫₀^π f(x)dx = ∫₀^π f(π-x)dx and adding: 2I = ∫₀^π π·sin(x)/(1+cos²(x)) dx. Let u = cos(x), du = -sin(x)dx: 2I = π ∫₋₁¹ du/(1+u²) = π[tan⁻¹(u)]₋₁¹ = π(π/4 - (-π/4)) = π²/2. So I = π²/4."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q35",
@@ -568,7 +568,7 @@
         "D) 16/7"
       ],
       "correct_option": "D",
-      "explanation": "\\( D = \\left| \\1 \\right| = -6-1 = -7. Dx = \\left| \\1 \\right| = -15-1 = -16. x = Dx/D = (-16)/(-7) = \\frac{16}{7}. \\)"
+      "explanation": "$D = \\left| A \\right| = -6-1 = -7. Dx = \\left| A \\right| = -15-1 = -16. x = Dx/D = (-16)/(-7) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q38",
@@ -583,14 +583,14 @@
         "D) 1 ± 1/√3"
       ],
       "correct_option": "D",
-      "explanation": "\\( f(0) = 0 and f(2) = 8 - 12 + 4 = 0. f'(x) = 3x² - 6x + 2. Setting f'(c) = 0: 3c² - 6c + 2 = 0. By quadratic formula: c = (6 ± \\sqrt{36-24})/6 = (6 ± \\sqrt{12})/6 = (6 ± 2\\sqrt{3})/6 = 1 ± 1/\\sqrt{3}. \\)"
+      "explanation": "f(0) = 0 and f(2) = 8 - 12 + 4 = 0. f'(x) = 3x² - 6x + 2. Setting f'(c) = 0: 3c² - 6c + 2 = 0. By quadratic formula: c = (6 ± $1$)/6 = (6 ± $1$)/6 = (6 ± 2$1$)/6 = 1 ± 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q39",
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "hard",
-      "question": "\\( A fair coin is tossed 6 \\times. The probability of getting at least 4 heads is: \\)",
+      "question": "A fair coin is tossed 6 ×. The probability of getting at least 4 heads is:",
       "options": [
         "A) 21/32",
         "B) 15/64",
@@ -598,7 +598,7 @@
         "D) 11/32"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(X ≥ 4) = P(4) + P(5) + P(6) = C(6,4)(\\frac{1}{2})⁶ + C(6,5)(\\frac{1}{2})⁶ + C(6,6)(\\frac{1}{2})⁶ = (15 + 6 + 1)/64 = \\frac{22}{64} = \\frac{11}{32}. \\)"
+      "explanation": "$P(X ≥ 4) = P(4) + P(5) + P(6) = C(6,4)($1$)⁶ + C(6,5)($1$)⁶ + C(6,6)($1$)⁶ = (15 + 6 + 1)/64 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q40",
@@ -613,14 +613,14 @@
         "D) 2ln|x+1| - ln|x+2| + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using \\partial fractions: (3x+5)/((x+1)(x+2)) = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=-1: 2 = A(1), so A=2. At x=-2: -1 = B(-1), so B=1. ∫ = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+      "explanation": "Using \\partial fractions: (3x+5)/((x+1)(x+2)) = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=-1: 2 = A(1), so A=2. At x=-2: -1 = B(-1), so B=1. ∫ = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q41",
       "topic": "Applied Mathematics",
       "sub_topic": "Financial Mathematics",
       "difficulty": "hard",
-      "question": "\\( A person deposits ₹1000 at the end of each year \\in a bank offering 10% compound interest. The amount after 3 years is: \\)",
+      "question": "A person deposits ₹1000 at the end of each year ∈ a bank offering 10% compound interest. The amount after 3 years is:",
       "options": [
         "A) ₹3000",
         "B) ₹3100",
@@ -658,7 +658,7 @@
         "D) 1.3"
       ],
       "correct_option": "B",
-      "explanation": "\\( x̄ = 2.5, ȳ = 4.25. Σ(xᵢ-x̄)(yᵢ-ȳ) = (-1.5)(-2.25) + (-0.5)(-1.25) + (0.5)(0.75) + (1.5)(2.75) = 3.375 + 0.625 + 0.375 + 4.125 = 8.5. Σ(xᵢ-x̄)² = 2.25 + 0.25 + 0.25 + 2.25 = 5. Slope b = 8.\\frac{5}{5} = 1.7. \\)"
+      "explanation": "$x̄ = 2.5, ȳ = 4.25. Σ(xᵢ-x̄)(yᵢ-ȳ) = (-1.5)(-2.25) + (-0.5)(-1.25) + (0.5)(0.75) + (1.5)(2.75) = 3.375 + 0.625 + 0.375 + 4.125 = 8.5. Σ(xᵢ-x̄)² = 2.25 + 0.25 + 0.25 + 2.25 = 5. Slope b = 8.$1$ = 1.7.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q44",
@@ -673,7 +673,7 @@
         "D) 0.1587"
       ],
       "correct_option": "C",
-      "explanation": "\\( σ_x̄ = σ/\\sqrt{n} = \\frac{4}{8} = 0.5. Z = (101-100)/0.5 = 2. P(Z > 2) = 1 - 0.9772 = 0.0228. \\)"
+      "explanation": "$σ_x̄ = σ/$1$ = $1$ = 0.5. Z = (101-100)/0.5 = 2. P(Z > 2) = 1 - 0.9772 = 0.0228.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q45",
@@ -718,7 +718,7 @@
         "D) 54π cm³"
       ],
       "correct_option": "B",
-      "explanation": "\\( Maximum cone: base diameter = 6 cm (radius = 3 cm), height = 6 cm. Volume = (\\frac{1}{3})πr²h = (\\frac{1}{3})π(9)(6) = 18π cm³. \\)"
+      "explanation": "Maximum cone: base diameter = 6 cm (radius = 3 cm), height = 6 cm. Volume = ($1$)πr²h = ($1$)π(9)(6) = 18π cm³."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q48",
@@ -733,7 +733,7 @@
         "D) 12.49%"
       ],
       "correct_option": "C",
-      "explanation": "\\( Effective rate = (1 + r/n)ⁿ - 1 = (1 + 0.\\frac{12}{4})⁴ - 1 = (1.03)⁴ - 1 = 1.12550881 - 1 = 0.1255 = 12.55%. \\)"
+      "explanation": "Effective rate = (1 + r/n)ⁿ - 1 = (1 + 0.$1$)⁴ - 1 = (1.03)⁴ - 1 = 1.12550881 - 1 = 0.1255 = 12.55%."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q49",

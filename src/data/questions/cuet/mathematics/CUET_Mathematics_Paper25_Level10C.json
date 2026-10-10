@@ -20,7 +20,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "\\( Find the value: If A = [[3, 2], [1, 4]], what is \\left| \\1 \\right|? \\)",
+      "question": "Find the value: If A = [[3, 2], [1, 4]], what is \\left| A \\right|?",
       "options": [
         "A) 12",
         "B) 8",
@@ -28,7 +28,7 @@
         "D) 10"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = (3)(4) - (2)(1) = 12 - 2 = 10. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. This result follows from standard mathematical principles. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = (3)(4) - (2)(1) = 12 - 2 = 10. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q02",
@@ -50,7 +50,7 @@
       "topic": "Matrices",
       "sub_topic": "Matrices",
       "difficulty": "medium",
-      "question": "\\( Let A = [[2, 1], [3, 4]] and B = [[1, 0], [2, 1]]. What is the element \\in the second row, first column of AB? \\)",
+      "question": "Let A = [[2, 1], [3, 4]] and B = [[1, 0], [2, 1]]. What is the element ∈ the second row, first column of AB?",
       "options": [
         "A) 11",
         "B) 8",
@@ -58,7 +58,7 @@
         "D) 4"
       ],
       "correct_option": "A",
-      "explanation": "\\( AB[2,1] = 3(1) + 4(2) = 3 + 8 = 11. This result follows from the fundamental principles of Algebra. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "AB[2,1] = 3(1) + 4(2) = 3 + 8 = 11. This result follows from the fundamental principles of Algebra. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q04",
@@ -80,7 +80,7 @@
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "medium",
-      "question": "\\( Two dice are thrown. What is the probability that the \\sum of numbers is 7? \\)",
+      "question": "Two dice are thrown. What is the probability that the ∑ of numbers is 7?",
       "options": [
         "A) 5/36",
         "B) 7/36",
@@ -88,7 +88,7 @@
         "D) 1/12"
       ],
       "correct_option": "C",
-      "explanation": "\\( Favorable outcomes = {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6. Total = 36. P = \\frac{6}{36} = \\frac{1}{6}. \\)"
+      "explanation": "Favorable outcomes = {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6. Total = 36. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q06",
@@ -125,7 +125,7 @@
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "medium",
-      "question": "\\( Find the value: If f(x) = \\sin(x²), find f'(\\sqrt{π/2}). \\)",
+      "question": "Find the value: If f(x) = sin(x²), find f'($1$).",
       "options": [
         "A) 1",
         "B) 0",
@@ -133,7 +133,7 @@
         "D) √(π/2)"
       ],
       "correct_option": "B",
-      "explanation": "\\( f'(x) = 2x·\\cos(x²). f'(\\sqrt{π/2}) = 2\\sqrt{π/2}·\\cos(π/2) = 2\\sqrt{π/2}·0 = 0. This result follows from standard mathematical principles. \\)"
+      "explanation": "f'(x) = 2x·cos(x²). f'($1$) = 2$1$·cos(π/2) = 2$1$·0 = 0. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q09",
@@ -163,7 +163,7 @@
         "D) 5/18"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(both red) = (\\frac{4}{9})·(\\frac{3}{8}) = \\frac{12}{72} = \\frac{1}{6}. \\)"
+      "explanation": "$P(both red) = ($1$)·($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q11",
@@ -178,14 +178,14 @@
         "D) 2"
       ],
       "correct_option": "A",
-      "explanation": "\\( Determinant = 5. A⁻¹ = (\\frac{1}{5})[[3,-1],[-1,2]]. Multiplying by [5,10]ᵀ gives [1, 3]ᵀ, so y = 3. \\)"
+      "explanation": "Determinant = 5. A⁻¹ = ($1$)[[3,-1],[-1,2]]. Multiplying by [5,10]ᵀ gives [1, 3]ᵀ, so y = 3."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q12",
       "topic": "Relations and Functions",
       "sub_topic": "Functions",
       "difficulty": "medium",
-      "question": "\\( Find the domain of the function: The domain of f(x) = \\sqrt{x-3}/(x-5) is: \\)",
+      "question": "Find the domain of the function: The domain of f(x) = $1$/(x-5) is:",
       "options": [
         "A) [3, ∞) - {5}",
         "B) [3, ∞)",
@@ -200,7 +200,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Trigonometry",
       "difficulty": "medium",
-      "question": "\\( Find the value: If \\cos θ = \\frac{1}{3}, find \\cos 2θ. \\)",
+      "question": "Find the value: If cos θ = $1$, find cos 2θ.",
       "options": [
         "A) 7/9",
         "B) -7/9",
@@ -208,14 +208,14 @@
         "D) -2/9"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\cos 2θ = 2cos²θ - 1 = 2(\\frac{1}{9}) - 1 = \\frac{2}{9} - 1 = -\\frac{7}{9}. This result follows from standard mathematical principles. \\)"
+      "explanation": "cos 2θ = 2cos²θ - 1 = 2($1$) - 1 = $1$ - 1 = -$1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q14",
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "medium",
-      "question": "\\( Evaluate the limit: Evaluate \\lim(x→0) \\sin(3x)/x. \\)",
+      "question": "Evaluate the limit: Evaluate \\lim(x→0) sin(3x)/x.",
       "options": [
         "A) 3",
         "B) 1",
@@ -223,14 +223,14 @@
         "D) 1/3"
       ],
       "correct_option": "A",
-      "explanation": "\\( We use standard limit formulas and techniques. \\lim(x→0) \\sin(3x)/x = 3·\\lim(x→0) \\sin(3x)/(3x) = 3(1) = 3. \\)"
+      "explanation": "We use standard limit formulas and techniques. \\lim(x→0) sin(3x)/x = 3·\\lim(x→0) sin(3x)/(3x) = 3(1) = 3."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q15",
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "medium",
-      "question": "\\( A factory has machines A, B, C producing \\frac{1}{2}, \\frac{1}{3}, \\frac{1}{6} of output. Defect rates: A=\\frac{1}{4}, B=\\frac{1}{3}, C=\\frac{1}{2}. A defective item is found. Probability it came from A is: \\)",
+      "question": "A factory has machines A, B, C producing $1$, $1$, $1$ of output. Defect rates: A=$1$, B=$1$, C=$1$. A defective item is found. Probability it came from A is:",
       "options": [
         "A) 8/23",
         "B) 11/23",
@@ -238,7 +238,7 @@
         "D) 9/23"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(E)=\\frac{1}{8}+\\frac{1}{9}+\\frac{1}{12}=\\frac{23}{72}. P(A|E)=(\\frac{1}{8})/(\\frac{23}{72})=\\frac{9}{23}. \\)"
+      "explanation": "$P(E)=$1$+$1$+$1$=$1$. P(A|E)=($1$)/($1$)=$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q16",
@@ -283,7 +283,7 @@
         "D) 3(e - 1)"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let u = x³, then du = 3x² dx, so x² dx = du/3. Thus ∫x²·e^{(x³)}dx = (\\frac{1}{3})∫eᵤ du = (\\frac{1}{3})e^{(x³)} + C. \\)"
+      "explanation": "Let u = x³, then du = 3x² dx, so x² dx = du/3. Thus ∫x²·e^{(x³)}dx = ($1$)∫eᵤ du = ($1$)e^{(x³)} + C."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q19",
@@ -298,7 +298,7 @@
         "D) -3/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( dy/y² = x dx → -1/y = x²/2 + C. y(0)=-1 → C=1. y=-2/(x²+2). y(1)=-\\frac{2}{3}. \\)"
+      "explanation": "$dy/y² = x dx → -1/y = x²/2 + C. y(0)=-1 → C=1. y=-2/(x²+2). y(1)=-$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q20",
@@ -313,14 +313,14 @@
         "D) ±√6"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a scalar k and n×n matrix A, \\left| \\1 \\right| = kⁿ\\left| \\1 \\right|. Singular means \\left| \\1 \\right|=0. k²-6=0 → k=±\\sqrt{6}. This property is crucial for understanding how determinants scale. \\)"
+      "explanation": "For a scalar k and n×n matrix A, \\left| A \\right| = kⁿ\\left| A \\right|. Singular means \\left| A \\right|=0. k²-6=0 → k=±$1$. This property is crucial for understanding how determinants scale."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q21",
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "hard",
-      "question": "\\( Find the value: The value of 2tan⁻¹(\\frac{1}{2}) equals: \\)",
+      "question": "Find the value: The value of 2tan⁻¹($1$) equals:",
       "options": [
         "A) tan⁻¹(1/4)",
         "B) tan⁻¹(4/3)",
@@ -328,7 +328,7 @@
         "D) tan⁻¹(3/4)"
       ],
       "correct_option": "B",
-      "explanation": "\\( 2tan⁻¹(\\frac{1}{2})=\\tan⁻¹(2·(\\frac{1}{2})/(1-(\\frac{1}{4})))=\\tan⁻¹(1/(\\frac{3}{4}))=\\tan⁻¹(\\frac{4}{3}). This result follows from standard mathematical principles. \\)"
+      "explanation": "2tan⁻¹($1$)=tan⁻¹(2·($1$)/(1-($1$)))=tan⁻¹(1/($1$))=tan⁻¹($1$). This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q22",
@@ -350,7 +350,7 @@
       "topic": "Matrices",
       "sub_topic": "Integration",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral ∫(3x+1)/((x−1)(x+1)) dx using \\partial fractions. \\)",
+      "question": "Evaluate the indefinite integral ∫(3x+1)/((x−1)(x+1)) dx using \\partial fractions.",
       "options": [
         "A) 3ln|x-1| + ln|x+1| + C",
         "B) ln|x-1| + 2ln|x+1| + C",
@@ -358,14 +358,14 @@
         "D) 2ln|x+1| + ln|x-1| + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Write (3x+1)/[(x−1)(x+1)] = A/(x−1) + B/(x+1). Solving: 3x+1 = A(x+1) + B(x−1). At x=1: 4=2A, A=2. At x=−1: −2=−2B, B=1. Thus ∫[2/(x−1) + 1/(x+1)]dx = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+      "explanation": "Write (3x+1)/[(x−1)(x+1)] = A/(x−1) + B/(x+1). Solving: 3x+1 = A(x+1) + B(x−1). At x=1: 4=2A, A=2. At x=−1: −2=−2B, B=1. Thus ∫[2/(x−1) + 1/(x+1)]dx = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q24",
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "hard",
-      "question": "\\( A fair coin is replaced by a biased coin (p=\\frac{1}{3} for heads). If tossed 5 \\times, probability of exactly 2 heads is: \\)",
+      "question": "A fair coin is replaced by a biased coin (p=$1$ for heads). If tossed 5 ×, probability of exactly 2 heads is:",
       "options": [
         "A) 80/243",
         "B) 40/243",
@@ -373,7 +373,7 @@
         "D) 160/243"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X=2)=C(5,2)(\\frac{1}{3})²(\\frac{2}{3})³=10·(\\frac{1}{9})·(\\frac{8}{27})=\\frac{80}{243}. \\)"
+      "explanation": "$P(X=2)=C(5,2)($1$)²($1$)³=10·($1$)·($1$)=$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q25",
@@ -403,7 +403,7 @@
         "D) -4"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right|=-2. A⁻¹=[[-2,1],[\\frac{3}{2},-\\frac{1}{2}]]. X=A⁻¹B=[[-2·5+6],[\\frac{3}{2}·5-3]]=[[-4],[\\frac{3}{2}]]. x=-4. \\)"
+      "explanation": "$\\left| A \\right|=-2. A⁻¹=[[-2,1],[$1$,-$1$]]. X=A⁻¹B=[[-2·5+6],[$1$·5-3]]=[[-4],[$1$]]. x=-4.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q27",
@@ -433,7 +433,7 @@
         "D) -2"
       ],
       "correct_option": "C",
-      "explanation": "\\( dy/dx=2x-4. At x=3, slope=2. Normal slope=-\\frac{1}{2}. \\)"
+      "explanation": "dy/dx=2x-4. At x=3, slope=2. Normal slope=-$1$."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q29",
@@ -463,7 +463,7 @@
         "D) 8"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\lim(x→2)(x²-4)/(x-2)=\\lim(x→2)(x+2)=4. For continuity, k=4. \\)"
+      "explanation": "$\\lim(x→2)(x²-4)/(x-2)=\\lim(x→2)(x+2)=4. For continuity, k=4.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q31",
@@ -485,7 +485,7 @@
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "hard",
-      "question": "\\( A random variable X has distribution: P(X=1)=\\frac{1}{4}, P(X=2)=\\frac{1}{2}, P(X=3)=\\frac{1}{4}. E(X) is: \\)",
+      "question": "A random variable X has distribution: P(X=1)=$1$, P(X=2)=$1$, P(X=3)=$1$. E(X) is:",
       "options": [
         "A) 2.5",
         "B) 3",
@@ -493,14 +493,14 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( E(X)=1(\\frac{1}{4})+2(\\frac{1}{2})+3(\\frac{1}{4})=\\frac{1}{4}+1+\\frac{3}{4}=2. This result follows from the fundamental principles of Algebra. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "E(X)=1($1$)+2($1$)+3($1$)=$1$+1+$1$=2. This result follows from the fundamental principles of Algebra. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q33",
       "topic": "Relations and Functions",
       "sub_topic": "Trigonometry",
       "difficulty": "hard",
-      "question": "\\( If \\sin θ = \\frac{3}{5} and θ is acute, then \\cos 2θ equals: \\)",
+      "question": "If sin θ = $1$ and θ is acute, then cos 2θ equals:",
       "options": [
         "A) 7/25",
         "B) 24/25",
@@ -508,7 +508,7 @@
         "D) 9/25"
       ],
       "correct_option": "A",
-      "explanation": "\\( cosθ=\\frac{4}{5}. cos2θ=cos²θ-sin²θ=\\frac{16}{25}-\\frac{9}{25}=\\frac{7}{25}. \\)"
+      "explanation": "$cosθ=$1$. cos2θ=cos²θ-sin²θ=$1$-$1$=$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q34",
@@ -545,7 +545,7 @@
       "topic": "Matrices",
       "sub_topic": "Integration",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral of x \\times \\cos(x) using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral of x × cos(x) using integration by parts.",
       "options": [
         "A) x·sin(x) + cos(x) + C",
         "B) x·cos(x) + sin(x) + C",
@@ -553,14 +553,14 @@
         "D) x·cos(x) - sin(x) + C"
       ],
       "correct_option": "A",
-      "explanation": "\\( Let u = x, dv = \\cos(x)dx. Result = x*\\sin(x) + \\cos(x) + C. \\)"
+      "explanation": "Let u = x, dv = cos(x)dx. Result = x*sin(x) + cos(x) + C."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q37",
       "topic": "Matrices",
       "sub_topic": "Probability",
       "difficulty": "hard",
-      "question": "\\( From 4 men and 6 women, a committee of 5 with at least 2 men can be formed \\in how many ways? \\)",
+      "question": "From 4 men and 6 women, a committee of 5 with at least 2 men can be formed ∈ how many ways?",
       "options": [
         "A) 120",
         "B) 186",
@@ -613,14 +613,14 @@
         "D) π/8"
       ],
       "correct_option": "B",
-      "explanation": "\\( sin²(x)=(1-\\cos(2x))/2. ∫₀^(π/2)=(\\frac{1}{2})[x-\\sin(2x)/2]₀^(π/2)=(\\frac{1}{2})(π/2)=π/4. This result follows from standard mathematical principles. \\)"
+      "explanation": "sin²(x)=(1-cos(2x))/2. ∫₀^(π/2)=($1$)[x-sin(2x)/2]₀^(π/2)=($1$)(π/2)=π/4. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q41",
       "topic": "Matrices",
       "sub_topic": "Permutations",
       "difficulty": "hard",
-      "question": "\\( The number of distinct arrangements of letters \\in the word 'ALPHA' is: \\)",
+      "question": "The number of distinct arrangements of letters ∈ the word 'ALPHA' is:",
       "options": [
         "A) 30",
         "B) 60",
@@ -643,14 +643,14 @@
         "D) 2.5"
       ],
       "correct_option": "A",
-      "explanation": "\\( Mean=5. Variance=((9+1+1+9)/4)=\\frac{20}{4}=5. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "Mean=5. Variance=((9+1+1+9)/4)=$1$=5. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q43",
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "hard",
-      "question": "\\( Evaluate the limit: Evaluate \\lim(x→0) (\\sin x)/x. \\)",
+      "question": "Evaluate the limit: Evaluate \\lim(x→0) (sin x)/x.",
       "options": [
         "A) -1",
         "B) 0",
@@ -658,7 +658,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( We use standard limit formulas and techniques. This is a standard limit: \\lim(x→0) \\sin(x)/x = 1. \\)"
+      "explanation": "We use standard limit formulas and techniques. This is a standard limit: \\lim(x→0) sin(x)/x = 1."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q44",
@@ -703,14 +703,14 @@
         "D) 0.4060"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X=0)=e^{(-2)}·2⁰/0!=e^{(-2)}≈0.1353. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "P(X=0)=e^{(-2)}·2⁰/0!=e^{(-2)}≈0.1353. This result follows from the fundamental principles of Applied Mathematics. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q47",
       "topic": "Matrices",
       "sub_topic": "Matrices",
       "difficulty": "hard",
-      "question": "\\( A matrix A=[[\\cos θ, -\\sin θ],[\\sin θ, \\cos θ]] is: \\)",
+      "question": "A matrix A=[[cos θ, -sin θ],[sin θ, cos θ]] is:",
       "options": [
         "A) Singular",
         "B) Orthogonal with det=1",
@@ -733,14 +733,14 @@
         "D) 1/2"
       ],
       "correct_option": "C",
-      "explanation": "\\( Area=∫₀¹(x-x²)dx=[x²/2-x³/3]₀¹=\\frac{1}{2}-\\frac{1}{3}=\\frac{1}{6}. \\)"
+      "explanation": "$Area=∫₀¹(x-x²)dx=[x²/2-x³/3]₀¹=$1$-$1$=$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q49",
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "hard",
-      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right|=5, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 matrix with \\left| A \\right|=5, then \\left| A \\right| equals:",
       "options": [
         "A) 5",
         "B) 125",
@@ -748,7 +748,7 @@
         "D) 15"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right|=\\left| \\1 \\right|^(n-1)=5²=25 for 3×3 matrix. \\)"
+      "explanation": "$\\left| A \\right|=\\left| A \\right|^(n-1)=5²=25 for 3×3 matrix.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q50",
@@ -763,7 +763,7 @@
         "D) No solution"
       ],
       "correct_option": "A",
-      "explanation": "\\( We check consistency using rank methods. Second equation is 3 \\times the first. rank(A)=rank([A|B])=1<2. Infinitely many solutions. \\)"
+      "explanation": "We check consistency using rank methods. Second equation is 3 × the first. rank(A)=rank([A|B])=1<2. Infinitely many solutions."
     }
   ]
 }

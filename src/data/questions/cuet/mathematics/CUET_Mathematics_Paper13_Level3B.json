@@ -43,7 +43,7 @@
         "D) -π/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( The complex number -1 + i lies \\in the second quadrant. arg(z) = π - \\tan⁻¹(\\left| \\1 \\right|) = π - \\tan⁻¹(1) = π - π/4 = 3π/4. \\)"
+      "explanation": "The complex number -1 + i lies ∈ the second quadrant. arg(z) = π - tan⁻¹(\\left| A \\right|) = π - tan⁻¹(1) = π - π/4 = 3π/4."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q03",
@@ -103,7 +103,7 @@
         "D) 1/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( There are 13 spades \\in 52 cards. P(spade) = \\frac{13}{52} = \\frac{1}{4}. \\)"
+      "explanation": "There are 13 spades ∈ 52 cards. P(spade) = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q07",
@@ -133,7 +133,7 @@
         "D) √7"
       ],
       "correct_option": "B",
-      "explanation": "\\( Distance = \\sqrt{(3-0}² + (4-0)² + (0-0)²) = \\sqrt{9 + 16} = \\sqrt{25} = 5. \\)"
+      "explanation": "$Distance = $1$² + (4-0)² + (0-0)²) = $1$ = $1$ = 5.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q09",
@@ -170,7 +170,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Types of relations",
       "difficulty": "easy",
-      "question": "\\( Find the domain of the function: The domain of f(x) = \\sqrt{x+1} is: \\)",
+      "question": "Find the domain of the function: The domain of f(x) = $1$ is:",
       "options": [
         "A) All real numbers",
         "B) x ≥ 0",
@@ -178,7 +178,7 @@
         "D) x ≥ -1"
       ],
       "correct_option": "D",
-      "explanation": "\\( The domain is the set of all x-values for which the function is defined. For \\sqrt{x+1} to be real, x+1 ≥ 0, so x ≥ -1. \\)"
+      "explanation": "The domain is the set of all x-values for which the function is defined. For $1$ to be real, x+1 ≥ 0, so x ≥ -1."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q12",
@@ -200,7 +200,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "\\( Evaluate the limit: \\lim(x→0) (\\sin x)/x equals: \\)",
+      "question": "Evaluate the limit: \\lim(x→0) (sin x)/x equals:",
       "options": [
         "A) Does not exist",
         "B) 0",
@@ -208,7 +208,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( We use standard limit formulas and techniques. This is a standard limit: \\lim(x→0) \\sin(x)/x = 1. \\)"
+      "explanation": "We use standard limit formulas and techniques. This is a standard limit: \\lim(x→0) sin(x)/x = 1."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q14",
@@ -260,7 +260,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( The determinant of the triangular matrix \\left| \\1 \\right| is: \\)",
+      "question": "The determinant of the triangular matrix \\left| A \\right| is:",
       "options": [
         "A) 6",
         "B) 0",
@@ -283,7 +283,7 @@
         "D) 2/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Integral of x^{2} dx from 0 to 1 = [x^\\frac{3}{3}] from 0 to 1 = \\frac{1}{3}. \\)"
+      "explanation": "Integral of x^{2} dx from 0 to 1 = [x^$1$] from 0 to 1 = $1$."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q19",
@@ -298,14 +298,14 @@
         "D) 7"
       ],
       "correct_option": "A",
-      "explanation": "\\( Magnitude = \\sqrt{5² + 12²} = \\sqrt{25 + 144} = \\sqrt{169} = 13. \\)"
+      "explanation": "$Magnitude = $1$ = $1$ = $1$ = 13.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q20",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Definition and basic concepts",
       "difficulty": "easy",
-      "question": "\\( Find the value of the identity \\sin inverse x plus \\cos inverse x. \\)",
+      "question": "Find the value of the identity sin inverse x plus cos inverse x.",
       "options": [
         "A) π",
         "B) 0",
@@ -313,14 +313,14 @@
         "D) π/4"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\sin^{-1}(x) + \\cos^{-1}(x) = \\pi/2 for all x \\in [-1, 1]. \\)"
+      "explanation": "sin^{-1}(x) + cos^{-1}(x) = π/2 for all x ∈ [-1, 1]."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q21",
       "topic": "Linear Programming",
       "sub_topic": "Introduction and related terminology",
       "difficulty": "easy",
-      "question": "\\( The constraint x ≥ 0 \\in linear programming restricts the solution to the: \\)",
+      "question": "The constraint x ≥ 0 ∈ linear programming restricts the solution to the:",
       "options": [
         "A) Right half plane",
         "B) Upper half plane",
@@ -403,14 +403,14 @@
         "D) 4"
       ],
       "correct_option": "A",
-      "explanation": "\\( AX = B where A = [1 1; 2 3], B = [3; 8]. \\left| \\1 \\right| = 1. A⁻¹ = [3 -1; -2 1]. X = A⁻¹B = [3×3-1×8; -2×3+1×8] = [1; 2]. So x = 1. \\)"
+      "explanation": "AX = B where A = [1 1; 2 3], B = [3; 8]. \\left| A \\right| = 1. A⁻¹ = [3 -1; -2 1]. X = A⁻¹B = [3×3-1×8; -2×3+1×8] = [1; 2]. So x = 1."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q27",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( Find the value: If \\left| \\1 \\right| = 2, then x equals: \\)",
+      "question": "Find the value: If \\left| A \\right| = 2, then x equals:",
       "options": [
         "A) 3",
         "B) 1",
@@ -418,7 +418,7 @@
         "D) 4"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right| = 2×4 - 3x = 8 - 3x = 2. So 3x = 6, x = 2. This result follows from standard mathematical principles. \\)"
+      "explanation": "\\left| A \\right| = 2×4 - 3x = 8 - 3x = 2. So 3x = 6, x = 2. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q28",
@@ -478,7 +478,7 @@
         "D) 5/28"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(both red) = (\\frac{3}{8}) × (\\frac{2}{7}) = \\frac{6}{56} = \\frac{3}{28}. \\)"
+      "explanation": "$P(both red) = ($1$) × ($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q32",
@@ -493,7 +493,7 @@
         "D) i - 5j - 7k"
       ],
       "correct_option": "B",
-      "explanation": "\\( a×b = \\left| \\1 \\right| = i(2-3) - j(-4-1) + k(6+1) = -i + 5j + 7k. \\)"
+      "explanation": "$a×b = \\left| A \\right| = i(2-3) - j(-4-1) + k(6+1) = -i + 5j + 7k.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q33",
@@ -538,7 +538,7 @@
         "D) y = Ce^(-2x)"
       ],
       "correct_option": "B",
-      "explanation": "\\( We use standard methods for solving differential equations. Separating variables: dy/y = 2dx. Integrating: \\ln\\left| \\1 \\right| = 2x + C₁, so y = Ce^{(2x)}. \\)"
+      "explanation": "We use standard methods for solving differential equations. Separating variables: dy/y = 2dx. Integrating: \\ln\\left| A \\right| = 2x + C₁, so y = Ce^{(2x)}."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q36",
@@ -553,7 +553,7 @@
         "D) 5/4 m/s"
       ],
       "correct_option": "C",
-      "explanation": "\\( x² + y² = 25. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=3, y=4: 2(3)(1) + 2(4)(dy/dt) = 0, so dy/dt = -\\frac{6}{8} = -\\frac{3}{4} m/s. Speed = \\frac{3}{4} m/s. \\)"
+      "explanation": "x² + y² = 25. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=3, y=4: 2(3)(1) + 2(4)(dy/dt) = 0, so dy/dt = -$1$ = -$1$ m/s. Speed = $1$ m/s."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q37",
@@ -583,14 +583,14 @@
         "D) 3/5"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using Bayes' theorem: P(Bag1\\left| \\1 \\right|Bag1)·P(Bag1) / [P(Red\\left| \\1 \\right|Bag2)·P(Bag2)] = (\\frac{2}{5})(\\frac{1}{2}) / [(\\frac{2}{5})(\\frac{1}{2}) + (\\frac{3}{5})(\\frac{1}{2})] = (\\frac{1}{5}) / (\\frac{1}{2}) = \\frac{2}{5}. \\)"
+      "explanation": "$Using Bayes' theorem: P(Bag1\\left| A \\right|Bag1)·P(Bag1) / [P(Red\\left| A \\right|Bag2)·P(Bag2)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q39",
       "topic": "Matrices",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "medium",
-      "question": "\\( The \\sum of the first 10 terms of the arithmetic progression 2, 5, 8, ... is: \\)",
+      "question": "The ∑ of the first 10 terms of the arithmetic progression 2, 5, 8, ... is:",
       "options": [
         "A) 160",
         "B) 155",
@@ -598,7 +598,7 @@
         "D) 145"
       ],
       "correct_option": "B",
-      "explanation": "\\( First term a = 2, common difference d = 3. Sum of first n terms: S_n = n/2 × (2a + (n-1)d). S₁₀ = \\frac{10}{2} × (2×2 + 9×3) = 5 × (4 + 27) = 5 × 31 = 155. \\)"
+      "explanation": "First term a = 2, common difference d = 3. Sum of first n terms: S_n = n/2 × (2a + (n-1)d). S₁₀ = $1$ × (2×2 + 9×3) = 5 × (4 + 27) = 5 × 31 = 155."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q40",
@@ -628,7 +628,7 @@
         "D) 1/2[4 -2; -3 1]"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 1×4 - 2×3 = -2. adj(A) = [4 -2; -3 1]. A⁻¹ = adj(A)/\\left| \\1 \\right| = 1/(-2)[4 -2; -3 1]. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. \\left| A \\right| = 1×4 - 2×3 = -2. adj(A) = [4 -2; -3 1]. A⁻¹ = adj(A)/\\left| A \\right| = 1/(-2)[4 -2; -3 1]."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q42",
@@ -643,7 +643,7 @@
         "D) e^(x²)"
       ],
       "correct_option": "C",
-      "explanation": "\\( For dy/dx + P(x)y = Q(x), integrating factor = e^{(∫P(x)}dx). Here P(x) = 2/x, so IF = e^{(∫2/x dx)} = e^{(2ln\\left| \\1 \\right|)} = e^{(\\ln x²)} = x². \\)"
+      "explanation": "For dy/dx + P(x)y = Q(x), integrating factor = e^{(∫P(x)}dx). Here P(x) = 2/x, so IF = e^{(∫2/x dx)} = e^{(2ln\\left| A \\right|)} = e^{(\\ln x²)} = x²."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q43",
@@ -703,7 +703,7 @@
         "D) 11/16"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(X ≥ 3) = P(X=3) + P(X=4) = C(4,3)(0.5)³(0.5) + C(4,4)(0.5)⁴ = \\frac{4}{16} + \\frac{1}{16} = \\frac{5}{16}. \\)"
+      "explanation": "$P(X ≥ 3) = P(X=3) + P(X=4) = C(4,3)(0.5)³(0.5) + C(4,4)(0.5)⁴ = $1$ + $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q47",
@@ -718,7 +718,7 @@
         "D) 1/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let a₁ = i+j, b₁ = 2i-j+k, a₂ = 2i+k, b₂ = i+j-k. a₂-a₁ = i-k. b₁×b₂ = \\left| \\1 \\right| = i(1-1) - j(-2-1) + k(2+1) = 3j + 3k. (a₂-a₁)·(b₁×b₂) = (i-k)·(3j+3k) = -3. \\left| \\1 \\right| = \\sqrt{9+9} = 3\\sqrt{2}. Distance = \\left| \\1 \\right|/(3\\sqrt{2}) = 1/\\sqrt{2}. \\)"
+      "explanation": "Let a₁ = i+j, b₁ = 2i-j+k, a₂ = 2i+k, b₂ = i+j-k. a₂-a₁ = i-k. b₁×b₂ = \\left| A \\right| = i(1-1) - j(-2-1) + k(2+1) = 3j + 3k. (a₂-a₁)·(b₁×b₂) = (i-k)·(3j+3k) = -3. \\left| A \\right| = $1$ = 3$1$. Distance = \\left| A \\right|/(3$1$) = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q48",
@@ -733,14 +733,14 @@
         "D) 3e⁻²"
       ],
       "correct_option": "D",
-      "explanation": "\\( Separating variables: dy/y = -2dx. Integrating: \\ln\\left| \\1 \\right| = -2x + C₁, so y = Ce^{(-2x)}. Using y(0)=3: C=3. So y = 3e^{(-2x)}. At x=1: y(1) = 3e⁻². \\)"
+      "explanation": "Separating variables: dy/y = -2dx. Integrating: \\ln\\left| A \\right| = -2x + C₁, so y = Ce^{(-2x)}. Using y(0)=3: C=3. So y = 3e^{(-2x)}. At x=1: y(1) = 3e⁻²."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q49",
       "topic": "Applications of Derivatives",
       "sub_topic": "Maxima and minima",
       "difficulty": "hard",
-      "question": "\\( The maximum volume of a cylinder inscribed \\in a sphere of radius R is: \\)",
+      "question": "The maximum volume of a cylinder inscribed ∈ a sphere of radius R is:",
       "options": [
         "A) 4πR³/9",
         "B) 4πR³/(3√3)",
@@ -748,7 +748,7 @@
         "D) πR³/√3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let cylinder have radius r and height h. From geometry: r² + (h/2)² = R². Volume V = πr²h = π(R² - h²/4)h = π(R²h - h³/4). dV/dh = π(R² - 3h²/4) = 0 → h = 2R/\\sqrt{3}. Then r² = R² - R²/3 = 2R²/3. V = π(2R²/3)(2R/\\sqrt{3}) = 4πR³/(3\\sqrt{3}). \\)"
+      "explanation": "Let cylinder have radius r and height h. From geometry: r² + (h/2)² = R². Volume V = πr²h = π(R² - h²/4)h = π(R²h - h³/4). dV/dh = π(R² - 3h²/4) = 0 → h = 2R/$1$. Then r² = R² - R²/3 = 2R²/3. V = π(2R²/3)(2R/$1$) = 4πR³/(3$1$)."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q50",
@@ -763,7 +763,7 @@
         "D) 1"
       ],
       "correct_option": "A",
-      "explanation": "\\( [a b c] = a·(b×c). b×c = \\left| \\1 \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(b×c) = (i+j)·(i+j-k) = 1 + 1 + 0 = 2. \\)"
+      "explanation": "$[a b c] = a·(b×c). b×c = \\left| A \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(b×c) = (i+j)·(i+j-k) = 1 + 1 + 0 = 2.$"
     }
   ]
 }

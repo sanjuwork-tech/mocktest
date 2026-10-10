@@ -35,7 +35,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( If A = [[3, 1], [2, 4]], what is the value of \\left| \\1 \\right|? \\)",
+      "question": "If A = [[3, 1], [2, 4]], what is the value of \\left| A \\right|?",
       "options": [
         "A) 100",
         "B) 10",
@@ -43,7 +43,7 @@
         "D) 50"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\left| \\1 \\right| = 3×4 − 1×2 = 10. \\left| \\1 \\right| = \\left| \\1 \\right|² = 100. The determinant of a matrix squared equals the square of the determinant. \\)"
+      "explanation": "\\left| A \\right| = 3×4 − 1×2 = 10. \\left| A \\right| = \\left| A \\right|² = 100. The determinant of a matrix squared equals the square of the determinant."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q03",
@@ -58,14 +58,14 @@
         "D) 32"
       ],
       "correct_option": "A",
-      "explanation": "\\( Multiplying the first row by 2 multiplies the determinant by 2. So \\left| \\1 \\right| = 2 × 8 = 16. \\)"
+      "explanation": "Multiplying the first row by 2 multiplies the determinant by 2. So \\left| A \\right| = 2 × 8 = 16."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q04",
       "topic": "Probability",
       "sub_topic": "Conditional probability",
       "difficulty": "easy",
-      "question": "\\( A fair die is rolled twice. What is the probability that the \\sum of the two rolls is 7? \\)",
+      "question": "A fair die is rolled twice. What is the probability that the ∑ of the two rolls is 7?",
       "options": [
         "A) 1/6",
         "B) 1/12",
@@ -73,7 +73,7 @@
         "D) 7/36"
       ],
       "correct_option": "A",
-      "explanation": "\\( There are 6 outcomes that give \\sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Total outcomes = 36. P = \\frac{6}{36} = \\frac{1}{6}. \\)"
+      "explanation": "There are 6 outcomes that give ∑ 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Total outcomes = 36. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q05",
@@ -88,14 +88,14 @@
         "D) 840"
       ],
       "correct_option": "A",
-      "explanation": "\\( C(7,3) = 7!/(3!×4!) = (7×6×5)/(3×2×1) = 35. This is a combination problem since order does not matter \\in a committee. \\)"
+      "explanation": "C(7,3) = 7!/(3!×4!) = (7×6×5)/(3×2×1) = 35. This is a combination problem since order does not matter ∈ a committee."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q06",
       "topic": "Probability",
       "sub_topic": "Bernoulli trials and Binomial distribution",
       "difficulty": "easy",
-      "question": "\\( A fair coin is tossed 4 \\times. What is the probability of getting at least 3 heads? \\)",
+      "question": "A fair coin is tossed 4 ×. What is the probability of getting at least 3 heads?",
       "options": [
         "A) 5/16",
         "B) 1/4",
@@ -103,7 +103,7 @@
         "D) 3/8"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X≥3) = P(X=3) + P(X=4) = C(4,3)(\\frac{1}{2})⁴ + C(4,4)(\\frac{1}{2})⁴ = \\frac{4}{16} + \\frac{1}{16} = \\frac{5}{16}. \\)"
+      "explanation": "$P(X≥3) = P(X=3) + P(X=4) = C(4,3)($1$)⁴ + C(4,4)($1$)⁴ = $1$ + $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q07",
@@ -140,7 +140,7 @@
       "topic": "Matrices",
       "sub_topic": "Invertible matrices and uniqueness of inverse",
       "difficulty": "easy",
-      "question": "\\( If A is a 2×2 matrix with \\left| \\1 \\right| = 0, which of the following is true? \\)",
+      "question": "If A is a 2×2 matrix with \\left| A \\right| = 0, which of the following is true?",
       "options": [
         "A) A is invertible",
         "B) A is singular",
@@ -148,7 +148,7 @@
         "D) A is non-singular"
       ],
       "correct_option": "B",
-      "explanation": "\\( A matrix with determinant zero is called singular and does not have an inverse. Only non-singular matrices (\\left| \\1 \\right| ≠ 0) are invertible. \\)"
+      "explanation": "A matrix with determinant zero is called singular and does not have an inverse. Only non-singular matrices (\\left| A \\right| ≠ 0) are invertible."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q10",
@@ -170,7 +170,7 @@
       "topic": "Matrices",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "easy",
-      "question": "\\( In a binomial distribution with n=6 and p=\\frac{1}{3}, the mean is: \\)",
+      "question": "In a binomial distribution with n=6 and p=$1$, the mean is:",
       "options": [
         "A) 6",
         "B) 3",
@@ -178,7 +178,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( Mean = np = 6 * (\\frac{1}{3}) = 2. This result follows from the fundamental principles of mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "Mean = np = 6 * ($1$) = 2. This result follows from the fundamental principles of mathematics. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q12",
@@ -208,14 +208,14 @@
         "D) 4"
       ],
       "correct_option": "C",
-      "explanation": "\\( Integral from 0 to 2 of (3x+1) dx = [3x^\\frac{2}{2} + x] from 0 to 2 = 6 + 2 = 8. \\)"
+      "explanation": "Integral from 0 to 2 of (3x+1) dx = [3x^$1$ + x] from 0 to 2 = 6 + 2 = 8."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q14",
       "topic": "Matrices",
       "sub_topic": "Algebra of Matrices",
       "difficulty": "easy",
-      "question": "\\( If A is a 3x3 matrix with \\left| \\1 \\right| = 3, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3x3 matrix with \\left| A \\right| = 3, then \\left| A \\right| equals:",
       "options": [
         "A) 27",
         "B) 243",
@@ -223,7 +223,7 @@
         "D) 9"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = 3^3 * \\left| \\1 \\right| = 27 * 3 = 81. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = 3^3 * \\left| A \\right| = 27 * 3 = 81. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q15",
@@ -245,7 +245,7 @@
       "topic": "Probability",
       "sub_topic": "Conditional probability",
       "difficulty": "easy",
-      "question": "\\( Two dice are rolled. The probability that the \\sum is 10 is: \\)",
+      "question": "Two dice are rolled. The probability that the ∑ is 10 is:",
       "options": [
         "A) 1/6",
         "B) 1/9",
@@ -253,14 +253,14 @@
         "D) 1/12"
       ],
       "correct_option": "D",
-      "explanation": "\\( Favorable outcomes: (4,6), (5,5), (6,4). P = \\frac{3}{36} = \\frac{1}{12}. \\)"
+      "explanation": "$Favorable outcomes: (4,6), (5,5), (6,4). P = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q17",
       "topic": "Matrices",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "easy",
-      "question": "\\( Find the value: The value of \\sec^{(-1)}(2) is: \\)",
+      "question": "Find the value: The value of \\sec^{(-1)}(2) is:",
       "options": [
         "A) pi/3",
         "B) pi/2",
@@ -268,14 +268,14 @@
         "D) pi/4"
       ],
       "correct_option": "A",
-      "explanation": "\\( Inverse trigonometric functions return the angle whose trigonometric ratio equals the given value. \\sec(\\pi/3) = 2, so \\sec^{(-1)}(2) = \\pi/3. The principal value is chosen to make the function one-to-one. This result follows from standard mathematical principles. \\)"
+      "explanation": "Inverse trigonometric functions return the angle whose trigonometric ratio equals the given value. \\sec(π/3) = 2, so \\sec^{(-1)}(2) = π/3. The principal value is chosen to make the function one-to-one. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q18",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "\\( Analyze the given function: The function f(x) = \\ln(x) is: \\)",
+      "question": "Analyze the given function: The function f(x) = \\ln(x) is:",
       "options": [
         "A) Constant",
         "B) Decreasing on (0, infinity)",
@@ -283,7 +283,7 @@
         "D) Neither increasing nor decreasing"
       ],
       "correct_option": "C",
-      "explanation": "\\( We analyze the function using standard techniques. f'(x) = 1/x > 0 for x > 0, so f is increasing on (0, \\infty). \\)"
+      "explanation": "We analyze the function using standard techniques. f'(x) = 1/x > 0 for x > 0, so f is increasing on (0, ∞)."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q19",
@@ -313,7 +313,7 @@
         "D) e^(2x)"
       ],
       "correct_option": "A",
-      "explanation": "\\( The derivative of e^{(kx)} is k·e^{(kx)} by the chain rule. f'(x) = 2e^{(2x)} by chain rule. Exponential functions are unique \\in being proportional to their own derivative. This result follows from standard mathematical principles. \\)"
+      "explanation": "The derivative of e^{(kx)} is k·e^{(kx)} by the chain rule. f'(x) = 2e^{(2x)} by chain rule. Exponential functions are unique ∈ being proportional to their own derivative. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q21",
@@ -328,7 +328,7 @@
         "D) 3/14"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(both green) = (\\frac{5}{8}) * (\\frac{4}{7}) = \\frac{20}{56} = \\frac{5}{14}. \\)"
+      "explanation": "$P(both green) = ($1$) * ($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q22",
@@ -350,7 +350,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "easy",
-      "question": "\\( The value of integral from 0 to \\pi/2 of \\sin x dx is: \\)",
+      "question": "The value of integral from 0 to π/2 of sin x dx is:",
       "options": [
         "A) 1",
         "B) 2",
@@ -358,14 +358,14 @@
         "D) pi/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( Integral from 0 to \\pi/2 of \\sin x dx = [-\\cos x] from 0 to \\pi/2 = 0 - (-1) = 1. \\)"
+      "explanation": "Integral from 0 to π/2 of sin x dx = [-cos x] from 0 to π/2 = 0 - (-1) = 1."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q24",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "\\( Find the value of the function/derivative: If f(x) = \\cos x, then f'(\\pi) equals: \\)",
+      "question": "Find the value of the function/derivative: If f(x) = cos x, then f'(π) equals:",
       "options": [
         "A) 0",
         "B) -1",
@@ -373,7 +373,7 @@
         "D) pi"
       ],
       "correct_option": "A",
-      "explanation": "\\( We apply the standard rules of differentiation. f'(x) = -\\sin x, so f'(\\pi) = -\\sin(\\pi) = 0. \\)"
+      "explanation": "We apply the standard rules of differentiation. f'(x) = -sin x, so f'(π) = -sin(π) = 0."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q25",
@@ -388,7 +388,7 @@
         "D) 8"
       ],
       "correct_option": "B",
-      "explanation": "\\( Number of arrangements = 4! = 24. This result follows from the fundamental principles of mathematics. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "Number of arrangements = 4! = 24. This result follows from the fundamental principles of mathematics. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q26",
@@ -403,7 +403,7 @@
         "D) Decreasing on (-infinity, infinity)"
       ],
       "correct_option": "C",
-      "explanation": "\\( We analyze the function using standard techniques. f'(x) = 3x^{2} >= 0 for all x, so f is increasing on (-\\infty, \\infty). \\)"
+      "explanation": "We analyze the function using standard techniques. f'(x) = 3x^{2} >= 0 for all x, so f is increasing on (-∞, ∞)."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q27",
@@ -448,7 +448,7 @@
         "D) 30"
       ],
       "correct_option": "D",
-      "explanation": "\\( Area = \\frac{1}{2} * base * height = \\frac{1}{2} * 5 * 12 = 30. \\)"
+      "explanation": "Area = $1$ * base * height = $1$ * 5 * 12 = 30."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q30",
@@ -478,7 +478,7 @@
         "D) [[-1,1],[2,-3]]"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right| = 3-2 = 1. adj(A) = [[1,-1],[-2,3]]. So A^{(-1)} = adj(A)/\\left| \\1 \\right| = [[1,-1],[-2,3]]. \\)"
+      "explanation": "$\\left| A \\right| = 3-2 = 1. adj(A) = [[1,-1],[-2,3]]. So A^{(-1)} = adj(A)/\\left| A \\right| = [[1,-1],[-2,3]].$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q32",
@@ -500,7 +500,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "medium",
-      "question": "\\( Evaluate the indefinite integral ∫ \\sin x dx. \\)",
+      "question": "Evaluate the indefinite integral ∫ sin x dx.",
       "options": [
         "A) x*cos x - sin x + C",
         "B) -x*cos x + sin x + C",
@@ -508,7 +508,7 @@
         "D) x*sin x + cos x + C"
       ],
       "correct_option": "B",
-      "explanation": "\\( The integral of \\sin x is −\\cos x + C, since d/dx(−\\cos x) = \\sin x. This is a standard integral from the basic integration formulas. \\)"
+      "explanation": "The integral of sin x is −cos x + C, since d/dx(−cos x) = sin x. This is a standard integral from the basic integration formulas."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q34",
@@ -523,7 +523,7 @@
         "D) y = Ce^(-2x)"
       ],
       "correct_option": "D",
-      "explanation": "\\( This is a separable equation: dy/y = -2dx. Integrating: \\ln\\left| \\1 \\right| = -2x + C, so y = Ce^{(-2x)}. \\)"
+      "explanation": "This is a separable equation: dy/y = -2dx. Integrating: \\ln\\left| A \\right| = -2x + C, so y = Ce^{(-2x)}."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q35",
@@ -538,7 +538,7 @@
         "D) 0.6"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(A|B) = P(A intersect B)/P(B) = 0.\\frac{3}{0}.5 = 0.6. \\)"
+      "explanation": "$P(A|B) = P(A intersect B)/P(B) = 0.$1$.5 = 0.6.$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q36",
@@ -553,7 +553,7 @@
         "D) pi/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( a.b = 4, \\left| \\1 \\right| = \\left| \\1 \\right| = \\sqrt{5}. \\cos \\theta = \\frac{4}{5}, so \\theta = \\cos^{(-1)}(\\frac{4}{5}). \\)"
+      "explanation": "a.b = 4, \\left| A \\right| = \\left| A \\right| = $1$. cos θ = $1$, so θ = cos^{(-1)}($1$)."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q37",
@@ -575,7 +575,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "medium",
-      "question": "\\( The value of integral from 0 to \\pi/2 of \\cos^{2}x dx is: \\)",
+      "question": "The value of integral from 0 to π/2 of cos^{2}x dx is:",
       "options": [
         "A) pi/2",
         "B) pi/3",
@@ -583,7 +583,7 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using \\cos^{2}x = (1+cos2x)/2: Integral from 0 to \\pi/2 of \\cos^{2}x dx = [x/2 + sin2x/4] from 0 to \\pi/2 = \\pi/4. \\)"
+      "explanation": "Using cos^{2}x = (1+cos2x)/2: Integral from 0 to π/2 of cos^{2}x dx = [x/2 + sin2x/4] from 0 to π/2 = π/4."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q39",
@@ -598,7 +598,7 @@
         "D) 5/16"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(X=3) = C(6,3) * (0.5)^6 = \\frac{20}{64} = \\frac{5}{16}. \\)"
+      "explanation": "$P(X=3) = C(6,3) * (0.5)^6 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q40",
@@ -613,7 +613,7 @@
         "D) x = 0, +/-2"
       ],
       "correct_option": "A",
-      "explanation": "\\( f'(x) = 4x^{3} - 8x = 4x(x^{2}-2) = 0 -> x = 0, +/-\\sqrt{2}. \\)"
+      "explanation": "$f'(x) = 4x^{3} - 8x = 4x(x^{2}-2) = 0 -> x = 0, +/-$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q41",
@@ -628,14 +628,14 @@
         "D) sqrt(3)"
       ],
       "correct_option": "A",
-      "explanation": "\\( d1 = (1,0,0), d2 = (0,1,0), d1 x d2 = (0,0,1). Vector between points = (-1,1,1). Distance = \\left| \\1 \\right|/1 = 1. \\)"
+      "explanation": "d1 = (1,0,0), d2 = (0,1,0), d1 x d2 = (0,0,1). Vector between points = (-1,1,1). Distance = \\left| A \\right|/1 = 1."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q42",
       "topic": "Matrices",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "medium",
-      "question": "\\( The value of \\lim(x->0) (1 - \\cos x)/x^{2} is: \\)",
+      "question": "The value of \\lim(x->0) (1 - cos x)/x^{2} is:",
       "options": [
         "A) 0",
         "B) 1",
@@ -643,7 +643,7 @@
         "D) 2"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using L'Hopital's rule twice: \\lim(x->0) (1-cosx)/x^{2} = \\lim(x->0) sinx/(2x) = \\lim(x->0) cosx/2 = \\frac{1}{2}. \\)"
+      "explanation": "Using L'Hopital's rule twice: \\lim(x->0) (1-cosx)/x^{2} = \\lim(x->0) sinx/(2x) = \\lim(x->0) cosx/2 = $1$."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q43",
@@ -673,7 +673,7 @@
         "D) 1/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( Area = Integral from 0 to 1 of (x-x^{3})dx + Integral from -1 to 0 of (x^{3}-x)dx = [x^\\frac{2}{2}-x^\\frac{4}{4}] from 0 to 1 + [x^\\frac{4}{4}-x^\\frac{2}{2}] from -1 to 0 = \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}. \\)"
+      "explanation": "Area = Integral from 0 to 1 of (x-x^{3})dx + Integral from -1 to 0 of (x^{3}-x)dx = [x^$1$-x^$1$] from 0 to 1 + [x^$1$-x^$1$] from -1 to 0 = $1$ + $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q45",
@@ -718,7 +718,7 @@
         "D) sqrt(30)/30"
       ],
       "correct_option": "A",
-      "explanation": "\\( d1 x d2 = (-2,-5,-1), \\left| \\1 \\right| = \\sqrt{30}. Vector between points = (1,0,-1). Distance = \\left| \\1 \\right|/\\sqrt{30} = 1/\\sqrt{30}. \\)"
+      "explanation": "d1 x d2 = (-2,-5,-1), \\left| A \\right| = $1$. Vector between points = (1,0,-1). Distance = \\left| A \\right|/$1$ = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q48",
@@ -740,7 +740,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( The value of integral from 0 to \\infty of x^{3}*e^{(-x)} dx is: \\)",
+      "question": "The value of integral from 0 to ∞ of x^{3}*e^{(-x)} dx is:",
       "options": [
         "A) 2",
         "B) 3",
@@ -748,7 +748,7 @@
         "D) 24"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using Gamma function: Integral from 0 to \\infty of x^{3}*e^{(-x)} dx = Gamma(4) = 3! = 6. \\)"
+      "explanation": "Using Gamma function: Integral from 0 to ∞ of x^{3}*e^{(-x)} dx = Gamma(4) = 3! = 6."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q50",
@@ -763,7 +763,7 @@
         "D) 8"
       ],
       "correct_option": "D",
-      "explanation": "\\( For reflexive: all (a,a) must be \\in R. For symmetric: choose any \\subset of the 3 symmetric pairs {(1,2),(2,1)}, {(1,3),(3,1)}, {(2,3),(3,2)}. So 2^3 = 8. \\)"
+      "explanation": "For reflexive: all (a,a) must be ∈ R. For symmetric: choose any ⊂ of the 3 symmetric pairs {(1,2),(2,1)}, {(1,3),(3,1)}, {(2,3),(3,2)}. So 2^3 = 8."
     }
   ]
 }

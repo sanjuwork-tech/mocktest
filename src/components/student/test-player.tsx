@@ -12,6 +12,7 @@ import {
   CloudCheck,
   CloudAlert,
   Loader2,
+  Timer,
 } from "lucide-react";
 import { questionsFor } from "@/data/student/bank";
 import {
@@ -280,12 +281,19 @@ export function TestPlayer({ subject }: { subject: Subject }) {
     answered(q, attempt?.responses[q.id]),
   ).length;
 
-  const remaining = Math.max(
+    const remaining = Math.max(
     0,
     Math.ceil(
       ((attempt?.deadline ?? 0) - (now || attempt?.startedAt || 0)) / 1000,
     ),
   );
+
+  const questionSeconds = Math.round(attempt?.responses[q?.id]?.seconds ?? 0);
+  const formatQTime = (sec: number) => {
+    const m = Math.floor(sec / 60);
+    const s = sec % 60;
+    return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+  };
 
   return (
     <StudentShell>
@@ -354,25 +362,43 @@ export function TestPlayer({ subject }: { subject: Subject }) {
               <p className="eyebrow">{info.title} · Diagnostic Mock</p>
               <h1>Stay curious. Keep going.</h1>
             </div>
-            <div
-              className={`test-clock ${remaining < 300 ? "clock-low" : ""}`}
-              aria-label="Time remaining"
-            >
-              <Clock3 size={22} />
-              <strong>
-                {Math.floor(remaining / 60)
-                  .toString()
-                  .padStart(2, "0")}
-                :{(remaining % 60).toString().padStart(2, "0")}
-              </strong>
-              <span>remaining</span>
+            <div style={{ display: "flex", gap: "10px", alignItems: "center", flexWrap: "wrap" }}>
+              <div
+                className="test-clock"
+                style={{ background: "#f8fafc", borderColor: "#cbd5e1", color: "#334155" }}
+                aria-label="Current question timer"
+                title="Time spent on this question"
+              >
+                <Timer size={18} style={{ color: "var(--blue)" }} />
+                <strong>{formatQTime(questionSeconds)}</strong>
+                <span>this question</span>
+              </div>
+              <div
+                className={`test-clock ${remaining < 300 ? "clock-low" : ""}`}
+                aria-label="Time remaining in test"
+              >
+                <Clock3 size={22} />
+                <strong>
+                  {Math.floor(remaining / 60)
+                    .toString()
+                    .padStart(2, "0")}
+                  :{(remaining % 60).toString().padStart(2, "0")}
+                </strong>
+                <span>remaining</span>
+              </div>
             </div>
           </div>
           <div className="test-layout">
             <section className="student-panel question-panel">
-              <div className="question-meta">
-                <span>{TYPE_LABELS[q.type]}</span>
-                <span>{q.difficulty} · +4 / −1</span>
+              <div className="question-meta" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "8px" }}>
+                <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+                  <span>{TYPE_LABELS[q.type]}</span>
+                  <span>{q.difficulty} · +4 / −1</span>
+                </div>
+                <div style={{ display: "inline-flex", alignItems: "center", gap: "5px", fontSize: "12px", color: "var(--blue)", background: "#eff6ff", padding: "3px 8px", borderRadius: "6px", fontWeight: 600 }}>
+                  <Timer size={13} />
+                  <span>Question time: {formatQTime(questionSeconds)}</span>
+                </div>
               </div>
               <h2 ref={heading} tabIndex={-1}>
                 Question {current + 1}

@@ -20,7 +20,7 @@
       "topic": "Matrices",
       "sub_topic": "Equality of matrices",
       "difficulty": "easy",
-      "question": "\\( If A is a 3×3 matrix with all diagonal entries equal to 2 and all other entries 0, what is \\left| \\1 \\right|? \\)",
+      "question": "If A is a 3×3 matrix with all diagonal entries equal to 2 and all other entries 0, what is \\left| A \\right|?",
       "options": [
         "A) 4",
         "B) 8",
@@ -35,7 +35,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( What is the value of the determinant \\left| \\1 \\right|? \\)",
+      "question": "What is the value of the determinant \\left| A \\right|?",
       "options": [
         "A) 10",
         "B) 30",
@@ -65,7 +65,7 @@
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Definition and basic concepts",
       "difficulty": "easy",
-      "question": "\\( What is the principal value of \\tan⁻¹(1)? \\)",
+      "question": "What is the principal value of tan⁻¹(1)?",
       "options": [
         "A) π/3",
         "B) π/4",
@@ -73,14 +73,14 @@
         "D) π/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( Inverse trigonometric functions return the angle whose trigonometric ratio equals the given value. \\tan(π/4) = 1, so \\tan⁻¹(1) = π/4. The principal value is chosen to make the function one-to-one. \\)"
+      "explanation": "Inverse trigonometric functions return the angle whose trigonometric ratio equals the given value. tan(π/4) = 1, so tan⁻¹(1) = π/4. The principal value is chosen to make the function one-to-one."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q05",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "\\( Analyze the given function: The function f(x) = \\left| \\1 \\right| is: \\)",
+      "question": "Analyze the given function: The function f(x) = \\left| A \\right| is:",
       "options": [
         "A) Not differentiable at x=1",
         "B) Differentiable everywhere",
@@ -88,7 +88,7 @@
         "D) Not continuous at x=0"
       ],
       "correct_option": "C",
-      "explanation": "\\( We analyze the function using standard techniques. f(x) = \\left| \\1 \\right| is continuous everywhere but has a sharp corner at x=0 where the left and right derivatives differ (-1 vs 1), so it's not differentiable at x=0. \\)"
+      "explanation": "We analyze the function using standard techniques. f(x) = \\left| A \\right| is continuous everywhere but has a sharp corner at x=0 where the left and right derivatives differ (-1 vs 1), so it's not differentiable at x=0."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q06",
@@ -133,7 +133,7 @@
         "D) 4/52"
       ],
       "correct_option": "B",
-      "explanation": "\\( There are 4 kings \\in 52 cards, so probability = \\frac{4}{52} = \\frac{1}{13}. \\)"
+      "explanation": "There are 4 kings ∈ 52 cards, so probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q09",
@@ -155,7 +155,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 4, what is \\left| \\1 \\right|? \\)",
+      "question": "If A is a 3×3 matrix with \\left| A \\right| = 4, what is \\left| A \\right|?",
       "options": [
         "A) 4",
         "B) 16",
@@ -163,7 +163,7 @@
         "D) 256"
       ],
       "correct_option": "B",
-      "explanation": "\\( For an n×3 matrix, \\left| \\1 \\right| = \\left| \\1 \\right|^(n-1) = 4^(3-1) = 16. \\)"
+      "explanation": "For an n×3 matrix, \\left| A \\right| = \\left| A \\right|^(n-1) = 4^(3-1) = 16."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q11",
@@ -178,14 +178,14 @@
         "D) [[1,-1],[2,3]]"
       ],
       "correct_option": "B",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. det(A) = 3(1) - 1(2) = 1. A⁻¹ = (1/det)[[d,-b],[-c,a]] = [[1,-1],[-2,3]]. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. det(A) = 3(1) - 1(2) = 1. A⁻¹ = (1/det)[[d,-b],[-c,a]] = [[1,-1],[-2,3]]."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q12",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Second-order derivatives",
       "difficulty": "medium",
-      "question": "\\( Find the value: If y = \\sin(2x), find d²y/dx². \\)",
+      "question": "Find the value: If y = sin(2x), find d²y/dx².",
       "options": [
         "A) -4cos(2x)",
         "B) -2sin(2x)",
@@ -223,7 +223,7 @@
         "D) π/2"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using ∫₀^π sin²(x) dx = ∫₀^π (1-\\cos(2x))/2 dx = [x/2 - \\sin(2x)/4]₀^π = π/2. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using ∫₀^π sin²(x) dx = ∫₀^π (1-cos(2x))/2 dx = [x/2 - sin(2x)/4]₀^π = π/2. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q15",
@@ -268,7 +268,7 @@
         "D) 1/√2, 1/√2, 0"
       ],
       "correct_option": "B",
-      "explanation": "\\( If equally inclined, l = m = n. Since l² + m² + n² = 1, we have 3l² = 1, so l = m = n = 1/\\sqrt{3}. \\)"
+      "explanation": "If equally inclined, l = m = n. Since l² + m² + n² = 1, we have 3l² = 1, so l = m = n = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q18",
@@ -290,7 +290,7 @@
       "topic": "Probability Distributions",
       "sub_topic": "Bernoulli trials and Binomial distribution",
       "difficulty": "medium",
-      "question": "\\( In a binomial distribution with n = 4 and p = \\frac{1}{2}, what is P(X = 2)? \\)",
+      "question": "In a binomial distribution with n = 4 and p = $1$, what is P(X = 2)?",
       "options": [
         "A) 3/8",
         "B) 1/4",
@@ -298,14 +298,14 @@
         "D) 1/8"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X=2) = C(4,2)(\\frac{1}{2})²(\\frac{1}{2})² = 6 × \\frac{1}{16} = \\frac{6}{16} = \\frac{3}{8}. \\)"
+      "explanation": "$P(X=2) = C(4,2)($1$)²($1$)² = 6 × $1$ = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q20",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Definition and basic concepts",
       "difficulty": "medium",
-      "question": "\\( Find the principal value of the inverse trigonometric function: What is the value of \\cos⁻¹(\\cos(5π/4))? \\)",
+      "question": "Find the principal value of the inverse trigonometric function: What is the value of cos⁻¹(cos(5π/4))?",
       "options": [
         "A) π/4",
         "B) -3π/4",
@@ -313,14 +313,14 @@
         "D) 5π/4"
       ],
       "correct_option": "C",
-      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. \\cos(5π/4) = \\cos(3π/4) = -√\\frac{2}{2}. The range of \\cos⁻¹ is [0, π]. So \\cos⁻¹(\\cos(5π/4)) = \\cos⁻¹(-√\\frac{2}{2}) = 3π/4. \\)"
+      "explanation": "Inverse trigonometric functions return the angle ∈ the principal range. cos(5π/4) = cos(3π/4) = -√$1$. The range of cos⁻¹ is [0, π]. So cos⁻¹(cos(5π/4)) = cos⁻¹(-√$1$) = 3π/4."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q21",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity of functions",
       "difficulty": "medium",
-      "question": "\\( For what value of k is f(x) = {\\sin(x)/x, x ≠ 0; k, x = 0} continuous at x = 0? \\)",
+      "question": "For what value of k is f(x) = {sin(x)/x, x ≠ 0; k, x = 0} continuous at x = 0?",
       "options": [
         "A) π",
         "B) 0",
@@ -328,7 +328,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\lim(x→0) \\sin(x)/x = 1, so for continuity at x=0, f(0) must equal this limit. Thus k = 1. \\)"
+      "explanation": "\\lim(x→0) sin(x)/x = 1, so for continuity at x=0, f(0) must equal this limit. Thus k = 1."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q22",
@@ -350,7 +350,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( Find the value: If \\left| \\1 \\right| = 0, the values of x are: \\)",
+      "question": "Find the value: If \\left| A \\right| = 0, the values of x are:",
       "options": [
         "A) 1 and -1",
         "B) 2 and -2",
@@ -418,7 +418,7 @@
         "D) (1/2)ln2 + π/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( Split: ∫₀¹ x/(x²+1)dx + ∫₀¹ 1/(x²+1)dx. First: let u=x²+1, du=2x dx. (\\frac{1}{2})∫¹² du/u = (\\frac{1}{2})\\ln 2. Second: [\\tan⁻¹x]₀¹ = π/4. Total = (\\frac{1}{2})\\ln 2 + π/4. \\)"
+      "explanation": "Split: ∫₀¹ x/(x²+1)dx + ∫₀¹ 1/(x²+1)dx. First: let u=x²+1, du=2x dx. ($1$)∫¹² du/u = ($1$)\\ln 2. Second: [tan⁻¹x]₀¹ = π/4. Total = ($1$)\\ln 2 + π/4."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q28",
@@ -433,7 +433,7 @@
         "D) y = Cx"
       ],
       "correct_option": "C",
-      "explanation": "\\( We use standard methods for solving differential equations. This is a separable equation: dy/y = -dx, integrating gives \\ln\\left| \\1 \\right| = -x + C, so y = Ce^{(-x)}. \\)"
+      "explanation": "We use standard methods for solving differential equations. This is a separable equation: dy/y = -dx, integrating gives \\ln\\left| A \\right| = -x + C, so y = Ce^{(-x)}."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q29",
@@ -448,7 +448,7 @@
         "D) i - 5j - 3k"
       ],
       "correct_option": "D",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = i(2-1) - j(4+1) + k(-2-1) = i - 5j - 3k. \\)"
+      "explanation": "$a × b = \\left| A \\right| = i(2-1) - j(4+1) + k(-2-1) = i - 5j - 3k.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q30",
@@ -500,7 +500,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral of x \\times \\sin(x) using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral of x × sin(x) using integration by parts.",
       "options": [
         "A) x·sin(x) + cos(x) + C",
         "B) -x·cos(x) + sin(x) + C",
@@ -508,7 +508,7 @@
         "D) -x·cos(x) - sin(x) + C"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let u = x, dv = \\sin(x)dx. Then du = dx, v = -\\cos(x). Integral = -x*\\cos(x) + \\sin(x) + C. \\)"
+      "explanation": "Let u = x, dv = sin(x)dx. Then du = dx, v = -cos(x). Integral = -x*cos(x) + sin(x) + C."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q34",
@@ -538,7 +538,7 @@
         "D) 2/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(A ∪ B) = P(A) + P(B) - P(A ∩ B). 0.8 = 0.6 + 0.4 - P(A ∩ B), so P(A ∩ B) = 0.2. P(A|B) = P(A ∩ B)/P(B) = 0.\\frac{2}{0}.4 = \\frac{1}{2}. \\)"
+      "explanation": "$P(A ∪ B) = P(A) + P(B) - P(A ∩ B). 0.8 = 0.6 + 0.4 - P(A ∩ B), so P(A ∩ B) = 0.2. P(A|B) = P(A ∩ B)/P(B) = 0.$1$.4 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q36",
@@ -553,7 +553,7 @@
         "D) 19/7"
       ],
       "correct_option": "D",
-      "explanation": "\\( In matrix form: [[1,2],[3,-1]][x;y] = [7;6]. Determinant = -7. Using Cramer's rule: x = \\left| \\1 \\right| / (-7) = (-7-12)/(-7) = (-19)/(-7) = \\frac{19}{7}. \\)"
+      "explanation": "In matrix form: [[1,2],[3,-1]][x;y] = [7;6]. Determinant = -7. Using Cramer's rule: x = \\left| A \\right| / (-7) = (-7-12)/(-7) = (-19)/(-7) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q37",
@@ -568,7 +568,7 @@
         "D) √6/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( a1=(1,1,0), b1=(1,1,1); a2=(2,2,0), b2=(1,-1,0). b1×b2=(1,1,-2), \\left| \\1 \\right|=\\sqrt{6}. a2-a1=(1,1,0). Distance=\\left| \\1 \\right|/\\sqrt{6} = 2/\\sqrt{6} = √\\frac{6}{3}. \\)"
+      "explanation": "$a1=(1,1,0), b1=(1,1,1); a2=(2,2,0), b2=(1,-1,0). b1×b2=(1,1,-2), \\left| A \\right|=$1$. a2-a1=(1,1,0). Distance=\\left| A \\right|/$1$ = 2/$1$ = √$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q38",
@@ -583,7 +583,7 @@
         "D) -2/3 m/s"
       ],
       "correct_option": "B",
-      "explanation": "\\( x² + y² = 25. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=3, y=4. So 2(3)(2) + 2(4)(dy/dt) = 0, giving dy/dt = -\\frac{12}{8} = -\\frac{3}{2} m/s. The negative sign indicates sliding down. \\)"
+      "explanation": "x² + y² = 25. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=3, y=4. So 2(3)(2) + 2(4)(dy/dt) = 0, giving dy/dt = -$1$ = -$1$ m/s. The negative sign indicates sliding down."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q39",
@@ -598,14 +598,14 @@
         "D) 1/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( E[X] = ∫₀¹ x·f(x) dx = ∫₀¹ x·2x dx = ∫₀¹ 2x² dx = [2x³/3]₀¹ = \\frac{2}{3}. \\)"
+      "explanation": "E[X] = ∫₀¹ x·f(x) dx = ∫₀¹ x·2x dx = ∫₀¹ 2x² dx = [2x³/3]₀¹ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q40",
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( Evaluate the definite integral of x squared \\times e^x from 0 to 1. \\)",
+      "question": "Evaluate the definite integral of x squared × e^x from 0 to 1.",
       "options": [
         "A) e - 2",
         "B) e + 2",
@@ -635,7 +635,7 @@
       "topic": "Matrices",
       "sub_topic": "Symmetric and skew symmetric matrices",
       "difficulty": "hard",
-      "question": "\\( If A is a 3×3 skew-symmetric matrix, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 skew-symmetric matrix, then \\left| A \\right| equals:",
       "options": [
         "A) -1",
         "B) Cannot be determined",
@@ -643,7 +643,7 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a skew-symmetric matrix of odd order, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = (-1)^n\\left| \\1 \\right| = -\\left| \\1 \\right| (since n=3). So \\left| \\1 \\right| = -\\left| \\1 \\right|, which implies \\left| \\1 \\right| = 0. \\)"
+      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)^n\\left| A \\right| = -\\left| A \\right| (since n=3). So \\left| A \\right| = -\\left| A \\right|, which implies \\left| A \\right| = 0."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q43",
@@ -658,7 +658,7 @@
         "D) 3/4"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(A\\left| \\1 \\right|A)P(A) / [P(Def\\left| \\1 \\right|B)P(B)] = (0.02×0.6)/(0.02×0.6 + 0.03×0.4) = 0.012/(0.012+0.012) = 0.\\frac{012}{0}.024 = \\frac{1}{2}. \\)"
+      "explanation": "$P(A\\left| A \\right|A)P(A) / [P(Def\\left| A \\right|B)P(B)] = (0.02×0.6)/(0.02×0.6 + 0.03×0.4) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q44",
@@ -673,7 +673,7 @@
         "D) 1/π cm/s"
       ],
       "correct_option": "A",
-      "explanation": "\\( V = (\\frac{4}{3})πr³. dV/dt = 4πr²(dr/dt). 10 = 4π(25)(dr/dt). dr/dt = 10/(100π) = 1/(10π) cm/s. \\)"
+      "explanation": "$V = ($1$)πr³. dV/dt = 4πr²(dr/dt). 10 = 4π(25)(dr/dt). dr/dt = 10/(100π) = 1/(10π) cm/s.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q45",
@@ -688,7 +688,7 @@
         "D) 2ln|x-1| + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Note that x²−1 = (x−1)(x+1). So (x+1)/(x²−1) = (x+1)/[(x−1)(x+1)] = 1/(x−1). Thus ∫(x+1)/(x²−1)dx = ∫1/(x−1)dx = \\ln\\left| \\1 \\right| + C. \\)"
+      "explanation": "Note that x²−1 = (x−1)(x+1). So (x+1)/(x²−1) = (x+1)/[(x−1)(x+1)] = 1/(x−1). Thus ∫(x+1)/(x²−1)dx = ∫1/(x−1)dx = \\ln\\left| A \\right| + C."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q46",
@@ -710,7 +710,7 @@
       "topic": "Financial Mathematics",
       "sub_topic": "Perpetuity and sinking funds",
       "difficulty": "hard",
-      "question": "\\( What is the present value of ₹10,000 due \\in 3 years at 8% per annum compound interest? \\)",
+      "question": "What is the present value of ₹10,000 due ∈ 3 years at 8% per annum compound interest?",
       "options": [
         "A) ₹8,000",
         "B) ₹8,573",
@@ -718,14 +718,14 @@
         "D) ₹7,938"
       ],
       "correct_option": "D",
-      "explanation": "\\( PV = FV/(1+r/100)^n = 10000/(1.08)³ = \\frac{10000}{1}.259712 ≈ ₹7,938. \\)"
+      "explanation": "$PV = FV/(1+r/100)^n = 10000/(1.08)³ = $1$.259712 ≈ ₹7,938.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q48",
       "topic": "Probability Distributions",
       "sub_topic": "Conditional probability",
       "difficulty": "hard",
-      "question": "\\( A fair coin is tossed 6 \\times. What is the probability of getting at least 4 heads? \\)",
+      "question": "A fair coin is tossed 6 ×. What is the probability of getting at least 4 heads?",
       "options": [
         "A) 1/2",
         "B) 11/32",
@@ -733,7 +733,7 @@
         "D) 21/64"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(X≥4) = P(4) + P(5) + P(6) = C(6,4)(\\frac{1}{2})^6 + C(6,5)(\\frac{1}{2})^6 + C(6,6)(\\frac{1}{2})^6 = (15+6+1)/64 = \\frac{22}{64} = \\frac{11}{32}. \\)"
+      "explanation": "$P(X≥4) = P(4) + P(5) + P(6) = C(6,4)($1$)^6 + C(6,5)($1$)^6 + C(6,6)($1$)^6 = (15+6+1)/64 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q49",
@@ -748,7 +748,7 @@
         "D) √3"
       ],
       "correct_option": "C",
-      "explanation": "\\( f(0) = 0, f(2) = 8 - 6 = 2. By LMVT, f'(c) = (f(2)-f(0))/(2-0) = 1. f'(x) = 3x² - 3. So 3c² - 3 = 1, c² = \\frac{4}{3}, c = 2/\\sqrt{3} (since c ∈ (0,2)). \\)"
+      "explanation": "f(0) = 0, f(2) = 8 - 6 = 2. By LMVT, f'(c) = (f(2)-f(0))/(2-0) = 1. f'(x) = 3x² - 3. So 3c² - 3 = 1, c² = $1$, c = 2/$1$ (since c ∈ (0,2))."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q50",
@@ -763,7 +763,7 @@
         "D) 32/3"
       ],
       "correct_option": "A",
-      "explanation": "\\( Intersection of y=x² and y=4 gives x=2. Area = ∫₀² (4 - x²) dx = [4x - x³/3]₀² = 8 - \\frac{8}{3} = \\frac{16}{3}. \\)"
+      "explanation": "Intersection of y=x² and y=4 gives x=2. Area = ∫₀² (4 - x²) dx = [4x - x³/3]₀² = 8 - $1$ = $1$."
     }
   ]
 }

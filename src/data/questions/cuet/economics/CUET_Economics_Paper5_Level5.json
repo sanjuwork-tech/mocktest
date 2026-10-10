@@ -37,10 +37,10 @@
       "difficulty": "easy",
       "question": "A vertical, straight-line demand curve parallel to the price axis indicates that price elasticity of demand is:",
       "options": [
-        "A) Perfectly elastic (\\( |E_d| = \\infty \\))",
-        "B) Unitary elastic (\\( |E_d| = 1 \\))",
-        "C) Perfectly inelastic (\\( |E_d| = 0 \\))",
-        "D) Highly elastic (\\( |E_d| > 1 \\))"
+        "A) Perfectly elastic ($|E_d| = ∞$)",
+        "B) Unitary elastic ($|E_d| = 1$)",
+        "C) Perfectly inelastic ($|E_d| = 0$)",
+        "D) Highly elastic ($|E_d| > 1$)"
       ],
       "correct_option": "C",
       "explanation": "A vertical demand curve means quantity demanded remains unchanged regardless of price changes, indicating zero elasticity."
@@ -110,7 +110,7 @@
       "topic": "National Income Accounting",
       "sub_topic": "Aggregates Calculation",
       "difficulty": "easy",
-      "question": "Net Domestic Product at Factor Cost (\\( \\text{NDP}_{FC} \\)) is also termed:",
+      "question": "Net Domestic Product at Factor Cost ($\\text{NDP}_{FC}$) is also termed:",
       "options": [
         "A) National Income",
         "B) Gross Domestic Product",
@@ -148,7 +148,7 @@
         "D) Transitory consumption"
       ],
       "correct_option": "C",
-      "explanation": "Autonomous consumption (\\( \\bar{C} \\)) represents essential baseline spending that is independent of the level of income."
+      "explanation": "Autonomous consumption ($\\bar{C}$) represents essential baseline spending that is independent of the level of income."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q10",
@@ -245,7 +245,7 @@
       "topic": "Consumer Behaviour and Demand",
       "sub_topic": "Marginal Rate of Substitution",
       "difficulty": "medium",
-      "question": "If a consumer is willing to sacrifice 4 units of good Y to gain 1 additional unit of good X while maintaining the same satisfaction level, the Marginal Rate of Substitution (\\( \\text{MRS}_{xy} \\)) is:",
+      "question": "If a consumer is willing to sacrifice 4 units of good Y to gain 1 additional unit of good X while maintaining the same satisfaction level, the Marginal Rate of Substitution ($\\text{MRS}_{xy}$) is:",
       "options": [
         "A) 0.25",
         "B) 2.00",
@@ -253,7 +253,7 @@
         "D) 5.00"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\text{MRS}_{xy} = -\\Delta Y / \\Delta X = 4 / 1 = 4.00 \\)."
+      "explanation": "$\\text{MRS}_{xy} = -Δ Y / Δ X = 4 / 1 = 4.00$."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q17",
@@ -283,7 +283,7 @@
         "D) Because diminishing returns cease to operate"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\text{SAC} - \\text{AVC} = \\text{AFC} \\). As output increases, AFC declines continuously towards zero, causing the vertical distance between SAC and AVC to shrink."
+      "explanation": "$\\text{SAC} - \\text{AVC} = \\text{AFC}$. As output increases, AFC declines continuously towards zero, causing the vertical distance between SAC and AVC to shrink."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q19",
@@ -298,7 +298,7 @@
         "D) ₹120"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\text{MC}_n = \\text{TC}_n - \\text{TC}_{n-1} = 430 - 350 = ₹80 \\)."
+      "explanation": "$\\text{MC}_n = \\text{TC}_n - \\text{TC}_{n-1} = 430 - 350 = ₹80$."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q20",
@@ -343,7 +343,7 @@
         "D) ₹2,600"
       ],
       "correct_option": "A",
-      "explanation": "Value added by A = ₹800; by B = \\( 1200 - 800 = ₹400 \\); by C = \\( 1800 - 1200 = ₹600 \\). Total value added = \\( 800 + 400 + 600 = ₹1,800 \\) (which equals the final value of bread)."
+      "explanation": "Value added by A = ₹800; by B = $1200 - 800 = ₹400$; by C = $1800 - 1200 = ₹600$. Total value added = $800 + 400 + 600 = ₹1,800$ (which equals the final value of bread)."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q23",
@@ -380,22 +380,22 @@
       "topic": "Determination of Income and Employment",
       "sub_topic": "Relationship between MPC and MPS",
       "difficulty": "medium",
-      "question": "If the consumption function is expressed as \\( C = 100 + 0.6Y \\), what is the corresponding saving function \\( S \\)?",
+      "question": "If the consumption function is expressed as $C = 100 + 0.6Y$, what is the corresponding saving function $S$?",
       "options": [
-        "A) \\( S = -100 + 0.4Y \\)",
-        "B) \\( S = 100 + 0.4Y \\)",
-        "C) \\( S = -100 + 0.6Y \\)",
-        "D) \\( S = 0.4Y \\)"
+        "A) $S = -100 + 0.4Y$",
+        "B) $S = 100 + 0.4Y$",
+        "C) $S = -100 + 0.6Y$",
+        "D) $S = 0.4Y$"
       ],
       "correct_option": "A",
-      "explanation": "Since \\( Y = C + S \\), \\( S = Y - (100 + 0.6Y) = -100 + (1 - 0.6)Y = -100 + 0.4Y \\)."
+      "explanation": "Since $Y = C + S$, $S = Y - (100 + 0.6Y) = -100 + (1 - 0.6)Y = -100 + 0.4Y$."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q26",
       "topic": "Determination of Income and Employment",
       "sub_topic": "Investment Multiplier Dynamics",
       "difficulty": "medium",
-      "question": "If the Marginal Propensity to Save (MPS) is 0.20 and autonomous investment increases by ₹500 crore, what is the total change in consumption expenditure (\\( \\Delta C \\))?",
+      "question": "If the Marginal Propensity to Save (MPS) is 0.20 and autonomous investment increases by ₹500 crore, what is the total change in consumption expenditure ($Δ C$)?",
       "options": [
         "A) ₹1,500 crore",
         "B) ₹3,000 crore",
@@ -403,7 +403,7 @@
         "D) ₹2,000 crore"
       ],
       "correct_option": "D",
-      "explanation": "Multiplier \\( K = 1 / \\text{MPS} = 1 / 0.2 = 5 \\). Change in income \\( \\Delta Y = K \\times \\Delta I = 5 \\times 500 = ₹2,500 \\) crore. Since \\( \\text{MPC} = 1 - 0.2 = 0.8 \\), \\( \\Delta C = 0.8 \\times 2500 = ₹2,000 \\) crore."
+      "explanation": "Multiplier $K = 1 / \\text{MPS} = 1 / 0.2 = 5$. Change in income $Δ Y = K × Δ I = 5 × 500 = ₹2,500$ crore. Since $\\text{MPC} = 1 - 0.2 = 0.8$, $Δ C = 0.8 × 2500 = ₹2,000$ crore."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q27",
@@ -590,15 +590,15 @@
       "topic": "Consumer Behaviour and Demand",
       "sub_topic": "Optimal Choice of the Consumer",
       "difficulty": "hard",
-      "question": "A consumer has income \\( M = ₹60 \\) to spend on two goods X and Y, with prices \\( P_x = ₹2 \\) and \\( P_y = ₹3 \\). The marginal utility schedule is \\( \\text{MU}_x = 24 - 2X \\) and \\( \\text{MU}_y = 30 - 3Y \\). At equilibrium, how many units of good X and good Y will the consumer purchase?",
+      "question": "A consumer has income $M = ₹60$ to spend on two goods X and Y, with prices $P_x = ₹2$ and $P_y = ₹3$. The marginal utility schedule is $\\text{MU}_x = 24 - 2X$ and $\\text{MU}_y = 30 - 3Y$. At equilibrium, how many units of good X and good Y will the consumer purchase?",
       "options": [
-        "A) \\( X = 15, Y = 10 \\)",
-        "B) \\( X = 12, Y = 12 \\)",
-        "C) \\( X = 18, Y = 8 \\)",
-        "D) \\( X = 20, Y = 5 \\)"
+        "A) $X = 15, Y = 10$",
+        "B) $X = 12, Y = 12$",
+        "C) $X = 18, Y = 8$",
+        "D) $X = 20, Y = 5$"
       ],
       "correct_option": "A",
-      "explanation": "Equilibrium condition: \\( \\frac{\\text{MU}_x}{P_x} = \\frac{\\text{MU}_y}{P_y} \\implies \\frac{24 - 2X}{2} = \\frac{30 - 3Y}{3} \\implies 12 - X = 10 - Y \\implies X - Y = 2 \\implies X = Y + 2 \\). Budget constraint: \\( 2X + 3Y = 60 \\implies 2(Y + 2) + 3Y = 60 \\implies 5Y + 4 = 60 \\implies 5Y = 56 \\)... Wait, let's verify exact integers: \\( X = 15 \\implies 2(15) = 30 \\), \\( Y = 10 \\implies 3(10) = 30 \\). Total spend = ₹60. \\( \\text{MU}_x/P_x = (24 - 30)/2 = -3 \\). Let's check \\( X=12, Y=12 \\implies 24+36 = 60 \\). \\( \\text{MU}_x/P_x = (24-24)/2 = 0 \\), \\( \\text{MU}_y/P_y = (30-36)/3 = -2 \\). Let \\( X = 15, Y = 10 \\)."
+      "explanation": "Equilibrium condition: $\\frac{\\text{MU}_x}{P_x} = \\frac{\\text{MU}_y}{P_y} \\implies $1$ = $1$ \\implies 12 - X = 10 - Y \\implies X - Y = 2 \\implies X = Y + 2$. Budget constraint: $2X + 3Y = 60 \\implies 2(Y + 2) + 3Y = 60 \\implies 5Y + 4 = 60 \\implies 5Y = 56$... Wait, let's verify exact integers: $X = 15 \\implies 2(15) = 30$, $Y = 10 \\implies 3(10) = 30$. Total spend = ₹60. $\\text{MU}_x/P_x = (24 - 30)/2 = -3$. Let's check $X=12, Y=12 \\implies 24+36 = 60$. $\\text{MU}_x/P_x = (24-24)/2 = 0$, $\\text{MU}_y/P_y = (30-36)/3 = -2$. Let $X = 15, Y = 10$."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q40",
@@ -607,13 +607,13 @@
       "difficulty": "hard",
       "question": "When the price of a good falls from ₹10 per unit to ₹8 per unit, total household expenditure on that good increases from ₹1,000 to ₹1,200. What is the nature of the price elasticity of demand?",
       "options": [
-        "A) Inelastic (\\( |E_d| < 1 \\))",
-        "B) Unitary elastic (\\( |E_d| = 1 \\))",
-        "C) Elastic (\\( |E_d| > 1 \\))",
-        "D) Perfectly inelastic (\\( |E_d| = 0 \\))"
+        "A) Inelastic ($|E_d| < 1$)",
+        "B) Unitary elastic ($|E_d| = 1$)",
+        "C) Elastic ($|E_d| > 1$)",
+        "D) Perfectly inelastic ($|E_d| = 0$)"
       ],
       "correct_option": "C",
-      "explanation": "According to the total expenditure method, when price and total expenditure move in opposite directions (price falls, total spending rises), demand is price elastic (\\( |E_d| > 1 \\))."
+      "explanation": "According to the total expenditure method, when price and total expenditure move in opposite directions (price falls, total spending rises), demand is price elastic ($|E_d| > 1$)."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q41",
@@ -635,7 +635,7 @@
       "topic": "National Income Accounting",
       "sub_topic": "Expenditure Method Calculation",
       "difficulty": "hard",
-      "question": "Given the following macroeconomic data for an economy:\n- Private Final Consumption Expenditure = ₹2,500 crore\n- Government Final Consumption Expenditure = ₹1,200 crore\n- Gross Domestic Fixed Capital Formation = ₹800 crore\n- Change in Stock = ₹150 crore\n- Exports = ₹400 crore\n- Imports = ₹550 crore\n- Net Indirect Taxes = ₹300 crore\n\nCalculate Gross Domestic Product at Market Price (\\( \\text{GDP}_{MP} \\)):",
+      "question": "Given the following macroeconomic data for an economy:\n- Private Final Consumption Expenditure = ₹2,500 crore\n- Government Final Consumption Expenditure = ₹1,200 crore\n- Gross Domestic Fixed Capital Formation = ₹800 crore\n- Change in Stock = ₹150 crore\n- Exports = ₹400 crore\n- Imports = ₹550 crore\n- Net Indirect Taxes = ₹300 crore\n\nCalculate Gross Domestic Product at Market Price ($\\text{GDP}_{MP}$):",
       "options": [
         "A) ₹4,200 crore",
         "B) ₹4,500 crore",
@@ -643,7 +643,7 @@
         "D) ₹5,100 crore"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\text{GDP}_{MP} = C + G + I + (X - M) = 2500 + 1200 + (800 + 150) + (400 - 550) = 3700 + 950 - 150 = ₹4,500 \\) crore."
+      "explanation": "$\\text{GDP}_{MP} = C + G + I + (X - M) = 2500 + 1200 + (800 + 150) + (400 - 550) = 3700 + 950 - 150 = ₹4,500$ crore."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q43",
@@ -658,14 +658,14 @@
         "D) Credit creation capacity is halved"
       ],
       "correct_option": "D",
-      "explanation": "Money multiplier is \\( 1 / \\text{CRR} \\). When CRR rises from 0.04 to 0.08, the multiplier drops from 25 to 12.5, halving the banking system's potential credit creation."
+      "explanation": "Money multiplier is $1 / \\text{CRR}$. When CRR rises from 0.04 to 0.08, the multiplier drops from 25 to 12.5, halving the banking system's potential credit creation."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q44",
       "topic": "Determination of Income and Employment",
       "sub_topic": "Equilibrium with Investment Multiplier",
       "difficulty": "hard",
-      "question": "In an economy with an autonomous consumption of ₹150 crore and an MPC of 0.80, if the planned investment increases by ₹200 crore, the resulting change in total saving (\\( \\Delta S \\)) at the new equilibrium will be:",
+      "question": "In an economy with an autonomous consumption of ₹150 crore and an MPC of 0.80, if the planned investment increases by ₹200 crore, the resulting change in total saving ($Δ S$) at the new equilibrium will be:",
       "options": [
         "A) ₹100 crore",
         "B) ₹150 crore",
@@ -673,7 +673,7 @@
         "D) ₹1,000 crore"
       ],
       "correct_option": "C",
-      "explanation": "Multiplier \\( K = 1 / (1 - 0.8) = 5 \\). Change in income \\( \\Delta Y = 5 \\times 200 = ₹1,000 \\) crore. Since \\( \\text{MPS} = 0.20 \\), \\( \\Delta S = \\text{MPS} \\times \\Delta Y = 0.20 \\times 1000 = ₹200 \\) crore (matching the change in investment, \\( \\Delta S = \\Delta I \\))."
+      "explanation": "Multiplier $K = 1 / (1 - 0.8) = 5$. Change in income $Δ Y = 5 × 200 = ₹1,000$ crore. Since $\\text{MPS} = 0.20$, $Δ S = \\text{MPS} × Δ Y = 0.20 × 1000 = ₹200$ crore (matching the change in investment, $Δ S = Δ I$)."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q45",
@@ -688,7 +688,7 @@
         "D) ₹50,000 crore and ₹15,000 crore"
       ],
       "correct_option": "A",
-      "explanation": "Total Expenditure = \\( 230000 + 90000 = 320000 \\). Non-debt receipts = \\( 180000 + 40000 = 220000 \\). Fiscal Deficit = \\( 320000 - 220000 = ₹1,00,000 \\) crore. Primary Deficit = \\( 100000 - 35000 = ₹65,000 \\) crore."
+      "explanation": "Total Expenditure = $230000 + 90000 = 320000$. Non-debt receipts = $180000 + 40000 = 220000$. Fiscal Deficit = $320000 - 220000 = ₹1,00,000$ crore. Primary Deficit = $100000 - 35000 = ₹65,000$ crore."
     },
     {
       "id": "CUET_ECO_2026_P5_L5_Q46",

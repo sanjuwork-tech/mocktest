@@ -28,14 +28,14 @@
         "D) A is invertible"
       ],
       "correct_option": "B",
-      "explanation": "\\( For a skew-symmetric matrix of odd order n, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = (-1)ⁿ\\left| \\1 \\right|. With n=5 (odd), \\left| \\1 \\right| = -\\left| \\1 \\right|, so 2\\left| \\1 \\right| = 0, hence \\left| \\1 \\right| = 0. \\)"
+      "explanation": "For a skew-symmetric matrix of odd order n, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)ⁿ\\left| A \\right|. With n=5 (odd), \\left| A \\right| = -\\left| A \\right|, so 2\\left| A \\right| = 0, hence \\left| A \\right| = 0."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q02",
       "topic": "Probability",
       "sub_topic": "Independent events",
       "difficulty": "easy",
-      "question": "\\( If A and B are independent events with P(A) = \\frac{1}{3} and P(B) = \\frac{1}{4}, then P(A' ∩ B') equals: \\)",
+      "question": "If A and B are independent events with P(A) = $1$ and P(B) = $1$, then P(A' ∩ B') equals:",
       "options": [
         "A) 7/12",
         "B) 1/12",
@@ -43,14 +43,14 @@
         "D) 1/2"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(A' ∩ B') = P(A') · P(B') (by independence) = (1 - \\frac{1}{3})(1 - \\frac{1}{4}) = (\\frac{2}{3})(\\frac{3}{4}) = \\frac{6}{12} = \\frac{1}{2}. \\)"
+      "explanation": "$P(A' ∩ B') = P(A') · P(B') (by independence) = (1 - $1$)(1 - $1$) = ($1$)($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q03",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Definition and basic concepts",
       "difficulty": "medium",
-      "question": "\\( The value of \\tan⁻¹(1) + \\tan⁻¹(2) + \\tan⁻¹(3) is equal to: \\)",
+      "question": "The value of tan⁻¹(1) + tan⁻¹(2) + tan⁻¹(3) is equal to:",
       "options": [
         "A) π",
         "B) 3π/2",
@@ -58,14 +58,14 @@
         "D) 0"
       ],
       "correct_option": "A",
-      "explanation": "\\( Let α = \\tan⁻¹(2), β = \\tan⁻¹(3). Then \\tan(α+β) = (2+3)/(1-6) = -1. Since α, β are both \\in (0, π/2) and their \\sum exceeds π/2, α+β = 3π/4. Then \\tan⁻¹(1) + α + β = π/4 + 3π/4 = π. \\)"
+      "explanation": "Let α = tan⁻¹(2), β = tan⁻¹(3). Then tan(α+β) = (2+3)/(1-6) = -1. Since α, β are both ∈ (0, π/2) and their ∑ exceeds π/2, α+β = 3π/4. Then tan⁻¹(1) + α + β = π/4 + 3π/4 = π."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q04",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( If A is a 3×3 matrix such that \\left| \\1 \\right| = 2¹⁸, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 matrix such that \\left| A \\right| = 2¹⁸, then \\left| A \\right| equals:",
       "options": [
         "A) ±2³",
         "B) ±2⁵",
@@ -73,7 +73,7 @@
         "D) ±2⁶"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = \\left| \\1 \\right|^(3-1) = (2³\\left| \\1 \\right|)² = 64\\left| \\1 \\right|². So 64\\left| \\1 \\right|² = 2¹⁸, giving \\left| \\1 \\right|² = 2¹⁸/2⁶ = 2¹², hence \\left| \\1 \\right| = ±2⁶. \\)"
+      "explanation": "\\left| A \\right| = \\left| A \\right|^(3-1) = (2³\\left| A \\right|)² = 64\\left| A \\right|². So 64\\left| A \\right|² = 2¹⁸, giving \\left| A \\right|² = 2¹⁸/2⁶ = 2¹², hence \\left| A \\right| = ±2⁶."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q05",
@@ -95,7 +95,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Second-order derivatives",
       "difficulty": "medium",
-      "question": "\\( If y = \\sin⁻¹(\\sqrt{1 - x²}), then dy/dx for x ∈ (0,1) is: \\)",
+      "question": "If y = sin⁻¹($1$), then dy/dx for x ∈ (0,1) is:",
       "options": [
         "A) 1/√(1-x²)",
         "B) 1/(1+x²)",
@@ -103,7 +103,7 @@
         "D) -1/√(1-x²)"
       ],
       "correct_option": "D",
-      "explanation": "\\( For x ∈ (0,1), let x = sinθ where θ ∈ (0, π/2). Then \\sqrt{1-x²} = cosθ. y = \\sin⁻¹(cosθ) = \\sin⁻¹(\\sin(π/2 - θ)) = π/2 - θ. dy/dx = -dθ/dx = -1/(dx/dθ) = -1/cosθ = -1/\\sqrt{1-x²}. \\)"
+      "explanation": "For x ∈ (0,1), let x = sinθ where θ ∈ (0, π/2). Then $1$ = cosθ. y = sin⁻¹(cosθ) = sin⁻¹(sin(π/2 - θ)) = π/2 - θ. dy/dx = -dθ/dx = -1/(dx/dθ) = -1/cosθ = -1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q07",
@@ -118,7 +118,7 @@
         "D) 1/5"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using substitution u = cosx, du = -sinx dx: ∫₀^(π/2) sin³x cos²x dx = ∫₀¹ (1-u²)u² du = ∫₀¹ (u²-u⁴) du = [u³/3 - u⁵/5]₀¹ = \\frac{1}{3} - \\frac{1}{5} = \\frac{2}{15}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using substitution u = cosx, du = -sinx dx: ∫₀^(π/2) sin³x cos²x dx = ∫₀¹ (1-u²)u² du = ∫₀¹ (u²-u⁴) du = [u³/3 - u⁵/5]₀¹ = $1$ - $1$ = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q08",
@@ -148,7 +148,7 @@
         "D) θ = π/3"
       ],
       "correct_option": "A",
-      "explanation": "\\( a·b = 6-24 = -18. \\left| \\1 \\right| = 5, \\left| \\1 \\right| = \\sqrt{4+36} = \\sqrt{40} = 2\\sqrt{10}. cosθ = -18/(5·2\\sqrt{10}) = -9/(5\\sqrt{10}). \\)"
+      "explanation": "$a·b = 6-24 = -18. \\left| A \\right| = 5, \\left| A \\right| = $1$ = $1$ = 2$1$. cosθ = -18/(5·2$1$) = -9/(5$1$).$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q10",
@@ -163,7 +163,7 @@
         "D) 4/14"
       ],
       "correct_option": "B",
-      "explanation": "\\( l = 2m and n = -l-m = -2m-m = -3m. Using l²+m²+n²=1: 4m²+m²+9m²=1 → 14m²=1 → m²=\\frac{1}{14}. l² = 4m² = \\frac{4}{14} = \\frac{2}{7}. \\)"
+      "explanation": "l = 2m and n = -l-m = -2m-m = -3m. Using l²+m²+n²=1: 4m²+m²+9m²=1 → 14m²=1 → m²=$1$. l² = 4m² = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q11",
@@ -193,7 +193,7 @@
         "D) 2/5"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(M1\\left| \\1 \\right|M1)·P(M1)/[P(Def\\left| \\1 \\right|M2)·P(M2)] = (0.02×0.6)/(0.02×0.6+0.03×0.4) = 0.012/(0.012+0.012) = 0.\\frac{012}{0}.024 = \\frac{1}{2}. \\)"
+      "explanation": "$P(M1\\left| A \\right|M1)·P(M1)/[P(Def\\left| A \\right|M2)·P(M2)] = (0.02×0.6)/(0.02×0.6+0.03×0.4) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q13",
@@ -245,7 +245,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( If A is a 3×3 matrix and \\left| \\1 \\right| = 3, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 matrix and \\left| A \\right| = 3, then \\left| A \\right| equals:",
       "options": [
         "A) 9",
         "B) 3",
@@ -253,7 +253,7 @@
         "D) 1/9"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = \\left| \\1 \\right|^(3-1) = \\left| \\1 \\right|² = (1/\\left| \\1 \\right|)² = (\\frac{1}{3})² = \\frac{1}{9}. \\)"
+      "explanation": "$\\left| A \\right| = \\left| A \\right|^(3-1) = \\left| A \\right|² = (1/\\left| A \\right|)² = ($1$)² = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q17",
@@ -268,14 +268,14 @@
         "D) [-3π/2, π/2]"
       ],
       "correct_option": "D",
-      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. Range of \\sin⁻¹(x) is [-π/2, π/2]. So 2sin⁻¹(x) has range [-π, π]. Then 2sin⁻¹(x) - π/2 has range [-π - π/2, π - π/2] = [-3π/2, π/2]. \\)"
+      "explanation": "Inverse trigonometric functions return the angle ∈ the principal range. Range of sin⁻¹(x) is [-π/2, π/2]. So 2sin⁻¹(x) has range [-π, π]. Then 2sin⁻¹(x) - π/2 has range [-π - π/2, π - π/2] = [-3π/2, π/2]."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q18",
       "topic": "Vector Algebra",
       "sub_topic": "Vector (cross) product of vectors",
       "difficulty": "hard",
-      "question": "\\( If a = 2i - j + k and b = i + 3j - 2k, then \\left| \\1 \\right| equals: \\)",
+      "question": "If a = 2i - j + k and b = i + 3j - 2k, then \\left| A \\right| equals:",
       "options": [
         "A) 3√5",
         "B) 5√3",
@@ -283,7 +283,7 @@
         "D) 7√2"
       ],
       "correct_option": "B",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = i(2 - 3) - j(-4 - 1) + k(6 + 1) = -i + 5j + 7k. \\left| \\1 \\right| = \\sqrt{1 + 25 + 49} = \\sqrt{75} = 5\\sqrt{3}. \\)"
+      "explanation": "$a × b = \\left| A \\right| = i(2 - 3) - j(-4 - 1) + k(6 + 1) = -i + 5j + 7k. \\left| A \\right| = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q19",
@@ -313,7 +313,7 @@
         "D) 0"
       ],
       "correct_option": "C",
-      "explanation": "\\( For x ≠ 2, f(x) = (x²-4)/(x-2) = x+2. For differentiability, f must first be continuous: \\lim(x→2) f(x) = 4, so k = 4. Then f'(x) = 1 for x ≠ 2. f'(2) = \\lim(h→0)(f(2+h)-f(2))/h = \\lim(h→0)(4+h-4)/h = 1. So f is differentiable at x=2 with k=4. \\)"
+      "explanation": "For x ≠ 2, f(x) = (x²-4)/(x-2) = x+2. For differentiability, f must first be continuous: \\lim(x→2) f(x) = 4, so k = 4. Then f'(x) = 1 for x ≠ 2. f'(2) = \\lim(h→0)(f(2+h)-f(2))/h = \\lim(h→0)(4+h-4)/h = 1. So f is differentiable at x=2 with k=4."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q21",
@@ -328,7 +328,7 @@
         "D) 301/455"
       ],
       "correct_option": "C",
-      "explanation": "\\( Total ways = C(15,3) = 455. Exactly two same color: 2R+1B = C(4,2)·5 = 30; 2R+1G = 6·6 = 36; 2B+1R = 10·4 = 40; 2B+1G = 10·6 = 60; 2G+1R = 15·4 = 60; 2G+1B = 15·5 = 75. Total = 30+36+40+60+60+75 = 301. P = \\frac{301}{455} = \\frac{43}{65}. \\)"
+      "explanation": "Total ways = C(15,3) = 455. Exactly two same color: 2R+1B = C(4,2)·5 = 30; 2R+1G = 6·6 = 36; 2B+1R = 10·4 = 40; 2B+1G = 10·6 = 60; 2G+1R = 15·4 = 60; 2G+1B = 15·5 = 75. Total = 30+36+40+60+60+75 = 301. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q22",
@@ -343,7 +343,7 @@
         "D) 1/2"
       ],
       "correct_option": "C",
-      "explanation": "\\( Curves intersect when x² = 2x-x² → 2x²-2x = 0 → 2x(x-1)=0 → x=0 or x=1. Area = ∫₀¹ [(2x-x²) - x²] dx = ∫₀¹ (2x-2x²) dx = [x² - 2x³/3]₀¹ = 1 - \\frac{2}{3} = \\frac{1}{3}. \\)"
+      "explanation": "Curves intersect when x² = 2x-x² → 2x²-2x = 0 → 2x(x-1)=0 → x=0 or x=1. Area = ∫₀¹ [(2x-x²) - x²] dx = ∫₀¹ (2x-2x²) dx = [x² - 2x³/3]₀¹ = 1 - $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q23",
@@ -358,7 +358,7 @@
         "D) (e² + 1)/(2e)"
       ],
       "correct_option": "D",
-      "explanation": "\\( Integrating factor: IF = e^{(∫1 dx)} = eˣ. Multiplying: d/dx(y·eˣ) = e²ˣ. Integrating: y·eˣ = e²ˣ/2 + C. Using y(0)=1: 1·1 = \\frac{1}{2} + C → C = \\frac{1}{2}. So y = (eˣ + e⁻ˣ)/2. At x=1: y(1) = (e + 1/e)/2 = (e² + 1)/(2e). \\)"
+      "explanation": "Integrating factor: IF = e^{(∫1 dx)} = eˣ. Multiplying: d/dx(y·eˣ) = e²ˣ. Integrating: y·eˣ = e²ˣ/2 + C. Using y(0)=1: 1·1 = $1$ + C → C = $1$. So y = (eˣ + e⁻ˣ)/2. At x=1: y(1) = (e + 1/e)/2 = (e² + 1)/(2e)."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q24",
@@ -373,7 +373,7 @@
         "D) √30/15"
       ],
       "correct_option": "C",
-      "explanation": "\\( a₁ = (1,1,0), a₂ = (2,1,-1). b₁ = (2,-1,1), b₂ = (3,-2,4). a₂-a₁ = (1,0,-1). b₁×b₂ = \\left| \\1 \\right| = i(-4+2) - j(8-3) + k(-4+3) = (-2, -5, -1). \\left| \\1 \\right| = \\sqrt{4+25+1} = \\sqrt{30}. Shortest distance = \\left| \\1 \\right|/\\left| \\1 \\right| = \\left| \\1 \\right|/\\sqrt{30} = \\left| \\1 \\right|/\\sqrt{30} = 1/\\sqrt{30} = √\\frac{30}{30}. \\)"
+      "explanation": "a₁ = (1,1,0), a₂ = (2,1,-1). b₁ = (2,-1,1), b₂ = (3,-2,4). a₂-a₁ = (1,0,-1). b₁×b₂ = \\left| A \\right| = i(-4+2) - j(8-3) + k(-4+3) = (-2, -5, -1). \\left| A \\right| = $1$ = $1$. Shortest distance = \\left| A \\right|/\\left| A \\right| = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 1/$1$ = √$1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q25",
@@ -403,7 +403,7 @@
         "D) [[-1, 0], [0, -1]]"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\left| \\1 \\right| = 0·0 - 1·1 = -1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/\\left| \\1 \\right|)[[d,-b],[-c,a]] = (1/-1)[[0,-1],[-1,0]] = [[0,1],[1,0]]. \\)"
+      "explanation": "\\left| A \\right| = 0·0 - 1·1 = -1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/\\left| A \\right|)[[d,-b],[-c,a]] = (1/-1)[[0,-1],[-1,0]] = [[0,1],[1,0]]."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q27",
@@ -418,14 +418,14 @@
         "D) (2, 1)"
       ],
       "correct_option": "B",
-      "explanation": "\\( In matrix form: [[1,2],[3,4]][x;y] = [3;7]. \\left| \\1 \\right| = 4-6 = -2. A⁻¹ = (1/-2)[[4,-2],[-3,1]] = [[-2,1],[\\frac{3}{2},-\\frac{1}{2}]]. [x;y] = [[-2,1],[\\frac{3}{2},-\\frac{1}{2}]]·[3;7] = [-6+7; \\frac{9}{2}-\\frac{7}{2}] = [1;1]. So x=1, y=1. \\)"
+      "explanation": "In matrix form: [[1,2],[3,4]][x;y] = [3;7]. \\left| A \\right| = 4-6 = -2. A⁻¹ = (1/-2)[[4,-2],[-3,1]] = [[-2,1],[$1$,-$1$]]. [x;y] = [[-2,1],[$1$,-$1$]]·[3;7] = [-6+7; $1$-$1$] = [1;1]. So x=1, y=1."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q28",
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( Find the principal value of the inverse trigonometric function: The value of ∫₀^(π/2) \\log(\\sin x) dx is: \\)",
+      "question": "Find the principal value of the inverse trigonometric function: The value of ∫₀^(π/2) log(sin x) dx is:",
       "options": [
         "A) π log 2",
         "B) -π log 2",
@@ -433,7 +433,7 @@
         "D) (π/2) log 2"
       ],
       "correct_option": "C",
-      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. Let I = ∫₀^(π/2) \\log(\\sin x) dx. Using ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx: I = ∫₀^(π/2) \\log(\\cos x) dx. Adding: 2I = ∫₀^(π/2) \\log(\\sin x \\cos x) dx = ∫₀^(π/2) \\log(\\sin 2x/2) dx = ∫₀^(π/2) [\\log(\\sin 2x) - \\log 2] dx. Substituting u=2x: ∫₀^(π/2) \\log(\\sin 2x) dx = (\\frac{1}{2})∫₀^π \\log(\\sin u) du = (\\frac{1}{2})·2I = I. So 2I = I - (π/2) \\log 2, giving I = -(π/2) \\log 2. \\)"
+      "explanation": "Inverse trigonometric functions return the angle ∈ the principal range. Let I = ∫₀^(π/2) log(sin x) dx. Using ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx: I = ∫₀^(π/2) log(cos x) dx. Adding: 2I = ∫₀^(π/2) log(sin x cos x) dx = ∫₀^(π/2) log(sin 2x/2) dx = ∫₀^(π/2) [log(sin 2x) - log 2] dx. Substituting u=2x: ∫₀^(π/2) log(sin 2x) dx = ($1$)∫₀^π log(sin u) du = ($1$)·2I = I. So 2I = I - (π/2) log 2, giving I = -(π/2) log 2."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q29",
@@ -455,7 +455,7 @@
       "topic": "Probability",
       "sub_topic": "Conditional probability",
       "difficulty": "hard",
-      "question": "\\( If P(A) = \\frac{1}{2}, P(B) = \\frac{1}{3} and P(A|B) = \\frac{1}{4}, then P(A ∪ B) equals: \\)",
+      "question": "If P(A) = $1$, P(B) = $1$ and P(A|B) = $1$, then P(A ∪ B) equals:",
       "options": [
         "A) 3/4",
         "B) 7/8",
@@ -463,7 +463,7 @@
         "D) 11/12"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(A∩B) = P(A|B)·P(B) = (\\frac{1}{4})(\\frac{1}{3}) = \\frac{1}{12}. P(A∪B) = P(A)+P(B)-P(A∩B) = \\frac{1}{2} + \\frac{1}{3} - \\frac{1}{12} = \\frac{6}{12} + \\frac{4}{12} - \\frac{1}{12} = \\frac{9}{12} = \\frac{3}{4}. \\)"
+      "explanation": "$P(A∩B) = P(A|B)·P(B) = ($1$)($1$) = $1$. P(A∪B) = P(A)+P(B)-P(A∩B) = $1$ + $1$ - $1$ = $1$ + $1$ - $1$ = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q31",
@@ -478,7 +478,7 @@
         "D) 1/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( First make coefficients match: multiply first equation by 2: 4x - 2y + 4z + 6 = 0. Distance = \\left| \\1 \\right|/\\sqrt{a²+b²+c²} = \\left| \\1 \\right|/\\sqrt{16+4+16} = 1/\\sqrt{36} = \\frac{1}{6}. \\)"
+      "explanation": "First make coefficients match: multiply first equation by 2: 4x - 2y + 4z + 6 = 0. Distance = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 1/$1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q32",
@@ -500,7 +500,7 @@
       "topic": "Probability",
       "sub_topic": "Conditional probability",
       "difficulty": "hard",
-      "question": "\\( If A and B are two events such that P(A) = 0.4, P(B) = 0.8 and P(B\\left| \\1 \\right|B) equals: \\)",
+      "question": "If A and B are two events such that P(A) = 0.4, P(B) = 0.8 and P(B\\left| A \\right|B) equals:",
       "options": [
         "A) 0.5",
         "B) 0.4",
@@ -508,7 +508,7 @@
         "D) 0.3"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(A∩B) = P(B\\left| \\1 \\right|B) = P(A∩B)/P(B) = 0.\\frac{24}{0}.8 = 0.3. \\)"
+      "explanation": "$P(A∩B) = P(B\\left| A \\right|B) = P(A∩B)/P(B) = 0.$1$.8 = 0.3.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q34",
@@ -523,14 +523,14 @@
         "D) 25/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( From constraint: x = 10-2y. xy = (10-2y)y = 10y - 2y². d/dy(10y-2y²) = 10-4y = 0 → y = \\frac{5}{2}. x = 10-5 = 5. Max value = 5·(\\frac{5}{2}) = \\frac{25}{2}. \\)"
+      "explanation": "From constraint: x = 10-2y. xy = (10-2y)y = 10y - 2y². d/dy(10y-2y²) = 10-4y = 0 → y = $1$. x = 10-5 = 5. Max value = 5·($1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q35",
       "topic": "Differential Equations",
       "sub_topic": "Linear differential equations",
       "difficulty": "hard",
-      "question": "\\( The general solution of dy/dx + y·\\tan x = \\sec x is: \\)",
+      "question": "The general solution of dy/dx + y·tan x = \\sec x is:",
       "options": [
         "A) y·sec x = tan x + C",
         "B) y·cos x = sin x + C",
@@ -538,7 +538,7 @@
         "D) y·sec x = x + C"
       ],
       "correct_option": "A",
-      "explanation": "\\( Integrating factor: IF = e^{(∫\\tan x dx)} = e^{(-\\ln\\left| \\1 \\right|)} = \\sec x. Multiplying: d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = \\tan x + C. \\)"
+      "explanation": "Integrating factor: IF = e^{(∫tan x dx)} = e^{(-\\ln\\left| A \\right|)} = \\sec x. Multiplying: d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = tan x + C."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q36",
@@ -553,14 +553,14 @@
         "D) 5π/16"
       ],
       "correct_option": "C",
-      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. Using Wallis formula: ∫₀^(π/2) sinⁿx dx = (n-1)/n · (n-3)/(n-2) · ... · (\\frac{1}{2})·(π/2) for even n. For n=6: (\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 15π/96 = 5π/32. \\)"
+      "explanation": "Inverse trigonometric functions return the angle ∈ the principal range. Using Wallis formula: ∫₀^(π/2) sinⁿx dx = (n-1)/n · (n-3)/(n-2) · ... · ($1$)·(π/2) for even n. For n=6: ($1$)($1$)($1$)(π/2) = 15π/96 = 5π/32."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q37",
       "topic": "Inverse of Matrix",
       "sub_topic": "Equality of matrices",
       "difficulty": "hard",
-      "question": "\\( If A = [[\\cos θ, \\sin θ], [-\\sin θ, \\cos θ]], then A⁻¹ equals: \\)",
+      "question": "If A = [[cos θ, sin θ], [-sin θ, cos θ]], then A⁻¹ equals:",
       "options": [
         "A) [[cos θ, -sin θ], [sin θ, cos θ]]",
         "B) [[-cos θ, sin θ], [-sin θ, cos θ]]",
@@ -568,7 +568,7 @@
         "D) [[sin θ, cos θ], [cos θ, sin θ]]"
       ],
       "correct_option": "A",
-      "explanation": "\\( This is a rotation matrix. \\left| \\1 \\right| = cos²θ + sin²θ = 1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/\\left| \\1 \\right|)[[d,-b],[-c,a]] = [[\\cos θ, -\\sin θ], [\\sin θ, \\cos θ]]. \\)"
+      "explanation": "This is a rotation matrix. \\left| A \\right| = cos²θ + sin²θ = 1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/\\left| A \\right|)[[d,-b],[-c,a]] = [[cos θ, -sin θ], [sin θ, cos θ]]."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q38",
@@ -590,7 +590,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "hard",
-      "question": "\\( Let f(x) = x·\\sin(1/x) for x ≠ 0 and f(0) = 0. Which statement is true at x = 0? \\)",
+      "question": "Let f(x) = x·sin(1/x) for x ≠ 0 and f(0) = 0. Which statement is true at x = 0?",
       "options": [
         "A) f is continuous but not differentiable",
         "B) f is not continuous",
@@ -598,7 +598,7 @@
         "D) f is continuous and has derivative 1"
       ],
       "correct_option": "A",
-      "explanation": "\\( Continuity: \\lim(x→0) x·\\sin(1/x) = 0 (since \\left| \\1 \\right| ≤ 1 and x→0). So f is continuous at 0. Differentiability: \\lim(h→0) [f(h)-f(0)]/h = \\lim(h→0) h·\\sin(1/h)/h = \\lim(h→0) \\sin(1/h), which does not exist. So f is continuous but not differentiable at x=0. \\)"
+      "explanation": "Continuity: \\lim(x→0) x·sin(1/x) = 0 (since \\left| A \\right| ≤ 1 and x→0). So f is continuous at 0. Differentiability: \\lim(h→0) [f(h)-f(0)]/h = \\lim(h→0) h·sin(1/h)/h = \\lim(h→0) sin(1/h), which does not exist. So f is continuous but not differentiable at x=0."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q40",
@@ -613,7 +613,7 @@
         "D) π/6"
       ],
       "correct_option": "C",
-      "explanation": "\\( Vectors: AB = (-1,1,0), AC = (-1,0,1). \\left| \\1 \\right| = \\sqrt{2}, \\left| \\1 \\right| = \\sqrt{2}. AB·AC = 1. \\cos(A) = AB·AC/(\\left| \\1 \\right|\\left| \\1 \\right|) = \\frac{1}{2}. So A = π/3. \\)"
+      "explanation": "Vectors: AB = (-1,1,0), AC = (-1,0,1). \\left| A \\right| = $1$, \\left| A \\right| = $1$. AB·AC = 1. cos(A) = AB·AC/(\\left| A \\right|\\left| A \\right|) = $1$. So A = π/3."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q41",
@@ -635,7 +635,7 @@
       "topic": "Applications of Derivatives",
       "sub_topic": "Maxima and minima",
       "difficulty": "hard",
-      "question": "\\( The minimum value of f(x) = \\left| \\1 \\right| + \\left| \\1 \\right| + \\left| \\1 \\right| is: \\)",
+      "question": "The minimum value of f(x) = \\left| A \\right| + \\left| A \\right| + \\left| A \\right| is:",
       "options": [
         "A) 1",
         "B) 4",
@@ -643,7 +643,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a \\sum of absolute values, the minimum occurs at the median of the points. The points are 1, 2, 3. Median is 2. f(2) = \\left| \\1 \\right|+\\left| \\1 \\right|+\\left| \\1 \\right| = 1+0+1 = 2. \\)"
+      "explanation": "For a ∑ of absolute values, the minimum occurs at the median of the points. The points are 1, 2, 3. Median is 2. f(2) = \\left| A \\right|+\\left| A \\right|+\\left| A \\right| = 1+0+1 = 2."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q43",
@@ -658,7 +658,7 @@
         "D) y = x³/5 + C/x²"
       ],
       "correct_option": "D",
-      "explanation": "\\( Rewrite: dy/dx + (2/x)y = x². IF = e^{(∫2/x dx)} = e^{(2ln\\left| \\1 \\right|)} = x². Multiplying: d/dx(y·x²) = x⁴. Integrating: y·x² = x⁵/5 + C. y = x³/5 + C/x². \\)"
+      "explanation": "$Rewrite: dy/dx + (2/x)y = x². IF = e^{(∫2/x dx)} = e^{(2ln\\left| A \\right|)} = x². Multiplying: d/dx(y·x²) = x⁴. Integrating: y·x² = x⁵/5 + C. y = x³/5 + C/x².$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q44",
@@ -680,7 +680,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral ∫ x·\\sin x dx using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral ∫ x·sin x dx using integration by parts.",
       "options": [
         "A) π",
         "B) π/2",
@@ -688,7 +688,7 @@
         "D) 0"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using integration by parts: Let u = x, dv = \\sin x dx. Then du = dx, v = −\\cos x. So ∫x·\\sin x dx = −x·\\cos x + ∫\\cos x dx = −x·\\cos x + \\sin x + C. \\)"
+      "explanation": "Using integration by parts: Let u = x, dv = sin x dx. Then du = dx, v = −cos x. So ∫x·sin x dx = −x·cos x + ∫cos x dx = −x·cos x + sin x + C."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q46",
@@ -718,14 +718,14 @@
         "D) r·(i - j + k) = 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( The plane contains direction vectors b₁ = (0,1,1) and b₂ = (1,1,0), and passes through (1,0,0). Normal vector n = b₁ × b₂ = \\left| \\1 \\right| = i(-1) - j(-1) + k(-1) = (-1, 1, -1). Equation: r·(-1,1,-1) = (1,0,0)·(-1,1,-1) = -1. So r·(-i+j-k) = -1, which is equivalent to r·(i-j+k) = 1. \\)"
+      "explanation": "The plane contains direction vectors b₁ = (0,1,1) and b₂ = (1,1,0), and passes through (1,0,0). Normal vector n = b₁ × b₂ = \\left| A \\right| = i(-1) - j(-1) + k(-1) = (-1, 1, -1). Equation: r·(-1,1,-1) = (1,0,0)·(-1,1,-1) = -1. So r·(-i+j-k) = -1, which is equivalent to r·(i-j+k) = 1."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q48",
       "topic": "Differential Equations",
       "sub_topic": "Linear differential equations",
       "difficulty": "hard",
-      "question": "\\( The differential equation dy/dx = (x + y)/(x - y) is solved using the substitution y = vx. The simplified equation \\in v and x is: \\)",
+      "question": "The differential equation dy/dx = (x + y)/(x - y) is solved using the substitution y = vx. The simplified equation ∈ v and x is:",
       "options": [
         "A) x·dv/dx = (1 - v²)/(1 + v)",
         "B) x·dv/dx = (1 + v²)/(1 - v)",
@@ -740,7 +740,7 @@
       "topic": "Matrices",
       "sub_topic": "Equality of matrices",
       "difficulty": "hard",
-      "question": "\\( A square matrix P satisfies P² = I - P. If Pⁿ = aₙI + bₙP, then \\left| \\1 \\right| + \\left| \\1 \\right| equals: \\)",
+      "question": "A square matrix P satisfies P² = I - P. If Pⁿ = aₙI + bₙP, then \\left| A \\right| + \\left| A \\right| equals:",
       "options": [
         "A) 34",
         "B) 55",
@@ -748,14 +748,14 @@
         "D) 89"
       ],
       "correct_option": "D",
-      "explanation": "\\( P² = I - P. Multiplying: P³ = P - P² = P - (I-P) = -I + 2P. P⁴ = -P + 2P² = -P + 2(I-P) = 2I - 3P. The coefficients follow Fibonacci patterns with signs: a₀=1, b₀=0; a₁=0, b₁=1; a₂=1, b₂=-1; a₃=-1, b₃=2; a₄=2, b₄=-3; a₅=-3, b₅=5; a₆=5, b₆=-8; a₇=-8, b₇=13; a₈=13, b₈=-21; a₉=-21, b₉=34; a₁₀=34, b₁₀=-55. \\left| \\1 \\right|+\\left| \\1 \\right| = 34+55 = 89. \\)"
+      "explanation": "P² = I - P. Multiplying: P³ = P - P² = P - (I-P) = -I + 2P. P⁴ = -P + 2P² = -P + 2(I-P) = 2I - 3P. The coefficients follow Fibonacci patterns with signs: a₀=1, b₀=0; a₁=0, b₁=1; a₂=1, b₂=-1; a₃=-1, b₃=2; a₄=2, b₄=-3; a₅=-3, b₅=5; a₆=5, b₆=-8; a₇=-8, b₇=13; a₈=13, b₈=-21; a₉=-21, b₉=34; a₁₀=34, b₁₀=-55. \\left| A \\right|+\\left| A \\right| = 34+55 = 89."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q50",
       "topic": "Integrals",
       "sub_topic": "Area under simple curves",
       "difficulty": "hard",
-      "question": "\\( The area bounded by the curve y = eˣ, the x-axis, and the lines x = 0 and x = \\ln 2 is: \\)",
+      "question": "The area bounded by the curve y = eˣ, the x-axis, and the lines x = 0 and x = \\ln 2 is:",
       "options": [
         "A) e - 1",
         "B) 2",
@@ -763,7 +763,7 @@
         "D) ln 2"
       ],
       "correct_option": "C",
-      "explanation": "\\( Area = ∫₀^(\\ln 2) eˣ dx = [eˣ]₀^(\\ln 2) = e^{(\\ln 2)} - e⁰ = 2 - 1 = 1. \\)"
+      "explanation": "Area = ∫₀^(\\ln 2) eˣ dx = [eˣ]₀^(\\ln 2) = e^{(\\ln 2)} - e⁰ = 2 - 1 = 1."
     }
   ]
 }

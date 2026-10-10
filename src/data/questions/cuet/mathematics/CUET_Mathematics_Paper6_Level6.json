@@ -20,7 +20,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "easy",
-      "question": "\\( The value of \\cos⁻¹(√\\frac{3}{2}) + \\sin⁻¹(1/\\sqrt{2}) is: \\)",
+      "question": "The value of cos⁻¹(√$1$) + sin⁻¹(1/$1$) is:",
       "options": [
         "A) π/3",
         "B) 7π/12",
@@ -28,7 +28,7 @@
         "D) π/2"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\cos⁻¹(√\\frac{3}{2}) = π/6 and \\sin⁻¹(1/\\sqrt{2}) = π/4. Sum = π/6 + π/4 = 2π/12 + 3π/12 = 5π/12. \\)"
+      "explanation": "cos⁻¹(√$1$) = π/6 and sin⁻¹(1/$1$) = π/4. Sum = π/6 + π/4 = 2π/12 + 3π/12 = 5π/12."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q02",
@@ -50,7 +50,7 @@
       "topic": "Determinants",
       "sub_topic": "Adjoint and inverse of a square matrix",
       "difficulty": "easy",
-      "question": "\\( If \\left| \\1 \\right| = 5 for a 3×3 matrix A, what is the value of \\left| \\1 \\right|? \\)",
+      "question": "If \\left| A \\right| = 5 for a 3×3 matrix A, what is the value of \\left| A \\right|?",
       "options": [
         "A) 1/5",
         "B) 5",
@@ -58,7 +58,7 @@
         "D) 1/25"
       ],
       "correct_option": "A",
-      "explanation": "\\( Since A·A⁻¹ = I, we have \\left| \\1 \\right|·\\left| \\1 \\right| = 1. Therefore \\left| \\1 \\right| = 1/\\left| \\1 \\right| = \\frac{1}{5}. \\)"
+      "explanation": "Since A·A⁻¹ = I, we have \\left| A \\right|·\\left| A \\right| = 1. Therefore \\left| A \\right| = 1/\\left| A \\right| = $1$."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q04",
@@ -73,7 +73,7 @@
         "D) R = A × A"
       ],
       "correct_option": "A",
-      "explanation": "\\( A relation is symmetric if whenever (a,b) is \\in R, then (b,a) is also \\in R. \\)"
+      "explanation": "A relation is symmetric if whenever (a,b) is ∈ R, then (b,a) is also ∈ R."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q05",
@@ -103,7 +103,7 @@
         "D) 9"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{2² + (-3}² + 6²) = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7. \\)"
+      "explanation": "$\\left| A \\right| = $1$² + 6²) = $1$ = $1$ = 7.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q07",
@@ -178,14 +178,14 @@
         "D) √6"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using the formula for shortest distance between skew lines: d = \\left| \\1 \\right|/\\left| \\1 \\right|. Here a₂−a₁ = (3,3,3), d₁×d₂ = (−1,−1,1), \\left| \\1 \\right| = \\sqrt{3}. d = \\left| \\1 \\right|/\\sqrt{3} = \\left| \\1 \\right|/\\sqrt{3} = 3/\\sqrt{3} = \\sqrt{3}. \\)"
+      "explanation": "Using the formula for shortest distance between skew lines: d = \\left| A \\right|/\\left| A \\right|. Here a₂−a₁ = (3,3,3), d₁×d₂ = (−1,−1,1), \\left| A \\right| = $1$. d = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 3/$1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q12",
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "easy",
-      "question": "\\( Find the principal value of \\cos inverse of negative square root of 3 over 2. \\)",
+      "question": "Find the principal value of cos inverse of negative square root of 3 over 2.",
       "options": [
         "A) 5π/6",
         "B) 7π/6",
@@ -230,7 +230,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "medium",
-      "question": "\\( The value of \\sin(\\sin⁻¹(\\frac{3}{5}) + \\cos⁻¹(\\frac{3}{5})) is: \\)",
+      "question": "The value of sin(sin⁻¹($1$) + cos⁻¹($1$)) is:",
       "options": [
         "A) 1",
         "B) 3/5",
@@ -238,7 +238,7 @@
         "D) 4/5"
       ],
       "correct_option": "A",
-      "explanation": "\\( Since \\sin⁻¹(x) + \\cos⁻¹(x) = π/2 for all x ∈ [-1,1], we have \\sin(π/2) = 1. \\)"
+      "explanation": "Since sin⁻¹(x) + cos⁻¹(x) = π/2 for all x ∈ [-1,1], we have sin(π/2) = 1."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q16",
@@ -260,7 +260,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Chain Rule",
       "difficulty": "medium",
-      "question": "\\( Find the derivative of the given function: If y = \\sin(2x + 1), then dy/dx equals: \\)",
+      "question": "Find the derivative of the given function: If y = sin(2x + 1), then dy/dx equals:",
       "options": [
         "A) 2cos(2x + 1)",
         "B) 2sin(2x + 1)",
@@ -268,7 +268,7 @@
         "D) -2cos(2x + 1)"
       ],
       "correct_option": "A",
-      "explanation": "\\( We apply the standard rules of differentiation. dy/dx = \\cos(2x + 1) · d(2x+1)/dx = \\cos(2x + 1) · 2 = 2cos(2x + 1). \\)"
+      "explanation": "We apply the standard rules of differentiation. dy/dx = cos(2x + 1) · d(2x+1)/dx = cos(2x + 1) · 2 = 2cos(2x + 1)."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q18",
@@ -298,14 +298,14 @@
         "D) 1/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( Given even: {2, 4, 6}. Numbers > 4: {6}. P(>4 | even) = \\frac{1}{3}. \\)"
+      "explanation": "Given even: {2, 4, 6}. Numbers > 4: {6}. P(>4 | even) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q20",
       "topic": "Vector Algebra",
       "sub_topic": "Scalar (dot) product of vectors",
       "difficulty": "medium",
-      "question": "\\( If \\left| \\1 \\right| = 2, \\left| \\1 \\right| = 3, and a·b = 3, then the angle between a and b is: \\)",
+      "question": "If \\left| A \\right| = 2, \\left| A \\right| = 3, and a·b = 3, then the angle between a and b is:",
       "options": [
         "A) 30°",
         "B) 45°",
@@ -313,7 +313,7 @@
         "D) 60°"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\cos θ = (a·b)/(\\left| \\1 \\right|\\left| \\1 \\right|) = 3/(2·3) = \\frac{1}{2}. So θ = 60^{\\circ}. \\)"
+      "explanation": "cos θ = (a·b)/(\\left| A \\right|\\left| A \\right|) = 3/(2·3) = $1$. So θ = 60^{\\circ}."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q21",
@@ -343,7 +343,7 @@
         "D) y = Ce^x"
       ],
       "correct_option": "A",
-      "explanation": "\\( We use standard methods for solving differential equations. Separating: dy/y = dx/x. Integrating: \\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C₁, so y = Cx. \\)"
+      "explanation": "We use standard methods for solving differential equations. Separating: dy/y = dx/x. Integrating: \\ln\\left| A \\right| = \\ln\\left| A \\right| + C₁, so y = Cx."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q23",
@@ -388,14 +388,14 @@
         "D) 14 sq units"
       ],
       "correct_option": "C",
-      "explanation": "\\( Area = (\\frac{1}{2})\\left| \\1 \\right| = (\\frac{1}{2})\\left| \\1 \\right| = (\\frac{1}{2})\\left| \\1 \\right| = (\\frac{1}{2})(10) = 5. \\)"
+      "explanation": "$Area = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)(10) = 5.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q26",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity of functions",
       "difficulty": "medium",
-      "question": "\\( The function f(x) = x^{(\\frac{2}{3})} at x = 0 is: \\)",
+      "question": "The function f(x) = x^{($1$)} at x = 0 is:",
       "options": [
         "A) Continuous and differentiable",
         "B) Not continuous but differentiable",
@@ -403,7 +403,7 @@
         "D) Continuous but not differentiable"
       ],
       "correct_option": "D",
-      "explanation": "\\( f(x) = x^{(\\frac{2}{3})} is continuous at x = 0 (LHL = RHL = f(0) = 0). But f'(x) = (\\frac{2}{3})x^{(-\\frac{1}{3})} is undefined at x = 0 (infinite), so not differentiable. \\)"
+      "explanation": "f(x) = x^{($1$)} is continuous at x = 0 (LHL = RHL = f(0) = 0). But f'(x) = ($1$)x^{(-$1$)} is undefined at x = 0 (infinite), so not differentiable."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q27",
@@ -433,14 +433,14 @@
         "D) sin⁻¹(x) + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( ∫(1/(x²+1))dx = \\tan⁻¹x + C. This is a standard integral: the derivative of \\tan⁻¹x is 1/(x²+1). \\)"
+      "explanation": "∫(1/(x²+1))dx = tan⁻¹x + C. This is a standard integral: the derivative of tan⁻¹x is 1/(x²+1)."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q29",
       "topic": "Probability",
       "sub_topic": "Independent events",
       "difficulty": "medium",
-      "question": "\\( If A and B are independent with P(A) = \\frac{1}{2} and P(B) = \\frac{1}{3}, then P(A ∩ B) equals: \\)",
+      "question": "If A and B are independent with P(A) = $1$ and P(B) = $1$, then P(A ∩ B) equals:",
       "options": [
         "A) 1/6",
         "B) 2/3",
@@ -448,7 +448,7 @@
         "D) 5/6"
       ],
       "correct_option": "A",
-      "explanation": "\\( For independent events: P(A ∩ B) = P(A)·P(B) = (\\frac{1}{2})(\\frac{1}{3}) = \\frac{1}{6}. \\)"
+      "explanation": "For independent events: P(A ∩ B) = P(A)·P(B) = ($1$)($1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q30",
@@ -463,7 +463,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( b × c = \\left| \\1 \\right| = i(1) - j(-1) + k(-1) = (1, 1, -1). a·(b × c) = (1,1,0)·(1,1,-1) = 1 + 1 + 0 = 2. \\)"
+      "explanation": "$b × c = \\left| A \\right| = i(1) - j(-1) + k(-1) = (1, 1, -1). a·(b × c) = (1,1,0)·(1,1,-1) = 1 + 1 + 0 = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q31",
@@ -530,7 +530,7 @@
       "topic": "Integrals",
       "sub_topic": "Definite Integrals",
       "difficulty": "medium",
-      "question": "\\( Evaluate the definite integral of \\sin squared x from 0 to \\pi. \\)",
+      "question": "Evaluate the definite integral of sin squared x from 0 to π.",
       "options": [
         "A) π/4",
         "B) 2π",
@@ -538,7 +538,7 @@
         "D) π/2"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using identity \\sin^{2}(x) = (1-\\cos(2x))/2: result = \\pi/2. \\)"
+      "explanation": "Using identity sin^{2}(x) = (1-cos(2x))/2: result = π/2."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q36",
@@ -553,7 +553,7 @@
         "D) (x/2)√(a²-x²) + (a²/2)sin⁻¹(x/a) + C"
       ],
       "correct_option": "D",
-      "explanation": "\\( Result = (x/2)*\\sqrt{a^{2}-x^{2}} + (a^\\frac{2}{2})*\\sin^{-1}(x/a) + C. \\)"
+      "explanation": "$Result = (x/2)*\\sqrt{a^{2}-x^{2}} + (a^$1$)*sin^{-1}(x/a) + C.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q37",
@@ -568,7 +568,7 @@
         "D) ln x"
       ],
       "correct_option": "A",
-      "explanation": "\\( For dy/dx + P(x)y = Q(x), IF = e^{(∫P(x)}dx). Here P(x) = 1/x, so IF = e^{(∫1/x dx)} = e^{(\\ln x)} = x. \\)"
+      "explanation": "For dy/dx + P(x)y = Q(x), IF = e^{(∫P(x)}dx). Here P(x) = 1/x, so IF = e^{(∫1/x dx)} = e^{(\\ln x)} = x."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q38",
@@ -583,7 +583,7 @@
         "D) 1/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(A\\left| \\1 \\right|A)·P(A) / [P(Red\\left| \\1 \\right|B)·P(B)] = (\\frac{2}{5})(\\frac{1}{2}) / [(\\frac{2}{5})(\\frac{1}{2}) + (\\frac{3}{5})(\\frac{1}{2})] = (\\frac{1}{5}) / (\\frac{1}{2}) = \\frac{2}{5}. \\)"
+      "explanation": "$P(A\\left| A \\right|A)·P(A) / [P(Red\\left| A \\right|B)·P(B)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q39",
@@ -598,7 +598,7 @@
         "D) √2/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( a₁ = (1,1,1), b₁ = (1,1,0), a₂ = (0,0,2), b₂ = (0,1,1). a₂-a₁ = (-1,-1,1). b₁×b₂ = \\left| \\1 \\right| = (1, -1, 1). \\left| \\1 \\right| = \\sqrt{3}. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(-1)(-1)+(1)(1) = -1+1+1 = 1. Distance = 1/\\sqrt{3}. \\)"
+      "explanation": "$a₁ = (1,1,1), b₁ = (1,1,0), a₂ = (0,0,2), b₂ = (0,1,1). a₂-a₁ = (-1,-1,1). b₁×b₂ = \\left| A \\right| = (1, -1, 1). \\left| A \\right| = $1$. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(-1)(-1)+(1)(1) = -1+1+1 = 1. Distance = 1/$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q40",
@@ -613,7 +613,7 @@
         "D) √6"
       ],
       "correct_option": "B",
-      "explanation": "\\( a₁ = (1,1,0), a₂ = (0,0,1), b = (1,1,0). a₂-a₁ = (-1,-1,1). b × (a₂-a₁) = \\left| \\1 \\right| = (1, -1, 0). \\left| \\1 \\right| = \\sqrt{2}. \\left| \\1 \\right| = \\sqrt{2}. Distance = \\sqrt{2}/\\sqrt{2} = 1. \\)"
+      "explanation": "$a₁ = (1,1,0), a₂ = (0,0,1), b = (1,1,0). a₂-a₁ = (-1,-1,1). b × (a₂-a₁) = \\left| A \\right| = (1, -1, 0). \\left| A \\right| = $1$. \\left| A \\right| = $1$. Distance = $1$/$1$ = 1.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q41",
@@ -635,7 +635,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration by substitution",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral of x squared \\times e to the x cubed. \\)",
+      "question": "Evaluate the indefinite integral of x squared × e to the x cubed.",
       "options": [
         "A) 3e^(x³) + C",
         "B) e^(x³) + C",
@@ -643,7 +643,7 @@
         "D) (1/3)e^(x³) + C"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let u = x^{3}, du = 3x^{2} dx. Result = (\\frac{1}{3})e^{(x^{3})} + C. \\)"
+      "explanation": "Let u = x^{3}, du = 3x^{2} dx. Result = ($1$)e^{(x^{3})} + C."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q43",
@@ -658,7 +658,7 @@
         "D) 2 and 2"
       ],
       "correct_option": "A",
-      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = 0. \\left| \\1 \\right| = (2-λ)² - 1 = λ² - 4λ + 3 = 0. (λ-1)(λ-3) = 0. Eigenvalues: λ = 1, 3. \\)"
+      "explanation": "$Characteristic equation: \\left| A \\right| = 0. \\left| A \\right| = (2-λ)² - 1 = λ² - 4λ + 3 = 0. (λ-1)(λ-3) = 0. Eigenvalues: λ = 1, 3.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q44",
@@ -673,14 +673,14 @@
         "D) 19/7"
       ],
       "correct_option": "D",
-      "explanation": "\\( D = \\left| \\1 \\right| = -6 - 1 = -7. Dx = \\left| \\1 \\right| = -21 + 2 = -19. x = Dx/D = -19/-7 = \\frac{19}{7}. \\)"
+      "explanation": "$D = \\left| A \\right| = -6 - 1 = -7. Dx = \\left| A \\right| = -21 + 2 = -19. x = Dx/D = -19/-7 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q45",
       "topic": "Probability Distributions",
       "sub_topic": "Binomial distribution",
       "difficulty": "hard",
-      "question": "\\( A fair coin is tossed 6 \\times. The probability of getting exactly 4 heads is: \\)",
+      "question": "A fair coin is tossed 6 ×. The probability of getting exactly 4 heads is:",
       "options": [
         "A) 15/64",
         "B) 1/4",
@@ -688,7 +688,7 @@
         "D) 5/16"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X = 4) = C(6,4) · (\\frac{1}{2})⁴ · (\\frac{1}{2})² = 15 · (\\frac{1}{16}) · (\\frac{1}{4}) = \\frac{15}{64}. \\)"
+      "explanation": "$P(X = 4) = C(6,4) · ($1$)⁴ · ($1$)² = 15 · ($1$) · ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q46",
@@ -718,7 +718,7 @@
         "D) (tanⁿ⁻²x)/(n-2) + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Iₙ + Iₙ₋₂ = ∫tanⁿx dx + ∫tanⁿ⁻²x dx = ∫tanⁿ⁻²x(tan²x + 1) dx = ∫tanⁿ⁻²x·sec²x dx. Let u = \\tan x, du = sec²x dx. ∫uⁿ⁻² du = uⁿ⁻¹/(n-1) + C = tanⁿ⁻¹x/(n-1) + C. \\)"
+      "explanation": "Iₙ + Iₙ₋₂ = ∫tanⁿx dx + ∫tanⁿ⁻²x dx = ∫tanⁿ⁻²x(tan²x + 1) dx = ∫tanⁿ⁻²x·sec²x dx. Let u = tan x, du = sec²x dx. ∫uⁿ⁻² du = uⁿ⁻¹/(n-1) + C = tanⁿ⁻¹x/(n-1) + C."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q48",
@@ -748,7 +748,7 @@
         "D) (1, 1)"
       ],
       "correct_option": "B",
-      "explanation": "\\( Distance squared: D = x² + (x²-3)² = x² + x⁴ - 6x² + 9 = x⁴ - 5x² + 9. dD/dx = 4x³ - 10x = 0 gives x = 0 or x² = \\frac{5}{2}. d²D/dx² = 12x² - 10. At x² = \\frac{5}{2}: d²D/dx² = 12(\\frac{5}{2}) - 10 = 20 > 0, so minimum. Point: (\\sqrt{\\frac{5}{2}}, \\frac{5}{2}). \\)"
+      "explanation": "Distance squared: D = x² + (x²-3)² = x² + x⁴ - 6x² + 9 = x⁴ - 5x² + 9. dD/dx = 4x³ - 10x = 0 gives x = 0 or x² = $1$. d²D/dx² = 12x² - 10. At x² = $1$: d²D/dx² = 12($1$) - 10 = 20 > 0, so minimum. Point: ($1$, $1$)."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q50",
@@ -763,7 +763,7 @@
         "D) 13/20"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(Red) = P(Bag1)·P(Red\\left| \\1 \\right|Bag2) = (\\frac{1}{2})(\\frac{4}{10}) + (\\frac{1}{2})(\\frac{5}{10}) = \\frac{4}{20} + \\frac{5}{20} = \\frac{9}{20}. \\)"
+      "explanation": "$P(Red) = P(Bag1)·P(Red\\left| A \\right|Bag2) = ($1$)($1$) + ($1$)($1$) = $1$ + $1$ = $1$.$"
     }
   ]
 }

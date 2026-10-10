@@ -1,4 +1,17 @@
-export type Subject = "mathematics" | "physics" | "chemistry" | "biological-science";
+export type Subject =
+  | "mathematics"
+  | "physics"
+  | "chemistry"
+  | "biological-science"
+  | "accountancy"
+  | "computer-science"
+  | "economics"
+  | "english"
+  | "general-test"
+  | "geography"
+  | "history"
+  | "mass-media"
+  | "political-science";
 export type QuestionType =
   | "single"
   | "multiple"
@@ -57,30 +70,98 @@ export const SUBJECTS: {
   title: string;
   subtitle: string;
   color: string;
+  code?: string;
 }[] = [
   {
     id: "mathematics",
     title: "Mathematics",
     subtitle: "Find the logic. Build your confidence.",
     color: "#1f5eff",
+    code: "319",
   },
   {
     id: "physics",
     title: "Physics",
     subtitle: "Turn the world around you into understanding.",
     color: "#406900",
-  },
-  {
-    id: "biological-science",
-    title: "Biological Science",
-    subtitle: "Explore genetics, cell biology, and ecosystems.",
-    color: "#059669",
+    code: "322",
   },
   {
     id: "chemistry",
     title: "Chemistry",
     subtitle: "Small connections. Stronger concepts.",
     color: "#a63b22",
+    code: "306",
+  },
+  {
+    id: "biological-science",
+    title: "Biological Science",
+    subtitle: "Explore genetics, cell biology, and ecosystems.",
+    color: "#059669",
+    code: "304",
+  },
+  {
+    id: "accountancy",
+    title: "Accountancy",
+    subtitle: "Master partnership, share capital, and financial statements.",
+    color: "#d97706",
+    code: "301",
+  },
+  {
+    id: "computer-science",
+    title: "Computer Science",
+    subtitle: "Python programming, SQL databases, and computer networks.",
+    color: "#2563eb",
+    code: "308",
+  },
+  {
+    id: "economics",
+    title: "Economics",
+    subtitle: "Microeconomics, macroeconomics, and Indian economic development.",
+    color: "#0d9488",
+    code: "309",
+  },
+  {
+    id: "english",
+    title: "English",
+    subtitle: "Reading comprehension, vocabulary, and verbal aptitude.",
+    color: "#7c3aed",
+    code: "101",
+  },
+  {
+    id: "general-test",
+    title: "General Test",
+    subtitle: "Quantitative aptitude, logical reasoning, and current affairs.",
+    color: "#dc2626",
+    code: "501",
+  },
+  {
+    id: "geography",
+    title: "Geography",
+    subtitle: "Physical geography, human landscapes, and spatial analysis.",
+    color: "#16a34a",
+    code: "313",
+  },
+  {
+    id: "history",
+    title: "History",
+    subtitle: "Ancient heritage, medieval epochs, and modern nation building.",
+    color: "#b45309",
+    code: "314",
+  },
+  {
+    id: "mass-media",
+    title: "Mass Media",
+    subtitle: "Journalism, cinema, advertising, and digital communication.",
+    color: "#9333ea",
+    code: "318",
+  },
+  {
+    id: "political-science",
+    title: "Political Science",
+    subtitle: "Indian constitution, politics, and contemporary world affairs.",
+    color: "#0284c7",
+    code: "323",
   },
 ];
 export const TYPE_LABELS: Record<QuestionType, string> = {

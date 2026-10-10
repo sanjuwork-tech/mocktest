@@ -8,6 +8,7 @@ import {
 } from "../db/schema.ts";
 import { questionBank, questionsFor } from "../data/student/bank.ts";
 import {
+  SUBJECTS,
   analyze,
   type Attempt,
   type Response,
@@ -38,9 +39,8 @@ export async function checkEntitlement(
   student: StudentProfile,
   subject: Subject,
 ): Promise<{ allowed: boolean; isFreeTier: boolean }> {
-  // 1 Free Diagnostic Mock per subject series is available to all students
-  const freeSubjects: Subject[] = ["mathematics", "physics", "chemistry", "biological-science"];
-  if (freeSubjects.includes(subject)) {
+  // Test 1 Diagnostic Mock is free for all valid platform subjects in OurMocks
+  if (SUBJECTS.some((s) => s.id === subject)) {
     return { allowed: true, isFreeTier: true };
   }
 
@@ -48,7 +48,6 @@ export async function checkEntitlement(
     return { allowed: false, isFreeTier: false };
   }
 
-  // Check active entitlements in DB
   const [entitlement] = await db
     .select()
     .from(entitlementsTable)

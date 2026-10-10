@@ -43,7 +43,7 @@
         "D) Total Fixed Cost (TFC) curve"
       ],
       "correct_option": "C",
-      "explanation": "Because \\( \\text{AFC} \\times Q = \\text{TFC} \\) (a positive constant), the AFC curve takes the shape of a rectangular hyperbola."
+      "explanation": "Because $\\text{AFC} × Q = \\text{TFC}$ (a positive constant), the AFC curve takes the shape of a rectangular hyperbola."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q03",
@@ -58,7 +58,7 @@
         "D) Net National Product Deflator"
       ],
       "correct_option": "C",
-      "explanation": "GDP Deflator is defined as \\( \\frac{\\text{Nominal GDP}}{\\text{Real GDP}} \\times 100 \\), measuring the overall price level of domestically produced goods."
+      "explanation": "GDP Deflator is defined as $\\frac{\\text{Nominal GDP}}{\\text{Real GDP}} × 100$, measuring the overall price level of domestically produced goods."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q04",
@@ -95,7 +95,7 @@
       "topic": "Consumer Behaviour and Demand",
       "sub_topic": "Consumer Equilibrium (Two Goods)",
       "difficulty": "medium",
-      "question": "A consumer consumes goods X and Y with prices \\( P_x = ₹4 \\) and \\( P_y = ₹2 \\). If at the current consumption level \\( \\text{MU}_x = 16 \\) and \\( \\text{MU}_y = 10 \\), what adjustments will restore consumer equilibrium?",
+      "question": "A consumer consumes goods X and Y with prices $P_x = ₹4$ and $P_y = ₹2$. If at the current consumption level $\\text{MU}_x = 16$ and $\\text{MU}_y = 10$, what adjustments will restore consumer equilibrium?",
       "options": [
         "A) The consumer should buy more of good X and less of good Y",
         "B) The consumer should buy more of good Y and less of good X",
@@ -103,7 +103,7 @@
         "D) The consumer should reduce consumption of both goods simultaneously"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\text{MU}_x / P_x = 16 / 4 = 4 \\); \\( \\text{MU}_y / P_y = 10 / 2 = 5 \\). Since \\( \\text{MU}_y / P_y > \\text{MU}_x / P_x \\), consuming more Y lowers \\( \\text{MU}_y \\) until equality is re-established."
+      "explanation": "$\\text{MU}_x / P_x = 16 / 4 = 4$; $\\text{MU}_y / P_y = 10 / 2 = 5$. Since $\\text{MU}_y / P_y > \\text{MU}_x / P_x$, consuming more Y lowers $\\text{MU}_y$ until equality is re-established."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q07",
@@ -118,7 +118,7 @@
         "D) 20 units on X-axis and 12 units on Y-axis"
       ],
       "correct_option": "D",
-      "explanation": "Horizontal intercept = \\( M / P_x = 120 / 6 = 20 \\); Vertical intercept = \\( M / P_y = 120 / 10 = 12 \\)."
+      "explanation": "Horizontal intercept = $M / P_x = 120 / 6 = 20$; Vertical intercept = $M / P_y = 120 / 10 = 12$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q08",
@@ -133,7 +133,7 @@
         "D) Marginal Product is at its maximum point"
       ],
       "correct_option": "C",
-      "explanation": "When AP is at its maximum, the MP curve intersects the AP curve from above, so \\( \\text{MP} = \\text{AP} \\)."
+      "explanation": "When AP is at its maximum, the MP curve intersects the AP curve from above, so $\\text{MP} = \\text{AP}$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q09",
@@ -148,7 +148,7 @@
         "D) The downward sloping segment of the Marginal Revenue curve"
       ],
       "correct_option": "B",
-      "explanation": "A competitive firm equates price with MC; it operates in the short run only when \\( P \\geq \\min(\\text{AVC}) \\). Thus, the short-run supply curve is the rising portion of SMC on or above min AVC."
+      "explanation": "A competitive firm equates price with MC; it operates in the short run only when $P ≥ \\min(\\text{AVC})$. Thus, the short-run supply curve is the rising portion of SMC on or above min AVC."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q10",
@@ -185,7 +185,7 @@
       "topic": "National Income Accounting",
       "sub_topic": "Value Added Calculation",
       "difficulty": "medium",
-      "question": "Gross Value Added at Market Price (\\( \\text{GVA}_{MP} \\)) is calculated as:",
+      "question": "Gross Value Added at Market Price ($\\text{GVA}_{MP}$) is calculated as:",
       "options": [
         "A) Domestic Income plus Net Factor Income from Abroad",
         "B) Total Sales plus Net Indirect Taxes",
@@ -193,7 +193,7 @@
         "D) Value of Output minus Intermediate Consumption"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\text{GVA}_{MP} = \\text{Value of Output} - \\text{Intermediate Consumption} \\)."
+      "explanation": "$\\text{GVA}_{MP} = \\text{Value of Output} - \\text{Intermediate Consumption}$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q13",
@@ -223,7 +223,7 @@
         "D) 8.0"
       ],
       "correct_option": "D",
-      "explanation": "Money multiplier \\( = 1 / \\text{LRR} = 1 / 0.125 = 8.0 \\)."
+      "explanation": "Money multiplier $= 1 / \\text{LRR} = 1 / 0.125 = 8.0$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q15",
@@ -234,11 +234,11 @@
       "options": [
         "A) Consumption expenditure equals zero",
         "B) Marginal Propensity to Consume equals unity",
-        "C) Investment expenditure equals planned savings (\\( I = S \\))",
-        "D) Consumption expenditure equals total national income (\\( C = Y \\)) and savings are zero"
+        "C) Investment expenditure equals planned savings ($I = S$)",
+        "D) Consumption expenditure equals total national income ($C = Y$) and savings are zero"
       ],
       "correct_option": "D",
-      "explanation": "Break-even level of income is reached when consumption spending exactly equals disposable income (\\( C = Y \\)), so savings are zero (\\( S = 0 \\))."
+      "explanation": "Break-even level of income is reached when consumption spending exactly equals disposable income ($C = Y$), so savings are zero ($S = 0$)."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q16",
@@ -275,7 +275,7 @@
       "topic": "Open Economy Macroeconomics",
       "sub_topic": "Foreign Exchange Appreciation",
       "difficulty": "medium",
-      "question": "When the exchange rate changes from \\( \\$1 = ₹82 \\) to \\( \\$1 = ₹78 \\), this implies that:",
+      "question": "When the exchange rate changes from $\\$1 = ₹82$ to $\\$1 = ₹78$, this implies that:",
       "options": [
         "A) The Indian Rupee has depreciated against the US Dollar",
         "B) Indian exports to the US will become substantially cheaper",
@@ -395,7 +395,7 @@
       "topic": "Consumer Behaviour and Demand",
       "sub_topic": "Indifference Curve Convexity",
       "difficulty": "hard",
-      "question": "Assertion (A): An indifference curve is strictly convex to the origin.\nReason (R): As the consumer substitutes good X for good Y, the Marginal Rate of Substitution (\\( \\text{MRS}_{xy} \\)) diminishes continuously along the curve.\n\nChoose the correct option:",
+      "question": "Assertion (A): An indifference curve is strictly convex to the origin.\nReason (R): As the consumer substitutes good X for good Y, the Marginal Rate of Substitution ($\\text{MRS}_{xy}$) diminishes continuously along the curve.\n\nChoose the correct option:",
       "options": [
         "A) Assertion and Reason are true, and Reason is the correct explanation of Assertion",
         "B) Assertion and Reason are true, but Reason is NOT the correct explanation of Assertion",
@@ -412,13 +412,13 @@
       "difficulty": "hard",
       "question": "A consumer buys 50 units of a commodity at a price of ₹4 per unit. When the price rises to ₹5 per unit, the consumer still spends exactly ₹200 on that commodity. What is the price elasticity of demand?",
       "options": [
-        "A) Zero (\\( |E_d| = 0 \\))",
-        "B) Unitary (\\( |E_d| = 1 \\))",
-        "C) Highly elastic (\\( |E_d| = 2.5 \\))",
-        "D) Perfectly elastic (\\( |E_d| = \\infty \\))"
+        "A) Zero ($|E_d| = 0$)",
+        "B) Unitary ($|E_d| = 1$)",
+        "C) Highly elastic ($|E_d| = 2.5$)",
+        "D) Perfectly elastic ($|E_d| = ∞$)"
       ],
       "correct_option": "B",
-      "explanation": "Initial expenditure = \\( 50 \\times 4 = ₹200 \\). New expenditure = ₹200 at price ₹5, so new quantity = \\( 200 / 5 = 40 \\) units. By total outlay method, when total outlay remains constant despite a price change, \\( |E_d| = 1 \\)."
+      "explanation": "Initial expenditure = $50 × 4 = ₹200$. New expenditure = ₹200 at price ₹5, so new quantity = $200 / 5 = 40$ units. By total outlay method, when total outlay remains constant despite a price change, $|E_d| = 1$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q28",
@@ -448,7 +448,7 @@
         "D) ₹44"
       ],
       "correct_option": "D",
-      "explanation": "TVC at 2 units = \\( 2 \\times 35 = 70 \\). TVC at 3 units = \\( 3 \\times 38 = 114 \\). \\( \\text{MC}_3 = \\text{TVC}_3 - \\text{TVC}_2 = 114 - 70 = ₹44 \\)."
+      "explanation": "TVC at 2 units = $2 × 35 = 70$. TVC at 3 units = $3 × 38 = 114$. $\\text{MC}_3 = \\text{TVC}_3 - \\text{TVC}_2 = 114 - 70 = ₹44$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q30",
@@ -457,10 +457,10 @@
       "difficulty": "hard",
       "question": "In the long-run equilibrium of a perfectly competitive industry, which condition holds true for every active firm?",
       "options": [
-        "A) \\( P = \\text{MR} = \\text{LMC} = \\min(\\text{LAC}) \\), earning only normal profit",
-        "B) \\( P > \\text{LAC} \\), yielding persistent supernormal profit",
-        "C) \\( \\text{LMC} \\) intersects LAC from above at its maximum point",
-        "D) \\( \\text{LMC} = \\text{LAC} = 0 \\)"
+        "A) $P = \\text{MR} = \\text{LMC} = \\min(\\text{LAC})$, earning only normal profit",
+        "B) $P > \\text{LAC}$, yielding persistent supernormal profit",
+        "C) $\\text{LMC}$ intersects LAC from above at its maximum point",
+        "D) $\\text{LMC} = \\text{LAC} = 0$"
       ],
       "correct_option": "A",
       "explanation": "Free entry and exit drive long-run economic profits to zero (normal profits), where price equals minimum LAC and LMC."
@@ -472,20 +472,20 @@
       "difficulty": "hard",
       "question": "If a straight-line supply curve originates from the positive vertical (price) axis and slopes upward to the right, its price elasticity of supply at any point is:",
       "options": [
-        "A) Less than one (\\( E_s < 1 \\))",
-        "B) Equal to one (\\( E_s = 1 \\))",
-        "C) Greater than one (\\( E_s > 1 \\))",
-        "D) Equal to zero (\\( E_s = 0 \\))"
+        "A) Less than one ($E_s < 1$)",
+        "B) Equal to one ($E_s = 1$)",
+        "C) Greater than one ($E_s > 1$)",
+        "D) Equal to zero ($E_s = 0$)"
       ],
       "correct_option": "C",
-      "explanation": "Any linear upward-sloping supply curve that intersects the positive price (vertical) axis has an elasticity of supply greater than unity (\\( E_s > 1 \\))."
+      "explanation": "Any linear upward-sloping supply curve that intersects the positive price (vertical) axis has an elasticity of supply greater than unity ($E_s > 1$)."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q32",
       "topic": "National Income Accounting",
       "sub_topic": "Comprehensive National Income Problem",
       "difficulty": "hard",
-      "question": "Calculate National Income (\\( \\text{NNP}_{FC} \\)) from the following data:\n- GDP at Market Price = ₹8,500 crore\n- Consumption of Fixed Capital (Depreciation) = ₹600 crore\n- Subsidies = ₹150 crore\n- Indirect Taxes = ₹850 crore\n- Net Factor Income to Abroad = ₹100 crore\n\nNational Income is:",
+      "question": "Calculate National Income ($\\text{NNP}_{FC}$) from the following data:\n- GDP at Market Price = ₹8,500 crore\n- Consumption of Fixed Capital (Depreciation) = ₹600 crore\n- Subsidies = ₹150 crore\n- Indirect Taxes = ₹850 crore\n- Net Factor Income to Abroad = ₹100 crore\n\nNational Income is:",
       "options": [
         "A) ₹7,100 crore",
         "B) ₹7,200 crore",
@@ -493,7 +493,7 @@
         "D) ₹7,400 crore"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\text{NNP}_{FC} = \\text{GDP}_{MP} - \\text{Depreciation} - \\text{Net Indirect Taxes} + \\text{NFIA} \\). Net Indirect Taxes = \\( 850 - 150 = 700 \\). NFIA = \\( -100 \\). Therefore, \\( \\text{NNP}_{FC} = 8500 - 600 - 700 + (-100) = ₹7,100 \\) crore."
+      "explanation": "$\\text{NNP}_{FC} = \\text{GDP}_{MP} - \\text{Depreciation} - \\text{Net Indirect Taxes} + \\text{NFIA}$. Net Indirect Taxes = $850 - 150 = 700$. NFIA = $-100$. Therefore, $\\text{NNP}_{FC} = 8500 - 600 - 700 + (-100) = ₹7,100$ crore."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q33",
@@ -515,7 +515,7 @@
       "topic": "National Income Accounting",
       "sub_topic": "Value Added with Change in Inventory",
       "difficulty": "hard",
-      "question": "A manufacturing enterprise reports the following data for an accounting year:\n- Domestic Sales = ₹1,200 crore\n- Exports = ₹300 crore\n- Opening Stock = ₹150 crore\n- Closing Stock = ₹250 crore\n- Purchases of raw materials from domestic market = ₹600 crore\n- Import of raw materials = ₹100 crore\n\nWhat is the Gross Value Added at Market Price (\\( \\text{GVA}_{MP} \\))?",
+      "question": "A manufacturing enterprise reports the following data for an accounting year:\n- Domestic Sales = ₹1,200 crore\n- Exports = ₹300 crore\n- Opening Stock = ₹150 crore\n- Closing Stock = ₹250 crore\n- Purchases of raw materials from domestic market = ₹600 crore\n- Import of raw materials = ₹100 crore\n\nWhat is the Gross Value Added at Market Price ($\\text{GVA}_{MP}$)?",
       "options": [
         "A) ₹800 crore",
         "B) ₹900 crore",
@@ -523,14 +523,14 @@
         "D) ₹1,100 crore"
       ],
       "correct_option": "B",
-      "explanation": "Total Sales = \\( 1200 + 300 = 1500 \\). Change in stock = \\( 250 - 150 = 100 \\). Value of output = \\( 1500 + 100 = 1600 \\). Intermediate consumption = \\( 600 + 100 = 700 \\). \\( \\text{GVA}_{MP} = 1600 - 700 = ₹900 \\) crore."
+      "explanation": "Total Sales = $1200 + 300 = 1500$. Change in stock = $250 - 150 = 100$. Value of output = $1500 + 100 = 1600$. Intermediate consumption = $600 + 100 = 700$. $\\text{GVA}_{MP} = 1600 - 700 = ₹900$ crore."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q35",
       "topic": "Money and Banking",
       "sub_topic": "Monetary Aggregates",
       "difficulty": "hard",
-      "question": "Consider the following components of money supply:\n1. Currency notes and coins with the public\n2. Demand deposits with commercial banks\n3. 'Other' deposits with the Reserve Bank of India\n4. Net time deposits with commercial banks\n\nWhich of these components comprise \\( M_1 \\)?",
+      "question": "Consider the following components of money supply:\n1. Currency notes and coins with the public\n2. Demand deposits with commercial banks\n3. 'Other' deposits with the Reserve Bank of India\n4. Net time deposits with commercial banks\n\nWhich of these components comprise $M_1$?",
       "options": [
         "A) 1 and 2 only",
         "B) 1, 2, and 3 only",
@@ -538,22 +538,22 @@
         "D) 1, 2, 3, and 4"
       ],
       "correct_option": "B",
-      "explanation": "\\( M_1 = C + \\text{DD} + \\text{OD} \\) (currency with public + demand deposits with banks + other deposits with RBI). Time deposits belong to \\( M_3 \\)."
+      "explanation": "$M_1 = C + \\text{DD} + \\text{OD}$ (currency with public + demand deposits with banks + other deposits with RBI). Time deposits belong to $M_3$."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q36",
       "topic": "Determination of Income and Employment",
       "sub_topic": "Algebraic Determination of Equilibrium Income",
       "difficulty": "hard",
-      "question": "In a two-sector economy, autonomous consumption \\( \\bar{C} = ₹100 \\) crore, Marginal Propensity to Save \\( \\text{MPS} = 0.20 \\), and planned investment \\( I = ₹200 \\) crore. The equilibrium level of national income and the level of consumption at equilibrium are respectively:",
+      "question": "In a two-sector economy, autonomous consumption $\\bar{C} = ₹100$ crore, Marginal Propensity to Save $\\text{MPS} = 0.20$, and planned investment $I = ₹200$ crore. The equilibrium level of national income and the level of consumption at equilibrium are respectively:",
       "options": [
-        "A) \\( Y = ₹1,500 \\text{ crore}, C = ₹1,300 \\text{ crore} \\)",
-        "B) \\( Y = ₹1,200 \\text{ crore}, C = ₹1,000 \\text{ crore} \\)",
-        "C) \\( Y = ₹1,500 \\text{ crore}, C = ₹1,400 \\text{ crore} \\)",
-        "D) \\( Y = ₹1,800 \\text{ crore}, C = ₹1,600 \\text{ crore} \\)"
+        "A) $Y = ₹1,500 \\text{ crore}, C = ₹1,300 \\text{ crore}$",
+        "B) $Y = ₹1,200 \\text{ crore}, C = ₹1,000 \\text{ crore}$",
+        "C) $Y = ₹1,500 \\text{ crore}, C = ₹1,400 \\text{ crore}$",
+        "D) $Y = ₹1,800 \\text{ crore}, C = ₹1,600 \\text{ crore}$"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\text{MPC} = 1 - \\text{MPS} = 1 - 0.2 = 0.8 \\). Equilibrium: \\( Y = C + I = 100 + 0.8Y + 200 \\implies 0.2Y = 300 \\implies Y = ₹1,500 \\) crore. Consumption \\( C = 100 + 0.8(1500) = 100 + 1200 = ₹1,300 \\) crore."
+      "explanation": "$\\text{MPC} = 1 - \\text{MPS} = 1 - 0.2 = 0.8$. Equilibrium: $Y = C + I = 100 + 0.8Y + 200 \\implies 0.2Y = 300 \\implies Y = ₹1,500$ crore. Consumption $C = 100 + 0.8(1500) = 100 + 1200 = ₹1,300$ crore."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q37",
@@ -583,7 +583,7 @@
         "D) ₹1,600 crore"
       ],
       "correct_option": "B",
-      "explanation": "Excess output = \\( \\Delta Y = 10000 - 8000 = ₹2,000 \\) crore. Multiplier \\( K = 1 / (1 - 0.8) = 5 \\). Since \\( \\Delta Y = K \\times (\\text{Inflationary Gap}) \\), Inflationary Gap = \\( 2000 / 5 = ₹400 \\) crore."
+      "explanation": "Excess output = $Δ Y = 10000 - 8000 = ₹2,000$ crore. Multiplier $K = 1 / (1 - 0.8) = 5$. Since $Δ Y = K × (\\text{Inflationary Gap})$, Inflationary Gap = $2000 / 5 = ₹400$ crore."
     },
     {
       "id": "CUET_ECO_2026_P9_L9_Q39",

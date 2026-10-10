@@ -28,7 +28,7 @@
         "D) All diagonal elements are non-zero"
       ],
       "correct_option": "A",
-      "explanation": "\\( A null matrix (zero matrix) is a matrix \\in which all elements are zero. \\)"
+      "explanation": "A null matrix (zero matrix) is a matrix ∈ which all elements are zero."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q02",
@@ -58,7 +58,7 @@
         "D) 1/221"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(queen on one draw) = \\frac{4}{52} = \\frac{1}{13}. Since draws are with replacement, P(both queens) = (\\frac{1}{13}) × (\\frac{1}{13}) = \\frac{1}{169}. \\)"
+      "explanation": "P(queen on one draw) = $1$ = $1$. Since draws are with replacement, P(both queens) = ($1$) × ($1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q04",
@@ -80,7 +80,7 @@
       "topic": "Three Dimensional Geometry",
       "sub_topic": "Distance of a point from a plane",
       "difficulty": "easy",
-      "question": "\\( Find the distance between the points (1, 2, 3) and (4, 6, 7) \\in 3D space. \\)",
+      "question": "Find the distance between the points (1, 2, 3) and (4, 6, 7) ∈ 3D space.",
       "options": [
         "A) √35",
         "B) √41",
@@ -88,7 +88,7 @@
         "D) √29"
       ],
       "correct_option": "B",
-      "explanation": "\\( Distance = √[(4-1)² + (6-2)² + (7-3)²] = √[9 + 16 + 16] = \\sqrt{41}. \\)"
+      "explanation": "$Distance = √[(4-1)² + (6-2)² + (7-3)²] = √[9 + 16 + 16] = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q06",
@@ -178,7 +178,7 @@
         "D) 1/3"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(same color) = P(both red) + P(both blue) + P(both green) = (6C2 + 5C2 + 4C2)/15C2 = (15 + 10 + 6)/105 = \\frac{31}{105}. \\)"
+      "explanation": "$P(same color) = P(both red) + P(both blue) + P(both green) = (6C2 + 5C2 + 4C2)/15C2 = (15 + 10 + 6)/105 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q12",
@@ -215,7 +215,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "medium",
-      "question": "\\( Find the value: If f(x) = \\ln(x³ + 1), find f'(1). \\)",
+      "question": "Find the value: If f(x) = \\ln(x³ + 1), find f'(1).",
       "options": [
         "A) 1/2",
         "B) 3/2",
@@ -223,7 +223,7 @@
         "D) 3"
       ],
       "correct_option": "B",
-      "explanation": "\\( f'(x) = 3x²/(x³ + 1). So f'(1) = 3(1)/(1 + 1) = \\frac{3}{2}. This result follows from standard mathematical principles. \\)"
+      "explanation": "f'(x) = 3x²/(x³ + 1). So f'(1) = 3(1)/(1 + 1) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q15",
@@ -238,14 +238,14 @@
         "D) 1/√3, 1/√3, 1/√3"
       ],
       "correct_option": "D",
-      "explanation": "\\( If l = m = n and l² + m² + n² = 1, then 3l² = 1, so l = ±1/\\sqrt{3}. The direction cosines are 1/\\sqrt{3}, 1/\\sqrt{3}, 1/\\sqrt{3}. \\)"
+      "explanation": "If l = m = n and l² + m² + n² = 1, then 3l² = 1, so l = ±1/$1$. The direction cosines are 1/$1$, 1/$1$, 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q16",
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "medium",
-      "question": "\\( Find the value: Evaluate ∫₀^(π/2) \\cos 2x dx. \\)",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos 2x dx.",
       "options": [
         "A) 1",
         "B) 1/2",
@@ -253,7 +253,7 @@
         "D) 2"
       ],
       "correct_option": "C",
-      "explanation": "\\( ∫\\cos 2x dx = (\\sin 2x)/2. Evaluating from 0 to π/2: (\\sin π)/2 - (\\sin 0)/2 = 0 - 0 = 0. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫cos 2x dx = (sin 2x)/2. Evaluating from 0 to π/2: (sin π)/2 - (sin 0)/2 = 0 - 0 = 0. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q17",
@@ -298,14 +298,14 @@
         "D) 81/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( f'(x) = 9 - 2x = 0 gives x = \\frac{9}{2}. f(\\frac{9}{2}) = 9(\\frac{9}{2}) - (\\frac{9}{2})² = \\frac{81}{2} - \\frac{81}{4} = \\frac{81}{4}. \\)"
+      "explanation": "$f'(x) = 9 - 2x = 0 gives x = $1$. f($1$) = 9($1$) - ($1$)² = $1$ - $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q20",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( Find the value: If A = [[2, 3], [1, 4]], find \\left| \\1 \\right|. \\)",
+      "question": "Find the value: If A = [[2, 3], [1, 4]], find \\left| A \\right|.",
       "options": [
         "A) 1/5",
         "B) 10",
@@ -313,7 +313,7 @@
         "D) 5"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = 2(4) - 3(1) = 5. For a 2×2 matrix, \\left| \\1 \\right| = \\left| \\1 \\right|^(n-1) = 5¹ = 5. This result follows from standard mathematical principles. \\)"
+      "explanation": "\\left| A \\right| = 2(4) - 3(1) = 5. For a 2×2 matrix, \\left| A \\right| = \\left| A \\right|^(n-1) = 5¹ = 5. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q21",
@@ -365,7 +365,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector (cross) product of vectors",
       "difficulty": "medium",
-      "question": "\\( If a = 3i + 4j and b = 2i - 6j, then \\left| \\1 \\right| equals: \\)",
+      "question": "If a = 3i + 4j and b = 2i - 6j, then \\left| A \\right| equals:",
       "options": [
         "A) 0",
         "B) 10",
@@ -373,14 +373,14 @@
         "D) 26"
       ],
       "correct_option": "D",
-      "explanation": "\\( For 2D vectors, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = 26. \\)"
+      "explanation": "$For 2D vectors, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = 26.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q25",
       "topic": "Relations and Functions",
       "sub_topic": "Types of relations",
       "difficulty": "medium",
-      "question": "\\( The domain of the function f(x) = \\sqrt{x² - 9} is: \\)",
+      "question": "The domain of the function f(x) = $1$ is:",
       "options": [
         "A) (-3, 3)",
         "B) [-3, 3]",
@@ -388,14 +388,14 @@
         "D) (-∞, -3] ∪ [3, ∞)"
       ],
       "correct_option": "D",
-      "explanation": "\\( For \\sqrt{x² - 9} to be real, x² - 9 ≥ 0, so x² ≥ 9, giving x ≤ -3 or x ≥ 3. Domain = (-∞, -3] ∪ [3, ∞). \\)"
+      "explanation": "For $1$ to be real, x² - 9 ≥ 0, so x² ≥ 9, giving x ≤ -3 or x ≥ 3. Domain = (-∞, -3] ∪ [3, ∞)."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q26",
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( Evaluate the definite integral of x cubed \\times e^x from 0 to 1. \\)",
+      "question": "Evaluate the definite integral of x cubed × e^x from 0 to 1.",
       "options": [
         "A) 6 - e",
         "B) 6 - 2e",
@@ -403,7 +403,7 @@
         "D) 2e - 6"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using integration by parts three \\times: result = 6 - 2e. \\)"
+      "explanation": "Using integration by parts three ×: result = 6 - 2e."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q27",
@@ -418,14 +418,14 @@
         "D) √6"
       ],
       "correct_option": "C",
-      "explanation": "\\( a₁ = (1,2,3), b₁ = (1,1,0); a₂ = (4,5,6), b₂ = (0,1,1). a₂ - a₁ = (3,3,3). b₁ × b₂ = (1, -1, 1), \\left| \\1 \\right| = \\sqrt{3}. (a₂-a₁)·(b₁×b₂) = 3-3+3 = 3. Distance = \\left| \\1 \\right|/\\sqrt{3} = \\sqrt{3}. \\)"
+      "explanation": "$a₁ = (1,2,3), b₁ = (1,1,0); a₂ = (4,5,6), b₂ = (0,1,1). a₂ - a₁ = (3,3,3). b₁ × b₂ = (1, -1, 1), \\left| A \\right| = $1$. (a₂-a₁)·(b₁×b₂) = 3-3+3 = 3. Distance = \\left| A \\right|/$1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q28",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "hard",
-      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 3, find \\left| \\1 \\right|. \\)",
+      "question": "If A is a 3×3 matrix with \\left| A \\right| = 3, find \\left| A \\right|.",
       "options": [
         "A) 36",
         "B) 324",
@@ -433,14 +433,14 @@
         "D) 576"
       ],
       "correct_option": "D",
-      "explanation": "\\( adj(2A) = 2²·adj(A) = 4·adj(A). \\left| \\1 \\right| = \\left| \\1 \\right| = 4³·\\left| \\1 \\right| = 64·\\left| \\1 \\right|² = 64·9 = 576. \\)"
+      "explanation": "$adj(2A) = 2²·adj(A) = 4·adj(A). \\left| A \\right| = \\left| A \\right| = 4³·\\left| A \\right| = 64·\\left| A \\right|² = 64·9 = 576.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q29",
       "topic": "Probability Distributions",
       "sub_topic": "Conditional probability",
       "difficulty": "hard",
-      "question": "\\( A fair die is rolled 5 \\times. What is the probability of getting exactly 2 sixes? \\)",
+      "question": "A fair die is rolled 5 ×. What is the probability of getting exactly 2 sixes?",
       "options": [
         "A) 125/7776",
         "B) 625/7776",
@@ -448,7 +448,7 @@
         "D) 125/3888"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using binomial distribution: P(X=2) = ⁵C₂(\\frac{1}{6})²(\\frac{5}{6})³ = 10 × (\\frac{1}{36}) × (\\frac{125}{216}) = \\frac{1250}{7776} = \\frac{625}{3888}. \\)"
+      "explanation": "Using binomial distribution: P(X=2) = ⁵C₂($1$)²($1$)³ = 10 × ($1$) × ($1$) = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q30",
@@ -463,7 +463,7 @@
         "D) y = 6x - 2 + Ce^(-3x)"
       ],
       "correct_option": "C",
-      "explanation": "\\( IF = e^{(∫3dx)} = e³ˣ. Multiplying: d/dx(y·e³ˣ) = 6x·e³ˣ. Integrating by parts: y·e³ˣ = 2x·e³ˣ - (\\frac{2}{3})e³ˣ + C. So y = 2x - \\frac{2}{3} + Ce^{(-3x)}. \\)"
+      "explanation": "IF = e^{(∫3dx)} = e³ˣ. Multiplying: d/dx(y·e³ˣ) = 6x·e³ˣ. Integrating by parts: y·e³ˣ = 2x·e³ˣ - ($1$)e³ˣ + C. So y = 2x - $1$ + Ce^{(-3x)}."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q31",
@@ -478,7 +478,7 @@
         "D) 32/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( x² - 4 = 0 gives x = ±2. Area = ∫₋₂²\\left| \\1 \\right|dx = 2∫₀²(4 - x²)dx = 2[4x - x³/3]₀² = 2(8 - \\frac{8}{3}) = \\frac{32}{3}. \\)"
+      "explanation": "x² - 4 = 0 gives x = ±2. Area = ∫₋₂²\\left| A \\right|dx = 2∫₀²(4 - x²)dx = 2[4x - x³/3]₀² = 2(8 - $1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q32",
@@ -493,7 +493,7 @@
         "D) 3"
       ],
       "correct_option": "A",
-      "explanation": "\\( b × c = \\left| \\1 \\right| = i(1-6) - j(-2-3) + k(4+1) = -5i + 5j + 5k. [a b c] = a·(b×c) = -5 + 5 + 5 = 5. \\)"
+      "explanation": "$b × c = \\left| A \\right| = i(1-6) - j(-2-3) + k(4+1) = -5i + 5j + 5k. [a b c] = a·(b×c) = -5 + 5 + 5 = 5.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q33",
@@ -508,7 +508,7 @@
         "D) 3 and 6"
       ],
       "correct_option": "D",
-      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = (5-λ)(4-λ) - 2 = λ² - 9λ + 18 = 0. Factoring: (λ-3)(λ-6) = 0. Eigenvalues are 3 and 6. \\)"
+      "explanation": "Characteristic equation: \\left| A \\right| = (5-λ)(4-λ) - 2 = λ² - 9λ + 18 = 0. Factoring: (λ-3)(λ-6) = 0. Eigenvalues are 3 and 6."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q34",
@@ -538,7 +538,7 @@
         "D) π/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using the reduction formula: ∫₀^(π/2) sinⁿx dx = (n-1)/n × (n-3)/(n-2) × ... × π/2 for even n. For n=4: (\\frac{3}{4})(\\frac{1}{2})(π/2) = 3π/16. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using the reduction formula: ∫₀^(π/2) sinⁿx dx = (n-1)/n × (n-3)/(n-2) × ... × π/2 for even n. For n=4: ($1$)($1$)(π/2) = 3π/16. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q36",
@@ -583,7 +583,7 @@
         "D) 21/64"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(X ≥ 4) = P(X=4) + P(X=5) + P(X=6) = ⁶C₄(\\frac{1}{2})⁶ + ⁶C₅(\\frac{1}{2})⁶ + ⁶C₆(\\frac{1}{2})⁶ = (15+6+1)/64 = \\frac{22}{64} = \\frac{11}{32}. \\)"
+      "explanation": "$P(X ≥ 4) = P(X=4) + P(X=5) + P(X=6) = ⁶C₄($1$)⁶ + ⁶C₅($1$)⁶ + ⁶C₆($1$)⁶ = (15+6+1)/64 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q39",
@@ -613,14 +613,14 @@
         "D) (1/2)tan⁻¹(2)"
       ],
       "correct_option": "C",
-      "explanation": "\\( ∫dx/(x²+a²) = (1/a)\\tan⁻¹(x/a). Here a=2: ∫₀¹ dx/(x²+4) = (\\frac{1}{2})[\\tan⁻¹(x/2)]₀¹ = (\\frac{1}{2})\\tan⁻¹(\\frac{1}{2}). This result follows from standard mathematical principles. \\)"
+      "explanation": "∫dx/(x²+a²) = (1/a)tan⁻¹(x/a). Here a=2: ∫₀¹ dx/(x²+4) = ($1$)[tan⁻¹(x/2)]₀¹ = ($1$)tan⁻¹($1$). This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q41",
       "topic": "Differential Equations",
       "sub_topic": "Linear differential equations",
       "difficulty": "hard",
-      "question": "\\( Solve: dy/dx = (y² + x²)/(xy) using substitution y = vx. The resulting equation \\in v and x is: \\)",
+      "question": "Solve: dy/dx = (y² + x²)/(xy) using substitution y = vx. The resulting equation ∈ v and x is:",
       "options": [
         "A) v + x dv/dx = v + 1/v",
         "B) x dv/dx = v²",
@@ -643,7 +643,7 @@
         "D) π/2"
       ],
       "correct_option": "D",
-      "explanation": "\\( Normal vectors: n₁ = (2, -1, 1), n₂ = (1, 1, -1). \\cos θ = \\left| \\1 \\right|/(\\left| \\1 \\right|\\left| \\1 \\right|) = \\left| \\1 \\right|/(\\sqrt{6}·\\sqrt{3}) = 0. So θ = π/2. \\)"
+      "explanation": "Normal vectors: n₁ = (2, -1, 1), n₂ = (1, 1, -1). cos θ = \\left| A \\right|/(\\left| A \\right|\\left| A \\right|) = \\left| A \\right|/($1$·$1$) = 0. So θ = π/2."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q43",
@@ -658,7 +658,7 @@
         "D) 16e⁻⁴/3"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X=3) = e⁻⁴·4³/3! = e⁻⁴·\\frac{64}{6} = 32e⁻⁴/3. \\)"
+      "explanation": "$P(X=3) = e⁻⁴·4³/3! = e⁻⁴·$1$ = 32e⁻⁴/3.$"
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q44",
@@ -680,7 +680,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Derivatives of inverse trigonometric functions",
       "difficulty": "hard",
-      "question": "\\( Find the principal value of the inverse trigonometric function: The derivative of f(x) = \\tan⁻¹(\\sqrt{x}) is: \\)",
+      "question": "Find the principal value of the inverse trigonometric function: The derivative of f(x) = tan⁻¹($1$) is:",
       "options": [
         "A) √x/(1+x)",
         "B) 1/(√x(1+x))",
@@ -688,7 +688,7 @@
         "D) 1/(2√x(1+x))"
       ],
       "correct_option": "D",
-      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. f'(x) = 1/(1+(\\sqrt{x})²) · d/dx(\\sqrt{x}) = 1/(1+x) · 1/(2\\sqrt{x}) = 1/(2\\sqrt{x}(1+x)). \\)"
+      "explanation": "Inverse trigonometric functions return the angle ∈ the principal range. f'(x) = 1/(1+($1$)²) · d/dx($1$) = 1/(1+x) · 1/(2$1$) = 1/(2$1$(1+x))."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q46",
@@ -703,7 +703,7 @@
         "D) 35/120"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(at least one blue) = 1 - P(all red) = 1 - ⁷C₃/¹²C₃ = 1 - \\frac{35}{220} = \\frac{185}{220} = \\frac{37}{44}. \\)"
+      "explanation": "P(at least one blue) = 1 - P(all red) = 1 - ⁷C₃/¹²C₃ = 1 - $1$ = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q47",
@@ -725,7 +725,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "hard",
-      "question": "\\( Find the value: Evaluate ∫₀¹ x\\sqrt{1 - x²} dx. \\)",
+      "question": "Find the value: Evaluate ∫₀¹ x$1$ dx.",
       "options": [
         "A) 1/3",
         "B) 2/3",
@@ -733,14 +733,14 @@
         "D) 1/4"
       ],
       "correct_option": "A",
-      "explanation": "\\( Let u = 1 - x², du = -2x dx. When x = 0, u = 1; when x = 1, u = 0. ∫₀¹ x\\sqrt{1-x²} dx = -\\frac{1}{2} ∫₁⁰ \\sqrt{u} du = \\frac{1}{2} ∫₀¹ u^{(\\frac{1}{2})} du = \\frac{1}{2} · [u^{(\\frac{3}{2})}/(\\frac{3}{2})]₀¹ = \\frac{1}{2} · \\frac{2}{3} = \\frac{1}{3}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Let u = 1 - x², du = -2x dx. When x = 0, u = 1; when x = 1, u = 0. ∫₀¹ x$1$ dx = -$1$ ∫₁⁰ $1$ du = $1$ ∫₀¹ u^{($1$)} du = $1$ · [u^{($1$)}/($1$)]₀¹ = $1$ · $1$ = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q49",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "hard",
-      "question": "\\( If A is a 2×2 matrix with \\left| \\1 \\right| = 3, find \\left| \\1 \\right|. \\)",
+      "question": "If A is a 2×2 matrix with \\left| A \\right| = 3, find \\left| A \\right|.",
       "options": [
         "A) 1/3",
         "B) 4/3",
@@ -748,7 +748,7 @@
         "D) 6"
       ],
       "correct_option": "B",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = 2² · \\left| \\1 \\right| = 4 · 1/\\left| \\1 \\right| = \\frac{4}{3}. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = 2² · \\left| A \\right| = 4 · 1/\\left| A \\right| = $1$. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P19_L9B_Q50",

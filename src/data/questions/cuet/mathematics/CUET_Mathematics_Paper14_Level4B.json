@@ -20,7 +20,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Domain of a Function",
       "difficulty": "easy",
-      "question": "\\( The domain of the function f(x) = \\sqrt{x − 5} + 1/(x − 2) is: \\)",
+      "question": "The domain of the function f(x) = $1$ + 1/(x − 2) is:",
       "options": [
         "A) [5, ∞) excluding 2",
         "B) (2, ∞)",
@@ -28,7 +28,7 @@
         "D) [5, ∞)"
       ],
       "correct_option": "A",
-      "explanation": "\\( For \\sqrt{x−5}, we need x − 5 ≥ 0, so x ≥ 5. For 1/(x−2), we need x ≠ 2. Since x ≥ 5 already excludes x = 2, the domain is [5, ∞). \\)"
+      "explanation": "For $1$, we need x − 5 ≥ 0, so x ≥ 5. For 1/(x−2), we need x ≠ 2. Since x ≥ 5 already excludes x = 2, the domain is [5, ∞)."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q02",
@@ -65,7 +65,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "\\( The value of the determinant \\left| \\1 \\right| equals: \\)",
+      "question": "The value of the determinant \\left| A \\right| equals:",
       "options": [
         "A) 14",
         "B) 10",
@@ -73,7 +73,7 @@
         "D) −10"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\left| \\1 \\right| = (3)(4) − (−2)(1) = 12 + 2 = 14. \\)"
+      "explanation": "$\\left| A \\right| = (3)(4) − (−2)(1) = 12 + 2 = 14.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q05",
@@ -95,7 +95,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "easy",
-      "question": "\\( If f(x) = \\ln(\\cos x), then the value of f'(π/4) equals: \\)",
+      "question": "If f(x) = \\ln(cos x), then the value of f'(π/4) equals:",
       "options": [
         "A) 1",
         "B) 0",
@@ -103,7 +103,7 @@
         "D) −2"
       ],
       "correct_option": "C",
-      "explanation": "\\( f'(x) = (1/\\cos x) · (−\\sin x) = −\\tan x. At x = π/4, f'(π/4) = −\\tan(π/4) = −1. \\)"
+      "explanation": "$f'(x) = (1/cos x) · (−sin x) = −tan x. At x = π/4, f'(π/4) = −tan(π/4) = −1.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q07",
@@ -133,14 +133,14 @@
         "D) tan x + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( The integral of sec²x is \\tan x + C, since d/dx(\\tan x) = sec²x. This is a standard integral derived from the derivative of tangent. \\)"
+      "explanation": "The integral of sec²x is tan x + C, since d/dx(tan x) = sec²x. This is a standard integral derived from the derivative of tangent."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q09",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Integrals",
       "difficulty": "easy",
-      "question": "\\( Evaluate the indefinite integral ∫ \\cos x dx. \\)",
+      "question": "Evaluate the indefinite integral ∫ cos x dx.",
       "options": [
         "A) 1",
         "B) 2",
@@ -148,7 +148,7 @@
         "D) 0"
       ],
       "correct_option": "D",
-      "explanation": "\\( The integral of \\cos x is \\sin x + C, since d/dx(\\sin x) = \\cos x. This is a standard integral from the basic integration formulas. \\)"
+      "explanation": "The integral of cos x is sin x + C, since d/dx(sin x) = cos x. This is a standard integral from the basic integration formulas."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q10",
@@ -170,7 +170,7 @@
       "topic": "Vectors and 3D Geometry",
       "sub_topic": "Vectors",
       "difficulty": "easy",
-      "question": "\\( The unit vector \\in the direction of the vector a = 2i − j + 2k is: \\)",
+      "question": "The unit vector ∈ the direction of the vector a = 2i − j + 2k is:",
       "options": [
         "A) (2i − j + 2k)/√5",
         "B) (2i − j + 2k)/3",
@@ -178,7 +178,7 @@
         "D) (2i − j + 2k)/5"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{4+1+4} = \\sqrt{9} = 3. Unit vector = a/\\left| \\1 \\right| = (2i − j + 2k)/3. \\)"
+      "explanation": "\\left| A \\right| = $1$ = $1$ = 3. Unit vector = a/\\left| A \\right| = (2i − j + 2k)/3."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q12",
@@ -193,7 +193,7 @@
         "D) (2, −1, 4)"
       ],
       "correct_option": "D",
-      "explanation": "\\( The direction ratios are the coefficients \\in the denominators: (2, −1, 4). \\)"
+      "explanation": "The direction ratios are the coefficients ∈ the denominators: (2, −1, 4)."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q13",
@@ -208,7 +208,7 @@
         "D) 17/52"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(heart) = \\frac{13}{52}, P(king) = \\frac{4}{52}, P(heart ∩ king) = \\frac{1}{52}. P(heart ∪ king) = \\frac{13}{52} + \\frac{4}{52} − \\frac{1}{52} = \\frac{16}{52} = \\frac{4}{13}. \\)"
+      "explanation": "$P(heart) = $1$, P(king) = $1$, P(heart ∩ king) = $1$. P(heart ∪ king) = $1$ + $1$ − $1$ = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q14",
@@ -238,7 +238,7 @@
         "D) 0"
       ],
       "correct_option": "B",
-      "explanation": "\\( The trace is the \\sum of diagonal elements. For I₃, diagonal entries are all 1, so trace = 1+1+1 = 3. \\)"
+      "explanation": "The trace is the ∑ of diagonal elements. For I₃, diagonal entries are all 1, so trace = 1+1+1 = 3."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q16",
@@ -253,14 +253,14 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a skew-symmetric matrix of odd order, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = (−1)^n\\left| \\1 \\right|. With n=3, \\left| \\1 \\right| = −\\left| \\1 \\right|, so \\left| \\1 \\right| = 0. \\)"
+      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (−1)^n\\left| A \\right|. With n=3, \\left| A \\right| = −\\left| A \\right|, so \\left| A \\right| = 0."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q17",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Identities",
       "difficulty": "easy",
-      "question": "\\( For x > 0, \\tan⁻¹(x) + \\tan⁻¹(1/x) equals: \\)",
+      "question": "$For x > 0, tan⁻¹(x) + tan⁻¹(1/x) equals:$",
       "options": [
         "A) −π/2",
         "B) π/2",
@@ -268,7 +268,7 @@
         "D) 0"
       ],
       "correct_option": "B",
-      "explanation": "\\( For x > 0, \\tan⁻¹(x) + \\tan⁻¹(1/x) = π/2. This is a standard identity. \\)"
+      "explanation": "For x > 0, tan⁻¹(x) + tan⁻¹(1/x) = π/2. This is a standard identity."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q18",
@@ -283,14 +283,14 @@
         "D) 0"
       ],
       "correct_option": "C",
-      "explanation": "\\( Projection of a on b = (a·b)/\\left| \\1 \\right| = (3·1 + 4·0)/1 = 3. \\)"
+      "explanation": "Projection of a on b = (a·b)/\\left| A \\right| = (3·1 + 4·0)/1 = 3."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q19",
       "topic": "Probability",
       "sub_topic": "Binomial Distribution",
       "difficulty": "easy",
-      "question": "\\( A fair coin is tossed 4 \\times. The probability of getting exactly one head equals: \\)",
+      "question": "A fair coin is tossed 4 ×. The probability of getting exactly one head equals:",
       "options": [
         "A) 1/8",
         "B) 3/8",
@@ -298,7 +298,7 @@
         "D) 1/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(X=1) = C(4,1) · (\\frac{1}{2})¹ · (\\frac{1}{2})³ = 4 · \\frac{1}{16} = \\frac{1}{4}. \\)"
+      "explanation": "$P(X=1) = C(4,1) · ($1$)¹ · ($1$)³ = 4 · $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q20",
@@ -313,7 +313,7 @@
         "D) −1/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( dy/dx = 2x. At x = 2, slope of tangent = 4. Slope of normal = −1/(slope of tangent) = −\\frac{1}{4}. \\)"
+      "explanation": "dy/dx = 2x. At x = 2, slope of tangent = 4. Slope of normal = −1/(slope of tangent) = −$1$."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q21",
@@ -335,7 +335,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "medium",
-      "question": "\\( The value of the determinant \\left| \\1 \\right| equals: \\)",
+      "question": "The value of the determinant \\left| A \\right| equals:",
       "options": [
         "A) 3",
         "B) 6",
@@ -358,7 +358,7 @@
         "D) [[1, -1], [-2, 3]]"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = 3·1 − 1·2 = 1. adj(A) = [[1, -1], [-2, 3]]. A⁻¹ = adj(A)/\\left| \\1 \\right| = [[1, -1], [-2, 3]]. \\)"
+      "explanation": "$\\left| A \\right| = 3·1 − 1·2 = 1. adj(A) = [[1, -1], [-2, 3]]. A⁻¹ = adj(A)/\\left| A \\right| = [[1, -1], [-2, 3]].$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q24",
@@ -373,14 +373,14 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "\\( AX = B where A = [[1,1],[2,3]], X = [x,y]^T, B = [3,8]^T. \\left| \\1 \\right| = 1. A⁻¹ = [[3,-1],[-2,1]]. X = A⁻¹B = [[3,-1],[-2,1]][3,8]^T = [1,2]^T. So y = 2. \\)"
+      "explanation": "AX = B where A = [[1,1],[2,3]], X = [x,y]^T, B = [3,8]^T. \\left| A \\right| = 1. A⁻¹ = [[3,-1],[-2,1]]. X = A⁻¹B = [[3,-1],[-2,1]][3,8]^T = [1,2]^T. So y = 2."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q25",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "medium",
-      "question": "\\( If y = e^{(x²)} · \\sin x, then dy/dx equals: \\)",
+      "question": "If y = e^{(x²)} · sin x, then dy/dx equals:",
       "options": [
         "A) e^(x²)(2x sin x + cos x)",
         "B) e^(x²)(2x sin x − cos x)",
@@ -388,14 +388,14 @@
         "D) e^(x²)(2x cos x + sin x)"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using product rule: dy/dx = e^{(x²)}·2x·\\sin x + e^{(x²)}·\\cos x = e^{(x²)}(2x \\sin x + \\cos x). \\)"
+      "explanation": "Using product rule: dy/dx = e^{(x²)}·2x·sin x + e^{(x²)}·cos x = e^{(x²)}(2x sin x + cos x)."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q26",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "medium",
-      "question": "\\( Find the second derivative of the given function: If y = x³ · \\ln x, then d²y/dx² equals: \\)",
+      "question": "Find the second derivative of the given function: If y = x³ · \\ln x, then d²y/dx² equals:",
       "options": [
         "A) 6x ln x + 5x",
         "B) 6x ln x + 5x²",
@@ -403,7 +403,7 @@
         "D) 3x² ln x + x²"
       ],
       "correct_option": "A",
-      "explanation": "\\( We differentiate twice using standard rules. dy/dx = 3x² \\ln x + x³ · (1/x) = 3x² \\ln x + x². d²y/dx² = 6x \\ln x + 3x² · (1/x) + 2x = 6x \\ln x + 3x + 2x = 6x \\ln x + 5x. \\)"
+      "explanation": "We differentiate twice using standard rules. dy/dx = 3x² \\ln x + x³ · (1/x) = 3x² \\ln x + x². d²y/dx² = 6x \\ln x + 3x² · (1/x) + 2x = 6x \\ln x + 3x + 2x = 6x \\ln x + 5x."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q27",
@@ -418,7 +418,7 @@
         "D) (2x − 1)e^(2x) + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using integration by parts with u = x, dv = e^{(2x)}dx: ∫x·e^{(2x)}dx = x·(e^{(2x)}/2) − ∫(e^{(2x)}/2)dx = (x/2)e^{(2x)} − (\\frac{1}{4})e^{(2x)} + C = (x/2 − \\frac{1}{4})e^{(2x)} + C. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using integration by parts with u = x, dv = e^{(2x)}dx: ∫x·e^{(2x)}dx = x·(e^{(2x)}/2) − ∫(e^{(2x)}/2)dx = (x/2)e^{(2x)} − ($1$)e^{(2x)} + C = (x/2 − $1$)e^{(2x)} + C. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q28",
@@ -433,7 +433,7 @@
         "D) 31/15"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let u = x³ + 1, du = 3x²dx. When x = 0, u = 1; when x = 1, u = 2. ∫₀¹ x²(x³+1)^4 dx = (\\frac{1}{3})∫₁² u^{4} du = (\\frac{1}{3})·[u^\\frac{5}{5}]₁² = (\\frac{1}{15})(32 − 1) = \\frac{31}{15}. \\)"
+      "explanation": "Let u = x³ + 1, du = 3x²dx. When x = 0, u = 1; when x = 1, u = 2. ∫₀¹ x²(x³+1)^4 dx = ($1$)∫₁² u^{4} du = ($1$)·[u^$1$]₁² = ($1$)(32 − 1) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q29",
@@ -448,7 +448,7 @@
         "D) 14/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( Area = ∫₀² (x² + 1) dx = [x³/3 + x]₀² = (\\frac{8}{3} + 2) − 0 = \\frac{8}{3} + \\frac{6}{3} = \\frac{14}{3}. \\)"
+      "explanation": "Area = ∫₀² (x² + 1) dx = [x³/3 + x]₀² = ($1$ + 2) − 0 = $1$ + $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q30",
@@ -478,7 +478,7 @@
         "D) [5, 5, −5]"
       ],
       "correct_option": "B",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = i(6−1) − j(3+2) + k(−1−4) = 5i − 5j − 5k = [5, −5, −5]. \\)"
+      "explanation": "$a × b = \\left| A \\right| = i(6−1) − j(3+2) + k(−1−4) = 5i − 5j − 5k = [5, −5, −5].$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q32",
@@ -493,7 +493,7 @@
         "D) cos⁻¹(1/6)"
       ],
       "correct_option": "B",
-      "explanation": "\\( a·b = 2·1 + 1·(−1) + (−1)·2 = 2 − 1 − 2 = −1. \\left| \\1 \\right| = \\sqrt{4+1+1} = \\sqrt{6}. \\left| \\1 \\right| = \\sqrt{1+1+4} = \\sqrt{6}. \\cos θ = −\\frac{1}{6}. θ = \\cos⁻¹(−\\frac{1}{6}). \\)"
+      "explanation": "$a·b = 2·1 + 1·(−1) + (−1)·2 = 2 − 1 − 2 = −1. \\left| A \\right| = $1$ = $1$. \\left| A \\right| = $1$ = $1$. cos θ = −$1$. θ = cos⁻¹(−$1$).$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q33",
@@ -523,7 +523,7 @@
         "D) 3/5"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(boy) = 0.6, P(girl) = 0.4. P(glasses\\left| \\1 \\right|girl) = 0.3. P(glasses) = 0.6·0.2 + 0.4·0.3 = 0.12 + 0.12 = 0.24. P(girl\\left| \\1 \\right|girl)·P(girl)/P(glasses) = 0.\\frac{12}{0}.24 = \\frac{1}{2}. \\)"
+      "explanation": "$P(boy) = 0.6, P(girl) = 0.4. P(glasses\\left| A \\right|girl) = 0.3. P(glasses) = 0.6·0.2 + 0.4·0.3 = 0.12 + 0.12 = 0.24. P(girl\\left| A \\right|girl)·P(girl)/P(glasses) = 0.$1$.24 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q35",
@@ -538,7 +538,7 @@
         "D) 5/9"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(A) = 0.4, P(B) = 0.6. P(D\\left| \\1 \\right|B) = 0.03. P(D) = 0.4·0.05 + 0.6·0.03 = 0.02 + 0.018 = 0.038. P(A|D) = 0.\\frac{02}{0}.038 = \\frac{20}{38} = \\frac{10}{19}. \\)"
+      "explanation": "$P(A) = 0.4, P(B) = 0.6. P(D\\left| A \\right|B) = 0.03. P(D) = 0.4·0.05 + 0.6·0.03 = 0.02 + 0.018 = 0.038. P(A|D) = 0.$1$.038 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q36",
@@ -560,7 +560,7 @@
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Derivatives",
       "difficulty": "medium",
-      "question": "\\( The derivative of f(x) = \\sin⁻¹(3x − 4x³) for x ∈ (−\\frac{1}{2}, \\frac{1}{2}) is: \\)",
+      "question": "The derivative of f(x) = sin⁻¹(3x − 4x³) for x ∈ (−$1$, $1$) is:",
       "options": [
         "A) 1/√(1−x²)",
         "B) 3/(1+x²)",
@@ -568,14 +568,14 @@
         "D) 3/√(1−x²)"
       ],
       "correct_option": "D",
-      "explanation": "\\( Note that 3x − 4x³ = \\sin(3θ) where x = \\sin θ. For x ∈ (−\\frac{1}{2}, \\frac{1}{2}), f(x) = 3 \\sin⁻¹x. So f'(x) = 3/\\sqrt{1−x²}. \\)"
+      "explanation": "Note that 3x − 4x³ = sin(3θ) where x = sin θ. For x ∈ (−$1$, $1$), f(x) = 3 sin⁻¹x. So f'(x) = 3/$1$."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q38",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "medium",
-      "question": "\\( Find the derivative of the given function: If y = (\\sin x)^x, then dy/dx equals: \\)",
+      "question": "Find the derivative of the given function: If y = (sin x)^x, then dy/dx equals:",
       "options": [
         "A) (sin x)^x [ln(sin x) + x tan x]",
         "B) (sin x)^x [ln(sin x) − x cot x]",
@@ -583,7 +583,7 @@
         "D) (sin x)^x [ln(sin x) + x cot x]"
       ],
       "correct_option": "D",
-      "explanation": "\\( We apply the standard rules of differentiation. \\ln y = x · \\ln(\\sin x). (1/y)dy/dx = \\ln(\\sin x) + x · (1/\\sin x) · \\cos x = \\ln(\\sin x) + x \\cot x. dy/dx = y[\\ln(\\sin x) + x \\cot x] = (\\sin x)^x [\\ln(\\sin x) + x \\cot x]. \\)"
+      "explanation": "We apply the standard rules of differentiation. \\ln y = x · \\ln(sin x). (1/y)dy/dx = \\ln(sin x) + x · (1/sin x) · cos x = \\ln(sin x) + x \\cot x. dy/dx = y[\\ln(sin x) + x \\cot x] = (sin x)^x [\\ln(sin x) + x \\cot x]."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q39",
@@ -598,7 +598,7 @@
         "D) x² − y² = C"
       ],
       "correct_option": "B",
-      "explanation": "\\( This is a homogeneous equation. Let y = vx, then dy/dx = v + x(dv/dx). Substituting: v + x(dv/dx) = (1 + v²)/(2v). So x(dv/dx) = (1−v²)/(2v). Separating: 2v/(1−v²)dv = dx/x. Integrating: −\\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C. So x²−y² = Cx. \\)"
+      "explanation": "This is a homogeneous equation. Let y = vx, then dy/dx = v + x(dv/dx). Substituting: v + x(dv/dx) = (1 + v²)/(2v). So x(dv/dx) = (1−v²)/(2v). Separating: 2v/(1−v²)dv = dx/x. Integrating: −\\ln\\left| A \\right| = \\ln\\left| A \\right| + C. So x²−y² = Cx."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q40",
@@ -613,7 +613,7 @@
         "D) 11/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( Intersection: x² = x + 2, x² − x − 2 = 0, (x−2)(x+1) = 0. x = −1, 2. Area = ∫₋₁² (x+2 − x²) dx = [x²/2 + 2x − x³/3]₋₁² = (2 + 4 − \\frac{8}{3}) − (\\frac{1}{2} − 2 + \\frac{1}{3}) = \\frac{10}{3} + \\frac{7}{6} = \\frac{27}{6} = \\frac{9}{2}. \\)"
+      "explanation": "Intersection: x² = x + 2, x² − x − 2 = 0, (x−2)(x+1) = 0. x = −1, 2. Area = ∫₋₁² (x+2 − x²) dx = [x²/2 + 2x − x³/3]₋₁² = (2 + 4 − $1$) − ($1$ − 2 + $1$) = $1$ + $1$ = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q41",
@@ -628,7 +628,7 @@
         "D) 1 and 4"
       ],
       "correct_option": "D",
-      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = 0. \\left| \\1 \\right| = (3−λ)(2−λ) − 2 = λ² − 5λ + 4 = 0. (λ−1)(λ−4) = 0. Eigenvalues: λ = 1, 4. \\)"
+      "explanation": "$Characteristic equation: \\left| A \\right| = 0. \\left| A \\right| = (3−λ)(2−λ) − 2 = λ² − 5λ + 4 = 0. (λ−1)(λ−4) = 0. Eigenvalues: λ = 1, 4.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q42",
@@ -643,7 +643,7 @@
         "D) √2"
       ],
       "correct_option": "B",
-      "explanation": "\\( L₁ passes through a₁ = i+j with direction b₁ = i+j+k. L₂ passes through a₂ = 2i+j−k with direction b₂ = i+2j+2k. a₂−a₁ = i−k. b₁×b₂ = \\left| \\1 \\right| = i(2−2) − j(2−1) + k(2−1) = [0,−1,1]. \\left| \\1 \\right| = \\sqrt{2}. Shortest distance = \\left| \\1 \\right|/\\left| \\1 \\right| = \\left| \\1 \\right|/\\sqrt{2} = \\left| \\1 \\right|/\\sqrt{2} = 1/\\sqrt{2}. \\)"
+      "explanation": "L₁ passes through a₁ = i+j with direction b₁ = i+j+k. L₂ passes through a₂ = 2i+j−k with direction b₂ = i+2j+2k. a₂−a₁ = i−k. b₁×b₂ = \\left| A \\right| = i(2−2) − j(2−1) + k(2−1) = [0,−1,1]. \\left| A \\right| = $1$. Shortest distance = \\left| A \\right|/\\left| A \\right| = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q43",
@@ -658,7 +658,7 @@
         "D) −5/12 rad/s"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let x be distance from wall, θ be angle with ground. \\cos θ = x/13. Differentiating: −\\sin θ · dθ/dt = (\\frac{1}{13})·dx/dt. When x = 5, \\sin θ = \\frac{12}{13}, dx/dt = 2. −(\\frac{12}{13})·dθ/dt = \\frac{2}{13}. dθ/dt = −\\frac{2}{12} = −\\frac{1}{6} rad/s. \\)"
+      "explanation": "Let x be distance from wall, θ be angle with ground. cos θ = x/13. Differentiating: −sin θ · dθ/dt = ($1$)·dx/dt. When x = 5, sin θ = $1$, dx/dt = 2. −($1$)·dθ/dt = $1$. dθ/dt = −$1$ = −$1$ rad/s."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q44",
@@ -680,7 +680,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Differential Equations",
       "difficulty": "hard",
-      "question": "\\( The particular solution of dy/dx + y \\tan x = \\sec x with y(0) = 1 is: \\)",
+      "question": "The particular solution of dy/dx + y tan x = \\sec x with y(0) = 1 is:",
       "options": [
         "A) y = x sin x + cos x",
         "B) y = sin x + cos x",
@@ -688,7 +688,7 @@
         "D) y = sin x + x cos x"
       ],
       "correct_option": "B",
-      "explanation": "\\( Integrating factor: e^{(∫\\tan x dx)} = e^{(−\\ln \\cos x)} = \\sec x. Multiplying: \\sec x · dy/dx + \\sec x · \\tan x · y = sec²x. d/dx(y · \\sec x) = sec²x. Integrating: y · \\sec x = \\tan x + C. y = \\sin x + C \\cos x. Using y(0) = 1: 1 = 0 + C·1, so C = 1. Thus y = \\sin x + \\cos x. \\)"
+      "explanation": "Integrating factor: e^{(∫tan x dx)} = e^{(−\\ln cos x)} = \\sec x. Multiplying: \\sec x · dy/dx + \\sec x · tan x · y = sec²x. d/dx(y · \\sec x) = sec²x. Integrating: y · \\sec x = tan x + C. y = sin x + C cos x. Using y(0) = 1: 1 = 0 + C·1, so C = 1. Thus y = sin x + cos x."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q46",
@@ -725,7 +725,7 @@
       "topic": "Probability",
       "sub_topic": "Binomial Distribution",
       "difficulty": "hard",
-      "question": "\\( If X ~ Binomial(n = 6, p = \\frac{1}{3}), then P(X = 2) equals: \\)",
+      "question": "If X ~ Binomial(n = 6, p = $1$), then P(X = 2) equals:",
       "options": [
         "A) 160/729",
         "B) 20/81",
@@ -733,7 +733,7 @@
         "D) 40/243"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(X=2) = C(6,2) · (\\frac{1}{3})² · (\\frac{2}{3})⁴ = 15 · (\\frac{1}{9}) · (\\frac{16}{81}) = 15 · \\frac{16}{729} = \\frac{240}{729} = \\frac{80}{243}. \\)"
+      "explanation": "$P(X=2) = C(6,2) · ($1$)² · ($1$)⁴ = 15 · ($1$) · ($1$) = 15 · $1$ = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q49",
@@ -748,14 +748,14 @@
         "D) 21"
       ],
       "correct_option": "D",
-      "explanation": "\\( f'(x) = 3x² − 12 = 3(x² − 4) = 3(x−2)(x+2). Critical points at x = −2, 2 (both \\in [−3,3]). f(−3) = −27 + 36 + 5 = 14. f(−2) = −8 + 24 + 5 = 21. f(2) = 8 − 24 + 5 = −11. f(3) = 27 − 36 + 5 = −4. Maximum value is 21 at x = −2. \\)"
+      "explanation": "f'(x) = 3x² − 12 = 3(x² − 4) = 3(x−2)(x+2). Critical points at x = −2, 2 (both ∈ [−3,3]). f(−3) = −27 + 36 + 5 = 14. f(−2) = −8 + 24 + 5 = 21. f(2) = 8 − 24 + 5 = −11. f(3) = 27 − 36 + 5 = −4. Maximum value is 21 at x = −2."
     },
     {
       "id": "CUET_MATH_2026_P14_L4B_Q50",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Integrals",
       "difficulty": "hard",
-      "question": "\\( Using the property ∫₀^a f(x) dx = ∫₀^a f(a−x) dx, the value of ∫₀^(π/2) (\\sin x)/(\\sin x + \\cos x) dx equals: \\)",
+      "question": "Using the property ∫₀^a f(x) dx = ∫₀^a f(a−x) dx, the value of ∫₀^(π/2) (sin x)/(sin x + cos x) dx equals:",
       "options": [
         "A) π/2",
         "B) 1",
@@ -763,7 +763,7 @@
         "D) π/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let I = ∫₀^(π/2) (\\sin x)/(\\sin x + \\cos x) dx. Using the property: I = ∫₀^(π/2) (\\sin(π/2−x))/(\\sin(π/2−x) + \\cos(π/2−x)) dx = ∫₀^(π/2) (\\cos x)/(\\cos x + \\sin x) dx. Adding the two expressions: 2I = ∫₀^(π/2) (\\sin x + \\cos x)/(\\sin x + \\cos x) dx = ∫₀^(π/2) 1 dx = π/2. So I = π/4. \\)"
+      "explanation": "Let I = ∫₀^(π/2) (sin x)/(sin x + cos x) dx. Using the property: I = ∫₀^(π/2) (sin(π/2−x))/(sin(π/2−x) + cos(π/2−x)) dx = ∫₀^(π/2) (cos x)/(cos x + sin x) dx. Adding the two expressions: 2I = ∫₀^(π/2) (sin x + cos x)/(sin x + cos x) dx = ∫₀^(π/2) 1 dx = π/2. So I = π/4."
     }
   ]
 }

@@ -28,14 +28,14 @@
         "D) 1"
       ],
       "correct_option": "A",
-      "explanation": "\\( A + B = [[1+0, 2+1], [3+1, 4+0]] = [[1, 3], [4, 4]]. The (1, 2) entry is the element \\in row 1, column 2, which is 3. \\)"
+      "explanation": "A + B = [[1+0, 2+1], [3+1, 4+0]] = [[1, 3], [4, 4]]. The (1, 2) entry is the element ∈ row 1, column 2, which is 3."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q02",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( Find the value: Evaluate the determinant \\left| \\1 \\right|. \\)",
+      "question": "Find the value: Evaluate the determinant \\left| A \\right|.",
       "options": [
         "A) 1",
         "B) 5",
@@ -43,14 +43,14 @@
         "D) 11"
       ],
       "correct_option": "B",
-      "explanation": "\\( For a 2×2 matrix \\left| \\1 \\right|, the determinant is ad - bc. Here, (2)(4) - (3)(1) = 8 - 3 = 5. This result follows from standard mathematical principles. \\)"
+      "explanation": "For a 2×2 matrix \\left| A \\right|, the determinant is ad - bc. Here, (2)(4) - (3)(1) = 8 - 3 = 5. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q03",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Definition and basic concepts",
       "difficulty": "easy",
-      "question": "\\( Find the principal value of the inverse trigonometric function: The principal value of \\tan⁻¹(1) is: \\)",
+      "question": "Find the principal value of the inverse trigonometric function: The principal value of tan⁻¹(1) is:",
       "options": [
         "A) π/6",
         "B) π/4",
@@ -58,7 +58,7 @@
         "D) π/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Inverse trigonometric functions return the angle \\in the principal range. \\tan(π/4) = 1, and π/4 lies \\in the principal value range (-π/2, π/2). Therefore, \\tan⁻¹(1) = π/4. \\)"
+      "explanation": "Inverse trigonometric functions return the angle ∈ the principal range. tan(π/4) = 1, and π/4 lies ∈ the principal value range (-π/2, π/2). Therefore, tan⁻¹(1) = π/4."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q04",
@@ -155,7 +155,7 @@
       "topic": "Probability",
       "sub_topic": "Conditional probability",
       "difficulty": "easy",
-      "question": "\\( A fair coin is tossed 3 \\times. What is the probability of getting exactly 2 heads? \\)",
+      "question": "A fair coin is tossed 3 ×. What is the probability of getting exactly 2 heads?",
       "options": [
         "A) 1/2",
         "B) 1/8",
@@ -163,14 +163,14 @@
         "D) 5/8"
       ],
       "correct_option": "C",
-      "explanation": "\\( Total outcomes = 2³ = 8. Favorable outcomes (exactly 2 heads) = C(3,2) = 3 (HHT, HTH, THH). Probability = \\frac{3}{8}. \\)"
+      "explanation": "Total outcomes = 2³ = 8. Favorable outcomes (exactly 2 heads) = C(3,2) = 3 (HHT, HTH, THH). Probability = $1$."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q11",
       "topic": "Vector Algebra",
       "sub_topic": "Vectors and scalars",
       "difficulty": "easy",
-      "question": "\\( Find the value: If a = i + 2j + 2k, then \\left| \\1 \\right| equals: \\)",
+      "question": "Find the value: If a = i + 2j + 2k, then \\left| A \\right| equals:",
       "options": [
         "A) 5",
         "B) 4",
@@ -178,7 +178,7 @@
         "D) 3"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{1² + 2² + 2²} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3. This result follows from standard mathematical principles. \\)"
+      "explanation": "\\left| A \\right| = $1$ = $1$ = $1$ = 3. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q12",
@@ -193,7 +193,7 @@
         "D) 5"
       ],
       "correct_option": "D",
-      "explanation": "\\( Distance = \\sqrt{(3-0}² + (4-0)² + (0-0)²) = \\sqrt{9 + 16 + 0} = \\sqrt{25} = 5. \\)"
+      "explanation": "$Distance = $1$² + (4-0)² + (0-0)²) = $1$ = $1$ = 5.$"
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q13",
@@ -208,7 +208,7 @@
         "D) 9/64"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(both red) = (\\frac{3}{8}) × (\\frac{2}{7}) = \\frac{6}{56} = \\frac{3}{28}. \\)"
+      "explanation": "$P(both red) = ($1$) × ($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q14",
@@ -260,7 +260,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "\\( Analyze the given function: The function f(x) = \\left| \\1 \\right| is: \\)",
+      "question": "Analyze the given function: The function f(x) = \\left| A \\right| is:",
       "options": [
         "A) Continuous everywhere",
         "B) Not continuous at x = 2",
@@ -268,7 +268,7 @@
         "D) Differentiable everywhere"
       ],
       "correct_option": "A",
-      "explanation": "\\( We analyze the function using standard techniques. The absolute value function \\left| \\1 \\right| is continuous everywhere on ℝ. However, it is not differentiable at x = 2 (corner point). \\)"
+      "explanation": "We analyze the function using standard techniques. The absolute value function \\left| A \\right| is continuous everywhere on ℝ. However, it is not differentiable at x = 2 (corner point)."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q18",
@@ -290,7 +290,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "easy",
-      "question": "\\( Evaluate the indefinite integral of \\cos(2x) with respect to x. \\)",
+      "question": "Evaluate the indefinite integral of cos(2x) with respect to x.",
       "options": [
         "A) sin(2x) + C",
         "B) -cos(2x)/2 + C",
@@ -298,7 +298,7 @@
         "D) -sin(2x)/2 + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Let u = 2x, then du = 2dx. So integral of \\cos(2x)dx = (\\frac{1}{2})\\sin(2x) + C. \\)"
+      "explanation": "Let u = 2x, then du = 2dx. So integral of cos(2x)dx = ($1$)sin(2x) + C."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q20",
@@ -358,7 +358,7 @@
         "D) (0, 1, 0)"
       ],
       "correct_option": "D",
-      "explanation": "\\( The y-axis makes angles of 90^{\\circ}, 0^{\\circ}, and 90^{\\circ} with the x, y, and z axes respectively. The direction cosines are (\\cos 90^{\\circ}, \\cos 0^{\\circ}, \\cos 90^{\\circ}) = (0, 1, 0). \\)"
+      "explanation": "The y-axis makes angles of 90^{\\circ}, 0^{\\circ}, and 90^{\\circ} with the x, y, and z axes respectively. The direction cosines are (cos 90^{\\circ}, cos 0^{\\circ}, cos 90^{\\circ}) = (0, 1, 0)."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q24",
@@ -395,7 +395,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( The value of the determinant \\left| \\1 \\right| is: \\)",
+      "question": "The value of the determinant \\left| A \\right| is:",
       "options": [
         "A) 8",
         "B) 0",
@@ -433,7 +433,7 @@
         "D) 16"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a set with n elements, the number of symmetric relations is 2^(n(n+1)/2). For n = 2: 2^(2×\\frac{3}{2}) = 2³ = 8. \\)"
+      "explanation": "For a set with n elements, the number of symmetric relations is 2^(n(n+1)/2). For n = 2: 2^(2×$1$) = 2³ = 8."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q29",
@@ -448,14 +448,14 @@
         "D) All x ≠ 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( f(x) = 1/(x - 1) is a rational function that is undefined at x = 1. It is continuous at all points \\in its domain, i.e., all real numbers except x = 1. \\)"
+      "explanation": "f(x) = 1/(x - 1) is a rational function that is undefined at x = 1. It is continuous at all points ∈ its domain, i.e., all real numbers except x = 1."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q30",
       "topic": "Applications of Derivatives",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "\\( Find the derivative of the given function: If y = \\ln(x³), then dy/dx equals: \\)",
+      "question": "Find the derivative of the given function: If y = \\ln(x³), then dy/dx equals:",
       "options": [
         "A) 3x²",
         "B) x³/3",
@@ -463,7 +463,7 @@
         "D) 3/x"
       ],
       "correct_option": "D",
-      "explanation": "\\( We apply the standard rules of differentiation. y = \\ln(x³) = 3ln(x). Therefore, dy/dx = 3 × (1/x) = 3/x. \\)"
+      "explanation": "We apply the standard rules of differentiation. y = \\ln(x³) = 3ln(x). Therefore, dy/dx = 3 × (1/x) = 3/x."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q31",
@@ -485,7 +485,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "easy",
-      "question": "\\( Find the value: Evaluate ∫₀^(π/2) \\cos(2x) dx. \\)",
+      "question": "Find the value: Evaluate ∫₀^(π/2) cos(2x) dx.",
       "options": [
         "A) π/2",
         "B) 0",
@@ -493,7 +493,7 @@
         "D) 1/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( ∫\\cos(2x) dx = \\sin(2x)/2. Evaluating from 0 to π/2: [\\sin(π)/2] - [\\sin(0)/2] = 0 - 0 = 0. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫cos(2x) dx = sin(2x)/2. Evaluating from 0 to π/2: [sin(π)/2] - [sin(0)/2] = 0 - 0 = 0. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q33",
@@ -523,7 +523,7 @@
         "D) 4/13"
       ],
       "correct_option": "A",
-      "explanation": "\\( There are 12 face cards \\in a deck (3 per suit × 4 suits). Probability = \\frac{12}{52} = \\frac{3}{13}. \\)"
+      "explanation": "There are 12 face cards ∈ a deck (3 per suit × 4 suits). Probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q35",
@@ -560,7 +560,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 3, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 matrix with \\left| A \\right| = 3, then \\left| A \\right| equals:",
       "options": [
         "A) 8/3",
         "B) 1/6",
@@ -568,7 +568,7 @@
         "D) 6"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\left| \\1 \\right| = 2³ · \\left| \\1 \\right| = 8 · (1/\\left| \\1 \\right|) = 8 · (\\frac{1}{3}) = \\frac{8}{3}. \\)"
+      "explanation": "$\\left| A \\right| = 2³ · \\left| A \\right| = 8 · (1/\\left| A \\right|) = 8 · ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q38",
@@ -605,7 +605,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "medium",
-      "question": "\\( Evaluate the indefinite integral ∫ x·\\cos(2x) dx using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral ∫ x·cos(2x) dx using integration by parts.",
       "options": [
         "A) x·sin(2x)/2 - cos(2x)/4 + C",
         "B) x·cos(2x)/2 - sin(2x)/4 + C",
@@ -613,7 +613,7 @@
         "D) x·sin(2x)/2 + cos(2x)/4 + C"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let u = x, dv = \\cos(2x) dx. Then du = dx, v = \\sin(2x)/2. ∫x·\\cos(2x)dx = x·\\sin(2x)/2 − ∫\\sin(2x)/2 dx = x·\\sin(2x)/2 + \\cos(2x)/4 + C. \\)"
+      "explanation": "Let u = x, dv = cos(2x) dx. Then du = dx, v = sin(2x)/2. ∫x·cos(2x)dx = x·sin(2x)/2 − ∫sin(2x)/2 dx = x·sin(2x)/2 + cos(2x)/4 + C."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q41",
@@ -658,7 +658,7 @@
         "D) 5i + 5j + 5k"
       ],
       "correct_option": "C",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = i(2·1 - 3·(-1)) - j(1·1 - 3·2) + k(1·(-1) - 2·2) = 5i + 5j - 5k. \\)"
+      "explanation": "$a × b = \\left| A \\right| = i(2·1 - 3·(-1)) - j(1·1 - 3·2) + k(1·(-1) - 2·2) = 5i + 5j - 5k.$"
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q44",
@@ -718,14 +718,14 @@
         "D) 0.6"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(A ∪ B) = P(A) + P(B) - P(A ∩ B), so 0.8 = 0.6 + 0.5 - P(A ∩ B), giving P(A ∩ B) = 0.3. Then P(A|B) = P(A ∩ B)/P(B) = 0.\\frac{3}{0}.5 = 0.6. \\)"
+      "explanation": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B), so 0.8 = 0.6 + 0.5 - P(A ∩ B), giving P(A ∩ B) = 0.3. Then P(A|B) = P(A ∩ B)/P(B) = 0.$1$.5 = 0.6."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q48",
       "topic": "Matrices",
       "sub_topic": "Equality of matrices",
       "difficulty": "hard",
-      "question": "\\( If A is a 3×3 matrix such that A² = A (idempotent matrix), then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 matrix such that A² = A (idempotent matrix), then \\left| A \\right| equals:",
       "options": [
         "A) 8",
         "B) 4",
@@ -740,7 +740,7 @@
       "topic": "Differential Equations",
       "sub_topic": "Linear differential equations",
       "difficulty": "hard",
-      "question": "\\( The solution of the differential equation x(dy/dx) = y + x·\\tan(y/x) with y(1) = π/4 is: \\)",
+      "question": "The solution of the differential equation x(dy/dx) = y + x·tan(y/x) with y(1) = π/4 is:",
       "options": [
         "A) tan(y/x) = x",
         "B) sin(y/x) = √2x",
@@ -748,7 +748,7 @@
         "D) cos(y/x) = x/√2"
       ],
       "correct_option": "C",
-      "explanation": "\\( This is a homogeneous equation. Let y = vx, so dy/dx = v + x(dv/dx). Substituting: x(v + x·dv/dx) = vx + x·\\tan(v), giving x²·dv/dx = x·\\tan(v). Separating: \\cot(v)dv = dx/x. Integrating: \\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C, so \\sin(v) = Cx. Thus \\sin(y/x) = Cx. Using y(1) = π/4: \\sin(π/4) = C, so C = 1/\\sqrt{2}. The solution is \\sin(y/x) = x/\\sqrt{2}. \\)"
+      "explanation": "This is a homogeneous equation. Let y = vx, so dy/dx = v + x(dv/dx). Substituting: x(v + x·dv/dx) = vx + x·tan(v), giving x²·dv/dx = x·tan(v). Separating: \\cot(v)dv = dx/x. Integrating: \\ln\\left| A \\right| = \\ln\\left| A \\right| + C, so sin(v) = Cx. Thus sin(y/x) = Cx. Using y(1) = π/4: sin(π/4) = C, so C = 1/$1$. The solution is sin(y/x) = x/$1$."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q50",
@@ -763,7 +763,7 @@
         "D) 3"
       ],
       "correct_option": "B",
-      "explanation": "\\( This integral equals Γ(4) = 3! = 6, where Γ is the \\gamma function. Alternatively, using repeated integration by parts: ∫₀^∞ x³·e^{(-x)} dx = 3∫₀^∞ x²·e^{(-x)} dx = 3 × 2∫₀^∞ x·e^{(-x)} dx = 6 × 1 = 6. This result follows from standard mathematical principles. \\)"
+      "explanation": "This integral equals Γ(4) = 3! = 6, where Γ is the \\gamma function. Alternatively, using repeated integration by parts: ∫₀^∞ x³·e^{(-x)} dx = 3∫₀^∞ x²·e^{(-x)} dx = 3 × 2∫₀^∞ x·e^{(-x)} dx = 6 × 1 = 6. This result follows from standard mathematical principles."
     }
   ]
 }

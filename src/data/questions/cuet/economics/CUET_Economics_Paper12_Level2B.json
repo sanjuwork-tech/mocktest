@@ -88,7 +88,7 @@
         "D) Total Fixed Cost divided by Total Product"
       ],
       "correct_option": "C",
-      "explanation": "Average Product (AP) represents output per unit of the variable input: \\( \\text{AP}_L = \\text{TP} / L \\)."
+      "explanation": "Average Product (AP) represents output per unit of the variable input: $\\text{AP}_L = \\text{TP} / L$."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q06",
@@ -110,15 +110,15 @@
       "topic": "Production and Costs",
       "sub_topic": "Total Revenue",
       "difficulty": "easy",
-      "question": "Total Revenue (TR) earned from selling \\( Q \\) units at market price \\( P \\) is formulated as:",
+      "question": "Total Revenue (TR) earned from selling $Q$ units at market price $P$ is formulated as:",
       "options": [
-        "A) \\( P \\times Q \\)",
-        "B) \\( P / Q \\)",
-        "C) \\( P + Q \\)",
-        "D) \\( \\Delta P / \\Delta Q \\)"
+        "A) $P × Q$",
+        "B) $P / Q$",
+        "C) $P + Q$",
+        "D) $Δ P / Δ Q$"
       ],
       "correct_option": "A",
-      "explanation": "Total Revenue is the total gross proceeds from sales, computed as price multiplied by quantity (\\( \\text{TR} = P \\times Q \\))."
+      "explanation": "Total Revenue is the total gross proceeds from sales, computed as price multiplied by quantity ($\\text{TR} = P × Q$)."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q08",
@@ -208,7 +208,7 @@
         "D) Transfer Payments"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\text{GDP} - \\text{Depreciation} = \\text{NDP} \\). Gross aggregates include depreciation while net aggregates exclude it."
+      "explanation": "$\\text{GDP} - \\text{Depreciation} = \\text{NDP}$. Gross aggregates include depreciation while net aggregates exclude it."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q14",
@@ -277,13 +277,13 @@
       "difficulty": "easy",
       "question": "The Average Propensity to Consume (APC) is defined as:",
       "options": [
-        "A) The ratio of total consumption to total income (\\( C / Y \\))",
-        "B) The ratio of change in consumption to change in income (\\( \\Delta C / \\Delta Y \\))",
+        "A) The ratio of total consumption to total income ($C / Y$)",
+        "B) The ratio of change in consumption to change in income ($Δ C / Δ Y$)",
         "C) Total savings divided by total disposable income",
         "D) The percentage change in investment relative to GDP"
       ],
       "correct_option": "A",
-      "explanation": "APC represents the fraction of total income devoted to consumption spending (\\( \\text{APC} = C / Y \\))."
+      "explanation": "APC represents the fraction of total income devoted to consumption spending ($\\text{APC} = C / Y$)."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q19",
@@ -478,29 +478,29 @@
         "D) Quantity demanded remains completely unchanged"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\% \\Delta Q = E_d \\times \\% \\Delta P = -2.0 \\times (+10\\%) = -20\\% \\). Quantity demanded falls by 20%."
+      "explanation": "$\\% Δ Q = E_d × \\% Δ P = -2.0 × (+10\\%) = -20\\%$. Quantity demanded falls by 20%."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q32",
       "topic": "Production and Costs",
       "sub_topic": "Relationship between TC, TFC, and TVC",
       "difficulty": "medium",
-      "question": "A firm's Total Cost at zero level of output is \u20b9250. When output is 4 units, Total Cost is \u20b9650. What is the Total Variable Cost at 4 units of output?",
+      "question": "A firm's Total Cost at zero level of output is ₹250. When output is 4 units, Total Cost is ₹650. What is the Total Variable Cost at 4 units of output?",
       "options": [
-        "A) \u20b9250",
-        "B) \u20b9900",
-        "C) \u20b9650",
-        "D) \u20b9400"
+        "A) ₹250",
+        "B) ₹900",
+        "C) ₹650",
+        "D) ₹400"
       ],
       "correct_option": "D",
-      "explanation": "At zero output, \\( \\text{TC} = \\text{TFC} = \u20b9250 \\). At 4 units: \\( \\text{TVC} = \\text{TC} - \\text{TFC} = 650 - 250 = \u20b9400 \\)."
+      "explanation": "At zero output, $\\text{TC} = \\text{TFC} = ₹250$. At 4 units: $\\text{TVC} = \\text{TC} - \\text{TFC} = 650 - 250 = ₹400$."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q33",
       "topic": "Theory of the Firm under Perfect Competition",
       "sub_topic": "Price Elasticity of Supply Calculation",
       "difficulty": "medium",
-      "question": "When the price of a good increases from \u20b910 to \u20b912, a producer increases supply from 50 units to 65 units. What is the price elasticity of supply (\\( E_s \\))?",
+      "question": "When the price of a good increases from ₹10 to ₹12, a producer increases supply from 50 units to 65 units. What is the price elasticity of supply ($E_s$)?",
       "options": [
         "A) 1.0",
         "B) 1.5",
@@ -508,7 +508,7 @@
         "D) 2.5"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\% \\Delta P = (2 / 10) \\times 100 = 20\\% \\). \\( \\% \\Delta Q_s = (15 / 50) \\times 100 = 30\\% \\). \\( E_s = 30 / 20 = 1.5 \\)."
+      "explanation": "$\\% Δ P = (2 / 10) × 100 = 20\\%$. $\\% Δ Q_s = (15 / 50) × 100 = 30\\%$. $E_s = 30 / 20 = 1.5$."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q34",
@@ -532,13 +532,13 @@
       "difficulty": "medium",
       "question": "Which of the following aggregates is estimated by adding private final consumption expenditure, government final consumption expenditure, gross domestic capital formation, and net exports?",
       "options": [
-        "A) Gross Domestic Product at Market Price (\\( \\text{GDP}_{MP} \\))",
-        "B) Net National Product at Factor Cost (\\( \\text{NNP}_{FC} \\))",
-        "C) Net Domestic Product at Market Price (\\( \\text{NDP}_{MP} \\))",
-        "D) Gross National Product at Factor Cost (\\( \\text{GNP}_{FC} \\))"
+        "A) Gross Domestic Product at Market Price ($\\text{GDP}_{MP}$)",
+        "B) Net National Product at Factor Cost ($\\text{NNP}_{FC}$)",
+        "C) Net Domestic Product at Market Price ($\\text{NDP}_{MP}$)",
+        "D) Gross National Product at Factor Cost ($\\text{GNP}_{FC}$)"
       ],
       "correct_option": "A",
-      "explanation": "Under the expenditure method: \\( \\text{GDP}_{MP} = C + G + I + (X - M) \\)."
+      "explanation": "Under the expenditure method: $\\text{GDP}_{MP} = C + G + I + (X - M)$."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q36",
@@ -560,30 +560,30 @@
       "topic": "Money and Banking",
       "sub_topic": "Credit Creation Formula",
       "difficulty": "medium",
-      "question": "If the Legal Reserve Requirement is 10% and the banking system receives initial fresh cash deposits of \u20b910,000 crore, the total amount of fresh money created through loans is:",
+      "question": "If the Legal Reserve Requirement is 10% and the banking system receives initial fresh cash deposits of ₹10,000 crore, the total amount of fresh money created through loans is:",
       "options": [
-        "A) \u20b990,000 crore",
-        "B) \u20b91,00,000 crore",
-        "C) \u20b910,000 crore",
-        "D) \u20b950,000 crore"
+        "A) ₹90,000 crore",
+        "B) ₹1,00,000 crore",
+        "C) ₹10,000 crore",
+        "D) ₹50,000 crore"
       ],
       "correct_option": "A",
-      "explanation": "Total deposits = \\( 10000 \\times (1 / 0.10) = \u20b91,00,000 \\) crore. Loans/credit created = Total deposits - Initial cash reserves = \\( 100000 - 10000 = \u20b990,000 \\) crore."
+      "explanation": "Total deposits = $10000 × (1 / 0.10) = ₹1,00,000$ crore. Loans/credit created = Total deposits - Initial cash reserves = $100000 - 10000 = ₹90,000$ crore."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q38",
       "topic": "Determination of Income and Employment",
       "sub_topic": "Savings Function Intercept",
       "difficulty": "medium",
-      "question": "If the consumption function of an economy is \\( C = 50 + 0.7Y \\), what is the value of dis-saving when national income (\\( Y \\)) is zero?",
+      "question": "If the consumption function of an economy is $C = 50 + 0.7Y$, what is the value of dis-saving when national income ($Y$) is zero?",
       "options": [
-        "A) \u20b950 crore",
-        "B) \u20b9-50 crore",
-        "C) \u20b90",
-        "D) \u20b970 crore"
+        "A) ₹50 crore",
+        "B) ₹-50 crore",
+        "C) ₹0",
+        "D) ₹70 crore"
       ],
       "correct_option": "B",
-      "explanation": "When \\( Y = 0 \\), \\( C = 50 \\), so \\( S = Y - C = 0 - 50 = \u20b9-50 \\) crore (representing autonomous dissaving)."
+      "explanation": "When $Y = 0$, $C = 50$, so $S = Y - C = 0 - 50 = ₹-50$ crore (representing autonomous dissaving)."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q39",
@@ -605,15 +605,15 @@
       "topic": "Government Budget and Economy",
       "sub_topic": "Measures of Deficit",
       "difficulty": "medium",
-      "question": "If the Fiscal Deficit of a government is \u20b960,000 crore and the Primary Deficit is \u20b915,000 crore, how much is the government spending on Interest Payments?",
+      "question": "If the Fiscal Deficit of a government is ₹60,000 crore and the Primary Deficit is ₹15,000 crore, how much is the government spending on Interest Payments?",
       "options": [
-        "A) \u20b915,000 crore",
-        "B) \u20b945,000 crore",
-        "C) \u20b960,000 crore",
-        "D) \u20b975,000 crore"
+        "A) ₹15,000 crore",
+        "B) ₹45,000 crore",
+        "C) ₹60,000 crore",
+        "D) ₹75,000 crore"
       ],
       "correct_option": "B",
-      "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments \\( \\implies 15000 = 60000 - \\text{Interest} \\implies \\text{Interest} = 60000 - 15000 = \u20b945,000 \\) crore."
+      "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments $\\implies 15000 = 60000 - \\text{Interest} \\implies \\text{Interest} = 60000 - 15000 = ₹45,000$ crore."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q41",
@@ -695,7 +695,7 @@
       "topic": "Consumer Behaviour and Demand",
       "sub_topic": "Consumer Budget Constraints",
       "difficulty": "hard",
-      "question": "A consumer has a budget of \u20b980 to purchase goods X and Y, priced at \u20b98 and \u20b910 respectively. Which of the following consumption bundles lies strictly outside the consumer's feasible budget set?",
+      "question": "A consumer has a budget of ₹80 to purchase goods X and Y, priced at ₹8 and ₹10 respectively. Which of the following consumption bundles lies strictly outside the consumer's feasible budget set?",
       "options": [
         "A) (5 units of X, 4 units of Y)",
         "B) (0 units of X, 8 units of Y)",
@@ -703,37 +703,37 @@
         "D) (6 units of X, 5 units of Y)"
       ],
       "correct_option": "D",
-      "explanation": "Bundle D costs: \\( 6(8) + 5(10) = 48 + 50 = \u20b998 \\), which exceeds the consumer's budget of \u20b980, making it non-feasible."
+      "explanation": "Bundle D costs: $6(8) + 5(10) = 48 + 50 = ₹98$, which exceeds the consumer's budget of ₹80, making it non-feasible."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q47",
       "topic": "National Income Accounting",
       "sub_topic": "Operating Surplus Calculation",
       "difficulty": "hard",
-      "question": "From the following factor income data, calculate the Operating Surplus:\n- Rent = \u20b9400 crore\n- Wages and Salaries = \u20b91,200 crore\n- Interest = \u20b9350 crore\n- Undistributed Profits = \u20b9100 crore\n- Corporate Tax = \u20b980 crore\n- Dividends = \u20b9120 crore\n\nOperating Surplus equals:",
+      "question": "From the following factor income data, calculate the Operating Surplus:\n- Rent = ₹400 crore\n- Wages and Salaries = ₹1,200 crore\n- Interest = ₹350 crore\n- Undistributed Profits = ₹100 crore\n- Corporate Tax = ₹80 crore\n- Dividends = ₹120 crore\n\nOperating Surplus equals:",
       "options": [
-        "A) \u20b9850 crore",
-        "B) \u20b9950 crore",
-        "C) \u20b91,050 crore",
-        "D) \u20b91,250 crore"
+        "A) ₹850 crore",
+        "B) ₹950 crore",
+        "C) ₹1,050 crore",
+        "D) ₹1,250 crore"
       ],
       "correct_option": "C",
-      "explanation": "Total Profit = Corporate Tax + Dividends + Retained Earnings = \\( 80 + 120 + 100 = \u20b9300 \\) crore. Operating Surplus = Rent + Interest + Profit = \\( 400 + 350 + 300 = \u20b91,050 \\) crore."
+      "explanation": "Total Profit = Corporate Tax + Dividends + Retained Earnings = $80 + 120 + 100 = ₹300$ crore. Operating Surplus = Rent + Interest + Profit = $400 + 350 + 300 = ₹1,050$ crore."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q48",
       "topic": "Determination of Income and Employment",
       "sub_topic": "Keynesian Income Determination",
       "difficulty": "hard",
-      "question": "In a two-sector model, the consumption function is \\( C = 300 + 0.6Y \\). If the planned investment is \u20b9500 crore, what is the equilibrium level of income, and what is the saving at equilibrium?",
+      "question": "In a two-sector model, the consumption function is $C = 300 + 0.6Y$. If the planned investment is ₹500 crore, what is the equilibrium level of income, and what is the saving at equilibrium?",
       "options": [
-        "A) \\( Y = \u20b92,000 \\text{ crore}; S = \u20b9500 \\text{ crore} \\)",
-        "B) \\( Y = \u20b91,800 \\text{ crore}; S = \u20b9400 \\text{ crore} \\)",
-        "C) \\( Y = \u20b92,000 \\text{ crore}; S = \u20b9600 \\text{ crore} \\)",
-        "D) \\( Y = \u20b92,500 \\text{ crore}; S = \u20b9500 \\text{ crore} \\)"
+        "A) $Y = ₹2,000 \\text{ crore}; S = ₹500 \\text{ crore}$",
+        "B) $Y = ₹1,800 \\text{ crore}; S = ₹400 \\text{ crore}$",
+        "C) $Y = ₹2,000 \\text{ crore}; S = ₹600 \\text{ crore}$",
+        "D) $Y = ₹2,500 \\text{ crore}; S = ₹500 \\text{ crore}$"
       ],
       "correct_option": "A",
-      "explanation": "\\( Y = 300 + 0.6Y + 500 \\implies 0.4Y = 800 \\implies Y = \u20b92,000 \\) crore. At equilibrium, planned saving equals planned investment: \\( S = I = \u20b9500 \\) crore (or \\( S = 2000 - (300 + 0.6 \\times 2000) = 2000 - 1500 = \u20b9500 \\) crore)."
+      "explanation": "$Y = 300 + 0.6Y + 500 \\implies 0.4Y = 800 \\implies Y = ₹2,000$ crore. At equilibrium, planned saving equals planned investment: $S = I = ₹500$ crore (or $S = 2000 - (300 + 0.6 × 2000) = 2000 - 1500 = ₹500$ crore)."
     },
     {
       "id": "CUET_ECO_2026_P12_L2B_Q49",

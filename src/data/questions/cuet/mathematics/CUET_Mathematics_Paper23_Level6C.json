@@ -58,14 +58,14 @@
         "D) 2/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( Even numbers: {2,4,6}, Numbers > 4: {5,6}. Union = {2,4,5,6} = 4 outcomes. P = \\frac{4}{6} = \\frac{2}{3}. \\)"
+      "explanation": "Even numbers: {2,4,6}, Numbers > 4: {5,6}. Union = {2,4,5,6} = 4 outcomes. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q04",
       "topic": "Determinants",
       "sub_topic": "Evaluation",
       "difficulty": "easy",
-      "question": "\\( If A = [[3, 1], [2, 5]], then \\left| \\1 \\right| equals: \\)",
+      "question": "If A = [[3, 1], [2, 5]], then \\left| A \\right| equals:",
       "options": [
         "A) 11",
         "B) 15",
@@ -73,7 +73,7 @@
         "D) 17"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = (3)(5) - (1)(2) = 15 - 2 = 13. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = (3)(5) - (1)(2) = 15 - 2 = 13. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q05",
@@ -95,7 +95,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Trigonometric Functions",
       "difficulty": "easy",
-      "question": "\\( The range of the function f(x) = 2 \\sin(x) + 3 is: \\)",
+      "question": "The range of the function f(x) = 2 sin(x) + 3 is:",
       "options": [
         "A) [-2, 2]",
         "B) [1, 5]",
@@ -103,14 +103,14 @@
         "D) [-1, 1]"
       ],
       "correct_option": "B",
-      "explanation": "\\( Since \\sin(x) ∈ [-1,1], then 2sin(x) ∈ [-2,2], so 2sin(x)+3 ∈ [1,5]. \\)"
+      "explanation": "Since sin(x) ∈ [-1,1], then 2sin(x) ∈ [-2,2], so 2sin(x)+3 ∈ [1,5]."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q07",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Principal Values",
       "difficulty": "easy",
-      "question": "\\( The value of \\tan^{-1}(1) + \\tan^{-1}(-1) is: \\)",
+      "question": "The value of tan^{-1}(1) + tan^{-1}(-1) is:",
       "options": [
         "A) -π/2",
         "B) π/2",
@@ -118,7 +118,7 @@
         "D) π"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\tan^{-1}(1) = π/4, \\tan^{-1}(-1) = -π/4. Sum = 0. \\)"
+      "explanation": "$tan^{-1}(1) = π/4, tan^{-1}(-1) = -π/4. Sum = 0.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q08",
@@ -215,7 +215,7 @@
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Identities",
       "difficulty": "medium",
-      "question": "\\( If \\tan^{-1}(x) + \\tan^{-1}(y) = π/4, and xy < 1, then x + y + xy equals: \\)",
+      "question": "If tan^{-1}(x) + tan^{-1}(y) = π/4, and xy < 1, then x + y + xy equals:",
       "options": [
         "A) 2",
         "B) -1",
@@ -223,7 +223,7 @@
         "D) 0"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using \\tan^{-1}(x) + \\tan^{-1}(y) = \\tan^{-1}((x+y)/(1-xy)) = π/4. So (x+y)/(1-xy) = 1, giving x+y = 1-xy, so x+y+xy = 1. \\)"
+      "explanation": "Using tan^{-1}(x) + tan^{-1}(y) = tan^{-1}((x+y)/(1-xy)) = π/4. So (x+y)/(1-xy) = 1, giving x+y = 1-xy, so x+y+xy = 1."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q15",
@@ -238,7 +238,7 @@
         "D) 1/13"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(both hearts) = (\\frac{13}{52}) × (\\frac{12}{51}) = (\\frac{1}{4}) × (\\frac{12}{51}) = \\frac{12}{204} = \\frac{1}{17}. \\)"
+      "explanation": "$P(both hearts) = ($1$) × ($1$) = ($1$) × ($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q16",
@@ -298,7 +298,7 @@
         "D) 10"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\left| \\1 \\right| = 2×3 × \\left| \\1 \\right| = 6 × 10 = 60. Multiplying a row by k multiplies the determinant by k. \\)"
+      "explanation": "\\left| A \\right| = 2×3 × \\left| A \\right| = 6 × 10 = 60. Multiplying a row by k multiplies the determinant by k."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q20",
@@ -328,7 +328,7 @@
         "D) 20"
       ],
       "correct_option": "B",
-      "explanation": "\\( z = (x - μ)/σ = (70 - 50)/10 = \\frac{20}{10} = 2. \\)"
+      "explanation": "$z = (x - μ)/σ = (70 - 50)/10 = $1$ = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q22",
@@ -343,7 +343,7 @@
         "D) ₹5624.32"
       ],
       "correct_option": "D",
-      "explanation": "\\( Rate per period = \\frac{8}{2} = 4%, n = 3 half-years. A = 5000(1.04)³ = 5000 × 1.124864 = ₹5624.32. \\)"
+      "explanation": "Rate per period = $1$ = 4%, n = 3 half-years. A = 5000(1.04)³ = 5000 × 1.124864 = ₹5624.32."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q23",
@@ -373,7 +373,7 @@
         "D) [[3], [1]]"
       ],
       "correct_option": "B",
-      "explanation": "\\( det(A) = 5. A^{-1} = (\\frac{1}{5})[[3, -1], [-1, 2]]. X = A^{-1}B = (\\frac{1}{5})[[3·5-1·10], [-1·5+2·10]] = (\\frac{1}{5})[[5], [15]] = [[1], [3]]. \\)"
+      "explanation": "$det(A) = 5. A^{-1} = ($1$)[[3, -1], [-1, 2]]. X = A^{-1}B = ($1$)[[3·5-1·10], [-1·5+2·10]] = ($1$)[[5], [15]] = [[1], [3]].$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q25",
@@ -395,7 +395,7 @@
       "topic": "Integrals",
       "sub_topic": "Trigonometric Integration",
       "difficulty": "medium",
-      "question": "\\( Evaluate the indefinite integral of \\sin squared x with respect to x. \\)",
+      "question": "Evaluate the indefinite integral of sin squared x with respect to x.",
       "options": [
         "A) x/2 + sin(2x)/4 + C",
         "B) x/2 - sin(2x)/4 + C",
@@ -403,7 +403,7 @@
         "D) -cos²(x)/2 + C"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using identity \\sin^{2}(x) = (1-\\cos(2x))/2: result = x/2 - \\sin(2x)/4 + C. \\)"
+      "explanation": "Using identity sin^{2}(x) = (1-cos(2x))/2: result = x/2 - sin(2x)/4 + C."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q27",
@@ -448,14 +448,14 @@
         "D) 16/65"
       ],
       "correct_option": "B",
-      "explanation": "\\( Total ways to draw 3 from 15 = C(15,3) = 455. Favorable = 5 × 4 × 6 = 120 (one of each color). P = \\frac{120}{455} = \\frac{24}{91}. \\)"
+      "explanation": "Total ways to draw 3 from 15 = C(15,3) = 455. Favorable = 5 × 4 × 6 = 120 (one of each color). P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q30",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Composition",
       "difficulty": "medium",
-      "question": "\\( Find the value: \\sin(\\tan^{-1}(\\frac{3}{4})) equals: \\)",
+      "question": "Find the value: sin(tan^{-1}($1$)) equals:",
       "options": [
         "A) 5/4",
         "B) 5/3",
@@ -463,7 +463,7 @@
         "D) 3/5"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let θ = \\tan^{-1}(\\frac{3}{4}). Then \\tan(θ) = \\frac{3}{4}. In a right triangle with opposite=3, adjacent=4, hypotenuse=5. \\sin(θ) = \\frac{3}{5}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Let θ = tan^{-1}($1$). Then tan(θ) = $1$. In a right triangle with opposite=3, adjacent=4, hypotenuse=5. sin(θ) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q31",
@@ -478,7 +478,7 @@
         "D) 16/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Definite integrals are evaluated using the Fundamental Theorem of Calculus: ∫ₐᵇ f(x)dx = F(b)−F(a). Area = ∫₀² x² dx = [x³/3]₀² = \\frac{8}{3}. This gives the net area under the curve between the limits. \\)"
+      "explanation": "Definite integrals are evaluated using the Fundamental Theorem of Calculus: ∫ₐᵇ f(x)dx = F(b)−F(a). Area = ∫₀² x² dx = [x³/3]₀² = $1$. This gives the net area under the curve between the limits."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q32",
@@ -508,7 +508,7 @@
         "D) 3"
       ],
       "correct_option": "A",
-      "explanation": "\\( For a binomial distribution B(n,p), the mean is np and variance is np(1−p). Variance = npq = 10 × 0.3 × 0.7 = 2.1. This models the number of successes \\in n independent Bernoulli trials. \\)"
+      "explanation": "For a binomial distribution B(n,p), the mean is np and variance is np(1−p). Variance = npq = 10 × 0.3 × 0.7 = 2.1. This models the number of successes ∈ n independent Bernoulli trials."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q34",
@@ -545,7 +545,7 @@
       "topic": "Integrals",
       "sub_topic": "Substitution Method",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral ∫ x·\\sqrt{x+1} dx. \\)",
+      "question": "Evaluate the indefinite integral ∫ x·$1$ dx.",
       "options": [
         "A) (x+1)^{5/2} + C",
         "B) (2/5)(x+1)^{5/2} + C",
@@ -553,14 +553,14 @@
         "D) (2/5)(x+1)^{5/2} - (2/3)(x+1)^{3/2} + C"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let u = x+1, then x = u−1, dx = du. ∫x·\\sqrt{x+1}dx = ∫(u−1)\\sqrt{u} du = ∫(u^{(\\frac{3}{2})} − u^{(\\frac{1}{2})})du = (\\frac{2}{5})(x+1)^(\\frac{5}{2}) − (\\frac{2}{3})(x+1)^(\\frac{3}{2}) + C. \\)"
+      "explanation": "Let u = x+1, then x = u−1, dx = du. ∫x·$1$dx = ∫(u−1)$1$ du = ∫(u^{($1$)} − u^{($1$)})du = ($1$)(x+1)^($1$) − ($1$)(x+1)^($1$) + C."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q37",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Equations",
       "difficulty": "hard",
-      "question": "\\( The number of solutions of the equation \\sin^{-1}(x) + \\sin^{-1}(2x) = π/3 is: \\)",
+      "question": "The number of solutions of the equation sin^{-1}(x) + sin^{-1}(2x) = π/3 is:",
       "options": [
         "A) 2",
         "B) 3",
@@ -568,7 +568,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( Domain requires \\left| \\1 \\right| ≤ \\frac{1}{2}. Using \\sin^{-1}(x) + \\sin^{-1}(2x) = \\sin^{-1}(x\\sqrt{1-4x²} + 2x\\sqrt{1-x²}) = π/3. This gives x\\sqrt{1-4x²} + 2x\\sqrt{1-x²} = √\\frac{3}{2}. By analysis, there is exactly one solution \\in the valid domain. \\)"
+      "explanation": "Domain requires \\left| A \\right| ≤ $1$. Using sin^{-1}(x) + sin^{-1}(2x) = sin^{-1}(x$1$ + 2x$1$) = π/3. This gives x$1$ + 2x$1$ = √$1$. By analysis, there is exactly one solution ∈ the valid domain."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q38",
@@ -583,7 +583,7 @@
         "D) 11/20"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(red) = P(H)·P(red\\left| \\1 \\right|B) = (\\frac{1}{2})(\\frac{2}{5}) + (\\frac{1}{2})(\\frac{4}{5}) = \\frac{1}{5} + \\frac{2}{5} = \\frac{3}{5}. \\)"
+      "explanation": "$P(red) = P(H)·P(red\\left| A \\right|B) = ($1$)($1$) + ($1$)($1$) = $1$ + $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q39",
@@ -598,7 +598,7 @@
         "D) -1/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( det(A) = 2. The cofactor matrix is [[1,1,-1],[-1,1,1],[1,-1,0]]. Adjoint = transpose = [[1,-1,1],[1,1,-1],[-1,1,0]]. A^{-1} = adj(A)/2. The (2,3) entry is -\\frac{1}{2}. \\)"
+      "explanation": "det(A) = 2. The cofactor matrix is [[1,1,-1],[-1,1,1],[1,-1,0]]. Adjoint = transpose = [[1,-1,1],[1,1,-1],[-1,1,0]]. A^{-1} = adj(A)/2. The (2,3) entry is -$1$."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q40",
@@ -613,7 +613,7 @@
         "D) 1"
       ],
       "correct_option": "B",
-      "explanation": "\\( ∫₀^{π/2} sin³(x)dx = ∫₀^{π/2} \\sin(x)(1-cos²(x))dx. Let u=\\cos(x), du=-\\sin(x)dx. When x=0, u=1; x=π/2, u=0. = ∫₁⁰ -(1-u²)du = ∫₀¹ (1-u²)du = [u - u³/3]₀¹ = 1 - \\frac{1}{3} = \\frac{2}{3}. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫₀^{π/2} sin³(x)dx = ∫₀^{π/2} sin(x)(1-cos²(x))dx. Let u=cos(x), du=-sin(x)dx. When x=0, u=1; x=π/2, u=0. = ∫₁⁰ -(1-u²)du = ∫₀¹ (1-u²)du = [u - u³/3]₀¹ = 1 - $1$ = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q41",
@@ -650,7 +650,7 @@
       "topic": "Integrals",
       "sub_topic": "Partial Fractions",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral ∫(3x + 5)/(x² + 3x + 2) dx using \\partial fractions. \\)",
+      "question": "Evaluate the indefinite integral ∫(3x + 5)/(x² + 3x + 2) dx using \\partial fractions.",
       "options": [
         "A) ln|x+1| + 2ln|x+2| + C",
         "B) ln|x+1| - ln|x+2| + C",
@@ -658,7 +658,7 @@
         "D) 2ln|x+1| - ln|x+2| + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Factor: x²+3x+2 = (x+1)(x+2). Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: A=2, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+      "explanation": "Factor: x²+3x+2 = (x+1)(x+2). Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: A=2, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q44",
@@ -703,14 +703,14 @@
         "D) 2/5"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(A\\left| \\1 \\right|A) / [P(A)·P(D\\left| \\1 \\right|B)] = (0.6×0.02)/(0.6×0.02 + 0.4×0.03) = 0.012/(0.012+0.012) = 0.\\frac{012}{0}.024 = \\frac{1}{2}. \\)"
+      "explanation": "$P(A\\left| A \\right|A) / [P(A)·P(D\\left| A \\right|B)] = (0.6×0.02)/(0.6×0.02 + 0.4×0.03) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q47",
       "topic": "Integrals",
       "sub_topic": "Advanced Integration",
       "difficulty": "hard",
-      "question": "\\( Find the value: ∫₀^{π/2} 1/(1 + \\tan x) dx equals: \\)",
+      "question": "Find the value: ∫₀^{π/2} 1/(1 + tan x) dx equals:",
       "options": [
         "A) 1",
         "B) π/4",
@@ -718,7 +718,7 @@
         "D) π/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let I = ∫₀^{π/2} 1/(1+\\tan x)dx. Using the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx: I = ∫₀^{π/2} 1/(1+\\tan(π/2-x))dx = ∫₀^{π/2} 1/(1+\\cot x)dx = ∫₀^{π/2} \\tan x/(1+\\tan x)dx. Adding: 2I = ∫₀^{π/2} (1+\\tan x)/(1+\\tan x)dx = ∫₀^{π/2} 1 dx = π/2. So I = π/4. This result follows from standard mathematical principles. \\)"
+      "explanation": "Let I = ∫₀^{π/2} 1/(1+tan x)dx. Using the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx: I = ∫₀^{π/2} 1/(1+tan(π/2-x))dx = ∫₀^{π/2} 1/(1+\\cot x)dx = ∫₀^{π/2} tan x/(1+tan x)dx. Adding: 2I = ∫₀^{π/2} (1+tan x)/(1+tan x)dx = ∫₀^{π/2} 1 dx = π/2. So I = π/4. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q48",
@@ -748,7 +748,7 @@
         "D) ln(x)"
       ],
       "correct_option": "B",
-      "explanation": "\\( The equation is dy/dx + P(x)y = Q(x) where P(x) = 1/x. Integrating factor = e^{∫P(x)dx} = e^{∫(1/x)dx} = e^{\\ln\\left| \\1 \\right|} = x. \\)"
+      "explanation": "The equation is dy/dx + P(x)y = Q(x) where P(x) = 1/x. Integrating factor = e^{∫P(x)dx} = e^{∫(1/x)dx} = e^{\\ln\\left| A \\right|} = x."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q50",

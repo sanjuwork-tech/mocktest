@@ -20,7 +20,7 @@
       "topic": "Matrices",
       "sub_topic": "Types of Matrices",
       "difficulty": "easy",
-      "question": "\\( A matrix has 3 rows and 4 columns. The number of elements \\in this matrix is: \\)",
+      "question": "A matrix has 3 rows and 4 columns. The number of elements ∈ this matrix is:",
       "options": [
         "A) 12",
         "B) 14",
@@ -43,7 +43,7 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "\\( Sample space = {HH, HT, TH, TT}. At least one head = {HH, HT, TH}. Probability = \\frac{3}{4}. \\)"
+      "explanation": "Sample space = {HH, HT, TH, TT}. At least one head = {HH, HT, TH}. Probability = $1$."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q03",
@@ -73,7 +73,7 @@
         "D) 12"
       ],
       "correct_option": "A",
-      "explanation": "\\( det(A) = (3)(4) - (1)(2) = 12 - 2 = 10. This result follows from the fundamental principles of Determinants. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "det(A) = (3)(4) - (1)(2) = 12 - 2 = 10. This result follows from the fundamental principles of Determinants. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q05",
@@ -140,7 +140,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity",
       "difficulty": "easy",
-      "question": "\\( The function f(x) = \\left| \\1 \\right| at x = 5 is: \\)",
+      "question": "The function f(x) = \\left| A \\right| at x = 5 is:",
       "options": [
         "A) Continuous and differentiable",
         "B) Not defined",
@@ -148,7 +148,7 @@
         "D) Discontinuous"
       ],
       "correct_option": "C",
-      "explanation": "\\( f(x) = \\left| \\1 \\right| is continuous at x=5 (limit = f(5) = 0) but has a sharp corner, so LHD ≠ RHD. \\)"
+      "explanation": "f(x) = \\left| A \\right| is continuous at x=5 (limit = f(5) = 0) but has a sharp corner, so LHD ≠ RHD."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q10",
@@ -163,7 +163,7 @@
         "D) 45°"
       ],
       "correct_option": "A",
-      "explanation": "\\( cos²60^{\\circ} + cos²45^{\\circ} + cos²θ = 1 → \\frac{1}{4} + \\frac{1}{2} + cos²θ = 1 → cos²θ = \\frac{1}{4} → θ = 60^{\\circ}. \\)"
+      "explanation": "$cos²60^{\\circ} + cos²45^{\\circ} + cos²θ = 1 → $1$ + $1$ + cos²θ = 1 → cos²θ = $1$ → θ = 60^{\\circ}.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q11",
@@ -185,7 +185,7 @@
       "topic": "Financial Mathematics",
       "sub_topic": "Compound Annual Growth Rate",
       "difficulty": "easy",
-      "question": "\\( An investment grows from ₹5,000 to ₹6,655 \\in 3 years. The compound annual growth rate (CAGR) is: \\)",
+      "question": "An investment grows from ₹5,000 to ₹6,655 ∈ 3 years. The compound annual growth rate (CAGR) is:",
       "options": [
         "A) 12%",
         "B) 10%",
@@ -193,7 +193,7 @@
         "D) 8%"
       ],
       "correct_option": "B",
-      "explanation": "\\( CAGR = (\\frac{6655}{5000})^(\\frac{1}{3}) - 1 = (1.331)^(\\frac{1}{3}) - 1 = 1.10 - 1 = 10%. \\)"
+      "explanation": "$CAGR = ($1$)^($1$) - 1 = (1.331)^($1$) - 1 = 1.10 - 1 = 10%.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q13",
@@ -208,14 +208,14 @@
         "D) 15"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{3² + 4² + (-12}²) = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13. \\)"
+      "explanation": "$\\left| A \\right| = $1$²) = $1$ = $1$ = 13.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q14",
       "topic": "Probability Distributions",
       "sub_topic": "Binomial Distribution",
       "difficulty": "easy",
-      "question": "\\( In a binomial distribution with n = 5 and p = \\frac{1}{2}, the mean is: \\)",
+      "question": "In a binomial distribution with n = 5 and p = $1$, the mean is:",
       "options": [
         "A) 5/3",
         "B) 5/2",
@@ -223,7 +223,7 @@
         "D) 10"
       ],
       "correct_option": "B",
-      "explanation": "\\( Mean of binomial distribution = np = 5 × (\\frac{1}{2}) = \\frac{5}{2}. \\)"
+      "explanation": "Mean of binomial distribution = np = 5 × ($1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q15",
@@ -268,7 +268,7 @@
         "D) All of these are equivalent"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(both red) = (\\frac{5}{8})(\\frac{4}{7}) = \\frac{20}{56} = \\frac{10}{28} = \\frac{5}{14}. All options represent the same value. \\)"
+      "explanation": "P(both red) = ($1$)($1$) = $1$ = $1$ = $1$. All options represent the same value."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q18",
@@ -328,14 +328,14 @@
         "D) 1/7"
       ],
       "correct_option": "D",
-      "explanation": "\\( AB = I ⟹ det(A)·det(B) = 1 ⟹ 7·det(B) = 1 ⟹ det(B) = \\frac{1}{7}. \\)"
+      "explanation": "$AB = I ⟹ det(A)·det(B) = 1 ⟹ 7·det(B) = 1 ⟹ det(B) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q22",
       "topic": "Integrals",
       "sub_topic": "Integration by Parts",
       "difficulty": "medium",
-      "question": "\\( Evaluate the indefinite integral of x \\times e to the 2x using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral of x × e to the 2x using integration by parts.",
       "options": [
         "A) (x e^{2x})/2 + e^{2x}/4 + C",
         "B) x e^{2x} - e^{2x}/2 + C",
@@ -358,7 +358,7 @@
         "D) tan⁻¹(y/x) + (1/2)ln(x² + y²) = C"
       ],
       "correct_option": "B",
-      "explanation": "\\( Put y = vx, then dy/dx = v + x·dv/dx. The equation becomes v + x·dv/dx = (1+v)/(1-v). Solving gives \\tan⁻¹(v) - (\\frac{1}{2})\\ln(1+v²) = \\ln\\left| \\1 \\right| + C, which simplifies to \\tan⁻¹(y/x) - (\\frac{1}{2})\\ln(x²+y²) = C. \\)"
+      "explanation": "Put y = vx, then dy/dx = v + x·dv/dx. The equation becomes v + x·dv/dx = (1+v)/(1-v). Solving gives tan⁻¹(v) - ($1$)\\ln(1+v²) = \\ln\\left| A \\right| + C, which simplifies to tan⁻¹(y/x) - ($1$)\\ln(x²+y²) = C."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q24",
@@ -373,7 +373,7 @@
         "D) 1/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(even) = \\frac{3}{6} = \\frac{1}{2}. P(head | even) = \\frac{1}{2}. P(even AND head) = P(even)·P(head) = (\\frac{1}{2})(\\frac{1}{2}) = \\frac{1}{4}. \\)"
+      "explanation": "$P(even) = $1$ = $1$. P(head | even) = $1$. P(even AND head) = P(even)·P(head) = ($1$)($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q25",
@@ -388,7 +388,7 @@
         "D) 11/(3·√29)"
       ],
       "correct_option": "A",
-      "explanation": "\\( \\cos θ = \\left| \\1 \\right| / (\\sqrt{1²+2²+2²}·\\sqrt{3²+4²+0²}) = \\left| \\1 \\right| / (\\sqrt{9}·\\sqrt{25}) = \\frac{11}{15}. \\)"
+      "explanation": "$cos θ = \\left| A \\right| / ($1$·$1$) = \\left| A \\right| / ($1$·$1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q26",
@@ -410,7 +410,7 @@
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Properties",
       "difficulty": "medium",
-      "question": "\\( The value of \\tan⁻¹(\\frac{1}{2}) + \\tan⁻¹(\\frac{1}{3}) is: \\)",
+      "question": "The value of tan⁻¹($1$) + tan⁻¹($1$) is:",
       "options": [
         "A) π/2",
         "B) π/6",
@@ -418,7 +418,7 @@
         "D) π/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using \\tan⁻¹a + \\tan⁻¹b = \\tan⁻¹((a+b)/(1-ab)) for ab<1: = \\tan⁻¹((\\frac{1}{2}+\\frac{1}{3})/(1-\\frac{1}{6})) = \\tan⁻¹((\\frac{5}{6})/(\\frac{5}{6})) = \\tan⁻¹(1) = π/4. \\)"
+      "explanation": "Using tan⁻¹a + tan⁻¹b = tan⁻¹((a+b)/(1-ab)) for ab<1: = tan⁻¹(($1$+$1$)/(1-$1$)) = tan⁻¹(($1$)/($1$)) = tan⁻¹(1) = π/4."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q28",
@@ -448,7 +448,7 @@
         "D) π/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( ∫₀¹ 1/(1+x²)dx = [\\tan⁻¹x]₀¹ = \\tan⁻¹(1) - \\tan⁻¹(0) = π/4 - 0 = π/4. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫₀¹ 1/(1+x²)dx = [tan⁻¹x]₀¹ = tan⁻¹(1) - tan⁻¹(0) = π/4 - 0 = π/4. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q30",
@@ -493,7 +493,7 @@
         "D) √(62)"
       ],
       "correct_option": "D",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = (3·1 - 0·(-2))i - (2·1 - 0·1)j + (2·(-2) - 3·1)k = 3î - 2ĵ - 7k̂. \\left| \\1 \\right| = \\sqrt{9+4+49} = \\sqrt{62}. \\)"
+      "explanation": "$a × b = \\left| A \\right| = (3·1 - 0·(-2))i - (2·1 - 0·1)j + (2·(-2) - 3·1)k = 3î - 2ĵ - 7k̂. \\left| A \\right| = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q33",
@@ -508,14 +508,14 @@
         "D) ₹8,333"
       ],
       "correct_option": "C",
-      "explanation": "\\( EMI = P·r·(1+r)^n / ((1+r)^n - 1) where r = 0.\\frac{12}{12} = 0.01, n = 12. EMI = 100000·0.01·(1.01)^12 / ((1.01)^12 - 1) = 1000·1.\\frac{1268}{0}.1268 ≈ ₹8,885. \\)"
+      "explanation": "EMI = P·r·(1+r)^n / ((1+r)^n - 1) where r = 0.$1$ = 0.01, n = 12. EMI = 100000·0.01·(1.01)^12 / ((1.01)^12 - 1) = 1000·1.$1$.1268 ≈ ₹8,885."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q34",
       "topic": "Integrals",
       "sub_topic": "Partial Fractions",
       "difficulty": "medium",
-      "question": "\\( Evaluate the indefinite integral ∫(3x + 5)/[(x+1)(x+2)] dx using \\partial fractions. \\)",
+      "question": "Evaluate the indefinite integral ∫(3x + 5)/[(x+1)(x+2)] dx using \\partial fractions.",
       "options": [
         "A) ln|x+1| + 2 ln|x+2| + C",
         "B) 2 ln|x+1| + ln|x+2| + C",
@@ -523,7 +523,7 @@
         "D) 3 ln|x+1| - ln|x+2| + C"
       ],
       "correct_option": "B",
-      "explanation": "\\( Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=−1: 2=A. At x=−2: −1=−B, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| \\1 \\right| + \\ln\\left| \\1 \\right| + C. \\)"
+      "explanation": "Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=−1: 2=A. At x=−2: −1=−B, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q35",
@@ -553,7 +553,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( D = \\left| \\1 \\right| = 8-3 = 5. D_y = \\left| \\1 \\right| = 18-8 = 10. y = D_y/D = \\frac{10}{5} = 2. \\)"
+      "explanation": "$D = \\left| A \\right| = 8-3 = 5. D_y = \\left| A \\right| = 18-8 = 10. y = D_y/D = $1$ = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q37",
@@ -590,7 +590,7 @@
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Identities",
       "difficulty": "medium",
-      "question": "\\( For x > 0, the value of \\tan⁻¹x + \\cot⁻¹x is: \\)",
+      "question": "For x > 0, the value of tan⁻¹x + \\cot⁻¹x is:",
       "options": [
         "A) π/4",
         "B) 0",
@@ -598,14 +598,14 @@
         "D) π"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using the identity \\cot⁻¹x = π/2 - \\tan⁻¹x, we get \\tan⁻¹x + \\cot⁻¹x = π/2. \\)"
+      "explanation": "Using the identity \\cot⁻¹x = π/2 - tan⁻¹x, we get tan⁻¹x + \\cot⁻¹x = π/2."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q40",
       "topic": "Three Dimensional Geometry",
       "sub_topic": "Skew Lines",
       "difficulty": "medium",
-      "question": "\\( Two lines \\in 3D space are called skew if they: \\)",
+      "question": "Two lines ∈ 3D space are called skew if they:",
       "options": [
         "A) Are neither parallel nor intersecting",
         "B) Intersect at a point",
@@ -613,14 +613,14 @@
         "D) Lie in the same plane"
       ],
       "correct_option": "A",
-      "explanation": "\\( Skew lines are lines \\in 3D space that are neither parallel nor do they intersect. They do not lie \\in the same plane. \\)"
+      "explanation": "Skew lines are lines ∈ 3D space that are neither parallel nor do they intersect. They do not lie ∈ the same plane."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q41",
       "topic": "Integrals",
       "sub_topic": "Properties of Definite Integrals",
       "difficulty": "hard",
-      "question": "\\( The value of ∫₀^{π/2} (\\sin x)/(\\sin x + \\cos x) dx is: \\)",
+      "question": "The value of ∫₀^{π/2} (sin x)/(sin x + cos x) dx is:",
       "options": [
         "A) π/2",
         "B) π/4",
@@ -628,7 +628,7 @@
         "D) π/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let I = ∫₀^{π/2} \\sin x/(\\sin x+\\cos x) dx. Also I = ∫₀^{π/2} \\cos x/(\\sin x+\\cos x) dx (by substitution x→π/2-x). Adding: 2I = ∫₀^{π/2} 1 dx = π/2. So I = π/4. \\)"
+      "explanation": "Let I = ∫₀^{π/2} sin x/(sin x+cos x) dx. Also I = ∫₀^{π/2} cos x/(sin x+cos x) dx (by substitution x→π/2-x). Adding: 2I = ∫₀^{π/2} 1 dx = π/2. So I = π/4."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q42",
@@ -643,7 +643,7 @@
         "D) 7/19"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(def\\left| \\1 \\right|B) = 0.05. P(B\\left| \\1 \\right|B) / [P(A)·P(def\\left| \\1 \\right|B)] = (0.4)(0.05)/[(0.6)(0.03)+(0.4)(0.05)] = 0.02/(0.018+0.02) = 0.\\frac{02}{0}.038 = \\frac{20}{38} = \\frac{10}{19}. \\)"
+      "explanation": "$P(def\\left| A \\right|B) = 0.05. P(B\\left| A \\right|B) / [P(A)·P(def\\left| A \\right|B)] = (0.4)(0.05)/[(0.6)(0.03)+(0.4)(0.05)] = 0.02/(0.018+0.02) = 0.$1$.038 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q43",
@@ -665,7 +665,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration by Parts",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral ∫ ẽx(\\sin x + \\cos x) dx. \\)",
+      "question": "Evaluate the indefinite integral ∫ ẽx(sin x + cos x) dx.",
       "options": [
         "A) e^x sin x + C",
         "B) e^x cos x + C",
@@ -673,7 +673,7 @@
         "D) e^x (sin x + cos x) + C"
       ],
       "correct_option": "A",
-      "explanation": "\\( Notice that d/dx(ẽx \\sin x) = ẽx \\sin x + ẽx \\cos x = ẽx(\\sin x + \\cos x). Therefore ∫ẽx(\\sin x + \\cos x)dx = ẽx \\sin x + C. \\)"
+      "explanation": "Notice that d/dx(ẽx sin x) = ẽx sin x + ẽx cos x = ẽx(sin x + cos x). Therefore ∫ẽx(sin x + cos x)dx = ẽx sin x + C."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q45",
@@ -688,7 +688,7 @@
         "D) 1"
       ],
       "correct_option": "B",
-      "explanation": "\\( Volume = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = 2. \\)"
+      "explanation": "$Volume = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q46",
@@ -703,14 +703,14 @@
         "D) √2/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using formula d = \\left| \\1 \\right|/\\left| \\1 \\right|. a₁=(1,1,0), a₂=(2,1,-1), a₂-a₁=(1,0,-1). b₁=(2,-1,1), b₂=(1,-1,1). b₁×b₂ = (-1·1-1·(-1), 1·1-2·1, 2·(-1)-(-1)·1) = (0, -1, -1). \\left| \\1 \\right| = \\sqrt{2}. (a₂-a₁)·(b₁×b₂) = (1,0,-1)·(0,-1,-1) = 1. d = 1/\\sqrt{2}. \\)"
+      "explanation": "Using formula d = \\left| A \\right|/\\left| A \\right|. a₁=(1,1,0), a₂=(2,1,-1), a₂-a₁=(1,0,-1). b₁=(2,-1,1), b₂=(1,-1,1). b₁×b₂ = (-1·1-1·(-1), 1·1-2·1, 2·(-1)-(-1)·1) = (0, -1, -1). \\left| A \\right| = $1$. (a₂-a₁)·(b₁×b₂) = (1,0,-1)·(0,-1,-1) = 1. d = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q47",
       "topic": "Applications of Derivatives",
       "sub_topic": "Maxima and Minima",
       "difficulty": "hard",
-      "question": "\\( The maximum area of a rectangle inscribed \\in the ellipse x²/16 + y²/9 = 1 with sides parallel to axes is: \\)",
+      "question": "The maximum area of a rectangle inscribed ∈ the ellipse x²/16 + y²/9 = 1 with sides parallel to axes is:",
       "options": [
         "A) 36",
         "B) 48",
@@ -718,7 +718,7 @@
         "D) 24"
       ],
       "correct_option": "D",
-      "explanation": "\\( Area = 4xy where (x,y) is on the ellipse. Maximize 4xy subject to x²/16+y²/9=1. Using parametric form x=4cosθ, y=3sinθ: Area = 4(4cosθ)(3sinθ) = 24 \\sin(2θ). Maximum when \\sin(2θ)=1 → Area = 24. \\)"
+      "explanation": "Area = 4xy where (x,y) is on the ellipse. Maximize 4xy subject to x²/16+y²/9=1. Using parametric form x=4cosθ, y=3sinθ: Area = 4(4cosθ)(3sinθ) = 24 sin(2θ). Maximum when sin(2θ)=1 → Area = 24."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q48",
@@ -755,7 +755,7 @@
       "topic": "Integrals",
       "sub_topic": "Area Under Curves",
       "difficulty": "hard",
-      "question": "\\( The area of the region bounded by y = \\sin x, y = \\cos x, and the y-axis \\in the first quadrant is: \\)",
+      "question": "The area of the region bounded by y = sin x, y = cos x, and the y-axis ∈ the first quadrant is:",
       "options": [
         "A) √2 + 1",
         "B) 2√2",
@@ -763,7 +763,7 @@
         "D) √2 - 1"
       ],
       "correct_option": "D",
-      "explanation": "\\( Intersection of \\sin x = \\cos x at x = π/4. Area = ∫₀^{π/4}(\\cos x - \\sin x)dx = [\\sin x + \\cos x]₀^{π/4} = (1/\\sqrt{2} + 1/\\sqrt{2}) - (0 + 1) = \\sqrt{2} - 1. \\)"
+      "explanation": "Intersection of sin x = cos x at x = π/4. Area = ∫₀^{π/4}(cos x - sin x)dx = [sin x + cos x]₀^{π/4} = (1/$1$ + 1/$1$) - (0 + 1) = $1$ - 1."
     }
   ]
 }

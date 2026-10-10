@@ -20,7 +20,7 @@
       "topic": "Matrices",
       "sub_topic": "Transpose of a matrix",
       "difficulty": "easy",
-      "question": "\\( If A is a 3×2 matrix, what is the order of A'A (A transpose \\times A)? \\)",
+      "question": "If A is a 3×2 matrix, what is the order of A'A (A transpose × A)?",
       "options": [
         "A) 2×2",
         "B) 3×3",
@@ -50,7 +50,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( Find the value of the determinant \\left| \\1 \\right|. \\)",
+      "question": "Find the value of the determinant \\left| A \\right|.",
       "options": [
         "A) 22",
         "B) 14",
@@ -58,7 +58,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a 2×2 matrix \\left| \\1 \\right|, determinant = ad - bc = 3×4 - 5×2 = 12 - 10 = 2. \\)"
+      "explanation": "For a 2×2 matrix \\left| A \\right|, determinant = ad - bc = 3×4 - 5×2 = 12 - 10 = 2."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q04",
@@ -163,7 +163,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( Integral of x dx from 0 to 2 = [x^\\frac{2}{2}] from 0 to 2 = 2. \\)"
+      "explanation": "Integral of x dx from 0 to 2 = [x^$1$] from 0 to 2 = 2."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q11",
@@ -208,7 +208,7 @@
         "D) y = Ce^x"
       ],
       "correct_option": "A",
-      "explanation": "\\( Separating: dy/y = x dx. Integrating: \\ln\\left| \\1 \\right| = x²/2 + C₁, so y = Ce^{(x²/2)}. \\)"
+      "explanation": "$Separating: dy/y = x dx. Integrating: \\ln\\left| A \\right| = x²/2 + C₁, so y = Ce^{(x²/2)}.$"
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q14",
@@ -223,7 +223,7 @@
         "D) 1/6"
       ],
       "correct_option": "A",
-      "explanation": "\\( Even numbers on a die: {2, 4, 6} = 3 outcomes. Total outcomes = 6. P = \\frac{3}{6} = \\frac{1}{2}. \\)"
+      "explanation": "Even numbers on a die: {2, 4, 6} = 3 outcomes. Total outcomes = 6. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q15",
@@ -298,7 +298,7 @@
         "D) 5"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{a² + b² + c²} for vector a = ai + bj + ck. \\left| \\1 \\right| = \\sqrt{3² + 4²} = \\sqrt{9 + 16} = \\sqrt{25} = 5. \\)"
+      "explanation": "\\left| A \\right| = $1$ for vector a = ai + bj + ck. \\left| A \\right| = $1$ = $1$ = $1$ = 5."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q20",
@@ -313,7 +313,7 @@
         "D) √74"
       ],
       "correct_option": "B",
-      "explanation": "\\( d = \\sqrt{(7−3}² + (2−(−1))² + (−3−2)²) = \\sqrt{16 + 9 + 25} = \\sqrt{50} = 5\\sqrt{2}. \\)"
+      "explanation": "$d = $1$² + (2−(−1))² + (−3−2)²) = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q21",
@@ -328,7 +328,7 @@
         "D) 3/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Sample space: {HH, HT, TH, TT}. Exactly one head: {HT, TH} = 2 outcomes. P = \\frac{2}{4} = \\frac{1}{2}. \\)"
+      "explanation": "Sample space: {HH, HT, TH, TT}. Exactly one head: {HT, TH} = 2 outcomes. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q22",
@@ -350,7 +350,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( Find the determinant of \\left| \\1 \\right|. \\)",
+      "question": "Find the determinant of \\left| A \\right|.",
       "options": [
         "A) 0",
         "B) 1",
@@ -395,7 +395,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Types of relations",
       "difficulty": "easy",
-      "question": "\\( Find the domain of the function: The domain of f(x) = \\sqrt{x - 2} is: \\)",
+      "question": "Find the domain of the function: The domain of f(x) = $1$ is:",
       "options": [
         "A) x ≥ 2",
         "B) All real numbers",
@@ -403,7 +403,7 @@
         "D) x > 2"
       ],
       "correct_option": "A",
-      "explanation": "\\( The domain is the set of all x-values for which the function is defined. For \\sqrt{x-2} to be real, x - 2 ≥ 0, so x ≥ 2. \\)"
+      "explanation": "The domain is the set of all x-values for which the function is defined. For $1$ to be real, x - 2 ≥ 0, so x ≥ 2."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q27",
@@ -448,14 +448,14 @@
         "D) 1/13"
       ],
       "correct_option": "C",
-      "explanation": "\\( There are 13 hearts \\in 52 cards. P = \\frac{13}{52} = \\frac{1}{4}. \\)"
+      "explanation": "There are 13 hearts ∈ 52 cards. P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q30",
       "topic": "Linear Programming",
       "sub_topic": "Introduction and related terminology",
       "difficulty": "easy",
-      "question": "\\( The objective function \\in linear programming is: \\)",
+      "question": "The objective function ∈ linear programming is:",
       "options": [
         "A) Always quadratic",
         "B) A constraint",
@@ -478,7 +478,7 @@
         "D) -0.5 m/s"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let x be distance from wall, y be height on wall. x² + y² = 100. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=6, y=\\sqrt{100-36}=8. dy/dt = -x/y · (dx/dt) = -(\\frac{6}{8})(0.5) = -0.375 m/s. \\)"
+      "explanation": "Let x be distance from wall, y be height on wall. x² + y² = 100. Differentiating: 2x(dx/dt) + 2y(dy/dt) = 0. When x=6, y=$1$=8. dy/dt = -x/y · (dx/dt) = -($1$)(0.5) = -0.375 m/s."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q32",
@@ -493,14 +493,14 @@
         "D) e^(x+1)/(x+1) + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( The integral of ẽx is ẽx + C, since d/dx(ẽx) = ẽx. The exponential function is unique \\in being its own derivative and integral. \\)"
+      "explanation": "The integral of ẽx is ẽx + C, since d/dx(ẽx) = ẽx. The exponential function is unique ∈ being its own derivative and integral."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q33",
       "topic": "Matrices",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "easy",
-      "question": "\\( If A = \\left| \\1 \\right| and B = \\left| \\1 \\right|, what is the (1,1) entry of AB? \\)",
+      "question": "If A = \\left| A \\right| and B = \\left| A \\right|, what is the (1,1) entry of AB?",
       "options": [
         "A) 2",
         "B) 1",
@@ -508,7 +508,7 @@
         "D) 4"
       ],
       "correct_option": "A",
-      "explanation": "\\( AB = \\left| \\1 \\right| = \\left| \\1 \\right|. The (1,1) entry is 2. \\)"
+      "explanation": "AB = \\left| A \\right| = \\left| A \\right|. The (1,1) entry is 2."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q34",
@@ -530,7 +530,7 @@
       "topic": "Three Dimensional Geometry",
       "sub_topic": "Equation of a line in space",
       "difficulty": "easy",
-      "question": "\\( The \\sum of squares of direction cosines of a line is: \\)",
+      "question": "The ∑ of squares of direction cosines of a line is:",
       "options": [
         "A) 2",
         "B) 1",
@@ -560,7 +560,7 @@
       "topic": "Inverse of Matrix",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "medium",
-      "question": "\\( Find the inverse of the matrix: If A = \\left| \\1 \\right|, find A⁻¹. \\)",
+      "question": "Find the inverse of the matrix: If A = \\left| A \\right|, find A⁻¹.",
       "options": [
         "A) |1 1; 1 2|",
         "B) |2 -1; -1 1|",
@@ -568,7 +568,7 @@
         "D) |1 -1; -1 2|"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. \\left| \\1 \\right| = 2×1 - 1×1 = 1. Adjoint = \\left| \\1 \\right|. A⁻¹ = adj(A)/\\left| \\1 \\right| = \\left| \\1 \\right|. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. \\left| A \\right| = 2×1 - 1×1 = 1. Adjoint = \\left| A \\right|. A⁻¹ = adj(A)/\\left| A \\right| = \\left| A \\right|."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q38",
@@ -598,7 +598,7 @@
         "D) 16/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( ∫₀¹(x²+1)dx = [x³/3 + x]₀¹ = (\\frac{1}{3}+1) − (0+0) = \\frac{4}{3}. We find the antiderivative and apply the Fundamental Theorem of Calculus. \\)"
+      "explanation": "∫₀¹(x²+1)dx = [x³/3 + x]₀¹ = ($1$+1) − (0+0) = $1$. We find the antiderivative and apply the Fundamental Theorem of Calculus."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q40",
@@ -613,7 +613,7 @@
         "D) 8"
       ],
       "correct_option": "A",
-      "explanation": "\\( dy/y = dx/x → \\ln\\left| \\1 \\right| = \\ln\\left| \\1 \\right| + C → y = Cx. Using y(1)=2: 2 = C·1 → C=2. So y=2x, y(2)=4. \\)"
+      "explanation": "dy/y = dx/x → \\ln\\left| A \\right| = \\ln\\left| A \\right| + C → y = Cx. Using y(1)=2: 2 = C·1 → C=2. So y=2x, y(2)=4."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q41",
@@ -628,7 +628,7 @@
         "D) 7/15"
       ],
       "correct_option": "A",
-      "explanation": "\\( With replacement, P(both green) = (\\frac{7}{10}) × (\\frac{7}{10}) = \\frac{49}{100}. The draws are independent because the first marble is returned before the second draw. \\)"
+      "explanation": "With replacement, P(both green) = ($1$) × ($1$) = $1$. The draws are independent because the first marble is returned before the second draw."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q42",
@@ -658,7 +658,7 @@
         "D) i + j - k"
       ],
       "correct_option": "A",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = i(-1-0) - j(-1-0) + k(0-1) = -i + j - k. This result follows from standard mathematical principles. \\)"
+      "explanation": "a × b = \\left| A \\right| = i(-1-0) - j(-1-0) + k(0-1) = -i + j - k. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q44",
@@ -673,7 +673,7 @@
         "D) 2"
       ],
       "correct_option": "C",
-      "explanation": "\\( LHL = \\lim(x→1⁻) (x²+k) = 1+k. RHL = \\lim(x→1⁺) (2x+3) = 5. For continuity: 1+k = 5 → k = 4. \\)"
+      "explanation": "LHL = \\lim(x→1⁻) (x²+k) = 1+k. RHL = \\lim(x→1⁺) (2x+3) = 5. For continuity: 1+k = 5 → k = 4."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q45",
@@ -695,7 +695,7 @@
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "medium",
-      "question": "\\( Evaluate the definite integral of \\sin squared x from 0 to \\pi. \\)",
+      "question": "Evaluate the definite integral of sin squared x from 0 to π.",
       "options": [
         "A) 2π",
         "B) π/2",
@@ -703,7 +703,7 @@
         "D) π"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using identity \\sin^{2}(x) = (1-\\cos(2x))/2: result = \\pi/2. \\)"
+      "explanation": "Using identity sin^{2}(x) = (1-cos(2x))/2: result = π/2."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q47",
@@ -733,7 +733,7 @@
         "D) 5"
       ],
       "correct_option": "A",
-      "explanation": "\\( In matrix form: \\left| \\1 \\right| \\left| \\1 \\right| = \\left| \\1 \\right|. \\left| \\1 \\right| = -2-1 = -3. A⁻¹ = (1/-3)\\left| \\1 \\right| = \\left| \\1 \\right|. \\left| \\1 \\right| = A⁻¹\\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right|. So x=2, y=1, x+y=3. \\)"
+      "explanation": "In matrix form: \\left| A \\right| \\left| A \\right| = \\left| A \\right|. \\left| A \\right| = -2-1 = -3. A⁻¹ = (1/-3)\\left| A \\right| = \\left| A \\right|. \\left| A \\right| = A⁻¹\\left| A \\right| = \\left| A \\right| = \\left| A \\right|. So x=2, y=1, x+y=3."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q49",
@@ -748,7 +748,7 @@
         "D) 3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Area = ∫₁² x² dx = [x³/3]₁² = (\\frac{8}{3} - \\frac{1}{3}) = \\frac{7}{3}. \\)"
+      "explanation": "Area = ∫₁² x² dx = [x³/3]₁² = ($1$ - $1$) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P1_L1_Q50",
@@ -763,7 +763,7 @@
         "D) 20/41"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(Bag1\\left| \\1 \\right|Bag1)·P(Bag1) / [P(White\\left| \\1 \\right|Bag2)·P(Bag2)] = (\\frac{3}{5} × \\frac{1}{2}) / [(\\frac{3}{5} × \\frac{1}{2}) + (\\frac{4}{7} × \\frac{1}{2})] = (\\frac{3}{10}) / (\\frac{3}{10} + \\frac{4}{14}) = (\\frac{3}{10}) / (\\frac{21}{70} + \\frac{20}{70}) = (\\frac{3}{10})/(\\frac{41}{70}) = \\frac{21}{41}. \\)"
+      "explanation": "$P(Bag1\\left| A \\right|Bag1)·P(Bag1) / [P(White\\left| A \\right|Bag2)·P(Bag2)] = ($1$ × $1$) / [($1$ × $1$) + ($1$ × $1$)] = ($1$) / ($1$ + $1$) = ($1$) / ($1$ + $1$) = ($1$)/($1$) = $1$.$"
     }
   ]
 }

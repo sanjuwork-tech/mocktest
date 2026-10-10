@@ -88,7 +88,7 @@
         "D) Discontinuous and not differentiable"
       ],
       "correct_option": "B",
-      "explanation": "\\( f(x) = (x²-1)/(x-1) = x+1 for x≠1. The limit as x→1 \\exists (equals 2) but f(1) is undefined. This is a removable discontinuity. \\)"
+      "explanation": "f(x) = (x²-1)/(x-1) = x+1 for x≠1. The limit as x→1 \\exists (equals 2) but f(1) is undefined. This is a removable discontinuity."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q06",
@@ -163,7 +163,7 @@
         "D) π/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using the identity cos²x = (1+cos2x)/2, we get ∫₀^(π/2) cos²x dx = (\\frac{1}{2})∫₀^(π/2)(1+cos2x)dx = (\\frac{1}{2})[x + sin2x/2]₀^(π/2) = (\\frac{1}{2})(π/2) = π/4. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using the identity cos²x = (1+cos2x)/2, we get ∫₀^(π/2) cos²x dx = ($1$)∫₀^(π/2)(1+cos2x)dx = ($1$)[x + sin2x/2]₀^(π/2) = ($1$)(π/2) = π/4. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q11",
@@ -193,7 +193,7 @@
         "D) 10"
       ],
       "correct_option": "A",
-      "explanation": "\\( For an n×n matrix A, \\left| \\1 \\right| = kⁿ\\left| \\1 \\right|. Here n=3, k=2, so \\left| \\1 \\right| = 2³ × 5 = 8 × 5 = 40. \\)"
+      "explanation": "For an n×n matrix A, \\left| A \\right| = kⁿ\\left| A \\right|. Here n=3, k=2, so \\left| A \\right| = 2³ × 5 = 8 × 5 = 40."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q13",
@@ -253,7 +253,7 @@
         "D) 5√2"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = \\sqrt{3² + (-4}² + 5²) = \\sqrt{9 + 16 + 25} = \\sqrt{50} = 5\\sqrt{2}. \\)"
+      "explanation": "$\\left| A \\right| = $1$² + 5²) = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q17",
@@ -283,7 +283,7 @@
         "D) 1/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( Numbers greater than 4 on a die are 5 and 6. So probability = \\frac{2}{6} = \\frac{1}{3}. \\)"
+      "explanation": "Numbers greater than 4 on a die are 5 and 6. So probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q19",
@@ -298,7 +298,7 @@
         "D) 3/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using the reduction formula or Wallis' formula: ∫₀^(π/2) sin³x dx = (\\frac{2}{3}) × 1 = \\frac{2}{3}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using the reduction formula or Wallis' formula: ∫₀^(π/2) sin³x dx = ($1$) × 1 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q20",
@@ -328,14 +328,14 @@
         "D) [[1, 1], [1, 2]]"
       ],
       "correct_option": "A",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| \\1 \\right|)[[d,−b],[−c,a]]. For A = [[2,1],[1,1]], \\left| \\1 \\right| = 2×1 - 1×1 = 1. adj(A) = [[1, -1], [-1, 2]]. So A⁻¹ = adj(A)/\\left| \\1 \\right| = [[1, -1], [-1, 2]]. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. For A = [[2,1],[1,1]], \\left| A \\right| = 2×1 - 1×1 = 1. adj(A) = [[1, -1], [-1, 2]]. So A⁻¹ = adj(A)/\\left| A \\right| = [[1, -1], [-1, 2]]."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q22",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( If A and B are square matrices of the same order, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A and B are square matrices of the same order, then \\left| A \\right| equals:",
       "options": [
         "A) |A| · |B|",
         "B) |A| / |B|",
@@ -343,14 +343,14 @@
         "D) |A| + |B|"
       ],
       "correct_option": "A",
-      "explanation": "\\( The determinant of a product equals the product of determinants: \\left| \\1 \\right| = \\left| \\1 \\right| · \\left| \\1 \\right|. \\)"
+      "explanation": "The determinant of a product equals the product of determinants: \\left| A \\right| = \\left| A \\right| · \\left| A \\right|."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q23",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Properties of inverse trigonometric functions",
       "difficulty": "medium",
-      "question": "\\( Find the value: The identity \\sin⁻¹x + \\cos⁻¹x equals: \\)",
+      "question": "Find the value: The identity sin⁻¹x + cos⁻¹x equals:",
       "options": [
         "A) π/4",
         "B) π/2",
@@ -358,7 +358,7 @@
         "D) π"
       ],
       "correct_option": "B",
-      "explanation": "\\( For all x \\in [-1, 1], \\sin⁻¹x + \\cos⁻¹x = π/2. This is a standard identity. This result follows from standard mathematical principles. \\)"
+      "explanation": "For all x ∈ [-1, 1], sin⁻¹x + cos⁻¹x = π/2. This is a standard identity. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q24",
@@ -373,14 +373,14 @@
         "D) Many-one and onto"
       ],
       "correct_option": "A",
-      "explanation": "\\( f(x) = x³ is strictly increasing, so it's one-one. For any y ∈ R, there \\exists x = ∛y such that f(x) = y, so it's onto. \\)"
+      "explanation": "f(x) = x³ is strictly increasing, so it's one-one. For any y ∈ R, there \\exists x = ∛y such that f(x) = y, so it's onto."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q25",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "medium",
-      "question": "\\( For f(x) = \\left| \\1 \\right|, which statement is true at x = 0? \\)",
+      "question": "For f(x) = \\left| A \\right|, which statement is true at x = 0?",
       "options": [
         "A) Discontinuous but differentiable",
         "B) Continuous but not differentiable",
@@ -388,7 +388,7 @@
         "D) Continuous and differentiable"
       ],
       "correct_option": "B",
-      "explanation": "\\( f(x) = \\left| \\1 \\right| is continuous at x = 0 (LHL = RHL = f(0) = 0), but not differentiable there because the left derivative (-1) ≠ right derivative (1). \\)"
+      "explanation": "f(x) = \\left| A \\right| is continuous at x = 0 (LHL = RHL = f(0) = 0), but not differentiable there because the left derivative (-1) ≠ right derivative (1)."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q26",
@@ -403,14 +403,14 @@
         "D) 90 m²"
       ],
       "correct_option": "B",
-      "explanation": "\\( For fixed perimeter, a rectangle has maximum area when it's a square. Side = \\frac{40}{4} = 10 m. Area = 10² = 100 m². \\)"
+      "explanation": "For fixed perimeter, a rectangle has maximum area when it's a square. Side = $1$ = 10 m. Area = 10² = 100 m²."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q27",
       "topic": "Integrals",
       "sub_topic": "Integration as inverse process of differentiation",
       "difficulty": "medium",
-      "question": "\\( Evaluate the indefinite integral ∫ x·\\cos x dx using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral ∫ x·cos x dx using integration by parts.",
       "options": [
         "A) x·sin x - cos x + C",
         "B) x·sin x + cos x + C",
@@ -418,7 +418,7 @@
         "D) x·cos x - sin x + C"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using integration by parts: Let u = x, dv = \\cos x dx. Then du = dx, v = \\sin x. So ∫x·\\cos x dx = x·\\sin x − ∫\\sin x dx = x·\\sin x + \\cos x + C. \\)"
+      "explanation": "Using integration by parts: Let u = x, dv = cos x dx. Then du = dx, v = sin x. So ∫x·cos x dx = x·sin x − ∫sin x dx = x·sin x + cos x + C."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q28",
@@ -478,7 +478,7 @@
         "D) 3/4"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(Football|Cricket) = P(F∩C)/P(C) = 0.\\frac{20}{0}.30 = \\frac{2}{3}. \\)"
+      "explanation": "$P(Football|Cricket) = P(F∩C)/P(C) = 0.$1$.30 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q32",
@@ -500,7 +500,7 @@
       "topic": "Matrices",
       "sub_topic": "Symmetric and skew symmetric matrices",
       "difficulty": "medium",
-      "question": "\\( If A is a skew-symmetric matrix of odd order, then \\left| \\1 \\right| is: \\)",
+      "question": "If A is a skew-symmetric matrix of odd order, then \\left| A \\right| is:",
       "options": [
         "A) 1",
         "B) Undefined",
@@ -508,14 +508,14 @@
         "D) 0"
       ],
       "correct_option": "D",
-      "explanation": "\\( For a skew-symmetric matrix of odd order, \\left| \\1 \\right| = \\left| \\1 \\right| = \\left| \\1 \\right| = (-1)ⁿ\\left| \\1 \\right|. When n is odd, \\left| \\1 \\right| = -\\left| \\1 \\right|, which implies \\left| \\1 \\right| = 0. \\)"
+      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)ⁿ\\left| A \\right|. When n is odd, \\left| A \\right| = -\\left| A \\right|, which implies \\left| A \\right| = 0."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q34",
       "topic": "Matrices",
       "sub_topic": "Concept, notation, order, equality, types of matrices",
       "difficulty": "medium",
-      "question": "\\( If the coefficient of x³ \\in the expansion of (1 + 2x)ⁿ is 160, then n equals: \\)",
+      "question": "If the coefficient of x³ ∈ the expansion of (1 + 2x)ⁿ is 160, then n equals:",
       "options": [
         "A) 5",
         "B) 4",
@@ -523,14 +523,14 @@
         "D) 7"
       ],
       "correct_option": "C",
-      "explanation": "\\( The coefficient of x³ \\in (1 + 2x)ⁿ is C(n,3) × 2³ = C(n,3) × 8. Setting this equal to 160 gives C(n,3) = 20. Since C(6,3) = 20, n = 6. \\)"
+      "explanation": "The coefficient of x³ ∈ (1 + 2x)ⁿ is C(n,3) × 2³ = C(n,3) × 8. Setting this equal to 160 gives C(n,3) = 20. Since C(6,3) = 20, n = 6."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q35",
       "topic": "Inverse Trigonometric Functions",
       "sub_topic": "Definition and basic concepts",
       "difficulty": "medium",
-      "question": "\\( If \\tan⁻¹x + \\tan⁻¹y = π/4, then x + y + xy equals: \\)",
+      "question": "If tan⁻¹x + tan⁻¹y = π/4, then x + y + xy equals:",
       "options": [
         "A) 0",
         "B) -1",
@@ -538,14 +538,14 @@
         "D) 2"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using the formula \\tan⁻¹x + \\tan⁻¹y = \\tan⁻¹((x+y)/(1-xy)) = π/4. So (x+y)/(1-xy) = 1, giving x+y = 1-xy, thus x+y+xy = 1. \\)"
+      "explanation": "Using the formula tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)) = π/4. So (x+y)/(1-xy) = 1, giving x+y = 1-xy, thus x+y+xy = 1."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q36",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Second-order derivatives",
       "difficulty": "medium",
-      "question": "\\( Evaluate the limit: Evaluate \\lim(x→0) (eˣ - 1 - x)/x². \\)",
+      "question": "Evaluate the limit: Evaluate \\lim(x→0) (eˣ - 1 - x)/x².",
       "options": [
         "A) 2",
         "B) 1/2",
@@ -553,7 +553,7 @@
         "D) 0"
       ],
       "correct_option": "C",
-      "explanation": "\\( We use standard limit formulas and techniques. Using L'Hôpital's rule twice: \\lim = \\lim(eˣ - 1)/2x = \\lim(eˣ)/2 = \\frac{1}{2}. \\)"
+      "explanation": "We use standard limit formulas and techniques. Using L'Hôpital's rule twice: \\lim = \\lim(eˣ - 1)/2x = \\lim(eˣ)/2 = $1$."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q37",
@@ -568,7 +568,7 @@
         "D) f is continuous on [a, b], differentiable on (a, b), and f(a) = f(b)"
       ],
       "correct_option": "D",
-      "explanation": "\\( Rolle's Theorem requires three specific conditions: (1) f is continuous on the closed interval [a, b], (2) f is differentiable on the open interval (a, b), and (3) f(a) = f(b). If these conditions are satisfied, there \\exists at least one point c ∈ (a, b) such that f'(c) = 0. \\)"
+      "explanation": "Rolle's Theorem requires three specific conditions: (1) f is continuous on the closed interval [a, b], (2) f is differentiable on the open interval (a, b), and (3) f(a) = f(b). If these conditions are satisfied, there \\exists at least one point c ∈ (a, b) such that f'(c) = 0."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q38",
@@ -613,7 +613,7 @@
         "D) 3"
       ],
       "correct_option": "C",
-      "explanation": "\\( [a b c] = a·(b×c). b×c = \\left| \\1 \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(i+j-k) = 1+1+0 = 2. \\)"
+      "explanation": "$[a b c] = a·(b×c). b×c = \\left| A \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(i+j-k) = 1+1+0 = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q41",
@@ -635,7 +635,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "hard",
-      "question": "\\( The determinant \\left| \\1 \\right| equals: \\)",
+      "question": "The determinant \\left| A \\right| equals:",
       "options": [
         "A) (a-b)(b-c)(c-a) with a negative sign",
         "B) (a+b)(b+c)(c+a)",
@@ -673,7 +673,7 @@
         "D) Twice differentiable"
       ],
       "correct_option": "B",
-      "explanation": "\\( f is continuous at 0 (squeeze theorem). f'(0) = \\lim(h→0) h²sin(1/h)/h = \\lim h·\\sin(1/h) = 0. But f'(x) = 2x·\\sin(1/x) - \\cos(1/x) for x≠0, which has no limit as x→0. So differentiable but derivative not continuous. \\)"
+      "explanation": "f is continuous at 0 (squeeze theorem). f'(0) = \\lim(h→0) h²sin(1/h)/h = \\lim h·sin(1/h) = 0. But f'(x) = 2x·sin(1/x) - cos(1/x) for x≠0, which has no limit as x→0. So differentiable but derivative not continuous."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q45",
@@ -703,7 +703,7 @@
         "D) 3/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Wallis' formula for odd powers: ∫₀^(π/2) cos³x dx = (\\frac{2}{3}) × 1 = \\frac{2}{3}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis' formula for odd powers: ∫₀^(π/2) cos³x dx = ($1$) × 1 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q47",
@@ -748,7 +748,7 @@
         "D) 3√35 / 35"
       ],
       "correct_option": "B",
-      "explanation": "\\( For L₁: a₁=(1,-1,3), b₁=(2,1,-1). For L₂: a₂=(0,2,-1), b₂=(1,-1,2). b₁×b₂ = (1,-5,-3), \\left| \\1 \\right| = \\sqrt{35}. a₂-a₁ = (-1,3,-4). (a₂-a₁)·(b₁×b₂) = -1-15+12 = -4. d = \\left| \\1 \\right|/\\sqrt{35} = 4/\\sqrt{35} = 4√\\frac{35}{35}. \\)"
+      "explanation": "For L₁: a₁=(1,-1,3), b₁=(2,1,-1). For L₂: a₂=(0,2,-1), b₂=(1,-1,2). b₁×b₂ = (1,-5,-3), \\left| A \\right| = $1$. a₂-a₁ = (-1,3,-4). (a₂-a₁)·(b₁×b₂) = -1-15+12 = -4. d = \\left| A \\right|/$1$ = 4/$1$ = 4√$1$."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q50",

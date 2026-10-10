@@ -28,7 +28,7 @@
         "D) 1/6"
       ],
       "correct_option": "B",
-      "explanation": "\\( Numbers divisible by 3 on a die are 3 and 6. So P = \\frac{2}{6} = \\frac{1}{3}. \\)"
+      "explanation": "Numbers divisible by 3 on a die are 3 and 6. So P = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q02",
@@ -65,7 +65,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "medium",
-      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 2, then the value of \\left| \\1 \\right| is: \\)",
+      "question": "If A is a 3×3 matrix with \\left| A \\right| = 2, then the value of \\left| A \\right| is:",
       "options": [
         "A) 8",
         "B) 16",
@@ -73,7 +73,7 @@
         "D) 2"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = \\left| \\1 \\right|^(n-1) = 2² = 4. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = \\left| A \\right|^(n-1) = 2² = 4. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q05",
@@ -88,7 +88,7 @@
         "D) 4/5"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using reduction formula for odd n: ∫₀^(π/2) cos⁵x dx = (\\frac{4}{5}) × (\\frac{2}{3}) × 1 = \\frac{8}{15}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using reduction formula for odd n: ∫₀^(π/2) cos⁵x dx = ($1$) × ($1$) × 1 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q06",
@@ -103,7 +103,7 @@
         "D) 4/7"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(Bag1|Red) = (\\frac{3}{8})(\\frac{1}{2}) / [(\\frac{3}{8})(\\frac{1}{2}) + (\\frac{4}{8})(\\frac{1}{2})] = (\\frac{3}{16}) / (\\frac{7}{16}) = \\frac{3}{7}. \\)"
+      "explanation": "$P(Bag1|Red) = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q07",
@@ -118,7 +118,7 @@
         "D) 0i + 7j + 14k"
       ],
       "correct_option": "B",
-      "explanation": "\\( a × b = \\left| \\1 \\right| = i(4-4) - j(6-(-1)) + k(-12-2) = 0i - 7j - 14k. \\)"
+      "explanation": "$a × b = \\left| A \\right| = i(4-4) - j(6-(-1)) + k(-12-2) = 0i - 7j - 14k.$"
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q08",
@@ -133,7 +133,7 @@
         "D) y = 2e^(3x)"
       ],
       "correct_option": "D",
-      "explanation": "\\( dy/y = 3dx, integrating: \\ln\\left| \\1 \\right| = 3x + C. With y(0) = 2: \\ln 2 = C. So y = 2e^{(3x)}. \\)"
+      "explanation": "dy/y = 3dx, integrating: \\ln\\left| A \\right| = 3x + C. With y(0) = 2: \\ln 2 = C. So y = 2e^{(3x)}."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q09",
@@ -148,7 +148,7 @@
         "D) cos⁻¹(20/√14)"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\cos θ = \\left| \\1 \\right|/(\\sqrt{a₁²+b₁²+c₁²}\\sqrt{a₂²+b₂²+c₂²}) = \\left| \\1 \\right|/(\\sqrt{4+9+16}\\sqrt{1+4+9}) = 20/(\\sqrt{29}\\sqrt{14}) = 20/\\sqrt{406}. \\)"
+      "explanation": "$cos θ = \\left| A \\right|/($1$$1$) = \\left| A \\right|/($1$$1$) = 20/($1$$1$) = 20/$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q10",
@@ -170,7 +170,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "medium",
-      "question": "\\( The value of \\sin⁻¹(\\frac{3}{5}) + \\cos⁻¹(\\frac{3}{5}) is equal to: \\)",
+      "question": "The value of sin⁻¹($1$) + cos⁻¹($1$) is equal to:",
       "options": [
         "A) π/2",
         "B) 2π/3",
@@ -178,7 +178,7 @@
         "D) π/3"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using the identity \\sin⁻¹(x) + \\cos⁻¹(x) = π/2 for all x ∈ [-1, 1], the value is π/2. \\)"
+      "explanation": "Using the identity sin⁻¹(x) + cos⁻¹(x) = π/2 for all x ∈ [-1, 1], the value is π/2."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q12",
@@ -193,7 +193,7 @@
         "D) xˣ(1 + ln x)"
       ],
       "correct_option": "D",
-      "explanation": "\\( We apply the standard rules of differentiation. Taking \\ln: \\ln y = x \\ln x. Differentiating: (1/y)dy/dx = \\ln x + 1, so dy/dx = xˣ(1 + \\ln x). \\)"
+      "explanation": "We apply the standard rules of differentiation. Taking \\ln: \\ln y = x \\ln x. Differentiating: (1/y)dy/dx = \\ln x + 1, so dy/dx = xˣ(1 + \\ln x)."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q13",
@@ -223,7 +223,7 @@
         "D) 1/2"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X = 3) = C(6,3)·(0.5)³·(0.5)³ = 20·(\\frac{1}{64}) = \\frac{20}{64} = \\frac{5}{16}. \\)"
+      "explanation": "$P(X = 3) = C(6,3)·(0.5)³·(0.5)³ = 20·($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q15",
@@ -268,14 +268,14 @@
         "D) 1/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin³x dx = (\\frac{2}{3})·1 = \\frac{2}{3}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) sin³x dx = ($1$)·1 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q18",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Integrals",
       "difficulty": "hard",
-      "question": "\\( Evaluate ∫₀^(π/2) (\\sin x)/(\\sin x + \\cos x) dx using the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx. \\)",
+      "question": "Evaluate ∫₀^(π/2) (sin x)/(sin x + cos x) dx using the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a-x)dx.",
       "options": [
         "A) π/2",
         "B) π/3",
@@ -283,7 +283,7 @@
         "D) π/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let I = ∫₀^(π/2) \\sin x/(\\sin x + \\cos x) dx. Also I = ∫₀^(π/2) \\cos x/(\\cos x + \\sin x) dx. Adding: 2I = π/2, so I = π/4. \\)"
+      "explanation": "Let I = ∫₀^(π/2) sin x/(sin x + cos x) dx. Also I = ∫₀^(π/2) cos x/(cos x + sin x) dx. Adding: 2I = π/2, so I = π/4."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q19",
@@ -298,14 +298,14 @@
         "D) 1/36"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Beta function: B(3,2)/2 = (2!·1!/4!)/2 = (\\frac{2}{24})/2 = \\frac{1}{24}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Beta function: B(3,2)/2 = (2!·1!/4!)/2 = ($1$)/2 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q20",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Applications of Derivatives",
       "difficulty": "hard",
-      "question": "\\( A wire of length 30 cm is cut into two pieces. One piece is bent into an equilateral triangle and the other into a circle. The \\sum of the areas is minimum when the length used for the circle is: \\)",
+      "question": "A wire of length 30 cm is cut into two pieces. One piece is bent into an equilateral triangle and the other into a circle. The ∑ of the areas is minimum when the length used for the circle is:",
       "options": [
         "A) 30√3π/(√3π + 9) cm",
         "B) 15√3π/(π + √3) cm",
@@ -313,14 +313,14 @@
         "D) 30π/(π + 3) cm"
       ],
       "correct_option": "A",
-      "explanation": "\\( Let x be length for circle. Circle area = x²/(4π). Triangle area = \\sqrt{3}(30-x)²/36. dA/dx = x/(2π) - \\sqrt{3}(30-x)/18 = 0. Solving: x = 30\\sqrt{3}π/(\\sqrt{3}π + 9). \\)"
+      "explanation": "Let x be length for circle. Circle area = x²/(4π). Triangle area = $1$(30-x)²/36. dA/dx = x/(2π) - $1$(30-x)/18 = 0. Solving: x = 30$1$π/($1$π + 9)."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q21",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Applications of Derivatives",
       "difficulty": "hard",
-      "question": "\\( The maximum volume of a right circular cylinder inscribed \\in a sphere of radius R is: \\)",
+      "question": "The maximum volume of a right circular cylinder inscribed ∈ a sphere of radius R is:",
       "options": [
         "A) 2πR³/3",
         "B) πR³/√3",
@@ -328,14 +328,14 @@
         "D) 4πR³/(3√3)"
       ],
       "correct_option": "D",
-      "explanation": "\\( V = πr²h with r² + (h/2)² = R². dV/dh = π(R² - 3h²/4) = 0, so h = 2R/\\sqrt{3}. V = 4πR³/(3\\sqrt{3}). \\)"
+      "explanation": "V = πr²h with r² + (h/2)² = R². dV/dh = π(R² - 3h²/4) = 0, so h = 2R/$1$. V = 4πR³/(3$1$)."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q22",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Differential Equations",
       "difficulty": "hard",
-      "question": "\\( A population grows at a rate proportional to its size. If the population doubles \\in 5 years, the time it takes to triple (from its initial size) is closest to: \\)",
+      "question": "A population grows at a rate proportional to its size. If the population doubles ∈ 5 years, the time it takes to triple (from its initial size) is closest to:",
       "options": [
         "A) 7.9 years",
         "B) 10.0 years",
@@ -343,7 +343,7 @@
         "D) 15.0 years"
       ],
       "correct_option": "A",
-      "explanation": "\\( P = P₀e^{(kt)}. Doubling: 2 = e^{(5k)} → k = \\ln\\frac{2}{5}. Tripling: 3 = e^{(kt)} → t = 3·ln2... solving: t = ln3/k = ln3/(\\ln\\frac{2}{5}) = 5·ln3/ln2 = 5·1.585 = 7.9 years. \\)"
+      "explanation": "$P = P₀e^{(kt)}. Doubling: 2 = e^{(5k)} → k = \\ln$1$. Tripling: 3 = e^{(kt)} → t = 3·ln2... solving: t = ln3/k = ln3/(\\ln$1$) = 5·ln3/ln2 = 5·1.585 = 7.9 years.$"
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q23",
@@ -358,7 +358,7 @@
         "D) tan⁻¹(y/x) + ln(x² + y²) = C"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let y = vx, then dy/dx = v + x dv/dx. Substituting: v + x dv/dx = (1 + v)/(1 - v). So x dv/dx = (1 + v)/(1 - v) - v = (1 + v - v + v²)/(1 - v) = (1 + v²)/(1 - v). Separating: (1 - v)/(1 + v²) dv = dx/x. Integrating: \\tan⁻¹(v) - \\ln(1 + v²)/2 = \\ln\\left| \\1 \\right| + C. Substituting v = y/x: \\tan⁻¹(y/x) - \\ln(x² + y²)/2 = \\ln\\left| \\1 \\right| + C. Simplifying: \\tan⁻¹(y/x) - \\ln(x² + y²) = C. \\)"
+      "explanation": "Let y = vx, then dy/dx = v + x dv/dx. Substituting: v + x dv/dx = (1 + v)/(1 - v). So x dv/dx = (1 + v)/(1 - v) - v = (1 + v - v + v²)/(1 - v) = (1 + v²)/(1 - v). Separating: (1 - v)/(1 + v²) dv = dx/x. Integrating: tan⁻¹(v) - \\ln(1 + v²)/2 = \\ln\\left| A \\right| + C. Substituting v = y/x: tan⁻¹(y/x) - \\ln(x² + y²)/2 = \\ln\\left| A \\right| + C. Simplifying: tan⁻¹(y/x) - \\ln(x² + y²) = C."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q24",
@@ -380,7 +380,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "hard",
-      "question": "\\( If y = \\sin⁻¹(\\sqrt{1 - x²}) for x ∈ (0, 1), then dy/dx equals: \\)",
+      "question": "If y = sin⁻¹($1$) for x ∈ (0, 1), then dy/dx equals:",
       "options": [
         "A) -x/√(1 - x²)",
         "B) x/√(1 - x²)",
@@ -388,14 +388,14 @@
         "D) 1/√(1 - x²)"
       ],
       "correct_option": "C",
-      "explanation": "\\( Let x = \\sin θ, θ ∈ (0, π/2). Then \\sqrt{1-x²} = \\cos θ. y = \\sin⁻¹(\\cos θ) = π/2 - θ = π/2 - \\sin⁻¹x. dy/dx = -1/\\sqrt{1-x²}. \\)"
+      "explanation": "Let x = sin θ, θ ∈ (0, π/2). Then $1$ = cos θ. y = sin⁻¹(cos θ) = π/2 - θ = π/2 - sin⁻¹x. dy/dx = -1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q26",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "hard",
-      "question": "\\( For what value of k is the function f(x) = {\\sin(3x)/x, x ≠ 0; k, x = 0} differentiable at x = 0? \\)",
+      "question": "For what value of k is the function f(x) = {sin(3x)/x, x ≠ 0; k, x = 0} differentiable at x = 0?",
       "options": [
         "A) 1",
         "B) 3",
@@ -403,7 +403,7 @@
         "D) 0"
       ],
       "correct_option": "B",
-      "explanation": "\\( For continuity: \\lim(x→0) \\sin(3x)/x = 3, so k = 3. For differentiability: f'(0) = \\lim(h→0)[\\sin(3h)/h - 3]/h = 0. So f is differentiable at x = 0 when k = 3. \\)"
+      "explanation": "For continuity: \\lim(x→0) sin(3x)/x = 3, so k = 3. For differentiability: f'(0) = \\lim(h→0)[sin(3h)/h - 3]/h = 0. So f is differentiable at x = 0 when k = 3."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q27",
@@ -418,7 +418,7 @@
         "D) √30/30"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using formula: d = \\left| \\1 \\right| / \\left| \\1 \\right|. a₁ = (1,1,0), a₂ = (2,1,-1), b₁ = (2,-1,1), b₂ = (3,-2,4). b₁×b₂ = (-2,-5,-1). \\left| \\1 \\right| = \\sqrt{30}. a₂-a₁ = (1,0,-1). (a₂-a₁)·(b₁×b₂) = -2+0+1 = -1. d = \\left| \\1 \\right|/\\sqrt{30} = √\\frac{30}{30}. \\)"
+      "explanation": "$Using formula: d = \\left| A \\right| / \\left| A \\right|. a₁ = (1,1,0), a₂ = (2,1,-1), b₁ = (2,-1,1), b₂ = (3,-2,4). b₁×b₂ = (-2,-5,-1). \\left| A \\right| = $1$. a₂-a₁ = (1,0,-1). (a₂-a₁)·(b₁×b₂) = -2+0+1 = -1. d = \\left| A \\right|/$1$ = √$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q28",
@@ -433,7 +433,7 @@
         "D) 45°"
       ],
       "correct_option": "B",
-      "explanation": "\\( \\cos θ = (1·1 + 1·0 + 0·1)/(\\sqrt{1²+1²+0²}·\\sqrt{1²+0²+1²}) = 1/(\\sqrt{2}·\\sqrt{2}) = \\frac{1}{2}. So θ = 60^{\\circ}. \\)"
+      "explanation": "cos θ = (1·1 + 1·0 + 0·1)/($1$·$1$) = 1/($1$·$1$) = $1$. So θ = 60^{\\circ}."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q29",
@@ -448,7 +448,7 @@
         "D) 1/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( First plane: 2x - y + 2z + 3 = 0. Second plane (divide by 2): 2x - y + 2z + \\frac{7}{2} = 0. Distance = \\left| \\1 \\right|/\\sqrt{4+1+4} = \\left| \\1 \\right|/3 = \\frac{1}{6}. \\)"
+      "explanation": "First plane: 2x - y + 2z + 3 = 0. Second plane (divide by 2): 2x - y + 2z + $1$ = 0. Distance = \\left| A \\right|/$1$ = \\left| A \\right|/3 = $1$."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q30",
@@ -463,7 +463,7 @@
         "D) 1/3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Let u = x³ + 1, du = 3x² dx. When x = 0, u = 1; when x = 1, u = 2. Integral = (\\frac{1}{3})∫₁² u⁴ du = (\\frac{1}{3})[u⁵/5]₁² = (\\frac{1}{15})(32 - 1) = \\frac{31}{15}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Let u = x³ + 1, du = 3x² dx. When x = 0, u = 1; when x = 1, u = 2. Integral = ($1$)∫₁² u⁴ du = ($1$)[u⁵/5]₁² = ($1$)(32 - 1) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q31",
@@ -500,7 +500,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Integrals",
       "difficulty": "hard",
-      "question": "\\( Evaluate the indefinite integral ∫ x·\\cos(2x) dx using integration by parts. \\)",
+      "question": "Evaluate the indefinite integral ∫ x·cos(2x) dx using integration by parts.",
       "options": [
         "A) -(x·cos(2x))/2 + sin(2x)/4 + C",
         "B) -(x·cos(2x))/2 - sin(2x)/4 + C",
@@ -508,7 +508,7 @@
         "D) (x·sin(2x))/2 - cos(2x)/4 + C"
       ],
       "correct_option": "C",
-      "explanation": "\\( Let u = x, dv = \\cos(2x) dx. Then du = dx, v = \\sin(2x)/2. ∫x·\\cos(2x)dx = x·\\sin(2x)/2 − ∫\\sin(2x)/2 dx = x·\\sin(2x)/2 + \\cos(2x)/4 + C. \\)"
+      "explanation": "Let u = x, dv = cos(2x) dx. Then du = dx, v = sin(2x)/2. ∫x·cos(2x)dx = x·sin(2x)/2 − ∫sin(2x)/2 dx = x·sin(2x)/2 + cos(2x)/4 + C."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q34",
@@ -523,7 +523,7 @@
         "D) 2"
       ],
       "correct_option": "B",
-      "explanation": "\\( ∫₀^∞ e^{(-2x)} dx = [-e^{(-2x)}/2]₀^∞ = 0 - (-\\frac{1}{2}) = \\frac{1}{2}. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫₀^∞ e^{(-2x)} dx = [-e^{(-2x)}/2]₀^∞ = 0 - (-$1$) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q35",
@@ -538,7 +538,7 @@
         "D) 3π/16"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁶x dx = (\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 15π/96 = 5π/32. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) sin⁶x dx = ($1$)($1$)($1$)(π/2) = 15π/96 = 5π/32. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q36",
@@ -553,7 +553,7 @@
         "D) (ln2 - 1)/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( ∫ tan³x dx = ∫ \\tan x × tan²x dx = ∫ \\tan x × (sec²x - 1) dx = ∫ \\tan x sec²x dx - ∫ \\tan x dx. First integral: let u = \\tan x, du = sec²x dx, so ∫ u du = u²/2 = tan²x/2. Second: ∫ \\tan x dx = -\\ln\\left| \\1 \\right|. So ∫ tan³x dx = tan²x/2 + \\ln\\left| \\1 \\right|. From 0 to π/4: (\\frac{1}{2} + \\ln(1/\\sqrt{2})) - (0 + 0) = \\frac{1}{2} - \\ln(2)/2 = (1 - ln2)/2. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫ tan³x dx = ∫ tan x × tan²x dx = ∫ tan x × (sec²x - 1) dx = ∫ tan x sec²x dx - ∫ tan x dx. First integral: let u = tan x, du = sec²x dx, so ∫ u du = u²/2 = tan²x/2. Second: ∫ tan x dx = -\\ln\\left| A \\right|. So ∫ tan³x dx = tan²x/2 + \\ln\\left| A \\right|. From 0 to π/4: ($1$ + \\ln(1/$1$)) - (0 + 0) = $1$ - \\ln(2)/2 = (1 - ln2)/2. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q37",
@@ -568,7 +568,7 @@
         "D) 3π/16"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁶x dx = (\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 15π/96 = 5π/32. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) cos⁶x dx = ($1$)($1$)($1$)(π/2) = 15π/96 = 5π/32. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q38",
@@ -583,7 +583,7 @@
         "D) 1/4"
       ],
       "correct_option": "A",
-      "explanation": "\\( ∫₀^(π/2) sinx·cosx dx = (\\frac{1}{2})∫₀^(π/2) \\sin(2x) dx = (\\frac{1}{2})[-\\cos(2x)/2]₀^(π/2) = \\frac{1}{2}. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫₀^(π/2) sinx·cosx dx = ($1$)∫₀^(π/2) sin(2x) dx = ($1$)[-cos(2x)/2]₀^(π/2) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q39",
@@ -598,7 +598,7 @@
         "D) π/4"
       ],
       "correct_option": "C",
-      "explanation": "\\( ∫₀^(π/2) sin²x·cos²x dx = (\\frac{1}{4})∫₀^(π/2) sin²(2x) dx = (\\frac{1}{4})∫₀^(π/2) (1 - \\cos(4x))/2 dx = π/16. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫₀^(π/2) sin²x·cos²x dx = ($1$)∫₀^(π/2) sin²(2x) dx = ($1$)∫₀^(π/2) (1 - cos(4x))/2 dx = π/16. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q40",
@@ -613,7 +613,7 @@
         "D) π/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁸x dx = (\\frac{7}{8})(\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 35π/256. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) sin⁸x dx = ($1$)($1$)($1$)($1$)(π/2) = 35π/256. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q41",
@@ -628,7 +628,7 @@
         "D) 5π/32"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁸x dx = (\\frac{7}{8})(\\frac{5}{6})(\\frac{3}{4})(\\frac{1}{2})(π/2) = 35π/256. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) cos⁸x dx = ($1$)($1$)($1$)($1$)(π/2) = 35π/256. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q42",
@@ -643,7 +643,7 @@
         "D) 1/20"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Beta function: B(3, 3)/2 = (Γ(3)Γ(3)/Γ(6))/2 = (2·\\frac{2}{120})/2 = \\frac{1}{60}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Beta function: B(3, 3)/2 = (Γ(3)Γ(3)/Γ(6))/2 = (2·$1$)/2 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q43",
@@ -658,7 +658,7 @@
         "D) π/32"
       ],
       "correct_option": "A",
-      "explanation": "\\( Using Beta function: B(\\frac{5}{2}, \\frac{3}{2})/2 = π/32. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Beta function: B($1$, $1$)/2 = π/32. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q44",
@@ -673,7 +673,7 @@
         "D) π/8"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using Beta function: B(\\frac{3}{2}, \\frac{5}{2})/2 = π/32. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Beta function: B($1$, $1$)/2 = π/32. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q45",
@@ -688,7 +688,7 @@
         "D) 1/12"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using Beta function: B(2, 2)/2 = (Γ(2)Γ(2)/Γ(4))/2 = (1·\\frac{1}{6})/2 = \\frac{1}{12}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Beta function: B(2, 2)/2 = (Γ(2)Γ(2)/Γ(4))/2 = (1·$1$)/2 = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q46",
@@ -718,7 +718,7 @@
         "D) 32/105"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁷x dx = (\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{16}{35}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) sin⁷x dx = ($1$)($1$)($1$)(1) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q48",
@@ -733,7 +733,7 @@
         "D) 16/35"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁷x dx = (\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{16}{35}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) cos⁷x dx = ($1$)($1$)($1$)(1) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q49",
@@ -748,7 +748,7 @@
         "D) 8/15"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) sin⁹x dx = (\\frac{8}{9})(\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{128}{315}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) sin⁹x dx = ($1$)($1$)($1$)($1$)(1) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P20_L10B_Q50",
@@ -763,7 +763,7 @@
         "D) 16/35"
       ],
       "correct_option": "B",
-      "explanation": "\\( Using Wallis formula: ∫₀^(π/2) cos⁹x dx = (\\frac{8}{9})(\\frac{6}{7})(\\frac{4}{5})(\\frac{2}{3})(1) = \\frac{128}{315}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using Wallis formula: ∫₀^(π/2) cos⁹x dx = ($1$)($1$)($1$)($1$)(1) = $1$. This result follows from standard mathematical principles."
     }
   ]
 }

@@ -58,7 +58,7 @@
         "D) 6t"
       ],
       "correct_option": "B",
-      "explanation": "\\( g'(t) = 6t² - 5. g''(t) = 12t. This result follows from the fundamental principles of Calculus. Understanding the underlying concept helps \\in applying it to similar problems. \\)"
+      "explanation": "g'(t) = 6t² - 5. g''(t) = 12t. This result follows from the fundamental principles of Calculus. Understanding the underlying concept helps ∈ applying it to similar problems."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q04",
@@ -88,7 +88,7 @@
         "D) 1/4"
       ],
       "correct_option": "A",
-      "explanation": "\\( Sample space = {HH, HT, TH, TT}. Favorable outcomes for at least one head = {HH, HT, TH} = 3. Probability = \\frac{3}{4}. \\)"
+      "explanation": "Sample space = {HH, HT, TH, TT}. Favorable outcomes for at least one head = {HH, HT, TH} = 3. Probability = $1$."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q06",
@@ -118,14 +118,14 @@
         "D) [1, 5]"
       ],
       "correct_option": "D",
-      "explanation": "\\( Since -1 ≤ \\cos x ≤ 1, we have -2 ≤ 2cos x ≤ 2, so 1 ≤ 2cos x + 3 ≤ 5. Range = [1, 5]. \\)"
+      "explanation": "Since -1 ≤ cos x ≤ 1, we have -2 ≤ 2cos x ≤ 2, so 1 ≤ 2cos x + 3 ≤ 5. Range = [1, 5]."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q08",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "\\( If B is a 3×3 matrix with \\left| \\1 \\right| = -2, then \\left| \\1 \\right| equals: \\)",
+      "question": "If B is a 3×3 matrix with \\left| A \\right| = -2, then \\left| A \\right| equals:",
       "options": [
         "A) 2",
         "B) -2",
@@ -133,7 +133,7 @@
         "D) 1/2"
       ],
       "correct_option": "C",
-      "explanation": "\\( For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| \\1 \\right| = 1/\\left| \\1 \\right| = 1/(-2) = -\\frac{1}{2}. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. \\)"
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = 1/\\left| A \\right| = 1/(-2) = -$1$. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q09",
@@ -163,7 +163,7 @@
         "D) A constraint"
       ],
       "correct_option": "A",
-      "explanation": "\\( The objective function \\in linear programming is the function that needs to be maximized or minimized. \\)"
+      "explanation": "The objective function ∈ linear programming is the function that needs to be maximized or minimized."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q11",
@@ -200,7 +200,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Second-order derivatives",
       "difficulty": "medium",
-      "question": "\\( If y = \\ln(x² + 1), then dy/dx at x = 1 equals: \\)",
+      "question": "If y = \\ln(x² + 1), then dy/dx at x = 1 equals:",
       "options": [
         "A) 2",
         "B) 1",
@@ -208,7 +208,7 @@
         "D) 1/2"
       ],
       "correct_option": "B",
-      "explanation": "\\( dy/dx = 2x/(x² + 1). At x = 1: dy/dx = 2(1)/(1 + 1) = \\frac{2}{2} = 1. \\)"
+      "explanation": "$dy/dx = 2x/(x² + 1). At x = 1: dy/dx = 2(1)/(1 + 1) = $1$ = 1.$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q14",
@@ -223,7 +223,7 @@
         "D) y = C/x²"
       ],
       "correct_option": "B",
-      "explanation": "\\( Separating: dy/y = 2dx/x. Integrating: \\ln\\left| \\1 \\right| = 2ln\\left| \\1 \\right| + C' = \\ln\\left| \\1 \\right| + C'. So y = Cx². \\)"
+      "explanation": "$Separating: dy/y = 2dx/x. Integrating: \\ln\\left| A \\right| = 2ln\\left| A \\right| + C' = \\ln\\left| A \\right| + C'. So y = Cx².$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q15",
@@ -238,7 +238,7 @@
         "D) 4/663"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(both kings) = (\\frac{4}{52}) × (\\frac{3}{51}) = \\frac{12}{2652} = \\frac{1}{221}. \\)"
+      "explanation": "$P(both kings) = ($1$) × ($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q16",
@@ -253,7 +253,7 @@
         "D) 6i"
       ],
       "correct_option": "C",
-      "explanation": "\\( Projection of a on b = (a·b/\\left| \\1 \\right|²)b = (\\frac{6}{4})·2i = 3i. \\)"
+      "explanation": "Projection of a on b = (a·b/\\left| A \\right|²)b = ($1$)·2i = 3i."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q17",
@@ -268,14 +268,14 @@
         "D) x = 0, ±2"
       ],
       "correct_option": "B",
-      "explanation": "\\( f'(x) = 4x³ - 8x = 4x(x² - 2) = 4x(x-\\sqrt{2})(x+\\sqrt{2}). Setting f'(x) = 0 gives x = 0, ±\\sqrt{2}. \\)"
+      "explanation": "f'(x) = 4x³ - 8x = 4x(x² - 2) = 4x(x-$1$)(x+$1$). Setting f'(x) = 0 gives x = 0, ±$1$."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q18",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( The determinant \\left| \\1 \\right| equals (where ω is a cube root of unity): \\)",
+      "question": "The determinant \\left| A \\right| equals (where ω is a cube root of unity):",
       "options": [
         "A) 0",
         "B) 1",
@@ -328,7 +328,7 @@
         "D) [[3, -5], [-1, 2]]"
       ],
       "correct_option": "D",
-      "explanation": "\\( det(D) = 6-5 = 1. D⁻¹ = (\\frac{1}{1})[[3, -5], [-1, 2]] = [[3, -5], [-1, 2]]. \\)"
+      "explanation": "$det(D) = 6-5 = 1. D⁻¹ = ($1$)[[3, -5], [-1, 2]] = [[3, -5], [-1, 2]].$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q22",
@@ -350,7 +350,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Second-order derivatives",
       "difficulty": "medium",
-      "question": "\\( If x² + y² = 4, then dy/dx at the point (1, \\sqrt{3}) is: \\)",
+      "question": "If x² + y² = 4, then dy/dx at the point (1, $1$) is:",
       "options": [
         "A) -√3",
         "B) -1/√3",
@@ -358,7 +358,7 @@
         "D) √3"
       ],
       "correct_option": "B",
-      "explanation": "\\( Differentiating implicitly: 2x + 2y(dy/dx) = 0. dy/dx = -x/y. At (1,\\sqrt{3}): dy/dx = -1/\\sqrt{3}. \\)"
+      "explanation": "Differentiating implicitly: 2x + 2y(dy/dx) = 0. dy/dx = -x/y. At (1,$1$): dy/dx = -1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q24",
@@ -373,7 +373,7 @@
         "D) y = 2e⁻³ˣ"
       ],
       "correct_option": "A",
-      "explanation": "\\( Separating: dy/y = -2dx. Integrating: \\ln\\left| \\1 \\right| = -2x + C'. y = Ce⁻²ˣ. Using y(0)=3: 3 = C. So y = 3e⁻²ˣ. \\)"
+      "explanation": "Separating: dy/y = -2dx. Integrating: \\ln\\left| A \\right| = -2x + C'. y = Ce⁻²ˣ. Using y(0)=3: 3 = C. So y = 3e⁻²ˣ."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q25",
@@ -388,7 +388,7 @@
         "D) 1/12"
       ],
       "correct_option": "A",
-      "explanation": "\\( Favorable outcomes for product 12: (2,6), (3,4), (4,3), (6,2) = 4 outcomes. Total = 36. Probability = \\frac{4}{36} = \\frac{1}{9}. \\)"
+      "explanation": "Favorable outcomes for product 12: (2,6), (3,4), (4,3), (6,2) = 4 outcomes. Total = 36. Probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q26",
@@ -425,7 +425,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "\\( If A is a 3×3 matrix with \\left| \\1 \\right| = 5, what is the value of \\left| \\1 \\right|? \\)",
+      "question": "If A is a 3×3 matrix with \\left| A \\right| = 5, what is the value of \\left| A \\right|?",
       "options": [
         "A) 10",
         "B) 40",
@@ -433,7 +433,7 @@
         "D) 250"
       ],
       "correct_option": "B",
-      "explanation": "\\( For an n×n matrix A, \\left| \\1 \\right| = kⁿ\\left| \\1 \\right|. Here n=3, k=2, so \\left| \\1 \\right| = 2³ × 5 = 8 × 5 = 40. \\)"
+      "explanation": "For an n×n matrix A, \\left| A \\right| = kⁿ\\left| A \\right|. Here n=3, k=2, so \\left| A \\right| = 2³ × 5 = 8 × 5 = 40."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q29",
@@ -448,7 +448,7 @@
         "D) π/4"
       ],
       "correct_option": "D",
-      "explanation": "\\( ∫₀¹ dx/(1 + x²) = [\\tan⁻¹x]₀¹ = \\tan⁻¹(1) - \\tan⁻¹(0) = π/4 - 0 = π/4. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫₀¹ dx/(1 + x²) = [tan⁻¹x]₀¹ = tan⁻¹(1) - tan⁻¹(0) = π/4 - 0 = π/4. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q30",
@@ -523,7 +523,7 @@
         "D) 0"
       ],
       "correct_option": "C",
-      "explanation": "\\( f'(x) = 6x² - 6x - 12 = 6(x-2)(x+1). Critical points \\in [0,3]: x=2. f(0)=5, f(2)=16-12-24+5=-15, f(3)=54-27-36+5=-4. Maximum = 5 at x=0. \\)"
+      "explanation": "f'(x) = 6x² - 6x - 12 = 6(x-2)(x+1). Critical points ∈ [0,3]: x=2. f(0)=5, f(2)=16-12-24+5=-15, f(3)=54-27-36+5=-4. Maximum = 5 at x=0."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q35",
@@ -538,7 +538,7 @@
         "D) cos⁻¹(1/3)"
       ],
       "correct_option": "D",
-      "explanation": "\\( Direction cosines: l = \\frac{2}{3}, m = \\frac{2}{3}, n = \\frac{1}{3}. The angle with z-axis is \\cos⁻¹(n) = \\cos⁻¹(\\frac{1}{3}). \\)"
+      "explanation": "Direction cosines: l = $1$, m = $1$, n = $1$. The angle with z-axis is cos⁻¹(n) = cos⁻¹($1$)."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q36",
@@ -553,14 +553,14 @@
         "D) (x+1)xˣ"
       ],
       "correct_option": "A",
-      "explanation": "\\( We apply the standard rules of differentiation. \\ln y = (x+1)\\ln x. (1/y)dy/dx = \\ln x + (x+1)/x = \\ln x + 1 + 1/x. So dy/dx = y(\\ln x + 1 + 1/x) = xˣ⁺¹(1 + \\ln x + 1/x). \\)"
+      "explanation": "We apply the standard rules of differentiation. \\ln y = (x+1)\\ln x. (1/y)dy/dx = \\ln x + (x+1)/x = \\ln x + 1 + 1/x. So dy/dx = y(\\ln x + 1 + 1/x) = xˣ⁺¹(1 + \\ln x + 1/x)."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q37",
       "topic": "Differential Equations",
       "sub_topic": "Linear differential equations",
       "difficulty": "hard",
-      "question": "\\( The particular solution of dy/dx + y·\\tan x = \\sec x with y(0) = 1 is: \\)",
+      "question": "The particular solution of dy/dx + y·tan x = \\sec x with y(0) = 1 is:",
       "options": [
         "A) y = sin x + 2cos x",
         "B) y = sin x - cos x",
@@ -568,7 +568,7 @@
         "D) y = sin x + cos x"
       ],
       "correct_option": "D",
-      "explanation": "\\( IF = e^{(∫\\tan x dx)} = \\sec x. Multiplying: d(y·\\sec x)/dx = sec²x. Integrating: y·\\sec x = \\tan x + C. y = \\sin x + C·\\cos x. Using y(0)=1: 1 = 0 + C, so C=1. Thus y = \\sin x + \\cos x. \\)"
+      "explanation": "IF = e^{(∫tan x dx)} = \\sec x. Multiplying: d(y·\\sec x)/dx = sec²x. Integrating: y·\\sec x = tan x + C. y = sin x + C·cos x. Using y(0)=1: 1 = 0 + C, so C=1. Thus y = sin x + cos x."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q38",
@@ -583,7 +583,7 @@
         "D) 5/12"
       ],
       "correct_option": "D",
-      "explanation": "\\( P(Box2\\left| \\1 \\right|Box2)P(Box2) / [P(White\\left| \\1 \\right|Box2)P(Box2) + P(White|Box3)P(Box3)] = (\\frac{5}{7})(\\frac{1}{3}) / [(\\frac{3}{5})(\\frac{1}{3}) + (\\frac{5}{7})(\\frac{1}{3}) + (\\frac{2}{5})(\\frac{1}{3})] = (\\frac{5}{21}) / (\\frac{4}{7}) = \\frac{5}{12}. \\)"
+      "explanation": "$P(Box2\\left| A \\right|Box2)P(Box2) / [P(White\\left| A \\right|Box2)P(Box2) + P(White|Box3)P(Box3)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q39",
@@ -598,7 +598,7 @@
         "D) 1"
       ],
       "correct_option": "B",
-      "explanation": "\\( Intersection: x³ = x → x(x²-1) = 0 → x = 0, ±1. Area = ∫₋₁⁰ (x³-x)dx + ∫₀¹ (x-x³)dx = 2∫₀¹ (x-x³)dx = 2[x²/2 - x⁴/4]₀¹ = 2(\\frac{1}{2}-\\frac{1}{4}) = 2(\\frac{1}{4}) = \\frac{1}{2}. \\)"
+      "explanation": "$Intersection: x³ = x → x(x²-1) = 0 → x = 0, ±1. Area = ∫₋₁⁰ (x³-x)dx + ∫₀¹ (x-x³)dx = 2∫₀¹ (x-x³)dx = 2[x²/2 - x⁴/4]₀¹ = 2($1$-$1$) = 2($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q40",
@@ -643,7 +643,7 @@
         "D) 2 and 2"
       ],
       "correct_option": "A",
-      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = 0 → (2-λ)² - 1 = 0 → λ² - 4λ + 3 = 0 → (λ-1)(λ-3) = 0. Eigenvalues: 1 and 3. \\)"
+      "explanation": "Characteristic equation: \\left| A \\right| = 0 → (2-λ)² - 1 = 0 → λ² - 4λ + 3 = 0 → (λ-1)(λ-3) = 0. Eigenvalues: 1 and 3."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q43",
@@ -665,7 +665,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector (cross) product of vectors",
       "difficulty": "hard",
-      "question": "\\( If a = 2i - j + 3k and b = i + 2j - k, then \\left| \\1 \\right| equals: \\)",
+      "question": "If a = 2i - j + 3k and b = i + 2j - k, then \\left| A \\right| equals:",
       "options": [
         "A) 5√3",
         "B) 7√2",
@@ -673,7 +673,7 @@
         "D) √75"
       ],
       "correct_option": "A",
-      "explanation": "\\( a × b = (-5, 5, 5). \\left| \\1 \\right| = \\sqrt{25+25+25} = \\sqrt{75} = 5\\sqrt{3}. \\)"
+      "explanation": "$a × b = (-5, 5, 5). \\left| A \\right| = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q45",
@@ -703,14 +703,14 @@
         "D) -1/4 rad/s"
       ],
       "correct_option": "A",
-      "explanation": "\\( Let θ be the angle with the ground. \\cos θ = x/10. Differentiating: -\\sin θ(dθ/dt) = (\\frac{1}{10})(dx/dt). When x=6, y=8, \\sin θ = \\frac{8}{10}. So -(\\frac{8}{10})(dθ/dt) = 1.\\frac{5}{10}. dθ/dt = -1.\\frac{5}{8} = -\\frac{3}{16} rad/s. \\)"
+      "explanation": "Let θ be the angle with the ground. cos θ = x/10. Differentiating: -sin θ(dθ/dt) = ($1$)(dx/dt). When x=6, y=8, sin θ = $1$. So -($1$)(dθ/dt) = 1.$1$. dθ/dt = -1.$1$ = -$1$ rad/s."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q47",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "hard",
-      "question": "\\( The function f(x) = \\left| \\1 \\right| at x = 2 is: \\)",
+      "question": "The function f(x) = \\left| A \\right| at x = 2 is:",
       "options": [
         "A) Neither continuous nor differentiable",
         "B) Continuous and differentiable",
@@ -718,14 +718,14 @@
         "D) Not continuous but differentiable"
       ],
       "correct_option": "C",
-      "explanation": "\\( f(x) = \\left| \\1 \\right| is continuous at x=2 since \\lim(x→2)\\left| \\1 \\right| = 0 = f(2). f'(x) = 1 for x > 2, f'(x) = -1 for x < 2. Left and right derivatives differ, so f is not differentiable at x=2. \\)"
+      "explanation": "f(x) = \\left| A \\right| is continuous at x=2 since \\lim(x→2)\\left| A \\right| = 0 = f(2). f'(x) = 1 for x > 2, f'(x) = -1 for x < 2. Left and right derivatives differ, so f is not differentiable at x=2."
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q48",
       "topic": "Probability Distributions",
       "sub_topic": "Bernoulli trials and Binomial distribution",
       "difficulty": "hard",
-      "question": "\\( If X ~ Binomial(n = 8, p = \\frac{1}{4}), then P(X = 3) equals: \\)",
+      "question": "If X ~ Binomial(n = 8, p = $1$), then P(X = 3) equals:",
       "options": [
         "A) 21/64",
         "B) 189/4096",
@@ -733,7 +733,7 @@
         "D) 27/128"
       ],
       "correct_option": "B",
-      "explanation": "\\( P(X=3) = C(8,3)·(\\frac{1}{4})³·(\\frac{3}{4})⁵ = 56·(\\frac{1}{64})·(\\frac{243}{1024}) = \\frac{13608}{65536} = \\frac{189}{4096}. \\)"
+      "explanation": "$P(X=3) = C(8,3)·($1$)³·($1$)⁵ = 56·($1$)·($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P17_L7B_Q49",
@@ -763,7 +763,7 @@
         "D) e³"
       ],
       "correct_option": "C",
-      "explanation": "\\( For continuity at x=0: \\lim(x→0)(e³ˣ - 1)/x = \\lim(x→0)(e³ˣ - 1)/x · \\frac{3}{3} = 3·\\lim(x→0)(e³ˣ - 1)/(3x) = 3·1 = 3. So b = 3. \\)"
+      "explanation": "For continuity at x=0: \\lim(x→0)(e³ˣ - 1)/x = \\lim(x→0)(e³ˣ - 1)/x · $1$ = 3·\\lim(x→0)(e³ˣ - 1)/(3x) = 3·1 = 3. So b = 3."
     }
   ]
 }

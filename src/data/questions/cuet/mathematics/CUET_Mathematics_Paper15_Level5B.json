@@ -35,7 +35,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "\\( Evaluate the determinant \\left| \\1 \\right|. \\)",
+      "question": "Evaluate the determinant \\left| A \\right|.",
       "options": [
         "A) 21",
         "B) 42",
@@ -58,14 +58,14 @@
         "D) 1/6"
       ],
       "correct_option": "C",
-      "explanation": "\\( Favorable outcomes for product = 12: (2,6), (3,4), (4,3), (6,2) → 4 outcomes. Total outcomes = 36. Probability = \\frac{4}{36} = \\frac{1}{9}. \\)"
+      "explanation": "Favorable outcomes for product = 12: (2,6), (3,4), (4,3), (6,2) → 4 outcomes. Total outcomes = 36. Probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q04",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "easy",
-      "question": "\\( Find the value: If f(x) = \\sqrt{x² + 4}, find f'(1). \\)",
+      "question": "Find the value: If f(x) = $1$, find f'(1).",
       "options": [
         "A) 1/(2√5)",
         "B) 1/5",
@@ -73,14 +73,14 @@
         "D) 2/√5"
       ],
       "correct_option": "C",
-      "explanation": "\\( f'(x) = x/\\sqrt{x² + 4}. At x = 1: f'(1) = 1/\\sqrt{1 + 4} = 1/\\sqrt{5}. This result follows from standard mathematical principles. \\)"
+      "explanation": "f'(x) = x/$1$. At x = 1: f'(1) = 1/$1$ = 1/$1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q05",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Integrals",
       "difficulty": "easy",
-      "question": "\\( Find the value: Evaluate ∫₀^(π/2) (\\sin x - \\cos x) dx. \\)",
+      "question": "Find the value: Evaluate ∫₀^(π/2) (sin x - cos x) dx.",
       "options": [
         "A) 2",
         "B) 1",
@@ -88,7 +88,7 @@
         "D) -1"
       ],
       "correct_option": "C",
-      "explanation": "\\( ∫(\\sin x - \\cos x)dx = -\\cos x - \\sin x. Evaluating from 0 to π/2: (-\\cos(π/2) - \\sin(π/2)) - (-\\cos(0) - \\sin(0)) = (0 - 1) - (-1 - 0) = -1 + 1 = 0. This result follows from standard mathematical principles. \\)"
+      "explanation": "∫(sin x - cos x)dx = -cos x - sin x. Evaluating from 0 to π/2: (-cos(π/2) - sin(π/2)) - (-cos(0) - sin(0)) = (0 - 1) - (-1 - 0) = -1 + 1 = 0. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q06",
@@ -103,14 +103,14 @@
         "D) 3"
       ],
       "correct_option": "D",
-      "explanation": "\\( The degree is the power of the highest order derivative. Here, the highest order derivative is d²y/dx² with power 2, but the equation must be a polynomial \\in derivatives. The term (dy/dx)³ has degree 3, and (d²y/dx²)² has degree 2. The degree of the DE is the highest power, which is 3. \\)"
+      "explanation": "The degree is the power of the highest order derivative. Here, the highest order derivative is d²y/dx² with power 2, but the equation must be a polynomial ∈ derivatives. The term (dy/dx)³ has degree 3, and (d²y/dx²)² has degree 2. The degree of the DE is the highest power, which is 3."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q07",
       "topic": "Vector Algebra",
       "sub_topic": "Vector Algebra",
       "difficulty": "easy",
-      "question": "\\( The unit vector \\in the direction of the vector 6i + 8j is: \\)",
+      "question": "The unit vector ∈ the direction of the vector 6i + 8j is:",
       "options": [
         "A) (6/14)i + (8/14)j",
         "B) (1/2)i + (1/2)j",
@@ -118,7 +118,7 @@
         "D) (3/5)i + (4/5)j"
       ],
       "correct_option": "D",
-      "explanation": "\\( Magnitude = \\sqrt{6² + 8²} = \\sqrt{100} = 10. Unit vector = (\\frac{6}{10})i + (\\frac{8}{10})j = (\\frac{3}{5})i + (\\frac{4}{5})j. \\)"
+      "explanation": "Magnitude = $1$ = $1$ = 10. Unit vector = ($1$)i + ($1$)j = ($1$)i + ($1$)j."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q08",
@@ -148,7 +148,7 @@
         "D) 256"
       ],
       "correct_option": "A",
-      "explanation": "\\( For a set with n elements, the number of symmetric relations is 2^(n(n+1)/2). For n = 3: 2^(3×\\frac{4}{2}) = 2⁶ = 64. \\)"
+      "explanation": "For a set with n elements, the number of symmetric relations is 2^(n(n+1)/2). For n = 3: 2^(3×$1$) = 2⁶ = 64."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q10",
@@ -193,7 +193,7 @@
         "D) [-1, 1]"
       ],
       "correct_option": "B",
-      "explanation": "\\( Since \\cos x ∈ [-1, 1], we have 3cos x ∈ [-3, 3], so 3cos x + 2 ∈ [-1, 5]. \\)"
+      "explanation": "Since cos x ∈ [-1, 1], we have 3cos x ∈ [-3, 3], so 3cos x + 2 ∈ [-1, 5]."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q13",
@@ -208,7 +208,7 @@
         "D) tan⁻¹(x+2) + C"
       ],
       "correct_option": "D",
-      "explanation": "\\( Complete the square: x²+4x+5 = (x+2)²+1. So ∫dx/[(x+2)²+1] = \\tan⁻¹(x+2) + C, using ∫du/(u²+1) = \\tan⁻¹u + C. \\)"
+      "explanation": "Complete the square: x²+4x+5 = (x+2)²+1. So ∫dx/[(x+2)²+1] = tan⁻¹(x+2) + C, using ∫du/(u²+1) = tan⁻¹u + C."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q14",
@@ -275,7 +275,7 @@
       "topic": "Probability",
       "sub_topic": "Conditional Probability",
       "difficulty": "medium",
-      "question": "\\( Two dice are rolled. Given that the \\sum is 7, what is the probability that one of the dice shows a 3? \\)",
+      "question": "Two dice are rolled. Given that the ∑ is 7, what is the probability that one of the dice shows a 3?",
       "options": [
         "A) 1/3",
         "B) 1/6",
@@ -283,7 +283,7 @@
         "D) 2/7"
       ],
       "correct_option": "A",
-      "explanation": "\\( Given \\sum = 7, outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 outcomes. Favorable (one die shows 3): (3,4), (4,3) → 2 outcomes. Probability = \\frac{2}{6} = \\frac{1}{3}. \\)"
+      "explanation": "Given ∑ = 7, outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) → 6 outcomes. Favorable (one die shows 3): (3,4), (4,3) → 2 outcomes. Probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q19",
@@ -328,7 +328,7 @@
         "D) 4x + 3y + 17 = 0"
       ],
       "correct_option": "C",
-      "explanation": "\\( The slope of the line 3x - 4y + 7 = 0 is \\frac{3}{4}. The slope of a line perpendicular to it is -\\frac{4}{3}. Using point-slope form with point (2, 3): y - 3 = (-\\frac{4}{3})(x - 2) → 3y - 9 = -4x + 8 → 4x + 3y - 17 = 0. \\)"
+      "explanation": "The slope of the line 3x - 4y + 7 = 0 is $1$. The slope of a line perpendicular to it is -$1$. Using point-slope form with point (2, 3): y - 3 = (-$1$)(x - 2) → 3y - 9 = -4x + 8 → 4x + 3y - 17 = 0."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q22",
@@ -343,14 +343,14 @@
         "D) (2/3)(2i - 2j + k)"
       ],
       "correct_option": "D",
-      "explanation": "\\( a·b = 6 - 8 + 5 = 3. \\left| \\1 \\right|² = 4 + 4 + 1 = 9. Projection = (a·b/\\left| \\1 \\right|²)b = (\\frac{3}{9})(2i - 2j + k) = (\\frac{2}{3})(2i - 2j + k). \\)"
+      "explanation": "$a·b = 6 - 8 + 5 = 3. \\left| A \\right|² = 4 + 4 + 1 = 9. Projection = (a·b/\\left| A \\right|²)b = ($1$)(2i - 2j + k) = ($1$)(2i - 2j + k).$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q23",
       "topic": "Relations and Functions",
       "sub_topic": "Inverse Trigonometric Functions",
       "difficulty": "medium",
-      "question": "\\( If \\sin⁻¹(x) + \\sin⁻¹(y) = π/3, then \\cos⁻¹(x) + \\cos⁻¹(y) equals: \\)",
+      "question": "If sin⁻¹(x) + sin⁻¹(y) = π/3, then cos⁻¹(x) + cos⁻¹(y) equals:",
       "options": [
         "A) π/3",
         "B) π/6",
@@ -358,7 +358,7 @@
         "D) π/2"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using the identity \\sin⁻¹(t) + \\cos⁻¹(t) = π/2, we have \\cos⁻¹(x) + \\cos⁻¹(y) = π - (\\sin⁻¹(x) + \\sin⁻¹(y)) = π - π/3 = 2π/3. \\)"
+      "explanation": "Using the identity sin⁻¹(t) + cos⁻¹(t) = π/2, we have cos⁻¹(x) + cos⁻¹(y) = π - (sin⁻¹(x) + sin⁻¹(y)) = π - π/3 = 2π/3."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q24",
@@ -380,7 +380,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector Algebra",
       "difficulty": "medium",
-      "question": "\\( If \\left| \\1 \\right| = 3, \\left| \\1 \\right| = 4, and the angle between a and b is 60^{\\circ}, then \\left| \\1 \\right| equals: \\)",
+      "question": "If \\left| A \\right| = 3, \\left| A \\right| = 4, and the angle between a and b is 60^{\\circ}, then \\left| A \\right| equals:",
       "options": [
         "A) 6",
         "B) 3√3",
@@ -388,7 +388,7 @@
         "D) 12"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right| = \\left| \\1 \\right|\\left| \\1 \\right|\\sin θ = 3 × 4 × \\sin 60^{\\circ} = 12 × (√\\frac{3}{2}) = 6\\sqrt{3}. \\)"
+      "explanation": "$\\left| A \\right| = \\left| A \\right|\\left| A \\right|sin θ = 3 × 4 × sin 60^{\\circ} = 12 × (√$1$) = 6$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q26",
@@ -418,7 +418,7 @@
         "D) 6"
       ],
       "correct_option": "A",
-      "explanation": "\\( Area = ∫₀²(x² + 1)dx = [x³/3 + x]₀² = (\\frac{8}{3} + 2) - 0 = \\frac{8}{3} + \\frac{6}{3} = \\frac{14}{3}. \\)"
+      "explanation": "$Area = ∫₀²(x² + 1)dx = [x³/3 + x]₀² = ($1$ + 2) - 0 = $1$ + $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q28",
@@ -448,7 +448,7 @@
         "D) 3/10"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(X\\left| \\1 \\right|X)P(X)/[P(D\\left| \\1 \\right|Y)P(Y)] = (0.05×0.7)/(0.05×0.7 + 0.10×0.3) = 0.035/(0.035 + 0.03) = 0.\\frac{035}{0}.065 = \\frac{35}{65} = \\frac{7}{13}. \\)"
+      "explanation": "$P(X\\left| A \\right|X)P(X)/[P(D\\left| A \\right|Y)P(Y)] = (0.05×0.7)/(0.05×0.7 + 0.10×0.3) = 0.035/(0.035 + 0.03) = 0.$1$.065 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q30",
@@ -493,7 +493,7 @@
         "D) π/4 - 1"
       ],
       "correct_option": "C",
-      "explanation": "\\( tan²x = sec²x - 1. ∫tan²x dx = ∫(sec²x - 1)dx = \\tan x - x. Evaluating from 0 to π/4: (\\tan(π/4) - π/4) - (\\tan(0) - 0) = (1 - π/4) - 0 = 1 - π/4. This result follows from standard mathematical principles. \\)"
+      "explanation": "tan²x = sec²x - 1. ∫tan²x dx = ∫(sec²x - 1)dx = tan x - x. Evaluating from 0 to π/4: (tan(π/4) - π/4) - (tan(0) - 0) = (1 - π/4) - 0 = 1 - π/4. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q33",
@@ -508,7 +508,7 @@
         "D) x³"
       ],
       "correct_option": "C",
-      "explanation": "\\( The integrating factor is e^{(∫(2/x)}dx) = e^{(2ln x)} = e^{(\\ln x²)} = x². \\)"
+      "explanation": "The integrating factor is e^{(∫(2/x)}dx) = e^{(2ln x)} = e^{(\\ln x²)} = x²."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q34",
@@ -523,14 +523,14 @@
         "D) 18"
       ],
       "correct_option": "D",
-      "explanation": "\\( [a b c] = a·(b × c). b × c = \\left| \\1 \\right| = i(3+4) - j(1-2) + k(2+3) = 7i + j + 5k. a·(b × c) = (2)(7) + (-1)(1) + (1)(5) = 14 - 1 + 5 = 18. \\)"
+      "explanation": "$[a b c] = a·(b × c). b × c = \\left| A \\right| = i(3+4) - j(1-2) + k(2+3) = 7i + j + 5k. a·(b × c) = (2)(7) + (-1)(1) + (1)(5) = 14 - 1 + 5 = 18.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q35",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and Differentiability",
       "difficulty": "medium",
-      "question": "\\( For what value of k is the function f(x) = { (\\sin 2x)/x, x ≠ 0; k, x = 0 } continuous at x = 0? \\)",
+      "question": "For what value of k is the function f(x) = { (sin 2x)/x, x ≠ 0; k, x = 0 } continuous at x = 0?",
       "options": [
         "A) 1",
         "B) 1/2",
@@ -538,7 +538,7 @@
         "D) 0"
       ],
       "correct_option": "B",
-      "explanation": "\\( For continuity at x = 0: \\lim(x→0) f(x) = f(0). \\lim(x→0) \\sin(2x)/x = 2·\\lim(x→0) \\sin(2x)/(2x) = 2·1 = 2. So k = 2. \\)"
+      "explanation": "For continuity at x = 0: \\lim(x→0) f(x) = f(0). \\lim(x→0) sin(2x)/x = 2·\\lim(x→0) sin(2x)/(2x) = 2·1 = 2. So k = 2."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q36",
@@ -553,7 +553,7 @@
         "D) [[-1, 1], [1, -2]]"
       ],
       "correct_option": "C",
-      "explanation": "\\( \\left| \\1 \\right| = 2(1) - 1(1) = 1. adj(A) = [[1, -1], [-1, 2]]. A⁻¹ = adj(A)/\\left| \\1 \\right| = [[1, -1], [-1, 2]]. \\)"
+      "explanation": "$\\left| A \\right| = 2(1) - 1(1) = 1. adj(A) = [[1, -1], [-1, 2]]. A⁻¹ = adj(A)/\\left| A \\right| = [[1, -1], [-1, 2]].$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q37",
@@ -568,7 +568,7 @@
         "D) 1/8"
       ],
       "correct_option": "A",
-      "explanation": "\\( P(X = 3) = C(8,3) × (0.5)³ × (0.5)⁵ = 56 × (\\frac{1}{8}) × (\\frac{1}{32}) = \\frac{56}{256} = \\frac{7}{32}. \\)"
+      "explanation": "$P(X = 3) = C(8,3) × (0.5)³ × (0.5)⁵ = 56 × ($1$) × ($1$) = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q38",
@@ -583,7 +583,7 @@
         "D) 2√3/3"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using d = \\left| \\1 \\right|/\\left| \\1 \\right|. a₂ - a₁ = 2i + 2j + 2k. b₁ × b₂ = \\left| \\1 \\right| = i(2+1) - j(4-1) + k(-2-1) = 3i - 3j - 3k. \\left| \\1 \\right| = \\sqrt{9+9+9} = 3\\sqrt{3}. (a₂-a₁)·(b₁×b₂) = 6 - 6 - 6 = -6. d = \\left| \\1 \\right|/(3\\sqrt{3}) = 2/\\sqrt{3} = 2√\\frac{3}{3}. \\)"
+      "explanation": "$Using d = \\left| A \\right|/\\left| A \\right|. a₂ - a₁ = 2i + 2j + 2k. b₁ × b₂ = \\left| A \\right| = i(2+1) - j(4-1) + k(-2-1) = 3i - 3j - 3k. \\left| A \\right| = $1$ = 3$1$. (a₂-a₁)·(b₁×b₂) = 6 - 6 - 6 = -6. d = \\left| A \\right|/(3$1$) = 2/$1$ = 2√$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q39",
@@ -598,7 +598,7 @@
         "D) 8/15"
       ],
       "correct_option": "D",
-      "explanation": "\\( Using the reduction formula: ∫₀^(π/2) sinⁿx dx = ((n-1)/n) × ((n-3)/(n-2)) × ... × (\\frac{2}{3}) for odd n. For n = 5: (\\frac{4}{5}) × (\\frac{2}{3}) = \\frac{8}{15}. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using the reduction formula: ∫₀^(π/2) sinⁿx dx = ((n-1)/n) × ((n-3)/(n-2)) × ... × ($1$) for odd n. For n = 5: ($1$) × ($1$) = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q40",
@@ -613,7 +613,7 @@
         "D) 21"
       ],
       "correct_option": "C",
-      "explanation": "\\( Characteristic equation: \\left| \\1 \\right| = 0 → (3-λ)(2-λ) - 2 = 0 → λ² - 5λ + 4 = 0. Eigenvalues: λ = 1, 4. λ₁² + λ₂² = 1 + 16 = 17. \\)"
+      "explanation": "$Characteristic equation: \\left| A \\right| = 0 → (3-λ)(2-λ) - 2 = 0 → λ² - 5λ + 4 = 0. Eigenvalues: λ = 1, 4. λ₁² + λ₂² = 1 + 16 = 17.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q41",
@@ -628,7 +628,7 @@
         "D) 24/91"
       ],
       "correct_option": "D",
-      "explanation": "\\( Total ways to draw 3 balls from 15: C(15,3) = 455. Favorable: 1 red, 1 blue, 1 green = C(4,1)×C(5,1)×C(6,1) = 4×5×6 = 120. Probability = \\frac{120}{455} = \\frac{24}{91}. \\)"
+      "explanation": "Total ways to draw 3 balls from 15: C(15,3) = 455. Favorable: 1 red, 1 blue, 1 green = C(4,1)×C(5,1)×C(6,1) = 4×5×6 = 120. Probability = $1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q42",
@@ -643,14 +643,14 @@
         "D) 32"
       ],
       "correct_option": "B",
-      "explanation": "\\( Corner points: (0,0): Z = 0. (5,0): Z = 20. (0,5): Z = 25. Intersection of 2x+y=10 and x+2y=10: From first, y = 10-2x. Substituting: x + 2(10-2x) = 10 → x + 20 - 4x = 10 → -3x = -10 → x = \\frac{10}{3}. y = 10 - \\frac{20}{3} = \\frac{10}{3}. Z = 4(\\frac{10}{3}) + 5(\\frac{10}{3}) = \\frac{40}{3} + \\frac{50}{3} = \\frac{90}{3} = 30. \\)"
+      "explanation": "Corner points: (0,0): Z = 0. (5,0): Z = 20. (0,5): Z = 25. Intersection of 2x+y=10 and x+2y=10: From first, y = 10-2x. Substituting: x + 2(10-2x) = 10 → x + 20 - 4x = 10 → -3x = -10 → x = $1$. y = 10 - $1$ = $1$. Z = 4($1$) + 5($1$) = $1$ + $1$ = $1$ = 30."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q43",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Differential Equations",
       "difficulty": "hard",
-      "question": "\\( The particular solution of dy/dx + y·\\tan x = \\sec x with y(0) = 2 is: \\)",
+      "question": "The particular solution of dy/dx + y·tan x = \\sec x with y(0) = 2 is:",
       "options": [
         "A) y = sin x - cos x",
         "B) y = sin x + 2cos x",
@@ -658,7 +658,7 @@
         "D) y = sin x + cos x"
       ],
       "correct_option": "B",
-      "explanation": "\\( Integrating factor = e^{(∫\\tan x dx)} = e^{(-\\ln \\cos x)} = \\sec x. Multiplying: \\sec x·dy/dx + y·\\sec x·\\tan x = sec²x. d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = \\tan x + C. y = \\sin x + C·\\cos x. Using y(0) = 2: 2 = 0 + C·1 → C = 2. So y = \\sin x + 2cos x. \\)"
+      "explanation": "Integrating factor = e^{(∫tan x dx)} = e^{(-\\ln cos x)} = \\sec x. Multiplying: \\sec x·dy/dx + y·\\sec x·tan x = sec²x. d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = tan x + C. y = sin x + C·cos x. Using y(0) = 2: 2 = 0 + C·1 → C = 2. So y = sin x + 2cos x."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q44",
@@ -688,7 +688,7 @@
         "D) 24"
       ],
       "correct_option": "C",
-      "explanation": "\\( Using the \\gamma function: ∫₀^∞ xⁿ·e^{(-x)} dx = n!. For n = 3: 3! = 6. This result follows from standard mathematical principles. \\)"
+      "explanation": "Using the \\gamma function: ∫₀^∞ xⁿ·e^{(-x)} dx = n!. For n = 3: 3! = 6. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q46",
@@ -703,14 +703,14 @@
         "D) 1/3"
       ],
       "correct_option": "C",
-      "explanation": "\\( P(Box 2\\left| \\1 \\right|Box 2)P(Box 2)/[P(White\\left| \\1 \\right|Box 2)P(Box 2) + P(White|Box 3)P(Box 3)] = (\\frac{4}{5})(\\frac{1}{3})/[(\\frac{2}{5})(\\frac{1}{3}) + (\\frac{4}{5})(\\frac{1}{3}) + (\\frac{3}{5})(\\frac{1}{3})] = (\\frac{4}{15})/[(2+4+3)/15] = \\frac{4}{9}. \\)"
+      "explanation": "$P(Box 2\\left| A \\right|Box 2)P(Box 2)/[P(White\\left| A \\right|Box 2)P(Box 2) + P(White|Box 3)P(Box 3)] = ($1$)($1$)/[($1$)($1$) + ($1$)($1$) + ($1$)($1$)] = ($1$)/[(2+4+3)/15] = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q47",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Applications of Derivatives",
       "difficulty": "hard",
-      "question": "\\( A wire of length 20 cm is cut into two pieces. One piece is bent into an equilateral triangle and the other into a circle. The \\sum of the areas is minimum when the length used for the circle is: \\)",
+      "question": "A wire of length 20 cm is cut into two pieces. One piece is bent into an equilateral triangle and the other into a circle. The ∑ of the areas is minimum when the length used for the circle is:",
       "options": [
         "A) 20π/(π + √3) cm",
         "B) 20π/(3π + √3) cm",
@@ -718,14 +718,14 @@
         "D) 20π/(π + 3√3) cm"
       ],
       "correct_option": "D",
-      "explanation": "\\( Let x be the length for the circle. Circle radius = x/(2π), area = x²/(4π). Triangle side = (20-x)/3, area = (√\\frac{3}{4})((20-x)/3)² = (√\\frac{3}{36})(20-x)². Total area A = x²/(4π) + (√\\frac{3}{36})(20-x)². dA/dx = x/(2π) - (√\\frac{3}{18})(20-x) = 0. x/(2π) = (√\\frac{3}{18})(20-x). 9x = π\\sqrt{3}(20-x). x(9 + π\\sqrt{3}) = 20π\\sqrt{3}. x = 20π\\sqrt{3}/(9 + π\\sqrt{3}) = 20π/(π + 3\\sqrt{3}) (dividing by \\sqrt{3}). \\)"
+      "explanation": "Let x be the length for the circle. Circle radius = x/(2π), area = x²/(4π). Triangle side = (20-x)/3, area = (√$1$)((20-x)/3)² = (√$1$)(20-x)². Total area A = x²/(4π) + (√$1$)(20-x)². dA/dx = x/(2π) - (√$1$)(20-x) = 0. x/(2π) = (√$1$)(20-x). 9x = π$1$(20-x). x(9 + π$1$) = 20π$1$. x = 20π$1$/(9 + π$1$) = 20π/(π + 3$1$) (dividing by $1$)."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q48",
       "topic": "Vector Algebra",
       "sub_topic": "Vector Algebra",
       "difficulty": "hard",
-      "question": "\\( If a, b, c are vectors such that a + b + c = 0 and \\left| \\1 \\right| = 3, \\left| \\1 \\right| = 5, \\left| \\1 \\right| = 7, then the angle between a and b is: \\)",
+      "question": "If a, b, c are vectors such that a + b + c = 0 and \\left| A \\right| = 3, \\left| A \\right| = 5, \\left| A \\right| = 7, then the angle between a and b is:",
       "options": [
         "A) π/6",
         "B) π/3",
@@ -733,7 +733,7 @@
         "D) π/4"
       ],
       "correct_option": "B",
-      "explanation": "\\( Since a + b = -c, we have \\left| \\1 \\right|² = \\left| \\1 \\right|². \\left| \\1 \\right|² + \\left| \\1 \\right|² + 2a·b = \\left| \\1 \\right|². 9 + 25 + 2(3)(5)\\cos θ = 49. 34 + 30cos θ = 49. 30cos θ = 15. \\cos θ = \\frac{1}{2}. θ = π/3. \\)"
+      "explanation": "Since a + b = -c, we have \\left| A \\right|² = \\left| A \\right|². \\left| A \\right|² + \\left| A \\right|² + 2a·b = \\left| A \\right|². 9 + 25 + 2(3)(5)cos θ = 49. 34 + 30cos θ = 49. 30cos θ = 15. cos θ = $1$. θ = π/3."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q49",
@@ -748,14 +748,14 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "\\( For continuity at x = 0: \\lim(x→0) (e^{(2x)} - 1)/x = 2·\\lim(x→0) (e^{(2x)} - 1)/(2x) = 2·1 = 2. So b = 2. \\)"
+      "explanation": "For continuity at x = 0: \\lim(x→0) (e^{(2x)} - 1)/x = 2·\\lim(x→0) (e^{(2x)} - 1)/(2x) = 2·1 = 2. So b = 2."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q50",
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "hard",
-      "question": "\\( If A is a 3×3 matrix such that \\left| \\1 \\right| = 256, then \\left| \\1 \\right| equals: \\)",
+      "question": "If A is a 3×3 matrix such that \\left| A \\right| = 256, then \\left| A \\right| equals:",
       "options": [
         "A) 16",
         "B) 8",
@@ -763,7 +763,7 @@
         "D) 4"
       ],
       "correct_option": "D",
-      "explanation": "\\( \\left| \\1 \\right| = \\left| \\1 \\right|^((n-1)²) for an n×n matrix. For n = 3: \\left| \\1 \\right| = \\left| \\1 \\right|^((3-1)²) = \\left| \\1 \\right|⁴. So \\left| \\1 \\right|⁴ = 256 → \\left| \\1 \\right| = 4. \\)"
+      "explanation": "\\left| A \\right| = \\left| A \\right|^((n-1)²) for an n×n matrix. For n = 3: \\left| A \\right| = \\left| A \\right|^((3-1)²) = \\left| A \\right|⁴. So \\left| A \\right|⁴ = 256 → \\left| A \\right| = 4."
     }
   ]
 }
