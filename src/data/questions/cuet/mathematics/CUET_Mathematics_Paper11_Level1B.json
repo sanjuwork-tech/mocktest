@@ -35,7 +35,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "Find the value: Evaluate the determinant \\left| A \\right|.",
+      "question": "Find the value: Evaluate the determinant | A |.",
       "options": [
         "A) 1",
         "B) 5",
@@ -43,7 +43,7 @@
         "D) 11"
       ],
       "correct_option": "B",
-      "explanation": "For a 2×2 matrix \\left| A \\right|, the determinant is ad - bc. Here, (2)(4) - (3)(1) = 8 - 3 = 5. This result follows from standard mathematical principles."
+      "explanation": "For a 2×2 matrix | A |, the determinant is ad - bc. Here, (2)(4) - (3)(1) = 8 - 3 = 5. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q03",
@@ -170,7 +170,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vectors and scalars",
       "difficulty": "easy",
-      "question": "Find the value: If a = i + 2j + 2k, then \\left| A \\right| equals:",
+      "question": "Find the value: If a = i + 2j + 2k, then | A | equals:",
       "options": [
         "A) 5",
         "B) 4",
@@ -178,7 +178,7 @@
         "D) 3"
       ],
       "correct_option": "D",
-      "explanation": "\\left| A \\right| = $1$ = $1$ = $1$ = 3. This result follows from standard mathematical principles."
+      "explanation": "| A | = $1$ = $1$ = $1$ = 3. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q12",
@@ -260,7 +260,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "Analyze the given function: The function f(x) = \\left| A \\right| is:",
+      "question": "Analyze the given function: The function f(x) = | A | is:",
       "options": [
         "A) Continuous everywhere",
         "B) Not continuous at x = 2",
@@ -268,7 +268,7 @@
         "D) Differentiable everywhere"
       ],
       "correct_option": "A",
-      "explanation": "We analyze the function using standard techniques. The absolute value function \\left| A \\right| is continuous everywhere on ℝ. However, it is not differentiable at x = 2 (corner point)."
+      "explanation": "We analyze the function using standard techniques. The absolute value function | A | is continuous everywhere on ℝ. However, it is not differentiable at x = 2 (corner point)."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q18",
@@ -395,7 +395,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "The value of the determinant \\left| A \\right| is:",
+      "question": "The value of the determinant | A | is:",
       "options": [
         "A) 8",
         "B) 0",
@@ -455,7 +455,7 @@
       "topic": "Applications of Derivatives",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "Find the derivative of the given function: If y = \\ln(x³), then dy/dx equals:",
+      "question": "Find the derivative of the given function: If y = ln(x³), then dy/dx equals:",
       "options": [
         "A) 3x²",
         "B) x³/3",
@@ -463,7 +463,7 @@
         "D) 3/x"
       ],
       "correct_option": "D",
-      "explanation": "We apply the standard rules of differentiation. y = \\ln(x³) = 3ln(x). Therefore, dy/dx = 3 × (1/x) = 3/x."
+      "explanation": "We apply the standard rules of differentiation. y = ln(x³) = 3ln(x). Therefore, dy/dx = 3 × (1/x) = 3/x."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q31",
@@ -560,7 +560,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "If A is a 3×3 matrix with \\left| A \\right| = 3, then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 matrix with | A | = 3, then | A | equals:",
       "options": [
         "A) 8/3",
         "B) 1/6",
@@ -568,7 +568,7 @@
         "D) 6"
       ],
       "correct_option": "A",
-      "explanation": "$\\left| A \\right| = 2³ · \\left| A \\right| = 8 · (1/\\left| A \\right|) = 8 · ($1$) = $1$.$"
+      "explanation": "$| A | = 2³ · | A | = 8 · (1/| A |) = 8 · ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q38",
@@ -658,7 +658,7 @@
         "D) 5i + 5j + 5k"
       ],
       "correct_option": "C",
-      "explanation": "$a × b = \\left| A \\right| = i(2·1 - 3·(-1)) - j(1·1 - 3·2) + k(1·(-1) - 2·2) = 5i + 5j - 5k.$"
+      "explanation": "$a × b = | A | = i(2·1 - 3·(-1)) - j(1·1 - 3·2) + k(1·(-1) - 2·2) = 5i + 5j - 5k.$"
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q44",
@@ -725,7 +725,7 @@
       "topic": "Matrices",
       "sub_topic": "Equality of matrices",
       "difficulty": "hard",
-      "question": "If A is a 3×3 matrix such that A² = A (idempotent matrix), then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 matrix such that A² = A (idempotent matrix), then | A | equals:",
       "options": [
         "A) 8",
         "B) 4",
@@ -748,7 +748,7 @@
         "D) cos(y/x) = x/√2"
       ],
       "correct_option": "C",
-      "explanation": "This is a homogeneous equation. Let y = vx, so dy/dx = v + x(dv/dx). Substituting: x(v + x·dv/dx) = vx + x·tan(v), giving x²·dv/dx = x·tan(v). Separating: \\cot(v)dv = dx/x. Integrating: \\ln\\left| A \\right| = \\ln\\left| A \\right| + C, so sin(v) = Cx. Thus sin(y/x) = Cx. Using y(1) = π/4: sin(π/4) = C, so C = 1/$1$. The solution is sin(y/x) = x/$1$."
+      "explanation": "This is a homogeneous equation. Let y = vx, so dy/dx = v + x(dv/dx). Substituting: x(v + x·dv/dx) = vx + x·tan(v), giving x²·dv/dx = x·tan(v). Separating: \\cot(v)dv = dx/x. Integrating: ln| A | = ln| A | + C, so sin(v) = Cx. Thus sin(y/x) = Cx. Using y(1) = π/4: sin(π/4) = C, so C = 1/$1$. The solution is sin(y/x) = x/$1$."
     },
     {
       "id": "CUET_MATH_2026_P11_L1B_Q50",

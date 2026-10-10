@@ -62,6 +62,10 @@ type ResultData = {
 };
 
 // ────────────────────────────────────────────────────────
+import { useDemo } from "@/lib/student/store";
+import { StudentResults } from "@/components/student/results";
+
+// ────────────────────────────────────────────────────────
 // Page Component
 // ────────────────────────────────────────────────────────
 
@@ -69,12 +73,18 @@ export default function StudentResultsPage() {
   const params = useParams();
   const router = useRouter();
   const attemptId = params.attemptId as string;
+  const { attempts: demoAttempts } = useDemo();
 
   const [data, setData] = useState<ResultData | null>(null);
   const [error, setError] = useState("");
   const [activeTab, setActiveTab] = useState<"overview" | "review">("overview");
 
+  // Check if attempt exists in local student demo/practice store
+  const isLocalAttempt = demoAttempts.some((a) => a.id === attemptId);
+
   useEffect(() => {
+    if (isLocalAttempt) return;
+
     fetch(`/api/results/${attemptId}`)
       .then(async (res) => {
         if (!res.ok) {
@@ -85,21 +95,37 @@ export default function StudentResultsPage() {
       })
       .then(setData)
       .catch((e) => setError(e.message));
-  }, [attemptId]);
+  }, [attemptId, isLocalAttempt]);
+
+  if (isLocalAttempt) {
+    return <StudentResults id={attemptId} />;
+  }
 
   if (error) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white">
-        <div className="bg-red-950/50 border border-red-500/50 rounded-xl p-8 max-w-md text-center">
-          <AlertCircle className="w-12 h-12 text-red-500 mx-auto mb-4" />
-          <h1 className="text-xl font-bold mb-2 text-red-200">Error Loading Results</h1>
-          <p className="text-red-400 mb-6">{error}</p>
-          <button
-            onClick={() => router.push("/student/dashboard")}
-            className="px-6 py-2 bg-red-600 hover:bg-red-500 rounded-lg font-medium transition-colors"
-          >
-            Back to Dashboard
-          </button>
+      <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white p-4">
+        <div className="bg-slate-900 border border-slate-700/60 rounded-2xl p-8 max-w-md text-center shadow-2xl">
+          <AlertCircle className="w-12 h-12 text-amber-400 mx-auto mb-4" />
+          <h1 className="text-xl font-bold mb-2 text-white">Results Unavailable</h1>
+          <p className="text-slate-400 mb-6 text-sm">
+            {error === "Sign in to continue."
+              ? "Sign in with your student account to view cloud-saved results, or practice directly in your student space."
+              : error}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <button
+              onClick={() => router.push("/student")}
+              className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 rounded-xl font-semibold text-sm transition-colors text-white"
+            >
+              Practice Space
+            </button>
+            <button
+              onClick={() => router.push("/student/auth")}
+              className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 rounded-xl font-semibold text-sm transition-colors text-slate-200 border border-slate-600"
+            >
+              Sign In
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -136,7 +162,7 @@ export default function StudentResultsPage() {
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <button
-              onClick={() => router.push("/student/dashboard")}
+              onClick={() => router.push("/student")}
               className="p-2 hover:bg-white/5 rounded-full transition-colors"
             >
               <ArrowLeft className="w-5 h-5" />

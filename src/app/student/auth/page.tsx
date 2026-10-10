@@ -50,7 +50,7 @@ export default function StudentLoginPage() {
           }
         }
 
-        router.push("/student/dashboard");
+        router.push("/student");
         router.refresh();
       } catch {
         setError("Network error. Please try again.");
@@ -65,7 +65,7 @@ export default function StudentLoginPage() {
     <div className="auth-container">
       <div className="auth-card">
         <div className="auth-header">
-          <h1 className="auth-title">TestDisha</h1>
+          <h1 className="auth-title">OurMocks</h1>
           <p className="auth-subtitle">
             {mode === "login" ? "Sign in to your account" : "Create your account"}
           </p>

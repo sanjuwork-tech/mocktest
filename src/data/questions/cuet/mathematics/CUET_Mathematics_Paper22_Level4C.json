@@ -140,7 +140,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity",
       "difficulty": "easy",
-      "question": "The function f(x) = \\left| A \\right| at x = 5 is:",
+      "question": "The function f(x) = | A | at x = 5 is:",
       "options": [
         "A) Continuous and differentiable",
         "B) Not defined",
@@ -148,7 +148,7 @@
         "D) Discontinuous"
       ],
       "correct_option": "C",
-      "explanation": "f(x) = \\left| A \\right| is continuous at x=5 (limit = f(5) = 0) but has a sharp corner, so LHD ≠ RHD."
+      "explanation": "f(x) = | A | is continuous at x=5 (limit = f(5) = 0) but has a sharp corner, so LHD ≠ RHD."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q10",
@@ -208,7 +208,7 @@
         "D) 15"
       ],
       "correct_option": "B",
-      "explanation": "$\\left| A \\right| = $1$²) = $1$ = $1$ = 13.$"
+      "explanation": "$| A | = $1$²) = $1$ = $1$ = 13.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q14",
@@ -358,7 +358,7 @@
         "D) tan⁻¹(y/x) + (1/2)ln(x² + y²) = C"
       ],
       "correct_option": "B",
-      "explanation": "Put y = vx, then dy/dx = v + x·dv/dx. The equation becomes v + x·dv/dx = (1+v)/(1-v). Solving gives tan⁻¹(v) - ($1$)\\ln(1+v²) = \\ln\\left| A \\right| + C, which simplifies to tan⁻¹(y/x) - ($1$)\\ln(x²+y²) = C."
+      "explanation": "Put y = vx, then dy/dx = v + x·dv/dx. The equation becomes v + x·dv/dx = (1+v)/(1-v). Solving gives tan⁻¹(v) - ($1$)ln(1+v²) = ln| A | + C, which simplifies to tan⁻¹(y/x) - ($1$)ln(x²+y²) = C."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q24",
@@ -388,7 +388,7 @@
         "D) 11/(3·√29)"
       ],
       "correct_option": "A",
-      "explanation": "$cos θ = \\left| A \\right| / ($1$·$1$) = \\left| A \\right| / ($1$·$1$) = $1$.$"
+      "explanation": "$cos θ = | A | / ($1$·$1$) = | A | / ($1$·$1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q26",
@@ -493,7 +493,7 @@
         "D) √(62)"
       ],
       "correct_option": "D",
-      "explanation": "$a × b = \\left| A \\right| = (3·1 - 0·(-2))i - (2·1 - 0·1)j + (2·(-2) - 3·1)k = 3î - 2ĵ - 7k̂. \\left| A \\right| = $1$ = $1$.$"
+      "explanation": "$a × b = | A | = (3·1 - 0·(-2))i - (2·1 - 0·1)j + (2·(-2) - 3·1)k = 3î - 2ĵ - 7k̂. | A | = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q33",
@@ -523,7 +523,7 @@
         "D) 3 ln|x+1| - ln|x+2| + C"
       ],
       "correct_option": "B",
-      "explanation": "Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=−1: 2=A. At x=−2: −1=−B, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
+      "explanation": "Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=−1: 2=A. At x=−2: −1=−B, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln| A | + ln| A | + C."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q35",
@@ -553,7 +553,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "$D = \\left| A \\right| = 8-3 = 5. D_y = \\left| A \\right| = 18-8 = 10. y = D_y/D = $1$ = 2.$"
+      "explanation": "$D = | A | = 8-3 = 5. D_y = | A | = 18-8 = 10. y = D_y/D = $1$ = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q37",
@@ -643,7 +643,7 @@
         "D) 7/19"
       ],
       "correct_option": "C",
-      "explanation": "$P(def\\left| A \\right|B) = 0.05. P(B\\left| A \\right|B) / [P(A)·P(def\\left| A \\right|B)] = (0.4)(0.05)/[(0.6)(0.03)+(0.4)(0.05)] = 0.02/(0.018+0.02) = 0.$1$.038 = $1$ = $1$.$"
+      "explanation": "$P(def| A |B) = 0.05. P(B| A |B) / [P(A)·P(def| A |B)] = (0.4)(0.05)/[(0.6)(0.03)+(0.4)(0.05)] = 0.02/(0.018+0.02) = 0.$1$.038 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q43",
@@ -688,7 +688,7 @@
         "D) 1"
       ],
       "correct_option": "B",
-      "explanation": "$Volume = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = 2.$"
+      "explanation": "$Volume = | A | = | A | = | A | = | A | = | A | = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q46",
@@ -703,7 +703,7 @@
         "D) √2/3"
       ],
       "correct_option": "B",
-      "explanation": "Using formula d = \\left| A \\right|/\\left| A \\right|. a₁=(1,1,0), a₂=(2,1,-1), a₂-a₁=(1,0,-1). b₁=(2,-1,1), b₂=(1,-1,1). b₁×b₂ = (-1·1-1·(-1), 1·1-2·1, 2·(-1)-(-1)·1) = (0, -1, -1). \\left| A \\right| = $1$. (a₂-a₁)·(b₁×b₂) = (1,0,-1)·(0,-1,-1) = 1. d = 1/$1$."
+      "explanation": "Using formula d = | A |/| A |. a₁=(1,1,0), a₂=(2,1,-1), a₂-a₁=(1,0,-1). b₁=(2,-1,1), b₂=(1,-1,1). b₁×b₂ = (-1·1-1·(-1), 1·1-2·1, 2·(-1)-(-1)·1) = (0, -1, -1). | A | = $1$. (a₂-a₁)·(b₁×b₂) = (1,0,-1)·(0,-1,-1) = 1. d = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P22_L4C_Q47",

@@ -193,7 +193,7 @@
         "D) 10"
       ],
       "correct_option": "A",
-      "explanation": "For an n×n matrix A, \\left| A \\right| = kⁿ\\left| A \\right|. Here n=3, k=2, so \\left| A \\right| = 2³ × 5 = 8 × 5 = 40."
+      "explanation": "For an n×n matrix A, | A | = kⁿ| A |. Here n=3, k=2, so | A | = 2³ × 5 = 8 × 5 = 40."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q13",
@@ -253,7 +253,7 @@
         "D) 5√2"
       ],
       "correct_option": "D",
-      "explanation": "$\\left| A \\right| = $1$² + 5²) = $1$ = $1$ = 5$1$.$"
+      "explanation": "$| A | = $1$² + 5²) = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q17",
@@ -328,14 +328,14 @@
         "D) [[1, 1], [1, 2]]"
       ],
       "correct_option": "A",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. For A = [[2,1],[1,1]], \\left| A \\right| = 2×1 - 1×1 = 1. adj(A) = [[1, -1], [-1, 2]]. So A⁻¹ = adj(A)/\\left| A \\right| = [[1, -1], [-1, 2]]."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/| A |)[[d,−b],[−c,a]]. For A = [[2,1],[1,1]], | A | = 2×1 - 1×1 = 1. adj(A) = [[1, -1], [-1, 2]]. So A⁻¹ = adj(A)/| A | = [[1, -1], [-1, 2]]."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q22",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "If A and B are square matrices of the same order, then \\left| A \\right| equals:",
+      "question": "If A and B are square matrices of the same order, then | A | equals:",
       "options": [
         "A) |A| · |B|",
         "B) |A| / |B|",
@@ -343,7 +343,7 @@
         "D) |A| + |B|"
       ],
       "correct_option": "A",
-      "explanation": "The determinant of a product equals the product of determinants: \\left| A \\right| = \\left| A \\right| · \\left| A \\right|."
+      "explanation": "The determinant of a product equals the product of determinants: | A | = | A | · | A |."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q23",
@@ -380,7 +380,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "medium",
-      "question": "For f(x) = \\left| A \\right|, which statement is true at x = 0?",
+      "question": "For f(x) = | A |, which statement is true at x = 0?",
       "options": [
         "A) Discontinuous but differentiable",
         "B) Continuous but not differentiable",
@@ -388,7 +388,7 @@
         "D) Continuous and differentiable"
       ],
       "correct_option": "B",
-      "explanation": "f(x) = \\left| A \\right| is continuous at x = 0 (LHL = RHL = f(0) = 0), but not differentiable there because the left derivative (-1) ≠ right derivative (1)."
+      "explanation": "f(x) = | A | is continuous at x = 0 (LHL = RHL = f(0) = 0), but not differentiable there because the left derivative (-1) ≠ right derivative (1)."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q26",
@@ -500,7 +500,7 @@
       "topic": "Matrices",
       "sub_topic": "Symmetric and skew symmetric matrices",
       "difficulty": "medium",
-      "question": "If A is a skew-symmetric matrix of odd order, then \\left| A \\right| is:",
+      "question": "If A is a skew-symmetric matrix of odd order, then | A | is:",
       "options": [
         "A) 1",
         "B) Undefined",
@@ -508,7 +508,7 @@
         "D) 0"
       ],
       "correct_option": "D",
-      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)ⁿ\\left| A \\right|. When n is odd, \\left| A \\right| = -\\left| A \\right|, which implies \\left| A \\right| = 0."
+      "explanation": "For a skew-symmetric matrix of odd order, | A | = | A | = | A | = (-1)ⁿ| A |. When n is odd, | A | = -| A |, which implies | A | = 0."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q34",
@@ -613,7 +613,7 @@
         "D) 3"
       ],
       "correct_option": "C",
-      "explanation": "$[a b c] = a·(b×c). b×c = \\left| A \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(i+j-k) = 1+1+0 = 2.$"
+      "explanation": "$[a b c] = a·(b×c). b×c = | A | = i(1) - j(-1) + k(-1) = i + j - k. a·(i+j-k) = 1+1+0 = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q41",
@@ -635,7 +635,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "hard",
-      "question": "The determinant \\left| A \\right| equals:",
+      "question": "The determinant | A | equals:",
       "options": [
         "A) (a-b)(b-c)(c-a) with a negative sign",
         "B) (a+b)(b+c)(c+a)",
@@ -748,7 +748,7 @@
         "D) 3√35 / 35"
       ],
       "correct_option": "B",
-      "explanation": "For L₁: a₁=(1,-1,3), b₁=(2,1,-1). For L₂: a₂=(0,2,-1), b₂=(1,-1,2). b₁×b₂ = (1,-5,-3), \\left| A \\right| = $1$. a₂-a₁ = (-1,3,-4). (a₂-a₁)·(b₁×b₂) = -1-15+12 = -4. d = \\left| A \\right|/$1$ = 4/$1$ = 4√$1$."
+      "explanation": "For L₁: a₁=(1,-1,3), b₁=(2,1,-1). For L₂: a₂=(0,2,-1), b₂=(1,-1,2). b₁×b₂ = (1,-5,-3), | A | = $1$. a₂-a₁ = (-1,3,-4). (a₂-a₁)·(b₁×b₂) = -1-15+12 = -4. d = | A |/$1$ = 4/$1$ = 4√$1$."
     },
     {
       "id": "CUET_MATH_2026_P4_L4_Q50",

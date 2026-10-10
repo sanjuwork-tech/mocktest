@@ -5,7 +5,7 @@ export async function POST(request: NextRequest) {
   try {
     const origin = request.nextUrl.origin;
     await createStudentSession({
-      email: `guest_${Date.now()}@testdisha.demo`,
+      email: `guest_${Date.now()}@ourmocks.demo`,
       name: "Guest Aspirant",
       provider: "guest",
       isGuest: true,

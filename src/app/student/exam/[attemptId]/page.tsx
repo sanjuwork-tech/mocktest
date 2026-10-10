@@ -345,7 +345,7 @@ export default function ExamPlayerPage() {
       <div className="exam-error">
         <h2>Error</h2>
         <p>{error}</p>
-        <button onClick={() => router.push("/student/dashboard")}>Back to Dashboard</button>
+        <button onClick={() => router.push("/student")}>Back to Dashboard</button>
         <style jsx>{`
           .exam-error { min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; background:#0f172a; color:#f87171; gap:1rem; text-align:center; }
           .exam-error button { padding:0.5rem 1.5rem; background:#3b82f6; color:white; border:none; border-radius:8px; cursor:pointer; }
@@ -379,7 +379,7 @@ export default function ExamPlayerPage() {
               <span className="stat-label">Total</span>
             </div>
           </div>
-          <button onClick={() => router.push("/student/dashboard")} className="exam-done-btn">
+          <button onClick={() => router.push("/student")} className="exam-done-btn">
             Back to Dashboard
           </button>
         </div>

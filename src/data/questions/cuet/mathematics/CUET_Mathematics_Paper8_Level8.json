@@ -28,7 +28,7 @@
         "D) -1"
       ],
       "correct_option": "A",
-      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)^n\\left| A \\right|. Since n is odd, \\left| A \\right| = -\\left| A \\right|, which implies \\left| A \\right| = 0."
+      "explanation": "For a skew-symmetric matrix of odd order, | A | = | A | = | A | = (-1)^n| A |. Since n is odd, | A | = -| A |, which implies | A | = 0."
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q02",
@@ -103,7 +103,7 @@
         "D) 9"
       ],
       "correct_option": "A",
-      "explanation": "The number of relations from A to B is 2^(\\left| A \\right|×\\left| A \\right|) = 2^(2×3) = 2^6 = 64."
+      "explanation": "The number of relations from A to B is 2^(| A |×| A |) = 2^(2×3) = 2^6 = 64."
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q07",
@@ -155,7 +155,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "Find the value: If \\left| A \\right| = 5, then x equals:",
+      "question": "Find the value: If | A | = 5, then x equals:",
       "options": [
         "A) 2",
         "B) 4",
@@ -163,7 +163,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "\\left| A \\right| = 2×4 - 3×x = 8 - 3x = 5. So 3x = 3, giving x = 1. This result follows from standard mathematical principles."
+      "explanation": "| A | = 2×4 - 3×x = 8 - 3x = 5. So 3x = 3, giving x = 1. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q11",
@@ -223,7 +223,7 @@
         "D) (1/2)x² + C"
       ],
       "correct_option": "B",
-      "explanation": "Let u = x²+1, then du = 2x dx, so x dx = du/2. Thus ∫x/(x²+1)dx = ($1$)∫du/u = ($1$)\\ln(x²+1) + C."
+      "explanation": "Let u = x²+1, then du = 2x dx, so x dx = du/2. Thus ∫x/(x²+1)dx = ($1$)∫du/u = ($1$)ln(x²+1) + C."
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q15",
@@ -245,7 +245,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector (cross) product of vectors",
       "difficulty": "medium",
-      "question": "If a = i + 2j - k and b = 2i - j + 3k, then \\left| A \\right| equals:",
+      "question": "If a = i + 2j - k and b = 2i - j + 3k, then | A | equals:",
       "options": [
         "A) 7",
         "B) 5√2",
@@ -253,7 +253,7 @@
         "D) 5√3"
       ],
       "correct_option": "D",
-      "explanation": "$a × b = \\left| A \\right| = i(6-1) - j(3+2) + k(-1-4) = 5i - 5j - 5k. \\left| A \\right| = $1$ = $1$ = 5$1$.$"
+      "explanation": "$a × b = | A | = i(6-1) - j(3+2) + k(-1-4) = 5i - 5j - 5k. | A | = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q17",
@@ -328,7 +328,7 @@
         "D) 4"
       ],
       "correct_option": "B",
-      "explanation": "$Area = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)(10) = 5.$"
+      "explanation": "$Area = ($1$)| A | = ($1$)| A | = ($1$)| A | = ($1$)(10) = 5.$"
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q22",
@@ -418,7 +418,7 @@
         "D) -5k"
       ],
       "correct_option": "D",
-      "explanation": "$a × b = \\left| A \\right| = i(3×0 - 0×(-1)) - j(2×0 - 0×1) + k(2×(-1) - 3×1) = i(0) - j(0) + k(-2 - 3) = -5k.$"
+      "explanation": "$a × b = | A | = i(3×0 - 0×(-1)) - j(2×0 - 0×1) + k(2×(-1) - 3×1) = i(0) - j(0) + k(-2 - 3) = -5k.$"
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q28",
@@ -583,7 +583,7 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "$\\left| A \\right|² = 0 ⇒ \\left| A \\right|²+\\left| A \\right|²+\\left| A \\right|² + 2(a·b+b·c+c·a) = 0 ⇒ 1+1+1 + 2(∑) = 0 ⇒ ∑ = -$1$.$"
+      "explanation": "$| A |² = 0 ⇒ | A |²+| A |²+| A |² + 2(a·b+b·c+c·a) = 0 ⇒ 1+1+1 + 2(∑) = 0 ⇒ ∑ = -$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q39",
@@ -598,7 +598,7 @@
         "D) 2/√3"
       ],
       "correct_option": "D",
-      "explanation": "$a₁=(1,0,0), b₁=(1,1,0), a₂=(0,1,0), b₂=(1,0,1). a₂-a₁=(-1,1,0). b₁×b₂ = \\left| A \\right| = (1,-1,-1). \\left| A \\right| = $1$. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(1)(-1)+(0)(-1) = -2. SD = \\left| A \\right|/$1$ = 2/$1$.$"
+      "explanation": "$a₁=(1,0,0), b₁=(1,1,0), a₂=(0,1,0), b₂=(1,0,1). a₂-a₁=(-1,1,0). b₁×b₂ = | A | = (1,-1,-1). | A | = $1$. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(1)(-1)+(0)(-1) = -2. SD = | A |/$1$ = 2/$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q40",
@@ -673,7 +673,7 @@
         "D) 2/(1+x²)"
       ],
       "correct_option": "D",
-      "explanation": "Note that tan⁻¹(2x/(1-x²)) = 2tan⁻¹(x) for \\left| A \\right| < 1. So d/dx[tan⁻¹(2x/(1-x²))] = 2/(1+x²)."
+      "explanation": "Note that tan⁻¹(2x/(1-x²)) = 2tan⁻¹(x) for | A | < 1. So d/dx[tan⁻¹(2x/(1-x²))] = 2/(1+x²)."
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q45",
@@ -718,7 +718,7 @@
         "D) tan⁻¹(y/x) = ln|x| + C"
       ],
       "correct_option": "C",
-      "explanation": "This is homogeneous. Let y = vx, then dy/dx = v + x(dv/dx) = (1+v)/(1-v). Separating: (1-v)/(1+v²) dv = dx/x. Integrating: tan⁻¹(v) - ($1$)\\ln(1+v²) = \\ln\\left| A \\right| + C. Substituting v = y/x: tan⁻¹(y/x) = \\ln$1$ + C."
+      "explanation": "This is homogeneous. Let y = vx, then dy/dx = v + x(dv/dx) = (1+v)/(1-v). Separating: (1-v)/(1+v²) dv = dx/x. Integrating: tan⁻¹(v) - ($1$)ln(1+v²) = ln| A | + C. Substituting v = y/x: tan⁻¹(y/x) = ln$1$ + C."
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q48",
@@ -748,7 +748,7 @@
         "D) √3/8"
       ],
       "correct_option": "A",
-      "explanation": "$Distance = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 8/$1$ = 8√$1$.$"
+      "explanation": "$Distance = | A |/$1$ = | A |/$1$ = 8/$1$ = 8√$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P8_L8_Q50",

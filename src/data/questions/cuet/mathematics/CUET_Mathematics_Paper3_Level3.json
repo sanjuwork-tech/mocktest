@@ -58,7 +58,7 @@
         "D) Identity matrix"
       ],
       "correct_option": "C",
-      "explanation": "A matrix with \\left| A \\right| = 0 is called a singular matrix. It has no inverse."
+      "explanation": "A matrix with | A | = 0 is called a singular matrix. It has no inverse."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q04",
@@ -80,7 +80,7 @@
       "topic": "Relations and Functions",
       "sub_topic": "Types of relations",
       "difficulty": "easy",
-      "question": "The function f: R→R defined by f(x) = \\left| A \\right| is:",
+      "question": "The function f: R→R defined by f(x) = | A | is:",
       "options": [
         "A) One-one but not onto",
         "B) One-one and onto",
@@ -88,14 +88,14 @@
         "D) Many-one but not onto"
       ],
       "correct_option": "D",
-      "explanation": "f(x) = \\left| A \\right| gives f(1) = f(-1) = 1, so it is many-one. Since range = [0,∞) ≠ R, it is not onto."
+      "explanation": "f(x) = | A | gives f(1) = f(-1) = 1, so it is many-one. Since range = [0,∞) ≠ R, it is not onto."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q06",
       "topic": "Continuity and Differentiability",
       "sub_topic": "Second-order derivatives",
       "difficulty": "easy",
-      "question": "The derivative of \\ln(x²) with respect to x is:",
+      "question": "The derivative of ln(x²) with respect to x is:",
       "options": [
         "A) 2x",
         "B) x/2",
@@ -103,7 +103,7 @@
         "D) 2/x"
       ],
       "correct_option": "D",
-      "explanation": "Using the chain rule: d/dx \\ln(x²) = (1/x²)·2x = 2/x."
+      "explanation": "Using the chain rule: d/dx ln(x²) = (1/x²)·2x = 2/x."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q07",
@@ -178,7 +178,7 @@
         "D) 10"
       ],
       "correct_option": "D",
-      "explanation": "$\\left| A \\right| = $1$ = $1$ = $1$ = 10.$"
+      "explanation": "$| A | = $1$ = $1$ = $1$ = 10.$"
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q12",
@@ -208,7 +208,7 @@
         "D) 180°"
       ],
       "correct_option": "A",
-      "explanation": "cos θ = (a·b)/(\\left| A \\right|\\left| A \\right|) = (0)/(1×1) = 0, so θ = 90^{\\circ}. The vectors are perpendicular (orthogonal)."
+      "explanation": "cos θ = (a·b)/(| A || A |) = (0)/(1×1) = 0, so θ = 90^{\\circ}. The vectors are perpendicular (orthogonal)."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q14",
@@ -298,7 +298,7 @@
         "D) 2ˣ/ln 2"
       ],
       "correct_option": "C",
-      "explanation": "We apply the standard rules of differentiation. Using d/dx aˣ = aˣ \\ln a: f'(x) = 2ˣ \\ln 2."
+      "explanation": "We apply the standard rules of differentiation. Using d/dx aˣ = aˣ ln a: f'(x) = 2ˣ ln 2."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q20",
@@ -365,7 +365,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vectors and scalars",
       "difficulty": "easy",
-      "question": "Find the value: If a = 3i - j + 2k, then \\left| A \\right| equals:",
+      "question": "Find the value: If a = 3i - j + 2k, then | A | equals:",
       "options": [
         "A) 6",
         "B) √14",
@@ -373,7 +373,7 @@
         "D) 14"
       ],
       "correct_option": "B",
-      "explanation": "\\left| A \\right| = $1$² + 2²) = $1$ = $1$. This result follows from standard mathematical principles."
+      "explanation": "| A | = $1$² + 2²) = $1$ = $1$. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q25",
@@ -493,7 +493,7 @@
         "D) 3"
       ],
       "correct_option": "D",
-      "explanation": "$Area = ½\\left| A \\right| = ½\\left| A \\right| = ½\\left| A \\right| = 3.$"
+      "explanation": "$Area = ½| A | = ½| A | = ½| A | = 3.$"
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q33",
@@ -508,7 +508,7 @@
         "D) Dot product of direction vectors"
       ],
       "correct_option": "A",
-      "explanation": "Shortest distance between skew lines = \\left| A \\right| / \\left| A \\right|, using cross product of direction vectors."
+      "explanation": "Shortest distance between skew lines = | A | / | A |, using cross product of direction vectors."
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q34",
@@ -658,7 +658,7 @@
         "D) 45°"
       ],
       "correct_option": "C",
-      "explanation": "$a·b = 0+1+0 = 1. \\left| A \\right| = $1$, \\left| A \\right| = $1$. cos θ = 1/($1$·$1$) = $1$ → θ = 60^{\\circ}.$"
+      "explanation": "$a·b = 0+1+0 = 1. | A | = $1$, | A | = $1$. cos θ = 1/($1$·$1$) = $1$ → θ = 60^{\\circ}.$"
     },
     {
       "id": "CUET_MATH_2026_P3_L3_Q44",

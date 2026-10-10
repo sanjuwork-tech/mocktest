@@ -50,7 +50,7 @@
       "topic": "Determinants",
       "sub_topic": "Adjoint and inverse of a square matrix",
       "difficulty": "easy",
-      "question": "If \\left| A \\right| = 5 for a 3×3 matrix A, what is the value of \\left| A \\right|?",
+      "question": "If | A | = 5 for a 3×3 matrix A, what is the value of | A |?",
       "options": [
         "A) 1/5",
         "B) 5",
@@ -58,7 +58,7 @@
         "D) 1/25"
       ],
       "correct_option": "A",
-      "explanation": "Since A·A⁻¹ = I, we have \\left| A \\right|·\\left| A \\right| = 1. Therefore \\left| A \\right| = 1/\\left| A \\right| = $1$."
+      "explanation": "Since A·A⁻¹ = I, we have | A |·| A | = 1. Therefore | A | = 1/| A | = $1$."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q04",
@@ -103,7 +103,7 @@
         "D) 9"
       ],
       "correct_option": "C",
-      "explanation": "$\\left| A \\right| = $1$² + 6²) = $1$ = $1$ = 7.$"
+      "explanation": "$| A | = $1$² + 6²) = $1$ = $1$ = 7.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q07",
@@ -178,7 +178,7 @@
         "D) √6"
       ],
       "correct_option": "A",
-      "explanation": "Using the formula for shortest distance between skew lines: d = \\left| A \\right|/\\left| A \\right|. Here a₂−a₁ = (3,3,3), d₁×d₂ = (−1,−1,1), \\left| A \\right| = $1$. d = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 3/$1$ = $1$."
+      "explanation": "Using the formula for shortest distance between skew lines: d = | A |/| A |. Here a₂−a₁ = (3,3,3), d₁×d₂ = (−1,−1,1), | A | = $1$. d = | A |/$1$ = | A |/$1$ = 3/$1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q12",
@@ -305,7 +305,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Scalar (dot) product of vectors",
       "difficulty": "medium",
-      "question": "If \\left| A \\right| = 2, \\left| A \\right| = 3, and a·b = 3, then the angle between a and b is:",
+      "question": "If | A | = 2, | A | = 3, and a·b = 3, then the angle between a and b is:",
       "options": [
         "A) 30°",
         "B) 45°",
@@ -313,7 +313,7 @@
         "D) 60°"
       ],
       "correct_option": "D",
-      "explanation": "cos θ = (a·b)/(\\left| A \\right|\\left| A \\right|) = 3/(2·3) = $1$. So θ = 60^{\\circ}."
+      "explanation": "cos θ = (a·b)/(| A || A |) = 3/(2·3) = $1$. So θ = 60^{\\circ}."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q21",
@@ -343,7 +343,7 @@
         "D) y = Ce^x"
       ],
       "correct_option": "A",
-      "explanation": "We use standard methods for solving differential equations. Separating: dy/y = dx/x. Integrating: \\ln\\left| A \\right| = \\ln\\left| A \\right| + C₁, so y = Cx."
+      "explanation": "We use standard methods for solving differential equations. Separating: dy/y = dx/x. Integrating: ln| A | = ln| A | + C₁, so y = Cx."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q23",
@@ -388,7 +388,7 @@
         "D) 14 sq units"
       ],
       "correct_option": "C",
-      "explanation": "$Area = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)(10) = 5.$"
+      "explanation": "$Area = ($1$)| A | = ($1$)| A | = ($1$)| A | = ($1$)(10) = 5.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q26",
@@ -463,7 +463,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "$b × c = \\left| A \\right| = i(1) - j(-1) + k(-1) = (1, 1, -1). a·(b × c) = (1,1,0)·(1,1,-1) = 1 + 1 + 0 = 2.$"
+      "explanation": "$b × c = | A | = i(1) - j(-1) + k(-1) = (1, 1, -1). a·(b × c) = (1,1,0)·(1,1,-1) = 1 + 1 + 0 = 2.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q31",
@@ -568,7 +568,7 @@
         "D) ln x"
       ],
       "correct_option": "A",
-      "explanation": "For dy/dx + P(x)y = Q(x), IF = e^{(∫P(x)}dx). Here P(x) = 1/x, so IF = e^{(∫1/x dx)} = e^{(\\ln x)} = x."
+      "explanation": "For dy/dx + P(x)y = Q(x), IF = e^{(∫P(x)}dx). Here P(x) = 1/x, so IF = e^{(∫1/x dx)} = e^{(ln x)} = x."
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q38",
@@ -583,7 +583,7 @@
         "D) 1/2"
       ],
       "correct_option": "A",
-      "explanation": "$P(A\\left| A \\right|A)·P(A) / [P(Red\\left| A \\right|B)·P(B)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
+      "explanation": "$P(A| A |A)·P(A) / [P(Red| A |B)·P(B)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q39",
@@ -598,7 +598,7 @@
         "D) √2/3"
       ],
       "correct_option": "B",
-      "explanation": "$a₁ = (1,1,1), b₁ = (1,1,0), a₂ = (0,0,2), b₂ = (0,1,1). a₂-a₁ = (-1,-1,1). b₁×b₂ = \\left| A \\right| = (1, -1, 1). \\left| A \\right| = $1$. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(-1)(-1)+(1)(1) = -1+1+1 = 1. Distance = 1/$1$.$"
+      "explanation": "$a₁ = (1,1,1), b₁ = (1,1,0), a₂ = (0,0,2), b₂ = (0,1,1). a₂-a₁ = (-1,-1,1). b₁×b₂ = | A | = (1, -1, 1). | A | = $1$. (a₂-a₁)·(b₁×b₂) = (-1)(1)+(-1)(-1)+(1)(1) = -1+1+1 = 1. Distance = 1/$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q40",
@@ -613,7 +613,7 @@
         "D) √6"
       ],
       "correct_option": "B",
-      "explanation": "$a₁ = (1,1,0), a₂ = (0,0,1), b = (1,1,0). a₂-a₁ = (-1,-1,1). b × (a₂-a₁) = \\left| A \\right| = (1, -1, 0). \\left| A \\right| = $1$. \\left| A \\right| = $1$. Distance = $1$/$1$ = 1.$"
+      "explanation": "$a₁ = (1,1,0), a₂ = (0,0,1), b = (1,1,0). a₂-a₁ = (-1,-1,1). b × (a₂-a₁) = | A | = (1, -1, 0). | A | = $1$. | A | = $1$. Distance = $1$/$1$ = 1.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q41",
@@ -658,7 +658,7 @@
         "D) 2 and 2"
       ],
       "correct_option": "A",
-      "explanation": "$Characteristic equation: \\left| A \\right| = 0. \\left| A \\right| = (2-λ)² - 1 = λ² - 4λ + 3 = 0. (λ-1)(λ-3) = 0. Eigenvalues: λ = 1, 3.$"
+      "explanation": "$Characteristic equation: | A | = 0. | A | = (2-λ)² - 1 = λ² - 4λ + 3 = 0. (λ-1)(λ-3) = 0. Eigenvalues: λ = 1, 3.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q44",
@@ -673,7 +673,7 @@
         "D) 19/7"
       ],
       "correct_option": "D",
-      "explanation": "$D = \\left| A \\right| = -6 - 1 = -7. Dx = \\left| A \\right| = -21 + 2 = -19. x = Dx/D = -19/-7 = $1$.$"
+      "explanation": "$D = | A | = -6 - 1 = -7. Dx = | A | = -21 + 2 = -19. x = Dx/D = -19/-7 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P6_L6_Q45",
@@ -763,7 +763,7 @@
         "D) 13/20"
       ],
       "correct_option": "C",
-      "explanation": "$P(Red) = P(Bag1)·P(Red\\left| A \\right|Bag2) = ($1$)($1$) + ($1$)($1$) = $1$ + $1$ = $1$.$"
+      "explanation": "$P(Red) = P(Bag1)·P(Red| A |Bag2) = ($1$)($1$) + ($1$)($1$) = $1$ + $1$ = $1$.$"
     }
   ]
 }

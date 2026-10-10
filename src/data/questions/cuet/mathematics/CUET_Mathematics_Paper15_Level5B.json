@@ -35,7 +35,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "Evaluate the determinant \\left| A \\right|.",
+      "question": "Evaluate the determinant | A |.",
       "options": [
         "A) 21",
         "B) 42",
@@ -343,7 +343,7 @@
         "D) (2/3)(2i - 2j + k)"
       ],
       "correct_option": "D",
-      "explanation": "$a·b = 6 - 8 + 5 = 3. \\left| A \\right|² = 4 + 4 + 1 = 9. Projection = (a·b/\\left| A \\right|²)b = ($1$)(2i - 2j + k) = ($1$)(2i - 2j + k).$"
+      "explanation": "$a·b = 6 - 8 + 5 = 3. | A |² = 4 + 4 + 1 = 9. Projection = (a·b/| A |²)b = ($1$)(2i - 2j + k) = ($1$)(2i - 2j + k).$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q23",
@@ -380,7 +380,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector Algebra",
       "difficulty": "medium",
-      "question": "If \\left| A \\right| = 3, \\left| A \\right| = 4, and the angle between a and b is 60^{\\circ}, then \\left| A \\right| equals:",
+      "question": "If | A | = 3, | A | = 4, and the angle between a and b is 60^{\\circ}, then | A | equals:",
       "options": [
         "A) 6",
         "B) 3√3",
@@ -388,7 +388,7 @@
         "D) 12"
       ],
       "correct_option": "C",
-      "explanation": "$\\left| A \\right| = \\left| A \\right|\\left| A \\right|sin θ = 3 × 4 × sin 60^{\\circ} = 12 × (√$1$) = 6$1$.$"
+      "explanation": "$| A | = | A || A |sin θ = 3 × 4 × sin 60^{\\circ} = 12 × (√$1$) = 6$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q26",
@@ -448,7 +448,7 @@
         "D) 3/10"
       ],
       "correct_option": "C",
-      "explanation": "$P(X\\left| A \\right|X)P(X)/[P(D\\left| A \\right|Y)P(Y)] = (0.05×0.7)/(0.05×0.7 + 0.10×0.3) = 0.035/(0.035 + 0.03) = 0.$1$.065 = $1$ = $1$.$"
+      "explanation": "$P(X| A |X)P(X)/[P(D| A |Y)P(Y)] = (0.05×0.7)/(0.05×0.7 + 0.10×0.3) = 0.035/(0.035 + 0.03) = 0.$1$.065 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q30",
@@ -508,7 +508,7 @@
         "D) x³"
       ],
       "correct_option": "C",
-      "explanation": "The integrating factor is e^{(∫(2/x)}dx) = e^{(2ln x)} = e^{(\\ln x²)} = x²."
+      "explanation": "The integrating factor is e^{(∫(2/x)}dx) = e^{(2ln x)} = e^{(ln x²)} = x²."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q34",
@@ -523,7 +523,7 @@
         "D) 18"
       ],
       "correct_option": "D",
-      "explanation": "$[a b c] = a·(b × c). b × c = \\left| A \\right| = i(3+4) - j(1-2) + k(2+3) = 7i + j + 5k. a·(b × c) = (2)(7) + (-1)(1) + (1)(5) = 14 - 1 + 5 = 18.$"
+      "explanation": "$[a b c] = a·(b × c). b × c = | A | = i(3+4) - j(1-2) + k(2+3) = 7i + j + 5k. a·(b × c) = (2)(7) + (-1)(1) + (1)(5) = 14 - 1 + 5 = 18.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q35",
@@ -553,7 +553,7 @@
         "D) [[-1, 1], [1, -2]]"
       ],
       "correct_option": "C",
-      "explanation": "$\\left| A \\right| = 2(1) - 1(1) = 1. adj(A) = [[1, -1], [-1, 2]]. A⁻¹ = adj(A)/\\left| A \\right| = [[1, -1], [-1, 2]].$"
+      "explanation": "$| A | = 2(1) - 1(1) = 1. adj(A) = [[1, -1], [-1, 2]]. A⁻¹ = adj(A)/| A | = [[1, -1], [-1, 2]].$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q37",
@@ -583,7 +583,7 @@
         "D) 2√3/3"
       ],
       "correct_option": "D",
-      "explanation": "$Using d = \\left| A \\right|/\\left| A \\right|. a₂ - a₁ = 2i + 2j + 2k. b₁ × b₂ = \\left| A \\right| = i(2+1) - j(4-1) + k(-2-1) = 3i - 3j - 3k. \\left| A \\right| = $1$ = 3$1$. (a₂-a₁)·(b₁×b₂) = 6 - 6 - 6 = -6. d = \\left| A \\right|/(3$1$) = 2/$1$ = 2√$1$.$"
+      "explanation": "$Using d = | A |/| A |. a₂ - a₁ = 2i + 2j + 2k. b₁ × b₂ = | A | = i(2+1) - j(4-1) + k(-2-1) = 3i - 3j - 3k. | A | = $1$ = 3$1$. (a₂-a₁)·(b₁×b₂) = 6 - 6 - 6 = -6. d = | A |/(3$1$) = 2/$1$ = 2√$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q39",
@@ -613,7 +613,7 @@
         "D) 21"
       ],
       "correct_option": "C",
-      "explanation": "$Characteristic equation: \\left| A \\right| = 0 → (3-λ)(2-λ) - 2 = 0 → λ² - 5λ + 4 = 0. Eigenvalues: λ = 1, 4. λ₁² + λ₂² = 1 + 16 = 17.$"
+      "explanation": "$Characteristic equation: | A | = 0 → (3-λ)(2-λ) - 2 = 0 → λ² - 5λ + 4 = 0. Eigenvalues: λ = 1, 4. λ₁² + λ₂² = 1 + 16 = 17.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q41",
@@ -658,7 +658,7 @@
         "D) y = sin x + cos x"
       ],
       "correct_option": "B",
-      "explanation": "Integrating factor = e^{(∫tan x dx)} = e^{(-\\ln cos x)} = \\sec x. Multiplying: \\sec x·dy/dx + y·\\sec x·tan x = sec²x. d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = tan x + C. y = sin x + C·cos x. Using y(0) = 2: 2 = 0 + C·1 → C = 2. So y = sin x + 2cos x."
+      "explanation": "Integrating factor = e^{(∫tan x dx)} = e^{(-ln cos x)} = \\sec x. Multiplying: \\sec x·dy/dx + y·\\sec x·tan x = sec²x. d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = tan x + C. y = sin x + C·cos x. Using y(0) = 2: 2 = 0 + C·1 → C = 2. So y = sin x + 2cos x."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q44",
@@ -703,7 +703,7 @@
         "D) 1/3"
       ],
       "correct_option": "C",
-      "explanation": "$P(Box 2\\left| A \\right|Box 2)P(Box 2)/[P(White\\left| A \\right|Box 2)P(Box 2) + P(White|Box 3)P(Box 3)] = ($1$)($1$)/[($1$)($1$) + ($1$)($1$) + ($1$)($1$)] = ($1$)/[(2+4+3)/15] = $1$.$"
+      "explanation": "$P(Box 2| A |Box 2)P(Box 2)/[P(White| A |Box 2)P(Box 2) + P(White|Box 3)P(Box 3)] = ($1$)($1$)/[($1$)($1$) + ($1$)($1$) + ($1$)($1$)] = ($1$)/[(2+4+3)/15] = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q47",
@@ -725,7 +725,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector Algebra",
       "difficulty": "hard",
-      "question": "If a, b, c are vectors such that a + b + c = 0 and \\left| A \\right| = 3, \\left| A \\right| = 5, \\left| A \\right| = 7, then the angle between a and b is:",
+      "question": "If a, b, c are vectors such that a + b + c = 0 and | A | = 3, | A | = 5, | A | = 7, then the angle between a and b is:",
       "options": [
         "A) π/6",
         "B) π/3",
@@ -733,7 +733,7 @@
         "D) π/4"
       ],
       "correct_option": "B",
-      "explanation": "Since a + b = -c, we have \\left| A \\right|² = \\left| A \\right|². \\left| A \\right|² + \\left| A \\right|² + 2a·b = \\left| A \\right|². 9 + 25 + 2(3)(5)cos θ = 49. 34 + 30cos θ = 49. 30cos θ = 15. cos θ = $1$. θ = π/3."
+      "explanation": "Since a + b = -c, we have | A |² = | A |². | A |² + | A |² + 2a·b = | A |². 9 + 25 + 2(3)(5)cos θ = 49. 34 + 30cos θ = 49. 30cos θ = 15. cos θ = $1$. θ = π/3."
     },
     {
       "id": "CUET_MATH_2026_P15_L5B_Q49",
@@ -755,7 +755,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "hard",
-      "question": "If A is a 3×3 matrix such that \\left| A \\right| = 256, then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 matrix such that | A | = 256, then | A | equals:",
       "options": [
         "A) 16",
         "B) 8",
@@ -763,7 +763,7 @@
         "D) 4"
       ],
       "correct_option": "D",
-      "explanation": "\\left| A \\right| = \\left| A \\right|^((n-1)²) for an n×n matrix. For n = 3: \\left| A \\right| = \\left| A \\right|^((3-1)²) = \\left| A \\right|⁴. So \\left| A \\right|⁴ = 256 → \\left| A \\right| = 4."
+      "explanation": "| A | = | A |^((n-1)²) for an n×n matrix. For n = 3: | A | = | A |^((3-1)²) = | A |⁴. So | A |⁴ = 256 → | A | = 4."
     }
   ]
 }

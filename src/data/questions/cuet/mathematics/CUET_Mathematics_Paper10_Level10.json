@@ -28,7 +28,7 @@
         "D) A is invertible"
       ],
       "correct_option": "B",
-      "explanation": "For a skew-symmetric matrix of odd order n, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)ⁿ\\left| A \\right|. With n=5 (odd), \\left| A \\right| = -\\left| A \\right|, so 2\\left| A \\right| = 0, hence \\left| A \\right| = 0."
+      "explanation": "For a skew-symmetric matrix of odd order n, | A | = | A | = | A | = (-1)ⁿ| A |. With n=5 (odd), | A | = -| A |, so 2| A | = 0, hence | A | = 0."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q02",
@@ -65,7 +65,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "If A is a 3×3 matrix such that \\left| A \\right| = 2¹⁸, then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 matrix such that | A | = 2¹⁸, then | A | equals:",
       "options": [
         "A) ±2³",
         "B) ±2⁵",
@@ -73,7 +73,7 @@
         "D) ±2⁶"
       ],
       "correct_option": "D",
-      "explanation": "\\left| A \\right| = \\left| A \\right|^(3-1) = (2³\\left| A \\right|)² = 64\\left| A \\right|². So 64\\left| A \\right|² = 2¹⁸, giving \\left| A \\right|² = 2¹⁸/2⁶ = 2¹², hence \\left| A \\right| = ±2⁶."
+      "explanation": "| A | = | A |^(3-1) = (2³| A |)² = 64| A |². So 64| A |² = 2¹⁸, giving | A |² = 2¹⁸/2⁶ = 2¹², hence | A | = ±2⁶."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q05",
@@ -148,7 +148,7 @@
         "D) θ = π/3"
       ],
       "correct_option": "A",
-      "explanation": "$a·b = 6-24 = -18. \\left| A \\right| = 5, \\left| A \\right| = $1$ = $1$ = 2$1$. cosθ = -18/(5·2$1$) = -9/(5$1$).$"
+      "explanation": "$a·b = 6-24 = -18. | A | = 5, | A | = $1$ = $1$ = 2$1$. cosθ = -18/(5·2$1$) = -9/(5$1$).$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q10",
@@ -193,7 +193,7 @@
         "D) 2/5"
       ],
       "correct_option": "A",
-      "explanation": "$P(M1\\left| A \\right|M1)·P(M1)/[P(Def\\left| A \\right|M2)·P(M2)] = (0.02×0.6)/(0.02×0.6+0.03×0.4) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
+      "explanation": "$P(M1| A |M1)·P(M1)/[P(Def| A |M2)·P(M2)] = (0.02×0.6)/(0.02×0.6+0.03×0.4) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q13",
@@ -245,7 +245,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "If A is a 3×3 matrix and \\left| A \\right| = 3, then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 matrix and | A | = 3, then | A | equals:",
       "options": [
         "A) 9",
         "B) 3",
@@ -253,7 +253,7 @@
         "D) 1/9"
       ],
       "correct_option": "D",
-      "explanation": "$\\left| A \\right| = \\left| A \\right|^(3-1) = \\left| A \\right|² = (1/\\left| A \\right|)² = ($1$)² = $1$.$"
+      "explanation": "$| A | = | A |^(3-1) = | A |² = (1/| A |)² = ($1$)² = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q17",
@@ -275,7 +275,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Vector (cross) product of vectors",
       "difficulty": "hard",
-      "question": "If a = 2i - j + k and b = i + 3j - 2k, then \\left| A \\right| equals:",
+      "question": "If a = 2i - j + k and b = i + 3j - 2k, then | A | equals:",
       "options": [
         "A) 3√5",
         "B) 5√3",
@@ -283,7 +283,7 @@
         "D) 7√2"
       ],
       "correct_option": "B",
-      "explanation": "$a × b = \\left| A \\right| = i(2 - 3) - j(-4 - 1) + k(6 + 1) = -i + 5j + 7k. \\left| A \\right| = $1$ = $1$ = 5$1$.$"
+      "explanation": "$a × b = | A | = i(2 - 3) - j(-4 - 1) + k(6 + 1) = -i + 5j + 7k. | A | = $1$ = $1$ = 5$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q19",
@@ -373,7 +373,7 @@
         "D) √30/15"
       ],
       "correct_option": "C",
-      "explanation": "a₁ = (1,1,0), a₂ = (2,1,-1). b₁ = (2,-1,1), b₂ = (3,-2,4). a₂-a₁ = (1,0,-1). b₁×b₂ = \\left| A \\right| = i(-4+2) - j(8-3) + k(-4+3) = (-2, -5, -1). \\left| A \\right| = $1$ = $1$. Shortest distance = \\left| A \\right|/\\left| A \\right| = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 1/$1$ = √$1$."
+      "explanation": "a₁ = (1,1,0), a₂ = (2,1,-1). b₁ = (2,-1,1), b₂ = (3,-2,4). a₂-a₁ = (1,0,-1). b₁×b₂ = | A | = i(-4+2) - j(8-3) + k(-4+3) = (-2, -5, -1). | A | = $1$ = $1$. Shortest distance = | A |/| A | = | A |/$1$ = | A |/$1$ = 1/$1$ = √$1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q25",
@@ -403,7 +403,7 @@
         "D) [[-1, 0], [0, -1]]"
       ],
       "correct_option": "A",
-      "explanation": "\\left| A \\right| = 0·0 - 1·1 = -1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/\\left| A \\right|)[[d,-b],[-c,a]] = (1/-1)[[0,-1],[-1,0]] = [[0,1],[1,0]]."
+      "explanation": "| A | = 0·0 - 1·1 = -1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/| A |)[[d,-b],[-c,a]] = (1/-1)[[0,-1],[-1,0]] = [[0,1],[1,0]]."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q27",
@@ -418,7 +418,7 @@
         "D) (2, 1)"
       ],
       "correct_option": "B",
-      "explanation": "In matrix form: [[1,2],[3,4]][x;y] = [3;7]. \\left| A \\right| = 4-6 = -2. A⁻¹ = (1/-2)[[4,-2],[-3,1]] = [[-2,1],[$1$,-$1$]]. [x;y] = [[-2,1],[$1$,-$1$]]·[3;7] = [-6+7; $1$-$1$] = [1;1]. So x=1, y=1."
+      "explanation": "In matrix form: [[1,2],[3,4]][x;y] = [3;7]. | A | = 4-6 = -2. A⁻¹ = (1/-2)[[4,-2],[-3,1]] = [[-2,1],[$1$,-$1$]]. [x;y] = [[-2,1],[$1$,-$1$]]·[3;7] = [-6+7; $1$-$1$] = [1;1]. So x=1, y=1."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q28",
@@ -478,7 +478,7 @@
         "D) 1/3"
       ],
       "correct_option": "C",
-      "explanation": "First make coefficients match: multiply first equation by 2: 4x - 2y + 4z + 6 = 0. Distance = \\left| A \\right|/$1$ = \\left| A \\right|/$1$ = 1/$1$ = $1$."
+      "explanation": "First make coefficients match: multiply first equation by 2: 4x - 2y + 4z + 6 = 0. Distance = | A |/$1$ = | A |/$1$ = 1/$1$ = $1$."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q32",
@@ -500,7 +500,7 @@
       "topic": "Probability",
       "sub_topic": "Conditional probability",
       "difficulty": "hard",
-      "question": "If A and B are two events such that P(A) = 0.4, P(B) = 0.8 and P(B\\left| A \\right|B) equals:",
+      "question": "If A and B are two events such that P(A) = 0.4, P(B) = 0.8 and P(B| A |B) equals:",
       "options": [
         "A) 0.5",
         "B) 0.4",
@@ -508,7 +508,7 @@
         "D) 0.3"
       ],
       "correct_option": "D",
-      "explanation": "$P(A∩B) = P(B\\left| A \\right|B) = P(A∩B)/P(B) = 0.$1$.8 = 0.3.$"
+      "explanation": "$P(A∩B) = P(B| A |B) = P(A∩B)/P(B) = 0.$1$.8 = 0.3.$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q34",
@@ -538,7 +538,7 @@
         "D) y·sec x = x + C"
       ],
       "correct_option": "A",
-      "explanation": "Integrating factor: IF = e^{(∫tan x dx)} = e^{(-\\ln\\left| A \\right|)} = \\sec x. Multiplying: d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = tan x + C."
+      "explanation": "Integrating factor: IF = e^{(∫tan x dx)} = e^{(-ln| A |)} = \\sec x. Multiplying: d/dx(y·\\sec x) = sec²x. Integrating: y·\\sec x = tan x + C."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q36",
@@ -568,7 +568,7 @@
         "D) [[sin θ, cos θ], [cos θ, sin θ]]"
       ],
       "correct_option": "A",
-      "explanation": "This is a rotation matrix. \\left| A \\right| = cos²θ + sin²θ = 1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/\\left| A \\right|)[[d,-b],[-c,a]] = [[cos θ, -sin θ], [sin θ, cos θ]]."
+      "explanation": "This is a rotation matrix. | A | = cos²θ + sin²θ = 1. For a 2×2 matrix [[a,b],[c,d]], inverse = (1/| A |)[[d,-b],[-c,a]] = [[cos θ, -sin θ], [sin θ, cos θ]]."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q38",
@@ -598,7 +598,7 @@
         "D) f is continuous and has derivative 1"
       ],
       "correct_option": "A",
-      "explanation": "Continuity: \\lim(x→0) x·sin(1/x) = 0 (since \\left| A \\right| ≤ 1 and x→0). So f is continuous at 0. Differentiability: \\lim(h→0) [f(h)-f(0)]/h = \\lim(h→0) h·sin(1/h)/h = \\lim(h→0) sin(1/h), which does not exist. So f is continuous but not differentiable at x=0."
+      "explanation": "Continuity: \\lim(x→0) x·sin(1/x) = 0 (since | A | ≤ 1 and x→0). So f is continuous at 0. Differentiability: \\lim(h→0) [f(h)-f(0)]/h = \\lim(h→0) h·sin(1/h)/h = \\lim(h→0) sin(1/h), which does not exist. So f is continuous but not differentiable at x=0."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q40",
@@ -613,7 +613,7 @@
         "D) π/6"
       ],
       "correct_option": "C",
-      "explanation": "Vectors: AB = (-1,1,0), AC = (-1,0,1). \\left| A \\right| = $1$, \\left| A \\right| = $1$. AB·AC = 1. cos(A) = AB·AC/(\\left| A \\right|\\left| A \\right|) = $1$. So A = π/3."
+      "explanation": "Vectors: AB = (-1,1,0), AC = (-1,0,1). | A | = $1$, | A | = $1$. AB·AC = 1. cos(A) = AB·AC/(| A || A |) = $1$. So A = π/3."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q41",
@@ -635,7 +635,7 @@
       "topic": "Applications of Derivatives",
       "sub_topic": "Maxima and minima",
       "difficulty": "hard",
-      "question": "The minimum value of f(x) = \\left| A \\right| + \\left| A \\right| + \\left| A \\right| is:",
+      "question": "The minimum value of f(x) = | A | + | A | + | A | is:",
       "options": [
         "A) 1",
         "B) 4",
@@ -643,7 +643,7 @@
         "D) 2"
       ],
       "correct_option": "D",
-      "explanation": "For a ∑ of absolute values, the minimum occurs at the median of the points. The points are 1, 2, 3. Median is 2. f(2) = \\left| A \\right|+\\left| A \\right|+\\left| A \\right| = 1+0+1 = 2."
+      "explanation": "For a ∑ of absolute values, the minimum occurs at the median of the points. The points are 1, 2, 3. Median is 2. f(2) = | A |+| A |+| A | = 1+0+1 = 2."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q43",
@@ -658,7 +658,7 @@
         "D) y = x³/5 + C/x²"
       ],
       "correct_option": "D",
-      "explanation": "$Rewrite: dy/dx + (2/x)y = x². IF = e^{(∫2/x dx)} = e^{(2ln\\left| A \\right|)} = x². Multiplying: d/dx(y·x²) = x⁴. Integrating: y·x² = x⁵/5 + C. y = x³/5 + C/x².$"
+      "explanation": "$Rewrite: dy/dx + (2/x)y = x². IF = e^{(∫2/x dx)} = e^{(2ln| A |)} = x². Multiplying: d/dx(y·x²) = x⁴. Integrating: y·x² = x⁵/5 + C. y = x³/5 + C/x².$"
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q44",
@@ -718,7 +718,7 @@
         "D) r·(i - j + k) = 1"
       ],
       "correct_option": "D",
-      "explanation": "The plane contains direction vectors b₁ = (0,1,1) and b₂ = (1,1,0), and passes through (1,0,0). Normal vector n = b₁ × b₂ = \\left| A \\right| = i(-1) - j(-1) + k(-1) = (-1, 1, -1). Equation: r·(-1,1,-1) = (1,0,0)·(-1,1,-1) = -1. So r·(-i+j-k) = -1, which is equivalent to r·(i-j+k) = 1."
+      "explanation": "The plane contains direction vectors b₁ = (0,1,1) and b₂ = (1,1,0), and passes through (1,0,0). Normal vector n = b₁ × b₂ = | A | = i(-1) - j(-1) + k(-1) = (-1, 1, -1). Equation: r·(-1,1,-1) = (1,0,0)·(-1,1,-1) = -1. So r·(-i+j-k) = -1, which is equivalent to r·(i-j+k) = 1."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q48",
@@ -740,7 +740,7 @@
       "topic": "Matrices",
       "sub_topic": "Equality of matrices",
       "difficulty": "hard",
-      "question": "A square matrix P satisfies P² = I - P. If Pⁿ = aₙI + bₙP, then \\left| A \\right| + \\left| A \\right| equals:",
+      "question": "A square matrix P satisfies P² = I - P. If Pⁿ = aₙI + bₙP, then | A | + | A | equals:",
       "options": [
         "A) 34",
         "B) 55",
@@ -748,14 +748,14 @@
         "D) 89"
       ],
       "correct_option": "D",
-      "explanation": "P² = I - P. Multiplying: P³ = P - P² = P - (I-P) = -I + 2P. P⁴ = -P + 2P² = -P + 2(I-P) = 2I - 3P. The coefficients follow Fibonacci patterns with signs: a₀=1, b₀=0; a₁=0, b₁=1; a₂=1, b₂=-1; a₃=-1, b₃=2; a₄=2, b₄=-3; a₅=-3, b₅=5; a₆=5, b₆=-8; a₇=-8, b₇=13; a₈=13, b₈=-21; a₉=-21, b₉=34; a₁₀=34, b₁₀=-55. \\left| A \\right|+\\left| A \\right| = 34+55 = 89."
+      "explanation": "P² = I - P. Multiplying: P³ = P - P² = P - (I-P) = -I + 2P. P⁴ = -P + 2P² = -P + 2(I-P) = 2I - 3P. The coefficients follow Fibonacci patterns with signs: a₀=1, b₀=0; a₁=0, b₁=1; a₂=1, b₂=-1; a₃=-1, b₃=2; a₄=2, b₄=-3; a₅=-3, b₅=5; a₆=5, b₆=-8; a₇=-8, b₇=13; a₈=13, b₈=-21; a₉=-21, b₉=34; a₁₀=34, b₁₀=-55. | A |+| A | = 34+55 = 89."
     },
     {
       "id": "CUET_MATH_2026_P10_L10_Q50",
       "topic": "Integrals",
       "sub_topic": "Area under simple curves",
       "difficulty": "hard",
-      "question": "The area bounded by the curve y = eˣ, the x-axis, and the lines x = 0 and x = \\ln 2 is:",
+      "question": "The area bounded by the curve y = eˣ, the x-axis, and the lines x = 0 and x = ln 2 is:",
       "options": [
         "A) e - 1",
         "B) 2",
@@ -763,7 +763,7 @@
         "D) ln 2"
       ],
       "correct_option": "C",
-      "explanation": "Area = ∫₀^(\\ln 2) eˣ dx = [eˣ]₀^(\\ln 2) = e^{(\\ln 2)} - e⁰ = 2 - 1 = 1."
+      "explanation": "Area = ∫₀^(ln 2) eˣ dx = [eˣ]₀^(ln 2) = e^{(ln 2)} - e⁰ = 2 - 1 = 1."
     }
   ]
 }

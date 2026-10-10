@@ -95,7 +95,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "If A = [[2, 3], [1, 4]], then \\left| A \\right| equals:",
+      "question": "If A = [[2, 3], [1, 4]], then | A | equals:",
       "options": [
         "A) 8",
         "B) 2",
@@ -103,7 +103,7 @@
         "D) 5"
       ],
       "correct_option": "D",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = (2)(4) - (3)(1) = 8 - 3 = 5. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, | A | = (2)(4) - (3)(1) = 8 - 3 = 5. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q07",
@@ -148,7 +148,7 @@
         "D) (-1/2)[[4, -2], [-3, 1]]"
       ],
       "correct_option": "D",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. \\left| A \\right| = 1×4 - 2×3 = -2. Adjoint of A = [[4, -2], [-3, 1]]. So A⁻¹ = adj(A)/\\left| A \\right| = (-$1$)[[4, -2], [-3, 1]]."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/| A |)[[d,−b],[−c,a]]. | A | = 1×4 - 2×3 = -2. Adjoint of A = [[4, -2], [-3, 1]]. So A⁻¹ = adj(A)/| A | = (-$1$)[[4, -2], [-3, 1]]."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q10",
@@ -245,7 +245,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "medium",
-      "question": "If A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], then \\left| A \\right| equals:",
+      "question": "If A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]], then | A | equals:",
       "options": [
         "A) 2",
         "B) 0",
@@ -253,7 +253,7 @@
         "D) -1"
       ],
       "correct_option": "C",
-      "explanation": "Expanding along first row: \\left| A \\right| = 1(1·0 - 4·6) - 2(0·0 - 4·5) + 3(0·6 - 1·5) = 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1."
+      "explanation": "Expanding along first row: | A | = 1(1·0 - 4·6) - 2(0·0 - 4·5) + 3(0·6 - 1·5) = 1(-24) - 2(-20) + 3(-5) = -24 + 40 - 15 = 1."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q17",
@@ -455,7 +455,7 @@
       "topic": "Matrices",
       "sub_topic": "Calculus",
       "difficulty": "medium",
-      "question": "The function f(x) = \\left| A \\right| + \\left| A \\right| is:",
+      "question": "The function f(x) = | A | + | A | is:",
       "options": [
         "A) Continuous everywhere but not differentiable at x = 0.5",
         "B) Continuous and differentiable everywhere",
@@ -463,7 +463,7 @@
         "D) Continuous everywhere but not differentiable at x = -1 and x = 2"
       ],
       "correct_option": "D",
-      "explanation": "The ∑ of absolute value functions is continuous everywhere. However, \\left| A \\right| is not differentiable at x = a. So f(x) is not differentiable at x = -1 and x = 2, but is continuous everywhere."
+      "explanation": "The ∑ of absolute value functions is continuous everywhere. However, | A | is not differentiable at x = a. So f(x) is not differentiable at x = -1 and x = 2, but is continuous everywhere."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q31",
@@ -478,7 +478,7 @@
         "D) 6"
       ],
       "correct_option": "C",
-      "explanation": "\\left| A \\right| = 2(4-1) - 1(2-1) + 1(1-2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4. Since A⁻¹ = adj(A)/\\left| A \\right|, we have k = \\left| A \\right| = 4."
+      "explanation": "| A | = 2(4-1) - 1(2-1) + 1(1-2) = 2(3) - 1(1) + 1(-1) = 6 - 1 - 1 = 4. Since A⁻¹ = adj(A)/| A |, we have k = | A | = 4."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q32",
@@ -568,7 +568,7 @@
         "D) 16/7"
       ],
       "correct_option": "D",
-      "explanation": "$D = \\left| A \\right| = -6-1 = -7. Dx = \\left| A \\right| = -15-1 = -16. x = Dx/D = (-16)/(-7) = $1$.$"
+      "explanation": "$D = | A | = -6-1 = -7. Dx = | A | = -15-1 = -16. x = Dx/D = (-16)/(-7) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q38",
@@ -613,7 +613,7 @@
         "D) 2ln|x+1| - ln|x+2| + C"
       ],
       "correct_option": "C",
-      "explanation": "Using \\partial fractions: (3x+5)/((x+1)(x+2)) = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=-1: 2 = A(1), so A=2. At x=-2: -1 = B(-1), so B=1. ∫ = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
+      "explanation": "Using \\partial fractions: (3x+5)/((x+1)(x+2)) = A/(x+1) + B/(x+2). Solving: 3x+5 = A(x+2) + B(x+1). At x=-1: 2 = A(1), so A=2. At x=-2: -1 = B(-1), so B=1. ∫ = 2ln| A | + ln| A | + C."
     },
     {
       "id": "CUET_MATH_2026_P24_L8C_Q41",

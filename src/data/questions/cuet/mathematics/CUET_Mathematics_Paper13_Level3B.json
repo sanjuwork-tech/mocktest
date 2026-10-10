@@ -43,7 +43,7 @@
         "D) -π/4"
       ],
       "correct_option": "B",
-      "explanation": "The complex number -1 + i lies ∈ the second quadrant. arg(z) = π - tan⁻¹(\\left| A \\right|) = π - tan⁻¹(1) = π - π/4 = 3π/4."
+      "explanation": "The complex number -1 + i lies ∈ the second quadrant. arg(z) = π - tan⁻¹(| A |) = π - tan⁻¹(1) = π - π/4 = 3π/4."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q03",
@@ -260,7 +260,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "The determinant of the triangular matrix \\left| A \\right| is:",
+      "question": "The determinant of the triangular matrix | A | is:",
       "options": [
         "A) 6",
         "B) 0",
@@ -403,14 +403,14 @@
         "D) 4"
       ],
       "correct_option": "A",
-      "explanation": "AX = B where A = [1 1; 2 3], B = [3; 8]. \\left| A \\right| = 1. A⁻¹ = [3 -1; -2 1]. X = A⁻¹B = [3×3-1×8; -2×3+1×8] = [1; 2]. So x = 1."
+      "explanation": "AX = B where A = [1 1; 2 3], B = [3; 8]. | A | = 1. A⁻¹ = [3 -1; -2 1]. X = A⁻¹B = [3×3-1×8; -2×3+1×8] = [1; 2]. So x = 1."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q27",
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "Find the value: If \\left| A \\right| = 2, then x equals:",
+      "question": "Find the value: If | A | = 2, then x equals:",
       "options": [
         "A) 3",
         "B) 1",
@@ -418,7 +418,7 @@
         "D) 4"
       ],
       "correct_option": "C",
-      "explanation": "\\left| A \\right| = 2×4 - 3x = 8 - 3x = 2. So 3x = 6, x = 2. This result follows from standard mathematical principles."
+      "explanation": "| A | = 2×4 - 3x = 8 - 3x = 2. So 3x = 6, x = 2. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q28",
@@ -493,7 +493,7 @@
         "D) i - 5j - 7k"
       ],
       "correct_option": "B",
-      "explanation": "$a×b = \\left| A \\right| = i(2-3) - j(-4-1) + k(6+1) = -i + 5j + 7k.$"
+      "explanation": "$a×b = | A | = i(2-3) - j(-4-1) + k(6+1) = -i + 5j + 7k.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q33",
@@ -538,7 +538,7 @@
         "D) y = Ce^(-2x)"
       ],
       "correct_option": "B",
-      "explanation": "We use standard methods for solving differential equations. Separating variables: dy/y = 2dx. Integrating: \\ln\\left| A \\right| = 2x + C₁, so y = Ce^{(2x)}."
+      "explanation": "We use standard methods for solving differential equations. Separating variables: dy/y = 2dx. Integrating: ln| A | = 2x + C₁, so y = Ce^{(2x)}."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q36",
@@ -583,7 +583,7 @@
         "D) 3/5"
       ],
       "correct_option": "A",
-      "explanation": "$Using Bayes' theorem: P(Bag1\\left| A \\right|Bag1)·P(Bag1) / [P(Red\\left| A \\right|Bag2)·P(Bag2)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
+      "explanation": "$Using Bayes' theorem: P(Bag1| A |Bag1)·P(Bag1) / [P(Red| A |Bag2)·P(Bag2)] = ($1$)($1$) / [($1$)($1$) + ($1$)($1$)] = ($1$) / ($1$) = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q39",
@@ -628,7 +628,7 @@
         "D) 1/2[4 -2; -3 1]"
       ],
       "correct_option": "C",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. \\left| A \\right| = 1×4 - 2×3 = -2. adj(A) = [4 -2; -3 1]. A⁻¹ = adj(A)/\\left| A \\right| = 1/(-2)[4 -2; -3 1]."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/| A |)[[d,−b],[−c,a]]. | A | = 1×4 - 2×3 = -2. adj(A) = [4 -2; -3 1]. A⁻¹ = adj(A)/| A | = 1/(-2)[4 -2; -3 1]."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q42",
@@ -643,7 +643,7 @@
         "D) e^(x²)"
       ],
       "correct_option": "C",
-      "explanation": "For dy/dx + P(x)y = Q(x), integrating factor = e^{(∫P(x)}dx). Here P(x) = 2/x, so IF = e^{(∫2/x dx)} = e^{(2ln\\left| A \\right|)} = e^{(\\ln x²)} = x²."
+      "explanation": "For dy/dx + P(x)y = Q(x), integrating factor = e^{(∫P(x)}dx). Here P(x) = 2/x, so IF = e^{(∫2/x dx)} = e^{(2ln| A |)} = e^{(ln x²)} = x²."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q43",
@@ -718,7 +718,7 @@
         "D) 1/2"
       ],
       "correct_option": "B",
-      "explanation": "Let a₁ = i+j, b₁ = 2i-j+k, a₂ = 2i+k, b₂ = i+j-k. a₂-a₁ = i-k. b₁×b₂ = \\left| A \\right| = i(1-1) - j(-2-1) + k(2+1) = 3j + 3k. (a₂-a₁)·(b₁×b₂) = (i-k)·(3j+3k) = -3. \\left| A \\right| = $1$ = 3$1$. Distance = \\left| A \\right|/(3$1$) = 1/$1$."
+      "explanation": "Let a₁ = i+j, b₁ = 2i-j+k, a₂ = 2i+k, b₂ = i+j-k. a₂-a₁ = i-k. b₁×b₂ = | A | = i(1-1) - j(-2-1) + k(2+1) = 3j + 3k. (a₂-a₁)·(b₁×b₂) = (i-k)·(3j+3k) = -3. | A | = $1$ = 3$1$. Distance = | A |/(3$1$) = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q48",
@@ -733,7 +733,7 @@
         "D) 3e⁻²"
       ],
       "correct_option": "D",
-      "explanation": "Separating variables: dy/y = -2dx. Integrating: \\ln\\left| A \\right| = -2x + C₁, so y = Ce^{(-2x)}. Using y(0)=3: C=3. So y = 3e^{(-2x)}. At x=1: y(1) = 3e⁻²."
+      "explanation": "Separating variables: dy/y = -2dx. Integrating: ln| A | = -2x + C₁, so y = Ce^{(-2x)}. Using y(0)=3: C=3. So y = 3e^{(-2x)}. At x=1: y(1) = 3e⁻²."
     },
     {
       "id": "CUET_MATH_2026_P13_L3B_Q49",
@@ -763,7 +763,7 @@
         "D) 1"
       ],
       "correct_option": "A",
-      "explanation": "$[a b c] = a·(b×c). b×c = \\left| A \\right| = i(1) - j(-1) + k(-1) = i + j - k. a·(b×c) = (i+j)·(i+j-k) = 1 + 1 + 0 = 2.$"
+      "explanation": "$[a b c] = a·(b×c). b×c = | A | = i(1) - j(-1) + k(-1) = i + j - k. a·(b×c) = (i+j)·(i+j-k) = 1 + 1 + 0 = 2.$"
     }
   ]
 }

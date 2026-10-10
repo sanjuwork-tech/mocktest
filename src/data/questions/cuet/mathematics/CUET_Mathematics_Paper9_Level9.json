@@ -35,7 +35,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "If A = [[1, 2, 3], [0, 4, 5], [0, 0, 6]], what is the value of \\left| A \\right|?",
+      "question": "If A = [[1, 2, 3], [0, 4, 5], [0, 0, 6]], what is the value of | A |?",
       "options": [
         "A) 24",
         "B) 18",
@@ -88,7 +88,7 @@
         "D) √5"
       ],
       "correct_option": "A",
-      "explanation": "$\\left| A \\right| = $1$² + 1²) = $1$ = $1$ = 3.$"
+      "explanation": "$| A | = $1$² + 1²) = $1$ = $1$ = 3.$"
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q06",
@@ -193,7 +193,7 @@
         "D) 5"
       ],
       "correct_option": "C",
-      "explanation": "$Area = ½\\left| A \\right| = ½\\left| A \\right| = ½\\left| A \\right| = 6.$"
+      "explanation": "$Area = ½| A | = ½| A | = ½| A | = 6.$"
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q13",
@@ -260,7 +260,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "If \\left| A \\right| = 3 for a 3×3 matrix A, then \\left| A \\right| equals:",
+      "question": "If | A | = 3 for a 3×3 matrix A, then | A | equals:",
       "options": [
         "A) 27",
         "B) 81",
@@ -268,7 +268,7 @@
         "D) 3"
       ],
       "correct_option": "C",
-      "explanation": "For an n×n matrix A, \\left| A \\right| = \\left| A \\right|^(n−1). Here n = 3, so \\left| A \\right| = 3² = 9."
+      "explanation": "For an n×n matrix A, | A | = | A |^(n−1). Here n = 3, so | A | = 3² = 9."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q18",
@@ -403,7 +403,7 @@
         "D) (1/5)[2 −1; −1 2]"
       ],
       "correct_option": "A",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. \\left| A \\right| = 2·2 − 1·1 = 3. Adjoint of [a b; c d] is [d −b; −c a], so adj(A) = [2 −1; −1 2]. Thus A⁻¹ = ($1$)[2 −1; −1 2]."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/| A |)[[d,−b],[−c,a]]. | A | = 2·2 − 1·1 = 3. Adjoint of [a b; c d] is [d −b; −c a], so adj(A) = [2 −1; −1 2]. Thus A⁻¹ = ($1$)[2 −1; −1 2]."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q27",
@@ -463,7 +463,7 @@
         "D) 3"
       ],
       "correct_option": "B",
-      "explanation": "In matrix form AX = B: [2 1; 1 -1][x;y] = [5;1]. \\left| A \\right| = -3. A⁻¹ = (1/-3)[-1 -1; -1 2]. Then [x;y] = A⁻¹[5;1] = [2;1]. So x = 2."
+      "explanation": "In matrix form AX = B: [2 1; 1 -1][x;y] = [5;1]. | A | = -3. A⁻¹ = (1/-3)[-1 -1; -1 2]. Then [x;y] = A⁻¹[5;1] = [2;1]. So x = 2."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q31",
@@ -493,7 +493,7 @@
         "D) xˣ·ln x"
       ],
       "correct_option": "B",
-      "explanation": "Using logarithmic differentiation: dy/dx = x^x * (\\ln(x) + 1)."
+      "explanation": "Using logarithmic differentiation: dy/dx = x^x * (ln(x) + 1)."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q33",
@@ -553,7 +553,7 @@
         "D) Neither continuous nor differentiable"
       ],
       "correct_option": "A",
-      "explanation": "f(x) is continuous at x = 0 since \\left| A \\right| ≤ \\left| A \\right| → 0 as x → 0. However, the derivative at x = 0: f'(0) = \\lim[h→0] sin(1/h), which does not exist. So f is continuous but not differentiable at x = 0."
+      "explanation": "f(x) is continuous at x = 0 since | A | ≤ | A | → 0 as x → 0. However, the derivative at x = 0: f'(0) = \\lim[h→0] sin(1/h), which does not exist. So f is continuous but not differentiable at x = 0."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q37",
@@ -575,7 +575,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "hard",
-      "question": "If A is a 3×3 matrix with \\left| A \\right| = −2, what is \\left| A \\right|?",
+      "question": "If A is a 3×3 matrix with | A | = −2, what is | A |?",
       "options": [
         "A) 2",
         "B) −2",
@@ -583,7 +583,7 @@
         "D) −8"
       ],
       "correct_option": "A",
-      "explanation": "\\left| A \\right| = (−1)³\\left| A \\right| = (−1)³ × (−2) = (−1) × (−2) = 2. For odd-order matrices, negating the matrix negates the determinant."
+      "explanation": "| A | = (−1)³| A | = (−1)³ × (−2) = (−1) × (−2) = 2. For odd-order matrices, negating the matrix negates the determinant."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q39",
@@ -643,7 +643,7 @@
         "D) 3i + 5j + 7k"
       ],
       "correct_option": "B",
-      "explanation": "$a × b = \\left| A \\right| = i(4−1) − j(2+3) + k(−1−6) = 3i − 5j − 7k.$"
+      "explanation": "$a × b = | A | = i(4−1) − j(2+3) + k(−1−6) = 3i − 5j − 7k.$"
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q43",
@@ -658,7 +658,7 @@
         "D) 1.0"
       ],
       "correct_option": "A",
-      "explanation": "$P(A\\left| A \\right|B)·P(B) = 0.6 × 0.4 = 0.24.$"
+      "explanation": "$P(A| A |B)·P(B) = 0.6 × 0.4 = 0.24.$"
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q44",
@@ -748,7 +748,7 @@
         "D) 5"
       ],
       "correct_option": "A",
-      "explanation": "Distance from (x₁,y₁) to ax+by+c=0 is \\left| A \\right|/$1$. Here: \\left| A \\right|/$1$ = $1$ = 2."
+      "explanation": "Distance from (x₁,y₁) to ax+by+c=0 is | A |/$1$. Here: | A |/$1$ = $1$ = 2."
     },
     {
       "id": "CUET_MATH_2026_P9_L9_Q50",

@@ -35,7 +35,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "If A = [[3, 1], [2, 4]], what is the value of \\left| A \\right|?",
+      "question": "If A = [[3, 1], [2, 4]], what is the value of | A |?",
       "options": [
         "A) 100",
         "B) 10",
@@ -43,7 +43,7 @@
         "D) 50"
       ],
       "correct_option": "A",
-      "explanation": "\\left| A \\right| = 3×4 − 1×2 = 10. \\left| A \\right| = \\left| A \\right|² = 100. The determinant of a matrix squared equals the square of the determinant."
+      "explanation": "| A | = 3×4 − 1×2 = 10. | A | = | A |² = 100. The determinant of a matrix squared equals the square of the determinant."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q03",
@@ -58,7 +58,7 @@
         "D) 32"
       ],
       "correct_option": "A",
-      "explanation": "Multiplying the first row by 2 multiplies the determinant by 2. So \\left| A \\right| = 2 × 8 = 16."
+      "explanation": "Multiplying the first row by 2 multiplies the determinant by 2. So | A | = 2 × 8 = 16."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q04",
@@ -140,7 +140,7 @@
       "topic": "Matrices",
       "sub_topic": "Invertible matrices and uniqueness of inverse",
       "difficulty": "easy",
-      "question": "If A is a 2×2 matrix with \\left| A \\right| = 0, which of the following is true?",
+      "question": "If A is a 2×2 matrix with | A | = 0, which of the following is true?",
       "options": [
         "A) A is invertible",
         "B) A is singular",
@@ -148,7 +148,7 @@
         "D) A is non-singular"
       ],
       "correct_option": "B",
-      "explanation": "A matrix with determinant zero is called singular and does not have an inverse. Only non-singular matrices (\\left| A \\right| ≠ 0) are invertible."
+      "explanation": "A matrix with determinant zero is called singular and does not have an inverse. Only non-singular matrices (| A | ≠ 0) are invertible."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q10",
@@ -215,7 +215,7 @@
       "topic": "Matrices",
       "sub_topic": "Algebra of Matrices",
       "difficulty": "easy",
-      "question": "If A is a 3x3 matrix with \\left| A \\right| = 3, then \\left| A \\right| equals:",
+      "question": "If A is a 3x3 matrix with | A | = 3, then | A | equals:",
       "options": [
         "A) 27",
         "B) 243",
@@ -223,7 +223,7 @@
         "D) 9"
       ],
       "correct_option": "C",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = 3^3 * \\left| A \\right| = 27 * 3 = 81. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, | A | = 3^3 * | A | = 27 * 3 = 81. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q15",
@@ -275,7 +275,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "Analyze the given function: The function f(x) = \\ln(x) is:",
+      "question": "Analyze the given function: The function f(x) = ln(x) is:",
       "options": [
         "A) Constant",
         "B) Decreasing on (0, infinity)",
@@ -478,7 +478,7 @@
         "D) [[-1,1],[2,-3]]"
       ],
       "correct_option": "C",
-      "explanation": "$\\left| A \\right| = 3-2 = 1. adj(A) = [[1,-1],[-2,3]]. So A^{(-1)} = adj(A)/\\left| A \\right| = [[1,-1],[-2,3]].$"
+      "explanation": "$| A | = 3-2 = 1. adj(A) = [[1,-1],[-2,3]]. So A^{(-1)} = adj(A)/| A | = [[1,-1],[-2,3]].$"
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q32",
@@ -523,7 +523,7 @@
         "D) y = Ce^(-2x)"
       ],
       "correct_option": "D",
-      "explanation": "This is a separable equation: dy/y = -2dx. Integrating: \\ln\\left| A \\right| = -2x + C, so y = Ce^{(-2x)}."
+      "explanation": "This is a separable equation: dy/y = -2dx. Integrating: ln| A | = -2x + C, so y = Ce^{(-2x)}."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q35",
@@ -553,7 +553,7 @@
         "D) pi/3"
       ],
       "correct_option": "B",
-      "explanation": "a.b = 4, \\left| A \\right| = \\left| A \\right| = $1$. cos θ = $1$, so θ = cos^{(-1)}($1$)."
+      "explanation": "a.b = 4, | A | = | A | = $1$. cos θ = $1$, so θ = cos^{(-1)}($1$)."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q37",
@@ -628,7 +628,7 @@
         "D) sqrt(3)"
       ],
       "correct_option": "A",
-      "explanation": "d1 = (1,0,0), d2 = (0,1,0), d1 x d2 = (0,0,1). Vector between points = (-1,1,1). Distance = \\left| A \\right|/1 = 1."
+      "explanation": "d1 = (1,0,0), d2 = (0,1,0), d1 x d2 = (0,0,1). Vector between points = (-1,1,1). Distance = | A |/1 = 1."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q42",
@@ -718,7 +718,7 @@
         "D) sqrt(30)/30"
       ],
       "correct_option": "A",
-      "explanation": "d1 x d2 = (-2,-5,-1), \\left| A \\right| = $1$. Vector between points = (1,0,-1). Distance = \\left| A \\right|/$1$ = 1/$1$."
+      "explanation": "d1 x d2 = (-2,-5,-1), | A | = $1$. Vector between points = (1,0,-1). Distance = | A |/$1$ = 1/$1$."
     },
     {
       "id": "CUET_MATH_2026_P12_L2B_Q48",

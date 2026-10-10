@@ -65,7 +65,7 @@
       "topic": "Determinants",
       "sub_topic": "Evaluation",
       "difficulty": "easy",
-      "question": "If A = [[3, 1], [2, 5]], then \\left| A \\right| equals:",
+      "question": "If A = [[3, 1], [2, 5]], then | A | equals:",
       "options": [
         "A) 11",
         "B) 15",
@@ -73,7 +73,7 @@
         "D) 17"
       ],
       "correct_option": "C",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = (3)(5) - (1)(2) = 15 - 2 = 13. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, | A | = (3)(5) - (1)(2) = 15 - 2 = 13. This gives the value of the determinant, which represents the area scaling factor of the linear transformation."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q05",
@@ -298,7 +298,7 @@
         "D) 10"
       ],
       "correct_option": "A",
-      "explanation": "\\left| A \\right| = 2×3 × \\left| A \\right| = 6 × 10 = 60. Multiplying a row by k multiplies the determinant by k."
+      "explanation": "| A | = 2×3 × | A | = 6 × 10 = 60. Multiplying a row by k multiplies the determinant by k."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q20",
@@ -568,7 +568,7 @@
         "D) 1"
       ],
       "correct_option": "D",
-      "explanation": "Domain requires \\left| A \\right| ≤ $1$. Using sin^{-1}(x) + sin^{-1}(2x) = sin^{-1}(x$1$ + 2x$1$) = π/3. This gives x$1$ + 2x$1$ = √$1$. By analysis, there is exactly one solution ∈ the valid domain."
+      "explanation": "Domain requires | A | ≤ $1$. Using sin^{-1}(x) + sin^{-1}(2x) = sin^{-1}(x$1$ + 2x$1$) = π/3. This gives x$1$ + 2x$1$ = √$1$. By analysis, there is exactly one solution ∈ the valid domain."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q38",
@@ -583,7 +583,7 @@
         "D) 11/20"
       ],
       "correct_option": "A",
-      "explanation": "$P(red) = P(H)·P(red\\left| A \\right|B) = ($1$)($1$) + ($1$)($1$) = $1$ + $1$ = $1$.$"
+      "explanation": "$P(red) = P(H)·P(red| A |B) = ($1$)($1$) + ($1$)($1$) = $1$ + $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q39",
@@ -658,7 +658,7 @@
         "D) 2ln|x+1| - ln|x+2| + C"
       ],
       "correct_option": "C",
-      "explanation": "Factor: x²+3x+2 = (x+1)(x+2). Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: A=2, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
+      "explanation": "Factor: x²+3x+2 = (x+1)(x+2). Write (3x+5)/[(x+1)(x+2)] = A/(x+1) + B/(x+2). Solving: A=2, B=1. Thus ∫[2/(x+1) + 1/(x+2)]dx = 2ln| A | + ln| A | + C."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q44",
@@ -703,7 +703,7 @@
         "D) 2/5"
       ],
       "correct_option": "C",
-      "explanation": "$P(A\\left| A \\right|A) / [P(A)·P(D\\left| A \\right|B)] = (0.6×0.02)/(0.6×0.02 + 0.4×0.03) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
+      "explanation": "$P(A| A |A) / [P(A)·P(D| A |B)] = (0.6×0.02)/(0.6×0.02 + 0.4×0.03) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q47",
@@ -748,7 +748,7 @@
         "D) ln(x)"
       ],
       "correct_option": "B",
-      "explanation": "The equation is dy/dx + P(x)y = Q(x) where P(x) = 1/x. Integrating factor = e^{∫P(x)dx} = e^{∫(1/x)dx} = e^{\\ln\\left| A \\right|} = x."
+      "explanation": "The equation is dy/dx + P(x)y = Q(x) where P(x) = 1/x. Integrating factor = e^{∫P(x)dx} = e^{∫(1/x)dx} = e^{ln| A |} = x."
     },
     {
       "id": "CUET_MATH_2026_P23_L6C_Q50",

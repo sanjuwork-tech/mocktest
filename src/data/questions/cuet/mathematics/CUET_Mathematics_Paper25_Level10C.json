@@ -20,7 +20,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "easy",
-      "question": "Find the value: If A = [[3, 2], [1, 4]], what is \\left| A \\right|?",
+      "question": "Find the value: If A = [[3, 2], [1, 4]], what is | A |?",
       "options": [
         "A) 12",
         "B) 8",
@@ -28,7 +28,7 @@
         "D) 10"
       ],
       "correct_option": "D",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, \\left| A \\right| = (3)(4) - (2)(1) = 12 - 2 = 10. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. This result follows from standard mathematical principles."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the determinant is ad−bc. Here, | A | = (3)(4) - (2)(1) = 12 - 2 = 10. This gives the value of the determinant, which represents the area scaling factor of the linear transformation. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q02",
@@ -313,7 +313,7 @@
         "D) ±√6"
       ],
       "correct_option": "D",
-      "explanation": "For a scalar k and n×n matrix A, \\left| A \\right| = kⁿ\\left| A \\right|. Singular means \\left| A \\right|=0. k²-6=0 → k=±$1$. This property is crucial for understanding how determinants scale."
+      "explanation": "For a scalar k and n×n matrix A, | A | = kⁿ| A |. Singular means | A |=0. k²-6=0 → k=±$1$. This property is crucial for understanding how determinants scale."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q21",
@@ -358,7 +358,7 @@
         "D) 2ln|x+1| + ln|x-1| + C"
       ],
       "correct_option": "C",
-      "explanation": "Write (3x+1)/[(x−1)(x+1)] = A/(x−1) + B/(x+1). Solving: 3x+1 = A(x+1) + B(x−1). At x=1: 4=2A, A=2. At x=−1: −2=−2B, B=1. Thus ∫[2/(x−1) + 1/(x+1)]dx = 2ln\\left| A \\right| + \\ln\\left| A \\right| + C."
+      "explanation": "Write (3x+1)/[(x−1)(x+1)] = A/(x−1) + B/(x+1). Solving: 3x+1 = A(x+1) + B(x−1). At x=1: 4=2A, A=2. At x=−1: −2=−2B, B=1. Thus ∫[2/(x−1) + 1/(x+1)]dx = 2ln| A | + ln| A | + C."
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q24",
@@ -403,7 +403,7 @@
         "D) -4"
       ],
       "correct_option": "D",
-      "explanation": "$\\left| A \\right|=-2. A⁻¹=[[-2,1],[$1$,-$1$]]. X=A⁻¹B=[[-2·5+6],[$1$·5-3]]=[[-4],[$1$]]. x=-4.$"
+      "explanation": "$| A |=-2. A⁻¹=[[-2,1],[$1$,-$1$]]. X=A⁻¹B=[[-2·5+6],[$1$·5-3]]=[[-4],[$1$]]. x=-4.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q27",
@@ -740,7 +740,7 @@
       "topic": "Matrices",
       "sub_topic": "Determinants",
       "difficulty": "hard",
-      "question": "If A is a 3×3 matrix with \\left| A \\right|=5, then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 matrix with | A |=5, then | A | equals:",
       "options": [
         "A) 5",
         "B) 125",
@@ -748,7 +748,7 @@
         "D) 15"
       ],
       "correct_option": "C",
-      "explanation": "$\\left| A \\right|=\\left| A \\right|^(n-1)=5²=25 for 3×3 matrix.$"
+      "explanation": "$| A |=| A |^(n-1)=5²=25 for 3×3 matrix.$"
     },
     {
       "id": "CUET_MATH_2026_P25_L10C_Q50",

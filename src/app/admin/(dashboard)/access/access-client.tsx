@@ -66,7 +66,7 @@ export function AccessClient({
       <Link href="/admin" className="text-link">
         ← Preparation inventory
       </Link>
-      <p className="eyebrow mt-8">TestDisha · Account administration</p>
+      <p className="eyebrow mt-8">OurMocks · Account administration</p>
       <h1 className="text-4xl font-bold mt-3">Team, access & activity</h1>
       <p className="my-5 max-w-3xl leading-7">
         Editors manage drafts. Reviewers can publish preparation series. Admins

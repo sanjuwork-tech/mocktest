@@ -59,7 +59,7 @@ export async function login(email: string, password: string) {
         expiresAt,
         userId: "admin-bootstrap-id",
         email: bootstrapEmail,
-        name: "TestDisha Administrator",
+        name: "OurMocks Administrator",
         role: "admin",
       });
       return { token, expiresAt };
@@ -139,7 +139,7 @@ export async function currentAdmin() {
       expiresAt: new Date(Date.now() + SESSION_SECONDS * 1000),
       userId: "admin-bootstrap-id",
       email: bootstrapEmail,
-      name: "TestDisha Administrator",
+      name: "OurMocks Administrator",
       role: "admin" as AdminRole,
     };
   }

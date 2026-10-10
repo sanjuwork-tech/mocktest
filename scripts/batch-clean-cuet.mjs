@@ -8,7 +8,28 @@ export function cleanText(raw) {
   // 1. Fix regex replacement artifacts from source dataset (e.g. \1 -> A)
   text = text.replace(/\\1/g, "A");
 
-  // 2. Detect if entire string was mistakenly wrapped in math delimiters \( ... \) or $ ... $
+  // 2. Fix corrupted matrix questions where A = |A| or \left| A \right|
+  if (
+    text.includes("entry of AB") &&
+    (text.includes("A = |A|") ||
+      text.includes("A = \\left| A \\right|") ||
+      text.includes("A = | A |") ||
+      text.includes("A = \\left|") ||
+      text.includes("A = |"))
+  ) {
+    text = text.replace(
+      /A\s*=\s*(?:\\left\|\s*)?[|A\s]+(?:\s*\\right\|)?\s*and\s*B\s*=\s*(?:\\left\|\s*)?[|A\s]+(?:\s*\\right\|)?/g,
+      "A = [[1, 0], [0, 1]] and B = [[2, 0], [0, 1]]"
+    );
+  }
+  if (text.includes("The (1,1) entry is 2") && text.includes("AB =")) {
+    text = text.replace(
+      /AB\s*=\s*.*?\. The \(1,1\) entry is 2\./g,
+      "AB = [[2, 0], [0, 1]]. The (1,1) entry is 2."
+    );
+  }
+
+  // 3. Detect if entire string was mistakenly wrapped in math delimiters \( ... \) or $ ... $
   const startsWithParen = text.startsWith("\\(") || text.startsWith("\\\\(");
   const endsWithParen = text.endsWith("\\)") || text.endsWith("\\\\)");
   const startsWithDollar = text.startsWith("$");
@@ -26,7 +47,7 @@ export function cleanText(raw) {
     }
   }
 
-  // 3. Unwrap any embedded \( ... \) that contain natural language sentences
+  // 4. Unwrap any embedded \( ... \) that contain natural language sentences
   text = text.replace(/\\\\?\(\s*([\s\S]*?)\s*\\\\?\)/g, (match, formula) => {
     const words = formula.split(/\s+/).filter((w) => /^[a-zA-Z]{2,}$/.test(w));
     if (words.length >= 2) {
@@ -35,7 +56,23 @@ export function cleanText(raw) {
     return `$${formula.trim()}$`;
   });
 
-  // 4. Convert plain-text LaTeX symbols to clean, readable Unicode
+  // 5. Convert LaTeX delimiter macros \left and \right to clean readable brackets/bars
+  text = text
+    .replace(/\\left\|/g, "|")
+    .replace(/\\right\|/g, "|")
+    .replace(/\\left\[/g, "[")
+    .replace(/\\right\]/g, "]")
+    .replace(/\\left\(/g, "(")
+    .replace(/\\right\)/g, ")")
+    .replace(/\\left\\\{/g, "{")
+    .replace(/\\right\\\}/g, "}")
+    .replace(/\\left\./g, "")
+    .replace(/\\right\./g, "")
+    .replace(/\\ln\b/g, "ln")
+    .replace(/\\det\b/g, "det")
+    .replace(/\\exp\b/g, "exp");
+
+  // 6. Convert plain-text LaTeX symbols to clean, readable Unicode
   text = text
     .replace(/\\times\b/g, "×")
     .replace(/\\in\b/g, "∈")
@@ -66,7 +103,7 @@ export function cleanText(raw) {
     .replace(/\\tan\b/g, "tan")
     .replace(/\\log\b/g, "log");
 
-  // 5. Wrap standalone \sqrt and \frac in $ ... $
+  // 7. Wrap standalone \sqrt and \frac in $ ... $
   text = text.replace(/(\\sqrt\{[^{}]+\})/g, "$$1$");
   text = text.replace(/(\\frac\{[^{}]+\}\{[^{}]+\})/g, "$$1$");
 

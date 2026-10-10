@@ -20,7 +20,7 @@
       "topic": "Matrices",
       "sub_topic": "Equality of matrices",
       "difficulty": "easy",
-      "question": "If A is a 3×3 matrix with all diagonal entries equal to 2 and all other entries 0, what is \\left| A \\right|?",
+      "question": "If A is a 3×3 matrix with all diagonal entries equal to 2 and all other entries 0, what is | A |?",
       "options": [
         "A) 4",
         "B) 8",
@@ -35,7 +35,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "easy",
-      "question": "What is the value of the determinant \\left| A \\right|?",
+      "question": "What is the value of the determinant | A |?",
       "options": [
         "A) 10",
         "B) 30",
@@ -80,7 +80,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Continuity and differentiability",
       "difficulty": "easy",
-      "question": "Analyze the given function: The function f(x) = \\left| A \\right| is:",
+      "question": "Analyze the given function: The function f(x) = | A | is:",
       "options": [
         "A) Not differentiable at x=1",
         "B) Differentiable everywhere",
@@ -88,7 +88,7 @@
         "D) Not continuous at x=0"
       ],
       "correct_option": "C",
-      "explanation": "We analyze the function using standard techniques. f(x) = \\left| A \\right| is continuous everywhere but has a sharp corner at x=0 where the left and right derivatives differ (-1 vs 1), so it's not differentiable at x=0."
+      "explanation": "We analyze the function using standard techniques. f(x) = | A | is continuous everywhere but has a sharp corner at x=0 where the left and right derivatives differ (-1 vs 1), so it's not differentiable at x=0."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q06",
@@ -155,7 +155,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "If A is a 3×3 matrix with \\left| A \\right| = 4, what is \\left| A \\right|?",
+      "question": "If A is a 3×3 matrix with | A | = 4, what is | A |?",
       "options": [
         "A) 4",
         "B) 16",
@@ -163,7 +163,7 @@
         "D) 256"
       ],
       "correct_option": "B",
-      "explanation": "For an n×3 matrix, \\left| A \\right| = \\left| A \\right|^(n-1) = 4^(3-1) = 16."
+      "explanation": "For an n×3 matrix, | A | = | A |^(n-1) = 4^(3-1) = 16."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q11",
@@ -178,7 +178,7 @@
         "D) [[1,-1],[2,3]]"
       ],
       "correct_option": "B",
-      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/\\left| A \\right|)[[d,−b],[−c,a]]. det(A) = 3(1) - 1(2) = 1. A⁻¹ = (1/det)[[d,-b],[-c,a]] = [[1,-1],[-2,3]]."
+      "explanation": "For a 2×2 matrix [[a,b],[c,d]], the inverse is (1/| A |)[[d,−b],[−c,a]]. det(A) = 3(1) - 1(2) = 1. A⁻¹ = (1/det)[[d,-b],[-c,a]] = [[1,-1],[-2,3]]."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q12",
@@ -350,7 +350,7 @@
       "topic": "Determinants",
       "sub_topic": "Determinant of a square matrix (up to 3×3)",
       "difficulty": "medium",
-      "question": "Find the value: If \\left| A \\right| = 0, the values of x are:",
+      "question": "Find the value: If | A | = 0, the values of x are:",
       "options": [
         "A) 1 and -1",
         "B) 2 and -2",
@@ -418,7 +418,7 @@
         "D) (1/2)ln2 + π/2"
       ],
       "correct_option": "B",
-      "explanation": "Split: ∫₀¹ x/(x²+1)dx + ∫₀¹ 1/(x²+1)dx. First: let u=x²+1, du=2x dx. ($1$)∫¹² du/u = ($1$)\\ln 2. Second: [tan⁻¹x]₀¹ = π/4. Total = ($1$)\\ln 2 + π/4."
+      "explanation": "Split: ∫₀¹ x/(x²+1)dx + ∫₀¹ 1/(x²+1)dx. First: let u=x²+1, du=2x dx. ($1$)∫¹² du/u = ($1$)ln 2. Second: [tan⁻¹x]₀¹ = π/4. Total = ($1$)ln 2 + π/4."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q28",
@@ -433,7 +433,7 @@
         "D) y = Cx"
       ],
       "correct_option": "C",
-      "explanation": "We use standard methods for solving differential equations. This is a separable equation: dy/y = -dx, integrating gives \\ln\\left| A \\right| = -x + C, so y = Ce^{(-x)}."
+      "explanation": "We use standard methods for solving differential equations. This is a separable equation: dy/y = -dx, integrating gives ln| A | = -x + C, so y = Ce^{(-x)}."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q29",
@@ -448,7 +448,7 @@
         "D) i - 5j - 3k"
       ],
       "correct_option": "D",
-      "explanation": "$a × b = \\left| A \\right| = i(2-1) - j(4+1) + k(-2-1) = i - 5j - 3k.$"
+      "explanation": "$a × b = | A | = i(2-1) - j(4+1) + k(-2-1) = i - 5j - 3k.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q30",
@@ -553,7 +553,7 @@
         "D) 19/7"
       ],
       "correct_option": "D",
-      "explanation": "In matrix form: [[1,2],[3,-1]][x;y] = [7;6]. Determinant = -7. Using Cramer's rule: x = \\left| A \\right| / (-7) = (-7-12)/(-7) = (-19)/(-7) = $1$."
+      "explanation": "In matrix form: [[1,2],[3,-1]][x;y] = [7;6]. Determinant = -7. Using Cramer's rule: x = | A | / (-7) = (-7-12)/(-7) = (-19)/(-7) = $1$."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q37",
@@ -568,7 +568,7 @@
         "D) √6/3"
       ],
       "correct_option": "D",
-      "explanation": "$a1=(1,1,0), b1=(1,1,1); a2=(2,2,0), b2=(1,-1,0). b1×b2=(1,1,-2), \\left| A \\right|=$1$. a2-a1=(1,1,0). Distance=\\left| A \\right|/$1$ = 2/$1$ = √$1$.$"
+      "explanation": "$a1=(1,1,0), b1=(1,1,1); a2=(2,2,0), b2=(1,-1,0). b1×b2=(1,1,-2), | A |=$1$. a2-a1=(1,1,0). Distance=| A |/$1$ = 2/$1$ = √$1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q38",
@@ -635,7 +635,7 @@
       "topic": "Matrices",
       "sub_topic": "Symmetric and skew symmetric matrices",
       "difficulty": "hard",
-      "question": "If A is a 3×3 skew-symmetric matrix, then \\left| A \\right| equals:",
+      "question": "If A is a 3×3 skew-symmetric matrix, then | A | equals:",
       "options": [
         "A) -1",
         "B) Cannot be determined",
@@ -643,7 +643,7 @@
         "D) 1"
       ],
       "correct_option": "C",
-      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)^n\\left| A \\right| = -\\left| A \\right| (since n=3). So \\left| A \\right| = -\\left| A \\right|, which implies \\left| A \\right| = 0."
+      "explanation": "For a skew-symmetric matrix of odd order, | A | = | A | = | A | = (-1)^n| A | = -| A | (since n=3). So | A | = -| A |, which implies | A | = 0."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q43",
@@ -658,7 +658,7 @@
         "D) 3/4"
       ],
       "correct_option": "C",
-      "explanation": "$P(A\\left| A \\right|A)P(A) / [P(Def\\left| A \\right|B)P(B)] = (0.02×0.6)/(0.02×0.6 + 0.03×0.4) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
+      "explanation": "$P(A| A |A)P(A) / [P(Def| A |B)P(B)] = (0.02×0.6)/(0.02×0.6 + 0.03×0.4) = 0.012/(0.012+0.012) = 0.$1$.024 = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q44",
@@ -688,7 +688,7 @@
         "D) 2ln|x-1| + C"
       ],
       "correct_option": "C",
-      "explanation": "Note that x²−1 = (x−1)(x+1). So (x+1)/(x²−1) = (x+1)/[(x−1)(x+1)] = 1/(x−1). Thus ∫(x+1)/(x²−1)dx = ∫1/(x−1)dx = \\ln\\left| A \\right| + C."
+      "explanation": "Note that x²−1 = (x−1)(x+1). So (x+1)/(x²−1) = (x+1)/[(x−1)(x+1)] = 1/(x−1). Thus ∫(x+1)/(x²−1)dx = ∫1/(x−1)dx = ln| A | + C."
     },
     {
       "id": "CUET_MATH_2026_P18_L8B_Q46",

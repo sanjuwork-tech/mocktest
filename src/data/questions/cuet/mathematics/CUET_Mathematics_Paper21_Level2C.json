@@ -28,7 +28,7 @@
         "D) |A| = 1"
       ],
       "correct_option": "B",
-      "explanation": "For a skew-symmetric matrix of odd order, \\left| A \\right| = \\left| A \\right| = \\left| A \\right| = (-1)^n \\left| A \\right|. For n=3, \\left| A \\right| = -\\left| A \\right|, so \\left| A \\right| = 0."
+      "explanation": "For a skew-symmetric matrix of odd order, | A | = | A | = | A | = (-1)^n | A |. For n=3, | A | = -| A |, so | A | = 0."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q02",
@@ -43,7 +43,7 @@
         "D) -1/7"
       ],
       "correct_option": "A",
-      "explanation": "Since A·A⁻¹ = I, we have \\left| A \\right|·\\left| A \\right| = \\left| A \\right| = 1. Therefore \\left| A \\right| = 1/\\left| A \\right| = $1$."
+      "explanation": "Since A·A⁻¹ = I, we have | A |·| A | = | A | = 1. Therefore | A | = 1/| A | = $1$."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q03",
@@ -155,7 +155,7 @@
       "topic": "Vector Algebra",
       "sub_topic": "Magnitude and Direction",
       "difficulty": "easy",
-      "question": "Find the value: If a = 2i - 3j + 6k, then \\left| A \\right| equals:",
+      "question": "Find the value: If a = 2i - 3j + 6k, then | A | equals:",
       "options": [
         "A) 5",
         "B) 7",
@@ -163,7 +163,7 @@
         "D) sqrt(45)"
       ],
       "correct_option": "B",
-      "explanation": "\\left| A \\right| = $1$^2 + 6^2) = $1$ = $1$ = 7. This result follows from standard mathematical principles."
+      "explanation": "| A | = $1$^2 + 6^2) = $1$ = $1$ = 7. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q11",
@@ -493,7 +493,7 @@
         "D) 0"
       ],
       "correct_option": "D",
-      "explanation": "Area = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = ($1$)\\left| A \\right| = 0. The points are collinear."
+      "explanation": "Area = ($1$)| A | = ($1$)| A | = ($1$)| A | = ($1$)| A | = 0. The points are collinear."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q33",
@@ -530,7 +530,7 @@
       "topic": "Continuity and Differentiability",
       "sub_topic": "Differentiability",
       "difficulty": "medium",
-      "question": "Analyze the given function: The function f(x) = x\\left| A \\right| at x = 0 is:",
+      "question": "Analyze the given function: The function f(x) = x| A | at x = 0 is:",
       "options": [
         "A) Continuous and differentiable",
         "B) Continuous but not differentiable",
@@ -538,7 +538,7 @@
         "D) Not differentiable anywhere"
       ],
       "correct_option": "A",
-      "explanation": "We analyze the function using standard techniques. f(x) = x\\left| A \\right| = {x^{2} if x >= 0, -x^{2} if x < 0}. At x=0: right derivative = 2x\\left| A \\right|0 = 0. Since both exist and equal 0, f is differentiable at x=0. Also continuous."
+      "explanation": "We analyze the function using standard techniques. f(x) = x| A | = {x^{2} if x >= 0, -x^{2} if x < 0}. At x=0: right derivative = 2x| A |0 = 0. Since both exist and equal 0, f is differentiable at x=0. Also continuous."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q36",
@@ -568,7 +568,7 @@
         "D) 2x ln|x^2 + 1| + C"
       ],
       "correct_option": "B",
-      "explanation": "Let u = x^{2} + 1, then du = 2x dx. The integral becomes integral of (du/u) = \\ln\\left| A \\right| + C = \\ln\\left| A \\right| + C. This result follows from standard mathematical principles."
+      "explanation": "Let u = x^{2} + 1, then du = 2x dx. The integral becomes integral of (du/u) = ln| A | + C = ln| A | + C. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q38",
@@ -583,7 +583,7 @@
         "D) (1/2) ln|(x-1)/(x+1)| + C"
       ],
       "correct_option": "D",
-      "explanation": "1/(x^{2} - 1) = 1/[(x-1)(x+1)] = ($1$)[1/(x-1) - 1/(x+1)]. Integrating: ($1$)[\\ln\\left| A \\right| - \\ln\\left| A \\right|] = ($1$) \\ln\\left| A \\right| + C. This result follows from standard mathematical principles."
+      "explanation": "1/(x^{2} - 1) = 1/[(x-1)(x+1)] = ($1$)[1/(x-1) - 1/(x+1)]. Integrating: ($1$)[ln| A | - ln| A |] = ($1$) ln| A | + C. This result follows from standard mathematical principles."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q39",
@@ -598,7 +598,7 @@
         "D) y = Ce^x"
       ],
       "correct_option": "B",
-      "explanation": "We use standard methods for solving differential equations. dy/y = dx/x. Integrating: \\ln\\left| A \\right| = \\ln\\left| A \\right| + C implies \\ln\\left| A \\right| = C implies y/x = e^C implies y = Cx."
+      "explanation": "We use standard methods for solving differential equations. dy/y = dx/x. Integrating: ln| A | = ln| A | + C implies ln| A | = C implies y/x = e^C implies y = Cx."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q40",
@@ -733,7 +733,7 @@
         "D) x^2 + y^2 = Cy"
       ],
       "correct_option": "C",
-      "explanation": "This is a homogeneous equation. Let y = vx, then dy = v dx + x dv. Substituting: (x^{2} - v^{2}x^{2})dx + 2x(vx)(v dx + x dv) = 0 -> x^{2}(1-v^{2})dx + 2vx^{2}(v dx + x dv) = 0 -> (1-v^{2} + 2v^{2})dx + 2vx dv = 0 -> (1+v^{2})dx + 2vx dv = 0. Separating: dx/x + 2v/(1+v^{2}) dv = 0. Integrating: \\ln\\left| A \\right| + \\ln\\left| A \\right| = \\ln\\left| A \\right| -> x(1+v^{2}) = C -> x(1 + y^{2}/x^{2}) = C -> x^{2} + y^{2} = Cx."
+      "explanation": "This is a homogeneous equation. Let y = vx, then dy = v dx + x dv. Substituting: (x^{2} - v^{2}x^{2})dx + 2x(vx)(v dx + x dv) = 0 -> x^{2}(1-v^{2})dx + 2vx^{2}(v dx + x dv) = 0 -> (1-v^{2} + 2v^{2})dx + 2vx dv = 0 -> (1+v^{2})dx + 2vx dv = 0. Separating: dx/x + 2v/(1+v^{2}) dv = 0. Integrating: ln| A | + ln| A | = ln| A | -> x(1+v^{2}) = C -> x(1 + y^{2}/x^{2}) = C -> x^{2} + y^{2} = Cx."
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q49",
@@ -748,7 +748,7 @@
         "D) 3/8"
       ],
       "correct_option": "A",
-      "explanation": "$Using Bayes' theorem: P(B\\left| A \\right|B)P(B) / [P(D\\left| A \\right|B)P(B)] = (0.05)(0.4) / [(0.02)(0.6) + (0.05)(0.4)] = 0.02 / (0.012 + 0.02) = 0.$1$.032 = $1$ = $1$.$"
+      "explanation": "$Using Bayes' theorem: P(B| A |B)P(B) / [P(D| A |B)P(B)] = (0.05)(0.4) / [(0.02)(0.6) + (0.05)(0.4)] = 0.02 / (0.012 + 0.02) = 0.$1$.032 = $1$ = $1$.$"
     },
     {
       "id": "CUET_MATH_2026_P21_L2C_Q50",
