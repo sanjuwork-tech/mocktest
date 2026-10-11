@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight, Check, Sparkles } from "lucide-react";
 import { type Product, siteConfig } from "@/data/catalog";
 
 export function TestCard({ product }: { product: Product }) {
@@ -9,11 +9,30 @@ export function TestCard({ product }: { product: Product }) {
   return (
     <article
       id={`series-${product.slug}`}
-      className={`mock-card theme-${product.slug}`}
+      className={`mock-card theme-${product.slug} ${product.isBundle ? "bundle-card" : ""}`}
       aria-labelledby={`series-title-${product.slug}`}
     >
       <div className="mock-card-top">
-        <span className="card-category">{product.shortName}</span>
+        <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+          <span className="card-category">{product.shortName}</span>
+          {product.badge && (
+            <span
+              style={{
+                fontSize: "11px",
+                fontWeight: 700,
+                textTransform: "uppercase",
+                letterSpacing: "0.05em",
+                background: "rgba(184, 255, 52, 0.2)",
+                color: "#15803d",
+                padding: "2px 8px",
+                borderRadius: "999px",
+                border: "1px solid rgba(184, 255, 52, 0.5)",
+              }}
+            >
+              {product.badge}
+            </span>
+          )}
+        </div>
         <span className="mock-count">
           <strong>{product.mocks}</strong> planned mocks
         </span>
@@ -36,14 +55,44 @@ export function TestCard({ product }: { product: Product }) {
       <div className="mock-price-block">
         <div>
           <span className="price-label">Proposed series price</span>
-          <strong className="mock-price">
-            ₹{product.price.toLocaleString("en-IN")}
-          </strong>
+          <div style={{ display: "flex", alignItems: "baseline", gap: "8px" }}>
+            <strong className="mock-price">
+              ₹{product.price.toLocaleString("en-IN")}
+            </strong>
+            {product.compareAtPrice > product.price && (
+              <span style={{ textDecoration: "line-through", color: "#64748b", fontSize: "14px" }}>
+                ₹{product.compareAtPrice.toLocaleString("en-IN")}
+              </span>
+            )}
+          </div>
+          {product.savingsText && (
+            <span
+              style={{
+                display: "inline-block",
+                fontSize: "12px",
+                color: "#16a34a",
+                fontWeight: "700",
+                marginTop: "3px",
+              }}
+            >
+              {product.savingsText}
+            </span>
+          )}
         </div>
         <span className="price-context">
-          For this exam’s
-          <br />
-          planned series
+          {product.isBundle ? (
+            <>
+              Multi-exam
+              <br />
+              combo pass
+            </>
+          ) : (
+            <>
+              For this exam’s
+              <br />
+              planned series
+            </>
+          )}
         </span>
       </div>
       <p className="mock-availability">
@@ -63,8 +112,8 @@ export function TestCard({ product }: { product: Product }) {
           : "Try the student demo"}{" "}
         <ArrowRight size={16} aria-hidden="true" />
       </Link>
-      <Link href={`/exams#${product.slug}`} className="mock-guide-link">
-        Check eligibility & exam details ↗
+      <Link href={product.isBundle ? "/test-series" : `/exams#${product.slug}`} className="mock-guide-link">
+        {product.isBundle ? "Compare all included exams ↗" : "Check eligibility & exam details ↗"}
       </Link>
     </article>
   );
