@@ -98,6 +98,36 @@ export default function TestSeriesPage() {
             purchase. You can contact us about any series.
           </p>
         </div>
+        <div
+          style={{
+            background: "#f0fdf4",
+            border: "1px solid #bbf7d0",
+            borderRadius: "14px",
+            padding: "16px 20px",
+            marginBottom: "24px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: "12px",
+          }}
+        >
+          <div>
+            <strong style={{ color: "#166534", fontSize: "14px", display: "block" }}>
+              🎉 CUET UG Free Full-Length Tests Live Now!
+            </strong>
+            <p style={{ margin: "2px 0 0 0", fontSize: "13px", color: "#15803d" }}>
+              Attempt Test 1 across 13 domain subjects with real NTA CBT timing. IISER IAT, NISER NEST, and COMEDK test series are coming soon in upcoming days.
+            </p>
+          </div>
+          <Link
+            href="/free-diagnostic"
+            className="button-primary"
+            style={{ padding: "8px 16px", fontSize: "13px" }}
+          >
+            Attempt Free Test Now <ArrowRight size={15} />
+          </Link>
+        </div>
         <CatalogGrid products={products} />
         <nav
           className="related-exam-links"

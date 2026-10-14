@@ -43,7 +43,21 @@ function parse(raw: string): DemoState {
         (a: Attempt) =>
           a &&
           typeof a.id === "string" &&
-          ["mathematics", "physics", "chemistry", "biological-science"].includes(a.subject) &&
+          [
+            "mathematics",
+            "physics",
+            "chemistry",
+            "biological-science",
+            "accountancy",
+            "computer-science",
+            "economics",
+            "english",
+            "general-test",
+            "geography",
+            "history",
+            "mass-media",
+            "political-science",
+          ].includes(a.subject) &&
           Number.isFinite(a.deadline) &&
           a.responses &&
           a.reflections,

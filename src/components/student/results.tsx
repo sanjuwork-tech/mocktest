@@ -238,6 +238,10 @@ export function StudentResults({ id }: { id: string }) {
               : `${delta >= 0 ? "+" : ""}${delta} marks compared with your previous completed attempt on this same practice set. Familiarity may influence improvement.`}
           </p>
         </div>
+        <div style={{ marginTop: "14px", padding: "10px 14px", background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "10px", fontSize: "12px", color: "#64748b", display: "flex", alignItems: "center", gap: "8px" }}>
+          <span style={{ fontSize: "14px" }}>ℹ️</span>
+          <span><strong>Practice Benchmark Disclaimer:</strong> Scores, accuracy percentages, and pacing statistics are diagnostic practice metrics for self-evaluation, not official admission predictions or guaranteed ranks.</span>
+        </div>
       </section>
       <div className="student-stat-grid result-stats">
         <div>

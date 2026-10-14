@@ -71,9 +71,9 @@ const EXAM_OPTIONS: ExamOption[] = [
   {
     id: "cuet-ug",
     name: "CUET (UG)",
-    badge: "National Testing Agency",
-    subjectsCount: 12,
-    totalTests: "300 Papers (25 per subject)",
+    badge: "13 Full Tests Free",
+    subjectsCount: 13,
+    totalTests: "13 Full-Length Tests (Paper 1 Free)",
     pattern: "50 Questions · 90 Mins · +4 / −1",
     description: "Central, State & Top University Admissions (BA, BSc, BCom, BCA, Engineering)",
     subjectIds: [
@@ -95,9 +95,9 @@ const EXAM_OPTIONS: ExamOption[] = [
   {
     id: "iiser-iat",
     name: "IISER IAT",
-    badge: "BS-MS Research",
+    badge: "Coming Soon",
     subjectsCount: 4,
-    totalTests: "PCM + Biology Bundles",
+    totalTests: "Adding in upcoming days",
     pattern: "60 Questions · 180 Mins · +4 / −1",
     description: "Admissions to 7 IISER campuses, IISc Bangalore, and IIT Madras Science Programs",
     subjectIds: ["mathematics", "physics", "chemistry", "biological-science"],
@@ -105,9 +105,9 @@ const EXAM_OPTIONS: ExamOption[] = [
   {
     id: "comedk-uget",
     name: "COMEDK UGET",
-    badge: "Karnataka Engineering",
+    badge: "Coming Soon",
     subjectsCount: 3,
-    totalTests: "Engineering Stream",
+    totalTests: "Adding in upcoming days",
     pattern: "180 Questions · 180 Mins · No Negative",
     description: "Entrance for 190+ top engineering colleges in Karnataka (RVCE, BMSCE, MSRIT)",
     subjectIds: ["physics", "chemistry", "mathematics"],
@@ -115,9 +115,9 @@ const EXAM_OPTIONS: ExamOption[] = [
   {
     id: "niser-nest",
     name: "NISER NEST",
-    badge: "DAE Research",
+    badge: "Coming Soon",
     subjectsCount: 4,
-    totalTests: "Integrated MSc",
+    totalTests: "Adding in upcoming days",
     pattern: "80 Questions · 210 Mins · Sectional Timing",
     description: "National Screening Test for NISER Bhubaneswar and UM-DAE CEBS Mumbai",
     subjectIds: ["physics", "chemistry", "mathematics", "biological-science"],
@@ -330,78 +330,148 @@ export function StudentDashboard() {
 
       {/* Subjects & Test 1 Launch Section */}
       <section className="student-section">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">{activeExam.name} · Available Subjects</p>
-            <h2>Launch Test 1 Practice Mock</h2>
-          </div>
-          <span className="student-muted">
-            {displayedSubjects.length} subjects available · 50 questions · 90 minutes per subject
-          </span>
-        </div>
+        {selectedExamId === "cuet-ug" ? (
+          <>
+            <div className="section-heading">
+              <div>
+                <p className="eyebrow">{activeExam.name} · Available Subjects</p>
+                <h2>Launch Full-Length Test 1 Diagnostic Mock</h2>
+              </div>
+              <span className="student-muted">
+                {displayedSubjects.length} subjects available · 50 questions · 90 minutes · 100% Free
+              </span>
+            </div>
 
-        <div className="student-subject-grid">
-          {displayedSubjects.map((s) => {
-            const active = attempts.find(
-              (a) => a.subject === s.id && !a.submittedAt,
-            );
-            const Icon = subjectIcons[s.id] || FlaskConical;
-            return (
-              <article
-                key={s.id}
-                className={`student-subject-card student-${s.id}`}
-              >
-                <div className="student-subject-icon" aria-hidden="true">
-                  <Icon size={26} />
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <p className="eyebrow">{s.code ? `CUET Code: ${s.code}` : "Domain Practice"}</p>
-                  <span
-                    style={{
-                      fontSize: "11px",
-                      background: "#e8f0fe",
-                      color: "var(--blue, #1f5eff)",
-                      padding: "2px 8px",
-                      borderRadius: "12px",
-                      fontWeight: 600,
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "4px",
-                    }}
+            <div className="student-subject-grid">
+              {displayedSubjects.map((s) => {
+                const active = attempts.find(
+                  (a) => a.subject === s.id && !a.submittedAt,
+                );
+                const Icon = subjectIcons[s.id] || FlaskConical;
+                return (
+                  <article
+                    key={s.id}
+                    className={`student-subject-card student-${s.id}`}
                   >
-                    <CheckCircle2 size={12} /> Test 1 Diagnostic
-                  </span>
-                </div>
-                <h3>{s.title}</h3>
-                <p>{s.subtitle}</p>
-                <div className="student-card-facts">
-                  <span>50 questions</span>
-                  <span>Paper 1</span>
-                  <span>200 marks</span>
-                </div>
-                <Link
-                  href={`/student/tests/${s.id}`}
-                  className="button-primary"
-                >
-                  {active ? "Resume test" : "Start Test 1"}{" "}
-                  <Play size={15} />
-                </Link>
-                <button
-                  className="student-text-button"
-                  onClick={() =>
-                    router.push(`/student/results/${createSample(s.id)}`)
-                  }
-                >
-                  <ChartNoAxesCombined size={16} /> Preview sample analysis
-                </button>
-              </article>
-            );
-          })}
-        </div>
-        <p className="student-muted" style={{ marginTop: "16px" }}>
-          Scoring rules: +4 correct, −1 incorrect, 0 unanswered. Real-time timer runs on both total exam
-          and active question to deliver granular pacing insights in your post-test diagnostic report.
-        </p>
+                    <div className="student-subject-icon" aria-hidden="true">
+                      <Icon size={26} />
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <p className="eyebrow">{s.code ? `CUET Code: ${s.code}` : "Domain Practice"}</p>
+                      <span
+                        style={{
+                          fontSize: "11px",
+                          background: "#e8f0fe",
+                          color: "var(--blue, #1f5eff)",
+                          padding: "2px 8px",
+                          borderRadius: "12px",
+                          fontWeight: 600,
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "4px",
+                        }}
+                      >
+                        <CheckCircle2 size={12} /> Full Test 1 Free
+                      </span>
+                    </div>
+                    <h3>{s.title}</h3>
+                    <p>{s.subtitle}</p>
+                    <div className="student-card-facts">
+                      <span>50 questions</span>
+                      <span>Paper 1</span>
+                      <span>200 marks</span>
+                    </div>
+                    <Link
+                      href={`/student/tests/${s.id}`}
+                      className="button-primary"
+                    >
+                      {active ? "Resume test" : "Start Full Test 1"}{" "}
+                      <Play size={15} />
+                    </Link>
+                    <button
+                      className="student-text-button"
+                      onClick={() =>
+                        router.push(`/student/results/${createSample(s.id)}`)
+                      }
+                    >
+                      <ChartNoAxesCombined size={16} /> Preview sample analysis
+                    </button>
+                  </article>
+                );
+              })}
+            </div>
+            <p className="student-muted" style={{ marginTop: "16px" }}>
+              Scoring rules: +4 correct, −1 incorrect, 0 unanswered. Real-time timer runs on both total exam
+              and active question to deliver granular pacing insights in your post-test diagnostic report.
+            </p>
+          </>
+        ) : (
+          <div
+            style={{
+              background: "linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)",
+              border: "2px dashed #cbd5e1",
+              borderRadius: "20px",
+              padding: "48px 32px",
+              textAlign: "center",
+              maxWidth: "760px",
+              margin: "0 auto",
+            }}
+          >
+            <div
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                background: "#fef3c7",
+                color: "#92400e",
+                padding: "6px 16px",
+                borderRadius: "999px",
+                fontSize: "13px",
+                fontWeight: 700,
+                marginBottom: "20px",
+              }}
+            >
+              Coming Soon · Will Add in Upcoming Days
+            </div>
+            <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
+              {activeExam.name} Mock Tests Coming Soon
+            </h2>
+            <p style={{ fontSize: "15px", color: "#475569", lineHeight: 1.6, maxWidth: "600px", margin: "0 auto 24px auto" }}>
+              Our faculty and exam experts are currently preparing research-grade test series for <strong>{activeExam.name}</strong>. Full-length mock papers will be added directly into your student dashboard in the upcoming days.
+            </p>
+
+            <div
+              style={{
+                display: "inline-flex",
+                flexWrap: "wrap",
+                gap: "12px",
+                justifyContent: "center",
+                marginBottom: "28px",
+              }}
+            >
+              <span style={{ background: "#ffffff", border: "1px solid #e2e8f0", padding: "8px 16px", borderRadius: "10px", fontSize: "13px", color: "#334155" }}>
+                <strong>Pattern:</strong> {activeExam.pattern}
+              </span>
+              <span style={{ background: "#ffffff", border: "1px solid #e2e8f0", padding: "8px 16px", borderRadius: "10px", fontSize: "13px", color: "#334155" }}>
+                <strong>Inclusions:</strong> {activeExam.totalTests}
+              </span>
+            </div>
+
+            <div style={{ maxWidth: "460px", margin: "0 auto" }}>
+              <p style={{ fontSize: "13px", color: "#64748b", marginBottom: "10px" }}>
+                In the meantime, you can explore and attempt any of our <strong>13 CUET UG Full-Length Tests</strong> completely free:
+              </p>
+              <button
+                type="button"
+                onClick={() => setSelectedExamId("cuet-ug")}
+                className="button-primary"
+                style={{ width: "100%", justifyContent: "center" }}
+              >
+                Switch to CUET UG (13 Free Tests) <ArrowRight size={16} />
+              </button>
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Attempt History */}

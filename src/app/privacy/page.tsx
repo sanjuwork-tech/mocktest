@@ -59,12 +59,32 @@ export default function PrivacyPolicyPage() {
           </p>
         </section>
         <section>
-          <h2>Data retention</h2>
+          <h2>Age-Appropriate Consent & Minors</h2>
+          <p>
+            Our services are intended for students preparing for higher education entrance examinations, primarily aged 16 to 19.
+          </p>
+          <ul>
+            <li>
+              <strong>Students aged 18 and above:</strong> You may independently register, consent to data processing, and utilize OurMocks test services.
+            </li>
+            <li>
+              <strong>Students under 18 (minors):</strong> By registering on OurMocks or purchasing test series, you confirm that you have informed your parent or legal guardian, and that they have consented to your use of this educational platform.
+            </li>
+            <li>
+              <strong>Data minimization for students:</strong> We strictly limit data collection to academic email, name, and test attempt responses. We do NOT track location, behavioral profiling, or social media activity.
+            </li>
+            <li>
+              <strong>No third-party ad retargeting:</strong> We do not sell your contact details or retarget students with behavioral advertisements across third-party networks or social media.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Data retention & deletion protocol</h2>
           <p>
             Account data is retained while your account is active. Test attempt
             history is retained to provide you with performance analytics. You
-            may request deletion of your account and associated data by
-            contacting us.
+            may request full deletion of your account and associated diagnostic data by
+            contacting our support team. All user data deletion requests are permanently executed within <strong>30 calendar days</strong>.
           </p>
         </section>
         <section>
@@ -82,7 +102,7 @@ export default function PrivacyPolicyPage() {
           <ul>
             <li>Access the personal data we hold about you</li>
             <li>Request correction of inaccurate data</li>
-            <li>Request deletion of your account and data</li>
+            <li>Request deletion of your account and data (executed within 30 days)</li>
             <li>Withdraw consent for non-essential data processing</li>
           </ul>
         </section>

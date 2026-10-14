@@ -100,16 +100,14 @@ export function TestCard({ product }: { product: Product }) {
         confirmed before enrolment opens.
       </p>
       <Link
-        href={
-          siteConfig.email
-            ? `mailto:${siteConfig.email}?subject=${subject}`
-            : "/student"
-        }
+        href="/free-diagnostic"
         className="button-primary"
       >
-        {siteConfig.email
-          ? `Ask about ${product.shortName}`
-          : "Try the student demo"}{" "}
+        {product.slug === "cuet-ug"
+          ? "Attempt Free Full Test"
+          : product.isBundle
+            ? "Join Priority Waitlist"
+            : "Coming Soon — Notify Me"}{" "}
         <ArrowRight size={16} aria-hidden="true" />
       </Link>
       <Link href={product.isBundle ? "/test-series" : `/exams#${product.slug}`} className="mock-guide-link">

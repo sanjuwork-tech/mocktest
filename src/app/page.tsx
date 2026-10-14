@@ -30,16 +30,31 @@ export default function HomePage() {
             then find focused practice for the future you choose.
           </p>
           <div className="hero-actions">
-            <Link href="/exams" className="button-primary">
-              Explore your options <ArrowRight size={18} />
+            <Link href="/free-diagnostic" className="button-primary">
+              Attempt Free Mock Test <ArrowRight size={18} />
             </Link>
-            <Link href="/test-series" className="text-link">
-              Explore our mock tests <ArrowUpRight size={17} />
+            <Link href="/exams" className="text-link">
+              Explore your options <ArrowUpRight size={17} />
             </Link>
           </div>
-          <p className="hero-footnote">
-            CUET UG · IISER IAT · NEST · COMEDK UGET
-          </p>
+          <div
+            style={{
+              marginTop: "20px",
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "8px",
+              background: "#f0fdf4",
+              border: "1px solid #bbf7d0",
+              borderRadius: "999px",
+              padding: "6px 14px",
+              fontSize: "12px",
+              color: "#166534",
+              fontWeight: 500,
+            }}
+          >
+            <span style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#22c55e" }} />
+            <span><strong>CUET UG:</strong> 13 Full-Length Tests Free Now · <strong>IISER, NISER & COMEDK:</strong> Coming Soon</span>
+          </div>
         </div>
         <div
           className="pathway-board"
@@ -128,7 +143,21 @@ export default function HomePage() {
               key={product.slug}
               className={`home-mock-card theme-${product.slug}`}
             >
-              <span className="card-category">{product.shortName}</span>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+                <span className="card-category">{product.shortName}</span>
+                <span
+                  style={{
+                    fontSize: "11px",
+                    fontWeight: 700,
+                    padding: "2px 8px",
+                    borderRadius: "999px",
+                    background: product.slug === "cuet-ug" ? "#dcfce7" : "#fef3c7",
+                    color: product.slug === "cuet-ug" ? "#15803d" : "#92400e",
+                  }}
+                >
+                  {product.slug === "cuet-ug" ? "13 Tests Free" : "Coming Soon"}
+                </span>
+              </div>
               <h3>{product.mocks} planned mocks</h3>
               <p className="home-mock-pattern">{product.pattern}</p>
               <ul>
@@ -141,10 +170,10 @@ export default function HomePage() {
                 <strong>₹{product.price.toLocaleString("en-IN")}</strong>
               </div>
               <Link
-                href={`/test-series#series-${product.slug}`}
+                href="/free-diagnostic"
                 className="card-link"
               >
-                View {product.shortName} series{" "}
+                {product.slug === "cuet-ug" ? "Attempt Free Test" : "Notify Me on Launch"}{" "}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </Link>
             </article>

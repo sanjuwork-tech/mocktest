@@ -58,6 +58,7 @@ export const products: Product[] = [
       "CUET practice tests",
       "CUET General Test mocks",
     ],
+    badge: "13 Full Tests Free",
   },
   {
     id: "iat-rank-booster-2026",
@@ -90,6 +91,7 @@ export const products: Product[] = [
       "IISER aptitude test mocks",
       "IAT online practice",
     ],
+    badge: "Coming Soon",
   },
   {
     id: "niser-nest-2026",
@@ -121,6 +123,7 @@ export const products: Product[] = [
       "NISER entrance mock",
       "NEST practice questions",
     ],
+    badge: "Coming Soon",
   },
   {
     id: "comedk-power-2026",
@@ -138,6 +141,7 @@ export const products: Product[] = [
     accent: "#B8FF34",
     pattern: "PCM · 180 questions · No Negative",
     isBundle: false,
+    badge: "Coming Soon",
     bundleType: "single",
     includedExams: ["comedk"],
     features: [
