@@ -6,6 +6,8 @@ import {
   FileCheck2,
   GraduationCap,
   MoveUpRight,
+  Play,
+  BarChart3,
 } from "lucide-react";
 import { PathwayDepth } from "@/components/motion/pathway-depth";
 import { exams } from "@/data/exams";
@@ -233,29 +235,29 @@ export default function HomePage() {
         <div className="page-shell">
           <p className="eyebrow">A clearer way forward</p>
           <h2>
-            From “what’s out there?”
+            How OurMocks helps you
             <br />
-            to “what’s next?”
+            prepare with clarity.
           </h2>
           <div className="how-grid">
             {[
               [
-                Compass,
+                Play,
                 "01",
-                "Discover your options",
-                "Explore exams by the subjects and opportunities that interest you.",
+                "Take a Free Full-Length Test",
+                "Attempt an official 50-question CUET mock test with real NTA CBT timing and instant scoring.",
+              ],
+              [
+                BarChart3,
+                "02",
+                "Understand Your Mistakes & Pace",
+                "Identify questions where you spent too long, spot high-confidence mistakes, and see topic mastery.",
               ],
               [
                 GraduationCap,
-                "02",
-                "Understand the opportunity",
-                "Read about courses, eligibility and the admission route before choosing.",
-              ],
-              [
-                FileCheck2,
                 "03",
-                "Take the next step",
-                "Check official notices and follow the organiser’s application instructions.",
+                "Follow a Focused Practice Plan",
+                "Turn diagnostics into targeted revision, build stamina, and prepare for your target exam cycle.",
               ],
             ].map(([Icon, number, title, copy]) => {
               const StepIcon = Icon as typeof Compass;
