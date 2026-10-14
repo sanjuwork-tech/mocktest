@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/data/catalog";
 import { exams } from "@/data/exams";
 import { products } from "@/data/catalog";
+import { blogPosts } from "@/data/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
@@ -69,9 +70,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
 
+    // Colleges directory & Blog hub
+    {
+      url: `${siteConfig.url}/colleges`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${siteConfig.url}/blog`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+
     // Individual exam guide pages
     ...exams.map((exam) => ({
       url: `${siteConfig.url}/exams/${exam.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    })),
+
+    // Individual blog strategy articles
+    ...blogPosts.map((post) => ({
+      url: `${siteConfig.url}/blog/${post.slug}`,
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.8,

@@ -14,11 +14,12 @@ export function SiteFooter() {
             </p>
           </div>
           <div>
-            <h2>Explore</h2>
+            <h2>Resources</h2>
             {[
               ["Free Full-Length Tests", "/free-diagnostic"],
               ["All exam details", "/exams"],
-              ["Test series catalog", "/test-series"],
+              ["Top Colleges & Photos", "/colleges"],
+              ["Preparation Blog", "/blog"],
               ["Compare all 4 exams", "/exams/compare"],
               ["Eligibility checker", "/exams/eligibility"],
               ["What exams after 12th?", "/exams/after-class-12"],
@@ -29,12 +30,40 @@ export function SiteFooter() {
             ))}
           </div>
           <div>
-            <h2>OurMocks</h2>
+            <h2>Community & Trust</h2>
             <Link href="/about">Our purpose & Team</Link>
             <Link href="/about#grievance">Grievance & Support</Link>
             <Link href="/privacy">Privacy Policy</Link>
             <Link href="/terms">Terms of Service</Link>
-            <Link href="/admin">Admin sign in</Link>
+            <div style={{ marginTop: "14px", display: "flex", flexDirection: "column", gap: "6px" }}>
+              <span style={{ fontSize: "11px", fontWeight: 700, color: "#64748b", textTransform: "uppercase" }}>
+                Aspirant Communities:
+              </span>
+              <a
+                href="https://t.me/ourmocks"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: "13px", color: "var(--blue, #1f5eff)", textDecoration: "none", fontWeight: 600 }}
+              >
+                ✈️ Telegram Community
+              </a>
+              <a
+                href="https://youtube.com/@ourmocks"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: "13px", color: "#475569", textDecoration: "none" }}
+              >
+                ▶️ YouTube Lectures
+              </a>
+              <a
+                href="https://instagram.com/ourmocks"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ fontSize: "13px", color: "#475569", textDecoration: "none" }}
+              >
+                📸 Instagram Updates
+              </a>
+            </div>
           </div>
         </div>
         <div style={{ marginTop: "24px", paddingTop: "16px", borderTop: "1px solid rgba(0,0,0,0.06)", fontSize: "11px", color: "#64748b", lineHeight: 1.6 }}>
