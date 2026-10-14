@@ -100,7 +100,7 @@ export function TestCard({ product }: { product: Product }) {
         confirmed before enrolment opens.
       </p>
       <Link
-        href="/free-diagnostic"
+        href={product.slug === "cuet-ug" ? "/free-diagnostic" : "#waitlist"}
         className="button-primary"
       >
         {product.slug === "cuet-ug"

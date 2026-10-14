@@ -217,7 +217,7 @@ export const products: Product[] = [
       "Complete PCMB calibrated difficulty",
       "IISER + NISER + Central University cutoffs",
       "Weak-topic diagnostic radar analysis",
-      "12-month validity till 2026 admissions",
+      "Valid for complete 2026–2027 admission cycle (until counselling conclusion)",
     ],
     keywords: [
       "IISER NEST CUET science bundle",
@@ -229,7 +229,7 @@ export const products: Product[] = [
     id: "bundle-all-access-2026",
     slug: "bundle-all-access",
     shortName: "All-Access Pass",
-    title: "OurMocks 2026 All-Access Super Pass",
+    title: "OurMocks All-Access Super Pass (2026–2027 Cycle)",
     subtitle: "Every mock test, every subject, every exam series in one unlimited pass.",
     description:
       "The ultimate all-inclusive preparation pass. Unlocks complete mock series for CUET UG (13 subjects), IISER IAT, NISER NEST, and COMEDK UGET. Take any test anytime, benchmark your scores, and keep all your college options open.",

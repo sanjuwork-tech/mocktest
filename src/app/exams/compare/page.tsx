@@ -20,45 +20,45 @@ export const metadata = pageMetadata(
 const COMPARISON_ROWS = [
   {
     feature: "Primary Focus & Target Courses",
-    cuet: "BA, BSc, BCom, BCA, BTech at 250+ Central, State & Private Universities",
-    iat: "5-Year BS-MS Dual Degree in Science & Research (IISERs, IISc, IIT Madras)",
-    nest: "5-Year Integrated MSc in Basic Sciences (NISER Bhubaneswar & UM-DAE CEBS Mumbai)",
-    comedk: "4-Year B.E. / B.Tech in 190+ Premier Engineering Colleges across Karnataka",
+    cuet: "BA, BSc, BCom, BCA, BTech at participating Central, State & Deemed Universities (e.g. DU, BHU, JNU)",
+    iat: "BS-MS Dual Degree at 7 IISERs, 4-Year BS (Research) at IISc Bangalore, and BS Medical Sciences at IIT Madras",
+    nest: "5-Year Integrated MSc in Basic Sciences at NISER Bhubaneswar & UM-DAE CEBS Mumbai (DAE Institutions)",
+    comedk: "4-Year B.E. / B.Tech in 190+ unaided private engineering institutions across Karnataka (RVCE, BMSCE, MSRIT)",
   },
   {
     feature: "Conducting Body",
     cuet: "National Testing Agency (NTA)",
-    iat: "Joint Admissions Committee (IISERs)",
-    nest: "NISER Bhubaneswar & UM-DAE CEBS",
+    iat: "Joint Admissions Committee (JAC - IISERs)",
+    nest: "NISER Bhubaneswar & UM-DAE CEBS Mumbai",
     comedk: "Consortium of Medical, Engineering & Dental Colleges of Karnataka",
   },
   {
     feature: "Subjects Tested",
-    cuet: "Choice of up to 6 subjects (13 Domains, Languages, General Test)",
-    iat: "Compulsory PCMB (Physics, Chemistry, Maths, Biology)",
-    nest: "PCMB (Physics, Chemistry, Maths, Biology - Best 3 or all 4 scored)",
-    comedk: "Compulsory PCM (Physics, Chemistry, Mathematics)",
+    cuet: "Domain Subjects (e.g. Physics, Maths, Accounts), Languages, and optional General Test (up to 5 papers)",
+    iat: "Compulsory PCMB (Physics, Chemistry, Maths, Biology - 15 questions per subject)",
+    nest: "PCMB (Physics, Chemistry, Maths, Biology - 20 questions per subject; scored on best three sections)",
+    comedk: "Compulsory PCM (Physics, Chemistry, Mathematics - 60 questions per subject)",
   },
   {
     feature: "Question Count & Duration",
-    cuet: "50 Questions per subject · 90 Minutes per slot",
+    cuet: "50 Questions per domain paper · 60 Minutes per slot",
     iat: "60 Questions (15 per subject) · 180 Minutes (3 Hours)",
     nest: "80 Questions (20 per subject) · 210 Minutes (3.5 Hours)",
     comedk: "180 Questions (60 per subject) · 180 Minutes (3 Hours)",
   },
   {
     feature: "Marking Scheme",
-    cuet: "+4 for correct, −1 for incorrect, 0 unanswered",
-    iat: "+4 for correct, −1 for incorrect, 0 unanswered",
-    nest: "+4 or +2.5 depending on section, negative marking varies",
-    comedk: "+1 for correct, NO negative marking (0 penalty)",
+    cuet: "+5 for correct, −1 for incorrect, 0 unanswered (250 marks per paper)",
+    iat: "+4 for correct, −1 for incorrect, 0 unanswered (240 marks total)",
+    nest: "+3 for correct, −1 for incorrect, 0 unanswered (Scored on best 3 sections: 180 marks total)",
+    comedk: "+1 for correct, NO negative marking (0 penalty; 180 marks total)",
   },
   {
     feature: "Class 12 Eligibility",
-    cuet: "Pass in Class 12 with required domain subjects (No strict minimum % for general)",
-    iat: "Class 12 with at least 60% marks (55% for SC/ST/PwD) in Science stream",
-    nest: "Class 12 with at least 60% marks (55% for SC/ST/PwD) in Science stream",
-    comedk: "Class 12 with at least 45% aggregate in Physics & Maths + Chemistry/Bio",
+    cuet: "Pass in Class 12 with required domain subjects (individual universities specify minimum % and combinations)",
+    iat: "Class 12 with at least 60% aggregate (55% for SC/ST/PwD) in Science stream in 2024, 2025, or 2026",
+    nest: "Class 12 with at least 60% aggregate (55% for SC/ST/Divyangjan) in Science stream in 2024, 2025, or 2026. No age limit.",
+    comedk: "Class 12 with at least 45% aggregate in Physics & Maths + Chem/Bio/Tech (40% for SC/ST/OBC Karnataka)",
   },
   {
     feature: "Difficulty Benchmark",
@@ -231,7 +231,7 @@ export default function CompareExamsPage() {
             Choose NISER NEST if:
           </h3>
           <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6 }}>
-            You aim for nuclear and basic science research funded directly by the Department of Atomic Energy (DAE) with generous DISHA scholarships and BARC direct interview pathways.
+            You aim for natural and basic science research at DAE institutes (NISER Bhubaneswar & UM-DAE CEBS Mumbai). Admitted students who maintain the required academic standing are eligible for DISHA scholarship support (₹60,000/yr + mentorship), with direct interview eligibility for BARC Training School for eligible graduates.
           </p>
         </div>
 

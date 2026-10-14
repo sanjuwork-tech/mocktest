@@ -122,7 +122,7 @@ export function CatalogGrid({ products }: { products: Product[] }) {
       </div>
 
       <p className="my-4 text-sm" role="status">
-        {visible.length} mock test series & combo bundles · Proposed 2026 pricing
+        {visible.length} mock test series & combo bundles · 2026–2027 Admission Cycle Passes
       </p>
 
       <div className="mock-grid">

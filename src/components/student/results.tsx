@@ -635,11 +635,11 @@ export function StudentResults({ id }: { id: string }) {
             <details className="student-methodology">
               <summary>How this report is calculated</summary>
               <p>
-                Score = 4 × correct − incorrect. Multiple-select, matching and
+                Score = 5 × correct − incorrect. Multiple-select, matching and
                 ordering are exact-match, with no partial credit. Accuracy =
                 correct ÷ attempted; it is undefined when none are attempted.
                 Topic priority sorts by marks lost relative to an all-correct
-                response: 5 per wrong answer and 4 per unanswered question. Ties
+                response: 6 per wrong answer and 5 per unanswered question. Ties
                 use topic name.
               </p>
               <p>

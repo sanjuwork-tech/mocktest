@@ -4,6 +4,7 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { CatalogGrid } from "@/components/catalog-grid";
 import { products, siteConfig } from "@/data/catalog";
 import { JsonLd } from "@/components/json-ld";
+import { WaitlistForm } from "@/components/waitlist-form";
 
 export const metadata = pageMetadata(
   "Mock test series for CUET, IAT, NEST & COMEDK",
@@ -91,11 +92,9 @@ export default function TestSeriesPage() {
           </div>
         </div>
         <div className="pricing-note">
-          <strong>Proposed pricing · Enrolment not yet open</strong>
+          <strong>2026–2027 Admission Cycle Passes · Early Enrolment Open</strong>
           <p>
-            The prices and inclusions below describe our planned offering. Final
-            prices, exam cycle and access dates will be confirmed before
-            purchase. You can contact us about any series.
+            All test passes include full syllabus coverage, official CBT timed practice, and detailed step-by-step solutions valid throughout the entire 2026–2027 admission and counselling cycle.
           </p>
         </div>
         <div
@@ -129,6 +128,14 @@ export default function TestSeriesPage() {
           </Link>
         </div>
         <CatalogGrid products={products} />
+
+        <WaitlistForm
+          defaultExam="all-access"
+          headline="Join the Priority Series Waitlist"
+          subheadline="Get notified with early enrolment access when full test series for IISER IAT, NEST, COMEDK, and Multi-Exam Passes open."
+          source="test_series_page"
+        />
+
         <nav
           className="related-exam-links"
           aria-label="Individual series pages"

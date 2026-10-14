@@ -35,8 +35,8 @@ export const blogPosts: BlogPost[] = [
       "CUET UG has fundamentally shifted university admissions in India. Learn how to align your Class 12 board preparations with NTA’s domain test demands, master time management, and leverage full-length mock tests.",
     keyTakeaways: [
       "CUET questions strictly follow Class 12 NCERT textbooks; avoid straying into unnecessary Class 11 theory for domain papers.",
-      "The 50 questions in 90 minutes timing requires an average answering speed of under 100 seconds per question including review.",
-      "Negative marking (−1 per error) severely penalizes random guessing; accuracy must exceed 85% for top college cutoffs.",
+      "The 50 questions in 60 minutes timing requires an answering speed of approximately 70 seconds per question including review.",
+      "Official NTA marking awards +5 for correct answers and −1 for incorrect answers (250 marks total per paper); unattempted questions earn 0.",
       "Practicing real full-length CBT tests is critical to prevent fatigue during multi-shift testing days.",
     ],
     contentSections: [
@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
         heading: "1. Understanding the CUET UG 2027 Pattern",
         body: [
           "The Common University Entrance Test (CUET UG) conducted by the National Testing Agency consists of three core sections: Section IA/IB (Languages), Section II (Domain-Specific Subjects), and Section III (General Test).",
-          "For domain subjects like Mathematics, Physics, Chemistry, Accountancy, and Economics, candidates face 50 questions and must manage their time within official NTA testing windows. Each correct answer carries +4 marks, while incorrect answers carry a −1 mark penalty.",
+          "For domain subjects like Mathematics, Physics, Chemistry, Accountancy, and Economics, candidates face 50 questions to be completed within 60 minutes. Under official NTA scoring, each correct answer earns +5 marks, incorrect answers attract a −1 mark penalty, yielding 250 maximum marks per subject.",
         ],
         callout:
           "Pro Tip: Top colleges like SRCC, St. Stephen's, and Hindu College require composite domain percentiles above 98.5%. Consistency in NCERT line-by-line reading is what separates toppers from average scorers.",

@@ -16,6 +16,7 @@ export function SiteFooter() {
           <div>
             <h2>Resources</h2>
             {[
+              ["Aspirant Decision Track", "/resources"],
               ["Free Full-Length Tests", "/free-diagnostic"],
               ["All exam details", "/exams"],
               ["Top Colleges & Photos", "/colleges"],

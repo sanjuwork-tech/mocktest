@@ -70,7 +70,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
 
-    // Colleges directory & Blog hub
+    // Colleges directory, Resources Hub & Blog hub
+    {
+      url: `${siteConfig.url}/resources`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.95,
+    },
     {
       url: `${siteConfig.url}/colleges`,
       lastModified: now,

@@ -227,7 +227,7 @@ export function analyze(questions: Question[], attempt: Attempt) {
       isCorrect,
       status: isCorrect ? "Correct" : attempted ? "Incorrect" : "Unanswered",
       seconds: response?.seconds ?? 0,
-      points: isCorrect ? 4 : attempted ? -1 : 0,
+      points: isCorrect ? 5 : attempted ? -1 : 0,
     };
   });
   const right = rows.filter((r) => r.isCorrect).length;
@@ -246,7 +246,7 @@ export function analyze(questions: Question[], attempt: Attempt) {
         unanswered: subset.length - attempted,
         accuracy: attempted ? Math.round((right / attempted) * 100) : null,
         seconds: subset.reduce((s, r) => s + r.seconds, 0),
-        priority: (attempted - right) * 5 + (subset.length - attempted) * 4,
+        priority: (attempted - right) * 6 + (subset.length - attempted) * 5,
       };
     })
     .sort((a, b) => b.priority - a.priority || a.topic.localeCompare(b.topic));
@@ -256,8 +256,8 @@ export function analyze(questions: Question[], attempt: Attempt) {
     right,
     wrong,
     unanswered: questions.length - right - wrong,
-    score: right * 4 - wrong,
-    max: questions.length * 4,
+    score: right * 5 - wrong,
+    max: questions.length * 5,
     accuracy:
       right + wrong ? Math.round((right / (right + wrong)) * 100) : null,
     activeSeconds: rows.reduce((s, r) => s + r.seconds, 0),

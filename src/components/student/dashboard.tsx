@@ -74,7 +74,7 @@ const EXAM_OPTIONS: ExamOption[] = [
     badge: "13 Full Tests Free",
     subjectsCount: 13,
     totalTests: "13 Full-Length Tests (Paper 1 Free)",
-    pattern: "50 Questions · 90 Mins · +4 / −1",
+    pattern: "50 Questions · 60 Mins · +5 / −1 (250 Marks)",
     description: "Central, State & Top University Admissions (BA, BSc, BCom, BCA, Engineering)",
     subjectIds: [
       "mathematics",
@@ -338,7 +338,7 @@ export function StudentDashboard() {
                 <h2>Launch Full-Length Test 1 Diagnostic Mock</h2>
               </div>
               <span className="student-muted">
-                {displayedSubjects.length} subjects available · 50 questions · 90 minutes · 100% Free
+                {displayedSubjects.length} subjects available · 50 questions · 60 minutes · 250 Marks · 100% Free
               </span>
             </div>
 
@@ -378,8 +378,8 @@ export function StudentDashboard() {
                     <p>{s.subtitle}</p>
                     <div className="student-card-facts">
                       <span>50 questions</span>
-                      <span>Paper 1</span>
-                      <span>200 marks</span>
+                      <span>60 minutes</span>
+                      <span>250 marks</span>
                     </div>
                     <Link
                       href={`/student/tests/${s.id}`}

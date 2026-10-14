@@ -197,6 +197,17 @@ export function CollegesShowcase({
                 >
                   {college.name}
                 </h3>
+                <span
+                  style={{
+                    fontSize: "10px",
+                    color: "rgba(255,255,255,0.75)",
+                    display: "block",
+                    marginTop: "3px",
+                    letterSpacing: "0.03em",
+                  }}
+                >
+                  Campus Architecture · Direct Admissions via Official Portal
+                </span>
               </div>
             </div>
 

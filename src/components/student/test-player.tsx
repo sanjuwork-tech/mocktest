@@ -306,20 +306,20 @@ export function TestPlayer({ subject }: { subject: Subject }) {
             <em>Fifty chances to learn.</em>
           </h1>
           <p>
-            Take this test at your pace within a 90-minute window. Your answers will
+            Take this test at your pace within an official 60-minute CBT window. Your answers will
             autosave with cloud synchronization, and your diagnostic report will turn each
             response into a useful next step.
           </p>
           <div className="student-card-facts">
             <span>50 questions</span>
-            <span>90 minutes</span>
-            <span>200 marks</span>
+            <span>60 minutes</span>
+            <span>250 marks</span>
             <span style={{ color: "var(--blue)", fontWeight: 600 }}>Free Diagnostic Mock</span>
           </div>
           <h2>Before you begin</h2>
           <ul>
             <li>
-              +4 for a correct answer, −1 for an incorrect answer, 0 unanswered.
+              +5 for a correct answer, −1 for an incorrect answer, 0 unanswered (Official NTA CUET format).
             </li>
             <li>
               Multiple correct, matching and ordering require the complete

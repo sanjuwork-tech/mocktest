@@ -83,7 +83,7 @@ export async function startAttempt(
     throw new Error(`No questions available for ${subject}`);
   }
 
-  const durationMinutes = 90;
+  const durationMinutes = 60;
   const startedAt = Date.now();
   const deadline = startedAt + durationMinutes * 60_000;
   const attemptId = crypto.randomUUID();

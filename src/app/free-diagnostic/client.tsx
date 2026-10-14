@@ -156,7 +156,7 @@ export function FreeDiagnosticClient() {
               <Clock size={18} />
             </div>
             <div>
-              <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Real 90 Min Timer</strong>
+              <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Official 60 Min Timer</strong>
               <span style={{ fontSize: "12px", color: "#64748b" }}>Live per-question timer</span>
             </div>
           </div>
@@ -166,7 +166,7 @@ export function FreeDiagnosticClient() {
             </div>
             <div>
               <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Full 50 Questions</strong>
-              <span style={{ fontSize: "12px", color: "#64748b" }}>200 marks official format</span>
+              <span style={{ fontSize: "12px", color: "#64748b" }}>250 marks official format (+5/−1)</span>
             </div>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -279,7 +279,7 @@ export function FreeDiagnosticClient() {
                   CUET UG Test 1 Full-Length Mocks
                 </h2>
                 <p style={{ fontSize: "14px", color: "#475569", margin: 0 }}>
-                  Select any subject below to attempt the full 50-question mock. Marking: <strong>+4 correct, −1 incorrect</strong>. Complete within 90 minutes.
+                  Select any subject below to attempt the full 50-question mock. Marking: <strong>+5 correct, −1 incorrect</strong>. Complete within 60 minutes (250 marks).
                 </p>
               </div>
               <div style={{ textAlign: "right" }}>
@@ -371,9 +371,9 @@ export function FreeDiagnosticClient() {
                       >
                         <span>50 Qs</span>
                         <span>·</span>
-                        <span>90 Mins</span>
+                        <span>60 Mins</span>
                         <span>·</span>
-                        <span>200 Marks</span>
+                        <span>250 Marks</span>
                       </div>
                     </div>
 
