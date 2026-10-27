@@ -1,5 +1,5 @@
 import { apiError, ApiError, requireOrigin } from "@/server/http";
-import { currentStudent } from "@/server/student-auth";
+import { currentStudent } from "@/server/auth";
 import { requireDb } from "@/db/client";
 import { productsTable, ordersTable } from "@/db/schema";
 import { eq } from "drizzle-orm";
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
       productSlug: product.slug,
       amountMinor: product.priceMinor,
       currency: "INR",
-      userId: session.id,
+      userId: session.userId,
       productId: product.id,
       paymentStatus: "pending",
       idempotencyKey,
@@ -70,7 +70,7 @@ export async function POST(request: Request) {
       receipt: `rcpt_${order.id.split('-')[0]}`,
       notes: {
         order_id: order.id,
-        user_id: session.id,
+        user_id: session.userId,
       },
     };
     

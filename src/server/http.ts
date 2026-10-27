@@ -84,12 +84,18 @@ export function apiError(error: unknown) {
   if (code === "23514")
     return json({ error: "The record does not satisfy the data rules." }, 400);
   const requestId = randomUUID();
-  console.error("api_failure", { requestId, code: code ?? "internal" });
+  // Keep the message server-side for debugging; clients only see the request ID.
+  // Database errors are logged by code alone because their messages can echo parameters.
+  console.error("api_failure", {
+    requestId,
+    code: code ?? "internal",
+    message: code ? undefined : error instanceof Error ? error.message : String(error),
+  });
   return json(
     {
-      error: "The service is temporarily unavailable. Please try again.",
+      error: "Something went wrong on our side. Please try again.",
       requestId,
     },
-    503,
+    500,
   );
 }

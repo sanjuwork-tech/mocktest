@@ -1,4 +1,10 @@
-import { StudentLogin } from "@/components/student/login";
+import { Suspense } from "react";
+import { StudentAuthForm } from "@/components/student/auth-form";
+
 export default function Page() {
-  return <StudentLogin />;
+  return (
+    <Suspense>
+      <StudentAuthForm />
+    </Suspense>
+  );
 }

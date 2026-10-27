@@ -24,7 +24,7 @@ export function CheckoutButton({ productSlug, priceMinor, customerName, phone }:
       
       if (!sessionData.authenticated) {
         // You could pass a callback URL if you want, but for now just redirect
-        router.push("/student/auth");
+        router.push(`/student/login?next=${encodeURIComponent(window.location.pathname)}`);
         return;
       }
 
@@ -59,7 +59,7 @@ export function CheckoutButton({ productSlug, priceMinor, customerName, phone }:
         handler: function () {
           // Razorpay returns razorpay_payment_id, razorpay_order_id, razorpay_signature
           // We rely on the webhook for actual fulfillment, but we can optimistically redirect
-          router.push("/student/dashboard?purchase=success");
+          router.push("/student");
         },
         prefill: {
           name: sessionData.user.name,

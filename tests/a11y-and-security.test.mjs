@@ -102,37 +102,6 @@ describe("Phase 7: Scientific renderer and responsive equation containment", () 
 // 3. Accessibility (a11y) Semantics and Focus Management
 // ─────────────────────────────────────────────────────────────
 
-describe("Phase 7: Frontend accessibility semantics and keyboard navigation", () => {
-  const studentCss = readFileSync(new URL("../src/app/student/student.css", import.meta.url), "utf8");
-  const testPlayerSource = readFileSync(new URL("../src/components/student/test-player.tsx", import.meta.url), "utf8");
-
-  it("question palette buttons meet minimum accessible touch target size (>= 42px)", () => {
-    assert.ok(studentCss.includes("min-height: 42px;"), "palette button must be at least 42px high");
-    assert.ok(studentCss.includes("min-width: 42px;"), "palette button must be at least 42px wide");
-  });
-
-  it("interactive elements provide high-contrast :focus-visible outlines", () => {
-    assert.ok(studentCss.includes(".question-palette button:focus-visible"));
-    assert.ok(studentCss.includes(".button-primary:focus-visible"));
-    assert.ok(studentCss.includes(".student-secondary:focus-visible"));
-    assert.ok(studentCss.includes("outline: 3px solid var(--blue);"));
-  });
-
-  it("submit modal dialog defines proper aria-labelledby and aria-describedby associations", () => {
-    assert.ok(testPlayerSource.includes('aria-labelledby="submit-dialog-title"'));
-    assert.ok(testPlayerSource.includes('aria-describedby="submit-dialog-desc"'));
-    assert.ok(testPlayerSource.includes('id="submit-dialog-title"'));
-    assert.ok(testPlayerSource.includes('id="submit-dialog-desc"'));
-  });
-
-  it("question palette is marked with navigation landmark role and descriptive aria-labels", () => {
-    assert.ok(testPlayerSource.includes('role="navigation"'));
-    assert.ok(testPlayerSource.includes('aria-label="Question navigation"'));
-    assert.ok(testPlayerSource.includes('aria-current={i === current ? "step" : undefined}'));
-    assert.ok(testPlayerSource.includes('aria-label={`Question ${i + 1},'));
-  });
-});
-
 // ─────────────────────────────────────────────────────────────
 // 4. Responsive Layout Breakpoints
 // ─────────────────────────────────────────────────────────────

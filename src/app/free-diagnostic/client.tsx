@@ -32,14 +32,24 @@ import {
   ShieldCheck,
   Check,
 } from "lucide-react";
-import { SUBJECTS, type Subject } from "@/lib/student/model";
-import { signIn } from "@/lib/student/store";
+import {
+  EXAMS,
+  SUBJECT_DETAILS,
+  SUBJECT_NAMES,
+  type SubjectId,
+} from "@/lib/exams/catalog";
+
+const SUBJECTS = EXAMS["cuet-ug"].subjects.map((id) => ({
+  id,
+  title: SUBJECT_NAMES[id],
+  ...SUBJECT_DETAILS[id],
+}));
 
 const subjectIcons: Record<string, typeof Sigma> = {
   mathematics: Sigma,
   physics: Atom,
   chemistry: FlaskConical,
-  "biological-science": Dna,
+  biology: Dna,
   accountancy: FileSpreadsheet,
   "computer-science": Code2,
   economics: TrendingUp,
@@ -61,19 +71,10 @@ export function FreeDiagnosticClient() {
   const [waitlistMsg, setWaitlistMsg] = useState("");
   const [startingSubject, setStartingSubject] = useState<string | null>(null);
 
-  const handleStartFullTest = async (subjectId: Subject) => {
+  // Sign-in (or sign-up) happens on the start page, which then opens the free Test 1.
+  const handleStartFullTest = (subjectId: SubjectId) => {
     setStartingSubject(subjectId);
-    try {
-      // Ensure guest session exists if not logged in
-      const res = await fetch("/api/auth/guest", { method: "POST" });
-      if (res.ok) {
-        signIn();
-      }
-    } catch {
-      // Offline fallback
-      signIn();
-    }
-    router.push(`/student/tests/${subjectId}`);
+    router.push(`/student/start?exam=cuet-ug&subject=${subjectId}&test=1`);
   };
 
   const handleWaitlistSubmit = async (e: React.FormEvent, examSlug: string) => {
@@ -401,27 +402,6 @@ export function FreeDiagnosticClient() {
                       >
                         <Play size={16} />
                         {isCurrentlyStarting ? "Loading Test Player…" : "Attempt Full Length Test"}
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => router.push(`/student/results/${s.id}-sample`)}
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          gap: "6px",
-                          width: "100%",
-                          padding: "8px 12px",
-                          borderRadius: "8px",
-                          background: "transparent",
-                          color: "#64748b",
-                          fontSize: "12px",
-                          fontWeight: 500,
-                          cursor: "pointer",
-                          border: "none",
-                        }}
-                      >
-                        <ChartNoAxesCombined size={14} /> Preview Sample Analysis
                       </button>
                     </div>
                   </article>

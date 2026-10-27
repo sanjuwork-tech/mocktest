@@ -1,29 +1,47 @@
 import { z } from "zod";
-import { eq, and } from "drizzle-orm";
+import { and, eq, inArray, sql } from "drizzle-orm";
 import { requireStudent } from "@/server/auth";
 import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
 import { requireDb } from "@/db/client";
 import { finalizeIfOverdue } from "@/server/deadline";
-import { attemptsTable, attemptAnswersTable, testAssignmentsTable } from "@/db/schema";
+import {
+  attemptsTable,
+  attemptAnswersTable,
+  testAssignmentsTable,
+  questionOptionsTable,
+} from "@/db/schema";
 
 export const runtime = "nodejs";
 
 const answerSchema = z.object({
-  answers: z.array(
-    z.object({
-      assignmentId: z.string().uuid(),
-      value: z.unknown().nullable(), // null = clear response
-      expectedSequence: z.number().int().min(0),
-      marked: z.boolean().optional(),
-    }),
-  ).min(1).max(200),
+  answers: z
+    .array(
+      z.object({
+        assignmentId: z.string().uuid(),
+        // Option ID of the chosen answer; null clears the response.
+        value: z.string().min(1).max(100).nullable(),
+        expectedSequence: z.number().int().min(0),
+        marked: z.boolean().optional(),
+      }),
+    )
+    .min(1)
+    .max(200),
 });
 
+type SaveResult = {
+  assignmentId: string;
+  status: "saved" | "conflict" | "error";
+  sequence?: number;
+  value?: unknown;
+  marked?: boolean;
+  message?: string;
+};
+
 /**
- * PATCH /api/attempts/:id/answers — Save answers with conflict-safe versioning
+ * PATCH /api/attempts/:id/answers — Save answers with conflict-safe versioning.
  *
- * Each answer has a monotonic sequence number. Stale writes (wrong expectedSequence)
- * return 409 with the authoritative current state.
+ * Each answer carries the sequence the client last saw. A stale write is reported as a
+ * conflict together with the stored value, so the client can adopt the server's state.
  */
 export async function PATCH(
   request: Request,
@@ -34,155 +52,107 @@ export async function PATCH(
     const student = await requireStudent();
     const { id: attemptId } = await params;
 
-    const body = await readJson(request, 65536); // Larger limit for batch saves
-    const parsed = answerSchema.safeParse(body);
-    if (!parsed.success) {
-      return json({ error: "Invalid answer data.", details: parsed.error.issues }, 400);
-    }
+    const parsed = answerSchema.safeParse(await readJson(request, 65536));
+    if (!parsed.success) throw new ApiError(400, "Invalid answer data.");
 
     const db = requireDb();
+    if (await finalizeIfOverdue(attemptId))
+      throw new ApiError(410, "Time is up. Your saved answers have been submitted.");
 
-    // 1. Verify ownership and status
-    const [attempt] = await db
-      .select()
-      .from(attemptsTable)
-      .where(eq(attemptsTable.id, attemptId));
+    const results = await db.transaction(async (tx) => {
+      // Locking the attempt makes saves and submission mutually exclusive.
+      const [attempt] = await tx
+        .select()
+        .from(attemptsTable)
+        .where(eq(attemptsTable.id, attemptId))
+        .for("update");
+      if (!attempt || attempt.userId !== student.userId)
+        throw new ApiError(404, "Attempt not found.");
+      if (attempt.status !== "in_progress")
+        throw new ApiError(409, "This attempt has already been submitted.");
+      if (new Date() > attempt.deadline)
+        throw new ApiError(410, "Time is up. Your saved answers have been submitted.");
 
-    if (!attempt) throw new ApiError(404, "Attempt not found.");
-    if (attempt.userId !== student.userId) {
-      throw new ApiError(403, "You do not have access to this attempt.");
-    }
-
-    // 2. Check if overdue
-    const timedOut = await finalizeIfOverdue(attemptId);
-    if (timedOut) {
-      throw new ApiError(410, "This attempt has timed out. Your previous answers have been saved.");
-    }
-
-    if (attempt.status !== "in_progress") {
-      throw new ApiError(409, `Attempt is ${attempt.status}. No further answers can be saved.`);
-    }
-
-    // 3. Re-check deadline (server-authoritative)
-    if (new Date() > attempt.deadline) {
-      await finalizeIfOverdue(attemptId);
-      throw new ApiError(410, "Time has expired. Your previous answers have been saved.");
-    }
-
-    // 4. Process each answer with optimistic concurrency
-    const results: Array<{
-      assignmentId: string;
-      status: "saved" | "conflict" | "error";
-      sequence?: number;
-      message?: string;
-    }> = [];
-
-    for (const ans of parsed.data.answers) {
-      // Verify the assignment belongs to this test version
-      const [assignment] = await db
-        .select({ id: testAssignmentsTable.id })
+      const ids = [...new Set(parsed.data.answers.map((a) => a.assignmentId))];
+      const assignments = await tx
+        .select({ id: testAssignmentsTable.id, revisionId: testAssignmentsTable.revisionId })
         .from(testAssignmentsTable)
         .where(
           and(
-            eq(testAssignmentsTable.id, ans.assignmentId),
             eq(testAssignmentsTable.testVersionId, attempt.testVersionId),
+            inArray(testAssignmentsTable.id, ids),
           ),
         );
+      const revisionByAssignment = new Map(assignments.map((a) => [a.id, a.revisionId]));
+      const options = assignments.length
+        ? await tx
+            .select({ revisionId: questionOptionsTable.revisionId, key: questionOptionsTable.optionKey })
+            .from(questionOptionsTable)
+            .where(inArray(questionOptionsTable.revisionId, assignments.map((a) => a.revisionId)))
+        : [];
+      const validOptions = new Set(options.map((o) => `${o.revisionId}:${o.key}`));
 
-      if (!assignment) {
-        results.push({
-          assignmentId: ans.assignmentId,
-          status: "error",
-          message: "Assignment not found in this test.",
-        });
-        continue;
-      }
-
-      // Check existing answer
-      const [existing] = await db
-        .select({
-          sequence: attemptAnswersTable.sequence,
-          value: attemptAnswersTable.value,
-          marked: attemptAnswersTable.marked,
-        })
+      const existingRows = await tx
+        .select()
         .from(attemptAnswersTable)
-        .where(
-          and(
-            eq(attemptAnswersTable.attemptId, attemptId),
-            eq(attemptAnswersTable.assignmentId, ans.assignmentId),
-          ),
-        );
+        .where(and(eq(attemptAnswersTable.attemptId, attemptId), inArray(attemptAnswersTable.assignmentId, ids)));
+      const existing = new Map(existingRows.map((r) => [r.assignmentId, r]));
 
-      if (existing) {
-        // Optimistic concurrency check
-        if (ans.expectedSequence !== existing.sequence) {
-          results.push({
+      const out: SaveResult[] = [];
+      for (const ans of parsed.data.answers) {
+        const revisionId = revisionByAssignment.get(ans.assignmentId);
+        if (!revisionId) {
+          out.push({ assignmentId: ans.assignmentId, status: "error", message: "Question not in this test." });
+          continue;
+        }
+        if (ans.value !== null && !validOptions.has(`${revisionId}:${ans.value}`)) {
+          out.push({ assignmentId: ans.assignmentId, status: "error", message: "Unknown option." });
+          continue;
+        }
+
+        const current = existing.get(ans.assignmentId);
+        const currentSequence = current?.sequence ?? 0;
+        if (ans.expectedSequence !== currentSequence) {
+          out.push({
             assignmentId: ans.assignmentId,
             status: "conflict",
-            sequence: existing.sequence,
-            message: `Expected sequence ${ans.expectedSequence} but current is ${existing.sequence}.`,
+            sequence: currentSequence,
+            value: current?.value ?? null,
+            marked: current?.marked ?? false,
           });
           continue;
         }
 
-        // Update existing answer
-        const newSequence = existing.sequence + 1;
-        await db
-          .update(attemptAnswersTable)
-          .set({
-            value: ans.value,
-            sequence: newSequence,
-            marked: ans.marked ?? existing.marked,
-            updatedAt: new Date(),
-          })
-          .where(
-            and(
-              eq(attemptAnswersTable.attemptId, attemptId),
-              eq(attemptAnswersTable.assignmentId, ans.assignmentId),
-            ),
-          );
-
-        results.push({
-          assignmentId: ans.assignmentId,
-          status: "saved",
-          sequence: newSequence,
-        });
-      } else {
-        // First answer — expectedSequence must be 0
-        if (ans.expectedSequence !== 0) {
-          results.push({
+        const sequence = currentSequence + 1;
+        // The column is NOT NULL jsonb, so a cleared answer is stored as JSON null.
+        const value = ans.value === null ? sql`'null'::jsonb` : ans.value;
+        const marked = ans.marked ?? current?.marked ?? false;
+        if (current) {
+          await tx
+            .update(attemptAnswersTable)
+            .set({ value, sequence, marked, updatedAt: new Date() })
+            .where(
+              and(
+                eq(attemptAnswersTable.attemptId, attemptId),
+                eq(attemptAnswersTable.assignmentId, ans.assignmentId),
+              ),
+            );
+        } else {
+          await tx.insert(attemptAnswersTable).values({
+            attemptId,
             assignmentId: ans.assignmentId,
-            status: "conflict",
-            sequence: 0,
-            message: "No previous answer exists. Expected sequence should be 0.",
+            testVersionId: attempt.testVersionId,
+            value,
+            sequence,
+            marked,
           });
-          continue;
         }
-
-        await db.insert(attemptAnswersTable).values({
-          attemptId,
-          assignmentId: ans.assignmentId,
-          testVersionId: attempt.testVersionId,
-          value: ans.value,
-          sequence: 1,
-          marked: ans.marked ?? false,
-        });
-
-        results.push({
-          assignmentId: ans.assignmentId,
-          status: "saved",
-          sequence: 1,
-        });
+        out.push({ assignmentId: ans.assignmentId, status: "saved", sequence });
       }
-    }
+      return out;
+    });
 
-    const hasConflicts = results.some((r) => r.status === "conflict");
-
-    return json({
-      ok: true,
-      serverNow: new Date().toISOString(),
-      results,
-    }, hasConflicts ? 207 : 200); // 207 Multi-Status if mixed results
+    return json({ ok: true, serverNow: new Date().toISOString(), results });
   } catch (e) {
     return apiError(e);
   }

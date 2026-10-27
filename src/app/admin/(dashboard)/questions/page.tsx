@@ -16,6 +16,7 @@ import {
   Eye,
   AlertCircle,
 } from "lucide-react";
+import { SUBJECT_IDS, SUBJECT_NAMES } from "@/lib/exams/catalog";
 
 type QuestionItem = {
   revisionId: string;
@@ -42,12 +43,7 @@ type QuestionItem = {
 
 const SUBJECTS = [
   { value: "", label: "All Subjects" },
-  { value: "biology", label: "Biology" },
-  { value: "chemistry", label: "Chemistry" },
-  { value: "mathematics", label: "Mathematics" },
-  { value: "physics", label: "Physics" },
-  { value: "english", label: "English" },
-  { value: "general-aptitude", label: "General Aptitude" },
+  ...SUBJECT_IDS.map((id) => ({ value: id, label: SUBJECT_NAMES[id] })),
 ];
 
 const STATUSES = [

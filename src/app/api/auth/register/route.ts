@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { eq } from "drizzle-orm";
 import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
-import { rateLimit } from "@/server/auth";
+import { rateLimit, startStudentSession } from "@/server/auth";
 import { requireDb } from "@/db/client";
 import { usersTable, auditLogTable } from "@/db/schema";
 import { hashPassword, normalizeEmail, tokenHash } from "@/server/security";
@@ -46,7 +46,7 @@ export async function POST(request: Request) {
     }
 
     // Hash password and create user
-    const passwordHash = await hashPassword(parsed.data.password);
+    const passwordHash = await hashPassword(parsed.data.password, 8);
 
     const [user] = await db
       .insert(usersTable)
@@ -71,7 +71,9 @@ export async function POST(request: Request) {
       entityId: user.id,
     });
 
-    return json({ ok: true, message: "Account created successfully." }, 201);
+    await startStudentSession(user.id);
+
+    return json({ ok: true, user: { id: user.id, name: user.name, email: user.email } }, 201);
   } catch (e) {
     return apiError(e);
   }

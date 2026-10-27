@@ -221,18 +221,30 @@ export async function recentAudit() {
 // Student authentication (Phase 4)
 // ──────────────────────────────────────────────────
 
-export const STUDENT_COOKIE = "testdisha_student";
-export const STUDENT_SESSION_SECONDS = 24 * 60 * 60; // 24 hours
+export const STUDENT_COOKIE = "ourmocks_student";
+export const STUDENT_SESSION_SECONDS = 30 * 24 * 60 * 60; // 30 days
+
+/** Issues a student session and sets its cookie. Every student sign-in path ends here. */
+export async function startStudentSession(userId: string) {
+  const dbConn = requireDb();
+  const token = newSessionToken();
+  const expiresAt = new Date(Date.now() + STUDENT_SESSION_SECONDS * 1000);
+  await dbConn
+    .insert(sessionsTable)
+    .values({ userId, tokenHash: tokenHash(token), expiresAt });
+  (await cookies()).set(STUDENT_COOKIE, token, {
+    httpOnly: true,
+    sameSite: "lax",
+    secure: process.env.NODE_ENV === "production",
+    path: "/",
+    maxAge: STUDENT_SESSION_SECONDS,
+  });
+  return { expiresAt };
+}
 
 export async function studentLogin(email: string, password: string) {
-  if (!db) {
-    const token = newSessionToken();
-    const expiresAt = new Date(Date.now() + STUDENT_SESSION_SECONDS * 1000);
-    return { token, expiresAt, userId: "demo-student-id", name: "Demo Aspirant", email: normalizeEmail(email) };
-  }
   const dbConn = requireDb();
   email = normalizeEmail(email);
-  await rateLimit("login:global", 100, 60);
   await rateLimit("login:student:" + tokenHash(email), 5, 15 * 60);
 
   const [user] = await dbConn
@@ -255,44 +267,21 @@ export async function studentLogin(email: string, password: string) {
     throw new ApiError(401, "Email or password is incorrect.");
   }
 
-  const token = newSessionToken();
-  const expiresAt = new Date(Date.now() + STUDENT_SESSION_SECONDS * 1000);
-  await dbConn.transaction(async (tx) => {
-    const [current] = await tx
-      .select()
-      .from(usersTable)
-      .where(eq(usersTable.id, user.id))
-      .for("update");
-    if (!current?.active || current.passwordHash !== user.passwordHash || current.role !== "student")
-      throw new ApiError(401, "Email or password is incorrect.");
-    await tx
-      .insert(sessionsTable)
-      .values({ userId: user.id, tokenHash: tokenHash(token), expiresAt });
-    await tx
-      .delete(authRateLimitsTable)
-      .where(eq(authRateLimitsTable.key, "login:student:" + tokenHash(email)));
-    await tx.insert(auditLogTable).values({
-      actorId: user.id,
-      action: "student.login.succeeded",
-      entityType: "authentication",
-    });
+  await dbConn
+    .delete(authRateLimitsTable)
+    .where(eq(authRateLimitsTable.key, "login:student:" + tokenHash(email)));
+  await dbConn.insert(auditLogTable).values({
+    actorId: user.id,
+    action: "student.login.succeeded",
+    entityType: "authentication",
   });
-  return { token, expiresAt, userId: user.id, name: user.name, email: user.email };
+  await startStudentSession(user.id);
+  return { userId: user.id, name: user.name, email: user.email };
 }
 
 export async function currentStudent() {
   const token = (await cookies()).get(STUDENT_COOKIE)?.value;
-  if (!token || !/^[A-Za-z0-9_-]{43}$/.test(token)) return null;
-  if (!db) {
-    return {
-      sessionId: "demo-student-session",
-      expiresAt: new Date(Date.now() + STUDENT_SESSION_SECONDS * 1000),
-      userId: "demo-student-id",
-      email: "student@testdisha.demo",
-      name: "Demo Aspirant",
-      role: "student",
-    };
-  }
+  if (!token || !/^[A-Za-z0-9_-]{43}$/.test(token) || !db) return null;
   const [entry] = await db
     .select({
       sessionId: sessionsTable.id,

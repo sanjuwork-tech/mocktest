@@ -10,8 +10,7 @@ export const runtime = "nodejs";
 /**
  * POST /api/attempts/:id/submit — Manual submission
  *
- * Idempotent: repeated submit returns the same result.
- * Scoring is deferred to Phase 5 — this phase just finalizes the attempt.
+ * Idempotent: repeated submit returns the same result and never re-scores.
  */
 export async function POST(
   request: Request,
@@ -32,11 +31,12 @@ export async function POST(
 
     if (!attempt) throw new ApiError(404, "Attempt not found.");
     if (attempt.userId !== student.userId) {
-      throw new ApiError(403, "You do not have access to this attempt.");
+      throw new ApiError(404, "Attempt not found.");
     }
 
     // 2. Idempotent check — already submitted or timed out
     if (attempt.status === "submitted" || attempt.status === "timed_out") {
+      await processAttemptScoring(attemptId); // no-op once scored; retries a scoring that failed earlier
       return json({
         ok: true,
         replay: true,
@@ -71,11 +71,13 @@ export async function POST(
         return;
       }
 
+      // A submit that arrives after the deadline is recorded as a timeout at the deadline.
+      const late = serverNow > locked.deadline;
       await tx
         .update(attemptsTable)
         .set({
-          status: "submitted",
-          submittedAt: serverNow,
+          status: late ? "timed_out" : "submitted",
+          submittedAt: late ? locked.deadline : serverNow,
         })
         .where(eq(attemptsTable.id, attemptId));
 

@@ -1,141 +1,86 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useEffect, useState, type ReactNode } from "react";
-import { ArrowLeft, LogOut, Sparkles, CheckCircle2 } from "lucide-react";
-import {
-  signIn,
-  signOut,
-  storageWarning,
-  useDemo,
-  useReady,
-} from "@/lib/student/store";
+import { usePathname, useRouter } from "next/navigation";
+import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
+import { ArrowLeft, LogOut } from "lucide-react";
+import { api } from "./api";
 
-type StudentInfo = {
-  id: string;
-  name: string;
-  email: string;
-  avatarUrl?: string | null;
-  provider: string;
-  isGuest?: boolean;
-};
+type Student = { id: string; name: string; email: string };
 
-export function StudentShell({ children }: { children: ReactNode }) {
-  const s = useDemo();
-  const ready = useReady();
+const StudentContext = createContext<Student | null>(null);
+export const useStudent = () => useContext(StudentContext);
+
+/** Requires a signed-in student; otherwise sends them to sign in and back here afterwards. */
+export function StudentShell({ children, examMode = false }: { children: ReactNode; examMode?: boolean }) {
   const router = useRouter();
-  const [serverStudent, setServerStudent] = useState<StudentInfo | null>(null);
-  const [checkedAuth, setCheckedAuth] = useState(false);
+  const pathname = usePathname();
+  const [student, setStudent] = useState<Student | null>(null);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     let active = true;
-    async function checkServerSession() {
-      try {
-        const res = await fetch("/api/student/me");
-        if (res.ok) {
-          const data = await res.json();
-          if (active && data.student) {
-            setServerStudent(data.student);
-            if (!s.signedIn) signIn();
-          }
-        }
-      } catch {
-        // Fallback to client state
-      } finally {
-        if (active) setCheckedAuth(true);
-      }
-    }
-    checkServerSession();
+    api<{ authenticated: boolean; user?: Student }>("/api/auth/session")
+      .then((data) => {
+        if (!active) return;
+        if (data.user) return setStudent(data.user);
+        const next = pathname + window.location.search;
+        router.replace(`/student/login?next=${encodeURIComponent(next)}`);
+      })
+      .catch((e: unknown) => {
+        if (active) setError(e instanceof Error ? e.message : "Could not open your practice space.");
+      });
     return () => {
       active = false;
     };
-  }, [s.signedIn]);
+  }, [pathname, router]);
 
-  useEffect(() => {
-    if (ready && checkedAuth && !s.signedIn && !serverStudent) {
-      router.replace("/student/login");
-    }
-  }, [ready, checkedAuth, s.signedIn, serverStudent, router]);
-
-  if (!ready || (!checkedAuth && !s.signedIn)) {
-    return (
-      <main id="main-content" className="page-shell student-main">
-        <p role="status">Opening your practice space…</p>
-        <Link href="/student/login">Student demo login</Link>
-      </main>
-    );
-  }
-
-  const studentName = serverStudent?.name || "Demo student";
-  const initials = studentName.charAt(0).toUpperCase() || "S";
-  const isGuest = serverStudent?.isGuest ?? true;
-
-  const handleLogout = async () => {
-    try {
-      await fetch("/api/auth/logout", { method: "POST" });
-    } catch {
-      // Ignore
-    }
-    signOut();
-    router.push("/student/login");
+  const signOut = async () => {
+    await api("/api/auth/logout", { method: "POST" }).catch(() => undefined);
+    router.replace("/student/login");
   };
 
-  return (
-    <main id="main-content" tabIndex={-1} className="page-shell student-main">
-      <div className="student-topbar">
-        <Link href="/student" className="text-link">
-          <ArrowLeft size={16} /> My practice space
-        </Link>
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          {serverStudent?.avatarUrl ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={serverStudent.avatarUrl}
-              alt={studentName}
-              className="student-avatar"
-              style={{ width: "32px", height: "32px", borderRadius: "50%" }}
-            />
-          ) : (
-            <span className="student-avatar">{initials}</span>
-          )}
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <span style={{ fontWeight: 600, fontSize: "14px", color: "var(--navy)" }}>
-              {studentName}
-            </span>
-            <span style={{ fontSize: "11px", color: "#6b7c96" }}>
-              {isGuest ? "Guest Preview" : "Google Account"}
-            </span>
-          </div>
-          <button onClick={handleLogout} className="student-icon-button" title="Sign out" aria-label="Sign out">
-            <LogOut size={16} aria-hidden="true" /> Sign out
-          </button>
-        </div>
-      </div>
-
-      <p className="demo-ribbon">
-        {isGuest ? (
-          <>
-            <Sparkles size={16} /> Guest preview · Free Diagnostic Mocks active ·{" "}
-            <Link href="/student/login" style={{ textDecoration: "underline", color: "inherit" }}>
-              Sign in with Google
-            </Link>{" "}
-            to sync attempts across devices
-          </>
+  if (!student)
+    return (
+      <main id="main-content" className="page-shell student-main">
+        {error ? (
+          <p className="student-warning" role="alert">
+            {error} <button className="student-text-button" onClick={() => window.location.reload()}>Try again</button>
+          </p>
         ) : (
-          <>
-            <CheckCircle2 size={16} style={{ color: "var(--blue)" }} /> Verified Student Space ·
-            Real-time autosave with local offline resilience
-          </>
+          <p role="status">Opening your practice space…</p>
         )}
-      </p>
+      </main>
+    );
 
-      {storageWarning() && (
-        <p className="student-warning" role="alert">
-          {storageWarning()}
-        </p>
-      )}
-
-      {children}
-    </main>
+  return (
+    <StudentContext.Provider value={student}>
+      <main
+        id="main-content"
+        tabIndex={-1}
+        className={`page-shell student-main${examMode ? " exam-mode" : ""}`}
+        data-exam-mode={examMode || undefined}
+      >
+        {!examMode && (
+          <div className="student-topbar">
+            <Link href="/student" className="text-link">
+              <ArrowLeft size={16} /> My practice space
+            </Link>
+            <div className="student-account">
+              <span className="student-avatar" aria-hidden="true">
+                {student.name.charAt(0).toUpperCase()}
+              </span>
+              <span className="student-account-name">
+                <strong>{student.name}</strong>
+                <small>{student.email}</small>
+              </span>
+              <button onClick={signOut} className="student-icon-button">
+                <LogOut size={16} aria-hidden="true" /> Sign out
+              </button>
+            </div>
+          </div>
+        )}
+        {children}
+      </main>
+    </StudentContext.Provider>
   );
 }

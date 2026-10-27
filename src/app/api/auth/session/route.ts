@@ -7,7 +7,7 @@ export async function GET() {
   try {
     const student = await currentStudent();
     if (!student) {
-      return json({ authenticated: false }, 401);
+      return json({ authenticated: false });
     }
 
     return json({

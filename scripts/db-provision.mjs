@@ -22,17 +22,22 @@ try {
     `GRANT CONNECT ON DATABASE "${decodeURIComponent(url.pathname.slice(1)).replaceAll('"', '""')}" TO "${role}"`,
   );
   await sql.unsafe(`GRANT USAGE ON SCHEMA public TO "${role}"`);
+  // The app never deletes business records; it only appends audit rows and expires rate limits.
+  const readWriteTables = [
+    "users", "sessions", "products", "orders", "payment_events", "entitlements",
+    "exams", "exam_cycles", "assets", "question_imports", "question_import_items",
+    "question_bank", "question_revisions", "question_options", "private_answer_keys",
+    "tests", "test_versions", "test_sections", "test_assignments",
+    "attempts", "attempt_answers", "attempt_results",
+  ];
   await sql.unsafe(
-    `GRANT SELECT, INSERT, UPDATE ON users, sessions, products TO "${role}"`,
+    `GRANT SELECT, INSERT, UPDATE ON ${readWriteTables.join(", ")} TO "${role}"`,
   );
   await sql.unsafe(`GRANT SELECT, INSERT ON audit_log TO "${role}"`);
   await sql.unsafe(
     `GRANT SELECT, INSERT, UPDATE, DELETE ON auth_rate_limits TO "${role}"`,
   );
-  // Answer keys, attempts and payment tables deliberately have no runtime grants yet.
-  console.log(
-    "Applied Phase 1 runtime grants. Private question/answer and payment tables remain inaccessible.",
-  );
+  console.log("Applied runtime grants.");
 } finally {
   await sql.end();
 }

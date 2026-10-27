@@ -1,21 +1,9 @@
 import "server-only";
-import { and, eq, gt, isNull } from "drizzle-orm";
-import { cookies } from "next/headers";
-import { db } from "../db/client.ts";
-import { sessionsTable, usersTable } from "../db/schema.ts";
-import { newSessionToken, normalizeEmail, tokenHash } from "./security.ts";
-
-export const STUDENT_COOKIE = "testdisha_student_session";
-export const STUDENT_SESSION_SECONDS = 30 * 24 * 60 * 60; // 30 days
-
-export type StudentProfile = {
-  id: string;
-  email: string;
-  name: string;
-  avatarUrl?: string | null;
-  provider: string;
-  isGuest?: boolean;
-};
+import { eq } from "drizzle-orm";
+import { requireDb } from "../db/client.ts";
+import { usersTable } from "../db/schema.ts";
+import { startStudentSession } from "./auth.ts";
+import { normalizeEmail } from "./security.ts";
 
 export const OAUTH_STATE_COOKIE = "ourmocks_oauth_state";
 
@@ -101,181 +89,52 @@ export async function exchangeGoogleCode(code: string, redirectUri: string) {
   };
 }
 
+/** Signs a Google-verified student in, creating the account on first use. */
 export async function createStudentSession(profile: {
   email: string;
   name: string;
-  provider?: string;
+  provider: string;
   providerId?: string;
   avatarUrl?: string | null;
-  isGuest?: boolean;
-}): Promise<{ student: StudentProfile; token: string }> {
-  const token = newSessionToken();
-  const expiresAt = new Date(Date.now() + STUDENT_SESSION_SECONDS * 1000);
-  const cookieStore = await cookies();
+}) {
+  const db = requireDb();
+  const email = normalizeEmail(profile.email);
+  let [user] = await db
+    .select()
+    .from(usersTable)
+    .where(eq(usersTable.email, email))
+    .limit(1);
 
-  if (db) {
-    const email = normalizeEmail(profile.email);
-    // Find or create student user
-    let [user] = await db
-      .select()
-      .from(usersTable)
-      .where(eq(usersTable.email, email))
-      .limit(1);
-
-    if (user && user.role !== "student") {
-      // Staff accounts sign in through the admin login only.
-      throw new Error("This account cannot use student sign-in.");
-    }
-
-    if (!user) {
-      const [inserted] = await db
-        .insert(usersTable)
-        .values({
-          email,
-          name: profile.name,
-          provider: profile.provider || (profile.isGuest ? "guest" : "google"),
-          providerId: profile.providerId || null,
-          avatarUrl: profile.avatarUrl || null,
-          role: "student",
-          active: true,
-        })
-        .returning();
-      user = inserted;
-    } else {
-      // Update avatar or provider info if provided
-      if (profile.avatarUrl || profile.providerId) {
-        await db
-          .update(usersTable)
-          .set({
-            name: profile.name || user.name,
-            avatarUrl: profile.avatarUrl || user.avatarUrl,
-            providerId: profile.providerId || user.providerId,
-            updatedAt: new Date(),
-          })
-          .where(eq(usersTable.id, user.id));
-      }
-    }
-
-    await db.insert(sessionsTable).values({
-      userId: user.id,
-      tokenHash: tokenHash(token),
-      expiresAt,
-    });
-
-    cookieStore.set(STUDENT_COOKIE, token, {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
-      maxAge: STUDENT_SESSION_SECONDS,
-      path: "/",
-    });
-
-    return {
-      student: {
-        id: user.id,
-        email: user.email,
-        name: user.name,
-        avatarUrl: user.avatarUrl,
-        provider: user.provider,
-        isGuest: user.provider === "guest",
-      },
-      token,
-    };
+  if (user && user.role !== "student") {
+    // Staff accounts sign in through the admin login only.
+    throw new Error("This account cannot use student sign-in.");
   }
 
-  // Fallback when DB is not configured (Guest / Dev Demo mode)
-  const mockId = "guest-" + token.slice(0, 12);
-  const fallbackStudent: StudentProfile = {
-    id: mockId,
-    email: profile.email,
-    name: profile.name,
-    avatarUrl: profile.avatarUrl || null,
-    provider: profile.provider || "guest",
-    isGuest: true,
-  };
-
-  cookieStore.set(STUDENT_COOKIE, token, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
-    maxAge: STUDENT_SESSION_SECONDS,
-    path: "/",
-  });
-
-  return { student: fallbackStudent, token };
-}
-
-export async function currentStudent(): Promise<StudentProfile | null> {
-  const cookieStore = await cookies();
-  const token = cookieStore.get(STUDENT_COOKIE)?.value;
-  if (!token || !/^[A-Za-z0-9_-]{43}$/.test(token)) return null;
-
-  if (db) {
-    const [entry] = await db
-      .select({
-        sessionId: sessionsTable.id,
-        expiresAt: sessionsTable.expiresAt,
-        userId: usersTable.id,
-        email: usersTable.email,
-        name: usersTable.name,
-        avatarUrl: usersTable.avatarUrl,
-        provider: usersTable.provider,
-        role: usersTable.role,
-        active: usersTable.active,
+  if (!user) {
+    [user] = await db
+      .insert(usersTable)
+      .values({
+        email,
+        name: profile.name,
+        provider: profile.provider,
+        providerId: profile.providerId ?? null,
+        avatarUrl: profile.avatarUrl ?? null,
+        role: "student",
+        active: true,
       })
-      .from(sessionsTable)
-      .innerJoin(usersTable, eq(usersTable.id, sessionsTable.userId))
-      .where(
-        and(
-          eq(sessionsTable.tokenHash, tokenHash(token)),
-          gt(sessionsTable.expiresAt, new Date()),
-          isNull(sessionsTable.revokedAt),
-          eq(usersTable.active, true),
-        ),
-      )
-      .limit(1);
-
-    if (!entry) return null;
-
-    return {
-      id: entry.userId,
-      email: entry.email,
-      name: entry.name,
-      avatarUrl: entry.avatarUrl,
-      provider: entry.provider,
-      isGuest: entry.provider === "guest",
-    };
+      .returning();
+  } else if (profile.avatarUrl || profile.providerId) {
+    await db
+      .update(usersTable)
+      .set({
+        avatarUrl: profile.avatarUrl ?? user.avatarUrl,
+        providerId: profile.providerId ?? user.providerId,
+        updatedAt: new Date(),
+      })
+      .where(eq(usersTable.id, user.id));
   }
 
-  // DB unavailable fallback session check
-  return {
-    id: "guest-" + token.slice(0, 12),
-    email: "student@testdisha.demo",
-    name: "Demo Aspirant",
-    avatarUrl: null,
-    provider: "guest",
-    isGuest: true,
-  };
-}
-
-export async function logoutStudent() {
-  const cookieStore = await cookies();
-  const token = cookieStore.get(STUDENT_COOKIE)?.value;
-  if (token && db) {
-    try {
-      await db
-        .update(sessionsTable)
-        .set({ revokedAt: new Date() })
-        .where(
-          and(
-            eq(sessionsTable.tokenHash, tokenHash(token)),
-            isNull(sessionsTable.revokedAt),
-          ),
-        );
-    } catch {
-      // Ignore DB error during logout
-    }
-  }
-
-  cookieStore.delete(STUDENT_COOKIE);
+  if (!user.active) throw new Error("This account is disabled.");
+  await startStudentSession(user.id);
+  return user;
 }

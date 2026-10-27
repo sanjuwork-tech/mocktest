@@ -34,9 +34,9 @@ function derive(password: string, salt: string): Promise<Buffer> {
     ),
   );
 }
-export async function hashPassword(password: string) {
-  if (password.length < 12 || password.length > 128)
-    throw new Error("Use a password between 12 and 128 characters.");
+export async function hashPassword(password: string, minLength = 12) {
+  if (password.length < minLength || password.length > 128)
+    throw new Error(`Use a password between ${minLength} and 128 characters.`);
   const salt = randomBytes(16).toString("hex");
   const key = await derive(password, salt);
   return `scrypt:131072:8:1:${salt}:${key.toString("hex")}`;

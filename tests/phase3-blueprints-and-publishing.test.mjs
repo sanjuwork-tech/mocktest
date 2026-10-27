@@ -42,19 +42,18 @@ test("Phase 3: Blueprint sections strictly reconcile with duration, question cou
   assert.equal(iat.totalQuestions, 60);
   assert.equal(iat.totalMarks, 240);
 
-  // 2. NEST 2026: 4 sections of 20 questions = 80 Qs, 80 * 3 = 240 marks, 180 min
+  // 2. NEST 2026: 4 sections of 20 questions (+3/−1), 180 min; only the best 3 sections count → 180 marks
   const nest = NEST_2026_BLUEPRINT;
   assert.equal(nest.sections.length, 4);
   assert.equal(
     nest.sections.reduce((sum, s) => sum + s.questionCount, 0),
     nest.totalQuestions
   );
-  assert.equal(
-    nest.sections.reduce((sum, s) => sum + s.questionCount * s.marksPerQuestion, 0),
-    nest.totalMarks
-  );
+  assert.equal(nest.scoringPolicy.bestSections, 3);
+  assert.equal(nest.sections[0].questionCount * nest.sections[0].marksPerQuestion * 3, nest.totalMarks);
+  assert.equal(nest.durationMinutes, 180);
   assert.equal(nest.totalQuestions, 80);
-  assert.equal(nest.totalMarks, 240);
+  assert.equal(nest.totalMarks, 180);
 
   // 3. COMEDK 2026: 3 sections of 60 questions = 180 Qs, 180 * 1 = 180 marks, 180 min
   const comedk = COMEDK_2026_BLUEPRINT;

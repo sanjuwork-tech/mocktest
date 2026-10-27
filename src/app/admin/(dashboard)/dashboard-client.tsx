@@ -142,9 +142,13 @@ export function DashboardClient({
             <Compass size={16} />
             Exam guide
           </Link>
+          <Link href="/admin/test-papers" className="button-secondary flex items-center gap-2">
+            <Upload size={16} />
+            Upload test papers
+          </Link>
           <Link href="/admin/imports" className="button-secondary flex items-center gap-2">
             <Upload size={16} />
-            Import
+            Import questions
           </Link>
           {role === "admin" && (
             <>

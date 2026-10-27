@@ -82,19 +82,37 @@ export const ordersTable = pgTable(
   ],
 );
 
-export const testsTable = pgTable("tests", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  productId: uuid("product_id")
-    .references(() => productsTable.id, { onDelete: "cascade" })
-    .notNull(),
-  title: text("title").notNull(),
-  durationMinutes: integer("duration_minutes").notNull(),
-  totalMarks: integer("total_marks").notNull(),
-  published: boolean("published").default(false).notNull(),
-  createdAt: timestamp("created_at", { withTimezone: true })
-    .defaultNow()
-    .notNull(),
-});
+export const testsTable = pgTable(
+  "tests",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    productId: uuid("product_id")
+      .references(() => productsTable.id, { onDelete: "cascade" })
+      .notNull(),
+    title: text("title").notNull(),
+    durationMinutes: integer("duration_minutes").notNull(),
+    totalMarks: integer("total_marks").notNull(),
+    published: boolean("published").default(false).notNull(),
+    // Catalog position: CUET papers are per subject; other exams leave subject empty.
+    examSlug: text("exam_slug"),
+    subject: text("subject"),
+    testNumber: integer("test_number"),
+    // Free tests need a signed-in student but no entitlement.
+    isFree: boolean("is_free").default(false).notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true })
+      .defaultNow()
+      .notNull(),
+  },
+  (t) => [
+    uniqueIndex("test_catalog_unique")
+      .on(t.examSlug, sql`coalesce(${t.subject}, '')`, t.testNumber)
+      .where(sql`${t.examSlug} is not null`),
+    check(
+      "test_number_positive",
+      sql`${t.testNumber} is null or ${t.testNumber}>0`,
+    ),
+  ],
+);
 
 export const questionsTable = pgTable("questions", {
   id: uuid("id").defaultRandom().primaryKey(),
@@ -410,6 +428,10 @@ export const attemptsTable = pgTable(
   },
   (t) => [
     index("attempt_user_idx").on(t.userId),
+    index("attempt_status_deadline_idx").on(t.status, t.deadline),
+    uniqueIndex("attempt_one_active")
+      .on(t.userId, t.testVersionId)
+      .where(sql`${t.status} = 'in_progress'`),
     uniqueIndex("attempt_version_unique").on(t.id, t.testVersionId),
     check(
       "attempt_status_valid",

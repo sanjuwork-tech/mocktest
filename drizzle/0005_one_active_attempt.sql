@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX "attempt_one_active" ON "attempts" USING btree ("user_id","test_version_id") WHERE "attempts"."status" = 'in_progress';
