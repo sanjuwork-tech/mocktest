@@ -2,47 +2,57 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   createStudentSession,
   exchangeGoogleCode,
+  mockGoogleLoginAllowed,
+  OAUTH_STATE_COOKIE,
 } from "@/server/student-auth";
+import { safeEqual } from "@/server/security";
 
 export async function GET(request: NextRequest) {
   const url = request.nextUrl;
-  const isMock = url.searchParams.get("mock") === "true";
-  const code = url.searchParams.get("code");
   const origin = url.origin;
+  const fail = (code: string) => {
+    const response = NextResponse.redirect(`${origin}/student/login?error=${code}`);
+    response.cookies.delete({ name: OAUTH_STATE_COOKIE, path: "/api/auth/google" });
+    return response;
+  };
+
+  // Reject callbacks this browser did not start (login CSRF).
+  const expectedState = request.cookies.get(OAUTH_STATE_COOKIE)?.value;
+  const state = url.searchParams.get("state");
+  if (!expectedState || !state || !safeEqual(state, expectedState)) {
+    return fail("invalid_state");
+  }
 
   try {
-    if (isMock) {
-      // Local development mock login
+    if (url.searchParams.get("mock") === "true") {
+      if (!mockGoogleLoginAllowed()) return fail("google_unavailable");
       await createStudentSession({
         email: "arjun.student@example.com",
         name: "Arjun Sharma",
         provider: "google_mock",
         avatarUrl: null,
       });
-      return NextResponse.redirect(`${origin}/student`);
+    } else {
+      const code = url.searchParams.get("code");
+      if (!code) return fail("no_code");
+
+      const redirectUri = `${origin}/api/auth/google/callback`;
+      const profile = await exchangeGoogleCode(code, redirectUri);
+
+      await createStudentSession({
+        email: profile.email,
+        name: profile.name,
+        provider: "google",
+        providerId: profile.providerId,
+        avatarUrl: profile.avatarUrl,
+      });
     }
 
-    if (!code) {
-      return NextResponse.redirect(`${origin}/student/login?error=no_code`);
-    }
-
-    const redirectUri = `${origin}/api/auth/google/callback`;
-    const profile = await exchangeGoogleCode(code, redirectUri);
-
-    await createStudentSession({
-      email: profile.email,
-      name: profile.name,
-      provider: "google",
-      providerId: profile.providerId,
-      avatarUrl: profile.avatarUrl,
-    });
-
-    return NextResponse.redirect(`${origin}/student`);
+    const response = NextResponse.redirect(`${origin}/student`);
+    response.cookies.delete({ name: OAUTH_STATE_COOKIE, path: "/api/auth/google" });
+    return response;
   } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : "Authentication failed";
-    console.error("Google Auth error:", message);
-    return NextResponse.redirect(
-      `${origin}/student/login?error=${encodeURIComponent(message)}`,
-    );
+    console.error("Google Auth error:", err instanceof Error ? err.message : err);
+    return fail("google_failed");
   }
 }

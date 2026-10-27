@@ -17,12 +17,24 @@ export type StudentProfile = {
   isGuest?: boolean;
 };
 
-export function getGoogleOAuthUrl(origin: string, state = "student_auth") {
+export const OAUTH_STATE_COOKIE = "ourmocks_oauth_state";
+
+// The mock Google login exists only for local development without OAuth credentials.
+export function mockGoogleLoginAllowed() {
+  return (
+    process.env.NODE_ENV !== "production" &&
+    (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET)
+  );
+}
+
+export function getGoogleOAuthUrl(origin: string, state: string) {
   const clientId = process.env.GOOGLE_CLIENT_ID;
   const redirectUri = `${origin}/api/auth/google/callback`;
 
   if (!clientId || !process.env.GOOGLE_CLIENT_SECRET) {
-    // Local dev mock callback when credentials are not configured
+    if (!mockGoogleLoginAllowed()) {
+      throw new Error("Google OAuth client not configured.");
+    }
     return `${redirectUri}?mock=true&state=${encodeURIComponent(state)}`;
   }
 
@@ -60,8 +72,8 @@ export async function exchangeGoogleCode(code: string, redirectUri: string) {
   });
 
   if (!tokenRes.ok) {
-    const errText = await tokenRes.text();
-    throw new Error(`Failed to exchange token with Google: ${errText}`);
+    console.error("Google token exchange failed", tokenRes.status);
+    throw new Error("Failed to exchange token with Google.");
   }
 
   const tokenData = (await tokenRes.json()) as { access_token: string; id_token: string };
@@ -109,6 +121,11 @@ export async function createStudentSession(profile: {
       .from(usersTable)
       .where(eq(usersTable.email, email))
       .limit(1);
+
+    if (user && user.role !== "student") {
+      // Staff accounts sign in through the admin login only.
+      throw new Error("This account cannot use student sign-in.");
+    }
 
     if (!user) {
       const [inserted] = await db

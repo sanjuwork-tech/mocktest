@@ -14,6 +14,7 @@ import {
   isStaff,
   newSessionToken,
   normalizeEmail,
+  safeEqual,
   tokenHash,
   verifyPassword,
   type AdminRole,
@@ -48,11 +49,16 @@ export async function login(email: string, password: string) {
   const bootstrapEmail = normalizeEmail(
     process.env.ADMIN_BOOTSTRAP_EMAIL || "admin@testdisha.local",
   );
-  const bootstrapPassword =
-    process.env.ADMIN_BOOTSTRAP_PASSWORD || "MockLocal-TapeRicGJwgaWQ";
+  const bootstrapPassword = process.env.ADMIN_BOOTSTRAP_PASSWORD;
 
   if (!db) {
-    if (email === bootstrapEmail && password === bootstrapPassword) {
+    // Database-less admin access is a local-development convenience only.
+    if (
+      process.env.NODE_ENV !== "production" &&
+      bootstrapPassword &&
+      email === bootstrapEmail &&
+      safeEqual(password, bootstrapPassword)
+    ) {
       const token = newSessionToken();
       const expiresAt = new Date(Date.now() + SESSION_SECONDS * 1000);
       fallbackAdminSessions.set(tokenHash(token), {
@@ -131,17 +137,7 @@ export async function currentAdmin() {
         role: session.role,
       };
     }
-    const bootstrapEmail = normalizeEmail(
-      process.env.ADMIN_BOOTSTRAP_EMAIL || "admin@testdisha.local",
-    );
-    return {
-      sessionId: "bootstrap-session",
-      expiresAt: new Date(Date.now() + SESSION_SECONDS * 1000),
-      userId: "admin-bootstrap-id",
-      email: bootstrapEmail,
-      name: "OurMocks Administrator",
-      role: "admin" as AdminRole,
-    };
+    return null;
   }
 
   const [entry] = await db

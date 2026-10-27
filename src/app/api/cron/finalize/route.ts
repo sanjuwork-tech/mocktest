@@ -1,20 +1,21 @@
 import { apiError, ApiError, json } from "@/server/http";
 import { finalizeOverdueAttempts } from "@/server/deadline";
+import { safeEqual } from "@/server/security";
 
 export const runtime = "nodejs";
 
 /**
- * POST /api/cron/finalize — Deadline enforcement cron
+ * GET|POST /api/cron/finalize — Deadline enforcement cron
  *
  * Scans for overdue attempts and finalizes them as timed_out.
- * Authenticated with CRON_SECRET environment variable.
+ * Authenticated with CRON_SECRET (Vercel Cron sends it as a GET Bearer token).
  */
-export async function POST(request: Request) {
+async function handle(request: Request) {
   try {
-    const secret = request.headers.get("authorization")?.replace("Bearer ", "");
+    const header = request.headers.get("authorization") ?? "";
     const cronSecret = process.env.CRON_SECRET;
 
-    if (!cronSecret || secret !== cronSecret) {
+    if (!cronSecret || !safeEqual(header, `Bearer ${cronSecret}`)) {
       throw new ApiError(401, "Unauthorized.");
     }
 
@@ -29,3 +30,6 @@ export async function POST(request: Request) {
     return apiError(e);
   }
 }
+
+export const GET = handle;
+export const POST = handle;

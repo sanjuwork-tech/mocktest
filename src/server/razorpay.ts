@@ -1,32 +1,41 @@
+import "server-only";
 import Razorpay from "razorpay";
 import crypto from "crypto";
+import { safeEqual } from "./security.ts";
 
-export const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID || "rzp_test_mock",
-  key_secret: process.env.RAZORPAY_KEY_SECRET || "mock_secret",
-});
+function requiredEnv(name: string) {
+  const value = process.env[name];
+  if (!value) throw new Error(`${name} is not configured.`);
+  return value;
+}
+
+let client: Razorpay | null = null;
+
+// Created on first use so a missing key fails the request, never falls back to a known secret.
+export function getRazorpay() {
+  client ??= new Razorpay({
+    key_id: requiredEnv("RAZORPAY_KEY_ID"),
+    key_secret: requiredEnv("RAZORPAY_KEY_SECRET"),
+  });
+  return client;
+}
+
+function hmacHex(secret: string, body: string) {
+  return crypto.createHmac("sha256", secret).update(body).digest("hex");
+}
 
 export function verifyRazorpaySignature(
   orderId: string,
   paymentId: string,
   signature: string,
 ) {
-  const secret = process.env.RAZORPAY_KEY_SECRET || "mock_secret";
-  const body = orderId + "|" + paymentId;
-  const expectedSignature = crypto
-    .createHmac("sha256", secret)
-    .update(body.toString())
-    .digest("hex");
-
-  return expectedSignature === signature;
+  const secret = process.env.RAZORPAY_KEY_SECRET;
+  if (!secret) return false;
+  return safeEqual(hmacHex(secret, `${orderId}|${paymentId}`), signature);
 }
 
 export function verifyWebhookSignature(body: string, signature: string) {
-  const secret = process.env.RAZORPAY_WEBHOOK_SECRET || "mock_webhook_secret";
-  const expectedSignature = crypto
-    .createHmac("sha256", secret)
-    .update(body)
-    .digest("hex");
-
-  return expectedSignature === signature;
+  const secret = process.env.RAZORPAY_WEBHOOK_SECRET;
+  if (!secret) return false;
+  return safeEqual(hmacHex(secret, body), signature);
 }

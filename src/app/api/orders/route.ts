@@ -3,16 +3,16 @@ import { currentStudent } from "@/server/student-auth";
 import { requireDb } from "@/db/client";
 import { productsTable, ordersTable } from "@/db/schema";
 import { eq } from "drizzle-orm";
-import { razorpay } from "@/server/razorpay";
+import { getRazorpay } from "@/server/razorpay";
 import { z } from "zod";
 import crypto from "crypto";
 
 export const runtime = "nodejs";
 
 const CreateOrderSchema = z.object({
-  productSlug: z.string(),
-  customerName: z.string(),
-  phone: z.string().optional(),
+  productSlug: z.string().max(120),
+  customerName: z.string().trim().min(1).max(120),
+  phone: z.string().max(20).optional(),
 });
 
 export async function POST(request: Request) {
@@ -37,6 +37,10 @@ export async function POST(request: Request) {
 
     if (!product) {
       throw new ApiError(404, "Product not found.");
+    }
+
+    if (!product.published || !product.salesEnabled || product.archivedAt) {
+      throw new ApiError(409, "Enrolment for this product is not open yet.");
     }
 
     if (!product.priceMinor) {
@@ -70,7 +74,7 @@ export async function POST(request: Request) {
       },
     };
     
-    const rzpOrder = await razorpay.orders.create(options);
+    const rzpOrder = await getRazorpay().orders.create(options);
 
     return Response.json({
       success: true,

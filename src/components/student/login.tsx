@@ -11,21 +11,23 @@ import {
 } from "lucide-react";
 import { signIn } from "@/lib/student/store";
 
+const LOGIN_ERRORS: Record<string, string> = {
+  invalid_state: "That sign-in link expired. Please try Google sign-in again.",
+  no_code: "Google sign-in was cancelled. Please try again.",
+  google_unavailable: "Google sign-in is not available right now. Try the guest demo instead.",
+  google_failed: "Google sign-in failed. Please try again.",
+};
+
 export function StudentLogin() {
   const router = useRouter();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // Check if error was passed in URL params
-    const params = new URLSearchParams(window.location.search);
-    const err = params.get("error");
-    if (err) {
-      // Decode the error but avoid synchronous setState inside effect if it causes issues, 
-      // however in this specific case, it's just setting initial state from URL.
-      // We will just do a tiny timeout to avoid the exact ESLint synchronous state error,
-      // or we can initialize it directly in useState. Let's do the timeout workaround to keep it simple.
-      setTimeout(() => setError(decodeURIComponent(err)), 0);
+    const code = new URLSearchParams(window.location.search).get("error");
+    if (code) {
+      // Deferred to satisfy the no-sync-setState-in-effect lint rule.
+      setTimeout(() => setError(LOGIN_ERRORS[code] ?? LOGIN_ERRORS.google_failed), 0);
     }
   }, []);
 

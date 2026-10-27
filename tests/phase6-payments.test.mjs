@@ -40,3 +40,19 @@ test("Phase 6: Razorpay Return Signature Verification", async (t) => {
     assert.strictEqual(isValid, true, "Checkout return signature should be valid");
   });
 });
+
+test("Phase 0: signatures fail closed without configured secrets", () => {
+  delete process.env.RAZORPAY_WEBHOOK_SECRET;
+  delete process.env.RAZORPAY_KEY_SECRET;
+  const payload = JSON.stringify({ event: "payment.captured" });
+  const forged = crypto.createHmac("sha256", "mock_webhook_secret").update(payload).digest("hex");
+  assert.strictEqual(verifyWebhookSignature(payload, forged), false);
+
+  const forgedReturn = crypto.createHmac("sha256", "mock_secret").update("order_1|pay_1").digest("hex");
+  assert.strictEqual(verifyRazorpaySignature("order_1", "pay_1", forgedReturn), false);
+});
+
+test("Phase 0: signatures of a different length are rejected without throwing", () => {
+  process.env.RAZORPAY_WEBHOOK_SECRET = "test_secret";
+  assert.strictEqual(verifyWebhookSignature("{}", "short"), false);
+});

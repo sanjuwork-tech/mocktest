@@ -127,3 +127,8 @@ export function rupeesToMinor(amount: number) {
     throw new Error("Invalid rupee amount");
   return Math.round(amount * 100);
 }
+export function safeEqual(a: string, b: string) {
+  const left = Buffer.from(a);
+  const right = Buffer.from(b);
+  return left.length === right.length && timingSafeEqual(left, right);
+}
