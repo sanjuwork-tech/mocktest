@@ -39,6 +39,12 @@ const RESOURCE_ITEMS = [
     icon: GraduationCap,
   },
   {
+    href: "/tools/score-calculator",
+    title: "Score calculator",
+    subtitle: "Your score under each exam's official marking",
+    icon: Target,
+  },
+  {
     href: "/blog",
     title: "Guides",
     subtitle: "2027 explainers, each citing the official bulletin",

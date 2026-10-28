@@ -112,6 +112,11 @@ export default async function ExamPage({ params }: Props) {
             Compare all four exams →
           </Link>
         </div>
+        <nav className="exam-quicklinks" aria-label={`${exam.name} resources`}>
+          <Link href={`/exams/${slug}/syllabus`}>Syllabus</Link>
+          <Link href={`/exams/${slug}/previous-year-papers`}>Previous year papers</Link>
+          <Link href={`/tools/score-calculator?exam=${slug}`}>Score calculator</Link>
+        </nav>
       </section>
       <div className="page-shell standalone-exam-guide">
         <ExamGuideArticle exam={exam} index={index} now={new Date()} standalone />

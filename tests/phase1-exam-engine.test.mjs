@@ -183,3 +183,34 @@ describe("Phase 1: conversion and security helpers", () => {
     assert.equal(safeEqual("secret", "secret!"), false);
   });
 });
+
+describe("Score calculator", async () => {
+  const { calculateScore, sectionsFor } = await import("../src/lib/score-calculator.ts");
+  const fill = (exam, subjects, answers) =>
+    sectionsFor(exam, subjects).map((s, i) => ({ ...s, correct: answers[i][0], wrong: answers[i][1] }));
+
+  it("CUET: +5/−1 per paper, summed across papers", () => {
+    const r = calculateScore("cuet-ug", fill("cuet-ug", ["physics", "english"], [[40, 5], [30, 10]]));
+    assert.equal(r.total, 195 + 140);
+    assert.equal(r.max, 500);
+    assert.equal(r.lostToNegatives, 15);
+  });
+
+  it("NEST: best three sections out of 180", () => {
+    const r = calculateScore("niser-nest", fill("niser-nest", [], [[20, 0], [10, 0], [1, 4], [15, 0]]));
+    assert.equal(r.total, 60 + 45 + 30);
+    assert.equal(r.max, 180);
+    assert.deepEqual(r.sections.map((s) => s.counted), [true, true, false, true]);
+  });
+
+  it("COMEDK: one mark each, no negatives", () => {
+    const r = calculateScore("comedk", fill("comedk", [], [[50, 10], [40, 20], [55, 5]]));
+    assert.equal(r.total, 145);
+    assert.equal(r.lostToNegatives, 0);
+  });
+
+  it("flags impossible entries", () => {
+    const r = calculateScore("iiser-iat", fill("iiser-iat", [], [[10, 6], [0, 0], [0, 0], [0, 0]]));
+    assert.equal(r.hasError, true);
+  });
+});

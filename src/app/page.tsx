@@ -1,4 +1,7 @@
 import { pageMetadata } from "@/lib/page-metadata";
+import { ExpertReview } from "@/components/expert-review";
+import { MockDemo } from "@/components/mock-demo";
+import { ComparePlatforms } from "@/components/compare-platforms";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -126,6 +129,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <div className="page-shell section-space">
+        <ExpertReview />
+      </div>
+      <div className="page-shell section-space">
+        <MockDemo />
+      </div>
       <section
         id="home-mock-series"
         className="page-shell home-mock-section"
@@ -247,6 +256,9 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+      <div className="page-shell section-space">
+        <ComparePlatforms />
+      </div>
       <section className="how-section">
         <div className="page-shell">
           <p className="eyebrow">A clearer way forward</p>

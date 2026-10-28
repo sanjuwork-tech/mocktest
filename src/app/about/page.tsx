@@ -1,5 +1,6 @@
 import { pageMetadata } from "@/lib/page-metadata";
 import Link from "next/link";
+import { ExpertReview } from "@/components/expert-review";
 export const metadata = pageMetadata(
   "Our purpose",
   "OurMocks helps students discover more opportunities after Class 12 through clear exam information and official sources.",
@@ -38,15 +39,18 @@ export default function AboutPage() {
           </p>
         </section>
         <section>
+          <h2>How our mock tests are made</h2>
+          <ExpertReview headingLevel={3} />
+        </section>
+        <section>
           <h2>What you can use today</h2>
           <p>
-            One exam guide with opportunities, eligibility summaries, exam
-            formats, published dates and official links, alongside our
-            mock-series catalog with planned inclusions and proposed prices.
-            Enrolment is not yet open.
+            Exam guides for CUET UG, IISER IAT, NEST and COMEDK UGET with official patterns, eligibility, syllabus,
+            past papers and a score calculator; and free full-length CUET UG mock tests with a section and topic
+            report. Paid test series are not yet open for enrolment.
           </p>
           <Link href="/exams" className="text-link">
-            Explore the exam guide →
+            Explore the exam guides →
           </Link>
         </section>
         <section id="information-policy">

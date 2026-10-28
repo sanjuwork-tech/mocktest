@@ -3,9 +3,11 @@ import { siteConfig, products } from "@/data/catalog";
 import { exams } from "@/data/exams";
 import { blogPosts } from "@/data/blog";
 import { COLLEGES_CHECKED_ON } from "@/data/colleges";
+import { syllabi } from "@/data/syllabus";
+import { previousPapers } from "@/data/previous-papers";
 
 // lastModified must reflect when content actually changed, never the build time.
-const SITE_CONTENT_UPDATED = "2026-10-27";
+const SITE_CONTENT_UPDATED = "2026-10-28";
 const LEGAL_UPDATED = "2026-09-26";
 
 const latest = (...dates: string[]) => dates.sort().at(-1)!;
@@ -32,7 +34,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/about", SITE_CONTENT_UPDATED, 0.5),
     page("/privacy", LEGAL_UPDATED, 0.3),
     page("/terms", LEGAL_UPDATED, 0.3),
+    page("/tools/score-calculator", SITE_CONTENT_UPDATED, 0.8),
     ...exams.map((exam) => page(`/exams/${exam.slug}`, exam.checkedOn, 0.9)),
+    ...syllabi.map((s) => page(`/exams/${s.exam}/syllabus`, s.checkedOn, 0.8)),
+    ...previousPapers.map((p) => page(`/exams/${p.exam}/previous-year-papers`, p.checkedOn, 0.8)),
     ...blogPosts.map((post) => page(`/blog/${post.slug}`, post.updatedDate, 0.7)),
     ...products.map((product) => page(`/test-series/${product.slug}`, SITE_CONTENT_UPDATED, 0.5)),
   ];
