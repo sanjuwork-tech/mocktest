@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { redirect } from "next/navigation";
 import { isAdmin } from "@/lib/admin-auth";
+import { AdminBar } from "@/components/admin-bar";
 import "katex/dist/katex.min.css";
 
 export const metadata: Metadata = {
@@ -16,5 +17,10 @@ export default async function AdminLayout({
   children: ReactNode;
 }) {
   if (!(await isAdmin())) redirect("/admin/login");
-  return children;
+  return (
+    <div className="admin-shell">
+      <AdminBar />
+      {children}
+    </div>
+  );
 }

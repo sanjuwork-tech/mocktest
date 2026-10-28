@@ -2921,3 +2921,79 @@
 .home-faq {
   max-width: 860px;
 }
+
+/* Admin chrome: the public header and footer are replaced by the admin bar */
+body:has(.admin-shell) :is(.announcement, .site-header, .site-footer) {
+  display: none;
+}
+.admin-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  padding: 10px 24px;
+  background: var(--navy);
+  color: #fff;
+}
+.admin-bar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.admin-bar-brand img {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background: #fff;
+  height: auto;
+}
+.admin-bar-brand span {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lime);
+}
+.admin-bar nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.admin-bar nav :is(a, button) {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid rgb(255 255 255 / 0.25);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.admin-bar nav :is(a, button):hover {
+  background: rgb(255 255 255 / 0.12);
+}
+.admin-bar nav button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.admin-bar-error {
+  width: 100%;
+  margin: 0;
+  font-size: 0.85rem;
+  color: #ffd2d2;
+}
+@media (max-width: 520px) {
+  .admin-bar {
+    padding: 10px 16px;
+  }
+}

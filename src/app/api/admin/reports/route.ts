@@ -43,8 +43,8 @@ export async function GET() {
           productTitle: productsTable.title,
           attempts: sql<number>`count(${attemptsTable.id})::int`,
           completed: sql<number>`count(${attemptResultsTable.attemptId})::int`,
-          avgScore: sql<number>`coalesce(avg(${attemptResultsTable.score}),0)::int`,
-          avgMaxScore: sql<number>`coalesce(avg(${attemptResultsTable.maxScore}),0)::int`,
+          avgScore: sql<number>`coalesce(avg(${attemptResultsTable.score}),0)::float8`,
+          avgMaxScore: sql<number>`coalesce(avg(${attemptResultsTable.maxScore}),0)::float8`,
         })
         .from(testsTable)
         .innerJoin(productsTable, eq(productsTable.id, testsTable.productId))
@@ -62,7 +62,7 @@ export async function GET() {
         )
         .where(eq(testsTable.published, true))
         .groupBy(testsTable.id, testsTable.title, productsTable.title)
-        .orderBy(desc(sql`count(${attemptsTable.id})`))
+        .orderBy(desc(sql`count(${attemptsTable.id})`), testsTable.title)
         .limit(20),
 
       db
@@ -94,6 +94,8 @@ export async function GET() {
       })),
       testPerformance: testPerformance.map((t) => ({
         ...t,
+        avgScore: Math.round(t.avgScore * 10) / 10,
+        avgMaxScore: Math.round(t.avgMaxScore),
         avgPercent: t.avgMaxScore > 0 ? Math.round((t.avgScore / t.avgMaxScore) * 100) : 0,
       })),
       topProducts: topProducts.map((p) => ({

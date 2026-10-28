@@ -10,8 +10,10 @@ import {
 } from "lucide-react";
 import type { ExamGuide } from "@/data/exams";
 
+type Guide = ExamGuide & { lastVerifiedOn: string | null };
+
 export default function ExamGuideEditorialPage() {
-  const [guides, setGuides] = useState<ExamGuide[]>([]);
+  const [guides, setGuides] = useState<Guide[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [savingSlug, setSavingSlug] = useState<string | null>(null);
@@ -33,39 +35,26 @@ export default function ExamGuideEditorialPage() {
     loadGuides();
   }, []);
 
-  const handleUpdate = async (
-    slug: string,
-    updates: Partial<ExamGuide>
-  ) => {
+  const markVerified = async (slug: string) => {
     setSavingSlug(slug);
     setSuccessSlug(null);
+    setError("");
     try {
       const res = await fetch("/api/admin/exam-guide", {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ slug, ...updates }),
+        body: JSON.stringify({ slug }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed to update guide.");
-
-      setGuides((prev) =>
-        prev.map((g) => (g.slug === slug ? { ...g, ...updates } : g))
-      );
+      if (!res.ok) throw new Error(data.error || "Could not record the check.");
+      setGuides((prev) => prev.map((g) => (g.slug === slug ? { ...g, lastVerifiedOn: data.lastVerifiedOn } : g)));
       setSuccessSlug(slug);
       setTimeout(() => setSuccessSlug(null), 3000);
     } catch (err) {
-      alert(err instanceof Error ? err.message : "Error updating guide.");
+      setError(err instanceof Error ? err.message : "Could not record the check.");
     } finally {
       setSavingSlug(null);
     }
-  };
-
-  const markReviewedToday = (slug: string) => {
-    const today = new Date().toISOString().split("T")[0];
-    handleUpdate(slug, {
-      checkedOn: today,
-      verification: "reviewed",
-    });
   };
 
   return (
@@ -83,7 +72,9 @@ export default function ExamGuideEditorialPage() {
             Exam Guide Editorial Management
           </h1>
           <p className="text-sm text-slate-600 mt-1">
-            Review official exam notices, cycle dates, and verify freshness to prevent stale public information.
+            Check each exam&apos;s official notices against what the public guide says, then record the check. Checks are kept in the
+            activity log under Team &amp; access. To change a guide&apos;s text or its public &ldquo;facts checked&rdquo; date, edit
+            src/data/exams.ts and deploy.
           </p>
         </div>
         <Link href="/exams" target="_blank" className="button-secondary text-sm flex items-center gap-1">
@@ -93,12 +84,13 @@ export default function ExamGuideEditorialPage() {
 
       {loading ? (
         <div className="p-12 text-center text-slate-500">Loading exam guides...</div>
-      ) : error ? (
+      ) : guides.length === 0 ? (
         <div className="p-4 bg-rose-50 border border-rose-200 text-rose-700 rounded-xl">
-          {error}
+          {error || "No exam guides found."}
         </div>
       ) : (
         <div className="space-y-6">
+          {error && <p role="alert" className="p-3 bg-rose-50 border border-rose-200 text-rose-700 rounded-xl text-sm">{error}</p>}
           {guides.map((g) => {
             const isSaving = savingSlug === g.slug;
             const isSuccess = successSlug === g.slug;
@@ -124,7 +116,7 @@ export default function ExamGuideEditorialPage() {
                       {g.verification === "reviewed" ? "Reviewed" : "Partial Review"}
                     </span>
                     <span className="text-xs text-slate-500 font-mono">
-                      Last checked: {g.checkedOn}
+                      Public date: {g.checkedOn} · Team check: {g.lastVerifiedOn ?? "never"}
                     </span>
                   </div>
                 </div>
@@ -176,18 +168,18 @@ export default function ExamGuideEditorialPage() {
                   <div>
                     {isSuccess && (
                       <span className="text-emerald-600 font-semibold flex items-center gap-1">
-                        <Check size={14} /> Review freshness updated!
+                        <Check size={14} /> Check recorded
                       </span>
                     )}
                   </div>
                   <button
                     type="button"
                     disabled={isSaving}
-                    onClick={() => markReviewedToday(g.slug)}
+                    onClick={() => markVerified(g.slug)}
                     className="button-primary text-xs flex items-center gap-1.5 disabled:opacity-50"
                   >
                     <Calendar size={14} />
-                    {isSaving ? "Updating..." : "Mark verified today"}
+                    {isSaving ? "Recording…" : "Record check today"}
                   </button>
                 </div>
               </div>

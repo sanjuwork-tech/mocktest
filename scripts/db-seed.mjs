@@ -27,7 +27,7 @@ try {
       .insert(usersTable)
       .values({
         email: normalizeEmail(email),
-        name: "TestDisha administrator",
+        name: "OurMocks administrator",
         role: "admin",
         passwordHash,
       })

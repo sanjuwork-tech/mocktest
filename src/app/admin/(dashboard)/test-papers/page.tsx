@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { AlertCircle, ArrowLeft, CheckCircle2, FileJson, UploadCloud } from "lucide-react";
-import { EXAMS, SUBJECT_NAMES, isExamSlug, isSubjectId } from "@/lib/exams/catalog";
+import { EXAMS, EXAM_SLUGS, SUBJECT_NAMES, isExamSlug, isSubjectId } from "@/lib/exams/catalog";
 
 type Issue = { path: string; message: string };
 type Summary = { title: string; questions: number; pattern: string; free: boolean };
@@ -41,6 +41,12 @@ export default function TestPapersPage() {
   const [publish, setPublish] = useState(true);
   const [tests, setTests] = useState<CatalogRow[]>([]);
   const [listError, setListError] = useState("");
+  const [examFilter, setExamFilter] = useState("all");
+  const [subjectFilter, setSubjectFilter] = useState("all");
+  const shown = tests.filter(
+    (t) => (examFilter === "all" || t.exam === examFilter) && (subjectFilter === "all" || t.subject === subjectFilter),
+  );
+  const subjectsInView = [...new Set(tests.filter((t) => examFilter === "all" || t.exam === examFilter).map((t) => t.subject).filter((s): s is string => Boolean(s)))];
 
   const loadTests = useCallback(async () => {
     const res = await fetch("/api/admin/test-papers");
@@ -202,8 +208,56 @@ export default function TestPapersPage() {
       <section className="bg-white p-6 rounded-2xl border border-slate-200">
         <h2 className="text-lg font-semibold mb-4">Tests in the catalog</h2>
         {listError && <p className="text-sm text-red-700 mb-3">{listError}</p>}
-        {tests.length === 0 ? (
-          <p className="text-sm text-slate-600">No tests uploaded yet.</p>
+        <ul className="mb-4 flex flex-wrap gap-2 text-xs" aria-label="Upload progress against the plan">
+          {EXAM_SLUGS.map((slug) => {
+            const exam = EXAMS[slug];
+            const planned = exam.paperPerSubject ? exam.plannedTests * exam.subjects.length : exam.plannedTests;
+            const uploaded = tests.filter((t) => t.exam === slug).length;
+            return (
+              <li key={slug} className="rounded-full bg-slate-100 px-3 py-1 text-slate-700">
+                <strong>{exam.shortName}</strong> {uploaded} of {planned} uploaded
+              </li>
+            );
+          })}
+        </ul>
+        <div className="mb-4 flex flex-wrap gap-3 text-sm">
+          <label className="flex items-center gap-2">
+            Exam
+            <select
+              value={examFilter}
+              onChange={(e) => {
+                setExamFilter(e.target.value);
+                setSubjectFilter("all");
+              }}
+              className="rounded-lg border border-slate-300 px-2 py-1"
+            >
+              <option value="all">All exams</option>
+              {EXAM_SLUGS.map((slug) => (
+                <option key={slug} value={slug}>
+                  {EXAMS[slug].shortName}
+                </option>
+              ))}
+            </select>
+          </label>
+          {subjectsInView.length > 0 && (
+            <label className="flex items-center gap-2">
+              Subject
+              <select value={subjectFilter} onChange={(e) => setSubjectFilter(e.target.value)} className="rounded-lg border border-slate-300 px-2 py-1">
+                <option value="all">All subjects</option>
+                {subjectsInView.map((s) => (
+                  <option key={s} value={s}>
+                    {isSubjectId(s) ? SUBJECT_NAMES[s] : s}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
+          <span className="self-center text-slate-500">
+            Showing {shown.length} of {tests.length}
+          </span>
+        </div>
+        {shown.length === 0 ? (
+          <p className="text-sm text-slate-600">{tests.length === 0 ? "No tests uploaded yet." : "No tests match these filters."}</p>
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -218,7 +272,7 @@ export default function TestPapersPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
-                {tests.map((t) => (
+                {shown.map((t) => (
                   <tr key={t.testId}>
                     <td className="py-2 pr-4">{isExamSlug(t.exam) ? EXAMS[t.exam].shortName : t.exam}</td>
                     <td className="py-2 pr-4">{t.subject && isSubjectId(t.subject) ? SUBJECT_NAMES[t.subject] : "—"}</td>

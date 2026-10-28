@@ -77,6 +77,16 @@ export function apiError(error: unknown) {
   const code =
     (error as { code?: string; cause?: { code?: string } })?.cause?.code ??
     (error as { code?: string })?.code;
+  // requireDb() throws this when DATABASE_URL is not set on the deployment.
+  if (error instanceof Error && error.message === "Database unavailable") {
+    console.error("api_failure", { code: "database_not_configured" });
+    return json({ error: "Accounts and tests aren't available yet: the database isn't connected on this site." }, 503);
+  }
+  // 42P01/42703: a table or column is missing, so migrations haven't been run against this database.
+  if (code === "42P01" || code === "42703") {
+    console.error("api_failure", { code, hint: "run npm run db:migrate against this database" });
+    return json({ error: "The site is being updated. Please try again in a few minutes." }, 503);
+  }
   if (code === "23505")
     return json({ error: "That record already exists." }, 409);
   if (code === "23503")

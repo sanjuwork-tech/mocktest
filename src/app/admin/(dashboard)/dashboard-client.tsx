@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { BookOpen, Compass, Layers, LogOut, Plus, Upload, X } from "lucide-react";
+import { BookOpen, Compass, Layers, Plus, Upload, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useRef, useState, type FormEvent } from "react";
 import { Modal } from "@/components/ui/modal";
@@ -34,7 +34,6 @@ export function DashboardClient({
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [saving, setSaving] = useState(false);
-  const [signingOut, setSigningOut] = useState(false);
   const pending = useRef(false);
   const existing = editor && editor !== "new" ? editor : null;
   const visible = products.filter((product) =>
@@ -46,24 +45,6 @@ export function DashboardClient({
     setError("");
     setMessage("");
     setEditor(product);
-  }
-  async function logout() {
-    setSigningOut(true);
-    setError("");
-    try {
-      const response = await fetch("/api/admin/logout", {
-        method: "POST",
-        signal: AbortSignal.timeout(15000),
-      });
-      if (!response.ok)
-        throw new Error("Could not sign out. Please try again.");
-      router.push("/admin/login");
-      router.refresh();
-    } catch {
-      setError("Could not sign out. Check your connection and try again.");
-    } finally {
-      setSigningOut(false);
-    }
   }
   async function save(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -171,15 +152,6 @@ export function DashboardClient({
           >
             <Plus size={17} />
             Add series
-          </button>
-          <button
-            type="button"
-            disabled={signingOut}
-            onClick={logout}
-            className="icon-button"
-            aria-label="Sign out"
-          >
-            <LogOut size={18} />
           </button>
         </div>
       </div>
