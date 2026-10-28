@@ -1,95 +1,78 @@
-import { NextRequest, NextResponse } from "next/server";
-import { promises as fs } from "fs";
-import path from "path";
+import { z } from "zod";
+import { desc } from "drizzle-orm";
+import { requireAdmin, rateLimit } from "@/server/auth";
+import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
+import { normalizeEmail, tokenHash } from "@/server/security";
+import { requireDb } from "@/db/client";
+import { waitlistTable } from "@/db/schema";
 
-const WAITLIST_FILE = path.join(process.cwd(), "data", "waitlist.json");
+export const runtime = "nodejs";
 
-type WaitlistEntry = {
-  email: string;
-  exam: string;
-  timestamp: string;
-  source: string;
-};
+const INTERESTS = [
+  "cuet-ug",
+  "iiser-iat",
+  "niser-nest",
+  "comedk",
+  "all",
+  "all-access",
+  "bundle-cuet-iiser",
+  "bundle-science-trio",
+] as const;
 
-async function readWaitlist(): Promise<WaitlistEntry[]> {
+const joinSchema = z.object({
+  email: z.string().trim().email("Please enter a valid email address.").max(200),
+  exam: z.enum(INTERESTS, { message: "Please choose what you'd like to hear about." }),
+  source: z.string().trim().max(60).optional(),
+});
+
+/** POST /api/waitlist — join the waitlist for an exam's mock series. */
+export async function POST(request: Request) {
   try {
-    const raw = await fs.readFile(WAITLIST_FILE, "utf-8");
-    return JSON.parse(raw);
-  } catch {
-    return [];
+    requireOrigin(request);
+    const parsed = joinSchema.safeParse(await readJson(request, 4096));
+    if (!parsed.success) throw new ApiError(400, parsed.error.issues[0]?.message ?? "Invalid request.");
+
+    // Per-client limit, keyed by a hash of the forwarded IP so raw addresses are never stored.
+    const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+    await rateLimit("waitlist:" + tokenHash(ip), 10, 60 * 60);
+
+    const db = requireDb();
+    const inserted = await db
+      .insert(waitlistTable)
+      .values({
+        email: normalizeEmail(parsed.data.email),
+        interest: parsed.data.exam,
+        source: parsed.data.source || "website",
+      })
+      .onConflictDoNothing()
+      .returning({ id: waitlistTable.id });
+
+    return inserted.length
+      ? json({ success: true, message: "You're on the list! We'll email you when enrolment opens." }, 201)
+      : json({ success: true, alreadyExists: true, message: "You're already on the list — we'll email you when enrolment opens." });
+  } catch (e) {
+    return apiError(e);
   }
 }
 
-async function writeWaitlist(entries: WaitlistEntry[]): Promise<void> {
-  const dir = path.dirname(WAITLIST_FILE);
-  await fs.mkdir(dir, { recursive: true });
-  await fs.writeFile(WAITLIST_FILE, JSON.stringify(entries, null, 2));
-}
-
-export async function POST(request: NextRequest) {
-  try {
-    const body = await request.json();
-    const { email, exam, source } = body;
-
-    // Validate email
-    if (!email || typeof email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
-      return NextResponse.json(
-        { error: "Please enter a valid email address." },
-        { status: 400 },
-      );
-    }
-
-    // Validate exam
-    const validExams = ["cuet-ug", "iiser-iat", "niser-nest", "comedk", "all"];
-    if (!exam || !validExams.includes(exam)) {
-      return NextResponse.json(
-        { error: "Please select a valid exam." },
-        { status: 400 },
-      );
-    }
-
-    const entries = await readWaitlist();
-
-    // Check for duplicate email + exam
-    const exists = entries.some(
-      (e) => e.email.toLowerCase() === email.trim().toLowerCase() && e.exam === exam,
-    );
-
-    if (exists) {
-      return NextResponse.json(
-        { message: "You're already on the waitlist! We'll notify you when enrollment opens.", alreadyExists: true },
-        { status: 200 },
-      );
-    }
-
-    // Add new entry
-    entries.push({
-      email: email.trim().toLowerCase(),
-      exam,
-      timestamp: new Date().toISOString(),
-      source: source || "waitlist-form",
-    });
-
-    await writeWaitlist(entries);
-
-    return NextResponse.json(
-      { message: "You're on the list! We'll email you when enrollment opens.", success: true },
-      { status: 201 },
-    );
-  } catch {
-    return NextResponse.json(
-      { error: "Something went wrong. Please try again." },
-      { status: 500 },
-    );
-  }
-}
-
+/** GET /api/waitlist — admin-only CSV export. */
 export async function GET() {
-  // Simple count endpoint for display purposes (no PII)
   try {
-    const entries = await readWaitlist();
-    return NextResponse.json({ count: entries.length });
-  } catch {
-    return NextResponse.json({ count: 0 });
+    await requireAdmin(["admin"]);
+    const rows = await requireDb().select().from(waitlistTable).orderBy(desc(waitlistTable.createdAt));
+    const escape = (v: string) => `"${v.replaceAll('"', '""')}"`;
+    const csv = [
+      "email,interest,source,joined_at",
+      ...rows.map((r) => [r.email, r.interest, r.source, r.createdAt.toISOString()].map(escape).join(",")),
+    ].join("\n");
+    return new Response(csv, {
+      headers: {
+        "Content-Type": "text/csv; charset=utf-8",
+        "Content-Disposition": `attachment; filename="waitlist-${new Date().toISOString().slice(0, 10)}.csv"`,
+        "Cache-Control": "private, no-store",
+      },
+    });
+  } catch (e) {
+    return apiError(e);
   }
 }

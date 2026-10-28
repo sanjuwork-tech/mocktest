@@ -34,7 +34,7 @@ export const products: Product[] = [
     title: "CUET UG Complete Test Series 2026",
     subtitle: "One focused system for every subject you plan to attempt.",
     description:
-      "Full-length CUET UG mock tests, domain-wise practice across 13 subjects, English Language, General Test, percentile benchmarking, and detailed solutions built around the latest NTA pattern.",
+      "Full-length CUET UG mock tests, domain-wise practice across 13 subjects, English Language, General Test, section and topic analysis, and detailed solutions built around the latest NTA pattern.",
     price: 1499,
     compareAtPrice: 2499,
     mocks: 45,
@@ -48,7 +48,7 @@ export const products: Product[] = [
     features: [
       "45 full-length mocks",
       "13 domain subjects & languages",
-      "Official NTA CBT interface",
+      "NTA-style CBT interface",
       "In-depth step-by-step solutions",
       "Per-question pacing analysis",
     ],
@@ -58,7 +58,7 @@ export const products: Product[] = [
       "CUET practice tests",
       "CUET General Test mocks",
     ],
-    badge: "13 Full Tests Free",
+    badge: "Test 1 Free",
   },
   {
     id: "iat-rank-booster-2026",
@@ -67,7 +67,7 @@ export const products: Product[] = [
     title: "IISER IAT Rank Booster 2026",
     subtitle: "Build the cross-subject speed IAT rewards.",
     description:
-      "Research-aptitude mocks across Physics, Chemistry, Mathematics, and Biology with calibrated difficulty and all-India rank prediction for admission to 7 IISERs, IISc, and IIT Madras.",
+      "Research-aptitude mocks across Physics, Chemistry, Mathematics, and Biology with calibrated difficulty and topic-level analysis for admission to 7 IISERs, IISc, and IIT Madras.",
     price: 1299,
     compareAtPrice: 2199,
     mocks: 30,
@@ -81,7 +81,7 @@ export const products: Product[] = [
     features: [
       "30 complete IAT mocks",
       "Full PCMB coverage (60 Qs, +4/-1)",
-      "All-India rank prediction",
+      "Section and topic analysis",
       "Research aptitude problem sets",
       "Mistake book & topic gap tracker",
     ],
@@ -132,7 +132,7 @@ export const products: Product[] = [
     title: "COMEDK UGET Power Pack 2026",
     subtitle: "Build speed and accuracy across PCM.",
     description:
-      "Timed COMEDK UGET mocks, high-speed PCM drills, chapter analytics, and percentile estimates for Karnataka engineering admissions (RVCE, BMSCE, MSRIT).",
+      "Timed COMEDK UGET mocks, high-speed PCM drills, and chapter analytics for Karnataka engineering admissions (RVCE, BMSCE, MSRIT).",
     price: 1199,
     compareAtPrice: 1999,
     mocks: 35,
@@ -147,7 +147,7 @@ export const products: Product[] = [
     features: [
       "35 full UGET mocks",
       "High-speed PCM 180-Q drills",
-      "Percentile & rank estimate",
+      "Chapter-wise analytics",
       "Mistake notebook & speed optimizer",
     ],
     keywords: [
@@ -182,7 +182,7 @@ export const products: Product[] = [
     features: [
       "75 full mock tests across both exams",
       "All 13 CUET subjects + IISER PCMB",
-      "Dual percentile benchmarking & AIR",
+      "Section and topic analysis for both exams",
       "Live dual-timer CBT exam simulator",
       "12-month unlimited access",
     ],

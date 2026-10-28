@@ -535,3 +535,14 @@ export const entitlementsTable = pgTable(
     ),
   ],
 );
+export const waitlistTable = pgTable(
+  "waitlist_entries",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    email: text("email").notNull(),
+    interest: text("interest").notNull(),
+    source: text("source").default("website").notNull(),
+    createdAt: created(),
+  },
+  (t) => [uniqueIndex("waitlist_email_interest_unique").on(t.email, t.interest)],
+);

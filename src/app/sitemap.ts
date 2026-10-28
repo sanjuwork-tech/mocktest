@@ -1,117 +1,39 @@
 import type { MetadataRoute } from "next";
-import { siteConfig } from "@/data/catalog";
+import { siteConfig, products } from "@/data/catalog";
 import { exams } from "@/data/exams";
-import { products } from "@/data/catalog";
 import { blogPosts } from "@/data/blog";
+import { COLLEGES_CHECKED_ON } from "@/data/colleges";
+
+// lastModified must reflect when content actually changed, never the build time.
+const SITE_CONTENT_UPDATED = "2026-10-27";
+const LEGAL_UPDATED = "2026-09-26";
+
+const latest = (...dates: string[]) => dates.sort().at(-1)!;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date().toISOString();
+  const examsUpdated = latest(...exams.map((e) => e.checkedOn));
+  const blogUpdated = latest(...blogPosts.map((p) => p.updatedDate));
+  const page = (path: string, lastModified: string, priority: number): MetadataRoute.Sitemap[number] => ({
+    url: `${siteConfig.url}${path}`,
+    lastModified,
+    priority,
+  });
 
   return [
-    // Core pages
-    {
-      url: siteConfig.url,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: `${siteConfig.url}/exams`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${siteConfig.url}/test-series`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${siteConfig.url}/free-diagnostic`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.95,
-    },
-    {
-      url: `${siteConfig.url}/exams/compare`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    {
-      url: `${siteConfig.url}/exams/eligibility`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    {
-      url: `${siteConfig.url}/exams/after-class-12`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    {
-      url: `${siteConfig.url}/about`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${siteConfig.url}/privacy`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-    {
-      url: `${siteConfig.url}/terms`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.3,
-    },
-
-    // Colleges directory, Resources Hub & Blog hub
-    {
-      url: `${siteConfig.url}/resources`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.95,
-    },
-    {
-      url: `${siteConfig.url}/colleges`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${siteConfig.url}/blog`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-
-    // Individual exam guide pages
-    ...exams.map((exam) => ({
-      url: `${siteConfig.url}/exams/${exam.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.85,
-    })),
-
-    // Individual blog strategy articles
-    ...blogPosts.map((post) => ({
-      url: `${siteConfig.url}/blog/${post.slug}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    })),
-
-    // Individual test series pages
-    ...products.map((product) => ({
-      url: `${siteConfig.url}/test-series/${product.slug}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    })),
+    page("", SITE_CONTENT_UPDATED, 1.0),
+    page("/exams", examsUpdated, 0.9),
+    page("/free-diagnostic", SITE_CONTENT_UPDATED, 0.9),
+    page("/exams/compare", SITE_CONTENT_UPDATED, 0.8),
+    page("/exams/eligibility", SITE_CONTENT_UPDATED, 0.8),
+    page("/exams/after-class-12", SITE_CONTENT_UPDATED, 0.8),
+    page("/colleges", COLLEGES_CHECKED_ON, 0.8),
+    page("/blog", blogUpdated, 0.8),
+    page("/test-series", SITE_CONTENT_UPDATED, 0.7),
+    page("/about", SITE_CONTENT_UPDATED, 0.5),
+    page("/privacy", LEGAL_UPDATED, 0.3),
+    page("/terms", LEGAL_UPDATED, 0.3),
+    ...exams.map((exam) => page(`/exams/${exam.slug}`, exam.checkedOn, 0.9)),
+    ...blogPosts.map((post) => page(`/blog/${post.slug}`, post.updatedDate, 0.7)),
+    ...products.map((product) => page(`/test-series/${product.slug}`, SITE_CONTENT_UPDATED, 0.5)),
   ];
 }

@@ -116,7 +116,7 @@ export default function TestSeriesPage() {
               🎉 CUET UG Free Full-Length Tests Live Now!
             </strong>
             <p style={{ margin: "2px 0 0 0", fontSize: "13px", color: "#15803d" }}>
-              Attempt Test 1 across 13 domain subjects with real NTA CBT timing. IISER IAT, NISER NEST, and COMEDK test series are coming soon in upcoming days.
+              Take Test 1 free in 12 CUET subjects, timed like the real exam. IAT, NEST and COMEDK test series are in preparation — join the waitlist to hear first.
             </p>
           </div>
           <Link

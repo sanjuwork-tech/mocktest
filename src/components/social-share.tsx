@@ -10,7 +10,7 @@ type Props = {
 };
 
 export function SocialShare({ title, url, description }: Props) {
-  const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState<"idle" | "done" | "failed">("idle");
 
   // Fallback to window.location.href in browser if url not explicitly passed
   const shareUrl =
@@ -26,13 +26,11 @@ export function SocialShare({ title, url, description }: Props) {
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(shareUrl);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
+      setCopied("done");
     } catch {
-      // Fallback
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2500);
+      setCopied("failed");
     }
+    setTimeout(() => setCopied("idle"), 2500);
   };
 
   return (
@@ -129,8 +127,8 @@ export function SocialShare({ title, url, description }: Props) {
             display: "inline-flex",
             alignItems: "center",
             gap: "5px",
-            background: copied ? "#dcfce7" : "#ffffff",
-            color: copied ? "#15803d" : "#334155",
+            background: copied === "done" ? "#dcfce7" : "#ffffff",
+            color: copied === "done" ? "#15803d" : "#334155",
             border: "1px solid #cbd5e1",
             padding: "6px 12px",
             borderRadius: "999px",
@@ -140,8 +138,8 @@ export function SocialShare({ title, url, description }: Props) {
             transition: "all 0.2s",
           }}
         >
-          {copied ? <Check size={14} /> : <Copy size={14} />}
-          {copied ? "Link Copied!" : "Copy Link"}
+          {copied === "done" ? <Check size={14} /> : <Copy size={14} />}
+          {copied === "done" ? "Link copied" : copied === "failed" ? "Copy failed — copy from the address bar" : "Copy link"}
         </button>
       </div>
     </div>

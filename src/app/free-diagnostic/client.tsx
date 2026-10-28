@@ -62,10 +62,16 @@ const subjectIcons: Record<string, typeof Sigma> = {
 };
 
 type ExamTab = "cuet-ug" | "iiser-iat" | "niser-nest" | "comedk";
+const EXAM_TABS: ExamTab[] = ["cuet-ug", "iiser-iat", "niser-nest", "comedk"];
 
-export function FreeDiagnosticClient() {
+// Subjects whose free Test 1 is not published yet (the old demo "chemistry" set was physics questions).
+const SUBJECTS_WITHOUT_FREE_TEST = new Set<string>(["chemistry"]);
+
+export function FreeDiagnosticClient({ initialExam }: { initialExam?: string }) {
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState<ExamTab>("cuet-ug");
+  const [activeTab, setActiveTab] = useState<ExamTab>(
+    EXAM_TABS.includes(initialExam as ExamTab) ? (initialExam as ExamTab) : "cuet-ug",
+  );
   const [waitlistEmail, setWaitlistEmail] = useState("");
   const [waitlistStatus, setWaitlistStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [waitlistMsg, setWaitlistMsg] = useState("");
@@ -90,7 +96,7 @@ export function FreeDiagnosticClient() {
       const res = await fetch("/api/waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: waitlistEmail, exam: examSlug }),
+        body: JSON.stringify({ email: waitlistEmail, exam: examSlug, source: "free-diagnostic" }),
       });
       const data = await res.json();
       if (res.ok) {
@@ -195,10 +201,10 @@ export function FreeDiagnosticClient() {
       <section style={{ marginBottom: "36px" }}>
         <div style={{ display: "flex", justifyContent: "center", gap: "10px", flexWrap: "wrap", marginBottom: "32px" }}>
           {[
-            { id: "cuet-ug", label: "CUET (UG)", badge: "13 Tests Live Now · Free" },
-            { id: "iiser-iat", label: "IISER IAT", badge: "Coming Soon" },
-            { id: "niser-nest", label: "NISER NEST", badge: "Coming Soon" },
-            { id: "comedk", label: "COMEDK UGET", badge: "Coming Soon" },
+            { id: "cuet-ug", label: "CUET (UG)", badge: "Test 1 free · 12 subjects" },
+            { id: "iiser-iat", label: "IISER IAT", badge: "Waitlist open" },
+            { id: "niser-nest", label: "NISER NEST", badge: "Waitlist open" },
+            { id: "comedk", label: "COMEDK UGET", badge: "Waitlist open" },
           ].map((tab) => {
             const isSelected = activeTab === tab.id;
             return (
@@ -300,6 +306,7 @@ export function FreeDiagnosticClient() {
               {SUBJECTS.map((s) => {
                 const Icon = subjectIcons[s.id] || FlaskConical;
                 const isCurrentlyStarting = startingSubject === s.id;
+                const hasFreeTest = !SUBJECTS_WITHOUT_FREE_TEST.has(s.id);
                 return (
                   <article
                     key={s.id}
@@ -382,7 +389,7 @@ export function FreeDiagnosticClient() {
                       <button
                         type="button"
                         onClick={() => handleStartFullTest(s.id)}
-                        disabled={isCurrentlyStarting}
+                        disabled={isCurrentlyStarting || !hasFreeTest}
                         style={{
                           display: "flex",
                           alignItems: "center",
@@ -401,7 +408,7 @@ export function FreeDiagnosticClient() {
                         }}
                       >
                         <Play size={16} />
-                        {isCurrentlyStarting ? "Loading Test Player…" : "Attempt Full Length Test"}
+                        {!hasFreeTest ? "Free test coming soon" : isCurrentlyStarting ? "Opening…" : "Attempt Full Length Test"}
                       </button>
                     </div>
                   </article>
@@ -438,13 +445,13 @@ export function FreeDiagnosticClient() {
                 marginBottom: "20px",
               }}
             >
-              <Calendar size={16} /> Coming Soon · Will Add in Upcoming Days
+              <Calendar size={16} /> In preparation · join the waitlist
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
               IISER IAT Test Series Coming Soon
             </h2>
             <p style={{ fontSize: "15px", color: "#475569", lineHeight: 1.6, maxWidth: "580px", margin: "0 auto 24px auto" }}>
-              Our academic team is currently calibrating research-aptitude mock tests across <strong>Physics, Chemistry, Mathematics, and Biology</strong> for admission to 7 IISERs, IISc Bangalore, and IIT Madras. Tests will be added here in the upcoming days.
+              Our academic team is currently calibrating research-aptitude mock tests across <strong>Physics, Chemistry, Mathematics, and Biology</strong> for admission to 7 IISERs, IISc Bangalore, and IIT Madras. Join the waitlist and we&apos;ll email you when they open.
             </p>
 
             <div
@@ -470,18 +477,19 @@ export function FreeDiagnosticClient() {
               </div>
               <div>
                 <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>+4 / −1 Marking</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>All-India rank benchmark</span>
+                <span style={{ fontSize: "12px", color: "#64748b" }}>Section and topic analysis</span>
               </div>
             </div>
 
             {/* Email Waitlist Form */}
-            <form onSubmit={(e) => handleWaitlistSubmit(e, "iiser-iat")} style={{ maxWidth: "440px", margin: "0 auto" }}>
+            <form id="waitlist" onSubmit={(e) => handleWaitlistSubmit(e, "iiser-iat")} style={{ maxWidth: "440px", margin: "0 auto" }}>
               <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
                 <input
                   type="email"
                   value={waitlistEmail}
                   onChange={(e) => setWaitlistEmail(e.target.value)}
                   placeholder="Enter your email to get notified…"
+                  aria-label="Email address"
                   style={{
                     flex: "1 1 240px",
                     padding: "12px 16px",
@@ -551,7 +559,7 @@ export function FreeDiagnosticClient() {
                 marginBottom: "20px",
               }}
             >
-              <Calendar size={16} /> Coming Soon · Will Add in Upcoming Days
+              <Calendar size={16} /> In preparation · join the waitlist
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
               NISER NEST Master Series Coming Soon
@@ -588,13 +596,14 @@ export function FreeDiagnosticClient() {
             </div>
 
             {/* Email Waitlist Form */}
-            <form onSubmit={(e) => handleWaitlistSubmit(e, "niser-nest")} style={{ maxWidth: "440px", margin: "0 auto" }}>
+            <form id="waitlist" onSubmit={(e) => handleWaitlistSubmit(e, "niser-nest")} style={{ maxWidth: "440px", margin: "0 auto" }}>
               <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
                 <input
                   type="email"
                   value={waitlistEmail}
                   onChange={(e) => setWaitlistEmail(e.target.value)}
                   placeholder="Enter your email to get notified…"
+                  aria-label="Email address"
                   style={{
                     flex: "1 1 240px",
                     padding: "12px 16px",
@@ -664,13 +673,13 @@ export function FreeDiagnosticClient() {
                 marginBottom: "20px",
               }}
             >
-              <Calendar size={16} /> Coming Soon · Will Add in Upcoming Days
+              <Calendar size={16} /> In preparation · join the waitlist
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
               COMEDK UGET Series Coming Soon
             </h2>
             <p style={{ fontSize: "15px", color: "#475569", lineHeight: 1.6, maxWidth: "580px", margin: "0 auto 24px auto" }}>
-              Speed-focused test series for top 190+ Karnataka engineering colleges (RVCE, BMSCE, MSRIT) covering <strong>Physics, Chemistry, and Mathematics</strong> without negative marking will be added in upcoming days.
+              Speed-focused test series for about 150 Karnataka engineering colleges (RVCE, BMSCE, MSRIT) covering <strong>Physics, Chemistry, and Mathematics</strong> without negative marking will be added in upcoming days.
             </p>
 
             <div
@@ -701,13 +710,14 @@ export function FreeDiagnosticClient() {
             </div>
 
             {/* Email Waitlist Form */}
-            <form onSubmit={(e) => handleWaitlistSubmit(e, "comedk")} style={{ maxWidth: "440px", margin: "0 auto" }}>
+            <form id="waitlist" onSubmit={(e) => handleWaitlistSubmit(e, "comedk")} style={{ maxWidth: "440px", margin: "0 auto" }}>
               <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
                 <input
                   type="email"
                   value={waitlistEmail}
                   onChange={(e) => setWaitlistEmail(e.target.value)}
                   placeholder="Enter your email to get notified…"
+                  aria-label="Email address"
                   style={{
                     flex: "1 1 240px",
                     padding: "12px 16px",

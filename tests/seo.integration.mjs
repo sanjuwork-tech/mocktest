@@ -62,13 +62,13 @@ test("public pages expose complete unique HTML, metadata and structured data wit
     );
     if (route.startsWith("/exams/")) {
       for (const phrase of [
-        "The opportunity",
         "Who can apply?",
-        "Exam format",
+        "exam pattern (2026 official)",
         "Application fees",
-        "Important dates",
-        "Official application",
-        "Official updates",
+        "dates, for reference",
+        "Official website",
+        "Latest official status",
+        "frequently asked questions",
       ])
         assert.ok(html.includes(phrase), route + ": " + phrase);
       assert.ok(
@@ -80,17 +80,16 @@ test("public pages expose complete unique HTML, metadata and structured data wit
     }
   }
 });
-test("sitemap covers exactly eight canonical public pages and robots advertises it", async () => {
+test("sitemap lists the public pages with real content dates and robots advertises it", async () => {
   const response = await fetch(origin + "/sitemap.xml");
   assert.equal(response.status, 200);
   const xml = await response.text();
-  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(
-    (match) => match[1],
-  );
-  assert.deepEqual(
-    urls.sort(),
-    routes.map((route) => canonical + route).sort(),
-  );
+  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  for (const route of routes) assert.ok(urls.includes(canonical + route), route);
+  assert.ok(!urls.includes(canonical + "/resources"), "navigation hub stays out of the sitemap");
+  const dates = [...xml.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((match) => match[1]);
+  assert.equal(dates.length, urls.length);
+  for (const date of dates) assert.match(date, /^\d{4}-\d{2}-\d{2}$/, "lastmod is a content date, not a build timestamp");
   const robots = await (await fetch(origin + "/robots.txt")).text();
   assert.ok(robots.includes(`Sitemap: ${canonical}/sitemap.xml`));
   assert.ok(robots.includes("Allow: /"));

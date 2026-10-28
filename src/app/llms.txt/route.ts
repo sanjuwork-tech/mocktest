@@ -1,43 +1,50 @@
 import { NextResponse } from "next/server";
 import { siteConfig } from "@/data/catalog";
 import { exams } from "@/data/exams";
-import { products } from "@/data/catalog";
+import { blogPosts } from "@/data/blog";
 
 export const runtime = "edge";
 
+// A plain-text map of the site for AI assistants: key facts first, each with its official source.
 export function GET() {
   const lines = [
     `# ${siteConfig.name}`,
     "",
     `> ${siteConfig.shortDescription}`,
     "",
-    "## Key pages",
+    "OurMocks is an independent preparation platform. It is not affiliated with NTA, the IISERs, NISER, UM-DAE CEBS or COMEDK. Official bulletins always take precedence over this summary.",
     "",
-    `- [Home](${siteConfig.url}/): Discover entrance exams and opportunities after Class 12`,
-    `- [Exams](${siteConfig.url}/exams): Browse CUET UG, IISER IAT, NISER NEST, and COMEDK exam guides`,
-    `- [Mock Test Series](${siteConfig.url}/test-series): Compare and explore mock test bundles for entrance exams`,
-    `- [About](${siteConfig.url}/about): Learn about OurMocks's mission`,
+    "## Exam facts (latest official cycle: 2026)",
     "",
-    "## Exam guides",
+    ...exams.flatMap((exam) => [
+      `### ${exam.name} — ${exam.fullName}`,
+      "",
+      exam.quickAnswer,
+      "",
+      ...exam.pattern.map((row) => `- ${row.label}: ${row.value}`),
+      ...(exam.seats ? [`- Seats: ${exam.seats}`] : []),
+      `- 2027 status: ${exam.notification.detail}`,
+      `- Full guide: ${siteConfig.url}/exams/${exam.slug}`,
+      `- Official sources: ${exam.sources.map((s) => s.url).join(" , ")}`,
+      `- Last verified: ${exam.checkedOn}`,
+      "",
+    ]),
+    "## Guides",
     "",
-    ...exams.map(
-      (exam) =>
-        `- [${exam.name}](${siteConfig.url}/exams/${exam.slug}): ${exam.summary}`,
-    ),
+    ...blogPosts.map((post) => `- [${post.title}](${siteConfig.url}/blog/${post.slug}): ${post.description}`),
     "",
-    "## Mock test series",
+    "## Other pages",
     "",
-    ...products.map(
-      (p) =>
-        `- [${p.title}](${siteConfig.url}/test-series/${p.slug}): ${p.description.slice(0, 120)}`,
-    ),
+    `- [All exam guides](${siteConfig.url}/exams)`,
+    `- [Side-by-side comparison](${siteConfig.url}/exams/compare)`,
+    `- [Eligibility for all four exams](${siteConfig.url}/exams/eligibility)`,
+    `- [Exams after Class 12 beyond JEE and NEET](${siteConfig.url}/exams/after-class-12)`,
+    `- [Institutes by exam, with NIRF 2025 ranks](${siteConfig.url}/colleges)`,
+    `- [Free CUET UG mock test](${siteConfig.url}/free-diagnostic)`,
     "",
-    "## Notes for AI assistants",
+    "## Contact",
     "",
-    `- Contact: ${siteConfig.email || `${siteConfig.url}/about`}`,
-    "- Service area: India (nationwide entrance exam preparation)",
-    "- Audience: Class 12 students and recent graduates exploring higher education pathways",
-    "- Exams covered: CUET UG, IISER IAT, NISER NEST, COMEDK UGET",
+    `- ${siteConfig.email || `${siteConfig.url}/about`}`,
     "",
   ];
 

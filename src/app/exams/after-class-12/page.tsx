@@ -2,10 +2,11 @@ import Link from "next/link";
 import { ArrowRight, Compass, GraduationCap, Microscope, Cpu, Briefcase, Sparkles, CheckCircle2 } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
+import { siteConfig } from "@/data/catalog";
 
 export const metadata = pageMetadata(
-  "What Exams to Take After Class 12 (Beyond JEE & NEET) — 2026/2027 Guide",
-  "Discover premier entrance exams after Class 12 Science, Commerce, and Humanities. Explore CUET UG, IISER IAT, NISER NEST, and COMEDK with career pathways and preparation strategies.",
+  "Exams After Class 12 Beyond JEE & NEET (2027)",
+  "Entrance exams after Class 12 besides JEE and NEET: CUET UG for central universities, IAT and NEST for research science, COMEDK for Karnataka engineering.",
   "/exams/after-class-12",
   [
     "exams after 12th science",
@@ -24,8 +25,13 @@ export default function AfterClass12GuidePage() {
         data={{
           "@context": "https://schema.org",
           "@type": "Article",
-          headline: "Complete Guide: Entrance Exams After Class 12 Beyond JEE & NEET",
-          description: "Explore opportunities in central universities, pure science research, and engineering via CUET, IAT, NEST, and COMEDK.",
+          headline: "Entrance exams after Class 12 beyond JEE and NEET",
+          description: "Opportunities in central universities, research science and engineering through CUET UG, IISER IAT, NISER NEST and COMEDK UGET.",
+          url: `${siteConfig.url}/exams/after-class-12`,
+          datePublished: "2026-10-14",
+          dateModified: "2026-10-27",
+          author: { "@type": "Organization", name: "OurMocks Editorial Team", url: `${siteConfig.url}/about` },
+          publisher: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
         }}
       />
 
@@ -64,21 +70,21 @@ export default function AfterClass12GuidePage() {
             IISER IAT & NISER NEST
           </h2>
           <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "18px" }}>
-            If you are curious about astrophysics, quantum physics, molecular biology, organic synthesis, or computational mathematics, these two exams lead to 5-year BS-MS / MSc degrees at IISERs, IISc, IIT Madras, and NISER.
+            If you are curious about astrophysics, quantum physics, molecular biology, organic synthesis, or computational mathematics, these two exams lead to 5-year BS-MS degrees at the IISERs, the 5-year Integrated M.Sc at NISER and CEBS, and 4-year BS degrees at IISc and IIT Madras.
           </p>
           <ul style={{ listStyle: "none", padding: 0, margin: "0 0 20px 0", display: "flex", flexDirection: "column", gap: "8px", fontSize: "13px", color: "#334155" }}>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> ₹60,000/yr scholarships available (DISHA / INSPIRE)
+              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> NISER/CEBS students are eligible for the ₹60,000/yr DISHA scholarship
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> Direct pathway to PhDs at MIT, Stanford, Max Planck
+              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> Research projects built into the degree, with a route into PhD study
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> High laboratory and computational exposure
+              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> 2,043 IISER BS-MS seats in 2026 (IAT brochure)
             </li>
           </ul>
-          <Link href="/test-series/iiser-iat" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
-            Explore IISER Series Details ↗
+          <Link href="/exams/iiser-iat" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
+            Read the IAT guide →
           </Link>
         </article>
 
@@ -92,21 +98,21 @@ export default function AfterClass12GuidePage() {
             CUET (UG) Central Universities
           </h2>
           <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "18px" }}>
-            Conducted by NTA for Delhi University (SRCC, St. Stephen&apos;s, Hindu), BHU, JNU, and 250+ top colleges. Offers BA (Hons), BCom (Hons), BSc, BCA, and Economics with strictly Class 12 NCERT syllabus.
+            Run by NTA for undergraduate admission to all 48 Central Universities — including Delhi University, BHU and JNU — and many state, deemed and private universities. Domain papers follow the NCERT syllabus.
           </p>
           <ul style={{ listStyle: "none", padding: 0, margin: "0 0 20px 0", display: "flex", flexDirection: "column", gap: "8px", fontSize: "13px", color: "#334155" }}>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> 13 Domain subjects live with 100% free test papers
+              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Up to five papers from 13 languages, 23 domain subjects and a General Aptitude Test
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Highly affordable university tuition fees
+              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Open to Science, Commerce and Humanities students
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Top corporate placements in consulting, banking & tech
+              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Free full-length Test 1 on OurMocks in 12 subjects
             </li>
           </ul>
           <Link href="/free-diagnostic" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
-            Attempt Free Full-Length CUET Mock ↗
+            Take a free CUET mock →
           </Link>
         </article>
 
@@ -120,21 +126,21 @@ export default function AfterClass12GuidePage() {
             COMEDK UGET Engineering
           </h2>
           <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "18px" }}>
-            Bengaluru is India&apos;s Silicon Valley. COMEDK provides admission to 190+ high-tier private engineering colleges like RVCE, BMS College of Engineering, and MS Ramaiah without negative marking.
+            COMEDK UGET admits to about 150 private engineering colleges in Karnataka — around 20,000 seats — including M. S. Ramaiah Institute of Technology, R. V. College of Engineering and B.M.S. College of Engineering.
           </p>
           <ul style={{ listStyle: "none", padding: 0, margin: "0 0 20px 0", display: "flex", flexDirection: "column", gap: "8px", fontSize: "13px", color: "#334155" }}>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> 180 questions in 180 mins with ZERO negative marking
+              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> 180 questions in 3 hours, with no negative marking
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> High placement averages (₹12–20 LPA at RVCE/BMSCE)
+              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> Open to candidates from every state
             </li>
             <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> Great alternative to JEE Main for non-Karnataka students
+              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> Syllabus: about 33% Class 11, 67% Class 12 (CBSE)
             </li>
           </ul>
-          <Link href="/test-series/comedk" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
-            Explore COMEDK Series Details ↗
+          <Link href="/exams/comedk" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
+            Read the COMEDK guide →
           </Link>
         </article>
       </section>
@@ -158,7 +164,7 @@ export default function AfterClass12GuidePage() {
               2. Exploit syllabus overlap
             </strong>
             <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              CUET UG, IISER IAT, and COMEDK all use NCERT Class 11 and 12 foundations. Your Physics, Chemistry, and Math/Bio concepts remain the exact same — only question speed and depth differ.
+              IAT, NEST and COMEDK all test Class 11–12 science, and CUET domain papers follow the NCERT syllabus. The concepts overlap heavily — what changes is the number of questions, the time and the marking.
             </p>
           </div>
           <div>

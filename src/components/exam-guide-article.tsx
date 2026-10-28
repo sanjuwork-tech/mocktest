@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { reviewIsStale, type OfficialLink, type ExamGuide } from "@/data/exams";
+import {
+  formatReviewDate,
+  reviewIsStale,
+  type OfficialLink,
+  type ExamGuide,
+} from "@/data/exams";
 
 export function OfficialAnchor({
   link,
@@ -20,6 +25,21 @@ export function OfficialAnchor({
       <ArrowUpRight size={16} aria-hidden="true" />
       <span className="sr-only"> (opens in a new tab)</span>
     </a>
+  );
+}
+
+/** Visible FAQ list; pages that render it emit the matching FAQPage schema. */
+export function ExamFaqs({ exam }: { exam: ExamGuide }) {
+  return (
+    <section className="exam-faqs" aria-labelledby={`${exam.slug}-faq-title`}>
+      <h3 id={`${exam.slug}-faq-title`}>{exam.name}: frequently asked questions</h3>
+      {exam.faqs.map((faq) => (
+        <details key={faq.q}>
+          <summary>{faq.q}</summary>
+          <p>{faq.a}</p>
+        </details>
+      ))}
+    </section>
   );
 }
 
@@ -44,23 +64,55 @@ export function ExamGuideArticle({
         <span className="guide-number">0{index + 1}</span>
         <div>
           <p className="eyebrow">{exam.category}</p>
-          <h2 id={`${exam.slug}-title`}>{exam.name}</h2>
+          <h2 id={`${exam.slug}-title`}>What is {exam.name}?</h2>
           <p>{exam.fullName}</p>
         </div>
       </header>
       <div className="exam-guide-body">
-        <p className="guide-summary">{exam.summary}</p>
+        <p className="guide-answer">{exam.quickAnswer}</p>
         {!standalone && (
           <Link className="text-link mb-5" href={`/exams/${exam.slug}`}>
-            Open the complete {exam.name} guide{" "}
+            Read the complete {exam.name} guide{" "}
             <ArrowUpRight size={16} aria-hidden="true" />
           </Link>
         )}
-        <div className="opportunity-box">
-          <h3>The opportunity</h3>
-          <p>{exam.opportunity}</p>
-          <p className="mt-3">{exam.programmes}</p>
-        </div>
+
+        <section className="pattern-panel" aria-labelledby={`${exam.slug}-pattern`}>
+          <h3 id={`${exam.slug}-pattern`}>{exam.name} exam pattern (2026 official)</h3>
+          <table className="pattern-table">
+            <tbody>
+              {exam.pattern.map((row) => (
+                <tr key={row.label}>
+                  <th scope="row">{row.label}</th>
+                  <td>{row.value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {exam.seats && <p className="mt-3">{exam.seats}</p>}
+        </section>
+
+        <section className="next-cycle-panel" aria-labelledby={`${exam.slug}-next`}>
+          <h3 id={`${exam.slug}-next`}>{exam.nextCycle.title}</h3>
+          <ul>
+            {exam.nextCycle.points.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="opportunity-box" aria-labelledby={`${exam.slug}-accepted`}>
+          <h3 id={`${exam.slug}-accepted`}>Where {exam.name} can take you</h3>
+          <ul className="accepted-list">
+            {exam.acceptedBy.map((item) => (
+              <li key={item.name}>
+                <strong>{item.name}</strong> — {item.detail}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3">{exam.opportunity}</p>
+        </section>
+
         <div className="guide-facts">
           <section>
             <h3>Who can apply?</h3>
@@ -71,12 +123,11 @@ export function ExamGuideArticle({
             </ul>
           </section>
           <section>
-            <h3>Exam format & syllabus</h3>
-            <p>{exam.format}</p>
-            <p className="mt-3">{exam.syllabus}</p>
+            <h3>Syllabus</h3>
+            <p>{exam.syllabus}</p>
           </section>
           <section>
-            <h3>Application fees</h3>
+            <h3>Application fees (2026)</h3>
             <p>{exam.fee}</p>
           </section>
           <section>
@@ -85,7 +136,7 @@ export function ExamGuideArticle({
           </section>
         </div>
         <section className="date-panel">
-          <h3>Important dates · 2026</h3>
+          <h3>2026 dates, for reference</h3>
           <dl>
             {exam.dates.map((date) => (
               <div key={date.label}>
@@ -95,25 +146,21 @@ export function ExamGuideArticle({
             ))}
           </dl>
           <p className="review-note">
-            Historical dates and published schedules. Later official notices
-            take precedence.
+            These are last cycle&apos;s dates. The next cycle&apos;s official notice takes precedence.
           </p>
         </section>
         <section className="application-panel">
-          <span className="status-pill">
-            {exam.application.status === "closed"
-              ? "2026 applications closed"
-              : "Current portal status unverified"}
-          </span>
-          <h3>Official application & candidate access</h3>
+          <span className="status-pill">2026 applications closed</span>
+          <h3>Official website & candidate login</h3>
           <p>{exam.application.note}</p>
           <OfficialAnchor link={exam.application} className="button-primary" />
           <span className="destination-domain">
             Destination: {new URL(exam.application.url).hostname}
           </span>
         </section>
+        {standalone && <ExamFaqs exam={exam} />}
         <section className="source-panel">
-          <h3>Go deeper with official sources</h3>
+          <h3>Official sources</h3>
           <div>
             {exam.sources.map((source) => (
               <OfficialAnchor
@@ -124,12 +171,10 @@ export function ExamGuideArticle({
             ))}
           </div>
           <p className="review-note">
-            Reviewed {exam.checkedOn}.{" "}
-            {exam.verification === "partial"
-              ? "IAT details are based on indexed official bulletin material; the live admissions portal could not be reached."
-              : "Summarised from the linked official sources."}{" "}
+            Last verified against these sources on{" "}
+            <time dateTime={exam.checkedOn}>{formatReviewDate(exam.checkedOn)}</time>.{" "}
             {reviewIsStale(exam.checkedOn, now) &&
-              "This review is more than seven days old. Check official notices before acting."}
+              "Check the official website for notices published since then."}
           </p>
         </section>
       </div>

@@ -15,8 +15,8 @@ import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/data/catalog";
 import { WaitlistForm } from "@/components/waitlist-form";
 
-export const metadata = pageMetadata(
-  "Student Resources Hub & Decision Roadmap (2026/2027)",
+const baseMetadata = pageMetadata(
+  "Student Resources: Decide, Check, Prepare",
   "Navigate your Class 12 and dropper journey step-by-step. Discover non-JEE/NEET career options, compare entrance exams, check eligibility, explore premier colleges, and read strategy guides.",
   "/resources",
   [
@@ -27,6 +27,9 @@ export const metadata = pageMetadata(
     "student preparation hub",
   ],
 );
+// A navigation hub: its topics are covered in depth by /exams/after-class-12 and the exam guides,
+// so it stays out of the index to avoid competing with them.
+export const metadata = { ...baseMetadata, robots: { index: false, follow: true } };
 
 const TRACK_STAGES = [
   {
@@ -53,7 +56,7 @@ const TRACK_STAGES = [
     href: "/exams/compare",
     cta: "View Full Comparison Matrix →",
     icon: Scale,
-    accent: "#0ea5e9",
+    accent: "#0369a1",
     bg: "#f0f9ff",
     badge: "Decision Matrix",
   },
@@ -67,21 +70,21 @@ const TRACK_STAGES = [
     href: "/exams/eligibility",
     cta: "Check Your Eligibility Rules →",
     icon: FileCheck2,
-    accent: "#16a34a",
+    accent: "#15803d",
     bg: "#f0fdf4",
-    badge: "Compliance & Age",
+    badge: "Eligibility",
   },
   {
     step: "04",
     phase: "Inspire",
     title: "Top Colleges & Campus Showcase",
-    tagline: "Explore premier institutes, campus architecture photos, and NIRF rankings.",
+    tagline: "See which institutes each exam leads to, with official NIRF 2025 rankings.",
     description:
-      "Visualize your destination: Delhi University North Campus, Indian Institute of Science Bangalore (Rank #1 University), NISER Bhubaneswar, and RVCE Bengaluru. Browse verified campus photos, courses, and cutoff insights.",
+      "From Delhi University and BHU through CUET, to the IISERs, IISc and IIT Madras's BS through IAT, NISER and CEBS through NEST, and Karnataka engineering colleges through COMEDK — with how admission works at each.",
     href: "/colleges",
-    cta: "Browse College Directory & Photos →",
+    cta: "Browse institutes by exam →",
     icon: GraduationCap,
-    accent: "#8b5cf6",
+    accent: "#6d28d9",
     bg: "#faf5ff",
     badge: "Campus Directory",
   },
@@ -89,13 +92,13 @@ const TRACK_STAGES = [
     step: "05",
     phase: "Master",
     title: "Preparation Strategy & 2027 Guides",
-    tagline: "Subject-wise master roadmaps, books, and timing strategies from mentors.",
+    tagline: "Explainers and preparation plans, each citing the official bulletin.",
     description:
-      "Read our in-depth strategy breakdowns: How to crack CUET 60-minute domain papers, IISER IAT 4-subject cross-speed mastery, NEST sectional cutoffs (SMAS), and COMEDK speed hacks with zero negative marking.",
+      "CUET UG 2027 changes (confirmed vs proposed), how CUET normalisation works, IAT and NEST scoring explained, and a COMEDK strategy built around no negative marking.",
     href: "/blog",
     cta: "Read Exam Strategy Articles →",
     icon: BookOpen,
-    accent: "#ea580c",
+    accent: "#c2410c",
     bg: "#fff7ed",
     badge: "Study Strategy",
   },
@@ -103,9 +106,9 @@ const TRACK_STAGES = [
     step: "06",
     phase: "Validate",
     title: "Attempt Full-Length Free Mocks",
-    tagline: "Test your actual preparation level with official CBT timers and pacing analytics.",
+    tagline: "Test yourself on the official pattern and see where you lose marks.",
     description:
-      "Take complete 50-question mock tests across 13 CUET UG domain subjects completely free. Experience the real NTA countdown clock, per-question timer, and instant accuracy breakdown.",
+      "Take a full 50-question CUET UG mock free in 12 subjects, timed like the real exam, with a section and topic breakdown afterwards.",
     href: "/free-diagnostic",
     cta: "Launch Free Full Mock Now →",
     icon: Target,

@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/page-metadata";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -14,6 +15,15 @@ import { exams } from "@/data/exams";
 import { products } from "@/data/catalog";
 
 export const dynamic = "force-static";
+// The root layout's title template does not apply to the root page, so the brand is added explicitly.
+export const metadata = {
+  ...pageMetadata(
+    "Exams After Class 12 Beyond JEE & NEET",
+    "Guides to CUET UG, IISER IAT, NISER NEST and COMEDK UGET — official patterns, eligibility and colleges — plus free full-length CUET mock tests.",
+    "/",
+  ),
+  title: { absolute: "OurMocks: Exams After Class 12 Beyond JEE & NEET" },
+};
 
 export default function HomePage() {
   return (
@@ -55,7 +65,7 @@ export default function HomePage() {
             }}
           >
             <span style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#22c55e" }} />
-            <span><strong>CUET UG:</strong> 13 Full-Length Tests Free Now · <strong>IISER, NISER & COMEDK:</strong> Coming Soon</span>
+            <span><strong>CUET UG:</strong> free full-length Test 1 in 12 subjects · <strong>IAT, NEST &amp; COMEDK:</strong> mocks in preparation</span>
           </div>
         </div>
         <div
@@ -157,7 +167,7 @@ export default function HomePage() {
                     color: product.slug === "cuet-ug" ? "#15803d" : "#92400e",
                   }}
                 >
-                  {product.slug === "cuet-ug" ? "13 Tests Free" : "Coming Soon"}
+                  {product.slug === "cuet-ug" ? "Test 1 free" : "In preparation"}
                 </span>
               </div>
               <h3>{product.mocks} planned mocks</h3>
@@ -172,7 +182,13 @@ export default function HomePage() {
                 <strong>₹{product.price.toLocaleString("en-IN")}</strong>
               </div>
               <Link
-                href="/free-diagnostic"
+                href={
+                  product.slug === "cuet-ug"
+                    ? "/free-diagnostic"
+                    : product.isBundle
+                      ? "/test-series#waitlist"
+                      : `/free-diagnostic?exam=${product.includedExams?.[0] ?? product.slug}#waitlist`
+                }
                 className="card-link"
               >
                 {product.slug === "cuet-ug" ? "Attempt Free Test" : "Notify Me on Launch"}{" "}

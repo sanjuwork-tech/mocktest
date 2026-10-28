@@ -52,7 +52,10 @@ export default async function TestSeriesDetailPage({ params }: Props) {
     },
     {
       q: `Can I try a free mock test before purchasing?`,
-      a: `Yes — one free diagnostic mock is available per subject so you can experience the test format before enrolling.`,
+      a:
+        product.slug === "cuet-ug"
+          ? "Yes. Test 1 is free in 12 CUET subjects — sign up and take it on the official pattern before deciding."
+          : "Not yet. This series is in preparation; join the waitlist and we'll tell you when the first tests open.",
     },
   ];
 
@@ -105,14 +108,7 @@ export default async function TestSeriesDetailPage({ params }: Props) {
                 "@type": "Brand",
                 name: siteConfig.name,
               },
-              offers: {
-                "@type": "Offer",
-                priceCurrency: "INR",
-                price: product.price,
-                availability: "https://schema.org/PreOrder",
-                priceValidUntil: "2026-12-31",
-                seller: { "@id": `${siteConfig.url}/#organization` },
-              },
+              // No Offer until enrolment is actually open: proposed prices must not appear as a live sale.
             },
             {
               "@type": "FAQPage",

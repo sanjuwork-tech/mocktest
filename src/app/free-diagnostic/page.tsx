@@ -2,8 +2,8 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { FreeDiagnosticClient } from "./client";
 
 export const metadata = pageMetadata(
-  "Free Full-Length Mock Tests — CUET UG Official Pattern & Diagnostic Mocks",
-  "Attempt full-length 50-question CUET UG mock tests across 13 subjects completely free. Experience the real CBT interface with live question timers and instant diagnostic reports.",
+  "Free CUET UG Mock Test, Full Length",
+  "Take a full-length 50-question CUET UG mock test free in 12 subjects, timed like the real exam, with a section and topic report afterwards.",
   "/free-diagnostic",
   [
     "free full length mock test",
@@ -15,6 +15,8 @@ export const metadata = pageMetadata(
   ],
 );
 
-export default function FreeDiagnosticPage() {
-  return <FreeDiagnosticClient />;
+// ?exam= opens that exam's tab, so "Notify me" links from IAT, NEST and COMEDK pages land on the right waitlist.
+export default async function FreeDiagnosticPage({ searchParams }: { searchParams: Promise<{ exam?: string }> }) {
+  const { exam } = await searchParams;
+  return <FreeDiagnosticClient initialExam={exam} />;
 }

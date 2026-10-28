@@ -12,12 +12,12 @@ interface WaitlistFormProps {
 
 const EXAM_OPTIONS = [
   { id: "all-access", label: "All-Access Pass (All 4 Exams)" },
-  { id: "iiser-iat", label: "IISER IAT 2026/2027 Series" },
-  { id: "niser-nest", label: "NISER NEST 2026/2027 Series" },
-  { id: "comedk", label: "COMEDK UGET 2026/2027 Series" },
+  { id: "iiser-iat", label: "IISER IAT 2027 mock series" },
+  { id: "niser-nest", label: "NISER NEST 2027 mock series" },
+  { id: "comedk", label: "COMEDK UGET 2027 mock series" },
   { id: "bundle-cuet-iiser", label: "CUET + IISER Combo Pass" },
   { id: "bundle-science-trio", label: "Science Trio (IISER + NEST + CUET)" },
-  { id: "cuet-ug", label: "CUET UG Advanced Series (All 25 Tests)" },
+  { id: "cuet-ug", label: "CUET UG full series (25 tests per subject)" },
 ];
 
 export function WaitlistForm({

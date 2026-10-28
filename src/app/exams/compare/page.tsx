@@ -4,8 +4,8 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
 
 export const metadata = pageMetadata(
-  "CUET vs IISER IAT vs NEST vs COMEDK — Full Exam Comparison (2026/2027)",
-  "Compare CUET UG, IISER IAT, NEST, and COMEDK side-by-side. Eligibility, exam pattern, marking scheme, question format, and career outcomes compared for Class 12 aspirants.",
+  "CUET vs IAT vs NEST vs COMEDK: 2027 Comparison",
+  "CUET UG, IISER IAT, NEST and COMEDK side by side: courses, subjects, questions, duration, marking and eligibility from the official 2026 bulletins.",
   "/exams/compare",
   [
     "CUET vs IAT",
@@ -20,17 +20,17 @@ export const metadata = pageMetadata(
 const COMPARISON_ROWS = [
   {
     feature: "Primary Focus & Target Courses",
-    cuet: "BA, BSc, BCom, BCA, BTech at participating Central, State & Deemed Universities (e.g. DU, BHU, JNU)",
-    iat: "BS-MS Dual Degree at 7 IISERs, 4-Year BS (Research) at IISc Bangalore, and BS Medical Sciences at IIT Madras",
+    cuet: "Undergraduate programmes (BA, BSc, BCom and more) at 48 Central Universities plus participating state, deemed and private universities",
+    iat: "5-year BS-MS at 7 IISERs; also IISc 4-year BS (Research), IIT Madras 4-year BS, IIT Guwahati, IACS Kolkata and IIEST Shibpur programmes",
     nest: "5-Year Integrated MSc in Basic Sciences at NISER Bhubaneswar & UM-DAE CEBS Mumbai (DAE Institutions)",
-    comedk: "4-Year B.E. / B.Tech in 190+ unaided private engineering institutions across Karnataka (RVCE, BMSCE, MSRIT)",
+    comedk: "4-year B.E./B.Tech at about 150 private engineering colleges in Karnataka (around 20,000 seats)",
   },
   {
     feature: "Conducting Body",
     cuet: "National Testing Agency (NTA)",
-    iat: "Joint Admissions Committee (JAC - IISERs)",
+    iat: "The IISERs (joint admission)",
     nest: "NISER Bhubaneswar & UM-DAE CEBS Mumbai",
-    comedk: "Consortium of Medical, Engineering & Dental Colleges of Karnataka",
+    comedk: "COMEDK (Consortium of Medical, Engineering and Dental Colleges of Karnataka)",
   },
   {
     feature: "Subjects Tested",
@@ -43,7 +43,7 @@ const COMPARISON_ROWS = [
     feature: "Question Count & Duration",
     cuet: "50 Questions per domain paper · 60 Minutes per slot",
     iat: "60 Questions (15 per subject) · 180 Minutes (3 Hours)",
-    nest: "80 Questions (20 per subject) · 210 Minutes (3.5 Hours)",
+    nest: "80 Questions (20 per subject) · 180 Minutes (3 Hours)",
     comedk: "180 Questions (60 per subject) · 180 Minutes (3 Hours)",
   },
   {
@@ -61,18 +61,18 @@ const COMPARISON_ROWS = [
     comedk: "Class 12 with at least 45% aggregate in Physics & Maths + Chem/Bio/Tech (40% for SC/ST/OBC Karnataka)",
   },
   {
-    feature: "Difficulty Benchmark",
-    cuet: "Moderate (strictly NCERT Class 12 syllabus)",
-    iat: "Advanced conceptual (NCERT + research aptitude application)",
-    nest: "Very high (multi-step analytical science problems)",
-    comedk: "Moderate speed-intensive (1 question per minute speed)",
+    feature: "Syllabus Basis",
+    cuet: "NCERT-based, per the official subject-wise syllabus",
+    iat: "Class 11–12 Biology, Chemistry, Mathematics and Physics",
+    nest: "Class 11–12 science, primarily CBSE/NCERT (detailed in the brochure)",
+    comedk: "CBSE: about 33% Class 11 and 67% Class 12",
   },
   {
     feature: "Practice Mock Availability",
-    cuet: "13 Full-Length Domain Tests Available Free Now",
-    iat: "Coming Soon (Adding in upcoming days)",
-    nest: "Coming Soon (Adding in upcoming days)",
-    comedk: "Coming Soon (Adding in upcoming days)",
+    cuet: "Free full-length Test 1 in 12 subjects",
+    iat: "In preparation — join the waitlist",
+    nest: "In preparation — join the waitlist",
+    comedk: "In preparation — join the waitlist",
   },
 ];
 
@@ -103,6 +103,7 @@ export default function CompareExamsPage() {
         <table
           style={{
             width: "100%",
+            minWidth: "760px",
             borderCollapse: "separate",
             borderSpacing: 0,
             borderRadius: "14px",
@@ -198,7 +199,7 @@ export default function CompareExamsPage() {
             Ready to test your readiness?
           </h2>
           <p style={{ fontSize: "14px", color: "#475569", margin: 0, maxWidth: "560px" }}>
-            Attempt <strong>CUET UG full-length 50-question mock tests</strong> across 13 subjects completely free. IISER, NEST and COMEDK mocks will be added in upcoming days.
+            Take a <strong>full-length 50-question CUET UG mock</strong> free in 12 subjects. IAT, NEST and COMEDK mocks are in preparation.
           </p>
         </div>
         <Link href="/free-diagnostic" className="button-primary">
@@ -222,7 +223,7 @@ export default function CompareExamsPage() {
             Choose IISER IAT if:
           </h3>
           <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6 }}>
-            You have a genuine passion for natural sciences, research, and academia, and want admission to premier institutes like IISc Bangalore, 7 IISERs, or IIT Madras BS programs.
+            You enjoy the natural sciences and want a research-oriented degree: BS-MS at the 7 IISERs, or the 4-year BS at IISc or IIT Madras.
           </p>
         </div>
 
@@ -231,7 +232,7 @@ export default function CompareExamsPage() {
             Choose NISER NEST if:
           </h3>
           <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6 }}>
-            You aim for natural and basic science research at DAE institutes (NISER Bhubaneswar & UM-DAE CEBS Mumbai). Admitted students who maintain the required academic standing are eligible for DISHA scholarship support (₹60,000/yr + mentorship), with direct interview eligibility for BARC Training School for eligible graduates.
+            You want a 5-year Integrated M.Sc at the Department of Atomic Energy institutes, NISER Bhubaneswar or UM-DAE CEBS Mumbai. Admitted students are eligible for the DISHA scholarship of ₹60,000 a year plus ₹20,000 a year for summer internships.
           </p>
         </div>
 

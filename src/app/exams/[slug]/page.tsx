@@ -10,7 +10,8 @@ import {
 import { JsonLd } from "@/components/json-ld";
 import { CollegesShowcase } from "@/components/colleges-showcase";
 import { SocialShare } from "@/components/social-share";
-import { Sparkles, Calendar, ArrowRight } from "lucide-react";
+import { blogPosts } from "@/data/blog";
+import { ArrowRight } from "lucide-react";
 
 export const dynamicParams = false;
 export const revalidate = 86400;
@@ -18,22 +19,34 @@ export function generateStaticParams() {
   return exams.map((exam) => ({ slug: exam.slug }));
 }
 type Props = { params: Promise<{ slug: string }> };
+
+function description(text: string) {
+  return text.length <= 158 ? text : `${text.slice(0, text.lastIndexOf(" ", 155))}…`;
+}
+
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const exam = exams.find((exam) => exam.slug === slug);
   if (!exam) notFound();
   return pageMetadata(
-    `${exam.name} 2026: eligibility, dates & opportunities`,
-    `Explore ${exam.name} eligibility, exam pattern, syllabus, dates, opportunities and official application links. ${exam.verification === "partial" ? "Some live information remains unverified." : "Includes reviewed official sources."}`,
+    `${exam.name} 2027: Pattern, Eligibility & Dates`,
+    description(exam.quickAnswer),
     `/exams/${slug}`,
   );
 }
+
 export default async function ExamPage({ params }: Props) {
   const { slug } = await params;
   const index = exams.findIndex((exam) => exam.slug === slug);
   if (index < 0) notFound();
   const exam = exams[index];
   const url = `${siteConfig.url}/exams/${slug}`;
+  const freeTestLive = slug === "cuet-ug";
+  const cta = freeTestLive
+    ? { href: "/free-diagnostic", label: "Take a free CUET mock test" }
+    : { href: `/free-diagnostic?exam=${slug}#waitlist`, label: `Get notified when ${exam.name} mocks open` };
+  const guides = blogPosts.filter((post) => post.examSlug === slug);
+
   return (
     <main id="main-content" tabIndex={-1}>
       <JsonLd
@@ -44,73 +57,31 @@ export default async function ExamPage({ params }: Props) {
               "@type": "WebPage",
               "@id": `${url}#webpage`,
               url,
-              name: `${exam.name} 2026 exam guide`,
-              description: exam.summary,
+              name: `${exam.name} 2027 exam guide`,
+              description: exam.quickAnswer,
               inLanguage: "en-IN",
+              dateModified: exam.checkedOn,
               isPartOf: { "@id": `${siteConfig.url}/#website` },
               breadcrumb: { "@id": `${url}#breadcrumb` },
+              about: { "@type": "Thing", name: exam.fullName },
             },
             {
               "@type": "BreadcrumbList",
               "@id": `${url}#breadcrumb`,
               itemListElement: [
-                {
-                  "@type": "ListItem",
-                  position: 1,
-                  name: "Home",
-                  item: siteConfig.url,
-                },
-                {
-                  "@type": "ListItem",
-                  position: 2,
-                  name: "Explore exams",
-                  item: `${siteConfig.url}/exams`,
-                },
-                {
-                  "@type": "ListItem",
-                  position: 3,
-                  name: exam.name,
-                  item: url,
-                },
+                { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+                { "@type": "ListItem", position: 2, name: "Explore exams", item: `${siteConfig.url}/exams` },
+                { "@type": "ListItem", position: 3, name: exam.name, item: url },
               ],
             },
             {
               "@type": "FAQPage",
               "@id": `${url}#faq`,
-              mainEntity: [
-                {
-                  "@type": "Question",
-                  name: `What is the eligibility for ${exam.name}?`,
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: exam.eligibility.join(" "),
-                  },
-                },
-                {
-                  "@type": "Question",
-                  name: `What is the exam pattern for ${exam.name}?`,
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: exam.format,
-                  },
-                },
-                {
-                  "@type": "Question",
-                  name: `What is the fee for ${exam.name}?`,
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: exam.fee,
-                  },
-                },
-                {
-                  "@type": "Question",
-                  name: `How does admission work after ${exam.name}?`,
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: exam.admission,
-                  },
-                },
-              ],
+              mainEntity: exam.faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.q,
+                acceptedAnswer: { "@type": "Answer", text: faq.a },
+              })),
             },
           ],
         }}
@@ -123,145 +94,93 @@ export default async function ExamPage({ params }: Props) {
           <span aria-hidden="true">/</span>
           <span aria-current="page">{exam.name}</span>
         </nav>
-        <div style={{ display: "inline-flex", alignItems: "center", gap: "6px", background: "#f0fdf4", border: "1px solid #bbf7d0", color: "#166534", padding: "4px 12px", borderRadius: "999px", fontSize: "12px", fontWeight: 700, marginBottom: "12px" }}>
-          <Sparkles size={13} /> 2026 / 2027 Cycle Guidance Active
-        </div>
-        <p className="eyebrow">{exam.category} · Academic Reference</p>
+        <p className="eyebrow">{exam.category}</p>
         <h1>
-          {exam.name}
+          {exam.name} 2027
           <br />
-          <em>Your guide to the next step.</em>
+          <em>exam guide.</em>
         </h1>
         <p className="hero-copy">
-          {exam.fullName}. Explore the opportunities, understand the
-          requirements, discover top colleges, and find the official information you need.
+          {exam.fullName}: pattern, eligibility, where it leads and what is known about the 2027 cycle — checked
+          against the official sources.
         </p>
         <div className="hero-actions">
-          <Link href="/free-diagnostic" className="button-primary">
-            {slug === "cuet-ug" ? "Attempt Free Full Mock" : "Join Waitlist / Free Diagnostic"} <ArrowRight size={16} />
+          <Link href={cta.href} className="button-primary">
+            {cta.label} <ArrowRight size={16} />
           </Link>
-          <Link href={`/exams#${slug}`} className="text-link">
-            Compare with all four exams →
+          <Link href="/exams/compare" className="text-link">
+            Compare all four exams →
           </Link>
         </div>
       </section>
       <div className="page-shell standalone-exam-guide">
-        <SocialShare
-          title={`${exam.name} 2026/2027 Official Guide: Eligibility, Top Colleges & Dates`}
-          description={exam.summary}
-        />
+        <ExamGuideArticle exam={exam} index={index} now={new Date()} standalone />
 
-        <ExamGuideArticle
-          exam={exam}
-          index={index}
-          now={new Date()}
-          standalone
-        />
-
-        {/* Respective Colleges & Universities with Photos */}
         <CollegesShowcase
           examSlug={exam.slug}
-          heading={`Top Universities & Colleges for ${exam.name}`}
-          subheading={`Explore the premier institutes, campus photos, popular degree courses, and rankings unlocked by your ${exam.name} preparation.`}
+          heading={`Institutes that admit through ${exam.name}`}
+          subheading="Verified admission routes, official rankings and links to each institute's own website."
           showFilters={false}
         />
 
-        {/* Free Test or Waitlist CTA */}
-        <section
-          style={{
-            background: "linear-gradient(135deg, #071A4D 0%, #1F5EFF 100%)",
-            color: "#ffffff",
-            borderRadius: "18px",
-            padding: "36px",
-            margin: "36px 0",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            flexWrap: "wrap",
-            gap: "20px",
-            boxShadow: "0 8px 24px rgba(7, 26, 77, 0.15)",
-          }}
-        >
+        <section className="exam-cta-band">
           <div>
-            <span
-              style={{
-                fontSize: "11px",
-                fontWeight: 800,
-                textTransform: "uppercase",
-                letterSpacing: "0.5px",
-                background: "#B8FF34",
-                color: "#071A4D",
-                padding: "3px 10px",
-                borderRadius: "999px",
-              }}
-            >
-              {slug === "cuet-ug" ? "13 Full Tests Free Live" : "Coming Soon · Adding in Upcoming Days"}
-            </span>
-            <h2 style={{ fontSize: "24px", fontWeight: 800, color: "#ffffff", margin: "10px 0 6px 0" }}>
-              {slug === "cuet-ug" ? "Attempt CUET UG Full-Length Test 1 Free" : `Get Notified When ${exam.name} Tests Go Live`}
+            <span className="badge-lime">{freeTestLive ? "Free · official pattern" : "Mocks in preparation"}</span>
+            <h2>
+              {freeTestLive ? "Try a full CUET paper, free" : `Be first to practise ${exam.name} mocks`}
             </h2>
-            <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.85)", margin: 0, maxWidth: "560px" }}>
-              {slug === "cuet-ug"
-                ? "Timed 50-question official pattern test papers with real NTA CBT countdown, per-question timers, and detailed solutions."
-                : `Our academic experts are preparing research-grade ${exam.name} mock tests. Join our priority waitlist for early access.`}
+            <p>
+              {freeTestLive
+                ? "50 questions, 60 minutes, +5/−1 — then a section and topic analysis with worked solutions."
+                : `We're building full-length ${exam.name} mocks on the official pattern. Leave your email and we'll tell you when they open.`}
             </p>
           </div>
-          <Link
-            href="/free-diagnostic"
-            style={{
-              background: "#ffffff",
-              color: "#071A4D",
-              fontWeight: 700,
-              padding: "12px 24px",
-              borderRadius: "12px",
-              textDecoration: "none",
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "8px",
-              fontSize: "14px",
-            }}
-          >
-            {slug === "cuet-ug" ? "Attempt Free Test Now" : "Join Priority Waitlist"} <ArrowRight size={16} />
+          <Link href={cta.href} className="button-light">
+            {freeTestLive ? "Start free test" : "Join the waitlist"} <ArrowRight size={16} />
           </Link>
         </section>
 
-        <section
-          className="checklist-panel section-space"
-          aria-labelledby="official-update-title"
-        >
-          <p className="eyebrow">Official updates</p>
+        <section className="checklist-panel section-space" aria-labelledby="official-update-title">
+          <p className="eyebrow">Latest official status</p>
           <h2 id="official-update-title">{exam.notification.title}</h2>
           <p className="mt-4">{exam.notification.detail}</p>
-          <OfficialAnchor
-            link={exam.notification.source}
-            className="text-link mt-4"
-          />
-          <p className="review-note">
-            Reference information reviewed {exam.checkedOn}. Check the official
-            portal for later notices before acting.
-          </p>
+          <OfficialAnchor link={exam.notification.source} className="text-link mt-4" />
           <Link href="/exams#application-checklist" className="text-link mt-4">
             Before you apply: read the application checklist →
           </Link>
         </section>
 
+        {guides.length > 0 && (
+          <section className="section-space" aria-labelledby="guides-title">
+            <h2 id="guides-title">{exam.name} guides</h2>
+            <ul className="related-guides">
+              {guides.map((post) => (
+                <li key={post.slug}>
+                  <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                  <p>{post.summary}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <SocialShare
-          title={`${exam.name} Exam Guide: Admissions, Syllabus & Top Colleges`}
-          description={exam.summary}
+          url={url}
+          title={`${exam.name} 2027 exam guide: pattern, eligibility & dates`}
+          description={exam.quickAnswer}
         />
 
         <nav className="related-exam-links" aria-label="Explore other exams">
           {exams
             .filter((other) => other.slug !== slug)
             .map((other) => (
-              <Link
-                key={other.slug}
-                className="text-link"
-                href={`/exams/${other.slug}`}
-              >
+              <Link key={other.slug} className="text-link" href={`/exams/${other.slug}`}>
                 {other.name} guide →
               </Link>
             ))}
+          <Link className="text-link" href="/exams/eligibility">
+            Eligibility for all four exams →
+          </Link>
         </nav>
       </div>
     </main>

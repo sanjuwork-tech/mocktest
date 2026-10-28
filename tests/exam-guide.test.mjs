@@ -35,10 +35,7 @@ test("search handles whitespace, case, multiple words and category intersections
 test("historical and unverified links never claim registration is open", () => {
   for (const exam of exams)
     assert.ok(["closed", "unverified"].includes(exam.application.status));
-  assert.equal(
-    exams.find((exam) => exam.slug === "iiser-iat").verification,
-    "partial",
-  );
+  for (const exam of exams) assert.equal(exam.verification, "reviewed", exam.slug);
 });
 test("official outbound destinations use HTTPS and approved authority/vendor hosts", () => {
   const allowed = [
@@ -65,19 +62,10 @@ test("official outbound destinations use HTTPS and approved authority/vendor hos
       assert.ok(allowed.includes(url.hostname), url.hostname);
     }
 });
-test("review freshness expires after seven days using an explicit India timezone", () => {
-  assert.equal(
-    reviewIsStale("2026-09-13", new Date("2026-09-13T00:00:00+05:30")),
-    false,
-  );
-  assert.equal(
-    reviewIsStale("2026-09-13", new Date("2026-09-20T00:00:00+05:30")),
-    false,
-  );
-  assert.equal(
-    reviewIsStale("2026-09-13", new Date("2026-09-20T00:00:01+05:30")),
-    true,
-  );
+test("review freshness expires after 45 days using an explicit India timezone", () => {
+  assert.equal(reviewIsStale("2026-09-13", new Date("2026-09-13T00:00:00+05:30")), false);
+  assert.equal(reviewIsStale("2026-09-13", new Date("2026-10-28T00:00:00+05:30")), false);
+  assert.equal(reviewIsStale("2026-09-13", new Date("2026-10-28T00:00:01+05:30")), true);
 });
 test("request errors handle validation errors and malformed server responses", () => {
   assert.equal(requestError(null, "Retry"), "Retry");

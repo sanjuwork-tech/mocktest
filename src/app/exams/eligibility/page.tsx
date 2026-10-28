@@ -4,8 +4,8 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
 
 export const metadata = pageMetadata(
-  "Eligibility Criteria 2026/2027 — CUET, IISER IAT, NEST & COMEDK",
-  "Complete consolidated eligibility guide for CUET UG, IISER IAT, NEST, and COMEDK UGET. Check minimum Class 12 marks, stream requirements, attempt limits, and age restrictions.",
+  "Eligibility for CUET, IAT, NEST & COMEDK 2027",
+  "Class 12 marks, subjects, passing year and age rules for CUET UG, IISER IAT, NEST and COMEDK UGET, from the official 2026 bulletins.",
   "/exams/eligibility",
   [
     "CUET eligibility criteria 2026",
@@ -18,43 +18,47 @@ export const metadata = pageMetadata(
 
 const ELIGIBILITY_DATA = [
   {
+    slug: "cuet-ug",
     exam: "CUET (UG)",
     badge: "Most Flexible",
     authority: "National Testing Agency (NTA)",
     minMarks: "Passing grade in Class 12 (Specific university programs like DU BMS/BCom may ask 50-60%)",
-    streamRequired: "Any stream (Science, Commerce, Arts/Humanities). You must pick domain subjects studied in Class 12.",
+    streamRequired: "Any stream. The 2026 bulletin allows papers irrespective of Class 12 subjects, but a university can require specific subjects for a course.",
     ageLimit: "No upper or lower age limit imposed by NTA (individual universities may have age conditions).",
-    attemptLimit: "No limit on number of attempts; gap year / droppers eligible.",
+    attemptLimit: "NTA sets no attempt limit; each university decides whether it admits earlier passouts.",
     domicileQuota: "All-India open competition for Central Universities; state quota applies only to state universities.",
   },
   {
+    slug: "iiser-iat",
     exam: "IISER Aptitude Test (IAT)",
     badge: "Science Only",
-    authority: "Joint Admissions Committee (IISERs)",
+    authority: "The IISERs (joint admission)",
     minMarks: "At least 60% aggregate marks (55% for SC, ST, PwD) or equivalent grade in Class 12.",
     streamRequired: "Science stream with at least three subjects among Biology, Chemistry, Mathematics and Physics.",
-    ageLimit: "No age limit (eligibility governed by Class 12 qualifying year: 2024, 2025, or appearing in 2026/2027).",
-    attemptLimit: "Candidates are eligible within two years of passing Class 12.",
-    domicileQuota: "All-India open seats across all 7 IISERs, IISc Bangalore (BS), and IIT Madras (BS Medical Sciences).",
+    ageLimit: "No age limit is stated; eligibility depends on the year you passed Class 12.",
+    attemptLimit: "2026 cycle: Class 12 (or a 3-year diploma) passed in 2024, 2025 or 2026, or appearing in 2026 — three cohorts.",
+    domicileQuota: "All-India admission to the 7 IISERs; IISc (BS Research) and IIT Madras (4-year BS) also used IAT 2026, with their own applications.",
   },
   {
+    slug: "niser-nest",
     exam: "National Entrance Screening Test (NEST)",
     badge: "Basic Science",
     authority: "NISER Bhubaneswar & UM-DAE CEBS",
     minMarks: "At least 60% aggregate marks (55% for SC, ST, Divyangjan) in Class 12 examination.",
     streamRequired: "Science stream in regular school mode with at least 3 subjects out of PCM/B.",
     ageLimit: "No age limit (as per the official NEST information brochure).",
-    attemptLimit: "Passed Class 12 in 2024, 2025 or appearing in 2026/2027.",
-    domicileQuota: "All-India open admissions. Admitted students maintaining academic criteria are eligible for DISHA scholarship (₹60,000/yr + mentorship) under DAE norms.",
+    attemptLimit: "2026 cycle: Class 12 passed in 2024 or 2025, or appearing in 2026.",
+    domicileQuota: "All-India admission. Admitted students are eligible for the DAE DISHA scholarship (₹60,000 a year plus ₹20,000 a year for summer internships).",
   },
   {
+    slug: "comedk",
     exam: "COMEDK UGET",
     badge: "Engineering",
     authority: "COMEDK Karnataka",
     minMarks: "At least 45% aggregate in Physics & Mathematics + Chemistry/Bio/CS (40% for SC/ST/OBC Karnataka).",
     streamRequired: "Physics, Mathematics as compulsory subjects along with Chemistry/Bio/Tech subject.",
-    ageLimit: "Must have completed 17 years of age on or before 31st December of the admission year.",
-    attemptLimit: "No limit on attempts for engineering entrance.",
+    ageLimit: "COMEDK states that B.E./B.Tech eligibility follows AICTE and VTU norms; it does not set a separate age limit.",
+    attemptLimit: "COMEDK does not state an attempt limit; earlier passouts are eligible as per AICTE/VTU norms.",
     domicileQuota: "Open to students from all states across India (Non-Karnataka candidates eligible for private seats).",
   },
 ];
@@ -159,11 +163,18 @@ export default function EligibilityGuidePage() {
 
             <div style={{ marginTop: "24px", paddingTop: "16px", borderTop: "1px solid #f1f5f9" }}>
               <Link
-                href="/free-diagnostic"
+                href={item.slug === "cuet-ug" ? "/free-diagnostic" : `/free-diagnostic?exam=${item.slug}#waitlist`}
                 className="text-link"
                 style={{ fontSize: "13px", fontWeight: 600, display: "inline-flex", alignItems: "center", gap: "6px" }}
               >
-                Attempt {item.exam.includes("CUET") ? "Free Full Test" : "Practice Mock / Join Waitlist"} <ArrowRight size={14} />
+                {item.slug === "cuet-ug" ? "Take a free CUET test" : "Join the waitlist"} <ArrowRight size={14} />
+              </Link>
+              <Link
+                href={`/exams/${item.slug}`}
+                className="text-link"
+                style={{ fontSize: "13px", fontWeight: 600, display: "inline-flex", alignItems: "center", gap: "6px", marginLeft: "16px" }}
+              >
+                Full guide <ArrowRight size={14} />
               </Link>
             </div>
           </article>
@@ -189,7 +200,7 @@ export default function EligibilityGuidePage() {
               Can droppers / gap-year students write these exams?
             </h4>
             <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              Yes. CUET and COMEDK have no year restriction. IISER IAT and NEST accept candidates who passed within the immediate preceding two years (e.g. 2024 or 2025 for 2026 attempt).
+              Mostly, yes. CUET and COMEDK set no passing-year limit of their own. In 2026, IAT accepted Class 12 passouts of 2024, 2025 and 2026, and NEST accepted 2024 and 2025 passouts plus students appearing in 2026.
             </p>
           </div>
           <div>
@@ -197,7 +208,7 @@ export default function EligibilityGuidePage() {
               Can PCB students take IISER IAT or NEST without Maths?
             </h4>
             <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              Yes! PCB students are fully eligible. While the test contains a Mathematics section, strong scores in Physics, Chemistry, and Biology often comfortably clear the admission cutoff.
+              Yes, for the main programmes: IISER BS-MS and the NISER/CEBS Integrated M.Sc need any three of Biology, Chemistry, Mathematics and Physics. Both tests still include a Mathematics section, and some programmes (such as IISER B.Tech or economics degrees) require Mathematics — check the bulletin for each.
             </p>
           </div>
           <div>
@@ -205,7 +216,7 @@ export default function EligibilityGuidePage() {
               Can Non-Karnataka students get seats through COMEDK?
             </h4>
             <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              Yes. COMEDK is explicitly an All-India exam open to students from all states. Seats are allotted strictly based on COMEDK merit ranks without state reservation barriers.
+              Yes. COMEDK is an all-India exam, and seats are allotted by COMEDK rank through its centralised counselling. Karnataka SC/ST/OBC candidates get a lower qualifying aggregate (40% instead of 45%).
             </p>
           </div>
         </div>

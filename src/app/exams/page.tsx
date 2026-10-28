@@ -1,144 +1,165 @@
+import Link from "next/link";
+import { ArrowRight, BookOpen, CalendarDays, CheckCircle2 } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
-import { BookOpen, CalendarDays, CheckCircle2 } from "lucide-react";
-import { ExamDirectory } from "@/components/exam-directory";
-import { exams, reviewIsStale } from "@/data/exams";
-import {
-  ExamGuideArticle,
-  OfficialAnchor,
-} from "@/components/exam-guide-article";
+import { exams, formatReviewDate } from "@/data/exams";
+import { OfficialAnchor } from "@/components/exam-guide-article";
+import { JsonLd } from "@/components/json-ld";
+import { siteConfig } from "@/data/catalog";
 
 export const revalidate = 86400;
 export const metadata = pageMetadata(
-  "Exams after Class 12 — CUET, IAT, NEST & COMEDK",
-  "Explore four entrance exams in one place: opportunities, eligibility, dates, official notifications and candidate links.",
+  "CUET, IAT, NEST & COMEDK 2027 Exam Guides",
+  "Four entrance exams beyond JEE and NEET in one place: what each exam is, its official pattern and marking, who it admits to, and what is known about 2027.",
   "/exams",
 );
 
+const QUESTIONS: Record<string, string> = {
+  "cuet-ug": "50 per paper; up to 5 papers",
+  "iiser-iat": "60 (15 per subject)",
+  "niser-nest": "80 (20 per section; best 3 sections count)",
+  comedk: "180 (60 per subject)",
+};
+
+const pick = (rows: { label: string; value: string }[], label: string) =>
+  rows.find((r) => r.label === label)?.value ?? "—";
+
 export default function ExamsPage() {
-  const now = new Date();
+  const lastReviewed = exams.map((e) => e.checkedOn).sort().at(-1)!;
   return (
     <main id="main-content" tabIndex={-1}>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Exam guides: CUET UG, IISER IAT, NISER NEST, COMEDK UGET",
+          url: `${siteConfig.url}/exams`,
+          dateModified: lastReviewed,
+          hasPart: exams.map((exam) => ({
+            "@type": "WebPage",
+            name: `${exam.name} 2027 exam guide`,
+            url: `${siteConfig.url}/exams/${exam.slug}`,
+          })),
+        }}
+      />
       <section className="guide-hero page-shell">
-        <p className="eyebrow">The exam discovery guide</p>
+        <p className="eyebrow">Exam guides</p>
         <h1>
-          There’s a world beyond
+          Four exams beyond
           <br />
-          <em>the familiar exams.</em>
+          <em>JEE and NEET.</em>
         </h1>
         <p className="hero-copy">
-          Your interests deserve to lead the way. Explore science, engineering
-          and university opportunities after Class 12—with the exam details and
-          official updates you need, together in one place.
+          CUET UG opens central universities, IAT and NEST lead to research-focused science degrees, and COMEDK
+          covers private engineering colleges in Karnataka. Start with what each exam is, then open its full guide.
         </p>
         <div className="hero-tags">
           <span>
-            <CheckCircle2 size={16} /> Official sources linked
+            <CheckCircle2 size={16} /> Checked against official bulletins
           </span>
           <span>
-            <BookOpen size={16} /> Four exam guides, one page
+            <BookOpen size={16} /> Official 2026 patterns
           </span>
           <span>
-            <CalendarDays size={16} /> 2026 reference cycle
+            <CalendarDays size={16} /> Verified {formatReviewDate(lastReviewed)}
           </span>
         </div>
       </section>
-      <div className="page-shell">
-        <ExamDirectory />
-      </div>
-      <section
-        id="notifications"
-        className="page-shell section-space"
-        aria-labelledby="notifications-title"
-      >
+
+      <section className="page-shell exam-hub" aria-label="Exam guides">
+        {exams.map((exam) => (
+          <article key={exam.slug} className={`exam-hub-card theme-${exam.slug}`} id={exam.slug}>
+            <p className="eyebrow">{exam.category}</p>
+            <h2>{exam.name}</h2>
+            <p>{exam.quickAnswer}</p>
+            <Link href={`/exams/${exam.slug}`} className="button-primary">
+              {exam.name} 2027 guide <ArrowRight size={16} />
+            </Link>
+          </article>
+        ))}
+      </section>
+
+      <section className="page-shell section-space" aria-labelledby="at-a-glance">
+        <h2 id="at-a-glance">At a glance (2026 official patterns)</h2>
+        <div className="table-scroll">
+          <table className="glance-table">
+            <caption className="sr-only">Exam pattern comparison</caption>
+            <thead>
+              <tr>
+                <th scope="col">Exam</th>
+                <th scope="col">Questions</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Marking</th>
+              </tr>
+            </thead>
+            <tbody>
+              {exams.map((exam) => (
+                <tr key={exam.slug}>
+                  <th scope="row">
+                    <Link href={`/exams/${exam.slug}`}>{exam.name}</Link>
+                  </th>
+                  <td>{QUESTIONS[exam.slug]}</td>
+                  <td>{pick(exam.pattern, "Duration")}</td>
+                  <td>{pick(exam.pattern, "Marking")}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-4">
+          <Link href="/exams/compare" className="text-link">
+            Full side-by-side comparison →
+          </Link>{" "}
+          <Link href="/exams/eligibility" className="text-link">
+            Eligibility for each exam →
+          </Link>
+        </p>
+      </section>
+
+      <section id="notifications" className="page-shell section-space" aria-labelledby="notifications-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">Know your next step</p>
-            <h2 id="notifications-title">Official notices, in context.</h2>
+            <p className="eyebrow">Latest official status</p>
+            <h2 id="notifications-title">Where each exam stands now</h2>
           </div>
-          <a href="#exam-details" className="text-link">
-            Go to exam details ↓
-          </a>
         </div>
-        <p className="section-copy">
-          These are reviewed summaries, not a live feed. Review dates are shown
-          for each exam. The 2026 information below must not be treated as a
-          2027 schedule.
-        </p>
         <div className="notice-grid">
           {exams.map((exam) => (
             <article key={exam.slug} className="notice-card">
               <span className="eyebrow">{exam.name}</span>
               <h3>{exam.notification.title}</h3>
               <p>{exam.notification.detail}</p>
-              <OfficialAnchor
-                link={exam.notification.source}
-                className="text-link"
-              />
-              <p className="review-note">
-                Review attempted {exam.checkedOn}
-                {exam.verification === "partial"
-                  ? " · Live portal unverified"
-                  : " · Official source reviewed"}
-                {reviewIsStale(exam.checkedOn, now)
-                  ? " · Recheck the official site for newer notices"
-                  : ""}
-              </p>
+              <OfficialAnchor link={exam.notification.source} className="text-link" />
+              <p className="review-note">Checked {formatReviewDate(exam.checkedOn)}</p>
             </article>
           ))}
         </div>
       </section>
-      <div className="exam-reading-area" id="exam-details">
-        <div className="page-shell reading-layout">
-          <aside className="reading-nav">
-            <nav aria-label="Jump to an exam">
-              <p className="eyebrow">On this page</p>
-              {exams.map((exam, i) => (
-                <a key={exam.slug} href={`#${exam.slug}`}>
-                  <span>0{i + 1}</span>
-                  {exam.name}
-                </a>
-              ))}
-              <a href="#application-checklist">Application checklist</a>
-            </nav>
-          </aside>
-          <div className="min-w-0">
-            {exams.map((exam, i) => (
-              <ExamGuideArticle
-                key={exam.slug}
-                exam={exam}
-                index={i}
-                now={now}
-              />
-            ))}
-            <section id="application-checklist" className="checklist-panel">
-              <p className="eyebrow">Before you apply</p>
-              <h2>
-                A little preparation.
-                <br />A clearer application.
-              </h2>
-              <ol>
-                {[
-                  "Shortlist the course and institution, then check the exact eligibility and required subjects.",
-                  "Read the current-cycle bulletin and confirm that registration is open on the official site.",
-                  "Prepare the documents, photo and signature in the formats requested by the organiser.",
-                  "Review your details, pay only through the official portal and save the confirmation page.",
-                  "Track correction windows, admit cards, results and counselling separately.",
-                ].map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ol>
-              <p className="mt-5 text-sm">
-                Admission, scholarships and career outcomes depend on the
-                programme and its conditions. OurMocks helps you discover and
-                understand these routes; it does not guarantee a seat.
-              </p>
-              <a href="#main-content" className="text-link mt-5">
-                Back to the top ↑
-              </a>
-            </section>
-          </div>
-        </div>
-      </div>
+
+      <section id="application-checklist" className="page-shell checklist-panel section-space">
+        <p className="eyebrow">Before you apply</p>
+        <h2>
+          A little preparation.
+          <br />A clearer application.
+        </h2>
+        <ol>
+          {[
+            "Shortlist the course and institution, then check the exact eligibility and required subjects.",
+            "Read the current-cycle bulletin and confirm that registration is open on the official site.",
+            "Prepare the documents, photo and signature in the formats requested by the organiser.",
+            "Review your details, pay only through the official portal and save the confirmation page.",
+            "Track correction windows, admit cards, results and counselling separately.",
+          ].map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ol>
+        <p className="mt-5 text-sm">
+          Admission, scholarships and career outcomes depend on the programme and its conditions. OurMocks helps you
+          discover and understand these routes; it does not guarantee a seat.
+        </p>
+        <Link href="/free-diagnostic" className="button-primary mt-5">
+          Practise with a free mock test <ArrowRight size={16} />
+        </Link>
+      </section>
     </main>
   );
 }

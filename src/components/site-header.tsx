@@ -9,39 +9,39 @@ import { Logo } from "@/components/logo";
 const RESOURCE_ITEMS = [
   {
     href: "/resources",
-    title: "Aspirant Decision Track",
-    subtitle: "Complete 6-stage psychological guidance roadmap",
+    title: "Student roadmap",
+    subtitle: "Six steps from choosing an exam to practising it",
     icon: Sparkles,
     badge: "Start Here",
   },
   {
     href: "/exams/after-class-12",
-    title: "What Exams After Class 12?",
-    subtitle: "Viable non-JEE/NEET career options & streams",
+    title: "Exams after Class 12",
+    subtitle: "Options beyond JEE and NEET, by stream",
     icon: Compass,
   },
   {
     href: "/exams/compare",
-    title: "Side-by-Side Exam Comparison",
-    subtitle: "Syllabus, marking penalties (+5/-1) & timing",
+    title: "Compare the four exams",
+    subtitle: "Questions, duration and marking side by side",
     icon: Scale,
   },
   {
     href: "/exams/eligibility",
-    title: "Eligibility & Age Checker",
-    subtitle: "Class 12 marks, subjects, droppers & no-age-limit rules",
+    title: "Eligibility",
+    subtitle: "Class 12 marks, subjects, passing year and age rules",
     icon: FileCheck2,
   },
   {
     href: "/colleges",
-    title: "Top Colleges & Campus Photos",
-    subtitle: "DU, IISc, IISERs, NISER, RVCE & NIRF ranks",
+    title: "Colleges by exam",
+    subtitle: "DU, IISERs, IISc, NISER, RVCE — with NIRF 2025 ranks",
     icon: GraduationCap,
   },
   {
     href: "/blog",
-    title: "Preparation Strategy Blog",
-    subtitle: "Authoritative 2027 cycle study roadmaps",
+    title: "Guides",
+    subtitle: "2027 explainers, each citing the official bulletin",
     icon: BookOpen,
   },
 ];
@@ -51,6 +51,7 @@ export function SiteHeader() {
   const menu = useRef<HTMLDetailsElement>(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownTimeout = useRef<NodeJS.Timeout | null>(null);
+  const hubToggle = useRef<HTMLButtonElement>(null);
 
   const close = () => {
     if (menu.current) menu.current.open = false;
@@ -98,7 +99,16 @@ export function SiteHeader() {
             <div
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
-              style={{ position: "relative", display: "inline-block" }}
+              onKeyDown={(e) => {
+                if (e.key === "Escape" && dropdownOpen) {
+                  setDropdownOpen(false);
+                  hubToggle.current?.focus();
+                }
+              }}
+              onBlur={(e) => {
+                if (!e.currentTarget.contains(e.relatedTarget as Node | null)) setDropdownOpen(false);
+              }}
+              style={{ position: "relative", display: "inline-flex", alignItems: "center", gap: "2px" }}
             >
               <Link
                 href="/resources"
@@ -114,19 +124,30 @@ export function SiteHeader() {
                 }}
               >
                 <span>Student Hub</span>
+              </Link>
+              <button
+                ref={hubToggle}
+                type="button"
+                aria-expanded={dropdownOpen}
+                aria-controls="student-hub-menu"
+                aria-label="Show Student Hub pages"
+                onClick={() => setDropdownOpen((open) => !open)}
+                style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", minWidth: "32px", minHeight: "40px", border: 0, background: "transparent", color: "inherit", cursor: "pointer" }}
+              >
                 <ChevronDown
                   size={14}
+                  aria-hidden="true"
                   style={{
                     transform: dropdownOpen ? "rotate(180deg)" : "rotate(0deg)",
                     transition: "transform 0.2s ease",
                   }}
                 />
-              </Link>
+              </button>
 
               {/* Dropdown Menu */}
               {dropdownOpen && (
                 <div
-                  role="menu"
+                  id="student-hub-menu"
                   style={{
                     position: "absolute",
                     top: "100%",
@@ -146,7 +167,7 @@ export function SiteHeader() {
                 >
                   <div style={{ padding: "6px 10px 8px 10px", borderBottom: "1px solid #f1f5f9" }}>
                     <span style={{ fontSize: "11px", fontWeight: 700, color: "#64748b", textTransform: "uppercase", letterSpacing: "0.5px" }}>
-                      Aspirant Decision Pathway
+                      Plan your next step
                     </span>
                   </div>
                   {RESOURCE_ITEMS.map((item) => {
@@ -157,7 +178,6 @@ export function SiteHeader() {
                         key={item.href}
                         href={item.href}
                         onClick={() => setDropdownOpen(false)}
-                        role="menuitem"
                         style={{
                           display: "flex",
                           alignItems: "flex-start",
@@ -257,7 +277,7 @@ export function SiteHeader() {
                   fontWeight: 800,
                 }}
               >
-                13 Free
+                Test 1 free
               </span>
             </Link>
 
@@ -300,7 +320,7 @@ export function SiteHeader() {
                   justifyContent: "space-between",
                 }}
               >
-                <span>Attempt 13 Full Tests Free</span>
+                <span>Take a free full-length test</span>
                 <span>🔥</span>
               </Link>
 
