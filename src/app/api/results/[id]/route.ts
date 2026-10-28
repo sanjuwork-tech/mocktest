@@ -6,6 +6,7 @@ import { finalizeIfOverdue } from "@/server/deadline";
 import { processAttemptScoring } from "@/server/scoring";
 import { loadPaper } from "@/server/student-tests";
 import { attemptsTable, attemptAnswersTable } from "@/db/schema";
+import { buildAttemptAnalysis } from "@/server/attempt-analysis";
 
 export const runtime = "nodejs";
 
@@ -43,6 +44,7 @@ export async function GET(
       .where(eq(attemptAnswersTable.attemptId, id));
 
     const paper = await loadPaper(attempt.testVersionId, { includeKeys: true });
+    const analysis = await buildAttemptAnalysis(id, paper, answers);
 
     return json({
       attempt: {
@@ -58,6 +60,7 @@ export async function GET(
       },
       ...paper,
       answers,
+      analysis,
     });
   } catch (e) {
     return apiError(e);

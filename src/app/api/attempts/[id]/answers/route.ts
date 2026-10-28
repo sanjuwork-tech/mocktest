@@ -7,11 +7,15 @@ import { finalizeIfOverdue } from "@/server/deadline";
 import {
   attemptsTable,
   attemptAnswersTable,
+  attemptQuestionStatsTable,
   testAssignmentsTable,
   questionOptionsTable,
 } from "@/db/schema";
 
 export const runtime = "nodejs";
+
+// A single save can't add more than 10 minutes to a question; stale tabs can't inflate timings.
+const MAX_TIME_DELTA_MS = 10 * 60 * 1000;
 
 const answerSchema = z.object({
   answers: z
@@ -24,9 +28,20 @@ const answerSchema = z.object({
         marked: z.boolean().optional(),
       }),
     )
-    .min(1)
-    .max(200),
-});
+    .max(200)
+    .default([]),
+  // Time spent on each question since the last save, sent when the student moves on.
+  timing: z
+    .array(
+      z.object({
+        assignmentId: z.string().uuid(),
+        addMs: z.number().int().min(0).max(MAX_TIME_DELTA_MS),
+        visits: z.number().int().min(0).max(50).default(0),
+      }),
+    )
+    .max(200)
+    .default([]),
+}).refine((b) => b.answers.length + b.timing.length > 0, "Nothing to save.");
 
 type SaveResult = {
   assignmentId: string;
@@ -73,7 +88,9 @@ export async function PATCH(
       if (new Date() > attempt.deadline)
         throw new ApiError(410, "Time is up. Your saved answers have been submitted.");
 
-      const ids = [...new Set(parsed.data.answers.map((a) => a.assignmentId))];
+      const ids = [
+        ...new Set([...parsed.data.answers, ...parsed.data.timing].map((a) => a.assignmentId)),
+      ];
       const assignments = await tx
         .select({ id: testAssignmentsTable.id, revisionId: testAssignmentsTable.revisionId })
         .from(testAssignmentsTable)
@@ -148,6 +165,38 @@ export async function PATCH(
           });
         }
         out.push({ assignmentId: ans.assignmentId, status: "saved", sequence });
+
+        // Answer-change tracking: remember the first option chosen and count switches between options.
+        const previous = typeof current?.value === "string" ? current.value : null;
+        if (ans.value !== null && ans.value !== previous) {
+          const switched = previous !== null ? 1 : 0;
+          await tx
+            .insert(attemptQuestionStatsTable)
+            .values({ attemptId, assignmentId: ans.assignmentId, firstValue: ans.value, changes: switched })
+            .onConflictDoUpdate({
+              target: [attemptQuestionStatsTable.attemptId, attemptQuestionStatsTable.assignmentId],
+              set: {
+                firstValue: sql`coalesce(${attemptQuestionStatsTable.firstValue}, ${ans.value})`,
+                changes: sql`${attemptQuestionStatsTable.changes} + ${switched}`,
+                updatedAt: new Date(),
+              },
+            });
+        }
+      }
+
+      for (const t of parsed.data.timing) {
+        if (!revisionByAssignment.has(t.assignmentId) || (t.addMs === 0 && t.visits === 0)) continue;
+        await tx
+          .insert(attemptQuestionStatsTable)
+          .values({ attemptId, assignmentId: t.assignmentId, timeMs: t.addMs, visits: t.visits })
+          .onConflictDoUpdate({
+            target: [attemptQuestionStatsTable.attemptId, attemptQuestionStatsTable.assignmentId],
+            set: {
+              timeMs: sql`${attemptQuestionStatsTable.timeMs} + ${t.addMs}`,
+              visits: sql`${attemptQuestionStatsTable.visits} + ${t.visits}`,
+              updatedAt: new Date(),
+            },
+          });
       }
       return out;
     });

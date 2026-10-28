@@ -2,7 +2,8 @@ import type { ExamKey } from "./catalog";
 
 // Rankings are the official NIRF 2025 results (nirfindia.org, released 4 September 2025; the 2026
 // edition had not been published when this was checked). Seats come from the official 2026 bulletins.
-// Only verifiable facts belong here: no placement figures, applicant counts or campus photos.
+// Only verifiable facts belong here: no placement figures or applicant counts. Photos come only from
+// Wikimedia Commons under licences that allow commercial reuse (CC0, public domain, CC BY, CC BY-SA), credited.
 
 export const COLLEGES_CHECKED_ON = "2026-10-27";
 export const NIRF_SOURCE = { label: "NIRF 2025 rankings", url: "https://www.nirfindia.org/Rankings/2025/Ranking.html" };
@@ -23,6 +24,8 @@ export type College = {
   programmes: string[];
   seats?: string;
   officialUrl: string;
+  /** Optional photo from Wikimedia Commons under a licence that allows commercial reuse. */
+  image?: { src: string; alt: string; credit: string; license: string; licenseUrl: string; sourceUrl: string };
 };
 
 export const collegesData: College[] = [
@@ -41,6 +44,14 @@ export const collegesData: College[] = [
       "A central university whose undergraduate teaching happens largely in its affiliated colleges across North and South Campus and the wider city. Each course lists the CUET papers it accepts.",
     programmes: ["B.A. (Hons) and B.A. programmes", "B.Com (Hons) and B.Com", "B.Sc (Hons) in sciences and mathematics"],
     officialUrl: "https://www.du.ac.in",
+    image: {
+      src: "/colleges/university-of-delhi.jpg",
+      alt: "Multipurpose Hall of the University of Delhi, seen from the Cluster Innovation Centre",
+      credit: "Abitatha",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:The_Delhi_University_Multipurpose_Hall_pictured_from_Cluster_Innovation_Centre.jpg",
+    },
   },
   {
     id: "banaras-hindu-university",
@@ -56,6 +67,14 @@ export const collegesData: College[] = [
       "A large residential central university with faculties of arts, science, commerce, social sciences, agriculture, performing arts and more on one campus.",
     programmes: ["B.A. (Hons)", "B.Sc (Hons) in sciences, mathematics and agriculture", "B.Com (Hons)", "Performing and visual arts"],
     officialUrl: "https://www.bhu.ac.in",
+    image: {
+      src: "/colleges/banaras-hindu-university.jpg",
+      alt: "Main entrance gate of Banaras Hindu University, Varanasi",
+      credit: "Kuber Patel, Rosehub",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:BHU_Main_Gate,_Banaras_Hindu_University.jpg",
+    },
   },
   {
     id: "jawaharlal-nehru-university",
@@ -71,6 +90,14 @@ export const collegesData: College[] = [
       "A research-led central university best known for social sciences, international studies and languages; its undergraduate intake is mainly in foreign languages.",
     programmes: ["B.A. (Hons) in foreign languages", "Selected undergraduate programmes listed in JNU's admission prospectus"],
     officialUrl: "https://www.jnu.ac.in",
+    image: {
+      src: "/colleges/jawaharlal-nehru-university.jpg",
+      alt: "Arts Faculty building and lawns at Jawaharlal Nehru University, New Delhi",
+      credit: "Jai Pandya from New Delhi, India",
+      license: "CC BY-SA 2.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Arts_Faculty,_JNU.jpg",
+    },
   },
   {
     id: "jamia-millia-islamia",
@@ -85,6 +112,14 @@ export const collegesData: College[] = [
     overview: "A central university in south Delhi with faculties spanning humanities, sciences, engineering, law and mass communication.",
     programmes: ["B.A. (Hons)", "B.Sc (Hons)", "B.Com (Hons)"],
     officialUrl: "https://www.jmi.ac.in",
+    image: {
+      src: "/colleges/jamia-millia-islamia.jpg",
+      alt: "Domed buildings beyond the lawns near the Faculty of Education, Jamia Millia Islamia, New Delhi",
+      credit: "Danish971",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Jamia_Millia_Islamia_2.jpg",
+    },
   },
   {
     id: "university-of-hyderabad",
@@ -99,6 +134,14 @@ export const collegesData: College[] = [
     overview: "A research-focused central university whose undergraduate entry is mainly through five-year integrated master's programmes.",
     programmes: ["Integrated M.Sc in sciences", "Integrated M.A. in humanities and social sciences"],
     officialUrl: "https://uohyd.ac.in",
+    image: {
+      src: "/colleges/university-of-hyderabad.jpg",
+      alt: "School of Management building, University of Hyderabad",
+      credit: "Rr001",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:School_of_Management,_University_of_Hyderabad,_Hyderabad,_India.jpg",
+    },
   },
 
   // ── IISER IAT ────────────────────────────────────────────────────────
@@ -116,6 +159,14 @@ export const collegesData: College[] = [
     programmes: ["5-year BS-MS (dual degree)"],
     seats: "288 BS-MS seats (2026, tentative)",
     officialUrl: "https://www.iiserpune.ac.in",
+    image: {
+      src: "/colleges/iiser-pune.jpg",
+      alt: "Front view of the main building, IISER Pune",
+      credit: "DesiBoy101",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Front_view_of_main_building,_IISER_Pune.jpg",
+    },
   },
   {
     id: "iiser-kolkata",
@@ -131,6 +182,14 @@ export const collegesData: College[] = [
     programmes: ["5-year BS-MS (dual degree)", "5-year BS-MS in Computational and Data Sciences"],
     seats: "280 BS-MS + 30 Computational and Data Sciences seats (2026, tentative)",
     officialUrl: "https://www.iiserkol.ac.in",
+    image: {
+      src: "/colleges/iiser-kolkata.jpg",
+      alt: "Administrative block on the IISER Kolkata campus in Nadia district",
+      credit: "Pinakpani",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Administrative_Block,_IISER,_Kolkata_in_Kalyani_campus_01.jpg",
+    },
   },
   {
     id: "iiser-mohali",
@@ -146,6 +205,14 @@ export const collegesData: College[] = [
     programmes: ["5-year BS-MS (dual degree)"],
     seats: "275 BS-MS seats (2026, tentative)",
     officialUrl: "https://www.iisermohali.ac.in",
+    image: {
+      src: "/colleges/iiser-mohali.jpg",
+      alt: "Arched entrance gate of IISER Mohali beside the highway",
+      credit: "Biswarup Ganguly",
+      license: "CC BY 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:IISER_Campus_Gate_-_NH_5_-_Mohali_2016-08-05_6075.JPG",
+    },
   },
   {
     id: "iiser-bhopal",
@@ -161,6 +228,14 @@ export const collegesData: College[] = [
     programmes: ["5-year BS-MS", "B.Tech (Chemical; Data Science; Electrical Engineering and Computer Science)", "4-year BS in Economic Sciences"],
     seats: "300 BS-MS seats plus B.Tech and BS seats (2026, tentative)",
     officialUrl: "https://www.iiserb.ac.in",
+    image: {
+      src: "/colleges/iiser-bhopal.jpg",
+      alt: "Entrance gate of IISER Bhopal",
+      credit: "Suyash.dwivedi",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:IISER_Bhopal_Entrance_Gate.jpg",
+    },
   },
   {
     id: "iiser-thiruvananthapuram",
@@ -176,6 +251,14 @@ export const collegesData: College[] = [
     programmes: ["5-year BS-MS (dual degree)"],
     seats: "320 BS-MS seats (2026, tentative)",
     officialUrl: "https://www.iisertvm.ac.in",
+    image: {
+      src: "/colleges/iiser-thiruvananthapuram.jpg",
+      alt: "Chemical sciences and biology buildings at IISER Thiruvananthapuram, with hills behind",
+      credit: "Waltor Bishop",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Chemical_Science_Block_and_Biology_Builiding.jpg",
+    },
   },
   {
     id: "iiser-tirupati",
@@ -206,6 +289,14 @@ export const collegesData: College[] = [
     programmes: ["5-year BS-MS (dual degree)"],
     seats: "300 BS-MS seats (2026, tentative)",
     officialUrl: "https://www.iiserbpr.ac.in",
+    image: {
+      src: "/colleges/iiser-berhampur.jpg",
+      alt: "Academic block of IISER Berhampur seen across open grassland",
+      credit: "Kanhacc",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:IISER_Berhampur_Academic_block.png",
+    },
   },
   {
     id: "iisc-bengaluru",
@@ -220,6 +311,14 @@ export const collegesData: College[] = [
     overview: "India's top-ranked university in NIRF 2025. Its undergraduate BS (Research) is a four-year programme with a research project.",
     programmes: ["4-year Bachelor of Science (Research)"],
     officialUrl: "https://iisc.ac.in",
+    image: {
+      src: "/colleges/iisc-bengaluru.jpg",
+      alt: "Main building of the Indian Institute of Science, Bengaluru",
+      credit: "Akshat9961",
+      license: "CC BY 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:IISC_Bengaluru.jpg",
+    },
   },
   {
     id: "iit-madras",
@@ -234,6 +333,14 @@ export const collegesData: College[] = [
     overview: "Ranked first overall in NIRF 2025. Through IAT it admits to a 4-year Bachelor of Science programme, not to B.Tech.",
     programmes: ["4-year Bachelor of Science (BS)"],
     officialUrl: "https://www.iitm.ac.in",
+    image: {
+      src: "/colleges/iit-madras.jpg",
+      alt: "Gajendra Circle fountain with elephant sculptures at IIT Madras, Chennai",
+      credit: "Sivahari",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Gajedra_Circle_IITM.jpg",
+    },
   },
 
   // ── NISER NEST ───────────────────────────────────────────────────────
@@ -251,6 +358,14 @@ export const collegesData: College[] = [
       "Set up by the Department of Atomic Energy for research-oriented science teaching. NISER is part of Homi Bhabha National Institute (HBNI), which is the entity NIRF ranks. Admitted students are eligible for the ₹60,000-a-year DISHA scholarship.",
     programmes: ["5-year Integrated M.Sc in Biology, Chemistry, Mathematics or Physics"],
     officialUrl: "https://www.niser.ac.in",
+    image: {
+      src: "/colleges/niser-bhubaneswar.jpg",
+      alt: "Academic complex of NISER, Bhubaneswar, seen from a height",
+      credit: "PrajnaNandan Giri",
+      license: "CC BY-SA 4.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:NISER_Academic_Complex,_June_2016.jpg",
+    },
   },
   {
     id: "um-dae-cebs",
@@ -266,6 +381,14 @@ export const collegesData: College[] = [
       "A Department of Atomic Energy and University of Mumbai centre at the Kalina campus with a small, research-oriented Integrated M.Sc. Admitted students are eligible for the DISHA scholarship.",
     programmes: ["5-year Integrated M.Sc in Biology, Chemistry, Mathematics or Physics"],
     officialUrl: "https://www.cbs.ac.in",
+    image: {
+      src: "/colleges/um-dae-cebs.jpg",
+      alt: "Nalanda building of UM-DAE CEBS on the University of Mumbai's Kalina campus",
+      credit: "Roshil01",
+      license: "CC0",
+      licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Nalanda_Building,_CEBS_Mumbai.jpg",
+    },
   },
 
   // ── COMEDK UGET ──────────────────────────────────────────────────────
@@ -282,6 +405,14 @@ export const collegesData: College[] = [
     overview: "A private engineering college in north Bengaluru and the highest NIRF-ranked of the colleges on this list.",
     programmes: ["B.E. in computer, electronics, mechanical, civil and other branches"],
     officialUrl: "https://www.msrit.edu",
+    image: {
+      src: "/colleges/ramaiah-institute-of-technology.jpg",
+      alt: "Apex Block of M. S. Ramaiah Institute of Technology, Bengaluru",
+      credit: "Sunithbabu78",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:M_S_Ramaiah_Institute_of_Technology_Apex_Block.jpg",
+    },
   },
   {
     id: "rv-college-of-engineering",
@@ -296,6 +427,14 @@ export const collegesData: College[] = [
     overview: "A private engineering college on Mysuru Road in south-west Bengaluru, run by the Rashtreeya Sikshana Samithi Trust.",
     programmes: ["B.E. in computer science, electronics, mechanical, civil and other branches"],
     officialUrl: "https://www.rvce.edu.in",
+    image: {
+      src: "/colleges/rv-college-of-engineering.jpg",
+      alt: "Administrative block of R. V. College of Engineering, Bengaluru",
+      credit: "Rvian00",
+      license: "CC BY-SA 3.0",
+      licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:RV_College_Admin_block.JPG",
+    },
   },
   {
     id: "bms-college-of-engineering",
@@ -310,6 +449,14 @@ export const collegesData: College[] = [
     overview: "One of the oldest private engineering colleges in India, in Basavanagudi, Bengaluru.",
     programmes: ["B.E. in computer science, electronics, mechanical, civil and other branches"],
     officialUrl: "https://bmsce.ac.in",
+    image: {
+      src: "/colleges/bms-college-of-engineering.jpg",
+      alt: "Postgraduate block and lawns at B.M.S. College of Engineering, Bengaluru",
+      credit: "Sujaybagi",
+      license: "Public domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:BMSCE_Pg_Block.jpg",
+    },
   },
   {
     id: "siddaganga-institute-of-technology",
@@ -324,5 +471,13 @@ export const collegesData: College[] = [
     overview: "A private engineering college in Tumakuru, about 70 km from Bengaluru.",
     programmes: ["B.E. in computer science, electronics, mechanical, civil and other branches"],
     officialUrl: "https://www.sit.ac.in",
+    image: {
+      src: "/colleges/siddaganga-institute-of-technology.jpg",
+      alt: "Administrative block and gardens of Siddaganga Institute of Technology, Tumakuru",
+      credit: "Remus 6134",
+      license: "Public domain",
+      licenseUrl: "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:SIT_college.jpg",
+    },
   },
 ];

@@ -113,7 +113,9 @@ export type PaperQuestion = {
   position: number;
   marks: number;
   penalty: number;
-  topics: string[];
+  /** Released with the answer key only; never sent during a test. */
+  topics?: string[];
+  difficulty?: string | null;
   content: Block[];
   options: { key: string; content: Block[] }[];
   correctOptionId?: string;
@@ -157,6 +159,7 @@ export async function loadPaper(testVersionId: string, { includeKeys }: { includ
       penalty: testAssignmentsTable.penalty,
       revisionId: testAssignmentsTable.revisionId,
       topics: questionRevisionsTable.topics,
+      difficulty: questionRevisionsTable.difficulty,
       content: questionRevisionsTable.content,
     })
     .from(testAssignmentsTable)
@@ -198,11 +201,12 @@ export async function loadPaper(testVersionId: string, { includeKeys }: { includ
         position: r.position,
         marks: r.marks,
         penalty: r.penalty,
-        topics: r.topics,
         content: r.content as Block[],
         options: optionsByRevision.get(r.revisionId) ?? [],
         ...(key
           ? {
+              topics: r.topics,
+              difficulty: r.difficulty,
               correctOptionId: (key.answer as { correctOptionId: string }).correctOptionId,
               explanation: key.explanation as Block[],
             }

@@ -82,6 +82,7 @@ export async function POST(
             type: q.type,
             subject: q.subject,
             topics: q.topics,
+            difficulty: q.difficulty,
             content: q.stem,
             status: "draft",
             source: q.source,

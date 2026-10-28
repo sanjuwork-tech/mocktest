@@ -47,3 +47,22 @@ test("no banned claims in exam, blog or college content", () => {
   const corpus = JSON.stringify({ exams, blogPosts, collegesData });
   for (const pattern of BANNED) assert.doesNotMatch(corpus, pattern);
 });
+
+test("college photos are credited, freely licensed Wikimedia Commons files that exist on disk", async () => {
+  const { existsSync } = await import("node:fs");
+  const allowed = /^(CC0|Public domain|CC BY(-SA)? \d\.\d)$/;
+  for (const college of collegesData) {
+    const image = college.image;
+    if (!image) continue;
+    assert.ok(image.credit.trim().length > 0, `${college.id} photo needs a credit`);
+    assert.ok(image.alt.trim().length > 10, `${college.id} photo needs alt text`);
+    assert.match(image.license, allowed, `${college.id} licence ${image.license}`);
+    assert.doesNotMatch(image.license, /NC|ND/, `${college.id} licence must allow commercial reuse and edits`);
+    assert.match(image.licenseUrl, /^https:\/\//, college.id);
+    assert.match(image.sourceUrl, /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/, college.id);
+    assert.equal(image.src, `/colleges/${college.id}.jpg`);
+    assert.ok(existsSync(new URL("../public" + image.src, import.meta.url)), `${image.src} is missing`);
+  }
+  const sources = collegesData.filter((c) => c.image).map((c) => c.image.sourceUrl);
+  assert.equal(new Set(sources).size, sources.length, "each photo is used once");
+});

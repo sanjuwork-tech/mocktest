@@ -60,6 +60,9 @@ function DashboardContent() {
           <br />
           <em>Pick a paper and begin.</em>
         </h1>
+        <Link href="/student/analysis" className="student-secondary dashboard-analysis-link">
+          Your overall analysis →
+        </Link>
         {inProgress && (
           <Link href={`/student/exam/${inProgress.attemptId}`} className="button-primary">
             <RotateCcw size={18} /> Resume {inProgress.title}

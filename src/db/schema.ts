@@ -288,6 +288,8 @@ export const questionRevisionsTable = pgTable(
     type: text("type").notNull(),
     subject: text("subject").notNull(),
     topics: jsonb("topics").$type<string[]>().notNull(),
+    // easy | moderate | hard, from the uploaded paper; used in analysis, never shown during a test.
+    difficulty: text("difficulty"),
     content: jsonb("content").notNull(),
     status: text("status").default("draft").notNull(),
     source: jsonb("source").notNull(),
@@ -545,4 +547,27 @@ export const waitlistTable = pgTable(
     createdAt: created(),
   },
   (t) => [uniqueIndex("waitlist_email_interest_unique").on(t.email, t.interest)],
+);
+
+/** Per-question behaviour within an attempt: time spent, visits and answer changes. */
+export const attemptQuestionStatsTable = pgTable(
+  "attempt_question_stats",
+  {
+    attemptId: uuid("attempt_id")
+      .references(() => attemptsTable.id)
+      .notNull(),
+    assignmentId: uuid("assignment_id")
+      .references(() => testAssignmentsTable.id)
+      .notNull(),
+    timeMs: integer("time_ms").default(0).notNull(),
+    visits: integer("visits").default(0).notNull(),
+    /** The first option chosen, to show whether later changes helped or hurt. */
+    firstValue: text("first_value"),
+    changes: integer("changes").default(0).notNull(),
+    updatedAt: instant("updated_at").defaultNow().notNull(),
+  },
+  (t) => [
+    primaryKey({ columns: [t.attemptId, t.assignmentId] }),
+    check("question_stats_nonnegative", sql`${t.timeMs}>=0 and ${t.visits}>=0 and ${t.changes}>=0`),
+  ],
 );

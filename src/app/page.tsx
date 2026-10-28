@@ -2,6 +2,7 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { ExpertReview } from "@/components/expert-review";
 import { MockDemo } from "@/components/mock-demo";
 import { ComparePlatforms } from "@/components/compare-platforms";
+import { HomeFaq } from "@/components/home-faq";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -22,7 +23,7 @@ export const dynamic = "force-static";
 export const metadata = {
   ...pageMetadata(
     "Exams After Class 12 Beyond JEE & NEET",
-    "Guides to CUET UG, IISER IAT, NISER NEST and COMEDK UGET — official patterns, eligibility and colleges — plus free full-length CUET mock tests.",
+    "Free CUET UG, IISER IAT, NEST and COMEDK mock tests with time-per-question analysis, plus exam guides, eligibility and colleges beyond JEE and NEET.",
     "/",
   ),
   title: { absolute: "OurMocks: Exams After Class 12 Beyond JEE & NEET" },
@@ -258,6 +259,9 @@ export default function HomePage() {
       </section>
       <div className="page-shell section-space">
         <ComparePlatforms />
+      </div>
+      <div className="page-shell section-space">
+        <HomeFaq />
       </div>
       <section className="how-section">
         <div className="page-shell">

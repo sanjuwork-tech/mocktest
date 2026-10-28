@@ -71,7 +71,7 @@ export function StudentShell({ children, examMode = false }: { children: ReactNo
               </span>
               <span className="student-account-name">
                 <strong>{student.name}</strong>
-                <small>{student.email}</small>
+                <small>{student.email.endsWith("@guest.ourmocks.invalid") ? "Guest session" : student.email}</small>
               </span>
               <button onClick={signOut} className="student-icon-button">
                 <LogOut size={16} aria-hidden="true" /> Sign out

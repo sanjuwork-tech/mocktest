@@ -71,6 +71,21 @@ function Player({ attemptId }: { attemptId: string }) {
   const inflight = useRef<Promise<void> | null>(null);
   const retryTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const flushRef = useRef<() => Promise<void>>(async () => undefined);
+  // Time on each question: the clock runs only for the question on screen while the tab is visible.
+  const timing = useRef(new Map<string, { addMs: number; visits: number }>());
+  const active = useRef<{ id: string; since: number | null } | null>(null);
+  const addTiming = (id: string, addMs: number, visits: number) => {
+    const t = timing.current.get(id) ?? { addMs: 0, visits: 0 };
+    timing.current.set(id, { addMs: t.addMs + addMs, visits: t.visits + visits });
+  };
+  const bankTime = useCallback(() => {
+    const a = active.current;
+    if (!a || a.since === null) return;
+    const now = performance.now();
+    const ms = Math.round(now - a.since);
+    if (ms > 0) addTiming(a.id, ms, 0);
+    a.since = now;
+  }, []);
   const finished = useRef(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -108,10 +123,18 @@ function Player({ attemptId }: { attemptId: string }) {
       if (pending.current.size) return flushRef.current();
       return;
     }
-    if (!pending.current.size) return;
+    bankTime();
+    if (!pending.current.size && !timing.current.size) return;
     const batch = new Map(pending.current);
     pending.current.clear();
-    setSaveState("saving");
+    // Timings go out at least every 20 s, well inside the server cap of 10 minutes per delta.
+    const times = [...timing.current].map(([assignmentId, t]) => ({
+      assignmentId,
+      addMs: Math.min(t.addMs, 10 * 60 * 1000),
+      visits: Math.min(t.visits, 50),
+    }));
+    timing.current.clear();
+    if (batch.size) setSaveState("saving");
 
     inflight.current = (async () => {
       try {
@@ -126,6 +149,7 @@ function Player({ attemptId }: { attemptId: string }) {
                 marked: a.marked,
                 expectedSequence: answersRef.current.get(assignmentId)?.sequence ?? 0,
               })),
+              timing: times,
             },
           },
         );
@@ -149,6 +173,7 @@ function Player({ attemptId }: { attemptId: string }) {
         }
         // Network or server trouble: keep the answers queued and retry.
         for (const [id, a] of batch) if (!pending.current.has(id)) pending.current.set(id, a);
+        for (const t of times) addTiming(t.assignmentId, t.addMs, t.visits);
         setSaveState("retrying");
         if (retryTimer.current) clearTimeout(retryTimer.current);
         retryTimer.current = setTimeout(() => void flushRef.current(), 4000);
@@ -157,10 +182,37 @@ function Player({ attemptId }: { attemptId: string }) {
       }
     })();
     await inflight.current;
-  }, [attemptId, goToResults, writeAnswers]);
+  }, [attemptId, bankTime, goToResults, writeAnswers]);
   useEffect(() => {
     flushRef.current = flush;
   }, [flush]);
+
+  // Start the clock on whichever question is on screen; count a visit each time it is opened.
+  const currentId = data?.questions[current]?.assignmentId;
+  useEffect(() => {
+    if (!currentId) return;
+    bankTime();
+    active.current = { id: currentId, since: document.hidden ? null : performance.now() };
+    addTiming(currentId, 0, 1);
+  }, [currentId, bankTime]);
+
+  // Pause the question clock while the tab is hidden, and send timings regularly.
+  useEffect(() => {
+    if (!data) return;
+    const onVisibility = () => {
+      if (!active.current) return;
+      if (document.hidden) {
+        bankTime();
+        active.current.since = null;
+      } else active.current.since = performance.now();
+    };
+    document.addEventListener("visibilitychange", onVisibility);
+    const periodic = setInterval(() => void flushRef.current(), 20_000);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibility);
+      clearInterval(periodic);
+    };
+  }, [data, bankTime]);
 
   // Debounced autosave.
   const saveSoon = useRef<ReturnType<typeof setTimeout> | null>(null);

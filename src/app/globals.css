@@ -2767,3 +2767,157 @@
   border-color: var(--blue);
   color: var(--blue);
 }
+
+/* College photos */
+.college-photo {
+  margin: 0 0 4px;
+}
+.college-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--mist);
+}
+.college-photo-credit {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #43516d;
+  overflow-wrap: anywhere;
+}
+.college-photo-credit a {
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.college-photo-credit a:hover,
+.college-photo-credit a:focus-visible {
+  color: var(--blue);
+}
+
+/* Landing demo: exam switcher and analysis scene */
+.demo-exams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.demo-exams button {
+  min-height: 40px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px dashed #b9c4da;
+  background: transparent;
+  color: var(--navy);
+  font-weight: 600;
+  cursor: pointer;
+}
+.demo-exams button[aria-pressed="true"] {
+  border-style: solid;
+  border-color: var(--lime);
+  background: var(--lime);
+}
+.res-score .res-sections {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+.res-sections > div {
+  display: grid;
+  grid-template-columns: 120px 1fr 28px;
+  align-items: center;
+  gap: 8px;
+}
+.res-sections > div.not-counted {
+  opacity: 0.5;
+}
+.res-sections b {
+  height: 8px;
+  border-radius: 999px;
+  background: #e3e8f2;
+  overflow: hidden;
+}
+.res-sections i {
+  display: block;
+  height: 100%;
+  background: var(--blue);
+}
+.res-sections small {
+  text-align: right;
+  font-weight: 700;
+}
+.mini-time {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 110px;
+  border-bottom: 1px solid #cbd7ef;
+  margin: 6px 0 12px;
+}
+.mini-time i {
+  flex: 1;
+  border-radius: 3px 3px 0 0;
+}
+.mini-target {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px dashed var(--navy);
+}
+.res-quality {
+  display: grid;
+  gap: 6px;
+}
+.res-quality > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+}
+.res-quality i {
+  display: block;
+  height: 8px;
+  border-radius: 999px;
+}
+.res-quality small {
+  font-size: 12px;
+  color: #43516d;
+}
+.mq-fast {
+  background: #2f7d32;
+}
+.mq-slow {
+  background: #8bbf5e;
+}
+.mq-rushed {
+  background: #e0752e;
+}
+.mq-struggled {
+  background: #c9372c;
+}
+.mq-sink {
+  background: #6e2a74;
+}
+.mq-skip {
+  background: #b3bdd0;
+}
+.scene-results .res-next {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.home-faq h2 {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 500;
+  margin: 8px 0 12px;
+}
+.home-faq {
+  max-width: 860px;
+}

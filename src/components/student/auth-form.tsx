@@ -17,7 +17,7 @@ function safeNext(next: string | null) {
   return next && next.startsWith("/") && !next.startsWith("//") ? next : "/student";
 }
 
-export function StudentAuthForm() {
+export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boolean }) {
   const router = useRouter();
   const params = useSearchParams();
   const next = safeNext(params.get("next"));
@@ -41,6 +41,18 @@ export function StudentAuthForm() {
       router.replace(next);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong.");
+      setBusy(false);
+    }
+  };
+
+  const continueAsGuest = async () => {
+    setBusy(true);
+    setError("");
+    try {
+      await api("/api/auth/guest", { method: "POST" });
+      router.replace(next);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Could not start a guest session.");
       setBusy(false);
     }
   };
@@ -117,6 +129,15 @@ export function StudentAuthForm() {
               {registering ? "Create account & continue" : "Sign in"} {!busy && <ArrowRight size={18} />}
             </button>
           </form>
+          {guestEnabled && (
+            <div className="guest-option">
+              <span>or</span>
+              <button type="button" className="student-secondary" onClick={continueAsGuest} disabled={busy}>
+                Continue as guest
+              </button>
+              <small>Try the tests without an account. Guest progress can&apos;t be recovered after you sign out.</small>
+            </div>
+          )}
           <p className="student-muted">
             By continuing you agree to our <Link href="/terms">Terms</Link> and <Link href="/privacy">Privacy Policy</Link>.
             Students under 18 need a parent or guardian&apos;s consent.

@@ -3,7 +3,7 @@ import { FreeDiagnosticClient } from "./client";
 
 export const metadata = pageMetadata(
   "Free CUET UG Mock Test, Full Length",
-  "Take a full-length 50-question CUET UG mock test free in 12 subjects, timed like the real exam, with a section and topic report afterwards.",
+  "Take a free full-length CUET UG mock on the official pattern, then see time spent per question, rushed and slow answers, and topics to revise.",
   "/free-diagnostic",
   [
     "free full length mock test",

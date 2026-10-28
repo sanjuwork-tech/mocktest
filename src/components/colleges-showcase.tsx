@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { ExternalLink, MapPin } from "lucide-react";
 import { collegesData, COLLEGES_CHECKED_ON, NIRF_SOURCE } from "@/data/colleges";
 import type { ExamKey } from "@/data/catalog";
@@ -59,6 +60,28 @@ export function CollegesShowcase({
       <ul className="college-grid">
         {colleges.map((college) => (
           <li key={college.id} className={`college-card theme-${college.examSlug}`}>
+            {college.image && (
+              <figure className="college-photo">
+                <Image
+                  src={college.image.src}
+                  alt={college.image.alt}
+                  width={1200}
+                  height={675}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+                  loading="lazy"
+                />
+                <figcaption className="college-photo-credit">
+                  Photo: {college.image.credit},{" "}
+                  <a href={college.image.licenseUrl} target="_blank" rel="noopener noreferrer">
+                    {college.image.license}
+                  </a>
+                  , via{" "}
+                  <a href={college.image.sourceUrl} target="_blank" rel="noopener noreferrer">
+                    Wikimedia Commons
+                  </a>
+                </figcaption>
+              </figure>
+            )}
             <div className="college-card-top">
               <span className="college-exam">{EXAM_LABEL[college.examSlug]}</span>
               {college.nirf2025.length > 0 && (

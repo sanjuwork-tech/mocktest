@@ -92,13 +92,14 @@ function canonical(value: unknown): string {
 }
 
 function sameQuestion(
-  existing: { content: unknown; topics: string[]; subject: string },
+  existing: { content: unknown; topics: string[]; subject: string; difficulty: string | null },
   options: { optionKey: string; content: unknown }[],
   key: { answer: unknown; explanation: unknown } | undefined,
   q: QuestionInput,
 ) {
   return (
     existing.subject === q.subject &&
+    existing.difficulty === q.difficulty &&
     canonical(existing.topics) === canonical(q.topics) &&
     canonical(existing.content) === canonical(q.stem) &&
     canonical(options.map((o) => [o.optionKey, o.content])) ===
@@ -148,6 +149,7 @@ async function upsertQuestion(tx: Tx, q: QuestionInput, adminId: string) {
       type: q.type,
       subject: q.subject,
       topics: q.topics,
+      difficulty: q.difficulty,
       content: q.stem,
       status: "approved",
       source: q.source,

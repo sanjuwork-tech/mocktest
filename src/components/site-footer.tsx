@@ -16,10 +16,10 @@ export function SiteFooter() {
           <div>
             <h2>Resources</h2>
             {[
-              ["Aspirant Decision Track", "/resources"],
+              ["Student roadmap", "/resources"],
               ["Free Full-Length Tests", "/free-diagnostic"],
               ["All exam details", "/exams"],
-              ["Top Colleges & Photos", "/colleges"],
+              ["Colleges by exam", "/colleges"],
               ["Preparation Blog", "/blog"],
               ["Compare all 4 exams", "/exams/compare"],
               ["Eligibility checker", "/exams/eligibility"],
@@ -69,7 +69,7 @@ export function SiteFooter() {
         </div>
         <div style={{ marginTop: "24px", paddingTop: "16px", borderTop: "1px solid rgba(0,0,0,0.06)", fontSize: "11px", color: "#64748b", lineHeight: 1.6 }}>
           <p style={{ margin: "0 0 8px 0" }}>
-            <strong>Institutional Disclaimer:</strong> OurMocks is an independent educational preparation and mock test platform. OurMocks is not affiliated with, endorsed by, or sponsored by the National Testing Agency (NTA), the Joint Admissions Committee (IISERs), NISER Bhubaneswar, UM-DAE CEBS, or COMEDK Karnataka. All exam names, logos, and trademarks belong to their respective authorities. Score and rank diagnostics provided on this platform are statistical practice benchmarks and do not constitute admission guarantees.
+            <strong>Institutional Disclaimer:</strong> OurMocks is an independent educational preparation and mock test platform. OurMocks is not affiliated with, endorsed by, or sponsored by the National Testing Agency (NTA), the Joint Admissions Committee (IISERs), NISER Bhubaneswar, UM-DAE CEBS, or COMEDK Karnataka. All exam names, logos, and trademarks belong to their respective authorities. Scores and analysis on this platform are practice feedback and do not guarantee admission.
           </p>
         </div>
         <div className="footer-bottom">

@@ -3,6 +3,24 @@ import { ArrowRight, Compass, GraduationCap, Microscope, Cpu, Briefcase, Sparkle
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/data/catalog";
+import { blogPosts } from "@/data/blog";
+
+const POPULAR_QUESTION_SLUGS = [
+  "entrance-exams-after-12th-other-than-jee-neet",
+  "best-colleges-other-than-iit-nit-nirf-2025",
+  "courses-after-12th-science-pcm-without-jee",
+  "options-after-12th-pcb-without-neet",
+  "options-after-12th-commerce",
+  "options-after-12th-arts-humanities",
+  "government-universities-through-cuet-ug",
+  "scholarships-after-12th-science",
+  "gap-year-after-12th-which-exams-can-you-take",
+  "time-per-question-analysis-mock-tests",
+];
+
+const popularQuestions = POPULAR_QUESTION_SLUGS.map((slug) => blogPosts.find((post) => post.slug === slug)).filter(
+  (post): post is (typeof blogPosts)[number] => post !== undefined,
+);
 
 export const metadata = pageMetadata(
   "Exams After Class 12 Beyond JEE & NEET (2027)",
@@ -176,6 +194,23 @@ export default function AfterClass12GuidePage() {
             </p>
           </div>
         </div>
+      </section>
+
+      {/* Popular questions after Class 12 */}
+      <section className="section-space" aria-labelledby="popular-questions-title">
+        <h2 id="popular-questions-title" style={{ fontSize: "22px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>
+          Popular questions after Class 12
+        </h2>
+        <ul className="related-guides">
+          {popularQuestions.map((post) => (
+            <li key={post.slug}>
+              <Link href={`/blog/${post.slug}`} className="text-link">
+                {post.title}
+              </Link>
+              <p>{post.description}</p>
+            </li>
+          ))}
+        </ul>
       </section>
     </main>
   );
