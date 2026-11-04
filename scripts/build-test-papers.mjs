@@ -2,7 +2,7 @@
 // admin "Upload test paper" screen and `npm run db:import-papers` accept.
 //
 //   node scripts/build-test-papers.mjs              → Test 1 (free) for 12 subjects, from the demo bank (no Chemistry source yet)
-//   node scripts/build-test-papers.mjs --bank       → also Tests 2–25 for 12 subjects, from src/data/questions/cuet
+//   node scripts/build-test-papers.mjs --bank       → also Tests 2–25 for 12 subjects, from content/question-bank/cuet
 //
 // Output: data/test-papers/cuet-ug/<subject>/test-NN.json (data/ is not committed).
 import fs from "node:fs";
@@ -84,7 +84,7 @@ const DEMO_FIXES = {
 };
 
 function demoPapers() {
-  const bank = JSON.parse(fs.readFileSync("src/data/student/questions.json", "utf8"));
+  const bank = JSON.parse(fs.readFileSync("content/question-bank/cuet-test-1.json", "utf8"));
   const bySubject = new Map();
   for (const q of bank) {
     // The demo "chemistry" set is actually physics questions; real Chemistry papers must be uploaded.
@@ -110,7 +110,7 @@ function demoPapers() {
 }
 
 function bankPapers() {
-  const root = path.join("src", "data", "questions", "cuet");
+  const root = path.join("content", "question-bank", "cuet");
   const manifest = JSON.parse(fs.readFileSync(path.join(root, "manifest.json"), "utf8"));
   const files = [];
   for (const s of manifest.subjects) {

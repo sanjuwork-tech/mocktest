@@ -36,19 +36,19 @@ function convertPaper(filePath, subjectSlug) {
 
 // Convert Paper 1 for all 12 CUET Subjects
 const cuetSubjects = [
-  { id: "mathematics", path: "src/data/questions/cuet/mathematics/CUET_Mathematics_Paper1_Level1.json" },
-  { id: "physics", path: "src/data/questions/cuet/physics/CUET_Physics_Paper1_Level1.json" },
-  { id: "biological-science", path: "src/data/questions/cuet/biological-science/CUET_BiologicalScience_Paper1_Level1.json" },
-  { id: "chemistry", path: "src/data/questions/cuet/physics/CUET_Physics_Paper2_Level2.json" },
-  { id: "accountancy", path: "src/data/questions/cuet/accountancy/CUET_Accountancy_Paper1_Level1.json" },
-  { id: "computer-science", path: "src/data/questions/cuet/computer-science/CUET_ComputerScience_Paper1_Level1.json" },
-  { id: "economics", path: "src/data/questions/cuet/economics/CUET_Economics_Paper1_Level1.json" },
-  { id: "english", path: "src/data/questions/cuet/english/CUET_English_Paper1_Level1.json" },
-  { id: "general-test", path: "src/data/questions/cuet/general-test/CUET_GeneralTest_Paper1_Level1.json" },
-  { id: "geography", path: "src/data/questions/cuet/geography/CUET_Geography_Paper1_Level1.json" },
-  { id: "history", path: "src/data/questions/cuet/history/CUET_History_Paper1_Level1.json" },
-  { id: "mass-media", path: "src/data/questions/cuet/mass-media/CUET_Mass_Media_Paper1_Level1.json" },
-  { id: "political-science", path: "src/data/questions/cuet/political-science/CUET_Political_Science_Paper1_Level1.json" }
+  { id: "mathematics", path: "content/question-bank/cuet/mathematics/CUET_Mathematics_Paper1_Level1.json" },
+  { id: "physics", path: "content/question-bank/cuet/physics/CUET_Physics_Paper1_Level1.json" },
+  { id: "biological-science", path: "content/question-bank/cuet/biological-science/CUET_BiologicalScience_Paper1_Level1.json" },
+  { id: "chemistry", path: "content/question-bank/cuet/physics/CUET_Physics_Paper2_Level2.json" },
+  { id: "accountancy", path: "content/question-bank/cuet/accountancy/CUET_Accountancy_Paper1_Level1.json" },
+  { id: "computer-science", path: "content/question-bank/cuet/computer-science/CUET_ComputerScience_Paper1_Level1.json" },
+  { id: "economics", path: "content/question-bank/cuet/economics/CUET_Economics_Paper1_Level1.json" },
+  { id: "english", path: "content/question-bank/cuet/english/CUET_English_Paper1_Level1.json" },
+  { id: "general-test", path: "content/question-bank/cuet/general-test/CUET_GeneralTest_Paper1_Level1.json" },
+  { id: "geography", path: "content/question-bank/cuet/geography/CUET_Geography_Paper1_Level1.json" },
+  { id: "history", path: "content/question-bank/cuet/history/CUET_History_Paper1_Level1.json" },
+  { id: "mass-media", path: "content/question-bank/cuet/mass-media/CUET_Mass_Media_Paper1_Level1.json" },
+  { id: "political-science", path: "content/question-bank/cuet/political-science/CUET_Political_Science_Paper1_Level1.json" }
 ];
 
 let allQuestions = [];
@@ -66,5 +66,5 @@ for (const subj of cuetSubjects) {
   allQuestions.push(...qs);
 }
 
-fs.writeFileSync("src/data/student/questions.json", JSON.stringify(allQuestions, null, 2));
-console.log(`Successfully converted and wrote ${allQuestions.length} real questions across ${cuetSubjects.length} subjects to src/data/student/questions.json`);
+fs.writeFileSync("content/question-bank/cuet-test-1.json", JSON.stringify(allQuestions, null, 2));
+console.log(`Successfully converted and wrote ${allQuestions.length} real questions across ${cuetSubjects.length} subjects to content/question-bank/cuet-test-1.json`);

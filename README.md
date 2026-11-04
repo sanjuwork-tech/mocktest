@@ -1,43 +1,55 @@
-# MockStride
+# OurMocks
 
-An exam-discovery platform for students exploring opportunities after Class 12. The first release brings CUET UG, IISER IAT, NEST and COMEDK UGET together on one page, with opportunities, eligibility, exam formats, published dates, official notices and candidate links.
+Full-length mock tests and exam guidance for Class 12 students taking CUET UG, IISER IAT, NISER NEST and COMEDK UGET. Test 1 of every exam is free; every test ends with time-per-question analysis.
 
-The Preparation page presents all four planned mock series with their inclusions, counts and clearly labelled proposed prices. Checkout, learner accounts and test-taking are not implemented. Backend security and payment launch blockers remain documented in `docs/FRONTEND-PROGRESS.md`.
+Next.js 16 (App Router) · React 19 · TypeScript · Postgres with Drizzle ORM · deployed on Vercel from `main`.
+
+## Where things live
+
+| Folder | What it holds |
+|---|---|
+| `src/app` | Pages and API routes. Public site, `student/` (tests, results, analysis), `admin/`, `api/` |
+| `src/components` | UI components; `student/` holds the exam player, results and analysis views |
+| `src/data` | Site content: exam guides, colleges, blog, syllabus, past papers, product catalog |
+| `src/lib` | Pure logic shared by server and browser: blueprints (official patterns), analysis, eligibility, score calculator |
+| `src/server` | Server-only code: auth, sessions, scoring, test papers, payments |
+| `src/db` | Database schema and connection |
+| `drizzle/` | Database migrations (apply with `npm run db:migrate`) |
+| `content/question-bank` | Source question bank used to generate CUET papers (not loaded by the app) |
+| `data/test-papers` | Generated paper JSON ready to upload. Local only, not in git |
+| `scripts/` | Command-line tools: database, paper generation and import |
+| `tests/` | Unit tests (`*.test.mjs`) and database/SEO integration checks (`*.integration.mjs`) |
+| `public/` | Logo, share image and college photos |
+| `docs/` | PRD, TRD, test-paper and question-format guides (local, not in git); `docs/archive/` holds superseded documents |
+
+`src/lib/blueprints/definitions.ts` is the single source for each exam's pattern and marking. When a new bulletin changes a pattern, change it there; the player, scoring, paper checks and free-test page follow.
 
 ## Run locally
 
-Use Node.js 22.18+ (Node 24 was used for validation).
+Node.js 22.18 or newer.
 
-1. Run `npm ci`.
-2. Run `npm run dev`. Public exam guides do not require a database.
-3. If local Turbopack subprocesses are restricted, use `npm run dev -- --webpack`.
-4. To test a production build, run `npm run build -- --webpack`, then `npm start`.
+```
+npm ci
+npm run db:local        # start the local Postgres on port 5433
+npm run dev             # http://localhost:3000
+```
 
-`next/font/google` downloads the configured fonts during a build; network access is required. The default `npm run build` still uses Turbopack.
+First time on a new database: `npm run db:migrate`, `npm run db:seed` (creates the admin account from `ADMIN_BOOTSTRAP_EMAIL` / `ADMIN_BOOTSTRAP_PASSWORD`), then `npm run db:import-papers`. Copy `.env.example` to `.env.local` and fill it in first.
 
-Set `NEXT_PUBLIC_SITE_URL` to the deployed public origin for canonical and sharing URLs. For admin/database use, configure real `DATABASE_URL`, `ADMIN_PASSWORD` and `AUTH_SECRET` values in your environment; do not use the example placeholders. Database schema changes and security hardening need a separate reviewed release before production use.
+## Test papers
 
-Drizzle CLI commands read `DATABASE_URL` from the process environment; export it explicitly when running migrations. `npm run db:migrate` applies checked-in migrations. Use `db:generate` only after intentional schema changes. No production database was accessed during frontend development.
+Upload paper JSON at `/admin/test-papers` (or `npm run db:import-papers`). Each paper is checked against its exam's official pattern before import. Format and workflow: `docs/TEST-PAPERS.md`.
 
-## Validate
+## Checks
 
-- `npm run lint`
-- `npm test`
-- `npx tsc --noEmit --incremental false`
-- `npm run build -- --webpack`
+```
+npm run lint
+npm test
+npm run build -- --webpack
+```
 
-Tests cover directory search, complete guide fields, official-link hosts, historical application states, stale review detection and request error formatting. They do not replace live database or browser testing.
+`GET /api/health` reports whether the database is connected and migrated.
 
-## Routes and content
+## Deploying
 
-- `/`: discovery homepage.
-- `/exams`: every exam guide, notifications and application checklist on one page.
-- `/test-series`: mock-series catalog with proposed pricing and enquiry links, without a purchase flow.
-- `/about`: mission, vision and information-review policy.
-- `/exams/[slug]`: permanent redirects to the corresponding `/exams#slug` section.
-- `/results`: redirects to official exam notices at `/exams#notifications`.
-- `/admin`: authenticated database inventory with search and editing.
-
-Primary guide content is server-rendered and visible without JavaScript. Search progressively enhances the shortcut cards; all full exam sections remain available below, including when a filter has no matches.
-
-Exam summaries are manually maintained in `src/data/exams.ts`, with explicit cycle, review date, source and verification status. They are not an automatically refreshed notification service. See `docs/FRONTEND-PROGRESS.md` for update rules, remaining audit issues and verification limitations; see `docs/BRAND.md` for brand conventions.
+Vercel needs `DATABASE_URL`, `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_CANONICAL_URL`. Run migrations against the production database from your machine with `DATABASE_MIGRATION_URL`; never add that variable to Vercel. Guest sign-in is on unless `GUEST_LOGIN_ENABLED=false`.

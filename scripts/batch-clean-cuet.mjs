@@ -122,7 +122,7 @@ function walkDir(dir, callback) {
   }
 }
 
-const baseDir = "src/data/questions/cuet";
+const baseDir = "content/question-bank/cuet";
 let totalFiles = 0;
 let totalQuestions = 0;
 let modifiedQuestions = 0;
