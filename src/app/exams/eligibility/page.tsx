@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle2, AlertCircle, HelpCircle, GraduationCap } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
+import { EligibilityChecker } from "@/components/eligibility-checker";
 
 export const metadata = pageMetadata(
   "Eligibility for CUET, IAT, NEST & COMEDK 2027",
@@ -81,9 +82,11 @@ export default function EligibilityGuidePage() {
           Entrance Exam Eligibility Criteria (2026/2027)
         </h1>
         <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.6, maxWidth: "680px", margin: "0 auto" }}>
-          Before investing months in preparation, make sure you meet the official eligibility requirements for Class 12 minimum marks, subject stream combinations, age thresholds, and gap-year rules.
+          Answer four questions to see which of CUET UG, IISER IAT, NEST and COMEDK you can take, then read each exam&apos;s full rules below.
         </p>
       </section>
+
+      <EligibilityChecker />
 
       {/* Cards Grid */}
       <section style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "24px", marginBottom: "48px" }}>

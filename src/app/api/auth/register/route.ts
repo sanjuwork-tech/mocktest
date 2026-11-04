@@ -1,9 +1,10 @@
 import { z } from "zod";
 import { eq } from "drizzle-orm";
 import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
-import { rateLimit, startStudentSession } from "@/server/auth";
+import { currentStudent, rateLimit, startStudentSession } from "@/server/auth";
+import { isGuestEmail } from "@/lib/guest";
 import { requireDb } from "@/db/client";
-import { usersTable, auditLogTable } from "@/db/schema";
+import { usersTable, auditLogTable, sessionsTable } from "@/db/schema";
 import { hashPassword, normalizeEmail, tokenHash } from "@/server/security";
 
 export const runtime = "nodejs";
@@ -48,29 +49,24 @@ export async function POST(request: Request) {
     // Hash password and create user
     const passwordHash = await hashPassword(parsed.data.password, 8);
 
-    const [user] = await db
-      .insert(usersTable)
-      .values({
-        name: parsed.data.name.trim(),
-        email,
-        passwordHash,
-        role: "student",
-        provider: "credentials",
-      })
-      .returning({
-        id: usersTable.id,
-        name: usersTable.name,
-        email: usersTable.email,
-        role: usersTable.role,
-      });
+    // A signed-in guest becomes this account in place, so the tests they already took stay theirs.
+    const current = await currentStudent();
+    const guestId = current && isGuestEmail(current.email) ? current.userId : null;
+    const values = { name: parsed.data.name.trim(), email, passwordHash, provider: "credentials" };
+    const returning = { id: usersTable.id, name: usersTable.name, email: usersTable.email };
+    const [user] = guestId
+      ? await db.update(usersTable).set({ ...values, updatedAt: new Date() }).where(eq(usersTable.id, guestId)).returning(returning)
+      : await db.insert(usersTable).values({ ...values, role: "student" }).returning(returning);
 
     await db.insert(auditLogTable).values({
       actorId: user.id,
-      action: "student.registered",
+      action: guestId ? "student.guest_upgraded" : "student.registered",
       entityType: "user",
       entityId: user.id,
     });
 
+    // Replace the guest's session token now that the account has a password.
+    if (guestId && current) await db.update(sessionsTable).set({ revokedAt: new Date() }).where(eq(sessionsTable.id, current.sessionId));
     await startStudentSession(user.id);
 
     return json({ ok: true, user: { id: user.id, name: user.name, email: user.email } }, 201);

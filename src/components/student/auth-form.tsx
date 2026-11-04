@@ -21,6 +21,8 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
   const router = useRouter();
   const params = useSearchParams();
   const next = safeNext(params.get("next"));
+  // A guest saving their progress: sign-up turns the guest session into this account.
+  const upgrading = params.get("upgrade") === "1";
   const [mode, setMode] = useState<"register" | "login">(params.get("mode") === "login" ? "login" : "register");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -94,7 +96,10 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
               Sign in
             </button>
           </div>
-          <h2 id="auth-title">{registering ? "Create your free account" : "Welcome back"}</h2>
+          <h2 id="auth-title">{!registering ? "Welcome back" : upgrading ? "Keep your guest results" : "Create your free account"}</h2>
+          {upgrading && registering && (
+            <p className="student-muted">Your tests and analysis from this guest session move to the new account.</p>
+          )}
           <form onSubmit={submit} className="auth-form">
             {registering && (
               <label>
@@ -129,7 +134,7 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
               {registering ? "Create account & continue" : "Sign in"} {!busy && <ArrowRight size={18} />}
             </button>
           </form>
-          {guestEnabled && (
+          {guestEnabled && !upgrading && (
             <div className="guest-option">
               <span>or</span>
               <button type="button" className="student-secondary" onClick={continueAsGuest} disabled={busy}>

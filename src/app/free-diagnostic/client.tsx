@@ -1,51 +1,28 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
   ArrowRight,
-  CheckCircle2,
-  Clock,
-  Zap,
-  Target,
-  Trophy,
-  Sparkles,
-  BarChart3,
-  Mail,
-  FlaskConical,
   Atom,
-  Sigma,
+  BrainCircuit,
+  Code2,
   Dna,
   FileSpreadsheet,
-  Code2,
-  TrendingUp,
-  Languages,
-  BrainCircuit,
+  FlaskConical,
   Globe,
   Landmark,
+  Languages,
   Radio,
   Scale,
-  Play,
-  ChartNoAxesCombined,
-  Calendar,
-  ShieldCheck,
-  Check,
+  Sigma,
+  TrendingUp,
 } from "lucide-react";
-import {
-  EXAMS,
-  SUBJECT_DETAILS,
-  SUBJECT_NAMES,
-  type SubjectId,
-} from "@/lib/exams/catalog";
+import { blueprintFor } from "@/lib/blueprints/definitions";
+import { EXAMS, EXAM_SLUGS, SUBJECT_DETAILS, SUBJECT_NAMES, isExamSlug, type ExamSlug, type SubjectId } from "@/lib/exams/catalog";
+import { WaitlistForm } from "@/components/waitlist-form";
 
-const SUBJECTS = EXAMS["cuet-ug"].subjects.map((id) => ({
-  id,
-  title: SUBJECT_NAMES[id],
-  ...SUBJECT_DETAILS[id],
-}));
-
-const subjectIcons: Record<string, typeof Sigma> = {
+const SUBJECT_ICONS: Record<SubjectId, typeof Sigma> = {
   mathematics: Sigma,
   physics: Atom,
   chemistry: FlaskConical,
@@ -61,739 +38,168 @@ const subjectIcons: Record<string, typeof Sigma> = {
   "political-science": Scale,
 };
 
-type ExamTab = "cuet-ug" | "iiser-iat" | "niser-nest" | "comedk";
-const EXAM_TABS: ExamTab[] = ["cuet-ug", "iiser-iat", "niser-nest", "comedk"];
+type Attempt = { attemptId: string; status: string; score: number | null; maxScore: number | null };
+type CatalogTest = { testId: string; exam: string; subject: string | null; testNumber: number; latestAttempt: Attempt | null };
+type Mine = { testId: string; attempt: Attempt | null };
 
-// Subjects whose free Test 1 is not published yet (the old demo "chemistry" set was physics questions).
-const SUBJECTS_WITHOUT_FREE_TEST = new Set<string>(["chemistry"]);
+const key = (exam: string, subject?: string | null) => `${exam}:${subject ?? ""}`;
 
-export function FreeDiagnosticClient({ initialExam }: { initialExam?: string }) {
-  const router = useRouter();
-  const [activeTab, setActiveTab] = useState<ExamTab>(
-    EXAM_TABS.includes(initialExam as ExamTab) ? (initialExam as ExamTab) : "cuet-ug",
-  );
-  const [waitlistEmail, setWaitlistEmail] = useState("");
-  const [waitlistStatus, setWaitlistStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
-  const [waitlistMsg, setWaitlistMsg] = useState("");
-  const [startingSubject, setStartingSubject] = useState<string | null>(null);
+/** One line for the official pattern, read from the blueprint so it changes with the bulletin. */
+function patternLine(exam: ExamSlug, subject?: SubjectId) {
+  const bp = blueprintFor(exam, subject ?? "mathematics")!;
+  const { marksPerQuestion, penaltyPerQuestion } = bp.sections[0];
+  const marking = penaltyPerQuestion ? `+${marksPerQuestion} / −${penaltyPerQuestion}` : `+${marksPerQuestion}, no negative marking`;
+  const nest = exam === "niser-nest" ? " · best 3 of 4 sections count" : "";
+  return `${bp.totalQuestions} questions · ${bp.durationMinutes} min · ${bp.totalMarks} marks · ${marking}${nest}`;
+}
 
-  // Sign-in (or sign-up) happens on the start page, which then opens the free Test 1.
-  const handleStartFullTest = (subjectId: SubjectId) => {
-    setStartingSubject(subjectId);
-    router.push(`/student/start?exam=cuet-ug&subject=${subjectId}&test=1`);
-  };
+/**
+ * `live` lists "exam:subject" for every published free Test 1, so a paper uploaded in the admin panel appears here
+ * without a code change. It is null when the database isn't connected; CUET is then shown as available.
+ */
+export function FreeDiagnosticClient({ initialExam, live }: { initialExam?: string; live: string[] | null }) {
+  const [tab, setTab] = useState<ExamSlug>(initialExam && isExamSlug(initialExam) ? initialExam : "cuet-ug");
+  const [mine, setMine] = useState<Map<string, Mine>>(new Map());
 
-  const handleWaitlistSubmit = async (e: React.FormEvent, examSlug: string) => {
-    e.preventDefault();
-    if (!waitlistEmail || !waitlistEmail.includes("@")) {
-      setWaitlistStatus("error");
-      setWaitlistMsg("Please enter a valid email address.");
-      return;
-    }
+  // Signed-in students see their own Test 1 status on each card.
+  useEffect(() => {
+    let active = true;
+    fetch("/api/auth/session")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((session) => (session?.user ? fetch("/api/student/catalog").then((r) => (r.ok ? r.json() : null)) : null))
+      .then((data: { tests: CatalogTest[] } | null) => {
+        if (!active || !data) return;
+        const tests = data.tests.filter((t) => t.testNumber === 1);
+        setMine(new Map(tests.map((t) => [key(t.exam, t.subject), { testId: t.testId, attempt: t.latestAttempt }])));
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+  }, []);
 
-    setWaitlistStatus("loading");
-    try {
-      const res = await fetch("/api/waitlist", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: waitlistEmail, exam: examSlug, source: "free-diagnostic" }),
-      });
-      const data = await res.json();
-      if (res.ok) {
-        setWaitlistStatus("success");
-        setWaitlistMsg(data.message || "You're on the waitlist! We'll notify you as soon as tests go live.");
-        setWaitlistEmail("");
-      } else {
-        setWaitlistStatus("error");
-        setWaitlistMsg(data.error || "Failed to join waitlist. Please try again.");
-      }
-    } catch {
-      setWaitlistStatus("error");
-      setWaitlistMsg("Network issue. Please try again later.");
-    }
-  };
+  const isLive = (exam: ExamSlug, subject?: SubjectId) => (live ? live.includes(key(exam, subject)) : exam === "cuet-ug");
+  const cuetLive = EXAMS["cuet-ug"].subjects.filter((s) => isLive("cuet-ug", s)).length;
+  const exam = EXAMS[tab];
+
+  function action(examSlug: ExamSlug, subject?: SubjectId) {
+    if (!isLive(examSlug, subject)) return <p className="fd-soon">Free test coming soon</p>;
+    const own = mine.get(key(examSlug, subject));
+    const attempt = own?.attempt;
+    if (attempt?.status === "in_progress")
+      return (
+        <Link className="button-primary" href={`/student/exam/${attempt.attemptId}`}>
+          Resume test <ArrowRight size={16} aria-hidden="true" />
+        </Link>
+      );
+    if (attempt && attempt.score !== null)
+      return (
+        <>
+          <p className="fd-score">
+            Your score <strong>{attempt.score}/{attempt.maxScore}</strong>
+          </p>
+          <div className="fd-actions">
+            <Link className="button-primary" href={`/student/results/${attempt.attemptId}`}>
+              View analysis
+            </Link>
+            <Link className="text-link" href={`/student/tests/${own!.testId}`}>
+              Take again
+            </Link>
+          </div>
+        </>
+      );
+    const start = `/student/start?exam=${examSlug}${subject ? `&subject=${subject}` : ""}&test=1`;
+    return (
+      <Link className="button-primary" href={start}>
+        Start free Test 1 <ArrowRight size={16} aria-hidden="true" />
+      </Link>
+    );
+  }
 
   return (
-    <main id="main-content" tabIndex={-1} className="page-shell section-space">
-      {/* Hero Section */}
-      <section style={{ textAlign: "center", maxWidth: "840px", margin: "0 auto 48px auto" }}>
-        <div
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "8px",
-            background: "#eff6ff",
-            border: "1px solid #bfdbfe",
-            color: "#1d4ed8",
-            padding: "6px 14px",
-            borderRadius: "999px",
-            fontSize: "13px",
-            fontWeight: 600,
-            marginBottom: "16px",
-          }}
-        >
-          <Sparkles size={16} /> Free Full-Length Mock Test Attempts
-        </div>
-        <h1 style={{ fontSize: "clamp(30px, 4vw, 44px)", fontWeight: 800, lineHeight: 1.15, color: "#0f172a", marginBottom: "16px" }}>
-          Experience the real test.
+    <main id="main-content" tabIndex={-1}>
+      <section className="guide-hero page-shell">
+        <p className="eyebrow">Free full-length mock tests</p>
+        <h1>
+          Test 1 is free
           <br />
-          <em style={{ fontStyle: "normal", color: "var(--blue, #1f5eff)" }}>
-            Full-length, timed & completely free.
-          </em>
+          <em>for every exam.</em>
         </h1>
-        <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.6, maxWidth: "680px", margin: "0 auto 28px auto" }}>
-          No 15-question samplers. We believe real exam readiness demands attempting the actual <strong>full-length 50-question format</strong> under real CBT conditions with live question timers and instant diagnostic reports.
+        <p className="hero-copy">
+          Full length, timed, on the official pattern and marking, followed by question-by-question time analysis:
+          where you rushed, where you got stuck and which topics cost you marks.
         </p>
-
-        {/* Quick Highlights Strip */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-            gap: "12px",
-            background: "#f8fafc",
-            border: "1px solid #e2e8f0",
-            borderRadius: "14px",
-            padding: "16px 20px",
-            textAlign: "left",
-          }}
-        >
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <div style={{ background: "#dbeafe", color: "#1d4ed8", padding: "8px", borderRadius: "10px" }}>
-              <Clock size={18} />
-            </div>
-            <div>
-              <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Official 60 Min Timer</strong>
-              <span style={{ fontSize: "12px", color: "#64748b" }}>Live per-question timer</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <div style={{ background: "#dcfce7", color: "#15803d", padding: "8px", borderRadius: "10px" }}>
-              <Target size={18} />
-            </div>
-            <div>
-              <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Full 50 Questions</strong>
-              <span style={{ fontSize: "12px", color: "#64748b" }}>250 marks official format (+5/−1)</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <div style={{ background: "#fef3c7", color: "#b45309", padding: "8px", borderRadius: "10px" }}>
-              <BarChart3 size={18} />
-            </div>
-            <div>
-              <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Diagnostic Report</strong>
-              <span style={{ fontSize: "12px", color: "#64748b" }}>Pacing & topic mastery</span>
-            </div>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <div style={{ background: "#f3e8ff", color: "#7e22ce", padding: "8px", borderRadius: "10px" }}>
-              <Zap size={18} />
-            </div>
-            <div>
-              <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Zero Barrier</strong>
-              <span style={{ fontSize: "12px", color: "#64748b" }}>Instant 1-click attempt</span>
-            </div>
-          </div>
-        </div>
       </section>
 
-      {/* Exam Switcher Tabs */}
-      <section style={{ marginBottom: "36px" }}>
-        <div style={{ display: "flex", justifyContent: "center", gap: "10px", flexWrap: "wrap", marginBottom: "32px" }}>
-          {[
-            { id: "cuet-ug", label: "CUET (UG)", badge: "Test 1 free · 12 subjects" },
-            { id: "iiser-iat", label: "IISER IAT", badge: "Waitlist open" },
-            { id: "niser-nest", label: "NISER NEST", badge: "Waitlist open" },
-            { id: "comedk", label: "COMEDK UGET", badge: "Waitlist open" },
-          ].map((tab) => {
-            const isSelected = activeTab === tab.id;
+      <section className="page-shell fd-section" aria-label="Choose an exam">
+        <div className="fd-tabs" role="tablist" aria-label="Exam">
+          {EXAM_SLUGS.map((slug) => {
+            const badge =
+              slug === "cuet-ug" ? `${cuetLive} subject${cuetLive === 1 ? "" : "s"} free` : isLive(slug) ? "Test 1 free" : "Coming soon";
             return (
               <button
-                key={tab.id}
+                key={slug}
                 type="button"
-                onClick={() => {
-                  setActiveTab(tab.id as ExamTab);
-                  setWaitlistStatus("idle");
-                  setWaitlistMsg("");
-                }}
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "8px",
-                  padding: "10px 20px",
-                  borderRadius: "999px",
-                  fontSize: "14px",
-                  fontWeight: 600,
-                  cursor: "pointer",
-                  transition: "all 0.2s ease",
-                  border: isSelected ? "2px solid #1f5eff" : "1px solid #cbd5e1",
-                  background: isSelected ? "#1f5eff" : "#ffffff",
-                  color: isSelected ? "#ffffff" : "#334155",
-                  boxShadow: isSelected ? "0 4px 12px rgba(31, 94, 255, 0.2)" : "none",
-                }}
+                role="tab"
+                id={`fd-tab-${slug}`}
+                aria-selected={tab === slug}
+                aria-controls="fd-panel"
+                onClick={() => setTab(slug)}
               >
-                <span>{tab.label}</span>
-                <span
-                  style={{
-                    fontSize: "11px",
-                    padding: "2px 8px",
-                    borderRadius: "999px",
-                    fontWeight: 700,
-                    background: isSelected ? "rgba(255, 255, 255, 0.25)" : "#f1f5f9",
-                    color: isSelected ? "#ffffff" : tab.badge.includes("Live") ? "#15803d" : "#64748b",
-                  }}
-                >
-                  {tab.badge}
-                </span>
+                {EXAMS[slug].name}
+                <span>{badge}</span>
               </button>
             );
           })}
         </div>
 
-        {/* ── CUET UG: Available Now (13 Subjects with Full Tests) ── */}
-        {activeTab === "cuet-ug" && (
-          <div>
-            <div
-              style={{
-                background: "linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%)",
-                border: "1px solid #bfdbfe",
-                borderRadius: "16px",
-                padding: "24px 28px",
-                marginBottom: "28px",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center",
-                flexWrap: "wrap",
-                gap: "16px",
-              }}
-            >
-              <div>
-                <span
-                  style={{
-                    fontSize: "12px",
-                    fontWeight: 700,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.5px",
-                    color: "#1d4ed8",
-                    background: "#dbeafe",
-                    padding: "3px 10px",
-                    borderRadius: "999px",
-                  }}
-                >
-                  National Testing Agency (NTA) Official Pattern
-                </span>
-                <h2 style={{ fontSize: "22px", fontWeight: 700, color: "#0f172a", margin: "8px 0 4px 0" }}>
-                  CUET UG Test 1 Full-Length Mocks
-                </h2>
-                <p style={{ fontSize: "14px", color: "#475569", margin: 0 }}>
-                  Select any subject below to attempt the full 50-question mock. Marking: <strong>+5 correct, −1 incorrect</strong>. Complete within 60 minutes (250 marks).
-                </p>
-              </div>
-              <div style={{ textAlign: "right" }}>
-                <span style={{ fontSize: "13px", color: "#64748b", display: "block" }}>13 Subjects Live</span>
-                <strong style={{ fontSize: "18px", color: "#15803d" }}>100% Free Access</strong>
-              </div>
+        <div id="fd-panel" role="tabpanel" aria-labelledby={`fd-tab-${tab}`} className="fd-panel">
+          <header className="fd-panel-head">
+            <div>
+              <h2>{exam.name}: free Test 1</h2>
+              <p>
+                {exam.paperPerSubject ? `Each subject paper: ${patternLine(tab)}` : patternLine(tab)}
+                {exam.maxSubjects ? `. Candidates take up to ${exam.maxSubjects} subjects.` : "."}
+              </p>
             </div>
+            <Link className="text-link" href={`/exams/${tab}`}>
+              {exam.shortName} exam guide
+            </Link>
+          </header>
 
-            {/* Subject Grid */}
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fill, minmax(290px, 1fr))",
-                gap: "20px",
-              }}
-            >
-              {SUBJECTS.map((s) => {
-                const Icon = subjectIcons[s.id] || FlaskConical;
-                const isCurrentlyStarting = startingSubject === s.id;
-                const hasFreeTest = !SUBJECTS_WITHOUT_FREE_TEST.has(s.id);
+          {exam.paperPerSubject ? (
+            <ul className="fd-grid">
+              {exam.subjects.map((subject) => {
+                const Icon = SUBJECT_ICONS[subject];
+                const live = isLive(tab, subject);
                 return (
-                  <article
-                    key={s.id}
-                    style={{
-                      background: "#ffffff",
-                      border: "1px solid #e2e8f0",
-                      borderRadius: "14px",
-                      padding: "22px",
-                      display: "flex",
-                      flexDirection: "column",
-                      justifyContent: "space-between",
-                      transition: "all 0.2s ease",
-                      boxShadow: "0 2px 6px rgba(0,0,0,0.03)",
-                    }}
-                  >
-                    <div>
-                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "14px" }}>
-                        <div
-                          style={{
-                            width: "44px",
-                            height: "44px",
-                            borderRadius: "10px",
-                            background: "#f0f4ff",
-                            color: "var(--blue, #1f5eff)",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                          }}
-                        >
-                          <Icon size={24} />
-                        </div>
-                        <span
-                          style={{
-                            fontSize: "11px",
-                            fontWeight: 700,
-                            background: "#dcfce7",
-                            color: "#15803d",
-                            padding: "3px 8px",
-                            borderRadius: "999px",
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "4px",
-                          }}
-                        >
-                          <CheckCircle2 size={12} /> Full Test 1 Free
-                        </span>
-                      </div>
-
-                      <span style={{ fontSize: "12px", color: "#64748b", fontWeight: 500, textTransform: "uppercase" }}>
-                        {s.code ? `CUET Code: ${s.code}` : "Domain Practice"}
-                      </span>
-                      <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#0f172a", margin: "4px 0 8px 0" }}>
-                        {s.title}
-                      </h3>
-                      <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.45, marginBottom: "16px" }}>
-                        {s.subtitle}
-                      </p>
-
-                      <div
-                        style={{
-                          display: "flex",
-                          gap: "8px",
-                          fontSize: "12px",
-                          color: "#64748b",
-                          background: "#f8fafc",
-                          padding: "8px 12px",
-                          borderRadius: "8px",
-                          marginBottom: "18px",
-                        }}
-                      >
-                        <span>50 Qs</span>
-                        <span>·</span>
-                        <span>60 Mins</span>
-                        <span>·</span>
-                        <span>250 Marks</span>
-                      </div>
-                    </div>
-
-                    <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                      <button
-                        type="button"
-                        onClick={() => handleStartFullTest(s.id)}
-                        disabled={isCurrentlyStarting || !hasFreeTest}
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          gap: "8px",
-                          width: "100%",
-                          padding: "11px 16px",
-                          borderRadius: "10px",
-                          background: "var(--blue, #1f5eff)",
-                          color: "#ffffff",
-                          fontWeight: 600,
-                          fontSize: "14px",
-                          cursor: isCurrentlyStarting ? "wait" : "pointer",
-                          border: "none",
-                          transition: "opacity 0.2s",
-                        }}
-                      >
-                        <Play size={16} />
-                        {!hasFreeTest ? "Free test coming soon" : isCurrentlyStarting ? "Opening…" : "Attempt Full Length Test"}
-                      </button>
-                    </div>
-                  </article>
+                  <li key={subject} className={`fd-card${live ? "" : " is-soon"}`}>
+                    <span className="fd-icon" aria-hidden="true">
+                      <Icon size={22} />
+                    </span>
+                    <p className="fd-code">CUET code {SUBJECT_DETAILS[subject].code}</p>
+                    <h3>{SUBJECT_NAMES[subject]}</h3>
+                    <p className="fd-sub">{SUBJECT_DETAILS[subject].subtitle}</p>
+                    <div className="fd-card-action">{action(tab, subject)}</div>
+                  </li>
                 );
               })}
+            </ul>
+          ) : isLive(tab) ? (
+            <div className="fd-card fd-single">
+              <h3>{exam.name} Test 1</h3>
+              <p className="fd-sub">Sections: {exam.subjects.map((s) => SUBJECT_NAMES[s]).join(", ")}.</p>
+              <div className="fd-card-action">{action(tab)}</div>
             </div>
-          </div>
-        )}
-
-        {/* ── IISER IAT: Coming Soon Banner ── */}
-        {activeTab === "iiser-iat" && (
-          <div
-            style={{
-              background: "linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)",
-              border: "2px dashed #cbd5e1",
-              borderRadius: "20px",
-              padding: "48px 32px",
-              textAlign: "center",
-              maxWidth: "720px",
-              margin: "0 auto",
-            }}
-          >
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "8px",
-                background: "#fef3c7",
-                color: "#92400e",
-                padding: "6px 16px",
-                borderRadius: "999px",
-                fontSize: "13px",
-                fontWeight: 700,
-                marginBottom: "20px",
-              }}
-            >
-              <Calendar size={16} /> In preparation · join the waitlist
-            </div>
-            <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
-              IISER IAT Test Series Coming Soon
-            </h2>
-            <p style={{ fontSize: "15px", color: "#475569", lineHeight: 1.6, maxWidth: "580px", margin: "0 auto 24px auto" }}>
-              Our academic team is currently calibrating research-aptitude mock tests across <strong>Physics, Chemistry, Mathematics, and Biology</strong> for admission to 7 IISERs, IISc Bangalore, and IIT Madras. Join the waitlist and we&apos;ll email you when they open.
-            </p>
-
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
-                gap: "12px",
-                background: "#ffffff",
-                border: "1px solid #e2e8f0",
-                borderRadius: "12px",
-                padding: "16px",
-                marginBottom: "28px",
-                textAlign: "left",
-              }}
-            >
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>60 Questions</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>PCMB full pattern</span>
-              </div>
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>180 Minutes</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Timed test simulator</span>
-              </div>
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>+4 / −1 Marking</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Section and topic analysis</span>
-              </div>
-            </div>
-
-            {/* Email Waitlist Form */}
-            <form id="waitlist" onSubmit={(e) => handleWaitlistSubmit(e, "iiser-iat")} style={{ maxWidth: "440px", margin: "0 auto" }}>
-              <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
-                <input
-                  type="email"
-                  value={waitlistEmail}
-                  onChange={(e) => setWaitlistEmail(e.target.value)}
-                  placeholder="Enter your email to get notified…"
-                  aria-label="Email address"
-                  style={{
-                    flex: "1 1 240px",
-                    padding: "12px 16px",
-                    borderRadius: "10px",
-                    border: "1px solid #cbd5e1",
-                    fontSize: "14px",
-                    outline: "none",
-                  }}
-                />
-                <button
-                  type="submit"
-                  disabled={waitlistStatus === "loading"}
-                  style={{
-                    padding: "12px 20px",
-                    borderRadius: "10px",
-                    background: "#071A4D",
-                    color: "#ffffff",
-                    fontWeight: 600,
-                    fontSize: "14px",
-                    cursor: "pointer",
-                    border: "none",
-                  }}
-                >
-                  {waitlistStatus === "loading" ? "Saving…" : "Notify Me"}
-                </button>
-              </div>
-              {waitlistMsg && (
-                <p
-                  style={{
-                    marginTop: "12px",
-                    fontSize: "13px",
-                    color: waitlistStatus === "success" ? "#15803d" : "#b91c1c",
-                    fontWeight: 500,
-                  }}
-                >
-                  {waitlistMsg}
-                </p>
-              )}
-            </form>
-          </div>
-        )}
-
-        {/* ── NISER NEST: Coming Soon Banner ── */}
-        {activeTab === "niser-nest" && (
-          <div
-            style={{
-              background: "linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)",
-              border: "2px dashed #cbd5e1",
-              borderRadius: "20px",
-              padding: "48px 32px",
-              textAlign: "center",
-              maxWidth: "720px",
-              margin: "0 auto",
-            }}
-          >
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "8px",
-                background: "#fef3c7",
-                color: "#92400e",
-                padding: "6px 16px",
-                borderRadius: "999px",
-                fontSize: "13px",
-                fontWeight: 700,
-                marginBottom: "20px",
-              }}
-            >
-              <Calendar size={16} /> In preparation · join the waitlist
-            </div>
-            <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
-              NISER NEST Master Series Coming Soon
-            </h2>
-            <p style={{ fontSize: "15px", color: "#475569", lineHeight: 1.6, maxWidth: "580px", margin: "0 auto 24px auto" }}>
-              Integrated MSc entrance mocks for <strong>NISER Bhubaneswar</strong> and <strong>UM-DAE CEBS Mumbai</strong> are arriving shortly with sectional cutoff strategies and high-calibre problems.
-            </p>
-
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
-                gap: "12px",
-                background: "#ffffff",
-                border: "1px solid #e2e8f0",
-                borderRadius: "12px",
-                padding: "16px",
-                marginBottom: "28px",
-                textAlign: "left",
-              }}
-            >
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>80 Questions</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Sectional science mocks</span>
-              </div>
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>210 Minutes</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Comprehensive duration</span>
-              </div>
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>Sectional Strategy</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Cutoff diagnostics</span>
-              </div>
-            </div>
-
-            {/* Email Waitlist Form */}
-            <form id="waitlist" onSubmit={(e) => handleWaitlistSubmit(e, "niser-nest")} style={{ maxWidth: "440px", margin: "0 auto" }}>
-              <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
-                <input
-                  type="email"
-                  value={waitlistEmail}
-                  onChange={(e) => setWaitlistEmail(e.target.value)}
-                  placeholder="Enter your email to get notified…"
-                  aria-label="Email address"
-                  style={{
-                    flex: "1 1 240px",
-                    padding: "12px 16px",
-                    borderRadius: "10px",
-                    border: "1px solid #cbd5e1",
-                    fontSize: "14px",
-                    outline: "none",
-                  }}
-                />
-                <button
-                  type="submit"
-                  disabled={waitlistStatus === "loading"}
-                  style={{
-                    padding: "12px 20px",
-                    borderRadius: "10px",
-                    background: "#071A4D",
-                    color: "#ffffff",
-                    fontWeight: 600,
-                    fontSize: "14px",
-                    cursor: "pointer",
-                    border: "none",
-                  }}
-                >
-                  {waitlistStatus === "loading" ? "Saving…" : "Notify Me"}
-                </button>
-              </div>
-              {waitlistMsg && (
-                <p
-                  style={{
-                    marginTop: "12px",
-                    fontSize: "13px",
-                    color: waitlistStatus === "success" ? "#15803d" : "#b91c1c",
-                    fontWeight: 500,
-                  }}
-                >
-                  {waitlistMsg}
-                </p>
-              )}
-            </form>
-          </div>
-        )}
-
-        {/* ── COMEDK UGET: Coming Soon Banner ── */}
-        {activeTab === "comedk" && (
-          <div
-            style={{
-              background: "linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)",
-              border: "2px dashed #cbd5e1",
-              borderRadius: "20px",
-              padding: "48px 32px",
-              textAlign: "center",
-              maxWidth: "720px",
-              margin: "0 auto",
-            }}
-          >
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "8px",
-                background: "#fef3c7",
-                color: "#92400e",
-                padding: "6px 16px",
-                borderRadius: "999px",
-                fontSize: "13px",
-                fontWeight: 700,
-                marginBottom: "20px",
-              }}
-            >
-              <Calendar size={16} /> In preparation · join the waitlist
-            </div>
-            <h2 style={{ fontSize: "28px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
-              COMEDK UGET Series Coming Soon
-            </h2>
-            <p style={{ fontSize: "15px", color: "#475569", lineHeight: 1.6, maxWidth: "580px", margin: "0 auto 24px auto" }}>
-              Speed-focused test series for about 150 Karnataka engineering colleges (RVCE, BMSCE, MSRIT) covering <strong>Physics, Chemistry, and Mathematics</strong> without negative marking will be added in upcoming days.
-            </p>
-
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
-                gap: "12px",
-                background: "#ffffff",
-                border: "1px solid #e2e8f0",
-                borderRadius: "12px",
-                padding: "16px",
-                marginBottom: "28px",
-                textAlign: "left",
-              }}
-            >
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>180 Questions</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Speed PCM practice</span>
-              </div>
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>180 Minutes</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>Official timing pace</span>
-              </div>
-              <div>
-                <strong style={{ display: "block", fontSize: "13px", color: "#0f172a" }}>No Negative Marking</strong>
-                <span style={{ fontSize: "12px", color: "#64748b" }}>High accuracy tactics</span>
-              </div>
-            </div>
-
-            {/* Email Waitlist Form */}
-            <form id="waitlist" onSubmit={(e) => handleWaitlistSubmit(e, "comedk")} style={{ maxWidth: "440px", margin: "0 auto" }}>
-              <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
-                <input
-                  type="email"
-                  value={waitlistEmail}
-                  onChange={(e) => setWaitlistEmail(e.target.value)}
-                  placeholder="Enter your email to get notified…"
-                  aria-label="Email address"
-                  style={{
-                    flex: "1 1 240px",
-                    padding: "12px 16px",
-                    borderRadius: "10px",
-                    border: "1px solid #cbd5e1",
-                    fontSize: "14px",
-                    outline: "none",
-                  }}
-                />
-                <button
-                  type="submit"
-                  disabled={waitlistStatus === "loading"}
-                  style={{
-                    padding: "12px 20px",
-                    borderRadius: "10px",
-                    background: "#071A4D",
-                    color: "#ffffff",
-                    fontWeight: 600,
-                    fontSize: "14px",
-                    cursor: "pointer",
-                    border: "none",
-                  }}
-                >
-                  {waitlistStatus === "loading" ? "Saving…" : "Notify Me"}
-                </button>
-              </div>
-              {waitlistMsg && (
-                <p
-                  style={{
-                    marginTop: "12px",
-                    fontSize: "13px",
-                    color: waitlistStatus === "success" ? "#15803d" : "#b91c1c",
-                    fontWeight: 500,
-                  }}
-                >
-                  {waitlistMsg}
-                </p>
-              )}
-            </form>
-          </div>
-        )}
-      </section>
-
-      {/* Trust & Methodology Section */}
-      <section
-        style={{
-          borderTop: "1px solid #e2e8f0",
-          paddingTop: "40px",
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-          gap: "24px",
-        }}
-      >
-        <div>
-          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#0f172a", marginBottom: "8px" }}>
-            Why Full-Length Tests?
-          </h3>
-          <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6 }}>
-            Short 10-minute samplers can&apos;t measure mental stamina, fatigue, or pacing across 50 questions. Our full-length free tests give you genuine benchmark accuracy.
-          </p>
-        </div>
-        <div>
-          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#0f172a", marginBottom: "8px" }}>
-            Real-Time CBT Interface
-          </h3>
-          <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6 }}>
-            Familiarize yourself with the actual question palette, marked for review states, and auto-submission countdown identical to NTA computer-based examinations.
-          </p>
-        </div>
-        <div>
-          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#0f172a", marginBottom: "8px" }}>
-            Step-by-Step Solutions
-          </h3>
-          <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6 }}>
-            Every single question is backed by structured explanations, shortcut tips, and topic categorization so you know exactly what to revise.
-          </p>
+          ) : (
+            <WaitlistForm
+              key={tab}
+              defaultExam={tab}
+              headline={`${exam.name} Test 1 is being prepared`}
+              subheadline="Leave your email and we'll tell you the day it goes live."
+              source="free-diagnostic"
+            />
+          )}
         </div>
       </section>
     </main>

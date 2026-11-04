@@ -2997,3 +2997,277 @@ body:has(.admin-shell) :is(.announcement, .site-header, .site-footer) {
     padding: 10px 16px;
   }
 }
+
+/* Guest session reminder in the student area */
+.guest-banner {
+  margin: 0 0 20px;
+  padding: 12px 16px;
+  border: 1px solid #f5d48a;
+  border-radius: 12px;
+  background: #fff8e6;
+  color: #5c4100;
+  font-size: 0.95rem;
+}
+.guest-banner a {
+  color: var(--navy);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Free tests hub (/free-diagnostic) */
+.fd-section {
+  padding-bottom: 72px;
+}
+.fd-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.fd-tabs button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid #c9d2e6;
+  border-radius: 14px;
+  background: #fff;
+  color: var(--navy);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.fd-tabs button span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #4a5878;
+}
+.fd-tabs button[aria-selected="true"] {
+  border-color: var(--navy);
+  background: var(--navy);
+  color: #fff;
+}
+.fd-tabs button[aria-selected="true"] span {
+  color: var(--lime);
+}
+.fd-tabs button:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+.fd-panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px 24px;
+  margin-bottom: 20px;
+}
+.fd-panel-head h2 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+}
+.fd-panel-head p {
+  margin: 0;
+  color: #43516d;
+}
+.fd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fd-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #dde3f0;
+  border-radius: 16px;
+  background: #fff;
+}
+.fd-card.is-soon {
+  background: var(--mist);
+}
+.fd-single {
+  max-width: 520px;
+}
+.fd-icon {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #eef3ff;
+  color: var(--blue);
+}
+.fd-code {
+  margin: 14px 0 2px;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #5b6885;
+}
+.fd-card h3 {
+  margin: 0 0 6px;
+  font-size: 1.15rem;
+}
+.fd-sub {
+  margin: 0 0 16px;
+  font-size: 0.92rem;
+  color: #43516d;
+}
+.fd-card-action {
+  margin-top: auto;
+}
+.fd-card-action .button-primary {
+  width: 100%;
+  justify-content: center;
+}
+.fd-soon {
+  margin: 0;
+  font-weight: 600;
+  color: #5b6885;
+}
+.fd-score {
+  margin: 0 0 10px;
+}
+.fd-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+}
+.fd-actions .button-primary {
+  width: auto;
+  flex: 1;
+}
+
+/* Eligibility checker (/exams/eligibility) */
+.elig-checker {
+  max-width: 960px;
+  margin: 0 auto 48px;
+  padding: 28px;
+  border: 1px solid #dde3f0;
+  border-radius: 20px;
+  background: #fff;
+}
+.elig-checker h2 {
+  margin: 0 0 6px;
+  font-size: 1.5rem;
+}
+.elig-note {
+  margin: 0 0 20px;
+  font-size: 0.9rem;
+  color: #43516d;
+}
+.elig-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px 24px;
+  margin-bottom: 24px;
+}
+.elig-form > label,
+.elig-form legend {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.elig-form select,
+.elig-form input[type="number"] {
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid #c9d2e6;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--navy);
+  font: inherit;
+}
+.elig-form fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.elig-form legend {
+  margin-bottom: 6px;
+}
+.elig-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  font-size: 0.95rem;
+}
+.elig-check input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--blue);
+}
+.elig-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.elig-result {
+  padding: 16px;
+  border: 1px solid #dde3f0;
+  border-left-width: 4px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+.elig-result.is-eligible {
+  border-left-color: #1f9d55;
+}
+.elig-result.is-not-eligible {
+  border-left-color: #c43d3d;
+}
+.elig-result.is-check {
+  border-left-color: #d29a12;
+}
+.elig-result-head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.elig-result-head span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+}
+.is-eligible .elig-result-head span {
+  color: #137a40;
+}
+.is-not-eligible .elig-result-head span {
+  color: #a32b2b;
+}
+.is-check .elig-result-head span {
+  color: #8a6100;
+}
+.elig-result ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #43516d;
+}
+.elig-links {
+  display: flex;
+  gap: 16px;
+  margin: 10px 0 0;
+}
+@media (max-width: 520px) {
+  .elig-checker {
+    padding: 20px 16px;
+  }
+}

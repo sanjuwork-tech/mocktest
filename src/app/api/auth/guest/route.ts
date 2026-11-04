@@ -2,6 +2,7 @@ import { randomUUID } from "node:crypto";
 import { rateLimit, startStudentSession } from "@/server/auth";
 import { apiError, ApiError, json, requireOrigin } from "@/server/http";
 import { guestLoginEnabled } from "@/server/guest";
+import { GUEST_EMAIL_DOMAIN } from "@/lib/guest";
 import { tokenHash } from "@/server/security";
 import { requireDb } from "@/db/client";
 import { auditLogTable, usersTable } from "@/db/schema";
@@ -21,8 +22,7 @@ export async function POST(request: Request) {
     const [user] = await db
       .insert(usersTable)
       .values({
-        // .invalid is a reserved TLD, so a guest address can never receive mail or collide with a real one.
-        email: `guest-${randomUUID()}@guest.ourmocks.invalid`,
+        email: `guest-${randomUUID()}${GUEST_EMAIL_DOMAIN}`,
         name: "Guest student",
         provider: "guest",
         role: "student",

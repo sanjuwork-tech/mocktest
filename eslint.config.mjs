@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Third-party agent skills kept beside the app, not app code.
+    "Skills/**",
   ]),
 ]);
 

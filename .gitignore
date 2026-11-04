@@ -56,3 +56,6 @@ backups/
 
 # generated test-paper files and other local data
 /data/
+
+# Third-party agent skills (each has its own repository)
+/Skills/

@@ -4,6 +4,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import { ArrowLeft, LogOut } from "lucide-react";
 import { api } from "./api";
+import { isGuestEmail } from "@/lib/guest";
 
 type Student = { id: string; name: string; email: string };
 
@@ -34,7 +35,9 @@ export function StudentShell({ children, examMode = false }: { children: ReactNo
     };
   }, [pathname, router]);
 
+  const guest = student ? isGuestEmail(student.email) : false;
   const signOut = async () => {
+    if (guest && !window.confirm("Sign out of the guest session? Your guest results can't be recovered afterwards.")) return;
     await api("/api/auth/logout", { method: "POST" }).catch(() => undefined);
     router.replace("/student/login");
   };
@@ -71,13 +74,19 @@ export function StudentShell({ children, examMode = false }: { children: ReactNo
               </span>
               <span className="student-account-name">
                 <strong>{student.name}</strong>
-                <small>{student.email.endsWith("@guest.ourmocks.invalid") ? "Guest session" : student.email}</small>
+                <small>{guest ? "Guest session" : student.email}</small>
               </span>
               <button onClick={signOut} className="student-icon-button">
                 <LogOut size={16} aria-hidden="true" /> Sign out
               </button>
             </div>
           </div>
+        )}
+        {guest && !examMode && (
+          <p className="guest-banner">
+            You&apos;re in a guest session, so your results are lost if you sign out.{" "}
+            <Link href={`/student/login?upgrade=1&next=${encodeURIComponent(pathname)}`}>Create a free account to keep them</Link>
+          </p>
         )}
         {children}
       </main>
