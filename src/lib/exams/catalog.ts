@@ -75,7 +75,7 @@ export const EXAMS: Record<ExamSlug, ExamDefinition> = {
     shortName: "CUET",
     paperPerSubject: true,
     subjects: [...SUBJECT_IDS],
-    plannedTests: 25,
+    plannedTests: 15,
     maxSubjects: 5,
   },
   "iiser-iat": {
@@ -84,7 +84,7 @@ export const EXAMS: Record<ExamSlug, ExamDefinition> = {
     shortName: "IAT",
     paperPerSubject: false,
     subjects: ["biology", "chemistry", "mathematics", "physics"],
-    plannedTests: 35,
+    plannedTests: 25,
   },
   "niser-nest": {
     slug: "niser-nest",
@@ -92,7 +92,7 @@ export const EXAMS: Record<ExamSlug, ExamDefinition> = {
     shortName: "NEST",
     paperPerSubject: false,
     subjects: ["biology", "chemistry", "mathematics", "physics"],
-    plannedTests: 35,
+    plannedTests: 25,
   },
   comedk: {
     slug: "comedk",
@@ -100,7 +100,7 @@ export const EXAMS: Record<ExamSlug, ExamDefinition> = {
     shortName: "COMEDK",
     paperPerSubject: false,
     subjects: ["physics", "chemistry", "mathematics"],
-    plannedTests: 35,
+    plannedTests: 25,
   },
 };
 

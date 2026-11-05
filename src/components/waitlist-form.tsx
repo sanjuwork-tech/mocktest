@@ -17,7 +17,7 @@ const EXAM_OPTIONS = [
   { id: "comedk", label: "COMEDK UGET 2027 mock series" },
   { id: "bundle-cuet-iiser", label: "CUET + IISER Combo Pass" },
   { id: "bundle-science-trio", label: "Science Trio (IISER + NEST + CUET)" },
-  { id: "cuet-ug", label: "CUET UG full series (25 tests per subject)" },
+  { id: "cuet-ug", label: "CUET UG full series (15 tests per subject)" },
 ];
 
 export function WaitlistForm({

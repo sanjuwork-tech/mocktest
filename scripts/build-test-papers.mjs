@@ -2,7 +2,7 @@
 // admin "Upload test paper" screen and `npm run db:import-papers` accept.
 //
 //   node scripts/build-test-papers.mjs              → Test 1 (free) for 12 subjects, from the demo bank (no Chemistry source yet)
-//   node scripts/build-test-papers.mjs --bank       → also Tests 2–25 for 12 subjects, from content/question-bank/cuet
+//   node scripts/build-test-papers.mjs --bank       → also Tests 2–15 for 12 subjects, from content/question-bank/cuet
 //
 // Output: data/test-papers/cuet-ug/<subject>/test-NN.json (data/ is not committed).
 import fs from "node:fs";
@@ -109,6 +109,9 @@ function demoPapers() {
   return [...bySubject].map(([subject, questions]) => write(subject, 1, paper(subject, 1, questions)));
 }
 
+// Matches EXAMS["cuet-ug"].plannedTests; the importer rejects higher test numbers anyway.
+const CUET_TESTS = 15;
+
 function bankPapers() {
   const root = path.join("content", "question-bank", "cuet");
   const manifest = JSON.parse(fs.readFileSync(path.join(root, "manifest.json"), "utf8"));
@@ -116,7 +119,7 @@ function bankPapers() {
   for (const s of manifest.subjects) {
     const subject = s.id === "biological-science" ? "biology" : s.id;
     for (const p of s.papers) {
-      if (p.paperNumber === 1) continue; // Test 1 comes from the corrected demo bank.
+      if (p.paperNumber === 1 || p.paperNumber > CUET_TESTS) continue; // Test 1 comes from the corrected demo bank.
       const data = JSON.parse(fs.readFileSync(path.join(root, s.id, p.file), "utf8"));
       const tag = `t${String(p.paperNumber).padStart(2, "0")}`;
       const questions = data.questions.map((q, i) =>

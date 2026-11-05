@@ -133,13 +133,13 @@ describe("Phase 1: test paper validation", () => {
     const qs = IISER_IAT_2026_BLUEPRINT.sections.flatMap((s) =>
       Array.from({ length: s.questionCount }, (_, i) => question(`${s.subject}-${i}`, s.subject)),
     );
-    const { blueprint, issues } = checkPaper(paper({ exam: "iiser-iat", subject: undefined, testNumber: 35 }, qs));
+    const { blueprint, issues } = checkPaper(paper({ exam: "iiser-iat", subject: undefined, testNumber: 25 }, qs));
     assert.deepEqual(issues, []);
     assert.equal(blueprint.id, "iiser-iat-2026");
   });
 
   it("rejects test numbers beyond the planned series", () => {
-    assert.ok(checkPaper(paper({ testNumber: 26 })).issues.some((i) => i.path === "testNumber"));
+    assert.ok(checkPaper(paper({ testNumber: 16 })).issues.some((i) => i.path === "testNumber"));
   });
 });
 
@@ -155,9 +155,9 @@ describe("Phase 1: catalog and blueprints", () => {
     assert.equal(blueprintFor("cuet-ug", null), undefined);
   });
 
-  it("plans 25 tests per CUET subject and 35 for each other exam", () => {
-    assert.equal(EXAMS["cuet-ug"].plannedTests, 25);
-    for (const exam of ["iiser-iat", "niser-nest", "comedk"]) assert.equal(EXAMS[exam].plannedTests, 35);
+  it("plans 15 tests per CUET subject and 25 for each other exam", () => {
+    assert.equal(EXAMS["cuet-ug"].plannedTests, 15);
+    for (const exam of ["iiser-iat", "niser-nest", "comedk"]) assert.equal(EXAMS[exam].plannedTests, 25);
     assert.equal(SUBJECT_IDS.length, 13);
   });
 

@@ -571,3 +571,49 @@ export const attemptQuestionStatsTable = pgTable(
     check("question_stats_nonnegative", sql`${t.timeMs}>=0 and ${t.visits}>=0 and ${t.changes}>=0`),
   ],
 );
+
+// Expert review of uploaded questions. Publishing does not wait for it; reviews sit beside the live paper.
+// Keyed by revision, so an unchanged question keeps its reviews when a paper is re-uploaded and an edited one
+// starts again. One row per reviewer per revision (the reviewer can change their verdict).
+export const questionReviewsTable = pgTable(
+  "question_reviews",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    revisionId: uuid("revision_id")
+      .references(() => questionRevisionsTable.id)
+      .notNull(),
+    reviewerId: uuid("reviewer_id")
+      .references(() => usersTable.id)
+      .notNull(),
+    verdict: text("verdict").$type<"ok" | "issue">().notNull(),
+    comment: text("comment"),
+    createdAt: created(),
+    updatedAt: instant("updated_at").defaultNow().notNull(),
+  },
+  (t) => [
+    uniqueIndex("question_review_unique").on(t.revisionId, t.reviewerId),
+    check("question_review_verdict_valid", sql`${t.verdict} in ('ok','issue')`),
+    check("question_review_issue_has_comment", sql`${t.verdict} = 'ok' or length(${t.comment}) > 0`),
+  ],
+);
+
+// What students enter into the rank and college predictors. Contact details are stored only with consent.
+export const toolSubmissionsTable = pgTable(
+  "tool_submissions",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    tool: text("tool").notNull(),
+    inputs: jsonb("inputs").notNull(),
+    userId: uuid("user_id").references(() => usersTable.id),
+    email: text("email"),
+    /** "adult" (18+) or "guardian" (a parent or guardian consented); required when email is stored. */
+    consentBasis: text("consent_basis"),
+    consentedAt: instant("consented_at"),
+    createdAt: created(),
+  },
+  (t) => [
+    index("tool_submissions_tool_created_idx").on(t.tool, t.createdAt),
+    check("tool_submission_consent_valid", sql`${t.consentBasis} is null or ${t.consentBasis} in ('adult','guardian')`),
+    check("tool_submission_email_needs_consent", sql`${t.email} is null or ${t.consentedAt} is not null`),
+  ],
+);

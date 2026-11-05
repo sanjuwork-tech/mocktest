@@ -19,7 +19,7 @@ import {
   verifyPassword,
   type AdminRole,
 } from "./security";
-export const ADMIN_COOKIE = "testdisha_session";
+export const ADMIN_COOKIE = "ourmocks_admin";
 export const SESSION_SECONDS = 8 * 60 * 60;
 
 const fallbackAdminSessions = new Map<
@@ -47,7 +47,7 @@ export async function rateLimit(key: string, max: number, seconds: number) {
 export async function login(email: string, password: string) {
   email = normalizeEmail(email);
   const bootstrapEmail = normalizeEmail(
-    process.env.ADMIN_BOOTSTRAP_EMAIL || "admin@testdisha.local",
+    process.env.ADMIN_BOOTSTRAP_EMAIL || "admin@ourmocks.in",
   );
   const bootstrapPassword = process.env.ADMIN_BOOTSTRAP_PASSWORD;
 

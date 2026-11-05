@@ -14,7 +14,7 @@ if (
   throw new Error("Integration tests require local disposable infrastructure.");
 const owner = postgres(process.env.DATABASE_MIGRATION_URL, { max: 1 });
 const run = randomUUID().slice(0, 8),
-  password = "TestDisha-integration-" + run + "!";
+  password = "OurMocks-integration-" + run + "!";
 async function api(
   path,
   { method = "GET", body, cookie, customOrigin = origin } = {},
@@ -65,7 +65,7 @@ test("Phase 1 HTTP and database integration", async (t) => {
         });
         assert.equal(r.status, 200, JSON.stringify(r.body));
         admin = r.cookie;
-        assert.ok(admin.startsWith("testdisha_session="));
+        assert.ok(admin.startsWith("ourmocks_admin="));
         assert.match(r.headers.get("set-cookie"), /HttpOnly/i);
         assert.equal(
           (await api("/api/admin/session", { cookie: admin })).body.user.role,

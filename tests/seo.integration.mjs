@@ -31,7 +31,7 @@ test("public pages expose complete unique HTML, metadata and structured data wit
     assert.equal(actual.pathname, route || "/", route);
     assert.equal((html.match(/<h1\b/g) || []).length, 1, route);
     const title = html.match(/<title>([\s\S]*?)<\/title>/)?.[1];
-    assert.ok(title && (title.includes("OurMocks") || title.includes("TestDisha")), route);
+    assert.ok(title && (title.includes("OurMocks")), route);
     assert.ok(!titles.has(title), "Unique title " + route);
     titles.add(title);
     const meta = html.match(/<meta\b[^>]*>/g) || [];

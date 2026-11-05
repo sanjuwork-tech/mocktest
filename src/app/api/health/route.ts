@@ -3,7 +3,7 @@ import { databaseConfigured, requireDb } from "@/db/client";
 import { json } from "@/server/http";
 export const runtime = "nodejs";
 // The newest table from the latest migration; if it is missing, migrations are behind.
-const LATEST_TABLE = "attempt_question_stats";
+const LATEST_TABLE = "tool_submissions";
 export async function GET() {
   if (!databaseConfigured)
     return json({ status: "unavailable", service: "ourmocks", database: "not_configured" }, 503);

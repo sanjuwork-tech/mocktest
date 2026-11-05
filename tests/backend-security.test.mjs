@@ -41,11 +41,11 @@ test("staff roles and publication permissions are explicit", () => {
 });
 test("origin validation rejects missing and lookalike hosts", () => {
   const old = process.env.APP_ORIGIN;
-  process.env.APP_ORIGIN = "https://app.testdisha.example";
+  process.env.APP_ORIGIN = "https://app.ourmocks.example";
   try {
-    assert.ok(allowedOrigin("https://app.testdisha.example"));
+    assert.ok(allowedOrigin("https://app.ourmocks.example"));
     assert.ok(!allowedOrigin(null));
-    assert.ok(!allowedOrigin("https://app.testdisha.example.evil.test"));
+    assert.ok(!allowedOrigin("https://app.ourmocks.example.evil.test"));
     assert.ok(!allowedOrigin("null"));
   } finally {
     if (old === undefined) delete process.env.APP_ORIGIN;

@@ -29,6 +29,7 @@ try {
     "question_bank", "question_revisions", "question_options", "private_answer_keys",
     "tests", "test_versions", "test_sections", "test_assignments",
     "attempts", "attempt_answers", "attempt_results", "waitlist_entries", "attempt_question_stats",
+    "question_reviews", "tool_submissions",
   ];
   await sql.unsafe(
     `GRANT SELECT, INSERT, UPDATE ON ${readWriteTables.join(", ")} TO "${role}"`,

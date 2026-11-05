@@ -27,7 +27,6 @@ export async function POST(request: Request) {
       maxAge: SESSION_SECONDS,
       expires: session.expiresAt,
     });
-    response.cookies.delete("mockstride_admin");
     return response;
   } catch (e) {
     return apiError(e);
