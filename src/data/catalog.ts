@@ -1,6 +1,14 @@
 import { canonicalSiteUrl } from "../lib/site-url.ts";
+import { EXAMS, type ExamSlug } from "../lib/exams/catalog.ts";
+import {
+  COMEDK_2026_BLUEPRINT,
+  IISER_IAT_2026_BLUEPRINT,
+  NEST_2026_BLUEPRINT,
+  cuetBlueprint,
+} from "../lib/blueprints/definitions.ts";
+import type { ExamBlueprint } from "../lib/blueprints/types.ts";
 
-export type ExamKey = "cuet-ug" | "iiser-iat" | "niser-nest" | "comedk";
+export type ExamKey = ExamSlug;
 
 export type Product = {
   id: string;
@@ -10,9 +18,11 @@ export type Product = {
   subtitle: string;
   description: string;
   price: number;
-  compareAtPrice: number;
+  /** Bundles only: the sum of the single packs they contain. Single packs have none. */
+  compareAtPrice?: number;
   mocks: number;
-  students: string;
+  /** Unused. Kept optional so older database rows still type-check; never show invented student counts. */
+  students?: string;
   color: string;
   accent: string;
   pattern: string;
@@ -20,248 +30,269 @@ export type Product = {
   keywords: string[];
   isBundle?: boolean;
   bundleType?: "single" | "combo" | "all-access";
-  includedExams?: string[];
-  savingsText?: string;
+  includedExams?: ExamKey[];
   badge?: string;
 };
 
-export const products: Product[] = [
-  // ── 1. Individual Exam Series ──────────────────────────────────────────
+/** Fail closed: nothing can be bought unless this is explicitly "true" (Razorpay is not live yet). */
+export const paymentsEnabled = () =>
+  process.env.NEXT_PUBLIC_PAYMENTS_ENABLED === "true";
+
+const CYCLE = 2027;
+const cuet = EXAMS["cuet-ug"];
+const CUET_SUBJECTS_PER_PACK = cuet.maxSubjects ?? 5;
+
+/** Planned tests in each single pack, read from the exam catalog. */
+export const plannedMocks: Record<ExamKey, number> = {
+  "cuet-ug": cuet.plannedTests * CUET_SUBJECTS_PER_PACK,
+  "iiser-iat": EXAMS["iiser-iat"].plannedTests,
+  "niser-nest": EXAMS["niser-nest"].plannedTests,
+  comedk: EXAMS.comedk.plannedTests,
+};
+
+// Pattern lines come from the official-pattern blueprints (sources cited in src/lib/blueprints/definitions.ts).
+const marking = (b: ExamBlueprint) => {
+  const s = b.sections[0];
+  return s.penaltyPerQuestion
+    ? `+${s.marksPerQuestion}/−${s.penaltyPerQuestion}`
+    : `+${s.marksPerQuestion}, no negative marking`;
+};
+const paper = (b: ExamBlueprint) =>
+  `${b.totalQuestions} questions · ${b.durationMinutes} min · ${marking(b)}`;
+const cuetPaper = cuetBlueprint(cuet.subjects[0]);
+
+const commonFeatures = [
+  "NTA-style computer-based test screen",
+  "Time spent on every question",
+  "Section, topic and difficulty analysis",
+  "Worked solutions for every question",
+  "Overall analysis across your tests",
+];
+
+const singles: Product[] = [
   {
-    id: "cuet-complete-2026",
+    id: `cuet-ug-${CYCLE}`,
     slug: "cuet-ug",
     shortName: "CUET UG",
-    title: "CUET UG Complete Test Series 2026",
-    subtitle: "One focused system for every subject you plan to attempt.",
-    description:
-      "Full-length CUET UG mock tests, domain-wise practice across 13 subjects, English Language, General Test, section and topic analysis, and detailed solutions built around the latest NTA pattern.",
+    title: `CUET UG Test Series ${CYCLE}`,
+    subtitle: `Pick any ${CUET_SUBJECTS_PER_PACK} of ${cuet.subjects.length} subjects. ${cuet.plannedTests} full-length tests in each.`,
+    description: `Full-length CUET UG mock tests for the ${CUET_SUBJECTS_PER_PACK} subjects you choose from ${cuet.subjects.length}, including English and the General Aptitude Test. Each paper follows the official NTA pattern and marking, with worked solutions and analysis after every test.`,
     price: 1499,
-    compareAtPrice: 2499,
-    mocks: 45,
-    students: "2,100+",
+    mocks: plannedMocks["cuet-ug"],
     color: "#1F5EFF",
     accent: "#B8FF34",
-    pattern: "Domain + Language + GT",
-    isBundle: false,
+    pattern: `Any ${CUET_SUBJECTS_PER_PACK} subjects · ${cuetPaper.totalQuestions} questions · ${cuetPaper.durationMinutes} min · ${marking(cuetPaper)} per paper`,
     bundleType: "single",
     includedExams: ["cuet-ug"],
     features: [
-      "45 full-length mocks",
-      "13 domain subjects & languages",
-      "NTA-style CBT interface",
-      "In-depth step-by-step solutions",
-      "Per-question pacing analysis",
+      `${cuet.plannedTests} full-length tests in each of your ${CUET_SUBJECTS_PER_PACK} subjects (${plannedMocks["cuet-ug"]} in all)`,
+      "Official CUET UG pattern and marking",
+      ...commonFeatures,
+      "Test 1 free in every subject",
     ],
     keywords: [
-      "CUET UG mock test 2026",
+      `CUET UG mock test ${CYCLE}`,
       "CUET online test series",
       "CUET practice tests",
       "CUET General Test mocks",
     ],
-    badge: "Test 1 Free",
+    badge: "Test 1 free",
   },
   {
-    id: "iat-rank-booster-2026",
+    id: `iiser-iat-${CYCLE}`,
     slug: "iiser-iat",
     shortName: "IISER IAT",
-    title: "IISER IAT Rank Booster 2026",
+    title: `IISER IAT Test Series ${CYCLE}`,
     subtitle: "Build the cross-subject speed IAT rewards.",
-    description:
-      "Research-aptitude mocks across Physics, Chemistry, Mathematics, and Biology with calibrated difficulty and topic-level analysis for admission to 7 IISERs, IISc, and IIT Madras.",
+    description: `${plannedMocks["iiser-iat"]} full-length IISER Aptitude Test mocks across Biology, Chemistry, Mathematics and Physics, on the official IAT pattern and marking, with worked solutions and analysis after every test.`,
     price: 1299,
-    compareAtPrice: 2199,
-    mocks: 30,
-    students: "1,400+",
+    mocks: plannedMocks["iiser-iat"],
     color: "#B8FF34",
     accent: "#071A4D",
-    pattern: "PCMB · 60 questions · 180 mins",
-    isBundle: false,
+    pattern: `PCMB · ${paper(IISER_IAT_2026_BLUEPRINT)}`,
     bundleType: "single",
     includedExams: ["iiser-iat"],
     features: [
-      "30 complete IAT mocks",
-      "Full PCMB coverage (60 Qs, +4/-1)",
-      "Section and topic analysis",
-      "Research aptitude problem sets",
-      "Mistake book & topic gap tracker",
+      `${plannedMocks["iiser-iat"]} full-length IAT mocks`,
+      "Official IAT pattern and marking",
+      ...commonFeatures,
+      "Test 1 free",
     ],
     keywords: [
-      "IISER IAT mock test 2026",
+      `IISER IAT mock test ${CYCLE}`,
       "IAT test series",
       "IISER aptitude test mocks",
       "IAT online practice",
     ],
-    badge: "Coming Soon",
+    badge: "Test 1 free",
   },
   {
-    id: "niser-nest-2026",
+    id: `niser-nest-${CYCLE}`,
     slug: "niser-nest",
     shortName: "NISER NEST",
-    title: "NISER NEST Master Series 2026",
+    title: `NISER NEST Test Series ${CYCLE}`,
     subtitle: "Train for selection-heavy science questions.",
-    description:
-      "NEST mock tests designed for NISER Bhubaneswar and UM-DAE CEBS Mumbai aspirants, with sectional strategy, advanced problem sets, and step-by-step explanations.",
+    description: `${plannedMocks["niser-nest"]} full-length NEST mocks for NISER Bhubaneswar and UM-DAE CEBS Mumbai aspirants, on the official NEST pattern and marking (your best ${NEST_2026_BLUEPRINT.scoringPolicy.bestSections} sections count), with worked solutions and analysis after every test.`,
     price: 999,
-    compareAtPrice: 1699,
-    mocks: 24,
-    students: "680+",
+    mocks: plannedMocks["niser-nest"],
     color: "#FF704D",
     accent: "#071A4D",
-    pattern: "PCMB · selective scoring",
-    isBundle: false,
+    pattern: `PCMB · ${paper(NEST_2026_BLUEPRINT)} · best ${NEST_2026_BLUEPRINT.scoringPolicy.bestSections} sections count`,
     bundleType: "single",
     includedExams: ["niser-nest"],
     features: [
-      "24 full NEST mocks",
-      "Sectional cutoff strategy",
-      "Advanced conceptual problem sets",
-      "Detailed step-by-step solutions",
+      `${plannedMocks["niser-nest"]} full-length NEST mocks`,
+      "Official NEST pattern and marking",
+      ...commonFeatures,
+      "Test 1 free",
     ],
     keywords: [
-      "NISER NEST mock test 2026",
+      `NISER NEST mock test ${CYCLE}`,
       "NEST online test series",
       "NISER entrance mock",
       "NEST practice questions",
     ],
-    badge: "Coming Soon",
+    badge: "Test 1 free",
   },
   {
-    id: "comedk-power-2026",
+    id: `comedk-${CYCLE}`,
     slug: "comedk",
     shortName: "COMEDK",
-    title: "COMEDK UGET Power Pack 2026",
+    title: `COMEDK UGET Test Series ${CYCLE}`,
     subtitle: "Build speed and accuracy across PCM.",
-    description:
-      "Timed COMEDK UGET mocks, high-speed PCM drills, and chapter analytics for Karnataka engineering admissions (RVCE, BMSCE, MSRIT).",
+    description: `${plannedMocks.comedk} full-length COMEDK UGET mocks across Physics, Chemistry and Mathematics, on the official UGET pattern and marking, with worked solutions and analysis after every test.`,
     price: 1199,
-    compareAtPrice: 1999,
-    mocks: 35,
-    students: "910+",
+    mocks: plannedMocks.comedk,
     color: "#071A4D",
     accent: "#B8FF34",
-    pattern: "PCM · 180 questions · No Negative",
-    isBundle: false,
-    badge: "Coming Soon",
+    pattern: `PCM · ${paper(COMEDK_2026_BLUEPRINT)}`,
     bundleType: "single",
     includedExams: ["comedk"],
     features: [
-      "35 full UGET mocks",
-      "High-speed PCM 180-Q drills",
-      "Chapter-wise analytics",
-      "Mistake notebook & speed optimizer",
+      `${plannedMocks.comedk} full-length UGET mocks`,
+      "Official COMEDK UGET pattern and marking",
+      ...commonFeatures,
+      "Test 1 free",
     ],
     keywords: [
-      "COMEDK mock test 2026",
+      `COMEDK mock test ${CYCLE}`,
       "COMEDK UGET test series",
       "COMEDK online mocks",
       "COMEDK PCM practice",
     ],
+    badge: "Test 1 free",
   },
+];
 
-  // ── 2. Multi-Exam Value Bundles ───────────────────────────────────────
-  {
-    id: "bundle-cuet-iiser-2026",
+const single = (exam: ExamKey) => {
+  const found = singles.find((p) => p.slug === exam);
+  if (!found) throw new Error(`No single pack for ${exam}`);
+  return found;
+};
+
+/** A bundle's test count and compare-at price are always the sums of the single packs it contains. */
+function bundle(
+  spec: Omit<Product, "mocks" | "compareAtPrice" | "features" | "isBundle" | "includedExams"> & {
+    includedExams: ExamKey[];
+  },
+): Product {
+  const parts = spec.includedExams.map(single);
+  const mocks = parts.reduce((sum, p) => sum + p.mocks, 0);
+  return {
+    ...spec,
+    isBundle: true,
+    mocks,
+    compareAtPrice: parts.reduce((sum, p) => sum + p.price, 0),
+    features: [
+      `${mocks} full-length mocks: ${parts.map((p) => `${p.shortName} (${p.mocks})`).join(" + ")}`,
+      "Each exam's official pattern and marking",
+      ...commonFeatures,
+      "Test 1 of every included exam is free",
+    ],
+  };
+}
+
+const bundles: Product[] = [
+  bundle({
+    id: `bundle-cuet-iiser-${CYCLE}`,
     slug: "bundle-cuet-iiser",
     shortName: "CUET + IISER",
-    title: "CUET UG + IISER IAT Dual Aspirant Combo",
-    subtitle: "Dual preparation pass for Central Universities and National Research Institutes.",
-    description:
-      "Target both Central Universities (DU, BHU, JNU) and National Research Institutes (7 IISERs, IISc). Includes full domain subject tests, English, General Test, and rigorous PCMB aptitude series with combined analytics.",
+    title: `CUET UG + IISER IAT Combo ${CYCLE}`,
+    subtitle: "One pass for central universities and the IISERs.",
+    description: `The full CUET UG pack (any ${CUET_SUBJECTS_PER_PACK} subjects) and the full IISER IAT series together, each on its own exam's official pattern and marking.`,
     price: 2199,
-    compareAtPrice: 3698,
-    mocks: 75,
-    students: "1,850+",
     color: "#1F5EFF",
     accent: "#B8FF34",
-    pattern: "CUET Domains + IAT PCMB (75 Mocks)",
-    isBundle: true,
+    pattern: `CUET UG (any ${CUET_SUBJECTS_PER_PACK} subjects) + IISER IAT`,
     bundleType: "combo",
     includedExams: ["cuet-ug", "iiser-iat"],
-    savingsText: "Save ₹1,499 (41% OFF)",
-    badge: "Popular Combo",
-    features: [
-      "75 full mock tests across both exams",
-      "All 13 CUET subjects + IISER PCMB",
-      "Section and topic analysis for both exams",
-      "Live dual-timer CBT exam simulator",
-      "12-month unlimited access",
-    ],
+    badge: "Combo",
     keywords: [
       "CUET IISER combo mock test",
       "CUET and IAT test series bundle",
       "IISER CUET mock package",
     ],
-  },
-  {
-    id: "bundle-science-trio-2026",
+  }),
+  bundle({
+    id: `bundle-science-trio-${CYCLE}`,
     slug: "bundle-science-trio",
     shortName: "Science Trio",
-    title: "Pure Science & Research Super Combo (IISER + NEST + CUET Science)",
-    subtitle: "The definitive preparation bundle for India's premier science institutes.",
-    description:
-      "Comprehensive mock test suite covering IISER IAT, NISER NEST, and CUET UG Science (Physics, Chemistry, Mathematics, Biology). Designed for dedicated science researchers aiming for BS-MS and Integrated MSc programs.",
+    title: `Science Trio ${CYCLE}: IISER IAT + NISER NEST + CUET UG`,
+    subtitle: "For students aiming at BS-MS and integrated MSc programmes.",
+    description: `The full IISER IAT and NISER NEST series plus the CUET UG pack (any ${CUET_SUBJECTS_PER_PACK} subjects, for example Physics, Chemistry, Mathematics, Biology and English), each on its own exam's official pattern and marking.`,
     price: 2699,
-    compareAtPrice: 4197,
-    mocks: 99,
-    students: "920+",
     color: "#6366F1",
     accent: "#38BDF8",
-    pattern: "IISER + NEST + CUET Science (99 Mocks)",
-    isBundle: true,
+    pattern: `IISER IAT + NISER NEST + CUET UG (any ${CUET_SUBJECTS_PER_PACK} subjects)`,
     bundleType: "combo",
     includedExams: ["iiser-iat", "niser-nest", "cuet-ug"],
-    savingsText: "Save ₹1,498 (36% OFF)",
-    badge: "Research Focus",
-    features: [
-      "99 full-length mock tests across 3 exams",
-      "Complete PCMB calibrated difficulty",
-      "IISER + NISER + Central University cutoffs",
-      "Weak-topic diagnostic radar analysis",
-      "Valid for complete 2026–2027 admission cycle (until counselling conclusion)",
-    ],
+    badge: "Combo",
     keywords: [
       "IISER NEST CUET science bundle",
       "pure science mock test series",
       "research entrance mock bundle",
     ],
-  },
-  {
-    id: "bundle-all-access-2026",
+  }),
+  bundle({
+    id: `bundle-all-access-${CYCLE}`,
     slug: "bundle-all-access",
     shortName: "All-Access Pass",
-    title: "OurMocks All-Access Super Pass (2026–2027 Cycle)",
-    subtitle: "Every mock test, every subject, every exam series in one unlimited pass.",
-    description:
-      "The ultimate all-inclusive preparation pass. Unlocks complete mock series for CUET UG (13 subjects), IISER IAT, NISER NEST, and COMEDK UGET. Take any test anytime, benchmark your scores, and keep all your college options open.",
+    title: `All-Access Pass ${CYCLE}: CUET UG, IAT, NEST and COMEDK`,
+    subtitle: "All four of our test series in one pass.",
+    description: `The CUET UG pack (any ${CUET_SUBJECTS_PER_PACK} subjects) plus the full IISER IAT, NISER NEST and COMEDK UGET series, each on its own exam's official pattern and marking.`,
     price: 3499,
-    compareAtPrice: 5996,
-    mocks: 134,
-    students: "3,400+",
     color: "#0F172A",
     accent: "#B8FF34",
-    pattern: "All 4 Exams · 134 Mocks · All Subjects",
-    isBundle: true,
+    pattern: `All 4 exams · CUET UG (any ${CUET_SUBJECTS_PER_PACK} subjects) + IAT + NEST + COMEDK`,
     bundleType: "all-access",
     includedExams: ["cuet-ug", "iiser-iat", "niser-nest", "comedk"],
-    savingsText: "Save ₹2,497 (42% OFF)",
-    badge: "Best Value Pass",
-    features: [
-      "134 full-length mock tests across all 4 exams",
-      "Complete access to all 13 CUET domains & PCMB",
-      "Engineering, Research & Central University routes",
-      "Unified cross-exam performance dashboard",
-      "Priority solution walkthroughs & updates",
-    ],
+    badge: "All 4 exams",
     keywords: [
       "OurMocks all access pass",
       "all entrance exams test series bundle",
-      "CUET IAT NEST COMEDK mega pack",
+      "CUET IAT NEST COMEDK mock tests",
     ],
-  },
+  }),
 ];
+
+export const products: Product[] = [...singles, ...bundles];
+
+/** What a bundle saves against buying its single packs separately; null for single packs. */
+export function bundleSaving(product: Product) {
+  if (!product.isBundle || !product.compareAtPrice || product.compareAtPrice <= product.price)
+    return null;
+  const amount = product.compareAtPrice - product.price;
+  return { amount, percent: Math.floor((amount / product.compareAtPrice) * 100) };
+}
 
 export const productBySlug = (slug: string) =>
   products.find((product) => product.slug === slug);
+
+/** Where "Take free Test 1" goes: the exam's own tab, or the free-tests page for bundles. */
+export const freeTestHref = (product: Product) =>
+  product.isBundle ? "/free-diagnostic" : `/free-diagnostic?exam=${product.slug}`;
+
+export const formatRupees = (n: number) => `₹${n.toLocaleString("en-IN")}`;
 
 export const siteConfig = {
   name: "OurMocks",

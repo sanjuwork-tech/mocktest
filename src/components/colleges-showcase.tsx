@@ -5,6 +5,8 @@ import Image from "next/image";
 import { ExternalLink, MapPin } from "lucide-react";
 import { collegesData, COLLEGES_CHECKED_ON, NIRF_SOURCE } from "@/data/colleges";
 import type { ExamKey } from "@/data/catalog";
+import "./guide-page.css";
+import "./colleges-showcase.css";
 
 type Props = {
   examSlug?: ExamKey;
@@ -20,6 +22,14 @@ const FILTERS: { id: "all" | ExamKey; label: string }[] = [
   { id: "niser-nest", label: "NEST" },
   { id: "comedk", label: "COMEDK" },
 ];
+
+// Same format as formatReviewDate in src/data/exams.ts, kept local so this client component doesn't bundle the exam guides.
+const checkedLabel = new Date(`${COLLEGES_CHECKED_ON}T00:00:00+05:30`).toLocaleDateString("en-IN", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "Asia/Kolkata",
+});
 
 const EXAM_LABEL: Record<ExamKey, string> = {
   "cuet-ug": "CUET UG",
@@ -50,7 +60,7 @@ export function CollegesShowcase({
       {!examSlug && showFilters && (
         <div className="college-filters" role="group" aria-label="Filter by exam">
           {FILTERS.map((f) => (
-            <button key={f.id} aria-pressed={selected === f.id} onClick={() => setSelected(f.id)}>
+            <button key={f.id} type="button" aria-pressed={selected === f.id} onClick={() => setSelected(f.id)}>
               {f.label}
             </button>
           ))}
@@ -116,13 +126,13 @@ export function CollegesShowcase({
           </li>
         ))}
       </ul>
-      <p className="review-note">
+      <p className="gp-note">
         Rankings: official{" "}
         <a href={NIRF_SOURCE.url} target="_blank" rel="noopener noreferrer">
           {NIRF_SOURCE.label}
         </a>{" "}
         (the latest edition published). Seats: official 2026 admission bulletins. Checked{" "}
-        <time dateTime={COLLEGES_CHECKED_ON}>27 October 2026</time>. Always confirm programmes and eligibility on the
+        <time dateTime={COLLEGES_CHECKED_ON}>{checkedLabel}</time>. Always confirm programmes and eligibility on the
         institute&apos;s own website.
       </p>
     </section>

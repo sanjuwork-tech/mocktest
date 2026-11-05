@@ -1,0 +1,278 @@
+/* JEE Main rank and college predictors. Prefix: jeep- */
+.jeep-disclaimer {
+  margin-top: 16px;
+  max-width: 720px;
+  border-left: 3px solid var(--coral);
+  padding: 8px 12px;
+  background: white;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.jeep-body {
+  padding-bottom: 72px;
+}
+.jeep-card {
+  margin-top: 32px;
+  border: 1px solid #d6dcea;
+  border-radius: 20px;
+  background: white;
+  padding: 24px;
+}
+.jeep-card h2,
+.jeep-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.jeep-section {
+  margin-top: 48px;
+  max-width: 820px;
+}
+.jeep-section h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0 8px;
+}
+.jeep-section p,
+.jeep-results p,
+.jeep-list li {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #2c3a57;
+}
+.jeep-section p + p {
+  margin-top: 12px;
+}
+.jeep-list {
+  list-style: disc;
+  padding-left: 22px;
+  display: grid;
+  gap: 8px;
+}
+ol.jeep-list {
+  list-style: decimal;
+}
+.jeep-small {
+  font-size: 13px !important;
+  line-height: 1.6;
+  color: #4a5876 !important;
+  margin-top: 6px;
+}
+.jeep-form {
+  display: grid;
+  gap: 10px;
+  max-width: 820px;
+}
+.jeep-form label,
+.jeep-signup label,
+.jeep-form legend,
+.jeep-signup legend {
+  font-size: 14px;
+  font-weight: 600;
+}
+.jeep-form input[type="number"],
+.jeep-form select,
+.jeep-signup input[type="email"] {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 6px;
+  border: 1px solid #9aa5bd;
+  border-radius: 12px;
+  background: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: var(--navy);
+}
+.jeep-form fieldset,
+.jeep-signup fieldset {
+  display: grid;
+  gap: 4px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.jeep-form fieldset label,
+.jeep-signup fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  font-weight: 500;
+}
+.jeep-form input[type="radio"],
+.jeep-signup input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--blue);
+}
+.jeep-form :focus-visible,
+.jeep-signup :focus-visible,
+.jeep-band summary:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+.jeep-form .button-primary {
+  justify-self: start;
+  margin-top: 8px;
+}
+.jeep-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 24px;
+}
+.jeep-results {
+  border-color: var(--blue);
+  scroll-margin-top: 110px;
+}
+.jeep-big {
+  font-size: 18px !important;
+}
+.jeep-big strong {
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--navy);
+}
+.jeep-big span {
+  font-weight: 600;
+}
+.jeep-formula {
+  margin-top: 14px !important;
+  border-radius: 12px;
+  background: var(--mist);
+  padding: 14px 16px;
+  font-family: var(--font-mono), monospace;
+  font-size: 14px !important;
+}
+.jeep-table-wrap {
+  overflow-x: auto;
+}
+.jeep-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.jeep-table caption {
+  text-align: left;
+  font-size: 13px;
+  color: #4a5876;
+  padding-bottom: 8px;
+}
+.jeep-table th,
+.jeep-table td {
+  border-bottom: 1px solid #e3e8f2;
+  padding: 10px 8px;
+  text-align: left;
+}
+.jeep-band {
+  margin-top: 18px;
+  border-top: 1px solid #e3e8f2;
+  padding-top: 12px;
+}
+.jeep-band summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+.jeep-band summary::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 99px;
+  background: var(--lime);
+  border: 1px solid var(--navy);
+}
+.jeep-band-borderline summary::before {
+  background: var(--blue);
+}
+.jeep-band-reach summary::before {
+  background: var(--coral);
+}
+.jeep-band summary span {
+  font-weight: 500;
+  color: #4a5876;
+}
+.jeep-results-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+.jeep-results-list li {
+  border: 1px solid #e3e8f2;
+  border-radius: 14px;
+  padding: 12px 14px;
+  overflow-wrap: anywhere;
+}
+.jeep-inst {
+  font-weight: 700;
+  color: var(--navy) !important;
+}
+.jeep-tag {
+  display: inline-block;
+  margin-left: 6px;
+  border-radius: 99px;
+  background: var(--mist);
+  padding: 1px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.jeep-prog {
+  font-size: 14px !important;
+}
+.jeep-meta {
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+  color: #4a5876 !important;
+}
+.jeep-warn {
+  color: #8a3a22 !important;
+}
+.jeep-signup {
+  display: grid;
+  gap: 8px;
+  margin-top: 28px;
+  max-width: 520px;
+  border-radius: 16px;
+  background: var(--paper);
+  padding: 18px;
+}
+.jeep-signup h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.jeep-signup .button-secondary {
+  justify-self: start;
+}
+.jeep-signup a,
+.jeep-form .jeep-small a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.jeep-related ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 12px;
+}
+.jeep-related ul .text-link {
+  min-height: 44px;
+}
+.jeep-cta .button-primary {
+  margin-top: 16px;
+}
+@media (max-width: 720px) {
+  .jeep-grid {
+    grid-template-columns: 1fr;
+  }
+  .jeep-card {
+    padding: 18px;
+  }
+  .jeep-big strong {
+    font-size: 34px;
+  }
+}

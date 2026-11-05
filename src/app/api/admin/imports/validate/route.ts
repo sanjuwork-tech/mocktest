@@ -13,7 +13,7 @@ const MAX_FILE_SIZE = 5 * 1024 * 1024;
 export async function POST(request: Request) {
   try {
     requireOrigin(request);
-    const admin = await requireAdmin(["admin", "reviewer", "editor"]);
+    const admin = await requireAdmin(["admin", "editor"]);
 
     // Clone the request stream since we need the raw bytes for the checksum and the parsed JSON.
     // However, readJson handles the parsing and limits. We can just stringify it back for the checksum.

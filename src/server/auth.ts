@@ -164,8 +164,9 @@ export async function currentAdmin() {
     ? { ...entry, role: entry.role as AdminRole }
     : null;
 }
+// Reviewers (external experts) are review-only, so they must be named explicitly by the routes that allow them.
 export async function requireAdmin(
-  roles: AdminRole[] = ["admin", "reviewer", "editor"],
+  roles: AdminRole[] = ["admin", "editor"],
 ) {
   const user = await currentAdmin();
   if (!user) throw new ApiError(401, "Sign in to continue.");

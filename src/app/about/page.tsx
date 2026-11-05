@@ -1,6 +1,9 @@
 import { pageMetadata } from "@/lib/page-metadata";
 import Link from "next/link";
 import { ExpertReview } from "@/components/expert-review";
+import { siteConfig } from "@/data/catalog";
+import { GRIEVANCE_ROLE } from "../privacy/legal";
+import "../privacy/legal.css";
 export const metadata = pageMetadata(
   "Our purpose",
   "OurMocks helps students discover more opportunities after Class 12 through clear exam information and official sources.",
@@ -73,28 +76,51 @@ export default function AboutPage() {
             linked service provider.
           </p>
         </section>
-        <section id="grievance">
-          <h2>Student Support & Grievance Redressal</h2>
+        <section id="grievance" className="legal-copy" aria-labelledby="grievance-title">
+          {/* DPDP Act 2023 s.8(9), s.8(10), s.13; DPDP Rules 2025 rules 9 and 14(3) (90-day ceiling); IT Rules 2021
+              rule 3(2) (24 h / 7 days) followed as good practice. Sources in src/app/privacy/legal.ts. */}
+          <h2 id="grievance-title">Questions, complaints and grievances</h2>
           <p>
-            In compliance with applicable guidelines and to ensure high standards of educational integrity, OurMocks maintains an active student query and grievance redressal channel.
+            If something is wrong — a question with a wrong answer, a problem with your account, a payment, or how
+            we handle your personal data — please tell us. Students and parents can both write to us.
           </p>
-          <div style={{ background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "12px", padding: "20px", marginTop: "16px" }}>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, margin: "0 0 10px 0", color: "#0f172a" }}>
-              Support & Academic Inquiries
-            </h3>
-            <p style={{ margin: "0 0 8px 0", fontSize: "14px", color: "#334155" }}>
-              <strong>Support Email:</strong> support@ourmocks.com
+          <div className="legal-callout">
+            <p>
+              <strong>{GRIEVANCE_ROLE}</strong>
+              <br />
+              Email: <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
             </p>
-            <p style={{ margin: "0 0 8px 0", fontSize: "14px", color: "#334155" }}>
-              <strong>Response Time Commitment:</strong> We aim to acknowledge and resolve all student inquiries within <strong>48 hours</strong> on business days.
-            </p>
-            <p style={{ margin: "0 0 8px 0", fontSize: "14px", color: "#334155" }}>
-              <strong>Grievance Officer:</strong> Academic & Compliance Operations, OurMocks Platform.
-            </p>
-            <p style={{ margin: 0, fontSize: "13px", color: "#64748b" }}>
-              For questions concerning test questions, account security, or data deletion requests under our Privacy Policy, write to our support desk with your registered email and student ID.
+            <p>
+              This officer answers questions about how OurMocks processes personal data and handles complaints.
             </p>
           </div>
+          <h3>How to raise a complaint</h3>
+          <ol>
+            <li>Email us from the address on your account (parents: from the email given at sign-up), with “Grievance” in the subject.</li>
+            <li>Tell us what happened, when, and what you would like us to do. For a test question, give the test name and question number.</li>
+            <li>We may ask a question to confirm it is you before we share or change any account data.</li>
+          </ol>
+          <h3>How quickly we respond</h3>
+          <ul>
+            <li>We acknowledge every complaint within 24 hours.</li>
+            <li>We aim to resolve it within 7 days, and tell you the outcome and our reasons.</li>
+            <li>Requests to see, correct or delete personal data, and complaints about personal data, are always settled within 90 days at most, the limit set by rule 14(3) of the DPDP Rules, 2025.</li>
+          </ul>
+          <h3>If you are not satisfied</h3>
+          <p>
+            For complaints about personal data, you can go to the Data Protection Board of India after you have
+            first raised the complaint with us (section 13(3) of the Digital Personal Data Protection Act, 2023).
+            The Board is designed to take complaints online through its own portal; check the{" "}
+            <a href="https://www.meity.gov.in/" rel="noopener noreferrer" target="_blank">
+              Ministry of Electronics and IT website
+            </a>{" "}
+            for how to reach it. Appeals against the Board’s decisions go to the Telecom Disputes Settlement
+            and Appellate Tribunal. For other complaints, you keep any rights you have under Indian consumer law.
+          </p>
+          <p>
+            How to use your data rights is explained in our{" "}
+            <Link href="/privacy#rights" className="text-link">Privacy Policy</Link>.
+          </p>
         </section>
       </div>
     </main>

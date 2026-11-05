@@ -1,11 +1,20 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight, BookOpenCheck, CheckCircle2 } from "lucide-react";
-import { products, siteConfig } from "@/data/catalog";
+import {
+  bundleSaving,
+  formatRupees,
+  freeTestHref,
+  paymentsEnabled,
+  products,
+  siteConfig,
+} from "@/data/catalog";
 import { exams } from "@/data/exams";
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
 import { CheckoutButton } from "@/components/CheckoutButton";
+import { WaitlistForm } from "@/components/waitlist-form";
+import "../test-series.css";
 
 export const dynamicParams = false;
 export const revalidate = 86400;
@@ -37,25 +46,36 @@ export default async function TestSeriesDetailPage({ params }: Props) {
   const otherProducts = products.filter((p) => p.slug !== slug);
   const url = `${siteConfig.url}/test-series/${slug}`;
 
+  const open = paymentsEnabled();
+  const saving = bundleSaving(product);
+  const parts = (product.includedExams ?? [])
+    .map((exam) => products.find((p) => p.slug === exam && !p.isBundle))
+    .filter((p) => p !== undefined);
+
   const faqs = [
     {
       q: `How many mock tests are included in the ${product.shortName} series?`,
-      a: `The ${product.title} includes ${product.mocks} full-length mock tests designed around the latest exam pattern.`,
+      a: product.isBundle
+        ? `${product.mocks} full-length mock tests: ${parts.map((p) => `${p.mocks} for ${p.shortName}`).join(", ")}.`
+        : `${product.mocks} full-length mock tests. ${product.features[0]}.`,
     },
     {
-      q: `What subjects does the ${product.shortName} series cover?`,
-      a: `The series covers ${product.pattern}, with detailed analytics and solutions for each subject area.`,
+      q: `What pattern do the ${product.shortName} mocks follow?`,
+      a: `${product.pattern}. Each mock is scored with the exam's official marking, and after every test you get worked solutions, time spent per question, and section, topic and difficulty analysis.`,
     },
     {
-      q: `What is the price of the ${product.shortName} mock test series?`,
-      a: `The proposed price is ₹${product.price.toLocaleString("en-IN")}. Final pricing will be confirmed before enrolment opens.`,
+      q: `What is the price of the ${product.shortName} series?`,
+      a: saving && product.compareAtPrice
+        ? `${open ? "The price is" : "The planned price is"} ${formatRupees(product.price)}. Bought separately, the included packs cost ${formatRupees(product.compareAtPrice)}, so the bundle saves ${formatRupees(saving.amount)}.${open ? "" : " Price and access details are confirmed when enrolment opens."}`
+        : `${open ? "The price is" : "The planned price is"} ${formatRupees(product.price)}.${open ? "" : " Price and access details are confirmed when enrolment opens."}`,
     },
     {
-      q: `Can I try a free mock test before purchasing?`,
-      a:
-        product.slug === "cuet-ug"
-          ? "Yes. Test 1 is free in 12 CUET subjects — sign up and take it on the official pattern before deciding."
-          : "Not yet. This series is in preparation; join the waitlist and we'll tell you when the first tests open.",
+      q: "Can I try a free mock test first?",
+      a: "Yes. Test 1 of every exam, and of every CUET subject, is free: a full-length test on the official pattern with the same analysis as paid tests. If Test 1 for your exam isn't open yet, the free tests page lets you ask to be notified.",
+    },
+    {
+      q: "Can I get a refund?",
+      a: "Our refund and cancellation policy explains when a refund is possible and how to ask for one. It applies from when paid enrolment opens.",
     },
   ];
 
@@ -170,8 +190,8 @@ export default async function TestSeriesDetailPage({ params }: Props) {
           </div>
         </div>
 
-        <div className="home-mock-grid" style={{ maxWidth: 640 }}>
-          <article className={`home-mock-card theme-${product.slug}`}>
+        <div className="home-mock-grid ts-enrol-card">
+          <article className={`home-mock-card theme-${product.slug}${product.isBundle ? " tc-bundle" : ""}`}>
             <span className="card-category">{product.shortName}</span>
             <h3>{product.mocks} planned mocks</h3>
             <p className="home-mock-pattern">{product.pattern}</p>
@@ -183,27 +203,63 @@ export default async function TestSeriesDetailPage({ params }: Props) {
               ))}
             </ul>
             <div className="home-mock-price">
-              <span>Price</span>
-              <strong>₹{product.price.toLocaleString("en-IN")}</strong>
+              <span>{open ? "Price" : "Planned price"}</span>
+              <strong>{formatRupees(product.price)}</strong>
             </div>
-            {product.compareAtPrice > product.price && (
-              <p className="review-note" style={{ marginTop: "0.5rem" }}>
-                Compared at ₹{product.compareAtPrice.toLocaleString("en-IN")}
+            {saving && product.compareAtPrice && (
+              <p className="ts-compare">
+                Bought separately: <s>{formatRupees(product.compareAtPrice)}</s>.{" "}
+                <strong>
+                  You save {formatRupees(saving.amount)} ({saving.percent}%).
+                </strong>
               </p>
             )}
-            <div style={{ marginTop: "1.5rem" }}>
-              <CheckoutButton 
-                productSlug={product.slug}
-                priceMinor={product.price * 100}
-              />
+            <div className="ts-actions">
+              {open ? (
+                <CheckoutButton
+                  productSlug={product.slug}
+                  productName={product.title}
+                  priceMinor={product.price * 100}
+                />
+              ) : (
+                <p className="ts-status">
+                  <strong>Enrolment opens soon</strong>
+                  Paid enrolment hasn&apos;t opened yet. Price and access details
+                  are confirmed when it opens.
+                </p>
+              )}
+              <Link
+                href={freeTestHref(product)}
+                className={open ? "button-secondary" : "button-primary"}
+              >
+                Take free Test 1 <ArrowRight size={16} aria-hidden="true" />
+              </Link>
+              {!open && (
+                <a href="#waitlist" className="text-link">
+                  Tell me when enrolment opens
+                </a>
+              )}
             </div>
           </article>
         </div>
 
-        <p className="review-note" style={{ marginTop: "2rem" }}>
-          Planned offering · Prices, inclusions, test counts and access dates
-          are subject to confirmation. Enrolment is not yet open.
+        <p className="review-note ts-note">
+          See our{" "}
+          <Link href="/refund-policy" className="text-link">
+            refund and cancellation policy
+          </Link>
+          . OurMocks is independent and not affiliated with NTA, IISER, NISER or
+          COMEDK.
         </p>
+        {!open && (
+          <WaitlistForm
+            // The waitlist calls the all-access bundle "all-access".
+            defaultExam={product.slug === "bundle-all-access" ? "all-access" : product.slug}
+            headline="Get told when enrolment opens"
+            subheadline={`Leave your email and we'll tell you when paid enrolment opens for ${product.shortName}.`}
+            source="test_series_detail"
+          />
+        )}
       </section>
 
       <section className="how-section">
@@ -220,19 +276,19 @@ export default async function TestSeriesDetailPage({ params }: Props) {
                 Icon: BookOpenCheck,
                 number: "01",
                 title: "Take a timed mock",
-                copy: `Full-length ${product.shortName} mocks matching the latest exam pattern, so you practise the way you'll sit the real test.`,
+                copy: `Full-length ${product.shortName} mocks on the official pattern, timing and marking, on an NTA-style test screen.`,
               },
               {
                 Icon: CheckCircle2,
                 number: "02",
                 title: "Review your answers",
-                copy: "Detailed solutions and topic-level analytics help you understand where you went right and where to improve.",
+                copy: "Worked solutions for every question, with time spent per question and section, topic and difficulty analysis.",
               },
               {
                 Icon: ArrowUpRight,
                 number: "03",
-                title: "Track your progress",
-                copy: "See accuracy and speed trends across attempts so you know exactly what to revise before exam day.",
+                title: "See your overall picture",
+                copy: "Overall analysis across your tests shows which topics keep costing you marks, so you know what to revise next.",
               },
             ].map(({ Icon, number, title, copy }) => (
               <article key={number}>

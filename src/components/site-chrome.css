@@ -1,0 +1,199 @@
+/* Site header and footer. Prefixes: sh- (header), sf- (footer). */
+
+/* ---------- Header ---------- */
+.sh-menu {
+  position: relative;
+}
+.sh-menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.sh-menu-toggle svg {
+  transition: transform 150ms var(--ease-out, ease-out);
+}
+.sh-menu-toggle[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+.sh-menu-toggle[data-active] {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+@media (hover: hover) and (pointer: fine) {
+  .sh-menu-toggle:hover {
+    color: var(--blue);
+  }
+}
+.sh-menu-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: -16px;
+  z-index: 100;
+  display: grid;
+  gap: 4px;
+  width: 340px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 12px 32px rgb(7 26 77 / 0.08);
+}
+.sh-menu-panel[hidden] {
+  display: none;
+}
+.desktop-nav .sh-menu-panel a {
+  display: grid;
+  gap: 2px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--navy);
+}
+.desktop-nav .sh-menu-panel a strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+.desktop-nav .sh-menu-panel a span {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+.desktop-nav .sh-menu-panel a[aria-current] {
+  background: var(--mist);
+  text-decoration: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .desktop-nav .sh-menu-panel a:hover {
+    background: var(--paper);
+    text-decoration: none;
+  }
+  .desktop-nav .sh-menu-panel a:hover strong {
+    color: var(--blue-ink);
+  }
+}
+.desktop-nav a.sh-cta,
+.sh-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+.desktop-nav a.sh-cta:hover,
+.desktop-nav a.sh-cta[aria-current] {
+  background: var(--blue);
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .sh-nav {
+    gap: 18px;
+  }
+}
+
+/* Mobile drawer */
+.sh-mobile {
+  max-height: calc(100dvh - 140px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.mobile-nav .sh-mobile a {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 10px 0;
+}
+.mobile-nav .sh-mobile a[aria-current] {
+  color: var(--blue-ink);
+  font-weight: 700;
+}
+.mobile-nav .sh-mobile a.sh-mobile-cta {
+  justify-content: center;
+  margin-bottom: 8px;
+  padding: 12px 18px;
+  color: white;
+}
+.sh-mobile-label {
+  margin-top: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.sh-mobile-group {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.mobile-nav .sh-mobile-group a {
+  padding-left: 12px;
+  font-size: 15px;
+}
+
+/* ---------- Footer ---------- */
+.sf-about {
+  margin-top: 20px;
+  max-width: 24rem;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink-2);
+}
+.footer-grid.sf-grid {
+  grid-template-columns: 1.4fr repeat(3, 1fr);
+  gap: 32px;
+}
+.sf-grid nav a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+.sf-grid nav a:hover {
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.sf-disclaimer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  max-width: 90ch;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+@media (max-width: 1023px) {
+  .footer-grid.sf-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-grid.sf-grid > div:first-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 479px) {
+  .footer-grid.sf-grid {
+    gap: 8px 16px;
+  }
+  .sf-grid nav a {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,50 @@
+/* Sign-up age and consent choices in the student auth form. */
+.consent-fieldset {
+  display: grid;
+  gap: 8px;
+  border: 1px solid #d8dfeb;
+  border-radius: 10px;
+  padding: 12px 14px 14px;
+  margin: 0;
+  min-width: 0;
+}
+.consent-fieldset legend {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 6px;
+  color: var(--navy);
+}
+.student-login-card label.consent-choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 44px;
+  padding-block: 8px;
+  font-weight: 400;
+  line-height: 1.45;
+  cursor: pointer;
+}
+.consent-choice input {
+  width: 20px;
+  height: 20px;
+  margin: 1px 0 0;
+  flex-shrink: 0;
+  accent-color: var(--blue);
+}
+.consent-choice input:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+.consent-choice a,
+.consent-guardian a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+.consent-guardian small {
+  font-weight: 400;
+  color: #53617c;
+  line-height: 1.5;
+}
+.consent-terms {
+  font-size: 14px;
+}

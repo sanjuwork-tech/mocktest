@@ -1,12 +1,14 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, ArrowUpRight, Calendar, CheckCircle2, Clock } from "lucide-react";
+import { ArrowRight, ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
 import { blogPosts, getBlogPost } from "@/data/blog";
 import { siteConfig } from "@/data/catalog";
 import { exams } from "@/data/exams";
 import { SocialShare } from "@/components/social-share";
+import "@/components/guide-page.css";
+import "../blog.css";
 
 export const dynamicParams = false;
 
@@ -48,7 +50,7 @@ export default async function BlogPostPage({ params }: Props) {
   );
 
   return (
-    <main id="main-content" tabIndex={-1} className="page-shell section-space">
+    <main id="main-content" tabIndex={-1} className="page-shell blog-post-page">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -97,25 +99,26 @@ export default async function BlogPostPage({ params }: Props) {
       />
 
       <article className="blog-article">
-        <Link href="/blog" className="text-link blog-back">
-          <ArrowLeft size={15} /> All guides
-        </Link>
+        <nav aria-label="Breadcrumb" className="exam-breadcrumb">
+          <Link href="/">Home</Link>
+          <span aria-hidden="true">/</span>
+          <Link href="/blog">Guides</Link>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page" className="blog-crumb-current">
+            {post.title}
+          </span>
+        </nav>
 
-        <div className="blog-meta">
+        <p className="blog-card-tags">
           <span className="blog-badge">{post.badge}</span>
-          <span>
-            <Calendar size={13} aria-hidden="true" /> Updated{" "}
-            <time dateTime={post.updatedDate}>{formatDate(post.updatedDate)}</time>
-          </span>
-          <span>
-            <Clock size={13} aria-hidden="true" /> {post.readTime}
-          </span>
-        </div>
+          <span>{post.category}</span>
+        </p>
 
         <h1>{post.title}</h1>
         <p className="blog-lede">{post.subtitle}</p>
         <p className="blog-byline">
-          {post.author} · {post.authorRole}
+          {post.author} · Updated <time dateTime={post.updatedDate}>{formatDate(post.updatedDate)}</time> ·{" "}
+          {post.readTime}
         </p>
 
         <section className="blog-summary" aria-labelledby="summary-title">
@@ -171,8 +174,8 @@ export default async function BlogPostPage({ params }: Props) {
               ))}
             </ul>
             <p>
-              Published <time dateTime={post.publishedDate}>{formatDate(post.publishedDate)}</time>. Exam rules change
-              between cycles — the official bulletin always takes precedence.
+              Published <time dateTime={post.publishedDate}>{formatDate(post.publishedDate)}</time>.{" "}
+              {post.authorRole}. Exam rules change between cycles, and the official bulletin always takes precedence.
             </p>
           </section>
         </div>

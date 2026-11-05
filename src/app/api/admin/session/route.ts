@@ -3,7 +3,7 @@ import { apiError, json } from "@/server/http";
 export const runtime = "nodejs";
 export async function GET() {
   try {
-    const user = await requireAdmin();
+    const user = await requireAdmin(["admin", "editor", "reviewer"]);
     return json({ user });
   } catch (e) {
     return apiError(e);

@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { ArrowRight } from "lucide-react";
 import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/data/catalog";
 import type { ExamGuide } from "@/data/exams";
+import "./guide-page.css";
+import "./exam-subpage.css";
 
 /** Shared frame for an exam's sub-pages (syllabus, previous papers): breadcrumb, schema and sibling links. */
 export function ExamSubpage({
@@ -68,7 +71,7 @@ export function ExamSubpage({
         <nav className="related-exam-links" aria-label={`More on ${exam.name}`}>
           {siblings.map((link) => (
             <Link key={link.href} className="text-link" href={link.href}>
-              {link.label} →
+              {link.label} <ArrowRight size={16} aria-hidden="true" />
             </Link>
           ))}
         </nav>

@@ -15,7 +15,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> },
 ) {
   try {
-    await requireAdmin();
+    await requireAdmin(["admin", "editor"]);
     const { id } = await params;
     const db = requireDb();
 

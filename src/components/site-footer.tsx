@@ -1,77 +1,79 @@
 import Link from "next/link";
 import { Logo } from "@/components/logo";
+import { exams } from "@/data/exams";
+import "./site-chrome.css";
+
+const COLUMNS: { title: string; links: [label: string, href: string][] }[] = [
+  {
+    title: "Exams",
+    links: [
+      ["All exam guides", "/exams"],
+      ...exams.map((exam): [string, string] => [exam.name, `/exams/${exam.slug}`]),
+      ["Free Test 1", "/free-diagnostic"],
+      ["Test series", "/test-series"],
+    ],
+  },
+  {
+    title: "After Class 12",
+    links: [
+      ["Exams after Class 12", "/exams/after-class-12"],
+      ["Compare the four exams", "/exams/compare"],
+      ["Eligibility checker", "/exams/eligibility"],
+      ["Colleges by exam", "/colleges"],
+      ["Guides", "/blog"],
+    ],
+  },
+  {
+    title: "Free tools",
+    links: [
+      ["All free tools", "/tools"],
+      ["Score calculator", "/tools/score-calculator"],
+      ["JEE Main rank predictor", "/tools/jee-main-rank-predictor"],
+      ["JEE Main college predictor", "/tools/jee-main-college-predictor"],
+      ["NEET rank predictor", "/tools/neet-rank-predictor"],
+      ["NEET college predictor", "/tools/neet-college-predictor"],
+    ],
+  },
+  {
+    title: "About and policies",
+    links: [
+      ["About OurMocks", "/about"],
+      ["Grievance and support", "/about#grievance"],
+      ["Privacy Policy", "/privacy"],
+      ["Terms of Service", "/terms"],
+      ["Refund and Cancellation Policy", "/refund-policy"],
+    ],
+  },
+];
 
 export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="page-shell">
-        <div className="footer-grid">
+        <div className="footer-grid sf-grid">
           <div>
             <Logo />
-            <p className="mt-5 max-w-sm text-sm leading-7 text-navy/80">
-              Your dream deserves a path of its own. Discover more exams,
-              explore our mock series, and prepare for the future you choose.
+            <p className="sf-about">
+              Full-length mock tests and plain-English exam guides for Class 12 students taking CUET UG, IISER IAT,
+              NISER NEST and COMEDK UGET.
             </p>
           </div>
-          <div>
-            <h2>Resources</h2>
-            {[
-              ["Student roadmap", "/resources"],
-              ["Free Full-Length Tests", "/free-diagnostic"],
-              ["All exam details", "/exams"],
-              ["Colleges by exam", "/colleges"],
-              ["Preparation Blog", "/blog"],
-              ["Compare all 4 exams", "/exams/compare"],
-              ["Eligibility checker", "/exams/eligibility"],
-              ["What exams after 12th?", "/exams/after-class-12"],
-            ].map(([label, href]) => (
-              <Link key={href} href={href}>
-                {label}
-              </Link>
-            ))}
-          </div>
-          <div>
-            <h2>Community & Trust</h2>
-            <Link href="/about">Our purpose & Team</Link>
-            <Link href="/about#grievance">Grievance & Support</Link>
-            <Link href="/privacy">Privacy Policy</Link>
-            <Link href="/terms">Terms of Service</Link>
-            <div style={{ marginTop: "14px", display: "flex", flexDirection: "column", gap: "6px" }}>
-              <span style={{ fontSize: "11px", fontWeight: 700, color: "#64748b", textTransform: "uppercase" }}>
-                Aspirant Communities:
-              </span>
-              <a
-                href="https://t.me/ourmocks"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontSize: "13px", color: "var(--blue, #1f5eff)", textDecoration: "none", fontWeight: 600 }}
-              >
-                ✈️ Telegram Community
-              </a>
-              <a
-                href="https://youtube.com/@ourmocks"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontSize: "13px", color: "#475569", textDecoration: "none" }}
-              >
-                ▶️ YouTube Lectures
-              </a>
-              <a
-                href="https://instagram.com/ourmocks"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ fontSize: "13px", color: "#475569", textDecoration: "none" }}
-              >
-                📸 Instagram Updates
-              </a>
-            </div>
-          </div>
+          {COLUMNS.map((column) => (
+            <nav key={column.title} aria-label={column.title}>
+              <h2>{column.title}</h2>
+              {column.links.map(([label, href]) => (
+                <Link key={href} href={href}>
+                  {label}
+                </Link>
+              ))}
+            </nav>
+          ))}
         </div>
-        <div style={{ marginTop: "24px", paddingTop: "16px", borderTop: "1px solid rgba(0,0,0,0.06)", fontSize: "11px", color: "#64748b", lineHeight: 1.6 }}>
-          <p style={{ margin: "0 0 8px 0" }}>
-            <strong>Institutional Disclaimer:</strong> OurMocks is an independent educational preparation and mock test platform. OurMocks is not affiliated with, endorsed by, or sponsored by the National Testing Agency (NTA), the Joint Admissions Committee (IISERs), NISER Bhubaneswar, UM-DAE CEBS, or COMEDK Karnataka. All exam names, logos, and trademarks belong to their respective authorities. Scores and analysis on this platform are practice feedback and do not guarantee admission.
-          </p>
-        </div>
+        <p className="sf-disclaimer">
+          OurMocks is an independent practice platform. It is not affiliated with, endorsed by or sponsored by the
+          National Testing Agency (NTA), the IISERs, NISER Bhubaneswar, UM-DAE CEBS or COMEDK. Exam names belong to
+          their conducting bodies. Scores and analysis here are practice feedback; they do not decide admission.
+        </p>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} OurMocks</span>
           <span>Independent practice platform · Not an exam conducting authority</span>

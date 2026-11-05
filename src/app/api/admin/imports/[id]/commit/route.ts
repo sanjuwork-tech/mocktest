@@ -16,7 +16,7 @@ export async function POST(
 ) {
   try {
     requireOrigin(request);
-    const admin = await requireAdmin(["admin", "reviewer", "editor"]);
+    const admin = await requireAdmin(["admin", "editor"]);
     const { id: importId } = await params;
 
     const rawData = await readJson(request, MAX_FILE_SIZE);

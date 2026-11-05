@@ -1,26 +1,35 @@
 "use client";
 import { useState } from "react";
-import { Search, Sparkles, Layers } from "lucide-react";
+import { Search } from "lucide-react";
 import { TestCard } from "@/components/test-card";
-import type { Product } from "@/data/catalog";
+import { bundleSaving, type Product } from "@/data/catalog";
+import "./test-card.css";
+
+type Category = "all" | "single" | "bundle";
 
 export function CatalogGrid({ products }: { products: Product[] }) {
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState<"all" | "single" | "bundle">("all");
+  const [category, setCategory] = useState<Category>("all");
   const [exam, setExam] = useState("all");
 
+  const bestSaving = Math.max(0, ...products.map((p) => bundleSaving(p)?.percent ?? 0));
+
   const visible = products.filter((product) => {
-    // 1. Category filter
     if (category === "single" && product.isBundle) return false;
     if (category === "bundle" && !product.isBundle) return false;
-
-    // 2. Specific exam slug filter
     if (exam !== "all" && product.slug !== exam) return false;
-
-    // 3. Search query filter
     const searchTarget = `${product.title} ${product.shortName} ${product.pattern} ${product.description}`.toLowerCase();
     return searchTarget.includes(query.trim().toLowerCase());
   });
+
+  const categories: { id: Category; label: string }[] = [
+    { id: "all", label: `All (${products.length})` },
+    { id: "single", label: "Single exam" },
+    {
+      id: "bundle",
+      label: bestSaving ? `Multi-exam bundles (save up to ${bestSaving}%)` : "Multi-exam bundles",
+    },
+  ];
 
   return (
     <div>
@@ -31,89 +40,35 @@ export function CatalogGrid({ products }: { products: Product[] }) {
           type="search"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Find your exam or combo pass (e.g. CUET, IISER, All-Access)…"
+          placeholder="Find your exam or bundle (e.g. CUET, IISER, All-Access)…"
         />
       </label>
 
-      {/* Category Tabs: All, Single Exam, Multi-Exam Combos */}
-      <div style={{ display: "flex", gap: "8px", margin: "16px 0 12px", flexWrap: "wrap" }}>
-        <button
-          type="button"
-          onClick={() => {
-            setCategory("all");
-            setExam("all");
-          }}
-          style={{
-            padding: "8px 16px",
-            borderRadius: "999px",
-            fontSize: "13px",
-            fontWeight: 600,
-            cursor: "pointer",
-            border: "1px solid",
-            background: category === "all" ? "#071A4D" : "#f1f5f9",
-            color: category === "all" ? "#fff" : "#475569",
-            borderColor: category === "all" ? "#071A4D" : "#cbd5e1",
-          }}
-        >
-          All Offerings ({products.length})
-        </button>
-        <button
-          type="button"
-          onClick={() => {
-            setCategory("single");
-            setExam("all");
-          }}
-          style={{
-            padding: "8px 16px",
-            borderRadius: "999px",
-            fontSize: "13px",
-            fontWeight: 600,
-            cursor: "pointer",
-            border: "1px solid",
-            background: category === "single" ? "#1F5EFF" : "#f1f5f9",
-            color: category === "single" ? "#fff" : "#475569",
-            borderColor: category === "single" ? "#1F5EFF" : "#cbd5e1",
-          }}
-        >
-          Single Exam Passes
-        </button>
-        <button
-          type="button"
-          onClick={() => {
-            setCategory("bundle");
-            setExam("all");
-          }}
-          style={{
-            padding: "8px 16px",
-            borderRadius: "999px",
-            fontSize: "13px",
-            fontWeight: 600,
-            cursor: "pointer",
-            border: "1px solid",
-            background: category === "bundle" ? "#15803d" : "#f0fdf4",
-            color: category === "bundle" ? "#fff" : "#166534",
-            borderColor: category === "bundle" ? "#15803d" : "#bbf7d0",
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "6px",
-          }}
-        >
-          <Sparkles size={14} /> Multi-Exam Bundles (Save up to 42%)
-        </button>
+      <div className="tc-filters" role="group" aria-label="Show single exams or bundles">
+        {categories.map(({ id, label }) => (
+          <button
+            key={id}
+            type="button"
+            aria-pressed={category === id}
+            onClick={() => {
+              setCategory(id);
+              setExam("all");
+            }}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
-      {/* Individual Exam Filter Row */}
-      <div className="filter-row" aria-label="Filter mock series by exam">
-        {[{ slug: "all", shortName: "All" }, ...products].map((product) => (
+      <div className="filter-row" role="group" aria-label="Filter mock series by exam">
+        {[{ slug: "all", shortName: "All", isBundle: false }, ...products].map((product) => (
           <button
             key={product.slug}
             type="button"
             aria-pressed={exam === product.slug}
             onClick={() => {
               setExam(product.slug);
-              if (product.slug !== "all") {
-                setCategory("isBundle" in product && Boolean(product.isBundle) ? "bundle" : "single");
-              }
+              if (product.slug !== "all") setCategory(product.isBundle ? "bundle" : "single");
             }}
           >
             {product.shortName}
@@ -122,7 +77,7 @@ export function CatalogGrid({ products }: { products: Product[] }) {
       </div>
 
       <p className="my-4 text-sm" role="status">
-        {visible.length} mock test series & combo bundles · 2026–2027 Admission Cycle Passes
+        {visible.length} test series and bundles for the 2027 admission cycle
       </p>
 
       <div className="mock-grid">
@@ -143,7 +98,7 @@ export function CatalogGrid({ products }: { products: Product[] }) {
               setExam("all");
             }}
           >
-            Show all mock series & bundles
+            Show all series and bundles
           </button>
         </div>
       )}

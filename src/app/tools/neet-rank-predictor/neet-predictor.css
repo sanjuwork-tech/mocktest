@@ -1,0 +1,298 @@
+/* NEET rank and college predictor pages. Prefix: neetp- */
+.neetp-summary {
+  max-width: 760px;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 18px 20px;
+  border-left: 4px solid var(--lime);
+  background: white;
+  border-radius: 0 14px 14px 0;
+  margin-bottom: 28px;
+}
+.neetp-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 360px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+@media (max-width: 860px) {
+  .neetp-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.neetp-form {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+.neetp-field {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+.neetp-field small,
+.neetp-small {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+.neetp-field input,
+.neetp-field select {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  font: inherit;
+  font-weight: 400;
+  width: 100%;
+  background: white;
+}
+.neetp-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  font-size: 15px;
+}
+.neetp-check input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--navy);
+  flex-shrink: 0;
+}
+.neetp-email {
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+.neetp-email summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.neetp-email[open] {
+  display: grid;
+  gap: 12px;
+}
+.neetp-consent {
+  display: grid;
+  gap: 2px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.neetp-consent legend {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.neetp-error {
+  color: var(--bad);
+  font-weight: 600;
+  font-size: 14px;
+}
+.neetp-submit {
+  min-height: 48px;
+  justify-content: center;
+}
+.neetp-form a,
+.neetp-section a,
+.neetp-result a {
+  color: var(--blue-ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.neetp-form :focus-visible,
+.neetp-section :focus-visible,
+.neetp-result :focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+.neetp-result {
+  padding: 22px;
+  border-radius: 18px;
+  background: var(--navy);
+  color: white;
+  min-width: 0;
+}
+.neetp-result:focus {
+  outline: none;
+}
+.neetp-result:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 3px;
+}
+.neetp-result .eyebrow {
+  color: var(--lime);
+}
+.neetp-result a {
+  color: var(--lime);
+}
+.neetp-big {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(36px, 7vw, 56px);
+  line-height: 1.05;
+  margin: 8px 0 12px;
+  overflow-wrap: anywhere;
+}
+.neetp-big small {
+  display: block;
+  font-family: inherit;
+  font-size: 18px;
+  opacity: 0.85;
+  margin-top: 6px;
+}
+.neetp-result p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.neetp-result-empty {
+  background: var(--mist);
+  color: var(--navy);
+}
+.neetp-result-empty .eyebrow {
+  color: var(--blue-ink);
+}
+.neetp-section {
+  max-width: 860px;
+  margin-top: 48px;
+}
+.neetp-section h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  margin-bottom: 12px;
+}
+.neetp-section p,
+.neetp-section li {
+  line-height: 1.65;
+}
+.neetp-section ol,
+.neetp-section ul {
+  padding-left: 22px;
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+.neetp-section ol {
+  list-style: decimal;
+}
+.neetp-section ul {
+  list-style: disc;
+}
+.neetp-table-wrap {
+  overflow-x: auto;
+  margin-top: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: white;
+}
+.neetp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.neetp-table th,
+.neetp-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.neetp-table th {
+  background: var(--mist);
+  font-weight: 700;
+}
+.neetp-table td.num,
+.neetp-table th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.neetp-table tr:last-child td {
+  border-bottom: 0;
+}
+.neetp-note {
+  margin-top: 28px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--warn-bg);
+  color: var(--warn-ink);
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 860px;
+}
+.neetp-bands {
+  display: grid;
+  gap: 28px;
+  margin-top: 28px;
+}
+.neetp-band h3 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.neetp-band > p {
+  color: var(--ink-2);
+  font-size: 14px;
+}
+.neetp-pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.neetp-pill-likely {
+  background: var(--lime);
+  color: var(--navy);
+}
+.neetp-pill-borderline {
+  background: var(--warn-bg);
+  color: var(--warn-ink);
+}
+.neetp-pill-reach {
+  background: var(--mist);
+  color: var(--navy);
+}
+.neetp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+.neetp-links a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.neetp-h3 {
+  font-size: 20px;
+  margin-top: 24px;
+}
+.neetp-faq {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.neetp-faq h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.neetp-faq p {
+  margin-top: 6px;
+  color: var(--ink-2);
+}
+.neetp-caption {
+  caption-side: bottom;
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.neetp-band,
+.neetp-bands {
+  min-width: 0;
+}

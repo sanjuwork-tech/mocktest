@@ -35,7 +35,7 @@ export async function GET(
 ) {
   try {
     requireOrigin(request);
-    await requireAdmin(["editor", "reviewer", "admin"]);
+    await requireAdmin(["editor", "admin"]);
     const { id: testId } = await params;
 
     const db = requireDb();
@@ -175,7 +175,7 @@ export async function PATCH(
 ) {
   try {
     requireOrigin(request);
-    await requireAdmin(["editor", "reviewer", "admin"]);
+    await requireAdmin(["editor", "admin"]);
     const { id: testId } = await params;
 
     const body = await readJson(request, 1024 * 1024);

@@ -5,6 +5,8 @@ import { exams, formatReviewDate } from "@/data/exams";
 import { OfficialAnchor } from "@/components/exam-guide-article";
 import { JsonLd } from "@/components/json-ld";
 import { siteConfig } from "@/data/catalog";
+import { blueprintFor } from "@/lib/blueprints/definitions";
+import { EXAMS, type ExamSlug } from "@/lib/exams/catalog";
 
 export const revalidate = 86400;
 export const metadata = pageMetadata(
@@ -13,12 +15,15 @@ export const metadata = pageMetadata(
   "/exams",
 );
 
-const QUESTIONS: Record<string, string> = {
-  "cuet-ug": "50 per paper; up to 5 papers",
-  "iiser-iat": "60 (15 per subject)",
-  "niser-nest": "80 (20 per section; best 3 sections count)",
-  comedk: "180 (60 per subject)",
-};
+/** Question count per exam, read from the official blueprint so it changes with the bulletin. */
+function questions(slug: ExamSlug) {
+  const bp = blueprintFor(slug, "mathematics")!;
+  const exam = EXAMS[slug];
+  if (exam.paperPerSubject) return `${bp.totalQuestions} per paper; up to ${exam.maxSubjects} papers`;
+  const per = bp.sections[0].questionCount;
+  const best = bp.scoringPolicy.bestSections;
+  return `${bp.totalQuestions} (${per} per ${best ? "section" : "subject"}${best ? `; best ${best} sections count` : ""})`;
+}
 
 const pick = (rows: { label: string; value: string }[], label: string) =>
   rows.find((r) => r.label === label)?.value ?? "—";
@@ -30,18 +35,36 @@ export default function ExamsPage() {
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "CollectionPage",
-          name: "Exam guides: CUET UG, IISER IAT, NISER NEST, COMEDK UGET",
-          url: `${siteConfig.url}/exams`,
-          dateModified: lastReviewed,
-          hasPart: exams.map((exam) => ({
-            "@type": "WebPage",
-            name: `${exam.name} 2027 exam guide`,
-            url: `${siteConfig.url}/exams/${exam.slug}`,
-          })),
+          "@graph": [
+            {
+              "@type": "CollectionPage",
+              name: "Exam guides: CUET UG, IISER IAT, NISER NEST, COMEDK UGET",
+              url: `${siteConfig.url}/exams`,
+              dateModified: lastReviewed,
+              breadcrumb: { "@id": `${siteConfig.url}/exams#breadcrumb` },
+              hasPart: exams.map((exam) => ({
+                "@type": "WebPage",
+                name: `${exam.name} 2027 exam guide`,
+                url: `${siteConfig.url}/exams/${exam.slug}`,
+              })),
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": `${siteConfig.url}/exams#breadcrumb`,
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+                { "@type": "ListItem", position: 2, name: "Explore exams", item: `${siteConfig.url}/exams` },
+              ],
+            },
+          ],
         }}
       />
       <section className="guide-hero page-shell">
+        <nav aria-label="Breadcrumb" className="exam-breadcrumb">
+          <Link href="/">Home</Link>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Explore exams</span>
+        </nav>
         <p className="eyebrow">Exam guides</p>
         <h1>
           Four exams beyond
@@ -51,6 +74,11 @@ export default function ExamsPage() {
         <p className="hero-copy">
           CUET UG opens central universities, IAT and NEST lead to research-focused science degrees, and COMEDK
           covers private engineering colleges in Karnataka. Start with what each exam is, then open its full guide.
+          Not sure which exams fit your stream?{" "}
+          <Link href="/exams/after-class-12" className="text-link">
+            Start with exams after Class 12
+          </Link>
+          .
         </p>
         <div className="hero-tags">
           <span>
@@ -71,8 +99,8 @@ export default function ExamsPage() {
             <p className="eyebrow">{exam.category}</p>
             <h2>{exam.name}</h2>
             <p>{exam.quickAnswer}</p>
-            <Link href={`/exams/${exam.slug}`} className="button-primary">
-              {exam.name} 2027 guide <ArrowRight size={16} />
+            <Link href={`/exams/${exam.slug}`} className="button-secondary">
+              {exam.name} 2027 guide <ArrowRight size={16} aria-hidden="true" />
             </Link>
           </article>
         ))}
@@ -97,7 +125,7 @@ export default function ExamsPage() {
                   <th scope="row">
                     <Link href={`/exams/${exam.slug}`}>{exam.name}</Link>
                   </th>
-                  <td>{QUESTIONS[exam.slug]}</td>
+                  <td>{questions(exam.slug)}</td>
                   <td>{pick(exam.pattern, "Duration")}</td>
                   <td>{pick(exam.pattern, "Marking")}</td>
                 </tr>
@@ -107,10 +135,15 @@ export default function ExamsPage() {
         </div>
         <p className="mt-4">
           <Link href="/exams/compare" className="text-link">
-            Full side-by-side comparison →
-          </Link>{" "}
+            Full side-by-side comparison
+          </Link>
+          {" · "}
           <Link href="/exams/eligibility" className="text-link">
-            Eligibility for each exam →
+            Eligibility for each exam
+          </Link>
+          {" · "}
+          <Link href="/tools/score-calculator" className="text-link">
+            Score calculator
           </Link>
         </p>
       </section>
@@ -157,7 +190,7 @@ export default function ExamsPage() {
           discover and understand these routes; it does not guarantee a seat.
         </p>
         <Link href="/free-diagnostic" className="button-primary mt-5">
-          Practise with a free mock test <ArrowRight size={16} />
+          Take free Test 1 <ArrowRight size={16} aria-hidden="true" />
         </Link>
       </section>
     </main>

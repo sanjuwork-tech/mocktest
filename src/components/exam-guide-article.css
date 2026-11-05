@@ -1,0 +1,135 @@
+/* Exam guide article (/exams/[slug]). Overrides the layered .exam-guide rules in globals.css. Tokens only. */
+
+.exam-guide {
+  border-color: var(--line);
+  border-radius: 20px;
+}
+.exam-guide-header {
+  border-bottom-color: var(--line);
+}
+.exam-guide-header h2 {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+.exam-guide-header p:not(.eyebrow) {
+  margin-top: 6px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+/* Blue on the CUET mist wash is 4.4:1; small text there uses --blue-ink. */
+.exam-guide.theme-cuet-ug .exam-guide-header .eyebrow {
+  color: var(--blue-ink);
+}
+.exam-guide .eyebrow {
+  font-size: 12px;
+}
+.guide-answer {
+  max-width: 68ch;
+  font-size: 18px;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+.exam-guide h3 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+.pattern-table {
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+.pattern-table th,
+.pattern-table td {
+  border-bottom-color: var(--line);
+}
+.pattern-table td,
+.next-cycle-panel ul,
+.accepted-list {
+  color: var(--ink-2);
+}
+.next-cycle-panel ul,
+.accepted-list,
+.opportunity-box p,
+.guide-facts p,
+.guide-facts li,
+.application-panel p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.opportunity-box {
+  border-radius: 12px;
+}
+.date-panel {
+  border-color: var(--line);
+}
+.date-panel dl > div {
+  border-bottom-color: var(--line);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.date-panel dt {
+  color: var(--ink-3);
+}
+.application-panel {
+  border-color: var(--line);
+  border-radius: 20px;
+  background: var(--paper);
+}
+.status-pill {
+  border-radius: 8px;
+  background: var(--mist);
+  color: var(--ink-2);
+  font-size: 12px;
+}
+.destination-domain {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.source-panel a {
+  min-height: 44px;
+  font-size: 14px;
+}
+.exam-faqs details {
+  border-bottom-color: var(--line);
+  padding-block: 4px;
+}
+.exam-faqs summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 8px;
+  line-height: 1.4;
+}
+.exam-faqs details p {
+  margin-top: 0;
+  padding-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+
+/* No card inside the page gutter on small phones: the article loses its frame and keeps the full width. */
+@media (max-width: 520px) {
+  .exam-guide {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    overflow: visible;
+  }
+  .exam-guide-header {
+    padding: 0 0 16px;
+    background: none;
+  }
+  .exam-guide-body {
+    padding: 20px 0 0;
+  }
+  .opportunity-box,
+  .application-panel {
+    padding: 18px 16px;
+  }
+}

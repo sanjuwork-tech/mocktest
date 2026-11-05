@@ -1,4 +1,5 @@
 import { Check, Minus } from "lucide-react";
+import "./compare-platforms.css";
 
 type Cell = "yes" | "varies" | "no" | string;
 
@@ -10,7 +11,7 @@ const ROWS: { feature: string; cells: [Cell, Cell, Cell, Cell] }[] = [
   { feature: "CUET UG, IISER IAT, NISER NEST and COMEDK in one place", cells: ["yes", "varies", "varies", "yes"] },
   { feature: "Full-length mocks on each exam's official pattern and marking (including NEST's best-three-sections rule)", cells: ["yes", "varies", "varies", "no"] },
   { feature: "Questions reviewed by subject matter experts, PhD scholars and university professors", cells: ["yes", "varies", "varies", "no"] },
-  { feature: "Free full-length Test 1 for every exam we cover", cells: ["yes", "varies", "varies", "no"] },
+  { feature: "Free full-length Test 1 for every exam we cover (CUET UG live now; IAT, NEST and COMEDK open as each paper is released)", cells: ["yes", "varies", "varies", "no"] },
   { feature: "Time-per-question analysis: rushed, slow and time-sink questions against the ideal pace", cells: ["yes", "varies", "varies", "no"] },
   { feature: "Personalised analysis across all your tests: topic mastery, answer changes and a plan for the next test", cells: ["yes", "varies", "varies", "no"] },
   { feature: "Section and topic analysis with worked solutions", cells: ["yes", "yes", "varies", "no"] },
@@ -41,9 +42,12 @@ export function ComparePlatforms() {
       <h2 id="compare-platforms-title">What you get here, side by side</h2>
       <p className="section-copy">
         A general comparison with the kinds of platforms students usually use, based on publicly available information.
-        Individual providers differ — check any platform you&apos;re considering.
+        Individual providers differ, so check any platform you&apos;re considering.
       </p>
-      <div className="table-scroll">
+      <p className="cmp-hint" aria-hidden="true">
+        Swipe the table sideways to see every column →
+      </p>
+      <div className="table-scroll cmp-scroll" role="region" aria-labelledby="compare-platforms-title" tabIndex={0}>
         <table className="cmp-table">
           <caption className="sr-only">OurMocks compared with common types of preparation platforms</caption>
           <thead>
@@ -70,7 +74,9 @@ export function ComparePlatforms() {
           </tbody>
         </table>
       </div>
-      <p className="review-note">Comparison reviewed October 2026.</p>
+      <p className="review-note">
+        Comparison reviewed <time dateTime="2026-11-05">5 November 2026</time>.
+      </p>
     </section>
   );
 }

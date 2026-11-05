@@ -89,7 +89,7 @@ export default async function PreviousPapersPage({ params }: Props) {
             <OfficialAnchor key={s.url} link={s} className="text-link" />
           ))}
         </div>
-        <p className="review-note">
+        <p className="gp-note">
           Checked <time dateTime={papers.checkedOn}>{formatReviewDate(papers.checkedOn)}</time>. All paper links point to
           the exam body&apos;s own website.
         </p>

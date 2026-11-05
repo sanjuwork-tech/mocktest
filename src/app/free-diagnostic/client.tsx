@@ -81,6 +81,17 @@ export function FreeDiagnosticClient({ initialExam, live }: { initialExam?: stri
   const isLive = (exam: ExamSlug, subject?: SubjectId) => (live ? live.includes(key(exam, subject)) : exam === "cuet-ug");
   const cuetLive = EXAMS["cuet-ug"].subjects.filter((s) => isLive("cuet-ug", s)).length;
   const exam = EXAMS[tab];
+  // Hero status line, read from what is actually published so it stays true as papers go live.
+  const listNames = (slugs: ExamSlug[]) =>
+    slugs.map((s) => EXAMS[s].shortName).join(", ").replace(/, ([^,]+)$/, " and $1");
+  const liveExams = EXAM_SLUGS.filter((s) => (s === "cuet-ug" ? cuetLive > 0 : isLive(s)));
+  const soonExams = EXAM_SLUGS.filter((s) => !liveExams.includes(s));
+  const status = [
+    liveExams.length ? `${listNames(liveExams)} ${liveExams.length === 1 ? "is" : "are"} live now` : "",
+    soonExams.length ? `${listNames(soonExams)} open${soonExams.length === 1 ? "s" : ""} as each paper is released` : "",
+  ]
+    .filter(Boolean)
+    .join("; ");
 
   function action(examSlug: ExamSlug, subject?: SubjectId) {
     if (!isLive(examSlug, subject)) return <p className="fd-soon">Free test coming soon</p>;
@@ -123,11 +134,12 @@ export function FreeDiagnosticClient({ initialExam, live }: { initialExam?: stri
         <h1>
           Test 1 is free
           <br />
-          <em>for every exam.</em>
+          <em>for every exam we cover.</em>
         </h1>
         <p className="hero-copy">
-          Full length, timed, on the official pattern and marking, followed by question-by-question time analysis:
-          where you rushed, where you got stuck and which topics cost you marks.
+          {status}. Each Free Test 1 is full length,
+          timed, on the official pattern and marking, and followed by question-by-question time analysis: where you
+          rushed, where you got stuck and which topics cost you marks.
         </p>
       </section>
 

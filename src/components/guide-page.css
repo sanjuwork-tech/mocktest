@@ -1,0 +1,130 @@
+/* Shared pieces for the content pages (compare, eligibility, colleges, blog, exam guides, tools).
+   Tokens only; see docs/SKILLS-GUIDE.md §3. Prefix: gp-. Global classes overridden here
+   (.exam-breadcrumb, .related-exam-links, .exam-quicklinks) could move into globals.css. */
+
+/* Breadcrumb: links get a 44px hit area without changing the visual line height. */
+.exam-breadcrumb {
+  gap: 4px 10px;
+  margin-bottom: 20px;
+  color: var(--ink-3);
+}
+.exam-breadcrumb a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--navy);
+}
+.exam-breadcrumb [aria-current="page"] {
+  color: var(--ink-2);
+}
+
+/* Section headings on content pages: question-style H2 in the display face. */
+.gp-section {
+  padding-block: 56px 0;
+}
+.gp-section > h2,
+.gp-h2 {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.gp-lede {
+  max-width: 68ch;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  text-wrap: pretty;
+  margin-bottom: 24px;
+}
+
+/* Answer-first summary under the H1. */
+.gp-answer {
+  max-width: 68ch;
+  margin-top: 24px;
+  padding-left: 18px;
+  border-left: 4px solid var(--blue);
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--navy);
+  text-wrap: pretty;
+}
+
+/* Sources and last-verified date. */
+.gp-sources {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.gp-sources h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+.gp-sources ul {
+  display: grid;
+  gap: 0 24px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  margin-top: 8px;
+}
+.gp-sources a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.gp-sources p {
+  max-width: 68ch;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-3);
+}
+.gp-sources p + p,
+.gp-sources ul + p {
+  margin-top: 12px;
+}
+
+/* Standalone text links (not inside a sentence) need a 44px hit area. */
+.related-exam-links .text-link,
+.gp-links .text-link,
+.hero-actions .text-link {
+  min-height: 44px;
+}
+.gp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+.exam-quicklinks a {
+  min-height: 44px;
+  border-color: var(--line-strong);
+}
+
+/* One clear next step at the end of a page. */
+.gp-next {
+  margin-top: 56px;
+}
+
+/* Meta note under sources and tables. (globals.css .review-note forces 12px with !important; facts a
+   student must read are ≥14px, so content pages use this instead.) */
+.gp-note {
+  max-width: 68ch;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-3);
+  text-wrap: pretty;
+}
+.gp-note a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

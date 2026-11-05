@@ -8,7 +8,7 @@ export const runtime = "nodejs";
 
 export async function GET(request: Request) {
   try {
-    await requireAdmin(["admin", "reviewer"]);
+    await requireAdmin(["admin"]);
     const db = requireDb();
     const url = new URL(request.url);
     const status = url.searchParams.get("status");

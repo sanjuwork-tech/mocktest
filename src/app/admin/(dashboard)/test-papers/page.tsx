@@ -4,6 +4,15 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { AlertCircle, ArrowLeft, CheckCircle2, FileJson, UploadCloud } from "lucide-react";
 import { EXAMS, EXAM_SLUGS, SUBJECT_NAMES, isExamSlug, isSubjectId } from "@/lib/exams/catalog";
+import type { PaperStatus } from "../review/status";
+
+type ReviewRow = { testId: string; version: number; status: PaperStatus };
+const REVIEW_TONE: Record<PaperStatus["kind"], string> = {
+  none: "bg-slate-100 text-slate-700",
+  in_review: "bg-blue-50 text-blue-900",
+  verified: "bg-green-100 text-green-900",
+  issues: "bg-red-50 text-red-900",
+};
 
 type Issue = { path: string; message: string };
 type Summary = { title: string; questions: number; pattern: string; free: boolean };
@@ -41,6 +50,7 @@ export default function TestPapersPage() {
   const [publish, setPublish] = useState(true);
   const [tests, setTests] = useState<CatalogRow[]>([]);
   const [listError, setListError] = useState("");
+  const [reviews, setReviews] = useState<Map<string, ReviewRow>>(new Map());
   const [examFilter, setExamFilter] = useState("all");
   const [subjectFilter, setSubjectFilter] = useState("all");
   const shown = tests.filter(
@@ -53,6 +63,10 @@ export default function TestPapersPage() {
     const data = await res.json().catch(() => ({}));
     if (res.ok) setTests(data.tests);
     else setListError(data.error ?? "Could not load tests.");
+    // Expert review runs beside publishing; a failure here never blocks the list.
+    const r = await fetch("/api/admin/reviews").catch(() => null);
+    const rd = r?.ok ? await r.json().catch(() => null) : null;
+    if (rd?.papers) setReviews(new Map((rd.papers as ReviewRow[]).map((p) => [p.testId, p])));
   }, []);
   useEffect(() => {
     // Initial load of the catalog list.
@@ -259,7 +273,7 @@ export default function TestPapersPage() {
         {shown.length === 0 ? (
           <p className="text-sm text-slate-600">{tests.length === 0 ? "No tests uploaded yet." : "No tests match these filters."}</p>
         ) : (
-          <div className="overflow-x-auto">
+          <div className="relative overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="text-left text-slate-500">
                 <tr>
@@ -268,7 +282,8 @@ export default function TestPapersPage() {
                   <th className="py-2 pr-4">Test</th>
                   <th className="py-2 pr-4">Version</th>
                   <th className="py-2 pr-4">Access</th>
-                  <th className="py-2">Status</th>
+                  <th className="py-2 pr-4">Status</th>
+                  <th className="py-2">Expert review</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
@@ -279,7 +294,7 @@ export default function TestPapersPage() {
                     <td className="py-2 pr-4">{t.testNumber}</td>
                     <td className="py-2 pr-4">v{t.latestVersion ?? 0}</td>
                     <td className="py-2 pr-4">{t.isFree ? "Free" : "Series"}</td>
-                    <td className="py-2">
+                    <td className="py-2 pr-4">
                       <button
                         onClick={() => toggle(t)}
                         className={`rounded-full px-3 py-1 text-xs font-semibold ${t.published ? "bg-green-100 text-green-900" : "bg-slate-100 text-slate-700"}`}
@@ -287,6 +302,19 @@ export default function TestPapersPage() {
                       >
                         {t.published ? "Published — hide" : "Hidden — publish"}
                       </button>
+                    </td>
+                    <td className="py-2">
+                      {reviews.get(t.testId) ? (
+                        <Link
+                          href={`/admin/review/${t.testId}`}
+                          className={`inline-block rounded-full px-3 py-1 text-xs font-semibold whitespace-nowrap ${REVIEW_TONE[reviews.get(t.testId)!.status.kind]}`}
+                        >
+                          {reviews.get(t.testId)!.status.label}
+                          <span className="sr-only"> — open review of {t.title}</span>
+                        </Link>
+                      ) : (
+                        "—"
+                      )}
                     </td>
                   </tr>
                 ))}

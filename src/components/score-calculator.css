@@ -1,0 +1,56 @@
+/* Score calculator (/tools/score-calculator). Overrides globals.css rules; tokens only. */
+
+.calc-tabs button,
+.calc-subjects label {
+  border-color: var(--line-strong);
+  touch-action: manipulation;
+}
+.calc-tabs button[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: white;
+}
+.calc-subjects {
+  min-width: 0;
+  border: 0;
+  padding: 0;
+}
+.calc-subjects legend {
+  font-size: 16px;
+}
+.calc-marking {
+  color: var(--ink-2);
+}
+.calc-section {
+  border-color: var(--line);
+  border-radius: 20px;
+}
+.calc-section legend small {
+  color: var(--ink-3);
+}
+.calc-section label {
+  font-size: 14px;
+}
+.calc-section input {
+  min-height: 48px;
+  border-color: var(--line-strong);
+  border-radius: 12px;
+  font-size: 16px;
+}
+.calc-section output,
+.calc-total,
+.calc-result dd {
+  font-variant-numeric: tabular-nums;
+}
+.calc-error {
+  color: var(--bad);
+  font-size: 14px;
+}
+.calc-result {
+  border-radius: 20px;
+}
+.calc-note {
+  font-size: 14px;
+  opacity: 1;
+  color: rgb(255 255 255 / 0.88);
+}

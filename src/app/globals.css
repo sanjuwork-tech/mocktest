@@ -6,6 +6,17 @@
   --coral: #ff704d;
   --paper: #f6f7fb;
   --mist: #e9edf7;
+  /* Text, lines and status colours (contrast measured on --paper; see docs/SKILLS-GUIDE.md) */
+  --ink-2: #43516d;
+  --ink-3: #53617c;
+  --line: #d3daea;
+  --line-strong: #6f7b95;
+  --blue-ink: #174bd1;
+  --ok: #2f7d32;
+  --bad: #c9372c;
+  --review: #6e2a74;
+  --warn-ink: #92400e;
+  --warn-bg: #fef3c7;
 }
 @theme inline {
   --color-navy: var(--navy);
@@ -339,26 +350,6 @@
     width: 20px;
     height: 20px;
   }
-  .mission-strip {
-    border-block: 1px solid #d4dbeb;
-    background: #e9eefb;
-    padding-block: 30px;
-  }
-  .mission-strip > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-  }
-  .mission-strip p {
-    font-size: 22px;
-    line-height: 1.5;
-  }
-  .mission-strip span {
-    font-size: 14px;
-    line-height: 1.8;
-    color: #43516d;
-  }
   .section-heading {
     display: flex;
     align-items: end;
@@ -382,11 +373,6 @@
     max-width: 750px;
     margin-bottom: 28px;
   }
-  .directory-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px;
-  }
   .theme-cuet-ug {
     --exam-color: #1f5eff;
     --exam-wash: #edf2ff;
@@ -403,41 +389,13 @@
     --exam-color: #071a4d;
     --exam-wash: #e9edf7;
   }
-  .directory-card {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 28px;
-    border: 1px solid #d9dfeb;
-    border-top: 4px solid var(--exam-color);
-    border-radius: 18px;
-    background: white;
-    transition:
-      border-color 0.2s ease,
-      box-shadow 0.2s ease;
-  }
-  a.directory-card:hover {
-    border-color: var(--exam-color);
-    box-shadow: 0 8px 22px #071a4d0a;
-  }
   .card-category {
     color: var(--exam-color);
     background: var(--exam-wash);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     padding: 7px 10px;
     border-radius: 7px;
-  }
-  .directory-card h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin-top: 20px;
-  }
-  .directory-card p {
-    font-size: 14px;
-    line-height: 1.85;
-    color: #43516d;
-    margin-block: 12px 24px;
   }
   .card-link {
     display: inline-flex;
@@ -1066,13 +1024,11 @@
   .board-title {
     font-size: 34px;
   }
-  .mission-strip > div,
   .section-heading,
   .closing-panel {
     align-items: start;
     flex-direction: column;
   }
-  .directory-grid,
   .notice-grid,
   .how-grid,
   .guide-facts {
@@ -1082,7 +1038,6 @@
     padding-block: 52px;
   }
   .directory-panel,
-  .directory-card,
   .notice-card {
     padding: 22px;
   }
@@ -1475,12 +1430,6 @@
   .pathway-row,
   .mock-card,
   .home-mock-card,
-  .directory-card {
-    transition:
-      transform 180ms ease,
-      box-shadow 180ms ease,
-      background-color 180ms ease;
-  }
   .text-link svg,
   .button-primary svg,
   .card-link svg {
@@ -1502,17 +1451,13 @@
       transform: translateY(-2px);
     }
     .pathway-row:hover,
-    .directory-card:hover {
-      transform: translateY(-3px);
-    }
-    .mock-card:hover,
+      .mock-card:hover,
     .home-mock-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 12px 28px #071a4d12;
     }
     .text-link:hover svg,
-    .button-primary:hover svg,
-    .directory-card:hover .card-link svg {
+    .button-primary:hover svg {
       transform: translateX(3px);
     }
   }
@@ -1785,13 +1730,6 @@
 .blog-article {
   max-width: 760px;
   margin: 0 auto;
-}
-.blog-back {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 14px;
-  margin-bottom: 20px;
 }
 .blog-meta {
   display: flex;
@@ -2094,7 +2032,6 @@
   font-weight: 600;
   cursor: pointer;
 }
-.calc-tabs button[aria-selected="true"],
 .calc-subjects label.selected {
   background: var(--navy);
   border-color: var(--navy);
@@ -3146,128 +3083,3 @@ body:has(.admin-shell) :is(.announcement, .site-header, .site-footer) {
   flex: 1;
 }
 
-/* Eligibility checker (/exams/eligibility) */
-.elig-checker {
-  max-width: 960px;
-  margin: 0 auto 48px;
-  padding: 28px;
-  border: 1px solid #dde3f0;
-  border-radius: 20px;
-  background: #fff;
-}
-.elig-checker h2 {
-  margin: 0 0 6px;
-  font-size: 1.5rem;
-}
-.elig-note {
-  margin: 0 0 20px;
-  font-size: 0.9rem;
-  color: #43516d;
-}
-.elig-form {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px 24px;
-  margin-bottom: 24px;
-}
-.elig-form > label,
-.elig-form legend {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-.elig-form select,
-.elig-form input[type="number"] {
-  min-height: 44px;
-  padding: 0 12px;
-  border: 1px solid #c9d2e6;
-  border-radius: 10px;
-  background: #fff;
-  color: var(--navy);
-  font: inherit;
-}
-.elig-form fieldset {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 16px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-.elig-form legend {
-  margin-bottom: 6px;
-}
-.elig-check {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 36px;
-  font-size: 0.95rem;
-}
-.elig-check input {
-  width: 18px;
-  height: 18px;
-  accent-color: var(--blue);
-}
-.elig-results {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 12px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.elig-result {
-  padding: 16px;
-  border: 1px solid #dde3f0;
-  border-left-width: 4px;
-  border-radius: 12px;
-  font-size: 0.9rem;
-}
-.elig-result.is-eligible {
-  border-left-color: #1f9d55;
-}
-.elig-result.is-not-eligible {
-  border-left-color: #c43d3d;
-}
-.elig-result.is-check {
-  border-left-color: #d29a12;
-}
-.elig-result-head {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-bottom: 8px;
-}
-.elig-result-head span {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: 700;
-}
-.is-eligible .elig-result-head span {
-  color: #137a40;
-}
-.is-not-eligible .elig-result-head span {
-  color: #a32b2b;
-}
-.is-check .elig-result-head span {
-  color: #8a6100;
-}
-.elig-result ul {
-  margin: 0;
-  padding-left: 18px;
-  color: #43516d;
-}
-.elig-links {
-  display: flex;
-  gap: 16px;
-  margin: 10px 0 0;
-}
-@media (max-width: 520px) {
-  .elig-checker {
-    padding: 20px 16px;
-  }
-}

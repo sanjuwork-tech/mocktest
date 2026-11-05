@@ -1,4 +1,5 @@
 import { desc, isNull } from "drizzle-orm";
+import { redirect } from "next/navigation";
 import { DashboardClient, type InventoryProduct } from "./dashboard-client";
 import { db } from "@/db/client";
 import { currentAdmin } from "@/server/auth";
@@ -6,6 +7,8 @@ import { productsTable } from "@/db/schema";
 
 export default async function AdminDashboardPage() {
   const admin = await currentAdmin();
+  // Experts are review-only; send them to their area before any inventory is loaded.
+  if (admin?.role === "reviewer") redirect("/admin/review");
   let products: InventoryProduct[] = [];
   let state: "ready" | "unconfigured" | "unavailable" = db
     ? "ready"

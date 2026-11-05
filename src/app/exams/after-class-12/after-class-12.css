@@ -1,0 +1,199 @@
+/* /exams/after-class-12: guide-hero page. Prefix: ac12- */
+.ac12-body {
+  max-width: 1000px;
+  padding-bottom: 64px;
+}
+.ac12-body h2 {
+  font-family: var(--font-newsreader), serif;
+  font-weight: 500;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+.ac12-body p,
+.ac12-body li {
+  text-wrap: pretty;
+}
+.ac12-answer {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--blue);
+  border-radius: 20px;
+  background: white;
+  padding: 24px;
+}
+.ac12-answer h2 {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.ac12-answer p {
+  margin-top: 8px;
+  font-size: 17px;
+  line-height: 1.65;
+  max-width: 68ch;
+}
+.ac12-section + .ac12-section {
+  margin-top: 0;
+}
+.ac12-lede {
+  margin-top: 16px;
+  max-width: 68ch;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.ac12-table {
+  width: 100%;
+  margin-top: 24px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+.ac12-table th,
+.ac12-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.ac12-table thead th {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.ac12-table td .text-link {
+  display: inline-block;
+  padding-block: 10px;
+}
+.ac12-exam-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+.ac12-exam {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--exam-color, var(--navy));
+  border-radius: 20px;
+  background: white;
+  padding: 20px;
+}
+.ac12-exam h3 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.ac12-exam p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.ac12-exam .ac12-meta {
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.ac12-card-link {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-weight: 700;
+}
+.ac12-steps {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+  counter-reset: ac12-step;
+}
+.ac12-steps li {
+  position: relative;
+  border-bottom: 1px solid var(--line);
+  padding: 4px 0 16px 48px;
+  counter-increment: ac12-step;
+}
+.ac12-steps li::before {
+  content: counter(ac12-step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.ac12-steps h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.ac12-steps p {
+  margin-top: 6px;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  max-width: 68ch;
+}
+.ac12-guides {
+  margin-top: 24px;
+}
+.ac12-guides a {
+  display: inline-block;
+  padding-block: 4px;
+}
+.ac12-faq {
+  margin-top: 0;
+}
+.ac12-faq summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.ac12-sources h2 {
+  font-size: 1.6rem;
+}
+.ac12-sources ul {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 15px;
+}
+.ac12-sources .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+}
+.ac12-cta {
+  margin-bottom: 0;
+}
+.ac12-cta h2 {
+  font-family: inherit;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+@media (min-width: 768px) {
+  .ac12-answer {
+    padding: 28px 32px;
+  }
+  .ac12-exam-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ac12-exam {
+    padding: 24px;
+  }
+}

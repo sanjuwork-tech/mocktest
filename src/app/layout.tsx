@@ -83,7 +83,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         "@id": `${siteConfig.url}/#organization`,
         name: siteConfig.name,
         url: siteConfig.url,
-        logo: `${siteConfig.url}/logo-mark.svg`,
+        logo: `${siteConfig.url}/logo-mark.png`,
         description: siteConfig.shortDescription,
       },
       {

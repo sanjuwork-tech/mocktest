@@ -1,0 +1,78 @@
+/* Test-series cards (src/components/test-card.tsx). */
+.tc-bundle {
+  --exam-color: var(--navy);
+  --exam-wash: var(--mist);
+}
+.tc-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tc-badge {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--navy);
+  background: var(--lime);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.tc-price-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tc-compare {
+  color: #53617c;
+  font-size: 15px;
+}
+.tc-saving {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--navy);
+  background: #eef8da;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+.mock-card .mock-guide-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+}
+.mock-card a:focus-visible,
+.tc-filters button:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+.tc-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 12px;
+}
+.tc-filters button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #bcc5d8;
+  background: white;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.tc-filters button[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: white;
+}

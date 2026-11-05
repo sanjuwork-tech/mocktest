@@ -3,6 +3,7 @@ import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
 import { ScoreCalculator } from "@/components/score-calculator";
 import { siteConfig } from "@/data/catalog";
+import "@/components/guide-page.css";
 
 export const metadata = pageMetadata(
   "CUET, IAT, NEST & COMEDK Score Calculator",
@@ -38,10 +39,25 @@ export default async function ScoreCalculatorPage({ searchParams }: { searchPara
               "@type": "FAQPage",
               mainEntity: FAQS.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
             },
+            {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+                { "@type": "ListItem", position: 2, name: "Free tools", item: `${siteConfig.url}/tools` },
+                { "@type": "ListItem", position: 3, name: "Score calculator", item: url },
+              ],
+            },
           ],
         }}
       />
       <section className="guide-hero page-shell">
+        <nav aria-label="Breadcrumb" className="exam-breadcrumb">
+          <Link href="/">Home</Link>
+          <span aria-hidden="true">/</span>
+          <Link href="/tools">Free tools</Link>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Score calculator</span>
+        </nav>
         <p className="eyebrow">Free tool</p>
         <h1>
           Exam score
@@ -49,7 +65,7 @@ export default async function ScoreCalculatorPage({ searchParams }: { searchPara
           <em>calculator.</em>
         </h1>
         <p className="hero-copy">
-          Enter how many questions you got right and wrong — from a mock, a past paper or the official answer key — and see
+          Enter how many questions you got right and wrong, from a mock, a past paper or the official answer key, and see
           your score under the official marking scheme.
         </p>
       </section>
@@ -65,7 +81,7 @@ export default async function ScoreCalculatorPage({ searchParams }: { searchPara
             </details>
           ))}
         </section>
-        <p className="review-note">
+        <p className="gp-note">
           Marking schemes from the official 2026 bulletins. See the{" "}
           <Link href="/exams/cuet-ug">CUET</Link>, <Link href="/exams/iiser-iat">IAT</Link>,{" "}
           <Link href="/exams/niser-nest">NEST</Link> and <Link href="/exams/comedk">COMEDK</Link> guides for sources.

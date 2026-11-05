@@ -1,0 +1,63 @@
+/* Exam sub-pages: syllabus and previous-year papers. Overrides globals.css rules; tokens only. */
+
+.exam-subpage {
+  padding-bottom: 64px;
+}
+.syllabus-notes {
+  max-width: 68ch;
+  color: var(--ink-2);
+  line-height: 1.6;
+}
+.syllabus-jump a,
+.exam-quicklinks a {
+  min-height: 44px;
+  border-color: var(--line-strong);
+}
+.syllabus-subject {
+  border-color: var(--line);
+  border-left-color: var(--exam-color, var(--blue));
+  border-radius: 20px;
+}
+.syllabus-subject h2 small,
+.syllabus-note {
+  color: var(--ink-3);
+}
+.syllabus-groups h3 {
+  font-size: 13px;
+}
+.theme-cuet-ug .syllabus-groups h3 {
+  color: var(--blue-ink);
+}
+.syllabus-subject > .text-link {
+  min-height: 44px;
+}
+.paper-grid li {
+  border-color: var(--line);
+}
+.paper-grid strong {
+  font-variant-numeric: tabular-nums;
+}
+.paper-grid a {
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.exam-subpage .next-cycle-panel h2,
+.exam-subpage .source-panel h2 {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.08;
+  margin-bottom: 16px;
+}
+.exam-subpage .next-cycle-panel ul {
+  max-width: 68ch;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+@media (max-width: 520px) {
+  .syllabus-subject {
+    padding: 20px 16px;
+  }
+}

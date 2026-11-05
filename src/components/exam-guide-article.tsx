@@ -6,6 +6,8 @@ import {
   type OfficialLink,
   type ExamGuide,
 } from "@/data/exams";
+import "./guide-page.css";
+import "./exam-guide-article.css";
 
 export function OfficialAnchor({
   link,
@@ -61,9 +63,10 @@ export function ExamGuideArticle({
       aria-labelledby={`${exam.slug}-title`}
     >
       <header className="exam-guide-header">
-        <span className="guide-number">0{index + 1}</span>
+        {/* On the standalone page the hero already shows the category; skip the list number and repeat eyebrow. */}
+        {!standalone && <span className="guide-number">0{index + 1}</span>}
         <div>
-          <p className="eyebrow">{exam.category}</p>
+          {!standalone && <p className="eyebrow">{exam.category}</p>}
           <h2 id={`${exam.slug}-title`}>What is {exam.name}?</h2>
           <p>{exam.fullName}</p>
         </div>
@@ -106,7 +109,7 @@ export function ExamGuideArticle({
           <ul className="accepted-list">
             {exam.acceptedBy.map((item) => (
               <li key={item.name}>
-                <strong>{item.name}</strong> — {item.detail}
+                <strong>{item.name}:</strong> {item.detail}
               </li>
             ))}
           </ul>
@@ -145,7 +148,7 @@ export function ExamGuideArticle({
               </div>
             ))}
           </dl>
-          <p className="review-note">
+          <p className="gp-note">
             These are last cycle&apos;s dates. The next cycle&apos;s official notice takes precedence.
           </p>
         </section>
@@ -170,7 +173,7 @@ export function ExamGuideArticle({
               />
             ))}
           </div>
-          <p className="review-note">
+          <p className="gp-note">
             Last verified against these sources on{" "}
             <time dateTime={exam.checkedOn}>{formatReviewDate(exam.checkedOn)}</time>.{" "}
             {reviewIsStale(exam.checkedOn, now) &&

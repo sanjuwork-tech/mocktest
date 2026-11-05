@@ -1,0 +1,64 @@
+/* /tools hub. Prefix: tools- */
+.tools-body {
+  max-width: 1000px;
+  padding-bottom: 64px;
+}
+.tools-group + .tools-group {
+  margin-top: 48px;
+}
+.tools-group h2 {
+  font-family: var(--font-newsreader), serif;
+  font-weight: 500;
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  line-height: 1.1;
+}
+.tools-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 20px;
+}
+.tools-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: white;
+  padding: 18px 20px;
+  transition: border-color 150ms var(--ease-out, ease-out);
+}
+.tools-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.tools-line {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+@media (hover: hover) and (pointer: fine) {
+  .tools-card:hover {
+    border-color: var(--blue);
+  }
+  .tools-card:hover .tools-name {
+    color: var(--blue-ink);
+  }
+}
+.tools-cta h2 {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .tools-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tools-card {
+    padding: 24px;
+  }
+}

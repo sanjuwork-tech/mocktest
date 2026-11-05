@@ -1,0 +1,53 @@
+/* Share row on exam guides and blog posts. Prefix: share-. Brand tokens only (no third-party brand colours). */
+
+.share-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 16px;
+  margin: 32px 0;
+  padding: 16px 0;
+  border-block: 1px solid var(--line);
+}
+.share-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: white;
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: transform 140ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.share-button:active {
+  transform: scale(0.97);
+}
+.share-button.is-done {
+  border-color: var(--ok);
+  color: var(--ok);
+}
+@media (hover: hover) and (pointer: fine) {
+  .share-button:hover {
+    background: var(--mist);
+  }
+}

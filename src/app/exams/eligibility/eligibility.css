@@ -1,0 +1,83 @@
+/* /exams/eligibility page (the checker has its own file). Prefix: elig-. Tokens only. */
+
+.elig-page {
+  padding-bottom: 88px;
+}
+.elig-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 16px;
+}
+.elig-cards > li {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: white;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--exam-color);
+  border-radius: 20px;
+}
+.elig-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.elig-badge {
+  padding: 3px 10px;
+  border-radius: 8px;
+  background: var(--mist);
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 700;
+}
+.elig-cards h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+.elig-cards dl > div {
+  padding-block: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.elig-cards dt {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--navy);
+}
+.elig-cards dd {
+  margin-top: 4px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.elig-card-links {
+  margin-top: auto;
+  padding-top: 12px;
+}
+.elig-faqs {
+  max-width: 820px;
+}
+.elig-faqs summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 16px;
+}
+.elig-faqs details p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+@media (max-width: 520px) {
+  .elig-cards > li {
+    padding: 20px 18px;
+  }
+}

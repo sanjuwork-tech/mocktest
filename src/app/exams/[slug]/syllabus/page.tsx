@@ -94,7 +94,7 @@ export default async function SyllabusPage({ params }: Props) {
             <OfficialAnchor key={s.url} link={s} className="text-link" />
           ))}
         </div>
-        <p className="review-note">
+        <p className="gp-note">
           Transcribed from the official 2026 documents on{" "}
           <time dateTime={syllabus.checkedOn}>{formatReviewDate(syllabus.checkedOn)}</time>. The 2027 syllabus will be
           published with the next bulletin.

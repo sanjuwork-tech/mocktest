@@ -1,0 +1,199 @@
+/* /blog index and /blog/[slug]. Overrides the blog rules in globals.css; tokens only. */
+
+/* Shared tags row: badge + category on one line. */
+.blog-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-3);
+}
+.blog-badge {
+  padding: 3px 10px;
+  border-radius: 8px;
+  background: var(--mist);
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Index cards: the title link covers the card; one meta line with the updated date. */
+.blog-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
+  gap: 16px;
+  padding-bottom: 32px;
+}
+.blog-card {
+  position: relative;
+  gap: 10px;
+  border-color: var(--line);
+  border-radius: 20px;
+}
+.blog-card h2 {
+  font-size: 21px;
+  line-height: 1.28;
+  text-wrap: balance;
+}
+.blog-card h2 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+}
+.blog-card h2 a:focus-visible {
+  outline: none;
+}
+.blog-card:has(h2 a:focus-visible) {
+  outline: 3px solid var(--blue);
+  outline-offset: 4px;
+}
+.blog-card-excerpt {
+  flex: 1;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.blog-card-meta {
+  font-size: 14px;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.blog-card-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@media (hover: hover) and (pointer: fine) {
+  .blog-card {
+    transition: border-color 150ms ease-out;
+  }
+  .blog-card:hover {
+    border-color: var(--line-strong);
+  }
+  .blog-card:hover .blog-card-more {
+    color: var(--navy);
+  }
+}
+
+/* Post page: one reading column of about 68 characters. */
+.blog-post-page {
+  padding-block: 32px 88px;
+}
+.blog-article {
+  max-width: 720px;
+}
+.blog-crumb-current {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  max-width: 100%;
+}
+.blog-article > .blog-card-tags {
+  margin-bottom: 14px;
+}
+.blog-article h1 {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.06;
+  letter-spacing: -0.025em;
+}
+.blog-lede {
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.blog-byline {
+  margin-top: 14px;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.blog-summary {
+  border-color: var(--line);
+  border-left-color: var(--blue);
+  border-radius: 20px;
+}
+.blog-summary h2 {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+}
+.blog-summary li svg {
+  color: var(--ok);
+}
+.blog-body {
+  gap: 40px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--navy);
+}
+.blog-body p {
+  max-width: 68ch;
+  text-wrap: pretty;
+}
+.blog-body h2 {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.75rem, 3.2vw, 2.25rem);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin-bottom: 14px;
+}
+.blog-body ul {
+  max-width: 68ch;
+}
+.blog-body li::marker {
+  color: var(--ink-3);
+}
+.blog-callout {
+  border-left-color: var(--blue);
+  background: var(--mist);
+}
+.blog-sources a {
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.blog-sources p {
+  color: var(--ink-3);
+  line-height: 1.55;
+}
+.blog-related h2 {
+  font-size: 20px;
+}
+.blog-related a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.blog-article .exam-faqs summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 17px;
+  line-height: 1.4;
+}
+.blog-article .exam-faqs details p {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+
+@media (max-width: 520px) {
+  .blog-summary {
+    padding: 20px 16px;
+  }
+  .blog-lede {
+    font-size: 17px;
+  }
+}

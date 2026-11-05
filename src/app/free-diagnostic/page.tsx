@@ -4,8 +4,8 @@ import { publishedTests } from "@/server/student-tests";
 import { FreeDiagnosticClient } from "./client";
 
 export const metadata = pageMetadata(
-  "Free Full-Length Mock Tests: CUET UG, IISER IAT, NEST, COMEDK",
-  "Test 1 is free for every exam: a full-length mock on the official pattern and marking, then time spent per question, rushed and slow answers, and topics to revise.",
+  "Free Test 1: CUET UG, IISER IAT, NEST, COMEDK Mocks",
+  "Test 1 is free for every exam we cover. CUET UG is live; IISER IAT, NEST and COMEDK open as each paper is released.",
   "/free-diagnostic",
   [
     "free full length mock test",

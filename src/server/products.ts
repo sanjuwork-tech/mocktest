@@ -51,7 +51,6 @@ export function toPublicProduct(row: Row): Product {
     price: row.priceMinor / 100,
     compareAtPrice: row.compareAtPriceMinor / 100,
     mocks: row.mockCount,
-    students: "",
     subtitle: text(
       "subtitle",
       seed?.subtitle ?? "Focused preparation for your next chapter.",

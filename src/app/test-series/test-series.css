@@ -1,0 +1,88 @@
+/* Test-series catalogue and detail pages. */
+.ts-free-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 18px 22px;
+  background: #eef8da;
+  border: 1px solid #cfe9a0;
+  border-radius: 14px;
+}
+.ts-free-banner strong {
+  display: block;
+  font-size: 15px;
+  color: var(--navy);
+}
+.ts-free-banner p {
+  margin-top: 4px;
+  max-width: 640px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #43516d;
+}
+.ts-legal-note {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #43516d;
+}
+.ts-related {
+  margin-top: 2rem;
+}
+.ts-enrol-card {
+  max-width: 640px;
+  grid-template-columns: minmax(0, 1fr);
+}
+.ts-enrol-card ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+}
+.ts-enrol-card li {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+.ts-enrol-card li svg {
+  flex-shrink: 0;
+  margin-top: 5px;
+  color: var(--exam-color);
+}
+.ts-compare {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #43516d;
+}
+.ts-compare strong {
+  color: var(--navy);
+}
+.ts-actions {
+  display: grid;
+  width: 100%;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+.ts-status {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #43516d;
+}
+.ts-status strong {
+  display: block;
+  color: var(--navy);
+  font-size: 15px;
+}
+.ts-actions a:focus-visible,
+.ts-free-banner a:focus-visible,
+.ts-legal-note a:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+.ts-note {
+  margin-top: 2rem;
+}

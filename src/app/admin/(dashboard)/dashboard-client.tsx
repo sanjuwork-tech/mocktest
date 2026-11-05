@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { BookOpen, Compass, Layers, Plus, Upload, X } from "lucide-react";
+import { BookOpen, ClipboardCheck, Compass, Layers, Plus, Upload, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useRef, useState, type FormEvent } from "react";
 import { Modal } from "@/components/ui/modal";
@@ -130,6 +130,10 @@ export function DashboardClient({
           <Link href="/admin/imports" className="button-secondary flex items-center gap-2">
             <Upload size={16} />
             Import questions
+          </Link>
+          <Link href="/admin/review" className="button-secondary flex items-center gap-2">
+            <ClipboardCheck size={16} />
+            Expert review
           </Link>
           {role === "admin" && (
             <>

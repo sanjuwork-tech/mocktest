@@ -23,7 +23,7 @@ const createTestSchema = z.object({
 export async function GET(request: Request) {
   try {
     requireOrigin(request);
-    await requireAdmin(["editor", "reviewer", "admin"]);
+    await requireAdmin(["editor", "admin"]);
 
     const db = requireDb();
 
@@ -84,7 +84,7 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
   try {
     requireOrigin(request);
-    const admin = await requireAdmin(["editor", "reviewer", "admin"]);
+    const admin = await requireAdmin(["editor", "admin"]);
 
     const body = await readJson(request, 32 * 1024);
     const parsed = createTestSchema.safeParse(body);

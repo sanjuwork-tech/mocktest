@@ -1,0 +1,186 @@
+/* Eligibility checker (/exams/eligibility). Replaces the "Eligibility checker" block in globals.css;
+   every rule is scoped under .elig-checker so it wins while that block still exists. Tokens only. */
+
+.elig-checker {
+  margin: 0;
+  padding: 28px;
+  max-width: none;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: white;
+}
+.elig-checker h2 {
+  margin: 0 0 6px;
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+.elig-checker .elig-note {
+  max-width: 68ch;
+  margin: 0 0 24px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.elig-checker .elig-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+.elig-checker .elig-form > label,
+.elig-checker .elig-form legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.elig-checker .elig-form select,
+.elig-checker .elig-form input[type="number"] {
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  background: white;
+  color: var(--navy);
+  font: inherit;
+  font-size: 16px;
+  font-weight: 400;
+}
+.elig-checker .elig-form fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+.elig-checker .elig-form legend {
+  margin-bottom: 8px;
+}
+/* The whole label row is the tap target (44px), styled as a chip. */
+.elig-checker .elig-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 0 16px 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.elig-checker .elig-check:has(input:checked) {
+  border-color: var(--navy);
+  background: var(--mist);
+}
+.elig-checker .elig-check:has(input:focus-visible) {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+}
+.elig-checker .elig-check input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--navy);
+}
+.elig-checker .elig-check input:focus-visible {
+  outline: none;
+}
+
+.elig-checker .elig-results {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.elig-checker .elig-result {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line-strong);
+  border-radius: 12px;
+  background: var(--paper);
+  font-size: 15px;
+}
+.elig-checker .elig-result.is-eligible {
+  border-left-color: var(--ok);
+}
+.elig-checker .elig-result.is-not-eligible {
+  border-left-color: var(--bad);
+}
+.elig-checker .elig-result.is-check {
+  border-left-color: var(--warn-ink);
+}
+.elig-checker .elig-result-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 12px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.elig-checker .elig-result-head span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.elig-checker .is-eligible .elig-result-head span {
+  color: var(--ok);
+}
+.elig-checker .is-not-eligible .elig-result-head span {
+  color: var(--bad);
+}
+.elig-checker .is-check .elig-result-head span {
+  color: var(--warn-ink);
+}
+.elig-checker .elig-result ul {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 18px;
+  list-style: disc;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.elig-checker .elig-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 20px;
+  margin: 6px 0 0;
+}
+.elig-checker .elig-links .text-link {
+  min-height: 44px;
+}
+
+@media (min-width: 768px) {
+  .elig-checker .elig-form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 32px;
+  }
+  .elig-checker .elig-results {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1024px) {
+  .elig-checker .elig-results {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .elig-checker {
+    padding: 20px 16px;
+  }
+}

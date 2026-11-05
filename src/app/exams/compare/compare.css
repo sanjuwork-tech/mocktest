@@ -1,0 +1,184 @@
+/* /exams/compare. Prefix: xc-. Tokens only. */
+
+.xc-title em {
+  display: block;
+}
+.xc-body {
+  padding-bottom: 88px;
+}
+.xc-section {
+  padding-top: 56px;
+}
+.xc-section:first-child {
+  padding-top: 8px;
+}
+
+/* Comparison table. Desktop: a real 5-column table, bottom borders only.
+   Below 768px each row becomes a card for one dimension, with every exam's value labelled. */
+.xc-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+}
+.xc-table thead th {
+  position: sticky;
+  top: 80px;
+  z-index: 1;
+  padding: 16px 18px 14px;
+  background: white;
+  border-bottom: 2px solid var(--navy);
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 16px;
+  font-weight: 700;
+}
+.xc-table thead th:first-child {
+  border-top-left-radius: 20px;
+}
+.xc-table thead th:last-child {
+  border-top-right-radius: 20px;
+}
+.xc-table thead th:not(:first-child) {
+  box-shadow: inset 0 4px 0 var(--exam-color);
+}
+.xc-table thead th span {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-3);
+}
+.xc-table tbody th,
+.xc-table tbody td {
+  padding: 16px 18px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+.xc-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+.xc-table tbody th {
+  width: 18%;
+  font-weight: 700;
+  color: var(--navy);
+}
+.xc-table tbody td {
+  width: 20.5%;
+  color: var(--ink-2);
+}
+
+@media (max-width: 767px) {
+  .xc-table,
+  .xc-table tbody,
+  .xc-table tr,
+  .xc-table th,
+  .xc-table td {
+    display: block;
+    width: auto;
+  }
+  .xc-table {
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+    background: none;
+  }
+  .xc-table tr {
+    min-width: 0;
+  }
+  .xc-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .xc-table tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .xc-table tbody tr {
+    padding: 18px 18px 6px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+  }
+  .xc-table tbody th {
+    width: auto;
+    padding: 0 0 10px;
+    border-bottom: 1px solid var(--line);
+    font-size: 17px;
+  }
+  .xc-table tbody tr:last-child > th {
+    border-bottom: 1px solid var(--line);
+  }
+  .xc-table tbody td {
+    width: auto;
+    padding: 2px 0 2px 12px;
+    border-bottom: 0;
+    border-left: 3px solid var(--exam-color);
+    margin-top: 14px;
+  }
+  .xc-table tbody td::before {
+    content: attr(data-label);
+    content: attr(data-label) / "";
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--navy);
+  }
+  .xc-table tbody tr > td:last-child {
+    margin-bottom: 12px;
+  }
+}
+
+/* "Choose X if" cards. */
+.xc-choose {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: 16px;
+}
+.xc-choose li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  background: white;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--exam-color);
+  border-radius: 20px;
+}
+.xc-choose h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.xc-choose p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.xc-choose .text-link {
+  margin-top: auto;
+  min-height: 44px;
+}
+.xc-more {
+  margin-top: 16px;
+}
+
+@media (max-width: 520px) {
+  .xc-choose li {
+    padding: 20px 18px;
+  }
+}

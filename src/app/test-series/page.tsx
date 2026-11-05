@@ -2,16 +2,17 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, BookOpenCheck, Focus, Route } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { CatalogGrid } from "@/components/catalog-grid";
-import { products, siteConfig } from "@/data/catalog";
+import { paymentsEnabled, products, siteConfig } from "@/data/catalog";
 import { JsonLd } from "@/components/json-ld";
 import { WaitlistForm } from "@/components/waitlist-form";
+import "./test-series.css";
 
 export const metadata = pageMetadata(
   "Mock test series for CUET, IAT, NEST & COMEDK",
-  "Explore our planned exam-focused mock series, test counts, inclusions and proposed pricing for CUET UG, IISER IAT, NEST and COMEDK UGET.",
+  "Full-length mock test series for CUET UG, IISER IAT, NEST and COMEDK UGET for 2027: test counts, what you get, planned prices and a free Test 1 for every exam we cover.",
   "/test-series",
   [
-    "mock test series 2026",
+    "mock test series 2027",
     "CUET UG mock tests",
     "IISER IAT test series",
     "NEST mock tests",
@@ -19,6 +20,7 @@ export const metadata = pageMetadata(
   ],
 );
 export default function TestSeriesPage() {
+  const open = paymentsEnabled();
   return (
     <main id="main-content" tabIndex={-1}>
       <JsonLd
@@ -92,55 +94,46 @@ export default function TestSeriesPage() {
           </div>
         </div>
         <div className="pricing-note">
-          <strong>2026–2027 Admission Cycle Passes · Early Enrolment Open</strong>
+          <strong>2027 admission cycle · {open ? "Enrolment open" : "Enrolment opens soon"}</strong>
           <p>
-            All test passes include full syllabus coverage, official CBT timed practice, and detailed step-by-step solutions valid throughout the entire 2026–2027 admission and counselling cycle.
+            Every series is made of full-length mocks on its exam&apos;s official
+            pattern and marking, taken on an NTA-style test screen, with worked
+            solutions and analysis of time, sections, topics and difficulty after
+            each test. {open ? "" : "Paid enrolment has not opened yet: prices shown are planned, and access details are confirmed when enrolment opens."}
           </p>
         </div>
-        <div
-          style={{
-            background: "#f0fdf4",
-            border: "1px solid #bbf7d0",
-            borderRadius: "14px",
-            padding: "16px 20px",
-            marginBottom: "24px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            flexWrap: "wrap",
-            gap: "12px",
-          }}
-        >
+        <div className="ts-free-banner">
           <div>
-            <strong style={{ color: "#166534", fontSize: "14px", display: "block" }}>
-              🎉 CUET UG Free Full-Length Tests Live Now!
-            </strong>
-            <p style={{ margin: "2px 0 0 0", fontSize: "13px", color: "#15803d" }}>
-              Take Test 1 free in 12 CUET subjects, timed like the real exam. IAT, NEST and COMEDK test series are in preparation — join the waitlist to hear first.
+            <strong>Test 1 is free for every exam we cover and every CUET subject</strong>
+            <p>
+              Take a full-length Test 1 on the real pattern and timing, then see
+              your analysis. Where a Test 1 isn&apos;t open yet, you can ask to be
+              notified.
             </p>
           </div>
-          <Link
-            href="/free-diagnostic"
-            className="button-primary"
-            style={{ padding: "8px 16px", fontSize: "13px" }}
-          >
-            Attempt Free Test Now <ArrowRight size={15} />
+          <Link href="/free-diagnostic" className="button-primary">
+            Take free Test 1 <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
         <CatalogGrid products={products} />
 
-        <WaitlistForm
+        {!open && (
+          <WaitlistForm
           defaultExam="all-access"
-          headline="Join the Priority Series Waitlist"
-          subheadline="Get notified with early enrolment access when full test series for IISER IAT, NEST, COMEDK, and Multi-Exam Passes open."
-          source="test_series_page"
-        />
+          headline="Get told when enrolment opens"
+          subheadline="Paid enrolment opens once payments are set up. Leave your email and we'll tell you when it opens for your exam."
+            source="test_series_page"
+          />
+        )}
 
-        <nav
-          className="related-exam-links"
-          aria-label="Individual series pages"
-          style={{ marginTop: "2rem" }}
-        >
+        <p className="ts-legal-note">
+          Read our{" "}
+          <Link href="/refund-policy" className="text-link">
+            refund and cancellation policy
+          </Link>{" "}
+          before you enrol.
+        </p>
+        <nav className="related-exam-links ts-related" aria-label="Individual series pages">
           {products.map((product) => (
             <Link
               key={product.slug}
@@ -166,13 +159,13 @@ export default function TestSeriesPage() {
                 Icon: Focus,
                 number: "01",
                 title: "Practise for your exam",
-                copy: "Our series plans start with the subjects, question style and timing of the exam you're preparing for.",
+                copy: "Each mock follows the official pattern, timing and marking of the exam you're preparing for.",
               },
               {
                 Icon: BookOpenCheck,
                 number: "02",
                 title: "Understand your mistakes",
-                copy: "Clear solutions and exam-specific feedback are central to our planned preparation experience.",
+                copy: "Worked solutions for every question, plus time, section, topic and difficulty analysis after each test.",
               },
               {
                 Icon: Route,

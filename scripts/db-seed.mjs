@@ -45,33 +45,42 @@ try {
         .insert(examsTable)
         .values({ slug: p.slug, title: p.shortName })
         .onConflictDoNothing();
+      // catalog.ts is the source of truth while payments are off: new products are inserted and
+      // existing ones are brought back in line with it. Publishing and sales flags are left as they are.
+      const catalogFields = {
+        exam: p.shortName,
+        title: p.title,
+        description: p.description,
+        priceMinor: rupeesToMinor(p.price),
+        // Single packs have no compare-at price; the database requires one >= price.
+        compareAtPriceMinor: rupeesToMinor(p.compareAtPrice ?? p.price),
+        mockCount: p.mocks,
+        details: {
+          subtitle: p.subtitle,
+          pattern: p.pattern,
+          features: p.features,
+          color: p.color,
+          accent: p.accent,
+        },
+      };
       await tx
         .insert(productsTable)
         .values({
           slug: p.slug,
-          exam: p.shortName,
-          title: p.title,
-          description: p.description,
-          priceMinor: rupeesToMinor(p.price),
-          compareAtPriceMinor: rupeesToMinor(p.compareAtPrice),
-          mockCount: p.mocks,
+          ...catalogFields,
           published: true,
           featured: false,
           priceStatus: "proposed",
           salesEnabled: false,
-          details: {
-            subtitle: p.subtitle,
-            pattern: p.pattern,
-            features: p.features,
-            color: p.color,
-            accent: p.accent,
-          },
         })
-        .onConflictDoNothing({ target: productsTable.slug });
+        .onConflictDoUpdate({
+          target: productsTable.slug,
+          set: { ...catalogFields, updatedAt: new Date() },
+        });
     }
   });
   console.log(
-    "Seed completed without replacing existing accounts or products.",
+    "Seed completed: accounts left as they were; products inserted or updated from src/data/catalog.ts.",
   );
 } finally {
   await sql.end();

@@ -16,7 +16,7 @@ const patchSchema = z.object({ published: z.boolean() });
 export async function PATCH(request: Request, { params }: { params: Promise<{ testId: string }> }) {
   try {
     requireOrigin(request);
-    const admin = await requireAdmin(["reviewer", "admin"]);
+    const admin = await requireAdmin(["admin"]);
     const { testId } = await params;
     const body = patchSchema.safeParse(await readJson(request, 1024));
     if (!body.success) throw new ApiError(400, "Send { published: true | false }.");

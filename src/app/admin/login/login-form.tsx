@@ -46,7 +46,7 @@ export function LoginForm() {
     }
   }
   return (
-    <form onSubmit={submit} className="mt-8 space-y-4" aria-busy={loading}>
+    <form method="post" onSubmit={submit} className="mt-8 space-y-4" aria-busy={loading}>
       <label className="block">
         <span className="mb-2 block text-sm font-bold">Email address</span>
         <input

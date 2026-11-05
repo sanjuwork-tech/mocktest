@@ -1,0 +1,86 @@
+/* Shared by /privacy, /terms and the grievance section of /about. */
+.legal-copy h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 24px;
+  color: var(--navy);
+}
+.legal-copy ul,
+.legal-copy ol {
+  display: grid;
+  gap: 10px;
+  margin-block: 16px;
+  padding-left: 22px;
+  color: #43516d;
+  line-height: 1.7;
+}
+.legal-copy ul {
+  list-style: disc;
+}
+.legal-copy ol {
+  list-style: decimal;
+}
+.legal-copy a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+.legal-copy a:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.legal-toc {
+  margin-top: 28px;
+  padding: 20px 22px;
+  border-radius: 14px;
+  background: var(--mist);
+}
+.legal-toc h2 {
+  font-size: 16px;
+  margin: 0;
+}
+.legal-toc ol {
+  gap: 2px;
+  margin-bottom: 0;
+}
+.legal-toc a {
+  display: inline-block;
+  padding-block: 6px;
+}
+.legal-list {
+  display: grid;
+  gap: 12px;
+  margin-block: 16px;
+}
+.legal-list > div {
+  padding: 14px 16px;
+  border: 1px solid #d8dfeb;
+  border-radius: 12px;
+  background: #fff;
+}
+.legal-list dt {
+  font-weight: 700;
+  color: var(--navy);
+  overflow-wrap: anywhere;
+}
+.legal-list dd {
+  margin: 6px 0 0;
+  color: #43516d;
+  line-height: 1.7;
+}
+.legal-callout {
+  margin-block: 16px;
+  padding: 18px 20px;
+  border-radius: 14px;
+  border: 1px solid #d8dfeb;
+  border-left: 5px solid var(--blue);
+  background: var(--paper);
+}
+.legal-callout p {
+  margin-block: 8px;
+}
+.reading-copy.legal-copy p.legal-note {
+  font-size: 14px;
+}

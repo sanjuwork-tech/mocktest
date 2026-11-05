@@ -19,7 +19,7 @@ export async function POST(
   try {
     requireOrigin(request);
     // Only reviewers and administrators can change academic review status
-    const admin = await requireAdmin(["reviewer", "admin"]);
+    const admin = await requireAdmin(["admin"]);
     const { id: revisionId } = await params;
 
     const body = await readJson(request, 16 * 1024);

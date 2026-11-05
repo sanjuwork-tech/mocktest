@@ -4,7 +4,7 @@ export function isStaff(role: string): role is AdminRole {
   return ["admin", "reviewer", "editor"].includes(role);
 }
 export function canPublish(role: string) {
-  return role === "admin" || role === "reviewer";
+  return role === "admin";
 }
 export function normalizeEmail(email: string) {
   return email.trim().toLowerCase();

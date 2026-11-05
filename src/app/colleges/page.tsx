@@ -5,6 +5,7 @@ import { CollegesShowcase } from "@/components/colleges-showcase";
 import { JsonLd } from "@/components/json-ld";
 import { collegesData, COLLEGES_CHECKED_ON } from "@/data/colleges";
 import { siteConfig } from "@/data/catalog";
+import "@/components/guide-page.css";
 
 export const metadata = pageMetadata(
   "Colleges via CUET, IAT, NEST & COMEDK",
@@ -18,26 +19,46 @@ export default function CollegesPage() {
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "ItemList",
-          name: "Institutes admitting through CUET UG, IISER IAT, NISER NEST and COMEDK UGET",
-          url: `${siteConfig.url}/colleges`,
-          dateModified: COLLEGES_CHECKED_ON,
-          numberOfItems: collegesData.length,
-          itemListElement: collegesData.map((college, i) => ({
-            "@type": "ListItem",
-            position: i + 1,
-            item: {
-              "@type": "CollegeOrUniversity",
-              name: college.name,
-              url: college.officialUrl,
-              foundingDate: String(college.established),
-              address: { "@type": "PostalAddress", addressLocality: college.location, addressRegion: college.state, addressCountry: "IN" },
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+                { "@type": "ListItem", position: 2, name: "Colleges", item: `${siteConfig.url}/colleges` },
+              ],
             },
-          })),
+            {
+              "@type": "ItemList",
+              name: "Institutes admitting through CUET UG, IISER IAT, NISER NEST and COMEDK UGET",
+              url: `${siteConfig.url}/colleges`,
+              dateModified: COLLEGES_CHECKED_ON,
+              numberOfItems: collegesData.length,
+              itemListElement: collegesData.map((college, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                item: {
+                  "@type": "CollegeOrUniversity",
+                  name: college.name,
+                  url: college.officialUrl,
+                  foundingDate: String(college.established),
+                  address: {
+                    "@type": "PostalAddress",
+                    addressLocality: college.location,
+                    addressRegion: college.state,
+                    addressCountry: "IN",
+                  },
+                },
+              })),
+            },
+          ],
         }}
       />
       <section className="guide-hero page-shell">
-        <p className="eyebrow">Colleges</p>
+        <nav aria-label="Breadcrumb" className="exam-breadcrumb">
+          <Link href="/">Home</Link>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Colleges</span>
+        </nav>
         <h1>
           Where each exam
           <br />
@@ -53,7 +74,7 @@ export default function CollegesPage() {
             Read the exam guides <ArrowRight size={16} />
           </Link>
           <Link href="/exams/compare" className="text-link">
-            Compare the four exams →
+            Compare the four exams <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
       </section>

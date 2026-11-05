@@ -3,6 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
+  // /resources was merged into the after-Class-12 hub on 5 Nov 2026; permanent (308) keeps old links working.
+  async redirects() {
+    return [{ source: "/resources", destination: "/exams/after-class-12", permanent: true }];
+  },
   async headers() {
     return [
       ...(process.env.VERCEL_ENV === "preview"

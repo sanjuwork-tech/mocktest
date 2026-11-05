@@ -22,7 +22,7 @@ export async function POST(
   try {
     requireOrigin(request);
     // Strict role check: only reviewers and administrators can publish tests
-    const admin = await requireAdmin(["reviewer", "admin"]);
+    const admin = await requireAdmin(["admin"]);
     const { id: testId } = await params;
 
     const db = requireDb();

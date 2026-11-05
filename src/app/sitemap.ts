@@ -9,6 +9,16 @@ import { previousPapers } from "@/data/previous-papers";
 // lastModified must reflect when content actually changed, never the build time.
 const SITE_CONTENT_UPDATED = "2026-10-28";
 const LEGAL_UPDATED = "2026-09-26";
+// Home, after-class-12 and the tools hub changed with the /resources merge and journey pass.
+const JOURNEY_UPDATED = "2026-11-05";
+const REFUND_POLICY_UPDATED = "2026-11-05";
+// Predictor pages are being built in parallel; the integrator confirms each URL exists before release.
+const PREDICTORS = [
+  "/tools/jee-main-rank-predictor",
+  "/tools/jee-main-college-predictor",
+  "/tools/neet-rank-predictor",
+  "/tools/neet-college-predictor",
+];
 
 const latest = (...dates: string[]) => dates.sort().at(-1)!;
 
@@ -22,19 +32,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   return [
-    page("", SITE_CONTENT_UPDATED, 1.0),
+    page("", JOURNEY_UPDATED, 1.0),
     page("/exams", examsUpdated, 0.9),
     page("/free-diagnostic", SITE_CONTENT_UPDATED, 0.9),
     page("/exams/compare", SITE_CONTENT_UPDATED, 0.8),
     page("/exams/eligibility", SITE_CONTENT_UPDATED, 0.8),
-    page("/exams/after-class-12", SITE_CONTENT_UPDATED, 0.8),
+    page("/exams/after-class-12", JOURNEY_UPDATED, 0.8),
     page("/colleges", COLLEGES_CHECKED_ON, 0.8),
     page("/blog", blogUpdated, 0.8),
     page("/test-series", SITE_CONTENT_UPDATED, 0.7),
     page("/about", SITE_CONTENT_UPDATED, 0.5),
     page("/privacy", LEGAL_UPDATED, 0.3),
     page("/terms", LEGAL_UPDATED, 0.3),
+    page("/refund-policy", REFUND_POLICY_UPDATED, 0.3),
+    page("/tools", JOURNEY_UPDATED, 0.8),
     page("/tools/score-calculator", SITE_CONTENT_UPDATED, 0.8),
+    ...PREDICTORS.map((path) => page(path, JOURNEY_UPDATED, 0.8)),
     ...exams.map((exam) => page(`/exams/${exam.slug}`, exam.checkedOn, 0.9)),
     ...syllabi.map((s) => page(`/exams/${s.exam}/syllabus`, s.checkedOn, 0.8)),
     ...previousPapers.map((p) => page(`/exams/${p.exam}/previous-year-papers`, p.checkedOn, 0.8)),

@@ -109,7 +109,7 @@ export default async function ExamPage({ params }: Props) {
             {cta.label} <ArrowRight size={16} />
           </Link>
           <Link href="/exams/compare" className="text-link">
-            Compare all four exams →
+            Compare all four exams <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </div>
         <nav className="exam-quicklinks" aria-label={`${exam.name} resources`}>
@@ -141,7 +141,7 @@ export default async function ExamPage({ params }: Props) {
             </p>
           </div>
           <Link href={cta.href} className="button-light">
-            {freeTestLive ? "Start free test" : "Join the waitlist"} <ArrowRight size={16} />
+            {freeTestLive ? "Take free Test 1" : "Join the waitlist"} <ArrowRight size={16} />
           </Link>
         </section>
 
@@ -151,7 +151,7 @@ export default async function ExamPage({ params }: Props) {
           <p className="mt-4">{exam.notification.detail}</p>
           <OfficialAnchor link={exam.notification.source} className="text-link mt-4" />
           <Link href="/exams#application-checklist" className="text-link mt-4">
-            Before you apply: read the application checklist →
+            Before you apply: read the application checklist <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </section>
 
@@ -180,11 +180,11 @@ export default async function ExamPage({ params }: Props) {
             .filter((other) => other.slug !== slug)
             .map((other) => (
               <Link key={other.slug} className="text-link" href={`/exams/${other.slug}`}>
-                {other.name} guide →
+                {other.name} guide <ArrowRight size={16} aria-hidden="true" />
               </Link>
             ))}
           <Link className="text-link" href="/exams/eligibility">
-            Eligibility for all four exams →
+            Eligibility for all four exams <ArrowRight size={16} aria-hidden="true" />
           </Link>
         </nav>
       </div>

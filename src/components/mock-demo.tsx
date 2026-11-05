@@ -1,8 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore, type CSSProperties } from "react";
 import { ArrowRight, Clock3, Lightbulb, Pause, Play, Send } from "lucide-react";
+import "./mock-demo.css";
+
+/** Per-frame bar sizes are the one dynamic value, passed as a custom property (see mock-demo.css). */
+const fill = (percent: number) => ({ "--demo-fill": `${percent}%` }) as CSSProperties;
 
 // Sample data only. Each exam's numbers follow its official marking:
 // CUET 36×5 − 8 = 172/250 · IAT 38×4 − 10 = 142/240 · NEST best three of 39/43/21/35 = 117/180 · COMEDK 128/180.
@@ -148,7 +152,7 @@ export function MockDemo() {
     <section className="mock-demo" aria-labelledby="mock-demo-title">
       <div className="mock-demo-head">
         <p className="eyebrow">See it in action</p>
-        <h2 id="mock-demo-title">From first question to a full analysis — for every exam</h2>
+        <h2 id="mock-demo-title">From first question to a full analysis — for every exam we cover</h2>
         <p className="section-copy">A walk-through of CUET UG, IISER IAT, NISER NEST and COMEDK UGET mocks. Demo with sample data.</p>
       </div>
 
@@ -182,7 +186,7 @@ export function MockDemo() {
         )}
       </div>
       <div className="demo-progress" aria-hidden="true">
-        <span style={{ width: `${(t / STEPS[step].ms) * 100}%` }} />
+        <span style={fill((t / STEPS[step].ms) * 100)} />
       </div>
       <p className="demo-caption" aria-live="polite">
         {demo.label}: {STEPS[step].caption}
@@ -302,7 +306,7 @@ function ResultsScene({ demo, t }: { demo: Demo; t: number }) {
                 {sec.counted ? "" : " (dropped)"}
               </em>
               <b>
-                <i style={{ width: `${(Math.max(0, sec.score) / sec.max) * 100 * p}%` }} />
+                <i style={fill((Math.max(0, sec.score) / sec.max) * 100 * p)} />
               </b>
               <small>{sec.score}</small>
             </div>
@@ -312,9 +316,9 @@ function ResultsScene({ demo, t }: { demo: Demo; t: number }) {
       <div className="res-card res-time">
         <span>Time on every question · ideal {demo.idealSec}s</span>
         <div className="mini-time">
-          <em className="mini-target" style={{ bottom: `${(1 / maxPace) * 100}%` }} />
+          <em className="mini-target" style={fill((1 / maxPace) * 100)} />
           {PACE.map((v, i) => (
-            <i key={i} className={`mq-${PACE_QUALITY[i]}`} style={{ height: `${(v / maxPace) * 100 * p}%` }} />
+            <i key={i} className={`mq-${PACE_QUALITY[i]}`} style={fill((v / maxPace) * 100 * p)} />
           ))}
         </div>
         <div className="res-quality">
@@ -328,7 +332,7 @@ function ResultsScene({ demo, t }: { demo: Demo; t: number }) {
             ] as const
           ).map(([k, label, n]) => (
             <div key={k}>
-              <i className={`mq-${k}`} style={{ width: `${(n / qualityTotal) * 100 * p}%` }} />
+              <i className={`mq-${k}`} style={fill((n / qualityTotal) * 100 * p)} />
               <small>
                 {label} · {n}
               </small>

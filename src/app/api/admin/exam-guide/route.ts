@@ -14,7 +14,7 @@ const VERIFIED = "exam_guide.verified";
 export async function GET(request: Request) {
   try {
     requireOrigin(request);
-    await requireAdmin(["editor", "reviewer", "admin"]);
+    await requireAdmin(["editor", "admin"]);
 
     // Verifications are kept in the audit log, so they survive restarts and show who checked what.
     const rows = await requireDb()
@@ -37,7 +37,7 @@ export async function GET(request: Request) {
 export async function PATCH(request: Request) {
   try {
     requireOrigin(request);
-    const admin = await requireAdmin(["reviewer", "admin"]);
+    const admin = await requireAdmin(["admin"]);
 
     const parsed = verifySchema.safeParse(await readJson(request));
     if (!parsed.success) throw new ApiError(400, "Invalid request.");

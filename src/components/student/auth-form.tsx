@@ -4,6 +4,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { ArrowRight, BookOpenCheck, ChartNoAxesCombined, Loader2, ShieldCheck } from "lucide-react";
 import { api } from "./api";
+import "./auth-consent.css";
 
 const GOOGLE_ERRORS: Record<string, string> = {
   invalid_state: "That sign-in link expired. Please try again.",
@@ -27,6 +28,10 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  // Sign-up consent (DPDP Act 2023 s.6 and s.9): age basis, a parent's email for under-18s, and agreement.
+  const [ageBasis, setAgeBasis] = useState<"" | "adult" | "guardian">("");
+  const [guardianEmail, setGuardianEmail] = useState("");
+  const [acceptTerms, setAcceptTerms] = useState(false);
   const [busy, setBusy] = useState(false);
   const errorCode = params.get("error");
   const [error, setError] = useState(errorCode ? (GOOGLE_ERRORS[errorCode] ?? GOOGLE_ERRORS.google_failed) : "");
@@ -38,7 +43,15 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
     try {
       await api(mode === "register" ? "/api/auth/register" : "/api/auth/login", {
         method: "POST",
-        json: mode === "register" ? { name, email, password } : { email, password },
+        json:
+          mode === "register"
+            ? {
+                name,
+                email,
+                password,
+                consent: { ageBasis, guardianEmail: ageBasis === "guardian" ? guardianEmail : undefined, acceptTerms },
+              }
+            : { email, password },
       });
       router.replace(next);
     } catch (e) {
@@ -100,7 +113,7 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
           {upgrading && registering && (
             <p className="student-muted">Your tests and analysis from this guest session move to the new account.</p>
           )}
-          <form onSubmit={submit} className="auth-form">
+          <form method="post" onSubmit={submit} className="auth-form">
             {registering && (
               <label>
                 Full name
@@ -124,6 +137,59 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
               />
               {registering && <small>At least 8 characters.</small>}
             </label>
+            {registering && (
+              <fieldset className="consent-fieldset">
+                <legend>Your age</legend>
+                <label className="consent-choice">
+                  <input
+                    type="radio"
+                    name="ageBasis"
+                    value="adult"
+                    checked={ageBasis === "adult"}
+                    onChange={() => setAgeBasis("adult")}
+                    required
+                  />
+                  <span>I am 18 or older.</span>
+                </label>
+                <label className="consent-choice">
+                  <input
+                    type="radio"
+                    name="ageBasis"
+                    value="guardian"
+                    checked={ageBasis === "guardian"}
+                    onChange={() => setAgeBasis("guardian")}
+                  />
+                  <span>I am under 18, and my parent or guardian agrees to this account.</span>
+                </label>
+                {ageBasis === "guardian" && (
+                  <label className="consent-guardian">
+                    Parent or guardian&apos;s email
+                    <input
+                      type="email"
+                      value={guardianEmail}
+                      onChange={(e) => setGuardianEmail(e.target.value)}
+                      autoComplete="off"
+                      required
+                      maxLength={200}
+                      aria-describedby="guardian-email-help"
+                    />
+                    <small id="guardian-email-help">
+                      We keep this with your consent record so we can confirm with them. Please show them our{" "}
+                      <Link href="/privacy#children">Privacy Policy</Link>.
+                    </small>
+                  </label>
+                )}
+              </fieldset>
+            )}
+            {registering && (
+              <label className="consent-choice consent-terms">
+                <input type="checkbox" checked={acceptTerms} onChange={(e) => setAcceptTerms(e.target.checked)} required />
+                <span>
+                  I agree to the <Link href="/terms">Terms</Link> and have read the{" "}
+                  <Link href="/privacy">Privacy Policy</Link>, including how my test answers are used.
+                </span>
+              </label>
+            )}
             {error && (
               <p className="student-warning" role="alert">
                 {error}
@@ -145,7 +211,7 @@ export function StudentAuthForm({ guestEnabled = false }: { guestEnabled?: boole
           )}
           <p className="student-muted">
             By continuing you agree to our <Link href="/terms">Terms</Link> and <Link href="/privacy">Privacy Policy</Link>.
-            Students under 18 need a parent or guardian&apos;s consent.
+            Students under 18 need a parent or guardian&apos;s consent, including for guest sessions.
           </p>
         </section>
       </div>

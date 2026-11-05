@@ -5,6 +5,7 @@ import { useState } from "react";
 import { CheckCircle2, CircleHelp, XCircle } from "lucide-react";
 import { checkEligibility, type EligibilityInput, type Subject } from "@/lib/eligibility";
 import { EXAMS, EXAM_SLUGS } from "@/lib/exams/catalog";
+import "./eligibility-checker.css";
 
 const SUBJECTS: { id: Subject; label: string }[] = [
   { id: "physics", label: "Physics" },
@@ -36,7 +37,7 @@ export function EligibilityChecker() {
     set({ subjects: input.subjects.includes(subject) ? input.subjects.filter((s) => s !== subject) : [...input.subjects, subject] });
 
   return (
-    <section className="elig-checker" aria-labelledby="elig-checker-title">
+    <section id="checker" className="elig-checker" aria-labelledby="elig-checker-title">
       <h2 id="elig-checker-title">Check which exams you can take</h2>
       <p className="elig-note">
         Based on the official 2026 rules. The 2027 bulletins aren&apos;t out yet, so passing-year windows are moved forward
@@ -69,21 +70,23 @@ export function EligibilityChecker() {
           <legend>Your Class 12 subjects</legend>
           {SUBJECTS.map((s) => (
             <label key={s.id} className="elig-check">
-              <input type="checkbox" checked={input.subjects.includes(s.id)} onChange={() => toggle(s.id)} /> {s.label}
+              <input type="checkbox" checked={input.subjects.includes(s.id)} onChange={() => toggle(s.id)} />
+              {s.label}
             </label>
           ))}
         </fieldset>
         <fieldset>
           <legend>Category</legend>
           <label className="elig-check">
-            <input type="checkbox" checked={input.reserved} onChange={(e) => set({ reserved: e.target.checked })} /> SC, ST or PwD
+            <input type="checkbox" checked={input.reserved} onChange={(e) => set({ reserved: e.target.checked })} />
+            SC, ST or PwD
           </label>
           <label className="elig-check">
             <input
               type="checkbox"
               checked={input.karnatakaReserved}
               onChange={(e) => set({ karnatakaReserved: e.target.checked })}
-            />{" "}
+            />
             Karnataka SC, ST or OBC
           </label>
         </fieldset>

@@ -1,31 +1,25 @@
 "use client";
 
 import { useState } from "react";
-import { Share2, Check, Copy, MessageCircle, Send } from "lucide-react";
+import { Check, Copy, MessageCircle, Send, Share2 } from "lucide-react";
+import "./social-share.css";
 
 type Props = {
   title: string;
-  url?: string;
+  /** Absolute canonical URL of the page being shared. */
+  url: string;
   description?: string;
 };
 
-export function SocialShare({ title, url, description }: Props) {
+export function SocialShare({ title, url }: Props) {
   const [copied, setCopied] = useState<"idle" | "done" | "failed">("idle");
 
-  // Fallback to window.location.href in browser if url not explicitly passed
-  const shareUrl =
-    url ||
-    (typeof window !== "undefined"
-      ? window.location.href
-      : "https://ourmocks.com");
-  const encodedUrl = encodeURIComponent(shareUrl);
-  const encodedText = encodeURIComponent(
-    `${title} — Check out this detailed guide on OurMocks:\n${shareUrl}`,
-  );
+  const encodedUrl = encodeURIComponent(url);
+  const encodedText = encodeURIComponent(`${title}: a guide on OurMocks\n${url}`);
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(shareUrl);
+      await navigator.clipboard.writeText(url);
       setCopied("done");
     } catch {
       setCopied("failed");
@@ -33,113 +27,38 @@ export function SocialShare({ title, url, description }: Props) {
     setTimeout(() => setCopied("idle"), 2500);
   };
 
+  const newTab = <span className="sr-only"> (opens in a new tab)</span>;
+
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        flexWrap: "wrap",
-        gap: "12px",
-        padding: "16px 20px",
-        background: "#f8fafc",
-        border: "1px solid #e2e8f0",
-        borderRadius: "14px",
-        margin: "24px 0",
-      }}
-    >
-      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-        <Share2 size={17} style={{ color: "var(--blue, #1f5eff)" }} />
-        <strong style={{ fontSize: "13px", color: "#0f172a" }}>
-          Share this with fellow aspirants
-        </strong>
-      </div>
-
-      <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
-        {/* WhatsApp Share */}
-        <a
-          href={`https://api.whatsapp.com/send?text=${encodedText}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "6px",
-            background: "#25D366",
-            color: "#ffffff",
-            padding: "6px 14px",
-            borderRadius: "999px",
-            fontSize: "12px",
-            fontWeight: 600,
-            textDecoration: "none",
-          }}
-        >
-          <MessageCircle size={14} /> WhatsApp
+    <div className="share-box">
+      <p className="share-title">
+        <Share2 size={18} aria-hidden="true" /> Share this with a friend preparing too
+      </p>
+      <div className="share-actions">
+        <a className="share-button" href={`https://api.whatsapp.com/send?text=${encodedText}`} target="_blank" rel="noopener noreferrer">
+          <MessageCircle size={16} aria-hidden="true" /> WhatsApp{newTab}
         </a>
-
-        {/* Telegram Share */}
         <a
+          className="share-button"
           href={`https://t.me/share/url?url=${encodedUrl}&text=${encodeURIComponent(title)}`}
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "6px",
-            background: "#0088cc",
-            color: "#ffffff",
-            padding: "6px 14px",
-            borderRadius: "999px",
-            fontSize: "12px",
-            fontWeight: 600,
-            textDecoration: "none",
-          }}
         >
-          <Send size={13} /> Telegram
+          <Send size={16} aria-hidden="true" /> Telegram{newTab}
         </a>
-
-        {/* X / Twitter Share */}
         <a
+          className="share-button"
           href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodedUrl}`}
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "5px",
-            background: "#0f172a",
-            color: "#ffffff",
-            padding: "6px 12px",
-            borderRadius: "999px",
-            fontSize: "12px",
-            fontWeight: 600,
-            textDecoration: "none",
-          }}
         >
-          𝕏 Share
+          Share on X{newTab}
         </a>
-
-        {/* Copy Link Button */}
-        <button
-          type="button"
-          onClick={handleCopy}
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "5px",
-            background: copied === "done" ? "#dcfce7" : "#ffffff",
-            color: copied === "done" ? "#15803d" : "#334155",
-            border: "1px solid #cbd5e1",
-            padding: "6px 12px",
-            borderRadius: "999px",
-            fontSize: "12px",
-            fontWeight: 600,
-            cursor: "pointer",
-            transition: "all 0.2s",
-          }}
-        >
-          {copied === "done" ? <Check size={14} /> : <Copy size={14} />}
-          {copied === "done" ? "Link copied" : copied === "failed" ? "Copy failed — copy from the address bar" : "Copy link"}
+        <button type="button" className={`share-button${copied === "done" ? " is-done" : ""}`} onClick={handleCopy}>
+          {copied === "done" ? <Check size={16} aria-hidden="true" /> : <Copy size={16} aria-hidden="true" />}
+          <span aria-live="polite">
+            {copied === "done" ? "Link copied" : copied === "failed" ? "Couldn't copy. Use the address bar" : "Copy link"}
+          </span>
         </button>
       </div>
     </div>

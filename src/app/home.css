@@ -1,0 +1,104 @@
+/* Home page. Prefix: home- */
+.home-hero h1 {
+  font-size: clamp(2.6rem, 6vw, 5rem);
+}
+.home-status {
+  margin-top: 24px;
+  max-width: 34rem;
+  padding: 12px 16px;
+  border-left: 4px solid var(--lime);
+  border-radius: 12px;
+  background: white;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.home-status strong {
+  color: var(--navy);
+}
+.home-pathway-name {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+}
+.home-pathway-copy {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.home-exam-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+.home-exam-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--exam-color);
+  border-radius: 20px;
+  background: white;
+}
+.home-exam-card .card-category,
+.ac12-exam .card-category {
+  font-size: 12px;
+}
+.home-exam-card h3 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.home-exam-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+.home-exam-card .home-exam-meta {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+.home-exam-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 20px;
+  margin-top: auto;
+}
+.home-exam-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.home-closing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  flex-shrink: 0;
+}
+@media (min-width: 640px) {
+  .home-exam-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1100px) {
+  .home-exam-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 767px) {
+  .home-exams .section-heading {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+  }
+}

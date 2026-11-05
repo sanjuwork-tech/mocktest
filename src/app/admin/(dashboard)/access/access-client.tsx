@@ -69,9 +69,10 @@ export function AccessClient({
       <p className="eyebrow mt-8">OurMocks · Account administration</p>
       <h1 className="text-4xl font-bold mt-3">Team, access & activity</h1>
       <p className="my-5 max-w-3xl leading-7">
-        Editors manage drafts. Reviewers can publish preparation series. Admins
-        manage accounts and revoke sessions. Passwords are stored as protected
-        hashes, never as readable text.
+        Editors upload papers and manage drafts. Reviewers are subject experts:
+        they can only sign in to Expert review and mark questions verified or
+        flag issues. Admins publish, manage accounts and revoke sessions.
+        Passwords are stored as protected hashes, never as readable text.
       </p>
       {message && (
         <p role="status" className="p-4 bg-green-50 rounded-xl my-4">
@@ -85,7 +86,7 @@ export function AccessClient({
       )}
       <section className="rounded-2xl border border-navy/20 bg-white p-6 my-8">
         <h2 className="text-2xl font-bold">Add a team member</h2>
-        <form onSubmit={create} className="grid sm:grid-cols-2 gap-4 mt-5">
+        <form method="post" onSubmit={create} className="grid sm:grid-cols-2 gap-4 mt-5">
           <label>
             Name
             <input
@@ -114,7 +115,7 @@ export function AccessClient({
               className="border rounded-lg p-3 w-full mt-2"
             >
               <option value="editor">Editor — draft content</option>
-              <option value="reviewer">Reviewer — publish content</option>
+              <option value="reviewer">Reviewer — expert question review only</option>
               <option value="admin">Admin — manage access</option>
             </select>
           </label>

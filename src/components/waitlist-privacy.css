@@ -1,0 +1,21 @@
+/* Privacy note and visible focus for the waitlist form (dark navy panel). */
+.waitlist-privacy-note {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.82);
+}
+.waitlist-privacy-note a {
+  color: var(--lime);
+  text-decoration: underline;
+  display: inline-block;
+  padding-block: 4px;
+}
+#waitlist select:focus-visible,
+#waitlist input:focus-visible,
+#waitlist button:focus-visible,
+.waitlist-privacy-note a:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 2px;
+}

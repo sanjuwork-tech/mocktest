@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { EXAMS, EXAM_SLUGS, SUBJECT_NAMES, type ExamSlug, type SubjectId } from "@/lib/exams/catalog";
 import { calculateScore, sectionsFor } from "@/lib/score-calculator";
+import "./score-calculator.css";
 
 type Counts = Record<string, { correct: string; wrong: string }>;
 
@@ -36,9 +37,9 @@ export function ScoreCalculator({ initialExam }: { initialExam?: string }) {
 
   return (
     <div className="calc">
-      <div className="calc-tabs" role="tablist" aria-label="Exam">
+      <div className="calc-tabs" role="group" aria-label="Exam">
         {EXAM_SLUGS.map((slug) => (
-          <button key={slug} role="tab" aria-selected={exam === slug} onClick={() => setExam(slug)}>
+          <button key={slug} type="button" aria-pressed={exam === slug} onClick={() => setExam(slug)}>
             {EXAMS[slug].shortName}
           </button>
         ))}

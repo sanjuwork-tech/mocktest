@@ -14,7 +14,7 @@ export const runtime = "nodejs";
 export async function GET(request: Request) {
   try {
     requireOrigin(request);
-    await requireAdmin(["editor", "reviewer", "admin"]);
+    await requireAdmin(["editor", "admin"]);
 
     const url = new URL(request.url);
     const subject = url.searchParams.get("subject");

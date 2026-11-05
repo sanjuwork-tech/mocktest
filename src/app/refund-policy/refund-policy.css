@@ -1,0 +1,17 @@
+/* /refund-policy */
+.rp-list {
+  display: grid;
+  gap: 8px;
+  padding-left: 1.25rem;
+  list-style: disc;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #43516d;
+}
+.reading-copy .rp-list + p {
+  margin-top: 16px;
+}
+.reading-copy a.text-link:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}

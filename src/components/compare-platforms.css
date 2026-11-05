@@ -1,0 +1,35 @@
+/* Home comparison table: readable at 360px. Prefix: cmp- */
+.cmp-table .cmp-no {
+  color: var(--ink-3);
+}
+.cmp-hint {
+  display: none;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+}
+@media (max-width: 767px) {
+  .cmp-hint {
+    display: block;
+  }
+  .cmp-scroll .cmp-table {
+    min-width: 640px;
+    overflow: visible;
+    border-radius: 12px;
+  }
+  /* Keep the feature names in view while the platform columns scroll. */
+  .cmp-scroll .cmp-table th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    width: 150px;
+    min-width: 150px;
+    background: white;
+    box-shadow: 1px 0 0 var(--line);
+    font-size: 13px;
+  }
+  .cmp-scroll .cmp-table thead th:first-child {
+    background: var(--paper);
+  }
+}

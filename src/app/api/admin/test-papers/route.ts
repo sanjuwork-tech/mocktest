@@ -19,7 +19,7 @@ const uploadSchema = z.object({
 /** GET /api/admin/test-papers — every catalog test, published or not. */
 export async function GET() {
   try {
-    await requireAdmin(["editor", "reviewer", "admin"]);
+    await requireAdmin(["editor", "admin"]);
     const db = requireDb();
     const versions = db
       .select({
@@ -54,12 +54,12 @@ export async function GET() {
 
 /**
  * POST /api/admin/test-papers — validate (dryRun) or import one test paper.
- * Importing always creates a new immutable version; publishing needs the reviewer or admin role.
+ * Importing always creates a new immutable version; publishing needs the admin role.
  */
 export async function POST(request: Request) {
   try {
     requireOrigin(request);
-    const admin = await requireAdmin(["editor", "reviewer", "admin"]);
+    const admin = await requireAdmin(["editor", "admin"]);
     const body = uploadSchema.safeParse(await readJson(request, 5 * 1024 * 1024));
     if (!body.success) throw new ApiError(400, "Send { paper, publish, dryRun }.");
 
@@ -88,7 +88,7 @@ export async function POST(request: Request) {
     if (body.data.dryRun) return json({ ok: true, dryRun: true, summary });
 
     if (body.data.publish && !canPublish(admin.role))
-      throw new ApiError(403, "Only reviewers and admins can publish. Import it as a draft instead.");
+      throw new ApiError(403, "Only admins can publish. Import it as a draft instead.");
 
     const result = await importTestPaper(requireDb(), parsed.data, blueprint, admin.userId, {
       publish: body.data.publish,

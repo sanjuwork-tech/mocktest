@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { Bell, CheckCircle2, Loader2, Send } from "lucide-react";
+import "./waitlist-privacy.css";
 
 interface WaitlistFormProps {
   defaultExam?: string;
@@ -162,7 +164,6 @@ export function WaitlistForm({
                     background: "rgba(255,255,255,0.1)",
                     color: "#ffffff",
                     fontSize: "14px",
-                    outline: "none",
                   }}
                 >
                   {EXAM_OPTIONS.map((opt) => (
@@ -187,6 +188,7 @@ export function WaitlistForm({
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
+                  aria-describedby="waitlist-privacy-note"
                   style={{
                     width: "100%",
                     padding: "12px 14px",
@@ -195,9 +197,12 @@ export function WaitlistForm({
                     background: "rgba(255,255,255,0.1)",
                     color: "#ffffff",
                     fontSize: "14px",
-                    outline: "none",
                   }}
                 />
+                <small id="waitlist-privacy-note" className="waitlist-privacy-note">
+                  We use this email only to tell you when your chosen series opens, and delete it on request. Under 18?
+                  Ask a parent first. <Link href="/privacy#waitlist-data">Privacy Policy</Link>
+                </small>
               </div>
             </div>
 

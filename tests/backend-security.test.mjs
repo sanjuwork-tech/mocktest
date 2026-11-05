@@ -35,7 +35,7 @@ test("staff roles and publication permissions are explicit", () => {
   assert.ok(isStaff("editor"));
   assert.ok(!isStaff("student"));
   assert.ok(!canPublish("editor"));
-  assert.ok(canPublish("reviewer"));
+  assert.ok(!canPublish("reviewer"));
   assert.ok(canPublish("admin"));
   assert.ok(!canPublish("unknown"));
 });

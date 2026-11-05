@@ -1,11 +1,15 @@
 import Link from "next/link";
-import { ArrowRight, Compass, GraduationCap, Microscope, Cpu, Briefcase, Sparkles, CheckCircle2 } from "lucide-react";
+import { ArrowRight, CalendarDays, CheckCircle2 } from "lucide-react";
 import { pageMetadata } from "@/lib/page-metadata";
 import { JsonLd } from "@/components/json-ld";
+import { OfficialAnchor } from "@/components/exam-guide-article";
 import { siteConfig } from "@/data/catalog";
 import { blogPosts } from "@/data/blog";
+import { exams, formatReviewDate } from "@/data/exams";
+import "./after-class-12.css";
 
-const POPULAR_QUESTION_SLUGS = [
+// Hub for the "after 12th" cluster: every guide below links back here, and this page links to each one.
+const AFTER_12TH_GUIDES = [
   "entrance-exams-after-12th-other-than-jee-neet",
   "best-colleges-other-than-iit-nit-nirf-2025",
   "courses-after-12th-science-pcm-without-jee",
@@ -18,200 +22,325 @@ const POPULAR_QUESTION_SLUGS = [
   "time-per-question-analysis-mock-tests",
 ];
 
-const popularQuestions = POPULAR_QUESTION_SLUGS.map((slug) => blogPosts.find((post) => post.slug === slug)).filter(
+const guides = AFTER_12TH_GUIDES.map((slug) => blogPosts.find((post) => post.slug === slug)).filter(
   (post): post is (typeof blogPosts)[number] => post !== undefined,
 );
 
+const PATH = "/exams/after-class-12";
+const URL_ = `${siteConfig.url}${PATH}`;
+const PUBLISHED = "2026-10-14";
+// Content last changed when /resources was merged in; the exam facts below carry their own checked dates.
+const UPDATED = "2026-11-05";
+const lastChecked = exams.map((e) => e.checkedOn).sort().at(-1)!;
+
+const byStream = [
+  {
+    stream: "Science with Maths (PCM)",
+    exams: "CUET UG, IISER IAT, NISER NEST, COMEDK UGET",
+    guide: "courses-after-12th-science-pcm-without-jee",
+  },
+  {
+    stream: "Science with Biology (PCB)",
+    exams: "CUET UG, IISER IAT, NISER NEST",
+    guide: "options-after-12th-pcb-without-neet",
+  },
+  { stream: "Commerce", exams: "CUET UG", guide: "options-after-12th-commerce" },
+  { stream: "Arts and Humanities", exams: "CUET UG", guide: "options-after-12th-arts-humanities" },
+];
+
+// The answers below are shown word for word in the visible FAQ and in the FAQPage schema.
+const FAQS = [
+  {
+    q: "Which entrance exams can I take after Class 12 other than JEE and NEET?",
+    a: "CUET UG (for central, state and many private universities, open to every stream), IISER IAT and NISER NEST (research-focused science degrees) and COMEDK UGET (private engineering colleges in Karnataka). There are others too, such as CLAT, BITSAT, UCEED and NIFT; our stream-by-stream guide lists them with official links.",
+  },
+  {
+    q: "Which of these exams can Commerce and Arts students take?",
+    a: "CUET UG. Its domain papers include Accountancy, Business Studies, Economics, History, Political Science, Geography and more, and it leads to all 48 Central Universities. IAT and NEST need science subjects, and COMEDK needs Physics and Mathematics.",
+  },
+  {
+    q: "Can I prepare for more than one of these exams at the same time?",
+    a: "Yes, and most students do. IAT, NEST, COMEDK and CUET science papers all build on Class 11 and 12 science, so one strong base covers most of the syllabus. What changes is the number of questions, the time and the marking.",
+  },
+  {
+    q: "Can I take these exams after a gap year?",
+    a: "Often, yes. CUET UG has no age limit, and the 2026 IAT and NEST rules accepted Class 12 passouts of 2024 and 2025 as well as students appearing in 2026. Each exam publishes its rules every year, so confirm in the 2027 bulletin before you apply.",
+  },
+  {
+    q: "Are the OurMocks practice tests free?",
+    a: "Test 1 is free for every exam we cover. CUET UG Test 1 is live now; IAT, NEST and COMEDK Test 1 open as each paper is released. Each test follows the exam's official pattern and marking and ends with a time-per-question analysis.",
+  },
+];
+
 export const metadata = pageMetadata(
-  "Exams After Class 12 Beyond JEE & NEET (2027)",
-  "Entrance exams after Class 12 besides JEE and NEET: CUET UG for central universities, IAT and NEST for research science, COMEDK for Karnataka engineering.",
-  "/exams/after-class-12",
-  [
-    "exams after 12th science",
-    "entrance exams after 12th beyond JEE",
-    "best options after class 12",
-    "CUET after 12th",
-    "research careers after 12th",
-    "exams after 12th commerce",
-  ],
+  "Exams After Class 12 Other Than JEE and NEET",
+  "Exams after Class 12 besides JEE and NEET: CUET UG for central universities, IAT and NEST for research science, COMEDK for Karnataka engineering.",
+  PATH,
 );
 
 export default function AfterClass12GuidePage() {
   return (
-    <main id="main-content" tabIndex={-1} className="page-shell section-space">
+    <main id="main-content" tabIndex={-1}>
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Article",
-          headline: "Entrance exams after Class 12 beyond JEE and NEET",
-          description: "Opportunities in central universities, research science and engineering through CUET UG, IISER IAT, NISER NEST and COMEDK UGET.",
-          url: `${siteConfig.url}/exams/after-class-12`,
-          datePublished: "2026-10-14",
-          dateModified: "2026-10-27",
-          author: { "@type": "Organization", name: "OurMocks Editorial Team", url: `${siteConfig.url}/about` },
-          publisher: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": `${URL_}#article`,
+              headline: "Exams after Class 12 other than JEE and NEET",
+              description:
+                "Which entrance exams to take after Class 12 besides JEE and NEET, by stream: CUET UG, IISER IAT, NISER NEST and COMEDK UGET, with a five-step plan and official sources.",
+              url: URL_,
+              datePublished: PUBLISHED,
+              dateModified: UPDATED,
+              author: { "@type": "Organization", name: "OurMocks Editorial Team", url: `${siteConfig.url}/about` },
+              publisher: { "@id": `${siteConfig.url}/#organization` },
+              isPartOf: { "@id": `${siteConfig.url}/#website` },
+              breadcrumb: { "@id": `${URL_}#breadcrumb` },
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": `${URL_}#breadcrumb`,
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+                { "@type": "ListItem", position: 2, name: "Explore exams", item: `${siteConfig.url}/exams` },
+                { "@type": "ListItem", position: 3, name: "Exams after Class 12", item: URL_ },
+              ],
+            },
+            {
+              "@type": "FAQPage",
+              "@id": `${URL_}#faq`,
+              mainEntity: FAQS.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            },
+          ],
         }}
       />
 
-      <section style={{ maxWidth: "840px", margin: "0 auto 48px auto", textAlign: "center" }}>
-        <p className="eyebrow">Career Discovery · Class 12 Admissions</p>
-        <h1 style={{ fontSize: "clamp(30px, 4.5vw, 46px)", fontWeight: 800, lineHeight: 1.15, margin: "8px 0 18px 0" }}>
-          Your future has more options
+      <section className="guide-hero page-shell">
+        <nav aria-label="Breadcrumb" className="exam-breadcrumb">
+          <Link href="/">Home</Link>
+          <span aria-hidden="true">/</span>
+          <Link href="/exams">Explore exams</Link>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Exams after Class 12</span>
+        </nav>
+        <p className="eyebrow">After Class 12</p>
+        <h1>
+          Exams after Class 12,
           <br />
-          <em style={{ fontStyle: "normal", color: "var(--blue, #1f5eff)" }}>
-            than just JEE Main and NEET.
-          </em>
+          <em>beyond JEE and NEET.</em>
         </h1>
-        <p style={{ fontSize: "16px", color: "#475569", lineHeight: 1.6, maxWidth: "680px", margin: "0 auto 28px auto" }}>
-          Every year, millions of students assume JEE and NEET are the only pathways. But India’s premier central universities, scientific research institutes, and top engineering colleges conduct focused exams built for diverse strengths.
+        <p className="hero-copy">
+          JEE and NEET are two doors. Central universities, research institutes and engineering colleges run their own
+          entrance tests too. Here is which ones fit your stream, and how to choose.
         </p>
-
-        <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
+        <div className="hero-actions">
           <Link href="/free-diagnostic" className="button-primary">
-            Attempt Free Full-Length Mock <ArrowRight size={16} />
+            Take free Test 1 <ArrowRight size={16} aria-hidden="true" />
           </Link>
-          <Link href="/exams/compare" className="text-link" style={{ fontSize: "14px", fontWeight: 600 }}>
-            Compare all 4 exams side-by-side ↗
+          <Link href="/exams/compare" className="text-link">
+            Compare the four exams <ArrowRight size={16} aria-hidden="true" />
           </Link>
+        </div>
+        <div className="hero-tags">
+          <span>
+            <CheckCircle2 size={16} aria-hidden="true" /> Checked against official bulletins
+          </span>
+          <span>
+            <CalendarDays size={16} aria-hidden="true" /> Last checked{" "}
+            <time dateTime={lastChecked}>{formatReviewDate(lastChecked)}</time>
+          </span>
         </div>
       </section>
 
-      {/* Pathways Breakdown by Stream */}
-      <section style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "24px", marginBottom: "56px" }}>
-        {/* Pathway 1: Research in Pure Sciences */}
-        <article style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "16px", padding: "28px", boxShadow: "0 2px 8px rgba(0,0,0,0.03)" }}>
-          <div style={{ width: "48px", height: "48px", borderRadius: "12px", background: "#f0fdf4", color: "#16a34a", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "16px" }}>
-            <Microscope size={26} />
-          </div>
-          <span style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", color: "#16a34a" }}>Natural Science & Research</span>
-          <h2 style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", margin: "6px 0 12px 0" }}>
-            IISER IAT & NISER NEST
-          </h2>
-          <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "18px" }}>
-            If you are curious about astrophysics, quantum physics, molecular biology, organic synthesis, or computational mathematics, these two exams lead to 5-year BS-MS degrees at the IISERs, the 5-year Integrated M.Sc at NISER and CEBS, and 4-year BS degrees at IISc and IIT Madras.
+      <div className="page-shell ac12-body">
+        <section className="ac12-answer" aria-labelledby="ac12-answer-title">
+          <h2 id="ac12-answer-title">The short answer</h2>
+          <p>
+            Besides JEE and NEET, four entrance exams open strong undergraduate routes. <strong>CUET UG</strong> is open
+            to every stream and leads to all 48 Central Universities, including Delhi University, BHU and JNU.{" "}
+            <strong>IISER IAT</strong> and <strong>NISER NEST</strong> lead to research-focused science degrees.{" "}
+            <strong>COMEDK UGET</strong> leads to private engineering colleges in Karnataka. Most students take two or
+            three, because the syllabi overlap.
           </p>
-          <ul style={{ listStyle: "none", padding: 0, margin: "0 0 20px 0", display: "flex", flexDirection: "column", gap: "8px", fontSize: "13px", color: "#334155" }}>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> NISER/CEBS students are eligible for the ₹60,000/yr DISHA scholarship
-            </li>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> Research projects built into the degree, with a route into PhD study
-            </li>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#16a34a" }} /> 2,043 IISER BS-MS seats in 2026 (IAT brochure)
-            </li>
-          </ul>
-          <Link href="/exams/iiser-iat" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
-            Read the IAT guide →
-          </Link>
-        </article>
+        </section>
 
-        {/* Pathway 2: Prestigious Central Universities */}
-        <article style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "16px", padding: "28px", boxShadow: "0 2px 8px rgba(0,0,0,0.03)" }}>
-          <div style={{ width: "48px", height: "48px", borderRadius: "12px", background: "#eff6ff", color: "var(--blue, #1f5eff)", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "16px" }}>
-            <GraduationCap size={26} />
-          </div>
-          <span style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", color: "var(--blue, #1f5eff)" }}>All Streams (Science, Commerce, Arts)</span>
-          <h2 style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", margin: "6px 0 12px 0" }}>
-            CUET (UG) Central Universities
-          </h2>
-          <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "18px" }}>
-            Run by NTA for undergraduate admission to all 48 Central Universities — including Delhi University, BHU and JNU — and many state, deemed and private universities. Domain papers follow the NCERT syllabus.
+        <section className="section-space ac12-section" aria-labelledby="ac12-stream-title">
+          <h2 id="ac12-stream-title">Which exams fit your Class 12 stream?</h2>
+          <p className="ac12-lede">
+            Start with the subjects you studied. Individual courses can still ask for particular subjects, so check the{" "}
+            <Link href="/exams/eligibility" className="text-link">
+              eligibility for each exam
+            </Link>{" "}
+            before you pay a fee.
           </p>
-          <ul style={{ listStyle: "none", padding: 0, margin: "0 0 20px 0", display: "flex", flexDirection: "column", gap: "8px", fontSize: "13px", color: "#334155" }}>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Up to five papers from 13 languages, 23 domain subjects and a General Aptitude Test
-            </li>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Open to Science, Commerce and Humanities students
-            </li>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "var(--blue)" }} /> Free full-length Test 1 on OurMocks in 12 subjects
-            </li>
-          </ul>
-          <Link href="/free-diagnostic" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
-            Take a free CUET mock →
-          </Link>
-        </article>
-
-        {/* Pathway 3: High-Tech Engineering */}
-        <article style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "16px", padding: "28px", boxShadow: "0 2px 8px rgba(0,0,0,0.03)" }}>
-          <div style={{ width: "48px", height: "48px", borderRadius: "12px", background: "#fef3c7", color: "#d97706", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: "16px" }}>
-            <Cpu size={26} />
+          <div className="table-scroll" role="region" aria-label="Exams by stream" tabIndex={0}>
+            <table className="ac12-table">
+              <caption className="sr-only">Which of the four exams each Class 12 stream can take</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Your stream</th>
+                  <th scope="col">Exams to consider</th>
+                  <th scope="col">Full guide</th>
+                </tr>
+              </thead>
+              <tbody>
+                {byStream.map((row) => {
+                  const post = blogPosts.find((p) => p.slug === row.guide);
+                  return (
+                    <tr key={row.stream}>
+                      <th scope="row">{row.stream}</th>
+                      <td>{row.exams}</td>
+                      <td>
+                        {post && (
+                          <Link href={`/blog/${post.slug}`} className="text-link">
+                            Options after {row.stream.replace(/ \(.+\)/, "")}
+                          </Link>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
-          <span style={{ fontSize: "12px", fontWeight: 700, textTransform: "uppercase", color: "#d97706" }}>Engineering & Technology</span>
-          <h2 style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", margin: "6px 0 12px 0" }}>
-            COMEDK UGET Engineering
-          </h2>
-          <p style={{ fontSize: "14px", color: "#475569", lineHeight: 1.6, marginBottom: "18px" }}>
-            COMEDK UGET admits to about 150 private engineering colleges in Karnataka — around 20,000 seats — including M. S. Ramaiah Institute of Technology, R. V. College of Engineering and B.M.S. College of Engineering.
+        </section>
+
+        <section className="ac12-section" aria-labelledby="ac12-exams-title">
+          <h2 id="ac12-exams-title">What does each exam lead to?</h2>
+          <div className="ac12-exam-grid">
+            {exams.map((exam) => (
+              <article key={exam.slug} className={`ac12-exam theme-${exam.slug}`}>
+                <p className="card-category">{exam.category}</p>
+                <h3>{exam.name}</h3>
+                <p>{exam.quickAnswer}</p>
+                {exam.seats && <p className="ac12-meta">{exam.seats}</p>}
+                <Link href={`/exams/${exam.slug}`} className="text-link ac12-card-link">
+                  {exam.name} 2027 guide <ArrowRight size={16} aria-hidden="true" />
+                </Link>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section-space ac12-section" aria-labelledby="ac12-plan-title">
+          <h2 id="ac12-plan-title">How do you choose the right exams?</h2>
+          <p className="ac12-lede">
+            A short list of overlapping exams is easier to prepare for than a long, scattered one. Five steps, in order:
           </p>
-          <ul style={{ listStyle: "none", padding: 0, margin: "0 0 20px 0", display: "flex", flexDirection: "column", gap: "8px", fontSize: "13px", color: "#334155" }}>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> 180 questions in 3 hours, with no negative marking
+          <ol className="ac12-steps">
+            <li>
+              <h3>Pick the degree first, then the exam</h3>
+              <p>
+                Write down two or three kinds of degree you would actually join. An exam is only useful if it leads
+                there. The guides below, grouped by stream, help.
+              </p>
             </li>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> Open to candidates from every state
+            <li>
+              <h3>Compare the patterns</h3>
+              <p>
+                Questions, time and marking differ a lot: CUET and IAT have negative marking, COMEDK has none, and NEST
+                counts your best three sections.{" "}
+                <Link href="/exams/compare" className="text-link">
+                  Compare CUET, IAT, NEST and COMEDK
+                </Link>
+              </p>
             </li>
-            <li style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <CheckCircle2 size={15} style={{ color: "#d97706" }} /> Syllabus: about 33% Class 11, 67% Class 12 (CBSE)
+            <li>
+              <h3>Check you are eligible</h3>
+              <p>
+                Confirm the Class 12 marks, subjects and passing-year rules before you spend months preparing.{" "}
+                <Link href="/exams/eligibility" className="text-link">
+                  Check your eligibility
+                </Link>
+              </p>
             </li>
+            <li>
+              <h3>See where each exam leads</h3>
+              <p>
+                Look at the institutes that admit through each exam, with their official NIRF 2025 ranks.{" "}
+                <Link href="/colleges" className="text-link">
+                  Colleges by exam
+                </Link>
+              </p>
+            </li>
+            <li>
+              <h3>Take one full test early</h3>
+              <p>
+                One timed paper shows whether you do better on fast questions (CUET, COMEDK) or longer problems (IAT,
+                NEST), and where your time goes.{" "}
+                <Link href="/free-diagnostic" className="text-link">
+                  Free Test 1
+                </Link>
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section className="ac12-section" aria-labelledby="ac12-guides-title">
+          <h2 id="ac12-guides-title">What else do students ask after Class 12?</h2>
+          <ul className="related-guides ac12-guides">
+            {guides.map((post) => (
+              <li key={post.slug}>
+                <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                <p>{post.description}</p>
+              </li>
+            ))}
           </ul>
-          <Link href="/exams/comedk" className="text-link" style={{ fontSize: "13px", fontWeight: 600 }}>
-            Read the COMEDK guide →
-          </Link>
-        </article>
-      </section>
+          <p className="ac12-lede">
+            Planning with numbers? Our{" "}
+            <Link href="/tools" className="text-link">
+              free tools
+            </Link>{" "}
+            include a score calculator, an eligibility checker and JEE Main and NEET predictors.
+          </p>
+        </section>
 
-      {/* Strategic 3-Step Framework */}
-      <section style={{ background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "16px", padding: "36px", textAlign: "left" }}>
-        <h3 style={{ fontSize: "20px", fontWeight: 800, color: "#0f172a", marginBottom: "12px" }}>
-          How to Decide Your Exam Portfolio in 3 Steps
-        </h3>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px", marginTop: "20px" }}>
-          <div>
-            <strong style={{ fontSize: "15px", color: "#1e293b", display: "block", marginBottom: "6px" }}>
-              1. Never rely on a single exam
-            </strong>
-            <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              Testing day anxiety, shift-difficulty variance, and health bugs happen. Preparing for 2–3 overlapping exams (e.g. JEE + COMEDK + CUET, or IAT + NEST + CUET) ensures your effort pays off.
-            </p>
-          </div>
-          <div>
-            <strong style={{ fontSize: "15px", color: "#1e293b", display: "block", marginBottom: "6px" }}>
-              2. Exploit syllabus overlap
-            </strong>
-            <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              IAT, NEST and COMEDK all test Class 11–12 science, and CUET domain papers follow the NCERT syllabus. The concepts overlap heavily — what changes is the number of questions, the time and the marking.
-            </p>
-          </div>
-          <div>
-            <strong style={{ fontSize: "15px", color: "#1e293b", display: "block", marginBottom: "6px" }}>
-              3. Take diagnostic tests early
-            </strong>
-            <p style={{ fontSize: "13px", color: "#475569", lineHeight: 1.6, margin: 0 }}>
-              Attempt our free full-length test papers to uncover whether you thrive on fast questions (COMEDK/CUET) or conceptual problem-solving (IAT/NEST).
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Popular questions after Class 12 */}
-      <section className="section-space" aria-labelledby="popular-questions-title">
-        <h2 id="popular-questions-title" style={{ fontSize: "22px", fontWeight: 800, color: "#0f172a", marginBottom: "16px" }}>
-          Popular questions after Class 12
-        </h2>
-        <ul className="related-guides">
-          {popularQuestions.map((post) => (
-            <li key={post.slug}>
-              <Link href={`/blog/${post.slug}`} className="text-link">
-                {post.title}
-              </Link>
-              <p>{post.description}</p>
-            </li>
+        <section className="section-space exam-faqs ac12-faq" aria-labelledby="ac12-faq-title">
+          <h2 id="ac12-faq-title">Frequently asked questions</h2>
+          {FAQS.map((f) => (
+            <details key={f.q}>
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
           ))}
-        </ul>
-      </section>
+        </section>
+
+        <section className="ac12-sources" aria-labelledby="ac12-sources-title">
+          <h2 id="ac12-sources-title">Official sources</h2>
+          <ul>
+            {exams.map((exam) => (
+              <li key={exam.slug}>
+                <strong>{exam.name}:</strong> <OfficialAnchor link={exam.sources[0]} className="text-link" />
+              </li>
+            ))}
+          </ul>
+          <p className="review-note">
+            Exam facts last checked against these sources on{" "}
+            <time dateTime={lastChecked}>{formatReviewDate(lastChecked)}</time>. Page updated{" "}
+            <time dateTime={UPDATED}>{formatReviewDate(UPDATED)}</time>. Official bulletins always take precedence.
+            OurMocks is independent and not affiliated with NTA, the IISERs, NISER or COMEDK.
+          </p>
+        </section>
+
+        <section className="exam-cta-band ac12-cta">
+          <div>
+            <h2>Not sure where you stand? Start with one full paper.</h2>
+            <p>
+              Test 1 is free for every exam we cover. CUET UG is live now; IAT, NEST and COMEDK open as each paper is
+              released.
+            </p>
+          </div>
+          <Link href="/free-diagnostic" className="button-light">
+            Take free Test 1 <ArrowRight size={16} aria-hidden="true" />
+          </Link>
+        </section>
+      </div>
     </main>
   );
 }

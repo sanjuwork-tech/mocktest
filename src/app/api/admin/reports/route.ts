@@ -15,7 +15,7 @@ export const runtime = "nodejs";
 
 export async function GET() {
   try {
-    await requireAdmin(["admin", "reviewer"]);
+    await requireAdmin(["admin"]);
     const db = requireDb();
 
     const [
