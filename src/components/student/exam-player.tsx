@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ArrowLeft, ArrowRight, Clock3, Flag, LayoutGrid, Loader2, Send, X } from "lucide-react";
 import { ScientificRenderer, type Block } from "@/components/ui/scientific-renderer";
+import { createQuestionTimer, formatQuestionTime } from "@/lib/question-timer";
 import { api, ApiFailure } from "./api";
 import { StudentShell } from "./shell";
 
@@ -21,6 +22,8 @@ type AttemptData = {
   sections: { id: string; name: string }[];
   questions: Question[];
   answers: { assignmentId: string; value: string | null; sequence: number; marked: boolean }[];
+  /** Saved time per question in ms, keyed by assignmentId. */
+  questionTimes?: Record<string, number>;
 };
 
 type Answer = { value: string | null; marked: boolean; sequence: number };
@@ -58,6 +61,7 @@ function Player({ attemptId }: { attemptId: string }) {
   const [answers, setAnswers] = useState(() => new Map<string, Answer>());
   const [visited, setVisited] = useState(() => new Set<string>());
   const [clockOffset, setClockOffset] = useState(0);
+  const [questionMs, setQuestionMs] = useState(0);
 
   // The save queue works from this mirror so in-flight requests always see the latest sequences.
   const answersRef = useRef(answers);
@@ -72,20 +76,8 @@ function Player({ attemptId }: { attemptId: string }) {
   const retryTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const flushRef = useRef<() => Promise<void>>(async () => undefined);
   // Time on each question: the clock runs only for the question on screen while the tab is visible.
-  const timing = useRef(new Map<string, { addMs: number; visits: number }>());
-  const active = useRef<{ id: string; since: number | null } | null>(null);
-  const addTiming = (id: string, addMs: number, visits: number) => {
-    const t = timing.current.get(id) ?? { addMs: 0, visits: 0 };
-    timing.current.set(id, { addMs: t.addMs + addMs, visits: t.visits + visits });
-  };
-  const bankTime = useCallback(() => {
-    const a = active.current;
-    if (!a || a.since === null) return;
-    const now = performance.now();
-    const ms = Math.round(now - a.since);
-    if (ms > 0) addTiming(a.id, ms, 0);
-    a.since = now;
-  }, []);
+  const timer = useRef(createQuestionTimer());
+  const bankTime = useCallback(() => timer.current.bank(performance.now()), []);
   const finished = useRef(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -100,6 +92,7 @@ function Player({ attemptId }: { attemptId: string }) {
     api<AttemptData>(`/api/attempts/${attemptId}`).then(
       (d) => {
         if (d.attempt.status !== "in_progress") return goToResults();
+        timer.current.seed(d.questionTimes);
         setClockOffset(Date.parse(d.attempt.serverNow) - Date.now());
         writeAnswers((draft) => {
           for (const a of d.answers) draft.set(a.assignmentId, a);
@@ -124,16 +117,11 @@ function Player({ attemptId }: { attemptId: string }) {
       return;
     }
     bankTime();
-    if (!pending.current.size && !timing.current.size) return;
+    if (!pending.current.size && !timer.current.hasUnsent()) return;
     const batch = new Map(pending.current);
     pending.current.clear();
     // Timings go out at least every 20 s, well inside the server cap of 10 minutes per delta.
-    const times = [...timing.current].map(([assignmentId, t]) => ({
-      assignmentId,
-      addMs: Math.min(t.addMs, 10 * 60 * 1000),
-      visits: Math.min(t.visits, 50),
-    }));
-    timing.current.clear();
+    const times = timer.current.takeDeltas(performance.now());
     if (batch.size) setSaveState("saving");
 
     inflight.current = (async () => {
@@ -173,7 +161,7 @@ function Player({ attemptId }: { attemptId: string }) {
         }
         // Network or server trouble: keep the answers queued and retry.
         for (const [id, a] of batch) if (!pending.current.has(id)) pending.current.set(id, a);
-        for (const t of times) addTiming(t.assignmentId, t.addMs, t.visits);
+        timer.current.restore(times);
         setSaveState("retrying");
         if (retryTimer.current) clearTimeout(retryTimer.current);
         retryTimer.current = setTimeout(() => void flushRef.current(), 4000);
@@ -191,28 +179,55 @@ function Player({ attemptId }: { attemptId: string }) {
   const currentId = data?.questions[current]?.assignmentId;
   useEffect(() => {
     if (!currentId) return;
-    bankTime();
-    active.current = { id: currentId, since: document.hidden ? null : performance.now() };
-    addTiming(currentId, 0, 1);
-  }, [currentId, bankTime]);
+    timer.current.show(currentId, performance.now(), document.hidden);
+  }, [currentId]);
+
+  // Refresh the on-screen question timer every second (it stands still while the tab is hidden).
+  useEffect(() => {
+    if (!currentId) return;
+    const update = () => setQuestionMs(timer.current.elapsed(currentId, performance.now()));
+    const first = setTimeout(update, 0);
+    const tick = setInterval(update, 1000);
+    return () => {
+      clearTimeout(first);
+      clearInterval(tick);
+    };
+  }, [currentId]);
 
   // Pause the question clock while the tab is hidden, and send timings regularly.
   useEffect(() => {
     if (!data) return;
+    // Unsent time goes out with keepalive when the tab hides or closes, so a reload loses nothing.
+    const sendNow = () => {
+      const times = timer.current.takeDeltas(performance.now());
+      if (!times.length || finished.current) return;
+      fetch(`/api/attempts/${attemptId}/answers`, {
+        method: "PATCH",
+        keepalive: true,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ timing: times }),
+      }).then(
+        (r) => {
+          if (!r.ok && r.status >= 500) timer.current.restore(times);
+        },
+        () => timer.current.restore(times),
+      );
+    };
     const onVisibility = () => {
-      if (!active.current) return;
       if (document.hidden) {
-        bankTime();
-        active.current.since = null;
-      } else active.current.since = performance.now();
+        timer.current.pause(performance.now());
+        sendNow();
+      } else timer.current.resume(performance.now());
     };
     document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("pagehide", sendNow);
     const periodic = setInterval(() => void flushRef.current(), 20_000);
     return () => {
       document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("pagehide", sendNow);
       clearInterval(periodic);
     };
-  }, [data, bankTime]);
+  }, [data, attemptId]);
 
   // Debounced autosave.
   const saveSoon = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -377,10 +392,15 @@ function Player({ attemptId }: { attemptId: string }) {
               +{q.marks} correct · {q.penalty ? `−${q.penalty} wrong` : "no negative marking"}
             </span>
           </div>
-          <h2 id="question-title" ref={heading} tabIndex={-1}>
-            Question {numberInSection}
-            <span> / {sectionQuestions.length}</span>
-          </h2>
+          <div className="qtimer-row">
+            <h2 id="question-title" ref={heading} tabIndex={-1}>
+              Question {numberInSection}
+              <span> / {sectionQuestions.length}</span>
+            </h2>
+            <p className="qtimer" aria-label="Time on this question">
+              Time on this question <span className="qtimer-value">{formatQuestionTime(questionMs)}</span>
+            </p>
+          </div>
           <div className="question-prompt">
             <ScientificRenderer content={q.content} />
           </div>

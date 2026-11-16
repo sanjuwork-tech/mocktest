@@ -58,7 +58,7 @@ function BlockRenderer({ block }: { block: Block }) {
           <img
             src={`/api/assets/${block.assetId}`}
             alt={block.alt}
-            className="mx-auto max-w-full rounded-lg border border-slate-200"
+            className="mx-auto block max-h-80 w-auto max-w-full rounded-lg border border-slate-200 bg-white object-contain"
           />
           {block.caption && (
             <figcaption className="mt-2 text-center text-sm text-slate-500">

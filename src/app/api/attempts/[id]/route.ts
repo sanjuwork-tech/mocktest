@@ -4,7 +4,7 @@ import { apiError, ApiError, json } from "@/server/http";
 import { requireDb } from "@/db/client";
 import { finalizeIfOverdue } from "@/server/deadline";
 import { loadPaper } from "@/server/student-tests";
-import { attemptsTable, attemptAnswersTable } from "@/db/schema";
+import { attemptsTable, attemptAnswersTable, attemptQuestionStatsTable } from "@/db/schema";
 
 export const runtime = "nodejs";
 
@@ -41,6 +41,16 @@ export async function GET(
       .from(attemptAnswersTable)
       .where(eq(attemptAnswersTable.attemptId, attemptId));
 
+    // Saved time per question lets the player resume its per-question timers after a reload.
+    const questionTimes: Record<string, number> = {};
+    if (attempt.status === "in_progress") {
+      const stats = await db
+        .select({ assignmentId: attemptQuestionStatsTable.assignmentId, timeMs: attemptQuestionStatsTable.timeMs })
+        .from(attemptQuestionStatsTable)
+        .where(eq(attemptQuestionStatsTable.attemptId, attemptId));
+      for (const r of stats) if (r.timeMs > 0) questionTimes[r.assignmentId] = r.timeMs;
+    }
+
     const paper = await loadPaper(attempt.testVersionId, { includeKeys: false });
 
     return json({
@@ -54,6 +64,7 @@ export async function GET(
       },
       ...paper,
       answers,
+      questionTimes,
     });
   } catch (e) {
     return apiError(e);

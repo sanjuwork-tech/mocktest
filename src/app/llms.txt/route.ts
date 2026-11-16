@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { siteConfig } from "@/data/catalog";
 import { exams } from "@/data/exams";
 import { blogPosts } from "@/data/blog";
+import { NOTES_PRICE, NOTES_EXAM_NAMES, notes } from "@/data/notes";
+import { EXAM_SLUGS } from "@/lib/exams/catalog";
 
 export const runtime = "edge";
 
@@ -53,6 +55,14 @@ export function GET() {
     "",
     `- [Free Test 1 for every exam we cover](${siteConfig.url}/free-diagnostic)`,
     `- [Test series and planned prices](${siteConfig.url}/test-series)`,
+    "",
+    "## Notes (not yet on sale)",
+    "",
+    `- [All notes](${siteConfig.url}/notes): subject notes prepared by the OurMocks team, planned at ₹${NOTES_PRICE} per subject for any exam. Payments are not live yet, so nothing can be bought; students can ask to be notified.`,
+    ...EXAM_SLUGS.map(
+      (exam) =>
+        `- [${NOTES_EXAM_NAMES[exam]} notes](${siteConfig.url}/notes/${exam}): ${notes.filter((n) => n.exam === exam).map((n) => n.subjectName).join(", ")}.`,
+    ),
     "",
     "## Free tools",
     "",

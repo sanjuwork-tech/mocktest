@@ -47,5 +47,6 @@ export async function buildAttemptAnalysis(
     };
   });
 
-  return analyseAttempt(questions, paper.test.durationSeconds);
+  const rules = (paper.test.rules ?? {}) as { scoringPolicy?: { bestSections?: number } };
+  return analyseAttempt(questions, paper.test.durationSeconds, { bestSections: rules.scoringPolicy?.bestSections ?? null });
 }

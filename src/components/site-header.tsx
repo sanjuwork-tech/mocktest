@@ -101,6 +101,9 @@ export function SiteHeader() {
             <Link href="/test-series" aria-current={current(pathname.startsWith("/test-series"))}>
               Test series
             </Link>
+            <Link href="/notes" aria-current={current(pathname.startsWith("/notes"))}>
+              Notes ₹149
+            </Link>
             <Link href="/student" aria-current={current(pathname.startsWith("/student"))}>
               Student login
             </Link>
@@ -147,6 +150,9 @@ export function SiteHeader() {
               </Link>
               <Link href="/test-series" onClick={closeMobile} aria-current={current(pathname.startsWith("/test-series"))}>
                 Test series
+              </Link>
+              <Link href="/notes" onClick={closeMobile} aria-current={current(pathname.startsWith("/notes"))}>
+                Notes ₹149
               </Link>
               <Link href="/about" onClick={closeMobile} aria-current={current(pathname === "/about")}>
                 About OurMocks

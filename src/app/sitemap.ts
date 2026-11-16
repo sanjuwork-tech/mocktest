@@ -4,6 +4,8 @@ import { exams } from "@/data/exams";
 import { blogPosts } from "@/data/blog";
 import { COLLEGES_CHECKED_ON } from "@/data/colleges";
 import { syllabi } from "@/data/syllabus";
+import { notes } from "@/data/notes";
+import { EXAM_SLUGS } from "@/lib/exams/catalog";
 import { previousPapers } from "@/data/previous-papers";
 
 // lastModified must reflect when content actually changed, never the build time.
@@ -12,6 +14,7 @@ const LEGAL_UPDATED = "2026-09-26";
 // Home, after-class-12 and the tools hub changed with the /resources merge and journey pass.
 const JOURNEY_UPDATED = "2026-11-05";
 const REFUND_POLICY_UPDATED = "2026-11-05";
+const NOTES_UPDATED = "2026-11-16";
 // Predictor pages are being built in parallel; the integrator confirms each URL exists before release.
 const PREDICTORS = [
   "/tools/jee-main-rank-predictor",
@@ -41,6 +44,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     page("/colleges", COLLEGES_CHECKED_ON, 0.8),
     page("/blog", blogUpdated, 0.8),
     page("/test-series", SITE_CONTENT_UPDATED, 0.7),
+    page("/notes", NOTES_UPDATED, 0.7),
+    ...EXAM_SLUGS.map((exam) => page(`/notes/${exam}`, NOTES_UPDATED, 0.6)),
+    ...notes.map((note) => page(note.path, NOTES_UPDATED, 0.6)),
     page("/about", SITE_CONTENT_UPDATED, 0.5),
     page("/privacy", LEGAL_UPDATED, 0.3),
     page("/terms", LEGAL_UPDATED, 0.3),

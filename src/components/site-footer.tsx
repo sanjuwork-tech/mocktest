@@ -11,6 +11,7 @@ const COLUMNS: { title: string; links: [label: string, href: string][] }[] = [
       ...exams.map((exam): [string, string] => [exam.name, `/exams/${exam.slug}`]),
       ["Free Test 1", "/free-diagnostic"],
       ["Test series", "/test-series"],
+      ["Notes ₹149", "/notes"],
     ],
   },
   {

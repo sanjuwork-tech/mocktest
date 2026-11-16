@@ -118,6 +118,12 @@ describe("Phase 1: test paper validation", () => {
     assert.ok(checkPaper(paper({ exam: "iiser-iat" })).issues.some((i) => i.path === "subject"));
   });
 
+  it("rejects a table left as pipe text in a question", () => {
+    const qs = Array.from({ length: 50 }, (_, i) => question(`p-${i}`, "physics"));
+    qs[3] = { ...qs[3], stem: [...para("Study the table."), ...para("| Year | CBR |")] };
+    assert.ok(checkPaper(paper({}, qs)).issues.some((i) => i.path === "questions[3].stem"));
+  });
+
   it("rejects duplicate IDs, unknown answers and off-pattern subjects", () => {
     const qs = Array.from({ length: 50 }, (_, i) => question(`q${i}`, "physics"));
     qs[1] = question("q0", "physics");

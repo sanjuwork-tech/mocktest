@@ -1,6 +1,7 @@
 import { pageMetadata } from "@/lib/page-metadata";
 import { ExpertReview } from "@/components/expert-review";
-import { MockDemo } from "@/components/mock-demo";
+import { LaunchVideo } from "@/components/launch-video";
+import { NotesTeaser } from "@/components/notes-teaser";
 import { ComparePlatforms } from "@/components/compare-platforms";
 import { HomeFaq } from "@/components/home-faq";
 import Link from "next/link";
@@ -127,9 +128,26 @@ export default function HomePage() {
         </p>
       </section>
 
-      <div className="page-shell section-space">
-        <MockDemo />
-      </div>
+      <section className="page-shell section-space" aria-labelledby="launch-video-title">
+        <div className="launch-video-head">
+          <p className="eyebrow">See it in action</p>
+          <h2 id="launch-video-title">From first question to a full analysis — for every exam we cover</h2>
+          <p className="section-copy">
+            Attempt a full-length mock on an NTA-style test screen with a timer, question palette and mark for review.
+            Submit, and your results show the time you spent on every question against the ideal pace, flagging
+            rushed, slow and time-sink questions, with topic and section analysis and worked solutions. The video
+            shows CUET UG; IISER IAT uses the same screen and analysis, and NISER NEST and COMEDK UGET follow as
+            their papers open.
+          </p>
+        </div>
+        <LaunchVideo />
+        <div className="launch-video-cta">
+          <Link href="/free-diagnostic" className="button-primary">
+            Try a real test free <ArrowRight size={16} aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+      <NotesTeaser />
       <div className="page-shell">
         <ExpertReview />
       </div>

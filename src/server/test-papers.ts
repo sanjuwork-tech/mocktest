@@ -57,6 +57,10 @@ export function checkPaper(paper: TestPaper): {
       issues.push({ path: `${path}.options`, message: "Option IDs must be unique." });
     if (!optionIds.includes(q.answer.correctOptionId))
       issues.push({ path: `${path}.answer`, message: `Correct option "${q.answer.correctOptionId}" is not one of the options.` });
+    // A pipe-table left as plain text renders as raw "| a | b |" lines; it must be a table block.
+    const pipeRow = q.stem.some((b) => b.type === "paragraph" && /^\|.*\|.*\|$/.test(b.runs.map((r) => (r.type === "text" ? r.text : "")).join("").trim()));
+    if (pipeRow)
+      issues.push({ path: `${path}.stem`, message: "Contains a table written as text (| a | b |). Convert it to a table block." });
   });
 
   for (const section of blueprint.sections) {

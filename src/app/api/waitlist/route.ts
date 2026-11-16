@@ -5,6 +5,7 @@ import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http
 import { normalizeEmail, tokenHash } from "@/server/security";
 import { requireDb } from "@/db/client";
 import { waitlistTable } from "@/db/schema";
+import { isNotesInterest } from "@/data/notes";
 
 export const runtime = "nodejs";
 
@@ -21,7 +22,8 @@ const INTERESTS = [
 
 const joinSchema = z.object({
   email: z.string().trim().email("Please enter a valid email address.").max(200),
-  exam: z.enum(INTERESTS, { message: "Please choose what you'd like to hear about." }),
+  // A fixed interest, or a notes interest that exists in the real notes list (never an arbitrary string).
+  exam: z.union([z.enum(INTERESTS), z.string().refine(isNotesInterest)], { message: "Please choose what you'd like to hear about." }),
   source: z.string().trim().max(60).optional(),
 });
 

@@ -1,0 +1,68 @@
+/* Landing page "Resources" teaser. Prefix: nts- (cards reuse nt- from the notes pages). */
+.nts {
+  padding-block: 88px;
+}
+.nts-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px 32px;
+}
+.nts-head h2 {
+  font-family: var(--font-newsreader), serif;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+.nts-head p {
+  max-width: 52ch;
+  margin-top: 12px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.nts-head .text-link {
+  min-height: 44px;
+}
+.nts .nt-grid {
+  margin-top: 32px;
+}
+@media (min-width: 640px) {
+  .nts .nt-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+.nts-foot {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+
+/* Cards ease in as they scroll into view: 240 ms plus a staggered delay of at most 60 ms. */
+@media (prefers-reduced-motion: no-preference) {
+  .nts .nt-card {
+    animation: nts-in 240ms cubic-bezier(0.23, 1, 0.32, 1) backwards;
+    animation-delay: calc(var(--i, 0) * 12ms);
+  }
+  @supports (animation-timeline: view()) {
+    .nts .nt-card {
+      animation: nts-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+      animation-delay: 0s;
+    }
+  }
+}
+@keyframes nts-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@media (max-width: 767px) {
+  .nts {
+    padding-block: 56px;
+  }
+}
