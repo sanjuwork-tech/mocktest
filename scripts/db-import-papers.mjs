@@ -66,6 +66,10 @@ try {
   }
   console.log(`${files.length - failed} imported, ${failed} failed.`);
   if (failed) process.exitCode = 1;
+} catch (error) {
+  // Print before cleanup: a dropped connection can stall sql.end() and hide the cause.
+  console.error("Import stopped:", error instanceof Error ? error.message : error);
+  process.exitCode = 1;
 } finally {
-  await sql.end();
+  await sql.end({ timeout: 5 });
 }
