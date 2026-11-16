@@ -121,7 +121,16 @@ describe("Phase 1: test paper validation", () => {
   it("rejects a table left as pipe text in a question", () => {
     const qs = Array.from({ length: 50 }, (_, i) => question(`p-${i}`, "physics"));
     qs[3] = { ...qs[3], stem: [...para("Study the table."), ...para("| Year | CBR |")] };
-    assert.ok(checkPaper(paper({}, qs)).issues.some((i) => i.path === "questions[3].stem"));
+    qs[5] = { ...qs[5], explanation: para("| x | y |") };
+    const paths = checkPaper(paper({ exam: "iiser-iat", subject: undefined }, qs)).issues.map((i) => i.path);
+    assert.ok(paths.includes("questions[3].stem"));
+    assert.ok(paths.includes("questions[5].explanation"));
+  });
+
+  it("does not mistake absolute values like |r|<1 for a table", () => {
+    const qs = Array.from({ length: 50 }, (_, i) => question(`p-${i}`, "physics"));
+    qs[0] = { ...qs[0], stem: para("|r|<1") };
+    assert.deepEqual(checkPaper(paper({}, qs)).issues, []);
   });
 
   it("rejects duplicate IDs, unknown answers and off-pattern subjects", () => {

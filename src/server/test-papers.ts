@@ -58,9 +58,10 @@ export function checkPaper(paper: TestPaper): {
     if (!optionIds.includes(q.answer.correctOptionId))
       issues.push({ path: `${path}.answer`, message: `Correct option "${q.answer.correctOptionId}" is not one of the options.` });
     // A pipe-table left as plain text renders as raw "| a | b |" lines; it must be a table block.
-    const pipeRow = q.stem.some((b) => b.type === "paragraph" && /^\|.*\|.*\|$/.test(b.runs.map((r) => (r.type === "text" ? r.text : "")).join("").trim()));
-    if (pipeRow)
-      issues.push({ path: `${path}.stem`, message: "Contains a table written as text (| a | b |). Convert it to a table block." });
+    const fields = { stem: q.stem, explanation: q.explanation, ...Object.fromEntries(q.options.map((o, j) => [`options[${j}]`, o.content])) };
+    for (const [field, blocks] of Object.entries(fields))
+      if (blocks.some((b) => b.type === "paragraph" && /^\|.*\|.*\|$/.test(b.runs.map((r) => (r.type === "text" ? r.text : "")).join("").trim())))
+        issues.push({ path: `${path}.${field}`, message: "Contains a table written as text (| a | b |). Convert it to a table block." });
   });
 
   for (const section of blueprint.sections) {
