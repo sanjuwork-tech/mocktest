@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { AlertCircle, ArrowLeft, CheckCircle2, FileJson, UploadCloud } from "lucide-react";
-import { EXAMS, EXAM_SLUGS, SUBJECT_NAMES, isExamSlug, isSubjectId } from "@/lib/exams/catalog";
+import { EXAMS, EXAM_SLUGS, SUBJECT_NAMES, isExamSlug, isSubjectId, plannedTestsFor } from "@/lib/exams/catalog";
 import type { PaperStatus } from "../review/status";
 
 type ReviewRow = { testId: string; version: number; status: PaperStatus };
@@ -225,7 +225,9 @@ export default function TestPapersPage() {
         <ul className="mb-4 flex flex-wrap gap-2 text-xs" aria-label="Upload progress against the plan">
           {EXAM_SLUGS.map((slug) => {
             const exam = EXAMS[slug];
-            const planned = exam.paperPerSubject ? exam.plannedTests * exam.subjects.length : exam.plannedTests;
+            const planned = exam.paperPerSubject
+              ? exam.subjects.reduce((n, s) => n + plannedTestsFor(slug, s), 0)
+              : exam.plannedTests;
             const uploaded = tests.filter((t) => t.exam === slug).length;
             return (
               <li key={slug} className="rounded-full bg-slate-100 px-3 py-1 text-slate-700">

@@ -54,6 +54,15 @@ export type ScoringInput = {
   bestSections?: number | null;
 };
 
+/**
+ * Sections an attempt covers, fixed when it started: every section, or for papers with optional
+ * sections the compulsory ones plus the candidate's choice. Undefined for an ordering without sections.
+ */
+export function attemptSectionIds(ordering: unknown): Set<string> | undefined {
+  const sections = (ordering as { sections?: { id: string }[] } | null)?.sections;
+  return Array.isArray(sections) ? new Set(sections.map((s) => s.id)) : undefined;
+}
+
 const emptyTally = (): Tally => ({ total: 0, correct: 0, wrong: 0, unanswered: 0 });
 
 /** Pure scoring for single-correct questions: +marks if right, −penalty if wrong, 0 if unanswered. */
@@ -142,10 +151,12 @@ export async function processAttemptScoring(attemptId: string) {
       .where(eq(testVersionsTable.id, attempt.testVersionId));
     const rules = (version?.rules ?? {}) as { scoringPolicy?: { bestSections?: number } };
 
-    const sections = await tx
+    const covered = attemptSectionIds(attempt.ordering);
+    const inAttempt = (sectionId: string) => !covered || covered.has(sectionId);
+    const sections = (await tx
       .select({ id: testSectionsTable.id, subject: testSectionsTable.subject, position: testSectionsTable.position })
       .from(testSectionsTable)
-      .where(eq(testSectionsTable.testVersionId, attempt.testVersionId));
+      .where(eq(testSectionsTable.testVersionId, attempt.testVersionId))).filter((s) => inAttempt(s.id));
 
     const rows = await tx
       .select({
@@ -168,7 +179,7 @@ export async function processAttemptScoring(attemptId: string) {
 
     const { score, maxScore, breakdown, snapshot } = scoreAttempt({
       sections,
-      assignments: rows.map((r) => ({
+      assignments: rows.filter((r) => inAttempt(r.sectionId)).map((r) => ({
         ...r,
         correctOptionId: (r.answer as { correctOptionId: string }).correctOptionId,
       })),

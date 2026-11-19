@@ -4,6 +4,7 @@ import { requireStudent } from "@/server/auth";
 import { apiError, ApiError, json, readJson, requireOrigin } from "@/server/http";
 import { requireDb } from "@/db/client";
 import { finalizeIfOverdue } from "@/server/deadline";
+import { attemptSectionIds } from "@/server/scoring";
 import {
   attemptsTable,
   attemptAnswersTable,
@@ -91,15 +92,17 @@ export async function PATCH(
       const ids = [
         ...new Set([...parsed.data.answers, ...parsed.data.timing].map((a) => a.assignmentId)),
       ];
-      const assignments = await tx
-        .select({ id: testAssignmentsTable.id, revisionId: testAssignmentsTable.revisionId })
+      // Only questions in the sections this attempt covers (compulsory + the chosen optional section).
+      const covered = attemptSectionIds(attempt.ordering);
+      const assignments = (await tx
+        .select({ id: testAssignmentsTable.id, revisionId: testAssignmentsTable.revisionId, sectionId: testAssignmentsTable.sectionId })
         .from(testAssignmentsTable)
         .where(
           and(
             eq(testAssignmentsTable.testVersionId, attempt.testVersionId),
             inArray(testAssignmentsTable.id, ids),
           ),
-        );
+        )).filter((a) => !covered || covered.has(a.sectionId));
       const revisionByAssignment = new Map(assignments.map((a) => [a.id, a.revisionId]));
       const options = assignments.length
         ? await tx

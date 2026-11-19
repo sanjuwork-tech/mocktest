@@ -55,6 +55,7 @@ function Intro({ testId }: { testId: string }) {
   const router = useRouter();
   const [test, setTest] = useState<CatalogTest | null | undefined>(undefined);
   const [agreed, setAgreed] = useState(false);
+  const [choice, setChoice] = useState("");
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState("");
   const idempotencyKey = useMemo(() => newIdempotencyKey(), []);
@@ -88,6 +89,8 @@ function Intro({ testId }: { testId: string }) {
   const exam = EXAMS[blueprint.examSlug];
   const resume = test.latestAttempt?.status === "in_progress" ? test.latestAttempt.attemptId : null;
   const sections = blueprint.sections;
+  const compulsory = sections.filter((s) => !s.optional);
+  const optional = sections.filter((s) => s.optional);
   const marking = [...new Set(sections.map((s) => `+${s.marksPerQuestion} / −${s.penaltyPerQuestion}`))].join(", ");
 
   const start = async () => {
@@ -96,7 +99,7 @@ function Intro({ testId }: { testId: string }) {
     try {
       const { attemptId } = await api<{ attemptId: string }>("/api/attempts", {
         method: "POST",
-        json: { testId, idempotencyKey },
+        json: { testId, idempotencyKey, ...(optional.length ? { section: choice } : {}) },
       });
       router.push(`/student/exam/${attemptId}`);
     } catch (e) {
@@ -125,7 +128,14 @@ function Intro({ testId }: { testId: string }) {
           Marking follows the official {exam.shortName} scheme: {marking.replace(/ \/ −0/g, " (no negative marking)")} for
           a correct / incorrect answer, and 0 for an unanswered question.
         </li>
-        {sections.length > 1 && (
+        {optional.length > 0 && (
+          <li>
+            Answer all {compulsory.map((s) => `${s.questionCount} questions of ${s.name}`).join(" and ")}, then all
+            questions of <strong>one</strong> optional section of your choice ({optional.map((s) => s.name).join(" or ")}),
+            as in the official paper. You choose before starting and can&apos;t change it during the test.
+          </li>
+        )}
+        {sections.length > 1 && !optional.length && (
           <li>
             The paper has {sections.length} sections ({sections.map((s) => `${s.name} ${s.questionCount}`).join(", ")}). You
             can move between sections freely.
@@ -160,6 +170,17 @@ function Intro({ testId }: { testId: string }) {
         </Link>
       ) : (
         <>
+          {optional.length > 0 && (
+            <fieldset className="intro-choice">
+              <legend>Choose your optional section</legend>
+              {optional.map((s) => (
+                <label key={s.id}>
+                  <input type="radio" name="section" value={s.id} checked={choice === s.id} onChange={() => setChoice(s.id)} />
+                  {s.name} <span>({s.questionCount} questions)</span>
+                </label>
+              ))}
+            </fieldset>
+          )}
           <label className="intro-agree">
             <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} />I have read and
             understood the instructions.
@@ -169,7 +190,7 @@ function Intro({ testId }: { testId: string }) {
               {error}
             </p>
           )}
-          <button className="button-primary" onClick={start} disabled={!agreed || starting}>
+          <button className="button-primary" onClick={start} disabled={!agreed || starting || (optional.length > 0 && !choice)}>
             {starting ? <Loader2 className="animate-spin" size={18} /> : null}
             {starting ? "Preparing your test…" : "Start test"} {!starting && <ArrowRight size={18} />}
           </button>

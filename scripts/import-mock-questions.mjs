@@ -10,6 +10,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { testPaperSchema } from "../src/lib/question-bank-schema.ts";
+import { plannedTestsFor } from "../src/lib/exams/catalog.ts";
 import { checkPaper } from "../src/server/test-papers.ts";
 
 const OUT = path.join("data", "test-papers");
@@ -17,14 +18,17 @@ const ASSETS = path.join("data", "assets");
 const OPTION_IDS = ["a", "b", "c", "d"];
 const DIFFICULTY = { easy: "easy", medium: "moderate", moderate: "moderate", hard: "hard" };
 const CUET_FOLDERS = {
+  Accountancy: "accountancy",
   "Biological Science": "biology",
   Chemistry: "chemistry",
+  "Computer Science": "computer-science",
   Economics: "economics",
   English: "english",
   "General Test": "general-test",
   Geography: "geography",
   History: "history",
   "Mass Media": "mass-media",
+  Mathematics: "mathematics",
   Physics: "physics",
   "Political Science": "political-science",
 };
@@ -193,12 +197,17 @@ export function convertAll(repo) {
     for (const name of fs.readdirSync(dir).filter((n) => /TEST \d+\.json$/.test(n))) {
       const data = JSON.parse(fs.readFileSync(path.join(dir, name), "utf8"));
       const n = Number(data.test_number);
-      if (!(n >= 1 && n <= 15)) continue;
+      if (!(n >= 1 && n <= plannedTestsFor("cuet-ug", subject))) continue;
+      // Papers with NTA optional sections (A + B1/B2) keep each question's section id.
+      const sectioned = Array.isArray(data.optional_sections) && data.optional_sections.length > 0;
       writePaper(
         {
           schemaVersion: "1.0", bundleType: "test_paper", exam: "cuet-ug", subject, testNumber: n,
           free: n === 1, language: "en",
-          questions: data.questions.map((q) => convertQuestion(q, subject, name, ctx)),
+          questions: data.questions.map((q) => ({
+            ...convertQuestion(q, subject, name, ctx),
+            ...(sectioned ? { section: q.section } : {}),
+          })),
         },
         path.join(OUT, "cuet-ug", subject, `test-${String(n).padStart(2, "0")}.json`),
         ctx,

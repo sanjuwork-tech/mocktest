@@ -104,6 +104,14 @@ export const EXAMS: Record<ExamSlug, ExamDefinition> = {
   },
 };
 
+/** CUET subjects whose series differs from the exam's planned count. */
+const PLANNED_TESTS_BY_SUBJECT: Partial<Record<SubjectId, number>> = { accountancy: 16 };
+
+export function plannedTestsFor(exam: ExamSlug, subject?: string | null) {
+  const own = EXAMS[exam].paperPerSubject && subject ? PLANNED_TESTS_BY_SUBJECT[subject as SubjectId] : undefined;
+  return own ?? EXAMS[exam].plannedTests;
+}
+
 export function isExamSlug(value: string): value is ExamSlug {
   return (EXAM_SLUGS as readonly string[]).includes(value);
 }

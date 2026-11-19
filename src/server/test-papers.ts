@@ -13,9 +13,9 @@ import {
   testsTable,
   testVersionsTable,
 } from "../db/schema.ts";
-import { blueprintFor } from "../lib/blueprints/definitions.ts";
+import { blueprintFor, inSection } from "../lib/blueprints/definitions.ts";
 import type { ExamBlueprint } from "../lib/blueprints/types.ts";
-import { EXAMS, SUBJECT_NAMES } from "../lib/exams/catalog.ts";
+import { EXAMS, SUBJECT_NAMES, plannedTestsFor } from "../lib/exams/catalog.ts";
 import type { QuestionInput, TestPaper } from "../lib/question-bank-schema.ts";
 
 // No "server-only" import: the seed script runs this module under plain Node.
@@ -39,8 +39,9 @@ export function checkPaper(paper: TestPaper): {
     issues.push({ path: "subject", message: `${exam.name} papers cover all sections; omit "subject".` });
   if (paper.subject && !exam.subjects.includes(paper.subject))
     issues.push({ path: "subject", message: `${exam.name} does not include ${paper.subject}.` });
-  if (paper.testNumber > exam.plannedTests)
-    issues.push({ path: "testNumber", message: `${exam.name} plans ${exam.plannedTests} tests; got test ${paper.testNumber}.` });
+  const planned = plannedTestsFor(paper.exam, paper.subject);
+  if (paper.testNumber > planned)
+    issues.push({ path: "testNumber", message: `${exam.name} plans ${planned} tests; got test ${paper.testNumber}.` });
 
   const blueprint = blueprintFor(paper.exam, paper.subject);
   if (!blueprint) return { issues };
@@ -64,8 +65,17 @@ export function checkPaper(paper: TestPaper): {
         issues.push({ path: `${path}.${field}`, message: "Contains a table written as text (| a | b |). Convert it to a table block." });
   });
 
+  // Papers with optional sections tag every question with its section (A, B1, B2); others group by subject.
+  const bySection = blueprint.sections.some((s) => s.optional);
+  const sectionIds = new Set(blueprint.sections.map((s) => s.id));
+  paper.questions.forEach((q, i) => {
+    if (bySection && !(q.section && sectionIds.has(q.section)))
+      issues.push({ path: `questions[${i}].section`, message: `Needs a section: ${[...sectionIds].join(", ")}.` });
+    if (!bySection && q.section)
+      issues.push({ path: `questions[${i}].section`, message: "This paper has no optional sections; omit \"section\"." });
+  });
   for (const section of blueprint.sections) {
-    const count = paper.questions.filter((q) => q.subject === section.subject).length;
+    const count = paper.questions.filter((q) => inSection(q, section)).length;
     if (count !== section.questionCount)
       issues.push({
         path: "questions",
@@ -233,7 +243,7 @@ export async function importTestPaper(
 
     // Question order the new version would have: blueprint section order, then paper order.
     const orderedRevisions = blueprint.sections.flatMap((s) =>
-      paper.questions.filter((q) => q.subject === s.subject).map((q) => revisionIds.get(q.externalId)!),
+      paper.questions.filter((q) => inSection(q, s)).map((q) => revisionIds.get(q.externalId)!),
     );
 
     const [latest] = await tx
@@ -289,11 +299,11 @@ export async function importTestPaper(
           testVersionId: version.id,
           subject: sectionBlueprint.subject,
           position: sectionIndex,
-          rules: { name: sectionBlueprint.name },
+          rules: { id: sectionBlueprint.id, name: sectionBlueprint.name, optional: sectionBlueprint.optional },
         })
         .returning({ id: testSectionsTable.id });
 
-      const questions = paper.questions.filter((q) => q.subject === sectionBlueprint.subject);
+      const questions = paper.questions.filter((q) => inSection(q, sectionBlueprint));
       await tx.insert(testAssignmentsTable).values(
         questions.map((q, position) => ({
           testVersionId: version.id,

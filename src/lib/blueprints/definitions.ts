@@ -18,7 +18,7 @@ function section(
     id: subject,
     name: SUBJECT_NAMES[subject],
     subject,
-    required: true,
+    optional: false,
     questionCount,
     marksPerQuestion,
     penaltyPerQuestion,
@@ -94,7 +94,27 @@ export const COMEDK_2026_BLUEPRINT: ExamBlueprint = {
   },
 };
 
+// NTA syllabus papers with a compulsory Section A and a choice of B1 or B2 (CUET UG 2026 syllabi 301, 308, 319).
+const CUET_OPTIONAL_SECTIONS: Partial<Record<SubjectId, [a: number, b: number, names: [string, string, string]]>> = {
+  accountancy: [40, 10, ["Section A — Units I to IV", "Section B1 — Analysis of Financial Statements", "Section B2 — Computerised Accounting System"]],
+  mathematics: [15, 35, ["Section A — Common", "Section B1 — Mathematics", "Section B2 — Applied Mathematics"]],
+  "computer-science": [15, 35, ["Section A — Database, SQL and Networks", "Section B1 — Computer Science", "Section B2 — Informatics Practices"]],
+};
+
+function cuetSections(subject: SubjectId): SectionBlueprint[] {
+  const split = CUET_OPTIONAL_SECTIONS[subject];
+  if (!split) return [section(subject, 50, 5, 1)];
+  const [a, b, names] = split;
+  return (["A", "B1", "B2"] as const).map((id, i) => ({
+    ...section(subject, i ? b : a, 5, 1),
+    id,
+    name: names[i],
+    optional: i > 0,
+  }));
+}
+
 // CUET UG: each subject is its own 50-question, 60-minute paper marked +5/−1/0.
+// Counts describe what a candidate attempts: Section A plus one optional section.
 export function cuetBlueprint(subject: SubjectId): ExamBlueprint {
   return {
     id: `cuet-ug-2026-${subject}`,
@@ -106,7 +126,7 @@ export function cuetBlueprint(subject: SubjectId): ExamBlueprint {
     totalMarks: 250,
     navigation: "free",
     allowBacktracking: true,
-    sections: [section(subject, 50, 5, 1)],
+    sections: cuetSections(subject),
     scoringPolicy: {
       unansweredMarks: 0,
       explanationRelease: "immediate",
@@ -119,7 +139,7 @@ export function cuetBlueprint(subject: SubjectId): ExamBlueprint {
   };
 }
 
-export const CUET_UG_2026_BLUEPRINT = cuetBlueprint("mathematics");
+export const CUET_UG_2026_BLUEPRINT = cuetBlueprint("physics");
 
 export const BLUEPRINT_PRESETS: Record<string, ExamBlueprint> = {
   "iiser-iat-2026": IISER_IAT_2026_BLUEPRINT,
@@ -140,4 +160,9 @@ export function blueprintFor(exam: ExamSlug, subject?: SubjectId | null) {
   if (exam === "iiser-iat") return IISER_IAT_2026_BLUEPRINT;
   if (exam === "niser-nest") return NEST_2026_BLUEPRINT;
   return COMEDK_2026_BLUEPRINT;
+}
+
+/** Whether a paper question belongs to a blueprint section: by section id when the paper names one, else by subject. */
+export function inSection(q: { subject: string; section?: string }, s: SectionBlueprint) {
+  return q.section ? q.section === s.id : q.subject === s.subject;
 }

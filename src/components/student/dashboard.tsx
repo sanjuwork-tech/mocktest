@@ -7,6 +7,7 @@ import {
   EXAM_SLUGS,
   SUBJECT_DETAILS,
   SUBJECT_NAMES,
+  plannedTestsFor,
   type ExamSlug,
   type SubjectId,
 } from "@/lib/exams/catalog";
@@ -109,7 +110,7 @@ function DashboardContent() {
                   <small>CUET code {SUBJECT_DETAILS[id].code}</small>
                   <strong>{SUBJECT_NAMES[id]}</strong>
                   <span className="student-muted">
-                    {tests.length} of {examDef.plannedTests} tests available
+                    {tests.length} of {plannedTestsFor(exam, id)} tests available
                     {done ? ` · ${done} taken` : ""}
                   </span>
                   <span className="student-text-button">
@@ -123,7 +124,7 @@ function DashboardContent() {
       ) : (
         <TestList
           title={subject ? `${examDef.shortName} ${SUBJECT_NAMES[subject]}` : examDef.name}
-          planned={examDef.plannedTests}
+          planned={plannedTestsFor(exam, subject)}
           tests={testsFor(exam, subject)}
           onBack={subject ? () => setSubject(null) : undefined}
           exam={exam}

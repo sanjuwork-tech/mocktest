@@ -149,7 +149,7 @@ export async function POST(request: Request) {
         rules: {
           id: sec.id,
           name: sec.name,
-          required: sec.required,
+          optional: sec.optional,
           questionCount: sec.questionCount,
           marksPerQuestion: sec.marksPerQuestion,
           penaltyPerQuestion: sec.penaltyPerQuestion,

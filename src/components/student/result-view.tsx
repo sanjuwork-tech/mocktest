@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { ArrowRight, TrendingUp } from "lucide-react";
 import type { Block } from "@/components/ui/scientific-renderer";
-import { EXAMS, SUBJECT_NAMES, isExamSlug, isSubjectId } from "@/lib/exams/catalog";
+import { EXAMS, SUBJECT_NAMES, isExamSlug, isSubjectId, plannedTestsFor } from "@/lib/exams/catalog";
 import type { AttemptAnalysis, InsightTab } from "@/lib/analysis";
 import { api, type Catalog } from "./api";
 import { StudentShell } from "./shell";
@@ -322,7 +322,7 @@ function Summary({ a, data, catalog, show }: TabProps & { data: ResultData; cata
           )}
           {nextTest && nextTest.access === "locked" && exam && (
             <Link className="button-primary" href={`/test-series/${exam.slug}`}>
-              Unlock Tests 2–{exam.plannedTests} <ArrowRight size={17} aria-hidden="true" />
+              Unlock Tests 2–{plannedTestsFor(exam.slug, data.test.subject)} <ArrowRight size={17} aria-hidden="true" />
             </Link>
           )}
           {otherFree.slice(0, 3).map((t) => (

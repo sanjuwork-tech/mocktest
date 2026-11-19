@@ -5,7 +5,8 @@ export const sectionBlueprintSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
   subject: z.enum(SUBJECT_IDS),
-  required: z.boolean().default(true),
+  /** Optional sections form one group: the candidate answers exactly one of them (CUET A + B1/B2 papers). */
+  optional: z.boolean().default(false),
   questionCount: z.number().int().positive(),
   marksPerQuestion: z.number().int().positive(),
   penaltyPerQuestion: z.number().int().min(0),

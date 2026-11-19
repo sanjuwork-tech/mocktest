@@ -126,7 +126,10 @@ export type PaperQuestion = {
  * Sections and questions of a test version in exam order.
  * Answer keys are read only when `includeKeys` is set — never for an attempt in progress.
  */
-export async function loadPaper(testVersionId: string, { includeKeys }: { includeKeys: boolean }) {
+export async function loadPaper(
+  testVersionId: string,
+  { includeKeys, sectionIds }: { includeKeys: boolean; /** Limit to an attempt's sections (see attemptSectionIds). */ sectionIds?: Set<string> },
+) {
   const db = requireDb();
   const [version] = await db
     .select({
@@ -144,11 +147,12 @@ export async function loadPaper(testVersionId: string, { includeKeys }: { includ
     .from(testsTable)
     .where(eq(testsTable.id, version.testId));
 
-  const sections = await db
+  const inScope = (sectionId: string) => !sectionIds || sectionIds.has(sectionId);
+  const sections = (await db
     .select({ id: testSectionsTable.id, subject: testSectionsTable.subject, position: testSectionsTable.position, rules: testSectionsTable.rules })
     .from(testSectionsTable)
     .where(eq(testSectionsTable.testVersionId, testVersionId))
-    .orderBy(testSectionsTable.position);
+    .orderBy(testSectionsTable.position)).filter((s) => inScope(s.id));
 
   const rows = await db
     .select({
@@ -164,7 +168,8 @@ export async function loadPaper(testVersionId: string, { includeKeys }: { includ
     })
     .from(testAssignmentsTable)
     .innerJoin(questionRevisionsTable, eq(questionRevisionsTable.id, testAssignmentsTable.revisionId))
-    .where(eq(testAssignmentsTable.testVersionId, testVersionId));
+    .where(eq(testAssignmentsTable.testVersionId, testVersionId))
+    .then((all) => all.filter((r) => inScope(r.sectionId)));
 
   const revisionIds = rows.map((r) => r.revisionId);
   const options = revisionIds.length

@@ -17,6 +17,8 @@ export const runtime = "nodejs";
 const startSchema = z.object({
   testId: z.string().uuid(),
   idempotencyKey: z.string().min(8).max(128),
+  /** The optional section chosen on the intro (CUET A + B1/B2 papers); fixed for the attempt. */
+  section: z.string().max(8).optional(),
 });
 
 /**
@@ -32,7 +34,7 @@ export async function POST(request: Request) {
 
     const parsed = startSchema.safeParse(await readJson(request, 16384));
     if (!parsed.success) throw new ApiError(400, "Invalid start request.");
-    const { testId, idempotencyKey } = parsed.data;
+    const { testId, idempotencyKey, section } = parsed.data;
     const db = requireDb();
 
     const [test] = await publishedTests({ testId });
@@ -55,16 +57,26 @@ export async function POST(request: Request) {
         return json({ ok: true, replay: true, attemptId: active.attemptId });
     }
 
-    const sections = await db
-      .select({ id: testSectionsTable.id, subject: testSectionsTable.subject, position: testSectionsTable.position })
+    const allSections = await db
+      .select({ id: testSectionsTable.id, subject: testSectionsTable.subject, position: testSectionsTable.position, rules: testSectionsTable.rules })
       .from(testSectionsTable)
       .where(eq(testSectionsTable.testVersionId, test.versionId))
       .orderBy(testSectionsTable.position);
-    const assignments = await db
+    // NTA optional sections: the candidate attempts the compulsory sections plus exactly one optional section.
+    const rulesOf = (s: (typeof allSections)[number]) => s.rules as { id?: string; optional?: boolean };
+    const optional = allSections.filter((s) => rulesOf(s).optional);
+    const chosen = optional.find((s) => rulesOf(s).id === section);
+    if (optional.length && !chosen) throw new ApiError(400, "Choose one optional section before starting.");
+    if (!optional.length && section) throw new ApiError(400, "This test has no optional sections.");
+    const sections = allSections
+      .filter((s) => !rulesOf(s).optional || s === chosen)
+      .map(({ id, subject, position }) => ({ id, subject, position }));
+    const inPaper = new Set(sections.map((s) => s.id));
+    const assignments = (await db
       .select({ id: testAssignmentsTable.id, sectionId: testAssignmentsTable.sectionId, position: testAssignmentsTable.position })
       .from(testAssignmentsTable)
       .where(eq(testAssignmentsTable.testVersionId, test.versionId))
-      .orderBy(testAssignmentsTable.position);
+      .orderBy(testAssignmentsTable.position)).filter((a) => inPaper.has(a.sectionId));
     if (!assignments.length) throw new ApiError(409, "This test has no questions yet.");
 
     const startedAt = new Date();
@@ -94,7 +106,7 @@ export async function POST(request: Request) {
           status: "in_progress",
           startedAt,
           deadline,
-          ordering: { sections, assignments },
+          ordering: { sections, assignments, ...(chosen ? { chosenSection: rulesOf(chosen).id } : {}) },
         })
         .returning({ id: attemptsTable.id });
 
@@ -103,7 +115,7 @@ export async function POST(request: Request) {
         action: "attempt.started",
         entityType: "attempt",
         entityId: created.id,
-        details: { testId, testVersionId: test.versionId, deadline: deadline.toISOString() },
+        details: { testId, testVersionId: test.versionId, deadline: deadline.toISOString(), ...(chosen ? { section } : {}) },
       });
       return created.id;
     }).catch(async (error: unknown) => {

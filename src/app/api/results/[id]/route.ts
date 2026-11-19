@@ -3,7 +3,7 @@ import { requireStudent } from "@/server/auth";
 import { apiError, ApiError, json } from "@/server/http";
 import { requireDb } from "@/db/client";
 import { finalizeIfOverdue } from "@/server/deadline";
-import { processAttemptScoring } from "@/server/scoring";
+import { attemptSectionIds, processAttemptScoring } from "@/server/scoring";
 import { loadPaper } from "@/server/student-tests";
 import { attemptsTable, attemptAnswersTable } from "@/db/schema";
 import { buildAttemptAnalysis } from "@/server/attempt-analysis";
@@ -43,7 +43,7 @@ export async function GET(
       .from(attemptAnswersTable)
       .where(eq(attemptAnswersTable.attemptId, id));
 
-    const paper = await loadPaper(attempt.testVersionId, { includeKeys: true });
+    const paper = await loadPaper(attempt.testVersionId, { includeKeys: true, sectionIds: attemptSectionIds(attempt.ordering) });
     const analysis = await buildAttemptAnalysis(id, paper, answers);
 
     return json({

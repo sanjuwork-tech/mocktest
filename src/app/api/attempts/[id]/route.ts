@@ -4,6 +4,7 @@ import { apiError, ApiError, json } from "@/server/http";
 import { requireDb } from "@/db/client";
 import { finalizeIfOverdue } from "@/server/deadline";
 import { loadPaper } from "@/server/student-tests";
+import { attemptSectionIds } from "@/server/scoring";
 import { attemptsTable, attemptAnswersTable, attemptQuestionStatsTable } from "@/db/schema";
 
 export const runtime = "nodejs";
@@ -51,7 +52,7 @@ export async function GET(
       for (const r of stats) if (r.timeMs > 0) questionTimes[r.assignmentId] = r.timeMs;
     }
 
-    const paper = await loadPaper(attempt.testVersionId, { includeKeys: false });
+    const paper = await loadPaper(attempt.testVersionId, { includeKeys: false, sectionIds: attemptSectionIds(attempt.ordering) });
 
     return json({
       attempt: {

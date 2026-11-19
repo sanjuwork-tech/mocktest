@@ -185,6 +185,33 @@ button.student-subject-card strong {
   width: 20px;
   height: 20px;
 }
+.intro-choice {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 8px;
+  padding: 14px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+}
+.intro-choice legend {
+  padding: 0 6px;
+  font-weight: 700;
+}
+.intro-choice label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  font-weight: 600;
+}
+.intro-choice input {
+  width: 20px;
+  height: 20px;
+}
+.intro-choice span {
+  color: var(--ink-3);
+  font-weight: 500;
+}
 
 /* Exam player */
 .exam-mode {

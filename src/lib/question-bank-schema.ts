@@ -64,6 +64,8 @@ export const questionSchema = z.object({
   externalId: idSchema,
   type: z.literal("single_choice"),
   subject: z.enum(SUBJECT_IDS),
+  /** Section id within the paper (A, B1, B2) for papers with optional sections. */
+  section: z.string().regex(/^[A-Z][A-Z0-9]{0,7}$/).optional(),
   topics: z.array(z.string().min(1).max(100)).min(1).max(10),
   difficulty: z.enum(["easy", "moderate", "hard"]),
   stem: contentSchema,

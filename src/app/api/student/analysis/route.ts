@@ -4,6 +4,7 @@ import { apiError, json } from "@/server/http";
 import { requireDb } from "@/db/client";
 import { attemptAnswersTable, attemptResultsTable, attemptsTable } from "@/db/schema";
 import { loadPaper } from "@/server/student-tests";
+import { attemptSectionIds } from "@/server/scoring";
 import { buildAttemptAnalysis } from "@/server/attempt-analysis";
 import { analyseOverall } from "@/lib/analysis";
 
@@ -20,6 +21,7 @@ export async function GET() {
       .select({
         id: attemptsTable.id,
         testVersionId: attemptsTable.testVersionId,
+        ordering: attemptsTable.ordering,
         submittedAt: attemptsTable.submittedAt,
         score: attemptResultsTable.score,
         maxScore: attemptResultsTable.maxScore,
@@ -33,8 +35,11 @@ export async function GET() {
     const papers = new Map<string, Awaited<ReturnType<typeof loadPaper>>>();
     const analysed = [];
     for (const a of attempts) {
-      if (!papers.has(a.testVersionId)) papers.set(a.testVersionId, await loadPaper(a.testVersionId, { includeKeys: true }));
-      const paper = papers.get(a.testVersionId)!;
+      // Attempts on one version can cover different optional sections, so cache per version and section set.
+      const sectionIds = attemptSectionIds(a.ordering);
+      const key = `${a.testVersionId}:${[...(sectionIds ?? [])].sort().join(",")}`;
+      if (!papers.has(key)) papers.set(key, await loadPaper(a.testVersionId, { includeKeys: true, sectionIds }));
+      const paper = papers.get(key)!;
       const answers = await db
         .select({ assignmentId: attemptAnswersTable.assignmentId, value: attemptAnswersTable.value, marked: attemptAnswersTable.marked })
         .from(attemptAnswersTable)

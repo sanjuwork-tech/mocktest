@@ -1,6 +1,6 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import { scoreAttempt } from "../src/server/scoring.ts";
+import { attemptSectionIds, scoreAttempt } from "../src/server/scoring.ts";
 import { checkPaper, paperTitle } from "../src/server/test-papers.ts";
 import { testPaperSchema } from "../src/lib/question-bank-schema.ts";
 import {
@@ -155,6 +155,57 @@ describe("Phase 1: test paper validation", () => {
 
   it("rejects test numbers beyond the planned series", () => {
     assert.ok(checkPaper(paper({ testNumber: 16 })).issues.some((i) => i.path === "testNumber"));
+  });
+});
+
+describe("NTA optional sections (CUET Accountancy, Mathematics, Computer Science)", () => {
+  const sectioned = (subject, counts) =>
+    Object.entries(counts).flatMap(([section, n]) =>
+      Array.from({ length: n }, (_, i) => ({ ...question(`${subject}-${section}-${i}`.toLowerCase(), subject), section })),
+    );
+  const maths = (counts = { A: 15, B1: 35, B2: 35 }, overrides = {}) =>
+    paper({ subject: "mathematics", ...overrides }, sectioned("mathematics", counts));
+
+  it("blueprints describe Section A plus one optional section: 50 questions, 250 marks", () => {
+    for (const [subject, a, b] of [["mathematics", 15, 35], ["computer-science", 15, 35], ["accountancy", 40, 10]]) {
+      const bp = blueprintFor("cuet-ug", subject);
+      assert.deepEqual(bp.sections.map((s) => [s.id, s.questionCount, s.optional]), [["A", a, false], ["B1", b, true], ["B2", b, true]]);
+      assert.equal(bp.totalQuestions, a + b);
+      assert.equal(bp.totalMarks, 250);
+    }
+    assert.deepEqual(blueprintFor("cuet-ug", "physics").sections.map((s) => s.optional), [false]);
+  });
+
+  it("accepts a full A/B1/B2 paper", () => {
+    assert.deepEqual(checkPaper(maths()).issues, []);
+  });
+
+  it("rejects wrong section sizes, unknown and missing sections", () => {
+    assert.ok(checkPaper(maths({ A: 15, B1: 34, B2: 35 })).issues.some((i) => /B1 — Mathematics needs 35/.test(i.message)));
+    const bad = maths();
+    bad.questions[0] = { ...bad.questions[0], section: "C" };
+    delete bad.questions[1].section;
+    const paths = checkPaper(bad).issues.map((i) => i.path);
+    assert.ok(paths.includes("questions[0].section") && paths.includes("questions[1].section"));
+  });
+
+  it("rejects section ids on a paper without optional sections", () => {
+    const qs = Array.from({ length: 50 }, (_, i) => ({ ...question(`p-${i}`, "physics"), section: "A" }));
+    assert.ok(checkPaper(paper({}, qs)).issues.some((i) => i.path === "questions[0].section"));
+  });
+
+  it("Accountancy plans 16 tests; other subjects 15", () => {
+    const acc = (n) => paper({ subject: "accountancy", testNumber: n }, sectioned("accountancy", { A: 40, B1: 10, B2: 10 }));
+    assert.deepEqual(checkPaper(acc(16)).issues, []);
+    assert.ok(checkPaper(acc(17)).issues.some((i) => i.path === "testNumber"));
+    assert.ok(checkPaper(maths(undefined, { testNumber: 16 })).issues.some((i) => i.path === "testNumber"));
+  });
+
+  it("an attempt covers only the sections fixed at start, and scores out of 250", () => {
+    assert.deepEqual([...attemptSectionIds({ sections: [{ id: "a" }, { id: "b2" }], assignments: [] })], ["a", "b2"]);
+    assert.equal(attemptSectionIds(null), undefined);
+    const { maxScore } = scoreAttempt(sections([{ n: 15, marks: 5, penalty: 1, answers: [] }, { n: 35, marks: 5, penalty: 1, answers: [] }]));
+    assert.equal(maxScore, 250);
   });
 });
 
